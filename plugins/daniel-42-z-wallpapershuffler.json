@@ -1,0 +1,19 @@
+{
+	"name": "WallpaperShuffler",
+	"capabilities": [
+		"set-wallpaper"
+	],
+	"category": "appearance",
+	"repo": "https://github.com/Daniel-42-z/dankmaterialshell-plugins",
+	"path": "WallpaperShuffler",
+	"author": "Daniel-42-z",
+	"description": "Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder",
+	"dependencies": [],
+	"compositors": [
+		"niri",
+		"hyprland"
+	],
+	"distro": [
+		"any"
+	]
+}
