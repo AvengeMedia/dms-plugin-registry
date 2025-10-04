@@ -10,6 +10,10 @@ To add your Plugin to the list please read the [contribution guidelines](CONTRIB
 
 To install a plugin clone the plugin repository into your `~/.config/DankMaterialShell/plugins/` folder and restart your dms session with `dms restart`. NOTE: Some plugins may have additional dependencies that need to be installed manually, please refer to the plugin documentation for more information, some plugins are part of a monorepo and need to be installed by copying the relvant path to the plugins folder.
 
+## Disclaimer
+
+These plugins are created by third-party developers and are not officially supported by the Dank Material Shell team. Use them at your own risk. In case of issues, please contact the plugin author directly.
+
 ## Plugins
 
 **Categories:** [Appearance](#appearance) | [Monitoring](#monitoring) | [Utilities](#utilities)
