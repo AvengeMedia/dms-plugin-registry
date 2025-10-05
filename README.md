@@ -12,7 +12,34 @@ To install a plugin clone the plugin repository into your `~/.config/DankMateria
 
 ## Plugins
 
-**Categories:** [Monitoring](#monitoring) | [Utilities](#utilities)
+**Categories:** [Appearance](#appearance) | [Monitoring](#monitoring) | [Utilities](#utilities)
+
+----
+
+
+### Appearance
+
+
+#### [WallpaperShuffler](https://github.com/Daniel-42-z/dankmaterialshell-plugins)
+
+Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder
+
+- author: Daniel-42-z
+- compositors: niri, hyprland
+- capabilities: set-wallpaper
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [WallpaperShuffler](https://github.com/Daniel-42-z/dankmaterialshell-plugins/tree/main/WallpaperShuffler) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+
 
 ----
 
