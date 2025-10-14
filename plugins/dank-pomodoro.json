@@ -1,0 +1,14 @@
+{
+    "name": "Dank Pomodoro Timer",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "path": "DankPomodoroTimer",
+    "author": "Avenge Media",
+    "firstParty": true,
+    "description": "A customizable Pomodoro timer.",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+	"screenshot": "https://private-user-images.githubusercontent.com/550752/497960861-b51b5f78-5215-403c-850f-c7e137097438.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjAzODk0NTcsIm5iZiI6MTc2MDM4OTE1NywicGF0aCI6Ii81NTA3NTIvNDk3OTYwODYxLWI1MWI1Zjc4LTUyMTUtNDAzYy04NTBmLWM3ZTEzNzA5NzQzOC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxM1QyMDU5MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT01NDczMWU4MTQ4ZjU2YjgxNjg2ZmI0ZjA4Y2M0OTBjOGQwZmQ4N2E4NGI5MTg3NmQ4OTMyYTAwYzYxNzBhYzQwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.5seKYp0TcRQZK3egG54ofMFIqOKF7u1EDn3EUl3g8og"
+}

@@ -1,0 +1,13 @@
+{
+    "name": "NiriWindows",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/rochacbruno/DankNiriWindows",
+    "author": "Bruno Cesar Rocha",
+    "description": "List and switch to open Niri windows from the launcher",
+    "dependencies": [],
+    "compositors": ["niri"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/rochacbruno/DankNiriWindows/raw/main/screenshot.png",
+    "requires_dms": ">0.1.18"
+}

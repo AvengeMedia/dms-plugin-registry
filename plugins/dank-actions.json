@@ -1,0 +1,14 @@
+{
+    "name": "Dank Actions",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "path": "DankActions",
+    "author": "Avenge Media",
+    "firstParty": true,
+    "description": "Add customizable, scriptable actions to your bar.",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+	"screenshot": "https://private-user-images.githubusercontent.com/550752/497937179-36b44c32-69b5-49c9-97d2-87f530e4b7fd.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjAzODk0NTcsIm5iZiI6MTc2MDM4OTE1NywicGF0aCI6Ii81NTA3NTIvNDk3OTM3MTc5LTM2YjQ0YzMyLTY5YjUtNDljOS05N2QyLTg3ZjUzMGU0YjdmZC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxM1QyMDU5MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mYzJiYTliN2FiNmFhYzY5MWQyODcxNTJkMzQwNTNiYzQzZjgwZDgxYTQ0ZDQ1Y2I5NTQyODdlNzU4MGU0MWEwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.HP1Lc3rg08ouX4XugxUB3hAu5ZbpDuhKSLy_a0Hk4PU"
+}

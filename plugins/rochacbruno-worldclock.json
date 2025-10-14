@@ -8,5 +8,6 @@
     "dependencies": ["moment-js"],
     "compositors": ["niri", "hyprland"],
     "distro": ["any"],
-    "screenshot": "https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png"
+    "screenshot": "https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png",
+    "requires_dms": ">0.0.28"
 }

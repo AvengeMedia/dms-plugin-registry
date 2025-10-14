@@ -1,0 +1,13 @@
+{
+    "name": "Calculator",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/rochacbruno/DankCalculator",
+    "author": "Bruno Cesar Rocha",
+    "description": "A calculator plugin that evaluates mathematical expressions and copies results to clipboard",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png",
+    "requires_dms": ">0.1.18"
+}

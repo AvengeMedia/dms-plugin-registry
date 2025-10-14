@@ -1,0 +1,14 @@
+{
+    "name": "Dank Hooks",
+    "capabilities": ["watch-events"],
+    "category": "utilities",
+    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "path": "DankHooks",
+    "author": "Avenge Media",
+    "firstParty": true,
+    "description": "Trigger scripts based on various system events.",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+	"screenshot": "https://private-user-images.githubusercontent.com/550752/498377075-83e89b5b-0636-4b8e-ba29-1fa4d12169a0.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjAzODk0NTcsIm5iZiI6MTc2MDM4OTE1NywicGF0aCI6Ii81NTA3NTIvNDk4Mzc3MDc1LTgzZTg5YjViLTA2MzYtNGI4ZS1iYTI5LTFmYTRkMTIxNjlhMC5wbmc_WC1BbXotQWxnb3JpdGhtPUFXUzQtSE1BQy1TSEEyNTYmWC1BbXotQ3JlZGVudGlhbD1BS0lBVkNPRFlMU0E1M1BRSzRaQSUyRjIwMjUxMDEzJTJGdXMtZWFzdC0xJTJGczMlMkZhd3M0X3JlcXVlc3QmWC1BbXotRGF0ZT0yMDI1MTAxM1QyMDU5MTdaJlgtQW16LUV4cGlyZXM9MzAwJlgtQW16LVNpZ25hdHVyZT1mMjEyNTg4ZTFkNWVkMmM1NjUwNGM4YmFhZjhkYmMwZThmMzc2MmJiYzNiMTBjNmM0MjQxM2Q3N2MxNzQ0YzAwJlgtQW16LVNpZ25lZEhlYWRlcnM9aG9zdCJ9.Q0n1hLpqhOJQrx0cf5Zjy6J2cgmuj6LlIfiF0CYp4u8"
+}
