@@ -1,13 +1,19 @@
 {
-    "name": "PowerUsage",
-    "capabilities": ["dankbar-widget"],
-    "category": "monitoring",
-    "repo": "https://github.com/Daniel-42-z/dankmaterialshell-plugins",
-    "path": "PowerUsage",
-    "author": "Daniel-42-z",
-    "description": "Display real-time power consumption from your device",
-    "dependencies": [],
-    "compositors": ["niri", "hyprland"],
-    "distro": ["any"],
-    "screenshot": "https://github.com/Daniel-42-z/dankmaterialshell-plugins/raw/main/PowerUsage/screenshot.png"
+	"name": "PowerUsage",
+	"capabilities": [
+		"dankbar-widget"
+	],
+	"category": "monitoring",
+	"repo": "https://github.com/Daniel-42-z/dms-power-usage",
+	"author": "Daniel-42-z",
+	"description": "Display real-time power consumption from your device",
+	"dependencies": [],
+	"compositors": [
+		"niri",
+		"hyprland"
+	],
+	"distro": [
+		"any"
+	],
+	"screenshot": "https://github.com/Daniel-42-z/dms-power-usage/blob/main/screenshot.png"
 }
