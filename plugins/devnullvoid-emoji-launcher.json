@@ -1,0 +1,18 @@
+{
+  "name": "Emoji & Unicode Launcher",
+  "capabilities": [
+    "launcher"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
+  "author": "devnullvoid",
+  "description": "Search and copy 300+ emojis and 100+ unicode characters directly from the launcher with instant clipboard copying",
+  "dependencies": [],
+  "compositors": [
+    "niri",
+    "hyprland"
+  ],
+  "distro": [
+    "any"
+  ]
+}
