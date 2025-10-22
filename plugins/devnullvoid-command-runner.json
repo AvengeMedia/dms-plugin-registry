@@ -1,18 +1,12 @@
 {
   "name": "Command Runner",
-  "capabilities": [
-    "launcher"
-  ],
+  "capabilities": ["launcher"],
   "category": "utilities",
   "repo": "https://github.com/devnullvoid/dms-command-runner",
   "author": "devnullvoid",
   "description": "Execute shell commands from the launcher with history tracking, common shortcuts, and terminal/background execution modes",
   "dependencies": [],
-  "compositors": [
-    "niri",
-    "hyprland"
-  ],
-  "distro": [
-    "any"
-  ]
+  "compositors": ["niri", "hyprland"],
+  "distro": ["any"],
+  "screenshot": "https://github.com/devnullvoid/dms-command-runner/blob/main/screenshot.png"
 }
