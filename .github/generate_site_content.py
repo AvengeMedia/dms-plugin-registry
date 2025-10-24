@@ -34,12 +34,14 @@ pinned: {{ 'true' if is_official else 'false' }}
 {{ release_badge }}
 
 > [!NOTE] installation
-> Run `dms plugins install "{{ plugin.name }}"`
+> Run `dms plugins install {{ plugin.id }}`  
+> <small>or install using the plugins tab on DMS settings</small>
 
 ---
 
 | Plugin Information                 | Value                                         |
 | ---------------------------------- | --------------------------------------------- |
+| id                                 | {{ plugin.id }}                               |
 | name                               | {{ plugin.name }}                             |
 | author                             | {{ plugin.author }}                           |
 | repo                               | [Link]({{ plugin.repo }})                     |
@@ -264,6 +266,7 @@ def generate_markdown(plugin: dict, plugin_filename: str, current_date: str) -> 
     context = {
         'current_date': current_date,
         'plugin': {
+            'id': plugin.get("id"),
             'name': plugin.get('name', 'Unknown Plugin'),
             'author': plugin.get('author', 'Unknown Author'),
             'description': plugin.get('description', 'No description available.'),

@@ -1,6 +1,6 @@
 ---
-date: 2025-10-13
-title: WorldClock
+date: 2025-10-24
+title: World Clock
 author: Bruno Cesar Rocha
 tags: dankbar-widget, utilities, niri, hyprland, any
 card_image: https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png
@@ -13,13 +13,15 @@ Multiple timezones clock for DankBar <a href="https://github.com/rochacbruno/Wor
 ![RELEASE](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Frochacbruno%2FWorldClock%2Fmain%2Fplugin.json&query=version&style=for-the-badge&label=RELEASE&labelColor=101418&color=9ccbfb)
 
 > [!NOTE] installation
-> Run `dms plugins install "WorldClock"`
+> Run `dms plugins install worldClock`  
+> <small>or install using the plugins tab on DMS settings</small>
 
 ---
 
 | Plugin Information                 | Value                                         |
 | ---------------------------------- | --------------------------------------------- |
-| name                               | WorldClock                             |
+| id                                 | worldClock                               |
+| name                               | World Clock                             |
 | author                             | Bruno Cesar Rocha                           |
 | repo                               | [Link](https://github.com/rochacbruno/WorldClock)                     |
 | capabilities                       | dankbar-widget        |
@@ -30,7 +32,7 @@ Multiple timezones clock for DankBar <a href="https://github.com/rochacbruno/Wor
 | requires DMS                       | >0.0.28                     |
 
 
-![WorldClock Screenshot](https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png)
+![World Clock Screenshot](https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png)
 
 # WorldClock Plugin for DMS
 

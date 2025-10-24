@@ -1,5 +1,5 @@
 ---
-date: 2025-10-13
+date: 2025-10-24
 title: Calculator
 author: Bruno Cesar Rocha
 tags: launcher, utilities, niri, hyprland, any
@@ -13,12 +13,14 @@ A calculator plugin that evaluates mathematical expressions and copies results t
 ![RELEASE](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2Frochacbruno%2FDankCalculator%2Fmain%2Fplugin.json&query=version&style=for-the-badge&label=RELEASE&labelColor=101418&color=9ccbfb)
 
 > [!NOTE] installation
-> Run `dms plugins install "Calculator"`
+> Run `dms plugins install calculator`  
+> <small>or install using the plugins tab on DMS settings</small>
 
 ---
 
 | Plugin Information                 | Value                                         |
 | ---------------------------------- | --------------------------------------------- |
+| id                                 | calculator                               |
 | name                               | Calculator                             |
 | author                             | Bruno Cesar Rocha                           |
 | repo                               | [Link](https://github.com/rochacbruno/DankCalculator)                     |

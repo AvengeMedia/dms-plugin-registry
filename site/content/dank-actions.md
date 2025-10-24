@@ -1,5 +1,5 @@
 ---
-date: 2025-10-14
+date: 2025-10-24
 title: Dank Actions
 author: Avenge Media
 tags: dankbar-widget, utilities, niri, hyprland, any
@@ -10,15 +10,17 @@ pinned: true
 Add customizable, scriptable actions to your bar. <a href="https://github.com/AvengeMedia/dms-plugins" target="_blank" rel="noopener noreferrer"><img src="./static/repo-icon.png" alt="Repository" style="vertical-align: middle; height: 24px;"></a>
 
 
-![RELEASE](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FAvengeMedia%2Fdms-plugins%2Fmain%2FDankActions%2Fplugin.json&query=version&style=for-the-badge&label=RELEASE&labelColor=101418&color=9ccbfb)
+![RELEASE](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fraw.githubusercontent.com%2FAvengeMedia%2Fdms-plugins%2Fmaster%2FDankActions%2Fplugin.json&query=version&style=for-the-badge&label=RELEASE&labelColor=101418&color=9ccbfb)
 
 > [!NOTE] installation
-> Run `dms plugins install "Dank Actions"`
+> Run `dms plugins install dankActions`  
+> <small>or install using the plugins tab on DMS settings</small>
 
 ---
 
 | Plugin Information                 | Value                                         |
 | ---------------------------------- | --------------------------------------------- |
+| id                                 | dankActions                               |
 | name                               | Dank Actions                             |
 | author                             | Avenge Media                           |
 | repo                               | [Link](https://github.com/AvengeMedia/dms-plugins)                     |
