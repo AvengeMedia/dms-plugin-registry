@@ -1,0 +1,14 @@
+{
+    "id": "grimblast",
+    "name": "Grimblast",
+    "capabilities": ["screenshot-tool", "dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/TaylanTatli/dms-plugins",
+    "path": "grimblast",
+    "author": "Taylan TATLI",
+    "description": "Quick screenshot menu for grimblast with multiple capture modes",
+    "dependencies": ["grimblast"],
+    "compositors": ["hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/TaylanTatli/dms-plugins/refs/heads/master/grimblast/screenshot.png"
+}
