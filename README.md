@@ -138,6 +138,39 @@ Display real-time power consumption from your device
 ### Utilities
 
 
+#### [Alarm Clock](https://github.com/lucyfire/dms-plugins)
+
+An alarm clock widget
+
+
+
+- id: alarmClock
+- name: Alarm Clock
+- author: lucyfire
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: qt6-multimedia
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [alarmClock](https://github.com/lucyfire/dms-plugins/tree/main/alarmClock) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/Lucyfire/dms-plugins/blob/master/alarmClock/alarms.png?raw=true)
+
+</details>
+
+
+
+
 #### [Calculator](https://github.com/rochacbruno/DankCalculator)
 
 A calculator plugin that evaluates mathematical expressions and copies results to clipboard
