@@ -1,0 +1,23 @@
+{
+    "id": "alarmClock",
+    "name": "Alarm Clock",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/lucyfire/dms-plugins",
+    "path": "alarmClock",
+    "author": "lucyfire",
+    "description": "An alarm clock widget",
+    "dependencies": [
+        "qt6-multimedia"
+    ],
+    "compositors": [
+        "niri",
+        "hyprland"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/alarmClock/alarms.png?raw=true"
+}
