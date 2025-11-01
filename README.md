@@ -40,6 +40,34 @@ Some plugins are created by third-party developers and are not officially suppor
 ### Appearance
 
 
+#### [Linux Wallpaper Engine](https://github.com/sgtaziz/dms-wallpaperengine)
+
+Animated wallpaper support using linux-wallpaperengine with Steam Workshop scenes
+
+
+
+- id: linuxWallpaperEngine
+- name: Linux Wallpaper Engine
+- author: sgtaziz
+- compositors: niri, hyprland
+- capabilities: wallpaper, animation
+- dependencies: linux-wallpaperengine
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/sgtaziz/dms-wallpaperengine/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
 #### [Wallpaper Shuffler](https://github.com/Daniel-42-z/dms-wallpaper-shuffler)
 
 Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder
