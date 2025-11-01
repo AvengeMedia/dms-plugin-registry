@@ -1,0 +1,18 @@
+{
+	"id": "linuxWallpaperEngine",
+	"name": "Linux Wallpaper Engine",
+	"capabilities": ["wallpaper", "animation"],
+	"category": "appearance",
+	"repo": "https://github.com/sgtaziz/dms-wallpaperengine",
+	"author": "sgtaziz",
+	"description": "Animated wallpaper support using linux-wallpaperengine with Steam Workshop scenes",
+	"dependencies": ["linux-wallpaperengine"],
+	"compositors": [
+		"niri",
+		"hyprland"
+	],
+	"distro": [
+		"any"
+	],
+	"screenshot": "https://raw.githubusercontent.com/sgtaziz/dms-wallpaperengine/refs/heads/main/screenshot.png"
+}
