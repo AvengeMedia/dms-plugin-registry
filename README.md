@@ -387,6 +387,34 @@ A customizable Pomodoro timer.
 
 
 
+#### [Docker Manager](https://github.com/LuckShiba/DmsDockerManager)
+
+Display Docker/Podman container status and management controls
+
+
+
+- id: dockerManager
+- name: Docker Manager
+- author: LuckShiba
+- compositors: any
+- capabilities: docker-management, dankbar-widget
+- dependencies: docker or podman
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/LuckShiba/DmsDockerManager/main/assets/screenshot.png)
+
+</details>
+
+
+
+
 #### [Emoji & Unicode Launcher](https://github.com/devnullvoid/dms-emoji-launcher)
 
 Search and copy 300+ emojis and 100+ unicode characters directly from the launcher with instant clipboard copying
