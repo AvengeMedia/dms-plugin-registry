@@ -1,0 +1,14 @@
+
+{
+    "id": "dockerManager",
+    "name": "Docker Manager",
+    "capabilities": ["docker-management", "dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/LuckShiba/DmsDockerManager",
+    "author": "LuckShiba",
+    "description": "Display Docker/Podman container status and management controls",
+    "dependencies": ["docker or podman"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/LuckShiba/DmsDockerManager/main/assets/screenshot.png"
+}
