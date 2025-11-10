@@ -1,0 +1,13 @@
+{
+    "id": "displayMirror",
+    "name": "Display Mirror",
+    "capabilities": ["control-center"],
+    "category": "utilities",
+    "repo": "https://github.com/jfchenier/dms-display-mirror",
+    "author": "jfchenier",
+    "description": "Mirror niri displays using wl-mirror from the control center and bar",
+    "dependencies": ["wl-mirror"],
+    "compositors": ["niri"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/jfchenier/dms-display-mirror/blob/main/assets/screenshot.png?raw=true"
+}
