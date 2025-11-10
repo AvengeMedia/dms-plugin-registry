@@ -387,6 +387,34 @@ A customizable Pomodoro timer.
 
 
 
+#### [Display Mirror](https://github.com/jfchenier/dms-display-mirror)
+
+Mirror niri displays using wl-mirror from the control center and bar
+
+
+
+- id: dankDisplayMirror
+- name: Display Mirror
+- author: jfchenier
+- compositors: niri
+- capabilities: control-center
+- dependencies: wl-mirror
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/jfchenier/dms-display-mirror/blob/main/assets/screenshot.png)
+
+</details>
+
+
+
+
 #### [Docker Manager](https://github.com/LuckShiba/DmsDockerManager)
 
 Display Docker/Podman container status and management controls
