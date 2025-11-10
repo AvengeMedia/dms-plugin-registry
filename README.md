@@ -393,7 +393,7 @@ Mirror niri displays using wl-mirror from the control center and bar
 
 
 
-- id: dankDisplayMirror
+- id: displayMirror
 - name: Display Mirror
 - author: jfchenier
 - compositors: niri
