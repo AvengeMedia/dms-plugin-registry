@@ -408,7 +408,7 @@ Mirror niri displays using wl-mirror from the control center and bar
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://github.com/jfchenier/dms-display-mirror/blob/main/assets/screenshot.png)
+![screenshot](https://github.com/jfchenier/dms-display-mirror/blob/main/assets/screenshot.png?raw=true)
 
 </details>
 
