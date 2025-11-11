@@ -1,0 +1,13 @@
+{
+  "id": "easyEffects",
+  "name": "Easy Effects Profile Switcher",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/jonkristian/dms-easyeffects",
+  "author": "jonkristian",
+  "description": "Quick switch between Easy Effects audio profiles",
+  "dependencies": ["easyeffects"],
+  "compositors": ["niri", "hyprland"],
+  "distro": ["any"],
+  "screenshot": "https://github.com/jonkristian/dms-easyeffects/blob/main/screenshot.png?raw=true"
+}
