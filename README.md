@@ -443,6 +443,34 @@ Display Docker/Podman container status and management controls
 
 
 
+#### [Easy Effects Profile Switcher](https://github.com/jonkristian/dms-easyeffects)
+
+Quick switch between Easy Effects audio profiles
+
+
+
+- id: easyEffects
+- name: Easy Effects Profile Switcher
+- author: jonkristian
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: easyeffects
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/jonkristian/dms-easyeffects/blob/main/screenshot.png?raw=true)
+
+</details>
+
+
+
+
 #### [Emoji & Unicode Launcher](https://github.com/devnullvoid/dms-emoji-launcher)
 
 Search and copy 300+ emojis and 100+ unicode characters directly from the launcher with instant clipboard copying
