@@ -1,0 +1,20 @@
+{
+    "id": "displaySettings",
+    "name": "Display Settings",
+    "capabilities": [
+        "manage-displays"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/lucyfire/dms-plugins",
+    "path": "displaySettings",
+    "author": "lucyfire",
+    "description": "Turn on/off displays",
+    "dependencies": [],
+    "compositors": [
+        "hyprland"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/displaySettings/screenshot.png?raw=true"
+}
