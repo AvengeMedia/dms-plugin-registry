@@ -415,6 +415,39 @@ Mirror niri displays using wl-mirror from the control center and bar
 
 
 
+#### [Display Settings](https://github.com/lucyfire/dms-plugins)
+
+Turn on/off displays
+
+
+
+- id: displaySettings
+- name: Display Settings
+- author: lucyfire
+- compositors: hyprland
+- capabilities: manage-displays
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [displaySettings](https://github.com/lucyfire/dms-plugins/tree/main/displaySettings) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/Lucyfire/dms-plugins/blob/master/displaySettings/screenshot.png?raw=true)
+
+</details>
+
+
+
+
 #### [Docker Manager](https://github.com/LuckShiba/DmsDockerManager)
 
 Display Docker/Podman container status and management controls
