@@ -1,0 +1,14 @@
+{
+    "id": "worldClock",
+    "name": "World Clock",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/rochacbruno/WorldClock",
+    "author": "Bruno Cesar Rocha",
+    "description": "Multiple timezones clock for DankBar",
+    "dependencies": ["moment-js"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png",
+    "requires_dms": ">0.0.28"
+}
