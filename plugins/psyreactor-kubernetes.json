@@ -1,14 +1,14 @@
 {
-    "id": "worldClock",
-    "name": "World Clock",
+    "id": "kubernetes",
+    "name": "Kubernetes",
     "capabilities": ["dankbar-widget"],
     "category": "utilities",
-    "repo": "https://github.com/rochacbruno/WorldClock",
-    "author": "Bruno Cesar Rocha",
-    "description": "Multiple timezones clock for DankBar",
-    "dependencies": ["moment-js"],
-    "compositors": ["niri", "hyprland"],
+    "repo": "https://github.com/psyreactor/dms-kubernetes",
+    "author": "psyreactor",
+    "description": "Kubernetes plugin for DankBar",
+    "dependencies": ["kubectl"],
+    "compositors": ["any"],
     "distro": ["any"],
-    "screenshot": "https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png",
+    "screenshot": "https://github.com/psyreactor/dms-kubernetes/raw/main/screenshot.png",
     "requires_dms": ">0.0.28"
 }
