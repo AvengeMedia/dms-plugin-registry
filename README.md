@@ -476,6 +476,34 @@ Display Docker/Podman container status and management controls
 
 
 
+#### [Dolar Blue](https://github.com/psyreactor/dms-dolarBlue)
+
+Dolar Blue plugin for DankBar
+
+<strong>requires DMS version</strong>: <em>>0.0.28</em>
+
+- id: dolarBlue
+- name: Dolar Blue
+- author: psyreactor
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/psyreactor/dms-dolarBlue/raw/main/screenshot.png)
+
+</details>
+
+
+
+
 #### [Easy Effects Profile Switcher](https://github.com/jonkristian/dms-easyeffects)
 
 Quick switch between Easy Effects audio profiles
