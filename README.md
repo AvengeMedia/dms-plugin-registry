@@ -598,6 +598,34 @@ Quick screenshot menu for grimblast with multiple capture modes
 
 
 
+#### [Kubernetes](https://github.com/psyreactor/dms-kubernetes)
+
+Kubernetes plugin for DankBar
+
+<strong>requires DMS version</strong>: <em>>0.0.28</em>
+
+- id: kubernetes
+- name: Kubernetes
+- author: psyreactor
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: kubectl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/psyreactor/dms-kubernetes/raw/main/screenshot.png)
+
+</details>
+
+
+
+
 #### [Niri Windows](https://github.com/rochacbruno/DankNiriWindows)
 
 List and switch to open Niri windows from the launcher
