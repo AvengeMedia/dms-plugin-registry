@@ -1,0 +1,14 @@
+{
+    "id": "dolarBlue",
+    "name": "Dolar Blue",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/psyreactor/dms-dolarBlue",
+    "author": "psyreactor",
+    "description": "Dolar Blue plugin for DankBar",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/psyreactor/dms-dolarBlue/raw/main/screenshot.png",
+    "requires_dms": ">0.0.28"
+}
