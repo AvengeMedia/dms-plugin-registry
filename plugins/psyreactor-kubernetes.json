@@ -1,0 +1,14 @@
+{
+    "id": "kubernetes",
+    "name": "Kubernetes",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/psyreactor/dms-kubernetes",
+    "author": "psyreactor",
+    "description": "Kubernetes plugin for DankBar",
+    "dependencies": ["kubectl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/psyreactor/dms-kubernetes/raw/main/screenshot.png",
+    "requires_dms": ">0.0.28"
+}
