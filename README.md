@@ -682,6 +682,34 @@ List and switch to open Niri windows from the launcher
 
 
 
+#### [Pulsar X3 Mouse](https://github.com/jonkristian/dms-pulsar-x3)
+
+Monitor and control your Pulsar X3 gaming mouse
+
+
+
+- id: pulsarX3
+- name: Pulsar X3 Mouse
+- author: jonkristian
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: pulsar-x3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/jonkristian/dms-pulsar-x3/blob/main/screenshot.png?raw=true)
+
+</details>
+
+
+
+
 #### [Wallpaper Discovery](https://github.com/lucyfire/dms-plugins)
 
 Search and download wallpapers
