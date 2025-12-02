@@ -1,0 +1,22 @@
+{
+  "id": "pulsarX3",
+  "name": "Pulsar X3 Mouse",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/jonkristian/dms-pulsar-x3",
+  "author": "jonkristian",
+  "description": "Monitor and control your Pulsar X3 gaming mouse",
+  "dependencies": [
+    "pulsar-x3"
+  ],
+  "compositors": [
+    "niri",
+    "hyprland"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://github.com/jonkristian/dms-pulsar-x3/blob/main/screenshot.png?raw=true"
+}
