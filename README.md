@@ -32,7 +32,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Appearance](#appearance) | [Monitoring](#monitoring) | [Utilities](#utilities)
+**Categories:** [Appearance](#appearance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities)
 
 ----
 
@@ -153,6 +153,41 @@ Display real-time power consumption from your device
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/Daniel-42-z/dms-power-usage/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+----
+
+
+### System
+
+
+#### [ASUS Control Center](https://github.com/pseudofractal/AsusControl)
+
+Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
+
+
+
+- id: asusControlCenter
+- name: ASUS Control Center
+- author: pseudofractal
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: asusctl, supergfxctl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/pseudofractal/AsusControl/main/assets/popup.png)
 
 </details>
 
