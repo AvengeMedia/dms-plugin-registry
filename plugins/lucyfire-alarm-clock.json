@@ -12,10 +12,7 @@
     "dependencies": [
         "qt6-multimedia"
     ],
-    "compositors": [
-        "niri",
-        "hyprland"
-    ],
+    "compositors": ["any"],
     "distro": [
         "any"
     ],

@@ -9,10 +9,7 @@
 	"author": "Daniel-42-z",
 	"description": "Display real-time power consumption from your device",
 	"dependencies": [],
-	"compositors": [
-		"niri",
-		"hyprland"
-	],
+  "compositors": ["any"],
 	"distro": [
 		"any"
 	],

@@ -9,7 +9,7 @@
     "firstParty": true,
     "description": "A customizable Pomodoro timer.",
     "dependencies": [],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-pomodoro.png"
 }

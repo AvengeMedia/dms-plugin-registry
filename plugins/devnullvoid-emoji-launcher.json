@@ -7,7 +7,7 @@
   "author": "devnullvoid",
   "description": "Search and copy 300+ emojis and 100+ unicode characters directly from the launcher with instant clipboard copying",
   "dependencies": [],
-  "compositors": ["niri", "hyprland"],
+  "compositors": ["any"],
   "distro": ["any"],
   "screenshot": "https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true"
 }

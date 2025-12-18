@@ -9,10 +9,7 @@
 	"author": "Daniel-42-z",
 	"description": "Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder",
 	"dependencies": [],
-	"compositors": [
-		"niri",
-		"hyprland"
-	],
+  "compositors": ["any"],
 	"distro": [
 		"any"
 	],

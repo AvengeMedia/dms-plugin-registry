@@ -12,10 +12,7 @@
     "dependencies": [
         "curl"
     ],
-    "compositors": [
-        "niri",
-        "hyprland"
-    ],
+    "compositors": ["any"],
     "distro": [
         "any"
     ],

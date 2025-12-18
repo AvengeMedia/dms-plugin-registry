@@ -11,10 +11,7 @@
   "dependencies": [
     "pulsar-x3"
   ],
-  "compositors": [
-    "niri",
-    "hyprland"
-  ],
+  "compositors": ["any"],
   "distro": [
     "any"
   ],

@@ -9,7 +9,7 @@
     "firstParty": true,
     "description": "Feature-rich weather widget with current conditions, forecasts, and multiple view modes.",
     "dependencies": [],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-desktop-weather.png"
 }

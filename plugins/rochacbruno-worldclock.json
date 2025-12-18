@@ -7,7 +7,7 @@
     "author": "Bruno Cesar Rocha",
     "description": "Multiple timezones clock for DankBar",
     "dependencies": ["moment-js"],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png",
     "requires_dms": ">0.0.28"

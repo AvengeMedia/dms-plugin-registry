@@ -12,10 +12,7 @@
     "dependencies": [
         "wl-copy"
     ],
-    "compositors": [
-        "niri",
-        "hyprland"
-    ],
+    "compositors": ["any"],
     "distro": [
         "any"
     ],

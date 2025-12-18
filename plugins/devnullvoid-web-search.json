@@ -7,7 +7,7 @@
   "author": "devnullvoid",
   "description": "Search the web with 23+ built-in search engines plus custom search engine support with keyword-based selection",
   "dependencies": [],
-  "compositors": ["niri", "hyprland"],
+  "compositors": ["any"],
   "distro": ["any"],
   "screenshot": "https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true"
 }

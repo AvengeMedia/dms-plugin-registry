@@ -7,10 +7,7 @@
 	"author": "maxb",
 	"description": "A new fresh daily wallpaper downloaded from a famous portal",
 	"dependencies": ["curl"],
-	"compositors": [
-		"niri",
-		"hyprland"
-	],
+  "compositors": ["any"],
 	"distro": [
 		"any"
 	],

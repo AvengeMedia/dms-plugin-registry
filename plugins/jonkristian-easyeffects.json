@@ -7,7 +7,7 @@
   "author": "jonkristian",
   "description": "Quick switch between Easy Effects audio profiles",
   "dependencies": ["easyeffects"],
-  "compositors": ["niri", "hyprland"],
+  "compositors": ["any"],
   "distro": ["any"],
   "screenshot": "https://github.com/jonkristian/dms-easyeffects/blob/main/screenshot.png?raw=true"
 }

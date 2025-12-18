@@ -7,7 +7,7 @@
   "author": "devnullvoid",
   "description": "Execute shell commands from the launcher with history tracking, common shortcuts, and terminal/background execution modes",
   "dependencies": [],
-  "compositors": ["niri", "hyprland"],
+  "compositors": ["any"],
   "distro": ["any"],
   "screenshot": "https://github.com/devnullvoid/dms-command-runner/blob/main/screenshot.png?raw=true"
 }

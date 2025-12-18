@@ -7,7 +7,7 @@
     "author": "pseudofractal",
     "description": "Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.",
     "dependencies": ["asusctl", "supergfxctl"],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/pseudofractal/AsusControl/main/assets/popup.png"
 }
