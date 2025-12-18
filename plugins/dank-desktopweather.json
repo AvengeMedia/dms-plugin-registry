@@ -1,0 +1,15 @@
+{
+    "id": "dankDesktopWeather",
+    "name": "Dank Desktop Weather",
+    "capabilities": ["desktop-widget"],
+    "category": "weather",
+    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "path": "DankDesktopWeather",
+    "author": "Avenge Media",
+    "firstParty": true,
+    "description": "Feature-rich weather widget with current conditions, forecasts, and multiple view modes.",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-desktop-weather.png"
+}
