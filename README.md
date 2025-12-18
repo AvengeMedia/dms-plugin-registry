@@ -32,7 +32,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Appearance](#appearance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities)
+**Categories:** [Appearance](#appearance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
 
 ----
 
@@ -828,6 +828,46 @@ Multiple timezones clock for DankBar
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+----
+
+
+### Weather
+
+
+#### [Dank Desktop Weather](https://github.com/AvengeMedia/dms-plugins)
+
+Feature-rich weather widget with current conditions, forecasts, and multiple view modes.
+
+
+
+- id: dankDesktopWeather
+- name: Dank Desktop Weather
+- author: Avenge Media
+- compositors: niri, hyprland
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [DankDesktopWeather](https://github.com/AvengeMedia/dms-plugins/tree/main/DankDesktopWeather) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-desktop-weather.png)
 
 </details>
 
