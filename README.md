@@ -49,7 +49,7 @@ Animated wallpaper support using linux-wallpaperengine with Steam Workshop scene
 - id: linuxWallpaperEngine
 - name: Linux Wallpaper Engine
 - author: sgtaziz
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: wallpaper, animation
 - dependencies: linux-wallpaperengine
 - distro: any
@@ -77,7 +77,7 @@ Shuffles wallpapers with a given time interval, finds wallpapers recursively ins
 - id: wallpaperShufflerPlugin
 - name: Wallpaper Shuffler
 - author: Daniel-42-z
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: set-wallpaper
 - dependencies: 
 - distro: any
@@ -105,7 +105,7 @@ A new fresh daily wallpaper downloaded from a famous portal
 - id: wallpaperBing
 - name: Wallpaper of the Day
 - author: maxb
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: wallpaper-downloader, wallpaper-set, dankbar-widget
 - dependencies: curl
 - distro: any
@@ -140,7 +140,7 @@ Display real-time power consumption from your device
 - id: powerUsagePlugin
 - name: Power Usage Monitor
 - author: Daniel-42-z
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: 
 - distro: any
@@ -175,7 +175,7 @@ Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
 - id: asusControlCenter
 - name: ASUS Control Center
 - author: pseudofractal
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: asusctl, supergfxctl
 - distro: any
@@ -210,7 +210,7 @@ An alarm clock widget
 - id: alarmClock
 - name: Alarm Clock
 - author: lucyfire
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: qt6-multimedia
 - distro: any
@@ -243,7 +243,7 @@ A calculator plugin that evaluates mathematical expressions and copies results t
 - id: calculator
 - name: Calculator
 - author: Bruno Cesar Rocha
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: launcher
 - dependencies: 
 - distro: any
@@ -271,7 +271,7 @@ Execute shell commands from the launcher with history tracking, common shortcuts
 - id: commandRunner
 - name: Command Runner
 - author: devnullvoid
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: launcher
 - dependencies: 
 - distro: any
@@ -299,7 +299,7 @@ Add customizable, scriptable actions to your bar.
 - id: dankActions
 - name: Dank Actions
 - author: Avenge Media
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: 
 - distro: any
@@ -332,7 +332,7 @@ Notify on low battery levels.
 - id: dankBatteryAlerts
 - name: Dank Battery Alerts
 - author: Avenge Media
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: watch-events, notify
 - dependencies: 
 - distro: any
@@ -365,7 +365,7 @@ Trigger scripts based on various system events.
 - id: dankHooks
 - name: Dank Hooks
 - author: Avenge Media
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: watch-events
 - dependencies: 
 - distro: any
@@ -398,7 +398,7 @@ A customizable Pomodoro timer.
 - id: dankPomodoroTimer
 - name: Dank Pomodoro Timer
 - author: Avenge Media
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: 
 - distro: any
@@ -548,7 +548,7 @@ Quick switch between Easy Effects audio profiles
 - id: easyEffects
 - name: Easy Effects Profile Switcher
 - author: jonkristian
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: easyeffects
 - distro: any
@@ -576,7 +576,7 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 - id: emojiLauncher
 - name: Emoji & Unicode Launcher
 - author: devnullvoid
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: launcher
 - dependencies: 
 - distro: any
@@ -604,7 +604,7 @@ Search and copy gitmojis from https://gitmoji.dev
 - id: gitmojiLauncher
 - name: Gitmoji Launcher
 - author: lucyfire
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: launcher
 - dependencies: wl-copy
 - distro: any
@@ -726,7 +726,7 @@ Monitor and control your Pulsar X3 gaming mouse
 - id: pulsarX3
 - name: Pulsar X3 Mouse
 - author: jonkristian
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: pulsar-x3
 - distro: any
@@ -754,7 +754,7 @@ Search and download wallpapers
 - id: wallpaperDiscovery
 - name: Wallpaper Discovery
 - author: lucyfire
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: curl
 - distro: any
@@ -787,7 +787,7 @@ Search the web with 23+ built-in search engines plus custom search engine suppor
 - id: webSearch
 - name: Web Search
 - author: devnullvoid
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: launcher
 - dependencies: 
 - distro: any
@@ -815,7 +815,7 @@ Multiple timezones clock for DankBar
 - id: worldClock
 - name: World Clock
 - author: Bruno Cesar Rocha
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: moment-js
 - distro: any
@@ -850,7 +850,7 @@ Feature-rich weather widget with current conditions, forecasts, and multiple vie
 - id: dankDesktopWeather
 - name: Dank Desktop Weather
 - author: Avenge Media
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: desktop-widget
 - dependencies: 
 - distro: any
