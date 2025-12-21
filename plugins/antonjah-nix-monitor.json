@@ -1,0 +1,13 @@
+{
+    "id": "nixMonitor",
+    "name": "Nix Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/antonjah/nix-monitor",
+    "author": "Anton Andersson",
+    "description": "Monitor Nix store disk usage and system generations with integrated system management capabilities",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/antonjah/nix-monitor/raw/master/assets/scrot.png"
+}
