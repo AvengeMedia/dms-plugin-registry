@@ -15,7 +15,7 @@ from pathlib import Path
 from jinja2 import Environment, FileSystemLoader
 
 CAMEL_CASE_PATTERN = re.compile(r'^[a-z][a-zA-Z0-9]*$')
-THEME_REQUIRED_FIELDS = ["id", "name", "author", "description", "dark", "light"]
+THEME_REQUIRED_FIELDS = ["id", "name", "version", "author", "description", "dark", "light"]
 
 
 def load_plugins(plugins_dir: Path) -> dict[str, list[dict]]:

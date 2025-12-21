@@ -14,7 +14,7 @@ RED = "\033[91m"
 YELLOW = "\033[93m"
 RESET = "\033[0m"
 
-REQUIRED_META_FIELDS = ["id", "name", "author", "description", "dark", "light"]
+REQUIRED_META_FIELDS = ["id", "name", "version", "author", "description", "dark", "light"]
 
 REQUIRED_COLOR_FIELDS = [
     "primary", "primaryText", "primaryContainer", "secondary",
@@ -25,6 +25,7 @@ REQUIRED_COLOR_FIELDS = [
 
 HEX_COLOR_PATTERN = re.compile(r'^#[0-9A-Fa-f]{6}$')
 CAMEL_CASE_PATTERN = re.compile(r'^[a-z][a-zA-Z0-9]*$')
+SEMVER_PATTERN = re.compile(r'^\d+\.\d+\.\d+$')
 
 
 def is_valid_hex_color(value: str) -> bool:
@@ -78,6 +79,13 @@ def validate_theme(theme_file: Path) -> list[str]:
             errors.append("ID is empty")
         elif not is_camel_case(theme_id):
             errors.append(f"ID '{theme_id}' must be camelCase (start lowercase, alphanumeric only)")
+
+    if "version" in theme:
+        version = theme["version"]
+        if not version:
+            errors.append("version is empty")
+        elif not SEMVER_PATTERN.match(version):
+            errors.append(f"version '{version}' must be semver format (e.g., 1.0.0)")
 
     if "name" in theme and (not isinstance(theme["name"], str) or not theme["name"].strip()):
         errors.append("name must be a non-empty string")

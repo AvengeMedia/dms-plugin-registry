@@ -37,7 +37,7 @@ Some plugins are created by third-party developers and are not officially suppor
 {{ theme.description }}
 
 - **Author:** {{ theme.author }}
-- **ID:** `{{ theme.id }}`
+- **ID:** `{{ theme.id }}` **Version:** `{{ theme.version }}`
 
 ![{{ theme.name }}](themes/{{ theme._dirname }}/preview.svg)
 

@@ -39,7 +39,7 @@ Some plugins are created by third-party developers and are not officially suppor
 Popular Tokyo Night color scheme with vibrant blues and purples
 
 - **Author:** Avenge Media
-- **ID:** `tokyoNight`
+- **ID:** `tokyoNight` **Version:** `1.0.0`
 
 ![Tokyo Night](themes/tokyonight/preview.svg)
 
