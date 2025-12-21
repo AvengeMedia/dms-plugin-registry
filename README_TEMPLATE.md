@@ -28,6 +28,24 @@ Clone the plugin repository into your `~/.config/DankMaterialShell/plugins/` fol
 
 Some plugins are created by third-party developers and are not officially supported by the Dank Material Shell team. Use them at your own risk. In case of issues, please contact the plugin author directly.
 
+## Themes
+
+{% if themes %}
+{% for theme in themes %}
+### {{ theme.name }}
+
+{{ theme.description }}
+
+- **Author:** {{ theme.author }}
+- **ID:** `{{ theme.id }}`
+
+![{{ theme.name }}](themes/{{ theme._dirname }}/preview.svg)
+
+{% endfor %}
+{% else %}
+No themes available yet.
+{% endif %}
+
 ## Plugins
 
 **Categories:** {% for category in categories %}[{{ category.name }}](#{{ category.name | lower | replace(" ", "-") }}){% if not loop.last %} | {% endif %}{% endfor %}

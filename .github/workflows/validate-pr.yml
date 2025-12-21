@@ -16,8 +16,14 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v5
 
-      - name: Validate plugins and test rendering
+      - name: Validate plugins and themes
         run: uv run .github/generate.py --validate
+
+      - name: Validate theme colors
+        run: uv run .github/validate_themes.py
+
+      - name: Generate theme previews
+        run: uv run .github/generate_theme_previews.py
 
       - name: Test README generation
         run: uv run .github/generate.py

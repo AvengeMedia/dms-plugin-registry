@@ -30,6 +30,22 @@ Clone the plugin repository into your `~/.config/DankMaterialShell/plugins/` fol
 
 Some plugins are created by third-party developers and are not officially supported by the Dank Material Shell team. Use them at your own risk. In case of issues, please contact the plugin author directly.
 
+## Themes
+
+
+
+### Tokyo Night
+
+Popular Tokyo Night color scheme with vibrant blues and purples
+
+- **Author:** Avenge Media
+- **ID:** `tokyoNight`
+
+![Tokyo Night](themes/tokyonight/preview.svg)
+
+
+
+
 ## Plugins
 
 **Categories:** [Appearance](#appearance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)

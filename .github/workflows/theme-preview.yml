@@ -1,0 +1,56 @@
+name: Theme Preview
+
+on:
+  pull_request:
+    branches: [master]
+    paths:
+      - 'themes/**'
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+
+      - name: Generate theme previews
+        run: uv run .github/generate_theme_previews.py
+
+      - name: Upload preview artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: theme-previews
+          path: themes/*/preview.svg
+
+      - name: Generate preview comment
+        run: |
+          echo "## 🎨 Theme Preview" > comment.md
+          echo "" >> comment.md
+          for dir in themes/*/; do
+            if [ -f "${dir}theme.json" ] && [ -f "${dir}preview.svg" ]; then
+              name=$(python3 -c "import json; t=json.load(open('${dir}theme.json')); print(t['name'])")
+              author=$(python3 -c "import json; t=json.load(open('${dir}theme.json')); print(t['author'])")
+              desc=$(python3 -c "import json; t=json.load(open('${dir}theme.json')); print(t['description'])")
+              echo "### $name" >> comment.md
+              echo "" >> comment.md
+              echo "$desc" >> comment.md
+              echo "" >> comment.md
+              echo "- **Author:** $author" >> comment.md
+              echo "" >> comment.md
+            fi
+          done
+          echo "✅ Preview generated! Download from [artifacts](/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> comment.md
+          echo "" >> comment.md
+          echo "_Preview will be committed after merge._" >> comment.md
+
+      - name: Post preview comment
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body-path: comment.md

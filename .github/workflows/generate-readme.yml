@@ -20,13 +20,17 @@ jobs:
       - name: Install uv
         uses: astral-sh/setup-uv@v5
 
+      - name: Generate theme previews
+        run: uv run .github/generate_theme_previews.py
+
       - name: Generate README
         run: uv run .github/generate.py
 
       - name: Check for changes
         id: check_changes
         run: |
-          if git diff --quiet README.md; then
+          git add -A
+          if git diff --cached --quiet; then
             echo "changed=false" >> $GITHUB_OUTPUT
           else
             echo "changed=true" >> $GITHUB_OUTPUT
@@ -37,6 +41,5 @@ jobs:
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git add README.md
           git commit -m "chore: auto-generate README.md [skip ci]"
           git push

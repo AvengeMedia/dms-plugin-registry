@@ -4,14 +4,18 @@
 #   "jinja2",
 # ]
 # ///
-"""Generate README.md from plugins/*.json files using README_TEMPLATE.md."""
+"""Generate README.md from plugins/*.json and themes/*.json using README_TEMPLATE.md."""
 
 import json
+import re
 import sys
 from collections import defaultdict
 from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
+
+CAMEL_CASE_PATTERN = re.compile(r'^[a-z][a-zA-Z0-9]*$')
+THEME_REQUIRED_FIELDS = ["id", "name", "author", "description", "dark", "light"]
 
 
 def load_plugins(plugins_dir: Path) -> dict[str, list[dict]]:
@@ -62,7 +66,6 @@ def validate_all_plugins(plugins_dir: Path) -> bool:
                 if not validate_plugin(plugin_data, json_file.name):
                     all_valid = False
 
-                # Check for duplicate IDs
                 plugin_id = plugin_data.get("id")
                 if plugin_id:
                     if plugin_id in seen_ids:
@@ -72,7 +75,6 @@ def validate_all_plugins(plugins_dir: Path) -> bool:
                     else:
                         seen_ids[plugin_id] = json_file.name
 
-                # Check for duplicate names
                 plugin_name = plugin_data.get("name")
                 if plugin_name:
                     if plugin_name in seen_names:
@@ -92,25 +94,114 @@ def validate_all_plugins(plugins_dir: Path) -> bool:
     return all_valid
 
 
+def validate_theme(theme: dict, filename: str) -> bool:
+    """Validate required fields in theme data."""
+    missing = [f for f in THEME_REQUIRED_FIELDS if f not in theme]
+    if missing:
+        print(f"Theme validation error in {filename}: Missing fields: {', '.join(missing)}", file=sys.stderr)
+        return False
+
+    theme_id = theme.get("id", "")
+    if not CAMEL_CASE_PATTERN.match(theme_id):
+        print(f"Theme validation error in {filename}: ID '{theme_id}' must be camelCase", file=sys.stderr)
+        return False
+
+    return True
+
+
+def validate_all_themes(themes_dir: Path) -> bool:
+    """Validate all theme folders."""
+    if not themes_dir.exists():
+        return True
+
+    theme_dirs = [d for d in themes_dir.iterdir() if d.is_dir() and (d / "theme.json").exists()]
+    if not theme_dirs:
+        return True
+
+    all_valid = True
+    seen_ids = {}
+    seen_names = {}
+
+    for theme_dir in theme_dirs:
+        theme_file = theme_dir / "theme.json"
+        try:
+            with open(theme_file) as f:
+                theme_data = json.load(f)
+                if not validate_theme(theme_data, f"{theme_dir.name}/theme.json"):
+                    all_valid = False
+
+                theme_id = theme_data.get("id")
+                if theme_id:
+                    if theme_id in seen_ids:
+                        print(f"Duplicate theme ID '{theme_id}' found in {theme_dir.name} "
+                              f"(previously in {seen_ids[theme_id]})", file=sys.stderr)
+                        all_valid = False
+                    else:
+                        seen_ids[theme_id] = theme_dir.name
+
+                theme_name = theme_data.get("name")
+                if theme_name:
+                    if theme_name in seen_names:
+                        print(f"Duplicate theme name '{theme_name}' found in {theme_dir.name} "
+                              f"(previously in {seen_names[theme_name]})", file=sys.stderr)
+                        all_valid = False
+                    else:
+                        seen_names[theme_name] = theme_dir.name
+
+        except json.JSONDecodeError as e:
+            print(f"JSON parse error in {theme_file}: {e}", file=sys.stderr)
+            all_valid = False
+        except Exception as e:
+            print(f"Error reading {theme_file}: {e}", file=sys.stderr)
+            all_valid = False
+
+    return all_valid
+
+
+def load_themes(themes_dir: Path) -> list[dict]:
+    """Load all theme folders."""
+    themes = []
+
+    if not themes_dir.exists():
+        return themes
+
+    for theme_dir in themes_dir.iterdir():
+        if not theme_dir.is_dir():
+            continue
+        theme_file = theme_dir / "theme.json"
+        if not theme_file.exists():
+            continue
+
+        try:
+            with open(theme_file) as f:
+                theme_data = json.load(f)
+                theme_data["_dirname"] = theme_dir.name
+                themes.append(theme_data)
+        except (json.JSONDecodeError, Exception) as e:
+            print(f"Error reading {theme_file}: {e}", file=sys.stderr)
+            sys.exit(1)
+
+    return sorted(themes, key=lambda t: t.get("name", ""))
+
+
 def generate_readme(validate_only: bool = False) -> int:
-    """Generate README.md from template and plugin data."""
+    """Generate README.md from template and plugin/theme data."""
     repo_root = Path(__file__).parent.parent
     plugins_dir = repo_root / "plugins"
-    template_file = repo_root / "README_TEMPLATE.md"
+    themes_dir = repo_root / "themes"
     output_file = repo_root / "README.md"
 
-    # Validate all plugins
-    if not validate_all_plugins(plugins_dir):
+    plugins_valid = validate_all_plugins(plugins_dir)
+    themes_valid = validate_all_themes(themes_dir)
+
+    if not plugins_valid or not themes_valid:
         return 1
 
     if validate_only:
         print("Validation successful!")
         return 0
 
-    # Load plugins and group by category
     categories_dict = load_plugins(plugins_dir)
-
-    # Sort categories by name and plugins within each category by name
     sorted_categories = sorted(categories_dict.keys())
 
     categories = []
@@ -121,23 +212,20 @@ def generate_readme(validate_only: bool = False) -> int:
             "plugins": plugins
         })
 
-    # Setup Jinja2 environment
+    themes = load_themes(themes_dir)
+
     env = Environment(loader=FileSystemLoader(repo_root))
     template = env.get_template("README_TEMPLATE.md")
 
-    # Render template
     try:
-        rendered = template.render(categories=categories)
+        rendered = template.render(categories=categories, themes=themes)
     except Exception as e:
         print(f"Error rendering template: {e}", file=sys.stderr)
         return 1
 
-    
     warning = "<!-- DO NOT EDIT THIS FILE, EDIT README_TEMPLATE.md, this README.md is auto generated. -->"
-    
     rendered = warning + "\n\n" + rendered
 
-    # Write output
     try:
         with open(output_file, "w") as f:
             f.write(rendered)
