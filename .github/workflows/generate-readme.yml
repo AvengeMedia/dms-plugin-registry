@@ -17,14 +17,14 @@ jobs:
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
-      - name: Install uv
-        uses: astral-sh/setup-uv@v5
+      - name: Install dependencies
+        run: pip install jinja2
 
       - name: Generate theme previews
-        run: uv run .github/generate_theme_previews.py
+        run: python3 .github/generate_theme_previews.py
 
       - name: Generate README
-        run: uv run .github/generate.py
+        run: python3 .github/generate.py
 
       - name: Check for changes
         id: check_changes

@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-# /// script
-# dependencies = [
-#   "requests",
-# ]
-# ///
 """
 Validate plugin links and paths.
 

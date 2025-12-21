@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-# /// script
-# dependencies = []
-# ///
 """Generate SVG preview images for themes."""
 
 import json

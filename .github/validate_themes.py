@@ -1,7 +1,4 @@
 #!/usr/bin/env python3
-# /// script
-# dependencies = []
-# ///
 """Validate theme JSON files in the themes/ directory."""
 
 import json

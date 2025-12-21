@@ -34,14 +34,14 @@ jobs:
       - name: Checkout 🛎
         uses: actions/checkout@v4
 
-      - name: Install uv
-        uses: astral-sh/setup-uv@v5
+      - name: Install dependencies
+        run: pip install requests marmite
 
       - name: Generate pages from plugin JSON
-        run: uv run .github/generate_site_content.py
+        run: python3 .github/generate_site_content.py
 
       - name: Build site 🏗️
-        run: uvx marmite site html -vvvv --url 'https://plugins.danklinux.com/'
+        run: marmite site html -vvvv --url 'https://plugins.danklinux.com/'
 
       - name: List files on site 📂
         run: ls -R html

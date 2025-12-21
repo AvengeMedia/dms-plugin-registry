@@ -1,9 +1,4 @@
 #!/usr/bin/env python3
-# /// script
-# dependencies = [
-#   "jinja2",
-# ]
-# ///
 """Generate README.md from plugins/*.json and themes/*.json using README_TEMPLATE.md."""
 
 import json

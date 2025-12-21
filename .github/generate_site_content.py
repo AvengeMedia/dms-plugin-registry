@@ -1,10 +1,4 @@
 #!/usr/bin/env python3
-# /// script
-# dependencies = [
-#   "requests",
-#   "jinja2",
-# ]
-# ///
 """Generate site content from plugins/*.json files."""
 
 import json

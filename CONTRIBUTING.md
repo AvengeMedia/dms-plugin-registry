@@ -1,3 +1,12 @@
+# Contributing
+
+## Table of Contents
+
+- [Contributing a Plugin](#contributing-a-plugin)
+- [Contributing a Theme](#contributing-a-theme)
+
+---
+
 # Contributing a Plugin
 
 Thank you for contributing to the Dank Material Shell Plugins registry!
@@ -57,11 +66,14 @@ Thank you for contributing to the Dank Material Shell Plugins registry!
    Run the following validation commands to ensure your plugin meets all requirements:
 
    ```bash
+   # Install dependencies
+   pip install jinja2 requests
+
    # Validate JSON schema and required fields
-   uv run .github/generate.py --validate
+   python3 .github/generate.py --validate
 
    # Validate links, paths, IDs, and names
-   uv run .github/validate_links.py
+   python3 .github/validate_links.py
    ```
 
    These validations check:
@@ -95,3 +107,121 @@ Thank you for contributing to the Dank Material Shell Plugins registry!
 ## Questions?
 
 If you have questions about the contribution process, please open an issue in this repository.
+
+---
+
+# Contributing a Theme
+
+Thank you for contributing a theme to the Dank Material Shell registry!
+
+## How to Add Your Theme
+
+1. **Fork this repository**
+
+2. **Create a new folder** in the `themes/` directory:
+   ```
+   themes/{theme-name}/theme.json
+   ```
+   - Use lowercase letters and hyphens
+   - Examples: `tokyonight`, `gruvbox-dark`, `catppuccin-mocha`
+
+3. **Create your theme.json** with the following schema:
+
+```json
+{
+  "id": "themeId",
+  "name": "Theme Name",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "description": "Brief description of your theme",
+  "dark": {
+    "primary": "#hex",
+    "primaryText": "#hex",
+    "primaryContainer": "#hex",
+    "secondary": "#hex",
+    "surface": "#hex",
+    "surfaceText": "#hex",
+    "surfaceVariant": "#hex",
+    "surfaceVariantText": "#hex",
+    "surfaceTint": "#hex",
+    "background": "#hex",
+    "backgroundText": "#hex",
+    "outline": "#hex",
+    "surfaceContainer": "#hex",
+    "surfaceContainerHigh": "#hex",
+    "error": "#hex",
+    "warning": "#hex",
+    "info": "#hex"
+  },
+  "light": {
+    "primary": "#hex",
+    "primaryText": "#hex",
+    "primaryContainer": "#hex",
+    "secondary": "#hex",
+    "surface": "#hex",
+    "surfaceText": "#hex",
+    "surfaceVariant": "#hex",
+    "surfaceVariantText": "#hex",
+    "surfaceTint": "#hex",
+    "background": "#hex",
+    "backgroundText": "#hex",
+    "outline": "#hex",
+    "surfaceContainer": "#hex",
+    "surfaceContainerHigh": "#hex",
+    "error": "#hex",
+    "warning": "#hex",
+    "info": "#hex"
+  }
+}
+```
+
+### Field Descriptions
+
+**Metadata:**
+- **id** (required): Unique identifier in camelCase (e.g., `tokyoNight`, `gruvboxDark`)
+- **name** (required): Display name of your theme
+- **version** (required): Semver version (e.g., `1.0.0`)
+- **author** (required): Your name or username
+- **description** (required): Brief description of the theme
+
+**Color Fields (required for both dark and light):**
+- **primary**: Primary accent color
+- **primaryText**: Text color on primary backgrounds
+- **primaryContainer**: Container using primary color
+- **secondary**: Secondary accent color
+- **surface**: Main surface/card background
+- **surfaceText**: Text on surfaces
+- **surfaceVariant**: Alternative surface color
+- **surfaceVariantText**: Text on variant surfaces
+- **surfaceTint**: Tint overlay color
+- **background**: App background color
+- **backgroundText**: Text on background
+- **outline**: Border/divider color
+- **surfaceContainer**: Container background
+- **surfaceContainerHigh**: Elevated container background
+- **error**: Error state color
+- **warning**: Warning state color
+- **info**: Info state color
+
+4. **Validate your theme locally**:
+
+   ```bash
+   pip install jinja2
+   python3 .github/validate_themes.py
+   python3 .github/generate.py --validate
+   ```
+
+5. **Submit a Pull Request**
+   - Commit only your `theme.json` file (previews are auto-generated)
+   - Push to your fork and create a PR
+   - A preview will be generated and posted as a comment on your PR
+   - After merge, the preview SVG will be committed automatically
+
+## Guidelines
+
+- All color values must be 6-digit hex codes (e.g., `#7aa2f7`)
+- Both `dark` and `light` variants are required
+- The `id` must be camelCase (starts lowercase, alphanumeric only)
+- Version must follow semver format (`X.Y.Z`)
+- Keep descriptions concise
+- Test your colors for readability and contrast

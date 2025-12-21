@@ -13,20 +13,20 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v4
 
-      - name: Install uv
-        uses: astral-sh/setup-uv@v5
+      - name: Install dependencies
+        run: pip install jinja2 requests
 
       - name: Validate plugins and themes
-        run: uv run .github/generate.py --validate
+        run: python3 .github/generate.py --validate
 
       - name: Validate theme colors
-        run: uv run .github/validate_themes.py
+        run: python3 .github/validate_themes.py
 
       - name: Generate theme previews
-        run: uv run .github/generate_theme_previews.py
+        run: python3 .github/generate_theme_previews.py
 
       - name: Test README generation
-        run: uv run .github/generate.py
+        run: python3 .github/generate.py
 
       - name: Check if README was generated successfully
         run: |
@@ -37,4 +37,4 @@ jobs:
           echo "README.md generated successfully"
 
       - name: Validate plugin links and paths
-        run: uv run .github/validate_links.py
+        run: python3 .github/validate_links.py
