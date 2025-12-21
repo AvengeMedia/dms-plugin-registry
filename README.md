@@ -131,6 +131,34 @@ A new fresh daily wallpaper downloaded from a famous portal
 ### Monitoring
 
 
+#### [Nix Monitor](https://github.com/antonjah/nix-monitor)
+
+Monitor Nix store disk usage and system generations with integrated system management capabilities
+
+
+
+- id: nixMonitor
+- name: Nix Monitor
+- author: Anton Andersson
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/antonjah/nix-monitor/raw/master/assets/scrot.png)
+
+</details>
+
+
+
+
 #### [Power Usage Monitor](https://github.com/Daniel-42-z/dms-power-usage)
 
 Display real-time power consumption from your device
