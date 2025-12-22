@@ -5,7 +5,6 @@
   "author": "yayuuu",
   "description": "Synthwave Electric color palette with contrasting colors, vibrant blues and sunset orange",
   "dark": {
-    "name": "Synthwave Electric Dark",
     "primary": "#FF6600",
     "primaryText": "#000000",
     "primaryContainer": "#CC5200",
@@ -20,13 +19,11 @@
     "outline": "#4D80FF",
     "surfaceContainer": "#0A0A15",
     "surfaceContainerHigh": "#151529",
-    "surfaceContainerHighest": "#212147",
     "error": "#FF3366",
     "warning": "#FFCC00",
     "info": "#0080FF"
   },
   "light": {
-    "name": "Synthwave Electric Light",
     "primary": "#CC5200",
     "primaryText": "#FFFFFF",
     "primaryContainer": "#FF9966",
@@ -41,7 +38,6 @@
     "outline": "#3366CC",
     "surfaceContainer": "#F5F5FF",
     "surfaceContainerHigh": "#EBEBFF",
-    "surfaceContainerHighest": "#EBEBFF",
     "error": "#CC1A40",
     "warning": "#CC9900",
     "info": "#0066CC"
