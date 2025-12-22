@@ -1041,3 +1041,14 @@ Popular Tokyo Night color scheme with vibrant blues and purples
 ![Tokyo Night](themes/tokyonight/preview.svg)
 
 
+
+### nord
+
+nord theme
+
+- **Author:** wirus
+- **ID:** `nord` **Version:** `1.0.0`
+
+![nord](themes/nord/preview.svg)
+
+
