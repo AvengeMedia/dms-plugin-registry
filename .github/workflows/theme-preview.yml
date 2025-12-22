@@ -11,6 +11,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
+      issues: write
 
     steps:
       - name: Checkout repository
@@ -48,6 +49,7 @@ jobs:
 
       - name: Post preview comment
         uses: peter-evans/create-or-update-comment@v4
+        continue-on-error: true
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body-path: comment.md
