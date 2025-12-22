@@ -64,6 +64,16 @@ Material (Soft) version of the popular Gruvbox theme with retro groove colors
 ![Gruvbox Material Soft](themes/gruvbox-material-soft/preview.svg)
 
 
+### Synthwave Electric
+
+Synthwave Electric color palette with contrasting colors, vibrant blues and sunset orange
+
+- **Author:** yayuuu
+- **ID:** `synthwaveElectric` **Version:** `1.0.0`
+
+![Synthwave Electric](themes/synthwave-electric/preview.svg)
+
+
 ### Tokyo Night
 
 Popular Tokyo Night color scheme with vibrant blues and purples
