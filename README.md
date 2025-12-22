@@ -34,6 +34,36 @@ Some plugins are created by third-party developers and are not officially suppor
 
 
 
+### Gruvbox Material Hard
+
+Material (Hard) version of the popular Gruvbox theme with retro groove colors
+
+- **Author:** fontaine
+- **ID:** `gruvboxMaterialHard` **Version:** `1.0.0`
+
+![Gruvbox Material Hard](themes/gruvbox-material-hard/preview.svg)
+
+
+### Gruvbox Material Medium
+
+Material (Medium) version of the popular Gruvbox theme with retro groove colors
+
+- **Author:** fontaine
+- **ID:** `gruvboxMaterialMedium` **Version:** `1.0.0`
+
+![Gruvbox Material Medium](themes/gruvbox-material-medium/preview.svg)
+
+
+### Gruvbox Material Soft
+
+Material (Soft) version of the popular Gruvbox theme with retro groove colors
+
+- **Author:** fontaine
+- **ID:** `gruvboxMaterialSoft` **Version:** `1.0.0`
+
+![Gruvbox Material Soft](themes/gruvbox-material-soft/preview.svg)
+
+
 ### Tokyo Night
 
 Popular Tokyo Night color scheme with vibrant blues and purples
