@@ -32,6 +32,10 @@ COMBINED_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="484" heigh
   {light_panel}
 </svg>"""
 
+SINGLE_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  {panel}
+</svg>"""
+
 
 def generate_panel(scheme: dict, name: str, x: int) -> str:
     return PANEL_TEMPLATE.format(x=x, name=name, **scheme)
@@ -39,13 +43,14 @@ def generate_panel(scheme: dict, name: str, x: int) -> str:
 
 def generate_combined_preview(theme: dict) -> str:
     name = theme.get("name", "Theme")
-    dark = theme["dark"]
-    light = theme["light"]
-
-    dark_panel = generate_panel(dark, f"{name} (dark)", 0)
-    light_panel = generate_panel(light, f"{name} (light)", 244)
-
+    dark_panel = generate_panel(theme["dark"], f"{name} (dark)", 0)
+    light_panel = generate_panel(theme["light"], f"{name} (light)", 244)
     return COMBINED_TEMPLATE.format(dark_panel=dark_panel, light_panel=light_panel)
+
+
+def generate_single_preview(scheme: dict, name: str) -> str:
+    panel = generate_panel(scheme, name, 0)
+    return SINGLE_TEMPLATE.format(panel=panel)
 
 
 def generate_all_previews(themes_dir: Path) -> None:
@@ -71,13 +76,17 @@ def generate_all_previews(themes_dir: Path) -> None:
             print(f"Skipping {theme_dir.name}: missing dark or light")
             continue
 
-        svg_content = generate_combined_preview(theme)
-        output_path = theme_dir / "preview.svg"
+        theme_name = theme.get("name", theme_dir.name)
 
-        with open(output_path, "w") as f:
-            f.write(svg_content)
+        combined = generate_combined_preview(theme)
+        dark = generate_single_preview(theme["dark"], f"{theme_name} (dark)")
+        light = generate_single_preview(theme["light"], f"{theme_name} (light)")
 
-        print(f"Generated {output_path}")
+        for filename, content in [("preview.svg", combined), ("preview-dark.svg", dark), ("preview-light.svg", light)]:
+            path = theme_dir / filename
+            with open(path, "w") as f:
+                f.write(content)
+            print(f"Generated {path}")
 
 
 def main():

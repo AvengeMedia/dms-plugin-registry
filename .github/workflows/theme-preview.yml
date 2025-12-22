@@ -23,7 +23,7 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: theme-previews
-          path: themes/*/preview.svg
+          path: themes/*/preview*.svg
 
       - name: Generate preview comment
         run: |
