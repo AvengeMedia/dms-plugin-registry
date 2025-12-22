@@ -34,6 +34,16 @@ Some plugins are created by third-party developers and are not officially suppor
 
 
 
+### Everforest Medium
+
+Everforest is a green based color scheme, designed to be warm and soft
+
+- **Author:** fontaine
+- **ID:** `everforestMedium` **Version:** `1.0.0`
+
+![Everforest Medium](themes/everforest-medium/preview.svg)
+
+
 ### Gruvbox Material Hard
 
 Material (Hard) version of the popular Gruvbox theme with retro groove colors
