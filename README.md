@@ -1009,6 +1009,17 @@ Material (Soft) version of the popular Gruvbox theme with retro groove colors
 
 
 
+### Steam Deck
+
+Steam Deck inspired theme
+
+- **Author:** yayuuu
+- **ID:** `steamDeck` **Version:** `1.0.0`
+
+![Steam Deck](themes/steam-deck/preview.svg)
+
+
+
 ### Synthwave Electric
 
 Synthwave Electric color palette with contrasting colors, vibrant blues and sunset orange
