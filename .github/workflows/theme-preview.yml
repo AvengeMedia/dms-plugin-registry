@@ -1,7 +1,7 @@
 name: Theme Preview
 
 on:
-  pull_request:
+  pull_request_target:
     branches: [master]
     paths:
       - 'themes/**'
@@ -11,11 +11,12 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
-      issues: write
 
     steps:
-      - name: Checkout repository
+      - name: Checkout PR head
         uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
 
       - name: Generate theme previews
         run: python3 .github/generate_theme_previews.py
@@ -49,7 +50,6 @@ jobs:
 
       - name: Post preview comment
         uses: peter-evans/create-or-update-comment@v4
-        continue-on-error: true
         with:
           issue-number: ${{ github.event.pull_request.number }}
           body-path: comment.md
