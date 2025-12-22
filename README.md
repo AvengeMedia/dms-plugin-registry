@@ -12,78 +12,32 @@ To add your Plugin to the list please read the [contribution guidelines](CONTRIB
 
 ## Installing Plugins
 
-
 ### Via DMS Settings UI
 
-On DMS open the settings <kbd>Mod + ,</kbd> go to **Plugins** tab and click on **Browse** button.  
+On DMS open the settings <kbd>Mod + ,</kbd> go to **Plugins** tab and click on **Browse** button.
 
 ### Via dms CLI
 
 On your teminal run `dms` then navigate to the **plugins** option or run `dms plugins install {plugin-name}` directly.
 
-### Manually 
+### Manually
 
 Clone the plugin repository into your `~/.config/DankMaterialShell/plugins/` folder and restart your dms session with `dms restart`. NOTE: Some plugins may have additional dependencies that need to be installed manually, please refer to the plugin documentation for more information, some plugins are part of a monorepo and need to be installed by copying the relevant path to the plugins folder.
-
 
 ## Disclaimer
 
 Some plugins are created by third-party developers and are not officially supported by the Dank Material Shell team. Use them at your own risk. In case of issues, please contact the plugin author directly.
 
-## Themes
-
-
-
-### Gruvbox Material Hard
-
-Material (Hard) version of the popular Gruvbox theme with retro groove colors
-
-- **Author:** fontaine
-- **ID:** `gruvboxMaterialHard` **Version:** `1.0.0`
-
-![Gruvbox Material Hard](themes/gruvbox-material-hard/preview.svg)
-
-
-### Gruvbox Material Medium
-
-Material (Medium) version of the popular Gruvbox theme with retro groove colors
-
-- **Author:** fontaine
-- **ID:** `gruvboxMaterialMedium` **Version:** `1.0.0`
-
-![Gruvbox Material Medium](themes/gruvbox-material-medium/preview.svg)
-
-
-### Gruvbox Material Soft
-
-Material (Soft) version of the popular Gruvbox theme with retro groove colors
-
-- **Author:** fontaine
-- **ID:** `gruvboxMaterialSoft` **Version:** `1.0.0`
-
-![Gruvbox Material Soft](themes/gruvbox-material-soft/preview.svg)
-
-
-### Tokyo Night
-
-Popular Tokyo Night color scheme with vibrant blues and purples
-
-- **Author:** Avenge Media
-- **ID:** `tokyoNight` **Version:** `1.0.0`
-
-![Tokyo Night](themes/tokyonight/preview.svg)
-
-
-
-
 ## Plugins
 
 **Categories:** [Appearance](#appearance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
 
-----
+---
+
 
 
 ### Appearance
+
 
 
 #### [Linux Wallpaper Engine](https://github.com/sgtaziz/dms-wallpaperengine)
@@ -114,6 +68,7 @@ Animated wallpaper support using linux-wallpaperengine with Steam Workshop scene
 
 
 
+
 #### [Wallpaper Shuffler](https://github.com/Daniel-42-z/dms-wallpaper-shuffler)
 
 Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder
@@ -138,6 +93,7 @@ Shuffles wallpapers with a given time interval, finds wallpapers recursively ins
 ![screenshot](https://raw.githubusercontent.com/Daniel-42-z/dms-wallpaper-shuffler/refs/heads/main/screenshot.png)
 
 </details>
+
 
 
 
@@ -171,10 +127,12 @@ A new fresh daily wallpaper downloaded from a famous portal
 
 
 
-----
+---
+
 
 
 ### Monitoring
+
 
 
 #### [Nix Monitor](https://github.com/antonjah/nix-monitor)
@@ -201,6 +159,7 @@ Monitor Nix store disk usage and system generations with integrated system manag
 ![screenshot](https://github.com/antonjah/nix-monitor/raw/master/assets/scrot.png)
 
 </details>
+
 
 
 
@@ -234,10 +193,12 @@ Display real-time power consumption from your device
 
 
 
-----
+---
+
 
 
 ### System
+
 
 
 #### [ASUS Control Center](https://github.com/pseudofractal/AsusControl)
@@ -269,10 +230,12 @@ Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
 
 
 
-----
+---
+
 
 
 ### Utilities
+
 
 
 #### [Alarm Clock](https://github.com/lucyfire/dms-plugins)
@@ -308,6 +271,7 @@ An alarm clock widget
 
 
 
+
 #### [Calculator](https://github.com/rochacbruno/DankCalculator)
 
 A calculator plugin that evaluates mathematical expressions and copies results to clipboard
@@ -336,6 +300,7 @@ A calculator plugin that evaluates mathematical expressions and copies results t
 
 
 
+
 #### [Command Runner](https://github.com/devnullvoid/dms-command-runner)
 
 Execute shell commands from the launcher with history tracking, common shortcuts, and terminal/background execution modes
@@ -360,6 +325,7 @@ Execute shell commands from the launcher with history tracking, common shortcuts
 ![screenshot](https://github.com/devnullvoid/dms-command-runner/blob/main/screenshot.png?raw=true)
 
 </details>
+
 
 
 
@@ -397,6 +363,7 @@ Add customizable, scriptable actions to your bar.
 
 
 
+
 #### [Dank Battery Alerts](https://github.com/AvengeMedia/dms-plugins)
 
 Notify on low battery levels.
@@ -426,6 +393,7 @@ Notify on low battery levels.
 ![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-batteryalerts.png)
 
 </details>
+
 
 
 
@@ -463,6 +431,7 @@ Trigger scripts based on various system events.
 
 
 
+
 #### [Dank Pomodoro Timer](https://github.com/AvengeMedia/dms-plugins)
 
 A customizable Pomodoro timer.
@@ -496,6 +465,7 @@ A customizable Pomodoro timer.
 
 
 
+
 #### [Display Mirror](https://github.com/jfchenier/dms-display-mirror)
 
 Mirror niri displays using wl-mirror from the control center and bar
@@ -520,6 +490,7 @@ Mirror niri displays using wl-mirror from the control center and bar
 ![screenshot](https://github.com/jfchenier/dms-display-mirror/blob/main/assets/screenshot.png?raw=true)
 
 </details>
+
 
 
 
@@ -557,6 +528,7 @@ Turn on/off displays
 
 
 
+
 #### [Docker Manager](https://github.com/LuckShiba/DmsDockerManager)
 
 Display Docker/Podman container status and management controls
@@ -581,6 +553,7 @@ Display Docker/Podman container status and management controls
 ![screenshot](https://raw.githubusercontent.com/LuckShiba/DmsDockerManager/main/assets/screenshot.png)
 
 </details>
+
 
 
 
@@ -613,6 +586,7 @@ Dolar Blue plugin for DankBar
 
 
 
+
 #### [Easy Effects Profile Switcher](https://github.com/jonkristian/dms-easyeffects)
 
 Quick switch between Easy Effects audio profiles
@@ -641,6 +615,7 @@ Quick switch between Easy Effects audio profiles
 
 
 
+
 #### [Emoji & Unicode Launcher](https://github.com/devnullvoid/dms-emoji-launcher)
 
 Search and copy 300+ emojis and 100+ unicode characters directly from the launcher with instant clipboard copying
@@ -665,6 +640,7 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 ![screenshot](https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true)
 
 </details>
+
 
 
 
@@ -702,6 +678,7 @@ Search and copy gitmojis from https://gitmoji.dev
 
 
 
+
 #### [Grimblast](https://github.com/TaylanTatli/dms-plugins)
 
 Quick screenshot menu for grimblast with multiple capture modes
@@ -735,6 +712,7 @@ Quick screenshot menu for grimblast with multiple capture modes
 
 
 
+
 #### [Kubernetes](https://github.com/psyreactor/dms-kubernetes)
 
 Kubernetes plugin for DankBar
@@ -759,6 +737,7 @@ Kubernetes plugin for DankBar
 ![screenshot](https://github.com/psyreactor/dms-kubernetes/raw/main/screenshot.png)
 
 </details>
+
 
 
 
@@ -791,6 +770,7 @@ List and switch to open Niri windows from the launcher
 
 
 
+
 #### [Pulsar X3 Mouse](https://github.com/jonkristian/dms-pulsar-x3)
 
 Monitor and control your Pulsar X3 gaming mouse
@@ -815,6 +795,7 @@ Monitor and control your Pulsar X3 gaming mouse
 ![screenshot](https://github.com/jonkristian/dms-pulsar-x3/blob/main/screenshot.png?raw=true)
 
 </details>
+
 
 
 
@@ -852,6 +833,7 @@ Search and download wallpapers
 
 
 
+
 #### [Web Search](https://github.com/devnullvoid/dms-web-search)
 
 Search the web with 23+ built-in search engines plus custom search engine support with keyword-based selection
@@ -876,6 +858,7 @@ Search the web with 23+ built-in search engines plus custom search engine suppor
 ![screenshot](https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true)
 
 </details>
+
 
 
 
@@ -909,10 +892,12 @@ Multiple timezones clock for DankBar
 
 
 
-----
+---
+
 
 
 ### Weather
+
 
 
 #### [Dank Desktop Weather](https://github.com/AvengeMedia/dms-plugins)
@@ -949,5 +934,99 @@ Feature-rich weather widget with current conditions, forecasts, and multiple vie
 
 
 
-----
+---
+
+
+
+## Themes
+
+
+
+
+### Everforest Hard
+
+Everforest is a green based color scheme, designed to be warm and soft
+
+- **Author:** fontaine
+- **ID:** `everforestHard` **Version:** `1.0.0`
+
+![Everforest Hard](themes/everforest-hard/preview.svg)
+
+
+
+### Everforest Medium
+
+Everforest is a green based color scheme, designed to be warm and soft
+
+- **Author:** fontaine
+- **ID:** `everforestMedium` **Version:** `1.0.0`
+
+![Everforest Medium](themes/everforest-medium/preview.svg)
+
+
+
+### Everforest Soft
+
+Everforest is a green based color scheme, designed to be warm and soft
+
+- **Author:** fontaine
+- **ID:** `everforestSoft` **Version:** `1.0.0`
+
+![Everforest Soft](themes/everforest-soft/preview.svg)
+
+
+
+### Gruvbox Material Hard
+
+Material (Hard) version of the popular Gruvbox theme with retro groove colors
+
+- **Author:** fontaine
+- **ID:** `gruvboxMaterialHard` **Version:** `1.0.0`
+
+![Gruvbox Material Hard](themes/gruvbox-material-hard/preview.svg)
+
+
+
+### Gruvbox Material Medium
+
+Material (Medium) version of the popular Gruvbox theme with retro groove colors
+
+- **Author:** fontaine
+- **ID:** `gruvboxMaterialMedium` **Version:** `1.0.0`
+
+![Gruvbox Material Medium](themes/gruvbox-material-medium/preview.svg)
+
+
+
+### Gruvbox Material Soft
+
+Material (Soft) version of the popular Gruvbox theme with retro groove colors
+
+- **Author:** fontaine
+- **ID:** `gruvboxMaterialSoft` **Version:** `1.0.0`
+
+![Gruvbox Material Soft](themes/gruvbox-material-soft/preview.svg)
+
+
+
+### Synthwave Electric
+
+Synthwave Electric color palette with contrasting colors, vibrant blues and sunset orange
+
+- **Author:** yayuuu
+- **ID:** `synthwaveElectric` **Version:** `1.0.0`
+
+![Synthwave Electric](themes/synthwave-electric/preview.svg)
+
+
+
+### Tokyo Night
+
+Popular Tokyo Night color scheme with vibrant blues and purples
+
+- **Author:** Avenge Media
+- **ID:** `tokyoNight` **Version:** `1.0.0`
+
+![Tokyo Night](themes/tokyonight/preview.svg)
+
 
