@@ -1009,6 +1009,17 @@ Material (Soft) version of the popular Gruvbox theme with retro groove colors
 
 
 
+### Kanagawa-wave-lotus
+
+Kanagawa theme using Lotus for light mode and Wave for dark mode.
+
+- **Author:** wirus
+- **ID:** `kanagawaWl` **Version:** `1.0.0`
+
+![Kanagawa-wave-lotus](themes/kanagawa-wl/preview.svg)
+
+
+
 ### Steam Deck
 
 Steam Deck inspired theme
