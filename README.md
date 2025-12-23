@@ -272,6 +272,35 @@ An alarm clock widget
 
 
 
+#### [Application Shortcut](https://github.com/oabragh/AppShortcut)
+
+Add application shortcuts in your desktop :)
+
+
+
+- id: appShortcut
+- name: Application Shortcut
+- author: Omar (@oabragh)
+- compositors: niri, hyprland
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/oabragh/AppShortcut/raw/main/assets/preview.png)
+
+</details>
+
+
+
+
+
 #### [Calculator](https://github.com/rochacbruno/DankCalculator)
 
 A calculator plugin that evaluates mathematical expressions and copies results to clipboard
