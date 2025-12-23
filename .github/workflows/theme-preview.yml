@@ -25,20 +25,18 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           path: pr
 
-      - name: Setup CML
-        uses: iterative/setup-cml@v3
+      - name: Install dependencies
+        run: sudo apt-get install -y librsvg2-bin
 
-      - name: Find changed themes and generate preview comment
+      - name: Find changed themes and generate previews
         id: preview
         env:
-          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd pr
 
-          # Fetch base ref for comparison
           git fetch origin ${{ github.event.pull_request.base.sha }} --depth=1
 
-          # Get list of theme directories that have changes
           changed_themes=$(git diff --name-only ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }} -- themes/ | \
             grep -oP '^themes/[^/]+' | sort -u || true)
 
@@ -50,10 +48,8 @@ jobs:
 
           echo "has_changes=true" >> $GITHUB_OUTPUT
 
-          # Generate previews only for changed themes
           python3 .github/generate_theme_previews.py
 
-          # Build the comment
           echo "## Theme Preview" > ../comment.md
           echo "" >> ../comment.md
 
@@ -63,7 +59,6 @@ jobs:
               continue
             fi
 
-            # Check if this is a new theme (doesn't exist in base)
             if [ ! -d "../base/${theme_dir}" ]; then
               badge="(new)"
             else
@@ -73,6 +68,7 @@ jobs:
             name=$(python3 -c "import json; print(json.load(open('${theme_dir}/theme.json'))['name'])")
             author=$(python3 -c "import json; print(json.load(open('${theme_dir}/theme.json'))['author'])")
             desc=$(python3 -c "import json; print(json.load(open('${theme_dir}/theme.json'))['description'])")
+            theme_slug=$(basename "$theme_dir")
 
             echo "### ${name} ${badge}" >> ../comment.md
             echo "" >> ../comment.md
@@ -81,10 +77,24 @@ jobs:
             echo "**Author:** ${author}" >> ../comment.md
             echo "" >> ../comment.md
 
-            # Upload SVG and embed as image
             if [ -f "${theme_dir}/preview.svg" ]; then
-              img_url=$(cml publish "${theme_dir}/preview.svg")
-              echo "![${name} preview](${img_url})" >> ../comment.md
+              rsvg-convert "${theme_dir}/preview.svg" -o "/tmp/${theme_slug}.png"
+
+              # Upload image to GitHub using their upload API
+              response=$(curl -s -X POST \
+                -H "Authorization: token $GH_TOKEN" \
+                -H "Content-Type: image/png" \
+                -H "Accept: application/json" \
+                --data-binary "@/tmp/${theme_slug}.png" \
+                "https://uploads.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/assets?name=${theme_slug}.png")
+
+              img_url=$(echo "$response" | python3 -c "import sys,json; print(json.load(sys.stdin).get('href',''))" 2>/dev/null || true)
+
+              if [ -n "$img_url" ]; then
+                echo "![${name}](${img_url})" >> ../comment.md
+              else
+                echo "_Preview generation failed_" >> ../comment.md
+              fi
               echo "" >> ../comment.md
             fi
 
