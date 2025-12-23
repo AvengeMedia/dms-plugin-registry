@@ -1047,7 +1047,7 @@ Popular Tokyo Night color scheme with vibrant blues and purples
 nord theme
 
 - **Author:** wirus
-- **ID:** `nord` **Version:** `1.0.0`
+- **ID:** `nord` **Version:** `1.0.1`
 
 ![nord](themes/nord/preview.svg)
 
