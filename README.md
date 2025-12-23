@@ -281,7 +281,7 @@ Add application shortcuts in your desktop :)
 - id: appShortcut
 - name: Application Shortcut
 - author: Omar (@oabragh)
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: desktop-widget
 - dependencies: 
 - distro: any
