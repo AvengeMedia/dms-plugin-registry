@@ -25,8 +25,13 @@ jobs:
           ref: ${{ github.event.pull_request.head.sha }}
           path: pr
 
+      - name: Setup CML
+        uses: iterative/setup-cml@v3
+
       - name: Find changed themes and generate preview comment
         id: preview
+        env:
+          REPO_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd pr
 
@@ -76,13 +81,10 @@ jobs:
             echo "**Author:** ${author}" >> ../comment.md
             echo "" >> ../comment.md
 
-            # Embed SVG preview inline
+            # Upload SVG and embed as image
             if [ -f "${theme_dir}/preview.svg" ]; then
-              echo "<details><summary>Preview</summary>" >> ../comment.md
-              echo "" >> ../comment.md
-              cat "${theme_dir}/preview.svg" >> ../comment.md
-              echo "" >> ../comment.md
-              echo "</details>" >> ../comment.md
+              img_url=$(cml publish "${theme_dir}/preview.svg")
+              echo "![${name} preview](${img_url})" >> ../comment.md
               echo "" >> ../comment.md
             fi
 
