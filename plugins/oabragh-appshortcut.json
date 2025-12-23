@@ -7,7 +7,7 @@
   "author": "Omar (@oabragh)",
   "description": "Add application shortcuts in your desktop :)",
   "dependencies": [],
-  "compositors": ["niri", "hyprland"],
+  "compositors": ["any"],
   "distro": ["any"],
   "screenshot": "https://github.com/oabragh/AppShortcut/raw/main/assets/preview.png"
 }
