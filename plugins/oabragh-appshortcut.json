@@ -2,7 +2,7 @@
   "id": "appShortcut",
   "name": "Application Shortcut",
   "capabilities": ["desktop-widget"],
-  "category": ["utilities"],
+  "category": "utilities",
   "repo": "https://github.com/oabragh/AppShortcut",
   "author": "Omar (@oabragh)",
   "description": "Add application shortcuts in your desktop :)",
