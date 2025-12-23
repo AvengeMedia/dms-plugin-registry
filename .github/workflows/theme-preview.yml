@@ -30,8 +30,6 @@ jobs:
 
       - name: Find changed themes and generate previews
         id: preview
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           cd pr
 
@@ -80,22 +78,12 @@ jobs:
             if [ -f "${theme_dir}/preview.svg" ]; then
               rsvg-convert "${theme_dir}/preview.svg" -o "/tmp/${theme_slug}.png"
 
-              # Upload image to GitHub using their upload API
-              response=$(curl -s -X POST \
-                -H "Authorization: token $GH_TOKEN" \
-                -H "Content-Type: image/png" \
-                -H "Accept: application/json" \
-                --data-binary "@/tmp/${theme_slug}.png" \
-                "https://uploads.github.com/repos/${{ github.repository }}/issues/${{ github.event.pull_request.number }}/assets?name=${theme_slug}.png")
+              img_url=$(curl -s -F "reqtype=fileupload" -F "fileToUpload=@/tmp/${theme_slug}.png" https://catbox.moe/user/api.php)
 
-              img_url=$(echo "$response" | python3 -c "import sys,json; print(json.load(sys.stdin).get('href',''))" 2>/dev/null || true)
-
-              if [ -n "$img_url" ]; then
+              if [ -n "$img_url" ] && [[ "$img_url" == http* ]]; then
                 echo "![${name}](${img_url})" >> ../comment.md
-              else
-                echo "_Preview generation failed_" >> ../comment.md
+                echo "" >> ../comment.md
               fi
-              echo "" >> ../comment.md
             fi
 
             echo "---" >> ../comment.md
