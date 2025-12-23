@@ -1,7 +1,7 @@
 {
   "id": "nord",
   "name": "nord",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "wirus",
   "description": "nord theme",
   "dark": {
@@ -10,7 +10,7 @@
     "primaryContainer": "#88c0d0",
     "secondary": "#b48ead",
     "surface": "#3b4252",
-    "surfaceText": "#5e81ac",
+    "surfaceText": "#eceff4",
     "surfaceVariant": "#434c5e",
     "surfaceVariantText": "#eceff4",
     "surfaceTint": "#81a1c1",
@@ -29,7 +29,7 @@
     "primaryContainer": "#398eac",
     "secondary": "#97365b",
     "surface": "#c2d0e7",
-    "surfaceText": "#5272af",
+    "surfaceText": "#2e3440",
     "surfaceVariant": "#b8c5db",
     "surfaceVariantText": "#3b4252",
     "surfaceTint": "#3b6ea8",
