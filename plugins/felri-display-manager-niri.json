@@ -1,0 +1,13 @@
+{
+  "id": "displayManager",
+  "name": "Display Manager",
+  "capabilities": ["dankbar-widget"],
+  "category": "system",
+  "repo": "https://github.com/felri/display-manager-plugin-niri-dank-linux",
+  "author": "felri",
+  "description": "Toggle Niri displays and control monitor hardware brightness via DDC/CI.",
+  "dependencies": ["ddcutil"],
+  "compositors": ["niri"],
+  "distro": ["any"],
+  "screenshot": "https://private-user-images.githubusercontent.com/56592364/530062610-a7dc5fc8-3d34-47bd-b118-aae94c62467f.png?jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3NjY1OTc3MjksIm5iZiI6MTc2NjU5NzQyOSwicGF0aCI6Ii81NjU5MjM2NC81MzAwNjI2MTAtYTdkYzVmYzgtM2QzNC00N2JkLWIxMTgtYWFlOTRjNjI0NjdmLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNTEyMjQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjUxMjI0VDE3MzAyOVomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTE5ZDg4Y2U4NTRiNjFhMWRlYTU1YTU0MjRiNmRkYzZlZjdhNGUwZjYyOWI0N2FkZWU1YzJmMTRmMTU0ZWQ2ZjcmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0In0.MYXgjI6tqzIYc3a1pBWuq1kvlDoujVpmY4QqxO_VJQA"
+}
