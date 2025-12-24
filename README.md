@@ -972,6 +972,17 @@ Feature-rich weather widget with current conditions, forecasts, and multiple vie
 
 
 
+### Dank Violet
+
+inspired by dank.
+
+- **Author:** wirus
+- **ID:** `dankViolet` **Version:** `1.0.0`
+
+![Dank Violet](themes/dank-violet/preview.svg)
+
+
+
 ### Everforest Hard
 
 Everforest is a green based color scheme, designed to be warm and soft
