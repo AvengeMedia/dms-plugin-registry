@@ -16,7 +16,7 @@
     "surfaceTint": "#7fb4ca",
     "background": "#16161d",
     "backgroundText": "#dcd7ba",
-    "outline": "#54546d",
+    "outline": "#dcd7ba",
     "surfaceContainer": "#223249",
     "surfaceContainerHigh": "#2d4f67",
     "error": "#e82424",
@@ -35,11 +35,12 @@
     "surfaceTint": "#c84053",
     "background": "#f2ecbc",
     "backgroundText": "#1f1f28",
-    "outline": "#a6a69c",
+    "outline": "#c84053",
     "surfaceContainer": "#e7dfb1",
     "surfaceContainerHigh": "#ddd39a",
     "error": "#c84053",
     "warning": "#dca561",
     "info": "#658594"
-  }
+  },
+  "sourceDir": "kanagawa-wl"
 }
