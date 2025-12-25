@@ -800,6 +800,35 @@ Kubernetes plugin for DankBar
 
 
 
+#### [Media Player](https://github.com/arrifat346afs/mediaPlayer)
+
+A desktop media player widget
+
+
+
+- id: mediaPlayer
+- name: Media Player
+- author: Abdur Rahman Rifat
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: cava
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/arrifat346afs/mediaPlayer/blob/main/screenshot_8.png)
+
+</details>
+
+
+
+
+
 #### [Niri Windows](https://github.com/rochacbruno/DankNiriWindows)
 
 List and switch to open Niri windows from the launcher
