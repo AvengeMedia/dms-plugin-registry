@@ -135,6 +135,35 @@ A new fresh daily wallpaper downloaded from a famous portal
 
 
 
+#### [Hyprland Submap](https://github.com/mesteryui/DMS_HyprlandSubmap)
+
+Shows the current submap in hyprland
+
+
+
+- id: hyprlandSubmap
+- name: Hyprland Submap
+- author: Mester
+- compositors: hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/mesteryui/DMS_HyprlandSubmap/raw/main/image_2025-12-24_20-47-31.png)
+
+</details>
+
+
+
+
+
 #### [Nix Monitor](https://github.com/antonjah/nix-monitor)
 
 Monitor Nix store disk usage and system generations with integrated system management capabilities
