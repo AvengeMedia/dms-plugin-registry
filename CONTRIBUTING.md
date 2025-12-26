@@ -203,6 +203,76 @@ Thank you for contributing a theme to the Dank Material Shell registry!
 - **warning**: Warning state color
 - **info**: Info state color
 
+### Theme Variants (Optional)
+
+If your theme has multiple contrast levels or style options (like hard/medium/soft), you can use the `variants` field instead of defining all colors at the top level.
+
+With variants, you put shared colors in the top-level `dark` and `light` objects, then define variant-specific colors in each variant option:
+
+```json
+{
+  "id": "everforest",
+  "name": "Everforest",
+  "version": "1.0.0",
+  "author": "fontaine",
+  "description": "Everforest is a green based color scheme",
+  "dark": {
+    "surfaceText": "#d3c6aa",
+    "primary": "#a7c080",
+    "secondary": "#7fbbb3",
+    "error": "#e57e80"
+  },
+  "light": {
+    "surfaceText": "#5c6a72",
+    "primary": "#8ca101",
+    "secondary": "#dea000",
+    "error": "#f75552"
+  },
+  "variants": {
+    "default": "medium",
+    "options": [
+      {
+        "id": "hard",
+        "name": "Hard",
+        "dark": {
+          "surface": "#1e2326",
+          "background": "#272e33",
+          "surfaceContainer": "#2e383c"
+        },
+        "light": {
+          "surface": "#f2efdf",
+          "background": "#fffbef",
+          "surfaceContainer": "#f2efdf"
+        }
+      },
+      {
+        "id": "medium",
+        "name": "Medium",
+        "dark": {
+          "surface": "#232a2e",
+          "background": "#2d353b",
+          "surfaceContainer": "#343f44"
+        },
+        "light": {
+          "surface": "#efebd4",
+          "background": "#fdf6e3",
+          "surfaceContainer": "#efebd4"
+        }
+      }
+    ]
+  }
+}
+```
+
+**Variant Fields:**
+- **variants.default**: The variant ID to use by default
+- **variants.options**: Array of variant definitions
+- **variants.options[].id**: Unique identifier for the variant (camelCase)
+- **variants.options[].name**: Display name for the variant
+- **variants.options[].dark/light**: Colors specific to this variant (merged with top-level colors)
+
+Colors in variant options override the top-level colors. Put colors that stay the same across variants at the top level, and colors that change per variant in the variant options.
+
 4. **Validate your theme locally**:
 
    ```bash

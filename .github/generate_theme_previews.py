@@ -53,6 +53,12 @@ def generate_single_preview(scheme: dict, name: str) -> str:
     return SINGLE_TEMPLATE.format(panel=panel)
 
 
+def resolve_variant(base_dark: dict, base_light: dict, variant: dict) -> tuple[dict, dict]:
+    dark = {**base_dark, **variant.get("dark", {})}
+    light = {**base_light, **variant.get("light", {})}
+    return dark, light
+
+
 def generate_all_previews(themes_dir: Path) -> None:
     if not themes_dir.exists():
         print("No themes/ directory found")
@@ -77,16 +83,45 @@ def generate_all_previews(themes_dir: Path) -> None:
             continue
 
         theme_name = theme.get("name", theme_dir.name)
+        base_dark, base_light = theme["dark"], theme["light"]
 
-        combined = generate_combined_preview(theme)
-        dark = generate_single_preview(theme["dark"], f"{theme_name} (dark)")
-        light = generate_single_preview(theme["light"], f"{theme_name} (light)")
+        if "variants" in theme:
+            variants = theme["variants"]
+            default_id = variants.get("default")
 
-        for filename, content in [("preview.svg", combined), ("preview-dark.svg", dark), ("preview-light.svg", light)]:
-            path = theme_dir / filename
-            with open(path, "w") as f:
-                f.write(content)
-            print(f"Generated {path}")
+            for variant in variants.get("options", []):
+                vid = variant["id"]
+                vname = variant.get("name", vid)
+                dark, light = resolve_variant(base_dark, base_light, variant)
+
+                resolved = {"dark": dark, "light": light, "name": f"{theme_name} {vname}"}
+                combined = generate_combined_preview(resolved)
+                dark_svg = generate_single_preview(dark, f"{theme_name} {vname} (dark)")
+                light_svg = generate_single_preview(light, f"{theme_name} {vname} (light)")
+
+                files = [
+                    (f"preview-{vid}.svg", combined),
+                    (f"preview-{vid}-dark.svg", dark_svg),
+                    (f"preview-{vid}-light.svg", light_svg),
+                ]
+                if vid == default_id:
+                    files += [("preview.svg", combined), ("preview-dark.svg", dark_svg), ("preview-light.svg", light_svg)]
+
+                for filename, content in files:
+                    path = theme_dir / filename
+                    with open(path, "w") as f:
+                        f.write(content)
+                    print(f"Generated {path}")
+        else:
+            combined = generate_combined_preview(theme)
+            dark = generate_single_preview(base_dark, f"{theme_name} (dark)")
+            light = generate_single_preview(base_light, f"{theme_name} (light)")
+
+            for filename, content in [("preview.svg", combined), ("preview-dark.svg", dark), ("preview-light.svg", light)]:
+                path = theme_dir / filename
+                with open(path, "w") as f:
+                    f.write(content)
+                print(f"Generated {path}")
 
 
 def main():
