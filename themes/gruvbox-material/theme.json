@@ -1,0 +1,108 @@
+{
+  "id": "gruvboxMaterial",
+  "name": "Gruvbox Material",
+  "version": "1.0.0",
+  "author": "fontaine",
+  "description": "Material version of the popular Gruvbox theme with retro groove colors",
+  "dark": {
+    "surfaceText": "#ddc7a1",
+    "surfaceVariantText": "#d4be98",
+    "backgroundText": "#ddc7a1",
+    "outline": "#a89984",
+    "primary": "#a8b665",
+    "secondary": "#d7a657",
+    "primaryContainer": "#a8b665",
+    "error": "#e96962",
+    "warning": "#e68a4e",
+    "info": "#d7a657"
+  },
+  "light": {
+    "surfaceText": "#4e3829",
+    "surfaceVariantText": "#644735",
+    "backgroundText": "#4e3829",
+    "outline": "#7c6f64",
+    "primary": "#6b782e",
+    "secondary": "#b37109",
+    "primaryContainer": "#6b782e",
+    "error": "#c04a4a",
+    "warning": "#c25e0a",
+    "info": "#b37109"
+  },
+  "variants": {
+    "default": "medium",
+    "options": [
+      {
+        "id": "hard",
+        "name": "Hard",
+        "dark": {
+          "surface": "#141617",
+          "surfaceVariant": "#1d2021",
+          "background": "#1d2021",
+          "surfaceContainer": "#282828",
+          "surfaceContainerHigh": "#3c3836",
+          "surfaceContainerHighest": "#504945",
+          "primaryText": "#141617",
+          "surfaceTint": "#333e34"
+        },
+        "light": {
+          "surface": "#f3eac7",
+          "surfaceVariant": "#f9f5d7",
+          "background": "#f9f5d7",
+          "surfaceContainer": "#f5edca",
+          "surfaceContainerHigh": "#f2e5bc",
+          "surfaceContainerHighest": "#ebdbb2",
+          "primaryText": "#f3eac7",
+          "surfaceTint": "#dde5c2"
+        }
+      },
+      {
+        "id": "medium",
+        "name": "Medium",
+        "dark": {
+          "surface": "#1b1b1b",
+          "surfaceVariant": "#282828",
+          "background": "#282828",
+          "surfaceContainer": "#32302f",
+          "surfaceContainerHigh": "#45403d",
+          "surfaceContainerHighest": "#5a524c",
+          "primaryText": "#1b1b1b",
+          "surfaceTint": "#3b4439"
+        },
+        "light": {
+          "surface": "#f2e5bc",
+          "surfaceVariant": "#fbf1c7",
+          "background": "#fbf1c7",
+          "surfaceContainer": "#f4e8be",
+          "surfaceContainerHigh": "#eee0b7",
+          "surfaceContainerHighest": "#ddccab",
+          "primaryText": "#f2e5bc",
+          "surfaceTint": "#dee2b6"
+        }
+      },
+      {
+        "id": "soft",
+        "name": "Soft",
+        "dark": {
+          "surface": "#252423",
+          "surfaceVariant": "#32302f",
+          "background": "#32302f",
+          "surfaceContainer": "#3c3836",
+          "surfaceContainerHigh": "#504945",
+          "surfaceContainerHighest": "#665c54",
+          "primaryText": "#252423",
+          "surfaceTint": "#424a3e"
+        },
+        "light": {
+          "surface": "#ebdbb2",
+          "surfaceVariant": "#f2e5bc",
+          "background": "#f2e5bc",
+          "surfaceContainer": "#eddeb5",
+          "surfaceContainerHigh": "#e6d5ae",
+          "surfaceContainerHighest": "#d5c4a1",
+          "primaryText": "#ebdbb2",
+          "surfaceTint": "#d7d9ae"
+        }
+      }
+    ]
+  }
+}

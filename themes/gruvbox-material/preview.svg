@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="484" height="240" viewBox="0 0 484 240">
+  <g transform="translate(0, 0)">
+  <rect width="240" height="240" fill="#282828"/>
+  <rect x="8" y="8" width="224" height="224" rx="8" fill="#1b1b1b"/>
+  <rect x="16" y="16" width="208" height="36" rx="6" fill="#32302f"/>
+  <text x="28" y="40" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#ddc7a1">Gruvbox Material Medium (dark)</text>
+  <rect x="16" y="60" width="208" height="72" rx="6" fill="#45403d"/>
+  <text x="28" y="82" font-family="system-ui, sans-serif" font-size="11" fill="#ddc7a1">Surface Text</text>
+  <text x="28" y="98" font-family="system-ui, sans-serif" font-size="10" fill="#a89984">Outline color</text>
+  <rect x="28" y="108" width="72" height="18" rx="9" fill="#a8b665"/>
+  <text x="64" y="120" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#1b1b1b">Primary</text>
+  <rect x="108" y="108" width="48" height="18" rx="4" fill="#d7a657"/>
+  <rect x="16" y="140" width="100" height="52" rx="6" fill="#32302f"/>
+  <rect x="24" y="148" width="84" height="36" rx="4" fill="#282828"/>
+  <text x="66" y="170" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#ddc7a1">Background</text>
+  <rect x="124" y="140" width="100" height="52" rx="6" fill="#32302f"/>
+  <circle cx="148" cy="166" r="9" fill="#e96962"/>
+  <circle cx="172" cy="166" r="9" fill="#e68a4e"/>
+  <circle cx="196" cy="166" r="9" fill="#d7a657"/>
+  <rect x="16" y="200" width="208" height="24" rx="4" fill="#3b4439" opacity="0.15"/>
+  <text x="120" y="216" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#ddc7a1">Surface Tint Overlay</text>
+</g>
+  <rect x="240" y="0" width="4" height="240" fill="#888"/>
+  <g transform="translate(244, 0)">
+  <rect width="240" height="240" fill="#fbf1c7"/>
+  <rect x="8" y="8" width="224" height="224" rx="8" fill="#f2e5bc"/>
+  <rect x="16" y="16" width="208" height="36" rx="6" fill="#f4e8be"/>
+  <text x="28" y="40" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#4e3829">Gruvbox Material Medium (light)</text>
+  <rect x="16" y="60" width="208" height="72" rx="6" fill="#eee0b7"/>
+  <text x="28" y="82" font-family="system-ui, sans-serif" font-size="11" fill="#4e3829">Surface Text</text>
+  <text x="28" y="98" font-family="system-ui, sans-serif" font-size="10" fill="#7c6f64">Outline color</text>
+  <rect x="28" y="108" width="72" height="18" rx="9" fill="#6b782e"/>
+  <text x="64" y="120" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#f2e5bc">Primary</text>
+  <rect x="108" y="108" width="48" height="18" rx="4" fill="#b37109"/>
+  <rect x="16" y="140" width="100" height="52" rx="6" fill="#f4e8be"/>
+  <rect x="24" y="148" width="84" height="36" rx="4" fill="#fbf1c7"/>
+  <text x="66" y="170" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#4e3829">Background</text>
+  <rect x="124" y="140" width="100" height="52" rx="6" fill="#f4e8be"/>
+  <circle cx="148" cy="166" r="9" fill="#c04a4a"/>
+  <circle cx="172" cy="166" r="9" fill="#c25e0a"/>
+  <circle cx="196" cy="166" r="9" fill="#b37109"/>
+  <rect x="16" y="200" width="208" height="24" rx="4" fill="#dee2b6" opacity="0.15"/>
+  <text x="120" y="216" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#4e3829">Surface Tint Overlay</text>
+</g>
+</svg>
