@@ -35,13 +35,14 @@ def is_camel_case(s: str) -> bool:
     return bool(CAMEL_CASE_PATTERN.match(s))
 
 
-def validate_color_scheme(scheme: dict, scheme_name: str) -> list[str]:
+def validate_color_scheme(scheme: dict, scheme_name: str, required_fields: list[str] = None) -> list[str]:
     errors = []
+    fields = required_fields if required_fields is not None else REQUIRED_COLOR_FIELDS
 
     if not isinstance(scheme, dict):
         return [f"{scheme_name} must be an object"]
 
-    for field in REQUIRED_COLOR_FIELDS:
+    for field in fields:
         if field not in scheme:
             errors.append(f"{scheme_name} missing required field: {field}")
             continue
@@ -51,6 +52,51 @@ def validate_color_scheme(scheme: dict, scheme_name: str) -> list[str]:
             errors.append(f"{scheme_name}.{field} must be a string")
         elif not is_valid_hex_color(value):
             errors.append(f"{scheme_name}.{field} must be a valid hex color (got: {value})")
+
+    return errors
+
+
+def validate_variants(theme: dict) -> list[str]:
+    errors = []
+    variants = theme.get("variants", {})
+    options = variants.get("options", [])
+    default_id = variants.get("default")
+
+    if not options:
+        errors.append("variants.options must be a non-empty array")
+        return errors
+
+    if not default_id:
+        errors.append("variants.default is required")
+
+    variant_ids = []
+    for i, variant in enumerate(options):
+        vid = variant.get("id")
+        vname = variant.get("name")
+
+        if not vid:
+            errors.append(f"variants.options[{i}] missing required field: id")
+        elif not isinstance(vid, str):
+            errors.append(f"variants.options[{i}].id must be a string")
+        else:
+            variant_ids.append(vid)
+
+        if not vname:
+            errors.append(f"variants.options[{i}] missing required field: name")
+
+        for mode in ["dark", "light"]:
+            base = theme.get(mode, {})
+            override = variant.get(mode, {})
+            resolved = {**base, **override}
+            label = f"variants.options[{i}] ({vid or i}) resolved {mode}"
+            errors.extend(validate_color_scheme(resolved, label))
+
+            for key, value in override.items():
+                if not is_valid_hex_color(value):
+                    errors.append(f"variants.options[{i}].{mode}.{key} must be a valid hex color (got: {value})")
+
+    if default_id and default_id not in variant_ids:
+        errors.append(f"variants.default '{default_id}' not found in options")
 
     return errors
 
@@ -93,11 +139,13 @@ def validate_theme(theme_file: Path) -> list[str]:
     if "description" in theme and (not isinstance(theme["description"], str) or not theme["description"].strip()):
         errors.append("description must be a non-empty string")
 
-    if "dark" in theme:
-        errors.extend(validate_color_scheme(theme["dark"], "dark"))
-
-    if "light" in theme:
-        errors.extend(validate_color_scheme(theme["light"], "light"))
+    if "variants" in theme:
+        errors.extend(validate_variants(theme))
+    else:
+        if "dark" in theme:
+            errors.extend(validate_color_scheme(theme["dark"], "dark"))
+        if "light" in theme:
+            errors.extend(validate_color_scheme(theme["light"], "light"))
 
     return errors
 
