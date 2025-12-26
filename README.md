@@ -858,6 +858,35 @@ A desktop media player widget
 
 
 
+#### [Nepali Calendar](https://github.com/AC17dollars/dms-nepali-calendar)
+
+Get the current Nepali date
+
+
+
+- id: nepaliCalendar
+- name: Nepali Calendar
+- author: ac17dollars (Abhinav Chalise)
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AC17dollars/dms-nepali-calendar/main/assets/horizontal.png)
+
+</details>
+
+
+
+
+
 #### [Niri Windows](https://github.com/rochacbruno/DankNiriWindows)
 
 List and switch to open Niri windows from the launcher
