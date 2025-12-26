@@ -259,6 +259,35 @@ Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
 
 
 
+#### [Display Manager](https://github.com/felri/display-manager-plugin-niri-dank-linux)
+
+Toggle Niri displays and control monitor hardware brightness, contrast, scale, refresh rate, and resolution.
+
+
+
+- id: displayManager
+- name: Display Manager
+- author: felri
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: ddcutil
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/user-attachments/assets/5603ecb0-b8f0-4278-9360-6e895a5109e9)
+
+</details>
+
+
+
+
+
 ---
 
 
