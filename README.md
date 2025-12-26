@@ -1081,36 +1081,14 @@ Everforest is a green based color scheme, designed to be warm and soft
 
 
 
-### Gruvbox Material Hard
+### Gruvbox Material
 
-Material (Hard) version of the popular Gruvbox theme with retro groove colors
-
-- **Author:** fontaine
-- **ID:** `gruvboxMaterialHard` **Version:** `1.0.0`
-
-![Gruvbox Material Hard](themes/gruvbox-material-hard/preview.svg)
-
-
-
-### Gruvbox Material Medium
-
-Material (Medium) version of the popular Gruvbox theme with retro groove colors
+Material version of the popular Gruvbox theme with retro groove colors
 
 - **Author:** fontaine
-- **ID:** `gruvboxMaterialMedium` **Version:** `1.0.0`
+- **ID:** `gruvboxMaterial` **Version:** `1.0.0`
 
-![Gruvbox Material Medium](themes/gruvbox-material-medium/preview.svg)
-
-
-
-### Gruvbox Material Soft
-
-Material (Soft) version of the popular Gruvbox theme with retro groove colors
-
-- **Author:** fontaine
-- **ID:** `gruvboxMaterialSoft` **Version:** `1.0.0`
-
-![Gruvbox Material Soft](themes/gruvbox-material-soft/preview.svg)
+![Gruvbox Material](themes/gruvbox-material/preview.svg)
 
 
 
