@@ -1070,36 +1070,14 @@ inspired by dank.
 
 
 
-### Everforest Hard
+### Everforest
 
 Everforest is a green based color scheme, designed to be warm and soft
 
 - **Author:** fontaine
-- **ID:** `everforestHard` **Version:** `1.0.0`
+- **ID:** `everforest` **Version:** `1.0.0`
 
-![Everforest Hard](themes/everforest-hard/preview.svg)
-
-
-
-### Everforest Medium
-
-Everforest is a green based color scheme, designed to be warm and soft
-
-- **Author:** fontaine
-- **ID:** `everforestMedium` **Version:** `1.0.0`
-
-![Everforest Medium](themes/everforest-medium/preview.svg)
-
-
-
-### Everforest Soft
-
-Everforest is a green based color scheme, designed to be warm and soft
-
-- **Author:** fontaine
-- **ID:** `everforestSoft` **Version:** `1.0.0`
-
-![Everforest Soft](themes/everforest-soft/preview.svg)
+![Everforest](themes/everforest/preview.svg)
 
 
 
