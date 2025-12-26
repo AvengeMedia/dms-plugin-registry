@@ -1064,7 +1064,7 @@ Feature-rich weather widget with current conditions, forecasts, and multiple vie
 inspired by dank.
 
 - **Author:** wirus
-- **ID:** `dankViolet` **Version:** `1.0.0`
+- **ID:** `dankViolet` **Version:** `1.0.2`
 
 ![Dank Violet](themes/dank-violet/preview.svg)
 
