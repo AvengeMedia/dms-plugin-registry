@@ -1088,6 +1088,17 @@ Feature-rich weather widget with current conditions, forecasts, and multiple vie
 
 
 
+### Catppuccin
+
+Soothing pastel theme for the high-spirited
+
+- **Author:** Avenge Media
+- **ID:** `catppuccin` **Version:** `1.0.0`
+
+![Catppuccin](themes/catppuccin/preview.svg)
+
+
+
 ### Dank Violet
 
 inspired by dank.
