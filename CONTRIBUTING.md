@@ -267,11 +267,65 @@ With variants, you put shared colors in the top-level `dark` and `light` objects
 **Variant Fields:**
 - **variants.default**: The variant ID to use by default
 - **variants.options**: Array of variant definitions
-- **variants.options[].id**: Unique identifier for the variant (camelCase)
+- **variants.options[].id**: Unique identifier for the variant
 - **variants.options[].name**: Display name for the variant
 - **variants.options[].dark/light**: Colors specific to this variant (merged with top-level colors)
 
 Colors in variant options override the top-level colors. Put colors that stay the same across variants at the top level, and colors that change per variant in the variant options.
+
+### Multi-Dimensional Variants (Optional)
+
+For themes with two independent variant axes (like Catppuccin with flavor + accent), use `type: "multi"`:
+
+```json
+{
+  "id": "catppuccin",
+  "name": "Catppuccin",
+  "version": "1.0.0",
+  "author": "Catppuccin",
+  "description": "Soothing pastel theme",
+  "dark": {},
+  "light": {},
+  "variants": {
+    "type": "multi",
+    "defaults": {
+      "dark": { "flavor": "mocha", "accent": "mauve" },
+      "light": { "flavor": "latte", "accent": "mauve" }
+    },
+    "flavors": [
+      {
+        "id": "mocha",
+        "name": "Mocha",
+        "dark": { "surface": "#181825", "surfaceText": "#cdd6f4", "..." }
+      },
+      {
+        "id": "latte",
+        "name": "Latte",
+        "light": { "surface": "#e6e9ef", "surfaceText": "#4c4f69", "..." }
+      }
+    ],
+    "accents": [
+      {
+        "id": "mauve",
+        "name": "Mauve",
+        "mocha": { "primary": "#cba6f7", "secondary": "#b4befe", "..." },
+        "latte": { "primary": "#8839ef", "secondary": "#7287fd", "..." }
+      }
+    ]
+  }
+}
+```
+
+**Multi-Variant Fields:**
+- **variants.type**: Set to `"multi"` for two-dimensional variants
+- **variants.defaults.dark**: Default flavor + accent for dark mode
+- **variants.defaults.light**: Default flavor + accent for light mode
+- **variants.flavors[]**: Base color sets (each has `dark` OR `light` key to indicate mode)
+- **variants.accents[]**: Accent colors keyed by flavor ID
+
+Resolution: `base[mode] + flavor[mode] + accent[flavorId]`
+
+UI toggles dark/light mode → picks the corresponding default flavor+accent.
 
 4. **Validate your theme locally**:
 

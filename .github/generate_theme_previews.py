@@ -59,6 +59,16 @@ def resolve_variant(base_dark: dict, base_light: dict, variant: dict) -> tuple[d
     return dark, light
 
 
+def resolve_multi_variant(theme: dict, flavor: dict, accent: dict) -> tuple[dict, str]:
+    fid = flavor["id"]
+    mode = "dark" if "dark" in flavor else "light"
+    base = theme.get(mode, {})
+    flavor_colors = flavor.get(mode, {})
+    accent_colors = accent.get(fid, {})
+    resolved = {**base, **flavor_colors, **accent_colors}
+    return resolved, mode
+
+
 def generate_all_previews(themes_dir: Path) -> None:
     if not themes_dir.exists():
         print("No themes/ directory found")
@@ -87,31 +97,80 @@ def generate_all_previews(themes_dir: Path) -> None:
 
         if "variants" in theme:
             variants = theme["variants"]
-            default_id = variants.get("default")
 
-            for variant in variants.get("options", []):
-                vid = variant["id"]
-                vname = variant.get("name", vid)
-                dark, light = resolve_variant(base_dark, base_light, variant)
+            if variants.get("type") == "multi":
+                defaults = variants.get("defaults", {})
+                dark_defaults = defaults.get("dark", {})
+                light_defaults = defaults.get("light", {})
+                flavors = variants.get("flavors", [])
+                accents = variants.get("accents", [])
 
-                resolved = {"dark": dark, "light": light, "name": f"{theme_name} {vname}"}
-                combined = generate_combined_preview(resolved)
-                dark_svg = generate_single_preview(dark, f"{theme_name} {vname} (dark)")
-                light_svg = generate_single_preview(light, f"{theme_name} {vname} (light)")
+                for flavor in flavors:
+                    fid = flavor["id"]
+                    fname = flavor.get("name", fid)
 
-                files = [
-                    (f"preview-{vid}.svg", combined),
-                    (f"preview-{vid}-dark.svg", dark_svg),
-                    (f"preview-{vid}-light.svg", light_svg),
-                ]
-                if vid == default_id:
-                    files += [("preview.svg", combined), ("preview-dark.svg", dark_svg), ("preview-light.svg", light_svg)]
+                    for accent in accents:
+                        aid = accent["id"]
+                        aname = accent.get("name", aid)
+                        resolved, mode = resolve_multi_variant(theme, flavor, accent)
+                        label = f"{theme_name} {fname} {aname}"
 
-                for filename, content in files:
-                    path = theme_dir / filename
+                        svg = generate_single_preview(resolved, label)
+                        filename = f"preview-{fid}-{aid}.svg"
+                        path = theme_dir / filename
+                        with open(path, "w") as f:
+                            f.write(svg)
+                        print(f"Generated {path}")
+
+                dark_flavor = next((f for f in flavors if f["id"] == dark_defaults.get("flavor")), None)
+                dark_accent = next((a for a in accents if a["id"] == dark_defaults.get("accent")), None)
+                light_flavor = next((f for f in flavors if f["id"] == light_defaults.get("flavor")), None)
+                light_accent = next((a for a in accents if a["id"] == light_defaults.get("accent")), None)
+
+                if dark_flavor and dark_accent:
+                    resolved, _ = resolve_multi_variant(theme, dark_flavor, dark_accent)
+                    label = f"{theme_name} {dark_flavor.get('name')} {dark_accent.get('name')} (dark)"
+                    svg = generate_single_preview(resolved, label)
+                    for filename in ["preview.svg", "preview-dark.svg"]:
+                        path = theme_dir / filename
+                        with open(path, "w") as f:
+                            f.write(svg)
+                        print(f"Generated {path}")
+
+                if light_flavor and light_accent:
+                    resolved, _ = resolve_multi_variant(theme, light_flavor, light_accent)
+                    label = f"{theme_name} {light_flavor.get('name')} {light_accent.get('name')} (light)"
+                    svg = generate_single_preview(resolved, label)
+                    path = theme_dir / "preview-light.svg"
                     with open(path, "w") as f:
-                        f.write(content)
+                        f.write(svg)
                     print(f"Generated {path}")
+            else:
+                default_id = variants.get("default")
+
+                for variant in variants.get("options", []):
+                    vid = variant["id"]
+                    vname = variant.get("name", vid)
+                    dark, light = resolve_variant(base_dark, base_light, variant)
+
+                    resolved = {"dark": dark, "light": light, "name": f"{theme_name} {vname}"}
+                    combined = generate_combined_preview(resolved)
+                    dark_svg = generate_single_preview(dark, f"{theme_name} {vname} (dark)")
+                    light_svg = generate_single_preview(light, f"{theme_name} {vname} (light)")
+
+                    files = [
+                        (f"preview-{vid}.svg", combined),
+                        (f"preview-{vid}-dark.svg", dark_svg),
+                        (f"preview-{vid}-light.svg", light_svg),
+                    ]
+                    if vid == default_id:
+                        files += [("preview.svg", combined), ("preview-dark.svg", dark_svg), ("preview-light.svg", light_svg)]
+
+                    for filename, content in files:
+                        path = theme_dir / filename
+                        with open(path, "w") as f:
+                            f.write(content)
+                        print(f"Generated {path}")
         else:
             combined = generate_combined_preview(theme)
             dark = generate_single_preview(base_dark, f"{theme_name} (dark)")
