@@ -1,0 +1,59 @@
+name: Nix Prefetch
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    - cron: 0 0 * * *
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: cachix/install-nix-action@v31
+      - uses: actions/checkout@v5
+        with:
+          ref: ${{ github.head_ref }}
+      - name: Generate plugin data
+        run: |
+          PLUGINS_PREFETCH="$(pwd)/nix/plugins-prefetch.json"
+          echo "{" > "$PLUGINS_PREFETCH"
+          cd plugins
+          for plugin in *; do
+              echo "\"$(jq -r '.id' $plugin)\":" >> "$PLUGINS_PREFETCH"
+              nix shell nixpkgs#nix-prefetch-git \
+                --command nix-prefetch-git "$(jq -r '.repo' $plugin)" \
+                | jq --slurpfile meta "$plugin" '.meta = $meta[0]' \
+                >> "$PLUGINS_PREFETCH"
+                echo "," >> "$PLUGINS_PREFETCH"
+          done
+          # Remove last comma
+          sed -i '$ d' "$PLUGINS_PREFETCH"
+          echo "}" >> "$PLUGINS_PREFETCH"
+          # Clean up json
+          TMP="$(mktemp)"
+          mv "$PLUGINS_PREFETCH" "$TMP"
+          jq . "$TMP" > "$PLUGINS_PREFETCH"
+      - name: Check for changes
+        id: check_changes
+        run: |
+          git add -A
+          if git diff --cached --quiet; then
+            echo "changed=false" >> $GITHUB_OUTPUT
+          else
+            echo "changed=true" >> $GITHUB_OUTPUT
+          fi
+      # Check after plugins-prefetch.json is added to git
+      - name: Nix flake check
+        run: nix flake check
+      - name: Commit and push if changed
+        if: steps.check_changes.outputs.changed == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git commit -m "chore: update nix prefetch data [skip ci]"
+          git pull --rebase
+          git push
