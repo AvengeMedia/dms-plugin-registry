@@ -156,7 +156,7 @@ Shows the current submap in hyprland
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://github.com/mesteryui/DMS_HyprlandSubmap/raw/main/image_2025-12-24_20-47-31.png)
+![screenshot](https://raw.githubusercontent.com/mesteryui/DMS_HyprlandSubmap/refs/heads/main/assets/hyprlandSubmapPassthroughExample.png)
 
 </details>
 
@@ -937,7 +937,7 @@ Display Islamic prayer times from Aladhan API
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://github.com/muadzmo/prayertimes/blob/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png)
 
 </details>
 
