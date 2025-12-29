@@ -945,6 +945,35 @@ Monitor and control your Pulsar X3 gaming mouse
 
 
 
+#### [Tailscale Manager](https://github.com/cglavin50/dms-tailscale)
+
+Tailscale-toggle plugin for DankBar
+
+
+
+- id: tailscale
+- name: Tailscale Manager
+- author: cglavin50
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: tailscale
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/cglavin50/dms-tailscale/raw/main/plugin-notif.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper Discovery](https://github.com/lucyfire/dms-plugins)
 
 Search and download wallpapers
