@@ -1,0 +1,13 @@
+{
+    "id": "mediaPlayer",
+    "name": "Media Player",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/arrifat346afs/mediaPlayer",
+    "author": "Abdur Rahman Rifat",
+    "description": "A desktop media player widget",
+    "dependencies": ["cava"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/arrifat346afs/mediaPlayer/refs/heads/main/screenshot_8.png"
+}

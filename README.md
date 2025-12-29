@@ -135,6 +135,35 @@ A new fresh daily wallpaper downloaded from a famous portal
 
 
 
+#### [Hyprland Submap](https://github.com/mesteryui/DMS_HyprlandSubmap)
+
+Shows the current submap in hyprland
+
+
+
+- id: hyprlandSubmap
+- name: Hyprland Submap
+- author: Mester
+- compositors: hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/mesteryui/DMS_HyprlandSubmap/refs/heads/main/assets/hyprlandSubmapPassthroughExample.png)
+
+</details>
+
+
+
+
+
 #### [Nix Monitor](https://github.com/antonjah/nix-monitor)
 
 Monitor Nix store disk usage and system generations with integrated system management capabilities
@@ -223,6 +252,35 @@ Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/pseudofractal/AsusControl/main/assets/popup.png)
+
+</details>
+
+
+
+
+
+#### [Display Manager](https://github.com/felri/display-manager-plugin-niri-dank-linux)
+
+Toggle Niri displays and control monitor hardware brightness, contrast, scale, refresh rate, and resolution.
+
+
+
+- id: displayManager
+- name: Display Manager
+- author: felri
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: ddcutil
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/felri/display-manager-plugin-niri-dank-linux/refs/heads/main/assets/screenshot.png)
 
 </details>
 
@@ -771,6 +829,64 @@ Kubernetes plugin for DankBar
 
 
 
+#### [Media Player](https://github.com/arrifat346afs/mediaPlayer)
+
+A desktop media player widget
+
+
+
+- id: mediaPlayer
+- name: Media Player
+- author: Abdur Rahman Rifat
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: cava
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arrifat346afs/mediaPlayer/refs/heads/main/screenshot_8.png)
+
+</details>
+
+
+
+
+
+#### [Nepali Calendar](https://github.com/AC17dollars/dms-nepali-calendar)
+
+Get the current Nepali date
+
+
+
+- id: nepaliCalendar
+- name: Nepali Calendar
+- author: ac17dollars (Abhinav Chalise)
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AC17dollars/dms-nepali-calendar/main/assets/horizontal.png)
+
+</details>
+
+
+
+
+
 #### [Niri Windows](https://github.com/rochacbruno/DankNiriWindows)
 
 List and switch to open Niri windows from the launcher
@@ -800,6 +916,35 @@ List and switch to open Niri windows from the launcher
 
 
 
+#### [Prayer Times](https://github.com/muadzmo/prayertimes)
+
+Display Islamic prayer times from Aladhan API
+
+
+
+- id: prayerTimes
+- name: Prayer Times
+- author: muadz
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Pulsar X3 Mouse](https://github.com/jonkristian/dms-pulsar-x3)
 
 Monitor and control your Pulsar X3 gaming mouse
@@ -822,6 +967,35 @@ Monitor and control your Pulsar X3 gaming mouse
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/jonkristian/dms-pulsar-x3/blob/main/screenshot.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [Tailscale Manager](https://github.com/cglavin50/dms-tailscale)
+
+Tailscale-toggle plugin for DankBar
+
+
+
+- id: tailscale
+- name: Tailscale Manager
+- author: cglavin50
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: tailscale
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/cglavin50/dms-tailscale/raw/main/plugin-notif.png)
 
 </details>
 
@@ -972,80 +1146,47 @@ Feature-rich weather widget with current conditions, forecasts, and multiple vie
 
 
 
+### Catppuccin
+
+Soothing pastel theme for the high-spirited
+
+- **Author:** Avenge Media
+- **ID:** `catppuccin` **Version:** `1.0.0`
+
+![Catppuccin](themes/catppuccin/preview.svg)
+
+
+
 ### Dank Violet
 
 inspired by dank.
 
 - **Author:** wirus
-- **ID:** `dankViolet` **Version:** `1.0.0`
+- **ID:** `dankViolet` **Version:** `1.0.2`
 
 ![Dank Violet](themes/dank-violet/preview.svg)
 
 
 
-### Everforest Hard
+### Everforest
 
 Everforest is a green based color scheme, designed to be warm and soft
 
 - **Author:** fontaine
-- **ID:** `everforestHard` **Version:** `1.0.0`
+- **ID:** `everforest` **Version:** `1.0.0`
 
-![Everforest Hard](themes/everforest-hard/preview.svg)
-
-
-
-### Everforest Medium
-
-Everforest is a green based color scheme, designed to be warm and soft
-
-- **Author:** fontaine
-- **ID:** `everforestMedium` **Version:** `1.0.0`
-
-![Everforest Medium](themes/everforest-medium/preview.svg)
+![Everforest](themes/everforest/preview.svg)
 
 
 
-### Everforest Soft
+### Gruvbox Material
 
-Everforest is a green based color scheme, designed to be warm and soft
+Material version of the popular Gruvbox theme with retro groove colors
 
 - **Author:** fontaine
-- **ID:** `everforestSoft` **Version:** `1.0.0`
+- **ID:** `gruvboxMaterial` **Version:** `1.0.0`
 
-![Everforest Soft](themes/everforest-soft/preview.svg)
-
-
-
-### Gruvbox Material Hard
-
-Material (Hard) version of the popular Gruvbox theme with retro groove colors
-
-- **Author:** fontaine
-- **ID:** `gruvboxMaterialHard` **Version:** `1.0.0`
-
-![Gruvbox Material Hard](themes/gruvbox-material-hard/preview.svg)
-
-
-
-### Gruvbox Material Medium
-
-Material (Medium) version of the popular Gruvbox theme with retro groove colors
-
-- **Author:** fontaine
-- **ID:** `gruvboxMaterialMedium` **Version:** `1.0.0`
-
-![Gruvbox Material Medium](themes/gruvbox-material-medium/preview.svg)
-
-
-
-### Gruvbox Material Soft
-
-Material (Soft) version of the popular Gruvbox theme with retro groove colors
-
-- **Author:** fontaine
-- **ID:** `gruvboxMaterialSoft` **Version:** `1.0.0`
-
-![Gruvbox Material Soft](themes/gruvbox-material-soft/preview.svg)
+![Gruvbox Material](themes/gruvbox-material/preview.svg)
 
 
 

@@ -1,0 +1,13 @@
+{
+    "id": "tailscale",
+    "name": "Tailscale Manager",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/cglavin50/dms-tailscale",
+    "author": "cglavin50",
+    "description": "Tailscale-toggle plugin for DankBar",
+    "dependencies": ["tailscale"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/cglavin50/dms-tailscale/raw/main/plugin-notif.png"
+}

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <g transform="translate(0, 0)">
+  <rect width="240" height="240" fill="#eff1f5"/>
+  <rect x="8" y="8" width="224" height="224" rx="8" fill="#e6e9ef"/>
+  <rect x="16" y="16" width="208" height="36" rx="6" fill="#e6e9ef"/>
+  <text x="28" y="40" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#4c4f69">Catppuccin Latte Mauve (light)</text>
+  <rect x="16" y="60" width="208" height="72" rx="6" fill="#ccd0da"/>
+  <text x="28" y="82" font-family="system-ui, sans-serif" font-size="11" fill="#4c4f69">Surface Text</text>
+  <text x="28" y="98" font-family="system-ui, sans-serif" font-size="10" fill="#9ca0b0">Outline color</text>
+  <rect x="28" y="108" width="72" height="18" rx="9" fill="#8839ef"/>
+  <text x="64" y="120" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#eff1f5">Primary</text>
+  <rect x="108" y="108" width="48" height="18" rx="4" fill="#7287fd"/>
+  <rect x="16" y="140" width="100" height="52" rx="6" fill="#e6e9ef"/>
+  <rect x="24" y="148" width="84" height="36" rx="4" fill="#eff1f5"/>
+  <text x="66" y="170" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#4c4f69">Background</text>
+  <rect x="124" y="140" width="100" height="52" rx="6" fill="#e6e9ef"/>
+  <circle cx="148" cy="166" r="9" fill="#d20f39"/>
+  <circle cx="172" cy="166" r="9" fill="#fe640b"/>
+  <circle cx="196" cy="166" r="9" fill="#1e66f5"/>
+  <rect x="16" y="200" width="208" height="24" rx="4" fill="#eadcff" opacity="0.15"/>
+  <text x="120" y="216" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#4c4f69">Surface Tint Overlay</text>
+</g>
+</svg>

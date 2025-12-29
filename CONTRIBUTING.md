@@ -203,6 +203,130 @@ Thank you for contributing a theme to the Dank Material Shell registry!
 - **warning**: Warning state color
 - **info**: Info state color
 
+### Theme Variants (Optional)
+
+If your theme has multiple contrast levels or style options (like hard/medium/soft), you can use the `variants` field instead of defining all colors at the top level.
+
+With variants, you put shared colors in the top-level `dark` and `light` objects, then define variant-specific colors in each variant option:
+
+```json
+{
+  "id": "everforest",
+  "name": "Everforest",
+  "version": "1.0.0",
+  "author": "fontaine",
+  "description": "Everforest is a green based color scheme",
+  "dark": {
+    "surfaceText": "#d3c6aa",
+    "primary": "#a7c080",
+    "secondary": "#7fbbb3",
+    "error": "#e57e80"
+  },
+  "light": {
+    "surfaceText": "#5c6a72",
+    "primary": "#8ca101",
+    "secondary": "#dea000",
+    "error": "#f75552"
+  },
+  "variants": {
+    "default": "medium",
+    "options": [
+      {
+        "id": "hard",
+        "name": "Hard",
+        "dark": {
+          "surface": "#1e2326",
+          "background": "#272e33",
+          "surfaceContainer": "#2e383c"
+        },
+        "light": {
+          "surface": "#f2efdf",
+          "background": "#fffbef",
+          "surfaceContainer": "#f2efdf"
+        }
+      },
+      {
+        "id": "medium",
+        "name": "Medium",
+        "dark": {
+          "surface": "#232a2e",
+          "background": "#2d353b",
+          "surfaceContainer": "#343f44"
+        },
+        "light": {
+          "surface": "#efebd4",
+          "background": "#fdf6e3",
+          "surfaceContainer": "#efebd4"
+        }
+      }
+    ]
+  }
+}
+```
+
+**Variant Fields:**
+- **variants.default**: The variant ID to use by default
+- **variants.options**: Array of variant definitions
+- **variants.options[].id**: Unique identifier for the variant
+- **variants.options[].name**: Display name for the variant
+- **variants.options[].dark/light**: Colors specific to this variant (merged with top-level colors)
+
+Colors in variant options override the top-level colors. Put colors that stay the same across variants at the top level, and colors that change per variant in the variant options.
+
+### Multi-Dimensional Variants (Optional)
+
+For themes with two independent variant axes (like Catppuccin with flavor + accent), use `type: "multi"`:
+
+```json
+{
+  "id": "catppuccin",
+  "name": "Catppuccin",
+  "version": "1.0.0",
+  "author": "Catppuccin",
+  "description": "Soothing pastel theme",
+  "dark": {},
+  "light": {},
+  "variants": {
+    "type": "multi",
+    "defaults": {
+      "dark": { "flavor": "mocha", "accent": "mauve" },
+      "light": { "flavor": "latte", "accent": "mauve" }
+    },
+    "flavors": [
+      {
+        "id": "mocha",
+        "name": "Mocha",
+        "dark": { "surface": "#181825", "surfaceText": "#cdd6f4", "..." }
+      },
+      {
+        "id": "latte",
+        "name": "Latte",
+        "light": { "surface": "#e6e9ef", "surfaceText": "#4c4f69", "..." }
+      }
+    ],
+    "accents": [
+      {
+        "id": "mauve",
+        "name": "Mauve",
+        "mocha": { "primary": "#cba6f7", "secondary": "#b4befe", "..." },
+        "latte": { "primary": "#8839ef", "secondary": "#7287fd", "..." }
+      }
+    ]
+  }
+}
+```
+
+**Multi-Variant Fields:**
+- **variants.type**: Set to `"multi"` for two-dimensional variants
+- **variants.defaults.dark**: Default flavor + accent for dark mode
+- **variants.defaults.light**: Default flavor + accent for light mode
+- **variants.flavors[]**: Base color sets (each has `dark` OR `light` key to indicate mode)
+- **variants.accents[]**: Accent colors keyed by flavor ID
+
+Resolution: `base[mode] + flavor[mode] + accent[flavorId]`
+
+UI toggles dark/light mode → picks the corresponding default flavor+accent.
+
 4. **Validate your theme locally**:
 
    ```bash
