@@ -1,0 +1,14 @@
+{
+  "id": "prayertimes",
+  "name": "Prayer Times",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/muadzmo/prayertimes",
+  "path": "prayertimes",
+  "author": "muadz",
+  "description": "Display Islamic prayer times from Aladhan API",  
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://github.com/muadzmo/prayertimes/blob/main/screenshot.png"
+}
