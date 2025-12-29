@@ -916,6 +916,35 @@ List and switch to open Niri windows from the launcher
 
 
 
+#### [Prayer Times](https://github.com/muadzmo/prayertimes)
+
+Display Islamic prayer times from Aladhan API
+
+
+
+- id: prayerTimes
+- name: Prayer Times
+- author: muadz
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/muadzmo/prayertimes/blob/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Pulsar X3 Mouse](https://github.com/jonkristian/dms-pulsar-x3)
 
 Monitor and control your Pulsar X3 gaming mouse
