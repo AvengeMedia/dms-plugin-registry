@@ -1,0 +1,13 @@
+{
+    "id": "desktopCommand",
+    "name": "Desktop Command",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/yayuuu/desktopCommand",
+    "author": "yayuuu",
+    "description": "A widget that displays a command output on your desktop",
+    "dependencies": ["python3"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/yayuuu/desktopCommand/raw/main/assets/screenshot.jpg"
+}
