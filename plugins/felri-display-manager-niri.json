@@ -1,0 +1,13 @@
+{
+  "id": "displayManager",
+  "name": "Display Manager",
+  "capabilities": ["dankbar-widget"],
+  "category": "system",
+  "repo": "https://github.com/felri/display-manager-plugin-niri-dank-linux",
+  "author": "felri",
+  "description": "Toggle Niri displays and control monitor hardware brightness, contrast, scale, refresh rate, and resolution.",
+  "dependencies": ["ddcutil"],
+  "compositors": ["niri"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/felri/display-manager-plugin-niri-dank-linux/refs/heads/main/assets/screenshot.png"
+}

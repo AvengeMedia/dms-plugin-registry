@@ -13,42 +13,85 @@ jobs:
       pull-requests: write
 
     steps:
+      - name: Checkout base branch
+        uses: actions/checkout@v4
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: base
+
       - name: Checkout PR head
         uses: actions/checkout@v4
         with:
           ref: ${{ github.event.pull_request.head.sha }}
+          path: pr
 
-      - name: Generate theme previews
-        run: python3 .github/generate_theme_previews.py
+      - name: Install dependencies
+        run: sudo apt-get install -y librsvg2-bin
 
-      - name: Upload preview artifacts
-        uses: actions/upload-artifact@v4
-        with:
-          name: theme-previews
-          path: themes/*/preview*.svg
-
-      - name: Generate preview comment
+      - name: Find changed themes and generate previews
+        id: preview
         run: |
-          echo "## 🎨 Theme Preview" > comment.md
-          echo "" >> comment.md
-          for dir in themes/*/; do
-            if [ -f "${dir}theme.json" ] && [ -f "${dir}preview.svg" ]; then
-              name=$(python3 -c "import json; t=json.load(open('${dir}theme.json')); print(t['name'])")
-              author=$(python3 -c "import json; t=json.load(open('${dir}theme.json')); print(t['author'])")
-              desc=$(python3 -c "import json; t=json.load(open('${dir}theme.json')); print(t['description'])")
-              echo "### $name" >> comment.md
-              echo "" >> comment.md
-              echo "$desc" >> comment.md
-              echo "" >> comment.md
-              echo "- **Author:** $author" >> comment.md
-              echo "" >> comment.md
+          cd pr
+
+          git fetch origin ${{ github.event.pull_request.base.sha }} --depth=1
+
+          changed_themes=$(git diff --name-only ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }} -- themes/ | \
+            grep -oP '^themes/[^/]+' | sort -u || true)
+
+          if [ -z "$changed_themes" ]; then
+            echo "No theme changes detected"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+
+          python3 .github/generate_theme_previews.py
+
+          echo "## Theme Preview" > ../comment.md
+          echo "" >> ../comment.md
+
+          for theme_path in $changed_themes; do
+            theme_dir="$theme_path"
+            if [ ! -f "${theme_dir}/theme.json" ]; then
+              continue
             fi
+
+            if [ ! -d "../base/${theme_dir}" ]; then
+              badge="(new)"
+            else
+              badge="(updated)"
+            fi
+
+            name=$(python3 -c "import json; print(json.load(open('${theme_dir}/theme.json'))['name'])")
+            author=$(python3 -c "import json; print(json.load(open('${theme_dir}/theme.json'))['author'])")
+            desc=$(python3 -c "import json; print(json.load(open('${theme_dir}/theme.json'))['description'])")
+            theme_slug=$(basename "$theme_dir")
+
+            echo "### ${name} ${badge}" >> ../comment.md
+            echo "" >> ../comment.md
+            echo "> ${desc}" >> ../comment.md
+            echo "" >> ../comment.md
+            echo "**Author:** ${author}" >> ../comment.md
+            echo "" >> ../comment.md
+
+            if [ -f "${theme_dir}/preview.svg" ]; then
+              rsvg-convert "${theme_dir}/preview.svg" -o "/tmp/${theme_slug}.png"
+
+              img_url=$(curl -s -F "reqtype=fileupload" -F "fileToUpload=@/tmp/${theme_slug}.png" https://catbox.moe/user/api.php)
+
+              if [ -n "$img_url" ] && [[ "$img_url" == http* ]]; then
+                echo "![${name}](${img_url})" >> ../comment.md
+                echo "" >> ../comment.md
+              fi
+            fi
+
+            echo "---" >> ../comment.md
+            echo "" >> ../comment.md
           done
-          echo "✅ Preview generated! Download from [artifacts](/${{ github.repository }}/actions/runs/${{ github.run_id }})" >> comment.md
-          echo "" >> comment.md
-          echo "_Preview will be committed after merge._" >> comment.md
 
       - name: Post preview comment
+        if: steps.preview.outputs.has_changes == 'true'
         uses: peter-evans/create-or-update-comment@v4
         with:
           issue-number: ${{ github.event.pull_request.number }}

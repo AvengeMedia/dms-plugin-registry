@@ -1,0 +1,110 @@
+{
+  "id": "everforest",
+  "name": "Everforest",
+  "version": "1.0.0",
+  "author": "fontaine",
+  "description": "Everforest is a green based color scheme, designed to be warm and soft",
+  "dark": {
+    "surfaceText": "#d3c6aa",
+    "surfaceVariantText": "#d3c6aa",
+    "backgroundText": "#d3c6aa",
+    "primary": "#a7c080",
+    "secondary": "#7fbbb3",
+    "primaryContainer": "#a7c080",
+    "error": "#e57e80",
+    "warning": "#e59875",
+    "info": "#dabc7f"
+  },
+  "light": {
+    "surfaceText": "#5c6a72",
+    "surfaceVariantText": "#5c6a72",
+    "backgroundText": "#5c6a72",
+    "outline": "#829181",
+    "primary": "#8ca101",
+    "secondary": "#dea000",
+    "primaryContainer": "#8ca101",
+    "error": "#f75552",
+    "warning": "#f47d26",
+    "info": "#dea000"
+  },
+  "variants": {
+    "default": "medium",
+    "options": [
+      {
+        "id": "hard",
+        "name": "Hard",
+        "dark": {
+          "surface": "#1e2326",
+          "surfaceVariant": "#272e33",
+          "background": "#272e33",
+          "outline": "#9da9a0",
+          "surfaceContainer": "#2e383c",
+          "surfaceContainerHigh": "#374145",
+          "surfaceContainerHighest": "#414b50",
+          "primaryText": "#1e2326",
+          "surfaceTint": "#3c4841"
+        },
+        "light": {
+          "surface": "#f2efdf",
+          "surfaceVariant": "#fffbef",
+          "background": "#fffbef",
+          "surfaceContainer": "#f2efdf",
+          "surfaceContainerHigh": "#edeada",
+          "surfaceContainerHighest": "#e8e5d5",
+          "primaryText": "#f2efdf",
+          "surfaceTint": "#f3f5d9"
+        }
+      },
+      {
+        "id": "medium",
+        "name": "Medium",
+        "dark": {
+          "surface": "#232a2e",
+          "surfaceVariant": "#2d353b",
+          "background": "#2d353b",
+          "outline": "#56635f",
+          "surfaceContainer": "#343f44",
+          "surfaceContainerHigh": "#3d484d",
+          "surfaceContainerHighest": "#475258",
+          "primaryText": "#232a2e",
+          "surfaceTint": "#425047"
+        },
+        "light": {
+          "surface": "#efebd4",
+          "surfaceVariant": "#fdf6e3",
+          "background": "#fdf6e3",
+          "surfaceContainer": "#efebd4",
+          "surfaceContainerHigh": "#e6e2cc",
+          "surfaceContainerHighest": "#e0dcc7",
+          "primaryText": "#efebd4",
+          "surfaceTint": "#f0f1d2"
+        }
+      },
+      {
+        "id": "soft",
+        "name": "Soft",
+        "dark": {
+          "surface": "#293136",
+          "surfaceVariant": "#333c43",
+          "background": "#333c43",
+          "outline": "#b9c0ab",
+          "surfaceContainer": "#3a464c",
+          "surfaceContainerHigh": "#434f55",
+          "surfaceContainerHighest": "#4d5960",
+          "primaryText": "#293136",
+          "surfaceTint": "#48584e"
+        },
+        "light": {
+          "surface": "#e5dfc5",
+          "surfaceVariant": "#f3ead3",
+          "background": "#f3ead3",
+          "surfaceContainer": "#e5dfc5",
+          "surfaceContainerHigh": "#ddd8be",
+          "surfaceContainerHighest": "#d8d3ba",
+          "primaryText": "#e5dfc5",
+          "surfaceTint": "#e5e6c5"
+        }
+      }
+    ]
+  }
+}

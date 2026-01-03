@@ -79,7 +79,10 @@ def validate_repo_path(repo_url: str, path: str) -> tuple[bool, str]:
     parsed = urlparse(repo_url)
 
     # Extract owner/repo from path like /owner/repo or /owner/repo.git
-    path_parts = parsed.path.strip("/").rstrip(".git").split("/")
+    repo_path = parsed.path.strip("/")
+    if repo_path.endswith(".git"):
+        repo_path = repo_path[:-4]
+    path_parts = repo_path.split("/")
     if len(path_parts) < 2:
         return False, "Invalid repository URL format"
 
@@ -140,7 +143,10 @@ def fetch_plugin_json(repo_url: str, path: str = "") -> tuple[dict | None, str]:
     parsed = urlparse(repo_url)
 
     # Extract owner/repo from path like /owner/repo or /owner/repo.git
-    path_parts = parsed.path.strip("/").rstrip(".git").split("/")
+    repo_path = parsed.path.strip("/")
+    if repo_path.endswith(".git"):
+        repo_path = repo_path[:-4]
+    path_parts = repo_path.split("/")
     if len(path_parts) < 2:
         return None, "Invalid repository URL format"
 
@@ -153,8 +159,19 @@ def fetch_plugin_json(repo_url: str, path: str = "") -> tuple[dict | None, str]:
     raw_url = None
 
     if parsed.netloc == "github.com":
-        # Try raw.githubusercontent.com first (faster, no rate limiting)
-        raw_url = f"https://raw.githubusercontent.com/{owner}/{repo}/HEAD/{plugin_json_path}"
+        # Try common default branch names
+        for branch in ["main", "master"]:
+            raw_url = f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{plugin_json_path}"
+            try:
+                response = requests.get(raw_url, timeout=10)
+                if response.status_code == 200:
+                    try:
+                        return response.json(), ""
+                    except json.JSONDecodeError as e:
+                        return None, f"Invalid JSON in plugin.json: {e}"
+            except requests.exceptions.RequestException:
+                continue
+        return None, f"plugin.json not found at {plugin_json_path}"
     elif parsed.netloc == "gitlab.com" or "gitlab" in parsed.netloc:
         # GitLab raw file URL
         project_path = f"{owner}/{repo}"

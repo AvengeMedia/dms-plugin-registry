@@ -35,13 +35,14 @@ def is_camel_case(s: str) -> bool:
     return bool(CAMEL_CASE_PATTERN.match(s))
 
 
-def validate_color_scheme(scheme: dict, scheme_name: str) -> list[str]:
+def validate_color_scheme(scheme: dict, scheme_name: str, required_fields: list[str] = None) -> list[str]:
     errors = []
+    fields = required_fields if required_fields is not None else REQUIRED_COLOR_FIELDS
 
     if not isinstance(scheme, dict):
         return [f"{scheme_name} must be an object"]
 
-    for field in REQUIRED_COLOR_FIELDS:
+    for field in fields:
         if field not in scheme:
             errors.append(f"{scheme_name} missing required field: {field}")
             continue
@@ -51,6 +52,166 @@ def validate_color_scheme(scheme: dict, scheme_name: str) -> list[str]:
             errors.append(f"{scheme_name}.{field} must be a string")
         elif not is_valid_hex_color(value):
             errors.append(f"{scheme_name}.{field} must be a valid hex color (got: {value})")
+
+    return errors
+
+
+def validate_variants(theme: dict) -> list[str]:
+    errors = []
+    variants = theme.get("variants", {})
+
+    if variants.get("type") == "multi":
+        return validate_multi_variants(theme)
+
+    options = variants.get("options", [])
+    default_id = variants.get("default")
+
+    if not options:
+        errors.append("variants.options must be a non-empty array")
+        return errors
+
+    if not default_id:
+        errors.append("variants.default is required")
+
+    variant_ids = []
+    for i, variant in enumerate(options):
+        vid = variant.get("id")
+        vname = variant.get("name")
+
+        if not vid:
+            errors.append(f"variants.options[{i}] missing required field: id")
+        elif not isinstance(vid, str):
+            errors.append(f"variants.options[{i}].id must be a string")
+        else:
+            variant_ids.append(vid)
+
+        if not vname:
+            errors.append(f"variants.options[{i}] missing required field: name")
+
+        for mode in ["dark", "light"]:
+            base = theme.get(mode, {})
+            override = variant.get(mode, {})
+            resolved = {**base, **override}
+            label = f"variants.options[{i}] ({vid or i}) resolved {mode}"
+            errors.extend(validate_color_scheme(resolved, label))
+
+            for key, value in override.items():
+                if not is_valid_hex_color(value):
+                    errors.append(f"variants.options[{i}].{mode}.{key} must be a valid hex color (got: {value})")
+
+    if default_id and default_id not in variant_ids:
+        errors.append(f"variants.default '{default_id}' not found in options")
+
+    return errors
+
+
+def validate_multi_variants(theme: dict) -> list[str]:
+    errors = []
+    variants = theme.get("variants", {})
+    defaults = variants.get("defaults", {})
+    flavors = variants.get("flavors", [])
+    accents = variants.get("accents", [])
+
+    if not flavors:
+        errors.append("variants.flavors must be a non-empty array")
+        return errors
+
+    if not accents:
+        errors.append("variants.accents must be a non-empty array")
+        return errors
+
+    dark_defaults = defaults.get("dark", {})
+    light_defaults = defaults.get("light", {})
+
+    if not dark_defaults:
+        errors.append("variants.defaults.dark is required")
+    if not light_defaults:
+        errors.append("variants.defaults.light is required")
+
+    if dark_defaults and not dark_defaults.get("flavor"):
+        errors.append("variants.defaults.dark.flavor is required")
+    if dark_defaults and not dark_defaults.get("accent"):
+        errors.append("variants.defaults.dark.accent is required")
+    if light_defaults and not light_defaults.get("flavor"):
+        errors.append("variants.defaults.light.flavor is required")
+    if light_defaults and not light_defaults.get("accent"):
+        errors.append("variants.defaults.light.accent is required")
+
+    flavor_ids = []
+    flavor_modes = {}
+    for i, flavor in enumerate(flavors):
+        fid = flavor.get("id")
+        fname = flavor.get("name")
+
+        if not fid:
+            errors.append(f"variants.flavors[{i}] missing required field: id")
+        elif not isinstance(fid, str):
+            errors.append(f"variants.flavors[{i}].id must be a string")
+        else:
+            flavor_ids.append(fid)
+
+        if not fname:
+            errors.append(f"variants.flavors[{i}] missing required field: name")
+
+        has_dark = "dark" in flavor
+        has_light = "light" in flavor
+        if not has_dark and not has_light:
+            errors.append(f"variants.flavors[{i}] ({fid or i}) must have 'dark' or 'light'")
+        if has_dark and has_light:
+            errors.append(f"variants.flavors[{i}] ({fid or i}) should have only 'dark' or 'light', not both")
+
+        if fid:
+            flavor_modes[fid] = "dark" if has_dark else "light"
+
+    dark_flavor_ids = [f["id"] for f in flavors if "dark" in f]
+    light_flavor_ids = [f["id"] for f in flavors if "light" in f]
+
+    if dark_defaults.get("flavor") and dark_defaults["flavor"] not in dark_flavor_ids:
+        errors.append(f"variants.defaults.dark.flavor '{dark_defaults['flavor']}' must be a dark flavor")
+    if light_defaults.get("flavor") and light_defaults["flavor"] not in light_flavor_ids:
+        errors.append(f"variants.defaults.light.flavor '{light_defaults['flavor']}' must be a light flavor")
+
+    accent_ids = []
+    for i, accent in enumerate(accents):
+        aid = accent.get("id")
+        aname = accent.get("name")
+
+        if not aid:
+            errors.append(f"variants.accents[{i}] missing required field: id")
+        elif not isinstance(aid, str):
+            errors.append(f"variants.accents[{i}].id must be a string")
+        else:
+            accent_ids.append(aid)
+
+        if not aname:
+            errors.append(f"variants.accents[{i}] missing required field: name")
+
+        for fid in flavor_ids:
+            if fid not in accent:
+                errors.append(f"variants.accents[{i}] ({aid or i}) missing flavor key: {fid}")
+
+    if dark_defaults.get("accent") and dark_defaults["accent"] not in accent_ids:
+        errors.append(f"variants.defaults.dark.accent '{dark_defaults['accent']}' not found in accents")
+    if light_defaults.get("accent") and light_defaults["accent"] not in accent_ids:
+        errors.append(f"variants.defaults.light.accent '{light_defaults['accent']}' not found in accents")
+
+    for fi, flavor in enumerate(flavors):
+        fid = flavor.get("id")
+        if not fid:
+            continue
+        mode = flavor_modes.get(fid)
+        if not mode:
+            continue
+        flavor_colors = flavor.get(mode, {})
+
+        for ai, accent in enumerate(accents):
+            aid = accent.get("id")
+            if not aid:
+                continue
+            accent_colors = accent.get(fid, {})
+            resolved = {**theme.get(mode, {}), **flavor_colors, **accent_colors}
+            label = f"resolved {fid}+{aid}"
+            errors.extend(validate_color_scheme(resolved, label))
 
     return errors
 
@@ -93,11 +254,13 @@ def validate_theme(theme_file: Path) -> list[str]:
     if "description" in theme and (not isinstance(theme["description"], str) or not theme["description"].strip()):
         errors.append("description must be a non-empty string")
 
-    if "dark" in theme:
-        errors.extend(validate_color_scheme(theme["dark"], "dark"))
-
-    if "light" in theme:
-        errors.extend(validate_color_scheme(theme["light"], "light"))
+    if "variants" in theme:
+        errors.extend(validate_variants(theme))
+    else:
+        if "dark" in theme:
+            errors.extend(validate_color_scheme(theme["dark"], "dark"))
+        if "light" in theme:
+            errors.extend(validate_color_scheme(theme["light"], "light"))
 
     return errors
 

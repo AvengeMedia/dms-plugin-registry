@@ -1,0 +1,14 @@
+{
+    "id": "hyprlandSubmap",
+    "name": "Hyprland Submap",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/mesteryui/DMS_HyprlandSubmap",
+    "path": "",
+    "author": "Mester",
+    "description": "Shows the current submap in hyprland",
+    "dependencies": [],
+    "compositors": ["hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/mesteryui/DMS_HyprlandSubmap/refs/heads/main/assets/hyprlandSubmapPassthroughExample.png"
+}

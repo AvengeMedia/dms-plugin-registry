@@ -1,0 +1,13 @@
+{
+  "id": "appShortcut",
+  "name": "Application Shortcut",
+  "capabilities": ["desktop-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/oabragh/AppShortcut",
+  "author": "Omar (@oabragh)",
+  "description": "Add application shortcuts in your desktop :)",
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://github.com/oabragh/AppShortcut/raw/main/assets/preview.png"
+}
