@@ -1,0 +1,1182 @@
+{
+  "alarmClock": {
+    "date": "2026-01-02T21:09:02+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-eChaEjlfdzA6LXN2n8BaP11Gm0CJ20I9KoVhCpQf/yo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lucyfire",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "qt6-multimedia"
+      ],
+      "description": "An alarm clock widget",
+      "distro": [
+        "any"
+      ],
+      "id": "alarmClock",
+      "name": "Alarm Clock",
+      "path": "alarmClock",
+      "repo": "https://github.com/lucyfire/dms-plugins",
+      "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/alarmClock/alarms.png?raw=true",
+      "version": "0.3.2"
+    },
+    "path": "/nix/store/b2x2p03vxsd4illvqhq2cm8d84vlw9ll-dms-plugins",
+    "rev": "09348b5caae704277898e73e91adfcd72ff1da4e",
+    "rootDir": "",
+    "sha256": "0apz3ya0lqc558yl5nw982dlcp9zbb09yxkk5lx30xsz7495la3q",
+    "url": "https://github.com/lucyfire/dms-plugins"
+  },
+  "appShortcut": {
+    "date": "2025-12-23T18:53:08+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Yu3zRWkkgr5mC8pzNiRlHcCCb2lDZzkWWRJsMCAJfS4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Omar (@oabragh)",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Add application shortcuts in your desktop :)",
+      "distro": [
+        "any"
+      ],
+      "id": "appShortcut",
+      "name": "Application Shortcut",
+      "repo": "https://github.com/oabragh/AppShortcut",
+      "screenshot": "https://github.com/oabragh/AppShortcut/raw/main/assets/preview.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/9cy09x358awvbi1wk79pwsg8qh687y5q-AppShortcut",
+    "rev": "373400a84e40b0fb73d6c809ea33c425b529c35f",
+    "rootDir": "",
+    "sha256": "0bkx14h30v0jb4b3jrs3d5pq5h0xclj3cwya1dkbx0i4d52z7vb2",
+    "url": "https://github.com/oabragh/AppShortcut"
+  },
+  "asusControlCenter": {
+    "date": "2025-12-06T13:58:49+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-NsqHA23sp6nw0mhnQ1tCWQwthy3feFhITN0yjM9ZeHs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "pseudofractal",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "asusctl",
+        "supergfxctl"
+      ],
+      "description": "Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.",
+      "distro": [
+        "any"
+      ],
+      "id": "asusControlCenter",
+      "name": "ASUS Control Center",
+      "repo": "https://github.com/pseudofractal/AsusControl",
+      "screenshot": "https://raw.githubusercontent.com/pseudofractal/AsusControl/main/assets/popup.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/a9g8m24i2n1l9gz6is3j12hyv4w1dyp8-AsusControl",
+    "rev": "183cf86b02015cf0467393e8fdb903d81a895166",
+    "rootDir": "",
+    "sha256": "0yvqb77qqcnx9i45hy6z5n3js32r89dl6rv8sbqak9zcdl1qgjin",
+    "url": "https://github.com/pseudofractal/AsusControl"
+  },
+  "calculator": {
+    "date": "2025-10-27T13:30:03Z",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Vq+E2F2Ym5JdzjpCusRMDXd6uuAhhjAehyD/tO3omdY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Bruno Cesar Rocha",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "A calculator plugin that evaluates mathematical expressions and copies results to clipboard",
+      "distro": [
+        "any"
+      ],
+      "id": "calculator",
+      "name": "Calculator",
+      "repo": "https://github.com/rochacbruno/DankCalculator",
+      "requires_dms": ">0.1.18",
+      "screenshot": "https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png",
+      "version": "0.1.3"
+    },
+    "path": "/nix/store/n6qknynzpz2s4v5mfxyzv8mz47qlc6rz-DankCalculator",
+    "rev": "de6dbd59b7630e897a50e107f704c1cd4a131128",
+    "rootDir": "",
+    "sha256": "1mlrx3nv9zr0hwg311i1w2x7lxqd9k2blhisrrfr56wqbpc89bsn",
+    "url": "https://github.com/rochacbruno/DankCalculator"
+  },
+  "commandRunner": {
+    "date": "2025-11-05T00:25:56-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-tXqDRVp1VhyD1WylW83mO4aYFmVg/NV6Z/toHmb5Tn8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "devnullvoid",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Execute shell commands from the launcher with history tracking, common shortcuts, and terminal/background execution modes",
+      "distro": [
+        "any"
+      ],
+      "id": "commandRunner",
+      "name": "Command Runner",
+      "repo": "https://github.com/devnullvoid/dms-command-runner",
+      "screenshot": "https://github.com/devnullvoid/dms-command-runner/blob/main/screenshot.png?raw=true",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/gki6m3kbbqa8vpbcncq0hiz7p0617hhq-dms-command-runner",
+    "rev": "d89a09413e2fc041089b595a06c0fb316b12e17a",
+    "rootDir": "",
+    "sha256": "0zsfz5k1ws7vcxxdbz30clb9i1ivwv6mp9bcsn1iqmkmb92q6ymm",
+    "url": "https://github.com/devnullvoid/dms-command-runner"
+  },
+  "dankActions": {
+    "date": "2025-12-18T16:13:03-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-0RXRgUXXoX+C0q+drsShjx2rCTdmqFzOCR/1rGB/W2E=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Avenge Media",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Add customizable, scriptable actions to your bar.",
+      "distro": [
+        "any"
+      ],
+      "firstParty": true,
+      "id": "dankActions",
+      "name": "Dank Actions",
+      "path": "DankActions",
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-actions.png",
+      "version": "1.0.4"
+    },
+    "path": "/nix/store/346r4z686i05350mn8l6bxarvrv7fg0j-dms-plugins",
+    "rev": "8fa7c5286171c66a209dd74e9a47d6e72ccfdad6",
+    "rootDir": "",
+    "sha256": "0qavgxharx8z1775ra366w4sn7cgl72ax7dgsa17z8fp8n0x25fi",
+    "url": "https://github.com/AvengeMedia/dms-plugins"
+  },
+  "dankBatteryAlerts": {
+    "date": "2025-12-18T16:13:03-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-0RXRgUXXoX+C0q+drsShjx2rCTdmqFzOCR/1rGB/W2E=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Avenge Media",
+      "capabilities": [
+        "watch-events",
+        "notify"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Notify on low battery levels.",
+      "distro": [
+        "any"
+      ],
+      "firstParty": true,
+      "id": "dankBatteryAlerts",
+      "name": "Dank Battery Alerts",
+      "path": "DankBatteryAlerts",
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-batteryalerts.png",
+      "version": "1.1.1"
+    },
+    "path": "/nix/store/346r4z686i05350mn8l6bxarvrv7fg0j-dms-plugins",
+    "rev": "8fa7c5286171c66a209dd74e9a47d6e72ccfdad6",
+    "rootDir": "",
+    "sha256": "0qavgxharx8z1775ra366w4sn7cgl72ax7dgsa17z8fp8n0x25fi",
+    "url": "https://github.com/AvengeMedia/dms-plugins"
+  },
+  "dankDesktopWeather": {
+    "date": "2025-12-18T16:13:03-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-0RXRgUXXoX+C0q+drsShjx2rCTdmqFzOCR/1rGB/W2E=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Avenge Media",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "weather",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Feature-rich weather widget with current conditions, forecasts, and multiple view modes.",
+      "distro": [
+        "any"
+      ],
+      "firstParty": true,
+      "id": "dankDesktopWeather",
+      "name": "Dank Desktop Weather",
+      "path": "DankDesktopWeather",
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-desktop-weather.png",
+      "version": "1.0.1"
+    },
+    "path": "/nix/store/346r4z686i05350mn8l6bxarvrv7fg0j-dms-plugins",
+    "rev": "8fa7c5286171c66a209dd74e9a47d6e72ccfdad6",
+    "rootDir": "",
+    "sha256": "0qavgxharx8z1775ra366w4sn7cgl72ax7dgsa17z8fp8n0x25fi",
+    "url": "https://github.com/AvengeMedia/dms-plugins"
+  },
+  "dankHooks": {
+    "date": "2025-12-18T16:13:03-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-0RXRgUXXoX+C0q+drsShjx2rCTdmqFzOCR/1rGB/W2E=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Avenge Media",
+      "capabilities": [
+        "watch-events"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Trigger scripts based on various system events.",
+      "distro": [
+        "any"
+      ],
+      "firstParty": true,
+      "id": "dankHooks",
+      "name": "Dank Hooks",
+      "path": "DankHooks",
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-hooks.png",
+      "version": "1.0.6"
+    },
+    "path": "/nix/store/346r4z686i05350mn8l6bxarvrv7fg0j-dms-plugins",
+    "rev": "8fa7c5286171c66a209dd74e9a47d6e72ccfdad6",
+    "rootDir": "",
+    "sha256": "0qavgxharx8z1775ra366w4sn7cgl72ax7dgsa17z8fp8n0x25fi",
+    "url": "https://github.com/AvengeMedia/dms-plugins"
+  },
+  "dankPomodoroTimer": {
+    "date": "2025-12-18T16:13:03-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-0RXRgUXXoX+C0q+drsShjx2rCTdmqFzOCR/1rGB/W2E=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Avenge Media",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "A customizable Pomodoro timer.",
+      "distro": [
+        "any"
+      ],
+      "firstParty": true,
+      "id": "dankPomodoroTimer",
+      "name": "Dank Pomodoro Timer",
+      "path": "DankPomodoroTimer",
+      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-pomodoro.png",
+      "version": "1.1.5"
+    },
+    "path": "/nix/store/346r4z686i05350mn8l6bxarvrv7fg0j-dms-plugins",
+    "rev": "8fa7c5286171c66a209dd74e9a47d6e72ccfdad6",
+    "rootDir": "",
+    "sha256": "0qavgxharx8z1775ra366w4sn7cgl72ax7dgsa17z8fp8n0x25fi",
+    "url": "https://github.com/AvengeMedia/dms-plugins"
+  },
+  "displayManager": {
+    "date": "2025-12-26T15:54:35-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-y5Awp/99fFkDVCyx/9Q0stfxmyeiDiYJnuf8MY69ICQ=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "felri",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "ddcutil"
+      ],
+      "description": "Toggle Niri displays and control monitor hardware brightness, contrast, scale, refresh rate, and resolution.",
+      "distro": [
+        "any"
+      ],
+      "id": "displayManager",
+      "name": "Display Manager",
+      "repo": "https://github.com/felri/display-manager-plugin-niri-dank-linux",
+      "screenshot": "https://raw.githubusercontent.com/felri/display-manager-plugin-niri-dank-linux/refs/heads/main/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/cf9d67ap48smbd7wnkb9qxv44ch12b9h-display-manager-plugin-niri-dank-linux",
+    "rev": "e95baacf949672b7798873146ecdcebd5a714e95",
+    "rootDir": "",
+    "sha256": "0910pn733z77kq4jc3m24ydz3mxj6kagzc9cah1mjz3xzykk146b",
+    "url": "https://github.com/felri/display-manager-plugin-niri-dank-linux"
+  },
+  "displayMirror": {
+    "date": "2025-11-09T22:50:54-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-JX3pDZ1F5Uu/rOdA4KMhcwH8a6gxsTZjwgcZxNV/Ngc=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "jfchenier",
+      "capabilities": [
+        "control-center"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "wl-mirror"
+      ],
+      "description": "Mirror niri displays using wl-mirror from the control center and bar",
+      "distro": [
+        "any"
+      ],
+      "id": "displayMirror",
+      "name": "Display Mirror",
+      "repo": "https://github.com/jfchenier/dms-display-mirror",
+      "screenshot": "https://github.com/jfchenier/dms-display-mirror/blob/main/assets/screenshot.png?raw=true",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/7q219hdhrsk771qhidks3f6zdxymxdqj-dms-display-mirror",
+    "rev": "92cd44c4fb67834bf71fdd78f83c29df5e0750b2",
+    "rootDir": "",
+    "sha256": "01rngzaw8687q9ikdc9im1mzq0bk46iy0h77mjzlpra5kl6yjz95",
+    "url": "https://github.com/jfchenier/dms-display-mirror"
+  },
+  "displaySettings": {
+    "date": "2026-01-02T21:09:02+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-eChaEjlfdzA6LXN2n8BaP11Gm0CJ20I9KoVhCpQf/yo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lucyfire",
+      "capabilities": [
+        "manage-displays"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Turn on/off displays",
+      "distro": [
+        "any"
+      ],
+      "id": "displaySettings",
+      "name": "Display Settings",
+      "path": "displaySettings",
+      "repo": "https://github.com/lucyfire/dms-plugins",
+      "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/displaySettings/screenshot.png?raw=true",
+      "version": "0.1.1"
+    },
+    "path": "/nix/store/b2x2p03vxsd4illvqhq2cm8d84vlw9ll-dms-plugins",
+    "rev": "09348b5caae704277898e73e91adfcd72ff1da4e",
+    "rootDir": "",
+    "sha256": "0apz3ya0lqc558yl5nw982dlcp9zbb09yxkk5lx30xsz7495la3q",
+    "url": "https://github.com/lucyfire/dms-plugins"
+  },
+  "dockerManager": {
+    "date": "2025-11-25T01:42:50-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-VoJCaygWnKpv0s0pqTOmzZnPM922qPDMHk4EPcgVnaU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "LuckShiba",
+      "capabilities": [
+        "docker-management",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "docker or podman"
+      ],
+      "description": "Display Docker/Podman container status and management controls",
+      "distro": [
+        "any"
+      ],
+      "id": "dockerManager",
+      "name": "Docker Manager",
+      "repo": "https://github.com/LuckShiba/DmsDockerManager",
+      "screenshot": "https://raw.githubusercontent.com/LuckShiba/DmsDockerManager/main/assets/screenshot.png",
+      "version": "1.2.0"
+    },
+    "path": "/nix/store/wcfkmkrlln9ishmjbhaf4j1kw54v7abw-DmsDockerManager",
+    "rev": "860457bbb043a6651a2cbafe6e77d443123a0b07",
+    "rootDir": "",
+    "sha256": "19cx2p43s12f3v6g1a5nvlrwz6fdlqrsjafds9psm70n51ml50jn",
+    "url": "https://github.com/LuckShiba/DmsDockerManager"
+  },
+  "dolarBlue": {
+    "date": "2025-12-25T23:31:31-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-PBwTgpkqOPvnO+STKbOuqdVM4HNCGjoDjFZlZR/NxJk=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "psyreactor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Dolar Blue plugin for DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "dolarBlue",
+      "name": "Dolar Blue",
+      "repo": "https://github.com/psyreactor/dms-dolarBlue",
+      "requires_dms": ">0.0.28",
+      "screenshot": "https://github.com/psyreactor/dms-dolarBlue/raw/main/screenshot.png",
+      "version": "1.0.1"
+    },
+    "path": "/nix/store/hfyrmfg18sqzvvi41n18bbxvq44hvq5y-dms-dolarBlue",
+    "rev": "bc3194a583f3abf0af7d7f5535c29f254117c37b",
+    "rootDir": "",
+    "sha256": "16f4rlgnaranih1kl6j2fgh4rmd9msrjk4z47gkznf1ak611671w",
+    "url": "https://github.com/psyreactor/dms-dolarBlue"
+  },
+  "easyEffects": {
+    "date": "2025-12-15T09:52:12+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-q0Xp4RzHd0HgtUZEM4hIES6SDyN8R4lPgQe5aeLMh4c=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "jonkristian",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "easyeffects"
+      ],
+      "description": "Quick switch between Easy Effects audio profiles",
+      "distro": [
+        "any"
+      ],
+      "id": "easyEffects",
+      "name": "Easy Effects Profile Switcher",
+      "repo": "https://github.com/jonkristian/dms-easyeffects",
+      "screenshot": "https://github.com/jonkristian/dms-easyeffects/blob/main/screenshot.png?raw=true",
+      "version": "1.0.4"
+    },
+    "path": "/nix/store/lgx12sqg7l1fs6anl5dmgw3x29gpzimf-dms-easyeffects",
+    "rev": "f50fdb7a110ddb90b7625bc143884fd773c3d5c7",
+    "rootDir": "",
+    "sha256": "11w7rki6kf87h57qjivw4c7r4bhi92436i26nph42xy73khyjidb",
+    "url": "https://github.com/jonkristian/dms-easyeffects"
+  },
+  "emojiLauncher": {
+    "date": "2025-11-09T17:27:54-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-aub5pXRMlMs7dxiv5P+/Rz/dA4weojr+SGZAItmbOvo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "devnullvoid",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Search and copy 300+ emojis and 100+ unicode characters directly from the launcher with instant clipboard copying",
+      "distro": [
+        "any"
+      ],
+      "id": "emojiLauncher",
+      "name": "Emoji & Unicode Launcher",
+      "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
+      "screenshot": "https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true",
+      "version": "1.2.0"
+    },
+    "path": "/nix/store/ha1nrjx3y51rkl7mq4vzlkdwlbmxz4ya-dms-emoji-launcher",
+    "rev": "2951ec7f823c983c11b6b231403581a386a7c9f6",
+    "rootDir": "",
+    "sha256": "1yiskgcj4h3693z3m8hyih1xsgs7pzzy9bqqfwxwp52cfjjzkrka",
+    "url": "https://github.com/devnullvoid/dms-emoji-launcher"
+  },
+  "gitmojiLauncher": {
+    "date": "2026-01-02T21:09:02+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-eChaEjlfdzA6LXN2n8BaP11Gm0CJ20I9KoVhCpQf/yo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lucyfire",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "wl-copy"
+      ],
+      "description": "Search and copy gitmojis from https://gitmoji.dev",
+      "distro": [
+        "any"
+      ],
+      "id": "gitmojiLauncher",
+      "name": "Gitmoji Launcher",
+      "path": "gitmojiLauncher",
+      "repo": "https://github.com/lucyfire/dms-plugins",
+      "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/gitmojiLauncher/screenshot.png?raw=true",
+      "version": "1.2.0"
+    },
+    "path": "/nix/store/b2x2p03vxsd4illvqhq2cm8d84vlw9ll-dms-plugins",
+    "rev": "09348b5caae704277898e73e91adfcd72ff1da4e",
+    "rootDir": "",
+    "sha256": "0apz3ya0lqc558yl5nw982dlcp9zbb09yxkk5lx30xsz7495la3q",
+    "url": "https://github.com/lucyfire/dms-plugins"
+  },
+  "grimblast": {
+    "date": "2025-10-27T04:32:31+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-CA5fjB2KmlBXeh9m1+1ddjNMhZbwR4pQ9PiEPWDcuZs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Taylan TATLI",
+      "capabilities": [
+        "screenshot-tool",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [
+        "grimblast"
+      ],
+      "description": "Quick screenshot menu for grimblast with multiple capture modes",
+      "distro": [
+        "any"
+      ],
+      "id": "grimblast",
+      "name": "Grimblast",
+      "path": "grimblast",
+      "repo": "https://github.com/TaylanTatli/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/TaylanTatli/dms-plugins/refs/heads/master/grimblast/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/6ddvdpn5lz64wyzd04ayz4prk5maz6qd-dms-plugins",
+    "rev": "2fa71a37f7ba411991a9e76baa3637351830ec6a",
+    "rootDir": "",
+    "sha256": "16xrvih3v17qyi88lizhjs2lqcvnbpnxfrhzg9bm16la3n65y3h8",
+    "url": "https://github.com/TaylanTatli/dms-plugins"
+  },
+  "hyprlandSubmap": {
+    "date": "2025-12-27T21:15:24+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-5srAvsrhBUtzPNf3FTComfm+4alh4B41StHPZryQi2M=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Mester",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Shows the current submap in hyprland",
+      "distro": [
+        "any"
+      ],
+      "id": "hyprlandSubmap",
+      "name": "Hyprland Submap",
+      "path": "",
+      "repo": "https://github.com/mesteryui/DMS_HyprlandSubmap",
+      "screenshot": "https://github.com/mesteryui/DMS_HyprlandSubmap/raw/main/image_2025-12-24_20-47-31.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/xbv8c6a3najhn3yds8zfkraz5hqhl1qf-DMS_HyprlandSubmap",
+    "rev": "faf69c7a17aa0096c59150a5d492b551e4a24de3",
+    "rootDir": "",
+    "sha256": "0qwbj2y6dkyi98sixq31m7hvxycrm0q1bxyp7irln1g1razc1jp6",
+    "url": "https://github.com/mesteryui/DMS_HyprlandSubmap"
+  },
+  "kubernetes": {
+    "date": "2025-12-25T23:40:56-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-o2FDz3q4ACF8ek3s0x2KDbrvGzv8AFEg2O2Q9vDDl8M=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "psyreactor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "kubectl"
+      ],
+      "description": "Kubernetes plugin for DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "kubernetes",
+      "name": "Kubernetes",
+      "repo": "https://github.com/psyreactor/dms-kubernetes",
+      "requires_dms": ">0.0.28",
+      "screenshot": "https://github.com/psyreactor/dms-kubernetes/raw/main/screenshot.png",
+      "version": "1.0.2"
+    },
+    "path": "/nix/store/rmpm6706yaanvk8076kn35d011q6n9dp-dms-kubernetes",
+    "rev": "6134233f839cce7796b1bd230e15f19b890125da",
+    "rootDir": "",
+    "sha256": "1hwpqgqgd47dv0h5207w7cdyzfhdi8fx7v2dg9y2205qgb7l6qd3",
+    "url": "https://github.com/psyreactor/dms-kubernetes"
+  },
+  "linuxWallpaperEngine": {
+    "date": "2025-12-25T08:05:54+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-jGLgc+OTSkO1D2RwRXAy75jyWmRREkFa86rMqS2PZfg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "sgtaziz",
+      "capabilities": [
+        "wallpaper",
+        "animation"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "linux-wallpaperengine"
+      ],
+      "description": "Animated wallpaper support using linux-wallpaperengine with Steam Workshop scenes",
+      "distro": [
+        "any"
+      ],
+      "id": "linuxWallpaperEngine",
+      "name": "Linux Wallpaper Engine",
+      "repo": "https://github.com/sgtaziz/dms-wallpaperengine",
+      "screenshot": "https://raw.githubusercontent.com/sgtaziz/dms-wallpaperengine/refs/heads/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/7f04rz6llbkpdlxr2vrxp1mf7bz8wl40-dms-wallpaperengine",
+    "rev": "95628dde134ec7ce4e01e58e1bb5f6dfc4c2baac",
+    "rootDir": "",
+    "sha256": "1y35iwnskk5aydd424jicidg567g69q4aw341ysl6jlkwdry0qlc",
+    "url": "https://github.com/sgtaziz/dms-wallpaperengine"
+  },
+  "mediaPlayer": {
+    "date": "2025-12-29T19:44:05+06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-z6FiXXg938TefqDSbg64y2mdIZgwAAX90QlOOx7Ck30=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Abdur Rahman Rifat",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "cava"
+      ],
+      "description": "A desktop media player widget",
+      "distro": [
+        "any"
+      ],
+      "id": "mediaPlayer",
+      "name": "Media Player",
+      "repo": "https://github.com/arrifat346afs/mediaPlayer",
+      "screenshot": "https://raw.githubusercontent.com/arrifat346afs/mediaPlayer/refs/heads/main/screenshot_8.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/sjjydzj4712h35pi4c7frpdnpffrj5j7-mediaPlayer",
+    "rev": "4d73e6c810f85093339eb6cc6dad251ea6c15b04",
+    "rootDir": "",
+    "sha256": "0zckq8g3nkh9s7yha01hk0hrssfbp076xlm0gvgc9prxg1fn58fg",
+    "url": "https://github.com/arrifat346afs/mediaPlayer"
+  },
+  "nepaliCalendar": {
+    "date": "2026-01-01T21:09:33+05:45",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-ROzh66lSZiKXEH18qg+KW7bMEc0z66ystosUeSyOlfY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "ac17dollars (Abhinav Chalise)",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Get the current Nepali date",
+      "distro": [
+        "any"
+      ],
+      "id": "nepaliCalendar",
+      "name": "Nepali Calendar",
+      "repo": "https://github.com/AC17dollars/dms-nepali-calendar",
+      "screenshot": "https://raw.githubusercontent.com/AC17dollars/dms-nepali-calendar/main/assets/horizontal.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/9kaaibd00l9cdj6adf47bnja9vjk7h22-dms-nepali-calendar",
+    "rev": "6579f8c84eaa4a8ad782b196464a4d70c47d5984",
+    "rootDir": "",
+    "sha256": "1xlmiqn7j54bnsnarsrkrl8wrdjvi87slz3x22bj4rjjm7my3v24",
+    "url": "https://github.com/AC17dollars/dms-nepali-calendar"
+  },
+  "niriWindows": {
+    "date": "2025-10-16T10:50:43+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-rdZAnkRyfycI2a2wjSiepQwRI49zKbwoRzpz1+c6ZJA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Bruno Cesar Rocha",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [],
+      "description": "List and switch to open Niri windows from the launcher",
+      "distro": [
+        "any"
+      ],
+      "id": "niriWindows",
+      "name": "Niri Windows",
+      "repo": "https://github.com/rochacbruno/DankNiriWindows",
+      "requires_dms": ">0.1.18",
+      "screenshot": "https://github.com/rochacbruno/DankNiriWindows/raw/main/screenshot.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/3layxb7mbn7scg9mfxlds5ab3n17ykmn-DankNiriWindows",
+    "rev": "b845277ad505556caff828241ec6a80a75f0e034",
+    "rootDir": "",
+    "sha256": "14347bkxfwrs8wlbqabkiwii2355kql8vc5dv442fzvj8jg41mmd",
+    "url": "https://github.com/rochacbruno/DankNiriWindows"
+  },
+  "nixMonitor": {
+    "date": "2025-12-20T16:21:39+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-PotQG3LnS8LsOnsHtyS5MFBw0qbRvr3886+3nzxL6R4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Anton Andersson",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Monitor Nix store disk usage and system generations with integrated system management capabilities",
+      "distro": [
+        "any"
+      ],
+      "id": "nixMonitor",
+      "name": "Nix Monitor",
+      "repo": "https://github.com/antonjah/nix-monitor",
+      "screenshot": "https://github.com/antonjah/nix-monitor/raw/master/assets/scrot.png",
+      "version": "1.0.3"
+    },
+    "path": "/nix/store/rzkgk7472g2fwh1svyiywzl1r8giax4h-nix-monitor",
+    "rev": "bd941a0e71b8f7763b45c22281a44ff554f82666",
+    "rootDir": "",
+    "sha256": "07p99cy9zdxgygybvgnilv970l1hp4jbf1vv7bnc4jz7f8dm12ry",
+    "url": "https://github.com/antonjah/nix-monitor"
+  },
+  "powerUsagePlugin": {
+    "date": "2025-12-24T16:18:27+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-9lMWVCiAW+0fAZD4dXGhE+6f8d1/4DHejfUumfoHY2s=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Daniel-42-z",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Display real-time power consumption from your device",
+      "distro": [
+        "any"
+      ],
+      "id": "powerUsagePlugin",
+      "name": "Power Usage Monitor",
+      "repo": "https://github.com/Daniel-42-z/dms-power-usage",
+      "screenshot": "https://github.com/Daniel-42-z/dms-power-usage/raw/main/screenshot.png",
+      "version": "0.0.1"
+    },
+    "path": "/nix/store/30hc41c136ci2zf6n04ax57bizm3iynl-dms-power-usage",
+    "rev": "04b7da69b98be23d6f6bbc0430461680b43809e0",
+    "rootDir": "",
+    "sha256": "0sv30zx9jbpmipg33q3zvpqrzvhkl5qpby4h04gysnw051a1clzn",
+    "url": "https://github.com/Daniel-42-z/dms-power-usage"
+  },
+  "pulsarX3": {
+    "date": "2025-12-05T13:38:05+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-WnrA1QhyRlD2CKTVipuaxL50nxljBH26rlNtxmQv28w=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "jonkristian",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "pulsar-x3"
+      ],
+      "description": "Monitor and control your Pulsar X3 gaming mouse",
+      "distro": [
+        "any"
+      ],
+      "id": "pulsarX3",
+      "name": "Pulsar X3 Mouse",
+      "repo": "https://github.com/jonkristian/dms-pulsar-x3",
+      "screenshot": "https://github.com/jonkristian/dms-pulsar-x3/blob/main/screenshot.png?raw=true",
+      "version": "0.1.1"
+    },
+    "path": "/nix/store/dy74f6yl0abwy12i0w14y1ca9xn3iyf7-dms-pulsar-x3",
+    "rev": "fdfd5db2c775b7ba83d156f488503e7feae2d357",
+    "rootDir": "",
+    "sha256": "1k6v5xjccvakmsx7s13336gp9gn4kadqmmd413v50ikj13aw0yjs",
+    "url": "https://github.com/jonkristian/dms-pulsar-x3"
+  },
+  "wallpaperBing": {
+    "date": "2025-12-13T18:51:24+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-eewMJ0FaovLbaBenJlKkeaBgkXwYuG++W5h+6su62V0=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "maxb",
+      "capabilities": [
+        "wallpaper-downloader",
+        "wallpaper-set",
+        "dankbar-widget"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl"
+      ],
+      "description": "A new fresh daily wallpaper downloaded from a famous portal",
+      "distro": [
+        "any"
+      ],
+      "id": "wallpaperBing",
+      "name": "Wallpaper of the Day",
+      "repo": "https://github.com/max72bra/DankPluginBingWallpaper",
+      "screenshot": "https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaper/refs/heads/main/screenshot.png",
+      "version": "1.0.10"
+    },
+    "path": "/nix/store/qpvn64pximlx9ijnzqyk9by525df497y-DankPluginBingWallpaper",
+    "rev": "bb06dbff5d2ababd1b675ad4bcc3cad36d7be42c",
+    "rootDir": "",
+    "sha256": "0pfrpb5ylzlqbfz6zf0qgj8n183rli92d9qpd3dz58js84khrv3r",
+    "url": "https://github.com/max72bra/DankPluginBingWallpaper"
+  },
+  "wallpaperDiscovery": {
+    "date": "2026-01-02T21:09:02+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-eChaEjlfdzA6LXN2n8BaP11Gm0CJ20I9KoVhCpQf/yo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lucyfire",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl"
+      ],
+      "description": "Search and download wallpapers",
+      "distro": [
+        "any"
+      ],
+      "id": "wallpaperDiscovery",
+      "name": "Wallpaper Discovery",
+      "path": "wallpaperDiscovery",
+      "repo": "https://github.com/lucyfire/dms-plugins",
+      "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/wallpaperDiscovery/screenshot.png?raw=true",
+      "version": "2.0.4"
+    },
+    "path": "/nix/store/b2x2p03vxsd4illvqhq2cm8d84vlw9ll-dms-plugins",
+    "rev": "09348b5caae704277898e73e91adfcd72ff1da4e",
+    "rootDir": "",
+    "sha256": "0apz3ya0lqc558yl5nw982dlcp9zbb09yxkk5lx30xsz7495la3q",
+    "url": "https://github.com/lucyfire/dms-plugins"
+  },
+  "wallpaperShufflerPlugin": {
+    "date": "2025-12-17T15:51:26+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-il8/6FJNLIk9DjpyLmCiL1p2d0bpDDeNttHfcmBeI/4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Daniel-42-z",
+      "capabilities": [
+        "set-wallpaper"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder",
+      "distro": [
+        "any"
+      ],
+      "id": "wallpaperShufflerPlugin",
+      "name": "Wallpaper Shuffler",
+      "repo": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler",
+      "screenshot": "https://raw.githubusercontent.com/Daniel-42-z/dms-wallpaper-shuffler/refs/heads/main/screenshot.png",
+      "version": "1.0.1"
+    },
+    "path": "/nix/store/8icasj2zyd0dh9gn4kzzqg2qry29cl23-dms-wallpaper-shuffler",
+    "rev": "2b2e63e1831d6e184eecbcad8a2794734bd5d4ae",
+    "rootDir": "",
+    "sha256": "1zi3brh75pyins6kf3798rvpcnigl9h2wwis1qyqjb2dabl3ypwa",
+    "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
+  },
+  "webSearch": {
+    "date": "2025-11-10T15:54:03-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-mKbmROijhYhy/IPbVxYbKyggXesqVGnS/AfAEyeQVhg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "devnullvoid",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Search the web with 23+ built-in search engines plus custom search engine support with keyword-based selection",
+      "distro": [
+        "any"
+      ],
+      "id": "webSearch",
+      "name": "Web Search",
+      "repo": "https://github.com/devnullvoid/dms-web-search",
+      "screenshot": "https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true",
+      "version": "1.2.0"
+    },
+    "path": "/nix/store/38ck68kk8lg4sq6iwiz9q3a8bbsgzzxn-dms-web-search",
+    "rev": "81ccd9fd8249b3c9ef40dde42549f807e36ae3e3",
+    "rootDir": "",
+    "sha256": "062nj0ki7h07zk96jm1axdfj0a1b3cb5gnw3zir8i1d3x12fd9lq",
+    "url": "https://github.com/devnullvoid/dms-web-search"
+  },
+  "worldClock": {
+    "date": "2025-10-04T12:56:52+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-SYGB+04NNGiuRVaQ7wEFcM+Cbo0raVDgaZ0fnxAbVpc=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Bruno Cesar Rocha",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "moment-js"
+      ],
+      "description": "Multiple timezones clock for DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "worldClock",
+      "name": "World Clock",
+      "repo": "https://github.com/rochacbruno/WorldClock",
+      "requires_dms": ">0.0.28",
+      "screenshot": "https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/3a8w6k72sv92imvwwwgm19idxsq1jpv1-WorldClock",
+    "rev": "3e9b62ae2fe7550891a61436ebe8248a9724bd93",
+    "rootDir": "",
+    "sha256": "15sn3c89y7wxd7h50s9bimp85kvh0l0yz42n8np6hd0d9vxq30a9",
+    "url": "https://github.com/rochacbruno/WorldClock"
+  }
+}

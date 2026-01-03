@@ -22,6 +22,10 @@ On your teminal run `dms` then navigate to the **plugins** option or run `dms pl
 
 Clone the plugin repository into your `~/.config/DankMaterialShell/plugins/` folder and restart your dms session with `dms restart`. NOTE: Some plugins may have additional dependencies that need to be installed manually, please refer to the plugin documentation for more information, some plugins are part of a monorepo and need to be installed by copying the relevant path to the plugins folder.
 
+### With Nix
+
+Follow the [Nix usage documentation](/nix/README.md)
+
 ## Disclaimer
 
 Some plugins are created by third-party developers and are not officially supported by the Dank Material Shell team. Use them at your own risk. In case of issues, please contact the plugin author directly.

@@ -1,31 +1,24 @@
-name: Generate README
+name: Nix Prefetch
 
 on:
   push:
     branches:
-      - master
+      - main
+  schedule:
+    - cron: 0 0 * * *
 
 jobs:
-  generate:
+  update:
     runs-on: ubuntu-latest
     permissions:
       contents: write
-
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - uses: cachix/install-nix-action@v31
+      - uses: actions/checkout@v5
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-
-      - name: Install dependencies
-        run: pip install jinja2
-
-      - name: Generate theme previews
-        run: python3 .github/generate_theme_previews.py
-
-      - name: Generate README
-        run: python3 .github/generate.py
-
+          ref: ${{ github.head_ref }}
+      - name: Generate plugin data
+        run: python3 .github/nix_prefetch.py
       - name: Check for changes
         id: check_changes
         run: |
@@ -35,12 +28,14 @@ jobs:
           else
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
-
+      # Check after plugins-prefetch.json is added to git
+      - name: Nix flake check
+        run: nix flake check
       - name: Commit and push if changed
         if: steps.check_changes.outputs.changed == 'true'
         run: |
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
           git config --local user.name "github-actions[bot]"
-          git commit -m "chore: auto-generate README.md [skip ci]"
+          git commit -m "chore: update nix prefetch data [skip ci]"
           git pull --rebase
           git push
