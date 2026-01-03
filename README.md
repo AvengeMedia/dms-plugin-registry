@@ -553,6 +553,35 @@ A customizable Pomodoro timer.
 
 
 
+#### [Desktop Command](https://github.com/yayuuu/desktopCommand)
+
+A widget that displays a command output on your desktop
+
+
+
+- id: desktopCommand
+- name: Desktop Command
+- author: yayuuu
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/yayuuu/desktopCommand/raw/main/assets/screenshot.jpg)
+
+</details>
+
+
+
+
+
 #### [Display Mirror](https://github.com/jfchenier/dms-display-mirror)
 
 Mirror niri displays using wl-mirror from the control center and bar
