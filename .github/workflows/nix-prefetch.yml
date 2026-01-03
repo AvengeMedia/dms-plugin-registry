@@ -18,25 +18,7 @@ jobs:
         with:
           ref: ${{ github.head_ref }}
       - name: Generate plugin data
-        run: |
-          PLUGINS_PREFETCH="$(pwd)/nix/plugins-prefetch.json"
-          echo "{" > "$PLUGINS_PREFETCH"
-          cd plugins
-          for plugin in *; do
-              echo "\"$(jq -r '.id' $plugin)\":" >> "$PLUGINS_PREFETCH"
-              nix shell nixpkgs#nix-prefetch-git \
-                --command nix-prefetch-git "$(jq -r '.repo' $plugin)" \
-                | jq --slurpfile meta "$plugin" '.meta = $meta[0]' \
-                >> "$PLUGINS_PREFETCH"
-                echo "," >> "$PLUGINS_PREFETCH"
-          done
-          # Remove last comma
-          sed -i '$ d' "$PLUGINS_PREFETCH"
-          echo "}" >> "$PLUGINS_PREFETCH"
-          # Clean up json
-          TMP="$(mktemp)"
-          mv "$PLUGINS_PREFETCH" "$TMP"
-          jq . "$TMP" > "$PLUGINS_PREFETCH"
+        run: python3 .github/nix_prefetch.py
       - name: Check for changes
         id: check_changes
         run: |

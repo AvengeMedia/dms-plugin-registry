@@ -1,9 +1,13 @@
 { pkgs ? import <nixpkgs> { }, lib ? pkgs.lib }:
 let
-  plugins = builtins.fromJSON (builtins.readFile ./plugins-prefetch.json);
+  plugins = builtins.fromJSON
+    (builtins.readFile ./plugins-prefetch.json);
   buildPlugin = name: plugin:
     pkgs.stdenvNoCC.mkDerivation {
-      name = plugin.meta.id;
+      pname = "dms-plugin-${plugin.meta.id}";
+      version = plugin.meta.version
+        or (lib.substring 0 6 plugin.rev);
+      
       src = pkgs.fetchgit {
         inherit (plugin) url rev hash;
       };
