@@ -11,11 +11,11 @@
           pkgs = nixpkgs.legacyPackages.${system};
         in import ./nix/default.nix { inherit pkgs; }
       );
-      nixosModules.nix-dms-plugins = ./nix/module.nix;
-      nixosModules.default = self.nixosModules.nix-dms-plugins;
-      homeModules.nix-dms-plugins = ./nix/module.nix;
-      homeModules.default = self.homeModules.nix-dms-plugins;
-      modules.nix-dms-plugins = ./nix/module.nix;
-      modules.default = self.modules.nix-dms-plugins;
+      nixosModules.dms-plugin-registry = ./nix/module.nix;
+      nixosModules.default = self.nixosModules.dms-plugin-registry;
+      homeModules.dms-plugin-registry = ./nix/module.nix;
+      homeModules.default = self.homeModules.dms-plugin-registry;
+      modules.dms-plugin-registry = ./nix/module.nix;
+      modules.default = self.modules.dms-plugin-registry;
     };
 }
