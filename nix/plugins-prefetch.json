@@ -357,6 +357,42 @@
     "sha256": "0qavgxharx8z1775ra366w4sn7cgl72ax7dgsa17z8fp8n0x25fi",
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
+  "desktopCommand": {
+    "date": "2026-01-04T01:24:57+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-4PlVymdSE8+M25Fdj4zbLzdMOOvWtU3XdNgP5eCZne8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "yayuuu",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3"
+      ],
+      "description": "A widget that displays a command output on your desktop",
+      "distro": [
+        "any"
+      ],
+      "id": "desktopCommand",
+      "name": "Desktop Command",
+      "repo": "https://github.com/yayuuu/desktopCommand",
+      "screenshot": "https://github.com/yayuuu/desktopCommand/raw/main/assets/screenshot.jpg",
+      "version": "1.2.1"
+    },
+    "path": "/nix/store/p6g00cxqhli535shgr8fl018l327j2m9-desktopCommand",
+    "rev": "cd7b870a770ff44344766ad5e4fb4a99bff53c00",
+    "rootDir": "",
+    "sha256": "1vwxk7hfa3yqfkblvdfnxcw4qdrgvf68ypcivf6cy4sjcz55byg0",
+    "url": "https://github.com/yayuuu/desktopCommand"
+  },
   "displayManager": {
     "date": "2025-12-26T15:54:35-03:00",
     "deepClone": false,
@@ -707,7 +743,7 @@
       "name": "Hyprland Submap",
       "path": "",
       "repo": "https://github.com/mesteryui/DMS_HyprlandSubmap",
-      "screenshot": "https://github.com/mesteryui/DMS_HyprlandSubmap/raw/main/image_2025-12-24_20-47-31.png",
+      "screenshot": "https://raw.githubusercontent.com/mesteryui/DMS_HyprlandSubmap/refs/heads/main/assets/hyprlandSubmapPassthroughExample.png",
       "version": "1.0.0"
     },
     "path": "/nix/store/xbv8c6a3najhn3yds8zfkraz5hqhl1qf-DMS_HyprlandSubmap",
@@ -963,6 +999,40 @@
     "sha256": "0sv30zx9jbpmipg33q3zvpqrzvhkl5qpby4h04gysnw051a1clzn",
     "url": "https://github.com/Daniel-42-z/dms-power-usage"
   },
+  "prayerTimes": {
+    "date": "2025-12-29T13:31:50+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-RoQvM00PEl8l38gmClhQbWuIADUgKjkPZezAGx7WMmU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "muadz",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Display Islamic prayer times from Aladhan API",
+      "distro": [
+        "any"
+      ],
+      "id": "prayerTimes",
+      "name": "Prayer Times",
+      "repo": "https://github.com/muadzmo/prayertimes",
+      "screenshot": "https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png",
+      "version": "0.0.1"
+    },
+    "path": "/nix/store/8krwvfrqmdpgm5brcvhjdnvsvp2ihl4g-prayertimes",
+    "rev": "b63f9297a4990034ec7014233f3289601e54cd8b",
+    "rootDir": "",
+    "sha256": "0r9jsqg1ph7ccl7kjai06l08hsvda1c0l9n8vwjmy4hg9lrjz126",
+    "url": "https://github.com/muadzmo/prayertimes"
+  },
   "pulsarX3": {
     "date": "2025-12-05T13:38:05+01:00",
     "deepClone": false,
@@ -998,6 +1068,42 @@
     "rootDir": "",
     "sha256": "1k6v5xjccvakmsx7s13336gp9gn4kadqmmd413v50ikj13aw0yjs",
     "url": "https://github.com/jonkristian/dms-pulsar-x3"
+  },
+  "tailscale": {
+    "date": "2025-12-28T23:10:04-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-cXuljANI8aO5cb7xwIs/ttucJD/y9s9PXuUw7LS+BGI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "cglavin50",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "tailscale"
+      ],
+      "description": "Tailscale-toggle plugin for DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "tailscale",
+      "name": "Tailscale Manager",
+      "repo": "https://github.com/cglavin50/dms-tailscale",
+      "screenshot": "https://github.com/cglavin50/dms-tailscale/raw/main/plugin-notif.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/j4riay3djbpy0carn3px7y6fz5w9m226-dms-tailscale",
+    "rev": "f035c3a0923e5872f912fc9bd4cc0c7f161fbe2a",
+    "rootDir": "",
+    "sha256": "0qh4pssfqc75br7wzxpj7wj9rnxn7y5w1wdyf6ws7wa80f6aayvi",
+    "url": "https://github.com/cglavin50/dms-tailscale"
   },
   "wallpaperBing": {
     "date": "2025-12-13T18:51:24+01:00",
