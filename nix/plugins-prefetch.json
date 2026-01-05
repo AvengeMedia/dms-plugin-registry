@@ -358,12 +358,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "desktopCommand": {
-    "date": "2026-01-04T01:24:57+01:00",
+    "date": "2026-01-04T07:11:20+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-4PlVymdSE8+M25Fdj4zbLzdMOOvWtU3XdNgP5eCZne8=",
+    "hash": "sha256-/33qziNk7pv9RTFeHVxRs3F4251wYmNxVjniK+GZQu8=",
     "leaveDotGit": false,
     "meta": {
       "author": "yayuuu",
@@ -385,12 +385,12 @@
       "name": "Desktop Command",
       "repo": "https://github.com/yayuuu/desktopCommand",
       "screenshot": "https://github.com/yayuuu/desktopCommand/raw/main/assets/screenshot.jpg",
-      "version": "1.2.1"
+      "version": "1.2.3"
     },
-    "path": "/nix/store/p6g00cxqhli535shgr8fl018l327j2m9-desktopCommand",
-    "rev": "cd7b870a770ff44344766ad5e4fb4a99bff53c00",
+    "path": "/nix/store/85j0ds4msjhqria3bzi8d8zjc144zjcn-desktopCommand",
+    "rev": "d364af6b39f3568a40a4a4741f8f99b37376db8b",
     "rootDir": "",
-    "sha256": "1vwxk7hfa3yqfkblvdfnxcw4qdrgvf68ypcivf6cy4sjcz55byg0",
+    "sha256": "1vs2k7hjpqirarqn6qkhkpdphwdka5f1spii8pyrpvk44g7flzgz",
     "url": "https://github.com/yayuuu/desktopCommand"
   },
   "displayManager": {
