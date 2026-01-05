@@ -1,0 +1,13 @@
+{
+    "id": "hueManager",
+    "name": "Hue Manager",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/derethil/dms-hue-manager",
+    "author": "derethil",
+    "description": "Control your Philips Hue lights directly from DMS",
+    "dependencies": ["openhue-cli", "jq"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/derethil/dms-hue-manager/main/assets/screenshot.png"
+}
