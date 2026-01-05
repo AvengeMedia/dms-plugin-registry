@@ -833,6 +833,35 @@ Quick screenshot menu for grimblast with multiple capture modes
 
 
 
+#### [Hue Manager](https://github.com/derethil/dms-hue-manager)
+
+Control your Philips Hue lights directly from DMS
+
+
+
+- id: hueManager
+- name: Hue Manager
+- author: derethil
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: openhue-cli, jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/derethil/dms-hue-manager/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Kubernetes](https://github.com/psyreactor/dms-kubernetes)
 
 Kubernetes plugin for DankBar
