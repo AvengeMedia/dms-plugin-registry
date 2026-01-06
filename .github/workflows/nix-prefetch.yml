@@ -3,7 +3,7 @@ name: Nix Prefetch
 on:
   push:
     branches:
-      - main
+      - master
   schedule:
     - cron: 0 0 * * *
 
