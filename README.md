@@ -523,6 +523,40 @@ Trigger scripts based on various system events.
 
 
 
+#### [Dank Launcher Keys](https://github.com/AvengeMedia/dms-plugins)
+
+Search and browse keyboard shortcuts from your compositor and applications
+
+
+
+- id: dankLauncherKeys
+- name: Dank Launcher Keys
+- author: Avenge Media
+- compositors: any
+- capabilities: launcher
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [DankLauncherKeys](https://github.com/AvengeMedia/dms-plugins/tree/main/DankLauncherKeys) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankLauncherKeys/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Pomodoro Timer](https://github.com/AvengeMedia/dms-plugins)
 
 A customizable Pomodoro timer.
