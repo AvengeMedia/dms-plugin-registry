@@ -1,0 +1,15 @@
+{
+    "id": "dankLauncherKeys",
+    "name": "Dank Launcher Keys",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "path": "DankLauncherKeys",
+    "author": "Avenge Media",
+    "firstParty": true,
+    "description": "Search and browse keyboard shortcuts from your compositor and applications",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankLauncherKeys/screenshot.png"
+}
