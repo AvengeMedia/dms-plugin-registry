@@ -304,7 +304,7 @@ Toggle Niri displays and control monitor hardware brightness, contrast, scale, r
 
 An alarm clock widget
 
-
+<strong>requires DMS version</strong>: <em>>=0.2.4</em>
 
 - id: alarmClock
 - name: Alarm Clock
@@ -338,7 +338,7 @@ An alarm clock widget
 
 Add application shortcuts in your desktop :)
 
-
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
 
 - id: appShortcut
 - name: Application Shortcut
@@ -527,7 +527,7 @@ Trigger scripts based on various system events.
 
 Search and browse keyboard shortcuts from your compositor and applications
 
-
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
 
 - id: dankLauncherKeys
 - name: Dank Launcher Keys
@@ -595,7 +595,7 @@ A customizable Pomodoro timer.
 
 A widget that displays a command output on your desktop
 
-
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
 
 - id: desktopCommand
 - name: Desktop Command
@@ -653,7 +653,7 @@ Mirror niri displays using wl-mirror from the control center and bar
 
 Turn on/off displays
 
-
+<strong>requires DMS version</strong>: <em>>=0.6.2</em>
 
 - id: displaySettings
 - name: Display Settings
@@ -687,7 +687,7 @@ Turn on/off displays
 
 Display Docker/Podman container status and management controls
 
-
+<strong>requires DMS version</strong>: <em>>=0.3.0</em>
 
 - id: dockerManager
 - name: Docker Manager
@@ -803,7 +803,7 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 
 Search and copy gitmojis from https://gitmoji.dev
 
-
+<strong>requires DMS version</strong>: <em>>=0.2.4</em>
 
 - id: gitmojiLauncher
 - name: Gitmoji Launcher
@@ -837,7 +837,7 @@ Search and copy gitmojis from https://gitmoji.dev
 
 Quick screenshot menu for grimblast with multiple capture modes
 
-
+<strong>requires DMS version</strong>: <em>>=0.1.18</em>
 
 - id: grimblast
 - name: Grimblast
@@ -1103,7 +1103,7 @@ Tailscale-toggle plugin for DankBar
 
 Search and download wallpapers
 
-
+<strong>requires DMS version</strong>: <em>>=0.2.4</em>
 
 - id: wallpaperDiscovery
 - name: Wallpaper Discovery
@@ -1203,7 +1203,7 @@ Multiple timezones clock for DankBar
 
 Feature-rich weather widget with current conditions, forecasts, and multiple view modes.
 
-
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
 
 - id: dankDesktopWeather
 - name: Dank Desktop Weather
