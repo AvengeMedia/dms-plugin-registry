@@ -9,5 +9,6 @@
   "dependencies": [],
   "compositors": ["any"],
   "distro": ["any"],
-  "screenshot": "https://github.com/oabragh/AppShortcut/raw/main/assets/preview.png"
+  "screenshot": "https://github.com/oabragh/AppShortcut/raw/main/assets/preview.png",
+  "requires_dms": ">=1.2.0"
 }

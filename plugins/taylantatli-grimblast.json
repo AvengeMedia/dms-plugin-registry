@@ -10,5 +10,6 @@
     "dependencies": ["grimblast"],
     "compositors": ["hyprland"],
     "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/TaylanTatli/dms-plugins/refs/heads/master/grimblast/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/TaylanTatli/dms-plugins/refs/heads/master/grimblast/screenshot.png",
+    "requires_dms": ">=0.1.18"
 }

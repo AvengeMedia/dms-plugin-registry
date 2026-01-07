@@ -16,5 +16,6 @@
     "distro": [
         "any"
     ],
-    "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/displaySettings/screenshot.png?raw=true"
+    "screenshot": "https://github.com/Lucyfire/dms-plugins/blob/master/displaySettings/screenshot.png?raw=true",
+    "requires_dms": ">=0.6.2"
 }

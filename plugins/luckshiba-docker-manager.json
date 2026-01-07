@@ -10,5 +10,6 @@
     "dependencies": ["docker or podman"],
     "compositors": ["any"],
     "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/LuckShiba/DmsDockerManager/main/assets/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/LuckShiba/DmsDockerManager/main/assets/screenshot.png",
+    "requires_dms": ">=0.3.0"
 }
