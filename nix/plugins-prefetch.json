@@ -800,12 +800,12 @@
     "url": "https://github.com/derethil/dms-hue-manager"
   },
   "hyprlandSubmap": {
-    "date": "2026-01-06T20:50:40+01:00",
+    "date": "2026-01-08T09:47:36+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bpQif4kXI90H1hIRi+hQ+K27V2uHxnHNXfDWLQWD3UY=",
+    "hash": "sha256-EJ8MCxnA/eZUccUf7EG6N8hPHblTXSlgXfxwLy/Jt8s=",
     "leaveDotGit": false,
     "meta": {
       "author": "Mester",
@@ -828,10 +828,10 @@
       "screenshot": "https://raw.githubusercontent.com/mesteryui/DMS_HyprlandSubmap/refs/heads/main/assets/hyprlandSubmapPassthroughExample.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/7gl7k44n26jvm0z6wybfpbq974bad4x5-DMS_HyprlandSubmap",
-    "rev": "88476a68b70a37d8e6162c7d1e4cb6e115087ef1",
+    "path": "/nix/store/qdrd0rfb0g014kn8rr9pg15b05ryfj2y-DMS_HyprlandSubmap",
+    "rev": "b9a289a8239ea8651876cc38aa936181b8e1d313",
     "rootDir": "",
-    "sha256": "0inxhc2jvmphbp6p3il7ddbvpbgqa3l8n48jsq3xs8qpi5zj553f",
+    "sha256": "1jxpr4pjyw7wbmh2jpakp4flzj1pp90yq7y5f5afdzf0345hr7qh",
     "url": "https://github.com/mesteryui/DMS_HyprlandSubmap"
   },
   "kubernetes": {
@@ -1186,6 +1186,43 @@
     "rootDir": "",
     "sha256": "0qh4pssfqc75br7wzxpj7wj9rnxn7y5w1wdyf6ws7wa80f6aayvi",
     "url": "https://github.com/cglavin50/dms-tailscale"
+  },
+  "voxtype": {
+    "date": "2026-01-08T16:28:08-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-X5kyoclRJ6/FsGndSV0ZwLjC36CVXwQ1ivCLxKaQ1gI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "psyreactor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "voxtype"
+      ],
+      "description": "voxtype status plugin for DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "voxtype",
+      "name": "Voxtype",
+      "repo": "https://github.com/psyreactor/dms-voxtype",
+      "requires_dms": ">0.0.28",
+      "screenshot": "https://github.com/psyreactor/dms-voxtype/raw/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/kn0yz0gglb8hzni3dcaxp2r3k6y3s4dl-dms-voxtype",
+    "rev": "6debdff675065a384ae58e23c745df43461d47f1",
+    "rootDir": "",
+    "sha256": "00nnj2kc92zhi8sh8pwml3gw5f6035flkpb9n32sy9sir6hk56az",
+    "url": "https://github.com/psyreactor/dms-voxtype"
   },
   "wallpaperBing": {
     "date": "2025-12-13T18:51:24+01:00",
