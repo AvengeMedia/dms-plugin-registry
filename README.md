@@ -1099,6 +1099,35 @@ Tailscale-toggle plugin for DankBar
 
 
 
+#### [Voxtype](https://github.com/psyreactor/dms-voxtype)
+
+voxtype status plugin for DankBar
+
+<strong>requires DMS version</strong>: <em>>0.0.28</em>
+
+- id: voxtype
+- name: Voxtype
+- author: psyreactor
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: voxtype
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/psyreactor/dms-voxtype/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper Discovery](https://github.com/lucyfire/dms-plugins)
 
 Search and download wallpapers
