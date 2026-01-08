@@ -1,0 +1,14 @@
+{
+    "id": "voxtype",
+    "name": "Voxtype",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/psyreactor/dms-voxtype",
+    "author": "psyreactor",
+    "description": "voxtype status plugin for DankBar",
+    "dependencies": ["voxtype"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/psyreactor/dms-voxtype/raw/main/screenshot.png",
+    "requires_dms": ">0.0.28"
+}
