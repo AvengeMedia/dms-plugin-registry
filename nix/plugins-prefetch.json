@@ -145,12 +145,12 @@
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
   "commandRunner": {
-    "date": "2025-11-05T00:25:56-05:00",
+    "date": "2026-01-10T19:01:42-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-tXqDRVp1VhyD1WylW83mO4aYFmVg/NV6Z/toHmb5Tn8=",
+    "hash": "sha256-PyNTMuSOmAt6UHWLKoA1Q+rSMSu8wj7hPM3PKY5DCOY=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -170,12 +170,12 @@
       "name": "Command Runner",
       "repo": "https://github.com/devnullvoid/dms-command-runner",
       "screenshot": "https://github.com/devnullvoid/dms-command-runner/blob/main/screenshot.png?raw=true",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/gki6m3kbbqa8vpbcncq0hiz7p0617hhq-dms-command-runner",
-    "rev": "d89a09413e2fc041089b595a06c0fb316b12e17a",
+    "path": "/nix/store/j39rz7kmwi4jxjh1rb0syqbhy1hp0awf-dms-command-runner",
+    "rev": "3bc5df1f78954c18fb685ad6a3c72c80a0577ee8",
     "rootDir": "",
-    "sha256": "0zsfz5k1ws7vcxxdbz30clb9i1ivwv6mp9bcsn1iqmkmb92q6ymm",
+    "sha256": "1rh88f72kkyd7khkxhmw5cqx5sj36n02m2vma1x0p64fwhr568rz",
     "url": "https://github.com/devnullvoid/dms-command-runner"
   },
   "dankActions": {
@@ -652,12 +652,12 @@
     "url": "https://github.com/jonkristian/dms-easyeffects"
   },
   "emojiLauncher": {
-    "date": "2025-11-09T17:27:54-05:00",
+    "date": "2026-01-10T19:01:28-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-aub5pXRMlMs7dxiv5P+/Rz/dA4weojr+SGZAItmbOvo=",
+    "hash": "sha256-HNtGdR1bZypspIBJpnLRfGGFTBJRP8pTBc0WZR9b0sQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -677,12 +677,12 @@
       "name": "Emoji & Unicode Launcher",
       "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
       "screenshot": "https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true",
-      "version": "1.2.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/ha1nrjx3y51rkl7mq4vzlkdwlbmxz4ya-dms-emoji-launcher",
-    "rev": "2951ec7f823c983c11b6b231403581a386a7c9f6",
+    "path": "/nix/store/9y4jd4ck5z1ccjnfigd6fq03sh6qddqc-dms-emoji-launcher",
+    "rev": "bd2df8723d417d11dc0ce6ddc225d25f707ce2f5",
     "rootDir": "",
-    "sha256": "1yiskgcj4h3693z3m8hyih1xsgs7pzzy9bqqfwxwp52cfjjzkrka",
+    "sha256": "1i6jbcgna5nd0m9wlgsi2968aqbws5racjc0lin2lrsv3msldnqw",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "gitmojiLauncher": {
@@ -1335,12 +1335,12 @@
     "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
   },
   "webSearch": {
-    "date": "2025-11-10T15:54:03-05:00",
+    "date": "2026-01-10T14:49:58-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-mKbmROijhYhy/IPbVxYbKyggXesqVGnS/AfAEyeQVhg=",
+    "hash": "sha256-IKEnmT+b3u0S01GabJ+3PkYHErDrLmIClvuwP8pajhI=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -1360,12 +1360,12 @@
       "name": "Web Search",
       "repo": "https://github.com/devnullvoid/dms-web-search",
       "screenshot": "https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true",
-      "version": "1.2.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/38ck68kk8lg4sq6iwiz9q3a8bbsgzzxn-dms-web-search",
-    "rev": "81ccd9fd8249b3c9ef40dde42549f807e36ae3e3",
+    "path": "/nix/store/1icm83bgs9wcjp1sr9g265r69x3vwwgz-dms-web-search",
+    "rev": "a119cf7cbac27c4070bd95a91dce2b99568eef29",
     "rootDir": "",
-    "sha256": "062nj0ki7h07zk96jm1axdfj0a1b3cb5gnw3zir8i1d3x12fd9lq",
+    "sha256": "04lfbb53zc7vjq164bpbn090fiiynygnr6jisc9fvplv7ycjg890",
     "url": "https://github.com/devnullvoid/dms-web-search"
   },
   "worldClock": {
