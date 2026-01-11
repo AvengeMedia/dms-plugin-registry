@@ -1070,6 +1070,35 @@ Monitor and control your Pulsar X3 gaming mouse
 
 
 
+#### [Sathi.AI](https://github.com/ss44/sathi.ai)
+
+A simple multi model ai client to use with your dank shell. Use it ollama, gemini or openai models. Keys not included.
+
+
+
+- id: sathiAi
+- name: Sathi.AI
+- author: SSingh44
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/ss44/sathi.ai/refs/heads/master/assets/screenshot-01.png)
+
+</details>
+
+
+
+
+
 #### [Tailscale Manager](https://github.com/cglavin50/dms-tailscale)
 
 Tailscale-toggle plugin for DankBar
