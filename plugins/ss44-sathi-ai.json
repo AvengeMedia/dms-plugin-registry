@@ -1,0 +1,19 @@
+{
+    "id": "sathiAi",
+    "name": "Sathi.AI",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/ss44/sathi.ai",
+    "author": "SSingh44",
+    "description": "A simple multi model ai client to use with your dank shell. Use it ollama, gemini or openai models. Keys not included.",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/ss44/sathi.ai/refs/heads/master/assets/screenshot-01.png"
+}
