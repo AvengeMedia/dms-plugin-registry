@@ -1,0 +1,67 @@
+
+{
+  "id": "flexoki",
+  "name": "Flexoki",
+  "version": "1.0.0",
+  "author": "Euan Deas",
+  "description": "Inky color scheme for prose and code by Steph Ango",
+  "dark": {
+    "surface": "#100F0F",
+    "surfaceText": "#CECDC3",
+    "surfaceVariant": "#100F0F",
+    "surfaceVariantText": "#CECDC3",
+    "background": "#100F0F",
+    "backgroundText": "#CECDC3",
+    "outline": "#575653",
+    "surfaceContainer": "#1C1B1A",
+    "surfaceContainerHigh": "#282726",
+    "surfaceContainerHighest": "#343331",
+    "primary": "#4385BE",
+    "secondary": "#4385BE",
+    "primaryText": "#100F0F",
+    "primaryContainer": "#205EA6",
+    "surfaceTint": "#66A0C8",
+    "error": "#D14D41",
+    "warning": "#DA702C",
+    "info": "#4385BE"
+  },
+  "light": {
+    "surface": "#FFFCF0",
+    "surfaceText": "#100F0F",
+    "surfaceVariant": "#FFFCF0",
+    "surfaceVariantText": "#100F0F",
+    "background": "#FFFCF0",
+    "backgroundText": "#100F0F",
+    "outline": "#B7B5AC",
+    "surfaceContainer": "#F2F0E5",
+    "surfaceContainerHigh": "#E6E4D9",
+    "surfaceContainerHighest": "#DAD8CE",
+    "primary": "#205EA6",
+    "secondary": "#205EA6",
+    "primaryText": "#CECDC3",
+    "primaryContainer": "#163B66",
+    "surfaceTint": "#3171B2",
+    "error": "#AF3029",
+    "warning": "#BC5215",
+    "info": "#205EA6"
+  },
+  "variants": {
+    "default": "blue",
+    "accents": [
+        {
+        "id": "blue",
+        "name": "Blue",
+        "dark": {
+          "primary": "#4385BE",
+          "secondary": "#4385BE",
+          "info": "#4385BE"
+        },
+        "light": {
+          "primary": "#205EA6",
+          "secondary": "#205EA6",
+          "info": "#205EA6"
+        }
+      },
+    ]
+  }
+}
