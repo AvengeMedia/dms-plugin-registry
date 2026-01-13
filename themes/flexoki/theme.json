@@ -16,14 +16,11 @@
     "surfaceContainer": "#1C1B1A",
     "surfaceContainerHigh": "#282726",
     "surfaceContainerHighest": "#343331",
-    "primary": "#4385BE",
-    "secondary": "#4385BE",
     "primaryText": "#100F0F",
     "primaryContainer": "#205EA6",
     "surfaceTint": "#66A0C8",
     "error": "#D14D41",
-    "warning": "#DA702C",
-    "info": "#4385BE"
+    "warning": "#DA702C"
   },
   "light": {
     "surface": "#FFFCF0",
@@ -36,18 +33,15 @@
     "surfaceContainer": "#F2F0E5",
     "surfaceContainerHigh": "#E6E4D9",
     "surfaceContainerHighest": "#DAD8CE",
-    "primary": "#205EA6",
-    "secondary": "#205EA6",
     "primaryText": "#CECDC3",
     "primaryContainer": "#163B66",
     "surfaceTint": "#3171B2",
     "error": "#AF3029",
-    "warning": "#BC5215",
-    "info": "#205EA6"
+    "warning": "#BC5215"
   },
   "variants": {
     "default": "blue",
-    "accents": [
+    "options": [
         {
         "id": "blue",
         "name": "Blue",
