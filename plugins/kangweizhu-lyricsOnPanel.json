@@ -1,0 +1,14 @@
+{
+    "id": "lyricsOnPanel",
+    "name": "Lyrics on Panel",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/KangweiZhu/lyrics-on-panel",
+    "path": "dms",
+    "author": "Kangwei(Anicaa) Zhu",
+    "description": "[Backend setup required!] A widget that displays the lyrics of the currently playing song from Spotify, Netease Cloud Music, Elisa, etc., on any location of your desktop.",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/KangweiZhu/lyrics-on-panel/raw/main/img/image-panel-onlythiswidget.png"
+}
