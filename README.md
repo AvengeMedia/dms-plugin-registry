@@ -1333,6 +1333,17 @@ Everforest is a green based color scheme, designed to be warm and soft
 
 
 
+### Flexoki
+
+Inky color scheme for prose and code by Steph Ango
+
+- **Author:** Euan Deas
+- **ID:** `flexoki` **Version:** `1.0.0`
+
+![Flexoki](themes/flexoki/preview.svg)
+
+
+
 ### Gruvbox Material
 
 Material version of the popular Gruvbox theme with retro groove colors
