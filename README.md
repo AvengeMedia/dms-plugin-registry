@@ -925,6 +925,40 @@ Kubernetes plugin for DankBar
 
 
 
+#### [Lyrics on Panel](https://github.com/KangweiZhu/lyrics-on-panel)
+
+[Backend setup required!] A widget that displays the lyrics of the currently playing song from Spotify, Netease Cloud Music, Elisa, etc., on any location of your desktop.
+
+
+
+- id: lyricsOnPanel
+- name: Lyrics on Panel
+- author: Kangwei(Anicaa) Zhu
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [dms](https://github.com/KangweiZhu/lyrics-on-panel/tree/main/dms) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/KangweiZhu/lyrics-on-panel/raw/main/img/image-panel-onlythiswidget.png)
+
+</details>
+
+
+
+
+
 #### [Media Player](https://github.com/arrifat346afs/mediaPlayer)
 
 A desktop media player widget
