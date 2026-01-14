@@ -908,6 +908,42 @@
     "sha256": "1y35iwnskk5aydd424jicidg567g69q4aw341ysl6jlkwdry0qlc",
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
   },
+  "lyricsOnPanel": {
+    "date": "2026-01-14T01:40:27-06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-bg43UZMuO4FbD4B0g/CsUeUPn+SxI4kYivedKOP62Nk=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Kangwei(Anicaa) Zhu",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "[Backend setup required!] A widget that displays the lyrics of the currently playing song from Spotify, Netease Cloud Music, Elisa, etc., on any location of your desktop.",
+      "distro": [
+        "any"
+      ],
+      "id": "lyricsOnPanel",
+      "name": "Lyrics on Panel",
+      "path": "dms",
+      "repo": "https://github.com/KangweiZhu/lyrics-on-panel",
+      "screenshot": "https://github.com/KangweiZhu/lyrics-on-panel/raw/main/img/image-panel-onlythiswidget.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/jfw6nlx4cms5zbrk708cp8vqcpi5bnm6-lyrics-on-panel",
+    "rev": "1cd84690eee0cbac7e53c20b612db7428977d7a0",
+    "rootDir": "",
+    "sha256": "1nfqzbiji7gpi8c8j8xiwjghzraimkq86x401xdq2frfjd8kf3kf",
+    "url": "https://github.com/KangweiZhu/lyrics-on-panel"
+  },
   "mediaPlayer": {
     "date": "2025-12-29T19:44:05+06:00",
     "deepClone": false,
