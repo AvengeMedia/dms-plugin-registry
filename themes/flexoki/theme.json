@@ -1,0 +1,158 @@
+{
+  "id": "flexoki",
+  "name": "Flexoki",
+  "version": "1.0.0",
+  "author": "Euan Deas",
+  "description": "Inky color scheme for prose and code by Steph Ango",
+  "dark": {
+    "surface": "#100F0F",
+    "surfaceText": "#CECDC3",
+    "surfaceVariant": "#100F0F",
+    "surfaceVariantText": "#CECDC3",
+    "background": "#100F0F",
+    "backgroundText": "#CECDC3",
+    "outline": "#575653",
+    "surfaceContainer": "#1C1B1A",
+    "surfaceContainerHigh": "#282726",
+    "surfaceContainerHighest": "#343331",
+    "primaryText": "#100F0F",
+    "primaryContainer": "#205EA6",
+    "surfaceTint": "#66A0C8",
+    "error": "#D14D41",
+    "warning": "#DA702C"
+  },
+  "light": {
+    "surface": "#FFFCF0",
+    "surfaceText": "#100F0F",
+    "surfaceVariant": "#FFFCF0",
+    "surfaceVariantText": "#100F0F",
+    "background": "#FFFCF0",
+    "backgroundText": "#100F0F",
+    "outline": "#B7B5AC",
+    "surfaceContainer": "#F2F0E5",
+    "surfaceContainerHigh": "#E6E4D9",
+    "surfaceContainerHighest": "#DAD8CE",
+    "primaryText": "#CECDC3",
+    "primaryContainer": "#163B66",
+    "surfaceTint": "#3171B2",
+    "error": "#AF3029",
+    "warning": "#BC5215"
+  },
+  "variants": {
+    "default": "blue",
+    "options": [
+        {
+          "id": "blue",
+          "name": "Blue",
+          "dark": {
+            "primary": "#4385BE",
+            "secondary": "#4385BE",
+            "info": "#4385BE"
+          },
+          "light": {
+            "primary": "#205EA6",
+            "secondary": "#205EA6",
+            "info": "#205EA6"
+            }
+        },
+        {
+          "id": "red",
+          "name": "Red",
+          "dark": {
+            "primary": "#D14D41",
+            "secondary": "#D14D41",
+            "info": "#D14D41"
+          },
+          "light": {
+            "primary": "#AF3029",
+            "secondary": "#AF3029",
+            "info": "#AF3029"
+            }
+        },
+        {
+          "id": "orange",
+          "name": "Orange",
+          "dark": {
+            "primary": "#DA702C",
+            "secondary": "#DA702C",
+            "info": "#DA702C"
+          },
+          "light": {
+            "primary": "#BC5215",
+            "secondary": "#BC5215",
+            "info": "#BC5215"
+            }
+        },
+        {
+          "id": "yellow",
+          "name": "Yellow",
+          "dark": {
+            "primary": "#D0A215",
+            "secondary": "#D0A215",
+            "info": "#D0A215"
+          },
+          "light": {
+            "primary": "#AD8301",
+            "secondary": "#AD8301",
+            "info": "#AD8301"
+            }
+        },
+        {
+          "id": "green",
+          "name": "Green",
+          "dark": {
+            "primary": "#879A39",
+            "secondary": "#879A39",
+            "info": "#879A39"
+          },
+          "light": {
+            "primary": "#66800B",
+            "secondary": "#66800B",
+            "info": "#66800B"
+            }
+        },
+        {
+          "id": "cyan",
+          "name": "Cyan",
+          "dark": {
+            "primary": "#3AA99F",
+            "secondary": "#3AA99F",
+            "info": "#3AA99F"
+          },
+          "light": {
+            "primary": "#24837B",
+            "secondary": "#24837B",
+            "info": "#24837B"
+            }
+        },
+        {
+          "id": "purple",
+          "name": "Purple",
+          "dark": {
+            "primary": "#8B7EC8",
+            "secondary": "#8B7EC8",
+            "info": "#8B7EC8"
+          },
+          "light": {
+            "primary": "#5E409D",
+            "secondary": "#5E409D",
+            "info": "#5E409D"
+            }
+        },
+        {
+          "id": "magenta",
+          "name": "Magenta",
+          "dark": {
+            "primary": "#CE5D97",
+            "secondary": "#CE5D97",
+            "info": "#CE5D97"
+          },
+          "light": {
+            "primary": "#A02F6F",
+            "secondary": "#A02F6F",
+            "info": "#A02F6F"
+            } 
+        }    
+    ]
+  }
+}
