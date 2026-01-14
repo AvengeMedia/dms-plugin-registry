@@ -909,12 +909,12 @@
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
   },
   "lyricsOnPanel": {
-    "date": "2026-01-14T01:40:27-06:00",
+    "date": "2026-01-14T09:32:49-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bg43UZMuO4FbD4B0g/CsUeUPn+SxI4kYivedKOP62Nk=",
+    "hash": "sha256-8H0BUmr7OP5Zq47yj2Uk1hKQxezO4ccs7lfApDXHoE0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Kangwei(Anicaa) Zhu",
@@ -938,10 +938,10 @@
       "screenshot": "https://github.com/KangweiZhu/lyrics-on-panel/raw/main/img/image-panel-onlythiswidget.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/jfw6nlx4cms5zbrk708cp8vqcpi5bnm6-lyrics-on-panel",
-    "rev": "1cd84690eee0cbac7e53c20b612db7428977d7a0",
+    "path": "/nix/store/gmca1sfbh843mc27c3yndzcf4h4yihsn-lyrics-on-panel",
+    "rev": "4adc07fcc99c68bc837de636e18b5987e8027b72",
     "rootDir": "",
-    "sha256": "1nfqzbiji7gpi8c8j8xiwjghzraimkq86x401xdq2frfjd8kf3kf",
+    "sha256": "0kd0qwss9h2pxqncgqffxk2r04nn4ijqzwlfmdczwf7vd9902zgh",
     "url": "https://github.com/KangweiZhu/lyrics-on-panel"
   },
   "mediaPlayer": {
