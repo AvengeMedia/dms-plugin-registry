@@ -17,7 +17,6 @@
     "surfaceContainerHighest": "#343331",
     "primaryText": "#100F0F",
     "primaryContainer": "#205EA6",
-    "surfaceTint": "#66A0C8",
     "error": "#D14D41",
     "warning": "#DA702C"
   },
@@ -34,7 +33,6 @@
     "surfaceContainerHighest": "#DAD8CE",
     "primaryText": "#CECDC3",
     "primaryContainer": "#163B66",
-    "surfaceTint": "#3171B2",
     "error": "#AF3029",
     "warning": "#BC5215"
   },
@@ -47,12 +45,14 @@
           "dark": {
             "primary": "#4385BE",
             "secondary": "#4385BE",
-            "info": "#4385BE"
+            "info": "#4385BE",
+            "surfaceTint": "#66A0C8"
           },
           "light": {
             "primary": "#205EA6",
             "secondary": "#205EA6",
-            "info": "#205EA6"
+            "info": "#205EA6",
+            "surfaceTint": "#3171B2"
             }
         },
         {
@@ -61,12 +61,14 @@
           "dark": {
             "primary": "#D14D41",
             "secondary": "#D14D41",
-            "info": "#D14D41"
+            "info": "#D14D41",
+            "surfaceTint": "#E8705F"
           },
           "light": {
             "primary": "#AF3029",
             "secondary": "#AF3029",
-            "info": "#AF3029"
+            "info": "#AF3029",
+            "surfaceTint": "#C03E35"
             }
         },
         {
@@ -75,12 +77,14 @@
           "dark": {
             "primary": "#DA702C",
             "secondary": "#DA702C",
-            "info": "#DA702C"
+            "info": "#DA702C",
+            "surfaceTint": "#EC8B49"
           },
           "light": {
             "primary": "#BC5215",
             "secondary": "#BC5215",
-            "info": "#BC5215"
+            "info": "#BC5215",
+            "surfaceTint": "#CB6120"
             }
         },
         {
@@ -89,12 +93,14 @@
           "dark": {
             "primary": "#D0A215",
             "secondary": "#D0A215",
-            "info": "#D0A215"
+            "info": "#D0A215",
+            "surfaceTint": "#DFB431"
           },
           "light": {
             "primary": "#AD8301",
             "secondary": "#AD8301",
-            "info": "#AD8301"
+            "info": "#AD8301",
+            "surfaceTint": "#BE9207"
             }
         },
         {
@@ -103,12 +109,14 @@
           "dark": {
             "primary": "#879A39",
             "secondary": "#879A39",
-            "info": "#879A39"
+            "info": "#879A39",
+            "surfaceTint": "#A0AF54"
           },
           "light": {
             "primary": "#66800B",
             "secondary": "#66800B",
-            "info": "#66800B"
+            "info": "#66800B",
+            "surfaceTint": "#768D21"
             }
         },
         {
@@ -117,12 +125,14 @@
           "dark": {
             "primary": "#3AA99F",
             "secondary": "#3AA99F",
-            "info": "#3AA99F"
+            "info": "#3AA99F",
+            "surfaceTint": "#5ABDAC"
           },
           "light": {
             "primary": "#24837B",
             "secondary": "#24837B",
-            "info": "#24837B"
+            "info": "#24837B",
+            "surfaceTint": "#2F968D"
             }
         },
         {
@@ -131,12 +141,14 @@
           "dark": {
             "primary": "#8B7EC8",
             "secondary": "#8B7EC8",
-            "info": "#8B7EC8"
+            "info": "#8B7EC8",
+            "surfaceTint": "#A699D0"
           },
           "light": {
             "primary": "#5E409D",
             "secondary": "#5E409D",
-            "info": "#5E409D"
+            "info": "#5E409D",
+            "surfaceTint": "#735EB5"
             }
         },
         {
@@ -145,12 +157,14 @@
           "dark": {
             "primary": "#CE5D97",
             "secondary": "#CE5D97",
-            "info": "#CE5D97"
+            "info": "#CE5D97",
+            "surfaceTint": "#E47DA8"
           },
           "light": {
             "primary": "#A02F6F",
             "secondary": "#A02F6F",
-            "info": "#A02F6F"
+            "info": "#A02F6F",
+            "surfaceTint": "#B74583"
             } 
         }    
     ]
