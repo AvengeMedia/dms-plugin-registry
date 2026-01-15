@@ -141,7 +141,7 @@ A new fresh daily wallpaper downloaded from a famous portal
 
 #### [Hyprland Submap](https://github.com/mesteryui/DMS_HyprlandSubmap)
 
-Shows the current submap in hyprland
+Shows the current submap in Hyprland
 
 
 
@@ -160,7 +160,7 @@ Shows the current submap in hyprland
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/mesteryui/DMS_HyprlandSubmap/refs/heads/main/assets/hyprlandSubmapPassthroughExample.png)
+![screenshot](https://github.com/mesteryui/DMS_HyprlandSubmap/blob/main/assets/hyprlandSubmapPassthroughExample.png?raw=true)
 
 </details>
 
