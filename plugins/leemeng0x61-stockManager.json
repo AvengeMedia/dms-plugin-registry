@@ -1,0 +1,15 @@
+{
+    "id": "stockManager",
+    "name": "Stock Manager",
+    "capabilities": ["dank-widget"],
+    "category": "Stock",
+    "repo": "https://github.com/leemeng0x61/stockManager",
+    "author": "LeeMeng",
+    "firstParty": true,
+    "description": "Simple Chinese A-share stock market monitoring plugin",
+    "dependencies": ["curl","iconv"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/leemeng0x61/stockManager/raw/main/screenshot/sc.png",
+    "requires_dms": ">=1.2.0"
+}
