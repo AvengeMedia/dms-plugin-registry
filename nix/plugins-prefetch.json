@@ -817,7 +817,7 @@
         "hyprland"
       ],
       "dependencies": [],
-      "description": "Shows the current submap in hyprland",
+      "description": "Shows the current submap in Hyprland",
       "distro": [
         "any"
       ],
@@ -825,7 +825,7 @@
       "name": "Hyprland Submap",
       "path": "",
       "repo": "https://github.com/mesteryui/DMS_HyprlandSubmap",
-      "screenshot": "https://raw.githubusercontent.com/mesteryui/DMS_HyprlandSubmap/refs/heads/main/assets/hyprlandSubmapPassthroughExample.png",
+      "screenshot": "https://github.com/mesteryui/DMS_HyprlandSubmap/blob/main/assets/hyprlandSubmapPassthroughExample.png?raw=true",
       "version": "1.0.0"
     },
     "path": "/nix/store/qdrd0rfb0g014kn8rr9pg15b05ryfj2y-DMS_HyprlandSubmap",
