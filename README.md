@@ -34,7 +34,44 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Appearance](#appearance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
+
+---
+
+
+
+### Stock
+
+
+
+#### [Stock Manager](https://github.com/leemeng0x61/stockManager)
+
+Simple Chinese A-share stock market monitoring plugin
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: stockManager
+- name: Stock Manager
+- author: LeeMeng
+- compositors: any
+- capabilities: dank-widget
+- dependencies: curl, iconv
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/leemeng0x61/stockManager/raw/main/screenshot/sc.png)
+
+</details>
+
+
+
+
 
 ---
 
