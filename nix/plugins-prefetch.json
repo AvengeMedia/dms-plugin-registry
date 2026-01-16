@@ -1221,6 +1221,45 @@
     "sha256": "0g9w929mwsazkg7aw9dk93jgf6frc7k10sci9lkzvx51dmqirnzy",
     "url": "https://github.com/ss44/sathi.ai"
   },
+  "stockManager": {
+    "date": "2026-01-15T19:24:55+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-GMzl7SX6qc2iQ4UXhp1y2zezH+uRccPyDeLw8KsrnAU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "LeeMeng",
+      "capabilities": [
+        "dank-widget"
+      ],
+      "category": "Stock",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl",
+        "iconv"
+      ],
+      "description": "Simple Chinese A-share stock market monitoring plugin",
+      "distro": [
+        "any"
+      ],
+      "firstParty": true,
+      "id": "stockManager",
+      "name": "Stock Manager",
+      "repo": "https://github.com/leemeng0x61/stockManager",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://github.com/leemeng0x61/stockManager/raw/main/screenshot/sc.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/7v32zsmmr6s1ixh343q3zplp1i67fcfj-stockManager",
+    "rev": "caa5545a4ee416871d1ff2a94cc22234c839ff70",
+    "rootDir": "",
+    "sha256": "01cw5fmz1w721prc6wcixcgv6dyvfafqc5w58ficvags4pnybk0q",
+    "url": "https://github.com/leemeng0x61/stockManager"
+  },
   "tailscale": {
     "date": "2025-12-28T23:10:04-05:00",
     "deepClone": false,
