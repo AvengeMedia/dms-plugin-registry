@@ -37,6 +37,42 @@
     "sha256": "1yhyld42nxbcdjbqgdzim68k61qdybdwin3nrfx71nlapv9yikj8",
     "url": "https://github.com/lucyfire/dms-plugins"
   },
+  "amdGpuMonitor": {
+    "date": "2026-01-17T17:47:33+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-R35ocFja1RusOZEC7tSOt3w/k8BWuQ8nKm1uVwS2LjM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "navidagz",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "amdgpu_top"
+      ],
+      "description": "Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.",
+      "distro": [
+        "any"
+      ],
+      "id": "amdGpuMonitor",
+      "name": "AMD GPU Monitor",
+      "repo": "https://github.com/navidagz/dms-amd-gpu-monitor",
+      "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/jk1lja3242mn5dnn49djkwlb8pg18kg6-dms-amd-gpu-monitor",
+    "rev": "7369f0d6c8c243d7d8dc3792e51d2bd537352339",
+    "rootDir": "",
+    "sha256": "0crfnq25fvkd58khzfanq29kyz5pivafw0li76n1pmfsb1q6hzj7",
+    "url": "https://github.com/navidagz/dms-amd-gpu-monitor"
+  },
   "appShortcut": {
     "date": "2025-12-23T18:53:08+01:00",
     "deepClone": false,
