@@ -1,0 +1,13 @@
+{
+    "id": "amdGpuMonitor",
+    "name": "AMD GPU Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/navidagz/dms-amd-gpu-monitor",
+    "author": "navidagz",
+    "description": "Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.",
+    "dependencies": ["amdgpu_top"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshot.png"
+}
