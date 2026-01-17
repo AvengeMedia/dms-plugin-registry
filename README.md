@@ -176,6 +176,35 @@ A new fresh daily wallpaper downloaded from a famous portal
 
 
 
+#### [AMD GPU Monitor](https://github.com/navidagz/dms-amd-gpu-monitor)
+
+Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
+
+
+
+- id: amdGpuMonitor
+- name: AMD GPU Monitor
+- author: navidagz
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: amdgpu_top
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Hyprland Submap](https://github.com/mesteryui/DMS_HyprlandSubmap)
 
 Shows the current submap in Hyprland
