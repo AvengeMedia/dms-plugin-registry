@@ -962,6 +962,40 @@ Control your Philips Hue lights directly from DMS
 
 
 
+#### [KDE Connect](https://github.com/AvengeMedia/dms-plugins)
+
+Control connected KDE Connect devices - view battery, send files, find phone, and more
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: dankKDEConnect
+- name: KDE Connect
+- author: Avenge Media
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: kdeconnect
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [DankKDEConnect](https://github.com/AvengeMedia/dms-plugins/tree/main/DankKDEConnect) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankKDEConnect/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Kubernetes](https://github.com/psyreactor/dms-kubernetes)
 
 Kubernetes plugin for DankBar
