@@ -1,0 +1,14 @@
+{
+    "id": "mediaFrame",
+    "name": "Media Frame",
+    "capabilities": ["desktop-widget"],
+    "category": "appearance",
+    "repo": "https://codeberg.org/claymorwan/dms-plugins",
+    "path": "mediaFrame",
+    "author": "claymorwan",
+    "description": "Desktop plugin to display a picture on your desktop",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://codeberg.org/claymorwan/dms-plugins/raw/branch/master/mediaFrame/screenshot.png"
+}
