@@ -14,7 +14,7 @@
 				"accent": "white"
 			},
 			"light": {
-				"flavor": "black",
+				"flavor": "black-light",
 				"accent": "white"
 			}
 		},
@@ -39,7 +39,11 @@
 					"error": "#DD0000",
 					"warning": "#FFCC00",
 					"info": "#999999"
-				},
+				}
+			},
+			{
+				"id": "black-light",
+				"name": "black",
 				"light": {
 					"primaryText": "#000000",
 					"primaryContainer": "#CC5200",
