@@ -1297,6 +1297,43 @@
     "sha256": "0ddzpxx8362av52v17zc2s33yn3m74vi28g6k620b6bnpqd6nrsx",
     "url": "https://github.com/ss44/sathi.ai"
   },
+  "sessionPower": {
+    "date": "2025-12-10T00:52:02-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-F51xuktIqINBbyxNmJzhf/BmFAWq8LXdoNR6/Wr8SIk=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "RonMurphy",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland",
+        "labwc"
+      ],
+      "dependencies": [],
+      "description": "Puts the Power menu in the Bar",
+      "distro": [
+        "any"
+      ],
+      "id": "sessionPower",
+      "name": "Session Power Menu",
+      "path": "SessionPowerMenu",
+      "repo": "https://github.com/ronmurphy/dms-contrib",
+      "screenshot": "https://raw.githubusercontent.com/ronmurphy/dms-contrib/refs/heads/main/screenshot_session_power_menu.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/vkvswg4mk7a2mvwmxmwiri1pgn4vsrs3-dms-contrib",
+    "rev": "ca7d321538cd83915ee0c8256b5f8a3b908f938e",
+    "rootDir": "",
+    "sha256": "12a8zimgsynll3fvbw5a0la6dw3zw6f9hk9cdx0q7a289fx7378p",
+    "url": "https://github.com/ronmurphy/dms-contrib"
+  },
   "stockManager": {
     "date": "2026-01-15T19:24:55+08:00",
     "deepClone": false,
