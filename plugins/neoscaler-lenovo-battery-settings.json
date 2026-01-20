@@ -1,0 +1,13 @@
+{
+    "id": "dmsLenovoBatterySettings",
+    "name": "Lenovo Battery Settings",
+    "capabilities": ["dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/neoscaler/dms-lenovo-battery-settings",
+    "author": "neoscaler",
+    "description": "Manage Lenovo battery settings like conservation mode",
+    "dependencies": ["ideapad_laptop", "polkit-agent"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/neoscaler/dms-lenovo-battery-settings/refs/heads/main/screenshot.png"
+}
