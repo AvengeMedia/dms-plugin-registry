@@ -110,6 +110,40 @@ Animated wallpaper support using linux-wallpaperengine with Steam Workshop scene
 
 
 
+#### [Media Frame](https://codeberg.org/claymorwan/dms-plugins)
+
+Desktop plugin to display a picture on your desktop
+
+
+
+- id: mediaFrame
+- name: Media Frame
+- author: claymorwan
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [mediaFrame](https://codeberg.org/claymorwan/dms-plugins/tree/main/mediaFrame) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://codeberg.org/claymorwan/dms-plugins/raw/branch/master/mediaFrame/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper Shuffler](https://github.com/Daniel-42-z/dms-wallpaper-shuffler)
 
 Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder
