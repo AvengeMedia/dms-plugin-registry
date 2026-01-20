@@ -1233,6 +1233,40 @@ A simple multi model ai client to use with your dank shell. Use it ollama, gemin
 
 
 
+#### [Session Power Menu](https://github.com/ronmurphy/dms-contrib)
+
+Puts the Power menu in the Bar
+
+
+
+- id: sessionPower
+- name: Session Power Menu
+- author: RonMurphy
+- compositors: niri, hyprland, labwc
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [SessionPowerMenu](https://github.com/ronmurphy/dms-contrib/tree/main/SessionPowerMenu) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/ronmurphy/dms-contrib/refs/heads/main/screenshot_session_power_menu.png)
+
+</details>
+
+
+
+
+
 #### [Tailscale Manager](https://github.com/cglavin50/dms-tailscale)
 
 Tailscale-toggle plugin for DankBar
