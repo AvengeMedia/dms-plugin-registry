@@ -1531,6 +1531,17 @@ Feature-rich weather widget with current conditions, forecasts, and multiple vie
 
 
 
+### Amoled Black
+
+absolutle black
+
+- **Author:** acup
+- **ID:** `amoledBlack` **Version:** `1.0.0`
+
+![Amoled Black](themes/amoled-black-theme/preview.svg)
+
+
+
 ### Catppuccin
 
 Soothing pastel theme for the high-spirited
