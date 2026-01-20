@@ -1020,6 +1020,41 @@
     "sha256": "0kd0qwss9h2pxqncgqffxk2r04nn4ijqzwlfmdczwf7vd9902zgh",
     "url": "https://github.com/KangweiZhu/lyrics-on-panel"
   },
+  "mediaFrame": {
+    "date": "2026-01-18T20:29:04Z",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-RrRbCfaJ43E1BMq0pNjRoxY2zrYDB7e3PMIJCfVCLvg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "claymorwan",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Desktop plugin to display a picture on your desktop",
+      "distro": [
+        "any"
+      ],
+      "id": "mediaFrame",
+      "name": "Media Frame",
+      "path": "mediaFrame",
+      "repo": "https://codeberg.org/claymorwan/dms-plugins",
+      "screenshot": "https://codeberg.org/claymorwan/dms-plugins/raw/branch/master/mediaFrame/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/3czxyc4lfhv1f4i92b0jffn603i06vf4-dms-plugins",
+    "rev": "667eb8906412595367d9190556d1bbdfffc9d4a2",
+    "rootDir": "",
+    "sha256": "1y1f8bshj2f27jvvf1q3nv73c5m3s7ca9d6a0hsp3qw9yq4mpd26",
+    "url": "https://codeberg.org/claymorwan/dms-plugins"
+  },
   "mediaPlayer": {
     "date": "2025-12-29T19:44:05+06:00",
     "deepClone": false,
