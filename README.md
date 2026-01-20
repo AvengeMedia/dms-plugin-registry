@@ -392,6 +392,35 @@ Toggle Niri displays and control monitor hardware brightness, contrast, scale, r
 
 
 
+#### [Lenovo Battery Settings](https://github.com/neoscaler/dms-lenovo-battery-settings)
+
+Manage Lenovo battery settings like conservation mode
+
+
+
+- id: dmsLenovoBatterySettings
+- name: Lenovo Battery Settings
+- author: neoscaler
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: ideapad_laptop, polkit-agent
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/neoscaler/dms-lenovo-battery-settings/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
