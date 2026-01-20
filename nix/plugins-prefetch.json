@@ -618,6 +618,43 @@
     "sha256": "1yhyld42nxbcdjbqgdzim68k61qdybdwin3nrfx71nlapv9yikj8",
     "url": "https://github.com/lucyfire/dms-plugins"
   },
+  "dmsLenovoBatterySettings": {
+    "date": "2026-01-20T12:32:28+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-dcHEUWSumgT32TsGeOb84GcPfGbAMqhmQ+sBGN5W52M=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "neoscaler",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "ideapad_laptop",
+        "polkit-agent"
+      ],
+      "description": "Manage Lenovo battery settings like conservation mode",
+      "distro": [
+        "any"
+      ],
+      "id": "dmsLenovoBatterySettings",
+      "name": "Lenovo Battery Settings",
+      "repo": "https://github.com/neoscaler/dms-lenovo-battery-settings",
+      "screenshot": "https://raw.githubusercontent.com/neoscaler/dms-lenovo-battery-settings/refs/heads/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/yrlcvv6cd5hrn7fqr0mwal34sbzw2ypz-dms-lenovo-battery-settings",
+    "rev": "3cbed7f4d0c944eba1b05ed55d5ad88709bcae0d",
+    "rootDir": "",
+    "sha256": "0qz7avg1h0gb8dkahcn0cry0yrz0zkk7h1ivv7vh96mfci8w9hbm",
+    "url": "https://github.com/neoscaler/dms-lenovo-battery-settings"
+  },
   "dockerManager": {
     "date": "2025-11-25T01:42:50-03:00",
     "deepClone": false,
