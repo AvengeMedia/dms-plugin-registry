@@ -1,0 +1,90 @@
+{
+  "id": "petrichor",
+  "name": "Petrichor",
+  "version": "1.0.0",
+  "author": "Schmoken",
+  "description": "Oceanic's color scheme from https://discord.com/channels/1387519366651842574/1457383570925551667, with permission",
+  "dark": {
+    "primaryText": "#000000",
+    "primaryContainer": "#7dcfff",
+    "surface": "#1a1b26",
+    "surfaceText": "#e0cca8",
+    "surfaceVariant": "#242729",
+    "surfaceVariantText": "#b694b6",
+    "background": "#16161e",
+    "backgroundText": "#d5d6db",
+    "surfaceContainer": "#242729",
+    "surfaceContainerHigh": "#44444c",
+    "error": "#a8721b",
+    "warning": "#ff9e64",
+    "info": "#7dcfff"
+  },
+  "light": {
+    "primaryText": "#ffffff",
+    "primaryContainer": "#007197",
+    "surface": "#e1e2e7",
+    "surfaceText": "#242729",
+    "surfaceVariant": "#c4c8da",
+    "surfaceVariantText": "#586084",
+    "background": "#dedede",
+    "backgroundText": "#1a1b26",
+    "surfaceContainer": "#dedede",
+    "surfaceContainerHigh": "#c7c9cc",
+    "error": "#f52a65",
+    "warning": "#b15c00",
+    "info": "#007197"
+  },
+  "variants": {
+	  "default": "green",
+	  "options": [
+		  {
+			  "id": "green",
+			  "name": "Green",
+			  "dark": {
+				    "primary": "#8a9887",
+					"secondary": "#8a9887",
+					"surfaceTint": "#8a9887",
+					"outline": "#8d96bd"
+			  },
+			  "light": {
+				    "primary": "#8a9887",
+					"secondary": "#8a9887",
+					"surfaceTint": "#8a9887",
+					"outline": "#8d96bd"
+			  }
+		  },
+		  {
+			  "id": "blue",
+			  "name": "Blue",
+			  "dark": {
+					"primary": "#8D96BD",
+					"secondary": "#8D96BD",
+					"surfaceTint": "#8D96BD",
+					"outline": "#8a9887"
+			  },
+			  "light": {
+					"primary": "#8D96BD",
+					"secondary": "#8D96BD",
+					"surfaceTint": "#8D96BD",
+					"outline": "#8a9887"
+			  }
+		  },
+			  {
+			  "id": "pink",
+			  "name": "Pink",
+			  "dark": {
+					"primary": "#b694b6",
+					"secondary": "#b694b6",
+					"surfaceTint": "#b694b6",
+					"outline": "#c4afa2"
+			  },
+			  "light": {
+					"primary": "#b694b6",
+					"secondary": "#b694b6",
+					"surfaceTint": "#b694b6",
+					"outline": "#c4afa2"
+			  }
+		  }
+	  ]
+  }
+}

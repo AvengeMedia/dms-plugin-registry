@@ -110,6 +110,40 @@ Animated wallpaper support using linux-wallpaperengine with Steam Workshop scene
 
 
 
+#### [Media Frame](https://codeberg.org/claymorwan/dms-plugins)
+
+Desktop plugin to display a picture on your desktop
+
+
+
+- id: mediaFrame
+- name: Media Frame
+- author: claymorwan
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [mediaFrame](https://codeberg.org/claymorwan/dms-plugins/tree/main/mediaFrame) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://codeberg.org/claymorwan/dms-plugins/raw/branch/master/mediaFrame/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper Shuffler](https://github.com/Daniel-42-z/dms-wallpaper-shuffler)
 
 Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder
@@ -351,6 +385,35 @@ Toggle Niri displays and control monitor hardware brightness, contrast, scale, r
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/felri/display-manager-plugin-niri-dank-linux/refs/heads/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Lenovo Battery Settings](https://github.com/neoscaler/dms-lenovo-battery-settings)
+
+Manage Lenovo battery settings like conservation mode
+
+
+
+- id: dmsLenovoBatterySettings
+- name: Lenovo Battery Settings
+- author: neoscaler
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: ideapad_laptop, polkit-agent
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/neoscaler/dms-lenovo-battery-settings/refs/heads/main/screenshot.png)
 
 </details>
 
@@ -1233,6 +1296,40 @@ A simple multi model ai client to use with your dank shell. Use it ollama, gemin
 
 
 
+#### [Session Power Menu](https://github.com/ronmurphy/dms-contrib)
+
+Puts the Power menu in the Bar
+
+
+
+- id: sessionPower
+- name: Session Power Menu
+- author: RonMurphy
+- compositors: niri, hyprland, labwc
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [SessionPowerMenu](https://github.com/ronmurphy/dms-contrib/tree/main/SessionPowerMenu) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/ronmurphy/dms-contrib/refs/heads/main/screenshot_session_power_menu.png)
+
+</details>
+
+
+
+
+
 #### [Tailscale Manager](https://github.com/cglavin50/dms-tailscale)
 
 Tailscale-toggle plugin for DankBar
@@ -1497,6 +1594,17 @@ Kanagawa theme using Lotus for light mode and Wave for dark mode.
 - **ID:** `kanagawaWl` **Version:** `1.0.0`
 
 ![Kanagawa-wave-lotus](themes/kanagawa-wl/preview.svg)
+
+
+
+### Petrichor
+
+Oceanic's color scheme from https://discord.com/channels/1387519366651842574/1457383570925551667, with permission
+
+- **Author:** Schmoken
+- **ID:** `petrichor` **Version:** `1.0.0`
+
+![Petrichor](themes/petrichor/preview.svg)
 
 
 
