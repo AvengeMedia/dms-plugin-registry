@@ -1597,6 +1597,17 @@ Kanagawa theme using Lotus for light mode and Wave for dark mode.
 
 
 
+### Petrichor
+
+Oceanic's color scheme from https://discord.com/channels/1387519366651842574/1457383570925551667, with permission
+
+- **Author:** Schmoken
+- **ID:** `petrichor` **Version:** `1.0.0`
+
+![Petrichor](themes/petrichor/preview.svg)
+
+
+
 ### Steam Deck
 
 Steam Deck inspired theme
