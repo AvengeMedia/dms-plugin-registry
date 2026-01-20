@@ -1,0 +1,14 @@
+{
+    "id": "sessionPower",
+    "name": "Session Power Menu",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/ronmurphy/dms-contrib",
+    "path": "SessionPowerMenu",
+    "author": "RonMurphy",
+    "description": "Puts the Power menu in the Bar",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland","labwc"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/ronmurphy/dms-contrib/refs/heads/main/screenshot_session_power_menu.png"
+}
