@@ -6,6 +6,7 @@
     "repo": "https://github.com/AvengeMedia/dms-plugins",
     "path": "DankNotepadModule",
     "author": "Avenge Media",
+    "firstParty": true,
     "description": "Inline preview and chroma-based syntax highlighting for Notepad",
     "dependencies": ["notepad"],
     "compositors": ["any"],
