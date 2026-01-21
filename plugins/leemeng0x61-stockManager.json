@@ -5,7 +5,6 @@
     "category": "Stock",
     "repo": "https://github.com/leemeng0x61/stockManager",
     "author": "LeeMeng",
-    "firstParty": true,
     "description": "Simple Chinese A-share stock market monitoring plugin",
     "dependencies": ["curl","iconv"],
     "compositors": ["any"],
