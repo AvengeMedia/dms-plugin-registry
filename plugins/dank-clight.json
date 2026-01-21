@@ -1,0 +1,15 @@
+{
+    "id": "dankClight",
+    "name": "Clight",
+    "description": "Ambient light sensor control - automatic brightness and screen dimming",    "capabilities": ["dankbar-widget", "control-center"],
+    "category": "utilities",
+    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "path": "DankClight",
+    "author": "Avenge Media",
+    "firstParty": true,
+    "dependencies": ["clight"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankClight/screenshot.png",
+    "requires_dms": ">=1.4.0"
+}
