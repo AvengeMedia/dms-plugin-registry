@@ -521,6 +521,40 @@ A calculator plugin that evaluates mathematical expressions and copies results t
 
 
 
+#### [Clight](https://github.com/AvengeMedia/dms-plugins)
+
+Ambient light sensor control - automatic brightness and screen dimming
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: dankClight
+- name: Clight
+- author: Avenge Media
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: clight
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [DankClight](https://github.com/AvengeMedia/dms-plugins/tree/main/DankClight) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankClight/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Command Runner](https://github.com/devnullvoid/dms-command-runner)
 
 Execute shell commands from the launcher with history tracking, common shortcuts, and terminal/background execution modes
