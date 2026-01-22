@@ -652,6 +652,35 @@ Notify on low battery levels.
 
 
 
+#### [Dank Bitwarden](https://github.com/pacman99/DankBitwarden)
+
+Search bitwarden entries from rbw.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: dankBitwarden
+- name: Dank Bitwarden
+- author: Parthiv Seetharaman
+- compositors: any
+- capabilities: launcher
+- dependencies: rbw
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Pacman99/DankBitwarden/refs/heads/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Hooks](https://github.com/AvengeMedia/dms-plugins)
 
 Trigger scripts based on various system events.
