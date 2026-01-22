@@ -287,6 +287,43 @@
     "sha256": "0lr8gsw7184kwz88mw01q9nflf3hi18x66bxzg63adv045fz9s08",
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
+  "dankBitwarden": {
+    "date": "2026-01-22T15:59:53+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-5HwO05+OXak7l09U0L5cbh0l71vLK/wFTrdoe6BOeiA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Parthiv Seetharaman",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "rbw"
+      ],
+      "description": "Search bitwarden entries from rbw.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankBitwarden",
+      "name": "Dank Bitwarden",
+      "repo": "https://github.com/pacman99/DankBitwarden",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://raw.githubusercontent.com/Pacman99/DankBitwarden/refs/heads/master/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/z1f6a617gvcwfkmx55bwdi3mfpz78i2m-DankBitwarden",
+    "rev": "e60ccf4dc703a8d80a6c0c7063ef01fd1baba6e7",
+    "rootDir": "",
+    "sha256": "083s9sh7ns5p9q2zqaybbgpja7bfbjzd0m2gjwxsjpcfkz9hwz74",
+    "url": "https://github.com/pacman99/DankBitwarden"
+  },
   "dankClight": {
     "date": "2026-01-21T15:56:16-05:00",
     "deepClone": false,
@@ -1064,12 +1101,12 @@
     "url": "https://github.com/psyreactor/dms-kubernetes"
   },
   "linuxWallpaperEngine": {
-    "date": "2026-01-19T10:59:09+03:00",
+    "date": "2026-01-22T13:21:04+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-rI+wYsu9ZEhVBFgJpiFcS7YMfSolaDd5Na+gUcn7nS8=",
+    "hash": "sha256-IvbSHcWWyDZbsgBQq+zCNorc4GIVAfrr4/L4GhI9BQU=",
     "leaveDotGit": false,
     "meta": {
       "author": "sgtaziz",
@@ -1094,19 +1131,19 @@
       "screenshot": "https://raw.githubusercontent.com/sgtaziz/dms-wallpaperengine/refs/heads/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/dfmk6dc8fjvlsmqr9lyadw1qrb84b40j-dms-wallpaperengine",
-    "rev": "3ded54dbe8433a6f7b276fc70b60eeb20de6dbe5",
+    "path": "/nix/store/1y7007h2xjvyaxlmym2dd6d1dhk0bqyk-dms-wallpaperengine",
+    "rev": "52adee36fdc98a9b323f41ddd5ffff9e11c27c43",
     "rootDir": "",
-    "sha256": "0bwxzg4m385g6mwkfs1559yhrdjbbhhsc2aq0ialhr5xrdib13xc",
+    "sha256": "01857l91my7jwgmzl08mcbhdr2inqbnanl00n9dkdj4nqlfx5xi2",
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
   },
   "lyricsOnPanel": {
-    "date": "2026-01-14T09:32:49-06:00",
+    "date": "2026-01-22T03:52:33-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-8H0BUmr7OP5Zq47yj2Uk1hKQxezO4ccs7lfApDXHoE0=",
+    "hash": "sha256-AjOfNUfw6oU13KFOGcRzAF48I1faLiWwWqcgsmBmc80=",
     "leaveDotGit": false,
     "meta": {
       "author": "Kangwei(Anicaa) Zhu",
@@ -1130,10 +1167,10 @@
       "screenshot": "https://github.com/KangweiZhu/lyrics-on-panel/raw/main/img/image-panel-onlythiswidget.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/gmca1sfbh843mc27c3yndzcf4h4yihsn-lyrics-on-panel",
-    "rev": "4adc07fcc99c68bc837de636e18b5987e8027b72",
+    "path": "/nix/store/ckhzi6gv97m9b9000z2wlk5c6viv37ix-lyrics-on-panel",
+    "rev": "1a2f22842234248f50f3b91b5f5ceecf5ae91496",
     "rootDir": "",
-    "sha256": "0kd0qwss9h2pxqncgqffxk2r04nn4ijqzwlfmdczwf7vd9902zgh",
+    "sha256": "1kbkcrhb4857baq2abnsawikqph0fg21jkm1vhsqbsph8wsrycq2",
     "url": "https://github.com/KangweiZhu/lyrics-on-panel"
   },
   "mediaFrame": {
