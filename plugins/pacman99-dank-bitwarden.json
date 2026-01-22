@@ -1,0 +1,14 @@
+{
+    "id": "dankBitwarden",
+    "name": "Dank Bitwarden",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/pacman99/DankBitwarden",
+    "author": "Parthiv Seetharaman",
+    "description": "Search bitwarden entries from rbw.",
+    "dependencies": [ "rbw" ],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Pacman99/DankBitwarden/refs/heads/master/screenshot.png",
+    "requires_dms": ">=1.2.0"
+}
