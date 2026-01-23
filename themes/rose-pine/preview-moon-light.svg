@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+  <g transform="translate(0, 0)">
+  <rect width="240" height="240" fill="#faf4ed"/>
+  <rect x="8" y="8" width="224" height="224" rx="8" fill="#f2e9de"/>
+  <rect x="16" y="16" width="208" height="36" rx="6" fill="#fffaf3"/>
+  <text x="28" y="40" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#575279">Rosé Pine Moon (light)</text>
+  <rect x="16" y="60" width="208" height="72" rx="6" fill="#f2e9de"/>
+  <text x="28" y="82" font-family="system-ui, sans-serif" font-size="11" fill="#575279">Surface Text</text>
+  <text x="28" y="98" font-family="system-ui, sans-serif" font-size="10" fill="#797593">Outline color</text>
+  <rect x="28" y="108" width="72" height="18" rx="9" fill="#907aa9"/>
+  <text x="64" y="120" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#faf4ed">Primary</text>
+  <rect x="108" y="108" width="48" height="18" rx="4" fill="#ea9d34"/>
+  <rect x="16" y="140" width="100" height="52" rx="6" fill="#fffaf3"/>
+  <rect x="24" y="148" width="84" height="36" rx="4" fill="#faf4ed"/>
+  <text x="66" y="170" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#575279">Background</text>
+  <rect x="124" y="140" width="100" height="52" rx="6" fill="#fffaf3"/>
+  <circle cx="148" cy="166" r="9" fill="#b4637a"/>
+  <circle cx="172" cy="166" r="9" fill="#ea9d34"/>
+  <circle cx="196" cy="166" r="9" fill="#56949f"/>
+  <rect x="16" y="200" width="208" height="24" rx="4" fill="#907aa9" opacity="0.15"/>
+  <text x="120" y="216" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#575279">Surface Tint Overlay</text>
+</g>
+</svg>

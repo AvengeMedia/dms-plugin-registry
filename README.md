@@ -1716,6 +1716,17 @@ Oceanic's color scheme from https://discord.com/channels/1387519366651842574/145
 
 
 
+### Rosé Pine
+
+All natural pine, faux fur and a bit of soho vibes for the classy minimalist
+
+- **Author:** ExistencialistaP
+- **ID:** `rosePine` **Version:** `1.0.0`
+
+![Rosé Pine](themes/rose-pine/preview.svg)
+
+
+
 ### Steam Deck
 
 Steam Deck inspired theme
