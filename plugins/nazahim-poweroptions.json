@@ -1,0 +1,14 @@
+{
+    "id": "powerOptions",
+    "name": "Power Options",
+    "capabilities": ["command-execution"],
+    "category": "utilities",
+    "repo": "https://github.com/Nazahim/PowerOptions",
+    "path": "",
+    "author": "Nazahim",
+    "description": "Access power options like shutdown and reboot from the launcher",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Nazahim/PowerOptions/edf8a49fceadf61e208151e6f4d38480eb831878/screenshot.png"
+}
