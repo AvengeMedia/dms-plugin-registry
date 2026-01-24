@@ -1526,7 +1526,7 @@ Puts the Power menu in the Bar
 
 #### [Sticker Search](https://github.com/AvengeMedia/dms-plugins)
 
-Search and browse GIFs powered by Klipy
+Search and browse stickers powered by Klipy
 
 <strong>requires DMS version</strong>: <em>>=1.4.0</em>
 
