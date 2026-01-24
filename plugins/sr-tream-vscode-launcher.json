@@ -1,0 +1,13 @@
+{
+  "id": "vscodeLauncher",
+  "name": "VSCode Launcher",
+  "capabilities": ["launcher"],
+  "category": "utilities",
+  "repo": "https://github.com/sr-tream/dms-vscode-launcher",
+  "author": "SR_team",
+  "description": "Quick access to recent Visual Studio Code files, folders, and projects",
+  "screenshot": "https://raw.githubusercontent.com/sr-tream/dms-vscode-launcher/58d7f29059743b7ba905096bedf73a826cfd0833/screenshot.png",
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"]
+}
