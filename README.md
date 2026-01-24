@@ -1524,6 +1524,40 @@ Puts the Power menu in the Bar
 
 
 
+#### [Sticker Search](https://github.com/AvengeMedia/dms-plugins)
+
+Search and browse GIFs powered by Klipy
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: dankStickerSearch
+- name: Sticker Search
+- author: Avenge Media
+- compositors: any
+- capabilities: launcher
+- dependencies: curl, qt6-imageformats
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [DankStickerSearch](https://github.com/AvengeMedia/dms-plugins/tree/main/DankStickerSearch) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankStickerSearch/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Tailscale Manager](https://github.com/cglavin50/dms-tailscale)
 
 Tailscale-toggle plugin for DankBar
