@@ -1036,7 +1036,7 @@ Search and browse GIFs powered by Klipy
 - author: Avenge Media
 - compositors: any
 - capabilities: launcher
-- dependencies: curl
+- dependencies: curl, qt6-imageformats
 - distro: any
 
 
@@ -1149,6 +1149,40 @@ Control your Philips Hue lights directly from DMS
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/derethil/dms-hue-manager/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Hyprland Window Switches](https://github.com/AvengeMedia/dms-plugins)
+
+Switch between Hyprland windows with live previews
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: dankHyprlandWindows
+- name: Hyprland Window Switches
+- author: Avenge Media
+- compositors: hyprland
+- capabilities: launcher
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [DankHyprlandWindows](https://github.com/AvengeMedia/dms-plugins/tree/main/DankHyprlandWindows) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankHyprlandWindows/screenshot.png)
 
 </details>
 
