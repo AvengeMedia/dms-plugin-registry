@@ -1025,6 +1025,40 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 
 
 
+#### [GIF Search](https://github.com/AvengeMedia/dms-plugins)
+
+Search and browse GIFs powered by Klipy
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: dankGifSearch
+- name: GIF Search
+- author: Avenge Media
+- compositors: any
+- capabilities: launcher
+- dependencies: curl
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [DankGifSearch](https://github.com/AvengeMedia/dms-plugins/tree/main/DankGifSearch) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankGifSearch/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Gitmoji Launcher](https://github.com/lucyfire/dms-plugins)
 
 Search and copy gitmojis from https://gitmoji.dev
