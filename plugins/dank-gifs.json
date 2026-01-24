@@ -8,7 +8,7 @@
     "author": "Avenge Media",
     "firstParty": true,
     "description": "Search and browse GIFs powered by Klipy",
-    "dependencies": ["curl"],
+    "dependencies": ["curl", "qt6-imageformats"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankGifSearch/screenshot.png",

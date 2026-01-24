@@ -1,0 +1,16 @@
+{
+    "id": "dankHyprlandWindows",
+    "name": "Hyprland Window Switches",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "path": "DankHyprlandWindows",
+    "author": "Avenge Media",
+    "firstParty": true,
+    "description": "Switch between Hyprland windows with live previews",
+    "dependencies": [],
+    "compositors": ["hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankHyprlandWindows/screenshot.png",
+    "requires_dms": ">=1.4.0"
+}
