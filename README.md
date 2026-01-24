@@ -1553,6 +1553,35 @@ Tailscale-toggle plugin for DankBar
 
 
 
+#### [VSCode Launcher](https://github.com/sr-tream/dms-vscode-launcher)
+
+Quick access to recent Visual Studio Code files, folders, and projects
+
+
+
+- id: vscodeLauncher
+- name: VSCode Launcher
+- author: SR_team
+- compositors: any
+- capabilities: launcher
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/sr-tream/dms-vscode-launcher/58d7f29059743b7ba905096bedf73a826cfd0833/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Voxtype](https://github.com/psyreactor/dms-voxtype)
 
 voxtype status plugin for DankBar
