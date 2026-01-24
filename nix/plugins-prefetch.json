@@ -1425,12 +1425,12 @@
     "url": "https://github.com/antonjah/nix-monitor"
   },
   "powerOptions": {
-    "date": "2026-01-23T23:31:47+01:00",
+    "date": "2026-01-24T09:07:53+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-4jaQnQarDIeHRLa9JMwltardjz9fI/A4m0I1s1+LYiM=",
+    "hash": "sha256-PSlQIDWkteYaV0WPQlnm9wkc/8A8h1ZYxKgKSxlu+xo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Nazahim",
@@ -1454,10 +1454,10 @@
       "screenshot": "https://raw.githubusercontent.com/Nazahim/PowerOptions/edf8a49fceadf61e208151e6f4d38480eb831878/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/jxpl4qyv7shjch7yjibvndfivyjvxb3z-PowerOptions",
-    "rev": "b4dcc2a1ff5d955a5ba39c52d9e52189e299e846",
+    "path": "/nix/store/yr4vqy8c4rp2ik84mnicjgzrgmnz4d2j-PowerOptions",
+    "rev": "95fa7949fd9614a21bcc7a14ff8cc917a7208cf8",
     "rootDir": "",
-    "sha256": "08v2idgv6da2kcwg08sz7y7xvamm4p629gdn8j3qf35b0sfr0dp2",
+    "sha256": "06pvdqcln2m8qic5d1rwq3ziq2gpwrcl53s5awdfddd46lh50a9x",
     "url": "https://github.com/Nazahim/PowerOptions"
   },
   "powerUsagePlugin": {
@@ -1745,6 +1745,40 @@
     "rootDir": "",
     "sha256": "00nnj2kc92zhi8sh8pwml3gw5f6035flkpb9n32sy9sir6hk56az",
     "url": "https://github.com/psyreactor/dms-voxtype"
+  },
+  "vscodeLauncher": {
+    "date": "2026-01-25T01:57:38+05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-ygUN6Zc8gVff1dB+lYArMbcTbTf8jiiN+jhtib5sV+U=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "SR_team",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Quick access to recent Visual Studio Code files, folders, and projects",
+      "distro": [
+        "any"
+      ],
+      "id": "vscodeLauncher",
+      "name": "VSCode Launcher",
+      "repo": "https://github.com/sr-tream/dms-vscode-launcher",
+      "screenshot": "https://raw.githubusercontent.com/sr-tream/dms-vscode-launcher/58d7f29059743b7ba905096bedf73a826cfd0833/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/kv2lf94lsh9ain7p6aahnqlgsh9bqvs9-dms-vscode-launcher",
+    "rev": "58d7f29059743b7ba905096bedf73a826cfd0833",
+    "rootDir": "",
+    "sha256": "1rapdjz8jv9qza6ji3pw6xni7dri5f09aznhspgmg09wjzlhs1fa",
+    "url": "https://github.com/sr-tream/dms-vscode-launcher"
   },
   "wallpaperBing": {
     "date": "2025-12-13T18:51:24+01:00",
