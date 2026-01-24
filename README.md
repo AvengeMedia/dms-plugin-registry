@@ -1156,14 +1156,14 @@ Control your Philips Hue lights directly from DMS
 
 
 
-#### [Hyprland Window Switches](https://github.com/AvengeMedia/dms-plugins)
+#### [Hyprland Window Switcher](https://github.com/AvengeMedia/dms-plugins)
 
 Switch between Hyprland windows with live previews
 
 <strong>requires DMS version</strong>: <em>>=1.4.0</em>
 
 - id: dankHyprlandWindows
-- name: Hyprland Window Switches
+- name: Hyprland Window Switcher
 - author: Avenge Media
 - compositors: hyprland
 - capabilities: launcher
