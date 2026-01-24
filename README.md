@@ -1306,6 +1306,35 @@ List and switch to open Niri windows from the launcher
 
 
 
+#### [Power Options](https://github.com/Nazahim/PowerOptions)
+
+Access power options like shutdown and reboot from the launcher
+
+
+
+- id: powerOptions
+- name: Power Options
+- author: Nazahim
+- compositors: niri, hyprland
+- capabilities: command-execution
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Nazahim/PowerOptions/edf8a49fceadf61e208151e6f4d38480eb831878/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Prayer Times](https://github.com/muadzmo/prayertimes)
 
 Display Islamic prayer times from Aladhan API
