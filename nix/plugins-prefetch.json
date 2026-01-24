@@ -1347,6 +1347,42 @@
     "sha256": "07p99cy9zdxgygybvgnilv970l1hp4jbf1vv7bnc4jz7f8dm12ry",
     "url": "https://github.com/antonjah/nix-monitor"
   },
+  "powerOptions": {
+    "date": "2026-01-23T23:31:47+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-4jaQnQarDIeHRLa9JMwltardjz9fI/A4m0I1s1+LYiM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Nazahim",
+      "capabilities": [
+        "command-execution"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Access power options like shutdown and reboot from the launcher",
+      "distro": [
+        "any"
+      ],
+      "id": "powerOptions",
+      "name": "Power Options",
+      "path": "",
+      "repo": "https://github.com/Nazahim/PowerOptions",
+      "screenshot": "https://raw.githubusercontent.com/Nazahim/PowerOptions/edf8a49fceadf61e208151e6f4d38480eb831878/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/jxpl4qyv7shjch7yjibvndfivyjvxb3z-PowerOptions",
+    "rev": "b4dcc2a1ff5d955a5ba39c52d9e52189e299e846",
+    "rootDir": "",
+    "sha256": "08v2idgv6da2kcwg08sz7y7xvamm4p629gdn8j3qf35b0sfr0dp2",
+    "url": "https://github.com/Nazahim/PowerOptions"
+  },
   "powerUsagePlugin": {
     "date": "2025-12-24T16:18:27+08:00",
     "deepClone": false,
