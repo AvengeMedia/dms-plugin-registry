@@ -7,7 +7,7 @@
     "path": "DankStickerSearch",
     "author": "Avenge Media",
     "firstParty": true,
-    "description": "Search and browse GIFs powered by Klipy",
+    "description": "Search and browse stickers powered by Klipy",
     "dependencies": ["curl", "qt6-imageformats"],
     "compositors": ["any"],
     "distro": ["any"],
