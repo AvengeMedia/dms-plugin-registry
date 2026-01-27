@@ -1127,6 +1127,35 @@ Quick screenshot menu for grimblast with multiple capture modes
 
 
 
+#### [Home Assistant Monitor](https://github.com/xxyangyoulin/dms-plugin-hass)
+
+Monitor and display Home Assistant entity states in your status bar
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: homeAssistantMonitor
+- name: Home Assistant Monitor
+- author: xxyangyoulin
+- compositors: hyprland
+- capabilities: home-assistant-monitor, dankbar-widget
+- dependencies: curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Hue Manager](https://github.com/derethil/dms-hue-manager)
 
 Control your Philips Hue lights directly from DMS
