@@ -38,3 +38,5 @@ jobs:
 
       - name: Validate plugin links and paths
         run: python3 .github/validate_links.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

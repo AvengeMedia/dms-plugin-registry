@@ -11,12 +11,16 @@ This script validates:
 """
 
 import json
+import os
 import re
 import sys
 from pathlib import Path
 from urllib.parse import urlparse
 
 import requests
+
+# GitHub token for authenticated API requests (avoids rate limiting)
+GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
 # ANSI color codes for output
 GREEN = "\033[92m"
@@ -113,7 +117,11 @@ def validate_repo_path(repo_url: str, path: str) -> tuple[bool, str]:
         return True, f"Warning: Path validation skipped for {parsed.netloc} (unsupported hosting service)"
 
     try:
-        response = requests.get(api_url, timeout=10)
+        headers = {}
+        if service_name == "GitHub" and GITHUB_TOKEN:
+            headers["Authorization"] = f"token {GITHUB_TOKEN}"
+
+        response = requests.get(api_url, timeout=10, headers=headers)
         if response.status_code == 200:
             # For GitLab, check if the response is an empty array (path not found)
             if service_name == "GitLab":
@@ -159,11 +167,15 @@ def fetch_plugin_json(repo_url: str, path: str = "") -> tuple[dict | None, str]:
     raw_url = None
 
     if parsed.netloc == "github.com":
+        headers = {}
+        if GITHUB_TOKEN:
+            headers["Authorization"] = f"token {GITHUB_TOKEN}"
+
         # Try common default branch names
         for branch in ["main", "master"]:
             raw_url = f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{plugin_json_path}"
             try:
-                response = requests.get(raw_url, timeout=10)
+                response = requests.get(raw_url, timeout=10, headers=headers)
                 if response.status_code == 200:
                     try:
                         return response.json(), ""
