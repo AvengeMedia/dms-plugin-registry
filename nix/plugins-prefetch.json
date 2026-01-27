@@ -1108,6 +1108,44 @@
     "sha256": "16xrvih3v17qyi88lizhjs2lqcvnbpnxfrhzg9bm16la3n65y3h8",
     "url": "https://github.com/TaylanTatli/dms-plugins"
   },
+  "homeAssistantMonitor": {
+    "date": "2026-01-27T22:11:12+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-9eJk0REBUAsQWuFY5FQPH54mxeym37Tx8FaUX6CYYCM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "xxyangyoulin",
+      "capabilities": [
+        "home-assistant-monitor",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [
+        "curl"
+      ],
+      "description": "Monitor and display Home Assistant entity states in your status bar",
+      "distro": [
+        "any"
+      ],
+      "id": "homeAssistantMonitor",
+      "name": "Home Assistant Monitor",
+      "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/app3a2p6wd4wrs9c2q5nv20wq4d8mx8f-dms-plugin-hass",
+    "rev": "d557f42461b31e12ccd857e26a2676d391432175",
+    "rootDir": "",
+    "sha256": "08v0k2h5z52ny3qv9px6xk2jd7hz1xaf8n71b880nl01278n9qpm",
+    "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
+  },
   "hueManager": {
     "date": "2026-01-07T10:55:08-07:00",
     "deepClone": false,
