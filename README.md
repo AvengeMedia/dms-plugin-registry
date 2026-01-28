@@ -1219,40 +1219,6 @@ Switch between Hyprland windows with live previews
 
 
 
-#### [KDE Connect](https://github.com/AvengeMedia/dms-plugins)
-
-Control connected KDE Connect devices - view battery, send files, find phone, and more
-
-<strong>requires DMS version</strong>: <em>>=1.4.0</em>
-
-- id: dankKDEConnect
-- name: KDE Connect
-- author: Avenge Media
-- compositors: any
-- capabilities: dankbar-widget, control-center
-- dependencies: kdeconnect
-- distro: any
-
-
-
-> [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [DankKDEConnect](https://github.com/AvengeMedia/dms-plugins/tree/main/DankKDEConnect) folder to your `~/.config/DankMaterialShell/plugins/` folder.
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankKDEConnect/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Kubernetes](https://github.com/psyreactor/dms-kubernetes)
 
 Kubernetes plugin for DankBar
@@ -1396,6 +1362,40 @@ List and switch to open Niri windows from the launcher
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/rochacbruno/DankNiriWindows/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Phone Connect](https://github.com/AvengeMedia/dms-plugins)
+
+Control connected devices via KDE Connect or Valent - view battery, send files, find phone, and more
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: dankKDEConnect
+- name: Phone Connect
+- author: Avenge Media
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: kdeconnect, valent
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [DankKDEConnect](https://github.com/AvengeMedia/dms-plugins/tree/main/DankKDEConnect) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankKDEConnect/screenshot.png)
 
 </details>
 
