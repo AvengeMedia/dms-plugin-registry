@@ -1,0 +1,14 @@
+{
+    "id": "gitlabNotifier",
+    "name": "GitLab Notifier",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/psyreactor/dms-gitlabNotifier",
+    "author": "psyreactor",
+    "description": "Shows in the DankBar the status of a GitLab scope (issues, MRs and incidents assigned to you)",
+    "dependencies": ["glab","font-awesome"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/psyreactor/dms-gitlabNotifier/raw/main/screenshot.png",
+    "requires_dms": ">0.0.28"
+}
