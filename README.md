@@ -1059,6 +1059,35 @@ Search and browse GIFs powered by Klipy
 
 
 
+#### [GitLab Notifier](https://github.com/psyreactor/dms-gitlabNotifier)
+
+Shows in the DankBar the status of a GitLab scope (issues, MRs and incidents assigned to you)
+
+<strong>requires DMS version</strong>: <em>>0.0.28</em>
+
+- id: gitlabNotifier
+- name: GitLab Notifier
+- author: psyreactor
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: glab, font-awesome
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/psyreactor/dms-gitlabNotifier/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Gitmoji Launcher](https://github.com/lucyfire/dms-plugins)
 
 Search and copy gitmojis from https://gitmoji.dev
