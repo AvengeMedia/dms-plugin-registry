@@ -433,7 +433,7 @@ Manage Lenovo battery settings like conservation mode
 
 Integrated AI chat assistant with markdown support, multiple AI provider support, streaming responses, and persistent chat history
 
-
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
 
 - id: aiAssistant
 - name: AI Assistant
