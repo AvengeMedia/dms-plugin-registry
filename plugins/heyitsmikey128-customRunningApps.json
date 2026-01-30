@@ -1,0 +1,13 @@
+{
+    "id": "customRunningApps",
+    "name": "Custom Running Apps",
+    "description": "Flexible Custom Widget for Showing Running Apps on Dank Bar",
+    "category": "utilities",
+    "capabilities": ["dankbar-widget"],
+    "compositors": ["niri"],
+    "distro": ["any"],
+    "dependencies": [],
+    "repo": "https://github.com/heyitsmikey128/DankCustomRunningApps",
+    "screenshot": "https://raw.githubusercontent.com/heyitsmikey128/DankCustomRunningApps/refs/heads/main/screenshot.png",
+    "author": "Michael Kushma"
+}
