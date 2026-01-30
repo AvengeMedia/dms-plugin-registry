@@ -25,9 +25,11 @@
       "distro": [
         "any"
       ],
+      "featured": true,
       "id": "aiAssistant",
       "name": "AI Assistant",
       "repo": "https://github.com/devnullvoid/dms-ai-assistant",
+      "requires_dms": ">=1.4.0",
       "screenshot": "https://github.com/devnullvoid/dms-ai-assistant/blob/main/screenshots/AI_ASSISTANT_SCREENSHOT_CURRENT_1.png?raw=true",
       "version": "1.1.0"
     },
@@ -219,12 +221,12 @@
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
   "commandRunner": {
-    "date": "2026-01-25T07:49:40-05:00",
+    "date": "2026-01-30T03:14:49-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bl8qOHMP54Ed0LSQj1peqU3x6lOMjiD2B/XKeGjKmNk=",
+    "hash": "sha256-F5fAPbYyPyuDRBihG+JBYUfciZH6xBzkEWHndn8nMfQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -246,10 +248,10 @@
       "screenshot": "https://github.com/devnullvoid/dms-command-runner/blob/main/screenshot.png?raw=true",
       "version": "1.1.2"
     },
-    "path": "/nix/store/qn4vl9l6gbmnmrj4aymj86lp8zzbq86q-dms-command-runner",
-    "rev": "933b4770e15da95db3decc26b321ca20eb08c05a",
+    "path": "/nix/store/24k3pggirrrbapx2zi32dzyxpjmac8iw-dms-command-runner",
+    "rev": "49232a1e5b8dc34b00561160c49c3ad3300629d3",
     "rootDir": "",
-    "sha256": "1ncqr9l7ijpm0zv213lcagmg2kd9brd8z45ls0fq3rqgfcw2lpvf",
+    "sha256": "1x1i4xzpdrv127j1ri7sj64xqiv187i1p88q8j1jngrjnqyw15qp",
     "url": "https://github.com/devnullvoid/dms-command-runner"
   },
   "dankActions": {
@@ -952,6 +954,7 @@
       "distro": [
         "any"
       ],
+      "featured": true,
       "id": "dockerManager",
       "name": "Docker Manager",
       "repo": "https://github.com/LuckShiba/DmsDockerManager",
@@ -1037,12 +1040,12 @@
     "url": "https://github.com/jonkristian/dms-easyeffects"
   },
   "emojiLauncher": {
-    "date": "2026-01-29T20:32:09-05:00",
+    "date": "2026-01-30T00:13:36-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-rSsjZnpVQDd5cJLq7nnIQ4+zZzGnQMqT+cMLwk3xZYE=",
+    "hash": "sha256-HGvpvMmg1Y5EB+tO2qeytsis1SSNWHuNPNHNEGSLtok=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -1062,12 +1065,12 @@
       "name": "Emoji & Unicode Launcher",
       "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
       "screenshot": "https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true",
-      "version": "1.2.2"
+      "version": "1.3.1"
     },
-    "path": "/nix/store/57i9dqc9sl5ca9jjyfn0kwjbh3gmzf6q-dms-emoji-launcher",
-    "rev": "8b1a068d396bc9248f4f62617cceb2c2f4bd6fc2",
+    "path": "/nix/store/l5xw51chwkxs1arczm3mxibfbypa8blr-dms-emoji-launcher",
+    "rev": "9bbc5c0b0c41977dcdbacc49ae63c6d8b8670536",
     "rootDir": "",
-    "sha256": "10b5y56w42y3z69wlh5765kv73s3r1wyxsljf1wkfh2mg9k26axd",
+    "sha256": "12dnidj11kfi7j6pnn4d4kasrj5nnakxlkpb0x28xmd0r6yfjsqw",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "gitlabNotifier": {
@@ -1210,6 +1213,7 @@
       "distro": [
         "any"
       ],
+      "featured": true,
       "id": "homeAssistantMonitor",
       "name": "Home Assistant Monitor",
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
@@ -1248,6 +1252,7 @@
       "distro": [
         "any"
       ],
+      "featured": true,
       "id": "hueManager",
       "name": "Hue Manager",
       "repo": "https://github.com/derethil/dms-hue-manager",
@@ -1741,6 +1746,7 @@
       "distro": [
         "any"
       ],
+      "featured": true,
       "id": "sathiAi",
       "name": "Sathi.AI",
       "repo": "https://github.com/ss44/sathi.ai",
@@ -1791,12 +1797,12 @@
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
   "stockManager": {
-    "date": "2026-01-29T13:12:57+08:00",
+    "date": "2026-01-30T17:43:02+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-AdVT2wKr5fuRrFinlCWJFIPU4GiXPF6GrjczIVZQsfs=",
+    "hash": "sha256-TeCk1BEnlhqjQj61axhkKFTmOYm6OSoc+ndZSK7rrrM=",
     "leaveDotGit": false,
     "meta": {
       "author": "LeeMeng",
@@ -1820,12 +1826,12 @@
       "repo": "https://github.com/leemeng0x61/stockManager",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://github.com/leemeng0x61/stockManager/raw/main/screenshot/sc.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/m0n1588nwx8li7qdssj9pfsxgaiiy0h4-stockManager",
-    "rev": "ef4205f488ffd7cfd75f32932c6ead718a4c0c5e",
+    "path": "/nix/store/51r25jkplwikk3khpw01ifx8ps9qmbq6-stockManager",
+    "rev": "8ffe73f78f9778a37e1acf36ff78169f5a44e0dc",
     "rootDir": "",
-    "sha256": "1yxia1b22crpms35wg4pd3hd90qli4jr99sqmj8zprdb0bdm7m81",
+    "sha256": "1cxfxfp4hnbpz8f2lfdsi4wycm18chc6pd9y8aiim5i727aa9q2d",
     "url": "https://github.com/leemeng0x61/stockManager"
   },
   "tailscale": {
@@ -2046,12 +2052,12 @@
     "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
   },
   "webSearch": {
-    "date": "2026-01-25T07:49:19-05:00",
+    "date": "2026-01-30T03:13:50-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9etiBIHkH0VBuKrMCyLJss4XtnapwFc+/+ayxxAH+Qw=",
+    "hash": "sha256-CxTVXAV99Uri2xEZIKKtzPUZDl6vYZYC+h/jsKDgGpU=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -2073,10 +2079,10 @@
       "screenshot": "https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true",
       "version": "1.2.2"
     },
-    "path": "/nix/store/5fcgz613pywy12cfinyly1nhmcb4qn77-dms-web-search",
-    "rev": "de9d645a12135f840262298f42e462955e40d992",
+    "path": "/nix/store/1y1swhxs49q0cx7lswwwszbmxl7xf5ia-dms-web-search",
+    "rev": "d383a5433bec0375e45b6bd4c81c2c05a4c20be1",
     "rootDir": "",
-    "sha256": "037r0w8cgcp6zwz5gh59fsv1gkmjr4i0pk5ap10la7z4h4265szm",
+    "sha256": "158sw2hb1qqzz819cqdgbq71kxfcmni2068ivgi4mxbx0mfda50b",
     "url": "https://github.com/devnullvoid/dms-web-search"
   },
   "worldClock": {
