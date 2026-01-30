@@ -1,4 +1,42 @@
 {
+  "aiAssistant": {
+    "date": "2026-01-29T20:28:33-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-nw9x486l54vpv2yzDMqqJpeC6IEfqqaGFUXiYlwoU4s=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "devnullvoid",
+      "capabilities": [
+        "slideout",
+        "ai"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl",
+        "wl-copy"
+      ],
+      "description": "Integrated AI chat assistant with markdown support, multiple AI provider support, streaming responses, and persistent chat history",
+      "distro": [
+        "any"
+      ],
+      "id": "aiAssistant",
+      "name": "AI Assistant",
+      "repo": "https://github.com/devnullvoid/dms-ai-assistant",
+      "screenshot": "https://github.com/devnullvoid/dms-ai-assistant/blob/main/screenshots/AI_ASSISTANT_SCREENSHOT_CURRENT_1.png?raw=true",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/j1a1gkql4vgbxyvbrrslxxncy26gxix7-dms-ai-assistant",
+    "rev": "c7a2639ba74c38c8262cd5e1342a1d55424e21dd",
+    "rootDir": "",
+    "sha256": "12sk51f65qj52n3adahzh7l855r6mb50rcvcpzlqprx5rvip23wz",
+    "url": "https://github.com/devnullvoid/dms-ai-assistant"
+  },
   "alarmClock": {
     "date": "2026-01-13T16:02:50+02:00",
     "deepClone": false,
@@ -999,12 +1037,12 @@
     "url": "https://github.com/jonkristian/dms-easyeffects"
   },
   "emojiLauncher": {
-    "date": "2026-01-25T07:50:00-05:00",
+    "date": "2026-01-29T20:32:09-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Dg1asDMqQdLY/HsL5vQLVe8rl+pE/o9kOtllHrOHyHQ=",
+    "hash": "sha256-rSsjZnpVQDd5cJLq7nnIQ4+zZzGnQMqT+cMLwk3xZYE=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -1026,10 +1064,10 @@
       "screenshot": "https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true",
       "version": "1.2.2"
     },
-    "path": "/nix/store/ky191vjl02p58hmk60zvdcbsb1hnjyig-dms-emoji-launcher",
-    "rev": "f6d3b734b84f81b272ea4f9ab88d5f3470aa3551",
+    "path": "/nix/store/57i9dqc9sl5ca9jjyfn0kwjbh3gmzf6q-dms-emoji-launcher",
+    "rev": "8b1a068d396bc9248f4f62617cceb2c2f4bd6fc2",
     "rootDir": "",
-    "sha256": "0x68hyriwrfr79j8zzj4xabjpvsm1gsfc2vvzkcd4h9a6fq5l38f",
+    "sha256": "10b5y56w42y3z69wlh5765kv73s3r1wyxsljf1wkfh2mg9k26axd",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "gitlabNotifier": {
