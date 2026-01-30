@@ -11,6 +11,7 @@
     "dependencies": ["kdeconnect", "valent"],
     "compositors": ["any"],
     "distro": ["any"],
+    "featured": true,
     "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankKDEConnect/screenshot.png",
     "requires_dms": ">=1.4.0"
 }
