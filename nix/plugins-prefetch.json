@@ -466,6 +466,7 @@
       "distro": [
         "any"
       ],
+      "featured": true,
       "firstParty": true,
       "id": "dankGifSearch",
       "name": "GIF Search",
@@ -772,6 +773,7 @@
       "distro": [
         "any"
       ],
+      "featured": true,
       "id": "desktopCommand",
       "name": "Desktop Command",
       "repo": "https://github.com/yayuuu/desktopCommand",
@@ -1433,6 +1435,7 @@
       "distro": [
         "any"
       ],
+      "featured": true,
       "id": "mediaFrame",
       "name": "Media Frame",
       "path": "mediaFrame",
