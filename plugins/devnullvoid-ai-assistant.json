@@ -9,5 +9,7 @@
   "dependencies": ["curl", "wl-copy"],
   "compositors": ["any"],
   "distro": ["any"],
+  "featured": true,
+  "requires_dms": ">=1.4.0",
   "screenshot": "https://github.com/devnullvoid/dms-ai-assistant/blob/main/screenshots/AI_ASSISTANT_SCREENSHOT_CURRENT_1.png?raw=true"
 }

@@ -9,5 +9,6 @@
     "dependencies": ["openhue-cli", "jq"],
     "compositors": ["any"],
     "distro": ["any"],
+    "featured": true,
     "screenshot": "https://raw.githubusercontent.com/derethil/dms-hue-manager/main/assets/screenshot.png"
 }

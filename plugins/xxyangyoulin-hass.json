@@ -10,5 +10,6 @@
   "compositors": ["hyprland"],
   "distro": ["any"],
   "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-  "requires_dms": ">=1.2.0"
+  "requires_dms": ">=1.2.0",
+  "featured": true
 }
