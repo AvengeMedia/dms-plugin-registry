@@ -11,6 +11,7 @@
     "dependencies": ["curl", "qt6-imageformats"],
     "compositors": ["any"],
     "distro": ["any"],
+    "featured": true,
     "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankGifSearch/screenshot.png",
     "requires_dms": ">=1.4.0"
 }

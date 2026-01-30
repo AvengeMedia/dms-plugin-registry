@@ -9,6 +9,7 @@
     "dependencies": ["python3"],
     "compositors": ["any"],
     "distro": ["any"],
+    "featured": true,
     "screenshot": "https://github.com/yayuuu/desktopCommand/raw/main/assets/screenshot.jpg",
     "requires_dms": ">=1.2.0"
 }
