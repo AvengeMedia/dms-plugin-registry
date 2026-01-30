@@ -429,6 +429,35 @@ Manage Lenovo battery settings like conservation mode
 
 
 
+#### [AI Assistant](https://github.com/devnullvoid/dms-ai-assistant)
+
+Integrated AI chat assistant with markdown support, multiple AI provider support, streaming responses, and persistent chat history
+
+
+
+- id: aiAssistant
+- name: AI Assistant
+- author: devnullvoid
+- compositors: any
+- capabilities: slideout, ai
+- dependencies: curl, wl-copy
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/devnullvoid/dms-ai-assistant/blob/main/screenshots/AI_ASSISTANT_SCREENSHOT_CURRENT_1.png?raw=true)
+
+</details>
+
+
+
+
+
 #### [Alarm Clock](https://github.com/lucyfire/dms-plugins)
 
 An alarm clock widget
