@@ -1,0 +1,13 @@
+{
+  "id": "aiAssistant",
+  "name": "AI Assistant",
+  "capabilities": ["slideout", "ai"],
+  "category": "utilities",
+  "repo": "https://github.com/devnullvoid/dms-ai-assistant",
+  "author": "devnullvoid",
+  "description": "Integrated AI chat assistant with markdown support, multiple AI provider support, streaming responses, and persistent chat history",
+  "dependencies": ["curl", "wl-copy"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://github.com/devnullvoid/dms-ai-assistant/blob/main/screenshots/AI_ASSISTANT_SCREENSHOT_CURRENT_1.png?raw=true"
+}
