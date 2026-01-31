@@ -1,0 +1,21 @@
+{
+  "id": "polyglot",
+  "name": "Polyglot",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/Silzinc/Polyglot",
+  "author": "Silzinc",
+  "description": "A WIP translation plugin. Currently supports DeepL's free API.",
+  "dependencies": [
+    "curl"
+  ],
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/Silzinc/Polyglot/refs/heads/main/screenshot1.png"
+}
