@@ -1490,6 +1490,35 @@ Control connected devices via KDE Connect or Valent - view battery, send files, 
 
 
 
+#### [Polyglot](https://github.com/Silzinc/Polyglot)
+
+A WIP translation plugin. Currently supports DeepL's free API.
+
+
+
+- id: polyglot
+- name: Polyglot
+- author: Silzinc
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Silzinc/Polyglot/refs/heads/main/screenshot1.png)
+
+</details>
+
+
+
+
+
 #### [Power Options](https://github.com/Nazahim/PowerOptions)
 
 Access power options like shutdown and reboot from the launcher
