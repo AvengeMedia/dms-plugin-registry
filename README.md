@@ -613,6 +613,35 @@ Execute shell commands from the launcher with history tracking, common shortcuts
 
 
 
+#### [Custom Running Apps](https://github.com/heyitsmikey128/DankCustomRunningApps)
+
+Flexible Custom Widget for Showing Running Apps on Dank Bar
+
+
+
+- id: customRunningApps
+- name: Custom Running Apps
+- author: Michael Kushma
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/heyitsmikey128/DankCustomRunningApps/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Actions](https://github.com/AvengeMedia/dms-plugins)
 
 Add customizable, scriptable actions to your bar.
