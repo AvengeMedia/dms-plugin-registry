@@ -1622,6 +1622,42 @@
     "sha256": "07p99cy9zdxgygybvgnilv970l1hp4jbf1vv7bnc4jz7f8dm12ry",
     "url": "https://github.com/antonjah/nix-monitor"
   },
+  "polyglot": {
+    "date": "2026-01-31T21:31:43+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-A/ag8FqoWCq4W4mjiu9ek5d/9rhAfrEqjv/aTl5O3iQ=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Silzinc",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl"
+      ],
+      "description": "A WIP translation plugin. Currently supports DeepL's free API.",
+      "distro": [
+        "any"
+      ],
+      "id": "polyglot",
+      "name": "Polyglot",
+      "repo": "https://github.com/Silzinc/Polyglot",
+      "screenshot": "https://raw.githubusercontent.com/Silzinc/Polyglot/refs/heads/main/screenshot1.png",
+      "version": "0.1.1"
+    },
+    "path": "/nix/store/d9x3jk8ip05lznkrls5vkgcjs6rax6ic-Polyglot",
+    "rev": "206e86a5156c07040563f3933e856f1484eea7a6",
+    "rootDir": "",
+    "sha256": "096y9rg4xnpziqmb2zj0p3v7z5wkbvpqm8w9bfw2ln58bbqa1xh3",
+    "url": "https://github.com/Silzinc/Polyglot"
+  },
   "powerOptions": {
     "date": "2026-01-24T09:07:53+01:00",
     "deepClone": false,
