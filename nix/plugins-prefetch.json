@@ -254,6 +254,40 @@
     "sha256": "1x1i4xzpdrv127j1ri7sj64xqiv187i1p88q8j1jngrjnqyw15qp",
     "url": "https://github.com/devnullvoid/dms-command-runner"
   },
+  "customRunningApps": {
+    "date": "2026-01-30T14:48:44-08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-oU42mTUFmUp8IJa9M59gNQ62DrAnSldyo2rJfrApJ/U=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Michael Kushma",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [],
+      "description": "Flexible Custom Widget for Showing Running Apps on Dank Bar",
+      "distro": [
+        "any"
+      ],
+      "id": "customRunningApps",
+      "name": "Custom Running Apps",
+      "repo": "https://github.com/heyitsmikey128/DankCustomRunningApps",
+      "screenshot": "https://raw.githubusercontent.com/heyitsmikey128/DankCustomRunningApps/refs/heads/main/screenshot.png",
+      "version": "0.1"
+    },
+    "path": "/nix/store/qc2bcrvwfpsnmgf1z2hcl5nswp5fk9f7-DankCustomRunningApps",
+    "rev": "4c353c982dff7b71a229ea881137cf6f9e921f86",
+    "rootDir": "",
+    "sha256": "1x9756q7xjbaldr5fji7n07bc3imc2gk7gcn41y4m6856nckckm1",
+    "url": "https://github.com/heyitsmikey128/DankCustomRunningApps"
+  },
   "dankActions": {
     "date": "2026-01-29T11:52:09-05:00",
     "deepClone": false,
@@ -1192,12 +1226,12 @@
     "url": "https://github.com/TaylanTatli/dms-plugins"
   },
   "homeAssistantMonitor": {
-    "date": "2026-01-27T22:11:12+08:00",
+    "date": "2026-01-31T15:36:37+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9eJk0REBUAsQWuFY5FQPH54mxeym37Tx8FaUX6CYYCM=",
+    "hash": "sha256-UCiRTaUC+n4AKHIlsD+9cXCb6wk/WvifNYB9NOkWxwg=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -1222,12 +1256,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/app3a2p6wd4wrs9c2q5nv20wq4d8mx8f-dms-plugin-hass",
-    "rev": "d557f42461b31e12ccd857e26a2676d391432175",
+    "path": "/nix/store/8zhjrb4d74p6vjn4rkg3bki2v6cb6wj0-dms-plugin-hass",
+    "rev": "59a09c5d7bd17af012ef246c37cf1c7a1da0ae6b",
     "rootDir": "",
-    "sha256": "08v0k2h5z52ny3qv9px6xk2jd7hz1xaf8n71b880nl01278n9qpm",
+    "sha256": "02672vlk8zc06ngzhniz17mrnw3iplzv09bj5007xyh2lm6r2a2h",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hueManager": {
