@@ -2,6 +2,7 @@
     "id": "dmsSessionizer",
     "name": "DMS Sessionizer",
     "capabilities": [
+        "launcher",
         "command-execution",
         "shell"
     ],
