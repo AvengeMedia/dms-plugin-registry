@@ -642,6 +642,35 @@ Flexible Custom Widget for Showing Running Apps on Dank Bar
 
 
 
+#### [DMS Sessionizer](https://github.com/leonardofranco01/dms-sessionizer)
+
+Create tmux sessions for your projects
+
+
+
+- id: dmsSessionizer
+- name: DMS Sessionizer
+- author: leonardofranco01
+- compositors: hyprland
+- capabilities: command-execution, shell
+- dependencies: tmux
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/leonardofranco01/dms-sessionizer/refs/heads/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Actions](https://github.com/AvengeMedia/dms-plugins)
 
 Add customizable, scriptable actions to your bar.
