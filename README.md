@@ -652,7 +652,7 @@ Create tmux sessions for your projects
 - name: DMS Sessionizer
 - author: leonardofranco01
 - compositors: hyprland
-- capabilities: command-execution, shell
+- capabilities: launcher, command-execution, shell
 - dependencies: tmux
 - distro: any
 
