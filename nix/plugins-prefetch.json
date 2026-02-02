@@ -967,16 +967,17 @@
     "url": "https://github.com/neoscaler/dms-lenovo-battery-settings"
   },
   "dmsSessionizer": {
-    "date": "2026-02-01T23:23:29-03:00",
+    "date": "2026-02-02T10:25:28-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-la0387uiEwLBCpeMkeUfHK7UHx9MrQ73xte0jjbmvrg=",
+    "hash": "sha256-OjoXP7ZLVV2h1a8tf/6o49oj1i0KFfjmpKPWLeVu/sM=",
     "leaveDotGit": false,
     "meta": {
       "author": "leonardofranco01",
       "capabilities": [
+        "launcher",
         "command-execution",
         "shell"
       ],
@@ -995,12 +996,12 @@
       "name": "DMS Sessionizer",
       "repo": "https://github.com/leonardofranco01/dms-sessionizer",
       "screenshot": "https://raw.githubusercontent.com/leonardofranco01/dms-sessionizer/refs/heads/main/assets/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/sdgwgccfa5aahfhpzyil374qc33cxfgz-dms-sessionizer",
-    "rev": "e27ab268ac79f630dc29f85ea8b32e34e9cacab9",
+    "path": "/nix/store/3m3nkaxfn1acnjnd46pvy3hsinsaj4bi-dms-sessionizer",
+    "rev": "110a031dd6d31282ee33d0b33b4a4ff9d15b1999",
     "rootDir": "",
-    "sha256": "1f5ywqv8xd6pqvvhxbac3wgx9bhw3zjr334p1b0h44x2pgrkgbcm",
+    "sha256": "1hzydvjjvmm3lkkgh58a5pb27np3m3z7ybdgsnhmsmabnqziffis",
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dockerManager": {
@@ -1591,12 +1592,12 @@
     "url": "https://github.com/AC17dollars/dms-nepali-calendar"
   },
   "niriWindows": {
-    "date": "2026-01-28T22:07:43Z",
+    "date": "2026-02-02T09:34:56Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Vri/kC7wbhFXu2QlJt0XVs1QruVs7POCT+ErUiW5Ohk=",
+    "hash": "sha256-KkB+xq4AObTqTDxtBVqfCsnxn0jnNk3iM4vpk9jlEBA=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bruno Cesar Rocha",
@@ -1617,12 +1618,12 @@
       "repo": "https://github.com/rochacbruno/DankNiriWindows",
       "requires_dms": ">0.1.18",
       "screenshot": "https://github.com/rochacbruno/DankNiriWindows/raw/main/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/rhjrippmcdfjv44bfp0mr1l1kgvfdiq0-DankNiriWindows",
-    "rev": "2ae932e21a4491af27329dfff8b4f1514d0a4657",
+    "path": "/nix/store/nbplcqnalqji5s6f40f3y30vdxcbigs7-DankNiriWindows",
+    "rev": "b866af4cb599e7eeae90779b959f56b1a9905f18",
     "rootDir": "",
-    "sha256": "069sp4jm4az19y1g7v3cwnp51kan2zfjc9b4pdbi2vph5s8bzf2n",
+    "sha256": "040hwpc97scb6gi4sdp792gz3j8akxd0av9w9kmb8f80mv37wh1a",
     "url": "https://github.com/rochacbruno/DankNiriWindows"
   },
   "nixMonitor": {
