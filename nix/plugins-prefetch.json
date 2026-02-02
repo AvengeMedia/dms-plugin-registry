@@ -255,12 +255,12 @@
     "url": "https://github.com/devnullvoid/dms-command-runner"
   },
   "customRunningApps": {
-    "date": "2026-01-30T14:48:44-08:00",
+    "date": "2026-02-01T13:39:11-08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-oU42mTUFmUp8IJa9M59gNQ62DrAnSldyo2rJfrApJ/U=",
+    "hash": "sha256-y1o/PNpNfOUgO4C/dbPTDBBhtrLJrZd1a8ECyRodI5o=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Kushma",
@@ -280,12 +280,12 @@
       "name": "Custom Running Apps",
       "repo": "https://github.com/heyitsmikey128/DankCustomRunningApps",
       "screenshot": "https://raw.githubusercontent.com/heyitsmikey128/DankCustomRunningApps/refs/heads/main/screenshot.png",
-      "version": "0.1"
+      "version": "0.2"
     },
-    "path": "/nix/store/qc2bcrvwfpsnmgf1z2hcl5nswp5fk9f7-DankCustomRunningApps",
-    "rev": "4c353c982dff7b71a229ea881137cf6f9e921f86",
+    "path": "/nix/store/qvsnnq19a25prbksblh2rd0yk8zapqxd-DankCustomRunningApps",
+    "rev": "b576af5d7408bf64e74e997e037348912adeeed2",
     "rootDir": "",
-    "sha256": "1x9756q7xjbaldr5fji7n07bc3imc2gk7gcn41y4m6856nckckm1",
+    "sha256": "16i33ldcj0n1ddsrgbf9nav6240csfrpbgw07chfaz2dv8y3ynnb",
     "url": "https://github.com/heyitsmikey128/DankCustomRunningApps"
   },
   "dankActions": {
@@ -362,12 +362,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankBitwarden": {
-    "date": "2026-01-23T00:02:04+05:30",
+    "date": "2026-02-01T23:30:00+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-aRHrYsh3LMU5ac07hHjBQ2bG7tLw5TDjq/iW8rwZQG8=",
+    "hash": "sha256-PDmFgUmlftR5ihyttvhuonRhtZPpDf1FTRcoV7CNPZg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Parthiv Seetharaman",
@@ -392,10 +392,10 @@
       "screenshot": "https://raw.githubusercontent.com/Pacman99/DankBitwarden/refs/heads/master/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/swd725bdkj84dp5iqyq993as552i9jnm-DankBitwarden",
-    "rev": "df4cf77ed4c06639f19f7a3ce8fb8bc00850ff67",
+    "path": "/nix/store/kz7rrz0m5ka96zq0wsyqa7djf8a91x6j-DankBitwarden",
+    "rev": "ec0ae13de2095be63587a2193afe282e8a872864",
     "rootDir": "",
-    "sha256": "0vs036yg55pqmgik1rghsbpccrj3q5w88fydd4wwab3pr1ifn4b9",
+    "sha256": "161xinq5fa0p9m2zs3g9jfsn2x52dvwbdb8wi9wx8zm5960qaf9w",
     "url": "https://github.com/pacman99/DankBitwarden"
   },
   "dankClight": {
