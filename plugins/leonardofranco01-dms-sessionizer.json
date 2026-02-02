@@ -1,0 +1,16 @@
+{
+    "id": "dmsSessionizer",
+    "name": "DMS Sessionizer",
+    "capabilities": [
+        "command-execution",
+        "shell"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/leonardofranco01/dms-sessionizer",
+    "author": "leonardofranco01",
+    "description": "Create tmux sessions for your projects",
+    "dependencies": ["tmux"],
+    "compositors": ["hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/leonardofranco01/dms-sessionizer/refs/heads/main/assets/screenshot.png"
+}
