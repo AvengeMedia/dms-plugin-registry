@@ -255,12 +255,12 @@
     "url": "https://github.com/devnullvoid/dms-command-runner"
   },
   "customRunningApps": {
-    "date": "2026-02-01T13:39:11-08:00",
+    "date": "2026-02-02T15:05:16-08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-y1o/PNpNfOUgO4C/dbPTDBBhtrLJrZd1a8ECyRodI5o=",
+    "hash": "sha256-q083pTNiiv4/P8tnRFyMVq3SuF7OvkRwg+fJjSdgNm4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Kushma",
@@ -280,12 +280,12 @@
       "name": "Custom Running Apps",
       "repo": "https://github.com/heyitsmikey128/DankCustomRunningApps",
       "screenshot": "https://raw.githubusercontent.com/heyitsmikey128/DankCustomRunningApps/refs/heads/main/screenshot.png",
-      "version": "0.2"
+      "version": "0.3"
     },
-    "path": "/nix/store/qvsnnq19a25prbksblh2rd0yk8zapqxd-DankCustomRunningApps",
-    "rev": "b576af5d7408bf64e74e997e037348912adeeed2",
+    "path": "/nix/store/46jks19552syhhkskn8rgww30szmzmpi-DankCustomRunningApps",
+    "rev": "9cf95a30a11a6ffee4efeeed4c79ff1ec36790eb",
     "rootDir": "",
-    "sha256": "16i33ldcj0n1ddsrgbf9nav6240csfrpbgw07chfaz2dv8y3ynnb",
+    "sha256": "0vinc0kqvjg7hdq49gnfbswd5baniif48ryb7wzzx2k26fjkfkxb",
     "url": "https://github.com/heyitsmikey128/DankCustomRunningApps"
   },
   "dankActions": {
@@ -1522,12 +1522,12 @@
     "url": "https://codeberg.org/claymorwan/dms-plugins"
   },
   "mediaPlayer": {
-    "date": "2025-12-29T19:44:05+06:00",
+    "date": "2026-02-02T22:16:47+06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-z6FiXXg938TefqDSbg64y2mdIZgwAAX90QlOOx7Ck30=",
+    "hash": "sha256-WxFhGi1HRt9e9wJdt0KA2UMjUfGoV1Wnjv3yHOBmtD4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Abdur Rahman Rifat",
@@ -1551,10 +1551,10 @@
       "screenshot": "https://raw.githubusercontent.com/arrifat346afs/mediaPlayer/refs/heads/main/screenshot_8.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/sjjydzj4712h35pi4c7frpdnpffrj5j7-mediaPlayer",
-    "rev": "4d73e6c810f85093339eb6cc6dad251ea6c15b04",
+    "path": "/nix/store/3hvbv22i0fd34r97308fasn8lziymx29-mediaPlayer",
+    "rev": "56ec160ed3fe32ad55b920ff462727d918b6eb51",
     "rootDir": "",
-    "sha256": "0zckq8g3nkh9s7yha01hk0hrssfbp076xlm0gvgc9prxg1fn58fg",
+    "sha256": "0gmlcvh1rwpxiskmamx8y58j6hyrh11bfp82yxgdyij75ld624av",
     "url": "https://github.com/arrifat346afs/mediaPlayer"
   },
   "nepaliCalendar": {
