@@ -1485,6 +1485,35 @@ List and switch to open Niri windows from the launcher
 
 
 
+#### [Pass](https://github.com/LouisKottmann/dms-pass)
+
+DMS Launcher plugin to fuzzy-search Pass entries and copy them to the clipboard.
+
+
+
+- id: dmsPass
+- name: Pass
+- author: LouisKottmann
+- compositors: any
+- capabilities: launcher
+- dependencies: pass
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/LouisKottmann/dms-pass/1b01949c0e8d2433bfad4d52f5af466723a504d5/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Phone Connect](https://github.com/AvengeMedia/dms-plugins)
 
 Control connected devices via KDE Connect or Valent - view battery, send files, find phone, and more
