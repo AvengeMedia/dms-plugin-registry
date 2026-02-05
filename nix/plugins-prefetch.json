@@ -966,6 +966,42 @@
     "sha256": "0qz7avg1h0gb8dkahcn0cry0yrz0zkk7h1ivv7vh96mfci8w9hbm",
     "url": "https://github.com/neoscaler/dms-lenovo-battery-settings"
   },
+  "dmsPass": {
+    "date": "2026-02-05T16:45:02+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-WdgX3dCuUuaxwE4bwLurnYj/jepXg9EZzne+mbjGwZk=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "LouisKottmann",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "pass"
+      ],
+      "description": "DMS Launcher plugin to fuzzy-search Pass entries and copy them to the clipboard.",
+      "distro": [
+        "any"
+      ],
+      "id": "dmsPass",
+      "name": "Pass",
+      "repo": "https://github.com/LouisKottmann/dms-pass",
+      "screenshot": "https://raw.githubusercontent.com/LouisKottmann/dms-pass/1b01949c0e8d2433bfad4d52f5af466723a504d5/screenshot.png",
+      "version": "0.1.2"
+    },
+    "path": "/nix/store/38vpd35b70hnjc24s8p32xl45mq504vq-dms-pass",
+    "rev": "1b01949c0e8d2433bfad4d52f5af466723a504d5",
+    "rootDir": "",
+    "sha256": "16f1qsw9kgkprqcx30spxa6zz24xmfxw06sfq2qyclmfs3fign2r",
+    "url": "https://github.com/LouisKottmann/dms-pass"
+  },
   "dmsSessionizer": {
     "date": "2026-02-02T10:25:28-03:00",
     "deepClone": false,
