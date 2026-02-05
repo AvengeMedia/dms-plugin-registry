@@ -1837,12 +1837,12 @@
     "url": "https://github.com/jonkristian/dms-pulsar-x3"
   },
   "sathiAi": {
-    "date": "2026-01-27T15:03:55-05:00",
+    "date": "2026-02-04T09:41:56-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Pzoync2+Z1vZfNGN1WivjKSQTY1bto8glKAR/UYRzuw=",
+    "hash": "sha256-xXWbCcjdqo9LA06IRU1lTN3m8iKP16WHQCRIEFIkPgI=",
     "leaveDotGit": false,
     "meta": {
       "author": "SSingh44",
@@ -1865,10 +1865,10 @@
       "screenshot": "https://raw.githubusercontent.com/ss44/sathi.ai/refs/heads/master/assets/screenshot-01.png",
       "version": "1.4.0"
     },
-    "path": "/nix/store/n7skidj8kj31niqlc7jsriqmkn8jhpz6-sathi.ai",
-    "rev": "a2809ebed0a21db536816eb6a8f3bc0aade353cc",
+    "path": "/nix/store/wdnkksghwx8zhqarmv3f820i9dlsvhja-sathi.ai",
+    "rev": "15fbe8aca74193c1dc415e6477280bb510065197",
     "rootDir": "",
-    "sha256": "1v6f253gs4d0jhh8zdjvim6r194cmxldb3figkcmnrxyrnfk4fiz",
+    "sha256": "00iy4i910j14823sbmwg4brfdpaccm6lb22f0d5qzanxr04rnxf5",
     "url": "https://github.com/ss44/sathi.ai"
   },
   "sessionPower": {
@@ -1909,12 +1909,12 @@
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
   "stockManager": {
-    "date": "2026-01-30T17:43:02+08:00",
+    "date": "2026-02-04T10:54:41+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-TeCk1BEnlhqjQj61axhkKFTmOYm6OSoc+ndZSK7rrrM=",
+    "hash": "sha256-mZ9FTlHhMHWqTIsU244x7lhDBIEpObLKxa7VeIYPy10=",
     "leaveDotGit": false,
     "meta": {
       "author": "LeeMeng",
@@ -1938,12 +1938,12 @@
       "repo": "https://github.com/leemeng0x61/stockManager",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://github.com/leemeng0x61/stockManager/raw/main/screenshot/sc.png",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/51r25jkplwikk3khpw01ifx8ps9qmbq6-stockManager",
-    "rev": "8ffe73f78f9778a37e1acf36ff78169f5a44e0dc",
+    "path": "/nix/store/zwdjgwlizpsh7hswz3y12k98pdbn8f7j-stockManager",
+    "rev": "a27c000f1890ad1013ae7cd0ea1341c5671b8f29",
     "rootDir": "",
-    "sha256": "1cxfxfp4hnbpz8f2lfdsi4wycm18chc6pd9y8aiim5i727aa9q2d",
+    "sha256": "0pfb1y37imdfqp5b4f99h4246n7f667dn54b9jm7ac71a574b7wr",
     "url": "https://github.com/leemeng0x61/stockManager"
   },
   "tailscale": {
