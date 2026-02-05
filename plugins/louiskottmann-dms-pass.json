@@ -1,0 +1,13 @@
+{
+    "id": "dmsPass",
+    "name": "Pass",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/LouisKottmann/dms-pass",
+    "author": "LouisKottmann",
+    "description": "DMS Launcher plugin to fuzzy-search Pass entries and copy them to the clipboard.",
+    "dependencies": ["pass"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/LouisKottmann/dms-pass/1b01949c0e8d2433bfad4d52f5af466723a504d5/screenshot.png"
+}
