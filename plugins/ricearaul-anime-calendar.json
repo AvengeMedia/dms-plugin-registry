@@ -8,7 +8,7 @@
     "author": "Ricea Ion Raul",
     "description": "A QuickShell plugin for DankMaterialShell that tracks anime episode releases and sends notifications when your favorite shows air.",
     "dependencies": [],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin/blob/main/screenshots/today-tab.png?raw=true"
 }
