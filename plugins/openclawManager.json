@@ -1,0 +1,19 @@
+{
+    "id": "openclawManager",
+    "name": "OpenClaw Manager",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "system",
+    "repo": "https://github.com/oki3505F/openclaw-manager",
+    "author": "Oki",
+    "description": "System Control Kill Switch for OpenClaw Assistant",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/oki3505F/openclaw-manager/refs/heads/master/screenshot.png"
+}
