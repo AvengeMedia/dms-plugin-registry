@@ -492,6 +492,35 @@ An alarm clock widget
 
 
 
+#### [Anime Calendar](https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin)
+
+A QuickShell plugin for DankMaterialShell that tracks anime episode releases and sends notifications when your favorite shows air.
+
+
+
+- id: animeCalendar
+- name: Anime Calendar
+- author: Ricea Ion Raul
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin/blob/main/screenshots/today-tab.png?raw=true)
+
+</details>
+
+
+
+
+
 #### [Application Shortcut](https://github.com/oabragh/AppShortcut)
 
 Add application shortcuts in your desktop :)
