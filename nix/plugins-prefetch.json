@@ -1335,12 +1335,12 @@
     "url": "https://github.com/TaylanTatli/dms-plugins"
   },
   "homeAssistantMonitor": {
-    "date": "2026-02-03T17:03:03+08:00",
+    "date": "2026-02-07T17:19:21+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-mDHolw7bnJNDkSH0cdjCpy10HepQQyJAO2izk/DjHh0=",
+    "hash": "sha256-1pwNqCwkZfTvMCAlcatDKiiyamtEWT6i18P2hT6LcL8=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -1365,12 +1365,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-      "version": "1.2.2"
+      "version": "1.2.5"
     },
-    "path": "/nix/store/mfsszvmg8s3yqz12a6wz0av8s1hrxcvh-dms-plugin-hass",
-    "rev": "571790fe2e6435c00dcc89f848fe5b810e9f89b4",
+    "path": "/nix/store/5lr71qnbws418xw1byzf10az1s653v4b-dms-plugin-hass",
+    "rev": "2af0fafaf55e32f379890e06dfa5d9466b55c33d",
     "rootDir": "",
-    "sha256": "078ywgq97cv87d024hshx8fp8bd7qbc73x11j51r776v1sbyhccq",
+    "sha256": "1gvhicz8bxn3syi3wna4ddmb4a1a8fmp299063pz8r945jl0v76n",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hueManager": {
@@ -1484,12 +1484,12 @@
     "url": "https://github.com/psyreactor/dms-kubernetes"
   },
   "linuxWallpaperEngine": {
-    "date": "2026-01-22T13:21:04+03:00",
+    "date": "2026-02-07T14:53:28+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-IvbSHcWWyDZbsgBQq+zCNorc4GIVAfrr4/L4GhI9BQU=",
+    "hash": "sha256-SlkJhFuIj2Hm48DeEexiwGyuw+Xpriuh/V9sxnaZmFE=",
     "leaveDotGit": false,
     "meta": {
       "author": "sgtaziz",
@@ -1514,10 +1514,10 @@
       "screenshot": "https://raw.githubusercontent.com/sgtaziz/dms-wallpaperengine/refs/heads/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/1y7007h2xjvyaxlmym2dd6d1dhk0bqyk-dms-wallpaperengine",
-    "rev": "52adee36fdc98a9b323f41ddd5ffff9e11c27c43",
+    "path": "/nix/store/mq1kj229gi39dksbcx4maprg8wllpb0l-dms-wallpaperengine",
+    "rev": "8b3cd460fd5a401e4b501e59054a1377a7df86b1",
     "rootDir": "",
-    "sha256": "01857l91my7jwgmzl08mcbhdr2inqbnanl00n9dkdj4nqlfx5xi2",
+    "sha256": "0lcqk5vccv2zznhjpbp9wp1swv60cbn13pn0wgk633w8bf20jnaa",
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
   },
   "lyricsOnPanel": {
