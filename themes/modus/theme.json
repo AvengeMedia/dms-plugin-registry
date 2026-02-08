@@ -1,0 +1,658 @@
+{
+  "id": "modus",
+  "name": "Modus",
+  "version": "1.0.0",
+  "author": "Avenge Media",
+  "description": "Accessible themes conforming to the highest color-contrast standard (WCAG AAA)",
+  "dark": {},
+  "light": {},
+  "variants": {
+    "type": "multi",
+    "defaults": {
+      "dark": {
+        "accent": "blue",
+        "flavor": "vivendi"
+      },
+      "light": {
+        "accent": "blue",
+        "flavor": "operandi"
+      }
+    },
+    "flavors": [
+      {
+        "id": "operandi",
+        "name": "Standard",
+        "light": {
+          "surface": "#ffffff",
+          "surfaceText": "#000000",
+          "surfaceVariant": "#f2f2f2",
+          "surfaceVariantText": "#595959",
+          "background": "#f2f2f2",
+          "backgroundText": "#000000",
+          "outline": "#9f9f9f",
+          "surfaceContainer": "#e0e0e0",
+          "surfaceContainerHigh": "#c4c4c4",
+          "surfaceContainerHighest": "#ababab",
+          "error": "#a60000",
+          "warning": "#6f5500",
+          "info": "#005e8b"
+        }
+      },
+      {
+        "id": "operandi-tinted",
+        "name": "Tinted",
+        "light": {
+          "surface": "#fbf7f0",
+          "surfaceText": "#000000",
+          "surfaceVariant": "#efe9dd",
+          "surfaceVariantText": "#595959",
+          "background": "#efe9dd",
+          "backgroundText": "#000000",
+          "outline": "#9f9690",
+          "surfaceContainer": "#dfd5cf",
+          "surfaceContainerHigh": "#c9b9b0",
+          "surfaceContainerHighest": "#b3a093",
+          "error": "#a60000",
+          "warning": "#6f5500",
+          "info": "#005e8b"
+        }
+      },
+      {
+        "id": "operandi-deuteranopia",
+        "name": "Deuteranopia",
+        "light": {
+          "surface": "#ffffff",
+          "surfaceText": "#000000",
+          "surfaceVariant": "#f2f2f2",
+          "surfaceVariantText": "#595959",
+          "background": "#f2f2f2",
+          "backgroundText": "#000000",
+          "outline": "#9f9f9f",
+          "surfaceContainer": "#e0e0e0",
+          "surfaceContainerHigh": "#c4c4c4",
+          "surfaceContainerHighest": "#ababab",
+          "error": "#d00000",
+          "warning": "#884900",
+          "info": "#005e8b"
+        }
+      },
+      {
+        "id": "operandi-tritanopia",
+        "name": "Tritanopia",
+        "light": {
+          "surface": "#ffffff",
+          "surfaceText": "#000000",
+          "surfaceVariant": "#f2f2f2",
+          "surfaceVariantText": "#595959",
+          "background": "#f2f2f2",
+          "backgroundText": "#000000",
+          "outline": "#9f9f9f",
+          "surfaceContainer": "#e0e0e0",
+          "surfaceContainerHigh": "#c4c4c4",
+          "surfaceContainerHighest": "#ababab",
+          "error": "#a0132f",
+          "warning": "#695500",
+          "info": "#005f5f"
+        }
+      },
+      {
+        "id": "vivendi",
+        "name": "Standard",
+        "dark": {
+          "surface": "#000000",
+          "surfaceText": "#ffffff",
+          "surfaceVariant": "#1e1e1e",
+          "surfaceVariantText": "#989898",
+          "background": "#1e1e1e",
+          "backgroundText": "#ffffff",
+          "outline": "#646464",
+          "surfaceContainer": "#303030",
+          "surfaceContainerHigh": "#535353",
+          "surfaceContainerHighest": "#6a6a6a",
+          "error": "#ff5f59",
+          "warning": "#d0bc00",
+          "info": "#00d3d0"
+        }
+      },
+      {
+        "id": "vivendi-tinted",
+        "name": "Tinted",
+        "dark": {
+          "surface": "#0d0e1c",
+          "surfaceText": "#ffffff",
+          "surfaceVariant": "#1d2235",
+          "surfaceVariantText": "#989898",
+          "background": "#1d2235",
+          "backgroundText": "#ffffff",
+          "outline": "#61647a",
+          "surfaceContainer": "#2b3045",
+          "surfaceContainerHigh": "#4a4f69",
+          "surfaceContainerHighest": "#5f6480",
+          "error": "#ff5f59",
+          "warning": "#d0bc00",
+          "info": "#00d3d0"
+        }
+      },
+      {
+        "id": "vivendi-deuteranopia",
+        "name": "Deuteranopia",
+        "dark": {
+          "surface": "#000000",
+          "surfaceText": "#ffffff",
+          "surfaceVariant": "#1e1e1e",
+          "surfaceVariantText": "#989898",
+          "background": "#1e1e1e",
+          "backgroundText": "#ffffff",
+          "outline": "#646464",
+          "surfaceContainer": "#303030",
+          "surfaceContainerHigh": "#535353",
+          "surfaceContainerHighest": "#6a6a6a",
+          "error": "#ff5f59",
+          "warning": "#fec43f",
+          "info": "#00d3d0"
+        }
+      },
+      {
+        "id": "vivendi-tritanopia",
+        "name": "Tritanopia",
+        "dark": {
+          "surface": "#000000",
+          "surfaceText": "#ffffff",
+          "surfaceVariant": "#1e1e1e",
+          "surfaceVariantText": "#989898",
+          "background": "#1e1e1e",
+          "backgroundText": "#ffffff",
+          "outline": "#646464",
+          "surfaceContainer": "#303030",
+          "surfaceContainerHigh": "#535353",
+          "surfaceContainerHighest": "#6a6a6a",
+          "error": "#ff7f86",
+          "warning": "#cabf00",
+          "info": "#6ae4b9"
+        }
+      }
+    ],
+    "accents": [
+      {
+        "id": "blue",
+        "name": "Blue",
+        "operandi": {
+          "primary": "#0031a9",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#dde4ff",
+          "secondary": "#3548cf",
+          "surfaceTint": "#eef1ff"
+        },
+        "operandi-tinted": {
+          "primary": "#0031a9",
+          "primaryText": "#fbf7f0",
+          "primaryContainer": "#dde4ff",
+          "secondary": "#3548cf",
+          "surfaceTint": "#eee9e1"
+        },
+        "operandi-deuteranopia": {
+          "primary": "#0031a9",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#dde4ff",
+          "secondary": "#3548cf",
+          "surfaceTint": "#eef1ff"
+        },
+        "operandi-tritanopia": {
+          "primary": "#0031a9",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#dde4ff",
+          "secondary": "#531ab6",
+          "surfaceTint": "#eef1ff"
+        },
+        "vivendi": {
+          "primary": "#2fafff",
+          "primaryText": "#000000",
+          "primaryContainer": "#0f3a5e",
+          "secondary": "#79a8ff",
+          "surfaceTint": "#0a1a2e"
+        },
+        "vivendi-tinted": {
+          "primary": "#2fafff",
+          "primaryText": "#0d0e1c",
+          "primaryContainer": "#0f3a5e",
+          "secondary": "#79a8ff",
+          "surfaceTint": "#0e1530"
+        },
+        "vivendi-deuteranopia": {
+          "primary": "#2fafff",
+          "primaryText": "#000000",
+          "primaryContainer": "#0f3a5e",
+          "secondary": "#79a8ff",
+          "surfaceTint": "#0a1a2e"
+        },
+        "vivendi-tritanopia": {
+          "primary": "#2fafff",
+          "primaryText": "#000000",
+          "primaryContainer": "#0f3a5e",
+          "secondary": "#b6a0ff",
+          "surfaceTint": "#0a1a2e"
+        }
+      },
+      {
+        "id": "red",
+        "name": "Red",
+        "operandi": {
+          "primary": "#a60000",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#ffdcdc",
+          "secondary": "#972500",
+          "surfaceTint": "#fff0f0"
+        },
+        "operandi-tinted": {
+          "primary": "#a60000",
+          "primaryText": "#fbf7f0",
+          "primaryContainer": "#ffdcdc",
+          "secondary": "#972500",
+          "surfaceTint": "#f5e8e0"
+        },
+        "operandi-deuteranopia": {
+          "primary": "#a60000",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#ffdcdc",
+          "secondary": "#972500",
+          "surfaceTint": "#fff0f0"
+        },
+        "operandi-tritanopia": {
+          "primary": "#a0132f",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#ffdce3",
+          "secondary": "#972500",
+          "surfaceTint": "#fff0f0"
+        },
+        "vivendi": {
+          "primary": "#ff5f59",
+          "primaryText": "#000000",
+          "primaryContainer": "#5e1a17",
+          "secondary": "#ff6b55",
+          "surfaceTint": "#2e0d0b"
+        },
+        "vivendi-tinted": {
+          "primary": "#ff5f59",
+          "primaryText": "#0d0e1c",
+          "primaryContainer": "#5e1a17",
+          "secondary": "#ff6b55",
+          "surfaceTint": "#1e0e1a"
+        },
+        "vivendi-deuteranopia": {
+          "primary": "#ff5f59",
+          "primaryText": "#000000",
+          "primaryContainer": "#5e1a17",
+          "secondary": "#ff6b55",
+          "surfaceTint": "#2e0d0b"
+        },
+        "vivendi-tritanopia": {
+          "primary": "#ff7f86",
+          "primaryText": "#000000",
+          "primaryContainer": "#5e2025",
+          "secondary": "#ff6b55",
+          "surfaceTint": "#2e0d0b"
+        }
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "operandi": {
+          "primary": "#006800",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#d5f5d0",
+          "secondary": "#00663f",
+          "surfaceTint": "#edf7eb"
+        },
+        "operandi-tinted": {
+          "primary": "#006800",
+          "primaryText": "#fbf7f0",
+          "primaryContainer": "#d5f5d0",
+          "secondary": "#00663f",
+          "surfaceTint": "#e6eede"
+        },
+        "operandi-deuteranopia": {
+          "primary": "#006800",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#d5f5d0",
+          "secondary": "#00663f",
+          "surfaceTint": "#edf7eb"
+        },
+        "operandi-tritanopia": {
+          "primary": "#006800",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#d5f5d0",
+          "secondary": "#00663f",
+          "surfaceTint": "#edf7eb"
+        },
+        "vivendi": {
+          "primary": "#44bc44",
+          "primaryText": "#000000",
+          "primaryContainer": "#1a4a1a",
+          "secondary": "#00c06f",
+          "surfaceTint": "#0d250d"
+        },
+        "vivendi-tinted": {
+          "primary": "#44bc44",
+          "primaryText": "#0d0e1c",
+          "primaryContainer": "#1a4a1a",
+          "secondary": "#00c06f",
+          "surfaceTint": "#0e1518"
+        },
+        "vivendi-deuteranopia": {
+          "primary": "#44bc44",
+          "primaryText": "#000000",
+          "primaryContainer": "#1a4a1a",
+          "secondary": "#00c06f",
+          "surfaceTint": "#0d250d"
+        },
+        "vivendi-tritanopia": {
+          "primary": "#44bc44",
+          "primaryText": "#000000",
+          "primaryContainer": "#1a4a1a",
+          "secondary": "#00c06f",
+          "surfaceTint": "#0d250d"
+        }
+      },
+      {
+        "id": "yellow",
+        "name": "Yellow",
+        "operandi": {
+          "primary": "#6f5500",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#f5e8c8",
+          "secondary": "#884900",
+          "surfaceTint": "#f8f1e2"
+        },
+        "operandi-tinted": {
+          "primary": "#6f5500",
+          "primaryText": "#fbf7f0",
+          "primaryContainer": "#f5e8c8",
+          "secondary": "#884900",
+          "surfaceTint": "#efe5d5"
+        },
+        "operandi-deuteranopia": {
+          "primary": "#6f5500",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#f5e8c8",
+          "secondary": "#884900",
+          "surfaceTint": "#f8f1e2"
+        },
+        "operandi-tritanopia": {
+          "primary": "#6f5500",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#f5e8c8",
+          "secondary": "#884900",
+          "surfaceTint": "#f8f1e2"
+        },
+        "vivendi": {
+          "primary": "#d0bc00",
+          "primaryText": "#000000",
+          "primaryContainer": "#4a4200",
+          "secondary": "#fec43f",
+          "surfaceTint": "#252000"
+        },
+        "vivendi-tinted": {
+          "primary": "#d0bc00",
+          "primaryText": "#0d0e1c",
+          "primaryContainer": "#4a4200",
+          "secondary": "#fec43f",
+          "surfaceTint": "#15161a"
+        },
+        "vivendi-deuteranopia": {
+          "primary": "#d0bc00",
+          "primaryText": "#000000",
+          "primaryContainer": "#4a4200",
+          "secondary": "#fec43f",
+          "surfaceTint": "#252000"
+        },
+        "vivendi-tritanopia": {
+          "primary": "#d0bc00",
+          "primaryText": "#000000",
+          "primaryContainer": "#4a4200",
+          "secondary": "#fec43f",
+          "surfaceTint": "#252000"
+        }
+      },
+      {
+        "id": "magenta",
+        "name": "Magenta",
+        "operandi": {
+          "primary": "#721045",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#fdd6ea",
+          "secondary": "#531ab6",
+          "surfaceTint": "#f9edf4"
+        },
+        "operandi-tinted": {
+          "primary": "#721045",
+          "primaryText": "#fbf7f0",
+          "primaryContainer": "#fdd6ea",
+          "secondary": "#531ab6",
+          "surfaceTint": "#f0e5de"
+        },
+        "operandi-deuteranopia": {
+          "primary": "#721045",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#fdd6ea",
+          "secondary": "#531ab6",
+          "surfaceTint": "#f9edf4"
+        },
+        "operandi-tritanopia": {
+          "primary": "#721045",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#fdd6ea",
+          "secondary": "#531ab6",
+          "surfaceTint": "#f9edf4"
+        },
+        "vivendi": {
+          "primary": "#feacd0",
+          "primaryText": "#000000",
+          "primaryContainer": "#5e3048",
+          "secondary": "#b6a0ff",
+          "surfaceTint": "#2e1824"
+        },
+        "vivendi-tinted": {
+          "primary": "#feacd0",
+          "primaryText": "#0d0e1c",
+          "primaryContainer": "#5e3048",
+          "secondary": "#b6a0ff",
+          "surfaceTint": "#1a1224"
+        },
+        "vivendi-deuteranopia": {
+          "primary": "#feacd0",
+          "primaryText": "#000000",
+          "primaryContainer": "#5e3048",
+          "secondary": "#b6a0ff",
+          "surfaceTint": "#2e1824"
+        },
+        "vivendi-tritanopia": {
+          "primary": "#feacd0",
+          "primaryText": "#000000",
+          "primaryContainer": "#5e3048",
+          "secondary": "#b6a0ff",
+          "surfaceTint": "#2e1824"
+        }
+      },
+      {
+        "id": "cyan",
+        "name": "Cyan",
+        "operandi": {
+          "primary": "#005e8b",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#d0eaf5",
+          "secondary": "#005f5f",
+          "surfaceTint": "#ebf3f8"
+        },
+        "operandi-tinted": {
+          "primary": "#005e8b",
+          "primaryText": "#fbf7f0",
+          "primaryContainer": "#d0eaf5",
+          "secondary": "#005f5f",
+          "surfaceTint": "#e4ebe0"
+        },
+        "operandi-deuteranopia": {
+          "primary": "#005e8b",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#d0eaf5",
+          "secondary": "#005f5f",
+          "surfaceTint": "#ebf3f8"
+        },
+        "operandi-tritanopia": {
+          "primary": "#005e8b",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#d0eaf5",
+          "secondary": "#005f5f",
+          "surfaceTint": "#ebf3f8"
+        },
+        "vivendi": {
+          "primary": "#00d3d0",
+          "primaryText": "#000000",
+          "primaryContainer": "#0a4a49",
+          "secondary": "#6ae4b9",
+          "surfaceTint": "#052525"
+        },
+        "vivendi-tinted": {
+          "primary": "#00d3d0",
+          "primaryText": "#0d0e1c",
+          "primaryContainer": "#0a4a49",
+          "secondary": "#6ae4b9",
+          "surfaceTint": "#0b1525"
+        },
+        "vivendi-deuteranopia": {
+          "primary": "#00d3d0",
+          "primaryText": "#000000",
+          "primaryContainer": "#0a4a49",
+          "secondary": "#6ae4b9",
+          "surfaceTint": "#052525"
+        },
+        "vivendi-tritanopia": {
+          "primary": "#00d3d0",
+          "primaryText": "#000000",
+          "primaryContainer": "#0a4a49",
+          "secondary": "#6ae4b9",
+          "surfaceTint": "#052525"
+        }
+      },
+      {
+        "id": "warmer-blue",
+        "name": "Warmer Blue",
+        "operandi": {
+          "primary": "#3548cf",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#dfe3ff",
+          "secondary": "#0031a9",
+          "surfaceTint": "#eff1ff"
+        },
+        "operandi-tinted": {
+          "primary": "#3548cf",
+          "primaryText": "#fbf7f0",
+          "primaryContainer": "#dfe3ff",
+          "secondary": "#0031a9",
+          "surfaceTint": "#eae5e0"
+        },
+        "operandi-deuteranopia": {
+          "primary": "#3548cf",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#dfe3ff",
+          "secondary": "#0031a9",
+          "surfaceTint": "#eff1ff"
+        },
+        "operandi-tritanopia": {
+          "primary": "#3548cf",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#dfe3ff",
+          "secondary": "#0031a9",
+          "surfaceTint": "#eff1ff"
+        },
+        "vivendi": {
+          "primary": "#79a8ff",
+          "primaryText": "#000000",
+          "primaryContainer": "#1e3560",
+          "secondary": "#2fafff",
+          "surfaceTint": "#0f1a30"
+        },
+        "vivendi-tinted": {
+          "primary": "#79a8ff",
+          "primaryText": "#0d0e1c",
+          "primaryContainer": "#1e3560",
+          "secondary": "#2fafff",
+          "surfaceTint": "#0e1530"
+        },
+        "vivendi-deuteranopia": {
+          "primary": "#79a8ff",
+          "primaryText": "#000000",
+          "primaryContainer": "#1e3560",
+          "secondary": "#2fafff",
+          "surfaceTint": "#0f1a30"
+        },
+        "vivendi-tritanopia": {
+          "primary": "#79a8ff",
+          "primaryText": "#000000",
+          "primaryContainer": "#1e3560",
+          "secondary": "#2fafff",
+          "surfaceTint": "#0f1a30"
+        }
+      },
+      {
+        "id": "purple",
+        "name": "Purple",
+        "operandi": {
+          "primary": "#531ab6",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#e8dcff",
+          "secondary": "#721045",
+          "surfaceTint": "#f2edff"
+        },
+        "operandi-tinted": {
+          "primary": "#531ab6",
+          "primaryText": "#fbf7f0",
+          "primaryContainer": "#e8dcff",
+          "secondary": "#721045",
+          "surfaceTint": "#ebe4de"
+        },
+        "operandi-deuteranopia": {
+          "primary": "#531ab6",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#e8dcff",
+          "secondary": "#721045",
+          "surfaceTint": "#f2edff"
+        },
+        "operandi-tritanopia": {
+          "primary": "#531ab6",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#e8dcff",
+          "secondary": "#721045",
+          "surfaceTint": "#f2edff"
+        },
+        "vivendi": {
+          "primary": "#b6a0ff",
+          "primaryText": "#000000",
+          "primaryContainer": "#3a2e60",
+          "secondary": "#feacd0",
+          "surfaceTint": "#1d1730"
+        },
+        "vivendi-tinted": {
+          "primary": "#b6a0ff",
+          "primaryText": "#0d0e1c",
+          "primaryContainer": "#3a2e60",
+          "secondary": "#feacd0",
+          "surfaceTint": "#121328"
+        },
+        "vivendi-deuteranopia": {
+          "primary": "#b6a0ff",
+          "primaryText": "#000000",
+          "primaryContainer": "#3a2e60",
+          "secondary": "#feacd0",
+          "surfaceTint": "#1d1730"
+        },
+        "vivendi-tritanopia": {
+          "primary": "#b6a0ff",
+          "primaryText": "#000000",
+          "primaryContainer": "#3a2e60",
+          "secondary": "#feacd0",
+          "surfaceTint": "#1d1730"
+        }
+      }
+    ]
+  }
+}
