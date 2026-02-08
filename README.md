@@ -2097,6 +2097,17 @@ Kanagawa theme using Lotus for light mode and Wave for dark mode.
 
 
 
+### Modus
+
+Accessible themes conforming to the highest color-contrast standard (WCAG AAA)
+
+- **Author:** Avenge Media
+- **ID:** `modus` **Version:** `1.0.0`
+
+![Modus](themes/modus/preview.svg)
+
+
+
 ### Petrichor
 
 Oceanic's color scheme from https://discord.com/channels/1387519366651842574/1457383570925551667, with permission
