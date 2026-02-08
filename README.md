@@ -2101,7 +2101,7 @@ Kanagawa theme using Lotus for light mode and Wave for dark mode.
 
 Accessible themes conforming to the highest color-contrast standard (WCAG AAA)
 
-- **Author:** Avenge Media
+- **Author:** Jeremy Cowgar
 - **ID:** `modus` **Version:** `1.0.0`
 
 ![Modus](themes/modus/preview.svg)
