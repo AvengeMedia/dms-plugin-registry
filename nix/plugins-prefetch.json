@@ -1220,12 +1220,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "githubHeatmap": {
-    "date": "2026-02-08T20:13:22-08:00",
+    "date": "2026-02-08T22:28:12-08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-EYHHAu6CQ19W+MTlUxYk5K61dGUJwL3Zv9eYLoTtBIc=",
+    "hash": "sha256-58t3lRW+62oCKfTHyX0AYnGPpH/BFnmQfjndV6HKFLo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Deppes",
@@ -1254,10 +1254,10 @@
       "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/GitHubHeatMap-popout.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/7nmkc6ha1nhdksi9n5jy25iikmnmmpg4-dms-plugins",
-    "rev": "a281b17c4001784f6da80605965ff005c880604e",
+    "path": "/nix/store/9p1k3dfgbm57lgh1lfr53z6mhq29kkgg-dms-plugins",
+    "rev": "d58880b92beb06ed3f88c1954a2883d837c19743",
     "rootDir": "",
-    "sha256": "11q4xn22x66ppzcvvh09cmsbbbp44hb57rf4z1b5yhw2xq1cg08i",
+    "sha256": "1fhlrahmgp9rgs87j5n1gyj8ywb201ywkizl5416msxy2napgjz7",
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "gitlabNotifier": {
@@ -1376,12 +1376,12 @@
     "url": "https://github.com/TaylanTatli/dms-plugins"
   },
   "homeAssistantMonitor": {
-    "date": "2026-02-07T17:19:21+08:00",
+    "date": "2026-02-09T19:06:55+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-1pwNqCwkZfTvMCAlcatDKiiyamtEWT6i18P2hT6LcL8=",
+    "hash": "sha256-dwvV8Pn5PgM1xHZrPFlZKwG3uxPL0VW4orCXYKeVDuI=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -1408,10 +1408,10 @@
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
       "version": "1.2.5"
     },
-    "path": "/nix/store/5lr71qnbws418xw1byzf10az1s653v4b-dms-plugin-hass",
-    "rev": "2af0fafaf55e32f379890e06dfa5d9466b55c33d",
+    "path": "/nix/store/zahz7n3ynn7mlrl419nx0768fx3p372f-dms-plugin-hass",
+    "rev": "b2bdcc9997b0a2f7129e65bb9511bdeef6cd636f",
     "rootDir": "",
-    "sha256": "1gvhicz8bxn3syi3wna4ddmb4a1a8fmp299063pz8r945jl0v76n",
+    "sha256": "1qhfjnkn15xhlaw5blfb2fxvf09bb5ckqsvnqhsh6gprz7qda2vp",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hueManager": {
@@ -1879,12 +1879,12 @@
     "url": "https://github.com/Daniel-42-z/dms-power-usage"
   },
   "prayerTimes": {
-    "date": "2026-01-14T08:18:54+07:00",
+    "date": "2026-02-09T15:31:25+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-DJ/ykc0IFW0iFWqRA2/Tp5SpfA0KGfe6dURu8Fbn/Lc=",
+    "hash": "sha256-8PSVJmAWXekMMEUou4tHZvUQxfz6hzuOkXUYjBD1Rr0=",
     "leaveDotGit": false,
     "meta": {
       "author": "muadz",
@@ -1906,10 +1906,10 @@
       "screenshot": "https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png",
       "version": "0.0.1"
     },
-    "path": "/nix/store/pi07870qpm73mzsch14qnf571dscrm4p-prayertimes",
-    "rev": "df15a8a27f7e04f9d65306bacce23a69dd79bdac",
+    "path": "/nix/store/6nx56r6f7k64hld21kh10pd09w7f80b3-prayertimes",
+    "rev": "5e77293ce6a30ce12a244fe6ed980222af3a1d00",
     "rootDir": "",
-    "sha256": "1dzwwxbg0vj4fnxgf68a1myak557sdph74ba2li6s588rn8z57qc",
+    "sha256": "1ga6yl88q63mj673p1zszk2i1xb68y5vna25606fjp8nc0k9bx7h",
     "url": "https://github.com/muadzmo/prayertimes"
   },
   "pulsarX3": {
@@ -2019,6 +2019,45 @@
     "rootDir": "",
     "sha256": "12a8zimgsynll3fvbw5a0la6dw3zw6f9hk9cdx0q7a289fx7378p",
     "url": "https://github.com/ronmurphy/dms-contrib"
+  },
+  "sshMonitor": {
+    "date": "2026-02-08T22:28:12-08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-58t3lRW+62oCKfTHyX0AYnGPpH/BFnmQfjndV6HKFLo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Deppes",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "fish",
+        "procps-ng",
+        "net-tools"
+      ],
+      "description": "Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution",
+      "distro": [
+        "arch"
+      ],
+      "id": "sshMonitor",
+      "name": "SSH Monitor",
+      "path": "SSH-Monitor",
+      "repo": "https://github.com/boutabong/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png",
+      "version": "1.6.0"
+    },
+    "path": "/nix/store/9p1k3dfgbm57lgh1lfr53z6mhq29kkgg-dms-plugins",
+    "rev": "d58880b92beb06ed3f88c1954a2883d837c19743",
+    "rootDir": "",
+    "sha256": "1fhlrahmgp9rgs87j5n1gyj8ywb201ywkizl5416msxy2napgjz7",
+    "url": "https://github.com/boutabong/dms-plugins"
   },
   "stockManager": {
     "date": "2026-02-09T09:24:27+08:00",
