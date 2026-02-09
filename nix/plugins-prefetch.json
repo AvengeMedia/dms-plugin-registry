@@ -1983,6 +1983,43 @@
     "sha256": "00iy4i910j14823sbmwg4brfdpaccm6lb22f0d5qzanxr04rnxf5",
     "url": "https://github.com/ss44/sathi.ai"
   },
+  "screenshotToggle": {
+    "date": "2026-02-08T22:28:12-08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-58t3lRW+62oCKfTHyX0AYnGPpH/BFnmQfjndV6HKFLo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Deppes",
+      "capabilities": [
+        "control-center"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "fish"
+      ],
+      "description": "Toggle niri screenshot mode between disk save and clipboard only",
+      "distro": [
+        "arch"
+      ],
+      "id": "screenshotToggle",
+      "name": "Screenshot Toggle",
+      "path": "ScreenShot-Toggle",
+      "repo": "https://github.com/boutabong/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/screenshot-toggle-control-center.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/9p1k3dfgbm57lgh1lfr53z6mhq29kkgg-dms-plugins",
+    "rev": "d58880b92beb06ed3f88c1954a2883d837c19743",
+    "rootDir": "",
+    "sha256": "1fhlrahmgp9rgs87j5n1gyj8ywb201ywkizl5416msxy2napgjz7",
+    "url": "https://github.com/boutabong/dms-plugins"
+  },
   "sessionPower": {
     "date": "2025-12-10T00:52:02-05:00",
     "deepClone": false,
