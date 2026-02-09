@@ -360,6 +360,40 @@ Display real-time power consumption from your device
 
 
 
+#### [SSH Monitor](https://github.com/boutabong/dms-plugins)
+
+Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
+
+
+
+- id: sshMonitor
+- name: SSH Monitor
+- author: Deppes
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: fish, procps-ng, net-tools
+- distro: arch
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [SSH-Monitor](https://github.com/boutabong/dms-plugins/tree/main/SSH-Monitor) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png)
+
+</details>
+
+
+
+
+
 ---
 
 
