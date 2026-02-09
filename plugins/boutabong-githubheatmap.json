@@ -1,0 +1,14 @@
+{
+    "id": "githubHeatmap",
+    "name": "GitHub Heatmap",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/boutabong/dms-plugins",
+    "path": "GitHubHeatMap",
+    "author": "Deppes",
+    "description": "Display weekly GitHub contribution heatmap with color-coded activity levels",
+    "dependencies": ["curl", "jq", "fish", "libnotify", "xdg-utils"],
+    "compositors": ["niri"],
+    "distro": ["arch"],
+    "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/GitHubHeatMap-popout.png"
+}
