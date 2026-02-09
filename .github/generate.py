@@ -9,8 +9,16 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
-CAMEL_CASE_PATTERN = re.compile(r'^[a-z][a-zA-Z0-9]*$')
-THEME_REQUIRED_FIELDS = ["id", "name", "version", "author", "description", "dark", "light"]
+CAMEL_CASE_PATTERN = re.compile(r"^[a-z][a-zA-Z0-9]*$")
+THEME_REQUIRED_FIELDS = [
+    "id",
+    "name",
+    "version",
+    "author",
+    "description",
+    "dark",
+    "light",
+]
 
 
 def load_plugins(plugins_dir: Path) -> dict[str, list[dict]]:
@@ -35,14 +43,26 @@ def load_plugins(plugins_dir: Path) -> dict[str, list[dict]]:
 
 def validate_plugin(plugin: dict, filename: str) -> bool:
     """Validate required fields in plugin data."""
-    required_fields = ["id", "name", "capabilities", "category", "repo", "author",
-                      "description", "dependencies", "compositors", "distro"]
+    required_fields = [
+        "id",
+        "name",
+        "capabilities",
+        "category",
+        "repo",
+        "author",
+        "description",
+        "dependencies",
+        "compositors",
+        "distro",
+    ]
 
     missing_fields = [field for field in required_fields if field not in plugin]
 
     if missing_fields:
-        print(f"Validation error in {filename}: Missing required fields: {', '.join(missing_fields)}",
-              file=sys.stderr)
+        print(
+            f"Validation error in {filename}: Missing required fields: {', '.join(missing_fields)}",
+            file=sys.stderr,
+        )
         return False
 
     return True
@@ -64,8 +84,11 @@ def validate_all_plugins(plugins_dir: Path) -> bool:
                 plugin_id = plugin_data.get("id")
                 if plugin_id:
                     if plugin_id in seen_ids:
-                        print(f"Duplicate ID '{plugin_id}' found in {json_file.name} "
-                              f"(previously in {seen_ids[plugin_id]})", file=sys.stderr)
+                        print(
+                            f"Duplicate ID '{plugin_id}' found in {json_file.name} "
+                            f"(previously in {seen_ids[plugin_id]})",
+                            file=sys.stderr,
+                        )
                         all_valid = False
                     else:
                         seen_ids[plugin_id] = json_file.name
@@ -73,8 +96,11 @@ def validate_all_plugins(plugins_dir: Path) -> bool:
                 plugin_name = plugin_data.get("name")
                 if plugin_name:
                     if plugin_name in seen_names:
-                        print(f"Duplicate name '{plugin_name}' found in {json_file.name} "
-                              f"(previously in {seen_names[plugin_name]})", file=sys.stderr)
+                        print(
+                            f"Duplicate name '{plugin_name}' found in {json_file.name} "
+                            f"(previously in {seen_names[plugin_name]})",
+                            file=sys.stderr,
+                        )
                         all_valid = False
                     else:
                         seen_names[plugin_name] = json_file.name
@@ -93,12 +119,18 @@ def validate_theme(theme: dict, filename: str) -> bool:
     """Validate required fields in theme data."""
     missing = [f for f in THEME_REQUIRED_FIELDS if f not in theme]
     if missing:
-        print(f"Theme validation error in {filename}: Missing fields: {', '.join(missing)}", file=sys.stderr)
+        print(
+            f"Theme validation error in {filename}: Missing fields: {', '.join(missing)}",
+            file=sys.stderr,
+        )
         return False
 
     theme_id = theme.get("id", "")
     if not CAMEL_CASE_PATTERN.match(theme_id):
-        print(f"Theme validation error in {filename}: ID '{theme_id}' must be camelCase", file=sys.stderr)
+        print(
+            f"Theme validation error in {filename}: ID '{theme_id}' must be camelCase",
+            file=sys.stderr,
+        )
         return False
 
     return True
@@ -109,7 +141,9 @@ def validate_all_themes(themes_dir: Path) -> bool:
     if not themes_dir.exists():
         return True
 
-    theme_dirs = [d for d in themes_dir.iterdir() if d.is_dir() and (d / "theme.json").exists()]
+    theme_dirs = [
+        d for d in themes_dir.iterdir() if d.is_dir() and (d / "theme.json").exists()
+    ]
     if not theme_dirs:
         return True
 
@@ -128,8 +162,11 @@ def validate_all_themes(themes_dir: Path) -> bool:
                 theme_id = theme_data.get("id")
                 if theme_id:
                     if theme_id in seen_ids:
-                        print(f"Duplicate theme ID '{theme_id}' found in {theme_dir.name} "
-                              f"(previously in {seen_ids[theme_id]})", file=sys.stderr)
+                        print(
+                            f"Duplicate theme ID '{theme_id}' found in {theme_dir.name} "
+                            f"(previously in {seen_ids[theme_id]})",
+                            file=sys.stderr,
+                        )
                         all_valid = False
                     else:
                         seen_ids[theme_id] = theme_dir.name
@@ -137,8 +174,11 @@ def validate_all_themes(themes_dir: Path) -> bool:
                 theme_name = theme_data.get("name")
                 if theme_name:
                     if theme_name in seen_names:
-                        print(f"Duplicate theme name '{theme_name}' found in {theme_dir.name} "
-                              f"(previously in {seen_names[theme_name]})", file=sys.stderr)
+                        print(
+                            f"Duplicate theme name '{theme_name}' found in {theme_dir.name} "
+                            f"(previously in {seen_names[theme_name]})",
+                            file=sys.stderr,
+                        )
                         all_valid = False
                     else:
                         seen_names[theme_name] = theme_dir.name
@@ -201,11 +241,10 @@ def generate_readme(validate_only: bool = False) -> int:
 
     categories = []
     for category_name in sorted_categories:
-        plugins = sorted(categories_dict[category_name], key=lambda p: p.get("name", ""))
-        categories.append({
-            "name": category_name.title(),
-            "plugins": plugins
-        })
+        plugins = sorted(
+            categories_dict[category_name], key=lambda p: p.get("name", "")
+        )
+        categories.append({"name": category_name.title(), "plugins": plugins})
 
     themes = load_themes(themes_dir)
 
