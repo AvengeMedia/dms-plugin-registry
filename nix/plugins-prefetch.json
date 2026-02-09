@@ -1219,6 +1219,47 @@
     "sha256": "12dnidj11kfi7j6pnn4d4kasrj5nnakxlkpb0x28xmd0r6yfjsqw",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
+  "githubHeatmap": {
+    "date": "2026-02-08T20:13:22-08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-EYHHAu6CQ19W+MTlUxYk5K61dGUJwL3Zv9eYLoTtBIc=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Deppes",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "curl",
+        "jq",
+        "fish",
+        "libnotify",
+        "xdg-utils"
+      ],
+      "description": "Display weekly GitHub contribution heatmap with color-coded activity levels",
+      "distro": [
+        "arch"
+      ],
+      "id": "githubHeatmap",
+      "name": "GitHub Heatmap",
+      "path": "GitHubHeatMap",
+      "repo": "https://github.com/boutabong/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/GitHubHeatMap-popout.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/7nmkc6ha1nhdksi9n5jy25iikmnmmpg4-dms-plugins",
+    "rev": "a281b17c4001784f6da80605965ff005c880604e",
+    "rootDir": "",
+    "sha256": "11q4xn22x66ppzcvvh09cmsbbbp44hb57rf4z1b5yhw2xq1cg08i",
+    "url": "https://github.com/boutabong/dms-plugins"
+  },
   "gitlabNotifier": {
     "date": "2026-01-29T12:50:44-03:00",
     "deepClone": false,
@@ -1980,12 +2021,12 @@
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
   "stockManager": {
-    "date": "2026-02-04T10:54:41+08:00",
+    "date": "2026-02-09T09:24:27+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-mZ9FTlHhMHWqTIsU244x7lhDBIEpObLKxa7VeIYPy10=",
+    "hash": "sha256-5Dk5XF+4qpmbnDRZtxCBROgGC7gA5j3MYOXfn2XPlSE=",
     "leaveDotGit": false,
     "meta": {
       "author": "LeeMeng",
@@ -2009,12 +2050,12 @@
       "repo": "https://github.com/leemeng0x61/stockManager",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://github.com/leemeng0x61/stockManager/raw/main/screenshot/sc.png",
-      "version": "1.2.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/zwdjgwlizpsh7hswz3y12k98pdbn8f7j-stockManager",
-    "rev": "a27c000f1890ad1013ae7cd0ea1341c5671b8f29",
+    "path": "/nix/store/7rqsblfpwyipl1bqiax5b3w1zrsi05kg-stockManager",
+    "rev": "19ba6b73eb44487f7f4705d5c9d36ce8c970c314",
     "rootDir": "",
-    "sha256": "0pfb1y37imdfqp5b4f99h4246n7f667dn54b9jm7ac71a574b7wr",
+    "sha256": "08cmrxjrzpz5c363vrh0p05hds24h48bfn9lkjdrkamqbxf3jfg4",
     "url": "https://github.com/leemeng0x61/stockManager"
   },
   "tailscale": {
