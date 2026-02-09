@@ -2265,6 +2265,17 @@ Popular Tokyo Night color scheme with vibrant blues and purples
 
 
 
+### TokyoNight Night and Moon
+
+Popular Tokyo Night color scheme with vibrant blues and purples, Night and Moon variant
+
+- **Author:** Will Adams (adapted from Avenge Media)
+- **ID:** `tokyoNightNightMoon` **Version:** `1.0.0`
+
+![TokyoNight Night and Moon](themes/tokyonight-night-moon/preview.svg)
+
+
+
 ### nord
 
 nord theme
