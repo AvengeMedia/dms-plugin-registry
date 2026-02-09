@@ -1790,6 +1790,40 @@ A simple multi model ai client to use with your dank shell. Use it ollama, gemin
 
 
 
+#### [Screenshot Toggle](https://github.com/boutabong/dms-plugins)
+
+Toggle niri screenshot mode between disk save and clipboard only
+
+
+
+- id: screenshotToggle
+- name: Screenshot Toggle
+- author: Deppes
+- compositors: niri
+- capabilities: control-center
+- dependencies: fish
+- distro: arch
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [ScreenShot-Toggle](https://github.com/boutabong/dms-plugins/tree/main/ScreenShot-Toggle) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/screenshot-toggle-control-center.png)
+
+</details>
+
+
+
+
+
 #### [Session Power Menu](https://github.com/ronmurphy/dms-contrib)
 
 Puts the Power menu in the Bar
