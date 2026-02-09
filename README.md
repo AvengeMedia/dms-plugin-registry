@@ -239,6 +239,40 @@ Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
 
 
 
+#### [GitHub Heatmap](https://github.com/boutabong/dms-plugins)
+
+Display weekly GitHub contribution heatmap with color-coded activity levels
+
+
+
+- id: githubHeatmap
+- name: GitHub Heatmap
+- author: Deppes
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: curl, jq, fish, libnotify, xdg-utils
+- distro: arch
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [GitHubHeatMap](https://github.com/boutabong/dms-plugins/tree/main/GitHubHeatMap) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/GitHubHeatMap-popout.png)
+
+</details>
+
+
+
+
+
 #### [Hyprland Submap](https://github.com/mesteryui/DMS_HyprlandSubmap)
 
 Shows the current submap in Hyprland
