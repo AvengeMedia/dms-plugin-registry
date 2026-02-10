@@ -778,6 +778,40 @@
     "sha256": "1nn83jzs1q4bbzysmmnsncrx1havssx4mm3iza4q6cw014fzlpsl",
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
+  "dankRssWidget": {
+    "date": "2026-02-09T21:01:21-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-IzqsQYyBjRv9o4cNSQNRfMYBRmirn/LEGCH2c1fhchw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "BrendonJL",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Desktop widget that displays RSS/Atom feeds with auto-refresh",
+      "distro": [
+        "any"
+      ],
+      "id": "dankRssWidget",
+      "name": "Dank RSS Widget",
+      "repo": "https://github.com/BrendonJL/dms-rss-widget",
+      "screenshot": "https://raw.githubusercontent.com/BrendonJL/dms-rss-widget/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/3hjvzm32a308rffdp0ax0fadn5bgcw9b-dms-rss-widget",
+    "rev": "dcfe5a638ef2143fc18efdd09ef0b80eacbf35f4",
+    "rootDir": "",
+    "sha256": "073jw5bp7xi1332g57xbd1303ikwa41lj3c7lgyip3c1ii0sqfi3",
+    "url": "https://github.com/BrendonJL/dms-rss-widget"
+  },
   "dankStickerSearch": {
     "date": "2026-02-01T20:40:56-05:00",
     "deepClone": false,
@@ -2097,12 +2131,12 @@
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "stockManager": {
-    "date": "2026-02-09T09:24:27+08:00",
+    "date": "2026-02-10T19:10:53+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5Dk5XF+4qpmbnDRZtxCBROgGC7gA5j3MYOXfn2XPlSE=",
+    "hash": "sha256-eLUnlXestYRIuo7qf31NkSD4BIruE0z5SvTCGUscCrw=",
     "leaveDotGit": false,
     "meta": {
       "author": "LeeMeng",
@@ -2126,12 +2160,12 @@
       "repo": "https://github.com/leemeng0x61/stockManager",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://github.com/leemeng0x61/stockManager/raw/main/screenshot/sc.png",
-      "version": "1.2.1"
+      "version": "1.2.2"
     },
-    "path": "/nix/store/7rqsblfpwyipl1bqiax5b3w1zrsi05kg-stockManager",
-    "rev": "19ba6b73eb44487f7f4705d5c9d36ce8c970c314",
+    "path": "/nix/store/r1b68l0qn324bah2fg29xirkl27g0n85-stockManager",
+    "rev": "3844d642f176b413ed0ba3794ea862f67534bcd8",
     "rootDir": "",
-    "sha256": "08cmrxjrzpz5c363vrh0p05hds24h48bfn9lkjdrkamqbxf3jfg4",
+    "sha256": "1g0a3i5ikhpl9bwlq4zfi82gh84i9mypzslfp9489ddcfyajgdbq",
     "url": "https://github.com/leemeng0x61/stockManager"
   },
   "tailscale": {
@@ -2318,12 +2352,12 @@
     "url": "https://github.com/lucyfire/dms-plugins"
   },
   "wallpaperShufflerPlugin": {
-    "date": "2025-12-17T15:51:26+08:00",
+    "date": "2026-02-10T13:10:39+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-il8/6FJNLIk9DjpyLmCiL1p2d0bpDDeNttHfcmBeI/4=",
+    "hash": "sha256-Y7Sw5cNVkNeq1srR7PRrbI8G/eR5yVKNACr3vJI2iIw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Daniel-42-z",
@@ -2343,12 +2377,12 @@
       "name": "Wallpaper Shuffler",
       "repo": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler",
       "screenshot": "https://raw.githubusercontent.com/Daniel-42-z/dms-wallpaper-shuffler/refs/heads/main/screenshot.png",
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
-    "path": "/nix/store/8icasj2zyd0dh9gn4kzzqg2qry29cl23-dms-wallpaper-shuffler",
-    "rev": "2b2e63e1831d6e184eecbcad8a2794734bd5d4ae",
+    "path": "/nix/store/7jzzrvghlr5wx98n2v3k2zfy7hgz3l6v-dms-wallpaper-shuffler",
+    "rev": "1c375270ec89e54f33c7ec7060241e70480ca55e",
     "rootDir": "",
-    "sha256": "1zi3brh75pyins6kf3798rvpcnigl9h2wwis1qyqjb2dabl3ypwa",
+    "sha256": "13486s9brxra026m5jbrwkyhd3vcdgsfrlfassmdg42mqgjv1d33",
     "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
   },
   "webSearch": {
