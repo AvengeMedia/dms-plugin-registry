@@ -1001,6 +1001,35 @@ A customizable Pomodoro timer.
 
 
 
+#### [Dank RSS Widget](https://github.com/BrendonJL/dms-rss-widget)
+
+Desktop widget that displays RSS/Atom feeds with auto-refresh
+
+
+
+- id: dankRssWidget
+- name: Dank RSS Widget
+- author: BrendonJL
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/BrendonJL/dms-rss-widget/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Desktop Command](https://github.com/yayuuu/desktopCommand)
 
 A widget that displays a command output on your desktop
