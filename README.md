@@ -622,7 +622,7 @@ Add application shortcuts in your desktop :)
 
 A calculator plugin that evaluates mathematical expressions and copies results to clipboard
 
-<strong>requires DMS version</strong>: <em>>0.1.18</em>
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
 
 - id: calculator
 - name: Calculator
