@@ -8,7 +8,8 @@
     "description": "A calculator plugin that evaluates mathematical expressions and copies results to clipboard",
     "dependencies": [],
     "compositors": ["any"],
+    "featured": true,
     "distro": ["any"],
     "screenshot": "https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png",
-    "requires_dms": ">0.1.18"
+    "requires_dms": ">=1.4.0"
 }
