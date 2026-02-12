@@ -1,0 +1,13 @@
+{
+    "id": "dankCaffeine",
+    "name": "DankCaffeine",
+    "capabilities": ["dankbar-widget", "control-center"],
+    "category": "utilities",
+    "repo": "https://github.com/firemonster612/DankCaffeine",
+    "author": "firemonster612",
+    "description": "Prevents screen from going idle. Toggle from the bar or Control Center, like GNOME Caffeine.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": ""
+}
