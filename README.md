@@ -647,6 +647,35 @@ A calculator plugin that evaluates mathematical expressions and copies results t
 
 
 
+#### [Chinese Calendar](https://github.com/xxyangyoulin/dms-plugin-ccal)
+
+Display Chinese lunar calendar with holiday information in the status bar
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: chineseCalendar
+- name: Chinese Calendar
+- author: xxyangyoulin
+- compositors: any
+- capabilities: calendar, dankbar-widget
+- dependencies: ccal, curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-ccal/master/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Clight](https://github.com/AvengeMedia/dms-plugins)
 
 Ambient light sensor control - automatic brightness and screen dimming
