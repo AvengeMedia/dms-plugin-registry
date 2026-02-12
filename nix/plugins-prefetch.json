@@ -255,6 +255,45 @@
     "sha256": "0qz5w30w89l9l68bi6vl67ym8i3ic4yziv4iqh78hn4cp684zznx",
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
+  "chineseCalendar": {
+    "date": "2026-02-12T23:26:44+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-aA745PgumPlPybaZgOSpEhi0JSi5aJVji/4wKtRwdQ4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "xxyangyoulin",
+      "capabilities": [
+        "calendar",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "ccal",
+        "curl"
+      ],
+      "description": "Display Chinese lunar calendar with holiday information in the status bar",
+      "distro": [
+        "any"
+      ],
+      "id": "chineseCalendar",
+      "name": "Chinese Calendar",
+      "repo": "https://github.com/xxyangyoulin/dms-plugin-ccal",
+      "requires_dms": ">=1.4.0",
+      "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-ccal/master/assets/screenshot.png",
+      "version": "1.2.0"
+    },
+    "path": "/nix/store/bzklhb55v2ivl0r7m1vcszjcs7nbq50b-dms-plugin-ccal",
+    "rev": "f2dfb90956d675b7493af22288c12bdbdc72f056",
+    "rootDir": "",
+    "sha256": "03kmf3a2lc7yidiras5r50jv860jm7j816dnr57zk61fz3jgh3k8",
+    "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
+  },
   "commandRunner": {
     "date": "2026-01-30T03:14:49-05:00",
     "deepClone": false,
