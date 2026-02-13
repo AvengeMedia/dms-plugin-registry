@@ -1088,6 +1088,35 @@ A widget that displays a command output on your desktop
 
 
 
+#### [Developer Utilities](https://github.com/xxyangyoulin/dms-plugin-developer-utilities)
+
+Encoders, Decoders, Formatters and Converters for Developers
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: developerUtilities
+- name: Developer Utilities
+- author: xxyangyoulin
+- compositors: any
+- capabilities: developer-utilities, dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-developer-utilities/master/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Display Mirror](https://github.com/jfchenier/dms-display-mirror)
 
 Mirror niri displays using wl-mirror from the control center and bar
