@@ -221,12 +221,12 @@
     "url": "https://github.com/pseudofractal/AsusControl"
   },
   "calculator": {
-    "date": "2026-02-12T16:54:06Z",
+    "date": "2026-02-12T18:45:29Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-P92+DDksz4N2APKFJlUixc73v3oWtVOpAEIzsv6meCs=",
+    "hash": "sha256-bhV22bL38CJp58Y8tCY8sEBRYxmuk671fEymmdg0Yuk=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bruno Cesar Rocha",
@@ -248,12 +248,12 @@
       "repo": "https://github.com/rochacbruno/DankCalculator",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png",
-      "version": "0.2.0"
+      "version": "0.2.2"
     },
-    "path": "/nix/store/ssrxy6lvy2c83wmfa7aix7ijspbsfqpw-DankCalculator",
-    "rev": "3f766f671fd51211254a732bc0850ef8d138c372",
+    "path": "/nix/store/gnf7wv9wrrplf5a6lvf58fav99dy4gd9-DankCalculator",
+    "rev": "07d7c123a5aee9ac4fd4347bbae36d5957b021f9",
     "rootDir": "",
-    "sha256": "0avqlvzb4cs202lm7d8ngazzgkn549ajd1gj01v87krc746bxp9z",
+    "sha256": "1sb26kc9k9jcgkssx4xf35im2h5h7hkb8g66wxlj5w7pnbcpc5bf",
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
   "chineseCalendar": {
