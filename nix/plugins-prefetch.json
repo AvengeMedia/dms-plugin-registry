@@ -1,11 +1,11 @@
 {
   "aiAssistant": {
-    "date": "2026-01-29T20:28:33-05:00",
+    "date": "2026-02-12T22:41:14-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-nw9x486l54vpv2yzDMqqJpeC6IEfqqaGFUXiYlwoU4s=",
+    "hash": "sha256-QoAO/7WsIxz88/1x+ZjbEu4v5lBVJtHUGDK9aRxqCDg=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -31,12 +31,12 @@
       "repo": "https://github.com/devnullvoid/dms-ai-assistant",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://github.com/devnullvoid/dms-ai-assistant/blob/main/screenshots/AI_ASSISTANT_SCREENSHOT_CURRENT_1.png?raw=true",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/j1a1gkql4vgbxyvbrrslxxncy26gxix7-dms-ai-assistant",
-    "rev": "c7a2639ba74c38c8262cd5e1342a1d55424e21dd",
+    "path": "/nix/store/bh8zd80sd7358yslw70dzaj0bc1xiykl-dms-ai-assistant",
+    "rev": "7a7962c0cfb7a2085e0a62fd4e0dfc802cfd3272",
     "rootDir": "",
-    "sha256": "12sk51f65qj52n3adahzh7l855r6mb50rcvcpzlqprx5rvip23wz",
+    "sha256": "0f08d8f6kg9j33ad29jma3k2zvhjvfcgjwgxygy1q8xcnpzhx022",
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "alarmClock": {
@@ -929,6 +929,42 @@
     "rootDir": "",
     "sha256": "1yi9rz01ipiia5b975c5q93h8azwfh0r8p8sa75hjcwngmw9mya4",
     "url": "https://github.com/yayuuu/desktopCommand"
+  },
+  "developerUtilities": {
+    "date": "2026-02-13T20:49:54+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-JfzuX+RRfgRjU5NMlMBIcQPEkDul9EgOxHeARaGMmvk=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "xxyangyoulin",
+      "capabilities": [
+        "developer-utilities",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Encoders, Decoders, Formatters and Converters for Developers",
+      "distro": [
+        "any"
+      ],
+      "id": "developerUtilities",
+      "name": "Developer Utilities",
+      "repo": "https://github.com/xxyangyoulin/dms-plugin-developer-utilities",
+      "requires_dms": ">=1.4.0",
+      "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-developer-utilities/master/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/1h4kz0dapimkis5wxcbqawdx86k7wm6n-dms-plugin-developer-utilities",
+    "rev": "65c58c8b28769f71575105aab522f17203fa7785",
+    "rootDir": "",
+    "sha256": "1ycsijhlb03pqh74ix557f8c80vi93098k4kadih8zjiwigyxz15",
+    "url": "https://github.com/xxyangyoulin/dms-plugin-developer-utilities"
   },
   "displayManager": {
     "date": "2025-12-26T15:54:35-03:00",
@@ -2316,12 +2352,12 @@
     "url": "https://github.com/sr-tream/dms-vscode-launcher"
   },
   "wallpaperBing": {
-    "date": "2026-02-08T09:11:59+01:00",
+    "date": "2026-02-13T13:09:17+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-30I7RZk5Wq4vJxL8753QnMG2rplw6b2iOR2vcSQmdw8=",
+    "hash": "sha256-YTU5r8FpvvjzrqSXWqrysxmvncCnri7YGjdBJp3yTTI=",
     "leaveDotGit": false,
     "meta": {
       "author": "maxb",
@@ -2345,12 +2381,12 @@
       "name": "Wallpaper of the Day",
       "repo": "https://github.com/max72bra/DankPluginBingWallpaper",
       "screenshot": "https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaper/refs/heads/main/screenshot.png",
-      "version": "1.2.1"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/86ls3hyznyazg7612n6s9cnk3vyigwvf-DankPluginBingWallpaper",
-    "rev": "b6ed00fe037dec84cc4738e87eeec4fb9d4cfedf",
+    "path": "/nix/store/ywzk21shwjzdpjl72pcil3f5gghxl044-DankPluginBingWallpaper",
+    "rev": "ef336c2428e8705070fd5ffa30b643c2051dc1c7",
     "rootDir": "",
-    "sha256": "03vp4qj73bqx76ibvsbhk6pbdhcws2fyzz0j4wpswnirk52knhnz",
+    "sha256": "0cjdyafjch9p3bc2xbm7q2fsy6dkyam5m5x4mvrzigk9q6pkjdb1",
     "url": "https://github.com/max72bra/DankPluginBingWallpaper"
   },
   "wallpaperDiscovery": {
