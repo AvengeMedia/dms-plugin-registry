@@ -1238,6 +1238,35 @@ Dolar Blue plugin for DankBar
 
 
 
+#### [Dooit Plugin](https://github.com/MetalCar/dms-dooit-widget)
+
+This plugin shows todays task and the oldest five without due date from dooit.
+
+
+
+- id: dooitPlugin
+- name: Dooit Plugin
+- author: MetalCar
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: dooit
+- distro: arch
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/MetalCar/dms-dooit-widget/refs/heads/main/screenshots/image.png)
+
+</details>
+
+
+
+
+
 #### [Easy Effects Profile Switcher](https://github.com/jonkristian/dms-easyeffects)
 
 Quick switch between Easy Effects audio profiles
