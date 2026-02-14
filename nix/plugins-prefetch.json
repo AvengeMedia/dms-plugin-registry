@@ -931,12 +931,12 @@
     "url": "https://github.com/yayuuu/desktopCommand"
   },
   "developerUtilities": {
-    "date": "2026-02-13T20:49:54+08:00",
+    "date": "2026-02-13T22:00:21+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-JfzuX+RRfgRjU5NMlMBIcQPEkDul9EgOxHeARaGMmvk=",
+    "hash": "sha256-/XQw4YRRW1PzyCaoKEEWcJp29BSo8IqL1YDHnfr7Jk8=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -958,12 +958,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-developer-utilities",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-developer-utilities/master/assets/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/1h4kz0dapimkis5wxcbqawdx86k7wm6n-dms-plugin-developer-utilities",
-    "rev": "65c58c8b28769f71575105aab522f17203fa7785",
+    "path": "/nix/store/701xgxcwgsjw1br7cq2gkw1lqjv9kkaf-dms-plugin-developer-utilities",
+    "rev": "aa8e21a92ca5a0bdcf10077d7a415805660ce8bd",
     "rootDir": "",
-    "sha256": "1ycsijhlb03pqh74ix557f8c80vi93098k4kadih8zjiwigyxz15",
+    "sha256": "0kr6zgx9viw0sn5qmw582ks7d6kh2r0jia16r3rm6nsihkhk0x7x",
     "url": "https://github.com/xxyangyoulin/dms-plugin-developer-utilities"
   },
   "displayManager": {
