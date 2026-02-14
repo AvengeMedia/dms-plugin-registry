@@ -1259,6 +1259,43 @@
     "sha256": "16f4rlgnaranih1kl6j2fgh4rmd9msrjk4z47gkznf1ak611671w",
     "url": "https://github.com/psyreactor/dms-dolarBlue"
   },
+  "dooitPlugin": {
+    "date": "2026-02-14T12:40:29+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-0Qcb4wMM+KYfuOv9uctbIR+TGD6sE0LqguDQXvugoIo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "MetalCar",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "dooit"
+      ],
+      "description": "This plugin shows todays task and the oldest five without due date from dooit.",
+      "distro": [
+        "arch"
+      ],
+      "id": "dooitPlugin",
+      "name": "Dooit Plugin",
+      "path": "",
+      "repo": "https://github.com/MetalCar/dms-dooit-widget",
+      "screenshot": "https://raw.githubusercontent.com/MetalCar/dms-dooit-widget/refs/heads/main/screenshots/image.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/zxd8wp18rw5ghyccrsm4aihzypsjz3r9-dms-dooit-widget",
+    "rev": "b7e114dbfec97a110a389b4500383d79fe27d893",
+    "rootDir": "",
+    "sha256": "12m0l3xmxl70hbm444xc7qc967r1bg5vkzgbp0gsdy0c0giin1yi",
+    "url": "https://github.com/MetalCar/dms-dooit-widget"
+  },
   "easyEffects": {
     "date": "2025-12-15T09:52:12+01:00",
     "deepClone": false,
