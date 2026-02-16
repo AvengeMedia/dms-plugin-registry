@@ -1,0 +1,14 @@
+{
+    "id": "flatpakUpdates",
+    "name": "Flatpak Updates",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/merdely/dms-plugins",
+    "path": "FlatpakUpdates",
+    "author": "Michael Erdely",
+    "description": "Check for and install Flatpak Updates",
+    "dependencies": ["flatpak"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png"
+}
