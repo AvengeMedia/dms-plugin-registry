@@ -34,7 +34,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
 
 ---
 
@@ -195,6 +195,43 @@ A new fresh daily wallpaper downloaded from a famous portal
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaper/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+---
+
+
+
+### Finance
+
+
+
+#### [Markets](https://github.com/TMS-Namespace/DMS-Markets-Plugin)
+
+Semi-Live market prices for currencies, stocks, and commodities with charts
+
+
+
+- id: markets
+- name: Markets
+- author: TMS-Namespace
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: fedora
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png)
 
 </details>
 
