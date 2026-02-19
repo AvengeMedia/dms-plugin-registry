@@ -296,12 +296,12 @@
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
   "commandRunner": {
-    "date": "2026-02-16T01:01:42-05:00",
+    "date": "2026-02-18T20:23:42-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-cF8D6HdNI5b60O07xAoq33howGquTNSQXC/znnaZEys=",
+    "hash": "sha256-oIzhogusDzXJ7KH/Kmu3euuBCiTJ5GAH8ho24MmXARI=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -321,12 +321,12 @@
       "name": "Command Runner",
       "repo": "https://github.com/devnullvoid/dms-command-runner",
       "screenshot": "https://github.com/devnullvoid/dms-command-runner/blob/main/screenshot.png?raw=true",
-      "version": "1.2.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/5abygvfzqhj2flz48iagl8619zwznafx-dms-command-runner",
-    "rev": "548b7d79aa8967443d44e57293a2e0fe16d65f36",
+    "path": "/nix/store/5nr8mi3sjf8x1znkyr3v5iaqg5dvffsm-dms-command-runner",
+    "rev": "f5f676fe49d2cde86054a28ed06f824319cd5193",
     "rootDir": "",
-    "sha256": "0aqkk5v9xwrgbj8d8k5fdb06hy6z585c8fzds3x9c8sdfzl06pvh",
+    "sha256": "04h1jz4y0dhsy83n1r694h583svsnxmjmzx1xk4ka3xc1fif3350",
     "url": "https://github.com/devnullvoid/dms-command-runner"
   },
   "customRunningApps": {
@@ -1038,6 +1038,40 @@
     "sha256": "01rngzaw8687q9ikdc9im1mzq0bk46iy0h77mjzlpra5kl6yjz95",
     "url": "https://github.com/jfchenier/dms-display-mirror"
   },
+  "displayOutput": {
+    "date": "2026-02-19T15:42:23+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-GmX3LhloSfUGGytVUqZ4SQW8LQMTJD6XTbJmji0slmA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "xyzsteven",
+      "capabilities": [
+        "manage-displays"
+      ],
+      "category": "system",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).",
+      "distro": [
+        "any"
+      ],
+      "id": "displayOutput",
+      "name": "Display Output",
+      "repo": "https://github.com/xyzsteven/dms-displayoutput",
+      "screenshot": "https://raw.githubusercontent.com/xyzsteven/dms-displayoutput/refs/heads/main/screenshot.png",
+      "version": "0.0.1"
+    },
+    "path": "/nix/store/wcxcf1zmani7w2r4rdf065px1y1nwfg6-dms-displayoutput",
+    "rev": "1159333656446bfd345f6d0f0d760885fa8aa69d",
+    "rootDir": "",
+    "sha256": "0q4n5hnqwrmj9nbkw90k0cnvq1a9g2k54m9b3c3gajb834pgfr8s",
+    "url": "https://github.com/xyzsteven/dms-displayoutput"
+  },
   "displaySettings": {
     "date": "2026-02-03T21:48:05+02:00",
     "deepClone": false,
@@ -1333,12 +1367,12 @@
     "url": "https://github.com/jonkristian/dms-easyeffects"
   },
   "emojiLauncher": {
-    "date": "2026-02-16T01:01:49-05:00",
+    "date": "2026-02-18T20:36:03-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-k/Bvhuad5ZmAt29Ts1e57pJgzNESFwGhLCnaoo31R9w=",
+    "hash": "sha256-o6Sa7pSL6/crYY48Pxp3wH7qOCule8ZSVSqrvjmresU=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -1358,12 +1392,12 @@
       "name": "Emoji & Unicode Launcher",
       "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
       "screenshot": "https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true",
-      "version": "1.4.0"
+      "version": "1.4.1"
     },
-    "path": "/nix/store/n9hh7fj77wvqnsrm5q9jnisw4jihl9w3-dms-emoji-launcher",
-    "rev": "15d8ea655bbec7854883ea5e9b8b367494a1daf4",
+    "path": "/nix/store/949kydl2kqbsxwyypb1djk6pmrihcbaj-dms-emoji-launcher",
+    "rev": "9b0e368471a6bb83900a4210359cab570c99c147",
     "rootDir": "",
-    "sha256": "1p27yn6s5ni95jhh25qjs76614pfp5bv6lvgny09krcxws36zw4k",
+    "sha256": "1ibsmcwvxaraam9ccyx55cwflzn0fwd3yg4fc4mzgswbjkp9m953",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "githubHeatmap": {
@@ -2026,12 +2060,12 @@
     "url": "https://github.com/Daniel-42-z/dms-power-usage"
   },
   "prayerTimes": {
-    "date": "2026-02-19T07:19:08+07:00",
+    "date": "2026-02-19T10:37:18+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-0DGJVEPyKX97DnBpE6cxFrnYPNCObM7Q4ISKixrf+M8=",
+    "hash": "sha256-RYqRThCYY+Dlk+eV9Am2LZkjVPrkE0LWtHozL24+mgc=",
     "leaveDotGit": false,
     "meta": {
       "author": "muadz",
@@ -2053,10 +2087,10 @@
       "screenshot": "https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png",
       "version": "0.0.1"
     },
-    "path": "/nix/store/yxh43gqq19vx8hn981rqb10n8dcrsbza-prayertimes",
-    "rev": "ee406f1ab339a8204887e985357de72a7ab23fa8",
+    "path": "/nix/store/jiw7yyj550xyxlhw2f2kwdqc6b1dkbc8-prayertimes",
+    "rev": "c6dac9d6310580cecc9d2eb8b8e87100cceeb866",
     "rootDir": "",
-    "sha256": "1kzqvwd8p2l4w38cwv4fs0ydif8n66ki6sbh1rxpyagj8da8jcfh",
+    "sha256": "01ws7rp2ycvsnkb444z4z9a2769dnq4z95g7jgjy0qwq217932j5",
     "url": "https://github.com/muadzmo/prayertimes"
   },
   "pulsarX3": {
@@ -2096,12 +2130,12 @@
     "url": "https://github.com/jonkristian/dms-pulsar-x3"
   },
   "sathiAi": {
-    "date": "2026-02-11T16:05:40-05:00",
+    "date": "2026-02-18T21:29:24-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-4mG7x4YYxlKmoaUsHcWH1MLrJevdyWFHUx03K4SySF4=",
+    "hash": "sha256-/Zfcb7PHMUhsfR+43GBP1seXd0rFksCoPjoLHFu7IfA=",
     "leaveDotGit": false,
     "meta": {
       "author": "SSingh44",
@@ -2122,12 +2156,12 @@
       "name": "Sathi.AI",
       "repo": "https://github.com/ss44/sathi.ai",
       "screenshot": "https://raw.githubusercontent.com/ss44/sathi.ai/refs/heads/master/assets/screenshot-01.png",
-      "version": "1.6.0"
+      "version": "1.6.2"
     },
-    "path": "/nix/store/cvbxph7cxvlhnfkifcqbsj0qimf0syvz-sathi.ai",
-    "rev": "d9fde553905346893a4a29ef889163bd8df330c9",
+    "path": "/nix/store/063r6p8zdjvqinhrdnr0wkpn66kpn28m-sathi.ai",
+    "rev": "92ffa151fd4780e904bda9f3e6d336c046f61fd5",
     "rootDir": "",
-    "sha256": "0pj8na22ndqxad3n3jfxxcjyphnlhz2isb55l6k55ihqhv3vnqg2",
+    "sha256": "1w11pddiq2rs7slc14n599vrgiyn9xhdrf0zgmn4hcf7ndpxr5zx",
     "url": "https://github.com/ss44/sathi.ai"
   },
   "screenshotToggle": {
