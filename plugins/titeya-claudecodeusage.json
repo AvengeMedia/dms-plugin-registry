@@ -1,0 +1,13 @@
+{
+    "id": "claudeCodeUsage",
+    "name": "Claude Code Usage",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/titeya/dms-claudecode",
+    "author": "Nicolas Bellamy",
+    "description": "Monitor your Claude Code subscription usage with token tracking, rate limits, and daily activity charts",
+    "dependencies": ["jq"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/titeya/dms-claudecode/raw/master/screenshot.png"
+}
