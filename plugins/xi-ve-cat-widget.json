@@ -1,0 +1,13 @@
+{
+    "id": "catWidget",
+    "name": "Cat Widget",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/xi-ve/cat-dms",
+    "author": "kemo",
+    "description": "An animated running cat for the DankBar whose speed reflects CPU usage. Based on CatWalk by Driglu4it.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://i.imgur.com/ZU17NFc.png"
+}
