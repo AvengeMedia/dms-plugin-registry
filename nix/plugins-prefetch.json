@@ -1778,6 +1778,42 @@
     "sha256": "0ssfincad3rjsg0n9f98bk3j38b25z93kmacp2v7106mviy9n691",
     "url": "https://github.com/KangweiZhu/lyrics-on-panel"
   },
+  "markets": {
+    "date": "2026-02-17T17:39:53+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-t466dbCpESl7YaNJaNkKSKxrHWqFmqQCmoOgxylQlDU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "TMS-Namespace",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "finance",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "curl"
+      ],
+      "description": "Semi-Live market prices for currencies, stocks, and commodities with charts",
+      "distro": [
+        "fedora"
+      ],
+      "id": "markets",
+      "name": "Markets",
+      "repo": "https://github.com/TMS-Namespace/DMS-Markets-Plugin",
+      "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/p4cc9yz9p3qf14x8mbnlxw1l1csv1a9r-DMS-Markets-Plugin",
+    "rev": "4babf553841bf92d268e989c2e8662bbc9d1ee8c",
+    "rootDir": "",
+    "sha256": "0dcla0lwg843k81a96l5d8fnpb281bcnhjd3c5xjj4d9n1svm3mp",
+    "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
+  },
   "mediaFrame": {
     "date": "2026-01-25T01:46:02Z",
     "deepClone": false,
