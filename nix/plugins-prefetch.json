@@ -1400,6 +1400,44 @@
     "sha256": "1ibsmcwvxaraam9ccyx55cwflzn0fwd3yg4fc4mzgswbjkp9m953",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
+  "flatpakUpdates": {
+    "date": "2026-02-17T18:04:10-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-/yWTadhNYlVSDutej+LztgwMIuc/hHKY/W9O5JqmeZA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Michael Erdely",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [
+        "flatpak"
+      ],
+      "description": "Check for and install Flatpak Updates",
+      "distro": [
+        "any"
+      ],
+      "id": "flatpakUpdates",
+      "name": "Flatpak Updates",
+      "path": "FlatpakUpdates",
+      "repo": "https://github.com/merdely/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/55yjlqgdlh83fczpkcidb4a0gx15qqaj-dms-plugins",
+    "rev": "eb5f631a32e311e175eaa01fdd177ac5078a05cc",
+    "rootDir": "",
+    "sha256": "143rlsdf8kkgznc7511zwwi0q35nygi8yppb1r95aqjdv1lr69gz",
+    "url": "https://github.com/merdely/dms-plugins"
+  },
   "githubHeatmap": {
     "date": "2026-02-18T15:07:30-08:00",
     "deepClone": false,
