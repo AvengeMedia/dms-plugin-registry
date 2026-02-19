@@ -295,6 +295,42 @@
     "sha256": "03kmf3a2lc7yidiras5r50jv860jm7j816dnr57zk61fz3jgh3k8",
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
+  "claudeCodeUsage": {
+    "date": "2026-02-19T09:43:30+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-m7gO2JMevl26zZcnMxMkW78NwLjnfExONm+Iq+EPSZU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Nicolas Bellamy",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "jq"
+      ],
+      "description": "Monitor your Claude Code subscription usage with token tracking, rate limits, and daily activity charts",
+      "distro": [
+        "any"
+      ],
+      "id": "claudeCodeUsage",
+      "name": "Claude Code Usage",
+      "repo": "https://github.com/titeya/dms-claudecode",
+      "screenshot": "https://github.com/titeya/dms-claudecode/raw/master/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/bja3sf3pv79vkbc7idvy3p929v1p7bhn-dms-claudecode",
+    "rev": "0b4853c153f13bb8010f5171419fd2096d3916fb",
+    "rootDir": "",
+    "sha256": "15a91zhsp23g6r74qz77p300vgsv4h9k69wprnx5vghyjgc0xf4v",
+    "url": "https://github.com/titeya/dms-claudecode"
+  },
   "commandRunner": {
     "date": "2026-02-18T20:23:42-05:00",
     "deepClone": false,
