@@ -1,11 +1,11 @@
 {
   "aiAssistant": {
-    "date": "2026-02-12T22:41:14-05:00",
+    "date": "2026-02-18T03:50:32-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-QoAO/7WsIxz88/1x+ZjbEu4v5lBVJtHUGDK9aRxqCDg=",
+    "hash": "sha256-dk4DGw4BlARc/uqSnpha4M95MjwMf8ymMNM0L3F5QW4=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -31,12 +31,12 @@
       "repo": "https://github.com/devnullvoid/dms-ai-assistant",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://github.com/devnullvoid/dms-ai-assistant/blob/main/screenshots/AI_ASSISTANT_SCREENSHOT_CURRENT_1.png?raw=true",
-      "version": "1.1.1"
+      "version": "1.1.2"
     },
-    "path": "/nix/store/bh8zd80sd7358yslw70dzaj0bc1xiykl-dms-ai-assistant",
-    "rev": "7a7962c0cfb7a2085e0a62fd4e0dfc802cfd3272",
+    "path": "/nix/store/b6ck2w44fh6xm727ajxwpyiy827g2k9n-dms-ai-assistant",
+    "rev": "0b6141156c794d3c57939724ef25293e2d37d55c",
     "rootDir": "",
-    "sha256": "0f08d8f6kg9j33ad29jma3k2zvhjvfcgjwgxygy1q8xcnpzhx022",
+    "sha256": "0vj1g5qjyd6k62kcqzqc7hr7kkz0bac9x4pazrf095011qdh6kkn",
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "alarmClock": {
@@ -1367,12 +1367,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "githubHeatmap": {
-    "date": "2026-02-09T13:50:22-08:00",
+    "date": "2026-02-18T15:07:30-08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jugchuOQ70f/juxU0J+1Q8Hy7dTW2K49Roha++hPvFY=",
+    "hash": "sha256-DZEPtsVUCu8oAaiN6c32a+3ok+VjUU4zHoYJ0hwW0b8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Deppes",
@@ -1401,10 +1401,10 @@
       "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/GitHubHeatMap-popout.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/31f6qrwkxq8cdc8lz21x52395d1i6nyb-dms-plugins",
-    "rev": "019b3784f60bdc0b5e6eb6ab66f3a32a00b8312f",
+    "path": "/nix/store/ai2yl2z0bzs84n3fwrs3qcldfqdbg7gi-dms-plugins",
+    "rev": "24247d298cc0e4f897f51d4ad21b354f8b68794f",
     "rootDir": "",
-    "sha256": "0mmw9zlgnnl88qysxn6nsknz5ha3nngx0m7civzlgvwhwf31rs4f",
+    "sha256": "1gyi2qfd42c63qrlwlb3wn9yivbbyv6yk3d804lfy2jlqnv0z48d",
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "gitlabNotifier": {
@@ -2026,12 +2026,12 @@
     "url": "https://github.com/Daniel-42-z/dms-power-usage"
   },
   "prayerTimes": {
-    "date": "2026-02-09T15:31:25+07:00",
+    "date": "2026-02-19T07:19:08+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-8PSVJmAWXekMMEUou4tHZvUQxfz6hzuOkXUYjBD1Rr0=",
+    "hash": "sha256-0DGJVEPyKX97DnBpE6cxFrnYPNCObM7Q4ISKixrf+M8=",
     "leaveDotGit": false,
     "meta": {
       "author": "muadz",
@@ -2053,10 +2053,10 @@
       "screenshot": "https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png",
       "version": "0.0.1"
     },
-    "path": "/nix/store/6nx56r6f7k64hld21kh10pd09w7f80b3-prayertimes",
-    "rev": "5e77293ce6a30ce12a244fe6ed980222af3a1d00",
+    "path": "/nix/store/yxh43gqq19vx8hn981rqb10n8dcrsbza-prayertimes",
+    "rev": "ee406f1ab339a8204887e985357de72a7ab23fa8",
     "rootDir": "",
-    "sha256": "1ga6yl88q63mj673p1zszk2i1xb68y5vna25606fjp8nc0k9bx7h",
+    "sha256": "1kzqvwd8p2l4w38cwv4fs0ydif8n66ki6sbh1rxpyagj8da8jcfh",
     "url": "https://github.com/muadzmo/prayertimes"
   },
   "pulsarX3": {
@@ -2131,12 +2131,12 @@
     "url": "https://github.com/ss44/sathi.ai"
   },
   "screenshotToggle": {
-    "date": "2026-02-09T13:50:22-08:00",
+    "date": "2026-02-18T15:07:30-08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jugchuOQ70f/juxU0J+1Q8Hy7dTW2K49Roha++hPvFY=",
+    "hash": "sha256-DZEPtsVUCu8oAaiN6c32a+3ok+VjUU4zHoYJ0hwW0b8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Deppes",
@@ -2161,10 +2161,10 @@
       "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/screenshot-toggle-control-center.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/31f6qrwkxq8cdc8lz21x52395d1i6nyb-dms-plugins",
-    "rev": "019b3784f60bdc0b5e6eb6ab66f3a32a00b8312f",
+    "path": "/nix/store/ai2yl2z0bzs84n3fwrs3qcldfqdbg7gi-dms-plugins",
+    "rev": "24247d298cc0e4f897f51d4ad21b354f8b68794f",
     "rootDir": "",
-    "sha256": "0mmw9zlgnnl88qysxn6nsknz5ha3nngx0m7civzlgvwhwf31rs4f",
+    "sha256": "1gyi2qfd42c63qrlwlb3wn9yivbbyv6yk3d804lfy2jlqnv0z48d",
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "sessionPower": {
@@ -2205,12 +2205,12 @@
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
   "sshMonitor": {
-    "date": "2026-02-09T13:50:22-08:00",
+    "date": "2026-02-18T15:07:30-08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jugchuOQ70f/juxU0J+1Q8Hy7dTW2K49Roha++hPvFY=",
+    "hash": "sha256-DZEPtsVUCu8oAaiN6c32a+3ok+VjUU4zHoYJ0hwW0b8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Deppes",
@@ -2237,10 +2237,10 @@
       "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png",
       "version": "1.6.0"
     },
-    "path": "/nix/store/31f6qrwkxq8cdc8lz21x52395d1i6nyb-dms-plugins",
-    "rev": "019b3784f60bdc0b5e6eb6ab66f3a32a00b8312f",
+    "path": "/nix/store/ai2yl2z0bzs84n3fwrs3qcldfqdbg7gi-dms-plugins",
+    "rev": "24247d298cc0e4f897f51d4ad21b354f8b68794f",
     "rootDir": "",
-    "sha256": "0mmw9zlgnnl88qysxn6nsknz5ha3nngx0m7civzlgvwhwf31rs4f",
+    "sha256": "1gyi2qfd42c63qrlwlb3wn9yivbbyv6yk3d804lfy2jlqnv0z48d",
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "stockManager": {
@@ -2499,12 +2499,12 @@
     "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
   },
   "webSearch": {
-    "date": "2026-02-16T00:52:02-05:00",
+    "date": "2026-02-18T20:08:24-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-w+5rEpjYRyMA/gX98Ejyl2IFpLRO7QszbZHLibjT5S4=",
+    "hash": "sha256-/6pxfpQ1dZRvTtymcNOtSNdc475xqLaWcxziqwnAC7I=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -2524,21 +2524,21 @@
       "name": "Web Search",
       "repo": "https://github.com/devnullvoid/dms-web-search",
       "screenshot": "https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true",
-      "version": "1.2.4"
+      "version": "1.2.6"
     },
-    "path": "/nix/store/wjxi29wcji3vb9yf13fjglmmqmi6srp8-dms-web-search",
-    "rev": "34dc01f2d3eabcc7f6e6bc2908f64be787d396c5",
+    "path": "/nix/store/glfkq34f16xq4sfh7d0hlxh1fpb1ln2q-dms-web-search",
+    "rev": "a8319d1866b9a0444d351412a67d44068fb4899b",
     "rootDir": "",
-    "sha256": "0bp5sfw8kjwidlrhpvafnjj0aqlpy94g1z85zq026iyqk096pvn3",
+    "sha256": "1chbq04spqhwffbbda3ipvimrms8mp9p19nw9rpr8x9mjiz73apz",
     "url": "https://github.com/devnullvoid/dms-web-search"
   },
   "worldClock": {
-    "date": "2025-10-04T12:56:52+01:00",
+    "date": "2026-02-18T11:38:13Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-SYGB+04NNGiuRVaQ7wEFcM+Cbo0raVDgaZ0fnxAbVpc=",
+    "hash": "sha256-T/AodSxxqISb/TNr8dfaZH/BGmimlxXUmlhlyUDVWa8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bruno Cesar Rocha",
@@ -2561,12 +2561,12 @@
       "repo": "https://github.com/rochacbruno/WorldClock",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/3a8w6k72sv92imvwwwgm19idxsq1jpv1-WorldClock",
-    "rev": "3e9b62ae2fe7550891a61436ebe8248a9724bd93",
+    "path": "/nix/store/gs18jz3fqd58cbpgrc8i75w7hwqi0lnb-WorldClock",
+    "rev": "65a80dbe414251afb907d04b0e85d02516860890",
     "rootDir": "",
-    "sha256": "15sn3c89y7wxd7h50s9bimp85kvh0l0yz42n8np6hd0d9vxq30a9",
+    "sha256": "1bsrsm0cjraqkba1b5x6d0dc2zv4vbbz2srkzndq9a3i5isjiw2g",
     "url": "https://github.com/rochacbruno/WorldClock"
   }
 }
