@@ -276,6 +276,35 @@ Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
 
 
 
+#### [Claude Code Usage](https://github.com/titeya/dms-claudecode)
+
+Monitor your Claude Code subscription usage with token tracking, rate limits, and daily activity charts
+
+
+
+- id: claudeCodeUsage
+- name: Claude Code Usage
+- author: Nicolas Bellamy
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/titeya/dms-claudecode/raw/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [GitHub Heatmap](https://github.com/boutabong/dms-plugins)
 
 Display weekly GitHub contribution heatmap with color-coded activity levels
