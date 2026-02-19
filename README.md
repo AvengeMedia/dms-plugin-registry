@@ -1391,6 +1391,40 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 
 
 
+#### [Flatpak Updates](https://github.com/merdely/dms-plugins)
+
+Check for and install Flatpak Updates
+
+
+
+- id: flatpakUpdates
+- name: Flatpak Updates
+- author: Michael Erdely
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: flatpak
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [FlatpakUpdates](https://github.com/merdely/dms-plugins/tree/main/FlatpakUpdates) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png)
+
+</details>
+
+
+
+
+
 #### [GIF Search](https://github.com/AvengeMedia/dms-plugins)
 
 Search and browse GIFs powered by Klipy
