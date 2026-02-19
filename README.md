@@ -460,6 +460,35 @@ Toggle Niri displays and control monitor hardware brightness, contrast, scale, r
 
 
 
+#### [Display Output](https://github.com/xyzsteven/dms-displayoutput)
+
+A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).
+
+
+
+- id: displayOutput
+- name: Display Output
+- author: xyzsteven
+- compositors: hyprland
+- capabilities: manage-displays
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/xyzsteven/dms-displayoutput/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Lenovo Battery Settings](https://github.com/neoscaler/dms-lenovo-battery-settings)
 
 Manage Lenovo battery settings like conservation mode
