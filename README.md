@@ -1798,6 +1798,35 @@ Get the current Nepali date
 
 
 
+#### [Niri Screenshot](https://github.com/jfchenier/dms-niri-screenshot)
+
+Control Niri screenshot actions from the Control Center
+
+
+
+- id: niriScreenshot
+- name: Niri Screenshot
+- author: jfchenier
+- compositors: niri
+- capabilities: dankbar-widget, control-center
+- dependencies: niri
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/jfchenier/dms-niri-screenshot/main/assets/screenshot-control-center.png)
+
+</details>
+
+
+
+
+
 #### [Niri Windows](https://github.com/rochacbruno/DankNiriWindows)
 
 List and switch to open Niri windows from the launcher

@@ -1994,6 +1994,43 @@
     "sha256": "1xlmiqn7j54bnsnarsrkrl8wrdjvi87slz3x22bj4rjjm7my3v24",
     "url": "https://github.com/AC17dollars/dms-nepali-calendar"
   },
+  "niriScreenshot": {
+    "date": "2026-02-19T22:00:20-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-JuT+TGHhNrRZXDfkHay+Dyvfp/VX3+92oMoZPHEmn1g=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "jfchenier",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "niri"
+      ],
+      "description": "Control Niri screenshot actions from the Control Center",
+      "distro": [
+        "any"
+      ],
+      "id": "niriScreenshot",
+      "name": "Niri Screenshot",
+      "repo": "https://github.com/jfchenier/dms-niri-screenshot",
+      "screenshot": "https://raw.githubusercontent.com/jfchenier/dms-niri-screenshot/main/assets/screenshot-control-center.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/41gsrqvyrf909m26d653q44r1i7rmvws-dms-niri-screenshot",
+    "rev": "90b633ff34945964e7b2bba3660f06e128f97e88",
+    "rootDir": "",
+    "sha256": "0n4z4rqkq6fal1vfzpspynkxyaqgpsn1vr1pbicv8dp1c56gxr16",
+    "url": "https://github.com/jfchenier/dms-niri-screenshot"
+  },
   "niriWindows": {
     "date": "2026-02-02T09:34:56Z",
     "deepClone": false,
