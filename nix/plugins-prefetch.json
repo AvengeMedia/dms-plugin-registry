@@ -1075,12 +1075,12 @@
     "url": "https://github.com/jfchenier/dms-display-mirror"
   },
   "displayOutput": {
-    "date": "2026-02-19T15:42:23+07:00",
+    "date": "2026-02-19T22:51:36+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-GmX3LhloSfUGGytVUqZ4SQW8LQMTJD6XTbJmji0slmA=",
+    "hash": "sha256-x6fuDsmWCyfqQfz7uqjugkqMy97JejdN7+lm8zNiYIA=",
     "leaveDotGit": false,
     "meta": {
       "author": "xyzsteven",
@@ -1102,10 +1102,10 @@
       "screenshot": "https://raw.githubusercontent.com/xyzsteven/dms-displayoutput/refs/heads/main/screenshot.png",
       "version": "0.0.1"
     },
-    "path": "/nix/store/wcxcf1zmani7w2r4rdf065px1y1nwfg6-dms-displayoutput",
-    "rev": "1159333656446bfd345f6d0f0d760885fa8aa69d",
+    "path": "/nix/store/skrl5sj7p5w1basw5mfvbn8w5k2q8qbl-dms-displayoutput",
+    "rev": "fe3be209d1ca1e286535de4f52a130de08de5e15",
     "rootDir": "",
-    "sha256": "0q4n5hnqwrmj9nbkw90k0cnvq1a9g2k54m9b3c3gajb834pgfr8s",
+    "sha256": "1030c8rz6rp9xx6kfyn9vv5qqjl2xslbmyzw87m2f2wnr47fx9y7",
     "url": "https://github.com/xyzsteven/dms-displayoutput"
   },
   "displaySettings": {
@@ -1437,12 +1437,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "flatpakUpdates": {
-    "date": "2026-02-17T18:04:10-05:00",
+    "date": "2026-02-19T19:48:30-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-/yWTadhNYlVSDutej+LztgwMIuc/hHKY/W9O5JqmeZA=",
+    "hash": "sha256-7hFYOvuzpGa8vN1pywcuFz/Cq2ivr4fK1ZrZj2lh4CQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Erdely",
@@ -1468,10 +1468,10 @@
       "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/55yjlqgdlh83fczpkcidb4a0gx15qqaj-dms-plugins",
-    "rev": "eb5f631a32e311e175eaa01fdd177ac5078a05cc",
+    "path": "/nix/store/9ksc2krhjawxywzj4jirsdxph5awscvh-dms-plugins",
+    "rev": "4189328bcd99aa2f4a5d233f7bce4c9c3578c648",
     "rootDir": "",
-    "sha256": "143rlsdf8kkgznc7511zwwi0q35nygi8yppb1r95aqjdv1lr69gz",
+    "sha256": "0970c5lqzncssp58gbxgd2mw4gqp5q3wnsfxpjy6d95kzcx5h4gf",
     "url": "https://github.com/merdely/dms-plugins"
   },
   "githubHeatmap": {
