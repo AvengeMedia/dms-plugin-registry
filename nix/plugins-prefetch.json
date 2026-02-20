@@ -1437,12 +1437,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "flatpakUpdates": {
-    "date": "2026-02-19T19:48:30-05:00",
+    "date": "2026-02-20T07:34:58-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-7hFYOvuzpGa8vN1pywcuFz/Cq2ivr4fK1ZrZj2lh4CQ=",
+    "hash": "sha256-ex/d9NEpFlv6T4zxOOoH0om974p1m3wBxbKWCsKi5nc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Erdely",
@@ -1468,10 +1468,10 @@
       "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/9ksc2krhjawxywzj4jirsdxph5awscvh-dms-plugins",
-    "rev": "4189328bcd99aa2f4a5d233f7bce4c9c3578c648",
+    "path": "/nix/store/n16m7z0a6cgsv1q6sd7g81ih4j2k6ngs-dms-plugins",
+    "rev": "609647e8a13b6e38d282ca861c660f56d94e63f6",
     "rootDir": "",
-    "sha256": "0970c5lqzncssp58gbxgd2mw4gqp5q3wnsfxpjy6d95kzcx5h4gf",
+    "sha256": "0xz6lb10m5mjql0pr6vmibpvv2fj0zm3iwcc9zx5n5i9s7sds7vv",
     "url": "https://github.com/merdely/dms-plugins"
   },
   "githubHeatmap": {
@@ -2030,12 +2030,12 @@
     "url": "https://github.com/rochacbruno/DankNiriWindows"
   },
   "nixMonitor": {
-    "date": "2025-12-20T16:21:39+01:00",
+    "date": "2026-02-20T07:24:29+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-PotQG3LnS8LsOnsHtyS5MFBw0qbRvr3886+3nzxL6R4=",
+    "hash": "sha256-lTbQ13lQ3ZPNkdnFmxAMGf1Gjx//80lDDlcJR8msREI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Anton Andersson",
@@ -2057,10 +2057,10 @@
       "screenshot": "https://github.com/antonjah/nix-monitor/raw/master/assets/scrot.png",
       "version": "1.0.3"
     },
-    "path": "/nix/store/rzkgk7472g2fwh1svyiywzl1r8giax4h-nix-monitor",
-    "rev": "bd941a0e71b8f7763b45c22281a44ff554f82666",
+    "path": "/nix/store/1hzva568z9x6j16dd9mz8ivf23rp7khl-nix-monitor",
+    "rev": "ef3db9d5a525ddf41355e8c456b40d56480a6626",
     "rootDir": "",
-    "sha256": "07p99cy9zdxgygybvgnilv970l1hp4jbf1vv7bnc4jz7f8dm12ry",
+    "sha256": "0hj4mk4lf2ap1r1lkwzz3y7ldz8r1h89pifrj76r7pahg7bx0dlm",
     "url": "https://github.com/antonjah/nix-monitor"
   },
   "polyglot": {
