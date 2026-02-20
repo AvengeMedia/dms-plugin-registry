@@ -1,0 +1,171 @@
+{
+  "id": "peaceAndQuiet",
+  "name": "Peace & Quiet",
+  "version": "1.0.0",
+  "author": "ernestowg",
+  "description": "Light and dark theme with pastel accents and purple hues",
+  "dark": {
+    "surface": "#130f1a",
+    "surfaceText": "#f0f0f0",
+    "surfaceVariant": "#221d26",
+    "background": "#09070d",
+    "backgroundText": "#f0f0f0",
+    "surfaceContainer": "#09070d",
+    "surfaceContainerHigh": "#221f26",
+    "surfaceContainerHighest": "#17141a",
+    "error": "#f38ba8",
+    "warning": "#fab387",
+    "primaryText": "#1e1e00"
+  },
+  "light": {
+    "surface": "#ede8f5",
+    "surfaceText": "#1e1824",
+    "surfaceVariant": "#e0d5ee",
+    "background": "#f5f0fa",
+    "backgroundText": "#1e1824",
+    "surfaceContainer": "#f5f0fa",
+    "surfaceContainerHigh": "#e8e0f2",
+    "surfaceContainerHighest": "#ede8f5",
+    "error": "#b0324e",
+    "warning": "#b05520",
+    "primaryText": "#ffffff"
+  },
+  "variants": {
+    "default": "salmon",
+    "options": [
+      {
+        "id": "salmon",
+        "name": "Salmon",
+        "dark": {
+          "primary": "#eda792",
+          "outline": "#d9bcb8",
+          "secondary": "#92d8ed",
+          "surfaceTint": "#eda792",
+          "info": "#92d8ed",
+          "surfaceVariantText": "#f0f0f0",
+          "primaryContainer": "#8c645b"
+        },
+        "light": {
+          "primary": "#c4613e",
+          "outline": "#b89090",
+          "secondary": "#3a9bb8",
+          "surfaceTint": "#c4613e",
+          "info": "#3a9bb8",
+          "surfaceVariantText": "#3a2820",
+          "primaryContainer": "#f5d8cf"
+        }
+      },
+      {
+        "id": "cyan",
+        "name": "Cyan",
+        "dark": {
+          "primary": "#92d8ed",
+          "outline": "#b8d5d9",
+          "secondary": "#eda792",
+          "surfaceTint": "#92d8ed",
+          "info": "#92d8ed",
+          "surfaceVariantText": "#b8d5d9",
+          "primaryContainer": "#5b878c"
+        },
+        "light": {
+          "primary": "#2e8fad",
+          "outline": "#6aafc4",
+          "secondary": "#c4613e",
+          "surfaceTint": "#2e8fad",
+          "info": "#2e8fad",
+          "surfaceVariantText": "#1a3040",
+          "primaryContainer": "#c8ecf5"
+        }
+      },
+      {
+        "id": "mint",
+        "name": "Mint",
+        "dark": {
+          "primary": "#92eda7",
+          "outline": "#b8d9ce",
+          "secondary": "#b8a8f0",
+          "surfaceTint": "#92eda7",
+          "info": "#b8a8f0",
+          "surfaceVariantText": "#b8d9ce",
+          "primaryContainer": "#5b8c7e"
+        },
+        "light": {
+          "primary": "#2e9e55",
+          "outline": "#6abf90",
+          "secondary": "#6b54c7",
+          "surfaceTint": "#2e9e55",
+          "info": "#6b54c7",
+          "surfaceVariantText": "#1a3028",
+          "primaryContainer": "#c8f0d8"
+        }
+      },
+      {
+        "id": "lavender",
+        "name": "Lavender",
+        "dark": {
+          "primary": "#b8a8f0",
+          "outline": "#c9b8d9",
+          "secondary": "#92eda7",
+          "surfaceTint": "#b8a8f0",
+          "info": "#92eda7",
+          "surfaceVariantText": "#c9b8d9",
+          "primaryContainer": "#745b8c"
+        },
+        "light": {
+          "primary": "#6b54c7",
+          "outline": "#a090cc",
+          "secondary": "#2e9e55",
+          "surfaceTint": "#6b54c7",
+          "info": "#2e9e55",
+          "surfaceVariantText": "#28204a",
+          "primaryContainer": "#ddd8f8"
+        }
+      },
+      {
+        "id": "blue",
+        "name": "Blue",
+        "dark": {
+          "primary": "#a2d2ff",
+          "outline": "#b8c9d9",
+          "secondary": "#ed92d8",
+          "surfaceTint": "#a2d2ff",
+          "info": "#a2d2ff",
+          "surfaceVariantText": "#b8c9d9",
+          "primaryContainer": "#5b748c"
+        },
+        "light": {
+          "primary": "#2a6fb8",
+          "outline": "#6090c4",
+          "secondary": "#b83a99",
+          "surfaceTint": "#2a6fb8",
+          "info": "#2a6fb8",
+          "surfaceVariantText": "#182840",
+          "primaryContainer": "#cce0f8"
+        }
+      },
+      {
+        "id": "pink",
+        "name": "Pink",
+        "dark": {
+          "primary": "#ed92d8",
+          "outline": "#d9b8c4",
+          "secondary": "#a2d2ff",
+          "surfaceTint": "#ed92d8",
+          "info": "#a2d2ff",
+          "surfaceVariantText": "#d9b8c4",
+          "primaryContainer": "#8c5b6e"
+        },
+        "light": {
+          "primary": "#b83a99",
+          "outline": "#c47ab0",
+          "secondary": "#2a6fb8",
+          "surfaceTint": "#b83a99",
+          "info": "#2a6fb8",
+          "surfaceVariantText": "#401830",
+          "primaryContainer": "#f5ccec"
+        }
+      }
+    ]
+  },
+  "sourceDir": "peace-and-quiet"
+}
