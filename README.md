@@ -34,7 +34,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
 
 ---
 
@@ -206,6 +206,43 @@ A new fresh daily wallpaper downloaded from a famous portal
 
 
 
+### Finance
+
+
+
+#### [Markets](https://github.com/TMS-Namespace/DMS-Markets-Plugin)
+
+Semi-Live market prices for currencies, stocks, and commodities with charts
+
+
+
+- id: markets
+- name: Markets
+- author: TMS-Namespace
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: fedora
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png)
+
+</details>
+
+
+
+
+
+---
+
+
+
 ### Monitoring
 
 
@@ -232,6 +269,35 @@ Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Claude Code Usage](https://github.com/titeya/dms-claudecode)
+
+Monitor your Claude Code subscription usage with token tracking, rate limits, and daily activity charts
+
+
+
+- id: claudeCodeUsage
+- name: Claude Code Usage
+- author: Nicolas Bellamy
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/titeya/dms-claudecode/raw/master/screenshot.png)
 
 </details>
 
@@ -453,6 +519,35 @@ Toggle Niri displays and control monitor hardware brightness, contrast, scale, r
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/felri/display-manager-plugin-niri-dank-linux/refs/heads/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Display Output](https://github.com/xyzsteven/dms-displayoutput)
+
+A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).
+
+
+
+- id: displayOutput
+- name: Display Output
+- author: xyzsteven
+- compositors: hyprland
+- capabilities: manage-displays
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/xyzsteven/dms-displayoutput/refs/heads/main/screenshot.png)
 
 </details>
 
@@ -1318,6 +1413,40 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [Flatpak Updates](https://github.com/merdely/dms-plugins)
+
+Check for and install Flatpak Updates
+
+
+
+- id: flatpakUpdates
+- name: Flatpak Updates
+- author: Michael Erdely
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: flatpak
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [FlatpakUpdates](https://github.com/merdely/dms-plugins/tree/main/FlatpakUpdates) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png)
 
 </details>
 
