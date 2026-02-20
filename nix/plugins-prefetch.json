@@ -2385,6 +2385,44 @@
     "sha256": "12a8zimgsynll3fvbw5a0la6dw3zw6f9hk9cdx0q7a289fx7378p",
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
+  "sshConnections": {
+    "date": "2026-02-20T07:34:58-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-ex/d9NEpFlv6T4zxOOoH0om974p1m3wBxbKWCsKi5nc=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Michael Erdely",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [
+        "ssh"
+      ],
+      "description": "SSH to configured servers from the Launcher",
+      "distro": [
+        "any"
+      ],
+      "id": "sshConnections",
+      "name": "SSH Connections",
+      "path": "sshConnections",
+      "repo": "https://github.com/merdely/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/sshconnections.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/n16m7z0a6cgsv1q6sd7g81ih4j2k6ngs-dms-plugins",
+    "rev": "609647e8a13b6e38d282ca861c660f56d94e63f6",
+    "rootDir": "",
+    "sha256": "0xz6lb10m5mjql0pr6vmibpvv2fj0zm3iwcc9zx5n5i9s7sds7vv",
+    "url": "https://github.com/merdely/dms-plugins"
+  },
   "sshMonitor": {
     "date": "2026-02-18T15:07:30-08:00",
     "deepClone": false,
