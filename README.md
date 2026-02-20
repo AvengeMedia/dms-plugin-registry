@@ -2455,6 +2455,17 @@ Accessible themes conforming to the highest color-contrast standard (WCAG AAA)
 
 
 
+### Peace & Quiet
+
+Light and dark theme with pastel accents and purple hues
+
+- **Author:** ernestowg
+- **ID:** `peaceAndQuiet` **Version:** `1.0.0`
+
+![Peace & Quiet](themes/peace-and-quiet/preview.svg)
+
+
+
 ### Petrichor
 
 Oceanic's color scheme from https://discord.com/channels/1387519366651842574/1457383570925551667, with permission
