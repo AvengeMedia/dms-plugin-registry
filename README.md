@@ -2035,6 +2035,40 @@ Monitor and control your Pulsar X3 gaming mouse
 
 
 
+#### [SSH Connections](https://github.com/merdely/dms-plugins)
+
+SSH to configured servers from the Launcher
+
+
+
+- id: sshConnections
+- name: SSH Connections
+- author: Michael Erdely
+- compositors: niri, hyprland
+- capabilities: launcher
+- dependencies: ssh
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [sshConnections](https://github.com/merdely/dms-plugins/tree/main/sshConnections) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/sshconnections.png)
+
+</details>
+
+
+
+
+
 #### [Sathi.AI](https://github.com/ss44/sathi.ai)
 
 A simple multi model ai client to use with your dank shell. Use it ollama, gemini or openai models. Keys not included.
