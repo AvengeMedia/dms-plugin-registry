@@ -1,0 +1,12 @@
+{
+    "id": "mediaControlsPlus",
+    "name": "Media Controls Plus",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/lpv11/dms-media-controls-plus",
+    "author": "lpv11",
+    "description": "Media controls with full bar volume scroll",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"]
+}
