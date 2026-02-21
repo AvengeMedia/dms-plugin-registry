@@ -4,10 +4,8 @@
     "capabilities": ["dankbar-widget"],
     "category": "utilities",
     "repo": "https://github.com/banicans/DMS-SteamFriends",
-    "path": "optional/path/in/monorepo",
     "author": "Banicnas",
     "description": "Shows how many Steam friends are online, and whos online playing what.",
-    "dependencies": ["dependency1", "dependency2"],
     "compositors": ["niri", "hyprland"],
     "distro": ["any"],
     "screenshot": "https://github.com/banicans/DMS-SteamFriends/blob/main/Screenshot.png"
