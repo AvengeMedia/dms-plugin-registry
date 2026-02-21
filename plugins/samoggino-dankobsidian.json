@@ -1,0 +1,14 @@
+{
+    "id": "dankObsidian",
+    "name": "Dank Obsidian",
+    "description": "Quick access to your Obsidian vaults",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/Samoggino/dankObsidian",
+    "author": "Samoggino",
+    "dependencies": ["obsidian"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "requires_dms": ">=1.4.0",
+    "screenshot": "https://raw.githubusercontent.com/Samoggino/dankObsidian/main/screenshot.png"
+}
