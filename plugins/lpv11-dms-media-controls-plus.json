@@ -5,7 +5,7 @@
     "category": "utilities",
     "repo": "https://github.com/lpv11/dms-media-controls-plus",
     "author": "lpv11",
-    "description": "Media controls with full bar volume scroll",
+    "description": "Media controls with full bar volume scroll. Disables workspace scroll.",
     "dependencies": [],
     "compositors": ["any"],
     "distro": ["any"],
