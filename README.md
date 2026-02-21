@@ -1798,6 +1798,35 @@ Get the current Nepali date
 
 
 
+#### [Niri Screenshot](https://github.com/jfchenier/dms-niri-screenshot)
+
+Control Niri screenshot actions from the Control Center
+
+
+
+- id: niriScreenshot
+- name: Niri Screenshot
+- author: jfchenier
+- compositors: niri
+- capabilities: dankbar-widget, control-center
+- dependencies: niri
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/jfchenier/dms-niri-screenshot/main/assets/screenshot-control-center.png)
+
+</details>
+
+
+
+
+
 #### [Niri Windows](https://github.com/rochacbruno/DankNiriWindows)
 
 List and switch to open Niri windows from the launcher
@@ -1999,6 +2028,40 @@ Monitor and control your Pulsar X3 gaming mouse
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/jonkristian/dms-pulsar-x3/blob/main/screenshot.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [SSH Connections](https://github.com/merdely/dms-plugins)
+
+SSH to configured servers from the Launcher
+
+
+
+- id: sshConnections
+- name: SSH Connections
+- author: Michael Erdely
+- compositors: niri, hyprland
+- capabilities: launcher
+- dependencies: ssh
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [sshConnections](https://github.com/merdely/dms-plugins/tree/main/sshConnections) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/sshconnections.png)
 
 </details>
 
@@ -2452,6 +2515,17 @@ Accessible themes conforming to the highest color-contrast standard (WCAG AAA)
 - **ID:** `modus` **Version:** `1.0.0`
 
 ![Modus](themes/modus/preview.svg)
+
+
+
+### Peace & Quiet
+
+Light and dark theme with pastel accents and purple hues
+
+- **Author:** ernestowg
+- **ID:** `peaceAndQuiet` **Version:** `1.0.0`
+
+![Peace & Quiet](themes/peace-and-quiet/preview.svg)
 
 
 
