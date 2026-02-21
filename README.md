@@ -2166,6 +2166,35 @@ Puts the Power menu in the Bar
 
 
 
+#### [Steam Friends](https://github.com/banicans/DMS-SteamFriends)
+
+Shows how many Steam friends are online, and whos online playing what.
+
+
+
+- id: steamfriends
+- name: Steam Friends
+- author: Banicnas
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/banicans/DMS-SteamFriends/main/Screenshot.png?token=GHSAT0AAAAAADUWRF5II6V2QDWAEEHVI5BK2MZS57A)
+
+</details>
+
+
+
+
+
 #### [Sticker Search](https://github.com/AvengeMedia/dms-plugins)
 
 Search and browse stickers powered by Klipy
