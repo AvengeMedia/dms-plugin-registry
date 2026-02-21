@@ -7,6 +7,7 @@
     "author": "Banicnas",
     "description": "Shows how many Steam friends are online, and whos online playing what.",
     "compositors": ["niri", "hyprland"],
+    "dependencies": [],
     "distro": ["any"],
     "screenshot": "https://github.com/banicans/DMS-SteamFriends/blob/main/Screenshot.png"
 }
