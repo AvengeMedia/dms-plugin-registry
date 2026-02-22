@@ -1,11 +1,11 @@
 {
   "aiAssistant": {
-    "date": "2026-02-18T03:50:32-05:00",
+    "date": "2026-02-21T16:26:02-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-dk4DGw4BlARc/uqSnpha4M95MjwMf8ymMNM0L3F5QW4=",
+    "hash": "sha256-c9lQ7N3Qdx0zfAbS+GwLoTJILWRDZsJPbvYHlkS/A7s=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -31,12 +31,12 @@
       "repo": "https://github.com/devnullvoid/dms-ai-assistant",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://github.com/devnullvoid/dms-ai-assistant/blob/main/screenshots/AI_ASSISTANT_SCREENSHOT_CURRENT_1.png?raw=true",
-      "version": "1.1.2"
+      "version": "1.1.3"
     },
-    "path": "/nix/store/b6ck2w44fh6xm727ajxwpyiy827g2k9n-dms-ai-assistant",
-    "rev": "0b6141156c794d3c57939724ef25293e2d37d55c",
+    "path": "/nix/store/v49as5s70ps61yazdz5bl39z3k0bnspb-dms-ai-assistant",
+    "rev": "643c8f66665e10bb1d0349c2341fcfbefe3e4f37",
     "rootDir": "",
-    "sha256": "0vj1g5qjyd6k62kcqzqc7hr7kkz0bac9x4pazrf095011qdh6kkn",
+    "sha256": "1fq3px29c1zndr7w4rj3chnlhcm11dngilh6ghrisxyhvpn51nbk",
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "alarmClock": {
@@ -332,12 +332,12 @@
     "url": "https://github.com/titeya/dms-claudecode"
   },
   "commandRunner": {
-    "date": "2026-02-18T20:23:42-05:00",
+    "date": "2026-02-18T20:39:40-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-oIzhogusDzXJ7KH/Kmu3euuBCiTJ5GAH8ho24MmXARI=",
+    "hash": "sha256-W5IdTdK0mNR1McdwtKKyX++FdhDJEL5S4/bJ26k31GE=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -359,10 +359,10 @@
       "screenshot": "https://github.com/devnullvoid/dms-command-runner/blob/main/screenshot.png?raw=true",
       "version": "1.2.1"
     },
-    "path": "/nix/store/5nr8mi3sjf8x1znkyr3v5iaqg5dvffsm-dms-command-runner",
-    "rev": "f5f676fe49d2cde86054a28ed06f824319cd5193",
+    "path": "/nix/store/gd1n5d75lqcinbj2f4z49lvclh9mli3q-dms-command-runner",
+    "rev": "3a264c3dd5895af393638327fa6455aed6da6cd0",
     "rootDir": "",
-    "sha256": "04h1jz4y0dhsy83n1r694h583svsnxmjmzx1xk4ka3xc1fif3350",
+    "sha256": "0qfl6ylxpjgnwd9bw46921v8bvsznaib8w6765sx965ls96iv4jv",
     "url": "https://github.com/devnullvoid/dms-command-runner"
   },
   "customRunningApps": {
@@ -1403,12 +1403,12 @@
     "url": "https://github.com/jonkristian/dms-easyeffects"
   },
   "emojiLauncher": {
-    "date": "2026-02-18T20:36:03-05:00",
+    "date": "2026-02-18T20:39:40-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-o6Sa7pSL6/crYY48Pxp3wH7qOCule8ZSVSqrvjmresU=",
+    "hash": "sha256-jM1ywoyEefi3LJg/Fxbo8/8YBnnrNajF3WSIqvc5mTY=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -1430,10 +1430,10 @@
       "screenshot": "https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true",
       "version": "1.4.1"
     },
-    "path": "/nix/store/949kydl2kqbsxwyypb1djk6pmrihcbaj-dms-emoji-launcher",
-    "rev": "9b0e368471a6bb83900a4210359cab570c99c147",
+    "path": "/nix/store/drgy94d5im12z99wdf8hhhd3dkpyrw2y-dms-emoji-launcher",
+    "rev": "2fcd667b76271ba6064946fc81feb551cce5ba33",
     "rootDir": "",
-    "sha256": "1ibsmcwvxaraam9ccyx55cwflzn0fwd3yg4fc4mzgswbjkp9m953",
+    "sha256": "0dlr77vsm234vp2shdgbg431izzkx0b1fgwq5jvzhyc4ik175kcc",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "flatpakUpdates": {
@@ -1475,12 +1475,12 @@
     "url": "https://github.com/merdely/dms-plugins"
   },
   "githubHeatmap": {
-    "date": "2026-02-18T15:07:30-08:00",
+    "date": "2026-02-20T21:59:35-08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-DZEPtsVUCu8oAaiN6c32a+3ok+VjUU4zHoYJ0hwW0b8=",
+    "hash": "sha256-WdgAQ5ILh9/fUaB+U2qa/yKH8Kr6aeRAap6YtfsR4/o=",
     "leaveDotGit": false,
     "meta": {
       "author": "Deppes",
@@ -1509,10 +1509,10 @@
       "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/GitHubHeatMap-popout.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/ai2yl2z0bzs84n3fwrs3qcldfqdbg7gi-dms-plugins",
-    "rev": "24247d298cc0e4f897f51d4ad21b354f8b68794f",
+    "path": "/nix/store/zqk4x4dwk906ymhc4yxbv88inc9sivzg-dms-plugins",
+    "rev": "c73781f32c20dd9904bbde0aa40ab135b7c13fbd",
     "rootDir": "",
-    "sha256": "1gyi2qfd42c63qrlwlb3wn9yivbbyv6yk3d804lfy2jlqnv0z48d",
+    "sha256": "1yp327xvb64yd90f8sgsmbq8f8pzk9m56zm0a7gxz1qbj91h1n2r",
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "gitlabNotifier": {
@@ -2312,12 +2312,12 @@
     "url": "https://github.com/ss44/sathi.ai"
   },
   "screenshotToggle": {
-    "date": "2026-02-18T15:07:30-08:00",
+    "date": "2026-02-20T21:59:35-08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-DZEPtsVUCu8oAaiN6c32a+3ok+VjUU4zHoYJ0hwW0b8=",
+    "hash": "sha256-WdgAQ5ILh9/fUaB+U2qa/yKH8Kr6aeRAap6YtfsR4/o=",
     "leaveDotGit": false,
     "meta": {
       "author": "Deppes",
@@ -2342,10 +2342,10 @@
       "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/screenshot-toggle-control-center.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/ai2yl2z0bzs84n3fwrs3qcldfqdbg7gi-dms-plugins",
-    "rev": "24247d298cc0e4f897f51d4ad21b354f8b68794f",
+    "path": "/nix/store/zqk4x4dwk906ymhc4yxbv88inc9sivzg-dms-plugins",
+    "rev": "c73781f32c20dd9904bbde0aa40ab135b7c13fbd",
     "rootDir": "",
-    "sha256": "1gyi2qfd42c63qrlwlb3wn9yivbbyv6yk3d804lfy2jlqnv0z48d",
+    "sha256": "1yp327xvb64yd90f8sgsmbq8f8pzk9m56zm0a7gxz1qbj91h1n2r",
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "sessionPower": {
@@ -2424,12 +2424,12 @@
     "url": "https://github.com/merdely/dms-plugins"
   },
   "sshMonitor": {
-    "date": "2026-02-18T15:07:30-08:00",
+    "date": "2026-02-20T21:59:35-08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-DZEPtsVUCu8oAaiN6c32a+3ok+VjUU4zHoYJ0hwW0b8=",
+    "hash": "sha256-WdgAQ5ILh9/fUaB+U2qa/yKH8Kr6aeRAap6YtfsR4/o=",
     "leaveDotGit": false,
     "meta": {
       "author": "Deppes",
@@ -2456,10 +2456,10 @@
       "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png",
       "version": "1.6.0"
     },
-    "path": "/nix/store/ai2yl2z0bzs84n3fwrs3qcldfqdbg7gi-dms-plugins",
-    "rev": "24247d298cc0e4f897f51d4ad21b354f8b68794f",
+    "path": "/nix/store/zqk4x4dwk906ymhc4yxbv88inc9sivzg-dms-plugins",
+    "rev": "c73781f32c20dd9904bbde0aa40ab135b7c13fbd",
     "rootDir": "",
-    "sha256": "1gyi2qfd42c63qrlwlb3wn9yivbbyv6yk3d804lfy2jlqnv0z48d",
+    "sha256": "1yp327xvb64yd90f8sgsmbq8f8pzk9m56zm0a7gxz1qbj91h1n2r",
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "stockManager": {
@@ -2718,12 +2718,12 @@
     "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
   },
   "webSearch": {
-    "date": "2026-02-18T20:08:24-05:00",
+    "date": "2026-02-18T20:39:40-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-/6pxfpQ1dZRvTtymcNOtSNdc475xqLaWcxziqwnAC7I=",
+    "hash": "sha256-4rcPDYn0xp/koMkHKhZHHDGke07JIfOCAbEgjWlCiJg=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -2745,10 +2745,10 @@
       "screenshot": "https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true",
       "version": "1.2.6"
     },
-    "path": "/nix/store/glfkq34f16xq4sfh7d0hlxh1fpb1ln2q-dms-web-search",
-    "rev": "a8319d1866b9a0444d351412a67d44068fb4899b",
+    "path": "/nix/store/58gg3b9lyibwfk5hgmznhpa2n3vzr095-dms-web-search",
+    "rev": "55b1e46d9f6c33f92d188039b34169b10fd28f37",
     "rootDir": "",
-    "sha256": "1chbq04spqhwffbbda3ipvimrms8mp9p19nw9rpr8x9mjiz73apz",
+    "sha256": "164889lqs85i061g68f99rxs8c8w8wb2l1y9l3j9zipli46hzdz2",
     "url": "https://github.com/devnullvoid/dms-web-search"
   },
   "worldClock": {
