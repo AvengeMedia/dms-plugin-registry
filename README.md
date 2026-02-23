@@ -1798,6 +1798,35 @@ A desktop media player widget
 
 
 
+#### [Music Lyrics](https://github.com/gasiyu/dms-plugin-musiclyrics)
+
+Display synced music lyrics from multiple sources.
+
+
+
+- id: musicLyrics
+- name: Music Lyrics
+- author: gasiyu
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Gasiyu/dms-plugin-musiclyrics/main/screenshots.png)
+
+</details>
+
+
+
+
+
 #### [Nepali Calendar](https://github.com/AC17dollars/dms-nepali-calendar)
 
 Get the current Nepali date
