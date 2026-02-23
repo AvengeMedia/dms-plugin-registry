@@ -1769,6 +1769,35 @@ Kubernetes plugin for DankBar
 
 
 
+#### [Media Controls Plus](https://github.com/lpv11/dms-media-controls-plus)
+
+Media controls with full bar volume scroll. Disables workspace scroll.
+
+
+
+- id: mediaControlsPlus
+- name: Media Controls Plus
+- author: lpv11
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Media Player](https://github.com/arrifat346afs/mediaPlayer)
 
 A desktop media player widget
