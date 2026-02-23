@@ -2523,7 +2523,7 @@ Accessible themes conforming to the highest color-contrast standard (WCAG AAA)
 Light and dark theme with pastel accents and purple hues
 
 - **Author:** ernestowg
-- **ID:** `peaceAndQuiet` **Version:** `1.0.0`
+- **ID:** `peaceAndQuiet` **Version:** `1.0.1`
 
 ![Peace & Quiet](themes/peace-and-quiet/preview.svg)
 
