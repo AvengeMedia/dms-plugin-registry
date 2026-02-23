@@ -1631,12 +1631,12 @@
     "url": "https://github.com/TaylanTatli/dms-plugins"
   },
   "homeAssistantMonitor": {
-    "date": "2026-02-09T19:06:55+08:00",
+    "date": "2026-02-23T20:49:06+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-dwvV8Pn5PgM1xHZrPFlZKwG3uxPL0VW4orCXYKeVDuI=",
+    "hash": "sha256-iIJ3iJAOUIwSACd/ELoPotZqS43eCU9E/BFeKxwo11Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -1663,10 +1663,10 @@
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
       "version": "1.2.5"
     },
-    "path": "/nix/store/zahz7n3ynn7mlrl419nx0768fx3p372f-dms-plugin-hass",
-    "rev": "b2bdcc9997b0a2f7129e65bb9511bdeef6cd636f",
+    "path": "/nix/store/67945zp0i79aqkj6r20nj2w6lf0ni86g-dms-plugin-hass",
+    "rev": "7fffaf30c0a00d47b34d1794ead9ba82983e0916",
     "rootDir": "",
-    "sha256": "1qhfjnkn15xhlaw5blfb2fxvf09bb5ckqsvnqhsh6gprz7qda2vp",
+    "sha256": "0m6p50f2nphizi24y2fyim5nmmm21yx10zr70098ql0fj247g0l8",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hueManager": {
@@ -2207,12 +2207,12 @@
     "url": "https://github.com/Daniel-42-z/dms-power-usage"
   },
   "prayerTimes": {
-    "date": "2026-02-19T10:37:18+07:00",
+    "date": "2026-02-23T11:07:47+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-RYqRThCYY+Dlk+eV9Am2LZkjVPrkE0LWtHozL24+mgc=",
+    "hash": "sha256-GlFC+l36aWyWW3coM0BlUogm6gZNETBouRx5u9wvulw=",
     "leaveDotGit": false,
     "meta": {
       "author": "muadz",
@@ -2234,10 +2234,10 @@
       "screenshot": "https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png",
       "version": "0.0.1"
     },
-    "path": "/nix/store/jiw7yyj550xyxlhw2f2kwdqc6b1dkbc8-prayertimes",
-    "rev": "c6dac9d6310580cecc9d2eb8b8e87100cceeb866",
+    "path": "/nix/store/an4rqcs6ynx6cqx58ayl8wsjwddxjrg7-prayertimes",
+    "rev": "660cd8e59c8e28b87403323967b02542bd4bf729",
     "rootDir": "",
-    "sha256": "01ws7rp2ycvsnkb444z4z9a2769dnq4z95g7jgjy0qwq217932j5",
+    "sha256": "0p5s5zfbny8wp5l304ad0vm2d22jcm036a3pbfb6qsgsbpx44l8s",
     "url": "https://github.com/muadzmo/prayertimes"
   },
   "pulsarX3": {
