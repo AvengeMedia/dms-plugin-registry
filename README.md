@@ -1091,6 +1091,35 @@ Inline preview and chroma-based syntax highlighting for Notepad
 
 
 
+#### [Dank Obsidian](https://github.com/Samoggino/dankObsidian)
+
+Quick access to your Obsidian vaults
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: dankObsidian
+- name: Dank Obsidian
+- author: Samoggino
+- compositors: any
+- capabilities: launcher
+- dependencies: obsidian
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Samoggino/dankObsidian/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Pomodoro Timer](https://github.com/AvengeMedia/dms-plugins)
 
 A customizable Pomodoro timer.
