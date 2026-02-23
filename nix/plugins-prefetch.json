@@ -1437,12 +1437,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "flatpakUpdates": {
-    "date": "2026-02-20T07:34:58-05:00",
+    "date": "2026-02-22T18:08:54-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ex/d9NEpFlv6T4zxOOoH0om974p1m3wBxbKWCsKi5nc=",
+    "hash": "sha256-GdDUrzAWKWOgW7ZTiKquKgnI0CiOyJJEOenHqGygJCc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Erdely",
@@ -1468,10 +1468,10 @@
       "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/n16m7z0a6cgsv1q6sd7g81ih4j2k6ngs-dms-plugins",
-    "rev": "609647e8a13b6e38d282ca861c660f56d94e63f6",
+    "path": "/nix/store/f7jn1xgjc9a4wkk05dkv5zicwfl1i8zw-dms-plugins",
+    "rev": "b64400001207c2be5c1227f70b11d1a4618bda5d",
     "rootDir": "",
-    "sha256": "0xz6lb10m5mjql0pr6vmibpvv2fj0zm3iwcc9zx5n5i9s7sds7vv",
+    "sha256": "09r4l1naiiz975295j4f538ch29amsm8hlxnbfh66a8n62px9l0r",
     "url": "https://github.com/merdely/dms-plugins"
   },
   "githubHeatmap": {
@@ -2386,12 +2386,12 @@
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
   "sshConnections": {
-    "date": "2026-02-20T07:34:58-05:00",
+    "date": "2026-02-22T18:08:54-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ex/d9NEpFlv6T4zxOOoH0om974p1m3wBxbKWCsKi5nc=",
+    "hash": "sha256-GdDUrzAWKWOgW7ZTiKquKgnI0CiOyJJEOenHqGygJCc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Erdely",
@@ -2415,12 +2415,12 @@
       "path": "sshConnections",
       "repo": "https://github.com/merdely/dms-plugins",
       "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/sshconnections.png",
-      "version": "1.0.0"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/n16m7z0a6cgsv1q6sd7g81ih4j2k6ngs-dms-plugins",
-    "rev": "609647e8a13b6e38d282ca861c660f56d94e63f6",
+    "path": "/nix/store/f7jn1xgjc9a4wkk05dkv5zicwfl1i8zw-dms-plugins",
+    "rev": "b64400001207c2be5c1227f70b11d1a4618bda5d",
     "rootDir": "",
-    "sha256": "0xz6lb10m5mjql0pr6vmibpvv2fj0zm3iwcc9zx5n5i9s7sds7vv",
+    "sha256": "09r4l1naiiz975295j4f538ch29amsm8hlxnbfh66a8n62px9l0r",
     "url": "https://github.com/merdely/dms-plugins"
   },
   "sshMonitor": {
