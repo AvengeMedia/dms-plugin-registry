@@ -126,21 +126,21 @@
         "name": "Blue",
         "dark": {
           "primary": "#a2d2ff",
-          "outline": "#b8c9d9",
+          "primaryContainer": "#5b748c",
           "secondary": "#ed92d8",
-          "surfaceTint": "#a2d2ff",
-          "info": "#a2d2ff",
           "surfaceVariantText": "#b8c9d9",
-          "primaryContainer": "#5b748c"
+          "surfaceTint": "#a2d2ff",
+          "outline": "#b8c9d9",
+          "info": "#a2d2ff"
         },
         "light": {
-          "primary": "#2a6fb8",
-          "outline": "#6090c4",
+          "primary": "#1e61c6",
+          "primaryContainer": "#cce0f8",
           "secondary": "#b83a99",
-          "surfaceTint": "#2a6fb8",
-          "info": "#2a6fb8",
           "surfaceVariantText": "#182840",
-          "primaryContainer": "#cce0f8"
+          "surfaceTint": "#1e61c6",
+          "outline": "#6090c4",
+          "info": "#1e61c6"
         }
       },
       {
@@ -148,21 +148,21 @@
         "name": "Pink",
         "dark": {
           "primary": "#ed92d8",
-          "outline": "#d9b8c4",
+          "primaryContainer": "#8c5b6e",
           "secondary": "#a2d2ff",
-          "surfaceTint": "#ed92d8",
-          "info": "#a2d2ff",
           "surfaceVariantText": "#d9b8c4",
-          "primaryContainer": "#8c5b6e"
+          "surfaceTint": "#ed92d8",
+          "outline": "#d9b8c4",
+          "info": "#a2d2ff"
         },
         "light": {
           "primary": "#b83a99",
-          "outline": "#c47ab0",
-          "secondary": "#2a6fb8",
-          "surfaceTint": "#b83a99",
-          "info": "#2a6fb8",
+          "primaryContainer": "#f5ccec",
+          "secondary": "#1e61c6",
           "surfaceVariantText": "#401830",
-          "primaryContainer": "#f5ccec"
+          "surfaceTint": "#b83a99",
+          "outline": "#c47ab0",
+          "info": "#1e61c6"
         }
       }
     ]
