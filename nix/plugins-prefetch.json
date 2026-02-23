@@ -1925,6 +1925,40 @@
     "sha256": "0dcla0lwg843k81a96l5d8fnpb281bcnhjd3c5xjj4d9n1svm3mp",
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
+  "mediaControlsPlus": {
+    "date": "2026-02-21T19:56:49+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-xuoSSuRSQlocPFUHLEA+TfxzlUAkXYO0T20fQN9H0z8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lpv11",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Media controls with full bar volume scroll. Disables workspace scroll.",
+      "distro": [
+        "any"
+      ],
+      "id": "mediaControlsPlus",
+      "name": "Media Controls Plus",
+      "repo": "https://github.com/lpv11/dms-media-controls-plus",
+      "screenshot": "https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/wlckggf3kg07szbw83kr9a4nfybbdjd1-dms-media-controls-plus",
+    "rev": "c7525cad1a0a1acdc14cde5d1470cd537bc31117",
+    "rootDir": "",
+    "sha256": "0gyk8zgl07vd9ys86p9482ap7z2d7r02q1sm7hf5lhjjwi515sn6",
+    "url": "https://github.com/lpv11/dms-media-controls-plus"
+  },
   "mediaFrame": {
     "date": "2026-01-25T01:46:02Z",
     "deepClone": false,
