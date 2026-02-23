@@ -2605,6 +2605,17 @@ Accessible themes conforming to the highest color-contrast standard (WCAG AAA)
 
 
 
+### Oxocarbon
+
+High contrast accessible colorscheme inspired by IBM Carbon
+
+- **Author:** Sunny
+- **ID:** `oxocarbon` **Version:** `1.0.0`
+
+![Oxocarbon](themes/oxocarbon/preview.svg)
+
+
+
 ### Peace & Quiet
 
 Light and dark theme with pastel accents and purple hues
