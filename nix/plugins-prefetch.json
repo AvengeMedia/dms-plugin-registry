@@ -818,6 +818,43 @@
     "sha256": "0cf3dgnf026ji2c67c5bjakxc40wsra3qc9jhhnyg8rp8igzcf5r",
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
+  "dankObsidian": {
+    "date": "2026-02-21T20:18:37+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-A+NKSORjmyocBWycNvEHaBLPesit0VmspeFieYlee24=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Samoggino",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "obsidian"
+      ],
+      "description": "Quick access to your Obsidian vaults",
+      "distro": [
+        "any"
+      ],
+      "id": "dankObsidian",
+      "name": "Dank Obsidian",
+      "repo": "https://github.com/Samoggino/dankObsidian",
+      "requires_dms": ">=1.4.0",
+      "screenshot": "https://raw.githubusercontent.com/Samoggino/dankObsidian/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/vvq24jl3dqf72fc5i3nc6aaaikfbrp94-dankObsidian",
+    "rev": "449398eed17e24bb78cca1691c711ab1d9cfcf71",
+    "rootDir": "",
+    "sha256": "0vkvbs4pjqp1lnn5klddr1xcy4k80zqkd73c0lf2m6v3wi44mqq3",
+    "url": "https://github.com/Samoggino/dankObsidian"
+  },
   "dankPomodoroTimer": {
     "date": "2026-02-20T13:44:47-05:00",
     "deepClone": false,
