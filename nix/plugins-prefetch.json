@@ -1997,6 +1997,41 @@
     "sha256": "0gmlcvh1rwpxiskmamx8y58j6hyrh11bfp82yxgdyij75ld624av",
     "url": "https://github.com/arrifat346afs/mediaPlayer"
   },
+  "musicLyrics": {
+    "date": "2026-02-23T17:16:30+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-RAASP/LBPHNGfLuhFX2O55ucjmYv/8QhMmlPfgGKId8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "gasiyu",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Display synced music lyrics from multiple sources.",
+      "distro": [
+        "any"
+      ],
+      "id": "musicLyrics",
+      "name": "Music Lyrics",
+      "repo": "https://github.com/gasiyu/dms-plugin-musiclyrics",
+      "screenshot": "https://raw.githubusercontent.com/Gasiyu/dms-plugin-musiclyrics/main/screenshots.png",
+      "version": "1.2.0"
+    },
+    "path": "/nix/store/k5g8f981fmxbv8vx9mmm52qg7h4al46j-dms-plugin-musiclyrics",
+    "rev": "45fb962a97c8e393fba803a2263f1ee5fe838cf0",
+    "rootDir": "",
+    "sha256": "1pr1i80pwkv968hw9zrgcs79r6z7iryib8dvgi376g61y8zi4024",
+    "url": "https://github.com/gasiyu/dms-plugin-musiclyrics"
+  },
   "nepaliCalendar": {
     "date": "2026-01-01T21:09:33+05:45",
     "deepClone": false,
