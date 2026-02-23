@@ -2187,7 +2187,7 @@ Shows how many Steam friends are online, and whos online playing what.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/banicans/DMS-SteamFriends/main/Screenshot.png?token=GHSAT0AAAAAADUWRF5II6V2QDWAEEHVI5BK2MZS57A)
+![screenshot](https://raw.githubusercontent.com/banicans/DMS-SteamFriends/main/Screenshot.png)
 
 </details>
 
