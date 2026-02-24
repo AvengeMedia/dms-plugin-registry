@@ -1926,12 +1926,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlsPlus": {
-    "date": "2026-02-21T19:56:49+02:00",
+    "date": "2026-02-23T22:55:15+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-xuoSSuRSQlocPFUHLEA+TfxzlUAkXYO0T20fQN9H0z8=",
+    "hash": "sha256-cO6zIumXC29aS/BxtVP/Aiuzemaog2h9F8UWwOzqB7c=",
     "leaveDotGit": false,
     "meta": {
       "author": "lpv11",
@@ -1953,10 +1953,10 @@
       "screenshot": "https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/wlckggf3kg07szbw83kr9a4nfybbdjd1-dms-media-controls-plus",
-    "rev": "c7525cad1a0a1acdc14cde5d1470cd537bc31117",
+    "path": "/nix/store/xf43rxynny8sapl86sqr6l6jmxqdrqfj-dms-media-controls-plus",
+    "rev": "9bd8ba6e6d668b778d7eaeb04d3222fd2d6ff867",
     "rootDir": "",
-    "sha256": "0gyk8zgl07vd9ys86p9482ap7z2d7r02q1sm7hf5lhjjwi515sn6",
+    "sha256": "1dq7xbnc05n52xyni0x8crxb6aq2zx9vawgh9dd6y2wpx4ib7vkh",
     "url": "https://github.com/lpv11/dms-media-controls-plus"
   },
   "mediaFrame": {
@@ -2032,12 +2032,12 @@
     "url": "https://github.com/arrifat346afs/mediaPlayer"
   },
   "musicLyrics": {
-    "date": "2026-02-23T17:16:30+07:00",
+    "date": "2026-02-24T04:26:17+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-RAASP/LBPHNGfLuhFX2O55ucjmYv/8QhMmlPfgGKId8=",
+    "hash": "sha256-rKydBsPD7lBvypmTtBkviMMMwJ/PT4gP6EZXT43Dp7A=",
     "leaveDotGit": false,
     "meta": {
       "author": "gasiyu",
@@ -2060,10 +2060,10 @@
       "screenshot": "https://raw.githubusercontent.com/Gasiyu/dms-plugin-musiclyrics/main/screenshots.png",
       "version": "1.2.0"
     },
-    "path": "/nix/store/k5g8f981fmxbv8vx9mmm52qg7h4al46j-dms-plugin-musiclyrics",
-    "rev": "45fb962a97c8e393fba803a2263f1ee5fe838cf0",
+    "path": "/nix/store/pb4xmif0nc55rx4l9l7n2fri659rqlck-dms-plugin-musiclyrics",
+    "rev": "c11d7db35e35ebd07de582ce4d2d8f064c2227a7",
     "rootDir": "",
-    "sha256": "1pr1i80pwkv968hw9zrgcs79r6z7iryib8dvgi376g61y8zi4024",
+    "sha256": "1c57qf6lyms6x07qhkygkz00rhw85wcv94wrr9pm1vn3qc39vb5c",
     "url": "https://github.com/gasiyu/dms-plugin-musiclyrics"
   },
   "nepaliCalendar": {
@@ -2567,6 +2567,40 @@
     "rootDir": "",
     "sha256": "1yp327xvb64yd90f8sgsmbq8f8pzk9m56zm0a7gxz1qbj91h1n2r",
     "url": "https://github.com/boutabong/dms-plugins"
+  },
+  "steamfriends": {
+    "date": "2026-02-21T11:41:16Z",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-e2zv0o52HWw1HWfX4NStH9u8z5+gfRKWoCjSWznLduU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Banicnas",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Shows how many Steam friends are online, and whos online playing what.",
+      "distro": [
+        "any"
+      ],
+      "id": "steamfriends",
+      "name": "Steam Friends",
+      "repo": "https://github.com/banicans/DMS-SteamFriends",
+      "screenshot": "https://raw.githubusercontent.com/banicans/DMS-SteamFriends/main/Screenshot.png"
+    },
+    "path": "/nix/store/s92gwlmri8xv6mfh6jwzhgnhzp2wrb35-DMS-SteamFriends",
+    "rev": "b85bb1b7312cbda4aa8715c0bd67d83bb3a23b53",
+    "rootDir": "",
+    "sha256": "1rbnrcwmpli8l2b14zd0kz7vrnqzmpaf1mv73lsnq7bniv9fyv3v",
+    "url": "https://github.com/banicans/DMS-SteamFriends"
   },
   "stockManager": {
     "date": "2026-02-10T19:10:53+08:00",
