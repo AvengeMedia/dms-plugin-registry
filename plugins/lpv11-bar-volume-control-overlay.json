@@ -1,0 +1,13 @@
+{
+  "id": "barVolumeControlOverlay",
+  "name": "Bar Volume Control Overlay",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/lpv11/dms-bar-volume-control-overlay",
+  "author": "lpv11",
+  "description": "Invisible bar overlay that controls system volume via scroll and toggles mute on middle click.",
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/lpv11/dms-bar-volume-control-overlay/main/screenshot.png"
+}
