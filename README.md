@@ -2495,6 +2495,35 @@ Multiple timezones clock for DankBar
 
 
 
+#### [World Clock Multi](https://github.com/szabolcsf/dms-world-clock-multi)
+
+Display up to 5 timezones on the DankBar. Toggle between showing all at once or cycling one at a time at a configurable interval.
+
+
+
+- id: worldClockMulti
+- name: World Clock Multi
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-world-clock-multi/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
