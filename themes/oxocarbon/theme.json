@@ -1,0 +1,70 @@
+{
+  "id": "oxocarbon",
+  "name": "Oxocarbon",
+  "version": "1.0.0",
+  "author": "Sunny",
+  "description": "High contrast accessible colorscheme inspired by IBM Carbon",
+  "dark": {
+    "primaryText": "#161616",
+    "primaryContainer": "#525252",
+    "surface": "#161616",
+    "surfaceText": "#dde1e6",
+    "surfaceVariant": "#393939",
+    "surfaceVariantText": "#f2f4f8",
+    "surfaceTint": "#dde1e6",
+    "background": "#121212",
+    "backgroundText": "#dde1e6",
+    "outline": "#525252",
+    "surfaceContainer": "#161616",
+    "surfaceContainerHigh": "#262626",
+    "error": "#ee5396",
+    "warning": "#f0d92b",
+    "info": "#be85ff"	
+  },
+  "light": {
+    "primaryText": "#f6f6f6",
+    "primaryContainer": "#525252",
+    "surface": "#f6f6f6",
+    "surfaceText": "#37474f",
+    "surfaceVariant": "#d0d0d0",
+    "surfaceVariantText": "#525252",
+    "surfaceTint": "#37474f",
+    "background": "#ffffff",
+    "backgroundText": "#37474f",
+    "outline": "#90a4ae",
+    "surfaceContainer": "#f6f6f6",
+    "surfaceContainerHigh": "#f2f2f2",
+    "error": "#ee5296",
+    "warning": "#f0d92b",
+    "info": "#be85ff"
+  },
+  "variants": {
+    "default": "blue",
+    "options": [
+      {
+        "id": "blue",
+        "name": "Blue",
+	"dark": {
+	  "primary": "#08bdba",
+	  "secondary": "#ff7eb6"
+	},
+	"light": {
+	  "primary": "#08bdba",
+	  "secondary": "#ff7eb6"
+	}
+      },
+      {
+        "id": "pink",
+        "name": "Pink",
+	"dark": {
+	  "primary": "#ff7eb6",
+	  "secondary": "#08bdba"
+	},
+	"light": {
+	  "primary": "#ff7eb6",
+	  "secondary": "#08bdba"
+	}
+      }
+    ]
+  }
+}

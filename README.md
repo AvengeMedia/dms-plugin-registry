@@ -1091,6 +1091,35 @@ Inline preview and chroma-based syntax highlighting for Notepad
 
 
 
+#### [Dank Obsidian](https://github.com/Samoggino/dankObsidian)
+
+Quick access to your Obsidian vaults
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: dankObsidian
+- name: Dank Obsidian
+- author: Samoggino
+- compositors: any
+- capabilities: launcher
+- dependencies: obsidian
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Samoggino/dankObsidian/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Pomodoro Timer](https://github.com/AvengeMedia/dms-plugins)
 
 A customizable Pomodoro timer.
@@ -1740,6 +1769,35 @@ Kubernetes plugin for DankBar
 
 
 
+#### [Media Controls Plus](https://github.com/lpv11/dms-media-controls-plus)
+
+Media controls with full bar volume scroll. Disables workspace scroll.
+
+
+
+- id: mediaControlsPlus
+- name: Media Controls Plus
+- author: lpv11
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Media Player](https://github.com/arrifat346afs/mediaPlayer)
 
 A desktop media player widget
@@ -1762,6 +1820,35 @@ A desktop media player widget
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/arrifat346afs/mediaPlayer/refs/heads/main/screenshot_8.png)
+
+</details>
+
+
+
+
+
+#### [Music Lyrics](https://github.com/gasiyu/dms-plugin-musiclyrics)
+
+Display synced music lyrics from multiple sources.
+
+
+
+- id: musicLyrics
+- name: Music Lyrics
+- author: gasiyu
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Gasiyu/dms-plugin-musiclyrics/main/screenshots.png)
 
 </details>
 
@@ -2166,6 +2253,35 @@ Puts the Power menu in the Bar
 
 
 
+#### [Steam Friends](https://github.com/banicans/DMS-SteamFriends)
+
+Shows how many Steam friends are online, and whos online playing what.
+
+
+
+- id: steamfriends
+- name: Steam Friends
+- author: Banicnas
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/banicans/DMS-SteamFriends/main/Screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Sticker Search](https://github.com/AvengeMedia/dms-plugins)
 
 Search and browse stickers powered by Klipy
@@ -2518,12 +2634,23 @@ Accessible themes conforming to the highest color-contrast standard (WCAG AAA)
 
 
 
+### Oxocarbon
+
+High contrast accessible colorscheme inspired by IBM Carbon
+
+- **Author:** Sunny
+- **ID:** `oxocarbon` **Version:** `1.0.0`
+
+![Oxocarbon](themes/oxocarbon/preview.svg)
+
+
+
 ### Peace & Quiet
 
 Light and dark theme with pastel accents and purple hues
 
 - **Author:** ernestowg
-- **ID:** `peaceAndQuiet` **Version:** `1.0.0`
+- **ID:** `peaceAndQuiet` **Version:** `1.0.1`
 
 ![Peace & Quiet](themes/peace-and-quiet/preview.svg)
 

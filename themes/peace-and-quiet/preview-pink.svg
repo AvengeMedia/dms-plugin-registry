@@ -31,14 +31,14 @@
   <text x="28" y="98" font-family="system-ui, sans-serif" font-size="10" fill="#c47ab0">Outline color</text>
   <rect x="28" y="108" width="72" height="18" rx="9" fill="#b83a99"/>
   <text x="64" y="120" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#ffffff">Primary</text>
-  <rect x="108" y="108" width="48" height="18" rx="4" fill="#2a6fb8"/>
+  <rect x="108" y="108" width="48" height="18" rx="4" fill="#1e61c6"/>
   <rect x="16" y="140" width="100" height="52" rx="6" fill="#f5f0fa"/>
   <rect x="24" y="148" width="84" height="36" rx="4" fill="#f5f0fa"/>
   <text x="66" y="170" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#1e1824">Background</text>
   <rect x="124" y="140" width="100" height="52" rx="6" fill="#f5f0fa"/>
   <circle cx="148" cy="166" r="9" fill="#b0324e"/>
   <circle cx="172" cy="166" r="9" fill="#b05520"/>
-  <circle cx="196" cy="166" r="9" fill="#2a6fb8"/>
+  <circle cx="196" cy="166" r="9" fill="#1e61c6"/>
   <rect x="16" y="200" width="208" height="24" rx="4" fill="#b83a99" opacity="0.15"/>
   <text x="120" y="216" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#1e1824">Surface Tint Overlay</text>
 </g>
