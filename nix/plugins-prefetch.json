@@ -1889,6 +1889,40 @@
     "sha256": "0ssfincad3rjsg0n9f98bk3j38b25z93kmacp2v7106mviy9n691",
     "url": "https://github.com/KangweiZhu/lyrics-on-panel"
   },
+  "magyarNevnapok": {
+    "date": "2026-02-25T15:06:22+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-SGpQwd3fdSmk9MfEjBenKzW4KEc/CWRQacL0YCgA4RM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Szabolcs Fazekas",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Display the current Hungarian nameday on the DankBar. Shows today's name on the bar, with yesterday/today/tomorrow in the popout panel.",
+      "distro": [
+        "any"
+      ],
+      "id": "magyarNevnapok",
+      "name": "Magyar N\u00e9vnapok",
+      "repo": "https://github.com/szabolcsf/dms-nameday",
+      "screenshot": "https://github.com/szabolcsf/dms-nameday/raw/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/9r6hmpbwfhipqmy8ccis4fv8m70dnvfv-dms-nameday",
+    "rev": "619e49f38624a72fbcba6836ea376595de46da08",
+    "rootDir": "",
+    "sha256": "04z100l61x62d586829z8wlbhd9blwbqri67yjj2jxfzvp0m0sj8",
+    "url": "https://github.com/szabolcsf/dms-nameday"
+  },
   "markets": {
     "date": "2026-02-17T17:39:53+01:00",
     "deepClone": false,
