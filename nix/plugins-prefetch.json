@@ -39,6 +39,42 @@
     "sha256": "0760krszidf4nd2ij6jc1v4lyd22i472ip5zm30wb0hhayk2z449",
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
+  "airQuality": {
+    "date": "2026-02-26T10:45:26+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-shQcxUSRwMMeE2cwngzumMOEnpHA4/JO/pcifwd4yNs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Szabolcs Fazekas",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl"
+      ],
+      "description": "Display the current Air Quality Index (AQI) on the bar with detailed pollutant breakdown. Supports US and European AQI scales with auto-location.",
+      "distro": [
+        "any"
+      ],
+      "id": "airQuality",
+      "name": "Air Quality",
+      "repo": "https://github.com/szabolcsf/dms-air-quality",
+      "screenshot": "https://github.com/szabolcsf/dms-air-quality/raw/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/dcjfbv2pbszlbzrg6xkhfp09kqgka16m-dms-air-quality",
+    "rev": "aff8f56bc8bce96d6d5bbe9df388b4ea57aa8544",
+    "rootDir": "",
+    "sha256": "1ny8g03py8lpzr7g5qy0j6g89hwqxq69wc372cgc7h4i8k2iq55j",
+    "url": "https://github.com/szabolcsf/dms-air-quality"
+  },
   "alarmClock": {
     "date": "2026-02-03T21:48:05+02:00",
     "deepClone": false,
@@ -257,12 +293,12 @@
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
   "chineseCalendar": {
-    "date": "2026-02-25T11:21:17+08:00",
+    "date": "2026-02-27T00:02:03+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-QytZCEBl+vlHfDzUammuEi9JucE42aC+vERzeEeP1A0=",
+    "hash": "sha256-VYqwIPzHn2sbAm/a35DS0pmbJlNu213+4prI00Ij4/4=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -287,12 +323,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-ccal",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-ccal/master/assets/screenshot.png",
-      "version": "1.2.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/z44dkijdqxpvh4xi8335rkcx57wam2rm-dms-plugin-ccal",
-    "rev": "28c109e65edb56bd560d179edc46f5d09ab5088d",
+    "path": "/nix/store/zfb65dsxvmsy4swvwxgppnmr2rrv59zk-dms-plugin-ccal",
+    "rev": "4477daceab3c6360716a7fe223a6666f794905bc",
     "rootDir": "",
-    "sha256": "03flix3phws4pjza1n9qq6wljbqjmrlnmm1wgi3zkyk58045jas3",
+    "sha256": "1zp34d1d7j4swbz5vnvfack9p6fjsa8dznkg08dnp7y7zhhb12jm",
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
   "claudeCodeUsage": {
@@ -1668,12 +1704,12 @@
     "url": "https://github.com/TaylanTatli/dms-plugins"
   },
   "homeAssistantMonitor": {
-    "date": "2026-02-23T20:49:06+08:00",
+    "date": "2026-02-26T18:57:11+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-iIJ3iJAOUIwSACd/ELoPotZqS43eCU9E/BFeKxwo11Q=",
+    "hash": "sha256-KW819S5o8mqvqppo0AnoLkwjbakbITIiu8p6wqPT6ok=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -1698,12 +1734,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-      "version": "1.2.5"
+      "version": "1.2.6"
     },
-    "path": "/nix/store/67945zp0i79aqkj6r20nj2w6lf0ni86g-dms-plugin-hass",
-    "rev": "7fffaf30c0a00d47b34d1794ead9ba82983e0916",
+    "path": "/nix/store/fj65bxkwiphn1p42in58clzcw3np7b2c-dms-plugin-hass",
+    "rev": "97beccdf732c3dee4560190cbcdad5b190a81295",
     "rootDir": "",
-    "sha256": "0m6p50f2nphizi24y2fyim5nmmm21yx10zr70098ql0fj247g0l8",
+    "sha256": "12gasfiw4ynapci3488vm5nj6k1fx04x0s4smapnmwk85vskavr9",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hueManager": {
