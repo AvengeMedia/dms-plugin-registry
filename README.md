@@ -276,6 +276,35 @@ Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
 
 
 
+#### [Air Quality](https://github.com/szabolcsf/dms-air-quality)
+
+Display the current Air Quality Index (AQI) on the bar with detailed pollutant breakdown. Supports US and European AQI scales with auto-location.
+
+
+
+- id: airQuality
+- name: Air Quality
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-air-quality/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Claude Code Usage](https://github.com/titeya/dms-claudecode)
 
 Monitor your Claude Code subscription usage with token tracking, rate limits, and daily activity charts
