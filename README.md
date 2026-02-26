@@ -613,6 +613,35 @@ Manage Lenovo battery settings like conservation mode
 
 
 
+#### [Package Updates](https://github.com/rahulmysore23/dms-pkg-update)
+
+Check and manage DNF and Flatpak package updates from the bar.
+
+
+
+- id: pkgUpdate
+- name: Package Updates
+- author: rahulmysore23
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: fedora, any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rahulmysore23/dms-pkg-update/main/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
