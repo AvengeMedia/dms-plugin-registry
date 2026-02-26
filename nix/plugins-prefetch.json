@@ -2276,6 +2276,42 @@
     "sha256": "0hj4mk4lf2ap1r1lkwzz3y7ldz8r1h89pifrj76r7pahg7bx0dlm",
     "url": "https://github.com/antonjah/nix-monitor"
   },
+  "pkgUpdate": {
+    "date": "2026-02-26T09:46:06-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-n7j4gz0VOG7kbEnfECxClwdZ+/Ut6KUN5A32uJ8Q0uw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "rahulmysore23",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Check and manage DNF and Flatpak package updates from the bar.",
+      "distro": [
+        "fedora",
+        "any"
+      ],
+      "id": "pkgUpdate",
+      "name": "Package Updates",
+      "repo": "https://github.com/rahulmysore23/dms-pkg-update",
+      "screenshot": "https://raw.githubusercontent.com/rahulmysore23/dms-pkg-update/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/hafq2s48rhzxwv1v34dlbza0j6wjfv25-dms-pkg-update",
+    "rev": "60fb6583ebc46a834acf3c03fd45b379370b4592",
+    "rootDir": "",
+    "sha256": "1v6j22gvixhdwh6sbs1dypxmj1wp88n11ps9dkj6wf0m7n1zif4z",
+    "url": "https://github.com/rahulmysore23/dms-pkg-update"
+  },
   "polyglot": {
     "date": "2026-01-31T21:31:43+01:00",
     "deepClone": false,
