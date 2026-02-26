@@ -1769,6 +1769,35 @@ Kubernetes plugin for DankBar
 
 
 
+#### [Magyar Névnapok](https://github.com/szabolcsf/dms-nameday)
+
+Display the current Hungarian nameday on the DankBar. Shows today's name on the bar, with yesterday/today/tomorrow in the popout panel.
+
+
+
+- id: magyarNevnapok
+- name: Magyar Névnapok
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-nameday/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Media Controls Plus](https://github.com/lpv11/dms-media-controls-plus)
 
 Media controls with full bar volume scroll. Disables workspace scroll.
