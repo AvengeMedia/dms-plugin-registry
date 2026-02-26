@@ -1,11 +1,11 @@
 {
   "aiAssistant": {
-    "date": "2026-02-21T16:26:02-05:00",
+    "date": "2026-02-24T02:00:12-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-c9lQ7N3Qdx0zfAbS+GwLoTJILWRDZsJPbvYHlkS/A7s=",
+    "hash": "sha256-iZAvplcQgsXBqL/cKA6JQjRPyQ5MGhlFs8S1+HWewBw=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -31,12 +31,12 @@
       "repo": "https://github.com/devnullvoid/dms-ai-assistant",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://github.com/devnullvoid/dms-ai-assistant/blob/main/screenshots/AI_ASSISTANT_SCREENSHOT_CURRENT_1.png?raw=true",
-      "version": "1.1.3"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/v49as5s70ps61yazdz5bl39z3k0bnspb-dms-ai-assistant",
-    "rev": "643c8f66665e10bb1d0349c2341fcfbefe3e4f37",
+    "path": "/nix/store/mi55aa06fjj7xnwqi33qyrgp5n7rhi2r-dms-ai-assistant",
+    "rev": "dec1f5a3018c057a79b5f8365c74be367e58e220",
     "rootDir": "",
-    "sha256": "1fq3px29c1zndr7w4rj3chnlhcm11dngilh6ghrisxyhvpn51nbk",
+    "sha256": "0760krszidf4nd2ij6jc1v4lyd22i472ip5zm30wb0hhayk2z449",
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "alarmClock": {
@@ -257,12 +257,12 @@
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
   "chineseCalendar": {
-    "date": "2026-02-12T23:26:44+08:00",
+    "date": "2026-02-25T11:21:17+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-aA745PgumPlPybaZgOSpEhi0JSi5aJVji/4wKtRwdQ4=",
+    "hash": "sha256-QytZCEBl+vlHfDzUammuEi9JucE42aC+vERzeEeP1A0=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -289,19 +289,19 @@
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-ccal/master/assets/screenshot.png",
       "version": "1.2.0"
     },
-    "path": "/nix/store/bzklhb55v2ivl0r7m1vcszjcs7nbq50b-dms-plugin-ccal",
-    "rev": "f2dfb90956d675b7493af22288c12bdbdc72f056",
+    "path": "/nix/store/z44dkijdqxpvh4xi8335rkcx57wam2rm-dms-plugin-ccal",
+    "rev": "28c109e65edb56bd560d179edc46f5d09ab5088d",
     "rootDir": "",
-    "sha256": "03kmf3a2lc7yidiras5r50jv860jm7j816dnr57zk61fz3jgh3k8",
+    "sha256": "03flix3phws4pjza1n9qq6wljbqjmrlnmm1wgi3zkyk58045jas3",
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
   "claudeCodeUsage": {
-    "date": "2026-02-19T09:43:30+01:00",
+    "date": "2026-02-25T11:26:06+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-m7gO2JMevl26zZcnMxMkW78NwLjnfExONm+Iq+EPSZU=",
+    "hash": "sha256-akXTXG35XtBJZhEBTBGUW24/QLn+0lJMoJCZE+Kvogo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Nicolas Bellamy",
@@ -323,12 +323,12 @@
       "name": "Claude Code Usage",
       "repo": "https://github.com/titeya/dms-claudecode",
       "screenshot": "https://github.com/titeya/dms-claudecode/raw/master/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/bja3sf3pv79vkbc7idvy3p929v1p7bhn-dms-claudecode",
-    "rev": "0b4853c153f13bb8010f5171419fd2096d3916fb",
+    "path": "/nix/store/0az0kgin6wx73mahfwjbwb1jh0p1f195-dms-claudecode",
+    "rev": "7154536c4ca60c67238eb61162fd8537e92e3cdb",
     "rootDir": "",
-    "sha256": "15a91zhsp23g6r74qz77p300vgsv4h9k69wprnx5vghyjgc0xf4v",
+    "sha256": "02m2mzi176chl1655lpyp503yvjvjh8lq08icr4x0pprdmfd6iba",
     "url": "https://github.com/titeya/dms-claudecode"
   },
   "commandRunner": {
@@ -1889,6 +1889,40 @@
     "sha256": "0ssfincad3rjsg0n9f98bk3j38b25z93kmacp2v7106mviy9n691",
     "url": "https://github.com/KangweiZhu/lyrics-on-panel"
   },
+  "magyarNevnapok": {
+    "date": "2026-02-25T15:06:22+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-SGpQwd3fdSmk9MfEjBenKzW4KEc/CWRQacL0YCgA4RM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Szabolcs Fazekas",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Display the current Hungarian nameday on the DankBar. Shows today's name on the bar, with yesterday/today/tomorrow in the popout panel.",
+      "distro": [
+        "any"
+      ],
+      "id": "magyarNevnapok",
+      "name": "Magyar N\u00e9vnapok",
+      "repo": "https://github.com/szabolcsf/dms-nameday",
+      "screenshot": "https://github.com/szabolcsf/dms-nameday/raw/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/9r6hmpbwfhipqmy8ccis4fv8m70dnvfv-dms-nameday",
+    "rev": "619e49f38624a72fbcba6836ea376595de46da08",
+    "rootDir": "",
+    "sha256": "04z100l61x62d586829z8wlbhd9blwbqri67yjj2jxfzvp0m0sj8",
+    "url": "https://github.com/szabolcsf/dms-nameday"
+  },
   "markets": {
     "date": "2026-02-17T17:39:53+01:00",
     "deepClone": false,
@@ -1926,12 +1960,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlsPlus": {
-    "date": "2026-02-23T22:55:15+02:00",
+    "date": "2026-02-26T01:23:06+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-cO6zIumXC29aS/BxtVP/Aiuzemaog2h9F8UWwOzqB7c=",
+    "hash": "sha256-jFF8qpdzgnMEsCfkH8juAvWrXGOU8Us8izaJOQkG1CE=",
     "leaveDotGit": false,
     "meta": {
       "author": "lpv11",
@@ -1951,12 +1985,12 @@
       "name": "Media Controls Plus",
       "repo": "https://github.com/lpv11/dms-media-controls-plus",
       "screenshot": "https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.0.3"
     },
-    "path": "/nix/store/xf43rxynny8sapl86sqr6l6jmxqdrqfj-dms-media-controls-plus",
-    "rev": "9bd8ba6e6d668b778d7eaeb04d3222fd2d6ff867",
+    "path": "/nix/store/r5bdmiv5q504dmgw1ymkr8qvlkqq78nw-dms-media-controls-plus",
+    "rev": "d445a0cb92594c4e4b808e2eb27e6effe697ea4e",
     "rootDir": "",
-    "sha256": "1dq7xbnc05n52xyni0x8crxb6aq2zx9vawgh9dd6y2wpx4ib7vkh",
+    "sha256": "08fl0q4kk29nicy4pwclcdfapx82xv41zr17n02770kkjym7qlcc",
     "url": "https://github.com/lpv11/dms-media-controls-plus"
   },
   "mediaFrame": {
@@ -2748,12 +2782,12 @@
     "url": "https://github.com/sr-tream/dms-vscode-launcher"
   },
   "wallpaperBing": {
-    "date": "2026-02-13T13:09:17+01:00",
+    "date": "2026-02-25T16:32:36+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-YTU5r8FpvvjzrqSXWqrysxmvncCnri7YGjdBJp3yTTI=",
+    "hash": "sha256-fGUu+ezWhMHPVhTZdyaKeOlrBf79dwQfCs6K5tEc/Bg=",
     "leaveDotGit": false,
     "meta": {
       "author": "maxb",
@@ -2777,12 +2811,12 @@
       "name": "Wallpaper of the Day",
       "repo": "https://github.com/max72bra/DankPluginBingWallpaper",
       "screenshot": "https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaper/refs/heads/main/screenshot.png",
-      "version": "1.3.0"
+      "version": "1.4.1"
     },
-    "path": "/nix/store/ywzk21shwjzdpjl72pcil3f5gghxl044-DankPluginBingWallpaper",
-    "rev": "ef336c2428e8705070fd5ffa30b643c2051dc1c7",
+    "path": "/nix/store/nvd75fjyj7chlnifnii3zi5bp9qlzww9-DankPluginBingWallpaper",
+    "rev": "4e9b2ee0d211f5c605a53b2d37a99838a153039d",
     "rootDir": "",
-    "sha256": "0cjdyafjch9p3bc2xbm7q2fsy6dkyam5m5x4mvrzigk9q6pkjdb1",
+    "sha256": "067w3k8yd2nf18gh8xzxzq2npsbqi8k7gn8lav7w316nxkwjwrbw",
     "url": "https://github.com/max72bra/DankPluginBingWallpaper"
   },
   "wallpaperDiscovery": {
@@ -2927,5 +2961,39 @@
     "rootDir": "",
     "sha256": "1bsrsm0cjraqkba1b5x6d0dc2zv4vbbz2srkzndq9a3i5isjiw2g",
     "url": "https://github.com/rochacbruno/WorldClock"
+  },
+  "worldClockMulti": {
+    "date": "2026-02-25T14:04:23+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-MVarVualYNco9oc1TeMJovUcJGnbgjzf+MzmbBme36Q=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Szabolcs Fazekas",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Display up to 5 timezones on the DankBar. Toggle between showing all at once or cycling one at a time at a configurable interval.",
+      "distro": [
+        "any"
+      ],
+      "id": "worldClockMulti",
+      "name": "World Clock Multi",
+      "repo": "https://github.com/szabolcsf/dms-world-clock-multi",
+      "screenshot": "https://github.com/szabolcsf/dms-world-clock-multi/raw/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/rsdyf91ci50bc34ydvgf422kqwp5w32n-dms-world-clock-multi",
+    "rev": "eb35f2db7efb14b74c21c1e0c7a7cd55c8b7f8b6",
+    "rootDir": "",
+    "sha256": "196zkqcnrrncz3gkr0nvd4j1rxd217ilsdc7yqldfq55wrbanmii",
+    "url": "https://github.com/szabolcsf/dms-world-clock-multi"
   }
 }
