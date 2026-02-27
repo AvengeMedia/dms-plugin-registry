@@ -1148,12 +1148,12 @@
     "url": "https://github.com/jfchenier/dms-display-mirror"
   },
   "displayOutput": {
-    "date": "2026-02-19T22:51:36+07:00",
+    "date": "2026-02-27T09:38:31+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-x6fuDsmWCyfqQfz7uqjugkqMy97JejdN7+lm8zNiYIA=",
+    "hash": "sha256-nIyjwGlUnquiqj0y/xzc3VDPU+1s2WrrWfHCu01/lv4=",
     "leaveDotGit": false,
     "meta": {
       "author": "xyzsteven",
@@ -1173,12 +1173,12 @@
       "name": "Display Output",
       "repo": "https://github.com/xyzsteven/dms-displayoutput",
       "screenshot": "https://raw.githubusercontent.com/xyzsteven/dms-displayoutput/refs/heads/main/screenshot.png",
-      "version": "0.0.1"
+      "version": "0.0.2"
     },
-    "path": "/nix/store/skrl5sj7p5w1basw5mfvbn8w5k2q8qbl-dms-displayoutput",
-    "rev": "fe3be209d1ca1e286535de4f52a130de08de5e15",
+    "path": "/nix/store/l9g6cjhf9rapjahr511mf4clnwzyxvbr-dms-displayoutput",
+    "rev": "3bee076c67761aaba2b4b129a7c2d2acc8552545",
     "rootDir": "",
-    "sha256": "1030c8rz6rp9xx6kfyn9vv5qqjl2xslbmyzw87m2f2wnr47fx9y7",
+    "sha256": "1zlngx6vphpib7mnmnbcxm9wyl6xvhfgycixmaiap7jld70a734w",
     "url": "https://github.com/xyzsteven/dms-displayoutput"
   },
   "displaySettings": {
@@ -1510,12 +1510,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "flatpakUpdates": {
-    "date": "2026-02-26T17:00:36-05:00",
+    "date": "2026-02-26T21:49:14-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-4qfKlG1wxjcap1NNjI+l8PAcsLwlo2zShhy0Wb0fKiI=",
+    "hash": "sha256-SHRmwgG3mXCIIuXTJI8wbVP4K8LW3tXeT/FNDEaJwNo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Erdely",
@@ -1539,12 +1539,12 @@
       "path": "FlatpakUpdates",
       "repo": "https://github.com/merdely/dms-plugins",
       "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/n1bii8ipkyd4h32x7h1q2apscgpb4kfl-dms-plugins",
-    "rev": "f85f6f9c3df1f9ed57c45d579355e1ca7f93abf0",
+    "path": "/nix/store/3iva1hvg8g38mw6yd5n2s1wysxw8aza5-dms-plugins",
+    "rev": "afefd48be48c6815738141d56d7c9f5d7ea88607",
     "rootDir": "",
-    "sha256": "08ia3yymkd0whv96r8r5pjq1rw7hln7qqkaklwd3gikhdnacm9z2",
+    "sha256": "1nn0i530qkgi9zgdbpnnq8mzhlvd627j9lz54a4716dp0716cx28",
     "url": "https://github.com/merdely/dms-plugins"
   },
   "githubHeatmap": {
@@ -2598,12 +2598,12 @@
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
   "sshConnections": {
-    "date": "2026-02-26T17:00:36-05:00",
+    "date": "2026-02-26T21:49:14-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-4qfKlG1wxjcap1NNjI+l8PAcsLwlo2zShhy0Wb0fKiI=",
+    "hash": "sha256-SHRmwgG3mXCIIuXTJI8wbVP4K8LW3tXeT/FNDEaJwNo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Erdely",
@@ -2627,12 +2627,12 @@
       "path": "sshConnections",
       "repo": "https://github.com/merdely/dms-plugins",
       "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/sshconnections.png",
-      "version": "1.4.0"
+      "version": "1.4.3"
     },
-    "path": "/nix/store/n1bii8ipkyd4h32x7h1q2apscgpb4kfl-dms-plugins",
-    "rev": "f85f6f9c3df1f9ed57c45d579355e1ca7f93abf0",
+    "path": "/nix/store/3iva1hvg8g38mw6yd5n2s1wysxw8aza5-dms-plugins",
+    "rev": "afefd48be48c6815738141d56d7c9f5d7ea88607",
     "rootDir": "",
-    "sha256": "08ia3yymkd0whv96r8r5pjq1rw7hln7qqkaklwd3gikhdnacm9z2",
+    "sha256": "1nn0i530qkgi9zgdbpnnq8mzhlvd627j9lz54a4716dp0716cx28",
     "url": "https://github.com/merdely/dms-plugins"
   },
   "sshMonitor": {
