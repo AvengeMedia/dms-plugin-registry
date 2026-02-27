@@ -2859,6 +2859,40 @@
     "sha256": "0qh4pssfqc75br7wzxpj7wj9rnxn7y5w1wdyf6ws7wa80f6aayvi",
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
+  "timeUntil": {
+    "date": "2026-02-27T15:08:17+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-wnGcDuAiNCmYWFlPNwsh79gfQyOQjLA3UaAoU7DtuSM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Marcin S\u0119d\u0142ak-Jakubowski",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Display a customizable countdown timer in the Dankbar. Perfect for tracking important deadlines, goals, or any time-sensitive events.",
+      "distro": [
+        "any"
+      ],
+      "id": "timeUntil",
+      "name": "Time Until",
+      "repo": "https://github.com/fdmarcin/TimeUntil",
+      "screenshot": "https://raw.githubusercontent.com/fdmarcin/TimeUntil/refs/heads/main/img/horizontal-pill.png",
+      "version": "1.0.1"
+    },
+    "path": "/nix/store/8lgpacbzvxikrazsin1w5hmlz4la7srq-TimeUntil",
+    "rev": "1b0ec39d375fd79ef13c96af41c0318c56ad658e",
+    "rootDir": "",
+    "sha256": "08xrxnq56a50a4vv134h4d1izn7g445kfksrb2c2jd12w079qwf2",
+    "url": "https://github.com/fdmarcin/TimeUntil"
+  },
   "voxtype": {
     "date": "2026-01-08T16:28:08-03:00",
     "deepClone": false,
