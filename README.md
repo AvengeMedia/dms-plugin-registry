@@ -526,6 +526,35 @@ Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
 
 
 
+#### [AdGuard VPN](https://github.com/bernardopg/dms-adguard-vpn-plugin)
+
+Control, configure, and monitor adguardvpn-cli directly from DankBar
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: adguardVPplugin
+- name: AdGuard VPN
+- author: Bernardo Gomes
+- compositors: any
+- capabilities: vpn, network, dankbar-widget
+- dependencies: adguardvpn-cli
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/bernardopg/dms-adguard-vpn-plugin/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Display Manager](https://github.com/felri/display-manager-plugin-niri-dank-linux)
 
 Toggle Niri displays and control monitor hardware brightness, contrast, scale, refresh rate, and resolution.
