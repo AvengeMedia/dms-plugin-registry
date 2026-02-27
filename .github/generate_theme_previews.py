@@ -2,6 +2,7 @@
 """Generate SVG preview images for themes."""
 
 import json
+from html import escape as xml_escape
 from pathlib import Path
 
 PANEL_TEMPLATE = """<g transform="translate({x}, 0)">
@@ -38,7 +39,7 @@ SINGLE_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="240" height=
 
 
 def generate_panel(scheme: dict, name: str, x: int) -> str:
-    return PANEL_TEMPLATE.format(x=x, name=name, **scheme)
+    return PANEL_TEMPLATE.format(x=x, name=xml_escape(name), **scheme)
 
 
 def generate_combined_preview(theme: dict) -> str:

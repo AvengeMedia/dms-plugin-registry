@@ -34,7 +34,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
 
 ---
 
@@ -206,6 +206,43 @@ A new fresh daily wallpaper downloaded from a famous portal
 
 
 
+### Finance
+
+
+
+#### [Markets](https://github.com/TMS-Namespace/DMS-Markets-Plugin)
+
+Semi-Live market prices for currencies, stocks, and commodities with charts
+
+
+
+- id: markets
+- name: Markets
+- author: TMS-Namespace
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: fedora
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png)
+
+</details>
+
+
+
+
+
+---
+
+
+
 ### Monitoring
 
 
@@ -232,6 +269,64 @@ Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Air Quality](https://github.com/szabolcsf/dms-air-quality)
+
+Display the current Air Quality Index (AQI) on the bar with detailed pollutant breakdown. Supports US and European AQI scales with auto-location.
+
+
+
+- id: airQuality
+- name: Air Quality
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-air-quality/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Claude Code Usage](https://github.com/titeya/dms-claudecode)
+
+Monitor your Claude Code subscription usage with token tracking, rate limits, and daily activity charts
+
+
+
+- id: claudeCodeUsage
+- name: Claude Code Usage
+- author: Nicolas Bellamy
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/titeya/dms-claudecode/raw/master/screenshot.png)
 
 </details>
 
@@ -460,6 +555,35 @@ Toggle Niri displays and control monitor hardware brightness, contrast, scale, r
 
 
 
+#### [Display Output](https://github.com/xyzsteven/dms-displayoutput)
+
+A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).
+
+
+
+- id: displayOutput
+- name: Display Output
+- author: xyzsteven
+- compositors: hyprland
+- capabilities: manage-displays
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/xyzsteven/dms-displayoutput/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Lenovo Battery Settings](https://github.com/neoscaler/dms-lenovo-battery-settings)
 
 Manage Lenovo battery settings like conservation mode
@@ -482,6 +606,35 @@ Manage Lenovo battery settings like conservation mode
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/neoscaler/dms-lenovo-battery-settings/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Package Updates](https://github.com/rahulmysore23/dms-pkg-update)
+
+Check and manage DNF and Flatpak package updates from the bar.
+
+
+
+- id: pkgUpdate
+- name: Package Updates
+- author: rahulmysore23
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: fedora, any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rahulmysore23/dms-pkg-update/main/screenshot.png)
 
 </details>
 
@@ -996,6 +1149,35 @@ Inline preview and chroma-based syntax highlighting for Notepad
 
 
 
+#### [Dank Obsidian](https://github.com/Samoggino/dankObsidian)
+
+Quick access to your Obsidian vaults
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: dankObsidian
+- name: Dank Obsidian
+- author: Samoggino
+- compositors: any
+- capabilities: launcher
+- dependencies: obsidian
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Samoggino/dankObsidian/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Pomodoro Timer](https://github.com/AvengeMedia/dms-plugins)
 
 A customizable Pomodoro timer.
@@ -1325,6 +1507,40 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 
 
 
+#### [Flatpak Updates](https://github.com/merdely/dms-plugins)
+
+Check for and install Flatpak Updates
+
+
+
+- id: flatpakUpdates
+- name: Flatpak Updates
+- author: Michael Erdely
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: flatpak
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [FlatpakUpdates](https://github.com/merdely/dms-plugins/tree/main/FlatpakUpdates) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png)
+
+</details>
+
+
+
+
+
 #### [GIF Search](https://github.com/AvengeMedia/dms-plugins)
 
 Search and browse GIFs powered by Klipy
@@ -1611,6 +1827,64 @@ Kubernetes plugin for DankBar
 
 
 
+#### [Magyar Névnapok](https://github.com/szabolcsf/dms-nameday)
+
+Display the current Hungarian nameday on the DankBar. Shows today's name on the bar, with yesterday/today/tomorrow in the popout panel.
+
+
+
+- id: magyarNevnapok
+- name: Magyar Névnapok
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-nameday/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Media Controls Plus](https://github.com/lpv11/dms-media-controls-plus)
+
+Media controls with full bar volume scroll. Disables workspace scroll.
+
+
+
+- id: mediaControlsPlus
+- name: Media Controls Plus
+- author: lpv11
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Media Player](https://github.com/arrifat346afs/mediaPlayer)
 
 A desktop media player widget
@@ -1640,6 +1914,35 @@ A desktop media player widget
 
 
 
+#### [Music Lyrics](https://github.com/gasiyu/dms-plugin-musiclyrics)
+
+Display synced music lyrics from multiple sources.
+
+
+
+- id: musicLyrics
+- name: Music Lyrics
+- author: gasiyu
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Gasiyu/dms-plugin-musiclyrics/main/screenshots.png)
+
+</details>
+
+
+
+
+
 #### [Nepali Calendar](https://github.com/AC17dollars/dms-nepali-calendar)
 
 Get the current Nepali date
@@ -1662,6 +1965,35 @@ Get the current Nepali date
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/AC17dollars/dms-nepali-calendar/main/assets/horizontal.png)
+
+</details>
+
+
+
+
+
+#### [Niri Screenshot](https://github.com/jfchenier/dms-niri-screenshot)
+
+Control Niri screenshot actions from the Control Center
+
+
+
+- id: niriScreenshot
+- name: Niri Screenshot
+- author: jfchenier
+- compositors: niri
+- capabilities: dankbar-widget, control-center
+- dependencies: niri
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/jfchenier/dms-niri-screenshot/main/assets/screenshot-control-center.png)
 
 </details>
 
@@ -1877,6 +2209,40 @@ Monitor and control your Pulsar X3 gaming mouse
 
 
 
+#### [SSH Connections](https://github.com/merdely/dms-plugins)
+
+SSH to configured servers from the Launcher
+
+
+
+- id: sshConnections
+- name: SSH Connections
+- author: Michael Erdely
+- compositors: niri, hyprland
+- capabilities: launcher
+- dependencies: ssh
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [sshConnections](https://github.com/merdely/dms-plugins/tree/main/sshConnections) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/sshconnections.png)
+
+</details>
+
+
+
+
+
 #### [Sathi.AI](https://github.com/ss44/sathi.ai)
 
 A simple multi model ai client to use with your dank shell. Use it ollama, gemini or openai models. Keys not included.
@@ -1967,6 +2333,35 @@ Puts the Power menu in the Bar
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/ronmurphy/dms-contrib/refs/heads/main/screenshot_session_power_menu.png)
+
+</details>
+
+
+
+
+
+#### [Steam Friends](https://github.com/banicans/DMS-SteamFriends)
+
+Shows how many Steam friends are online, and whos online playing what.
+
+
+
+- id: steamfriends
+- name: Steam Friends
+- author: Banicnas
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/banicans/DMS-SteamFriends/main/Screenshot.png)
 
 </details>
 
@@ -2187,6 +2582,35 @@ Multiple timezones clock for DankBar
 
 
 
+#### [World Clock Multi](https://github.com/szabolcsf/dms-world-clock-multi)
+
+Display up to 5 timezones on the DankBar. Toggle between showing all at once or cycling one at a time at a configurable interval.
+
+
+
+- id: worldClockMulti
+- name: World Clock Multi
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-world-clock-multi/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
@@ -2323,6 +2747,28 @@ Accessible themes conforming to the highest color-contrast standard (WCAG AAA)
 - **ID:** `modus` **Version:** `1.0.0`
 
 ![Modus](themes/modus/preview.svg)
+
+
+
+### Oxocarbon
+
+High contrast accessible colorscheme inspired by IBM Carbon
+
+- **Author:** Sunny
+- **ID:** `oxocarbon` **Version:** `1.0.0`
+
+![Oxocarbon](themes/oxocarbon/preview.svg)
+
+
+
+### Peace & Quiet
+
+Light and dark theme with pastel accents and purple hues
+
+- **Author:** ernestowg
+- **ID:** `peaceAndQuiet` **Version:** `1.0.1`
+
+![Peace & Quiet](themes/peace-and-quiet/preview.svg)
 
 
 

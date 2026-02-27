@@ -1,0 +1,14 @@
+{
+    "id": "sshConnections",
+    "name": "SSH Connections",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/merdely/dms-plugins",
+    "path": "sshConnections",
+    "author": "Michael Erdely",
+    "description": "SSH to configured servers from the Launcher",
+    "dependencies": ["ssh"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/sshconnections.png"
+}
