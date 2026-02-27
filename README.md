@@ -2684,6 +2684,17 @@ Soothing pastel theme for the high-spirited
 
 
 
+### Crimson Voltage
+
+Deep navy shadows infused with high-voltage crimson energy.
+
+- **Author:** wirus
+- **ID:** `crimsonVoltage` **Version:** `1.0.0`
+
+![Crimson Voltage](themes/crimson-voltage/preview.svg)
+
+
+
 ### Dank Violet
 
 inspired by dank.
