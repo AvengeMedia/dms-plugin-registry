@@ -397,6 +397,35 @@ Shows the current submap in Hyprland
 
 
 
+#### [NVIDIA GPU Monitor](https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor)
+
+Monitor NVIDIA GPU usage, VRAM, and temperature.
+
+
+
+- id: nvidiaGpuMonitor
+- name: NVIDIA GPU Monitor
+- author: Tejas Jondhale
+- compositors: any
+- capabilities: dankbar-widget, monitoring
+- dependencies: nvidia-smi
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/TEJASJONDHALE/dms-nvidia-gpu-monitor/main/Screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Nix Monitor](https://github.com/antonjah/nix-monitor)
 
 Monitor Nix store disk usage and system generations with integrated system management capabilities
