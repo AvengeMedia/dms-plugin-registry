@@ -2317,6 +2317,42 @@
     "sha256": "0hj4mk4lf2ap1r1lkwzz3y7ldz8r1h89pifrj76r7pahg7bx0dlm",
     "url": "https://github.com/antonjah/nix-monitor"
   },
+  "nvidiaGpuMonitor": {
+    "date": "2026-02-27T11:48:51+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-QWp3YP/FydQ7JND96bt4sCIodAfR4bwiNiO7tpXcN70=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Tejas Jondhale",
+      "capabilities": [
+        "dankbar-widget",
+        "monitoring"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "nvidia-smi"
+      ],
+      "description": "Monitor NVIDIA GPU usage, VRAM, and temperature.",
+      "distro": [
+        "any"
+      ],
+      "id": "nvidiaGpuMonitor",
+      "name": "NVIDIA GPU Monitor",
+      "repo": "https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor",
+      "screenshot": "https://raw.githubusercontent.com/TEJASJONDHALE/dms-nvidia-gpu-monitor/main/Screenshot.png"
+    },
+    "path": "/nix/store/q3fzkil17bzm0k73nd451h9ac6fzgh1n-dms-nvidia-gpu-monitor",
+    "rev": "58123831e7bbe04a1aa54c11c172d91f08a8a6f9",
+    "rootDir": "",
+    "sha256": "1g9pvjavdfr36qibrqfi0xs2h8mhg2xykzfh4hxx9jf5zxh7fsj1",
+    "url": "https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor"
+  },
   "pkgUpdate": {
     "date": "2026-02-26T09:46:06-05:00",
     "deepClone": false,
