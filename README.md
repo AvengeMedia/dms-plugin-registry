@@ -2490,6 +2490,35 @@ Tailscale-toggle plugin for DankBar
 
 
 
+#### [Time Until](https://github.com/fdmarcin/TimeUntil)
+
+Display a customizable countdown timer in the Dankbar. Perfect for tracking important deadlines, goals, or any time-sensitive events.
+
+
+
+- id: timeUntil
+- name: Time Until
+- author: Marcin Sędłak-Jakubowski
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/fdmarcin/TimeUntil/refs/heads/main/img/horizontal-pill.png)
+
+</details>
+
+
+
+
+
 #### [VSCode Launcher](https://github.com/sr-tream/dms-vscode-launcher)
 
 Quick access to recent Visual Studio Code files, folders, and projects
