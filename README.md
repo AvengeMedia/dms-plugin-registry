@@ -557,7 +557,7 @@ Toggle Niri displays and control monitor hardware brightness, contrast, scale, r
 
 #### [Display Output](https://github.com/xyzsteven/dms-displayoutput)
 
-A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).
+Manage display outputs (Single Display, Mirror, Extend).
 
 
 
@@ -566,7 +566,7 @@ A Hyprland DankMaterialShell plugin that allows you to manage your display outpu
 - author: xyzsteven
 - compositors: hyprland
 - capabilities: manage-displays
-- dependencies: 
+- dependencies: socat
 - distro: any
 
 
