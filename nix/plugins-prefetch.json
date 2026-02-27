@@ -1164,8 +1164,10 @@
       "compositors": [
         "hyprland"
       ],
-      "dependencies": [],
-      "description": "A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).",
+      "dependencies": [
+        "socat"
+      ],
+      "description": "Manage display outputs (Single Display, Mirror, Extend).",
       "distro": [
         "any"
       ],
