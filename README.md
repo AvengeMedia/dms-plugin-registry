@@ -1565,6 +1565,35 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 
 
 
+#### [Ephemera](https://github.com/nicolasgarcia214/Ephemera)
+
+Ephemeral AI chat — ask quick questions, keep nothing
+
+
+
+- id: ephemera
+- name: Ephemera
+- author: nicolasgarcia214
+- compositors: any
+- capabilities: slideout, ai
+- dependencies: curl, wl-copy
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true)
+
+</details>
+
+
+
+
+
 #### [Flatpak Updates](https://github.com/merdely/dms-plugins)
 
 Check for and install Flatpak Updates
