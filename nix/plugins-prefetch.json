@@ -2037,12 +2037,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlsPlus": {
-    "date": "2026-02-26T01:23:06+02:00",
+    "date": "2026-02-28T03:03:34+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jFF8qpdzgnMEsCfkH8juAvWrXGOU8Us8izaJOQkG1CE=",
+    "hash": "sha256-YwjL9/rmHjVggmpRaKXPZk7HRwDYbNItw1cvNHsz1kY=",
     "leaveDotGit": false,
     "meta": {
       "author": "lpv11",
@@ -2062,12 +2062,12 @@
       "name": "Media Controls Plus",
       "repo": "https://github.com/lpv11/dms-media-controls-plus",
       "screenshot": "https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png",
-      "version": "1.0.3"
+      "version": "1.0.5"
     },
-    "path": "/nix/store/r5bdmiv5q504dmgw1ymkr8qvlkqq78nw-dms-media-controls-plus",
-    "rev": "d445a0cb92594c4e4b808e2eb27e6effe697ea4e",
+    "path": "/nix/store/2x3pm55k1f8xyp5kc0jgfy45q8dv1psh-dms-media-controls-plus",
+    "rev": "681c245a99668165ce16e8c51e11151a8f108a3d",
     "rootDir": "",
-    "sha256": "08fl0q4kk29nicy4pwclcdfapx82xv41zr17n02770kkjym7qlcc",
+    "sha256": "0inn6dxk8bspqcnx4v6q013wfkk6ryjnhlbah9h3a7p6zbvwn233",
     "url": "https://github.com/lpv11/dms-media-controls-plus"
   },
   "mediaFrame": {
@@ -2496,12 +2496,12 @@
     "url": "https://github.com/Daniel-42-z/dms-power-usage"
   },
   "prayerTimes": {
-    "date": "2026-02-27T07:22:37+07:00",
+    "date": "2026-02-28T06:59:55+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Wi2lGIg8zMHhUnsVY2LKDKuMchJ2MqjgGl7kJC2U/hs=",
+    "hash": "sha256-i8uSJytzGPcD/CzustEQHFVaD4FuHRxEKDq+aIixLcI=",
     "leaveDotGit": false,
     "meta": {
       "author": "muadz",
@@ -2523,10 +2523,10 @@
       "screenshot": "https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/wdwa6s22kia39zb5l70n0xpfk3lcaygh-prayertimes",
-    "rev": "fbc8fabffdc76cc2b2384fa480f08279f8e35e6c",
+    "path": "/nix/store/ppy43w7fax7pa561vhnxmk8a3qd6c5zq-prayertimes",
+    "rev": "8c53ea678170889b48368b1f79eb68fb6f0aa111",
     "rootDir": "",
-    "sha256": "06zyjhnj9r2y3bhahckn29r8raqcr9i665bvabhw3k1wi0caabas",
+    "sha256": "1hidn646igis5121q7bfh47mlm8w238v5viczh1zf63k5ckr5jwb",
     "url": "https://github.com/muadzmo/prayertimes"
   },
   "pulsarX3": {
