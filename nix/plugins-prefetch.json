@@ -510,6 +510,44 @@
     "sha256": "0pchjvp39hyhj2w089qb2y60sw5k8rsgbmwwi5qmzd98ab07jppz",
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
+  "dankAudioVisualizer": {
+    "date": "2026-02-28T15:21:58+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-qrPe1ZTp/+c/RTJLpFRFR5ln54j/9WUNljyX766CDDU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "odtgit",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "media",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "cava"
+      ],
+      "description": "Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from Noctalia's fancy-audiovisualizer by Lemmy / Noctalia Team.",
+      "distro": [
+        "any"
+      ],
+      "firstParty": false,
+      "id": "dankAudioVisualizer",
+      "name": "Dank Audio Visualizer",
+      "repo": "https://github.com/odtgit/DankAudioVisualizer",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://raw.githubusercontent.com/odtgit/DankAudioVisualizer/main/preview.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/nfsq5njj0bngss489whqh78hl3dnqw5i-DankAudioVisualizer",
+    "rev": "f8ed8042752794a601113ce1ce6f175b9698010f",
+    "rootDir": "",
+    "sha256": "0d8chapfz5rwjq6nbxgzi3kng6a78maa8jrj8lzygzz9jkaxxcxa",
+    "url": "https://github.com/odtgit/DankAudioVisualizer"
+  },
   "dankBatteryAlerts": {
     "date": "2026-02-24T13:48:54-05:00",
     "deepClone": false,
