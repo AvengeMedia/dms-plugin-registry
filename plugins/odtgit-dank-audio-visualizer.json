@@ -1,0 +1,16 @@
+{
+    "id": "dankAudioVisualizer",
+    "name": "Dank Audio Visualizer",
+    "capabilities": ["desktop-widget"],
+    "category": "media",
+    "repo": "https://github.com/odtgit/DankAudioVisualizer",
+    "path": ".",
+    "author": "odtgit",
+    "firstParty": false,
+    "description": "Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from Noctalia's fancy-audiovisualizer by Lemmy / Noctalia Team.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/odtgit/DankAudioVisualizer/main/preview.png",
+    "requires_dms": ">=1.2.0"
+}
