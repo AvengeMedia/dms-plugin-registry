@@ -1,0 +1,12 @@
+{
+    "id": "cavaVisualizer",
+    "name": "Cava Visualizer",
+    "capabilities": ["desktop-widget"],
+    "category": "appearance",
+    "repo": "https://github.com/ernestowgg/cavaVisualizer",
+    "author": "ernestowg",
+    "description": "A simple, customizable audio visualizer for your desktop.",
+    "dependencies": ["cava"],
+    "compositors": ["any"],
+    "distro": ["any"]
+}
