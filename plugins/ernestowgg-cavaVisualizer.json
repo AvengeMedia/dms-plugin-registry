@@ -3,9 +3,9 @@
     "name": "Cava Visualizer",
     "capabilities": ["desktop-widget"],
     "category": "appearance",
-    "repo": "https://github.com/ernestowgg/cavaVisualizer",
+    "repo": "https://github.com/ernestowgg/cava-visualizer",
     "author": "ernestowgg",
-    "description": "A simple, customizable audio visualizer for your desktop.",
+    "description": "A simple, customizable audio visualizer for your desktop",
     "dependencies": ["cava"],
     "compositors": ["any"],
     "distro": ["any"]
