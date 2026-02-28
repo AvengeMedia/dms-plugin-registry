@@ -4,7 +4,7 @@
     "capabilities": ["desktop-widget"],
     "category": "appearance",
     "repo": "https://github.com/ernestowgg/cavaVisualizer",
-    "author": "ernestowg",
+    "author": "ernestowgg",
     "description": "A simple, customizable audio visualizer for your desktop.",
     "dependencies": ["cava"],
     "compositors": ["any"],
