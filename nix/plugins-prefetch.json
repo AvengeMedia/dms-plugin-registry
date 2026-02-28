@@ -39,12 +39,12 @@
     "url": "https://github.com/bernardopg/dms-adguard-vpn-plugin"
   },
   "aiAssistant": {
-    "date": "2026-02-24T02:00:12-05:00",
+    "date": "2026-02-28T15:10:32-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-iZAvplcQgsXBqL/cKA6JQjRPyQ5MGhlFs8S1+HWewBw=",
+    "hash": "sha256-AyAWiR4eE+8slMagxkVHxBHWtcjkOVmTlWKgN0Rw4P8=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -70,12 +70,12 @@
       "repo": "https://github.com/devnullvoid/dms-ai-assistant",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://github.com/devnullvoid/dms-ai-assistant/blob/main/screenshots/AI_ASSISTANT_SCREENSHOT_CURRENT_1.png?raw=true",
-      "version": "1.2.0"
+      "version": "1.3.1"
     },
-    "path": "/nix/store/mi55aa06fjj7xnwqi33qyrgp5n7rhi2r-dms-ai-assistant",
-    "rev": "dec1f5a3018c057a79b5f8365c74be367e58e220",
+    "path": "/nix/store/abczknnny4261glxwmkmpwkhcgb6yinm-dms-ai-assistant",
+    "rev": "4034489640c85a97c73af4f5bf35411e5a16b5eb",
     "rootDir": "",
-    "sha256": "0760krszidf4nd2ij6jc1v4lyd22i472ip5zm30wb0hhayk2z449",
+    "sha256": "1zz0f123g832jn9mjfg4r2sxc4f48x2wd866jhnfy4qy3s4ic803",
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "airQuality": {
@@ -1517,12 +1517,12 @@
     "url": "https://github.com/jonkristian/dms-easyeffects"
   },
   "emojiLauncher": {
-    "date": "2026-02-18T20:39:40-05:00",
+    "date": "2026-02-28T13:07:59-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jM1ywoyEefi3LJg/Fxbo8/8YBnnrNajF3WSIqvc5mTY=",
+    "hash": "sha256-c9IRO6+EDDUnIwb6SOrCjDK7i7cSmyrdX3J9BPGH8xM=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -1542,13 +1542,51 @@
       "name": "Emoji & Unicode Launcher",
       "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
       "screenshot": "https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true",
-      "version": "1.4.1"
+      "version": "1.5.0"
     },
-    "path": "/nix/store/drgy94d5im12z99wdf8hhhd3dkpyrw2y-dms-emoji-launcher",
-    "rev": "2fcd667b76271ba6064946fc81feb551cce5ba33",
+    "path": "/nix/store/zj1aal108iicfcfh8y4spf22690w6sym-dms-emoji-launcher",
+    "rev": "78d9044296dfd8a7cd46d0224354869a49caee57",
     "rootDir": "",
-    "sha256": "0dlr77vsm234vp2shdgbg431izzkx0b1fgwq5jvzhyc4ik175kcc",
+    "sha256": "04zkhzqh8zbjbzfjm6qjny5vnclcqbm4iyh64ckka344mwxi3lkk",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
+  },
+  "ephemera": {
+    "date": "2026-02-27T21:35:39-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-HNoeNHugz+wXiAeMcwoIg2kyJWkUN0O6jwQ1Naueurg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "nicolasgarcia214",
+      "capabilities": [
+        "slideout",
+        "ai"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl",
+        "wl-copy"
+      ],
+      "description": "Ephemeral AI chat \u2014 ask quick questions, keep nothing",
+      "distro": [
+        "any"
+      ],
+      "id": "ephemera",
+      "name": "Ephemera",
+      "repo": "https://github.com/nicolasgarcia214/Ephemera",
+      "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true",
+      "version": "0.1.2"
+    },
+    "path": "/nix/store/q15a4jaxrscngd7skrn21dnw83smnmqa-Ephemera",
+    "rev": "01a23ac242913941c48a238549bc22e6f98b508e",
+    "rootDir": "",
+    "sha256": "1f5sksmkad84iyx46dqld4jk4sc310577307i0byrkx0gcs1xnhw",
+    "url": "https://github.com/nicolasgarcia214/Ephemera"
   },
   "flatpakUpdates": {
     "date": "2026-02-26T21:49:14-05:00",
@@ -2037,12 +2075,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlsPlus": {
-    "date": "2026-02-28T03:03:34+02:00",
+    "date": "2026-02-28T22:18:51+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-YwjL9/rmHjVggmpRaKXPZk7HRwDYbNItw1cvNHsz1kY=",
+    "hash": "sha256-iQ/XFOhcUrTe6CtKZPSjuxq4wtf0QVDqVPuqTAcr2d8=",
     "leaveDotGit": false,
     "meta": {
       "author": "lpv11",
@@ -2062,12 +2100,12 @@
       "name": "Media Controls Plus",
       "repo": "https://github.com/lpv11/dms-media-controls-plus",
       "screenshot": "https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png",
-      "version": "1.0.5"
+      "version": "1.0.0"
     },
-    "path": "/nix/store/2x3pm55k1f8xyp5kc0jgfy45q8dv1psh-dms-media-controls-plus",
-    "rev": "681c245a99668165ce16e8c51e11151a8f108a3d",
+    "path": "/nix/store/jq83kb18r93jrw7nksf7kg8s72rx8rgl-dms-media-controls-plus",
+    "rev": "e127b4cb1cf6e94cccf761bf27cd3ca6b7d0ca71",
     "rootDir": "",
-    "sha256": "0inn6dxk8bspqcnx4v6q013wfkk6ryjnhlbah9h3a7p6zbvwn233",
+    "sha256": "1pyr5c3lrapvakm50hglsz1bh6mvlgs68jibx3gb8ljwx0adf3w9",
     "url": "https://github.com/lpv11/dms-media-controls-plus"
   },
   "mediaFrame": {
@@ -2860,12 +2898,12 @@
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
   "timeUntil": {
-    "date": "2026-02-27T15:08:17+01:00",
+    "date": "2026-02-28T11:28:45+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-wnGcDuAiNCmYWFlPNwsh79gfQyOQjLA3UaAoU7DtuSM=",
+    "hash": "sha256-0ndMXBYIZRyjO6Z5NLSTjK8q6v71sWDv4nxyYqP38f8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Marcin S\u0119d\u0142ak-Jakubowski",
@@ -2887,10 +2925,10 @@
       "screenshot": "https://raw.githubusercontent.com/fdmarcin/TimeUntil/refs/heads/main/img/horizontal-pill.png",
       "version": "1.0.1"
     },
-    "path": "/nix/store/8lgpacbzvxikrazsin1w5hmlz4la7srq-TimeUntil",
-    "rev": "1b0ec39d375fd79ef13c96af41c0318c56ad658e",
+    "path": "/nix/store/5srnpphq042ifvbh9pf1bbnib3h965vl-TimeUntil",
+    "rev": "857720e02b688e46c207e1f37c0c53b2cdf5a940",
     "rootDir": "",
-    "sha256": "08xrxnq56a50a4vv134h4d1izn7g445kfksrb2c2jd12w079qwf2",
+    "sha256": "1zziyyin4wkwwbpn1cgmzvm2mbwcjfs38yd67fiiqr882rf4qxyj",
     "url": "https://github.com/fdmarcin/TimeUntil"
   },
   "voxtype": {
