@@ -8,5 +8,6 @@
     "description": "A simple, customizable audio visualizer for your desktop",
     "dependencies": ["cava"],
     "compositors": ["any"],
-    "distro": ["any"]
+    "distro": ["any"],
+    "screenshot": "https://github.com/ernestowgg/cava-visualizer/blob/main/screenshot.png"
 }
