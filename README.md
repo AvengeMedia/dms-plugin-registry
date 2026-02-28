@@ -276,6 +276,35 @@ Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
 
 
 
+#### [Air Quality](https://github.com/szabolcsf/dms-air-quality)
+
+Display the current Air Quality Index (AQI) on the bar with detailed pollutant breakdown. Supports US and European AQI scales with auto-location.
+
+
+
+- id: airQuality
+- name: Air Quality
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-air-quality/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Claude Code Usage](https://github.com/titeya/dms-claudecode)
 
 Monitor your Claude Code subscription usage with token tracking, rate limits, and daily activity charts
@@ -361,6 +390,35 @@ Shows the current submap in Hyprland
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/mesteryui/DMS_HyprlandSubmap/blob/main/assets/hyprlandSubmapPassthroughExample.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [NVIDIA GPU Monitor](https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor)
+
+Monitor NVIDIA GPU usage, VRAM, and temperature.
+
+
+
+- id: nvidiaGpuMonitor
+- name: NVIDIA GPU Monitor
+- author: Tejas Jondhale
+- compositors: any
+- capabilities: dankbar-widget, monitoring
+- dependencies: nvidia-smi
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/TEJASJONDHALE/dms-nvidia-gpu-monitor/main/Screenshot.png)
 
 </details>
 
@@ -497,6 +555,35 @@ Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
 
 
 
+#### [AdGuard VPN](https://github.com/bernardopg/dms-adguard-vpn-plugin)
+
+Control, configure, and monitor adguardvpn-cli directly from DankBar
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: adguardVPplugin
+- name: AdGuard VPN
+- author: Bernardo Gomes
+- compositors: any
+- capabilities: vpn, network, dankbar-widget
+- dependencies: adguardvpn-cli
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/bernardopg/dms-adguard-vpn-plugin/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Display Manager](https://github.com/felri/display-manager-plugin-niri-dank-linux)
 
 Toggle Niri displays and control monitor hardware brightness, contrast, scale, refresh rate, and resolution.
@@ -528,7 +615,7 @@ Toggle Niri displays and control monitor hardware brightness, contrast, scale, r
 
 #### [Display Output](https://github.com/xyzsteven/dms-displayoutput)
 
-A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).
+Manage display outputs (Single Display, Mirror, Extend).
 
 
 
@@ -537,7 +624,7 @@ A Hyprland DankMaterialShell plugin that allows you to manage your display outpu
 - author: xyzsteven
 - compositors: hyprland
 - capabilities: manage-displays
-- dependencies: 
+- dependencies: socat
 - distro: any
 
 
@@ -577,6 +664,35 @@ Manage Lenovo battery settings like conservation mode
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/neoscaler/dms-lenovo-battery-settings/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Package Updates](https://github.com/rahulmysore23/dms-pkg-update)
+
+Check and manage DNF and Flatpak package updates from the bar.
+
+
+
+- id: pkgUpdate
+- name: Package Updates
+- author: rahulmysore23
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: fedora, any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rahulmysore23/dms-pkg-update/main/screenshot.png)
 
 </details>
 
@@ -1769,6 +1885,35 @@ Kubernetes plugin for DankBar
 
 
 
+#### [Magyar Névnapok](https://github.com/szabolcsf/dms-nameday)
+
+Display the current Hungarian nameday on the DankBar. Shows today's name on the bar, with yesterday/today/tomorrow in the popout panel.
+
+
+
+- id: magyarNevnapok
+- name: Magyar Névnapok
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-nameday/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Media Controls Plus](https://github.com/lpv11/dms-media-controls-plus)
 
 Media controls with full bar volume scroll. Disables workspace scroll.
@@ -2345,6 +2490,35 @@ Tailscale-toggle plugin for DankBar
 
 
 
+#### [Time Until](https://github.com/fdmarcin/TimeUntil)
+
+Display a customizable countdown timer in the Dankbar. Perfect for tracking important deadlines, goals, or any time-sensitive events.
+
+
+
+- id: timeUntil
+- name: Time Until
+- author: Marcin Sędłak-Jakubowski
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/fdmarcin/TimeUntil/refs/heads/main/img/horizontal-pill.png)
+
+</details>
+
+
+
+
+
 #### [VSCode Launcher](https://github.com/sr-tream/dms-vscode-launcher)
 
 Quick access to recent Visual Studio Code files, folders, and projects
@@ -2495,6 +2669,35 @@ Multiple timezones clock for DankBar
 
 
 
+#### [World Clock Multi](https://github.com/szabolcsf/dms-world-clock-multi)
+
+Display up to 5 timezones on the DankBar. Toggle between showing all at once or cycling one at a time at a configurable interval.
+
+
+
+- id: worldClockMulti
+- name: World Clock Multi
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-world-clock-multi/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
@@ -2565,6 +2768,17 @@ Soothing pastel theme for the high-spirited
 - **ID:** `catppuccin` **Version:** `1.0.0`
 
 ![Catppuccin](themes/catppuccin/preview.svg)
+
+
+
+### Crimson Voltage
+
+Deep navy shadows infused with high-voltage crimson energy.
+
+- **Author:** wirus
+- **ID:** `crimsonVoltage` **Version:** `1.0.0`
+
+![Crimson Voltage](themes/crimson-voltage/preview.svg)
 
 
 

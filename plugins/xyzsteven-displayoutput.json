@@ -5,8 +5,8 @@
     "category": "system",
     "repo": "https://github.com/xyzsteven/dms-displayoutput",
     "author": "xyzsteven",
-    "description": "A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).",
-    "dependencies": [],
+    "description": "Manage display outputs (Single Display, Mirror, Extend).",
+    "dependencies": ["socat"],
     "compositors": ["hyprland"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/xyzsteven/dms-displayoutput/refs/heads/main/screenshot.png"
