@@ -1,13 +1,19 @@
 {
-        "id": "brightnessScheduler",
-        "name": "Brightness Scheduler",
-        "capabilities": ["daemon"],
-        "category": "utilities",
-        "repo": "https://github.com/yetisunny/monitorbrightnesssetter_dankdms",
-        "author": "Luuk van der Heijden",
-        "description": "Automatically sets all monitor brightness at two configurable times each day. Also applies the correct brightness on 
-  startup and after wake-from-sleep.",
-        "dependencies": [],
-        "compositors": ["any"],
-        "distro": ["any"]
-    }
+  "id": "brightnessScheduler",
+  "name": "Brightness Scheduler",
+  "capabilities": [
+    "daemon"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/yetisunny/monitorbrightnesssetter_dankdms",
+  "author": "Luuk van der Heijden",
+  "description": "Automatically sets all monitor brightness at two configurable times each day. Also applies the correct brightness on  startup and after wake-from-sleep.",
+  "dependencies": [],
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/yetisunny/monitorbrightnesssetter_dankdms/refs/heads/main/screenshot.png"
+}
