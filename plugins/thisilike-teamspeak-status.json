@@ -1,0 +1,13 @@
+{
+    "id": "teamspeakStatus",
+    "name": "TeamSpeak Status",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/thisilike/dms-plugin-teamspeak",
+    "author": "thisilike",
+    "description": "Real-time TeamSpeak 6 status display — server, channel, mute, talking, away",
+    "dependencies": ["ts-status"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/thisilike/dms-plugin-teamspeak/master/screenshot.png"
+}
