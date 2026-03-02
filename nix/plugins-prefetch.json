@@ -39,12 +39,12 @@
     "url": "https://github.com/bernardopg/dms-adguard-vpn-plugin"
   },
   "aiAssistant": {
-    "date": "2026-02-28T15:10:32-05:00",
+    "date": "2026-03-01T16:48:19-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-AyAWiR4eE+8slMagxkVHxBHWtcjkOVmTlWKgN0Rw4P8=",
+    "hash": "sha256-oPCL06zOSmMO3wxqbDj7ZK1kNfSVjAhC/1tTsFyaseQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -70,12 +70,12 @@
       "repo": "https://github.com/devnullvoid/dms-ai-assistant",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://github.com/devnullvoid/dms-ai-assistant/blob/main/screenshots/AI_ASSISTANT_SCREENSHOT_CURRENT_1.png?raw=true",
-      "version": "1.3.1"
+      "version": "1.4.0"
     },
-    "path": "/nix/store/abczknnny4261glxwmkmpwkhcgb6yinm-dms-ai-assistant",
-    "rev": "4034489640c85a97c73af4f5bf35411e5a16b5eb",
+    "path": "/nix/store/pwwz2zxlgkps1a5fky11n2d6yn4a4sda-dms-ai-assistant",
+    "rev": "68c0e1e4d88418042aacc6f944b378be6ac91bfc",
     "rootDir": "",
-    "sha256": "1zz0f123g832jn9mjfg4r2sxc4f48x2wd866jhnfy4qy3s4ic803",
+    "sha256": "1r5ik9fb0lsvzx10i34myhsn9bb4zcw6qshcvw766jnfmk9qpw50",
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "airQuality": {
@@ -371,12 +371,12 @@
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
   "claudeCodeUsage": {
-    "date": "2026-02-25T11:26:06+01:00",
+    "date": "2026-03-01T12:06:12+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-akXTXG35XtBJZhEBTBGUW24/QLn+0lJMoJCZE+Kvogo=",
+    "hash": "sha256-GsfI9fqjcIId170wQfJfLfMHml116TUndrOdpJDTkCg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Nicolas Bellamy",
@@ -398,21 +398,21 @@
       "name": "Claude Code Usage",
       "repo": "https://github.com/titeya/dms-claudecode",
       "screenshot": "https://github.com/titeya/dms-claudecode/raw/master/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.2"
     },
-    "path": "/nix/store/0az0kgin6wx73mahfwjbwb1jh0p1f195-dms-claudecode",
-    "rev": "7154536c4ca60c67238eb61162fd8537e92e3cdb",
+    "path": "/nix/store/fis7ar34518ya7z7gc6gfhr3ff6n60pa-dms-claudecode",
+    "rev": "dcb771802920b61f98c1120028e7f3d97ecf4ab8",
     "rootDir": "",
-    "sha256": "02m2mzi176chl1655lpyp503yvjvjh8lq08icr4x0pprdmfd6iba",
+    "sha256": "0a4hsf8a97dkfqkkbsbmbnd0gwrdbzr42c5xswfq4w53zbswiiqs",
     "url": "https://github.com/titeya/dms-claudecode"
   },
   "commandRunner": {
-    "date": "2026-02-18T20:39:40-05:00",
+    "date": "2026-03-01T16:48:56-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-W5IdTdK0mNR1McdwtKKyX++FdhDJEL5S4/bJ26k31GE=",
+    "hash": "sha256-utn8o1p2s/lFL8ObrY3DfGXqOZsuKL+oj6UResKxFLI=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -434,10 +434,10 @@
       "screenshot": "https://github.com/devnullvoid/dms-command-runner/blob/main/screenshot.png?raw=true",
       "version": "1.2.1"
     },
-    "path": "/nix/store/gd1n5d75lqcinbj2f4z49lvclh9mli3q-dms-command-runner",
-    "rev": "3a264c3dd5895af393638327fa6455aed6da6cd0",
+    "path": "/nix/store/8m5lznrdhspr15xfb392a3y3adbh75m1-dms-command-runner",
+    "rev": "a6252e8f397eeeb80e10b5a92713118221493dae",
     "rootDir": "",
-    "sha256": "0qfl6ylxpjgnwd9bw46921v8bvsznaib8w6765sx965ls96iv4jv",
+    "sha256": "1chln717l4d5iylbya1fkcwylrbwqf6sv6y35x2zkcvnbaizrnds",
     "url": "https://github.com/devnullvoid/dms-command-runner"
   },
   "customRunningApps": {
@@ -932,12 +932,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankObsidian": {
-    "date": "2026-02-21T20:18:37+01:00",
+    "date": "2026-03-01T18:16:01+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-A+NKSORjmyocBWycNvEHaBLPesit0VmspeFieYlee24=",
+    "hash": "sha256-OQkzFV4muteSlKbwjHYIari3Fdi71huzsUMOuzxvnoQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "Samoggino",
@@ -960,12 +960,12 @@
       "repo": "https://github.com/Samoggino/dankObsidian",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/Samoggino/dankObsidian/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/vvq24jl3dqf72fc5i3nc6aaaikfbrp94-dankObsidian",
-    "rev": "449398eed17e24bb78cca1691c711ab1d9cfcf71",
+    "path": "/nix/store/hcw3ahwm4pzmlswp8m5nx11ynsazpc0l-dankObsidian",
+    "rev": "a31c335d2ba83921fdc105ab3128d5cf3ca3d8cc",
     "rootDir": "",
-    "sha256": "0vkvbs4pjqp1lnn5klddr1xcy4k80zqkd73c0lf2m6v3wi44mqq3",
+    "sha256": "114ydwybn3j3n6ripmmvv0avgf3a11v8rw56jj9dgfi6bqak629r",
     "url": "https://github.com/Samoggino/dankObsidian"
   },
   "dankPomodoroTimer": {
@@ -1555,12 +1555,12 @@
     "url": "https://github.com/jonkristian/dms-easyeffects"
   },
   "emojiLauncher": {
-    "date": "2026-02-28T13:07:59-05:00",
+    "date": "2026-03-01T17:35:13-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-c9IRO6+EDDUnIwb6SOrCjDK7i7cSmyrdX3J9BPGH8xM=",
+    "hash": "sha256-5VpvUbFeatfuGdnUlNa5FB78R4dN1Zw9r/uWpUxHHfU=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -1580,12 +1580,12 @@
       "name": "Emoji & Unicode Launcher",
       "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
       "screenshot": "https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true",
-      "version": "1.5.0"
+      "version": "1.5.2"
     },
-    "path": "/nix/store/zj1aal108iicfcfh8y4spf22690w6sym-dms-emoji-launcher",
-    "rev": "78d9044296dfd8a7cd46d0224354869a49caee57",
+    "path": "/nix/store/67451l0z0szws42qlc5r7yfa1yijvl7i-dms-emoji-launcher",
+    "rev": "cb5a2ae79084f84890135005ed2e60567307e690",
     "rootDir": "",
-    "sha256": "04zkhzqh8zbjbzfjm6qjny5vnclcqbm4iyh64ckka344mwxi3lkk",
+    "sha256": "1x8x8x6ab5pvmwyrrmadhx3zq7hlp7b99m6r37pdfsjyn58nynp5",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "ephemera": {
@@ -2113,12 +2113,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlsPlus": {
-    "date": "2026-02-28T23:00:16+02:00",
+    "date": "2026-03-01T17:07:11+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bjB0/50924+9Gfa0pWGGHI7r4t+v4ef5n0D8lXpHAgA=",
+    "hash": "sha256-udnqFlXvmmoqe5OyVm2itunkbtfsq7E50Clp4OgXsp4=",
     "leaveDotGit": false,
     "meta": {
       "author": "lpv11",
@@ -2140,10 +2140,10 @@
       "screenshot": "https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/1622i5bgbx8s6sjmk9pqqam9wvqnx07r-dms-media-controls-plus",
-    "rev": "db2b38fdba8b94e4fd0f56f8b82c541547be2447",
+    "path": "/nix/store/1d5fa78mgw4k1vijwb4gj62kmx6cib36-dms-media-controls-plus",
+    "rev": "0ece6eea2847c0684231886fe3d5aa859778c1b1",
     "rootDir": "",
-    "sha256": "00028xx9bz20kzwygqdgvzifp3hwhrhsbd7n36yqznrxkpzp8c3f",
+    "sha256": "17mj2zlf0s99s0wv3azcsxpf9sdnl9nmdclkgcm6m6pgalbfmndr",
     "url": "https://github.com/lpv11/dms-media-controls-plus"
   },
   "mediaFrame": {
@@ -3151,12 +3151,12 @@
     "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
   },
   "webSearch": {
-    "date": "2026-02-18T20:39:40-05:00",
+    "date": "2026-03-01T16:48:39-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-4rcPDYn0xp/koMkHKhZHHDGke07JIfOCAbEgjWlCiJg=",
+    "hash": "sha256-S1A50s7cKE0NuidC+x589wIxqGA6JW8GrCVEkCddMQs=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -3176,12 +3176,12 @@
       "name": "Web Search",
       "repo": "https://github.com/devnullvoid/dms-web-search",
       "screenshot": "https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true",
-      "version": "1.2.6"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/58gg3b9lyibwfk5hgmznhpa2n3vzr095-dms-web-search",
-    "rev": "55b1e46d9f6c33f92d188039b34169b10fd28f37",
+    "path": "/nix/store/kpp87mj7r8m2bf118cgqx0g9svdwzagl-dms-web-search",
+    "rev": "8ec42a2dff96b94cdd0d40b57c1acd815c15079a",
     "rootDir": "",
-    "sha256": "164889lqs85i061g68f99rxs8c8w8wb2l1y9l3j9zipli46hzdz2",
+    "sha256": "02riblkr0i15mh36y99sc2l320ppghggnhi7p86lsa6wrv93jl2b",
     "url": "https://github.com/devnullvoid/dms-web-search"
   },
   "worldClock": {
