@@ -1589,12 +1589,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "ephemera": {
-    "date": "2026-02-27T21:35:39-05:00",
+    "date": "2026-03-02T11:19:51-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-HNoeNHugz+wXiAeMcwoIg2kyJWkUN0O6jwQ1Naueurg=",
+    "hash": "sha256-fCMN/8DHBfxaYoOJA0sPBmOAFK6aiWVuJ7OKt4dvf+g=",
     "leaveDotGit": false,
     "meta": {
       "author": "nicolasgarcia214",
@@ -1618,12 +1618,12 @@
       "name": "Ephemera",
       "repo": "https://github.com/nicolasgarcia214/Ephemera",
       "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true",
-      "version": "0.1.2"
+      "version": "0.1.3"
     },
-    "path": "/nix/store/q15a4jaxrscngd7skrn21dnw83smnmqa-Ephemera",
-    "rev": "01a23ac242913941c48a238549bc22e6f98b508e",
+    "path": "/nix/store/1raf8446r94parr2f9fizjrdza4v3l60-Ephemera",
+    "rev": "e35c9906c10b15c6c831846ea037450abdabaf5d",
     "rootDir": "",
-    "sha256": "1f5sksmkad84iyx46dqld4jk4sc310577307i0byrkx0gcs1xnhw",
+    "sha256": "1s3zdy3vg2mk4xp6b2csmqa80qq61x5h72c3c9dgq1f7q3zhs8vw",
     "url": "https://github.com/nicolasgarcia214/Ephemera"
   },
   "flatpakUpdates": {
@@ -2113,12 +2113,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlsPlus": {
-    "date": "2026-03-01T17:07:11+02:00",
+    "date": "2026-03-02T23:18:28+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-udnqFlXvmmoqe5OyVm2itunkbtfsq7E50Clp4OgXsp4=",
+    "hash": "sha256-lUfB71EZsNw06vRu9pzR8wTQ8h5lzlSdGzBtWBXCtWE=",
     "leaveDotGit": false,
     "meta": {
       "author": "lpv11",
@@ -2138,12 +2138,12 @@
       "name": "Media Controls Plus",
       "repo": "https://github.com/lpv11/dms-media-controls-plus",
       "screenshot": "https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "0.9.5"
     },
-    "path": "/nix/store/1d5fa78mgw4k1vijwb4gj62kmx6cib36-dms-media-controls-plus",
-    "rev": "0ece6eea2847c0684231886fe3d5aa859778c1b1",
+    "path": "/nix/store/4isq92jx55g1a50f9nzxd8m6kp67c07q-dms-media-controls-plus",
+    "rev": "e136b2754b922972fe7fa9cbbd3f6695ee93b4f6",
     "rootDir": "",
-    "sha256": "17mj2zlf0s99s0wv3azcsxpf9sdnl9nmdclkgcm6m6pgalbfmndr",
+    "sha256": "0qdmq8amhv9h3ffm9kk53vrd017ks6fgcvplx8sdrc0ra7pw2iwm",
     "url": "https://github.com/lpv11/dms-media-controls-plus"
   },
   "mediaFrame": {
