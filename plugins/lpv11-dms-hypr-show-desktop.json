@@ -7,7 +7,7 @@
   "category": "utilities",
   "repo": "https://github.com/lpv11/dms-hypr-show-desktop",
   "author": "lpv11",
-  "description": "Clickable bar icon that hides your windows to a special workspace and restores them. Hyprland only.",
+  "description": "Clickable bar icon that adds windows-life show desktop function. For Hyprland.",
   "dependencies": [],
   "compositors": [
     "hyprland"
