@@ -34,7 +34,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
 
 ---
 
@@ -232,6 +232,43 @@ Semi-Live market prices for currencies, stocks, and commodities with charts
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png)
+
+</details>
+
+
+
+
+
+---
+
+
+
+### Media
+
+
+
+#### [Dank Audio Visualizer](https://github.com/odtgit/DankAudioVisualizer)
+
+Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from Noctalia's fancy-audiovisualizer by Lemmy / Noctalia Team.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: dankAudioVisualizer
+- name: Dank Audio Visualizer
+- author: odtgit
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: cava
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/odtgit/DankAudioVisualizer/main/preview.png)
 
 </details>
 
@@ -1558,6 +1595,35 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [Ephemera](https://github.com/nicolasgarcia214/Ephemera)
+
+Ephemeral AI chat — ask quick questions, keep nothing
+
+
+
+- id: ephemera
+- name: Ephemera
+- author: nicolasgarcia214
+- compositors: any
+- capabilities: slideout, ai
+- dependencies: curl, wl-copy
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true)
 
 </details>
 
