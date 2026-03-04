@@ -1,11 +1,11 @@
 {
   "adguardVPplugin": {
-    "date": "2026-02-26T15:08:08-03:00",
+    "date": "2026-03-03T16:27:25-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-zSBlNq/P0gCljJvXctMyHyONXp8bDOIHyn9LYs576YY=",
+    "hash": "sha256-nwZ3SwoBgWw3M+qgoRoeG0JMo1lHYa2xwnWZd5tKtvU=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -30,12 +30,12 @@
       "repo": "https://github.com/bernardopg/dms-adguard-vpn-plugin",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/dms-adguard-vpn-plugin/main/docs/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/hagcxam8d979rjsmc528v2m6cgp5s101-dms-adguard-vpn-plugin",
-    "rev": "a27a6ee6891fc46f355776b4d4dda71b8dc4abcb",
+    "path": "/nix/store/cpmk8ib8nhdbajiiavmwrciqsjd3rrxh-dms-adguard-vpn-plugin",
+    "rev": "0dde2e5b41b4c773214c1b13097029bac24b4e31",
     "rootDir": "",
-    "sha256": "11p9gg764jvzr83y430vkxg8s8qz6b9p5mwvijjh1lngmwv6a86d",
+    "sha256": "1xdn9adpg6bmqaqssqa7b6ilqhhv3qda387a6cvnr081195pf1lz",
     "url": "https://github.com/bernardopg/dms-adguard-vpn-plugin"
   },
   "aiAssistant": {
@@ -1589,12 +1589,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "ephemera": {
-    "date": "2026-03-02T11:19:51-05:00",
+    "date": "2026-03-02T21:19:36-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-fCMN/8DHBfxaYoOJA0sPBmOAFK6aiWVuJ7OKt4dvf+g=",
+    "hash": "sha256-p+80m1aXqeDtry2dX2O1oEPpliOa/cZludgxwQwwgn0=",
     "leaveDotGit": false,
     "meta": {
       "author": "nicolasgarcia214",
@@ -1620,19 +1620,19 @@
       "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true",
       "version": "0.1.3"
     },
-    "path": "/nix/store/1raf8446r94parr2f9fizjrdza4v3l60-Ephemera",
-    "rev": "e35c9906c10b15c6c831846ea037450abdabaf5d",
+    "path": "/nix/store/h79x9wic28xm5s87rq0hxjqh7rlr0gp7-Ephemera",
+    "rev": "bd8ef5a6d95bfcadc6ac97599aeba1d4ce1e69bf",
     "rootDir": "",
-    "sha256": "1s3zdy3vg2mk4xp6b2csmqa80qq61x5h72c3c9dgq1f7q3zhs8vw",
+    "sha256": "0zc2606c2cfqp5jwdzcs4fbfjhx0nmimz79dmzny1acpasdk9vx7",
     "url": "https://github.com/nicolasgarcia214/Ephemera"
   },
   "flatpakUpdates": {
-    "date": "2026-02-26T21:49:14-05:00",
+    "date": "2026-03-03T14:59:45-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-SHRmwgG3mXCIIuXTJI8wbVP4K8LW3tXeT/FNDEaJwNo=",
+    "hash": "sha256-ULsO985ldhyM7G5yUtAVbeDv6UjWPzWozIWJcpoCAhs=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Erdely",
@@ -1656,12 +1656,12 @@
       "path": "FlatpakUpdates",
       "repo": "https://github.com/merdely/dms-plugins",
       "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png",
-      "version": "1.2.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/3iva1hvg8g38mw6yd5n2s1wysxw8aza5-dms-plugins",
-    "rev": "afefd48be48c6815738141d56d7c9f5d7ea88607",
+    "path": "/nix/store/vgmp1axagfpknmka45wjr5zcidgnw7n0-dms-plugins",
+    "rev": "d788534db3438a6242c9a266f30af98adf214050",
     "rootDir": "",
-    "sha256": "1nn0i530qkgi9zgdbpnnq8mzhlvd627j9lz54a4716dp0716cx28",
+    "sha256": "06q20ad752c5rjl3agyn93lyzq3d2p854wkfxj61qxk5rvvhxfsh",
     "url": "https://github.com/merdely/dms-plugins"
   },
   "githubHeatmap": {
@@ -2751,12 +2751,12 @@
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
   "sshConnections": {
-    "date": "2026-02-26T21:49:14-05:00",
+    "date": "2026-03-03T14:59:45-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-SHRmwgG3mXCIIuXTJI8wbVP4K8LW3tXeT/FNDEaJwNo=",
+    "hash": "sha256-ULsO985ldhyM7G5yUtAVbeDv6UjWPzWozIWJcpoCAhs=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Erdely",
@@ -2780,12 +2780,12 @@
       "path": "sshConnections",
       "repo": "https://github.com/merdely/dms-plugins",
       "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/sshconnections.png",
-      "version": "1.4.3"
+      "version": "1.4.6"
     },
-    "path": "/nix/store/3iva1hvg8g38mw6yd5n2s1wysxw8aza5-dms-plugins",
-    "rev": "afefd48be48c6815738141d56d7c9f5d7ea88607",
+    "path": "/nix/store/vgmp1axagfpknmka45wjr5zcidgnw7n0-dms-plugins",
+    "rev": "d788534db3438a6242c9a266f30af98adf214050",
     "rootDir": "",
-    "sha256": "1nn0i530qkgi9zgdbpnnq8mzhlvd627j9lz54a4716dp0716cx28",
+    "sha256": "06q20ad752c5rjl3agyn93lyzq3d2p854wkfxj61qxk5rvvhxfsh",
     "url": "https://github.com/merdely/dms-plugins"
   },
   "sshMonitor": {
