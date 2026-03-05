@@ -866,6 +866,35 @@ Add application shortcuts in your desktop :)
 
 
 
+#### [Audio Switcher](https://github.com/CD-Z/dms-plugins)
+
+Quickly toggle between different audio output devices
+
+
+
+- id: audioSwitcher
+- name: Audio Switcher
+- author: CD-Z
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/CD-Z/dms-plugins/master/settings.png)
+
+</details>
+
+
+
+
+
 #### [Calculator](https://github.com/rochacbruno/DankCalculator)
 
 A calculator plugin that evaluates mathematical expressions and copies results to clipboard
