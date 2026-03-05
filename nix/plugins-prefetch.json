@@ -295,6 +295,40 @@
     "sha256": "0yvqb77qqcnx9i45hy6z5n3js32r89dl6rv8sbqak9zcdl1qgjin",
     "url": "https://github.com/pseudofractal/AsusControl"
   },
+  "audioSwitcher": {
+    "date": "2026-03-05T17:29:38+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-jGsB+oT9Jpm2lycuFFLp0etqUUoG3GJRJOqZqZUSk6w=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "CD-Z",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Quickly toggle between different audio output devices",
+      "distro": [
+        "any"
+      ],
+      "id": "audioSwitcher",
+      "name": "Audio Switcher",
+      "repo": "https://github.com/CD-Z/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/CD-Z/dms-plugins/master/settings.png",
+      "version": "1.0"
+    },
+    "path": "/nix/store/qdkzzmam6zp8h7s59bdmv402bplipwn4-dms-plugins",
+    "rev": "c510ed4f29c5128512130051100e5c86464c95a6",
+    "rootDir": "",
+    "sha256": "1b4k2aask6ga4i8n5p06998nmsyix5918bi7jyv9j9pxhkx02swc",
+    "url": "https://github.com/CD-Z/dms-plugins"
+  },
   "calculator": {
     "date": "2026-02-12T18:45:29Z",
     "deepClone": false,
@@ -371,12 +405,12 @@
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
   "claudeCodeUsage": {
-    "date": "2026-03-01T12:06:12+01:00",
+    "date": "2026-03-05T11:02:37+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-GsfI9fqjcIId170wQfJfLfMHml116TUndrOdpJDTkCg=",
+    "hash": "sha256-7pZRKDvIW4F0W2bvsALrGWxkPiNCwBHmnqbsf+Po/4g=",
     "leaveDotGit": false,
     "meta": {
       "author": "Nicolas Bellamy",
@@ -398,12 +432,12 @@
       "name": "Claude Code Usage",
       "repo": "https://github.com/titeya/dms-claudecode",
       "screenshot": "https://github.com/titeya/dms-claudecode/raw/master/screenshot.png",
-      "version": "1.1.2"
+      "version": "1.1.3"
     },
-    "path": "/nix/store/fis7ar34518ya7z7gc6gfhr3ff6n60pa-dms-claudecode",
-    "rev": "dcb771802920b61f98c1120028e7f3d97ecf4ab8",
+    "path": "/nix/store/bi49hs32lgi9kvzsm80c6k1xr7psldnd-dms-claudecode",
+    "rev": "92cc7c24e6fa526f5ac6870d43f14e0a9f6bd2ab",
     "rootDir": "",
-    "sha256": "0a4hsf8a97dkfqkkbsbmbnd0gwrdbzr42c5xswfq4w53zbswiiqs",
+    "sha256": "127zx3ipzv56kvk13h224cz68v0rxc1b1vv6bds82ny87cl535pf",
     "url": "https://github.com/titeya/dms-claudecode"
   },
   "commandRunner": {
@@ -1117,12 +1151,12 @@
     "url": "https://github.com/yayuuu/desktopCommand"
   },
   "developerUtilities": {
-    "date": "2026-02-13T22:00:21+08:00",
+    "date": "2026-03-05T19:21:10+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-/XQw4YRRW1PzyCaoKEEWcJp29BSo8IqL1YDHnfr7Jk8=",
+    "hash": "sha256-UJE2Qf/w4zsx7grS5Q/0HqKExf6Xi8EdQjA0TgSfwTo=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -1144,12 +1178,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-developer-utilities",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-developer-utilities/master/assets/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.2"
     },
-    "path": "/nix/store/701xgxcwgsjw1br7cq2gkw1lqjv9kkaf-dms-plugin-developer-utilities",
-    "rev": "aa8e21a92ca5a0bdcf10077d7a415805660ce8bd",
+    "path": "/nix/store/99s8a8jrn3gxwzspara3773872335ndd-dms-plugin-developer-utilities",
+    "rev": "51143ca6a2df83959abfa1ea20643eae8b202992",
     "rootDir": "",
-    "sha256": "0kr6zgx9viw0sn5qmw582ks7d6kh2r0jia16r3rm6nsihkhk0x7x",
+    "sha256": "0fn1kw24wd1h88fw32wpzv2q98hyyh7yblhaxqqkpqzhzx0kd4ah",
     "url": "https://github.com/xxyangyoulin/dms-plugin-developer-utilities"
   },
   "displayManager": {
@@ -1665,12 +1699,12 @@
     "url": "https://github.com/merdely/dms-plugins"
   },
   "githubHeatmap": {
-    "date": "2026-02-20T21:59:35-08:00",
+    "date": "2026-03-04T15:59:24-08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-WdgAQ5ILh9/fUaB+U2qa/yKH8Kr6aeRAap6YtfsR4/o=",
+    "hash": "sha256-nMk9Ab++JFJ2vwDaWSdFFLDWVVPiLcqPDjb0fY/xKoc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Deppes",
@@ -1699,10 +1733,10 @@
       "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/GitHubHeatMap-popout.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/zqk4x4dwk906ymhc4yxbv88inc9sivzg-dms-plugins",
-    "rev": "c73781f32c20dd9904bbde0aa40ab135b7c13fbd",
+    "path": "/nix/store/rn1qbmh1fm3nnxyhdn7jh7qdcw0a8ydk-dms-plugins",
+    "rev": "6ec6381e0d80f07f8d7b902896e98c6ad8658017",
     "rootDir": "",
-    "sha256": "1yp327xvb64yd90f8sgsmbq8f8pzk9m56zm0a7gxz1qbj91h1n2r",
+    "sha256": "11ray67pvx1n1s7wlbg2adaxdc0l8lkmknh0pxv5495ypw0kvjcw",
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "gitlabNotifier": {
@@ -1970,12 +2004,12 @@
     "url": "https://github.com/psyreactor/dms-kubernetes"
   },
   "linuxWallpaperEngine": {
-    "date": "2026-02-07T14:53:28+03:00",
+    "date": "2026-03-05T20:31:49+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-SlkJhFuIj2Hm48DeEexiwGyuw+Xpriuh/V9sxnaZmFE=",
+    "hash": "sha256-VkWd4cYGDgGEV7gPejqliK+rFXxf618og7RHUFn86DU=",
     "leaveDotGit": false,
     "meta": {
       "author": "sgtaziz",
@@ -2000,10 +2034,10 @@
       "screenshot": "https://raw.githubusercontent.com/sgtaziz/dms-wallpaperengine/refs/heads/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/mq1kj229gi39dksbcx4maprg8wllpb0l-dms-wallpaperengine",
-    "rev": "8b3cd460fd5a401e4b501e59054a1377a7df86b1",
+    "path": "/nix/store/f0gdxqziaj1q6j6b05zqnmphi0avnfwf-dms-wallpaperengine",
+    "rev": "71773457223ba9bdc5d2f56f69a051cfe1dc0b2d",
     "rootDir": "",
-    "sha256": "0lcqk5vccv2zznhjpbp9wp1swv60cbn13pn0wgk633w8bf20jnaa",
+    "sha256": "0dg8zicm0ixlhcl5zsszghaspbw8llx7l3xqay2023h6qvhrsian",
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
   },
   "lyricsOnPanel": {
@@ -2113,12 +2147,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlsPlus": {
-    "date": "2026-03-02T23:18:28+02:00",
+    "date": "2026-03-05T20:16:09+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-lUfB71EZsNw06vRu9pzR8wTQ8h5lzlSdGzBtWBXCtWE=",
+    "hash": "sha256-aLut9ivDXilKWIkReiYx+WNfHeWzjIp+JpP8ZfxOYVM=",
     "leaveDotGit": false,
     "meta": {
       "author": "lpv11",
@@ -2140,10 +2174,10 @@
       "screenshot": "https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png",
       "version": "0.9.5"
     },
-    "path": "/nix/store/4isq92jx55g1a50f9nzxd8m6kp67c07q-dms-media-controls-plus",
-    "rev": "e136b2754b922972fe7fa9cbbd3f6695ee93b4f6",
+    "path": "/nix/store/140yyzcqqxffyrz0rlzi99aq6hwj9jzg-dms-media-controls-plus",
+    "rev": "ded2330603a09076e6d495cf43f0810e423f37bf",
     "rootDir": "",
-    "sha256": "0qdmq8amhv9h3ffm9kk53vrd017ks6fgcvplx8sdrc0ra7pw2iwm",
+    "sha256": "0lv19vy6bz4k4rz8m35kwlfmyqzr64k7l4c9b152jpn35gvavfv8",
     "url": "https://github.com/lpv11/dms-media-controls-plus"
   },
   "mediaFrame": {
@@ -2677,12 +2711,12 @@
     "url": "https://github.com/ss44/sathi.ai"
   },
   "screenshotToggle": {
-    "date": "2026-02-20T21:59:35-08:00",
+    "date": "2026-03-04T15:59:24-08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-WdgAQ5ILh9/fUaB+U2qa/yKH8Kr6aeRAap6YtfsR4/o=",
+    "hash": "sha256-nMk9Ab++JFJ2vwDaWSdFFLDWVVPiLcqPDjb0fY/xKoc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Deppes",
@@ -2707,10 +2741,10 @@
       "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/screenshot-toggle-control-center.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/zqk4x4dwk906ymhc4yxbv88inc9sivzg-dms-plugins",
-    "rev": "c73781f32c20dd9904bbde0aa40ab135b7c13fbd",
+    "path": "/nix/store/rn1qbmh1fm3nnxyhdn7jh7qdcw0a8ydk-dms-plugins",
+    "rev": "6ec6381e0d80f07f8d7b902896e98c6ad8658017",
     "rootDir": "",
-    "sha256": "1yp327xvb64yd90f8sgsmbq8f8pzk9m56zm0a7gxz1qbj91h1n2r",
+    "sha256": "11ray67pvx1n1s7wlbg2adaxdc0l8lkmknh0pxv5495ypw0kvjcw",
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "sessionPower": {
@@ -2789,12 +2823,12 @@
     "url": "https://github.com/merdely/dms-plugins"
   },
   "sshMonitor": {
-    "date": "2026-02-20T21:59:35-08:00",
+    "date": "2026-03-04T15:59:24-08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-WdgAQ5ILh9/fUaB+U2qa/yKH8Kr6aeRAap6YtfsR4/o=",
+    "hash": "sha256-nMk9Ab++JFJ2vwDaWSdFFLDWVVPiLcqPDjb0fY/xKoc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Deppes",
@@ -2821,10 +2855,10 @@
       "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png",
       "version": "1.6.0"
     },
-    "path": "/nix/store/zqk4x4dwk906ymhc4yxbv88inc9sivzg-dms-plugins",
-    "rev": "c73781f32c20dd9904bbde0aa40ab135b7c13fbd",
+    "path": "/nix/store/rn1qbmh1fm3nnxyhdn7jh7qdcw0a8ydk-dms-plugins",
+    "rev": "6ec6381e0d80f07f8d7b902896e98c6ad8658017",
     "rootDir": "",
-    "sha256": "1yp327xvb64yd90f8sgsmbq8f8pzk9m56zm0a7gxz1qbj91h1n2r",
+    "sha256": "11ray67pvx1n1s7wlbg2adaxdc0l8lkmknh0pxv5495ypw0kvjcw",
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "steamfriends": {
