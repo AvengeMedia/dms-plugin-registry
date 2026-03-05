@@ -1,0 +1,13 @@
+{
+  "id": "audioSwitcher",
+  "name": "Audio Switcher",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/CD-Z/dms-plugins",
+  "author": "CD-Z",
+  "description": "Quickly toggle between different audio output devices",
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/CD-Z/dms-plugins/master/settings.png"
+}
