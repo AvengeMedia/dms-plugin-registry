@@ -2672,6 +2672,35 @@ Quick access to recent Visual Studio Code files, folders, and projects
 
 
 
+#### [Volume Mixer](https://github.com/cwelsys/dms-volume-mixer)
+
+Standalone volume mixer for your bar
+
+
+
+- id: volumeMixer
+- name: Volume Mixer
+- author: cwel
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/cwelsys/dms-volume-mixer/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Voxtype](https://github.com/psyreactor/dms-voxtype)
 
 voxtype status plugin for DankBar
