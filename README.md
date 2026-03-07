@@ -1011,6 +1011,40 @@ A calculator plugin that evaluates mathematical expressions and copies results t
 
 
 
+#### [Canvas Grades](https://github.com/mcwiseman97/dms-canvas-plugin)
+
+Courses, grades, upcoming assignments, missing work, and announcements from Canvas LMS
+
+
+
+- id: canvasGrades
+- name: Canvas Grades
+- author: mcwiseman97
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: curl, jq, bash
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [canvasGrades](https://github.com/mcwiseman97/dms-canvas-plugin/tree/main/canvasGrades) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/mcwiseman97/dms-canvas-plugin/main/screenshots/canvas-popout.png)
+
+</details>
+
+
+
+
+
 #### [Chinese Calendar](https://github.com/xxyangyoulin/dms-plugin-ccal)
 
 Display Chinese lunar calendar with holiday information in the status bar
