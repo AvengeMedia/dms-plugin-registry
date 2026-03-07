@@ -2551,6 +2551,35 @@ Puts the Power menu in the Bar
 
 
 
+#### [Show Desktop](https://github.com/lpv11/dms-hypr-show-desktop)
+
+Clickable bar icon that adds windows-life show desktop function. For Hyprland.
+
+
+
+- id: showDesktop
+- name: Show Desktop
+- author: lpv11
+- compositors: hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/lpv11/dms-hypr-show-desktop/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Steam Friends](https://github.com/banicans/DMS-SteamFriends)
 
 Shows how many Steam friends are online, and whos online playing what.
