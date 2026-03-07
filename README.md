@@ -400,6 +400,35 @@ Monitor your Claude Code subscription usage with token tracking, rate limits, an
 
 
 
+#### [CodexBar](https://github.com/zakstam/dms-codexbar)
+
+Monitor AI provider usage quotas
+
+
+
+- id: codexBar
+- name: CodexBar
+- author: zak
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/zakstam/dms-codexbar/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [GitHub Heatmap](https://github.com/boutabong/dms-plugins)
 
 Display weekly GitHub contribution heatmap with color-coded activity levels
