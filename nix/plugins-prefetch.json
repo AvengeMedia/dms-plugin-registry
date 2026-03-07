@@ -403,12 +403,12 @@
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
   "canvasGrades": {
-    "date": "2026-03-04T23:38:02-06:00",
+    "date": "2026-03-07T11:27:16-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-clrEqJYAqk3xpuCZpE8ysRmcT8ek0Coasfv848oofU0=",
+    "hash": "sha256-tuP7JJlcJH81ETsYI4wi4gCQH18ikhJG5Jcyz6oijZc=",
     "leaveDotGit": false,
     "meta": {
       "author": "mcwiseman97",
@@ -436,10 +436,10 @@
       "screenshot": "https://raw.githubusercontent.com/mcwiseman97/dms-canvas-plugin/main/screenshots/canvas-popout.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/xsbdx6qycz565hpjwkwvvllmrswapv1k-dms-canvas-plugin",
-    "rev": "7bf85aa419de585a5a280aacb80f046223fe11a4",
+    "path": "/nix/store/jq0kkfl1j5ybsw5zrw17pn5is72nb40i-dms-canvas-plugin",
+    "rev": "ffd0b9f45440e21039a69645ef13d3a8d1d07e00",
     "rootDir": "",
-    "sha256": "0kbx535f7z7vn4d2ml54qx7rq6di697s96g0lvqlvah0jslc8nkj",
+    "sha256": "15wd4amcyclpwi3154i2bwgr00724a62661v24spy92wk4jgpqxn",
     "url": "https://github.com/mcwiseman97/dms-canvas-plugin"
   },
   "cavaVisualizer": {
@@ -3150,6 +3150,42 @@
     "rootDir": "",
     "sha256": "0qh4pssfqc75br7wzxpj7wj9rnxn7y5w1wdyf6ws7wa80f6aayvi",
     "url": "https://github.com/cglavin50/dms-tailscale"
+  },
+  "teamspeakStatus": {
+    "date": "2026-03-03T21:03:13+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-JZOSRL0NGyXWWKUdjrxs7cOMY7/wQFfuMv82BNJScYI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "thisilike",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "ts-status"
+      ],
+      "description": "Real-time TeamSpeak 6 status display \u2014 server, channel, mute, talking, away",
+      "distro": [
+        "any"
+      ],
+      "id": "teamspeakStatus",
+      "name": "TeamSpeak Status",
+      "repo": "https://github.com/thisilike/dms-plugin-teamspeak",
+      "screenshot": "https://raw.githubusercontent.com/thisilike/dms-plugin-teamspeak/master/screenshot.png",
+      "version": "2.0.2"
+    },
+    "path": "/nix/store/ywm1jsqpki7aggddf8jhnsr4sd0h5221-dms-plugin-teamspeak",
+    "rev": "98fe1996d8673285e241dcbc895da53e0d746ada",
+    "rootDir": "",
+    "sha256": "10kiab908dpz6bp5fh7hpxiqrhzddjy8w7d5b3b2a6qdpm2954r5",
+    "url": "https://github.com/thisilike/dms-plugin-teamspeak"
   },
   "timeUntil": {
     "date": "2026-02-28T11:28:45+01:00",
