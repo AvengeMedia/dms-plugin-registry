@@ -365,6 +365,42 @@
     "sha256": "1sb26kc9k9jcgkssx4xf35im2h5h7hkb8g66wxlj5w7pnbcpc5bf",
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
+  "cavaVisualizer": {
+    "date": "2026-03-02T11:15:42+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-ag+c0f1KwguYK1wVhvw9EadLilofz4O4zhQwfqFqY2k=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "ernestowgg",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "cava"
+      ],
+      "description": "A simple, customizable audio visualizer for your desktop",
+      "distro": [
+        "any"
+      ],
+      "id": "cavaVisualizer",
+      "name": "Cava Visualizer",
+      "repo": "https://github.com/ernestowgg/cava-visualizer",
+      "screenshot": "https://github.com/ernestowgg/cava-visualizer/blob/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/nz2f9rzj3yd5wfk1xfw30fnangp7g3v8-cava-visualizer",
+    "rev": "e21703709520ab8401cc3ae9218ebbcc22bb2d2f",
+    "rootDir": "",
+    "sha256": "0sb3dahpwc0lrsw87kqzba54p9qi7py8c5aw5fc0phjazp8rq3va",
+    "url": "https://github.com/ernestowgg/cava-visualizer"
+  },
   "chineseCalendar": {
     "date": "2026-02-27T00:02:03+08:00",
     "deepClone": false,
@@ -1623,12 +1659,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "ephemera": {
-    "date": "2026-03-02T21:19:36-05:00",
+    "date": "2026-03-06T22:10:02-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-p+80m1aXqeDtry2dX2O1oEPpliOa/cZludgxwQwwgn0=",
+    "hash": "sha256-pDToHx7/mFM5p1xPVhV8TBhfpNS2JGVh52LOHeuVVmc=",
     "leaveDotGit": false,
     "meta": {
       "author": "nicolasgarcia214",
@@ -1652,12 +1688,12 @@
       "name": "Ephemera",
       "repo": "https://github.com/nicolasgarcia214/Ephemera",
       "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true",
-      "version": "0.1.3"
+      "version": "0.1.4"
     },
-    "path": "/nix/store/h79x9wic28xm5s87rq0hxjqh7rlr0gp7-Ephemera",
-    "rev": "bd8ef5a6d95bfcadc6ac97599aeba1d4ce1e69bf",
+    "path": "/nix/store/hs8vc400kks3srf31dynldqc3m2qp5c1-Ephemera",
+    "rev": "955609d654257cbbdf6eef451a8b1c70de383735",
     "rootDir": "",
-    "sha256": "0zc2606c2cfqp5jwdzcs4fbfjhx0nmimz79dmzny1acpasdk9vx7",
+    "sha256": "0rsnjpmivkk2wxhna95nsjj5y62cghamckswlwwm767z3qgyhd54",
     "url": "https://github.com/nicolasgarcia214/Ephemera"
   },
   "flatpakUpdates": {
