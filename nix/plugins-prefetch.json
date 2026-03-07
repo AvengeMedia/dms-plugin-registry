@@ -402,6 +402,46 @@
     "sha256": "1sb26kc9k9jcgkssx4xf35im2h5h7hkb8g66wxlj5w7pnbcpc5bf",
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
+  "canvasGrades": {
+    "date": "2026-03-04T23:38:02-06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-clrEqJYAqk3xpuCZpE8ysRmcT8ek0Coasfv848oofU0=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "mcwiseman97",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [
+        "curl",
+        "jq",
+        "bash"
+      ],
+      "description": "Courses, grades, upcoming assignments, missing work, and announcements from Canvas LMS",
+      "distro": [
+        "any"
+      ],
+      "id": "canvasGrades",
+      "name": "Canvas Grades",
+      "path": "canvasGrades",
+      "repo": "https://github.com/mcwiseman97/dms-canvas-plugin",
+      "screenshot": "https://raw.githubusercontent.com/mcwiseman97/dms-canvas-plugin/main/screenshots/canvas-popout.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/xsbdx6qycz565hpjwkwvvllmrswapv1k-dms-canvas-plugin",
+    "rev": "7bf85aa419de585a5a280aacb80f046223fe11a4",
+    "rootDir": "",
+    "sha256": "0kbx535f7z7vn4d2ml54qx7rq6di697s96g0lvqlvah0jslc8nkj",
+    "url": "https://github.com/mcwiseman97/dms-canvas-plugin"
+  },
   "cavaVisualizer": {
     "date": "2026-03-02T11:15:42+01:00",
     "deepClone": false,
