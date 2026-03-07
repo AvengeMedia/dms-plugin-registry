@@ -2855,6 +2855,40 @@
     "sha256": "12a8zimgsynll3fvbw5a0la6dw3zw6f9hk9cdx0q7a289fx7378p",
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
+  "showDesktop": {
+    "date": "2026-03-03T03:23:07+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-WLZa+ODcTRfku537zGn+smAISV+bOog6YIAuRBQb51Y=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lpv11",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Clickable bar icon that adds windows-life show desktop function. For Hyprland.",
+      "distro": [
+        "any"
+      ],
+      "id": "showDesktop",
+      "name": "Show Desktop",
+      "repo": "https://github.com/lpv11/dms-hypr-show-desktop",
+      "screenshot": "https://raw.githubusercontent.com/lpv11/dms-hypr-show-desktop/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/ah81r1rrmngkc3618y0zcizvr5nv34jy-dms-hypr-show-desktop",
+    "rev": "1c5660dc98ee9c3d53fd94b8ea2dbe9ee5085bdd",
+    "rootDir": "",
+    "sha256": "0mp73ca48bl0c0x8hflvbx4hhq5jzrlwrywxpgj1fkfww3w5mdjq",
+    "url": "https://github.com/lpv11/dms-hypr-show-desktop"
+  },
   "sshConnections": {
     "date": "2026-03-03T14:59:45-05:00",
     "deepClone": false,
