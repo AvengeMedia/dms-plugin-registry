@@ -371,6 +371,35 @@ Display the current Air Quality Index (AQI) on the bar with detailed pollutant b
 
 
 
+#### [Audio Inhibit](https://github.com/insecure/dms-audio-inhibit)
+
+Enables idle inhibitor if audio is playing.
+
+
+
+- id: audioInhibit
+- name: Audio Inhibit
+- author: Tobias Hommel
+- compositors: any
+- capabilities: audio, monitoring
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/insecure/dms-audio-inhibit/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Claude Code Usage](https://github.com/titeya/dms-claudecode)
 
 Monitor your Claude Code subscription usage with token tracking, rate limits, and daily activity charts
