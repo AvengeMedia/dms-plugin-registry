@@ -295,6 +295,43 @@
     "sha256": "0yvqb77qqcnx9i45hy6z5n3js32r89dl6rv8sbqak9zcdl1qgjin",
     "url": "https://github.com/pseudofractal/AsusControl"
   },
+  "audioInhibit": {
+    "date": "2026-03-04T20:18:06+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-G3vBoFlixUqyaGUG6zjtAvYq95Y9eH5b4g/yZnkqCgs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Tobias Hommel",
+      "capabilities": [
+        "audio",
+        "monitoring"
+      ],
+      "category": "monitoring",
+      "component": "./audioInhibit.qml",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Enables idle inhibitor if audio is playing.",
+      "distro": [
+        "any"
+      ],
+      "id": "audioInhibit",
+      "name": "Audio Inhibit",
+      "repo": "https://github.com/insecure/dms-audio-inhibit",
+      "screenshot": "https://raw.githubusercontent.com/insecure/dms-audio-inhibit/refs/heads/main/screenshot.png",
+      "type": "daemon",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/9hrk4jqs874qldmgcp2vp1z0li0ps3cf-dms-audio-inhibit",
+    "rev": "eefccb20299d8d79089d3d976ca1505ae16d3e27",
+    "rootDir": "",
+    "sha256": "02qa59wndwhgw9dpwy1xjvvjmxh2xlwfn1k5d2r4mib2b6hc2yqv",
+    "url": "https://github.com/insecure/dms-audio-inhibit"
+  },
   "audioSwitcher": {
     "date": "2026-03-05T17:29:38+01:00",
     "deepClone": false,
