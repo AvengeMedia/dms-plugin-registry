@@ -81,6 +81,35 @@ Simple Chinese A-share stock market monitoring plugin
 
 
 
+#### [Cava Visualizer](https://github.com/ernestowgg/cava-visualizer)
+
+A simple, customizable audio visualizer for your desktop
+
+
+
+- id: cavaVisualizer
+- name: Cava Visualizer
+- author: ernestowgg
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: cava
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/ernestowgg/cava-visualizer/blob/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Linux Wallpaper Engine](https://github.com/sgtaziz/dms-wallpaperengine)
 
 Animated wallpaper support using linux-wallpaperengine with Steam Workshop scenes
@@ -2959,7 +2988,7 @@ High contrast accessible colorscheme inspired by IBM Carbon
 Light and dark theme with pastel accents and purple hues
 
 - **Author:** ernestowg
-- **ID:** `peaceAndQuiet` **Version:** `1.0.1`
+- **ID:** `peaceAndQuiet` **Version:** `1.0.2`
 
 ![Peace & Quiet](themes/peace-and-quiet/preview.svg)
 
