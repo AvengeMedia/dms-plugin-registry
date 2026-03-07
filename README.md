@@ -2735,6 +2735,35 @@ Tailscale-toggle plugin for DankBar
 
 
 
+#### [TeamSpeak Status](https://github.com/thisilike/dms-plugin-teamspeak)
+
+Real-time TeamSpeak 6 status display — server, channel, mute, talking, away
+
+
+
+- id: teamspeakStatus
+- name: TeamSpeak Status
+- author: thisilike
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: ts-status
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/thisilike/dms-plugin-teamspeak/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Time Until](https://github.com/fdmarcin/TimeUntil)
 
 Display a customizable countdown timer in the Dankbar. Perfect for tracking important deadlines, goals, or any time-sensitive events.
