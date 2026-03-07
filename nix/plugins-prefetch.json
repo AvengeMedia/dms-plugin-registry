@@ -476,6 +476,41 @@
     "sha256": "127zx3ipzv56kvk13h224cz68v0rxc1b1vv6bds82ny87cl535pf",
     "url": "https://github.com/titeya/dms-claudecode"
   },
+  "codexBar": {
+    "date": "2026-03-01T10:48:20+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-mh4hcMQPIRwb3uApLlK71z1tcABcQHqBxKzGDwBDa9A=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "zak",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Monitor AI provider usage quotas",
+      "distro": [
+        "any"
+      ],
+      "id": "codexBar",
+      "name": "CodexBar",
+      "repo": "https://github.com/zakstam/dms-codexbar",
+      "screenshot": "https://raw.githubusercontent.com/zakstam/dms-codexbar/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/zrrql7x4dqs21fhaz79sz5gkv7m0l7dz-dms-codexbar",
+    "rev": "e6bde0e4ebfa38fedf26038314353e666eb286af",
+    "rootDir": "",
+    "sha256": "1l3b8c00zimcqj0plh2w01q6sgfppd92wag0vqdiq88gqiq227ls",
+    "url": "https://github.com/zakstam/dms-codexbar"
+  },
   "commandRunner": {
     "date": "2026-03-01T16:48:56-05:00",
     "deepClone": false,
@@ -3038,6 +3073,40 @@
     "rootDir": "",
     "sha256": "1zziyyin4wkwwbpn1cgmzvm2mbwcjfs38yd67fiiqr882rf4qxyj",
     "url": "https://github.com/fdmarcin/TimeUntil"
+  },
+  "volumeMixer": {
+    "date": "2026-03-01T01:38:13-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-yBgHyTvWz381UJq7wuHdaxYjn7DQ2f40qwj3kxUt9Ko=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "cwel",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Standalone volume mixer for your bar",
+      "distro": [
+        "any"
+      ],
+      "id": "volumeMixer",
+      "name": "Volume Mixer",
+      "repo": "https://github.com/cwelsys/dms-volume-mixer",
+      "screenshot": "https://raw.githubusercontent.com/cwelsys/dms-volume-mixer/main/assets/screenshot.png",
+      "version": "1.0.1"
+    },
+    "path": "/nix/store/axmw2x24rsl6g745ybpmymb99v2j42gc-dms-volume-mixer",
+    "rev": "3996bdfbc11cb7458d9d23e45a69ec2374cf8601",
+    "rootDir": "",
+    "sha256": "1apl5lar7xq8mcsgxnfhn2gj65kbvphw5fwsa0spzkyn7g4hf668",
+    "url": "https://github.com/cwelsys/dms-volume-mixer"
   },
   "voxtype": {
     "date": "2026-01-08T16:28:08-03:00",
