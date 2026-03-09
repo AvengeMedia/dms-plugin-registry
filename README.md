@@ -2909,6 +2909,35 @@ voxtype status plugin for DankBar
 
 
 
+#### [Wallpaper Carousel](https://github.com/motor-dev/wallpaperCarousel)
+
+Browse and pick wallpapers with a fullscreen skewed carousel overlay
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: wallpaperCarousel
+- name: Wallpaper Carousel
+- author: yngwe
+- compositors: niri, hyprland
+- capabilities: wallpaper
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/motor-dev/wallpaperCarousel/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper Discovery](https://github.com/lucyfire/dms-plugins)
 
 Search and download wallpapers
