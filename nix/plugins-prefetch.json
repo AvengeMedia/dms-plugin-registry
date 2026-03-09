@@ -2186,12 +2186,12 @@
     "url": "https://github.com/psyreactor/dms-kubernetes"
   },
   "linuxWallpaperEngine": {
-    "date": "2026-03-05T20:31:49+03:00",
+    "date": "2026-03-09T16:01:11+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-VkWd4cYGDgGEV7gPejqliK+rFXxf618og7RHUFn86DU=",
+    "hash": "sha256-3d4zjZGk6ktsMvlPGx/bcG+nEap6huViTwUP8JpY5tg=",
     "leaveDotGit": false,
     "meta": {
       "author": "sgtaziz",
@@ -2216,10 +2216,10 @@
       "screenshot": "https://raw.githubusercontent.com/sgtaziz/dms-wallpaperengine/refs/heads/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/f0gdxqziaj1q6j6b05zqnmphi0avnfwf-dms-wallpaperengine",
-    "rev": "71773457223ba9bdc5d2f56f69a051cfe1dc0b2d",
+    "path": "/nix/store/vqy4pqljxi9dcrn8pcfj4zvqzrrj2v8x-dms-wallpaperengine",
+    "rev": "308f236d2ec388d00f08e386383f297f85c816f1",
     "rootDir": "",
-    "sha256": "0dg8zicm0ixlhcl5zsszghaspbw8llx7l3xqay2023h6qvhrsian",
+    "sha256": "1n76b2dg03q59xifb1ksm88sfvvhvcginkzr69n4psm4j66k7pnx",
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
   },
   "lyricsOnPanel": {
@@ -3397,6 +3397,42 @@
     "rootDir": "",
     "sha256": "067w3k8yd2nf18gh8xzxzq2npsbqi8k7gn8lav7w316nxkwjwrbw",
     "url": "https://github.com/max72bra/DankPluginBingWallpaper"
+  },
+  "wallpaperCarousel": {
+    "date": "2026-03-09T13:42:53Z",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-bJ3n0fpPQ5oihh64ptjHzX5dVAE7aOb/3rdYNm76Oxw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "yngwe",
+      "capabilities": [
+        "wallpaper"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Browse and pick wallpapers with a fullscreen skewed carousel overlay",
+      "distro": [
+        "any"
+      ],
+      "id": "wallpaperCarousel",
+      "name": "Wallpaper Carousel",
+      "repo": "https://github.com/motor-dev/wallpaperCarousel",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://raw.githubusercontent.com/motor-dev/wallpaperCarousel/refs/heads/main/screenshot.png",
+      "version": "0.5.0"
+    },
+    "path": "/nix/store/nl7zk47m7b2rylnhyyxdw7f1lxmw578w-wallpaperCarousel",
+    "rev": "f6a30cbadb0d228829d88dbe3f4a44e028ef7dd5",
+    "rootDir": "",
+    "sha256": "071vz9p3cn5pvvzycs1v05a5szndqzcadf0yhqi9lhsgzb8yg7bc",
+    "url": "https://github.com/motor-dev/wallpaperCarousel"
   },
   "wallpaperDiscovery": {
     "date": "2026-02-03T21:48:05+02:00",
