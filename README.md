@@ -400,6 +400,35 @@ Enables idle inhibitor if audio is playing.
 
 
 
+#### [Cat Widget](https://github.com/xi-ve/cat-dms)
+
+An animated running cat for the DankBar whose speed reflects CPU usage. Based on CatWalk by Driglu4it.
+
+
+
+- id: catWidget
+- name: Cat Widget
+- author: kemo
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/xi-ve/dms-plugin-registry/blob/add-cat-widget/assets/cat-widget.png)
+
+</details>
+
+
+
+
+
 #### [Claude Code Usage](https://github.com/titeya/dms-claudecode)
 
 Monitor your Claude Code subscription usage with token tracking, rate limits, and daily activity charts
