@@ -443,12 +443,12 @@
     "url": "https://github.com/mcwiseman97/dms-canvas-plugin"
   },
   "cavaVisualizer": {
-    "date": "2026-03-02T11:15:42+01:00",
+    "date": "2026-03-08T08:56:26+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ag+c0f1KwguYK1wVhvw9EadLilofz4O4zhQwfqFqY2k=",
+    "hash": "sha256-xEsJKW5qd8Znu+bHMJbxNqMfl5QZ3wV9tio6/J/3mrs=",
     "leaveDotGit": false,
     "meta": {
       "author": "ernestowgg",
@@ -470,12 +470,12 @@
       "name": "Cava Visualizer",
       "repo": "https://github.com/ernestowgg/cava-visualizer",
       "screenshot": "https://github.com/ernestowgg/cava-visualizer/blob/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/nz2f9rzj3yd5wfk1xfw30fnangp7g3v8-cava-visualizer",
-    "rev": "e21703709520ab8401cc3ae9218ebbcc22bb2d2f",
+    "path": "/nix/store/lwd7pv6kbgbl9h9fkdxdjllyvlnlxbyi-cava-visualizer",
+    "rev": "4c64cae0d3b626ae3603bf3603fe32cac412d923",
     "rootDir": "",
-    "sha256": "0sb3dahpwc0lrsw87kqzba54p9qi7py8c5aw5fc0phjazp8rq3va",
+    "sha256": "1fwsyygzqfianryhbpqrjjbiz8rny6b31iz6pdkwcxvadqlhjjy4",
     "url": "https://github.com/ernestowgg/cava-visualizer"
   },
   "chineseCalendar": {
@@ -693,12 +693,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankAudioVisualizer": {
-    "date": "2026-02-28T15:21:58+01:00",
+    "date": "2026-03-08T10:08:45+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-qrPe1ZTp/+c/RTJLpFRFR5ln54j/9WUNljyX766CDDU=",
+    "hash": "sha256-BPO51F+4INNqPhJKReMhAbMzyMnHX4DbylcQkcvC1IQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "odtgit",
@@ -724,10 +724,10 @@
       "screenshot": "https://raw.githubusercontent.com/odtgit/DankAudioVisualizer/main/preview.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/nfsq5njj0bngss489whqh78hl3dnqw5i-DankAudioVisualizer",
-    "rev": "f8ed8042752794a601113ce1ce6f175b9698010f",
+    "path": "/nix/store/1klzbmhzyzsg0fqg6hln3q7f82d8z9r3-DankAudioVisualizer",
+    "rev": "c25a4f5fcabcf5ab21919f1334f8d54e25dfb1d8",
     "rootDir": "",
-    "sha256": "0d8chapfz5rwjq6nbxgzi3kng6a78maa8jrj8lzygzz9jkaxxcxa",
+    "sha256": "116lqb5r242prbdq0py7r7437cq147ilajhj7rmd685qbzabkwq4",
     "url": "https://github.com/odtgit/DankAudioVisualizer"
   },
   "dankBatteryAlerts": {
@@ -2295,12 +2295,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlsPlus": {
-    "date": "2026-03-05T20:16:09+02:00",
+    "date": "2026-03-08T15:01:00+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-aLut9ivDXilKWIkReiYx+WNfHeWzjIp+JpP8ZfxOYVM=",
+    "hash": "sha256-g/5LjfHWWMcaSJnSHIuYxuK6I/PpnY3PDWJsZ5YCK6Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "lpv11",
@@ -2320,12 +2320,12 @@
       "name": "Media Controls Plus",
       "repo": "https://github.com/lpv11/dms-media-controls-plus",
       "screenshot": "https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png",
-      "version": "0.9.5"
+      "version": "0.9.6"
     },
-    "path": "/nix/store/140yyzcqqxffyrz0rlzi99aq6hwj9jzg-dms-media-controls-plus",
-    "rev": "ded2330603a09076e6d495cf43f0810e423f37bf",
+    "path": "/nix/store/3vm5wjafb90nb2fwzmv7jlam4ipvrx9q-dms-media-controls-plus",
+    "rev": "9941f5fef8261df713f6bea69f6c547fffb5c758",
     "rootDir": "",
-    "sha256": "0lv19vy6bz4k4rz8m35kwlfmyqzr64k7l4c9b152jpn35gvavfv8",
+    "sha256": "191b0ab6fv321p7qv7g9ycivmqn6k25irllr90dcfn6ny66lpzl3",
     "url": "https://github.com/lpv11/dms-media-controls-plus"
   },
   "mediaFrame": {
