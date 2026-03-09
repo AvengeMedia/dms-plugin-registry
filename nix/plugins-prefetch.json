@@ -442,6 +442,40 @@
     "sha256": "15wd4amcyclpwi3154i2bwgr00724a62661v24spy92wk4jgpqxn",
     "url": "https://github.com/mcwiseman97/dms-canvas-plugin"
   },
+  "catWidget": {
+    "date": "2026-02-19T21:05:09+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-KG5hWnDMwLxnhVVEs7giyjHOW4zoZNnwWA5fqXPhou4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "kemo",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "An animated running cat for the DankBar whose speed reflects CPU usage. Based on CatWalk by Driglu4it.",
+      "distro": [
+        "any"
+      ],
+      "id": "catWidget",
+      "name": "Cat Widget",
+      "repo": "https://github.com/xi-ve/cat-dms",
+      "screenshot": "https://github.com/xi-ve/dms-plugin-registry/blob/add-cat-widget/assets/cat-widget.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/wjz525ai5jk4nphpndhb7pqy26vxyfyn-cat-dms",
+    "rev": "682c6989362ce4424ea3d3abf1c843d8e7be5aa6",
+    "rootDir": "",
+    "sha256": "1vm2w5rsjpqfb3qdjr78iidwwcfa4awb6i2mhmkvrh6cf1d62vi8",
+    "url": "https://github.com/xi-ve/cat-dms"
+  },
   "cavaVisualizer": {
     "date": "2026-03-08T08:56:26+01:00",
     "deepClone": false,
