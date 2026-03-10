@@ -8,5 +8,6 @@
     "description": "CalDAV calendar with events, notifications, and event management. Works with iCloud, Google, Nextcloud, and any CalDAV server.",
     "dependencies": ["python3", "go"],
     "compositors": ["any"],
-    "distro": ["any"]
+    "distro": ["any"],
+    "screenshot": "https://github.com/szabolcsf/dms-qcal-calendar/raw/main/screenshot.png"
 }
