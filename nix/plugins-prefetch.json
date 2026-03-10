@@ -403,12 +403,12 @@
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
   "canvasGrades": {
-    "date": "2026-03-07T11:27:16-06:00",
+    "date": "2026-03-09T13:41:01-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-tuP7JJlcJH81ETsYI4wi4gCQH18ikhJG5Jcyz6oijZc=",
+    "hash": "sha256-oOMbSqUnyGQMHz6o/cFUp01BTU+dQc197HU2jWwgLc8=",
     "leaveDotGit": false,
     "meta": {
       "author": "mcwiseman97",
@@ -434,12 +434,12 @@
       "path": "canvasGrades",
       "repo": "https://github.com/mcwiseman97/dms-canvas-plugin",
       "screenshot": "https://raw.githubusercontent.com/mcwiseman97/dms-canvas-plugin/main/screenshots/canvas-popout.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/jq0kkfl1j5ybsw5zrw17pn5is72nb40i-dms-canvas-plugin",
-    "rev": "ffd0b9f45440e21039a69645ef13d3a8d1d07e00",
+    "path": "/nix/store/85f903yqpm3qz3lyqfvak8gvz26yccss-dms-canvas-plugin",
+    "rev": "a336a14f4445de636d62de760affbb59842b5801",
     "rootDir": "",
-    "sha256": "15wd4amcyclpwi3154i2bwgr00724a62661v24spy92wk4jgpqxn",
+    "sha256": "1krd41n8sdkmxiywshcx9x6l2kd7ak0zva1y3w669j17lm51pqx0",
     "url": "https://github.com/mcwiseman97/dms-canvas-plugin"
   },
   "catWidget": {
@@ -1805,12 +1805,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "ephemera": {
-    "date": "2026-03-06T22:10:02-05:00",
+    "date": "2026-03-09T18:12:39-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-pDToHx7/mFM5p1xPVhV8TBhfpNS2JGVh52LOHeuVVmc=",
+    "hash": "sha256-TEmKjFIwMpQHZS1EqA0jLiFf/n+LdYLDNoGcBY9Zo/o=",
     "leaveDotGit": false,
     "meta": {
       "author": "nicolasgarcia214",
@@ -1834,12 +1834,12 @@
       "name": "Ephemera",
       "repo": "https://github.com/nicolasgarcia214/Ephemera",
       "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true",
-      "version": "0.1.4"
+      "version": "0.1.5"
     },
-    "path": "/nix/store/hs8vc400kks3srf31dynldqc3m2qp5c1-Ephemera",
-    "rev": "955609d654257cbbdf6eef451a8b1c70de383735",
+    "path": "/nix/store/2fg74j90g5cxfsw3k6xp3fsgly23mw0l-Ephemera",
+    "rev": "9adea63de0620bbbf85a196eb09c1f0262f63ccd",
     "rootDir": "",
-    "sha256": "0rsnjpmivkk2wxhna95nsjj5y62cghamckswlwwm767z3qgyhd54",
+    "sha256": "1ym3b67hb7416v1q4xcbgzz5y89f4c6shi1dcl3r8cihaa68ljac",
     "url": "https://github.com/nicolasgarcia214/Ephemera"
   },
   "flatpakUpdates": {
@@ -3399,12 +3399,12 @@
     "url": "https://github.com/max72bra/DankPluginBingWallpaper"
   },
   "wallpaperCarousel": {
-    "date": "2026-03-09T13:42:53Z",
+    "date": "2026-03-09T17:24:09+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bJ3n0fpPQ5oihh64ptjHzX5dVAE7aOb/3rdYNm76Oxw=",
+    "hash": "sha256-fkULC+NNmmGeOCK3nrJ0emu01cWAtaWI1mLqG/XiweQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "yngwe",
@@ -3426,12 +3426,12 @@
       "repo": "https://github.com/motor-dev/wallpaperCarousel",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/motor-dev/wallpaperCarousel/refs/heads/main/screenshot.png",
-      "version": "0.5.0"
+      "version": "0.7.0"
     },
-    "path": "/nix/store/nl7zk47m7b2rylnhyyxdw7f1lxmw578w-wallpaperCarousel",
-    "rev": "f6a30cbadb0d228829d88dbe3f4a44e028ef7dd5",
+    "path": "/nix/store/0ifbap2c605jfbad9vnpalw6d68if3bp-wallpaperCarousel",
+    "rev": "2efba179645912a4b7e4488e5e6d9c9c3c2331ab",
     "rootDir": "",
-    "sha256": "071vz9p3cn5pvvzycs1v05a5szndqzcadf0yhqi9lhsgzb8yg7bc",
+    "sha256": "1r61wbsipsk2ss4abdc0qpav8svsfjr9xdr272g636jdwc5hniby",
     "url": "https://github.com/motor-dev/wallpaperCarousel"
   },
   "wallpaperDiscovery": {
