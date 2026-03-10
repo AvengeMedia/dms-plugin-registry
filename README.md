@@ -3059,6 +3059,35 @@ Display up to 5 timezones on the DankBar. Toggle between showing all at once or 
 
 
 
+#### [qCal Calendar](https://github.com/szabolcsf/dms-qcal-calendar)
+
+CalDAV calendar with events, notifications, and event management. Works with iCloud, Google, Nextcloud, and any CalDAV server.
+
+
+
+- id: qcalCalendar
+- name: qCal Calendar
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3, go
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-qcal-calendar/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
