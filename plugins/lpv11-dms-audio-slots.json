@@ -1,0 +1,13 @@
+{
+    "id": "audioSlots",
+    "name": "Audio Slots IPC",
+    "capabilities": ["audio", "ipc", "daemon"],
+    "category": "utilities",
+    "repo": "https://github.com/lpv11/dms-audio-slots",
+    "author": "lpv11",
+    "description": "Daemon plugin for cycling saved output/input device slots and toggling focused-app mute via DMS IPC.",
+    "dependencies": [],
+    "compositors": ["hyprland", "niri"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/lpv11/dms-audio-slots/main/screenshot.png"
+}
