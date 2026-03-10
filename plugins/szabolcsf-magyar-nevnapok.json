@@ -1,0 +1,13 @@
+{
+    "id": "magyarNevnapok",
+    "name": "Magyar Névnapok",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/szabolcsf/dms-nameday",
+    "author": "Szabolcs Fazekas",
+    "description": "Display the current Hungarian nameday on the DankBar. Shows today's name on the bar, with yesterday/today/tomorrow in the popout panel.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/szabolcsf/dms-nameday/raw/main/screenshot.png"
+}

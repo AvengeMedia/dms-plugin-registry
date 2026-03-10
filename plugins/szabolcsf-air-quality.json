@@ -1,0 +1,13 @@
+{
+    "id": "airQuality",
+    "name": "Air Quality",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/szabolcsf/dms-air-quality",
+    "author": "Szabolcs Fazekas",
+    "description": "Display the current Air Quality Index (AQI) on the bar with detailed pollutant breakdown. Supports US and European AQI scales with auto-location.",
+    "dependencies": ["curl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/szabolcsf/dms-air-quality/raw/main/screenshot.png"
+}

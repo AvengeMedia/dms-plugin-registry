@@ -34,7 +34,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
 
 ---
 
@@ -78,6 +78,35 @@ Simple Chinese A-share stock market monitoring plugin
 
 
 ### Appearance
+
+
+
+#### [Cava Visualizer](https://github.com/ernestowgg/cava-visualizer)
+
+A simple, customizable audio visualizer for your desktop
+
+
+
+- id: cavaVisualizer
+- name: Cava Visualizer
+- author: ernestowgg
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: cava
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/ernestowgg/cava-visualizer/blob/main/screenshot.png)
+
+</details>
+
+
 
 
 
@@ -243,6 +272,43 @@ Semi-Live market prices for currencies, stocks, and commodities with charts
 
 
 
+### Media
+
+
+
+#### [Dank Audio Visualizer](https://github.com/odtgit/DankAudioVisualizer)
+
+Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from Noctalia's fancy-audiovisualizer by Lemmy / Noctalia Team.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: dankAudioVisualizer
+- name: Dank Audio Visualizer
+- author: odtgit
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: cava
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/odtgit/DankAudioVisualizer/main/preview.png)
+
+</details>
+
+
+
+
+
+---
+
+
+
 ### Monitoring
 
 
@@ -276,6 +342,93 @@ Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
 
 
 
+#### [Air Quality](https://github.com/szabolcsf/dms-air-quality)
+
+Display the current Air Quality Index (AQI) on the bar with detailed pollutant breakdown. Supports US and European AQI scales with auto-location.
+
+
+
+- id: airQuality
+- name: Air Quality
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-air-quality/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Audio Inhibit](https://github.com/insecure/dms-audio-inhibit)
+
+Enables idle inhibitor if audio is playing.
+
+
+
+- id: audioInhibit
+- name: Audio Inhibit
+- author: Tobias Hommel
+- compositors: any
+- capabilities: audio, monitoring
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/insecure/dms-audio-inhibit/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Cat Widget](https://github.com/xi-ve/cat-dms)
+
+An animated running cat for the DankBar whose speed reflects CPU usage. Based on CatWalk by Driglu4it.
+
+
+
+- id: catWidget
+- name: Cat Widget
+- author: kemo
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/xi-ve/dms-plugin-registry/blob/add-cat-widget/assets/cat-widget.png)
+
+</details>
+
+
+
+
+
 #### [Claude Code Usage](https://github.com/titeya/dms-claudecode)
 
 Monitor your Claude Code subscription usage with token tracking, rate limits, and daily activity charts
@@ -298,6 +451,35 @@ Monitor your Claude Code subscription usage with token tracking, rate limits, an
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/titeya/dms-claudecode/raw/master/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [CodexBar](https://github.com/zakstam/dms-codexbar)
+
+Monitor AI provider usage quotas
+
+
+
+- id: codexBar
+- name: CodexBar
+- author: zak
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/zakstam/dms-codexbar/main/screenshot.png)
 
 </details>
 
@@ -361,6 +543,35 @@ Shows the current submap in Hyprland
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/mesteryui/DMS_HyprlandSubmap/blob/main/assets/hyprlandSubmapPassthroughExample.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [NVIDIA GPU Monitor](https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor)
+
+Monitor NVIDIA GPU usage, VRAM, and temperature.
+
+
+
+- id: nvidiaGpuMonitor
+- name: NVIDIA GPU Monitor
+- author: Tejas Jondhale
+- compositors: any
+- capabilities: dankbar-widget, monitoring
+- dependencies: nvidia-smi
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/TEJASJONDHALE/dms-nvidia-gpu-monitor/main/Screenshot.png)
 
 </details>
 
@@ -497,6 +708,35 @@ Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
 
 
 
+#### [AdGuard VPN](https://github.com/bernardopg/dms-adguard-vpn-plugin)
+
+Control, configure, and monitor adguardvpn-cli directly from DankBar
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: adguardVPplugin
+- name: AdGuard VPN
+- author: Bernardo Gomes
+- compositors: any
+- capabilities: vpn, network, dankbar-widget
+- dependencies: adguardvpn-cli
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/bernardopg/dms-adguard-vpn-plugin/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Display Manager](https://github.com/felri/display-manager-plugin-niri-dank-linux)
 
 Toggle Niri displays and control monitor hardware brightness, contrast, scale, refresh rate, and resolution.
@@ -528,7 +768,7 @@ Toggle Niri displays and control monitor hardware brightness, contrast, scale, r
 
 #### [Display Output](https://github.com/xyzsteven/dms-displayoutput)
 
-A Hyprland DankMaterialShell plugin that allows you to manage your display outputs (PC Only, Mirror, Extend, Second Screen Only).
+Manage display outputs (Single Display, Mirror, Extend).
 
 
 
@@ -537,7 +777,7 @@ A Hyprland DankMaterialShell plugin that allows you to manage your display outpu
 - author: xyzsteven
 - compositors: hyprland
 - capabilities: manage-displays
-- dependencies: 
+- dependencies: socat
 - distro: any
 
 
@@ -577,6 +817,35 @@ Manage Lenovo battery settings like conservation mode
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/neoscaler/dms-lenovo-battery-settings/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Package Updates](https://github.com/rahulmysore23/dms-pkg-update)
+
+Check and manage DNF and Flatpak package updates from the bar.
+
+
+
+- id: pkgUpdate
+- name: Package Updates
+- author: rahulmysore23
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: fedora, any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rahulmysore23/dms-pkg-update/main/screenshot.png)
 
 </details>
 
@@ -713,6 +982,35 @@ Add application shortcuts in your desktop :)
 
 
 
+#### [Audio Switcher](https://github.com/CD-Z/dms-plugins)
+
+Quickly toggle between different audio output devices
+
+
+
+- id: audioSwitcher
+- name: Audio Switcher
+- author: CD-Z
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/CD-Z/dms-plugins/master/settings.png)
+
+</details>
+
+
+
+
+
 #### [Calculator](https://github.com/rochacbruno/DankCalculator)
 
 A calculator plugin that evaluates mathematical expressions and copies results to clipboard
@@ -735,6 +1033,40 @@ A calculator plugin that evaluates mathematical expressions and copies results t
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Canvas Grades](https://github.com/mcwiseman97/dms-canvas-plugin)
+
+Courses, grades, upcoming assignments, missing work, and announcements from Canvas LMS
+
+
+
+- id: canvasGrades
+- name: Canvas Grades
+- author: mcwiseman97
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: curl, jq, bash
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [canvasGrades](https://github.com/mcwiseman97/dms-canvas-plugin/tree/main/canvasGrades) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/mcwiseman97/dms-canvas-plugin/main/screenshots/canvas-popout.png)
 
 </details>
 
@@ -1449,6 +1781,35 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 
 
 
+#### [Ephemera](https://github.com/nicolasgarcia214/Ephemera)
+
+Ephemeral AI chat — ask quick questions, keep nothing
+
+
+
+- id: ephemera
+- name: Ephemera
+- author: nicolasgarcia214
+- compositors: any
+- capabilities: slideout, ai
+- dependencies: curl, wl-copy
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true)
+
+</details>
+
+
+
+
+
 #### [Flatpak Updates](https://github.com/merdely/dms-plugins)
 
 Check for and install Flatpak Updates
@@ -1762,6 +2123,35 @@ Kubernetes plugin for DankBar
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/KangweiZhu/lyrics-on-panel/raw/main/img/image-panel-onlythiswidget.png)
+
+</details>
+
+
+
+
+
+#### [Magyar Névnapok](https://github.com/szabolcsf/dms-nameday)
+
+Display the current Hungarian nameday on the DankBar. Shows today's name on the bar, with yesterday/today/tomorrow in the popout panel.
+
+
+
+- id: magyarNevnapok
+- name: Magyar Névnapok
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-nameday/raw/main/screenshot.png)
 
 </details>
 
@@ -2253,6 +2643,35 @@ Puts the Power menu in the Bar
 
 
 
+#### [Show Desktop](https://github.com/lpv11/dms-hypr-show-desktop)
+
+Clickable bar icon that adds windows-life show desktop function. For Hyprland.
+
+
+
+- id: showDesktop
+- name: Show Desktop
+- author: lpv11
+- compositors: hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/lpv11/dms-hypr-show-desktop/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Steam Friends](https://github.com/banicans/DMS-SteamFriends)
 
 Shows how many Steam friends are online, and whos online playing what.
@@ -2345,6 +2764,64 @@ Tailscale-toggle plugin for DankBar
 
 
 
+#### [TeamSpeak Status](https://github.com/thisilike/dms-plugin-teamspeak)
+
+Real-time TeamSpeak 6 status display — server, channel, mute, talking, away
+
+
+
+- id: teamspeakStatus
+- name: TeamSpeak Status
+- author: thisilike
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: ts-status
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/thisilike/dms-plugin-teamspeak/master/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Time Until](https://github.com/fdmarcin/TimeUntil)
+
+Display a customizable countdown timer in the Dankbar. Perfect for tracking important deadlines, goals, or any time-sensitive events.
+
+
+
+- id: timeUntil
+- name: Time Until
+- author: Marcin Sędłak-Jakubowski
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/fdmarcin/TimeUntil/refs/heads/main/img/horizontal-pill.png)
+
+</details>
+
+
+
+
+
 #### [VSCode Launcher](https://github.com/sr-tream/dms-vscode-launcher)
 
 Quick access to recent Visual Studio Code files, folders, and projects
@@ -2374,6 +2851,35 @@ Quick access to recent Visual Studio Code files, folders, and projects
 
 
 
+#### [Volume Mixer](https://github.com/cwelsys/dms-volume-mixer)
+
+Standalone volume mixer for your bar
+
+
+
+- id: volumeMixer
+- name: Volume Mixer
+- author: cwel
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/cwelsys/dms-volume-mixer/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Voxtype](https://github.com/psyreactor/dms-voxtype)
 
 voxtype status plugin for DankBar
@@ -2396,6 +2902,35 @@ voxtype status plugin for DankBar
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/psyreactor/dms-voxtype/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Wallpaper Carousel](https://github.com/motor-dev/wallpaperCarousel)
+
+Browse and pick wallpapers with a fullscreen skewed carousel overlay
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: wallpaperCarousel
+- name: Wallpaper Carousel
+- author: yngwe
+- compositors: niri, hyprland
+- capabilities: wallpaper
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/motor-dev/wallpaperCarousel/refs/heads/main/screenshot.png)
 
 </details>
 
@@ -2495,6 +3030,35 @@ Multiple timezones clock for DankBar
 
 
 
+#### [World Clock Multi](https://github.com/szabolcsf/dms-world-clock-multi)
+
+Display up to 5 timezones on the DankBar. Toggle between showing all at once or cycling one at a time at a configurable interval.
+
+
+
+- id: worldClockMulti
+- name: World Clock Multi
+- author: Szabolcs Fazekas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/szabolcsf/dms-world-clock-multi/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
@@ -2565,6 +3129,17 @@ Soothing pastel theme for the high-spirited
 - **ID:** `catppuccin` **Version:** `1.0.0`
 
 ![Catppuccin](themes/catppuccin/preview.svg)
+
+
+
+### Crimson Voltage
+
+Deep navy shadows infused with high-voltage crimson energy.
+
+- **Author:** wirus
+- **ID:** `crimsonVoltage` **Version:** `1.0.0`
+
+![Crimson Voltage](themes/crimson-voltage/preview.svg)
 
 
 
@@ -2650,7 +3225,7 @@ High contrast accessible colorscheme inspired by IBM Carbon
 Light and dark theme with pastel accents and purple hues
 
 - **Author:** ernestowg
-- **ID:** `peaceAndQuiet` **Version:** `1.0.1`
+- **ID:** `peaceAndQuiet` **Version:** `1.0.2`
 
 ![Peace & Quiet](themes/peace-and-quiet/preview.svg)
 
