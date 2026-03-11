@@ -7,7 +7,7 @@
     "author": "lpv11",
     "description": "Daemon plugin for cycling saved output/input device slots and toggling focused-app mute via DMS IPC.",
     "dependencies": ["pactl", "awk"],
-    "compositors": ["hyprland", "niri"],
+    "compositors": ["hyprland"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/lpv11/dms-audio-slots/main/screenshot.png"
 }
