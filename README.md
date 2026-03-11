@@ -982,6 +982,35 @@ Add application shortcuts in your desktop :)
 
 
 
+#### [Audio Slots IPC](https://github.com/lpv11/dms-audio-slots)
+
+Daemon plugin for cycling saved output/input device slots and toggling focused-app mute via DMS IPC.
+
+
+
+- id: audioSlots
+- name: Audio Slots IPC
+- author: lpv11
+- compositors: hyprland
+- capabilities: audio, ipc, daemon
+- dependencies: pactl, awk
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/lpv11/dms-audio-slots/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Audio Switcher](https://github.com/CD-Z/dms-plugins)
 
 Quickly toggle between different audio output devices
