@@ -1633,7 +1633,7 @@ Mirror niri displays using wl-mirror from the control center and bar
 
 #### [Display Settings](https://github.com/lucyfire/dms-plugins)
 
-Turn on/off displays
+Turn on/off displays for Hyprland
 
 <strong>requires DMS version</strong>: <em>>=0.6.2</em>
 
