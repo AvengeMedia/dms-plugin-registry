@@ -9,7 +9,7 @@ let
         or (lib.substring 0 6 plugin.rev);
       
       src = pkgs.fetchgit {
-        inherit (plugin) url rev hash;
+        inherit (plugin) url rev hash fetchSubmodules;
       };
 
       preferLocalBuild = true;
