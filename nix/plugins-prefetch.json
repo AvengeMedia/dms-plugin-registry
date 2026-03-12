@@ -332,6 +332,45 @@
     "sha256": "02qa59wndwhgw9dpwy1xjvvjmxh2xlwfn1k5d2r4mib2b6hc2yqv",
     "url": "https://github.com/insecure/dms-audio-inhibit"
   },
+  "audioSlots": {
+    "date": "2026-03-10T19:47:25+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-e90eMunckpK41Wqhrtp47NtjfofkodP/rq1anNCqsvs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lpv11",
+      "capabilities": [
+        "audio",
+        "ipc",
+        "daemon"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [
+        "pactl",
+        "awk"
+      ],
+      "description": "Daemon plugin for cycling saved output/input device slots and toggling focused-app mute via DMS IPC.",
+      "distro": [
+        "any"
+      ],
+      "id": "audioSlots",
+      "name": "Audio Slots IPC",
+      "repo": "https://github.com/lpv11/dms-audio-slots",
+      "screenshot": "https://raw.githubusercontent.com/lpv11/dms-audio-slots/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/5lpyakykvwvscrhix4azr690284n945v-dms-audio-slots",
+    "rev": "2b57cbc47cc19adfc19abfd40c46cb1704d61ca3",
+    "rootDir": "",
+    "sha256": "1yxjmb89qnmdmvzx78g4hxz67nzcg3dax8basnw954nwx4r1xpbv",
+    "url": "https://github.com/lpv11/dms-audio-slots"
+  },
   "audioSwitcher": {
     "date": "2026-03-05T17:29:38+01:00",
     "deepClone": false,
@@ -477,12 +516,12 @@
     "url": "https://github.com/xi-ve/cat-dms"
   },
   "cavaVisualizer": {
-    "date": "2026-03-08T08:56:26+01:00",
+    "date": "2026-03-10T09:50:21+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-xEsJKW5qd8Znu+bHMJbxNqMfl5QZ3wV9tio6/J/3mrs=",
+    "hash": "sha256-3Cr+PzPkNGWeIrOqucEc/bLh4xndHI/M3k/srBRCdAQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "ernestowgg",
@@ -504,12 +543,12 @@
       "name": "Cava Visualizer",
       "repo": "https://github.com/ernestowgg/cava-visualizer",
       "screenshot": "https://github.com/ernestowgg/cava-visualizer/blob/main/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/lwd7pv6kbgbl9h9fkdxdjllyvlnlxbyi-cava-visualizer",
-    "rev": "4c64cae0d3b626ae3603bf3603fe32cac412d923",
+    "path": "/nix/store/c0qhndlbqbrfvaymp5m3gfgnnmqvj0r5-cava-visualizer",
+    "rev": "e4b65a207652bc3204121401fafd5566b8d22c37",
     "rootDir": "",
-    "sha256": "1fwsyygzqfianryhbpqrjjbiz8rny6b31iz6pdkwcxvadqlhjjy4",
+    "sha256": "013l88aarv2gvv68y76x37iy3cpx3k0vkamk4ag6ad746czzwanw",
     "url": "https://github.com/ernestowgg/cava-visualizer"
   },
   "chineseCalendar": {
@@ -552,12 +591,12 @@
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
   "claudeCodeUsage": {
-    "date": "2026-03-05T11:02:37+01:00",
+    "date": "2026-03-12T09:12:38+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-7pZRKDvIW4F0W2bvsALrGWxkPiNCwBHmnqbsf+Po/4g=",
+    "hash": "sha256-GX6S8zqfFWjtaoT+OiLmue3qd7kzttM1/X64U/jAAP8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Nicolas Bellamy",
@@ -579,12 +618,12 @@
       "name": "Claude Code Usage",
       "repo": "https://github.com/titeya/dms-claudecode",
       "screenshot": "https://github.com/titeya/dms-claudecode/raw/master/screenshot.png",
-      "version": "1.1.3"
+      "version": "1.1.4"
     },
-    "path": "/nix/store/bi49hs32lgi9kvzsm80c6k1xr7psldnd-dms-claudecode",
-    "rev": "92cc7c24e6fa526f5ac6870d43f14e0a9f6bd2ab",
+    "path": "/nix/store/b16x06gfx7g8lxydpdkdg2r9jafqfppz-dms-claudecode",
+    "rev": "60cd495cb98321d99f4803dde44f50936b4d6878",
     "rootDir": "",
-    "sha256": "127zx3ipzv56kvk13h224cz68v0rxc1b1vv6bds82ny87cl535pf",
+    "sha256": "1zq0q3w57f3yzlsx7dikp5vymvdrwqi3mzl4dbnnh5cz7brr4zhr",
     "url": "https://github.com/titeya/dms-claudecode"
   },
   "codexBar": {
@@ -1494,7 +1533,7 @@
         "hyprland"
       ],
       "dependencies": [],
-      "description": "Turn on/off displays",
+      "description": "Turn on/off displays for Hyprland",
       "distro": [
         "any"
       ],
@@ -1805,12 +1844,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "ephemera": {
-    "date": "2026-03-09T18:12:39-05:00",
+    "date": "2026-03-10T17:11:36-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-TEmKjFIwMpQHZS1EqA0jLiFf/n+LdYLDNoGcBY9Zo/o=",
+    "hash": "sha256-DJLUxivEy+3HCVSGplclHLQSVOPUyLyteiBk3EETHw8=",
     "leaveDotGit": false,
     "meta": {
       "author": "nicolasgarcia214",
@@ -1834,12 +1873,12 @@
       "name": "Ephemera",
       "repo": "https://github.com/nicolasgarcia214/Ephemera",
       "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true",
-      "version": "0.1.5"
+      "version": "1.0.0"
     },
-    "path": "/nix/store/2fg74j90g5cxfsw3k6xp3fsgly23mw0l-Ephemera",
-    "rev": "9adea63de0620bbbf85a196eb09c1f0262f63ccd",
+    "path": "/nix/store/xcwipc1sdkgpi97hwr6nmz32hc8m9v0w-Ephemera",
+    "rev": "9640646a94e06e51b7b782b113473ce485017bd3",
     "rootDir": "",
-    "sha256": "1ym3b67hb7416v1q4xcbgzz5y89f4c6shi1dcl3r8cihaa68ljac",
+    "sha256": "03qz2d0xqr10ganvrj6lwda15d0w4mbsd1jl173yvjy45g3d94hc",
     "url": "https://github.com/nicolasgarcia214/Ephemera"
   },
   "flatpakUpdates": {
@@ -2329,12 +2368,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlsPlus": {
-    "date": "2026-03-08T15:01:00+02:00",
+    "date": "2026-03-11T09:03:11+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-g/5LjfHWWMcaSJnSHIuYxuK6I/PpnY3PDWJsZ5YCK6Q=",
+    "hash": "sha256-8XF6BbK43TDsZ85Vhid4ibIY6qq8KWf/WcC4cNVrFe8=",
     "leaveDotGit": false,
     "meta": {
       "author": "lpv11",
@@ -2356,10 +2395,10 @@
       "screenshot": "https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png",
       "version": "0.9.6"
     },
-    "path": "/nix/store/3vm5wjafb90nb2fwzmv7jlam4ipvrx9q-dms-media-controls-plus",
-    "rev": "9941f5fef8261df713f6bea69f6c547fffb5c758",
+    "path": "/nix/store/gymp3f02parxsijgcs55j8xrhlmnr1qf-dms-media-controls-plus",
+    "rev": "e68ce6beff7f44e6b8335d9d16a72cffebbb0822",
     "rootDir": "",
-    "sha256": "191b0ab6fv321p7qv7g9ycivmqn6k25irllr90dcfn6ny66lpzl3",
+    "sha256": "1vqmdgap1f60b7znfadwmbm1icl9g0kqcmffczn31pdqn82plwgi",
     "url": "https://github.com/lpv11/dms-media-controls-plus"
   },
   "mediaFrame": {
@@ -2856,6 +2895,43 @@
     "rootDir": "",
     "sha256": "1k6v5xjccvakmsx7s13336gp9gn4kadqmmd413v50ikj13aw0yjs",
     "url": "https://github.com/jonkristian/dms-pulsar-x3"
+  },
+  "qcalCalendar": {
+    "date": "2026-03-10T16:03:58+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-5C+mYt+l6tsahTDsmHYAPaqKWMfiBGRCX70KHETBcQs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Szabolcs Fazekas",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3",
+        "go"
+      ],
+      "description": "CalDAV calendar with events, notifications, and event management. Works with iCloud, Google, Nextcloud, and any CalDAV server.",
+      "distro": [
+        "any"
+      ],
+      "id": "qcalCalendar",
+      "name": "qCal Calendar",
+      "repo": "https://github.com/szabolcsf/dms-qcal-calendar",
+      "screenshot": "https://github.com/szabolcsf/dms-qcal-calendar/raw/main/screenshot.png",
+      "version": "1.0.1"
+    },
+    "path": "/nix/store/i7pqq9irk5dzmqgb2qj836hx10fwmbl0-dms-qcal-calendar",
+    "rev": "2505d71d5df0c5b62ca2d746e029b57fc03fab52",
+    "rootDir": "",
+    "sha256": "02viq521q2mxbx168172qxc8maix01v9iv1hhlddpsm5vxiacbz4",
+    "url": "https://github.com/szabolcsf/dms-qcal-calendar"
   },
   "sathiAi": {
     "date": "2026-02-18T21:29:24-05:00",
@@ -3399,12 +3475,12 @@
     "url": "https://github.com/max72bra/DankPluginBingWallpaper"
   },
   "wallpaperCarousel": {
-    "date": "2026-03-09T17:24:09+01:00",
+    "date": "2026-03-11T18:06:21+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-fkULC+NNmmGeOCK3nrJ0emu01cWAtaWI1mLqG/XiweQ=",
+    "hash": "sha256-i+/wJVDpWYihYXgNt4Teyvx20MZMiEon67q0F+xYVDU=",
     "leaveDotGit": false,
     "meta": {
       "author": "yngwe",
@@ -3426,12 +3502,12 @@
       "repo": "https://github.com/motor-dev/wallpaperCarousel",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/motor-dev/wallpaperCarousel/refs/heads/main/screenshot.png",
-      "version": "0.7.0"
+      "version": "0.7.3"
     },
-    "path": "/nix/store/0ifbap2c605jfbad9vnpalw6d68if3bp-wallpaperCarousel",
-    "rev": "2efba179645912a4b7e4488e5e6d9c9c3c2331ab",
+    "path": "/nix/store/shx6rqidwg1fdkp9bgc05c0ypf1mb261-wallpaperCarousel",
+    "rev": "4ef2f866087d5c05830da8f5d5560195a64c15d7",
     "rootDir": "",
-    "sha256": "1r61wbsipsk2ss4abdc0qpav8svsfjr9xdr272g636jdwc5hniby",
+    "sha256": "0dalb3n1gd5sxcklm22cqv87dz6avs2bf3bqc6hqhng9a0jz1vwb",
     "url": "https://github.com/motor-dev/wallpaperCarousel"
   },
   "wallpaperDiscovery": {
@@ -3473,12 +3549,12 @@
     "url": "https://github.com/lucyfire/dms-plugins"
   },
   "wallpaperShufflerPlugin": {
-    "date": "2026-02-10T13:10:39+08:00",
+    "date": "2026-03-12T20:53:22+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Y7Sw5cNVkNeq1srR7PRrbI8G/eR5yVKNACr3vJI2iIw=",
+    "hash": "sha256-lOtFoF8BPqaDrSoDzqGzO7aSro/dATiatVxFp4sdeqA=",
     "leaveDotGit": false,
     "meta": {
       "author": "Daniel-42-z",
@@ -3500,10 +3576,10 @@
       "screenshot": "https://raw.githubusercontent.com/Daniel-42-z/dms-wallpaper-shuffler/refs/heads/main/screenshot.png",
       "version": "1.0.2"
     },
-    "path": "/nix/store/7jzzrvghlr5wx98n2v3k2zfy7hgz3l6v-dms-wallpaper-shuffler",
-    "rev": "1c375270ec89e54f33c7ec7060241e70480ca55e",
+    "path": "/nix/store/35gxklc7jl87vbd0wikhqqc5dbds9f64-dms-wallpaper-shuffler",
+    "rev": "8acdaf1aad2bbd3425fdd57e215fca295b80cbdd",
     "rootDir": "",
-    "sha256": "13486s9brxra026m5jbrwkyhd3vcdgsfrlfassmdg42mqgjv1d33",
+    "sha256": "183s3n5sfiawnnd3h0fxiyp95divnfhww0ramn1scgh1byh4bswl",
     "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
   },
   "webSearch": {
