@@ -1350,6 +1350,35 @@ Search bitwarden entries from rbw.
 
 
 
+#### [Dank Cleaner](https://github.com/NordicsSys/dankCleaner)
+
+Safe one-click cleaner plugin for DankMaterialShell.
+
+
+
+- id: dankCleaner
+- name: Dank Cleaner
+- author: NordicsSys
+- compositors: any
+- capabilities: safe-cleanup, large-file-scan, disk-analyzer
+- dependencies: bash, find, du, awk, tail, rm
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/NordicsSys/dankCleaner/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Hooks](https://github.com/AvengeMedia/dms-plugins)
 
 Trigger scripts based on various system events.
