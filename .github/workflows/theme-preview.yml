@@ -6,6 +6,9 @@ on:
     paths:
       - 'themes/**'
 
+env:
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
 jobs:
   preview:
     runs-on: ubuntu-latest
