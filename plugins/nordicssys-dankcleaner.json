@@ -8,6 +8,7 @@
     "description": "Safe one-click cleaner plugin for DankMaterialShell.",
     "dependencies": ["bash", "find", "du", "awk", "tail", "rm"],
     "compositors": ["niri"],
-    "distro": ["Debian", "Ubuntu", "Arch Linux", "Fedora"]
+    "distro": ["Debian", "Ubuntu", "Arch Linux", "Fedora"],
+    "screenshot": "https://raw.githubusercontent.com/NordicsSys/dms-plugin-registry/add-dankcleaner-plugin/assets/nordicssys-dankcleaner.png"
 }
 
