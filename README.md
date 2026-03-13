@@ -3212,6 +3212,17 @@ inspired by dank.
 
 
 
+### Dracula
+
+Dracula dark theme with Alucard light variant
+
+- **Author:** Graplo
+- **ID:** `dracula` **Version:** `1.0.2`
+
+![Dracula](themes/dracula/preview.svg)
+
+
+
 ### Everforest
 
 Everforest is a green based color scheme, designed to be warm and soft
