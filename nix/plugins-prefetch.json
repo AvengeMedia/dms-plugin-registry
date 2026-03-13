@@ -877,6 +877,49 @@
     "sha256": "0pxk5dlwxx154pcywnq3y8s2rhmbzq7zalv2zmjz8iq2lm78ra8l",
     "url": "https://github.com/pacman99/DankBitwarden"
   },
+  "dankCleaner": {
+    "date": "2026-03-13T22:52:17+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-MDb0v82nGLigmDGJb9n/Yg2YzjOyWzzLJ8Gvj0IC1uk=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "NordicsSys",
+      "capabilities": [
+        "safe-cleanup",
+        "large-file-scan",
+        "disk-analyzer"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "bash",
+        "find",
+        "du",
+        "awk",
+        "tail",
+        "rm"
+      ],
+      "description": "Safe one-click cleaner plugin for DankMaterialShell.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankCleaner",
+      "name": "Dank Cleaner",
+      "repo": "https://github.com/NordicsSys/dankCleaner",
+      "screenshot": "https://raw.githubusercontent.com/NordicsSys/dankCleaner/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/n2m0bmj8lncn25h5dm12c7q182v0gpl2-dankCleaner",
+    "rev": "d0b32a48c2d98072afe2c4a3511ad39944d7185d",
+    "rootDir": "",
+    "sha256": "1sfn0918zby14z5kqnxj6g79h3b2zzcnz29ik2hbh657rnzz8dih",
+    "url": "https://github.com/NordicsSys/dankCleaner"
+  },
   "dankClight": {
     "date": "2026-02-24T13:48:54-05:00",
     "deepClone": false,
