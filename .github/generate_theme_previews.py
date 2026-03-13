@@ -38,8 +38,16 @@ SINGLE_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="240" height=
 </svg>"""
 
 
+PANEL_KEYS = {
+    "background", "surface", "surfaceContainer", "surfaceText",
+    "surfaceContainerHigh", "outline", "primary", "primaryText",
+    "secondary", "backgroundText", "error", "warning", "info", "surfaceTint",
+}
+
+
 def generate_panel(scheme: dict, name: str, x: int) -> str:
-    return PANEL_TEMPLATE.format(x=x, name=xml_escape(name), **scheme)
+    colors = {k: v for k, v in scheme.items() if k in PANEL_KEYS}
+    return PANEL_TEMPLATE.format(x=x, name=xml_escape(name), **colors)
 
 
 def generate_combined_preview(theme: dict) -> str:
