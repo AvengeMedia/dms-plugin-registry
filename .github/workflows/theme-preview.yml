@@ -6,14 +6,13 @@ on:
     paths:
       - 'themes/**'
 
-env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
-
 jobs:
   preview:
     runs-on: ubuntu-latest
     permissions:
       pull-requests: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
       - name: Checkout base branch
