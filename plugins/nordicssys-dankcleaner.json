@@ -1,0 +1,12 @@
+{
+    "id": "dankCleaner",
+    "name": "Dank Cleaner",
+    "capabilities": ["safe-cleanup", "large-file-scan", "disk-analyzer"],
+    "category": "utilities",
+    "repo": "https://github.com/NordicsSys/dankCleaner",
+    "author": "NordicsSys",
+    "description": "Safe one-click cleaner plugin for DankMaterialShell.",
+    "dependencies": ["bash", "find", "du", "awk", "tail", "rm"],
+    "compositors": ["any"],
+    "distro": ["any"]
+}
