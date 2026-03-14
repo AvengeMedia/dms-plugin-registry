@@ -1,0 +1,15 @@
+{
+  "id": "taskwarrior",
+  "name": "Taskwarrior",
+  "description": "Taskwarrior integration for DMS: see your pending tasks in the status bar, create new tasks using
+  Taskwarrior syntax, and check them off with a single click",
+  "category": "utilities",
+  "repo": "https://github.com/cyrylas/dms-taskwarrior",
+  "author": "Michał Wazgird",
+  "capabilities": ["dankbar-widget"],
+  "dependencies": ["taskwarrior"],
+  "compositors": ["hyprland", "niri", "sway"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/cyrylas/dms-taskwarrior/master/screenshots/screenshot-dark.png",
+  "requires_dms": ">=1.2.0"
+}
