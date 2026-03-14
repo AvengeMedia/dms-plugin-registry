@@ -1,7 +1,8 @@
 {
   "id": "taskwarrior",
   "name": "Taskwarrior",
-  "description": "Show pending Taskwarrior tasks sorted by urgency",
+  "description": "Taskwarrior integration for DMS: see your pending tasks in the status bar, create new tasks using
+  Taskwarrior syntax, and check them off with a single click",
   "category": "utilities",
   "repo": "https://github.com/cyrylas/dms-taskwarrior",
   "author": "Michał Wazgird",
