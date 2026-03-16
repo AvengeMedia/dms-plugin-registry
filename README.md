@@ -2967,6 +2967,35 @@ Display a customizable countdown timer in the Dankbar. Perfect for tracking impo
 
 
 
+#### [Unified Taskbar](https://github.com/jslandau/dms-unified-taskbar)
+
+Running apps grouped by workspace with per-workspace pills
+
+
+
+- id: unifiedTaskbar
+- name: Unified Taskbar
+- author: Joshua Landau
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/jslandau/dms-unified-taskbar/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [VSCode Launcher](https://github.com/sr-tream/dms-vscode-launcher)
 
 Quick access to recent Visual Studio Code files, folders, and projects
