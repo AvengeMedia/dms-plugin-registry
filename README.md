@@ -2851,6 +2851,35 @@ Tailscale-toggle plugin for DankBar
 
 
 
+#### [Taskwarrior](https://github.com/cyrylas/dms-taskwarrior)
+
+Taskwarrior integration for DMS: see your pending tasks in the status bar, create new tasks using Taskwarrior syntax, and check them off with a single click
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: taskwarrior
+- name: Taskwarrior
+- author: Michał Wazgird
+- compositors: hyprland, niri, sway
+- capabilities: dankbar-widget
+- dependencies: taskwarrior
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/cyrylas/dms-taskwarrior/master/screenshots/screenshot-dark.png)
+
+</details>
+
+
+
+
+
 #### [TeamSpeak Status](https://github.com/thisilike/dms-plugin-teamspeak)
 
 Real-time TeamSpeak 6 status display — server, channel, mute, talking, away
