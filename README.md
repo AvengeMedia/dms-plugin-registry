@@ -3285,6 +3285,17 @@ Material version of the popular Gruvbox theme with retro groove colors
 
 
 
+### Gruvbox Multi
+
+Gruvbox Material + Classic with hard/medium/soft and green/blue/yellow/purple primary accents
+
+- **Author:** Useekaw
+- **ID:** `gruvboxMulti` **Version:** `1.0.0`
+
+![Gruvbox Multi](themes/gruvbox-multi/preview.svg)
+
+
+
 ### Kanagawa-wave-lotus
 
 Kanagawa theme using Lotus for light mode and Wave for dark mode.
