@@ -2662,6 +2662,35 @@ A simple multi model ai client to use with your dank shell. Use it ollama, gemin
 
 
 
+#### [Screen Recorder](https://github.com/arqueon/dms-screen-recorder)
+
+Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: screenRecorder
+- name: Screen Recorder
+- author: arqueon
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: gpu-screen-recorder, xdg-desktop-portal-gnome
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Screenshot Toggle](https://github.com/boutabong/dms-plugins)
 
 Toggle niri screenshot mode between disk save and clipboard only
