@@ -3497,6 +3497,40 @@
     "sha256": "1zziyyin4wkwwbpn1cgmzvm2mbwcjfs38yd67fiiqr882rf4qxyj",
     "url": "https://github.com/fdmarcin/TimeUntil"
   },
+  "unifiedTaskbar": {
+    "date": "2026-03-14T15:50:09-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-k4LlpNnKyxSgJLWWq5YpSPrxL72miTM29DMyWExboUo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Joshua Landau",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Running apps grouped by workspace with per-workspace pills",
+      "distro": [
+        "any"
+      ],
+      "id": "unifiedTaskbar",
+      "name": "Unified Taskbar",
+      "repo": "https://github.com/jslandau/dms-unified-taskbar",
+      "screenshot": "https://raw.githubusercontent.com/jslandau/dms-unified-taskbar/master/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/0fprg6c05f66fcqgzrp8sra02n8n5mdq-dms-unified-taskbar",
+    "rev": "4bd35ab2025523f26efe59a6e7780136b78593dd",
+    "rootDir": "",
+    "sha256": "0jm1bd65hcikyhv372d6plpz3yj856bap5mm4jh19jyav6jfb0lk",
+    "url": "https://github.com/jslandau/dms-unified-taskbar"
+  },
   "volumeMixer": {
     "date": "2026-03-01T01:38:13-05:00",
     "deepClone": false,
