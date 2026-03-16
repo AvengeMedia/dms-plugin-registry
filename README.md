@@ -3208,6 +3208,17 @@ absolutle black
 
 
 
+### Arc Darkest
+
+Arc Darkest GTK theme ported to DankMaterialShell
+
+- **Author:** schneik
+- **ID:** `arcdarkest` **Version:** `1.0.0`
+
+![Arc Darkest](themes/arc-darkest/preview.svg)
+
+
+
 ### Catppuccin
 
 Soothing pastel theme for the high-spirited
