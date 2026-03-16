@@ -1,0 +1,21 @@
+{
+  "id": "formatColorPicker",
+  "name": "Format Color Picker",
+  "description": "Choose color format before picking",
+  "version": "1.0.0",
+  "author": "Incognitux",
+  "icon": "colorize",
+  "type": "widget",
+  "capabilities": [
+    "control-center",
+    "dankbar-widget"
+  ],
+  "category": "utilities",
+  "component": "./pickerWidget.qml",
+  "compositors": ["niri", "hyprland"],
+  "distro": ["any"],
+  "dependencies": ["dms"],
+  "repo": "https://github.com/Incognitux/dms-format-color-picker",
+  "screenshot": "https://github.com/Incognitux/dms-format-color-picker/blob/master/assets/screenshot1.png",
+  "permissions": ["settings_read", "settings_write"]
+}
