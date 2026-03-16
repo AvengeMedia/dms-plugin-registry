@@ -1376,6 +1376,51 @@
     "sha256": "0pchjvp39hyhj2w089qb2y60sw5k8rsgbmwwi5qmzd98ab07jppz",
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
+  "dankSystemDoctor": {
+    "date": "2026-03-17T01:52:02+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-N3cEZnNOqrfdLLEwkZ88XKUAGePKENCxx9NtnhuxFw4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "noxius",
+      "capabilities": [
+        "system-monitor",
+        "ai-diagnostics",
+        "log-viewer",
+        "process-manager",
+        "updates",
+        "maintenance"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "bash",
+        "journalctl",
+        "ps",
+        "free",
+        "df"
+      ],
+      "description": "AI-powered system health monitor. Tracks CPU, RAM, disk, GPU & temp; detects pending updates (apt/dnf/pacman/brew); one-click maintenance and snapshot guardrails; Ollama diagnostics with triage playbooks.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankSystemDoctor",
+      "name": "Dank System Doctor",
+      "repo": "https://github.com/NordicsSys/DankSystemDoctor",
+      "screenshot": "https://raw.githubusercontent.com/NordicsSys/DankSystemDoctor/main/screenshots/overview.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/cigcyhxdqyn7c4j3zmlfdl195mlmya1c-DankSystemDoctor",
+    "rev": "0b16dffef267eac553bfe602a7ba53279f43f422",
+    "rootDir": "",
+    "sha256": "03hpn4drwvfkqyqx046awcch19aw7jgr2c5i5kfvgajffdk08xrp",
+    "url": "https://github.com/NordicsSys/DankSystemDoctor"
+  },
   "desktopCommand": {
     "date": "2026-01-06T22:34:35+01:00",
     "deepClone": false,
