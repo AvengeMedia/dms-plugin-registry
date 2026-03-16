@@ -9,6 +9,6 @@
   "dependencies": ["gpu-screen-recorder", "xdg-desktop-portal-gnome"],
   "compositors": ["any"],
   "distro": ["any"],
-  "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/master/assets/screenshot.png",
+  "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png",
   "requires_dms": ">=1.2.0"
 }
