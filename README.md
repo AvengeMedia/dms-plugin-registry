@@ -3416,3 +3416,14 @@ nord theme
 ![nord](themes/nord/preview.svg)
 
 
+
+### retrobox
+
+Retrobox dark theme with retro groove colors
+
+- **Author:** dacyberduck
+- **ID:** `retrobox` **Version:** `1.0.0`
+
+![retrobox](themes/retrobox/preview.svg)
+
+
