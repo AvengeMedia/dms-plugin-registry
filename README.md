@@ -737,6 +737,35 @@ Control, configure, and monitor adguardvpn-cli directly from DankBar
 
 
 
+#### [Dank System Doctor](https://github.com/NordicsSys/DankSystemDoctor)
+
+AI-powered system health monitor. Tracks CPU, RAM, disk, GPU & temp; detects pending updates (apt/dnf/pacman/brew); one-click maintenance and snapshot guardrails; Ollama diagnostics with triage playbooks.
+
+
+
+- id: dankSystemDoctor
+- name: Dank System Doctor
+- author: noxius
+- compositors: any
+- capabilities: system-monitor, ai-diagnostics, log-viewer, process-manager, updates, maintenance
+- dependencies: bash, journalctl, ps, free, df
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/NordicsSys/DankSystemDoctor/main/screenshots/overview.png)
+
+</details>
+
+
+
+
+
 #### [Display Manager](https://github.com/felri/display-manager-plugin-niri-dank-linux)
 
 Toggle Niri displays and control monitor hardware brightness, contrast, scale, refresh rate, and resolution.
