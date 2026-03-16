@@ -1371,7 +1371,7 @@ Safe one-click cleaner plugin for DankMaterialShell.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/NordicsSys/dankCleaner/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/NordicsSys/dankCleaner/main/Cleanup.png)
 
 </details>
 
