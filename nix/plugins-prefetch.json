@@ -878,12 +878,12 @@
     "url": "https://github.com/pacman99/DankBitwarden"
   },
   "dankCleaner": {
-    "date": "2026-03-13T22:52:17+07:00",
+    "date": "2026-03-16T02:50:21+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-MDb0v82nGLigmDGJb9n/Yg2YzjOyWzzLJ8Gvj0IC1uk=",
+    "hash": "sha256-i/sI8hdctJObkQfZoT+PIwfUONA7NebAM5cvbuvT1hY=",
     "leaveDotGit": false,
     "meta": {
       "author": "NordicsSys",
@@ -914,10 +914,10 @@
       "screenshot": "https://raw.githubusercontent.com/NordicsSys/dankCleaner/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/n2m0bmj8lncn25h5dm12c7q182v0gpl2-dankCleaner",
-    "rev": "d0b32a48c2d98072afe2c4a3511ad39944d7185d",
+    "path": "/nix/store/7sy8d14nsmhsicimk2q78vn9vr16gfhq-dankCleaner",
+    "rev": "4eae6e8bfb55a3bcd99d7dc5b897d737131ec775",
     "rootDir": "",
-    "sha256": "1sfn0918zby14z5kqnxj6g79h3b2zzcnz29ik2hbh657rnzz8dih",
+    "sha256": "05nnsgmnwbwp6g0fcd9vs0wd81r3iwzs3n87j6dr7d2w2zr0iywb",
     "url": "https://github.com/NordicsSys/dankCleaner"
   },
   "dankClight": {
@@ -3518,12 +3518,12 @@
     "url": "https://github.com/max72bra/DankPluginBingWallpaper"
   },
   "wallpaperCarousel": {
-    "date": "2026-03-12T15:23:07+01:00",
+    "date": "2026-03-15T16:25:25+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-SOH/9td8VgBCDDcDulHHsFxU2QcYF6maBVYDe/bwXLY=",
+    "hash": "sha256-SMRSaQ7Bbe9HVR5NzoS9NZGbJUkvcaM3Z112KVoQOpQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "yngwe",
@@ -3545,12 +3545,12 @@
       "repo": "https://github.com/motor-dev/wallpaperCarousel",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/motor-dev/wallpaperCarousel/refs/heads/main/screenshot.png",
-      "version": "0.7.3"
+      "version": "0.7.4"
     },
-    "path": "/nix/store/icnsp4kni7is81sgmk37rhap6njz0hk7-wallpaperCarousel",
-    "rev": "bcce06efc5c8fc47e15ba1bd4326ddab21ebc2d4",
+    "path": "/nix/store/xsnspphbvmszfl6h45dp4arb2fliivc7-wallpaperCarousel",
+    "rev": "9d0b8bf6e5a4bd09abc53bc73328a7ff7d0820c4",
     "rootDir": "",
-    "sha256": "1djwy3v7n0sn0ndaj5qq0zcm8p5hqx8vl0rp1i100mkwszvgzqa8",
+    "sha256": "151s21d2jxjxcwvs6w9g94jrp49mpn2cwk8yam3yyvf11rlm5i28",
     "url": "https://github.com/motor-dev/wallpaperCarousel"
   },
   "wallpaperDiscovery": {
