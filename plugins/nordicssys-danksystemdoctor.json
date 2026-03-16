@@ -1,0 +1,13 @@
+{
+    "id": "dankSystemDoctor",
+    "name": "Dank System Doctor",
+    "capabilities": ["system-monitor", "ai-diagnostics", "log-viewer", "process-manager", "updates", "maintenance"],
+    "category": "system",
+    "repo": "https://github.com/NordicsSys/DankSystemDoctor",
+    "author": "noxius",
+    "description": "AI-powered system health monitor. Tracks CPU, RAM, disk, GPU & temp; detects pending updates (apt/dnf/pacman/brew); one-click maintenance and snapshot guardrails; Ollama diagnostics with triage playbooks.",
+    "dependencies": ["bash", "journalctl", "ps", "free", "df"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/NordicsSys/DankSystemDoctor/main/screenshots/overview.png"
+}
