@@ -3056,6 +3056,45 @@
     "sha256": "1w11pddiq2rs7slc14n599vrgiyn9xhdrf0zgmn4hcf7ndpxr5zx",
     "url": "https://github.com/ss44/sathi.ai"
   },
+  "screenRecorder": {
+    "date": "2026-03-15T18:28:36-06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-bjbSKRQphbRtqEI2Qnd6UeMOtgF+WSVAAP/rJ1HlV3M=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "arqueon",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "gpu-screen-recorder",
+        "xdg-desktop-portal-gnome"
+      ],
+      "description": "Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)",
+      "distro": [
+        "any"
+      ],
+      "id": "screenRecorder",
+      "name": "Screen Recorder",
+      "repo": "https://github.com/arqueon/dms-screen-recorder",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/bp348nba5xs39nr46sv3ddh39p4c7jm0-dms-screen-recorder",
+    "rev": "82622059a7caa8c59d038468fbac7ed7039f477e",
+    "rootDir": "",
+    "sha256": "0wspwm8jgszz0102anby06v0xqsig9vl4dj2m1nv91992hlx4dkf",
+    "url": "https://github.com/arqueon/dms-screen-recorder"
+  },
   "screenshotToggle": {
     "date": "2026-03-04T15:59:24-08:00",
     "deepClone": false,
