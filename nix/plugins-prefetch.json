@@ -3349,6 +3349,45 @@
     "sha256": "0qh4pssfqc75br7wzxpj7wj9rnxn7y5w1wdyf6ws7wa80f6aayvi",
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
+  "taskwarrior": {
+    "date": "2026-03-14T19:13:51+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-WMIsTU4XyVdRnl8woRHf5tV9rUd1Y/nAdOjgb56pGxQ=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Micha\u0142 Wazgird",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "hyprland",
+        "niri",
+        "sway"
+      ],
+      "dependencies": [
+        "taskwarrior"
+      ],
+      "description": "Taskwarrior integration for DMS: see your pending tasks in the status bar, create new tasks using Taskwarrior syntax, and check them off with a single click",
+      "distro": [
+        "any"
+      ],
+      "id": "taskwarrior",
+      "name": "Taskwarrior",
+      "repo": "https://github.com/cyrylas/dms-taskwarrior",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://raw.githubusercontent.com/cyrylas/dms-taskwarrior/master/screenshots/screenshot-dark.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/g233g24208r78q3k8qw7259lvjbhsqdm-dms-taskwarrior",
+    "rev": "4f9c892d85ba53994e4544a58749d9351ca7d7d8",
+    "rootDir": "",
+    "sha256": "050vm6g6zq78fk0gjqvm8ynpvmg6vw8s2c2zkr8mgj8p9r6jrhjq",
+    "url": "https://github.com/cyrylas/dms-taskwarrior"
+  },
   "teamspeakStatus": {
     "date": "2026-03-03T21:03:13+01:00",
     "deepClone": false,
