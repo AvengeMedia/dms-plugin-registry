@@ -16,6 +16,6 @@
   "distro": ["any"],
   "dependencies": ["dms"],
   "repo": "https://github.com/Incognitux/dms-format-color-picker",
-  "screenshot": "https://github.com/Incognitux/dms-format-color-picker/blob/master/assets/screenshot1.png",
+  "screenshot": "https://raw.githubusercontent.com/Incognitux/dms-format-color-picker/refs/heads/master/assets/screenshot1.png",
   "permissions": ["settings_read", "settings_write"]
 }
