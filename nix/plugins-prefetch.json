@@ -2007,6 +2007,51 @@
     "sha256": "06q20ad752c5rjl3agyn93lyzq3d2p854wkfxj61qxk5rvvhxfsh",
     "url": "https://github.com/merdely/dms-plugins"
   },
+  "formatColorPicker": {
+    "date": "2026-03-16T15:16:51+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-JRzDfRF+Auw8wSNh1Css8Y03pePlV4DUFOX813TMfLs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Incognitux",
+      "capabilities": [
+        "control-center",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "component": "./pickerWidget.qml",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [
+        "dms"
+      ],
+      "description": "Choose color format before picking",
+      "distro": [
+        "any"
+      ],
+      "icon": "colorize",
+      "id": "formatColorPicker",
+      "name": "Format Color Picker",
+      "permissions": [
+        "settings_read",
+        "settings_write"
+      ],
+      "repo": "https://github.com/Incognitux/dms-format-color-picker",
+      "screenshot": "https://raw.githubusercontent.com/Incognitux/dms-format-color-picker/refs/heads/master/assets/screenshot1.png",
+      "type": "widget",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/g6818k26fi39nhq1p9cc6kqyxannjihx-dms-format-color-picker",
+    "rev": "1b4aebad1f92d9edef89296806da7acd38d4a705",
+    "rootDir": "",
+    "sha256": "1fvwrisdgz752ka80mz5wfjkg3gi5hmx8q93q4yfq0ky25yw6715",
+    "url": "https://github.com/Incognitux/dms-format-color-picker"
+  },
   "githubHeatmap": {
     "date": "2026-03-04T15:59:24-08:00",
     "deepClone": false,
@@ -3783,12 +3828,12 @@
     "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
   },
   "webSearch": {
-    "date": "2026-03-17T06:42:26-04:00",
+    "date": "2026-03-19T00:04:34-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Z3/wSO8MUPDJs+NlCLIWnX3jMjY0GkcH8sqWvg/BnoE=",
+    "hash": "sha256-c6mVBTlkJdfvMuMvPjXGeOEWBtb0mdmIcPNzgmMxGwE=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -3810,10 +3855,10 @@
       "screenshot": "https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true",
       "version": "1.4.0"
     },
-    "path": "/nix/store/6hnz89cwh36qksp9dx229n1cq2gv99xk-dms-web-search",
-    "rev": "46ba7ec91f0fe3102d8ebb92a7ac943e7d6596f5",
+    "path": "/nix/store/ls315ph9v17szy0p2nyvkqb5fps9kpi9-dms-web-search",
+    "rev": "52f9ec482dc86d9c5ff0110a5d57401112191a38",
     "rootDir": "",
-    "sha256": "10cyq47vx5nay83lf6il6qrf6zcx2sr0hrg3ng4z0l0cxx4g0zv7",
+    "sha256": "008v65iq4wzkf24dk6glsq31dqbqqqskwbz36bpxf9b4742rbabk",
     "url": "https://github.com/devnullvoid/dms-web-search"
   },
   "worldClock": {
