@@ -1,0 +1,13 @@
+{
+    "id": "intervalCommand",
+    "name": "Interval Command",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/corcoran/dms-interval-command",
+    "author": "corcoran",
+    "description": "Run a shell command on a configurable interval and display its output in the bar",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/corcoran/dms-interval-command/main/screenshots/screenshot.png"
+}
