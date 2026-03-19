@@ -1,0 +1,14 @@
+{
+    "id": "simpleAudioControl",
+    "name": "Simple Audio Control",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/Dadangdut33/dms-plugins",
+    "path": "SimpleAudioControl",
+    "author": "Dadangdut33",
+    "description": "A simple widget for controlling audio output and input. Inspired by the audio widget in Noctalia Shell.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/SimpleAudioControl/preview/widget.png"
+}
