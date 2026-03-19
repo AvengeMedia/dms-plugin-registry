@@ -3319,6 +3319,41 @@
     "sha256": "0mp73ca48bl0c0x8hflvbx4hhq5jzrlwrywxpgj1fkfww3w5mdjq",
     "url": "https://github.com/lpv11/dms-hypr-show-desktop"
   },
+  "simpleAudioControl": {
+    "date": "2026-03-20T02:41:09+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-h3w1eznk+BK8ZRuTkVc/SVuywP1ddbrrtABp2B/VinA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Dadangdut33",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "A simple widget for controlling audio output and input. Inspired by the audio widget in Noctalia Shell.",
+      "distro": [
+        "any"
+      ],
+      "id": "simpleAudioControl",
+      "name": "Simple Audio Control",
+      "path": "SimpleAudioControl",
+      "repo": "https://github.com/Dadangdut33/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/SimpleAudioControl/preview/tab-1.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/48y5sbfx7whbc02p9sn758ggwwijxby1-dms-plugins",
+    "rev": "2f8f76b9ef325ca1e1d0c7b464bf02cdb4e5e660",
+    "rootDir": "",
+    "sha256": "0w4aslgxhs80nkmvlxaxzp0b4ns97xbr34qvcny15y7475xkaz47",
+    "url": "https://github.com/Dadangdut33/dms-plugins"
+  },
   "sshConnections": {
     "date": "2026-03-03T14:59:45-05:00",
     "deepClone": false,
