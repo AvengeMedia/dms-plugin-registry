@@ -1931,6 +1931,35 @@ Check for and install Flatpak Updates
 
 
 
+#### [Format Color Picker](https://github.com/Incognitux/dms-format-color-picker)
+
+Choose color format before picking
+
+
+
+- id: formatColorPicker
+- name: Format Color Picker
+- author: Incognitux
+- compositors: niri, hyprland
+- capabilities: control-center, dankbar-widget
+- dependencies: dms
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Incognitux/dms-format-color-picker/refs/heads/master/assets/screenshot1.png)
+
+</details>
+
+
+
+
+
 #### [GIF Search](https://github.com/AvengeMedia/dms-plugins)
 
 Search and browse GIFs powered by Klipy
