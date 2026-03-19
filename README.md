@@ -2846,6 +2846,40 @@ Clickable bar icon that adds windows-life show desktop function. For Hyprland.
 
 
 
+#### [Simple Audio Control](https://github.com/Dadangdut33/dms-plugins)
+
+A simple widget for controlling audio output and input. Inspired by the audio widget in Noctalia Shell.
+
+
+
+- id: simpleAudioControl
+- name: Simple Audio Control
+- author: Dadangdut33
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [SimpleAudioControl](https://github.com/Dadangdut33/dms-plugins/tree/main/SimpleAudioControl) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/SimpleAudioControl/preview/tab-1.png)
+
+</details>
+
+
+
+
+
 #### [Steam Friends](https://github.com/banicans/DMS-SteamFriends)
 
 Shows how many Steam friends are online, and whos online playing what.
