@@ -2357,6 +2357,40 @@
     "sha256": "1jxpr4pjyw7wbmh2jpakp4flzj1pp90yq7y5f5afdzf0345hr7qh",
     "url": "https://github.com/mesteryui/DMS_HyprlandSubmap"
   },
+  "intervalCommand": {
+    "date": "2026-03-19T01:29:14-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-x9uaTKSw3FcbKUjC3O0WZ25r76UT76r06p+cXY70N7s=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "corcoran",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Run a shell command on a configurable interval and display its output in the bar",
+      "distro": [
+        "any"
+      ],
+      "id": "intervalCommand",
+      "name": "Interval Command",
+      "repo": "https://github.com/corcoran/dms-interval-command",
+      "screenshot": "https://raw.githubusercontent.com/corcoran/dms-interval-command/main/screenshots/screenshot.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/r7ihxid6hz3scb42ml3kzbgqqniqqdd2-dms-interval-command",
+    "rev": "3bf1d6294188608cbff00b8d1bb14a6ef3071177",
+    "rootDir": "",
+    "sha256": "1frpyj75v74zxbsamvqklppnnvk72vnxrhj854dmgp5hli69mny7",
+    "url": "https://github.com/corcoran/dms-interval-command"
+  },
   "kubernetes": {
     "date": "2025-12-25T23:40:56-03:00",
     "deepClone": false,
