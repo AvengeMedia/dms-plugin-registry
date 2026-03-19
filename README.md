@@ -2183,6 +2183,35 @@ Switch between Hyprland windows with live previews
 
 
 
+#### [Interval Command](https://github.com/corcoran/dms-interval-command)
+
+Run a shell command on a configurable interval and display its output in the bar
+
+
+
+- id: intervalCommand
+- name: Interval Command
+- author: corcoran
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/corcoran/dms-interval-command/main/screenshots/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Kubernetes](https://github.com/psyreactor/dms-kubernetes)
 
 Kubernetes plugin for DankBar
