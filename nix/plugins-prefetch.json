@@ -2052,6 +2052,43 @@
     "sha256": "1fvwrisdgz752ka80mz5wfjkg3gi5hmx8q93q4yfq0ky25yw6715",
     "url": "https://github.com/Incognitux/dms-format-color-picker"
   },
+  "gameControllerBattery": {
+    "date": "2026-03-18T20:43:35+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-O+nFQSJwXNh4YJekmK7yRG2qtOXcIVkQEp2ozz/0lWU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Mohammad Hujair",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [
+        "upower"
+      ],
+      "description": "Shows the battery level of connected game controllers",
+      "distro": [
+        "any"
+      ],
+      "id": "gameControllerBattery",
+      "name": "Game Controller Battery",
+      "repo": "https://github.com/Hujair/gameControllerBattery",
+      "screenshot": "https://raw.githubusercontent.com/Hujair/gameControllerBattery/v1.0.0/dms-screenshot-1773854869435.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/l098a3xibvpsxkdc0p4k5k976yrc7ghy-gameControllerBattery",
+    "rev": "cb6784e8d54b3990759d5689aec31a7257bca0da",
+    "rootDir": "",
+    "sha256": "0rcmyhzwza4x2885j8fwwnsalva4yap9i94pc1wdhp3h490wbs9v",
+    "url": "https://github.com/Hujair/gameControllerBattery"
+  },
   "githubHeatmap": {
     "date": "2026-03-04T15:59:24-08:00",
     "deepClone": false,
