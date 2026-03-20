@@ -1,0 +1,14 @@
+{
+    "id": "netbirdStatus",
+    "name": "Netbird Status",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/Dadangdut33/dms-plugins",
+    "path": "NetbirdStatus",
+    "author": "Dadangdut33",
+    "description": "A NetBird VPN status plugin for DMS that shows your NetBird connection status and peers in the menu bar widget.",
+    "dependencies": ["netbird"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/NetbirdStatus/preview/widget.png"
+}
