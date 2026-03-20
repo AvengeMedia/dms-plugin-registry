@@ -2053,12 +2053,12 @@
     "url": "https://github.com/Incognitux/dms-format-color-picker"
   },
   "gameControllerBattery": {
-    "date": "2026-03-18T20:43:35+03:00",
+    "date": "2026-03-19T23:25:38+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-O+nFQSJwXNh4YJekmK7yRG2qtOXcIVkQEp2ozz/0lWU=",
+    "hash": "sha256-Mk+51uJNfsB7Q+xCwHAIlSmNZKg/GiHBfsaWF8F+Yg4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Mohammad Hujair",
@@ -2083,10 +2083,10 @@
       "screenshot": "https://raw.githubusercontent.com/Hujair/gameControllerBattery/v1.0.0/dms-screenshot-1773854869435.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/l098a3xibvpsxkdc0p4k5k976yrc7ghy-gameControllerBattery",
-    "rev": "cb6784e8d54b3990759d5689aec31a7257bca0da",
+    "path": "/nix/store/cmnnyf6jk21qxxcl2a7m3vw6glkz5bxj-gameControllerBattery",
+    "rev": "b23a996a2f34639c039c4bcbe5adcf5d67730c99",
     "rootDir": "",
-    "sha256": "0rcmyhzwza4x2885j8fwwnsalva4yap9i94pc1wdhp3h490wbs9v",
+    "sha256": "03k2gv0ig5n6gv0j26izm1j8sacm11qc0hpc8dxw0zjdwbbbjkrj",
     "url": "https://github.com/Hujair/gameControllerBattery"
   },
   "githubHeatmap": {
@@ -2358,12 +2358,12 @@
     "url": "https://github.com/mesteryui/DMS_HyprlandSubmap"
   },
   "intervalCommand": {
-    "date": "2026-03-19T01:29:14-04:00",
+    "date": "2026-03-19T20:13:54-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-x9uaTKSw3FcbKUjC3O0WZ25r76UT76r06p+cXY70N7s=",
+    "hash": "sha256-TFlmSZkrJWeBpqp5FKJMgiBXNz0oeWpTsVXQK+DMnuo=",
     "leaveDotGit": false,
     "meta": {
       "author": "corcoran",
@@ -2383,12 +2383,12 @@
       "name": "Interval Command",
       "repo": "https://github.com/corcoran/dms-interval-command",
       "screenshot": "https://raw.githubusercontent.com/corcoran/dms-interval-command/main/screenshots/screenshot.png",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
-    "path": "/nix/store/r7ihxid6hz3scb42ml3kzbgqqniqqdd2-dms-interval-command",
-    "rev": "3bf1d6294188608cbff00b8d1bb14a6ef3071177",
+    "path": "/nix/store/r5949mrfgirax1zpi2xr3kllijcfjb2d-dms-interval-command",
+    "rev": "27ac99a94c915359580336d6eda0377860fd28f1",
     "rootDir": "",
-    "sha256": "1frpyj75v74zxbsamvqklppnnvk72vnxrhj854dmgp5hli69mny7",
+    "sha256": "1slyrkh2pl2mn59nly987lvmf8429ji18ydals0nf99bk54ncnac",
     "url": "https://github.com/corcoran/dms-interval-command"
   },
   "kubernetes": {
