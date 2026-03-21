@@ -1970,12 +1970,12 @@
     "url": "https://github.com/nicolasgarcia214/Ephemera"
   },
   "flatpakUpdates": {
-    "date": "2026-03-03T14:59:45-05:00",
+    "date": "2026-03-20T08:30:10-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ULsO985ldhyM7G5yUtAVbeDv6UjWPzWozIWJcpoCAhs=",
+    "hash": "sha256-9eZSMgoAXDF5R3TgM/MyvDwSfuUsTizxeM7C2HpUYMk=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Erdely",
@@ -1999,12 +1999,12 @@
       "path": "FlatpakUpdates",
       "repo": "https://github.com/merdely/dms-plugins",
       "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png",
-      "version": "1.2.1"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/vgmp1axagfpknmka45wjr5zcidgnw7n0-dms-plugins",
-    "rev": "d788534db3438a6242c9a266f30af98adf214050",
+    "path": "/nix/store/lr74700ayc1xfxk2fsb671w48l2cf26m-dms-plugins",
+    "rev": "6b2073f07675d9088c0ad056444ac4e93cb5c6b8",
     "rootDir": "",
-    "sha256": "06q20ad752c5rjl3agyn93lyzq3d2p854wkfxj61qxk5rvvhxfsh",
+    "sha256": "1jb0aixdihnfg3qjqkicwmz14g5w6brk7q3l8xwk2p0018r55rpm",
     "url": "https://github.com/merdely/dms-plugins"
   },
   "formatColorPicker": {
@@ -2246,12 +2246,12 @@
     "url": "https://github.com/TaylanTatli/dms-plugins"
   },
   "homeAssistantMonitor": {
-    "date": "2026-02-26T18:57:11+08:00",
+    "date": "2026-03-20T19:40:14+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-KW819S5o8mqvqppo0AnoLkwjbakbITIiu8p6wqPT6ok=",
+    "hash": "sha256-shZovGUCgvioGGWgGA3bEnOsPBzQhn/05SZGfYb4sms=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -2276,12 +2276,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-      "version": "1.2.6"
+      "version": "1.2.7"
     },
-    "path": "/nix/store/fj65bxkwiphn1p42in58clzcw3np7b2c-dms-plugin-hass",
-    "rev": "97beccdf732c3dee4560190cbcdad5b190a81295",
+    "path": "/nix/store/1lrr3jqn9pj44fkczdp2fw2jczabv46s-dms-plugin-hass",
+    "rev": "154c41afc0de78efc67e7fe7ba2abcd09992e8ea",
     "rootDir": "",
-    "sha256": "12gasfiw4ynapci3488vm5nj6k1fx04x0s4smapnmwk85vskavr9",
+    "sha256": "0sxjz237sii6wps7z1nh3hyaqwqjvc6ii83532lgi0h2cny6h5mj",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hueManager": {
@@ -2358,12 +2358,12 @@
     "url": "https://github.com/mesteryui/DMS_HyprlandSubmap"
   },
   "intervalCommand": {
-    "date": "2026-03-19T20:13:54-04:00",
+    "date": "2026-03-20T13:37:02-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-TFlmSZkrJWeBpqp5FKJMgiBXNz0oeWpTsVXQK+DMnuo=",
+    "hash": "sha256-4HwY5/0SEu4xXNYsDFY119rkmYAm00EmJzF6hB7fC4c=",
     "leaveDotGit": false,
     "meta": {
       "author": "corcoran",
@@ -2383,12 +2383,12 @@
       "name": "Interval Command",
       "repo": "https://github.com/corcoran/dms-interval-command",
       "screenshot": "https://raw.githubusercontent.com/corcoran/dms-interval-command/main/screenshots/screenshot.png",
-      "version": "0.2.0"
+      "version": "0.9.0"
     },
-    "path": "/nix/store/r5949mrfgirax1zpi2xr3kllijcfjb2d-dms-interval-command",
-    "rev": "27ac99a94c915359580336d6eda0377860fd28f1",
+    "path": "/nix/store/58znb587rz253l304277i8kc2gddr2ck-dms-interval-command",
+    "rev": "4b936f0e486f1df93d6cff37c2631cc0b50d796c",
     "rootDir": "",
-    "sha256": "1slyrkh2pl2mn59nly987lvmf8429ji18ydals0nf99bk54ncnac",
+    "sha256": "11qbvwg88yii4wk43lr6h2cy9nnp6mb0qb6nbhqyw4hjzpkihz70",
     "url": "https://github.com/corcoran/dms-interval-command"
   },
   "kubernetes": {
@@ -3320,12 +3320,12 @@
     "url": "https://github.com/lpv11/dms-hypr-show-desktop"
   },
   "simpleAudioControl": {
-    "date": "2026-03-20T02:41:09+07:00",
+    "date": "2026-03-20T13:23:40+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-h3w1eznk+BK8ZRuTkVc/SVuywP1ddbrrtABp2B/VinA=",
+    "hash": "sha256-kDEEq3jVsl9TJmMgAr1ELBYEU+AZOlCR0IES32SkYMI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Dadangdut33",
@@ -3346,21 +3346,21 @@
       "path": "SimpleAudioControl",
       "repo": "https://github.com/Dadangdut33/dms-plugins",
       "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/SimpleAudioControl/preview/tab-1.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/48y5sbfx7whbc02p9sn758ggwwijxby1-dms-plugins",
-    "rev": "2f8f76b9ef325ca1e1d0c7b464bf02cdb4e5e660",
+    "path": "/nix/store/5rjrwr84x8a7rlq2w1h6d32jkzk5q88f-dms-plugins",
+    "rev": "2a3300c00ab5cf4fe2ffc46e3231682d07f4e73d",
     "rootDir": "",
-    "sha256": "0w4aslgxhs80nkmvlxaxzp0b4ns97xbr34qvcny15y7475xkaz47",
+    "sha256": "1hk0lijdy4l1s28m0fhrw19h85ic8jyh48334r9mzcnmg2mh8cch",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "sshConnections": {
-    "date": "2026-03-03T14:59:45-05:00",
+    "date": "2026-03-20T08:30:10-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ULsO985ldhyM7G5yUtAVbeDv6UjWPzWozIWJcpoCAhs=",
+    "hash": "sha256-9eZSMgoAXDF5R3TgM/MyvDwSfuUsTizxeM7C2HpUYMk=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Erdely",
@@ -3386,10 +3386,10 @@
       "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/sshconnections.png",
       "version": "1.4.6"
     },
-    "path": "/nix/store/vgmp1axagfpknmka45wjr5zcidgnw7n0-dms-plugins",
-    "rev": "d788534db3438a6242c9a266f30af98adf214050",
+    "path": "/nix/store/lr74700ayc1xfxk2fsb671w48l2cf26m-dms-plugins",
+    "rev": "6b2073f07675d9088c0ad056444ac4e93cb5c6b8",
     "rootDir": "",
-    "sha256": "06q20ad752c5rjl3agyn93lyzq3d2p854wkfxj61qxk5rvvhxfsh",
+    "sha256": "1jb0aixdihnfg3qjqkicwmz14g5w6brk7q3l8xwk2p0018r55rpm",
     "url": "https://github.com/merdely/dms-plugins"
   },
   "sshMonitor": {
