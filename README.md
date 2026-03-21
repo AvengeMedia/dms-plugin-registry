@@ -2185,7 +2185,7 @@ Switch between Hyprland windows with live previews
 
 #### [Interval Command](https://github.com/corcoran/dms-interval-command)
 
-Run a shell command on a configurable interval and display its output in the bar
+Run a command on a custom interval and display its output in the bar. Supports multiple instances with different commands.
 
 
 
