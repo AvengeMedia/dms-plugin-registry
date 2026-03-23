@@ -333,12 +333,12 @@
     "url": "https://github.com/insecure/dms-audio-inhibit"
   },
   "audioSlots": {
-    "date": "2026-03-10T19:47:25+02:00",
+    "date": "2026-03-22T19:55:58+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-e90eMunckpK41Wqhrtp47NtjfofkodP/rq1anNCqsvs=",
+    "hash": "sha256-jFx62uGv57ucYJdLw2Vga0/mNhd/b7NgXBD2TAS3Dps=",
     "leaveDotGit": false,
     "meta": {
       "author": "lpv11",
@@ -365,10 +365,10 @@
       "screenshot": "https://raw.githubusercontent.com/lpv11/dms-audio-slots/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/5lpyakykvwvscrhix4azr690284n945v-dms-audio-slots",
-    "rev": "2b57cbc47cc19adfc19abfd40c46cb1704d61ca3",
+    "path": "/nix/store/xikg80lfafsx87mvph8z47qdppgni9k6-dms-audio-slots",
+    "rev": "f460499b996bfc8fadd55ed65e44e1338afda06e",
     "rootDir": "",
-    "sha256": "1yxjmb89qnmdmvzx78g4hxz67nzcg3dax8basnw954nwx4r1xpbv",
+    "sha256": "16qfnw24rxhhbihb6vvz2wvfckvbc1jw6jwpc2fbprxgw7d7lp4c",
     "url": "https://github.com/lpv11/dms-audio-slots"
   },
   "audioSwitcher": {
@@ -2358,12 +2358,12 @@
     "url": "https://github.com/mesteryui/DMS_HyprlandSubmap"
   },
   "intervalCommand": {
-    "date": "2026-03-21T15:03:54-04:00",
+    "date": "2026-03-22T01:18:10-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-dWPwrbddcDd3fgXRazwuuv01Gt5aPi2z26qluJcAiOM=",
+    "hash": "sha256-Fny7V1pQSe0WlpqdkLYeC6VtLQgK/wQyXFpTYzFXm5E=",
     "leaveDotGit": false,
     "meta": {
       "author": "corcoran",
@@ -2383,12 +2383,12 @@
       "name": "Interval Command",
       "repo": "https://github.com/corcoran/dms-interval-command",
       "screenshot": "https://raw.githubusercontent.com/corcoran/dms-interval-command/main/screenshots/screenshot.png",
-      "version": "0.9.1"
+      "version": "0.9.2"
     },
-    "path": "/nix/store/d9jfk9ngnv8fv20qkablifzp1isxagh5-dms-interval-command",
-    "rev": "90244aa2801ddae5d7be3604a5f0a98bd2a56309",
+    "path": "/nix/store/k59d6pmyjir6rqxg6kpsqqw3dciiagj2-dms-interval-command",
+    "rev": "e8f585807357463929868a2b34f92cce363ac937",
     "rootDir": "",
-    "sha256": "1qw802bvi9davfrjsgjsvqd3bzds5qy6pl85grvkfw2xnynz0qvm",
+    "sha256": "14cvawqn6lssbhr09zqa10nnv98b3sv917csjqbfsjahb9bvnz0n",
     "url": "https://github.com/corcoran/dms-interval-command"
   },
   "kubernetes": {
