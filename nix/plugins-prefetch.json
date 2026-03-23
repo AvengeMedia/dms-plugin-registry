@@ -1898,12 +1898,12 @@
     "url": "https://github.com/jonkristian/dms-easyeffects"
   },
   "emojiLauncher": {
-    "date": "2026-03-01T17:35:13-05:00",
+    "date": "2026-03-23T00:22:16-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5VpvUbFeatfuGdnUlNa5FB78R4dN1Zw9r/uWpUxHHfU=",
+    "hash": "sha256-uUfmGa7/rPx50XD8D0pqZtTjFcxl55+LvxQHiAGXQls=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -1923,12 +1923,12 @@
       "name": "Emoji & Unicode Launcher",
       "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
       "screenshot": "https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true",
-      "version": "1.5.2"
+      "version": "1.6.0"
     },
-    "path": "/nix/store/67451l0z0szws42qlc5r7yfa1yijvl7i-dms-emoji-launcher",
-    "rev": "cb5a2ae79084f84890135005ed2e60567307e690",
+    "path": "/nix/store/jzsjv39rmiiyjfl4xz6z52p8frhpwq04-dms-emoji-launcher",
+    "rev": "ed5caa317b0bda8af1898e6c38199afa69f239cd",
     "rootDir": "",
-    "sha256": "1x8x8x6ab5pvmwyrrmadhx3zq7hlp7b99m6r37pdfsjyn58nynp5",
+    "sha256": "0ns2jw0qh1qlpy5rzrv5rhay7m36d950zz3hs5wzrb7zmqcycixr",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "ephemera": {
@@ -2053,12 +2053,12 @@
     "url": "https://github.com/Incognitux/dms-format-color-picker"
   },
   "gameControllerBattery": {
-    "date": "2026-03-19T23:25:38+03:00",
+    "date": "2026-03-23T14:06:38+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Mk+51uJNfsB7Q+xCwHAIlSmNZKg/GiHBfsaWF8F+Yg4=",
+    "hash": "sha256-c0AHJgSxgIarwwvZz7nvZFZnvs1Bw7I1xbur+t2wsck=",
     "leaveDotGit": false,
     "meta": {
       "author": "Mohammad Hujair",
@@ -2083,10 +2083,10 @@
       "screenshot": "https://raw.githubusercontent.com/Hujair/gameControllerBattery/v1.0.0/dms-screenshot-1773854869435.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/cmnnyf6jk21qxxcl2a7m3vw6glkz5bxj-gameControllerBattery",
-    "rev": "b23a996a2f34639c039c4bcbe5adcf5d67730c99",
+    "path": "/nix/store/grq3h1w96bk158mf58caxk2v4m1zx4ma-gameControllerBattery",
+    "rev": "72a30f7fca423ce623d22fead298a6fe2af5361a",
     "rootDir": "",
-    "sha256": "03k2gv0ig5n6gv0j26izm1j8sacm11qc0hpc8dxw0zjdwbbbjkrj",
+    "sha256": "1jdin3fzmaxvqlsv5hs1rnz6fmk4xywwzn8bqfmqd05i0hk0fh3k",
     "url": "https://github.com/Hujair/gameControllerBattery"
   },
   "githubHeatmap": {
@@ -2572,12 +2572,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlsPlus": {
-    "date": "2026-03-11T09:03:11+02:00",
+    "date": "2026-03-23T20:00:25+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-8XF6BbK43TDsZ85Vhid4ibIY6qq8KWf/WcC4cNVrFe8=",
+    "hash": "sha256-Nic/vCO5ZwGpcKR1ejH0IIijFjDTesgnjHrKyZlKTqo=",
     "leaveDotGit": false,
     "meta": {
       "author": "lpv11",
@@ -2599,10 +2599,10 @@
       "screenshot": "https://raw.githubusercontent.com/lpv11/dms-media-controls-plus/main/screenshot.png",
       "version": "0.9.6"
     },
-    "path": "/nix/store/gymp3f02parxsijgcs55j8xrhlmnr1qf-dms-media-controls-plus",
-    "rev": "e68ce6beff7f44e6b8335d9d16a72cffebbb0822",
+    "path": "/nix/store/nspb8rfn1wa0gpd04nsw4fkqrp5rgifb-dms-media-controls-plus",
+    "rev": "1e8e885d4da4f315a594641af914cea82a66d9fc",
     "rootDir": "",
-    "sha256": "1vqmdgap1f60b7znfadwmbm1icl9g0kqcmffczn31pdqn82plwgi",
+    "sha256": "1ajf9acwkjksihkwhynk60ba7210yhqplxd4f2lh2rxr4fy3y9rn",
     "url": "https://github.com/lpv11/dms-media-controls-plus"
   },
   "mediaFrame": {
@@ -2676,6 +2676,45 @@
     "rootDir": "",
     "sha256": "0gmlcvh1rwpxiskmamx8y58j6hyrh11bfp82yxgdyij75ld624av",
     "url": "https://github.com/arrifat346afs/mediaPlayer"
+  },
+  "mpvpaperWallpaper": {
+    "date": "2026-03-23T16:28:47-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-PoGWvb2XTwGJcIDSN0VXBQdMf0QqMm+u6F1erycmPEY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "kanghengliu",
+      "capabilities": [
+        "wallpaper",
+        "animation",
+        "dankbar-widget"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [
+        "mpvpaper"
+      ],
+      "description": "Video wallpaper support using mpvpaper",
+      "distro": [
+        "any"
+      ],
+      "id": "mpvpaperWallpaper",
+      "name": "mpvpaper Video Wallpaper",
+      "repo": "https://github.com/kanghengliu/dms-mpvpaper",
+      "screenshot": "https://raw.githubusercontent.com/kanghengliu/dms-mpvpaper/main/screenshot.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/jkwm3sbc3hj1zpbnw9q0awdaavxxfg5m-dms-mpvpaper",
+    "rev": "7e259c41cc495cef6731ebd4091a646e4ae76117",
+    "rootDir": "",
+    "sha256": "0iiw4qksypjxx2p6ycia8izlq1q5ax2kgll0f24h2kwppnyrd09y",
+    "url": "https://github.com/kanghengliu/dms-mpvpaper"
   },
   "musicLyrics": {
     "date": "2026-02-24T23:20:07+07:00",
