@@ -231,6 +231,35 @@ A new fresh daily wallpaper downloaded from a famous portal
 
 
 
+#### [mpvpaper Video Wallpaper](https://github.com/kanghengliu/dms-mpvpaper)
+
+Video wallpaper support using mpvpaper
+
+
+
+- id: mpvpaperWallpaper
+- name: mpvpaper Video Wallpaper
+- author: kanghengliu
+- compositors: niri, hyprland
+- capabilities: wallpaper, animation, dankbar-widget
+- dependencies: mpvpaper
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/kanghengliu/dms-mpvpaper/main/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
