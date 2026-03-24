@@ -1,0 +1,14 @@
+{
+    "id": "usbManager",
+    "name": "USB Manager",
+    "capabilities": ["dankbar-widget", "notify"],
+    "category": "system",
+    "repo": "https://github.com/NordicsSys/dms-usb-manager",
+    "author": "NordicsSys",
+    "description": "Bar widget: monitor removable USB drives, mount/unmount, eject, format (FAT32/exFAT/ext4), resize partitions; notifications on plug/unplug via udisks.",
+    "dependencies": ["udisks2", "bash", "lsblk", "parted", "dosfstools", "e2fsprogs", "exfatprogs", "polkit"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/NordicsSys/dms-usb-manager/main/assets/screenshot.png",
+    "requires_dms": ">=1.2.0"
+}
