@@ -2678,12 +2678,12 @@
     "url": "https://github.com/arrifat346afs/mediaPlayer"
   },
   "mpvpaperWallpaper": {
-    "date": "2026-03-23T16:28:47-04:00",
+    "date": "2026-03-23T21:45:53-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-PoGWvb2XTwGJcIDSN0VXBQdMf0QqMm+u6F1erycmPEY=",
+    "hash": "sha256-I57iZr1n4AbqIwD4mvvtJb4n0bOEqjoo4pmWnE5gxUY=",
     "leaveDotGit": false,
     "meta": {
       "author": "kanghengliu",
@@ -2710,10 +2710,10 @@
       "screenshot": "https://raw.githubusercontent.com/kanghengliu/dms-mpvpaper/main/screenshot.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/jkwm3sbc3hj1zpbnw9q0awdaavxxfg5m-dms-mpvpaper",
-    "rev": "7e259c41cc495cef6731ebd4091a646e4ae76117",
+    "path": "/nix/store/1m6w2awmg9mqxlx0dzbhqhrwxpvpja1n-dms-mpvpaper",
+    "rev": "dcbfa18f552f1e3699a6f1965fe66a93ccec5a28",
     "rootDir": "",
-    "sha256": "0iiw4qksypjxx2p6ycia8izlq1q5ax2kgll0f24h2kwppnyrd09y",
+    "sha256": "0in5c179r5lrw8l3mal4ng8jggi5xpxrmy004gm0dq37pmkf57i3",
     "url": "https://github.com/kanghengliu/dms-mpvpaper"
   },
   "musicLyrics": {
@@ -2784,6 +2784,43 @@
     "rootDir": "",
     "sha256": "1xlmiqn7j54bnsnarsrkrl8wrdjvi87slz3x22bj4rjjm7my3v24",
     "url": "https://github.com/AC17dollars/dms-nepali-calendar"
+  },
+  "netbirdStatus": {
+    "date": "2026-03-20T13:23:40+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-kDEEq3jVsl9TJmMgAr1ELBYEU+AZOlCR0IES32SkYMI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Dadangdut33",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "netbird"
+      ],
+      "description": "A NetBird VPN status plugin for DMS that shows your NetBird connection status and peers in the menu bar widget.",
+      "distro": [
+        "any"
+      ],
+      "id": "netbirdStatus",
+      "name": "NetBird Status",
+      "path": "NetbirdStatus",
+      "repo": "https://github.com/Dadangdut33/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/NetbirdStatus/preview/widget.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/5rjrwr84x8a7rlq2w1h6d32jkzk5q88f-dms-plugins",
+    "rev": "2a3300c00ab5cf4fe2ffc46e3231682d07f4e73d",
+    "rootDir": "",
+    "sha256": "1hk0lijdy4l1s28m0fhrw19h85ic8jyh48334r9mzcnmg2mh8cch",
+    "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "niriScreenshot": {
     "date": "2026-02-19T22:00:20-05:00",
