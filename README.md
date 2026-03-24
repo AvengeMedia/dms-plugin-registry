@@ -2178,6 +2178,26 @@ Quick screenshot menu for grimblast with multiple capture modes
 
 
 
+#### [Hebrew Calendar](https://github.com/hatt-io/dms-hebcal-date)
+
+Display the current Hebrew date and parsha using hebcal
+
+
+
+- id: hebcalDate
+- name: Hebrew Calendar
+- author: hatt-io
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: hebcal
+- distro: any
+
+
+
+
+
+
+
 #### [Home Assistant Monitor](https://github.com/xxyangyoulin/dms-plugin-hass)
 
 Monitor and display Home Assistant entity states in your status bar
