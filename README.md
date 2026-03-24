@@ -2478,6 +2478,40 @@ Get the current Nepali date
 
 
 
+#### [NetBird Status](https://github.com/Dadangdut33/dms-plugins)
+
+A NetBird VPN status plugin for DMS that shows your NetBird connection status and peers in the menu bar widget.
+
+
+
+- id: netbirdStatus
+- name: NetBird Status
+- author: Dadangdut33
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: netbird
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [NetbirdStatus](https://github.com/Dadangdut33/dms-plugins/tree/main/NetbirdStatus) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/NetbirdStatus/preview/widget.png)
+
+</details>
+
+
+
+
+
 #### [Niri Screenshot](https://github.com/jfchenier/dms-niri-screenshot)
 
 Control Niri screenshot actions from the Control Center
