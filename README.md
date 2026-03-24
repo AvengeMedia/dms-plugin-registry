@@ -940,6 +940,35 @@ Check and manage DNF and Flatpak package updates from the bar.
 
 
 
+#### [USB Manager](https://github.com/NordicsSys/dms-usb-manager)
+
+Bar widget: monitor removable USB drives, mount/unmount, eject, format (FAT32/exFAT/ext4), resize partitions; notifications on plug/unplug via udisks.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: usbManager
+- name: USB Manager
+- author: NordicsSys
+- compositors: any
+- capabilities: dankbar-widget, notify
+- dependencies: udisks2, bash, lsblk, parted, dosfstools, e2fsprogs, exfatprogs, polkit
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/NordicsSys/dms-usb-manager/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
