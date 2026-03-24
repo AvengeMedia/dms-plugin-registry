@@ -516,6 +516,35 @@ Monitor AI provider usage quotas
 
 
 
+#### [Game Controller Battery](https://github.com/Hujair/gameControllerBattery)
+
+Shows the battery level of connected game controllers
+
+
+
+- id: gameControllerBattery
+- name: Game Controller Battery
+- author: Mohammad Hujair
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: upower
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Hujair/gameControllerBattery/v1.0.0/dms-screenshot-1773854869435.png)
+
+</details>
+
+
+
+
+
 #### [GitHub Heatmap](https://github.com/boutabong/dms-plugins)
 
 Display weekly GitHub contribution heatmap with color-coded activity levels
