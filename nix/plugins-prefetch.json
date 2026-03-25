@@ -1898,12 +1898,12 @@
     "url": "https://github.com/jonkristian/dms-easyeffects"
   },
   "emojiLauncher": {
-    "date": "2026-03-23T00:22:16-04:00",
+    "date": "2026-03-24T18:07:10-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uUfmGa7/rPx50XD8D0pqZtTjFcxl55+LvxQHiAGXQls=",
+    "hash": "sha256-ywCNI93OIuQVEGVcKCWxDvP+eU0O2RHuNx+1s3V2WeU=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -1923,12 +1923,12 @@
       "name": "Emoji & Unicode Launcher",
       "repo": "https://github.com/devnullvoid/dms-emoji-launcher",
       "screenshot": "https://github.com/devnullvoid/dms-emoji-launcher/blob/main/screenshot.png?raw=true",
-      "version": "1.6.0"
+      "version": "1.7.0"
     },
-    "path": "/nix/store/jzsjv39rmiiyjfl4xz6z52p8frhpwq04-dms-emoji-launcher",
-    "rev": "ed5caa317b0bda8af1898e6c38199afa69f239cd",
+    "path": "/nix/store/sxm43i7pcr3adnsxcf0h138xlqpa4glz-dms-emoji-launcher",
+    "rev": "18974e94d048ecedfa1c0acea76e21584b05196d",
     "rootDir": "",
-    "sha256": "0ns2jw0qh1qlpy5rzrv5rhay7m36d950zz3hs5wzrb7zmqcycixr",
+    "sha256": "1rarfrsv7d8z6zp13n8f9mwzxwqfn4jjhp3520ay88nfvliqs06b",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "ephemera": {
@@ -2821,12 +2821,12 @@
     "url": "https://github.com/AC17dollars/dms-nepali-calendar"
   },
   "netbirdStatus": {
-    "date": "2026-03-25T02:38:53+07:00",
+    "date": "2026-03-25T03:11:30+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2JFeexG4WopTyHTa+/BrPieDyRg+Co64msMYVWYUkio=",
+    "hash": "sha256-xMuFPH1ILrPpDw76aIURMA7qp8yP80OKzeiPdIDYlgI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Dadangdut33",
@@ -2851,10 +2851,10 @@
       "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/NetbirdStatus/preview/widget.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/73wpb6a5144z5i31a9f48h18mnhhv8ak-dms-plugins",
-    "rev": "da00c476b1a30ce441824fcadf706e43cb12d255",
+    "path": "/nix/store/p5ia3bsf9rf82p6c71r00q5nz8wr4fba-dms-plugins",
+    "rev": "4f6e147e53efe9cd9593ac6798b88c3e8349bfa2",
     "rootDir": "",
-    "sha256": "0alj2ik5a663kaw8w2iy334q69rydgqgpnklr19qlnmq25xmx4fq",
+    "sha256": "00lnv20793z8rn547wwgrjkyl3ih262niyhf1zlv6bj8gly8bjy4",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "niriScreenshot": {
@@ -3431,12 +3431,12 @@
     "url": "https://github.com/lpv11/dms-hypr-show-desktop"
   },
   "simpleAudioControl": {
-    "date": "2026-03-25T02:38:53+07:00",
+    "date": "2026-03-25T03:11:30+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2JFeexG4WopTyHTa+/BrPieDyRg+Co64msMYVWYUkio=",
+    "hash": "sha256-xMuFPH1ILrPpDw76aIURMA7qp8yP80OKzeiPdIDYlgI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Dadangdut33",
@@ -3459,10 +3459,10 @@
       "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/SimpleAudioControl/preview/tab-1.png",
       "version": "1.0.1"
     },
-    "path": "/nix/store/73wpb6a5144z5i31a9f48h18mnhhv8ak-dms-plugins",
-    "rev": "da00c476b1a30ce441824fcadf706e43cb12d255",
+    "path": "/nix/store/p5ia3bsf9rf82p6c71r00q5nz8wr4fba-dms-plugins",
+    "rev": "4f6e147e53efe9cd9593ac6798b88c3e8349bfa2",
     "rootDir": "",
-    "sha256": "0alj2ik5a663kaw8w2iy334q69rydgqgpnklr19qlnmq25xmx4fq",
+    "sha256": "00lnv20793z8rn547wwgrjkyl3ih262niyhf1zlv6bj8gly8bjy4",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "sshConnections": {
