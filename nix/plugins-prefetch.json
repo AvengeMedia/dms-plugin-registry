@@ -2281,12 +2281,12 @@
     "url": "https://github.com/hatt-io/dms-hebcal-date"
   },
   "homeAssistantMonitor": {
-    "date": "2026-03-20T19:40:14+08:00",
+    "date": "2026-03-25T18:58:34+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-shZovGUCgvioGGWgGA3bEnOsPBzQhn/05SZGfYb4sms=",
+    "hash": "sha256-mUK06k5tBF9mvYKJK9AL6DkRfJ5VqPIrZzuqE2vt1K0=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -2311,12 +2311,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-      "version": "1.2.7"
+      "version": "2.0.0"
     },
-    "path": "/nix/store/1lrr3jqn9pj44fkczdp2fw2jczabv46s-dms-plugin-hass",
-    "rev": "154c41afc0de78efc67e7fe7ba2abcd09992e8ea",
+    "path": "/nix/store/m5b1kmvvrbb1k6094hayhihjcd71w1hw-dms-plugin-hass",
+    "rev": "e2ab4740ff9ec89dc1996456d6c5b5af5e7fcea7",
     "rootDir": "",
-    "sha256": "0sxjz237sii6wps7z1nh3hyaqwqjvc6ii83532lgi0h2cny6h5mj",
+    "sha256": "1bflxmmi7aivcwmz5a2mkry12fg81g82p2c2pmk5y13d9vmb8hlr",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hueManager": {
@@ -2713,12 +2713,12 @@
     "url": "https://github.com/arrifat346afs/mediaPlayer"
   },
   "mpvpaperWallpaper": {
-    "date": "2026-03-23T21:45:53-04:00",
+    "date": "2026-03-25T11:57:14-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-I57iZr1n4AbqIwD4mvvtJb4n0bOEqjoo4pmWnE5gxUY=",
+    "hash": "sha256-WPgcMMvfFmgRZxVdVBy1lAcReWmlWvt2EIX4AIgo2bM=",
     "leaveDotGit": false,
     "meta": {
       "author": "kanghengliu",
@@ -2743,12 +2743,12 @@
       "name": "mpvpaper Video Wallpaper",
       "repo": "https://github.com/kanghengliu/dms-mpvpaper",
       "screenshot": "https://raw.githubusercontent.com/kanghengliu/dms-mpvpaper/main/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/1m6w2awmg9mqxlx0dzbhqhrwxpvpja1n-dms-mpvpaper",
-    "rev": "dcbfa18f552f1e3699a6f1965fe66a93ccec5a28",
+    "path": "/nix/store/id187rrppkas5h4nwhfbmf8xn9hjlfdc-dms-mpvpaper",
+    "rev": "95b7abaf6d6287ab38212919e5fe9ac35bbf450b",
     "rootDir": "",
-    "sha256": "0in5c179r5lrw8l3mal4ng8jggi5xpxrmy004gm0dq37pmkf57i3",
+    "sha256": "1cyr52401y4521vgnnm5d5wi21wlnlf58p8mcw8nh5nzrcq1ry2q",
     "url": "https://github.com/kanghengliu/dms-mpvpaper"
   },
   "musicLyrics": {
@@ -2821,12 +2821,12 @@
     "url": "https://github.com/AC17dollars/dms-nepali-calendar"
   },
   "netbirdStatus": {
-    "date": "2026-03-25T03:11:30+07:00",
+    "date": "2026-03-25T17:27:56+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-xMuFPH1ILrPpDw76aIURMA7qp8yP80OKzeiPdIDYlgI=",
+    "hash": "sha256-F19bkj162YfNyQE4mowD6Kw0A6VJYYHUcBaKM9R1Gco=",
     "leaveDotGit": false,
     "meta": {
       "author": "Dadangdut33",
@@ -2851,10 +2851,10 @@
       "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/NetbirdStatus/preview/widget.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/p5ia3bsf9rf82p6c71r00q5nz8wr4fba-dms-plugins",
-    "rev": "4f6e147e53efe9cd9593ac6798b88c3e8349bfa2",
+    "path": "/nix/store/mia7776cs0s2mypq89cwdgchyqnxb5nb-dms-plugins",
+    "rev": "1350287d4d729da29e799d8bf4390eda1db881ba",
     "rootDir": "",
-    "sha256": "00lnv20793z8rn547wwgrjkyl3ih262niyhf1zlv6bj8gly8bjy4",
+    "sha256": "1jhrfpa372hnf3a82qa9ll1k9b780f69lf01r76qgnbs7n95npqp",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "niriScreenshot": {
@@ -3431,12 +3431,12 @@
     "url": "https://github.com/lpv11/dms-hypr-show-desktop"
   },
   "simpleAudioControl": {
-    "date": "2026-03-25T03:11:30+07:00",
+    "date": "2026-03-25T17:27:56+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-xMuFPH1ILrPpDw76aIURMA7qp8yP80OKzeiPdIDYlgI=",
+    "hash": "sha256-F19bkj162YfNyQE4mowD6Kw0A6VJYYHUcBaKM9R1Gco=",
     "leaveDotGit": false,
     "meta": {
       "author": "Dadangdut33",
@@ -3459,10 +3459,10 @@
       "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/SimpleAudioControl/preview/tab-1.png",
       "version": "1.0.1"
     },
-    "path": "/nix/store/p5ia3bsf9rf82p6c71r00q5nz8wr4fba-dms-plugins",
-    "rev": "4f6e147e53efe9cd9593ac6798b88c3e8349bfa2",
+    "path": "/nix/store/mia7776cs0s2mypq89cwdgchyqnxb5nb-dms-plugins",
+    "rev": "1350287d4d729da29e799d8bf4390eda1db881ba",
     "rootDir": "",
-    "sha256": "00lnv20793z8rn547wwgrjkyl3ih262niyhf1zlv6bj8gly8bjy4",
+    "sha256": "1jhrfpa372hnf3a82qa9ll1k9b780f69lf01r76qgnbs7n95npqp",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "sshConnections": {
