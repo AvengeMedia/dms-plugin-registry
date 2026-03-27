@@ -3873,12 +3873,12 @@
     "url": "https://github.com/cwelsys/dms-volume-mixer"
   },
   "voxtype": {
-    "date": "2026-01-08T16:28:08-03:00",
+    "date": "2026-03-26T11:51:24-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-X5kyoclRJ6/FsGndSV0ZwLjC36CVXwQ1ivCLxKaQ1gI=",
+    "hash": "sha256-ajDIxZydnneuh9hdT3g/zEvtAMGUKtCiW0TiYok6gYw=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -3901,12 +3901,12 @@
       "repo": "https://github.com/psyreactor/dms-voxtype",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-voxtype/raw/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.0.2"
     },
-    "path": "/nix/store/kn0yz0gglb8hzni3dcaxp2r3k6y3s4dl-dms-voxtype",
-    "rev": "6debdff675065a384ae58e23c745df43461d47f1",
+    "path": "/nix/store/sdwdnyq498rw80zc8blqbj65vlcgs7xs-dms-voxtype",
+    "rev": "150d16959efe0872bc2809ac09efb093a683dad4",
     "rootDir": "",
-    "sha256": "00nnj2kc92zhi8sh8pwml3gw5f6035flkpb9n32sy9sir6hk56az",
+    "sha256": "13417a4n5qj4bfid0allq40fsjyc7xw4ypfqhyp7g7lxkk2whc3a",
     "url": "https://github.com/psyreactor/dms-voxtype"
   },
   "vscodeLauncher": {
