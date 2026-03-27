@@ -3722,6 +3722,17 @@ All natural pine, faux fur and a bit of soho vibes for the classy minimalist
 
 
 
+### Solarized Osaka Night
+
+Solarized Osaka inspired theme darker
+
+- **Author:** setiapam
+- **ID:** `solarizedOsakaNight` **Version:** `1.0.0`
+
+![Solarized Osaka Night](themes/solarized-osaka-night/preview.svg)
+
+
+
 ### Steam Deck
 
 Steam Deck inspired theme
