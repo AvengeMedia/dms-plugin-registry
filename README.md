@@ -1040,6 +1040,35 @@ An alarm clock widget
 
 
 
+#### [Alienware Command Center](https://github.com/psyreactor/dms-awcc)
+
+Alienware Command Center plugin for DankBar
+
+<strong>requires DMS version</strong>: <em>>0.0.28</em>
+
+- id: awcc
+- name: Alienware Command Center
+- author: psyreactor
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/psyreactor/dms-awcc/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Anime Calendar](https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin)
 
 A QuickShell plugin for DankMaterialShell that tracks anime episode releases and sends notifications when your favorite shows air.
