@@ -1970,12 +1970,12 @@
     "url": "https://github.com/nicolasgarcia214/Ephemera"
   },
   "flatpakUpdates": {
-    "date": "2026-03-20T08:30:10-04:00",
+    "date": "2026-03-27T09:13:36-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9eZSMgoAXDF5R3TgM/MyvDwSfuUsTizxeM7C2HpUYMk=",
+    "hash": "sha256-OVecni81Qd3OonFRGASAg+tl1woXdiUIhovczWnh4Uc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Erdely",
@@ -1999,12 +1999,12 @@
       "path": "FlatpakUpdates",
       "repo": "https://github.com/merdely/dms-plugins",
       "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png",
-      "version": "1.3.0"
+      "version": "1.3.1"
     },
-    "path": "/nix/store/lr74700ayc1xfxk2fsb671w48l2cf26m-dms-plugins",
-    "rev": "6b2073f07675d9088c0ad056444ac4e93cb5c6b8",
+    "path": "/nix/store/bq9b1vcsjk13s7pvq870d2yzpq2z1c17-dms-plugins",
+    "rev": "b45d16f30f56c16371d93ecf54c3d0b4c23a24a5",
     "rootDir": "",
-    "sha256": "1jb0aixdihnfg3qjqkicwmz14g5w6brk7q3l8xwk2p0018r55rpm",
+    "sha256": "0iz1w5lwvp4bhq42axhp1bbnbsw3h021hlbilb7dsh9m5yg9qmrr",
     "url": "https://github.com/merdely/dms-plugins"
   },
   "formatColorPicker": {
@@ -2787,12 +2787,12 @@
     "url": "https://github.com/gasiyu/dms-plugin-musiclyrics"
   },
   "nepaliCalendar": {
-    "date": "2026-01-01T21:09:33+05:45",
+    "date": "2026-03-27T20:36:23+05:45",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ROzh66lSZiKXEH18qg+KW7bMEc0z66ystosUeSyOlfY=",
+    "hash": "sha256-6MpJs6uwiO/q3+MbUvhtseabeIp1L0jTeNL3GuGEjtI=",
     "leaveDotGit": false,
     "meta": {
       "author": "ac17dollars (Abhinav Chalise)",
@@ -2814,10 +2814,10 @@
       "screenshot": "https://raw.githubusercontent.com/AC17dollars/dms-nepali-calendar/main/assets/horizontal.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/9kaaibd00l9cdj6adf47bnja9vjk7h22-dms-nepali-calendar",
-    "rev": "6579f8c84eaa4a8ad782b196464a4d70c47d5984",
+    "path": "/nix/store/pk3wsqfka8bssp6xgmf1w61szsx5q90q-dms-nepali-calendar",
+    "rev": "bf119ea6aa7cdf01dd37226ffa486669643cde85",
     "rootDir": "",
-    "sha256": "1xlmiqn7j54bnsnarsrkrl8wrdjvi87slz3x22bj4rjjm7my3v24",
+    "sha256": "1llfhkhimxyjg39lhbvmi9w9prmidpw546z3vzmfz25hmfrlkjp8",
     "url": "https://github.com/AC17dollars/dms-nepali-calendar"
   },
   "netbirdStatus": {
@@ -3466,12 +3466,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "sshConnections": {
-    "date": "2026-03-20T08:30:10-04:00",
+    "date": "2026-03-27T09:13:36-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9eZSMgoAXDF5R3TgM/MyvDwSfuUsTizxeM7C2HpUYMk=",
+    "hash": "sha256-OVecni81Qd3OonFRGASAg+tl1woXdiUIhovczWnh4Uc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Michael Erdely",
@@ -3497,10 +3497,10 @@
       "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/sshconnections.png",
       "version": "1.4.6"
     },
-    "path": "/nix/store/lr74700ayc1xfxk2fsb671w48l2cf26m-dms-plugins",
-    "rev": "6b2073f07675d9088c0ad056444ac4e93cb5c6b8",
+    "path": "/nix/store/bq9b1vcsjk13s7pvq870d2yzpq2z1c17-dms-plugins",
+    "rev": "b45d16f30f56c16371d93ecf54c3d0b4c23a24a5",
     "rootDir": "",
-    "sha256": "1jb0aixdihnfg3qjqkicwmz14g5w6brk7q3l8xwk2p0018r55rpm",
+    "sha256": "0iz1w5lwvp4bhq42axhp1bbnbsw3h021hlbilb7dsh9m5yg9qmrr",
     "url": "https://github.com/merdely/dms-plugins"
   },
   "sshMonitor": {
