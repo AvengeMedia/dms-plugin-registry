@@ -626,6 +626,44 @@
     "sha256": "1zq0q3w57f3yzlsx7dikp5vymvdrwqi3mzl4dbnnh5cz7brr4zhr",
     "url": "https://github.com/titeya/dms-claudecode"
   },
+  "clipboardPlus": {
+    "date": "2026-03-25T17:27:56+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-F19bkj162YfNyQE4mowD6Kw0A6VJYYHUcBaKM9R1Gco=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Dadangdut33",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "cliphist",
+        "wl-clipboard"
+      ],
+      "description": "Advanced clipboard manager with integrated notes, todo, and pinned items.",
+      "distro": [
+        "any"
+      ],
+      "id": "clipboardPlus",
+      "name": "ClipBoard+",
+      "path": "ClipboardPlus",
+      "repo": "https://github.com/Dadangdut33/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/ClipboardPlus/preview/preview-blur.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/mia7776cs0s2mypq89cwdgchyqnxb5nb-dms-plugins",
+    "rev": "1350287d4d729da29e799d8bf4390eda1db881ba",
+    "rootDir": "",
+    "sha256": "1jhrfpa372hnf3a82qa9ll1k9b780f69lf01r76qgnbs7n95npqp",
+    "url": "https://github.com/Dadangdut33/dms-plugins"
+  },
   "codexBar": {
     "date": "2026-03-01T10:48:20+02:00",
     "deepClone": false,
