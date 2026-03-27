@@ -1282,6 +1282,40 @@ Ambient light sensor control - automatic brightness and screen dimming
 
 
 
+#### [ClipBoard+](https://github.com/Dadangdut33/dms-plugins)
+
+Advanced clipboard manager with integrated notes, todo, and pinned items.
+
+
+
+- id: clipboardPlus
+- name: ClipBoard+
+- author: Dadangdut33
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: cliphist, wl-clipboard
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [ClipboardPlus](https://github.com/Dadangdut33/dms-plugins/tree/main/ClipboardPlus) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/ClipboardPlus/preview/preview-blur.png)
+
+</details>
+
+
+
+
+
 #### [Command Runner](https://github.com/devnullvoid/dms-command-runner)
 
 Execute shell commands from the launcher with history tracking, common shortcuts, and terminal/background execution modes
