@@ -405,6 +405,41 @@
     "sha256": "1b4k2aask6ga4i8n5p06998nmsyix5918bi7jyv9j9pxhkx02swc",
     "url": "https://github.com/CD-Z/dms-plugins"
   },
+  "awcc": {
+    "date": "2026-03-26T10:32:07-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-qSxoYUpE83hTIEDmvPHEKS8bWs0kuDeYBT20okchoFE=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "psyreactor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Alienware Command Center plugin for DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "awcc",
+      "name": "Alienware Command Center",
+      "repo": "https://github.com/psyreactor/dms-awcc",
+      "requires_dms": ">0.0.28",
+      "screenshot": "https://github.com/psyreactor/dms-awcc/raw/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/qah5cgvsvfx9vfjjs4v0ypspfy974g7d-dms-awcc",
+    "rev": "8013c00b58b766edf35bcd6a2da480bf1034e272",
+    "rootDir": "",
+    "sha256": "0ld0453s5d1x0nc3gf14rmd1nbr9qkqvrrj0419piws499hnhb59",
+    "url": "https://github.com/psyreactor/dms-awcc"
+  },
   "calculator": {
     "date": "2026-02-12T18:45:29Z",
     "deepClone": false,
