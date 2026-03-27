@@ -2245,41 +2245,6 @@
     "sha256": "16xrvih3v17qyi88lizhjs2lqcvnbpnxfrhzg9bm16la3n65y3h8",
     "url": "https://github.com/TaylanTatli/dms-plugins"
   },
-  "hebcalDate": {
-    "date": "2026-03-24T11:29:15+01:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-eVnyMfXl99z9bULr/7R7pPPe5VDJWeigQis7MMPWcQ0=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "hatt-io",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [
-        "hebcal"
-      ],
-      "description": "Display the current Hebrew date and parsha using hebcal",
-      "distro": [
-        "any"
-      ],
-      "id": "hebcalDate",
-      "name": "Hebrew Calendar",
-      "repo": "https://github.com/hatt-io/dms-hebcal-date",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/2pm95s9i21y2j9krj9xskm14yrxn5ijh-dms-hebcal-date",
-    "rev": "dbd56cd0cf7fe97cd23937324aa45e6fe1f3e241",
-    "rootDir": "",
-    "sha256": "03bisv1k0frb8ahfhnf9a3jxxwx4gfsgzss2dpyxrxz5ylqz4nbr",
-    "url": "https://github.com/hatt-io/dms-hebcal-date"
-  },
   "homeAssistantMonitor": {
     "date": "2026-03-25T18:58:34+08:00",
     "deepClone": false,
