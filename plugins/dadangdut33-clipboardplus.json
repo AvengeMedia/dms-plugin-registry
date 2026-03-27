@@ -1,0 +1,14 @@
+{
+    "id": "clipboardPlus",
+    "name": "ClipBoard+",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/Dadangdut33/dms-plugins",
+    "path": "ClipboardPlus",
+    "author": "Dadangdut33",
+    "description": "Advanced clipboard manager with integrated notes, todo, and pinned items.",
+    "dependencies": ["cliphist", "wl-clipboard"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/ClipboardPlus/preview/preview-blur.png"
+}
