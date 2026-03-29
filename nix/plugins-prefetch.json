@@ -153,12 +153,12 @@
     "url": "https://github.com/lucyfire/dms-plugins"
   },
   "amdGpuMonitor": {
-    "date": "2026-01-17T17:47:33+01:00",
+    "date": "2026-03-28T16:56:32+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-R35ocFja1RusOZEC7tSOt3w/k8BWuQ8nKm1uVwS2LjM=",
+    "hash": "sha256-sfI/Uoq8nwl/2klAkbwBvSOw1WcJHQ2H7t8j4gXrG2Y=",
     "leaveDotGit": false,
     "meta": {
       "author": "navidagz",
@@ -182,10 +182,10 @@
       "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/jk1lja3242mn5dnn49djkwlb8pg18kg6-dms-amd-gpu-monitor",
-    "rev": "7369f0d6c8c243d7d8dc3792e51d2bd537352339",
+    "path": "/nix/store/mrg8qb1cc2q57k8cpcgz50lqkd3jm5qi-dms-amd-gpu-monitor",
+    "rev": "97ae44b639e7c45946b4aa47fc4cd71329cc300d",
     "rootDir": "",
-    "sha256": "0crfnq25fvkd58khzfanq29kyz5pivafw0li76n1pmfsb1q6hzj7",
+    "sha256": "0rhvxc2y48yzxs3hs789czav08xx06y92h29v9zhk7xwi993zwmi",
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor"
   },
   "animeCalendar": {
@@ -3911,12 +3911,12 @@
     "url": "https://github.com/cwelsys/dms-volume-mixer"
   },
   "voxtype": {
-    "date": "2026-03-26T11:51:24-03:00",
+    "date": "2026-03-28T17:05:46-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ajDIxZydnneuh9hdT3g/zEvtAMGUKtCiW0TiYok6gYw=",
+    "hash": "sha256-CjPMs3MCXS0qpvJU7Obfi/kTCv0udVUfvH0comz2oHs=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -3939,12 +3939,12 @@
       "repo": "https://github.com/psyreactor/dms-voxtype",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-voxtype/raw/main/screenshot.png",
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
-    "path": "/nix/store/sdwdnyq498rw80zc8blqbj65vlcgs7xs-dms-voxtype",
-    "rev": "150d16959efe0872bc2809ac09efb093a683dad4",
+    "path": "/nix/store/bn85fd6hm2xszyfji60pjcc9c4fngbhi-dms-voxtype",
+    "rev": "85576ed6577ef166af7d64f007e7d7ddcac99dc7",
     "rootDir": "",
-    "sha256": "13417a4n5qj4bfid0allq40fsjyc7xw4ypfqhyp7g7lxkk2whc3a",
+    "sha256": "0yx0yrna473xphgmax9fzl517ycbvzkfqm7jlqm2sp82ffrwqcqa",
     "url": "https://github.com/psyreactor/dms-voxtype"
   },
   "vscodeLauncher": {
