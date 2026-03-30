@@ -2144,6 +2144,35 @@ Search and browse GIFs powered by Klipy
 
 
 
+#### [GitHub Notifier](https://github.com/psyreactor/dms-githubNotifier)
+
+Shows open PRs authored by you and issues assigned to you from GitHub in the DankBar.
+
+<strong>requires DMS version</strong>: <em>>0.0.28</em>
+
+- id: githubNotifier
+- name: GitHub Notifier
+- author: psyreactor
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: github-cli, font-awesome
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/psyreactor/dms-githubNotifier/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [GitLab Notifier](https://github.com/psyreactor/dms-gitlabNotifier)
 
 Shows in the DankBar the status of a GitLab scope (issues, MRs and incidents assigned to you)
