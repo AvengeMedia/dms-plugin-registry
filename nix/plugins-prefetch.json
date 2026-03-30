@@ -2204,12 +2204,12 @@
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "gitlabNotifier": {
-    "date": "2026-01-29T12:50:44-03:00",
+    "date": "2026-03-29T00:45:18-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-6ClWqDHvATT7uPXPrO43fDz00uVMeU2vRUIZ13MAuvo=",
+    "hash": "sha256-Cun1u47MuXTueQllbmztit9bcMpMeitCtmSi0ZX4Gr0=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -2233,12 +2233,12 @@
       "repo": "https://github.com/psyreactor/dms-gitlabNotifier",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-gitlabNotifier/raw/main/screenshot.png",
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
-    "path": "/nix/store/2klnpa9gqhzcl19axi51qb8rsznpz0cm-dms-gitlabNotifier",
-    "rev": "7513278de7361c436caa2b8ad1346b2c5991771f",
+    "path": "/nix/store/ssaap5pcxaq9gsvd6jpixr84hqcmzna6-dms-gitlabNotifier",
+    "rev": "810b3ee5523d6e072985e97cdba33e85f73b4564",
     "rootDir": "",
-    "sha256": "1yms01rxf6a28nplsyacwp9g8g3w6zparkzmp3xk80gg66l5cag8",
+    "sha256": "1g8sz2ax38k4nr12nyjcr9q5ppwaxmn6wr89g7p79ffcisxzbs8a",
     "url": "https://github.com/psyreactor/dms-gitlabNotifier"
   },
   "gitmojiLauncher": {
