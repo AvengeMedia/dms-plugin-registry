@@ -2203,6 +2203,44 @@
     "sha256": "11ray67pvx1n1s7wlbg2adaxdc0l8lkmknh0pxv5495ypw0kvjcw",
     "url": "https://github.com/boutabong/dms-plugins"
   },
+  "githubNotifier": {
+    "date": "2026-03-29T00:44:40-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-SKyQtpq4qh/cHVfBvOFAAEqJYqPG6Rq8grDLKcpqVqw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "psyreactor",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "github-cli",
+        "font-awesome"
+      ],
+      "description": "Shows open PRs authored by you and issues assigned to you from GitHub in the DankBar.",
+      "distro": [
+        "any"
+      ],
+      "id": "githubNotifier",
+      "name": "GitHub Notifier",
+      "repo": "https://github.com/psyreactor/dms-githubNotifier",
+      "requires_dms": ">0.0.28",
+      "screenshot": "https://github.com/psyreactor/dms-githubNotifier/raw/main/screenshot.png",
+      "version": "0.1.1"
+    },
+    "path": "/nix/store/7s37p591gpki16m5rwc8xkzj9ifqrk4n-dms-githubNotifier",
+    "rev": "ed142b506c9be95dff18c8e29ab8465a450127a9",
+    "rootDir": "",
+    "sha256": "1b2ndb52kjxhhay1msf6ldi8jjh083hvrhap3pf1zamqkav91b28",
+    "url": "https://github.com/psyreactor/dms-githubNotifier"
+  },
   "gitlabNotifier": {
     "date": "2026-03-29T00:45:18-03:00",
     "deepClone": false,
