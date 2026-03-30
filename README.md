@@ -34,7 +34,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
 
 ---
 
@@ -722,6 +722,43 @@ Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png)
+
+</details>
+
+
+
+
+
+---
+
+
+
+### Social
+
+
+
+#### [Discord Voice Widget](https://github.com/PandorasFox/dms-discord-widget)
+
+Discord voice call overlay — shows participants as circular avatars with speaking/mute/deafen indicators. Supports mute/deafen keybinds and push-to-talk.
+
+
+
+- id: discordVoice
+- name: Discord Voice Widget
+- author: PandorasFox
+- compositors: niri, hyprland, sway
+- capabilities: dankbar-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/PandorasFox/dms-discord-widget/master/screenshot.png)
 
 </details>
 
