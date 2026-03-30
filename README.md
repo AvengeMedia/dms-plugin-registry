@@ -3710,6 +3710,17 @@ Kanagawa theme using Lotus for light mode and Wave for dark mode.
 
 
 
+### Milk outside a bag of milk
+
+A red & purple color scheme based on the game 'Milk outside a bag of milk'.
+
+- **Author:** esc
+- **ID:** `milkTheme` **Version:** `1.0.0`
+
+![Milk outside a bag of milk](themes/milk-outside-a-bag-of-milk/preview.svg)
+
+
+
 ### Modus
 
 Accessible themes conforming to the highest color-contrast standard (WCAG AAA)
