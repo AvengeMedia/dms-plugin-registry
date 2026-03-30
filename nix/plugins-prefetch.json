@@ -1568,6 +1568,44 @@
     "sha256": "0fn1kw24wd1h88fw32wpzv2q98hyyh7yblhaxqqkpqzhzx0kd4ah",
     "url": "https://github.com/xxyangyoulin/dms-plugin-developer-utilities"
   },
+  "discordVoice": {
+    "date": "2026-03-30T09:31:25-07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-crVYAhTM+x0uAZ1yimBWvIr87UlTODt4QbZG6tGY+b4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "PandorasFox",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "social",
+      "compositors": [
+        "niri",
+        "hyprland",
+        "sway"
+      ],
+      "dependencies": [
+        "python3"
+      ],
+      "description": "Discord voice call overlay \u2014 shows participants as circular avatars with speaking/mute/deafen indicators. Supports mute/deafen keybinds and push-to-talk.",
+      "distro": [
+        "any"
+      ],
+      "id": "discordVoice",
+      "name": "Discord Voice Widget",
+      "repo": "https://github.com/PandorasFox/dms-discord-widget",
+      "screenshot": "https://raw.githubusercontent.com/PandorasFox/dms-discord-widget/master/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/vqcaajp1c2746af61gng3426laqf287m-dms-discord-widget",
+    "rev": "e06d487d7cc5df878aa8a6a424edfb6fe9efd86d",
+    "rootDir": "",
+    "sha256": "1gprk38ylimn85w3nf2k97nzr2mwarh8lwlx04p1vyyc2h15idbj",
+    "url": "https://github.com/PandorasFox/dms-discord-widget"
+  },
   "displayManager": {
     "date": "2025-12-26T15:54:35-03:00",
     "deepClone": false,
