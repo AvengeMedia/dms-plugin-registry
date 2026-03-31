@@ -6,7 +6,7 @@
     "repo": "https://github.com/Mithgroth/dms-process-list",
     "author": "mith",
     "description": "Desktop overlay widget for live process monitoring with grouping, sorting, and scope filters",
-    "dependencies": ["ps", "getconf"],
+    "dependencies": ["dgop"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/Mithgroth/dms-process-list/main/screenshot.png",
