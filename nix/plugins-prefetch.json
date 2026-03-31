@@ -587,12 +587,12 @@
     "url": "https://github.com/ernestowgg/cava-visualizer"
   },
   "chineseCalendar": {
-    "date": "2026-02-27T00:02:03+08:00",
+    "date": "2026-03-31T13:35:13+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-VYqwIPzHn2sbAm/a35DS0pmbJlNu213+4prI00Ij4/4=",
+    "hash": "sha256-5LnLUn1uttyXtCPdH6i+V7TTc9Ji9/UGZkrcbR8sOQs=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -619,10 +619,10 @@
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-ccal/master/assets/screenshot.png",
       "version": "1.2.1"
     },
-    "path": "/nix/store/zfb65dsxvmsy4swvwxgppnmr2rrv59zk-dms-plugin-ccal",
-    "rev": "4477daceab3c6360716a7fe223a6666f794905bc",
+    "path": "/nix/store/x1z7hl3838kbil4aldj8jb8fa67d1jhc-dms-plugin-ccal",
+    "rev": "123e4e2a8658cc61a36284a7add94f701e60a3fb",
     "rootDir": "",
-    "sha256": "1zp34d1d7j4swbz5vnvfack9p6fjsa8dznkg08dnp7y7zhhb12jm",
+    "sha256": "02rr5hgnvp2acq3gbxv2s9rx7d2ppsl1zp93njbxrdkfgm9cpfg4",
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
   "claudeCodeUsage": {
@@ -951,12 +951,12 @@
     "url": "https://github.com/pacman99/DankBitwarden"
   },
   "dankCleaner": {
-    "date": "2026-03-16T02:50:21+07:00",
+    "date": "2026-03-31T18:08:49+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-i/sI8hdctJObkQfZoT+PIwfUONA7NebAM5cvbuvT1hY=",
+    "hash": "sha256-kbj7/tI7I773BYxA0X9u3Lkwc2JvKiJ7d4cofu+v00M=",
     "leaveDotGit": false,
     "meta": {
       "author": "NordicsSys",
@@ -985,12 +985,12 @@
       "name": "Dank Cleaner",
       "repo": "https://github.com/NordicsSys/dankCleaner",
       "screenshot": "https://raw.githubusercontent.com/NordicsSys/dankCleaner/main/Cleanup.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/7sy8d14nsmhsicimk2q78vn9vr16gfhq-dankCleaner",
-    "rev": "4eae6e8bfb55a3bcd99d7dc5b897d737131ec775",
+    "path": "/nix/store/s865h7cx8yha8hrf6c40hdsnnaj4s6vi-dankCleaner",
+    "rev": "9c4fc0352b3dd8d7dec1866fd10348b9bc256233",
     "rootDir": "",
-    "sha256": "05nnsgmnwbwp6g0fcd9vs0wd81r3iwzs3n87j6dr7d2w2zr0iywb",
+    "sha256": "0hykmzppwa47fxxj4akgc9rk1ffwdrzx2h4c0pvvw8rvsbzgpf4i",
     "url": "https://github.com/NordicsSys/dankCleaner"
   },
   "dankClight": {
@@ -1493,6 +1493,43 @@
     "rootDir": "",
     "sha256": "03hpn4drwvfkqyqx046awcch19aw7jgr2c5i5kfvgajffdk08xrp",
     "url": "https://github.com/NordicsSys/DankSystemDoctor"
+  },
+  "ddcBrightness": {
+    "date": "2026-03-28T00:07:52+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-0UsceNrMt1LIKeP8MA3vTv8M13FAEcr9cewvUI8O0CI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "youngshine",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [
+        "brightnessctl",
+        "ddcutil"
+      ],
+      "description": "Control internal and external monitor brightness via brightnessctl and ddcutil",
+      "distro": [
+        "any"
+      ],
+      "id": "ddcBrightness",
+      "name": "DDC Brightness",
+      "repo": "https://github.com/smithyyang/dms-brightness-plugin",
+      "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-brightness-plugin/main/screenshot_2026-03-27_23-52-26.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/yxyahqsa2yki0sl1dlrgnijpqk1d9vln-dms-brightness-plugin",
+    "rev": "b87a3415f2b331d7dd24296f90177a28d5954d33",
+    "rootDir": "",
+    "sha256": "08nh1s7m0bzcf7ywl4a0f7bhrzsfxw6k1z7357455dycv9w1qjyi",
+    "url": "https://github.com/smithyyang/dms-brightness-plugin"
   },
   "desktopCommand": {
     "date": "2026-01-06T22:34:35+01:00",
@@ -2685,12 +2722,12 @@
     "url": "https://github.com/szabolcsf/dms-nameday"
   },
   "markets": {
-    "date": "2026-02-17T17:39:53+01:00",
+    "date": "2026-03-31T13:18:19+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-t466dbCpESl7YaNJaNkKSKxrHWqFmqQCmoOgxylQlDU=",
+    "hash": "sha256-HLunw6I7YkBe2v6Cy/Wr0LE0OiKWrgwvmi/H6ojPJr0=",
     "leaveDotGit": false,
     "meta": {
       "author": "TMS-Namespace",
@@ -2712,12 +2749,12 @@
       "name": "Markets",
       "repo": "https://github.com/TMS-Namespace/DMS-Markets-Plugin",
       "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/p4cc9yz9p3qf14x8mbnlxw1l1csv1a9r-DMS-Markets-Plugin",
-    "rev": "4babf553841bf92d268e989c2e8662bbc9d1ee8c",
+    "path": "/nix/store/0zhmnxvyh3abpr28rdw1b1gaxw062ri6-DMS-Markets-Plugin",
+    "rev": "d0a399ac5e3cb25f6d61d8dc1d4fb7e761bb771f",
     "rootDir": "",
-    "sha256": "0dcla0lwg843k81a96l5d8fnpb281bcnhjd3c5xjj4d9n1svm3mp",
+    "sha256": "1g96ry4fmirgk8phrbln48x39cfhmgswp0pyv9g40qivlb1sgfqw",
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlsPlus": {
@@ -3908,12 +3945,12 @@
     "url": "https://github.com/jslandau/dms-unified-taskbar"
   },
   "usbManager": {
-    "date": "2026-03-31T02:58:33+08:00",
+    "date": "2026-03-31T17:28:32+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Te8jtL+qaBMyGOyh1OSkcXIDYIWW6r14QfZAJ9IMd9Q=",
+    "hash": "sha256-mh9J3xl+DXDgLOWeNhB/phOoRowZuL+RTBI+mn+Dze8=",
     "leaveDotGit": false,
     "meta": {
       "author": "NordicsSys",
@@ -3944,12 +3981,12 @@
       "repo": "https://github.com/NordicsSys/dms-usb-manager",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/NordicsSys/dms-usb-manager/main/assets/screenshot.png",
-      "version": "1.1.1"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/pj89jbmri6ffxdjkpql8vg5zrhmk5vhx-dms-usb-manager",
-    "rev": "ec2f248cb17511f0c42811c5d97250464c737f11",
+    "path": "/nix/store/a9pzf2vva951k0ff0l70rvjnqwmi3xd0-dms-usb-manager",
+    "rev": "0a2e13ea9e6cc6061688e073d41df26eb66f0e45",
     "rootDir": "",
-    "sha256": "1m3p1k92fh7n85wbvslnhmh06wkilkjd98gc30r16s5apys27vsd",
+    "sha256": "1vydhdzrlghj9j8vzf0rii3ah4x6gw83d7p55kh703by37glj7ws",
     "url": "https://github.com/NordicsSys/dms-usb-manager"
   },
   "volumeMixer": {
@@ -4096,12 +4133,12 @@
     "url": "https://github.com/max72bra/DankPluginBingWallpaper"
   },
   "wallpaperCarousel": {
-    "date": "2026-03-17T17:10:49+01:00",
+    "date": "2026-03-31T05:47:23Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-cWZLS3bPukNLPzPf1GX1p3ppupO4rV1ZX2rWrGtWuks=",
+    "hash": "sha256-KI6h0qFbyck3i4fP3BTrnyrjNO3f2kycjRJeJ0ZpsPM=",
     "leaveDotGit": false,
     "meta": {
       "author": "yngwe",
@@ -4123,12 +4160,12 @@
       "repo": "https://github.com/motor-dev/wallpaperCarousel",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/motor-dev/wallpaperCarousel/refs/heads/main/screenshot.png",
-      "version": "0.7.5"
+      "version": "0.7.6"
     },
-    "path": "/nix/store/27hs0jr9ncyvx1vmmav9284w8cz4ifmy-wallpaperCarousel",
-    "rev": "847c84ca266fd827b09eafa710c0a28240b4e95f",
+    "path": "/nix/store/v3xy18n4j0pp1wqvfm445sv98b7avl7y-wallpaperCarousel",
+    "rev": "1029878e896e04d94fb5bb838046493de373b495",
     "rootDir": "",
-    "sha256": "0jxsarmsrmkabxcmvbdqjfx6jym7ymjx9prk7x5l7fngfr5lnrki",
+    "sha256": "1wxhd532fphjinf4rnnzxlsf6alzxcadrkw7icvwkjavl79a33i8",
     "url": "https://github.com/motor-dev/wallpaperCarousel"
   },
   "wallpaperDiscovery": {
