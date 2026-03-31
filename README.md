@@ -832,6 +832,35 @@ Control, configure, and monitor adguardvpn-cli directly from DankBar
 
 
 
+#### [DDC Brightness](https://github.com/smithyyang/dms-brightness-plugin)
+
+Control internal and external monitor brightness via brightnessctl and ddcutil
+
+
+
+- id: ddcBrightness
+- name: DDC Brightness
+- author: youngshine
+- compositors: hyprland
+- capabilities: dankbar-widget
+- dependencies: brightnessctl, ddcutil
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/smithyyang/dms-brightness-plugin/main/screenshot_2026-03-27_23-52-26.png)
+
+</details>
+
+
+
+
+
 #### [Dank System Doctor](https://github.com/NordicsSys/DankSystemDoctor)
 
 AI-powered system health monitor. Tracks CPU, RAM, disk, GPU & temp; detects pending updates (apt/dnf/pacman/brew); one-click maintenance and snapshot guardrails; Ollama diagnostics with triage playbooks.
