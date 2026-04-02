@@ -153,12 +153,12 @@
     "url": "https://github.com/lucyfire/dms-plugins"
   },
   "amdGpuMonitor": {
-    "date": "2026-03-28T16:56:32+01:00",
+    "date": "2026-04-01T20:11:12+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-sfI/Uoq8nwl/2klAkbwBvSOw1WcJHQ2H7t8j4gXrG2Y=",
+    "hash": "sha256-1pj0fR+im5PmeEnb3KElN8sEExeK25Sw61CPF2yZEmg=",
     "leaveDotGit": false,
     "meta": {
       "author": "navidagz",
@@ -180,12 +180,12 @@
       "name": "AMD GPU Monitor",
       "repo": "https://github.com/navidagz/dms-amd-gpu-monitor",
       "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "2.0.0"
     },
-    "path": "/nix/store/mrg8qb1cc2q57k8cpcgz50lqkd3jm5qi-dms-amd-gpu-monitor",
-    "rev": "97ae44b639e7c45946b4aa47fc4cd71329cc300d",
+    "path": "/nix/store/3b88h7syv3m0q7ay5clfsz44zi29ql2y-dms-amd-gpu-monitor",
+    "rev": "e829038f44431749c0aad35f6401cf8b2996d2f7",
     "rootDir": "",
-    "sha256": "0rhvxc2y48yzxs3hs789czav08xx06y92h29v9zhk7xwi993zwmi",
+    "sha256": "0s0jk5n1g3shxfq99nwa2w9h9jrp4nhxrns9g3k976x23xyz966n",
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor"
   },
   "animeCalendar": {
@@ -2722,12 +2722,12 @@
     "url": "https://github.com/szabolcsf/dms-nameday"
   },
   "markets": {
-    "date": "2026-03-31T13:18:19+02:00",
+    "date": "2026-04-01T10:20:08+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-HLunw6I7YkBe2v6Cy/Wr0LE0OiKWrgwvmi/H6ojPJr0=",
+    "hash": "sha256-ltC4Fe3ZG0rSeuEcVl96oaChQqSicNZcvLO9E4cMxzo=",
     "leaveDotGit": false,
     "meta": {
       "author": "TMS-Namespace",
@@ -2751,10 +2751,10 @@
       "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png",
       "version": "1.0.1"
     },
-    "path": "/nix/store/0zhmnxvyh3abpr28rdw1b1gaxw062ri6-DMS-Markets-Plugin",
-    "rev": "d0a399ac5e3cb25f6d61d8dc1d4fb7e761bb771f",
+    "path": "/nix/store/xbvmbb1nhw2yfclrs547n7dxfk6dn6w7-DMS-Markets-Plugin",
+    "rev": "be6eb3d0452e1703c34831f1efbf65613df008cf",
     "rootDir": "",
-    "sha256": "1g96ry4fmirgk8phrbln48x39cfhmgswp0pyv9g40qivlb1sgfqw",
+    "sha256": "0fn71j3i7gdkpifdcw52li1a3851g9gmc771gb94l6yrxlavil4n",
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlsPlus": {
