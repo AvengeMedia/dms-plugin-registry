@@ -2471,12 +2471,12 @@
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hueManager": {
-    "date": "2026-01-28T12:20:33-07:00",
+    "date": "2026-04-02T10:59:21-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-s/KgTULlBn/GBod4kvFsrvhoQgJoqv44j8hu5nwDxyM=",
+    "hash": "sha256-pksj+FC/t3QARz0ebdUa5U4N5yzy41LHnzuzmc4arMM=",
     "leaveDotGit": false,
     "meta": {
       "author": "derethil",
@@ -2500,12 +2500,12 @@
       "name": "Hue Manager",
       "repo": "https://github.com/derethil/dms-hue-manager",
       "screenshot": "https://raw.githubusercontent.com/derethil/dms-hue-manager/main/assets/screenshot.png",
-      "version": "0.4.0"
+      "version": "0.4.1"
     },
-    "path": "/nix/store/wca3rzdpbaw3fn7d6bi8px8ixrsl2yz0-dms-hue-manager",
-    "rev": "9901e6aa83099ad4aa91b9a8477fdf1703eee044",
+    "path": "/nix/store/izyz41v7i7i7yglcc0dvlg6k7nc522k9-dms-hue-manager",
+    "rev": "8fac83ba5c3958014b76efebd370f0fc4dd84caa",
     "rootDir": "",
-    "sha256": "08y70dyfcvn8iwwgxak80916iy5fdkqr4y470v37y1p5896s1wmk",
+    "sha256": "1hxc3b79kcrvkz3m5qzj5kkhskp53bans7ix8w079dxza3w26jx6",
     "url": "https://github.com/derethil/dms-hue-manager"
   },
   "hyprlandSubmap": {
