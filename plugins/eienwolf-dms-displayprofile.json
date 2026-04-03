@@ -8,5 +8,6 @@
     "description": "Switch between saved Hyprland display profiles from a keyboard-driven modal.",
     "dependencies": [],
     "compositors": ["hyprland"],
-    "distro": ["any"]
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/EienWolf/dms-displayprofile/refs/heads/master/screenshot.png"
 }
