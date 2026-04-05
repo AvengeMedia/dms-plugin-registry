@@ -1,0 +1,32 @@
+{
+    "id": "dmsScreenshot",
+    "name": "DMS Screenshot",
+    "description": "Control DMS screenshot actions from the Widget & Control Center",
+    "category": "utilities",
+    "version": "1.0.0",
+    "author": "JDKamalakar",
+    "icon": "screenshot_region",
+    "type": "widget",
+    "component": "./ScreenshotWidget.qml",
+    "settings": "./Settings.qml",
+    "capabilities": [
+        "dankbar-widget",
+        "control-center"
+    ],
+    "repo": "https://github.com/JDKamalakar/DMS-Screenshot",
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "dependencies": [
+        "dms"
+    ],
+    "screenshot": "https://github.com/JDKamalakar/DMS-Screenshot/blob/main/assets/Dank-Bar_Widget.png?raw=true",
+    "permissions": [
+        "process",
+        "settings_read",
+        "settings_write"
+    ]
+}
