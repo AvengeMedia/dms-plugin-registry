@@ -3008,7 +3008,7 @@ Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: ni
 - id: screenRecorder
 - name: Screen Recorder
 - author: arqueon
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: gpu-screen-recorder
 - distro: any
