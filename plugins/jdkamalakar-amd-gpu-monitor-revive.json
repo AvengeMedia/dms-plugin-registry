@@ -5,6 +5,7 @@
     "category": "monitoring",
     "version": "1.2.0",
     "author": "JDKamalakar.",
+    "icon": "dashboard",
     "type": "widget",
     "component": "./AmdGpuMonitorWidget.qml",
     "settings": "./AmdGpuMonitorSettings.qml",
@@ -19,11 +20,10 @@
     "distro": [
         "any"
     ],
-    "icon": "dashboard",
-    "requires": [
+    "dependencies": [
         "amdgpu_top"
     ],
-    "screenshot": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive/blob/main/assets/DMS_Extended.png?raw=true",
+    "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive/refs/heads/main/assets/DMS_Extended.png",
     "permissions": [
         "settings_read",
         "settings_write",
