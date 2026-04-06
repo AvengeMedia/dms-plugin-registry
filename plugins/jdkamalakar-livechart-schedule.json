@@ -1,0 +1,33 @@
+{
+    "id": "liveChartSchedule",
+    "name": "LiveChart Schedule",
+    "description": "Displays LiveChart anime schedule data pulled from a local browser session.",
+    "category": "utilities",
+    "version": "1.0.0",
+    "author": "JDKamalakar",
+    "icon": "view_timeline",
+    "type": "widget",
+    "component": "./LiveChartWidget.qml",
+    "settings": "./LiveChartSettings.qml",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "repo": "https://github.com/JDKamalakar/DMS-LiveChart.me",
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "dependencies": [
+        "dms",
+        "python3",
+        "browser_cookie3"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-LiveChart.me/refs/heads/main/assets/POP-Up_UI.png",
+    "permissions": [
+        "settings_read",
+        "settings_write",
+        "process"
+    ]
+}
