@@ -3003,14 +3003,14 @@ A simple multi model ai client to use with your dank shell. Use it ollama, gemin
 
 Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)
 
-<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
 
 - id: screenRecorder
 - name: Screen Recorder
 - author: arqueon
-- compositors: any
-- capabilities: dankbar-widget, control-center
-- dependencies: gpu-screen-recorder, xdg-desktop-portal-gnome
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: gpu-screen-recorder
 - distro: any
 
 
