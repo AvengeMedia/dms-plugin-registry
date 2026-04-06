@@ -371,6 +371,35 @@ Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
 
 
 
+#### [AMD GPU Monitor Revive](https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive)
+
+Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage with updated UI.
+
+
+
+- id: amdGpuMonitorRevive
+- name: AMD GPU Monitor Revive
+- author: JDKamalakar.
+- compositors: any
+- capabilities: dankbar-widget, monitoring
+- dependencies: amdgpu_top
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive/refs/heads/main/assets/DMS_Extended.png)
+
+</details>
+
+
+
+
+
 #### [Air Quality](https://github.com/szabolcsf/dms-air-quality)
 
 Display the current Air Quality Index (AQI) on the bar with detailed pollutant breakdown. Supports US and European AQI scales with auto-location.
@@ -1469,6 +1498,35 @@ Flexible Custom Widget for Showing Running Apps on Dank Bar
 
 
 
+#### [DMS Screenshot](https://github.com/JDKamalakar/DMS-Screenshot)
+
+Control DMS screenshot actions from the Widget & Control Center
+
+
+
+- id: dmsScreenshot
+- name: DMS Screenshot
+- author: JDKamalakar
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: dms
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-Screenshot/refs/heads/main/assets/Dank-Bar_Widget.png)
+
+</details>
+
+
+
+
+
 #### [DMS Sessionizer](https://github.com/leonardofranco01/dms-sessionizer)
 
 Create tmux sessions for your projects
@@ -2479,6 +2537,35 @@ Kubernetes plugin for DankBar
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/psyreactor/dms-kubernetes/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [LiveChart Schedule](https://github.com/JDKamalakar/DMS-LiveChart.me)
+
+Displays LiveChart anime schedule data pulled from a local browser session.
+
+
+
+- id: liveChartSchedule
+- name: LiveChart Schedule
+- author: JDKamalakar
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dms, python3, browser_cookie3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-LiveChart.me/refs/heads/main/assets/POP-Up_UI.png)
 
 </details>
 
