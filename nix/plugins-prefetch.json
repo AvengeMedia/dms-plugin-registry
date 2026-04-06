@@ -3399,6 +3399,40 @@
     "sha256": "02viq521q2mxbx168172qxc8maix01v9iv1hhlddpsm5vxiacbz4",
     "url": "https://github.com/szabolcsf/dms-qcal-calendar"
   },
+  "quranWidget": {
+    "date": "2026-04-06T02:24:55+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-2EFC5V6rCH5Ws4lXtpTsKb7LDnr3rkBecGQ9lmurt6w=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "MezoAhmedII",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Shows a random Quranic Ayah / verse on the desktop",
+      "distro": [
+        "any"
+      ],
+      "id": "quranWidget",
+      "name": "Quran Widget",
+      "repo": "https://codeberg.org/MezoAhmedII/quranWidget",
+      "screenshot": "https://codeberg.org/MezoAhmedII/quranWidget/raw/branch/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/cwvcf4p41j9q7w8axjwxn0j39gcs59mm-quranWidget",
+    "rev": "e3bf70bff3095855ca67f3635d10ff585c06468a",
+    "rootDir": "",
+    "sha256": "1b5pmdmrcgb4f1g41bppg87cpgi9xjabcmw9ndb7w25bbvjl4hfq",
+    "url": "https://codeberg.org/MezoAhmedII/quranWidget"
+  },
   "sathiAi": {
     "date": "2026-02-18T21:29:24-05:00",
     "deepClone": false,
@@ -3449,8 +3483,7 @@
       ],
       "category": "utilities",
       "compositors": [
-        "niri",
-        "hyprland"
+        "any"
       ],
       "dependencies": [
         "gpu-screen-recorder"
