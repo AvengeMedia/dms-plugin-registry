@@ -3259,12 +3259,12 @@
     "url": "https://github.com/Nazahim/PowerOptions"
   },
   "powerUsagePlugin": {
-    "date": "2025-12-24T16:18:27+08:00",
+    "date": "2026-04-06T15:02:21+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9lMWVCiAW+0fAZD4dXGhE+6f8d1/4DHejfUumfoHY2s=",
+    "hash": "sha256-8jUptgfuMHlvMPTntLq3ibLzzL6EOc2O47Yww4Rp3w4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Daniel-42-z",
@@ -3284,12 +3284,12 @@
       "name": "Power Usage Monitor",
       "repo": "https://github.com/Daniel-42-z/dms-power-usage",
       "screenshot": "https://github.com/Daniel-42-z/dms-power-usage/raw/main/screenshot.png",
-      "version": "0.0.1"
+      "version": "0.0.2"
     },
-    "path": "/nix/store/30hc41c136ci2zf6n04ax57bizm3iynl-dms-power-usage",
-    "rev": "04b7da69b98be23d6f6bbc0430461680b43809e0",
+    "path": "/nix/store/clp5pf1cnf8k0zf8i357bapq3dipzfrx-dms-power-usage",
+    "rev": "cac8befec7f9b4e73bfde9f7552d10cb7c5b1828",
     "rootDir": "",
-    "sha256": "0sv30zx9jbpmipg33q3zvpqrzvhkl5qpby4h04gysnw051a1clzn",
+    "sha256": "03nzd62c6c5nwf7csfc4pv6g7cl9nyxb9rzl61ppjc7f0yv2jdgj",
     "url": "https://github.com/Daniel-42-z/dms-power-usage"
   },
   "prayerTimes": {
@@ -3445,16 +3445,15 @@
     "meta": {
       "author": "arqueon",
       "capabilities": [
-        "dankbar-widget",
-        "control-center"
+        "dankbar-widget"
       ],
       "category": "utilities",
       "compositors": [
-        "any"
+        "niri",
+        "hyprland"
       ],
       "dependencies": [
-        "gpu-screen-recorder",
-        "xdg-desktop-portal-gnome"
+        "gpu-screen-recorder"
       ],
       "description": "Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)",
       "distro": [
@@ -3463,7 +3462,6 @@
       "id": "screenRecorder",
       "name": "Screen Recorder",
       "repo": "https://github.com/arqueon/dms-screen-recorder",
-      "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png",
       "version": "1.0.0"
     },
@@ -4095,12 +4093,12 @@
     "url": "https://github.com/sr-tream/dms-vscode-launcher"
   },
   "wallpaperBing": {
-    "date": "2026-02-25T16:32:36+01:00",
+    "date": "2026-04-06T10:31:15+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-fGUu+ezWhMHPVhTZdyaKeOlrBf79dwQfCs6K5tEc/Bg=",
+    "hash": "sha256-Bch1AxjKW5vxknQpfjcOb0w51jaKTsVacXaK61gZbBY=",
     "leaveDotGit": false,
     "meta": {
       "author": "maxb",
@@ -4124,12 +4122,12 @@
       "name": "Wallpaper of the Day",
       "repo": "https://github.com/max72bra/DankPluginBingWallpaper",
       "screenshot": "https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaper/refs/heads/main/screenshot.png",
-      "version": "1.4.1"
+      "version": "1.4.2"
     },
-    "path": "/nix/store/nvd75fjyj7chlnifnii3zi5bp9qlzww9-DankPluginBingWallpaper",
-    "rev": "4e9b2ee0d211f5c605a53b2d37a99838a153039d",
+    "path": "/nix/store/pgrsnkyamvl9i8xdp8ryy5px9mvl25jf-DankPluginBingWallpaper",
+    "rev": "734e976b55e6d3393e2a09b08ad7fa2f218bdfb7",
     "rootDir": "",
-    "sha256": "067w3k8yd2nf18gh8xzxzq2npsbqi8k7gn8lav7w316nxkwjwrbw",
+    "sha256": "05kc35cfp2knf5dcakla6vb3jk3g1qvpwabljbqrnnya301pbj05",
     "url": "https://github.com/max72bra/DankPluginBingWallpaper"
   },
   "wallpaperCarousel": {
