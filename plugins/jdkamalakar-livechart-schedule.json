@@ -5,6 +5,7 @@
     "category": "utilities",
     "version": "1.0.0",
     "author": "JDKamalakar",
+    "icon": "view_timeline",
     "type": "widget",
     "component": "./LiveChartWidget.qml",
     "settings": "./LiveChartSettings.qml",
@@ -18,12 +19,12 @@
     "distro": [
         "any"
     ],
-    "icon": "view_timeline",
     "dependencies": [
         "dms",
-        "python3"
+        "python3",
+        "browser_cookie3"
     ],
-    "screenshot": "https://github.com/JDKamalakar/DMS-LiveChart.me/blob/main/assets/POP-Up_UI.png?raw=true",
+    "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-LiveChart.me/refs/heads/main/assets/POP-Up_UI.png",
     "permissions": [
         "settings_read",
         "settings_write",
