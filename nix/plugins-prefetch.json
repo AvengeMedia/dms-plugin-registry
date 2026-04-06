@@ -188,6 +188,52 @@
     "sha256": "0s0jk5n1g3shxfq99nwa2w9h9jrp4nhxrns9g3k976x23xyz966n",
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor"
   },
+  "amdGpuMonitorRevive": {
+    "date": "2026-04-06T23:34:00+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-rCuu6BEUzfTd5LalSZi0qrP/MSBXs75GUCO28WB6SzA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "JDKamalakar.",
+      "capabilities": [
+        "dankbar-widget",
+        "monitoring"
+      ],
+      "category": "monitoring",
+      "component": "./AmdGpuMonitorWidget.qml",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "amdgpu_top"
+      ],
+      "description": "Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage with updated UI.",
+      "distro": [
+        "any"
+      ],
+      "icon": "dashboard",
+      "id": "amdGpuMonitorRevive",
+      "name": "AMD GPU Monitor Revive",
+      "permissions": [
+        "settings_read",
+        "settings_write",
+        "process"
+      ],
+      "repo": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive",
+      "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive/refs/heads/main/assets/DMS_Extended.png",
+      "settings": "./AmdGpuMonitorSettings.qml",
+      "type": "widget",
+      "version": "1.2.0"
+    },
+    "path": "/nix/store/4xl6b8b42r68jgysik2i12ds3ddg59ws-DMS-AMD_GPU_Monitor_Revive",
+    "rev": "17043ef158ade4f360279c09147e178542f3fdec",
+    "rootDir": "",
+    "sha256": "0c2bg9hg3di3a13bxcsp40qzzcxanjc4k9dnwkfz9k8l27lawaxc",
+    "url": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive"
+  },
   "animeCalendar": {
     "date": "2026-02-06T20:13:07+02:00",
     "deepClone": false,
@@ -1860,6 +1906,52 @@
     "sha256": "0minkkdcm4vw32vvl07g26cp23rgv3qdfd44fgjzs5ck64wkyig3",
     "url": "https://github.com/LouisKottmann/dms-pass"
   },
+  "dmsScreenshot": {
+    "date": "2026-04-06T23:29:34+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-0wJp6nuQNfE54O5tGomhb+YdDjhZX0ORB5SEUCp+hYA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "JDKamalakar",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "utilities",
+      "component": "./ScreenshotWidget.qml",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dms"
+      ],
+      "description": "Control DMS screenshot actions from the Widget & Control Center",
+      "distro": [
+        "any"
+      ],
+      "icon": "screenshot_region",
+      "id": "dmsScreenshot",
+      "name": "DMS Screenshot",
+      "permissions": [
+        "process",
+        "settings_read",
+        "settings_write"
+      ],
+      "repo": "https://github.com/JDKamalakar/DMS-Screenshot",
+      "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Screenshot/refs/heads/main/assets/Dank-Bar_Widget.png",
+      "settings": "./Settings.qml",
+      "type": "widget",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/q00rz2dh0bvvxdnrzn3a9xbjhpn1xxj4-DMS-Screenshot",
+    "rev": "102e3a8cc13af21d7c82be745a53f0ff1bbfd70b",
+    "rootDir": "",
+    "sha256": "1045gqm5114l0y8l6psr7071vrkgl64ilvgfw0wz2dchggm6j0nk",
+    "url": "https://github.com/JDKamalakar/DMS-Screenshot"
+  },
   "dmsSessionizer": {
     "date": "2026-02-02T10:25:28-03:00",
     "deepClone": false,
@@ -2650,6 +2742,53 @@
     "rootDir": "",
     "sha256": "1n76b2dg03q59xifb1ksm88sfvvhvcginkzr69n4psm4j66k7pnx",
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
+  },
+  "liveChartSchedule": {
+    "date": "2026-04-06T23:35:02+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-VZ1QFbsd8evOIRAhSzmiQj6q7j+ZUOz/11slpQmIbtI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "JDKamalakar",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "component": "./LiveChartWidget.qml",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dms",
+        "python3",
+        "browser_cookie3"
+      ],
+      "description": "Displays LiveChart anime schedule data pulled from a local browser session.",
+      "distro": [
+        "any"
+      ],
+      "icon": "view_timeline",
+      "id": "liveChartSchedule",
+      "name": "LiveChart Schedule",
+      "permissions": [
+        "settings_read",
+        "settings_write",
+        "process"
+      ],
+      "repo": "https://github.com/JDKamalakar/DMS-LiveChart.me",
+      "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-LiveChart.me/refs/heads/main/assets/POP-Up_UI.png",
+      "settings": "./LiveChartSettings.qml",
+      "type": "widget",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/k0vq593ijig253rh7khmw9qd6imd8qdl-DMS-LiveChart.me",
+    "rev": "4ad143e7093683be75c260a164765b9a7d62be46",
+    "rootDir": "",
+    "sha256": "1lkfi04sa9avszzyql4r7zpalgj2l8wln88h477fpw8xpcam17am",
+    "url": "https://github.com/JDKamalakar/DMS-LiveChart.me"
   },
   "lyricsOnPanel": {
     "date": "2026-02-15T07:01:00-06:00",
