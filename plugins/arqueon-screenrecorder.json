@@ -1,14 +1,22 @@
 {
-  "id": "screenRecorder",
-  "name": "Screen Recorder",
-  "capabilities": ["dankbar-widget", "control-center"],
-  "category": "utilities",
-  "repo": "https://github.com/arqueon/dms-screen-recorder",
-  "author": "arqueon",
-  "description": "Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)",
-  "dependencies": ["gpu-screen-recorder", "xdg-desktop-portal-gnome"],
-  "compositors": ["any"],
-  "distro": ["any"],
-  "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png",
-  "requires_dms": ">=1.2.0"
+    "id": "screenRecorder",
+    "name": "Screen Recorder",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/arqueon/dms-screen-recorder",
+    "author": "arqueon",
+    "description": "Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)",
+    "dependencies": [
+        "gpu-screen-recorder"
+    ],
+    "compositors": [
+        "niri",
+        "hyprland"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png"
 }
