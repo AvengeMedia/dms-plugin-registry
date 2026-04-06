@@ -2936,6 +2936,35 @@ Monitor and control your Pulsar X3 gaming mouse
 
 
 
+#### [Quran Widget](https://codeberg.org/MezoAhmedII/quranWidget)
+
+Shows a random Quranic Ayah / verse on the desktop
+
+
+
+- id: quranWidget
+- name: Quran Widget
+- author: MezoAhmedII
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://codeberg.org/MezoAhmedII/quranWidget/raw/branch/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [SSH Connections](https://github.com/merdely/dms-plugins)
 
 SSH to configured servers from the Launcher
