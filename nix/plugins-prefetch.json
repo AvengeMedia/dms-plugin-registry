@@ -3971,6 +3971,43 @@
     "sha256": "0qh4pssfqc75br7wzxpj7wj9rnxn7y5w1wdyf6ws7wa80f6aayvi",
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
+  "tasks": {
+    "date": "2026-04-06T22:49:54+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-GrSZP0eYwUcYwr47v56Btw8OLfKkRXyyvQ7RQy4Oe2U=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Yasiru Dharmathilaka",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utility",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "python3",
+        "python-caldav"
+      ],
+      "description": "A simple plugin to manage CalDav To-Do events or tasks.",
+      "distro": [
+        "any"
+      ],
+      "id": "tasks",
+      "name": "Tasks",
+      "repo": "https://github.com/AyoItsYas/dms-tasks",
+      "screenshot": "https://raw.githubusercontent.com/AyoItsYas/dms-tasks/refs/heads/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/mkzxcsv65li7784vv4qsj3zyy4d791hs-dms-tasks",
+    "rev": "8a66868228db2062208239a8c43e7e06eb2370d1",
+    "rootDir": "",
+    "sha256": "0rbv1qp47l8fpnr7qid4y8nhw3xph6gbyfxyq8c4ghcq8wzrkd0s",
+    "url": "https://github.com/AyoItsYas/dms-tasks"
+  },
   "taskwarrior": {
     "date": "2026-03-14T19:13:51+01:00",
     "deepClone": false,
