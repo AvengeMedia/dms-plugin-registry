@@ -2515,6 +2515,35 @@ Run a command on a custom interval and display its output in the bar. Supports m
 
 
 
+#### [Keybinding Cheat Sheet](https://github.com/stvnwrgs/dms-keybindings-cheat-sheet)
+
+A desktop widget that parses your compositor's keybinding config and displays them as a live cheat sheet
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: keybindingCheatSheet
+- name: Keybinding Cheat Sheet
+- author: Steven Koehnke
+- compositors: hyprland, niri, sway, mangowc
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/stvnwrgs/dms-keybindings-cheat-sheet/master/example-small.png)
+
+</details>
+
+
+
+
+
 #### [Kubernetes](https://github.com/psyreactor/dms-kubernetes)
 
 Kubernetes plugin for DankBar
