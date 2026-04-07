@@ -34,7 +34,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Utility](#utility) | [Weather](#weather)
 
 ---
 
@@ -3742,6 +3742,43 @@ CalDAV calendar with events, notifications, and event management. Works with iCl
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/szabolcsf/dms-qcal-calendar/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+---
+
+
+
+### Utility
+
+
+
+#### [Tasks](https://github.com/AyoItsYas/dms-tasks)
+
+A simple plugin to manage CalDav To-Do events or tasks.
+
+
+
+- id: tasks
+- name: Tasks
+- author: Yasiru Dharmathilaka
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: python3, python-caldav
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AyoItsYas/dms-tasks/refs/heads/main/screenshot.png)
 
 </details>
 
