@@ -2829,12 +2829,12 @@
     "url": "https://github.com/JDKamalakar/DMS-LiveChart.me"
   },
   "lyricsOnPanel": {
-    "date": "2026-02-15T07:01:00-06:00",
+    "date": "2026-04-07T21:51:47-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-IRmbfNzVgHC2uEzVOdIvYqEhx1wouWTB0zKPppiNTms=",
+    "hash": "sha256-SZ7Zw29xFl0NZ2wHzDPgNu6YCSJjxHIED4p/AMKn6hY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Kangwei(Anicaa) Zhu",
@@ -2858,10 +2858,10 @@
       "screenshot": "https://github.com/KangweiZhu/lyrics-on-panel/raw/main/img/image-panel-onlythiswidget.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/lb4p06s246gzy3gbshmqhsavsvj3v1sy-lyrics-on-panel",
-    "rev": "9506069f1a3da96d0df1553e65791c70e19dd7ec",
+    "path": "/nix/store/cnbwb6lgpi8dnl6560nz2zysirvl4y69-lyrics-on-panel",
+    "rev": "c896a8dc0c17bfdccfb363f3b8daddcb1d5bc09a",
     "rootDir": "",
-    "sha256": "0ssfincad3rjsg0n9f98bk3j38b25z93kmacp2v7106mviy9n691",
+    "sha256": "05palz100zwa1w275i33484rivinw0rwq1vccw6ms5kidz1xk7j9",
     "url": "https://github.com/KangweiZhu/lyrics-on-panel"
   },
   "magyarNevnapok": {
@@ -4010,12 +4010,12 @@
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
   "tasks": {
-    "date": "2026-04-07T15:42:23+05:30",
+    "date": "2026-04-09T01:56:21+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2nzPQ3WTkvSwJt1NSi4ttaPbmB81eMmMgSe85FtZumM=",
+    "hash": "sha256-OPgiVnwKgO+BYst04e9PE9tCLA2GhQ7qglbk+15kbU4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Yasiru Dharmathilaka",
@@ -4038,12 +4038,12 @@
       "name": "Tasks",
       "repo": "https://github.com/AyoItsYas/dms-tasks",
       "screenshot": "https://raw.githubusercontent.com/AyoItsYas/dms-tasks/refs/heads/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.0.4"
     },
-    "path": "/nix/store/kxhds0yrvlpmxbr9pc4dx05kxpm70mws-dms-tasks",
-    "rev": "0ac3c7bc6e160238960e22fa4281ba9d87f77b89",
+    "path": "/nix/store/54cif5r07ch0b96sk7d7wfay98lq1l90-dms-tasks",
+    "rev": "8b9887b43359562efb38cb751cd23b4940447e5e",
     "rootDir": "",
-    "sha256": "0qxsb5dy9g17h66cjy1m3ycdp8xm5lp4lkfx4sqg94lkfm1wyz6s",
+    "sha256": "0kkdciggpr2nhbm0x1c61ln45nqk9zpy2x6bca0yz00agib25y1q",
     "url": "https://github.com/AyoItsYas/dms-tasks"
   },
   "taskwarrior": {
