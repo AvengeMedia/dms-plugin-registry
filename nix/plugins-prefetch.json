@@ -1907,12 +1907,12 @@
     "url": "https://github.com/LouisKottmann/dms-pass"
   },
   "dmsScreenshot": {
-    "date": "2026-04-06T23:29:34+05:30",
+    "date": "2026-04-09T08:05:42+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-0wJp6nuQNfE54O5tGomhb+YdDjhZX0ORB5SEUCp+hYA=",
+    "hash": "sha256-Ie8ASJjYkAN3egfk5hNCSiibEPaBuZDpHDUTY+SNK0k=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -1944,12 +1944,12 @@
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Screenshot/refs/heads/main/assets/Dank-Bar_Widget.png",
       "settings": "./Settings.qml",
       "type": "widget",
-      "version": "1.0.0"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/q00rz2dh0bvvxdnrzn3a9xbjhpn1xxj4-DMS-Screenshot",
-    "rev": "102e3a8cc13af21d7c82be745a53f0ff1bbfd70b",
+    "path": "/nix/store/dp87br4zsbb1ibg9zya97wdj86by3h5y-DMS-Screenshot",
+    "rev": "51410257d50c489ec890624f073ca83ff12c1f6b",
     "rootDir": "",
-    "sha256": "1045gqm5114l0y8l6psr7071vrkgl64ilvgfw0wz2dchggm6j0nk",
+    "sha256": "0j9bipj664rm3klr1fc1yq89na2a889ydr07g9vh746qk1401vr1",
     "url": "https://github.com/JDKamalakar/DMS-Screenshot"
   },
   "dmsSessionizer": {
@@ -2524,12 +2524,12 @@
     "url": "https://github.com/TaylanTatli/dms-plugins"
   },
   "homeAssistantMonitor": {
-    "date": "2026-04-03T13:04:54+08:00",
+    "date": "2026-04-09T12:50:30+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-7ak39g9RDK6uYNHNXGqKUXBrrPpqiVgGR+xNNhDtbBs=",
+    "hash": "sha256-qz2CdyYVoKpQkBL2o179X7wmwzG9tQcWvS8K2vVaDns=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -2556,10 +2556,10 @@
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
       "version": "2.0.0"
     },
-    "path": "/nix/store/nn2v1baxnlmk723yix21bwfxnxvhlq7k-dms-plugin-hass",
-    "rev": "266fcfb713bda5ecf84dc93f444c913ea9a1d6e5",
+    "path": "/nix/store/18scjll6v8gjx8f1kiyr7bq4l240mk66-dms-plugin-hass",
+    "rev": "46604d243f93309d14b86fa71c92e5bb59bc4d12",
     "rootDir": "",
-    "sha256": "06vcxl83ckgc8w35i2bazan6nw2ii9m5rkfic2paw32i1zv3gagd",
+    "sha256": "0yqfbbsxl2igplb0gddx671jdg2zzmga7xhjj18am80m4rvq4gdb",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hueManager": {
@@ -3577,12 +3577,12 @@
     "url": "https://github.com/szabolcsf/dms-qcal-calendar"
   },
   "quranWidget": {
-    "date": "2026-04-06T02:24:55+02:00",
+    "date": "2026-04-09T08:57:04-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2EFC5V6rCH5Ws4lXtpTsKb7LDnr3rkBecGQ9lmurt6w=",
+    "hash": "sha256-xy6+SEF7WK7IHhxxWEY/EqiTMwvLwLliKsiXSyHRbCQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "MezoAhmedII",
@@ -3602,12 +3602,12 @@
       "name": "Quran Widget",
       "repo": "https://codeberg.org/MezoAhmedII/quranWidget",
       "screenshot": "https://codeberg.org/MezoAhmedII/quranWidget/raw/branch/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/cwvcf4p41j9q7w8axjwxn0j39gcs59mm-quranWidget",
-    "rev": "e3bf70bff3095855ca67f3635d10ff585c06468a",
+    "path": "/nix/store/ajiy8gyilq4pp5976pl6nc3bbljppj4y-quranWidget",
+    "rev": "4ae352c35db217f7641402f827644ba860d683e7",
     "rootDir": "",
-    "sha256": "1b5pmdmrcgb4f1g41bppg87cpgi9xjabcmw9ndb7w25bbvjl4hfq",
+    "sha256": "093cs4hlp5y859ibkh6b1crr7a0j7x35hw8w3v4awn3v854bwbn7",
     "url": "https://codeberg.org/MezoAhmedII/quranWidget"
   },
   "sathiAi": {
@@ -4010,12 +4010,12 @@
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
   "tasks": {
-    "date": "2026-04-09T01:56:21+05:30",
+    "date": "2026-04-09T19:37:44+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-OPgiVnwKgO+BYst04e9PE9tCLA2GhQ7qglbk+15kbU4=",
+    "hash": "sha256-ckWInLAmI1AQyNNasYifl3YN3f7VV9ngX53Ot8Klf8Y=",
     "leaveDotGit": false,
     "meta": {
       "author": "Yasiru Dharmathilaka",
@@ -4038,12 +4038,12 @@
       "name": "Tasks",
       "repo": "https://github.com/AyoItsYas/dms-tasks",
       "screenshot": "https://raw.githubusercontent.com/AyoItsYas/dms-tasks/refs/heads/main/screenshot.png",
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
-    "path": "/nix/store/54cif5r07ch0b96sk7d7wfay98lq1l90-dms-tasks",
-    "rev": "8b9887b43359562efb38cb751cd23b4940447e5e",
+    "path": "/nix/store/2a8fgnlld893b14sv32vs6ivznlgc0zp-dms-tasks",
+    "rev": "511398c3f9ec214c017abb2ac2de3204fc5a390d",
     "rootDir": "",
-    "sha256": "0kkdciggpr2nhbm0x1c61ln45nqk9zpy2x6bca0yz00agib25y1q",
+    "sha256": "1ikzlp1bgklxbzhdjmymzvfhsxlpky4b2nnkr08508r6n2f8hibj",
     "url": "https://github.com/AyoItsYas/dms-tasks"
   },
   "taskwarrior": {
@@ -4340,12 +4340,12 @@
     "url": "https://github.com/sr-tream/dms-vscode-launcher"
   },
   "wallpaperBing": {
-    "date": "2026-04-06T10:31:15+02:00",
+    "date": "2026-04-09T08:15:20+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Bch1AxjKW5vxknQpfjcOb0w51jaKTsVacXaK61gZbBY=",
+    "hash": "sha256-uFst8Gpbel0l9tk2zczBRf5Dz+0zeVD9bXe2dJFNcvQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "maxb",
@@ -4369,12 +4369,12 @@
       "name": "Wallpaper of the Day",
       "repo": "https://github.com/max72bra/DankPluginBingWallpaper",
       "screenshot": "https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaper/refs/heads/main/screenshot.png",
-      "version": "1.4.2"
+      "version": "1.4.3"
     },
-    "path": "/nix/store/pgrsnkyamvl9i8xdp8ryy5px9mvl25jf-DankPluginBingWallpaper",
-    "rev": "734e976b55e6d3393e2a09b08ad7fa2f218bdfb7",
+    "path": "/nix/store/azkfb9nxp7y75kknqmhda2z8sm3wpczl-DankPluginBingWallpaper",
+    "rev": "b17f1e513155b5a344a81b7c389fa19fa3550b35",
     "rootDir": "",
-    "sha256": "05kc35cfp2knf5dcakla6vb3jk3g1qvpwabljbqrnnya301pbj05",
+    "sha256": "1x3j9n8p9dkpdpym0y9kxp7l7zj5q76csdnryqjmsyjvdbq2snxq",
     "url": "https://github.com/max72bra/DankPluginBingWallpaper"
   },
   "wallpaperCarousel": {
