@@ -2671,6 +2671,43 @@
     "sha256": "1jxpr4pjyw7wbmh2jpakp4flzj1pp90yq7y5f5afdzf0345hr7qh",
     "url": "https://github.com/mesteryui/DMS_HyprlandSubmap"
   },
+  "imageConverter": {
+    "date": "2026-04-09T00:18:18-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-kWEMmCDEMr6J08gTgtGNKUHr8X0yrM9fNOIi7ukbOn4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Murilo",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "imagemagick",
+        "wl-clipboard"
+      ],
+      "description": "Convert images between formats (PNG, JPG, WEBP, BMP, TIFF) from the DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "imageConverter",
+      "name": "ImageConverter",
+      "repo": "https://github.com/murilo-gotardo/dms-image-converter",
+      "screenshot": "https://raw.githubusercontent.com/Murilo-Gotardo/dms-image-converter/refs/heads/main/screenshots/converter.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/7y3z1j9ccf350nq91vkvzvpwv9y8hp0v-dms-image-converter",
+    "rev": "5c5ef0d9210ea1a184d7c0911705c910cccc7d19",
+    "rootDir": "",
+    "sha256": "0zis3glyw8p26igwzb1jgpqynh99ip8q44y8sf4vwcn442c0qqci",
+    "url": "https://github.com/murilo-gotardo/dms-image-converter"
+  },
   "intervalCommand": {
     "date": "2026-03-24T09:36:52-04:00",
     "deepClone": false,
