@@ -1833,6 +1833,42 @@
     "sha256": "1j80dxk2zlsprsd0s4q30yga6r199isnxp4jwcsy87qc9wr086pi",
     "url": "https://github.com/lucyfire/dms-plugins"
   },
+  "dmsAgent": {
+    "date": "2026-04-07T18:03:11-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-3mI+EZod09JVWEim7tjCA4tdmnYcDJ54bwdlDxQc4wI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Francisdelca (Francis)",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "claude"
+      ],
+      "description": "AI desktop assistant powered by Claude Code. Floating chat panel for controlling your desktop with natural language \u2014 open apps, switch windows, play music, search the web, and more.",
+      "distro": [
+        "any"
+      ],
+      "id": "dmsAgent",
+      "name": "DMS Agent",
+      "repo": "https://github.com/Francisdelca/dms-agent",
+      "screenshot": "https://raw.githubusercontent.com/Francisdelca/dms-agent/main/screenshots/panel.png",
+      "version": "0.3.0"
+    },
+    "path": "/nix/store/fya8f79g0dqa06iwrwhsjnh23j7p57zh-dms-agent",
+    "rev": "926cded9025f1bc981072b7e0f60e3cc9178b379",
+    "rootDir": "",
+    "sha256": "00p33ha0yr87dxw9w30wfsd5v2q3qbcfx9j8b1ax5lqxk88kwqny",
+    "url": "https://github.com/Francisdelca/dms-agent"
+  },
   "dmsLenovoBatterySettings": {
     "date": "2026-01-20T12:32:28+01:00",
     "deepClone": false,
