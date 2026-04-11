@@ -2524,12 +2524,12 @@
     "url": "https://github.com/TaylanTatli/dms-plugins"
   },
   "homeAssistantMonitor": {
-    "date": "2026-04-09T12:50:30+08:00",
+    "date": "2026-04-10T21:38:05+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-qz2CdyYVoKpQkBL2o179X7wmwzG9tQcWvS8K2vVaDns=",
+    "hash": "sha256-i7FMwh/r6eh9bBzApG+OHnqL9dMLnRibrbqcXPlsrvc=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -2556,10 +2556,10 @@
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
       "version": "2.0.0"
     },
-    "path": "/nix/store/18scjll6v8gjx8f1kiyr7bq4l240mk66-dms-plugin-hass",
-    "rev": "46604d243f93309d14b86fa71c92e5bb59bc4d12",
+    "path": "/nix/store/3pa0q6d3lb8jq54bspqpjjhn1ls10nmp-dms-plugin-hass",
+    "rev": "f0950da9cd9f59f25ad1c8451898f986bf79ee7f",
     "rootDir": "",
-    "sha256": "0yqfbbsxl2igplb0gddx671jdg2zzmga7xhjj18am80m4rvq4gdb",
+    "sha256": "1xxfdkwmr75smndii78bsgsqnyhyirps9h0wdiyyisgb3z14rccb",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hueManager": {
