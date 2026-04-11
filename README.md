@@ -1498,6 +1498,35 @@ Flexible Custom Widget for Showing Running Apps on Dank Bar
 
 
 
+#### [DMS Agent](https://github.com/Francisdelca/dms-agent)
+
+AI desktop assistant powered by Claude Code. Floating chat panel for controlling your desktop with natural language — open apps, switch windows, play music, search the web, and more.
+
+
+
+- id: dmsAgent
+- name: DMS Agent
+- author: Francisdelca (Francis)
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: claude
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Francisdelca/dms-agent/main/screenshots/panel.png)
+
+</details>
+
+
+
+
+
 #### [DMS Screenshot](https://github.com/JDKamalakar/DMS-Screenshot)
 
 Control DMS screenshot actions from the Widget & Control Center
