@@ -2515,6 +2515,35 @@ Switch between Hyprland windows with live previews
 
 
 
+#### [ImageConverter](https://github.com/murilo-gotardo/dms-image-converter)
+
+Convert images between formats (PNG, JPG, WEBP, BMP, TIFF) from the DankBar
+
+
+
+- id: imageConverter
+- name: ImageConverter
+- author: Murilo
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: imagemagick, wl-clipboard
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Murilo-Gotardo/dms-image-converter/refs/heads/main/screenshots/converter.png)
+
+</details>
+
+
+
+
+
 #### [Interval Command](https://github.com/corcoran/dms-interval-command)
 
 Run a command on a custom interval and display its output in the bar. Supports multiple instances with different commands.
