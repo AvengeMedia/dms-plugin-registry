@@ -2263,6 +2263,35 @@ Choose color format before picking
 
 
 
+#### [Fullscreen Power Menu](https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu)
+
+Material 3 inspired fullscreen Power Menu triggered via IPC
+
+
+
+- id: fullscreenPowerMenu
+- name: Fullscreen Power Menu
+- author: JDKamalakar
+- compositors: any
+- capabilities: power, ipc
+- dependencies: dms
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-Fullscreen_Power_Menu/refs/heads/main/assets/Main_UI.png)
+
+</details>
+
+
+
+
+
 #### [GIF Search](https://github.com/AvengeMedia/dms-plugins)
 
 Search and browse GIFs powered by Klipy
