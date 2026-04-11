@@ -34,7 +34,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Utility](#utility) | [Weather](#weather)
 
 ---
 
@@ -364,6 +364,35 @@ Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [AMD GPU Monitor Revive](https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive)
+
+Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage with updated UI.
+
+
+
+- id: amdGpuMonitorRevive
+- name: AMD GPU Monitor Revive
+- author: JDKamalakar.
+- compositors: any
+- capabilities: dankbar-widget, monitoring
+- dependencies: amdgpu_top
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive/refs/heads/main/assets/DMS_Extended.png)
 
 </details>
 
@@ -1469,6 +1498,35 @@ Flexible Custom Widget for Showing Running Apps on Dank Bar
 
 
 
+#### [DMS Screenshot](https://github.com/JDKamalakar/DMS-Screenshot)
+
+Control DMS screenshot actions from the Widget & Control Center
+
+
+
+- id: dmsScreenshot
+- name: DMS Screenshot
+- author: JDKamalakar
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: dms
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-Screenshot/refs/heads/main/assets/Dank-Bar_Widget.png)
+
+</details>
+
+
+
+
+
 #### [DMS Sessionizer](https://github.com/leonardofranco01/dms-sessionizer)
 
 Create tmux sessions for your projects
@@ -2457,6 +2515,35 @@ Run a command on a custom interval and display its output in the bar. Supports m
 
 
 
+#### [Keybinding Cheat Sheet](https://github.com/stvnwrgs/dms-keybindings-cheat-sheet)
+
+A desktop widget that parses your compositor's keybinding config and displays them as a live cheat sheet
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: keybindingCheatSheet
+- name: Keybinding Cheat Sheet
+- author: Steven Koehnke
+- compositors: hyprland, niri, sway, mangowc
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/stvnwrgs/dms-keybindings-cheat-sheet/master/example-small.png)
+
+</details>
+
+
+
+
+
 #### [Kubernetes](https://github.com/psyreactor/dms-kubernetes)
 
 Kubernetes plugin for DankBar
@@ -2479,6 +2566,35 @@ Kubernetes plugin for DankBar
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/psyreactor/dms-kubernetes/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [LiveChart Schedule](https://github.com/JDKamalakar/DMS-LiveChart.me)
+
+Displays LiveChart anime schedule data pulled from a local browser session.
+
+
+
+- id: liveChartSchedule
+- name: LiveChart Schedule
+- author: JDKamalakar
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dms, python3, browser_cookie3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-LiveChart.me/refs/heads/main/assets/POP-Up_UI.png)
 
 </details>
 
@@ -2936,6 +3052,35 @@ Monitor and control your Pulsar X3 gaming mouse
 
 
 
+#### [Quran Widget](https://codeberg.org/MezoAhmedII/quranWidget)
+
+Shows a random Quranic Ayah / verse on the desktop
+
+
+
+- id: quranWidget
+- name: Quran Widget
+- author: MezoAhmedII
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://codeberg.org/MezoAhmedII/quranWidget/raw/branch/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [SSH Connections](https://github.com/merdely/dms-plugins)
 
 SSH to configured servers from the Launcher
@@ -3003,14 +3148,14 @@ A simple multi model ai client to use with your dank shell. Use it ollama, gemin
 
 Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)
 
-<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
 
 - id: screenRecorder
 - name: Screen Recorder
 - author: arqueon
 - compositors: any
-- capabilities: dankbar-widget, control-center
-- dependencies: gpu-screen-recorder, xdg-desktop-portal-gnome
+- capabilities: dankbar-widget
+- dependencies: gpu-screen-recorder
 - distro: any
 
 
@@ -3626,6 +3771,43 @@ CalDAV calendar with events, notifications, and event management. Works with iCl
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/szabolcsf/dms-qcal-calendar/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+---
+
+
+
+### Utility
+
+
+
+#### [Tasks](https://github.com/AyoItsYas/dms-tasks)
+
+A simple plugin to manage CalDav To-Do events or tasks.
+
+
+
+- id: tasks
+- name: Tasks
+- author: Yasiru Dharmathilaka
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: python3, python-caldav
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AyoItsYas/dms-tasks/refs/heads/main/screenshot.png)
 
 </details>
 

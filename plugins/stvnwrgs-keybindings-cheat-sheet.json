@@ -1,0 +1,14 @@
+{
+    "id": "keybindingCheatSheet",
+    "name": "Keybinding Cheat Sheet",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/stvnwrgs/dms-keybindings-cheat-sheet",
+    "author": "Steven Koehnke",
+    "description": "A desktop widget that parses your compositor's keybinding config and displays them as a live cheat sheet",
+    "dependencies": [],
+    "compositors": ["hyprland", "niri", "sway", "mangowc"],
+    "distro": ["any"],
+    "requires_dms": ">=1.2.0",
+    "screenshot": "https://raw.githubusercontent.com/stvnwrgs/dms-keybindings-cheat-sheet/master/example-small.png"
+}

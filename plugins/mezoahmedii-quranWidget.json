@@ -1,0 +1,13 @@
+{
+    "id": "quranWidget",
+    "name": "Quran Widget",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://codeberg.org/MezoAhmedII/quranWidget",
+    "author": "MezoAhmedII",
+    "description": "Shows a random Quranic Ayah / verse on the desktop",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://codeberg.org/MezoAhmedII/quranWidget/raw/branch/main/screenshot.png"
+}
