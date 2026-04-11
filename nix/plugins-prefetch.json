@@ -2328,6 +2328,52 @@
     "sha256": "1fvwrisdgz752ka80mz5wfjkg3gi5hmx8q93q4yfq0ky25yw6715",
     "url": "https://github.com/Incognitux/dms-format-color-picker"
   },
+  "fullscreenPowerMenu": {
+    "date": "2026-04-11T15:33:03+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-f0mxUsZdwTnhZxz8AL56FuCxmIqJaHMW9PJo6k4RN3g=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "JDKamalakar",
+      "capabilities": [
+        "power",
+        "ipc"
+      ],
+      "category": "utilities",
+      "component": "./PowerMenu.qml",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dms"
+      ],
+      "description": "Material 3 inspired fullscreen Power Menu triggered via IPC",
+      "distro": [
+        "any"
+      ],
+      "icon": "power_settings_new",
+      "id": "fullscreenPowerMenu",
+      "name": "Fullscreen Power Menu",
+      "permissions": [
+        "process",
+        "settings_read",
+        "settings_write"
+      ],
+      "repo": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu",
+      "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Fullscreen_Power_Menu/refs/heads/main/assets/Main_UI.png",
+      "settings": "./PowerMenuSettings.qml",
+      "type": "daemon",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/ir56gs9w8785avnz6lqxiq7lvv5cvvzs-DMS-Fullscreen_Power_Menu",
+    "rev": "2e845219de72be1e62c6282b268671aa09e448d7",
+    "rootDir": "",
+    "sha256": "0y1p257fls7jyhb76s49iacb3q0ngaz01z0wczhkkhaxqr9b2jbz",
+    "url": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu"
+  },
   "gameControllerBattery": {
     "date": "2026-03-23T14:06:38+03:00",
     "deepClone": false,
