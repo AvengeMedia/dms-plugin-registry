@@ -1006,6 +1006,35 @@ Manage Lenovo battery settings like conservation mode
 
 
 
+#### [Next Boot Selector](https://github.com/arcatva/dms-next-boot-selector)
+
+Pick which EFI boot entry to load on next reboot via efibootmgr. Bar pill + Control Center widget with a scrollable picker.
+
+
+
+- id: nextBootSelector
+- name: Next Boot Selector
+- author: arcatva
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: efibootmgr, sudo
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arcatva/dms-next-boot-selector/main/screenshots/popout.png)
+
+</details>
+
+
+
+
+
 #### [Package Updates](https://github.com/rahulmysore23/dms-pkg-update)
 
 Check and manage DNF and Flatpak package updates from the bar.
