@@ -1,11 +1,11 @@
 {
   "adguardVPplugin": {
-    "date": "2026-03-03T16:27:25-03:00",
+    "date": "2026-04-12T16:54:20-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-nwZ3SwoBgWw3M+qgoRoeG0JMo1lHYa2xwnWZd5tKtvU=",
+    "hash": "sha256-nj1wM9DbKyJdHe8x19ELq7+uWVyb5LbwnQWy+tMCXuY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -30,12 +30,12 @@
       "repo": "https://github.com/bernardopg/dms-adguard-vpn-plugin",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/dms-adguard-vpn-plugin/main/docs/screenshot.png",
-      "version": "1.2.0"
+      "version": "1.3.2"
     },
-    "path": "/nix/store/cpmk8ib8nhdbajiiavmwrciqsjd3rrxh-dms-adguard-vpn-plugin",
-    "rev": "0dde2e5b41b4c773214c1b13097029bac24b4e31",
+    "path": "/nix/store/qc56y0w6ra6id3ym1sykk2vsdqzqlxhg-dms-adguard-vpn-plugin",
+    "rev": "fd521488ede4eb6d78102be9a71f852990350402",
     "rootDir": "",
-    "sha256": "1xdn9adpg6bmqaqssqa7b6ilqhhv3qda387a6cvnr081195pf1lz",
+    "sha256": "1rjy0b9zmch5kpqbdr4vbicsxgxb1g8xfcgg3mfj4ayvs0rp0gcy",
     "url": "https://github.com/bernardopg/dms-adguard-vpn-plugin"
   },
   "aiAssistant": {
@@ -189,12 +189,12 @@
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor"
   },
   "amdGpuMonitorRevive": {
-    "date": "2026-04-06T23:34:00+05:30",
+    "date": "2026-04-12T17:25:32+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-rCuu6BEUzfTd5LalSZi0qrP/MSBXs75GUCO28WB6SzA=",
+    "hash": "sha256-nJ7MM/o9pnScypLdx7sOdKJo2C8/RHYZGtznx/MMvv8=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar.",
@@ -228,10 +228,10 @@
       "type": "widget",
       "version": "1.2.0"
     },
-    "path": "/nix/store/4xl6b8b42r68jgysik2i12ds3ddg59ws-DMS-AMD_GPU_Monitor_Revive",
-    "rev": "17043ef158ade4f360279c09147e178542f3fdec",
+    "path": "/nix/store/nl9z74pary1bljixh68hlhz5jq6fsy8l-DMS-AMD_GPU_Monitor_Revive",
+    "rev": "b039a8c8f23fea31cea1dfe218f24ab50daa43c3",
     "rootDir": "",
-    "sha256": "0c2bg9hg3di3a13bxcsp40qzzcxanjc4k9dnwkfz9k8l27lawaxc",
+    "sha256": "1zxy1krwgryw38cpci1z5zc6i8kl1sxwgpcjraf799ixz8rwr7lw",
     "url": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive"
   },
   "animeCalendar": {
@@ -708,12 +708,12 @@
     "url": "https://github.com/titeya/dms-claudecode"
   },
   "clipboardPlus": {
-    "date": "2026-03-31T02:18:41+07:00",
+    "date": "2026-04-12T00:20:38+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-d5lxyIVs1+sLBxaeQrB22gX5/jLGp8BbflfS8QCRxpQ=",
+    "hash": "sha256-8tjUOdk4WzluGS9GB/oZstrpM5WNdhu41TiTCwflrIw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Dadangdut33",
@@ -737,12 +737,12 @@
       "path": "ClipboardPlus",
       "repo": "https://github.com/Dadangdut33/dms-plugins",
       "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/ClipboardPlus/preview/preview-blur.png",
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
-    "path": "/nix/store/hsq82bv0clrwi86j05i3d9qi8ng2c7vy-dms-plugins",
-    "rev": "d434cb08a9f62c8c9e6804371139e63cd7b91556",
+    "path": "/nix/store/g8dqbfnyqzsnz37dbcz9sj78mlql4s79-dms-plugins",
+    "rev": "846aff653e9492f2907790e1017f723206ea568b",
     "rootDir": "",
-    "sha256": "1566j40g3ljpgrdw19y66bzgj1fsfsq457hn0w5ypmvchp4736bp",
+    "sha256": "135cwl3hp4rqsnw1nxldjlryknmj37x0fiig35p3jnrqv4wx9n7j",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "codexBar": {
@@ -1833,6 +1833,42 @@
     "sha256": "1j80dxk2zlsprsd0s4q30yga6r199isnxp4jwcsy87qc9wr086pi",
     "url": "https://github.com/lucyfire/dms-plugins"
   },
+  "dmsAgent": {
+    "date": "2026-04-07T18:03:11-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-3mI+EZod09JVWEim7tjCA4tdmnYcDJ54bwdlDxQc4wI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Francisdelca (Francis)",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "claude"
+      ],
+      "description": "AI desktop assistant powered by Claude Code. Floating chat panel for controlling your desktop with natural language \u2014 open apps, switch windows, play music, search the web, and more.",
+      "distro": [
+        "any"
+      ],
+      "id": "dmsAgent",
+      "name": "DMS Agent",
+      "repo": "https://github.com/Francisdelca/dms-agent",
+      "screenshot": "https://raw.githubusercontent.com/Francisdelca/dms-agent/main/screenshots/panel.png",
+      "version": "0.3.0"
+    },
+    "path": "/nix/store/fya8f79g0dqa06iwrwhsjnh23j7p57zh-dms-agent",
+    "rev": "926cded9025f1bc981072b7e0f60e3cc9178b379",
+    "rootDir": "",
+    "sha256": "00p33ha0yr87dxw9w30wfsd5v2q3qbcfx9j8b1ax5lqxk88kwqny",
+    "url": "https://github.com/Francisdelca/dms-agent"
+  },
   "dmsLenovoBatterySettings": {
     "date": "2026-01-20T12:32:28+01:00",
     "deepClone": false,
@@ -1907,12 +1943,12 @@
     "url": "https://github.com/LouisKottmann/dms-pass"
   },
   "dmsScreenshot": {
-    "date": "2026-04-09T08:05:42+05:30",
+    "date": "2026-04-12T17:24:47+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Ie8ASJjYkAN3egfk5hNCSiibEPaBuZDpHDUTY+SNK0k=",
+    "hash": "sha256-JFzV9QKoOVR692kmfi6RbbxSkl+MF0ySZkAdbAmhXv0=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -1946,10 +1982,10 @@
       "type": "widget",
       "version": "1.2.0"
     },
-    "path": "/nix/store/dp87br4zsbb1ibg9zya97wdj86by3h5y-DMS-Screenshot",
-    "rev": "51410257d50c489ec890624f073ca83ff12c1f6b",
+    "path": "/nix/store/ns7sbxlzs60cvzn58cga9ma0406h4rcs-DMS-Screenshot",
+    "rev": "87ffe2190a9bf401a81de01a97f561bcbc4bc78c",
     "rootDir": "",
-    "sha256": "0j9bipj664rm3klr1fc1yq89na2a889ydr07g9vh746qk1401vr1",
+    "sha256": "1zayl44nq7a0cs94q5wcby955g3dj4p7w9k9yxx58fd80bsxap14",
     "url": "https://github.com/JDKamalakar/DMS-Screenshot"
   },
   "dmsSessionizer": {
@@ -2291,6 +2327,52 @@
     "rootDir": "",
     "sha256": "1fvwrisdgz752ka80mz5wfjkg3gi5hmx8q93q4yfq0ky25yw6715",
     "url": "https://github.com/Incognitux/dms-format-color-picker"
+  },
+  "fullscreenPowerMenu": {
+    "date": "2026-04-12T17:26:13+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-ANSkouhwYG/0T9p1rg6C2zJq2iMTvH6gjsdDq15L6PU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "JDKamalakar",
+      "capabilities": [
+        "power",
+        "ipc"
+      ],
+      "category": "utilities",
+      "component": "./PowerMenu.qml",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dms"
+      ],
+      "description": "Material 3 inspired fullscreen Power Menu triggered via IPC",
+      "distro": [
+        "any"
+      ],
+      "icon": "power_settings_new",
+      "id": "fullscreenPowerMenu",
+      "name": "Fullscreen Power Menu",
+      "permissions": [
+        "process",
+        "settings_read",
+        "settings_write"
+      ],
+      "repo": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu",
+      "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Fullscreen_Power_Menu/refs/heads/main/assets/Main_UI.png",
+      "settings": "./PowerMenuSettings.qml",
+      "type": "daemon",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/9la08qhl5izbxara95zzms3p6v3bb0hv-DMS-Fullscreen_Power_Menu",
+    "rev": "c1a0a9f86a9b8692702606b98c4297adefd75700",
+    "rootDir": "",
+    "sha256": "1xg89dganhy7ish7xg0k4gd6lcnvh87awxfs9zs6yq3hx2ia9m00",
+    "url": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu"
   },
   "gameControllerBattery": {
     "date": "2026-03-23T14:06:38+03:00",
@@ -2635,6 +2717,43 @@
     "sha256": "1jxpr4pjyw7wbmh2jpakp4flzj1pp90yq7y5f5afdzf0345hr7qh",
     "url": "https://github.com/mesteryui/DMS_HyprlandSubmap"
   },
+  "imageConverter": {
+    "date": "2026-04-09T00:18:18-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-kWEMmCDEMr6J08gTgtGNKUHr8X0yrM9fNOIi7ukbOn4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Murilo",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "imagemagick",
+        "wl-clipboard"
+      ],
+      "description": "Convert images between formats (PNG, JPG, WEBP, BMP, TIFF) from the DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "imageConverter",
+      "name": "ImageConverter",
+      "repo": "https://github.com/murilo-gotardo/dms-image-converter",
+      "screenshot": "https://raw.githubusercontent.com/Murilo-Gotardo/dms-image-converter/refs/heads/main/screenshots/converter.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/7y3z1j9ccf350nq91vkvzvpwv9y8hp0v-dms-image-converter",
+    "rev": "5c5ef0d9210ea1a184d7c0911705c910cccc7d19",
+    "rootDir": "",
+    "sha256": "0zis3glyw8p26igwzb1jgpqynh99ip8q44y8sf4vwcn442c0qqci",
+    "url": "https://github.com/murilo-gotardo/dms-image-converter"
+  },
   "intervalCommand": {
     "date": "2026-03-24T09:36:52-04:00",
     "deepClone": false,
@@ -2782,12 +2901,12 @@
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
   },
   "liveChartSchedule": {
-    "date": "2026-04-06T23:35:02+05:30",
+    "date": "2026-04-12T17:21:53+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-VZ1QFbsd8evOIRAhSzmiQj6q7j+ZUOz/11slpQmIbtI=",
+    "hash": "sha256-eBQTKGZlYjPnwpwlBlTCG2je+OeWlJzn+Z4iq/+PZI8=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -2822,10 +2941,10 @@
       "type": "widget",
       "version": "1.0.0"
     },
-    "path": "/nix/store/k0vq593ijig253rh7khmw9qd6imd8qdl-DMS-LiveChart.me",
-    "rev": "4ad143e7093683be75c260a164765b9a7d62be46",
+    "path": "/nix/store/hdnqf8l0lqig50kya0kb5axjlzz8h58r-DMS-LiveChart.me",
+    "rev": "cb4e40c16617532c27994a8fe04a0c7076eaf2ae",
     "rootDir": "",
-    "sha256": "1lkfi04sa9avszzyql4r7zpalgj2l8wln88h477fpw8xpcam17am",
+    "sha256": "13v4izzsn8lyz7krr54nwzwdws0vq9a0c9cwqbkk6qk5cql1653q",
     "url": "https://github.com/JDKamalakar/DMS-LiveChart.me"
   },
   "lyricsOnPanel": {
@@ -3149,12 +3268,12 @@
     "url": "https://github.com/AC17dollars/dms-nepali-calendar"
   },
   "netbirdStatus": {
-    "date": "2026-03-31T02:18:41+07:00",
+    "date": "2026-04-12T00:20:38+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-d5lxyIVs1+sLBxaeQrB22gX5/jLGp8BbflfS8QCRxpQ=",
+    "hash": "sha256-8tjUOdk4WzluGS9GB/oZstrpM5WNdhu41TiTCwflrIw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Dadangdut33",
@@ -3179,10 +3298,10 @@
       "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/NetbirdStatus/preview/widget.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/hsq82bv0clrwi86j05i3d9qi8ng2c7vy-dms-plugins",
-    "rev": "d434cb08a9f62c8c9e6804371139e63cd7b91556",
+    "path": "/nix/store/g8dqbfnyqzsnz37dbcz9sj78mlql4s79-dms-plugins",
+    "rev": "846aff653e9492f2907790e1017f723206ea568b",
     "rootDir": "",
-    "sha256": "1566j40g3ljpgrdw19y66bzgj1fsfsq457hn0w5ypmvchp4736bp",
+    "sha256": "135cwl3hp4rqsnw1nxldjlryknmj37x0fiig35p3jnrqv4wx9n7j",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "niriScreenshot": {
@@ -3790,12 +3909,12 @@
     "url": "https://github.com/lpv11/dms-hypr-show-desktop"
   },
   "simpleAudioControl": {
-    "date": "2026-03-31T02:18:41+07:00",
+    "date": "2026-04-12T00:20:38+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-d5lxyIVs1+sLBxaeQrB22gX5/jLGp8BbflfS8QCRxpQ=",
+    "hash": "sha256-8tjUOdk4WzluGS9GB/oZstrpM5WNdhu41TiTCwflrIw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Dadangdut33",
@@ -3818,10 +3937,10 @@
       "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/SimpleAudioControl/preview/tab-1.png",
       "version": "1.0.4"
     },
-    "path": "/nix/store/hsq82bv0clrwi86j05i3d9qi8ng2c7vy-dms-plugins",
-    "rev": "d434cb08a9f62c8c9e6804371139e63cd7b91556",
+    "path": "/nix/store/g8dqbfnyqzsnz37dbcz9sj78mlql4s79-dms-plugins",
+    "rev": "846aff653e9492f2907790e1017f723206ea568b",
     "rootDir": "",
-    "sha256": "1566j40g3ljpgrdw19y66bzgj1fsfsq457hn0w5ypmvchp4736bp",
+    "sha256": "135cwl3hp4rqsnw1nxldjlryknmj37x0fiig35p3jnrqv4wx9n7j",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "sshConnections": {

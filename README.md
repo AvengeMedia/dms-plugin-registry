@@ -1498,6 +1498,35 @@ Flexible Custom Widget for Showing Running Apps on Dank Bar
 
 
 
+#### [DMS Agent](https://github.com/Francisdelca/dms-agent)
+
+AI desktop assistant powered by Claude Code. Floating chat panel for controlling your desktop with natural language — open apps, switch windows, play music, search the web, and more.
+
+
+
+- id: dmsAgent
+- name: DMS Agent
+- author: Francisdelca (Francis)
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: claude
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Francisdelca/dms-agent/main/screenshots/panel.png)
+
+</details>
+
+
+
+
+
 #### [DMS Screenshot](https://github.com/JDKamalakar/DMS-Screenshot)
 
 Control DMS screenshot actions from the Widget & Control Center
@@ -2234,6 +2263,35 @@ Choose color format before picking
 
 
 
+#### [Fullscreen Power Menu](https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu)
+
+Material 3 inspired fullscreen Power Menu triggered via IPC
+
+
+
+- id: fullscreenPowerMenu
+- name: Fullscreen Power Menu
+- author: JDKamalakar
+- compositors: any
+- capabilities: power, ipc
+- dependencies: dms
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-Fullscreen_Power_Menu/refs/heads/main/assets/Main_UI.png)
+
+</details>
+
+
+
+
+
 #### [GIF Search](https://github.com/AvengeMedia/dms-plugins)
 
 Search and browse GIFs powered by Klipy
@@ -2479,6 +2537,35 @@ Switch between Hyprland windows with live previews
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankHyprlandWindows/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [ImageConverter](https://github.com/murilo-gotardo/dms-image-converter)
+
+Convert images between formats (PNG, JPG, WEBP, BMP, TIFF) from the DankBar
+
+
+
+- id: imageConverter
+- name: ImageConverter
+- author: Murilo
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: imagemagick, wl-clipboard
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Murilo-Gotardo/dms-image-converter/refs/heads/main/screenshots/converter.png)
 
 </details>
 
