@@ -1,0 +1,13 @@
+{
+    "id": "dankUpsMonitor",
+    "name": "Dank UPS Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/acmagn/DMS-UPS-Monitor",
+    "author": "acmagn",
+    "description": "Real-time UPS status via NUT (upsc) for the DankBar: on-battery styling, optional desktop notifications, and a charge history graph in the popout",
+    "dependencies": ["upsc"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/user-attachments/assets/06f0f507-67b4-452a-b4f8-ad37ac80a795"
+}
