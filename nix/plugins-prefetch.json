@@ -563,12 +563,12 @@
     "url": "https://github.com/mcwiseman97/dms-canvas-plugin"
   },
   "catWidget": {
-    "date": "2026-02-19T21:05:09+01:00",
+    "date": "2026-04-13T11:27:25+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-KG5hWnDMwLxnhVVEs7giyjHOW4zoZNnwWA5fqXPhou4=",
+    "hash": "sha256-KD2G805Hq0K9aPW9Aq4hNo2XKji4kzdc24M4AcRhsPk=",
     "leaveDotGit": false,
     "meta": {
       "author": "kemo",
@@ -590,10 +590,10 @@
       "screenshot": "https://github.com/xi-ve/dms-plugin-registry/blob/add-cat-widget/assets/cat-widget.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/wjz525ai5jk4nphpndhb7pqy26vxyfyn-cat-dms",
-    "rev": "682c6989362ce4424ea3d3abf1c843d8e7be5aa6",
+    "path": "/nix/store/scmj36il7n8h6v46b9k4ifn3y6n276ha-cat-dms",
+    "rev": "eb7b5138b672be3c06445dd80de6bc30c3076030",
     "rootDir": "",
-    "sha256": "1vm2w5rsjpqfb3qdjr78iidwwcfa4awb6i2mhmkvrh6cf1d62vi8",
+    "sha256": "1ydhc7202f43vdf3g4xq70m9g39n46p05ggmd2yl5as79vrqcg98",
     "url": "https://github.com/xi-ve/cat-dms"
   },
   "cavaVisualizer": {
@@ -3303,6 +3303,44 @@
     "rootDir": "",
     "sha256": "135cwl3hp4rqsnw1nxldjlryknmj37x0fiig35p3jnrqv4wx9n7j",
     "url": "https://github.com/Dadangdut33/dms-plugins"
+  },
+  "nextBootSelector": {
+    "date": "2026-04-12T07:01:55+12:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-h9rkQOTwpDwFx9Z+6MD+cH7rJv10L8OCQFxSEMVvaOU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "arcatva",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "efibootmgr",
+        "sudo"
+      ],
+      "description": "Pick which EFI boot entry to load on next reboot via efibootmgr. Bar pill + Control Center widget with a scrollable picker.",
+      "distro": [
+        "any"
+      ],
+      "id": "nextBootSelector",
+      "name": "Next Boot Selector",
+      "repo": "https://github.com/arcatva/dms-next-boot-selector",
+      "screenshot": "https://raw.githubusercontent.com/arcatva/dms-next-boot-selector/main/screenshots/popout.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/x44l0plhy7k97mjywvfa58bhckcmh254-dms-next-boot-selector",
+    "rev": "89e0f38554db8adb6d15f93fa21fbe5c2eecb06e",
+    "rootDir": "",
+    "sha256": "1rb8dz2i0ljw821c6bvlzlkfnzkhzv0fhznnqw2kr97hwi0f9nl7",
+    "url": "https://github.com/arcatva/dms-next-boot-selector"
   },
   "niriScreenshot": {
     "date": "2026-02-19T22:00:20-05:00",
