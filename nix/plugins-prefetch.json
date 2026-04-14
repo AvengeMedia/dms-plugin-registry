@@ -1421,6 +1421,45 @@
     "sha256": "1a30rsk4yi0d3cf9q9ahb3yw8522410vsgy00c69cs0kzayd1b5k",
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
+  "dankRazer": {
+    "date": "2026-04-13T16:01:18Z",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-mbqlEy9aAJRHG4qnJ4OEfGnc25Wt8Itn+9PBZ3P86M0=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "zachfi",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center",
+        "command-execution"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "openrazer-daemon",
+        "go"
+      ],
+      "description": "Control Razer peripherals via OpenRazer \u2014 lighting effects, brightness, DPI, and battery monitoring",
+      "distro": [
+        "any"
+      ],
+      "id": "dankRazer",
+      "name": "Razer Device Manager",
+      "repo": "https://github.com/zachfi/dms-razer",
+      "screenshot": "https://raw.githubusercontent.com/zachfi/dms-razer/main/screenshot.png",
+      "version": "0.2.0"
+    },
+    "path": "/nix/store/w4zicsr3lmb072303kwlihs2158srfcn-dms-razer",
+    "rev": "47afb6655b5d09fff358e3849dddc3917d3fba3f",
+    "rootDir": "",
+    "sha256": "1kg8zirnghfkzdkqpw5djpdxqsbwhj1jg9wa3d3r802s5w9sbflr",
+    "url": "https://github.com/zachfi/dms-razer"
+  },
   "dankRssWidget": {
     "date": "2026-02-09T21:01:21-05:00",
     "deepClone": false,
@@ -3627,12 +3666,12 @@
     "url": "https://github.com/Daniel-42-z/dms-power-usage"
   },
   "prayerTimes": {
-    "date": "2026-02-28T06:59:55+07:00",
+    "date": "2026-04-14T11:53:20+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-i8uSJytzGPcD/CzustEQHFVaD4FuHRxEKDq+aIixLcI=",
+    "hash": "sha256-BfA1uN/xqw7uhmE+/caTfbP23rzsA2kq2yx9P26Cgkg=",
     "leaveDotGit": false,
     "meta": {
       "author": "muadz",
@@ -3652,12 +3691,12 @@
       "name": "Prayer Times",
       "repo": "https://github.com/muadzmo/prayertimes",
       "screenshot": "https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/ppy43w7fax7pa561vhnxmk8a3qd6c5zq-prayertimes",
-    "rev": "8c53ea678170889b48368b1f79eb68fb6f0aa111",
+    "path": "/nix/store/r72mxh028wjkbqydqdmvlgi6qlb37lkd-prayertimes",
+    "rev": "82b16b235d3f06101d79f04529a1a32b4d32fe2c",
     "rootDir": "",
-    "sha256": "1hidn646igis5121q7bfh47mlm8w238v5viczh1zf63k5ckr5jwb",
+    "sha256": "0j42h9p3yz9cvcm6j0zcpkggdcvxjg3gsgk1hvp0xazivyw3bw05",
     "url": "https://github.com/muadzmo/prayertimes"
   },
   "pulsarX3": {
