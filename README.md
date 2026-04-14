@@ -3197,6 +3197,35 @@ Shows a random Quranic Ayah / verse on the desktop
 
 
 
+#### [Razer Device Manager](https://github.com/zachfi/dms-razer)
+
+Control Razer peripherals via OpenRazer — lighting effects, brightness, DPI, and battery monitoring
+
+
+
+- id: dankRazer
+- name: Razer Device Manager
+- author: zachfi
+- compositors: any
+- capabilities: dankbar-widget, control-center, command-execution
+- dependencies: openrazer-daemon, go
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/zachfi/dms-razer/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [SSH Connections](https://github.com/merdely/dms-plugins)
 
 SSH to configured servers from the Launcher
