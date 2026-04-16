@@ -1,0 +1,13 @@
+{
+    "id": "dankCaffeine",
+    "name": "DankCaffeine",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/firemonster612/DankCaffeine",
+    "author": "firemonster612",
+    "description": "Prevents screen from going idle. Toggle from the DankBar, like GNOME Caffeine.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/firemonster612/DankCaffeine/main/screenshot.png"
+}
