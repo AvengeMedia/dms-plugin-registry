@@ -179,7 +179,7 @@
       "id": "amdGpuMonitor",
       "name": "AMD GPU Monitor",
       "repo": "https://github.com/navidagz/dms-amd-gpu-monitor",
-      "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshots/screenshot.png",
       "version": "3.0.0"
     },
     "path": "/nix/store/n8yw7xxk2s418np82qgjghx7i8v6ab7p-dms-amd-gpu-monitor",
@@ -1578,6 +1578,42 @@
     "rootDir": "",
     "sha256": "03hpn4drwvfkqyqx046awcch19aw7jgr2c5i5kfvgajffdk08xrp",
     "url": "https://github.com/NordicsSys/DankSystemDoctor"
+  },
+  "dankUpsMonitor": {
+    "date": "2026-04-16T16:49:41-06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-zUkaRhzvUAlgzyd1CUsmFugwo8tzNTgsg5Hz0okyfF4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "acmagn",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "upsc"
+      ],
+      "description": "Real-time UPS status widget via NUT (upsc).",
+      "distro": [
+        "any"
+      ],
+      "id": "dankUpsMonitor",
+      "name": "Dank UPS Monitor",
+      "repo": "https://github.com/acmagn/DMS-UPS-Monitor",
+      "screenshot": "https://github.com/acmagn/DMS-UPS-Monitor/blob/main/assets/screenshot.png",
+      "version": "1.6.0"
+    },
+    "path": "/nix/store/i7rnic104kdqgddyfibhmfr5in4bqg87-DMS-UPS-Monitor",
+    "rev": "d88f68cba29a567ef134512b1c4e6ec55b6fd5d1",
+    "rootDir": "",
+    "sha256": "0pkw6a4x5wwihcn3hdbkrfik1s0n4r5hjx97rxh0jl7g3i31ljfd",
+    "url": "https://github.com/acmagn/DMS-UPS-Monitor"
   },
   "ddcBrightness": {
     "date": "2026-03-28T00:07:52+08:00",
