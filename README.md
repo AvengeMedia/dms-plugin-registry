@@ -545,6 +545,35 @@ Monitor AI provider usage quotas
 
 
 
+#### [Dank UPS Monitor](https://github.com/acmagn/DMS-UPS-Monitor)
+
+Real-time UPS status widget via NUT (upsc).
+
+
+
+- id: dankUpsMonitor
+- name: Dank UPS Monitor
+- author: acmagn
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: upsc
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/acmagn/DMS-UPS-Monitor/blob/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Game Controller Battery](https://github.com/Hujair/gameControllerBattery)
 
 Shows the battery level of connected game controllers
