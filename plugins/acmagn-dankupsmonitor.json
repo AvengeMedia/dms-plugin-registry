@@ -1,0 +1,13 @@
+{
+    "id": "dankUpsMonitor",
+    "name": "Dank UPS Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/acmagn/DMS-UPS-Monitor",
+    "author": "acmagn",
+    "description": "Real-time UPS status widget via NUT (upsc).",
+    "dependencies": ["upsc"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/acmagn/DMS-UPS-Monitor/blob/main/assets/screenshot.png"
+}
