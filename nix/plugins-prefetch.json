@@ -452,12 +452,12 @@
     "url": "https://github.com/CD-Z/dms-plugins"
   },
   "awcc": {
-    "date": "2026-03-26T10:32:07-03:00",
+    "date": "2026-04-17T21:15:53-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-qSxoYUpE83hTIEDmvPHEKS8bWs0kuDeYBT20okchoFE=",
+    "hash": "sha256-tAzrFCnsTc/+PjCnBGTyPCwk0Cdo+0Nu30TBu2QENEk=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -480,10 +480,10 @@
       "screenshot": "https://github.com/psyreactor/dms-awcc/raw/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/qah5cgvsvfx9vfjjs4v0ypspfy974g7d-dms-awcc",
-    "rev": "8013c00b58b766edf35bcd6a2da480bf1034e272",
+    "path": "/nix/store/mq668hy6b68zvm4j45ly27vszhm095xh-dms-awcc",
+    "rev": "76755fadc604e3efc473fefa0ac40a441ea09041",
     "rootDir": "",
-    "sha256": "0ld0453s5d1x0nc3gf14rmd1nbr9qkqvrrj0419piws499hnhb59",
+    "sha256": "0j9l0ijbpha4vxp47yv84z828b1wy9j099rh7vzcykgc54afn35l",
     "url": "https://github.com/psyreactor/dms-awcc"
   },
   "calculator": {
@@ -2528,12 +2528,12 @@
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "githubNotifier": {
-    "date": "2026-03-29T00:44:40-03:00",
+    "date": "2026-04-17T21:44:08-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-SKyQtpq4qh/cHVfBvOFAAEqJYqPG6Rq8grDLKcpqVqw=",
+    "hash": "sha256-mTfqFvtlGUmIPrX8GmuNH8OfQpjDuKPwmxKmvorSLEA=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -2557,21 +2557,21 @@
       "repo": "https://github.com/psyreactor/dms-githubNotifier",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-githubNotifier/raw/main/screenshot.png",
-      "version": "0.1.1"
+      "version": "1.0.0"
     },
-    "path": "/nix/store/7s37p591gpki16m5rwc8xkzj9ifqrk4n-dms-githubNotifier",
-    "rev": "ed142b506c9be95dff18c8e29ab8465a450127a9",
+    "path": "/nix/store/gvrq5x2d603k35qzdqclj3qvk9vzhkbc-dms-githubNotifier",
+    "rev": "01c929dd8df3d4dcfe12bfa743eec5d096ae6fde",
     "rootDir": "",
-    "sha256": "1b2ndb52kjxhhay1msf6ldi8jjh083hvrhap3pf1zamqkav91b28",
+    "sha256": "0h1csa5bx9hjkgqa7f63k119zhqzimmimz5m7s44j6b5zcbfldwr",
     "url": "https://github.com/psyreactor/dms-githubNotifier"
   },
   "gitlabNotifier": {
-    "date": "2026-03-29T00:45:18-03:00",
+    "date": "2026-04-17T21:45:51-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Cun1u47MuXTueQllbmztit9bcMpMeitCtmSi0ZX4Gr0=",
+    "hash": "sha256-1uuASmaCUAmkgW6zo5fTT5ijsUmLBV+S7YAvN/3vktM=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -2595,12 +2595,12 @@
       "repo": "https://github.com/psyreactor/dms-gitlabNotifier",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-gitlabNotifier/raw/main/screenshot.png",
-      "version": "0.1.1"
+      "version": "1.0.0"
     },
-    "path": "/nix/store/ssaap5pcxaq9gsvd6jpixr84hqcmzna6-dms-gitlabNotifier",
-    "rev": "810b3ee5523d6e072985e97cdba33e85f73b4564",
+    "path": "/nix/store/lc4m3bxm56g29ip1k2ix62qzx0ax046v-dms-gitlabNotifier",
+    "rev": "9c90c4e4869df7132cc16b827d5d14585d0e327c",
     "rootDir": "",
-    "sha256": "1g8sz2ax38k4nr12nyjcr9q5ppwaxmn6wr89g7p79ffcisxzbs8a",
+    "sha256": "1lwjxzykfbw0xn95y1cb96qs762gsfbs7cvfh6j0jl42cr581syn",
     "url": "https://github.com/psyreactor/dms-gitlabNotifier"
   },
   "gitmojiLauncher": {
@@ -4388,12 +4388,12 @@
     "url": "https://github.com/fdmarcin/TimeUntil"
   },
   "trashBin": {
-    "date": "2026-04-13T20:19:51+08:00",
+    "date": "2026-04-18T00:08:04+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-SmsoDVLZSEiqf+1MaBxgc7u05JNWt6dsvMip1zEwjhA=",
+    "hash": "sha256-cRAUAfdh/pH7sDYq7psLWYyRu8CN8wcQDCk5ruR4Mn4=",
     "leaveDotGit": false,
     "meta": {
       "author": "kerojiang",
@@ -4415,10 +4415,10 @@
       "screenshot": "https://raw.githubusercontent.com/kerojiang/dms-transBin/refs/heads/main/images/bin-full.png",
       "version": "1.3.0"
     },
-    "path": "/nix/store/n6cmwgb94mrxzbyk1996yc5vr6cgjxrn-dms-transBin",
-    "rev": "742355b72f389792a73d180b6967d1f0fca3bf0d",
+    "path": "/nix/store/h9q5vs2dbvx7s9032r2znxlhq94qnnn6-dms-transBin",
+    "rev": "100b14f27b6c624ab2b8b171bca64a3d0505155b",
     "rootDir": "",
-    "sha256": "044f60qxgaf8pinagdsnjgjb9fvkc0f6hk7dgym4hj6ra86jhssa",
+    "sha256": "0zijg3jawf991h80gwwdq2xr332r1fdywainn3xr3zk1yw0i843i",
     "url": "https://github.com/kerojiang/dms-transBin"
   },
   "unifiedTaskbar": {
