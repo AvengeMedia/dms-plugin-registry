@@ -452,12 +452,12 @@
     "url": "https://github.com/CD-Z/dms-plugins"
   },
   "awcc": {
-    "date": "2026-04-17T21:15:53-03:00",
+    "date": "2026-04-19T17:49:32-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-tAzrFCnsTc/+PjCnBGTyPCwk0Cdo+0Nu30TBu2QENEk=",
+    "hash": "sha256-iKPerYyE3mQUu4ItCML0QLqMnWwiTC+T3ojrymkhH2Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -478,12 +478,12 @@
       "repo": "https://github.com/psyreactor/dms-awcc",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-awcc/raw/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "2.0.0"
     },
-    "path": "/nix/store/mq668hy6b68zvm4j45ly27vszhm095xh-dms-awcc",
-    "rev": "76755fadc604e3efc473fefa0ac40a441ea09041",
+    "path": "/nix/store/ggnj71wb299ci16k1ddz2pd3i0mv7da3-dms-awcc",
+    "rev": "1b0755e4fb66c98aec06184b5cbd32ac21320e31",
     "rootDir": "",
-    "sha256": "0j9l0ijbpha4vxp47yv84z828b1wy9j099rh7vzcykgc54afn35l",
+    "sha256": "0r0z45lwmsw8vs9jyk12djfqrfj0yk10hbc2pca69pl4ijnxx8w8",
     "url": "https://github.com/psyreactor/dms-awcc"
   },
   "calculator": {
@@ -708,12 +708,12 @@
     "url": "https://github.com/titeya/dms-claudecode"
   },
   "clipboardPlus": {
-    "date": "2026-04-19T23:49:08+07:00",
+    "date": "2026-04-20T01:34:29+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jmX/iZeJMGGtOq8zYfF91YS73LGxpu0Qh1HjZb4xLNI=",
+    "hash": "sha256-TyJaUDK+UVxqBY3GzyGRes//sgq5iqkXBFLW6njoci4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Dadangdut33",
@@ -739,10 +739,10 @@
       "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/ClipboardPlus/preview/preview-blur.png",
       "version": "1.0.3"
     },
-    "path": "/nix/store/vya8rnvzkfkj73s6rb5hk3fhypyfljdr-dms-plugins",
-    "rev": "415bfd46a7b35ba61aba66d2ae6f8d1a8dee3b4e",
+    "path": "/nix/store/s55kjdxvs1ygssppapfb6hyp3dvkbrrb-dms-plugins",
+    "rev": "b69014022734f7945d710e99c24463d3f9a0916d",
     "rootDir": "",
-    "sha256": "1lic66z6bqsihw8fv9min7fbp16mgpqn2cxg7ann2c49jy4zyrcf",
+    "sha256": "0bkjx1wfmmjj0hbsk2mr1argzkvsj4hwzild0mm5qldy6985l8jg",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "codexBar": {
@@ -3343,12 +3343,12 @@
     "url": "https://github.com/AC17dollars/dms-nepali-calendar"
   },
   "netbirdStatus": {
-    "date": "2026-04-19T23:49:08+07:00",
+    "date": "2026-04-20T01:34:29+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jmX/iZeJMGGtOq8zYfF91YS73LGxpu0Qh1HjZb4xLNI=",
+    "hash": "sha256-TyJaUDK+UVxqBY3GzyGRes//sgq5iqkXBFLW6njoci4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Dadangdut33",
@@ -3373,10 +3373,10 @@
       "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/NetbirdStatus/preview/widget.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/vya8rnvzkfkj73s6rb5hk3fhypyfljdr-dms-plugins",
-    "rev": "415bfd46a7b35ba61aba66d2ae6f8d1a8dee3b4e",
+    "path": "/nix/store/s55kjdxvs1ygssppapfb6hyp3dvkbrrb-dms-plugins",
+    "rev": "b69014022734f7945d710e99c24463d3f9a0916d",
     "rootDir": "",
-    "sha256": "1lic66z6bqsihw8fv9min7fbp16mgpqn2cxg7ann2c49jy4zyrcf",
+    "sha256": "0bkjx1wfmmjj0hbsk2mr1argzkvsj4hwzild0mm5qldy6985l8jg",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "nextBootSelector": {
@@ -3560,12 +3560,12 @@
     "url": "https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor"
   },
   "pkgUpdate": {
-    "date": "2026-04-07T19:57:18-04:00",
+    "date": "2026-04-19T20:57:08-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-DXgN5yBEz3EIEmdW8zFyLzRUat51wltHIP5nX5rnJF0=",
+    "hash": "sha256-lVGX3QZzqA/VWGduueUO/PMT3b2t8dvQJHRtIUb4wKY=",
     "leaveDotGit": false,
     "meta": {
       "author": "rahulmysore23",
@@ -3587,12 +3587,12 @@
       "name": "Package Updates",
       "repo": "https://github.com/rahulmysore23/dms-pkg-update",
       "screenshot": "https://raw.githubusercontent.com/rahulmysore23/dms-pkg-update/main/screenshot.png",
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
-    "path": "/nix/store/45p42vzbsyjanw27vchxyb6cvblfqsqy-dms-pkg-update",
-    "rev": "d0da7fb76adf611e48952099452228b23f68a982",
+    "path": "/nix/store/k9lvmykjf345skkg3x9n97kfj41fakyv-dms-pkg-update",
+    "rev": "5fa0bda22553da46f907ba8ba647c34337b41dca",
     "rootDir": "",
-    "sha256": "0p94wyd5yrzy413mphkmvrm58d1gf8qz6mk728473ks443khsy0d",
+    "sha256": "19n0z1322vbl4k8dpwddppfi7wzw1vjvjvk7b3ahza3k0vfrflcm",
     "url": "https://github.com/rahulmysore23/dms-pkg-update"
   },
   "polyglot": {
@@ -4022,12 +4022,12 @@
     "url": "https://github.com/lpv11/dms-hypr-show-desktop"
   },
   "simpleAudioControl": {
-    "date": "2026-04-19T23:49:08+07:00",
+    "date": "2026-04-20T01:34:29+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jmX/iZeJMGGtOq8zYfF91YS73LGxpu0Qh1HjZb4xLNI=",
+    "hash": "sha256-TyJaUDK+UVxqBY3GzyGRes//sgq5iqkXBFLW6njoci4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Dadangdut33",
@@ -4050,10 +4050,10 @@
       "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/SimpleAudioControl/preview/tab-1.png",
       "version": "1.0.4"
     },
-    "path": "/nix/store/vya8rnvzkfkj73s6rb5hk3fhypyfljdr-dms-plugins",
-    "rev": "415bfd46a7b35ba61aba66d2ae6f8d1a8dee3b4e",
+    "path": "/nix/store/s55kjdxvs1ygssppapfb6hyp3dvkbrrb-dms-plugins",
+    "rev": "b69014022734f7945d710e99c24463d3f9a0916d",
     "rootDir": "",
-    "sha256": "1lic66z6bqsihw8fv9min7fbp16mgpqn2cxg7ann2c49jy4zyrcf",
+    "sha256": "0bkjx1wfmmjj0hbsk2mr1argzkvsj4hwzild0mm5qldy6985l8jg",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "sshConnections": {
@@ -4242,12 +4242,12 @@
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
   "tasks": {
-    "date": "2026-04-15T20:00:14+05:30",
+    "date": "2026-04-20T01:39:06+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5bmc/TZ4HVi2l9zLpYYHRR/L9RqvHehDMMbLCq0zNqk=",
+    "hash": "sha256-vP0osOTh6d4vYkMjBO1LZNUv5oruNc0D+2EXJSQDcT4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Yasiru Dharmathilaka",
@@ -4270,12 +4270,12 @@
       "name": "Tasks",
       "repo": "https://github.com/AyoItsYas/dms-tasks",
       "screenshot": "https://raw.githubusercontent.com/AyoItsYas/dms-tasks/refs/heads/main/screenshot.png",
-      "version": "1.0.5"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/1vsp0yzlz1617k87vss19syynn2zj6zl-dms-tasks",
-    "rev": "e81b6b324350db994ccfde6190f046d879f1d575",
+    "path": "/nix/store/s3f7xf0fc8hnafjz5dznhdlmjn4kbdni-dms-tasks",
+    "rev": "1f3640b8c6ad79f5e9f4914ee082d39d36ca959a",
     "rootDir": "",
-    "sha256": "1a9n6fnhmjy6611yh7dg3bswn7s50y3abjywjyv5h7bq6vyrrfg5",
+    "sha256": "0gki0cj2a5v1zc1wsdgfibk2zmb49gnh88s3c8pxxsg1wjq2izdw",
     "url": "https://github.com/AyoItsYas/dms-tasks"
   },
   "taskwarrior": {
