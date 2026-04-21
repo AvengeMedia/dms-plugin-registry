@@ -4618,7 +4618,7 @@
       "capabilities": [
         "wallpaper-downloader",
         "wallpaper-set",
-        "dankbar-widget"
+        "daemon"
       ],
       "category": "appearance",
       "compositors": [
@@ -4642,6 +4642,40 @@
     "rootDir": "",
     "sha256": "1c4xzsqb17f7zgzgviq40wx69q8ymdw1fif1n7bngk6p33id7dlg",
     "url": "https://github.com/max72bra/DankPluginBingWallpaper"
+  },
+  "wallpaperBingWidget": {
+    "date": "2026-04-19T18:36:04+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-fm71fqype+qCugLXNwqjKPHfMHnTRtO17sVzBqIEnL0=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "maxb",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "A new fresh daily wallpaper downloaded from a famous portal (Widget)",
+      "distro": [
+        "any"
+      ],
+      "id": "wallpaperBingWidget",
+      "name": "Wallpaper of the Day (Widget)",
+      "repo": "https://github.com/max72bra/DankPluginBingWallpaperWidget",
+      "screenshot": "https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaperWidget/refs/heads/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/v0h2i7fqfi3v0k4kvxrlblvkbhhiv1wd-DankPluginBingWallpaperWidget",
+    "rev": "c915635126c5acd19310fa1544df1b86d5f39f43",
+    "rootDir": "",
+    "sha256": "1gcw0ji0cwy5xssx6inkg4qdzw98lc53gmq2pa1flyx9mizgavky",
+    "url": "https://github.com/max72bra/DankPluginBingWallpaperWidget"
   },
   "wallpaperCarousel": {
     "date": "2026-04-13T14:02:08Z",

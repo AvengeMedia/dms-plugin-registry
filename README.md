@@ -212,7 +212,7 @@ A new fresh daily wallpaper downloaded from a famous portal
 - name: Wallpaper of the Day
 - author: maxb
 - compositors: any
-- capabilities: wallpaper-downloader, wallpaper-set, dankbar-widget
+- capabilities: wallpaper-downloader, wallpaper-set, daemon
 - dependencies: curl
 - distro: any
 
@@ -224,6 +224,35 @@ A new fresh daily wallpaper downloaded from a famous portal
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaper/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Wallpaper of the Day (Widget)](https://github.com/max72bra/DankPluginBingWallpaperWidget)
+
+A new fresh daily wallpaper downloaded from a famous portal (Widget)
+
+
+
+- id: wallpaperBingWidget
+- name: Wallpaper of the Day (Widget)
+- author: maxb
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaperWidget/refs/heads/main/screenshot.png)
 
 </details>
 
