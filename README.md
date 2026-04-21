@@ -1992,6 +1992,40 @@ Desktop widget that displays RSS/Atom feeds with auto-refresh
 
 
 
+#### [DankPinentry](https://github.com/pacman99/DankPinentry)
+
+GPG/SSH passphrase entry with native DMS modal.
+
+
+
+- id: dankPinentry
+- name: DankPinentry
+- author: Parthiv Seetharaman
+- compositors: any
+- capabilities: authentication, ipc, daemon
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugin](https://github.com/pacman99/DankPinentry/tree/main/plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Pacman99/DankPinentry/refs/heads/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Desktop Command](https://github.com/yayuuu/desktopCommand)
 
 A widget that displays a command output on your desktop
