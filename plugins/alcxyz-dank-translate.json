@@ -8,5 +8,6 @@
     "description": "Translate text between languages using translate-shell",
     "dependencies": ["trans", "wl-copy"],
     "compositors": ["any"],
-    "distro": ["any"]
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-translate.png"
 }

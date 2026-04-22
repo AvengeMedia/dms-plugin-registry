@@ -8,5 +8,6 @@
     "description": "Minimal web search from the launcher with engine prefixes",
     "dependencies": ["xdg-open"],
     "compositors": ["any"],
-    "distro": ["any"]
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-quick-search.png"
 }

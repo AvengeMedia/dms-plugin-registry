@@ -8,5 +8,6 @@
     "description": "Control Spotify playback and search tracks via ncspot",
     "dependencies": ["busctl", "ncspot", "wtype"],
     "compositors": ["any"],
-    "distro": ["any"]
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-spotify.png"
 }

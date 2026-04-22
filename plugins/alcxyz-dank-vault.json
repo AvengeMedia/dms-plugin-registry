@@ -8,5 +8,6 @@
     "description": "Search and copy passwords from your vault via rbw, pass, gopass, or op",
     "dependencies": ["wl-copy"],
     "compositors": ["any"],
-    "distro": ["any"]
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-vault.png"
 }
