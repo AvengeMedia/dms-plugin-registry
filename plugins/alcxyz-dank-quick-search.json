@@ -1,0 +1,12 @@
+{
+    "id": "dankQuickSearch",
+    "name": "Quick Search",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/alcxyz/DankQuickSearch",
+    "author": "alcxyz",
+    "description": "Minimal web search from the launcher with engine prefixes",
+    "dependencies": ["xdg-open"],
+    "compositors": ["any"],
+    "distro": ["any"]
+}

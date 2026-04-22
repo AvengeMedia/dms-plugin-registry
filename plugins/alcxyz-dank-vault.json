@@ -1,0 +1,12 @@
+{
+    "id": "dankVault",
+    "name": "Vault",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/alcxyz/DankVault",
+    "author": "alcxyz",
+    "description": "Search and copy passwords from your vault via rbw, pass, gopass, or op",
+    "dependencies": ["wl-copy"],
+    "compositors": ["any"],
+    "distro": ["any"]
+}

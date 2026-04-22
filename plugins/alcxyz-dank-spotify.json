@@ -1,0 +1,12 @@
+{
+    "id": "dankSpotify",
+    "name": "Spotify",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/alcxyz/DankSpotify",
+    "author": "alcxyz",
+    "description": "Control Spotify playback and search tracks via ncspot",
+    "dependencies": ["busctl", "ncspot", "wtype"],
+    "compositors": ["any"],
+    "distro": ["any"]
+}

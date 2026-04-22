@@ -1,0 +1,12 @@
+{
+    "id": "dankTranslate",
+    "name": "Translate",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/alcxyz/DankTranslate",
+    "author": "alcxyz",
+    "description": "Translate text between languages using translate-shell",
+    "dependencies": ["trans", "wl-copy"],
+    "compositors": ["any"],
+    "distro": ["any"]
+}
