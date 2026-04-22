@@ -1,0 +1,13 @@
+{
+    "id": "dmsDesktopCountdown",
+    "name": "DMS Desktop Countdown",
+    "capabilities": ["desktop"],
+    "category": "utilities",
+    "repo": "https://github.com/nfoert/dms-desktop-countdown",
+    "author": "nfoert",
+    "description": "Allows creating desktop widget countdowns with progress, view options, and the ability to only count certain days in a week",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/nfoert/dms-desktop-countdown/blob/main/repo/images/image.png?raw=true"
+}
