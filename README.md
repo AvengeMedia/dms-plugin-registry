@@ -34,7 +34,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Utility](#utility) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Productivity](#productivity) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Utility](#utility) | [Weather](#weather)
 
 ---
 
@@ -809,6 +809,43 @@ Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png)
+
+</details>
+
+
+
+
+
+---
+
+
+
+### Productivity
+
+
+
+#### [Dank Todo](https://github.com/deepu105/dms-dank-todo)
+
+A simple locally-saved TODO list widget for the Dank bar.
+
+
+
+- id: dankTodo
+- name: Dank Todo
+- author: Deepu K Sasidharan
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: arch
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/deepu105/dms-dank-todo/main/screenshot.png)
 
 </details>
 
