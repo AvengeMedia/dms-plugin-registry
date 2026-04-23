@@ -1981,6 +1981,41 @@
     "sha256": "00p33ha0yr87dxw9w30wfsd5v2q3qbcfx9j8b1ax5lqxk88kwqny",
     "url": "https://github.com/Francisdelca/dms-agent"
   },
+  "dmsDesktopCountdown": {
+    "date": "2026-04-22T18:43:51-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-L7wAccxYcjxvl1TT6mbCPs0xI+wAAMBossZ3KnzGNlY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "nfoert",
+      "capabilities": [
+        "desktop"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Allows creating desktop widget countdowns with progress, view options, and the ability to only count certain days in a week",
+      "distro": [
+        "any"
+      ],
+      "id": "dmsDesktopCountdown",
+      "name": "DMS Desktop Countdown",
+      "repo": "https://github.com/nfoert/dms-desktop-countdown",
+      "screenshot": "https://github.com/nfoert/dms-desktop-countdown/blob/main/repo/images/image.png?raw=true",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/5p9wysnxa42rrcmi29fqcrahwlgw3dlr-dms-desktop-countdown",
+    "rev": "6c7dce6e9336d1fcc0b53ed4e9a6e437217fd83c",
+    "rootDir": "",
+    "sha256": "0minqry2lxy6n9lc0000xhik3k9yq9kfmlsljxpkqwjqriqh1g1g",
+    "url": "https://github.com/nfoert/dms-desktop-countdown"
+  },
   "dmsLenovoBatterySettings": {
     "date": "2026-01-20T12:32:28+01:00",
     "deepClone": false,
@@ -3846,12 +3881,12 @@
     "url": "https://github.com/szabolcsf/dms-qcal-calendar"
   },
   "quranWidget": {
-    "date": "2026-04-09T08:57:04-04:00",
+    "date": "2026-04-23T08:41:52-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-xy6+SEF7WK7IHhxxWEY/EqiTMwvLwLliKsiXSyHRbCQ=",
+    "hash": "sha256-qt6zRjBr5hpQKoifKrAChPjxXEfIJh9QtCOKIt2D9T8=",
     "leaveDotGit": false,
     "meta": {
       "author": "MezoAhmedII",
@@ -3871,12 +3906,12 @@
       "name": "Quran Widget",
       "repo": "https://codeberg.org/MezoAhmedII/quranWidget",
       "screenshot": "https://codeberg.org/MezoAhmedII/quranWidget/raw/branch/main/screenshot.png",
-      "version": "1.0.1"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/ajiy8gyilq4pp5976pl6nc3bbljppj4y-quranWidget",
-    "rev": "4ae352c35db217f7641402f827644ba860d683e7",
+    "path": "/nix/store/25cm7ncanv0jw67ch59aw2ynakfhpj9i-quranWidget",
+    "rev": "eafc70b60edf8b61b2b0508fb129fd2802112e10",
     "rootDir": "",
-    "sha256": "093cs4hlp5y859ibkh6b1crr7a0j7x35hw8w3v4awn3v854bwbn7",
+    "sha256": "0gzmhgfj52i3ni81y9n88xfg3y440aq2m7w85981mrkb613b7pma",
     "url": "https://codeberg.org/MezoAhmedII/quranWidget"
   },
   "sathiAi": {
@@ -4279,12 +4314,12 @@
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
   "tasks": {
-    "date": "2026-04-20T01:39:06+05:30",
+    "date": "2026-04-23T16:42:39+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-vP0osOTh6d4vYkMjBO1LZNUv5oruNc0D+2EXJSQDcT4=",
+    "hash": "sha256-i6alqAsb19xtc9mA+1hJ0kJIwau2weY+S+ckxp0945I=",
     "leaveDotGit": false,
     "meta": {
       "author": "Yasiru Dharmathilaka",
@@ -4307,12 +4342,12 @@
       "name": "Tasks",
       "repo": "https://github.com/AyoItsYas/dms-tasks",
       "screenshot": "https://raw.githubusercontent.com/AyoItsYas/dms-tasks/refs/heads/main/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/s3f7xf0fc8hnafjz5dznhdlmjn4kbdni-dms-tasks",
-    "rev": "1f3640b8c6ad79f5e9f4914ee082d39d36ca959a",
+    "path": "/nix/store/4py2qiyg3lybrsclqv2vbzsbyqk188q0-dms-tasks",
+    "rev": "4059e181855d33abde5d15340f6b7e7574c186dd",
     "rootDir": "",
-    "sha256": "0gki0cj2a5v1zc1wsdgfibk2zmb49gnh88s3c8pxxsg1wjq2izdw",
+    "sha256": "14p37nfwc9779czfdhdnmg0lhhnj95cgp06rfdnxrmqv1flab9lb",
     "url": "https://github.com/AyoItsYas/dms-tasks"
   },
   "taskwarrior": {
