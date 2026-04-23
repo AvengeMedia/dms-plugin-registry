@@ -1616,6 +1616,40 @@
     "sha256": "03hpn4drwvfkqyqx046awcch19aw7jgr2c5i5kfvgajffdk08xrp",
     "url": "https://github.com/NordicsSys/DankSystemDoctor"
   },
+  "dankTodo": {
+    "date": "2026-04-23T14:45:47+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-PkjfBtfenenvGBrbapC13d36Ezl8g3DWIAaVBFc4XEM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Deepu K Sasidharan",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "productivity",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [],
+      "description": "A simple locally-saved TODO list widget for the Dank bar.",
+      "distro": [
+        "arch"
+      ],
+      "id": "dankTodo",
+      "name": "Dank Todo",
+      "repo": "https://github.com/deepu105/dms-dank-todo",
+      "screenshot": "https://raw.githubusercontent.com/deepu105/dms-dank-todo/main/screenshot.png",
+      "version": "1.2.0"
+    },
+    "path": "/nix/store/mpady5lc88rlyjzl38kxrlvvz58glzjv-dms-dank-todo",
+    "rev": "5a1db7e8a33c09aedbf325ba71d9c8bda2a5e54f",
+    "rootDir": "",
+    "sha256": "0hsw71bh958643b710vw749zmpfxnn86mnqs33pyk7fysw3dyj1y",
+    "url": "https://github.com/deepu105/dms-dank-todo"
+  },
   "dankUpsMonitor": {
     "date": "2026-04-16T16:49:41-06:00",
     "deepClone": false,
@@ -4314,12 +4348,12 @@
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
   "tasks": {
-    "date": "2026-04-23T16:42:39+05:30",
+    "date": "2026-04-23T20:21:04+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-i6alqAsb19xtc9mA+1hJ0kJIwau2weY+S+ckxp0945I=",
+    "hash": "sha256-eg9RVNww41y0j5TazqQH60cBlTKP2wjaBNGXZGXsm6M=",
     "leaveDotGit": false,
     "meta": {
       "author": "Yasiru Dharmathilaka",
@@ -4342,12 +4376,12 @@
       "name": "Tasks",
       "repo": "https://github.com/AyoItsYas/dms-tasks",
       "screenshot": "https://raw.githubusercontent.com/AyoItsYas/dms-tasks/refs/heads/main/screenshot.png",
-      "version": "1.1.1"
+      "version": "1.1.2"
     },
-    "path": "/nix/store/4py2qiyg3lybrsclqv2vbzsbyqk188q0-dms-tasks",
-    "rev": "4059e181855d33abde5d15340f6b7e7574c186dd",
+    "path": "/nix/store/qs1rxip0hmdrvanlc2hfr3pj6rdj3yfh-dms-tasks",
+    "rev": "cda181e17123b99e69a3e710b4487bb5f43f30ff",
     "rootDir": "",
-    "sha256": "14p37nfwc9779czfdhdnmg0lhhnj95cgp06rfdnxrmqv1flab9lb",
+    "sha256": "18wvxijn95yi0kd0inwg6aah2izb0yjcxnlliys5rqrhvia523vs",
     "url": "https://github.com/AyoItsYas/dms-tasks"
   },
   "taskwarrior": {
