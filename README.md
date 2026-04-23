@@ -1614,6 +1614,35 @@ AI desktop assistant powered by Claude Code. Floating chat panel for controlling
 
 
 
+#### [DMS Desktop Countdown](https://github.com/nfoert/dms-desktop-countdown)
+
+Allows creating desktop widget countdowns with progress, view options, and the ability to only count certain days in a week
+
+
+
+- id: dmsDesktopCountdown
+- name: DMS Desktop Countdown
+- author: nfoert
+- compositors: niri, hyprland
+- capabilities: desktop
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/nfoert/dms-desktop-countdown/blob/main/repo/images/image.png?raw=true)
+
+</details>
+
+
+
+
+
 #### [DMS Screenshot](https://github.com/JDKamalakar/DMS-Screenshot)
 
 Control DMS screenshot actions from the Widget & Control Center
