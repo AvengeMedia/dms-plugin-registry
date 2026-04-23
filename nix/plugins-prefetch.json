@@ -1,11 +1,11 @@
 {
   "adguardVPplugin": {
-    "date": "2026-04-12T16:54:20-03:00",
+    "date": "2026-04-22T15:12:18-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-nj1wM9DbKyJdHe8x19ELq7+uWVyb5LbwnQWy+tMCXuY=",
+    "hash": "sha256-FAohMKmKJFlGwguv2LHP+WVN3Rs2IDzCkwv3M7Ufho8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -30,12 +30,12 @@
       "repo": "https://github.com/bernardopg/dms-adguard-vpn-plugin",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/dms-adguard-vpn-plugin/main/docs/screenshot.png",
-      "version": "1.3.2"
+      "version": "1.3.3"
     },
-    "path": "/nix/store/qc56y0w6ra6id3ym1sykk2vsdqzqlxhg-dms-adguard-vpn-plugin",
-    "rev": "fd521488ede4eb6d78102be9a71f852990350402",
+    "path": "/nix/store/d0cq2vpy092p4200fv77xcqsl23malh1-dms-adguard-vpn-plugin",
+    "rev": "9117538221eff1d9bca7f8cafa35b8d23fe5d7e4",
     "rootDir": "",
-    "sha256": "1rjy0b9zmch5kpqbdr4vbicsxgxb1g8xfcgg3mfj4ayvs0rp0gcy",
+    "sha256": "13w63ysk7xqbjg13q81n3gflsrgrryqxibqbq935j94am4q222hl",
     "url": "https://github.com/bernardopg/dms-adguard-vpn-plugin"
   },
   "aiAssistant": {
@@ -2055,12 +2055,12 @@
     "url": "https://github.com/LouisKottmann/dms-pass"
   },
   "dmsScreenshot": {
-    "date": "2026-04-21T10:33:36+05:30",
+    "date": "2026-04-22T22:19:44+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jwcCR4XjnaN5Bt7LsDzPflcvyvuDL/vcGoMGcoA3ET8=",
+    "hash": "sha256-yCtsfBri8kGveQU3jzUUxszI+tbiKoUTwa5fAH+AZBg=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -2094,10 +2094,10 @@
       "type": "widget",
       "version": "1.2.1"
     },
-    "path": "/nix/store/dm294048wk8dsmj7b9jda4hc2xp7d6vl-DMS-Screenshot",
-    "rev": "6632f798b2a933f47d308267bd2fcd5099174962",
+    "path": "/nix/store/gzz9pil9d9j9z07w7n68hq6l2khibc8y-DMS-Screenshot",
+    "rev": "002f6e8b2c3d9c841f667afc2bbaf6a9f089afeb",
     "rootDir": "",
-    "sha256": "0gqi6y0741l33bfgnbw3zg52ymvyrwyb1jyy0rws77g3hm3h41wg",
+    "sha256": "0634h1zh0pxfq49qaap2svxcik662hsqydq5g6pl3wp239y6qay8",
     "url": "https://github.com/JDKamalakar/DMS-Screenshot"
   },
   "dmsSessionizer": {
@@ -3013,12 +3013,12 @@
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
   },
   "liveChartSchedule": {
-    "date": "2026-04-21T10:34:52+05:30",
+    "date": "2026-04-22T22:23:21+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ps0wVuV/W0qzfEc4GYxYFspBfbBeMPF9lvq8xaXj1Is=",
+    "hash": "sha256-iB4VvAXSiuU68n56b18GFRsPpia8ezObXNjWVQj/Y7o=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -3051,12 +3051,12 @@
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-LiveChart.me/refs/heads/main/assets/POP-Up_UI.png",
       "settings": "./LiveChartSettings.qml",
       "type": "widget",
-      "version": "1.0.2"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/22n67ylinngl0g8mfwjdldpx1ryf3ymh-DMS-LiveChart.me",
-    "rev": "6e8737d09ca774cdb0ba205d48cc576e28937f26",
+    "path": "/nix/store/rlz6ymnkbjj6c5a2wzgm610vzc1l3djg-DMS-LiveChart.me",
+    "rev": "14bfbf7c88d659c069f23fd672726b7a4d40c9bc",
     "rootDir": "",
-    "sha256": "12ylwfjwbg7sjryz2c2yn1yl3jhnb261jf27gjrllnvzwmb31kd6",
+    "sha256": "1fk3zw45bmnqbjdk6yxw4sk0y6qm0rgnyykyy8xfb2nj0ny1a7l8",
     "url": "https://github.com/JDKamalakar/DMS-LiveChart.me"
   },
   "lyricsOnPanel": {
