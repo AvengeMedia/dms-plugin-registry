@@ -235,12 +235,12 @@
     "url": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive"
   },
   "animeCalendar": {
-    "date": "2026-02-06T20:13:07+02:00",
+    "date": "2026-04-23T22:58:38+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-sfYuAgGxn49xpfNeQF7ZC+NbuBkGn6+HVolZ/FFaCzE=",
+    "hash": "sha256-FpYhJ3Dgb+a/QKl9Lo69pwAbS3u0AMDpPUUnAjoc4aE=",
     "leaveDotGit": false,
     "meta": {
       "author": "Ricea Ion Raul",
@@ -263,10 +263,10 @@
       "screenshot": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin/blob/main/screenshots/today-tab.png?raw=true",
       "version": "1.0.0"
     },
-    "path": "/nix/store/6qr156ps5a3v2q3b62f2409kk39xxrx0-DMS-AnimeCalendarPlugin",
-    "rev": "1ce0c348596f55503cfab4300e25f50a4870b553",
+    "path": "/nix/store/v75fqrbql6i77jxv9gq5cxlzyzawhhfn-DMS-AnimeCalendarPlugin",
+    "rev": "25c372ecbd4790cc37bf373ddd6b4bd61261dd5e",
     "rootDir": "",
-    "sha256": "0c8bb98zqnc9as3sz7q636w5pqqbv5g40ppklmqqz7xi0412xxmi",
+    "sha256": "18g13hx049s57plw005lgd5in057pn72wzd982zycvz0f0kj35hn",
     "url": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin"
   },
   "appShortcut": {
@@ -3915,12 +3915,12 @@
     "url": "https://github.com/szabolcsf/dms-qcal-calendar"
   },
   "quranWidget": {
-    "date": "2026-04-23T08:41:52-04:00",
+    "date": "2026-04-23T20:33:28-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-qt6zRjBr5hpQKoifKrAChPjxXEfIJh9QtCOKIt2D9T8=",
+    "hash": "sha256-BzVsggLh+klxfZEjI1Jc0R6+mpVcOVclP3X+jEmPX5s=",
     "leaveDotGit": false,
     "meta": {
       "author": "MezoAhmedII",
@@ -3940,12 +3940,12 @@
       "name": "Quran Widget",
       "repo": "https://codeberg.org/MezoAhmedII/quranWidget",
       "screenshot": "https://codeberg.org/MezoAhmedII/quranWidget/raw/branch/main/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/25cm7ncanv0jw67ch59aw2ynakfhpj9i-quranWidget",
-    "rev": "eafc70b60edf8b61b2b0508fb129fd2802112e10",
+    "path": "/nix/store/sbjvpnsjng8f8wid616gy3j8pc90qchq-quranWidget",
+    "rev": "f3619ba24b22f56fc0b44fe911176f269ebea635",
     "rootDir": "",
-    "sha256": "0gzmhgfj52i3ni81y9n88xfg3y440aq2m7w85981mrkb613b7pma",
+    "sha256": "16szix4qrzkm7wjmffawjndbw7nibi9268wigmqlkyp10a16qd87",
     "url": "https://codeberg.org/MezoAhmedII/quranWidget"
   },
   "sathiAi": {
