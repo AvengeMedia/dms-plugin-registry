@@ -603,6 +603,35 @@ Real-time UPS status widget via NUT (upsc).
 
 
 
+#### [Disk Usage](https://github.com/alcxyz/DankDiskUsage)
+
+Monitor disk, ZFS pool, and Nix store usage with smart mount classification and expandable ZFS pool detail
+
+
+
+- id: dankDiskUsage
+- name: Disk Usage
+- author: alcxyz
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alcxyz/DankDiskUsage/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Game Controller Battery](https://github.com/Hujair/gameControllerBattery)
 
 Shows the battery level of connected game controllers
