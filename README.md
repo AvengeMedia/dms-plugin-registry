@@ -3326,6 +3326,35 @@ Monitor and control your Pulsar X3 gaming mouse
 
 
 
+#### [Quick Search](https://github.com/alcxyz/DankQuickSearch)
+
+Minimal web search from the launcher with engine prefixes
+
+
+
+- id: dankQuickSearch
+- name: Quick Search
+- author: alcxyz
+- compositors: any
+- capabilities: launcher
+- dependencies: xdg-open
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alcxyz/DankQuickSearch/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Quran Widget](https://codeberg.org/MezoAhmedII/quranWidget)
 
 Shows a random Quranic Ayah / verse on the desktop
@@ -3607,6 +3636,35 @@ A simple widget for controlling audio output and input. Inspired by the audio wi
 
 
 
+#### [Spotify](https://github.com/alcxyz/DankSpotify)
+
+Control Spotify playback and search tracks via ncspot
+
+
+
+- id: dankSpotify
+- name: Spotify
+- author: alcxyz
+- compositors: any
+- capabilities: launcher
+- dependencies: busctl, ncspot, wtype
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alcxyz/DankSpotify/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Steam Friends](https://github.com/banicans/DMS-SteamFriends)
 
 Shows how many Steam friends are online, and whos online playing what.
@@ -3786,6 +3844,35 @@ Display a customizable countdown timer in the Dankbar. Perfect for tracking impo
 
 
 
+#### [Translate](https://github.com/alcxyz/DankTranslate)
+
+Translate text between languages using translate-shell
+
+
+
+- id: dankTranslate
+- name: Translate
+- author: alcxyz
+- compositors: any
+- capabilities: launcher
+- dependencies: trans, wl-copy
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alcxyz/DankTranslate/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Trash Bin](https://github.com/kerojiang/dms-transBin)
 
 Monitor and manage your system trash directly from your status bar. Features real-time monitoring, quick access, empty trash button, and auto-clean configuration.
@@ -3866,6 +3953,35 @@ Quick access to recent Visual Studio Code files, folders, and projects
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/sr-tream/dms-vscode-launcher/58d7f29059743b7ba905096bedf73a826cfd0833/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Vault](https://github.com/alcxyz/DankVault)
+
+Search and copy passwords from your vault via rbw, pass, gopass, or op
+
+
+
+- id: dankVault
+- name: Vault
+- author: alcxyz
+- compositors: any
+- capabilities: launcher
+- dependencies: wl-copy
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alcxyz/DankVault/main/docs/screenshot.png)
 
 </details>
 
