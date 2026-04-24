@@ -1116,6 +1116,40 @@
     "sha256": "0sjgh5vasny887krh1cw6177nagwfwf5a0yj8zwb9i1dbfgpx319",
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
+  "dankDiskUsage": {
+    "date": "2026-04-23T21:25:46+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-O/PKdb868r20YCVEap8Qi0fe08jP+e8kRyjWgYDzdNA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "alcxyz",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Monitor disk, ZFS pool, and Nix store usage with smart mount classification and expandable ZFS pool detail",
+      "distro": [
+        "any"
+      ],
+      "id": "dankDiskUsage",
+      "name": "Disk Usage",
+      "repo": "https://github.com/alcxyz/DankDiskUsage",
+      "screenshot": "https://raw.githubusercontent.com/alcxyz/DankDiskUsage/main/docs/screenshot.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/0cmfw6pxc538drw3rw7lxy4xq1xryjbr-DankDiskUsage",
+    "rev": "2408794ddf6cbaaff8030266227fe98f05decf28",
+    "rootDir": "",
+    "sha256": "1l3lyf083mi88wjfzyfgr39xwiwb22gnli15c2sbvwispxswmwrv",
+    "url": "https://github.com/alcxyz/DankDiskUsage"
+  },
   "dankGifSearch": {
     "date": "2026-04-16T14:31:15-04:00",
     "deepClone": false,
