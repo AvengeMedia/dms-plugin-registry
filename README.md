@@ -4398,6 +4398,17 @@ inspired by dank.
 
 
 
+### Deep Dark
+
+Deep and dark color themes with two variants to fit with being dark better
+
+- **Author:** viewerofall
+- **ID:** `deepdark` **Version:** `1.0.0`
+
+![Deep Dark](themes/deepdark/preview.svg)
+
+
+
 ### Dracula
 
 Dracula dark theme with Alucard light variant
