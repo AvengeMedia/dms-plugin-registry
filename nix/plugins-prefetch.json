@@ -189,12 +189,12 @@
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor"
   },
   "amdGpuMonitorRevive": {
-    "date": "2026-04-21T10:33:06+05:30",
+    "date": "2026-04-25T13:11:01+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-gQteRhq4rZVK55/jqpDzwBJSfqjuwMEKAZLnDUQrc5g=",
+    "hash": "sha256-AWtEDMfFhjiPLGGA7EpunsjuTLjld97UVW5nOOWBVi4=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar.",
@@ -228,10 +228,10 @@
       "type": "widget",
       "version": "1.2.4"
     },
-    "path": "/nix/store/2hr7man3bvppshyqrcjb7mi791j2pf7c-DMS-AMD_GPU_Monitor_Revive",
-    "rev": "a266bb454c3f3657ee53013a5f5c98d676acd641",
+    "path": "/nix/store/nlihcbgca9lc7vd8lyy08a4h0g1zpk9h-DMS-AMD_GPU_Monitor_Revive",
+    "rev": "96fc3dd0e1df45fdd75650749362c6b1752f010c",
     "rootDir": "",
-    "sha256": "163k5d20vrwj045c3h7fm1z544n0yf8amqwzwx59bbdq3935w2w1",
+    "sha256": "0bjnh7jkhrvfapadwxz5p16fxj4ydr5fr0315j7ki1n5qw648sq1",
     "url": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive"
   },
   "animeCalendar": {
@@ -2305,12 +2305,12 @@
     "url": "https://github.com/LouisKottmann/dms-pass"
   },
   "dmsScreenshot": {
-    "date": "2026-04-22T22:19:44+05:30",
+    "date": "2026-04-25T13:03:05+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-yCtsfBri8kGveQU3jzUUxszI+tbiKoUTwa5fAH+AZBg=",
+    "hash": "sha256-bOxndJxjAqSvEohwWRphEc7/7ZTMN+t8dq9Mbliabv8=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -2342,21 +2342,21 @@
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Screenshot/refs/heads/main/assets/Dank-Bar_Widget.png",
       "settings": "./Settings.qml",
       "type": "widget",
-      "version": "1.2.1"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/gzz9pil9d9j9z07w7n68hq6l2khibc8y-DMS-Screenshot",
-    "rev": "002f6e8b2c3d9c841f667afc2bbaf6a9f089afeb",
+    "path": "/nix/store/xxz4rs0lpq21iwva3xbnp10ihs1b3s7w-DMS-Screenshot",
+    "rev": "a2816cd2c7fd6907b5c57fa37fb56175b42c6f14",
     "rootDir": "",
-    "sha256": "0634h1zh0pxfq49qaap2svxcik662hsqydq5g6pl3wp239y6qay8",
+    "sha256": "1zvfk9c6wk5gfryfndycjknzzkhic4d5jw482aps80k3kis6gv3c",
     "url": "https://github.com/JDKamalakar/DMS-Screenshot"
   },
   "dmsSessionizer": {
-    "date": "2026-02-02T10:25:28-03:00",
+    "date": "2026-04-24T23:40:29-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-OjoXP7ZLVV2h1a8tf/6o49oj1i0KFfjmpKPWLeVu/sM=",
+    "hash": "sha256-DFzk07swdpmqueUKR9gH3X2bbzR1sXRHmi5vB3M22cM=",
     "leaveDotGit": false,
     "meta": {
       "author": "leonardofranco01",
@@ -2380,12 +2380,12 @@
       "name": "DMS Sessionizer",
       "repo": "https://github.com/leonardofranco01/dms-sessionizer",
       "screenshot": "https://raw.githubusercontent.com/leonardofranco01/dms-sessionizer/refs/heads/main/assets/screenshot.png",
-      "version": "1.1.1"
+      "version": "1.5.4"
     },
-    "path": "/nix/store/3m3nkaxfn1acnjnd46pvy3hsinsaj4bi-dms-sessionizer",
-    "rev": "110a031dd6d31282ee33d0b33b4a4ff9d15b1999",
+    "path": "/nix/store/kxvxjhpri9y3qs5znraly07sfggk73h0-dms-sessionizer",
+    "rev": "8665035ae213f26f0bc5b87dc0cc9573b23476e9",
     "rootDir": "",
-    "sha256": "1hzydvjjvmm3lkkgh58a5pb27np3m3z7ybdgsnhmsmabnqziffis",
+    "sha256": "1hyr6rrhfvrfk93p9cbm6iprnzfx0zc4f2p5p6m9jxihpg9y8p0c",
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dockerManager": {
@@ -2691,12 +2691,12 @@
     "url": "https://github.com/Incognitux/dms-format-color-picker"
   },
   "fullscreenPowerMenu": {
-    "date": "2026-04-21T10:34:25+05:30",
+    "date": "2026-04-25T14:30:21+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-K16k0+yVpNBJYhGr7gknsxqbbwVohjwP6VdlTME3BHo=",
+    "hash": "sha256-pn/TGuhtyCpBa6Z9nFnuYTqmG39Ze7OS2o0Gkr+wvUo=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -2730,10 +2730,10 @@
       "type": "daemon",
       "version": "1.0.0"
     },
-    "path": "/nix/store/w40v17srk82fkkgdkl14pwj7gk7fhb0f-DMS-Fullscreen_Power_Menu",
-    "rev": "eef19462dc517e71bf01e68157c8527c4dbd2e6d",
+    "path": "/nix/store/123d90cji1bp49blpzc5mgn8cq3d45lj-DMS-Fullscreen_Power_Menu",
+    "rev": "b916d0c2aafbc6d60e9abef4ce47b6e7d6862ec6",
     "rootDir": "",
-    "sha256": "0yh46z0lqrapx47kr1k80mprn6mk4w4yxaqic94x194mxk9s8pib",
+    "sha256": "0jmxn2zr41ldva9b6ysrgwdscfk1xrcrqzd6dd0jmj3dx0dd6zx6",
     "url": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu"
   },
   "gameControllerBattery": {
@@ -3263,12 +3263,12 @@
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
   },
   "liveChartSchedule": {
-    "date": "2026-04-22T22:23:21+05:30",
+    "date": "2026-04-25T13:04:57+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-iB4VvAXSiuU68n56b18GFRsPpia8ezObXNjWVQj/Y7o=",
+    "hash": "sha256-AswjaXCVSJ/mpSZU/jjv1av+WOipP1oVkyn/tcsiSk8=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -3303,10 +3303,10 @@
       "type": "widget",
       "version": "1.1.1"
     },
-    "path": "/nix/store/rlz6ymnkbjj6c5a2wzgm610vzc1l3djg-DMS-LiveChart.me",
-    "rev": "14bfbf7c88d659c069f23fd672726b7a4d40c9bc",
+    "path": "/nix/store/lgg8mg9p4kdg1nbkpidvmskfdn1xl831-DMS-LiveChart.me",
+    "rev": "8a31b57848476c9f0dd32ae20190465f7ade6fbb",
     "rootDir": "",
-    "sha256": "1fk3zw45bmnqbjdk6yxw4sk0y6qm0rgnyykyy8xfb2nj0ny1a7l8",
+    "sha256": "0ksa4b5vbzr9jcamlgx9x1cgxaymxwwgwm16lpk9yj4mf1lj7k02",
     "url": "https://github.com/JDKamalakar/DMS-LiveChart.me"
   },
   "lyricsOnPanel": {
@@ -4096,12 +4096,12 @@
     "url": "https://github.com/szabolcsf/dms-qcal-calendar"
   },
   "quranWidget": {
-    "date": "2026-04-23T20:33:28-04:00",
+    "date": "2026-04-25T08:36:08-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-BzVsggLh+klxfZEjI1Jc0R6+mpVcOVclP3X+jEmPX5s=",
+    "hash": "sha256-JbAgaWlFumFMX9Q29OKWHgweWEX++knOokF9gvWDj0o=",
     "leaveDotGit": false,
     "meta": {
       "author": "MezoAhmedII",
@@ -4121,12 +4121,12 @@
       "name": "Quran Widget",
       "repo": "https://codeberg.org/MezoAhmedII/quranWidget",
       "screenshot": "https://codeberg.org/MezoAhmedII/quranWidget/raw/branch/main/screenshot.png",
-      "version": "1.1.1"
+      "version": "1.1.2"
     },
-    "path": "/nix/store/sbjvpnsjng8f8wid616gy3j8pc90qchq-quranWidget",
-    "rev": "f3619ba24b22f56fc0b44fe911176f269ebea635",
+    "path": "/nix/store/0m63wlnvng6qbva149cjy06w79da6s4j-quranWidget",
+    "rev": "6cb5cf7ff4c97ae7907cd7eae6b92a86ad26f04f",
     "rootDir": "",
-    "sha256": "16szix4qrzkm7wjmffawjndbw7nibi9268wigmqlkyp10a16qd87",
+    "sha256": "0jlghgsq4za1lb74kypy8mc1w30yjvig8dnlbx663fj5d5lj1c15",
     "url": "https://codeberg.org/MezoAhmedII/quranWidget"
   },
   "sathiAi": {
