@@ -960,12 +960,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankBitwarden": {
-    "date": "2026-02-14T10:35:23-08:00",
+    "date": "2026-04-25T21:03:56-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-FKmMTqUCR/Rl/WJT9Q/+q8IsNPIDW+7ZJSX0zmkrs18=",
+    "hash": "sha256-S35lcOJocxoHdZaMnOvBBhwvYLd08nK8iS7gelJ6JXE=",
     "leaveDotGit": false,
     "meta": {
       "author": "Parthiv Seetharaman",
@@ -990,10 +990,10 @@
       "screenshot": "https://raw.githubusercontent.com/Pacman99/DankBitwarden/refs/heads/master/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/fy2j58qi0knfm44q7v2vapqzan9h7mbg-DankBitwarden",
-    "rev": "88834a3a2a2b1f853fd6efa989ed2f2aee58cab5",
+    "path": "/nix/store/wwg1grac1lph4wbw31p500rdcpkrk3nw-DankBitwarden",
+    "rev": "adacd2301b1e1a29fa628e7c427912f5e3ede91f",
     "rootDir": "",
-    "sha256": "0pxk5dlwxx154pcywnq3y8s2rhmbzq7zalv2zmjz8iq2lm78ra8l",
+    "sha256": "0w95g997mq1fi6y75wklnxh2y706q7mrr34nfl3ilwv8w9q6azjb",
     "url": "https://github.com/pacman99/DankBitwarden"
   },
   "dankCleaner": {
