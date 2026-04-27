@@ -487,12 +487,12 @@
     "url": "https://github.com/psyreactor/dms-awcc"
   },
   "calculator": {
-    "date": "2026-02-12T18:45:29Z",
+    "date": "2026-04-26T20:40:15+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bhV22bL38CJp58Y8tCY8sEBRYxmuk671fEymmdg0Yuk=",
+    "hash": "sha256-62Te69K3bcWNMJHdrg3nTryogo4g80Z7gyE9BZ1CG+Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bruno Cesar Rocha",
@@ -514,12 +514,12 @@
       "repo": "https://github.com/rochacbruno/DankCalculator",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png",
-      "version": "0.2.2"
+      "version": "0.2.3"
     },
-    "path": "/nix/store/gnf7wv9wrrplf5a6lvf58fav99dy4gd9-DankCalculator",
-    "rev": "07d7c123a5aee9ac4fd4347bbae36d5957b021f9",
+    "path": "/nix/store/plzin36ff8l2iwmcrb5rsz4js6vagby2-DankCalculator",
+    "rev": "b0c8799ded545615a38e6a6a088cf762aaa7857c",
     "rootDir": "",
-    "sha256": "1sb26kc9k9jcgkssx4xf35im2h5h7hkb8g66wxlj5w7pnbcpc5bf",
+    "sha256": "1r0v8afhag91hdxldwr0is1aig2fww6sxpci626wavdpsbmxwr7b",
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
   "canvasGrades": {
@@ -960,12 +960,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankBitwarden": {
-    "date": "2026-04-25T21:03:56-04:00",
+    "date": "2026-04-26T02:38:53-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-S35lcOJocxoHdZaMnOvBBhwvYLd08nK8iS7gelJ6JXE=",
+    "hash": "sha256-/O2QXF/0zNbSvkq5SwIyHdozcR39FNLc5CuFfeD3XBc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Parthiv Seetharaman",
@@ -990,10 +990,10 @@
       "screenshot": "https://raw.githubusercontent.com/Pacman99/DankBitwarden/refs/heads/master/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/wwg1grac1lph4wbw31p500rdcpkrk3nw-DankBitwarden",
-    "rev": "adacd2301b1e1a29fa628e7c427912f5e3ede91f",
+    "path": "/nix/store/g9n2qiqkf29v79b1jg6ic2x3a5i9ay1z-DankBitwarden",
+    "rev": "3d70eb342750fe64f2baa8f69102992f2a644d98",
     "rootDir": "",
-    "sha256": "0w95g997mq1fi6y75wklnxh2y706q7mrr34nfl3ilwv8w9q6azjb",
+    "sha256": "05swyzh7v19bwkfd457x3mqk7nhx6814pfaapv9ddk7lbxf91vgw",
     "url": "https://github.com/pacman99/DankBitwarden"
   },
   "dankCleaner": {
@@ -1420,12 +1420,12 @@
     "url": "https://github.com/Samoggino/dankObsidian"
   },
   "dankPinentry": {
-    "date": "2026-04-21T20:08:47-04:00",
+    "date": "2026-04-26T19:46:29-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-qHqw0q5uIrNjapxyz1fRcD4Nx61RFw9kWUn/5P56uOM=",
+    "hash": "sha256-D0d9+HrRnK4pkvg6sVF/unoVatxCxBcM9+4XXkoJhJU=",
     "leaveDotGit": false,
     "meta": {
       "author": "Parthiv Seetharaman",
@@ -1450,10 +1450,10 @@
       "screenshot": "https://raw.githubusercontent.com/Pacman99/DankPinentry/refs/heads/master/screenshot.png",
       "version": "0.1.0"
     },
-    "path": "/nix/store/7lwpyzl2wyarm2r3kg102dbp6k6rc77k-DankPinentry",
-    "rev": "4c4b520408d65de3591b79af640441fabc06f59e",
+    "path": "/nix/store/c7dnvcb78i0k2xhl6wjq9sqf9bb183pw-DankPinentry",
+    "rev": "ea36cbe586386626dff8df256a227709b726670b",
     "rootDir": "",
-    "sha256": "1qxqgbzf9zs9b5j0y5simp3hsgkhs5bwywlwd9iv68kfmv9b0ym8",
+    "sha256": "15c41555w5zfyw61gi22vim1aymsgx8v2fpqj8lsx76igbw7siqg",
     "url": "https://github.com/pacman99/DankPinentry"
   },
   "dankPomodoroTimer": {
@@ -3522,12 +3522,12 @@
     "url": "https://github.com/arrifat346afs/mediaPlayer"
   },
   "mpvpaperWallpaper": {
-    "date": "2026-03-25T11:57:14-04:00",
+    "date": "2026-04-26T11:24:47-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-WPgcMMvfFmgRZxVdVBy1lAcReWmlWvt2EIX4AIgo2bM=",
+    "hash": "sha256-VmtoP1XxMRQafpMRaWj2SwPJJq7vKvpuP9a710pdzTs=",
     "leaveDotGit": false,
     "meta": {
       "author": "kanghengliu",
@@ -3552,12 +3552,12 @@
       "name": "mpvpaper Video Wallpaper",
       "repo": "https://github.com/kanghengliu/dms-mpvpaper",
       "screenshot": "https://raw.githubusercontent.com/kanghengliu/dms-mpvpaper/main/screenshot.png",
-      "version": "1.1.1"
+      "version": "1.1.2"
     },
-    "path": "/nix/store/id187rrppkas5h4nwhfbmf8xn9hjlfdc-dms-mpvpaper",
-    "rev": "95b7abaf6d6287ab38212919e5fe9ac35bbf450b",
+    "path": "/nix/store/2ip9l4rc2ib83m0idhvc5kqc5ajh109v-dms-mpvpaper",
+    "rev": "9d551bf37da9cf5a34fefd44b51e1a50ffca0e92",
     "rootDir": "",
-    "sha256": "1cyr52401y4521vgnnm5d5wi21wlnlf58p8mcw8nh5nzrcq1ry2q",
+    "sha256": "0fydbm5dgfyn7xpglapgmqkcj0sbyrl6j4ckgqd18cgialznhssn",
     "url": "https://github.com/kanghengliu/dms-mpvpaper"
   },
   "musicLyrics": {
