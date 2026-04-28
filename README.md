@@ -3536,7 +3536,7 @@ A simple multi model ai client to use with your dank shell. Use it ollama, gemin
 
 #### [Screen Recorder](https://github.com/arqueon/dms-screen-recorder)
 
-Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)
+Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Supports IPC keybinds.
 
 
 
