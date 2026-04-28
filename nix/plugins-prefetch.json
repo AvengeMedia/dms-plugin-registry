@@ -487,12 +487,12 @@
     "url": "https://github.com/psyreactor/dms-awcc"
   },
   "calculator": {
-    "date": "2026-04-26T20:40:15+01:00",
+    "date": "2026-04-28T14:15:06+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-62Te69K3bcWNMJHdrg3nTryogo4g80Z7gyE9BZ1CG+Q=",
+    "hash": "sha256-08rpBZpNaYWa8DhdvGFhAD8zI3ezTkxQus6LwoLGuEw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bruno Cesar Rocha",
@@ -514,12 +514,12 @@
       "repo": "https://github.com/rochacbruno/DankCalculator",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png",
-      "version": "0.2.3"
+      "version": "0.3.1"
     },
-    "path": "/nix/store/plzin36ff8l2iwmcrb5rsz4js6vagby2-DankCalculator",
-    "rev": "b0c8799ded545615a38e6a6a088cf762aaa7857c",
+    "path": "/nix/store/hj0cqnrp5dk6haa2yl4mnaqsbzl998fm-DankCalculator",
+    "rev": "b8797a9a4068c5fee2a67358b60d82f532969792",
     "rootDir": "",
-    "sha256": "1r0v8afhag91hdxldwr0is1aig2fww6sxpci626wavdpsbmxwr7b",
+    "sha256": "0k5qqs1c52yfp984qkmkfwik6gq0c5hvqp9qy2d8asadk82ykjnk",
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
   "canvasGrades": {
@@ -2728,12 +2728,12 @@
     "url": "https://github.com/Incognitux/dms-format-color-picker"
   },
   "fullscreenPowerMenu": {
-    "date": "2026-04-28T01:34:33+05:30",
+    "date": "2026-04-28T22:49:46+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-19Wqon+UfaxLWFb+RWzYdqvNK8Ea1Ge6v9ZilY/o9UA=",
+    "hash": "sha256-KtiJoBe0ajbnOtCbNC6iqkbOvSHk7IYFQ2GdAlj5AnU=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -2765,12 +2765,12 @@
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Fullscreen_Power_Menu/refs/heads/main/assets/Main_UI.png",
       "settings": "./PowerMenuSettings.qml",
       "type": "daemon",
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
-    "path": "/nix/store/c3dshyvdvqlj8a5r83mj2bpkx0rz7hjm-DMS-Fullscreen_Power_Menu",
-    "rev": "b2106a9aafbdf21530126cc81d2e4faa1b5c26dc",
+    "path": "/nix/store/frdps1bpxav2cnryb3lcbr36b6zw581a-DMS-Fullscreen_Power_Menu",
+    "rev": "613c7b6a757994e1937fbfaa75004512113223f7",
     "rootDir": "",
-    "sha256": "0h7mx27raqnnpyx6gm0sq4mwvavnv1n4bzjnb15sqzclgyiammfp",
+    "sha256": "0x82z5c057b18c2qdv7446ywwimal8p396yh7bkkcsml2yh8kn1a",
     "url": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu"
   },
   "gameControllerBattery": {
@@ -4202,12 +4202,12 @@
     "url": "https://github.com/ss44/sathi.ai"
   },
   "screenRecorder": {
-    "date": "2026-04-02T21:16:35-06:00",
+    "date": "2026-04-28T12:10:34-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ndH8KHH+gzFIXWceqeUmy/w7oGj7ZvCEIacBfV1D+KU=",
+    "hash": "sha256-/SeQSlPeM0jDHg4yFmR82ODtnVs2bOovVG7TCMjH1vk=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -4221,7 +4221,7 @@
       "dependencies": [
         "gpu-screen-recorder"
       ],
-      "description": "Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)",
+      "description": "Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Supports IPC keybinds.",
       "distro": [
         "any"
       ],
@@ -4229,12 +4229,12 @@
       "name": "Screen Recorder",
       "repo": "https://github.com/arqueon/dms-screen-recorder",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/8xzqpn3pmgmzj891d9kv5sa1pvp92vcs-dms-screen-recorder",
-    "rev": "7206b590d69a165d30b5bbb66b033f1a15b49aff",
+    "path": "/nix/store/y0akr6qhxcq8basg6iky5nn43rmbhl7b-dms-screen-recorder",
+    "rev": "40364a8530f4364e2fd6b0eb8802d5fe4f241b8f",
     "rootDir": "",
-    "sha256": "19gq8dfps0d7462g0rpvd2h3pz6b4vjsj7k7bm4330zyf4lgrlcx",
+    "sha256": "1yfnqz40ilvfahpylv1nbffyvq6qgij1cchf3v1lhcyyad5909zx",
     "url": "https://github.com/arqueon/dms-screen-recorder"
   },
   "screenshotToggle": {
@@ -4746,12 +4746,12 @@
     "url": "https://github.com/kerojiang/dms-transBin"
   },
   "unifiedTaskbar": {
-    "date": "2026-03-14T15:50:09-04:00",
+    "date": "2026-04-28T11:52:05-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-k4LlpNnKyxSgJLWWq5YpSPrxL72miTM29DMyWExboUo=",
+    "hash": "sha256-JBxh0lU7mNmi6Yogh7NmSgPHAhBPVbu9+8z2HqORe3I=",
     "leaveDotGit": false,
     "meta": {
       "author": "Joshua Landau",
@@ -4773,10 +4773,10 @@
       "screenshot": "https://raw.githubusercontent.com/jslandau/dms-unified-taskbar/master/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/0fprg6c05f66fcqgzrp8sra02n8n5mdq-dms-unified-taskbar",
-    "rev": "4bd35ab2025523f26efe59a6e7780136b78593dd",
+    "path": "/nix/store/sknxy2gxfzrgy972d7a5qf5v1k2k32h0-dms-unified-taskbar",
+    "rev": "bf47a6c64e5a84434d1fd12401de25c243ca67c5",
     "rootDir": "",
-    "sha256": "0jm1bd65hcikyhv372d6plpz3yj856bap5mm4jh19jyav6jfb0lk",
+    "sha256": "0wkvj6iixxnczfyvnmag201cf0sacsrqf84ax6idk61vap962714",
     "url": "https://github.com/jslandau/dms-unified-taskbar"
   },
   "usbManager": {
