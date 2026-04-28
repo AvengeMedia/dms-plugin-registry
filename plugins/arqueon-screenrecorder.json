@@ -7,7 +7,7 @@
     "category": "utilities",
     "repo": "https://github.com/arqueon/dms-screen-recorder",
     "author": "arqueon",
-    "description": "Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)",
+    "description": "Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Supports IPC keybinds.",
     "dependencies": [
         "gpu-screen-recorder"
     ],
