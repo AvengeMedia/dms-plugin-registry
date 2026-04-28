@@ -996,6 +996,43 @@
     "sha256": "05swyzh7v19bwkfd457x3mqk7nhx6814pfaapv9ddk7lbxf91vgw",
     "url": "https://github.com/pacman99/DankBitwarden"
   },
+  "dankCalendar": {
+    "date": "2026-04-28T08:32:24+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-vDVOozlPJVC75Q6xIGPZp9OWjRZnIw+7we+DobtepB8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "alcxyz",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "secret-tool",
+        "notify-send"
+      ],
+      "description": "CalDAV calendar widget with event listing, notifications, and event management via a stdlib-only Go binary with keyring credentials",
+      "distro": [
+        "any"
+      ],
+      "id": "dankCalendar",
+      "name": "DankCalendar",
+      "repo": "https://github.com/alcxyz/DankCalendar",
+      "screenshot": "https://raw.githubusercontent.com/alcxyz/DankCalendar/v0.4.0/docs/screenshot.png",
+      "version": "0.4.1"
+    },
+    "path": "/nix/store/9d60hz8rq745y2jv9jqc12xj4g1wc7m7-DankCalendar",
+    "rev": "a73329b2d6610ca2b7f6d665c6e0a89a22848ab4",
+    "rootDir": "",
+    "sha256": "07x4bsxs30zgq6xhy8v72s6rdlx7v5ij1c8fwnxm09ag76ilwddw",
+    "url": "https://github.com/alcxyz/DankCalendar"
+  },
   "dankCleaner": {
     "date": "2026-03-31T18:08:49+07:00",
     "deepClone": false,
@@ -1117,12 +1154,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankDiskUsage": {
-    "date": "2026-04-23T21:25:46+02:00",
+    "date": "2026-04-28T08:34:24+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-O/PKdb868r20YCVEap8Qi0fe08jP+e8kRyjWgYDzdNA=",
+    "hash": "sha256-QoUclB99FjxxMD+5Jy7x4+fbl1e5aALeKwa7qf2rfPE=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -1142,12 +1179,12 @@
       "name": "Disk Usage",
       "repo": "https://github.com/alcxyz/DankDiskUsage",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankDiskUsage/main/docs/screenshot.png",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
-    "path": "/nix/store/0cmfw6pxc538drw3rw7lxy4xq1xryjbr-DankDiskUsage",
-    "rev": "2408794ddf6cbaaff8030266227fe98f05decf28",
+    "path": "/nix/store/33wxjqfl1ghd95nsz95ldzq9qc4qzkgm-DankDiskUsage",
+    "rev": "5836d380883a9d201ff128539f547b36eaa9fcba",
     "rootDir": "",
-    "sha256": "1l3lyf083mi88wjfzyfgr39xwiwb22gnli15c2sbvwispxswmwrv",
+    "sha256": "1wbwmgyskfq65gg04s5raybxprz3y4p2gf9z61qkq5kx3ya1r1a2",
     "url": "https://github.com/alcxyz/DankDiskUsage"
   },
   "dankGifSearch": {
@@ -1493,12 +1530,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankQuickSearch": {
-    "date": "2026-04-23T01:21:24+02:00",
+    "date": "2026-04-28T08:34:51+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Gj2Ki30LLcHEv4gpk1Fmo7DDrrjjrMSX5XTBMDgwTyo=",
+    "hash": "sha256-qJ7sVQhb8kf6hYbgQDYbkvP+uHOLXDdPObc+BP17kVg=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -1522,10 +1559,10 @@
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankQuickSearch/main/docs/screenshot.png",
       "version": "0.2.0"
     },
-    "path": "/nix/store/l46jysvm6llp6fk183f20h1h5ryk0lhx-DankQuickSearch",
-    "rev": "51df303b7d180ce0ec43198f22a43b6871e54a59",
+    "path": "/nix/store/4dximcv6ssskpw12l6qyhf52bbswghiz-DankQuickSearch",
+    "rev": "fd5c541f966b3b49fb857abc6e4b62472e5d1df7",
     "rootDir": "",
-    "sha256": "0ajg60w31hblwnbw9b73p2pc7c53cr8r6ac8pz2c2b8bgn5qlg8s",
+    "sha256": "0n4iggyh8gmp757kfp4bffwgxwwj3cv41q46hpx4gwjv11ayr7m8",
     "url": "https://github.com/alcxyz/DankQuickSearch"
   },
   "dankRazer": {
@@ -1602,12 +1639,12 @@
     "url": "https://github.com/BrendonJL/dms-rss-widget"
   },
   "dankSpotify": {
-    "date": "2026-04-23T01:21:26+02:00",
+    "date": "2026-04-28T08:34:39+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-143pW4WGyn0AM75Z/72sdxR2lL4CQ3pL+WupPCip4wk=",
+    "hash": "sha256-coojsn6RzZRaVbrtRoyv5gAu5VQjF3/nRl+I7dsWHq4=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -1633,10 +1670,10 @@
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankSpotify/main/docs/screenshot.png",
       "version": "0.2.0"
     },
-    "path": "/nix/store/0fd55mc5q46s6pqn093qgpyr7n5kpjvq-DankSpotify",
-    "rev": "827480c06acc2840a9baf13897246b1abe46b1eb",
+    "path": "/nix/store/irk0h13c6kdrjnk819fsvdnpqjblky8v-DankSpotify",
+    "rev": "da1a0a79473dc72cd4969c4a37d09575533232b8",
     "rootDir": "",
-    "sha256": "02g3m4l3rabbz55plhq2psa7c53pmjyzyndy6c07vjl6hmdyk3fp",
+    "sha256": "1bhy2vdyv22z8vkpy5r3akjjw076my64dvdsamd99kcigsr272kj",
     "url": "https://github.com/alcxyz/DankSpotify"
   },
   "dankStickerSearch": {
@@ -1759,12 +1796,12 @@
     "url": "https://github.com/deepu105/dms-dank-todo"
   },
   "dankTranslate": {
-    "date": "2026-04-23T01:21:28+02:00",
+    "date": "2026-04-28T08:35:00+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-pEtWuwuKAWqixdgwOSCsnDPXuua2OgH5D19KKS9d7xg=",
+    "hash": "sha256-CFmqfd2a4vMWgpT6EgPfLcEU/EquW2iaQ6q2wH0cc70=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -1789,10 +1826,10 @@
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankTranslate/main/docs/screenshot.png",
       "version": "0.1.1"
     },
-    "path": "/nix/store/a5bi0i2xqhgw5g2nc7i0zjl7vbabl9xs-DankTranslate",
-    "rev": "1fbc768e7c439992218d677a42a0ca0d24882184",
+    "path": "/nix/store/p1x6hjdr09wj282v5dn6c90l7fpzih39-DankTranslate",
+    "rev": "a0892945e1e84bdcca1908ee966b3ca50f5eb8b6",
     "rootDir": "",
-    "sha256": "067gblpjjjjz1zwh2fmnwsxdfcwwmhh3jc6qqni6l0ca1fxmcjx4",
+    "sha256": "1gbk3iyw1dma8fd6hnxf9by19h9dvw1i5yllh8bg7qlsvmysln88",
     "url": "https://github.com/alcxyz/DankTranslate"
   },
   "dankUpsMonitor": {
@@ -1832,12 +1869,12 @@
     "url": "https://github.com/acmagn/DMS-UPS-Monitor"
   },
   "dankVault": {
-    "date": "2026-04-23T21:51:45+02:00",
+    "date": "2026-04-28T08:34:59+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-LJPjxEBXYptep08gaqcEXGUOIZ9s+uOv5bS0xlAN6Ts=",
+    "hash": "sha256-hE1Wpp9T/ircuHLyMEZB6j7pidlbc79ij//jO5yuz0Y=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -1861,10 +1898,10 @@
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankVault/main/docs/screenshot.png",
       "version": "0.3.1"
     },
-    "path": "/nix/store/b628449ix30xim6r21xaf3x33g2dbzvh-DankVault",
-    "rev": "e858c2fb09d573522394b18aa7e4bd00dccc0576",
+    "path": "/nix/store/x004yr2b386lgfws50gfz218jbz0rvg9-DankVault",
+    "rev": "c60ab6fa627c06d8077280f47e1ed36d823a8e9b",
     "rootDir": "",
-    "sha256": "0fz91m8cdd5lwnpy7ykckwhhwraw0jknl82glxg9nqjp832f74rc",
+    "sha256": "0ingmsf3pqzzixibywsvv64yjgpa85331wkjp3f2mzjkkyk5ckc4",
     "url": "https://github.com/alcxyz/DankVault"
   },
   "ddcBrightness": {
