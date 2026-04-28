@@ -2087,6 +2087,35 @@ Desktop widget that displays RSS/Atom feeds with auto-refresh
 
 
 
+#### [DankCalendar](https://github.com/alcxyz/DankCalendar)
+
+CalDAV calendar widget with event listing, notifications, and event management via a stdlib-only Go binary with keyring credentials
+
+
+
+- id: dankCalendar
+- name: DankCalendar
+- author: alcxyz
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: secret-tool, notify-send
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alcxyz/DankCalendar/v0.4.0/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [DankPinentry](https://github.com/pacman99/DankPinentry)
 
 GPG/SSH passphrase entry with native DMS modal.
