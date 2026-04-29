@@ -110,6 +110,35 @@ A simple, customizable audio visualizer for your desktop
 
 
 
+#### [Dank Terminal Theme](https://github.com/eduardez/DankTerminalTheme)
+
+Real-time Ghostty theme management from the navbar
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: dankterminaltheme
+- name: Dank Terminal Theme
+- author: EduarD3V
+- compositors: any
+- capabilities: terminal, dankbar-widget
+- dependencies: ghostty
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/eduardez/DankTerminalTheme/main/assets/screenshot_2.png)
+
+</details>
+
+
+
+
+
 #### [Linux Wallpaper Engine](https://github.com/sgtaziz/dms-wallpaperengine)
 
 Animated wallpaper support using linux-wallpaperengine with Steam Workshop scenes
@@ -2087,6 +2116,35 @@ Desktop widget that displays RSS/Atom feeds with auto-refresh
 
 
 
+#### [DankCalendar](https://github.com/alcxyz/DankCalendar)
+
+CalDAV calendar widget with event listing, notifications, and event management via a stdlib-only Go binary with keyring credentials
+
+
+
+- id: dankCalendar
+- name: DankCalendar
+- author: alcxyz
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: secret-tool, notify-send
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alcxyz/DankCalendar/v0.4.0/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [DankPinentry](https://github.com/pacman99/DankPinentry)
 
 GPG/SSH passphrase entry with native DMS modal.
@@ -3507,7 +3565,7 @@ A simple multi model ai client to use with your dank shell. Use it ollama, gemin
 
 #### [Screen Recorder](https://github.com/arqueon/dms-screen-recorder)
 
-Start, stop, and configure screen captures with gpu-screen-recorder (Wayland: niri, Hyprland, etc.)
+Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Supports IPC keybinds.
 
 
 

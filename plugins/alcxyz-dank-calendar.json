@@ -1,0 +1,13 @@
+{
+    "id": "dankCalendar",
+    "name": "DankCalendar",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/alcxyz/DankCalendar",
+    "author": "alcxyz",
+    "description": "CalDAV calendar widget with event listing, notifications, and event management via a stdlib-only Go binary with keyring credentials",
+    "dependencies": ["secret-tool", "notify-send"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/alcxyz/DankCalendar/v0.4.0/docs/screenshot.png"
+}
