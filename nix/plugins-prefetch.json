@@ -1904,6 +1904,44 @@
     "sha256": "0ingmsf3pqzzixibywsvv64yjgpa85331wkjp3f2mzjkkyk5ckc4",
     "url": "https://github.com/alcxyz/DankVault"
   },
+  "dankterminaltheme": {
+    "date": "2026-04-29T00:42:38+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-PigGKAJiUiLCx/PDeNhOINK7r+C+6bWt+yKjDbDCafM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "EduarD3V",
+      "capabilities": [
+        "terminal",
+        "dankbar-widget"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "ghostty"
+      ],
+      "description": "Real-time Ghostty theme management from the navbar",
+      "distro": [
+        "any"
+      ],
+      "id": "dankterminaltheme",
+      "name": "Dank Terminal Theme",
+      "repo": "https://github.com/eduardez/DankTerminalTheme",
+      "requires_dms": ">=1.4.0",
+      "screenshot": "https://raw.githubusercontent.com/eduardez/DankTerminalTheme/main/assets/screenshot_2.png",
+      "version": "1.0.4"
+    },
+    "path": "/nix/store/f3568vwc610avjxrcqgiyyyl2f8x8q62-DankTerminalTheme",
+    "rev": "2d2d145e267993238767b9e12156eff7a4fc6bd3",
+    "rootDir": "",
+    "sha256": "1wv9qaq0v8r2zfnvbsdyw2pvpli09vc7ihzkqz124lk208l0ca1y",
+    "url": "https://github.com/eduardez/DankTerminalTheme"
+  },
   "ddcBrightness": {
     "date": "2026-03-28T00:07:52+08:00",
     "deepClone": false,
