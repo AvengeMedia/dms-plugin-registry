@@ -110,6 +110,35 @@ A simple, customizable audio visualizer for your desktop
 
 
 
+#### [Dank Terminal Theme](https://github.com/eduardez/DankTerminalTheme)
+
+Real-time Ghostty theme management from the navbar
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: dankterminaltheme
+- name: Dank Terminal Theme
+- author: EduarD3V
+- compositors: any
+- capabilities: terminal, dankbar-widget
+- dependencies: ghostty
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/eduardez/DankTerminalTheme/main/assets/screenshot_2.png)
+
+</details>
+
+
+
+
+
 #### [Linux Wallpaper Engine](https://github.com/sgtaziz/dms-wallpaperengine)
 
 Animated wallpaper support using linux-wallpaperengine with Steam Workshop scenes
