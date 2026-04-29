@@ -4458,12 +4458,12 @@
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "steamfriends": {
-    "date": "2026-02-21T11:41:16Z",
+    "date": "2026-04-28T21:08:54+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-e2zv0o52HWw1HWfX4NStH9u8z5+gfRKWoCjSWznLduU=",
+    "hash": "sha256-frcNaPWxO3pKwASDwupQJU9wzE6gPTOIgKKHz4SeC7g=",
     "leaveDotGit": false,
     "meta": {
       "author": "Banicnas",
@@ -4485,10 +4485,10 @@
       "repo": "https://github.com/banicans/DMS-SteamFriends",
       "screenshot": "https://raw.githubusercontent.com/banicans/DMS-SteamFriends/main/Screenshot.png"
     },
-    "path": "/nix/store/s92gwlmri8xv6mfh6jwzhgnhzp2wrb35-DMS-SteamFriends",
-    "rev": "b85bb1b7312cbda4aa8715c0bd67d83bb3a23b53",
+    "path": "/nix/store/q621fpl610byniadjcfj5ysrvd8a25ar-DMS-SteamFriends",
+    "rev": "cdfa2cef54339bf4b6bc9f841f2348e13e35c847",
     "rootDir": "",
-    "sha256": "1rbnrcwmpli8l2b14zd0kz7vrnqzmpaf1mv73lsnq7bniv9fyv3v",
+    "sha256": "1f0bks2cz1x2h2436gd09v670kr5a3mc50q4q157lfxiyml0vdvy",
     "url": "https://github.com/banicans/DMS-SteamFriends"
   },
   "stockManager": {
