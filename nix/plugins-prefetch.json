@@ -153,12 +153,12 @@
     "url": "https://github.com/lucyfire/dms-plugins"
   },
   "amdGpuMonitor": {
-    "date": "2026-04-15T20:02:21+02:00",
+    "date": "2026-05-01T00:38:42+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-kuOVeQ7w2mp6aALiUnq6FK0V1SI5YgIb+3a/CwQWV6I=",
+    "hash": "sha256-hzy4InZcQC/fRwUoP2QJysY0PIiqdQ1vVjsFBo+EAOs=",
     "leaveDotGit": false,
     "meta": {
       "author": "navidagz",
@@ -182,10 +182,10 @@
       "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshots/screenshot.png",
       "version": "3.0.0"
     },
-    "path": "/nix/store/n8yw7xxk2s418np82qgjghx7i8v6ab7p-dms-amd-gpu-monitor",
-    "rev": "85cc3a2ace9b1c6e3ab4d4528e617159b1f8780e",
+    "path": "/nix/store/7p7xanbiql61mldhvwllkkr8hy6ad89f-dms-amd-gpu-monitor",
+    "rev": "e24521069f0a9a2501c6da8a132ed9454fea1fbe",
     "rootDir": "",
-    "sha256": "18jp2q20pgvnzcdh4qir4baibb8lp9x55qh2d1x6mnph1rwrbqwj",
+    "sha256": "1sq0hj7hc19varphsxdai0y39ina15j3ya058zgjyh2wfqibhg47",
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor"
   },
   "amdGpuMonitorRevive": {
@@ -2812,12 +2812,12 @@
     "url": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu"
   },
   "gameControllerBattery": {
-    "date": "2026-03-23T14:06:38+03:00",
+    "date": "2026-04-30T14:46:02+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-c0AHJgSxgIarwwvZz7nvZFZnvs1Bw7I1xbur+t2wsck=",
+    "hash": "sha256-21LUdilH54fLn0NAH7gwoDgaDZMaOVi9QxuKiEJZRm8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Mohammad Hujair",
@@ -2840,12 +2840,12 @@
       "name": "Game Controller Battery",
       "repo": "https://github.com/Hujair/gameControllerBattery",
       "screenshot": "https://raw.githubusercontent.com/Hujair/gameControllerBattery/v1.0.0/dms-screenshot-1773854869435.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/grq3h1w96bk158mf58caxk2v4m1zx4ma-gameControllerBattery",
-    "rev": "72a30f7fca423ce623d22fead298a6fe2af5361a",
+    "path": "/nix/store/yddbznwqp4c8ysx2hdjxvm40rqf3nsyv-gameControllerBattery",
+    "rev": "41f03230aa077b5632ab6df044f73b7d1847766d",
     "rootDir": "",
-    "sha256": "1jdin3fzmaxvqlsv5hs1rnz6fmk4xywwzn8bqfmqd05i0hk0fh3k",
+    "sha256": "0vs6b518i2hv8fymhf8sjc6ilf5062w1yh23kz5qgrs755vd8lnv",
     "url": "https://github.com/Hujair/gameControllerBattery"
   },
   "githubHeatmap": {
