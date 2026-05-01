@@ -4,7 +4,7 @@
     "capabilities": ["dankbar-widget"],
     "category": "utilities",
     "repo": "https://github.com/lelabdev/dms-plugin-audio-output",
-    "author": "Mako",
+    "author": "LoopsLudo & Mako",
     "description": "Quickly switch between audio outputs (speakers, headphones, etc.) from the DankBar with a single click",
     "dependencies": ["wireplumber", "wpctl"],
     "compositors": ["any"],
