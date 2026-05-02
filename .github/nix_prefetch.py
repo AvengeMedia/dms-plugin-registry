@@ -11,6 +11,7 @@ output_path = root / "nix/plugins-prefetch.json"
 
 result = {}
 
+
 def run_prefetch(repo):
     cmd = [
         "nix",
@@ -27,6 +28,7 @@ def run_prefetch(repo):
         capture_output=True,
     )
     return run.stdout
+
 
 for plugin_file in plugins_dir.iterdir():
     if not plugin_file.is_file():
@@ -62,8 +64,5 @@ for plugin_file in plugins_dir.iterdir():
 
 with output_path.open("w") as f:
     json.dump(
-        result,
-        f,
-        sort_keys=True, # prevent order changes to reduce diffs
-        indent=2
+        result, f, sort_keys=True, indent=2  # prevent order changes to reduce diffs
     )

@@ -1,0 +1,13 @@
+{
+    "id": "dankRssWidget",
+    "name": "Dank RSS Widget",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/BrendonJL/dms-rss-widget",
+    "author": "BrendonJL",
+    "description": "Desktop widget that displays RSS/Atom feeds with auto-refresh",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/BrendonJL/dms-rss-widget/main/screenshot.png"
+}

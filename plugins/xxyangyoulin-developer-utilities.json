@@ -1,0 +1,14 @@
+{
+    "id": "developerUtilities",
+    "name": "Developer Utilities",
+    "capabilities": ["developer-utilities", "dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/xxyangyoulin/dms-plugin-developer-utilities",
+    "author": "xxyangyoulin",
+    "description": "Encoders, Decoders, Formatters and Converters for Developers",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-developer-utilities/master/assets/screenshot.png",
+    "requires_dms": ">=1.4.0"
+}

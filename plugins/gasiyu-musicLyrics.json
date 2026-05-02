@@ -1,0 +1,13 @@
+{
+    "id": "musicLyrics",
+    "name": "Music Lyrics",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/gasiyu/dms-plugin-musiclyrics",
+    "author": "gasiyu",
+    "description": "Display synced music lyrics from multiple sources.",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Gasiyu/dms-plugin-musiclyrics/main/screenshots.png"
+}

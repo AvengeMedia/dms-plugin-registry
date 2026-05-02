@@ -1,0 +1,13 @@
+{
+    "id": "nextBootSelector",
+    "name": "Next Boot Selector",
+    "capabilities": ["dankbar-widget", "control-center"],
+    "category": "system",
+    "repo": "https://github.com/arcatva/dms-next-boot-selector",
+    "author": "arcatva",
+    "description": "Pick which EFI boot entry to load on next reboot via efibootmgr. Bar pill + Control Center widget with a scrollable picker.",
+    "dependencies": ["efibootmgr", "sudo"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/arcatva/dms-next-boot-selector/main/screenshots/popout.png"
+}

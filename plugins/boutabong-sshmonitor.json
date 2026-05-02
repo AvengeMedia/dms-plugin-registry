@@ -1,0 +1,14 @@
+{
+    "id": "sshMonitor",
+    "name": "SSH Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/boutabong/dms-plugins",
+    "path": "SSH-Monitor",
+    "author": "Deppes",
+    "description": "Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution",
+    "dependencies": ["fish", "procps-ng", "net-tools"],
+    "compositors": ["niri"],
+    "distro": ["arch"],
+    "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png"
+}

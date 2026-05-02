@@ -1,0 +1,13 @@
+{
+	"id": "nvidiaGpuMonitor",
+	"name": "NVIDIA GPU Monitor",
+	"capabilities": ["dankbar-widget", "monitoring"],
+	"category": "monitoring",
+	"repo": "https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor",
+	"author": "Tejas Jondhale",
+	"description": "Monitor NVIDIA GPU usage, VRAM, and temperature.",
+	"dependencies": ["nvidia-smi"],
+	"compositors": ["any"],
+	"distro": ["any"],
+	"screenshot": "https://raw.githubusercontent.com/TEJASJONDHALE/dms-nvidia-gpu-monitor/main/Screenshot.png"
+}

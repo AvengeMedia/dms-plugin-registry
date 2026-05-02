@@ -1,0 +1,14 @@
+{
+    "id": "dooitPlugin",
+    "name": "Dooit Plugin",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/MetalCar/dms-dooit-widget",
+    "path": "",
+    "author": "MetalCar",
+    "description": "This plugin shows todays task and the oldest five without due date from dooit.",
+    "dependencies": ["dooit"],
+    "compositors": ["niri"],
+    "distro": ["arch"],
+    "screenshot": "https://raw.githubusercontent.com/MetalCar/dms-dooit-widget/refs/heads/main/screenshots/image.png"
+}

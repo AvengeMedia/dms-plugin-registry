@@ -1,0 +1,13 @@
+{
+    "id": "pkgUpdate",
+    "name": "Package Updates",
+    "capabilities": ["dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/rahulmysore23/dms-pkg-update",
+    "author": "rahulmysore23",
+    "description": "Check and manage DNF and Flatpak package updates from the bar.",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["fedora", "any"],
+    "screenshot": "https://raw.githubusercontent.com/rahulmysore23/dms-pkg-update/main/screenshot.png"
+}

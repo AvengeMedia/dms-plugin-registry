@@ -1,0 +1,14 @@
+{
+    "id": "wallpaperCarousel",
+    "name": "Wallpaper Carousel",
+    "capabilities": ["wallpaper"],
+    "category": "utilities",
+    "repo": "https://github.com/motor-dev/wallpaperCarousel",
+    "author": "yngwe",
+    "description": "Browse and pick wallpapers with a fullscreen skewed carousel overlay",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/motor-dev/wallpaperCarousel/refs/heads/main/screenshot.png",
+    "requires_dms": ">=1.2.0"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "unifiedTaskbar",
+    "name": "Unified Taskbar",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/jslandau/dms-unified-taskbar",
+    "author": "Joshua Landau",
+    "description": "Running apps grouped by workspace with per-workspace pills",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/jslandau/dms-unified-taskbar/master/screenshot.png"
+}

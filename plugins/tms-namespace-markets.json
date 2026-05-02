@@ -1,0 +1,13 @@
+{
+    "id": "markets",
+    "name": "Markets",
+    "capabilities": ["dankbar-widget"],
+    "category": "finance",
+    "repo": "https://github.com/TMS-Namespace/DMS-Markets-Plugin",
+    "author": "TMS-Namespace",
+    "description": "Semi-Live market prices for currencies, stocks, and commodities with charts",
+    "dependencies": ["curl"],
+    "compositors": ["niri"],
+    "distro": ["fedora"],
+    "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png"
+}

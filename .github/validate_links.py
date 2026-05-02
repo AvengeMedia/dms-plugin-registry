@@ -14,6 +14,7 @@ import json
 import os
 import re
 import sys
+import time
 from pathlib import Path
 from urllib.parse import urlparse
 
@@ -22,11 +23,46 @@ import requests
 # GitHub token for authenticated API requests (avoids rate limiting)
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
 
+# Retry configuration
+MAX_RETRIES = 3
+
 # ANSI color codes for output
 GREEN = "\033[92m"
 RED = "\033[91m"
 YELLOW = "\033[93m"
 RESET = "\033[0m"
+
+GITHUB_HOSTS = {"github.com", "raw.githubusercontent.com", "api.github.com"}
+
+
+def get_github_headers() -> dict:
+    """Return authorization headers for GitHub requests."""
+    if GITHUB_TOKEN:
+        return {"Authorization": f"token {GITHUB_TOKEN}"}
+    return {}
+
+
+def is_github_url(url: str) -> bool:
+    """Check if a URL is hosted on GitHub."""
+    return urlparse(url).netloc in GITHUB_HOSTS
+
+
+def request_with_retry(method: str, url: str, **kwargs) -> requests.Response:
+    """
+    Make an HTTP request with retry + exponential backoff for 4xx errors.
+    """
+    last_response = None
+    for attempt in range(MAX_RETRIES + 1):
+        response = getattr(requests, method)(url, **kwargs)
+        if response.status_code < 400 or response.status_code >= 500:
+            return response
+        last_response = response
+        if attempt < MAX_RETRIES:
+            wait = 2 ** attempt
+            print(f"\n  Retry {attempt + 1}/{MAX_RETRIES} for {url} "
+                  f"(HTTP {response.status_code}), waiting {wait}s...", end="")
+            time.sleep(wait)
+    return last_response
 
 
 def is_camel_case(s: str) -> bool:
@@ -56,9 +92,10 @@ def validate_url(url: str, timeout: int = 10) -> tuple[bool, str]:
         (is_valid, error_message)
     """
     try:
-        response = requests.head(url, timeout=timeout, allow_redirects=True)
+        headers = get_github_headers() if is_github_url(url) else {}
+        response = request_with_retry("head", url, timeout=timeout, allow_redirects=True, headers=headers)
         if response.status_code == 405:  # HEAD not allowed, try GET
-            response = requests.get(url, timeout=timeout, stream=True, allow_redirects=True)
+            response = request_with_retry("get", url, timeout=timeout, stream=True, allow_redirects=True, headers=headers)
 
         if response.status_code >= 200 and response.status_code < 400:
             return True, ""
@@ -121,7 +158,7 @@ def validate_repo_path(repo_url: str, path: str) -> tuple[bool, str]:
         if service_name == "GitHub" and GITHUB_TOKEN:
             headers["Authorization"] = f"token {GITHUB_TOKEN}"
 
-        response = requests.get(api_url, timeout=10, headers=headers)
+        response = request_with_retry("get", api_url, timeout=10, headers=headers)
         if response.status_code == 200:
             # For GitLab, check if the response is an empty array (path not found)
             if service_name == "GitLab":
@@ -175,7 +212,7 @@ def fetch_plugin_json(repo_url: str, path: str = "") -> tuple[dict | None, str]:
         for branch in ["main", "master"]:
             raw_url = f"https://raw.githubusercontent.com/{owner}/{repo}/{branch}/{plugin_json_path}"
             try:
-                response = requests.get(raw_url, timeout=10, headers=headers)
+                response = request_with_retry("get", raw_url, timeout=10, headers=headers)
                 if response.status_code == 200:
                     try:
                         return response.json(), ""
@@ -195,7 +232,7 @@ def fetch_plugin_json(repo_url: str, path: str = "") -> tuple[dict | None, str]:
         return None, f"Unsupported hosting service: {parsed.netloc}"
 
     try:
-        response = requests.get(raw_url, timeout=10)
+        response = request_with_retry("get", raw_url, timeout=10)
         if response.status_code == 200:
             try:
                 plugin_data = response.json()

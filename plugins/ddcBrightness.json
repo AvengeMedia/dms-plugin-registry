@@ -1,0 +1,13 @@
+{
+  "id": "ddcBrightness",
+  "name": "DDC Brightness",
+  "capabilities": ["dankbar-widget"],
+  "category": "system",
+  "repo": "https://github.com/smithyyang/dms-brightness-plugin",
+  "author": "youngshine",
+  "description": "Control internal and external monitor brightness via brightnessctl and ddcutil",
+  "dependencies": ["brightnessctl", "ddcutil"],
+  "compositors": ["hyprland"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-brightness-plugin/main/screenshot_2026-03-27_23-52-26.png"
+}

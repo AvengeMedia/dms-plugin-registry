@@ -1,0 +1,13 @@
+{
+    "id": "steamfriends",
+    "name": "Steam Friends",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/banicans/DMS-SteamFriends",
+    "author": "Banicnas",
+    "description": "Shows how many Steam friends are online, and whos online playing what.",
+    "compositors": ["niri", "hyprland"],
+    "dependencies": [],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/banicans/DMS-SteamFriends/main/Screenshot.png"
+}

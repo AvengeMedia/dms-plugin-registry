@@ -1,0 +1,22 @@
+{
+    "id": "niriScreenshot",
+    "name": "Niri Screenshot",
+    "capabilities": [
+        "dankbar-widget",
+        "control-center"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/jfchenier/dms-niri-screenshot",
+    "author": "jfchenier",
+    "description": "Control Niri screenshot actions from the Control Center",
+    "dependencies": [
+        "niri"
+    ],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/jfchenier/dms-niri-screenshot/main/assets/screenshot-control-center.png"
+}

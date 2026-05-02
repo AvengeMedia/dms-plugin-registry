@@ -1,0 +1,14 @@
+{
+    "id": "awcc",
+    "name": "Alienware Command Center",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/psyreactor/dms-awcc",
+    "author": "psyreactor",
+    "description": "Alienware Command Center plugin for DankBar",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/psyreactor/dms-awcc/raw/main/screenshot.png",
+    "requires_dms": ">0.0.28"
+}
