@@ -2645,12 +2645,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "ephemera": {
-    "date": "2026-03-16T14:47:09-05:00",
+    "date": "2026-04-30T22:37:52-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-0nVfnQ9J0PalqW0Ql4mDjwquUfT0Dv9K4ScEwFy6nzs=",
+    "hash": "sha256-G6oanR4zHbNSV+A94mNcB4EHK+S2ieo4dY8bwUEkv2I=",
     "leaveDotGit": false,
     "meta": {
       "author": "nicolasgarcia214",
@@ -2674,12 +2674,12 @@
       "name": "Ephemera",
       "repo": "https://github.com/nicolasgarcia214/Ephemera",
       "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true",
-      "version": "1.0.1"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/a2zn6vrlsa8nmwibxzk2213b8yx39qky-Ephemera",
-    "rev": "a947c00de4d3c29f04ab315eb98e72947b4cb555",
+    "path": "/nix/store/dpvfkhg08zphzin13435w4rmkbd1sfmi-Ephemera",
+    "rev": "eaadf6d933a8449f36219935520a8e9f944b4aa0",
     "rootDir": "",
-    "sha256": "0fwzp9fc0117w55gy3plyi8sw2lghf4rf43dm6jzdl291yfmyxfj",
+    "sha256": "0qmz4i0w26wgflwfm2dnwhmhg087biiy4gg0ax9b679k3sfimahv",
     "url": "https://github.com/nicolasgarcia214/Ephemera"
   },
   "flatpakUpdates": {
