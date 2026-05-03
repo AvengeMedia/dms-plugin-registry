@@ -343,6 +343,20 @@ def validate_plugin(plugin_file: Path) -> list[str]:
     return errors
 
 
+def get_changed_plugin_files() -> set[str]:
+    """
+    Return the set of plugin filenames changed in the current PR.
+
+    Reads the CHANGED_PLUGINS environment variable (newline-separated paths
+    like "plugins/foo.json"). Returns just the basenames (e.g. "foo.json").
+    An empty set means either no env var was set or no plugin files changed.
+    """
+    raw = os.environ.get("CHANGED_PLUGINS", "").strip()
+    if not raw:
+        return set()
+    return {Path(p.strip()).name for p in raw.splitlines() if p.strip()}
+
+
 def main():
     """Main validation entry point."""
     plugins_dir = Path(__file__).parent.parent / "plugins"
@@ -357,32 +371,50 @@ def main():
         print(f"{YELLOW}Warning: No plugin files found in plugins/{RESET}")
         sys.exit(0)
 
+    changed_files = get_changed_plugin_files()
+
     print(f"Validating {len(plugin_files)} plugin(s)...\n")
 
-    all_errors = {}
+    pr_errors = {}
+    other_errors = {}
 
     for plugin_file in sorted(plugin_files):
         print(f"Checking {plugin_file.name}...", end=" ")
         errors = validate_plugin(plugin_file)
 
         if errors:
-            print(f"{RED}FAILED{RESET}")
-            all_errors[plugin_file.name] = errors
+            if changed_files and plugin_file.name not in changed_files:
+                print(f"{YELLOW}WARNING{RESET}")
+                other_errors[plugin_file.name] = errors
+            else:
+                print(f"{RED}FAILED{RESET}")
+                pr_errors[plugin_file.name] = errors
         else:
             print(f"{GREEN}OK{RESET}")
 
     # Print summary
     print()
-    if all_errors:
-        print(f"{RED}Validation failed for {len(all_errors)} plugin(s):{RESET}\n")
-        for filename, errors in all_errors.items():
+
+    if other_errors:
+        print(f"{YELLOW}Warnings for plugins not changed in this PR:{RESET}\n")
+        for filename, errors in other_errors.items():
+            print(f"  {YELLOW}⚠ {filename}{RESET}")
+            for error in errors:
+                print(f"    - {error}")
+            print()
+
+    if pr_errors:
+        print(f"{RED}Validation failed for {len(pr_errors)} plugin(s) changed in this PR:{RESET}\n")
+        for filename, errors in pr_errors.items():
             print(f"{RED}✗ {filename}{RESET}")
             for error in errors:
                 print(f"  - {error}")
             print()
         sys.exit(1)
     else:
-        print(f"{GREEN}✓ All plugins validated successfully!{RESET}")
+        print(f"{GREEN}All plugins changed in this PR validated successfully!{RESET}")
+        if other_errors:
+            print(f"{YELLOW}({len(other_errors)} other plugin(s) have warnings - see above){RESET}")
         sys.exit(0)
 
 
