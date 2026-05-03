@@ -235,12 +235,12 @@
     "url": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive"
   },
   "animeCalendar": {
-    "date": "2026-04-23T22:58:38+03:00",
+    "date": "2026-05-02T17:17:00+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-FpYhJ3Dgb+a/QKl9Lo69pwAbS3u0AMDpPUUnAjoc4aE=",
+    "hash": "sha256-2TaOmT0ERede3QSJUrNj334cAPUKN3Ta/f2T3VUjfUg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Ricea Ion Raul",
@@ -261,12 +261,12 @@
       "path": "",
       "repo": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin",
       "screenshot": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin/blob/main/screenshots/today-tab.png?raw=true",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/v75fqrbql6i77jxv9gq5cxlzyzawhhfn-DMS-AnimeCalendarPlugin",
-    "rev": "25c372ecbd4790cc37bf373ddd6b4bd61261dd5e",
+    "path": "/nix/store/kca79b02bqaacf72q1z34iqw3avbzzy8-DMS-AnimeCalendarPlugin",
+    "rev": "b27516cbcb4ede6f4946c942e7dbe4e9d9b1bb6e",
     "rootDir": "",
-    "sha256": "18g13hx049s57plw005lgd5in057pn72wzd982zycvz0f0kj35hn",
+    "sha256": "0j3x4daxv4zxzpd78dqayl01qznzcfrm5284vmgffi847ncqwdnr",
     "url": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin"
   },
   "appShortcut": {
@@ -997,12 +997,12 @@
     "url": "https://github.com/pacman99/DankBitwarden"
   },
   "dankCalendar": {
-    "date": "2026-04-28T08:32:24+02:00",
+    "date": "2026-05-03T01:43:57+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-vDVOozlPJVC75Q6xIGPZp9OWjRZnIw+7we+DobtepB8=",
+    "hash": "sha256-OVikqHN3SbGndL2QlzLQGx6oZp84NW2Xb8v2WBKuVFo=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -1027,10 +1027,10 @@
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankCalendar/v0.4.0/docs/screenshot.png",
       "version": "0.4.1"
     },
-    "path": "/nix/store/9d60hz8rq745y2jv9jqc12xj4g1wc7m7-DankCalendar",
-    "rev": "a73329b2d6610ca2b7f6d665c6e0a89a22848ab4",
+    "path": "/nix/store/b2bw7ww9lkar5z1jmvnrarpwfyr538w3-DankCalendar",
+    "rev": "f3ab005acecab9c8bd5ea68ff8a8f0e740cadc5c",
     "rootDir": "",
-    "sha256": "07x4bsxs30zgq6xhy8v72s6rdlx7v5ij1c8fwnxm09ag76ilwddw",
+    "sha256": "0njlmq95ixnbdybnsd9qkxkah7hvs0r9g45xfjkv2jbpffla8n1r",
     "url": "https://github.com/alcxyz/DankCalendar"
   },
   "dankCleaner": {
@@ -1154,12 +1154,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankDiskUsage": {
-    "date": "2026-04-28T08:34:24+02:00",
+    "date": "2026-05-03T01:43:58+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-QoUclB99FjxxMD+5Jy7x4+fbl1e5aALeKwa7qf2rfPE=",
+    "hash": "sha256-H+Yap8AgXmOK6w8NIr/HGSDUTK2MHwj0J2otTLOB6xs=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -1181,10 +1181,10 @@
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankDiskUsage/main/docs/screenshot.png",
       "version": "0.2.0"
     },
-    "path": "/nix/store/33wxjqfl1ghd95nsz95ldzq9qc4qzkgm-DankDiskUsage",
-    "rev": "5836d380883a9d201ff128539f547b36eaa9fcba",
+    "path": "/nix/store/0jcqjf25k38f0m6qlvaazp1rpiv6agwj-DankDiskUsage",
+    "rev": "0c39eb869c7a3007136f12125b1527988c44858f",
     "rootDir": "",
-    "sha256": "1wbwmgyskfq65gg04s5raybxprz3y4p2gf9z61qkq5kx3ya1r1a2",
+    "sha256": "06zbh6rlqbba4zs0h7wcmm6d880rqyzj438gxf566pi0q2kimrhz",
     "url": "https://github.com/alcxyz/DankDiskUsage"
   },
   "dankGifSearch": {
@@ -1530,12 +1530,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankQuickSearch": {
-    "date": "2026-04-28T08:34:51+02:00",
+    "date": "2026-05-03T01:43:55+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-qJ7sVQhb8kf6hYbgQDYbkvP+uHOLXDdPObc+BP17kVg=",
+    "hash": "sha256-VfucVEYN3HxIKybycjceit399/C7vVUnf7QwSmX/0E0=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -1557,12 +1557,12 @@
       "name": "Quick Search",
       "repo": "https://github.com/alcxyz/DankQuickSearch",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankQuickSearch/main/docs/screenshot.png",
-      "version": "0.2.0"
+      "version": "0.2.1"
     },
-    "path": "/nix/store/4dximcv6ssskpw12l6qyhf52bbswghiz-DankQuickSearch",
-    "rev": "fd5c541f966b3b49fb857abc6e4b62472e5d1df7",
+    "path": "/nix/store/d6k4gzy66v44xkpji06v145mqzb2gcw6-DankQuickSearch",
+    "rev": "067912b097a55ec4fbb88d332c515cea231dc09f",
     "rootDir": "",
-    "sha256": "0n4iggyh8gmp757kfp4bffwgxwwj3cv41q46hpx4gwjv11ayr7m8",
+    "sha256": "0kfhzxjllc5lgwkmbgdvy3vzvpca3qvp5wi65d47rp0d8ra9rysm",
     "url": "https://github.com/alcxyz/DankQuickSearch"
   },
   "dankRazer": {
@@ -1639,12 +1639,12 @@
     "url": "https://github.com/BrendonJL/dms-rss-widget"
   },
   "dankSpotify": {
-    "date": "2026-04-28T08:34:39+02:00",
+    "date": "2026-05-03T01:43:53+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-coojsn6RzZRaVbrtRoyv5gAu5VQjF3/nRl+I7dsWHq4=",
+    "hash": "sha256-iIvNr226VCTL6kY02eg1cz6/MOm1MmL3R2wKoV0WQ8k=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -1668,12 +1668,12 @@
       "name": "Spotify",
       "repo": "https://github.com/alcxyz/DankSpotify",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankSpotify/main/docs/screenshot.png",
-      "version": "0.2.0"
+      "version": "0.2.1"
     },
-    "path": "/nix/store/irk0h13c6kdrjnk819fsvdnpqjblky8v-DankSpotify",
-    "rev": "da1a0a79473dc72cd4969c4a37d09575533232b8",
+    "path": "/nix/store/w4adz659sfgxk5mzjxlixkx94qhaz16r-DankSpotify",
+    "rev": "86b7aa2f0108f20a59a21b92f142b591a5d56618",
     "rootDir": "",
-    "sha256": "1bhy2vdyv22z8vkpy5r3akjjw076my64dvdsamd99kcigsr272kj",
+    "sha256": "1ja32rfs22kc8zvn4cmmx4qbygkk6pldjd26xb5j8m5sdnpwv2w8",
     "url": "https://github.com/alcxyz/DankSpotify"
   },
   "dankStickerSearch": {
@@ -1796,12 +1796,12 @@
     "url": "https://github.com/deepu105/dms-dank-todo"
   },
   "dankTranslate": {
-    "date": "2026-04-28T08:35:00+02:00",
+    "date": "2026-05-03T01:43:49+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-CFmqfd2a4vMWgpT6EgPfLcEU/EquW2iaQ6q2wH0cc70=",
+    "hash": "sha256-WpJYMTKjMGNB8nyE2vdOs7R/fq4+DSH25GyWXTDtOYw=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -1824,12 +1824,12 @@
       "name": "Translate",
       "repo": "https://github.com/alcxyz/DankTranslate",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankTranslate/main/docs/screenshot.png",
-      "version": "0.1.1"
+      "version": "0.1.2"
     },
-    "path": "/nix/store/p1x6hjdr09wj282v5dn6c90l7fpzih39-DankTranslate",
-    "rev": "a0892945e1e84bdcca1908ee966b3ca50f5eb8b6",
+    "path": "/nix/store/93a2z65xzdglb6cmw51as6rnv0v4dprk-DankTranslate",
+    "rev": "f5eb8b83939367e3eb7316092b3e153627f48ac2",
     "rootDir": "",
-    "sha256": "1gbk3iyw1dma8fd6hnxf9by19h9dvw1i5yllh8bg7qlsvmysln88",
+    "sha256": "131rxlq5v5kcwkv2239ymrz7zd5k9vvxm13wy90n6c5368qmi4js",
     "url": "https://github.com/alcxyz/DankTranslate"
   },
   "dankUpsMonitor": {
@@ -1869,12 +1869,12 @@
     "url": "https://github.com/acmagn/DMS-UPS-Monitor"
   },
   "dankVault": {
-    "date": "2026-04-28T08:34:59+02:00",
+    "date": "2026-05-03T01:43:51+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-hE1Wpp9T/ircuHLyMEZB6j7pidlbc79ij//jO5yuz0Y=",
+    "hash": "sha256-CT3u6rautu8sF7Yn8ZOFA2pzdg8ogaEJ9PoWDOs5W/E=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -1896,12 +1896,12 @@
       "name": "Vault",
       "repo": "https://github.com/alcxyz/DankVault",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankVault/main/docs/screenshot.png",
-      "version": "0.3.1"
+      "version": "0.3.2"
     },
-    "path": "/nix/store/x004yr2b386lgfws50gfz218jbz0rvg9-DankVault",
-    "rev": "c60ab6fa627c06d8077280f47e1ed36d823a8e9b",
+    "path": "/nix/store/z4yzhrgz9y5vmb5pgq09pi4jb54nhb53-DankVault",
+    "rev": "c7ac545e681c8e67f6190176e8685a18a1ae390b",
     "rootDir": "",
-    "sha256": "0ingmsf3pqzzixibywsvv64yjgpa85331wkjp3f2mzjkkyk5ckc4",
+    "sha256": "1wav77mhq5psyh4s30981xv76sh3hn9z29xn2wnfzdmfnvmfwg89",
     "url": "https://github.com/alcxyz/DankVault"
   },
   "dankterminaltheme": {
@@ -5040,12 +5040,12 @@
     "url": "https://github.com/max72bra/DankPluginBingWallpaperWidget"
   },
   "wallpaperCarousel": {
-    "date": "2026-04-13T14:02:08Z",
+    "date": "2026-05-02T11:15:02Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-anAGWzTdzC4M1W/gprCGugHy4/eYoJ4L45URR+eACnA=",
+    "hash": "sha256-ZuOlI7divehQ+90rCMpDllsrGJM+BekGPEk+BUtbR28=",
     "leaveDotGit": false,
     "meta": {
       "author": "yngwe",
@@ -5067,12 +5067,12 @@
       "repo": "https://github.com/motor-dev/wallpaperCarousel",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/motor-dev/wallpaperCarousel/refs/heads/main/screenshot.png",
-      "version": "0.7.6"
+      "version": "0.7.7"
     },
-    "path": "/nix/store/v5q5jzxva50pkspdcs7qaakky5zxzvxn-wallpaperCarousel",
-    "rev": "9d558cce3bb544fc6467e26ec450ab8087b2fda2",
+    "path": "/nix/store/zhnfpfmifjjpkrhw55k8ak070c3y098p-wallpaperCarousel",
+    "rev": "1622defd2907da38e66ad36270e0c65a92f969a6",
     "rootDir": "",
-    "sha256": "0w0ah3klf4cmwc5rx84qyziz40dshsqadq3gsl62xk6x6idhcw3a",
+    "sha256": "0vs7bd5hagj97h3fj19yjcc2nnwn8g50hayxzd8figb2nwisbqv6",
     "url": "https://github.com/motor-dev/wallpaperCarousel"
   },
   "wallpaperDiscovery": {
