@@ -1,0 +1,15 @@
+{
+    "id": "weatherArt",
+    "name": "Weather Art",
+    "capabilities": ["desktop-widget"],
+    "category": "appearance",
+    "repo": "https://github.com/viewerofall-labs/weather-viewer",
+    "path": "weatherArt",
+    "author": "viewerofall",
+    "description": "Dynamic weather art widget with responsive ASCII scenes, customizable stats, and theme support",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "version": "0.1.0",
+    "screenshot": "https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/weather.png"
+}
