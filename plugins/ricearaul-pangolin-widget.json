@@ -1,0 +1,14 @@
+{
+    "id": "pangolinWidget",
+    "name": "Pangolin Widget",
+    "capabilities": ["dankbar-widget", "control-center-widget"],
+    "category": "network",
+    "repo": "https://github.com/RiceaRaul/DMS-PangolinPlugin",
+    "path": "",
+    "author": "Ricea Ion Raul",
+    "description": "QuickShell plugin for DankMaterialShell that exposes Pangolin VPN status, peer list with live RTT, routes, connection controls, and notifications. Backed by the pangolin CLI.",
+    "dependencies": ["pangolin"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/RiceaRaul/DMS-PangolinPlugin/blob/main/docs/screenshots/popout.png?raw=true"
+}
