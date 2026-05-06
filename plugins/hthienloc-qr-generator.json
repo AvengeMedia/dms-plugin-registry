@@ -5,7 +5,7 @@
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-qr-generator",
     "author": "Loc Huynh",
-    "description": "Dedicated QR code generator with real-time generation, image export, and privacy-focused auto-clearing.",
+    "description": "Dedicated QR code generator.",
     "dependencies": ["qrencode", "wl-clipboard"],
     "compositors": ["any"],
     "distro": ["any"],
