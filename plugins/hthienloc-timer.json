@@ -6,7 +6,7 @@
     "repo": "https://github.com/hthienloc/dms-timer",
     "author": "Loc Huynh",
     "description": "Feature-rich countdown timer.",
-    "dependencies": [],
+    "dependencies": ["libnotify", "pulseaudio"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-timer/master/screenshot.png"
