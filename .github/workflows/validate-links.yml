@@ -1,0 +1,31 @@
+name: Validate Plugin Links
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - "plugins/**"
+      - ".github/validate_links.py"
+      - ".github/workflows/validate-links.yml"
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_dispatch:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Validate all plugin links
+        run: python3 .github/validate_links.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
