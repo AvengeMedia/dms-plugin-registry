@@ -41,10 +41,17 @@ jobs:
       - name: Get changed plugin files
         id: changed
         run: |
-          CHANGED=$(gh pr diff ${{ github.event.pull_request.number }} --name-only | grep '^plugins/' || true)
-          echo "files<<EOF" >> "$GITHUB_OUTPUT"
-          echo "$CHANGED" >> "$GITHUB_OUTPUT"
-          echo "EOF" >> "$GITHUB_OUTPUT"
+          ALL_CHANGED=$(gh pr diff ${{ github.event.pull_request.number }} --name-only)
+          CI_CHANGED=$(echo "$ALL_CHANGED" | grep '^\.github/' || true)
+          if [ -n "$CI_CHANGED" ]; then
+            echo "CI scripts changed, validating all plugins"
+            echo "files=" >> "$GITHUB_OUTPUT"
+          else
+            CHANGED=$(echo "$ALL_CHANGED" | grep '^plugins/' || true)
+            echo "files<<EOF" >> "$GITHUB_OUTPUT"
+            echo "$CHANGED" >> "$GITHUB_OUTPUT"
+            echo "EOF" >> "$GITHUB_OUTPUT"
+          fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
