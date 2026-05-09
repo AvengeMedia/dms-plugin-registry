@@ -373,48 +373,38 @@ def main():
 
     changed_files = get_changed_plugin_files()
 
+    if changed_files:
+        plugin_files = [f for f in plugin_files if f.name in changed_files]
+        if not plugin_files:
+            print(f"{GREEN}No plugin files changed in this PR, nothing to validate.{RESET}")
+            sys.exit(0)
+
     print(f"Validating {len(plugin_files)} plugin(s)...\n")
 
-    pr_errors = {}
-    other_errors = {}
+    all_errors = {}
 
     for plugin_file in sorted(plugin_files):
         print(f"Checking {plugin_file.name}...", end=" ")
         errors = validate_plugin(plugin_file)
 
         if errors:
-            if changed_files and plugin_file.name not in changed_files:
-                print(f"{YELLOW}WARNING{RESET}")
-                other_errors[plugin_file.name] = errors
-            else:
-                print(f"{RED}FAILED{RESET}")
-                pr_errors[plugin_file.name] = errors
+            print(f"{RED}FAILED{RESET}")
+            all_errors[plugin_file.name] = errors
         else:
             print(f"{GREEN}OK{RESET}")
 
     # Print summary
     print()
-
-    if other_errors:
-        print(f"{YELLOW}Warnings for plugins not changed in this PR:{RESET}\n")
-        for filename, errors in other_errors.items():
-            print(f"  {YELLOW}⚠ {filename}{RESET}")
-            for error in errors:
-                print(f"    - {error}")
-            print()
-
-    if pr_errors:
-        print(f"{RED}Validation failed for {len(pr_errors)} plugin(s) changed in this PR:{RESET}\n")
-        for filename, errors in pr_errors.items():
+    if all_errors:
+        print(f"{RED}Validation failed for {len(all_errors)} plugin(s):{RESET}\n")
+        for filename, errors in all_errors.items():
             print(f"{RED}✗ {filename}{RESET}")
             for error in errors:
                 print(f"  - {error}")
             print()
         sys.exit(1)
     else:
-        print(f"{GREEN}All plugins changed in this PR validated successfully!{RESET}")
-        if other_errors:
-            print(f"{YELLOW}({len(other_errors)} other plugin(s) have warnings - see above){RESET}")
+        print(f"{GREEN}All plugins validated successfully!{RESET}")
         sys.exit(0)
 
 
