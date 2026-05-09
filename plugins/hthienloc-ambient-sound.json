@@ -1,0 +1,13 @@
+{
+    "id": "ambientSound",
+    "name": "Ambient Sound",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-ambient-sound",
+    "author": "Loc Huynh",
+    "description": "Play ambient sounds for focus with sleep timer and volume control.",
+    "dependencies": ["mpv", "socat"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ambient-sound/master/screenshot.png"
+}
