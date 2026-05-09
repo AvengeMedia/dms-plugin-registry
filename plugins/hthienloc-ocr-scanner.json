@@ -1,0 +1,13 @@
+{
+    "id": "ocrScanner",
+    "name": "OCR Scanner",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-ocr-scanner",
+    "author": "Loc Huynh",
+    "description": "Extract text from images in clipboard or files using Tesseract OCR.",
+    "dependencies": ["tesseract", "wl-clipboard", "kdialog"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ocr-scanner/main/screenshot.png"
+}
