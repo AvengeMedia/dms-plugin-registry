@@ -1,0 +1,13 @@
+{
+    "id": "breathing",
+    "name": "Breathing Exercise",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-breathing",
+    "author": "Loc Huynh",
+    "description": "Guided breathing exercises for relaxation and focus.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-breathing/master/screenshot.png"
+}

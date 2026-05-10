@@ -1,0 +1,13 @@
+{
+    "id": "dankTodo",
+    "name": "Dank Todo",
+    "capabilities": ["dankbar-widget"],
+    "category": "productivity",
+    "repo": "https://github.com/deepu105/dms-dank-todo",
+    "author": "Deepu K Sasidharan",
+    "description": "A simple locally-saved TODO list widget for the Dank bar.",
+    "dependencies": [],
+    "compositors": ["niri"],
+    "distro": ["arch"],
+    "screenshot": "https://raw.githubusercontent.com/deepu105/dms-dank-todo/main/screenshot.png"
+}

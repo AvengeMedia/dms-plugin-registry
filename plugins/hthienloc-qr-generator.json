@@ -1,0 +1,13 @@
+{
+    "id": "qrGenerator",
+    "name": "QR Generator",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-qr-generator",
+    "author": "Loc Huynh",
+    "description": "Dedicated QR code generator.",
+    "dependencies": ["qrencode", "wl-clipboard"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-qrGenerator/master/screenshot.png"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "stopwatch",
+    "name": "Stopwatch",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-stopwatch",
+    "author": "Loc Huynh",
+    "description": "High-precision stopwatch.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-stopwatch/main/screenshot.png"
+}

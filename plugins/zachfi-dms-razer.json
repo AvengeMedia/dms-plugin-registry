@@ -1,0 +1,22 @@
+{
+  "id": "dankRazer",
+  "name": "Razer Device Manager",
+  "capabilities": [
+    "dankbar-widget",
+    "control-center",
+    "command-execution"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/zachfi/dms-razer",
+  "screenshot": "https://raw.githubusercontent.com/zachfi/dms-razer/main/screenshot.png",
+  "author": "zachfi",
+  "description": "Control Razer peripherals via OpenRazer — lighting effects, brightness, DPI, and battery monitoring",
+  "dependencies": [
+    "openrazer-daemon",
+    "go"
+  ],
+  "compositors": ["any"],
+  "distro": [
+    "any"
+  ]
+}

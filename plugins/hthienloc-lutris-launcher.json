@@ -1,0 +1,13 @@
+{
+    "id": "lutrisLauncher",
+    "name": "Lutris Launcher",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-lutris-launcher",
+    "author": "Loc Huynh",
+    "description": "Quickly launch and manage your Lutris games library directly from the shell bar.",
+    "dependencies": ["lutris"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-lutris-launcher/master/screenshot.png"
+}

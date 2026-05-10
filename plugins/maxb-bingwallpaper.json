@@ -1,7 +1,7 @@
 {
 	"id": "wallpaperBing",
 	"name": "Wallpaper of the Day",
-	"capabilities": ["wallpaper-downloader", "wallpaper-set", "dankbar-widget"],
+	"capabilities": ["wallpaper-downloader", "wallpaper-set", "daemon"],
 	"category": "appearance",
 	"repo": "https://github.com/max72bra/DankPluginBingWallpaper",
 	"author": "maxb",

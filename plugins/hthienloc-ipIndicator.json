@@ -1,0 +1,13 @@
+{
+    "id": "ipIndicator",
+    "name": "IP Indicator",
+    "capabilities": ["dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/hthienloc/dms-ipIndicator",
+    "author": "Loc Huynh",
+    "description": "Shows public IP address, ISP and location. Right-click to toggle privacy mode.",
+    "dependencies": ["curl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ipIndicator/master/screenshot.png"
+}
