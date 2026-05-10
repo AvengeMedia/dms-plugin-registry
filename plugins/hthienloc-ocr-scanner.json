@@ -5,7 +5,7 @@
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-ocr-scanner",
     "author": "Loc Huynh",
-    "description": "Extract text from images in clipboard or files using Tesseract OCR.",
+    "description": "Extract text from clipboard images or local files using Tesseract OCR.",
     "dependencies": ["tesseract", "wl-clipboard", "kdialog"],
     "compositors": ["any"],
     "distro": ["any"],

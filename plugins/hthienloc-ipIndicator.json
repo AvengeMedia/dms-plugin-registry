@@ -5,7 +5,7 @@
     "category": "system",
     "repo": "https://github.com/hthienloc/dms-ipIndicator",
     "author": "Loc Huynh",
-    "description": "Shows public IP address, ISP and location. Right-click to toggle privacy mode.",
+    "description": "Display public IP address, ISP, and location with a privacy-focused toggle.",
     "dependencies": ["curl"],
     "compositors": ["any"],
     "distro": ["any"],

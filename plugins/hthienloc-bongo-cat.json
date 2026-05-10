@@ -5,7 +5,7 @@
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-bongo-cat",
     "author": "Loc Huynh",
-    "description": "A reactive Bongo Cat that taps along with your typing",
+    "description": "A reactive animated cat that taps along with your keyboard input.",
     "dependencies": ["evtest"],
     "compositors": ["any"],
     "distro": ["any"],

@@ -5,8 +5,8 @@
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-kaomoji-picker",
     "author": "Loc Huynh",
-    "description": "Local kaomoji picker for DMS",
-    "dependencies": [],
+    "description": "A lightweight launcher for browsing and copying kaomojis to the clipboard.",
+    "dependencies": ["wl-clipboard"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-kaomoji-picker/master/screenshot.png"
