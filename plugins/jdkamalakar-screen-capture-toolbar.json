@@ -1,0 +1,32 @@
+{
+    "id": "screenCaptureToolbar",
+    "name": "Screen Capture Toolbar",
+    "description": "Premium pill-shaped toolbar for quick screenshots and screen recording",
+    "category": "utilities",
+    "version": "1.0.0",
+    "author": "JDKamalakar",
+    "icon": "screenshot_region",
+    "type": "daemon",
+    "component": "./CaptureToolbar.qml",
+    "settings": "./Settings.qml",
+    "capabilities": [
+        "ipc"
+    ],
+    "repo": "https://github.com/JDKamalakar/DMS-ScreenCapture_Toolbar",
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "dependencies": [
+        "dms",
+        "gpu screen recorder"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-ScreenCapture_Toolbar/refs/heads/main/assets/Screenshot_UI.png",
+    "permissions": [
+        "process",
+        "settings_read",
+        "settings_write"
+    ]
+}
