@@ -17,7 +17,7 @@ jobs:
     steps:
       - name: Download validation output
         id: download
-        uses: actions/download-artifact@v4
+        uses: actions/download-artifact@v7
         continue-on-error: true
         with:
           name: validation-result

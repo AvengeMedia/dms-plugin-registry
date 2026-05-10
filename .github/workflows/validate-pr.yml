@@ -16,7 +16,7 @@ jobs:
 
     steps:
       - name: Checkout repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
 
       - name: Install dependencies
         run: pip install jinja2 requests
@@ -73,7 +73,7 @@ jobs:
 
       - name: Upload validation output
         if: failure() && steps.validate-links.outcome == 'failure'
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v7
         with:
           name: validation-result
           path: |
