@@ -6,7 +6,7 @@ on:
       - master
 
 permissions:
-  pull-requests: write
+  contents: read
 
 jobs:
   validate:
@@ -67,17 +67,15 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           CHANGED_PLUGINS: ${{ steps.changed.outputs.files }}
 
-      - name: Comment validation errors on PR
+      - name: Save PR number
         if: failure() && steps.validate-links.outcome == 'failure'
-        run: |
-          BODY=$(sed 's/\x1b\[[0-9;]*m//g' /tmp/validate-links-output.txt)
-          gh pr comment ${{ github.event.pull_request.number }} --body "$(cat <<EOF
-          ### Plugin validation failed
+        run: echo "${{ github.event.pull_request.number }}" > /tmp/pr-number.txt
 
-          \`\`\`
-          $BODY
-          \`\`\`
-          EOF
-          )"
-        env:
-          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+      - name: Upload validation output
+        if: failure() && steps.validate-links.outcome == 'failure'
+        uses: actions/upload-artifact@v4
+        with:
+          name: validation-result
+          path: |
+            /tmp/validate-links-output.txt
+            /tmp/pr-number.txt

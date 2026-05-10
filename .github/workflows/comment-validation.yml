@@ -1,0 +1,38 @@
+name: Comment Validation Errors
+
+on:
+  workflow_run:
+    workflows: ["Validate Pull Request"]
+    types:
+      - completed
+
+permissions:
+  pull-requests: write
+
+jobs:
+  comment:
+    runs-on: ubuntu-latest
+    if: github.event.workflow_run.conclusion == 'failure'
+
+    steps:
+      - name: Download validation output
+        id: download
+        uses: actions/download-artifact@v4
+        continue-on-error: true
+        with:
+          name: validation-result
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Comment on PR
+        if: steps.download.outcome == 'success'
+        run: |
+          PR_NUMBER=$(cat pr-number.txt)
+          BODY=$(sed 's/\x1b\[[0-9;]*m//g' validate-links-output.txt)
+          gh pr comment "$PR_NUMBER" --repo "${{ github.repository }}" --body "### Plugin validation failed
+
+          \`\`\`
+          $BODY
+          \`\`\`"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
