@@ -7,6 +7,7 @@
     "path": "plugin",
     "author": "ChaoXu",
     "description": "Popout translation widget for DankMaterialShell bar. Select text, click the translate icon, and get an instant side-by-side translation with copy buttons.",
+    "screenshot": "https://raw.githubusercontent.com/ChaoXu1997/glance/master/docs/screenshot.png",
     "dependencies": ["trans", "wl-clipboard"],
     "compositors": ["any"],
     "distro": ["any"]
