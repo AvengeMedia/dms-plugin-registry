@@ -1,0 +1,32 @@
+{
+    "id": "dnsSwitcher",
+    "name": "DNS Switcher",
+    "description": "Switch system DNS providers and monitor network status.",
+    "category": "utilities",
+    "version": "1.0.0",
+    "author": "JDKamalakar",
+    "icon": "dns",
+    "type": "widget",
+    "component": "./DnsSwitcherWidget.qml",
+    "settings": "./DnsSwitcherSettings.qml",
+    "capabilities": [
+        "dankbar-widget",
+        "control-center"
+    ],
+    "repo": "https://github.com/JDKamalakar/DMS-DNS_Switcher",
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "dependencies": [
+        "dms"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-DNS_Switcher/refs/heads/main/assets/POP-Up_UI.png",
+    "permissions": [
+        "process",
+        "settings_read",
+        "settings_write"
+    ]
+}

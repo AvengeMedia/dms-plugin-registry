@@ -1,0 +1,31 @@
+{
+    "id": "quickTote",
+    "name": "Quick Tote",
+    "description": "Quick access to recent downloads, screenshots, and pinned files (CROS Tote style).",
+    "category": "utilities",
+    "version": "1.0.0",
+    "author": "JDKamalakar",
+    "icon": "folder_shared",
+    "type": "widget",
+    "component": "./QuickToteWidget.qml",
+    "settings": "./QuickToteSettings.qml",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "repo": "https://github.com/JDKamalakar/DMS-Quick_Tote",
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "dependencies": [
+        "dms"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Quick_Tote/refs/heads/main/assets/POP-Up_UI.png",
+    "permissions": [
+        "process",
+        "settings_read",
+        "settings_write"
+    ]
+}

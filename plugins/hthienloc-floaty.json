@@ -1,0 +1,13 @@
+{
+    "id": "floaty",
+    "name": "Floaty",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-floaty",
+    "author": "Loc Huynh",
+    "description": "A minimalist tool to float clipboard or local images on top of all windows.",
+    "dependencies": ["wl-clipboard", "kdialog"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-floaty/main/screenshot.png"
+}

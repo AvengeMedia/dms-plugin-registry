@@ -34,7 +34,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Productivity](#productivity) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Utility](#utility) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Network](#network) | [Productivity](#productivity) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Utility](#utility) | [Weather](#weather)
 
 ---
 
@@ -289,6 +289,40 @@ A new fresh daily wallpaper downloaded from a famous portal (Widget)
 
 
 
+#### [Weather Art](https://github.com/viewerofall-labs/weather-viewer)
+
+Dynamic weather art widget with responsive ASCII scenes, customizable stats, and theme support
+
+
+
+- id: weatherArt
+- name: Weather Art
+- author: viewerofall
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [weatherArt](https://github.com/viewerofall-labs/weather-viewer/tree/main/weatherArt) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/weather.png)
+
+</details>
+
+
+
+
+
 #### [mpvpaper Video Wallpaper](https://github.com/kanghengliu/dms-mpvpaper)
 
 Video wallpaper support using mpvpaper
@@ -451,6 +485,35 @@ Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage wi
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive/refs/heads/main/assets/DMS_Extended.png)
+
+</details>
+
+
+
+
+
+#### [AiOverviewControl](https://github.com/bernardopg/AiOverviewControl)
+
+Monitor AI subscription and API usage for Claude, Copilot, Codex, Gemini, and OpenRouter from DankBar
+
+
+
+- id: aiOverviewControl
+- name: AiOverviewControl
+- author: Bernardo Gomes
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: bash, jq, curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png)
 
 </details>
 
@@ -840,6 +903,35 @@ Display real-time power consumption from your device
 
 
 
+#### [Process List](https://github.com/Mithgroth/dms-process-list)
+
+Desktop overlay widget for live process monitoring with grouping, sorting, and scope filters
+
+<strong>requires DMS version</strong>: <em>>=0.1.18</em>
+
+- id: processList
+- name: Process List
+- author: mith
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: dgop
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Mithgroth/dms-process-list/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [SSH Monitor](https://github.com/boutabong/dms-plugins)
 
 Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
@@ -878,6 +970,43 @@ Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
 
 
 
+### Network
+
+
+
+#### [Pangolin Widget](https://github.com/RiceaRaul/DMS-PangolinPlugin)
+
+QuickShell plugin for DankMaterialShell that exposes Pangolin VPN status, peer list with live RTT, routes, connection controls, and notifications. Backed by the pangolin CLI.
+
+
+
+- id: pangolinWidget
+- name: Pangolin Widget
+- author: Ricea Ion Raul
+- compositors: any
+- capabilities: dankbar-widget, control-center-widget
+- dependencies: pangolin
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/RiceaRaul/DMS-PangolinPlugin/blob/main/docs/screenshots/popout.png?raw=true)
+
+</details>
+
+
+
+
+
+---
+
+
+
 ### Productivity
 
 
@@ -904,6 +1033,35 @@ A simple locally-saved TODO list widget for the Dank bar.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/deepu105/dms-dank-todo/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Jira Tickets](https://github.com/Klievan/dms-jira)
+
+Assigned Jira Cloud tickets in the DankBar with quick actions — open, transition status, comment, copy branch name — plus optional new-assignment and @mention notifications.
+
+
+
+- id: dmsJira
+- name: Jira Tickets
+- author: Klievan
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: wl-clipboard, libnotify
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Klievan/dms-jira/8c66f630892c12665643bf4538d0b265adb1a056/assets/screenshot.png)
 
 </details>
 
@@ -1043,6 +1201,35 @@ Control internal and external monitor brightness via brightnessctl and ddcutil
 
 
 
+#### [Dank ASUS Control Center](https://github.com/shazzaam7/DankAsusControl)
+
+Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
+
+
+
+- id: dankAsusControlCenter
+- name: Dank ASUS Control Center
+- author: Shazzaam
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: asusctl, supergfxctl, upower
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/shazzaam7/DankAsusControl/refs/heads/main/assets/popup.png)
+
+</details>
+
+
+
+
+
 #### [Dank System Doctor](https://github.com/NordicsSys/DankSystemDoctor)
 
 AI-powered system health monitor. Tracks CPU, RAM, disk, GPU & temp; detects pending updates (apt/dnf/pacman/brew); one-click maintenance and snapshot guardrails; Ollama diagnostics with triage playbooks.
@@ -1123,6 +1310,35 @@ Manage display outputs (Single Display, Mirror, Extend).
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/xyzsteven/dms-displayoutput/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [IP Indicator](https://github.com/hthienloc/dms-ipIndicator)
+
+Display public IP address, ISP, and location with a privacy-focused toggle.
+
+
+
+- id: ipIndicator
+- name: IP Indicator
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-ipIndicator/master/screenshot.png)
 
 </details>
 
@@ -1346,6 +1562,35 @@ Alienware Command Center plugin for DankBar
 
 
 
+#### [Ambient Sound](https://github.com/hthienloc/dms-ambient-sound)
+
+Play ambient focus sounds with integrated sleep timer and volume control.
+
+
+
+- id: ambientSound
+- name: Ambient Sound
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: mpv, socat
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-ambient-sound/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Anime Calendar](https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin)
 
 A QuickShell plugin for DankMaterialShell that tracks anime episode releases and sends notifications when your favorite shows air.
@@ -1455,6 +1700,64 @@ Quickly toggle between different audio output devices
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/CD-Z/dms-plugins/master/settings.png)
+
+</details>
+
+
+
+
+
+#### [Bongo Cat](https://github.com/hthienloc/dms-bongo-cat)
+
+A reactive animated cat that taps along with your keyboard input.
+
+
+
+- id: bongoCat
+- name: Bongo Cat
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: evtest
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-bongo-cat/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Breathing Exercise](https://github.com/hthienloc/dms-breathing)
+
+A guided breathing exercise tool for mindfulness and relaxation.
+
+
+
+- id: breathing
+- name: Breathing Exercise
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-breathing/master/screenshot.png)
 
 </details>
 
@@ -1789,6 +2092,35 @@ Create tmux sessions for your projects
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/leonardofranco01/dms-sessionizer/refs/heads/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [DNS Switcher](https://github.com/JDKamalakar/DMS-DNS_Switcher)
+
+Switch system DNS providers and monitor network status.
+
+
+
+- id: dnsSwitcher
+- name: DNS Switcher
+- author: JDKamalakar
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: dms
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-DNS_Switcher/refs/heads/main/assets/POP-Up_UI.png)
 
 </details>
 
@@ -2137,7 +2469,7 @@ CalDAV calendar widget with event listing, notifications, and event management v
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/alcxyz/DankCalendar/v0.4.0/docs/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/alcxyz/DankCalendar/main/docs/screenshot.png)
 
 </details>
 
@@ -2259,6 +2591,35 @@ Mirror niri displays using wl-mirror from the control center and bar
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/jfchenier/dms-display-mirror/blob/main/assets/screenshot.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [Display Profile](https://github.com/EienWolf/dms-displayprofile)
+
+Switch between saved Hyprland display profiles from a keyboard-driven modal.
+
+
+
+- id: displayProfile
+- name: Display Profile
+- author: EienWolf
+- compositors: hyprland
+- capabilities: 
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/EienWolf/dms-displayprofile/refs/heads/master/screenshot.png)
 
 </details>
 
@@ -2508,6 +2869,35 @@ Check for and install Flatpak Updates
 
 
 
+#### [Floaty](https://github.com/hthienloc/dms-floaty)
+
+A minimalist tool to float clipboard or local images on top of all windows.
+
+
+
+- id: floaty
+- name: Floaty
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: wl-clipboard, kdialog
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-floaty/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Format Color Picker](https://github.com/Incognitux/dms-format-color-picker)
 
 Choose color format before picking
@@ -2593,6 +2983,35 @@ Search and browse GIFs powered by Klipy
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankGifSearch/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [GitHub Heatmap Revive](https://github.com/JDKamalakar/DMS-GitHub_HeatMap)
+
+Display GitHub contribution heatmap with color-coded activity levels
+
+
+
+- id: githubHeatmapRevive
+- name: GitHub Heatmap Revive
+- author: JDKamalakar
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dms
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-GitHub_HeatMap/refs/heads/main/assets/POP_Up-UI.png)
 
 </details>
 
@@ -2876,6 +3295,35 @@ Run a command on a custom interval and display its output in the bar. Supports m
 
 
 
+#### [Kaomoji Picker](https://github.com/hthienloc/dms-kaomoji-picker)
+
+A lightweight launcher for browsing and copying kaomojis to the clipboard.
+
+
+
+- id: kaomojiPicker
+- name: Kaomoji Picker
+- author: Loc Huynh
+- compositors: any
+- capabilities: launcher
+- dependencies: wl-clipboard
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-kaomoji-picker/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Keybinding Cheat Sheet](https://github.com/stvnwrgs/dms-keybindings-cheat-sheet)
 
 A desktop widget that parses your compositor's keybinding config and displays them as a live cheat sheet
@@ -2963,6 +3411,35 @@ Displays LiveChart anime schedule data pulled from a local browser session.
 
 
 
+#### [Lutris Launcher](https://github.com/hthienloc/dms-lutris-launcher)
+
+Quickly browse and launch games from your Lutris library.
+
+
+
+- id: lutrisLauncher
+- name: Lutris Launcher
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: lutris
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-lutris-launcher/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Lyrics on Panel](https://github.com/KangweiZhu/lyrics-on-panel)
 
 [Backend setup required!] A widget that displays the lyrics of the currently playing song from Spotify, Netease Cloud Music, Elisa, etc., on any location of your desktop.
@@ -3019,6 +3496,40 @@ Display the current Hungarian nameday on the DankBar. Shows today's name on the 
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/szabolcsf/dms-nameday/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Media Control Plus](https://github.com/Dadangdut33/dms-plugins)
+
+Customized version of DMS media widget with extended features that is mainly focused on improving vertical bar support
+
+
+
+- id: mediaControlPlus
+- name: Media Control Plus
+- author: Dadangdut33
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [MediaControlPlus](https://github.com/Dadangdut33/dms-plugins/tree/main/MediaControlPlus) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/MediaControlPlus/preview/vertical.png)
 
 </details>
 
@@ -3234,6 +3745,64 @@ List and switch to open Niri windows from the launcher
 
 
 
+#### [OCR Scanner](https://github.com/hthienloc/dms-ocr-scanner)
+
+Extract text from clipboard images or local files using Tesseract OCR.
+
+
+
+- id: ocrScanner
+- name: OCR Scanner
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: tesseract, wl-clipboard, kdialog
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-ocr-scanner/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Obsidian Vault Search](https://github.com/kmf/dms-obsidian-search)
+
+Search notes in your Obsidian vaults by title, folder, and content directly from the DMS launcher
+
+
+
+- id: obsidianSearch
+- name: Obsidian Vault Search
+- author: kmf
+- compositors: any
+- capabilities: launcher
+- dependencies: xdg-open
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/kmf/dms-obsidian-search/blob/main/Screenshot.png?raw=true)
+
+</details>
+
+
+
+
+
 #### [Pass](https://github.com/LouisKottmann/dms-pass)
 
 DMS Launcher plugin to fuzzy-search Pass entries and copy them to the clipboard.
@@ -3413,6 +3982,35 @@ Monitor and control your Pulsar X3 gaming mouse
 
 
 
+#### [QR Generator](https://github.com/hthienloc/dms-qr-generator)
+
+Generate QR codes from clipboard text or manual input.
+
+
+
+- id: qrGenerator
+- name: QR Generator
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: qrencode, wl-clipboard
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-qr-generator/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Quick Search](https://github.com/alcxyz/DankQuickSearch)
 
 Minimal web search from the launcher with engine prefixes
@@ -3435,6 +4033,35 @@ Minimal web search from the launcher with engine prefixes
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/alcxyz/DankQuickSearch/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Quick Tote](https://github.com/JDKamalakar/DMS-Quick_Tote)
+
+Quick access to recent downloads, screenshots, and pinned files (CROS Tote style).
+
+
+
+- id: quickTote
+- name: Quick Tote
+- author: JDKamalakar
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dms
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-Quick_Tote/refs/heads/main/assets/POP-Up_UI.png)
 
 </details>
 
@@ -3556,6 +4183,35 @@ A simple multi model ai client to use with your dank shell. Use it ollama, gemin
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/ss44/sathi.ai/refs/heads/master/assets/screenshot-01.png)
+
+</details>
+
+
+
+
+
+#### [Screen Capture Toolbar](https://github.com/JDKamalakar/DMS-ScreenCapture_Toolbar)
+
+Premium pill-shaped toolbar for quick screenshots and screen recording
+
+
+
+- id: screenCaptureToolbar
+- name: Screen Capture Toolbar
+- author: JDKamalakar
+- compositors: any
+- capabilities: ipc
+- dependencies: dms, gpu screen recorder
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-ScreenCapture_Toolbar/refs/heads/main/assets/Screenshot_UI.png)
 
 </details>
 
@@ -3815,6 +4471,35 @@ Search and browse stickers powered by Klipy
 
 
 
+#### [Stopwatch](https://github.com/hthienloc/dms-stopwatch)
+
+A high-precision stopwatch for time tracking.
+
+
+
+- id: stopwatch
+- name: Stopwatch
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-stopwatch/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Tailscale Manager](https://github.com/cglavin50/dms-tailscale)
 
 Tailscale-toggle plugin for DankBar
@@ -3924,6 +4609,35 @@ Display a customizable countdown timer in the Dankbar. Perfect for tracking impo
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/fdmarcin/TimeUntil/refs/heads/main/img/horizontal-pill.png)
+
+</details>
+
+
+
+
+
+#### [Timer](https://github.com/hthienloc/dms-timer)
+
+A countdown timer with notification support and audio alerts.
+
+
+
+- id: timer
+- name: Timer
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: libnotify, pulseaudio
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-timer/master/screenshot.png)
 
 </details>
 
