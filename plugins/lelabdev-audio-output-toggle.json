@@ -8,5 +8,6 @@
     "description": "Quickly switch between audio outputs (speakers, headphones, etc.) from the DankBar with a single click",
     "dependencies": ["wireplumber", "wpctl"],
     "compositors": ["any"],
-    "distro": ["any"]
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/lelabdev/dms-plugin-audio-output/refs/heads/master/assets/soundToogle.jpg"
 }
