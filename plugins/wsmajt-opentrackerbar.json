@@ -1,0 +1,13 @@
+{
+    "id": "openTrackerBar",
+    "name": "OpenTrackerBar",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/wsmajt/OpenTrackerBar",
+    "author": "smajt",
+    "description": "Track OpenCode.ai usage limits (session/weekly/monthly) via opentracker CLI",
+    "dependencies": ["opentracker-cli"],
+    "compositors": ["niri", "hyprland", "sway", "river"],
+    "distro": ["any"],
+    "screenshot": ""
+}
