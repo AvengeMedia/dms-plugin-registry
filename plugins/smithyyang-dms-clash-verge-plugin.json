@@ -9,5 +9,6 @@
   "dependencies": ["python3", "python3-venv", "node"],
   "compositors": ["hyprland"],
   "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-clash-verge-plugin/main/screenshot.png",
   "requires_dms": ">=1.4.0"
 }
