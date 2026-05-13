@@ -1954,6 +1954,40 @@ Execute shell commands from the launcher with history tracking, common shortcuts
 
 
 
+#### [Converter](https://github.com/viewerofall-labs/weather-viewer/tree/main/converter)
+
+Universal unit and color converter. Convert distance, weight, temperature, speed, volume, area, energy, and colors (RGB/Hex/HSV/HSL) instantly from the launcher.
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: converter
+- name: Converter
+- author: viewerofall 
+- compositors: any
+- capabilities: launcher
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [converter](https://github.com/viewerofall-labs/weather-viewer/tree/main/converter/tree/main/converter) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/convert.png)
+
+</details>
+
+
+
+
+
 #### [Custom Running Apps](https://github.com/heyitsmikey128/DankCustomRunningApps)
 
 Flexible Custom Widget for Showing Running Apps on Dank Bar
