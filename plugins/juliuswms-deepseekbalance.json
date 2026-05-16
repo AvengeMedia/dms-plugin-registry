@@ -1,0 +1,13 @@
+{
+    "id": "deepseekBalance",
+    "name": "DeepSeek Balance",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/juliuswms/dms-deepseekbalance",
+    "author": "eugene :)",
+    "description": "Display your DeepSeek API account balance in the taskbar",
+    "dependencies": ["jq"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/juliuswms/dms-deepseekbalance/blob/main/screenshot.png"
+}
