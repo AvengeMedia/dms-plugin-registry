@@ -1,0 +1,13 @@
+{
+    "id": "mouseBattery",
+    "name": "Mouse Battery & DPI",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/Ripolin99/dms-mouse-battery",
+    "author": "Ripolin99",
+    "description": "Wireless mouse battery in the bar with a DPI preset grid (Solaar / ratbagctl).",
+    "dependencies": ["upower", "solaar", "libratbag"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Ripolin99/dms-mouse-battery/main/assets/screenshot.png"
+}
