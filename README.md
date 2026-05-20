@@ -2220,7 +2220,7 @@ Execute shell commands from the launcher with history tracking, common shortcuts
 
 
 
-#### [Converter](https://github.com/viewerofall-labs/weather-viewer/tree/main/converter)
+#### [Converter](https://github.com/viewerofall-labs/weather-viewer)
 
 Universal unit and color converter. Convert distance, weight, temperature, speed, volume, area, energy, and colors (RGB/Hex/HSV/HSL) instantly from the launcher.
 
@@ -2237,7 +2237,7 @@ Universal unit and color converter. Convert distance, weight, temperature, speed
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [converter](https://github.com/viewerofall-labs/weather-viewer/tree/main/converter/tree/main/converter) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [converter](https://github.com/viewerofall-labs/weather-viewer/tree/main/converter) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
