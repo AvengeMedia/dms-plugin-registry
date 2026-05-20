@@ -3203,6 +3203,40 @@ Search and copy gitmojis from https://gitmoji.dev
 
 
 
+#### [Glance Translate](https://github.com/ChaoXu1997/glance)
+
+Popout translation widget for DankMaterialShell bar. Select text, click the translate icon, and get an instant side-by-side translation with copy buttons.
+
+
+
+- id: glance
+- name: Glance Translate
+- author: ChaoXu
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: trans, wl-clipboard
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugin](https://github.com/ChaoXu1997/glance/tree/main/plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/ChaoXu1997/glance/master/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Grimblast](https://github.com/TaylanTatli/dms-plugins)
 
 Quick screenshot menu for grimblast with multiple capture modes
