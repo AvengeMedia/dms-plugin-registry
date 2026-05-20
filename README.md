@@ -3566,6 +3566,35 @@ Control your Philips Hue lights directly from DMS
 
 
 
+#### [Hydrate](https://github.com/hthienloc/dms-hydrate)
+
+Drink water reminder and tracker.
+
+
+
+- id: hydrate
+- name: Hydrate
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-hydrate/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Hyprland Window Switcher](https://github.com/AvengeMedia/dms-plugins)
 
 Switch between Hyprland windows with live previews
@@ -4043,6 +4072,35 @@ A NetBird VPN status plugin for DMS that shows your NetBird connection status an
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/NetbirdStatus/preview/widget.png)
+
+</details>
+
+
+
+
+
+#### [Niri Display Settings](https://github.com/hthienloc/dms-niri-display-settings)
+
+Quickly toggle and configure display outputs in the Niri Wayland compositor with automatic laptop fallback protection.
+
+
+
+- id: niriDS
+- name: Niri Display Settings
+- author: Loc Huynh
+- compositors: niri
+- capabilities: daemon
+- dependencies: niri
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-niri-display-settings/master/screenshot.png)
 
 </details>
 
