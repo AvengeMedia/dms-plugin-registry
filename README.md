@@ -1317,6 +1317,35 @@ Manage display outputs (Single Display, Mirror, Extend).
 
 
 
+#### [Extended Network Toggle](https://github.com/notherealmarco/dms-plugin-extended-network)
+
+Network toggle with Ethernet, WiFi, and Other interfaces (bridges, VLANs, bonds)
+
+
+
+- id: extendedNetworkToggle
+- name: Extended Network Toggle
+- author: Marco Realacci
+- compositors: any
+- capabilities: control-center
+- dependencies: nmcli
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/notherealmarco/dms-plugin-extended-network/refs/heads/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [IP Indicator](https://github.com/hthienloc/dms-ipIndicator)
 
 Display public IP address, ISP, and location with a privacy-focused toggle.
