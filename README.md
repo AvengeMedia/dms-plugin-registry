@@ -937,6 +937,35 @@ Monitor Nix store disk usage and system generations with integrated system manag
 
 
 
+#### [OpenTrackerBar](https://github.com/wsmajt/OpenTrackerBar)
+
+Track AI usage limits via opentracker CLI
+
+
+
+- id: openTrackerBar
+- name: OpenTrackerBar
+- author: smajt
+- compositors: niri, hyprland, sway, river
+- capabilities: dankbar-widget
+- dependencies: opentracker-cli
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/wsmajt/OpenTrackerBar/refs/heads/main/Screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Power Usage Monitor](https://github.com/Daniel-42-z/dms-power-usage)
 
 Display real-time power consumption from your device
