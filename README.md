@@ -637,6 +637,40 @@ Monitor your Claude Code subscription usage with token tracking, rate limits, an
 
 
 
+#### [Codeforces Heatmap](https://github.com/EchoSingh/codeforces-dms-plugin)
+
+Display daily Codeforces problem solving activity with a color-coded heatmap
+
+
+
+- id: codeforcesHeatmap
+- name: Codeforces Heatmap
+- author: EchoSingh
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: bash, curl, jq, notify-send, xdg-open
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [CodeForcesHeatMap](https://github.com/EchoSingh/codeforces-dms-plugin/tree/main/CodeForcesHeatMap) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/EchoSingh/codeforces-dms-plugin/main/CodeForcesHeatMap/cf_heatmap.png)
+
+</details>
+
+
+
+
+
 #### [CodexBar](https://github.com/zakstam/dms-codexbar)
 
 Monitor AI provider usage quotas
