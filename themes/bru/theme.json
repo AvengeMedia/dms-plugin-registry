@@ -1,0 +1,108 @@
+{
+  "id": "bru",
+  "name": "Bru",
+  "version": "1.1.0",
+  "author": "kmf",
+  "description": "A lekker colorscheme — warm coffee-toned backgrounds with Selenized-bright accents",
+  "dark": {
+    "surfaceText": "#f5e8c7",
+    "surfaceVariantText": "#fbf3db",
+    "backgroundText": "#f5e8c7",
+    "outline": "#8a7f6f",
+    "error": "#fa5750",
+    "warning": "#ed8649",
+    "info": "#4695f7"
+  },
+  "light": {
+    "surfaceText": "#3a2f22",
+    "surfaceVariantText": "#2d241a",
+    "backgroundText": "#3a2f22",
+    "outline": "#8a7f6f",
+    "error": "#d2212d",
+    "warning": "#c25d1e",
+    "info": "#0072d4"
+  },
+  "variants": {
+    "type": "multi",
+    "defaults": {
+      "dark": { "flavor": "espresso", "accent": "yellow" },
+      "light": { "flavor": "latte", "accent": "yellow" }
+    },
+    "flavors": [
+      {
+        "id": "espresso",
+        "name": "Espresso",
+        "dark": {
+          "surface": "#26211c",
+          "surfaceVariant": "#322b23",
+          "background": "#1c1814",
+          "surfaceContainer": "#26211c",
+          "surfaceContainerHigh": "#322b23",
+          "surfaceContainerHighest": "#3a332b"
+        }
+      },
+      {
+        "id": "latte",
+        "name": "Latte",
+        "light": {
+          "surface": "#f3ead0",
+          "surfaceVariant": "#ece3cc",
+          "background": "#faf3e0",
+          "surfaceContainer": "#f3ead0",
+          "surfaceContainerHigh": "#ece3cc",
+          "surfaceContainerHighest": "#e0d4b0"
+        }
+      }
+    ],
+    "accents": [
+      {
+        "id": "yellow",
+        "name": "Yellow",
+        "espresso": { "primary": "#dbb32d", "secondary": "#41c7b9", "primaryText": "#1c1814", "primaryContainer": "#55461b", "surfaceTint": "#2f2716" },
+        "latte": { "primary": "#ad8900", "secondary": "#009c8f", "primaryText": "#faf3e0", "primaryContainer": "#eee3be", "surfaceTint": "#eee3be" }
+      },
+      {
+        "id": "orange",
+        "name": "Orange",
+        "espresso": { "primary": "#ed8649", "secondary": "#4695f7", "primaryText": "#1c1814", "primaryContainer": "#5a3923", "surfaceTint": "#302319" },
+        "latte": { "primary": "#c25d1e", "secondary": "#0072d4", "primaryText": "#faf3e0", "primaryContainer": "#f1dcc2", "surfaceTint": "#f1dcc2" }
+      },
+      {
+        "id": "red",
+        "name": "Red",
+        "espresso": { "primary": "#fa5750", "secondary": "#75b938", "primaryText": "#1c1814", "primaryContainer": "#5e2a26", "surfaceTint": "#321e1a" },
+        "latte": { "primary": "#d2212d", "secondary": "#489100", "primaryText": "#faf3e0", "primaryContainer": "#f4d3c5", "surfaceTint": "#f4d3c5" }
+      },
+      {
+        "id": "magenta",
+        "name": "Magenta",
+        "espresso": { "primary": "#f275be", "secondary": "#41c7b9", "primaryText": "#1c1814", "primaryContainer": "#5c3347", "surfaceTint": "#312125" },
+        "latte": { "primary": "#ca4898", "secondary": "#009c8f", "primaryText": "#faf3e0", "primaryContainer": "#f2d9d5", "surfaceTint": "#f2d9d5" }
+      },
+      {
+        "id": "violet",
+        "name": "Violet",
+        "espresso": { "primary": "#af88eb", "secondary": "#dbb32d", "primaryText": "#1c1814", "primaryContainer": "#483954", "surfaceTint": "#2a2329" },
+        "latte": { "primary": "#8762c6", "secondary": "#ad8900", "primaryText": "#faf3e0", "primaryContainer": "#e8dddc", "surfaceTint": "#e8dddc" }
+      },
+      {
+        "id": "blue",
+        "name": "Blue",
+        "espresso": { "primary": "#4695f7", "secondary": "#ed8649", "primaryText": "#1c1814", "primaryContainer": "#283d58", "surfaceTint": "#20242a" },
+        "latte": { "primary": "#0072d4", "secondary": "#c25d1e", "primaryText": "#faf3e0", "primaryContainer": "#d4dfde", "surfaceTint": "#d4dfde" }
+      },
+      {
+        "id": "teal",
+        "name": "Teal",
+        "espresso": { "primary": "#41c7b9", "secondary": "#ed8649", "primaryText": "#1c1814", "primaryContainer": "#274c45", "surfaceTint": "#1f2924" },
+        "latte": { "primary": "#009c8f", "secondary": "#c25d1e", "primaryText": "#faf3e0", "primaryContainer": "#d4e5d3", "surfaceTint": "#d4e5d3" }
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "espresso": { "primary": "#75b938", "secondary": "#af88eb", "primaryText": "#1c1814", "primaryContainer": "#36481e", "surfaceTint": "#242817" },
+        "latte": { "primary": "#489100", "secondary": "#8762c6", "primaryText": "#faf3e0", "primaryContainer": "#dfe4be", "surfaceTint": "#dfe4be" }
+      }
+    ]
+  }
+}
