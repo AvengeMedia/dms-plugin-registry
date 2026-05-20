@@ -2002,6 +2002,35 @@ A calculator plugin that evaluates mathematical expressions and copies results t
 
 
 
+#### [Campeonatos BR](https://github.com/Nadoutti/nadotti-br-soccer-plugin)
+
+Próximos jogos de Libertadores, Sudamericana e Brasileirão
+
+
+
+- id: brSoccer
+- name: Campeonatos BR
+- author: Nadoutti
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/Nadoutti/nadotti-br-soccer-plugin/blob/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Canvas Grades](https://github.com/mcwiseman97/dms-canvas-plugin)
 
 Courses, grades, upcoming assignments, missing work, and announcements from Canvas LMS
