@@ -5077,6 +5077,45 @@
     "sha256": "1bv1drvv0x2vbarxwj0l1padsznl67gm52801jvm32vssh159k3l",
     "url": "https://github.com/hthienloc/dms-ocr-scanner"
   },
+  "openTrackerBar": {
+    "date": "2026-05-20T16:41:26+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-o9+eXvGQTjK7R4j2cXVuOuohcgNxPgVONW8PF8OBFbA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "smajt",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "niri",
+        "hyprland",
+        "sway",
+        "river"
+      ],
+      "dependencies": [
+        "opentracker-cli"
+      ],
+      "description": "Track AI usage limits via opentracker CLI",
+      "distro": [
+        "any"
+      ],
+      "id": "openTrackerBar",
+      "name": "OpenTrackerBar",
+      "repo": "https://github.com/wsmajt/OpenTrackerBar",
+      "screenshot": "https://raw.githubusercontent.com/wsmajt/OpenTrackerBar/refs/heads/main/Screenshot.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/ndvs6xa92dp0lji03bwlssva4d67r4d2-OpenTrackerBar",
+    "rev": "f0983f06797e7f826802bfeee9fc46303381f521",
+    "rootDir": "",
+    "sha256": "1c0mh71if3vg6m70agki0dr23sisdrsp3xl88yxk4klhy5g9xpx3",
+    "url": "https://github.com/wsmajt/OpenTrackerBar"
+  },
   "pangolinWidget": {
     "date": "2026-05-02T17:35:24+03:00",
     "deepClone": false,
