@@ -4800,6 +4800,35 @@ Shows how many Steam friends are online, and whos online playing what.
 
 
 
+#### [Steam Launch Flags](https://github.com/Gateton/dank-bar-steam-flags)
+
+Quick-access reference for Steam launch flags — skip launchers, performance tools, Proton env vars, and DXVK tweaks. Click any flag to copy it.
+
+
+
+- id: steamFlagsPlugin
+- name: Steam Launch Flags
+- author: Thomas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Gateton/dank-bar-steam-flags/main/screenshots/popout.png)
+
+</details>
+
+
+
+
+
 #### [Sticker Search](https://github.com/AvengeMedia/dms-plugins)
 
 Search and browse stickers powered by Klipy
