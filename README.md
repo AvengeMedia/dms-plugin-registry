@@ -695,6 +695,35 @@ Real-time UPS status widget via NUT (upsc).
 
 
 
+#### [DeepSeek Usage](https://github.com/gylove1994/deepseek-dms-widget)
+
+DeepSeek Platform API balance, monthly token usage and cost in the DankBar; Playwright-based cookie login.
+
+
+
+- id: deepseekWidget
+- name: DeepSeek Usage
+- author: gylove1994
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/gylove1994/deepseek-dms-widget/master/screenshots/bar-pill.png)
+
+</details>
+
+
+
+
+
 #### [Disk Usage](https://github.com/alcxyz/DankDiskUsage)
 
 Monitor disk, ZFS pool, and Nix store usage with smart mount classification and expandable ZFS pool detail
