@@ -1172,6 +1172,35 @@ Control, configure, and monitor adguardvpn-cli directly from DankBar
 
 
 
+#### [Clash Verge](https://github.com/smithyyang/dms-clash-verge-plugin)
+
+Lightweight Clash Verge overview, switching, and on-demand delay testing popout for DankMaterialShell
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: clashVerge
+- name: Clash Verge
+- author: youngshine
+- compositors: hyprland
+- capabilities: dankbar-widget
+- dependencies: python3, python3-venv, node
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/smithyyang/dms-clash-verge-plugin/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [DDC Brightness](https://github.com/smithyyang/dms-brightness-plugin)
 
 Control internal and external monitor brightness via brightnessctl and ddcutil
