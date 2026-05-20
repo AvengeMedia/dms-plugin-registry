@@ -1983,6 +1983,35 @@ Advanced clipboard manager with integrated notes, todo, and pinned items.
 
 
 
+#### [CodeIsland](https://github.com/payprays/codeIsland-dms)
+
+AI coding session island for DankMaterialShell with Codex, Claude Code, and OpenCode session cards on niri.
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: codeIsland
+- name: CodeIsland
+- author: payprays
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: python3, niri
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/payprays/codeIsland-dms/main/preview/screenshots/task-running.png)
+
+</details>
+
+
+
+
+
 #### [Command Runner](https://github.com/devnullvoid/dms-command-runner)
 
 Execute shell commands from the launcher with history tracking, common shortcuts, and terminal/background execution modes
