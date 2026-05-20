@@ -3416,6 +3416,35 @@ Monitor and display Home Assistant entity states in your status bar
 
 
 
+#### [Hostname Widget](https://github.com/irunatbullets/hostname-widget)
+
+A widget for displaying your hostname
+
+
+
+- id: hostnameWidget
+- name: Hostname Widget
+- author: irunatbullets
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dms
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/irunatbullets/hostname-widget/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Hue Manager](https://github.com/derethil/dms-hue-manager)
 
 Control your Philips Hue lights directly from DMS
