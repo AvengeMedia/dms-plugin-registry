@@ -1,0 +1,14 @@
+{
+  "id": "clashVerge",
+  "name": "Clash Verge",
+  "capabilities": ["dankbar-widget"],
+  "category": "system",
+  "repo": "https://github.com/smithyyang/dms-clash-verge-plugin",
+  "author": "youngshine",
+  "description": "Lightweight Clash Verge overview, switching, and on-demand delay testing popout for DankMaterialShell",
+  "dependencies": ["python3", "python3-venv", "node"],
+  "compositors": ["hyprland"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-clash-verge-plugin/main/screenshot.png",
+  "requires_dms": ">=1.4.0"
+}
