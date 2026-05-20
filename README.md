@@ -4974,6 +4974,40 @@ Running apps grouped by workspace with per-workspace pills
 
 
 
+#### [Uptime Bar](https://github.com/viewerofall-labs/weather-viewer)
+
+Dankbar uptime from /proc/uptime: schedule icon + monospace time, Theme bar sizing, shrink-wrapped width. Toggle seconds and day prefix; optional left inset if neighbors crowd you.
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: uptimeBar
+- name: Uptime Bar
+- author: viewerofall
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [uptimeBar](https://github.com/viewerofall-labs/weather-viewer/tree/main/uptimeBar) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/uptime.png)
+
+</details>
+
+
+
+
+
 #### [VSCode Launcher](https://github.com/sr-tream/dms-vscode-launcher)
 
 Quick access to recent Visual Studio Code files, folders, and projects
