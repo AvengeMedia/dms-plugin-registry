@@ -932,6 +932,35 @@ Desktop overlay widget for live process monitoring with grouping, sorting, and s
 
 
 
+#### [Resource Monitor](https://github.com/smithyyang/dms-resource-monitor)
+
+Real-time CPU, memory and swap usage with circular progress indicators
+
+
+
+- id: resourceMonitor
+- name: Resource Monitor
+- author: youngshine
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/smithyyang/dms-resource-monitor/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [SSH Monitor](https://github.com/boutabong/dms-plugins)
 
 Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
