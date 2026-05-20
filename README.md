@@ -5708,6 +5708,17 @@ Arc Darkest GTK theme ported to DankMaterialShell
 
 
 
+### Bru
+
+A lekker colorscheme — warm coffee-toned backgrounds with Selenized-bright accents
+
+- **Author:** kmf
+- **ID:** `bru` **Version:** `1.1.0`
+
+![Bru](themes/bru/preview.svg)
+
+
+
 ### Catppuccin
 
 Soothing pastel theme for the high-spirited
