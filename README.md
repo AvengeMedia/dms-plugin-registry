@@ -4195,6 +4195,35 @@ List and switch to open Niri windows from the launcher
 
 
 
+#### [Nix Package Runner](https://github.com/iahccc/NixPackageRunner)
+
+Search nixpkgs with nix search, launch directly with nix run, and copy nix shell commands from the context menu
+
+
+
+- id: nixPackageRunner
+- name: Nix Package Runner
+- author: iahc
+- compositors: any
+- capabilities: launcher
+- dependencies: nix, jq, wl-clipboard
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/iahccc/NixPackageRunner/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [OCR Scanner](https://github.com/hthienloc/dms-ocr-scanner)
 
 Extract text from clipboard images or local files using Tesseract OCR.
