@@ -5719,6 +5719,17 @@ Soothing pastel theme for the high-spirited
 
 
 
+### Creamy Schedule
+
+Vanilla Fuzzel-inspired theme
+
+- **Author:** banana100500
+- **ID:** `creamySchedule` **Version:** `1.0.0`
+
+![Creamy Schedule](themes/creamy-schedule/preview.svg)
+
+
+
 ### Crimson Voltage
 
 Deep navy shadows infused with high-voltage crimson energy.
