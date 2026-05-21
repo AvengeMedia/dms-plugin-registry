@@ -637,6 +637,40 @@ Monitor your Claude Code subscription usage with token tracking, rate limits, an
 
 
 
+#### [Codeforces Heatmap](https://github.com/EchoSingh/codeforces-dms-plugin)
+
+Display daily Codeforces problem solving activity with a color-coded heatmap
+
+
+
+- id: codeforcesHeatmap
+- name: Codeforces Heatmap
+- author: EchoSingh
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: bash, curl, jq, notify-send, xdg-open
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [CodeForcesHeatMap](https://github.com/EchoSingh/codeforces-dms-plugin/tree/main/CodeForcesHeatMap) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/EchoSingh/codeforces-dms-plugin/main/CodeForcesHeatMap/cf_heatmap.png)
+
+</details>
+
+
+
+
+
 #### [CodexBar](https://github.com/zakstam/dms-codexbar)
 
 Monitor AI provider usage quotas
@@ -688,6 +722,35 @@ Real-time UPS status widget via NUT (upsc).
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/acmagn/DMS-UPS-Monitor/blob/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [DeepSeek Usage](https://github.com/gylove1994/deepseek-dms-widget)
+
+DeepSeek Platform API balance, monthly token usage and cost in the DankBar; Playwright-based cookie login.
+
+
+
+- id: deepseekWidget
+- name: DeepSeek Usage
+- author: gylove1994
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/gylove1994/deepseek-dms-widget/master/screenshots/bar-pill.png)
 
 </details>
 
@@ -874,6 +937,35 @@ Monitor Nix store disk usage and system generations with integrated system manag
 
 
 
+#### [OpenTrackerBar](https://github.com/wsmajt/OpenTrackerBar)
+
+Track AI usage limits via opentracker CLI
+
+
+
+- id: openTrackerBar
+- name: OpenTrackerBar
+- author: smajt
+- compositors: niri, hyprland, sway, river
+- capabilities: dankbar-widget
+- dependencies: opentracker-cli
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/wsmajt/OpenTrackerBar/refs/heads/main/Screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Power Usage Monitor](https://github.com/Daniel-42-z/dms-power-usage)
 
 Display real-time power consumption from your device
@@ -925,6 +1017,35 @@ Desktop overlay widget for live process monitoring with grouping, sorting, and s
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/Mithgroth/dms-process-list/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Resource Monitor](https://github.com/smithyyang/dms-resource-monitor)
+
+Real-time CPU, memory and swap usage with circular progress indicators
+
+
+
+- id: resourceMonitor
+- name: Resource Monitor
+- author: youngshine
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/smithyyang/dms-resource-monitor/main/assets/screenshot.png)
 
 </details>
 
@@ -1172,6 +1293,35 @@ Control, configure, and monitor adguardvpn-cli directly from DankBar
 
 
 
+#### [Clash Verge](https://github.com/smithyyang/dms-clash-verge-plugin)
+
+Lightweight Clash Verge overview, switching, and on-demand delay testing popout for DankMaterialShell
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: clashVerge
+- name: Clash Verge
+- author: youngshine
+- compositors: hyprland
+- capabilities: dankbar-widget
+- dependencies: python3, python3-venv, node
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/smithyyang/dms-clash-verge-plugin/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [DDC Brightness](https://github.com/smithyyang/dms-brightness-plugin)
 
 Control internal and external monitor brightness via brightnessctl and ddcutil
@@ -1310,6 +1460,35 @@ Manage display outputs (Single Display, Mirror, Extend).
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/xyzsteven/dms-displayoutput/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Extended Network Toggle](https://github.com/notherealmarco/dms-plugin-extended-network)
+
+Network toggle with Ethernet, WiFi, and Other interfaces (bridges, VLANs, bonds)
+
+
+
+- id: extendedNetworkToggle
+- name: Extended Network Toggle
+- author: Marco Realacci
+- compositors: any
+- capabilities: control-center
+- dependencies: nmcli
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/notherealmarco/dms-plugin-extended-network/refs/heads/main/docs/screenshot.png)
 
 </details>
 
@@ -1678,6 +1857,35 @@ Add application shortcuts in your desktop :)
 
 
 
+#### [Audio Output Toggle](https://github.com/lelabdev/dms-plugin-audio-output)
+
+Quickly switch between audio outputs (speakers, headphones, etc.) from the DankBar with a single click
+
+
+
+- id: audioOutputToggle
+- name: Audio Output Toggle
+- author: LoopsLudo & Mako
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: wireplumber, wpctl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/lelabdev/dms-plugin-audio-output/refs/heads/master/assets/soundToogle.jpg)
+
+</details>
+
+
+
+
+
 #### [Audio Slots IPC](https://github.com/lpv11/dms-audio-slots)
 
 Daemon plugin for cycling saved output/input device slots and toggling focused-app mute via DMS IPC.
@@ -1823,6 +2031,35 @@ A calculator plugin that evaluates mathematical expressions and copies results t
 
 
 
+#### [Campeonatos BR](https://github.com/Nadoutti/nadotti-br-soccer-plugin)
+
+Próximos jogos de Libertadores, Sudamericana e Brasileirão
+
+
+
+- id: brSoccer
+- name: Campeonatos BR
+- author: Nadoutti
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/Nadoutti/nadotti-br-soccer-plugin/blob/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Canvas Grades](https://github.com/mcwiseman97/dms-canvas-plugin)
 
 Courses, grades, upcoming assignments, missing work, and announcements from Canvas LMS
@@ -1954,6 +2191,35 @@ Advanced clipboard manager with integrated notes, todo, and pinned items.
 
 
 
+#### [CodeIsland](https://github.com/payprays/codeIsland-dms)
+
+AI coding session island for DankMaterialShell with Codex, Claude Code, and OpenCode session cards on niri.
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: codeIsland
+- name: CodeIsland
+- author: payprays
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: python3, niri
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/payprays/codeIsland-dms/main/preview/screenshots/task-running.png)
+
+</details>
+
+
+
+
+
 #### [Command Runner](https://github.com/devnullvoid/dms-command-runner)
 
 Execute shell commands from the launcher with history tracking, common shortcuts, and terminal/background execution modes
@@ -1983,7 +2249,7 @@ Execute shell commands from the launcher with history tracking, common shortcuts
 
 
 
-#### [Converter](https://github.com/viewerofall-labs/weather-viewer/tree/main/converter)
+#### [Converter](https://github.com/viewerofall-labs/weather-viewer)
 
 Universal unit and color converter. Convert distance, weight, temperature, speed, volume, area, energy, and colors (RGB/Hex/HSV/HSL) instantly from the launcher.
 
@@ -2000,7 +2266,7 @@ Universal unit and color converter. Convert distance, weight, temperature, speed
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [converter](https://github.com/viewerofall-labs/weather-viewer/tree/main/converter/tree/main/converter) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [converter](https://github.com/viewerofall-labs/weather-viewer/tree/main/converter) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -3174,6 +3440,40 @@ Search and copy gitmojis from https://gitmoji.dev
 
 
 
+#### [Glance Translate](https://github.com/ChaoXu1997/glance)
+
+Popout translation widget for DankMaterialShell bar. Select text, click the translate icon, and get an instant side-by-side translation with copy buttons.
+
+
+
+- id: glance
+- name: Glance Translate
+- author: ChaoXu
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: trans, wl-clipboard
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugin](https://github.com/ChaoXu1997/glance/tree/main/plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/ChaoXu1997/glance/master/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Grimblast](https://github.com/TaylanTatli/dms-plugins)
 
 Quick screenshot menu for grimblast with multiple capture modes
@@ -3266,6 +3566,35 @@ Monitor and display Home Assistant entity states in your status bar
 
 
 
+#### [Hostname Widget](https://github.com/irunatbullets/hostname-widget)
+
+A widget for displaying your hostname
+
+
+
+- id: hostnameWidget
+- name: Hostname Widget
+- author: irunatbullets
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dms
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/irunatbullets/hostname-widget/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Hue Manager](https://github.com/derethil/dms-hue-manager)
 
 Control your Philips Hue lights directly from DMS
@@ -3288,6 +3617,35 @@ Control your Philips Hue lights directly from DMS
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/derethil/dms-hue-manager/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Hydrate](https://github.com/hthienloc/dms-hydrate)
+
+Drink water reminder and tracker.
+
+
+
+- id: hydrate
+- name: Hydrate
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-hydrate/master/screenshot.png)
 
 </details>
 
@@ -3779,6 +4137,35 @@ A NetBird VPN status plugin for DMS that shows your NetBird connection status an
 
 
 
+#### [Niri Display Settings](https://github.com/hthienloc/dms-niri-display-settings)
+
+Quickly toggle and configure display outputs in the Niri Wayland compositor with automatic laptop fallback protection.
+
+
+
+- id: niriDS
+- name: Niri Display Settings
+- author: Loc Huynh
+- compositors: niri
+- capabilities: daemon
+- dependencies: niri
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-niri-display-settings/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Niri Screenshot](https://github.com/jfchenier/dms-niri-screenshot)
 
 Control Niri screenshot actions from the Control Center
@@ -3830,6 +4217,35 @@ List and switch to open Niri windows from the launcher
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/rochacbruno/DankNiriWindows/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Nix Package Runner](https://github.com/iahccc/NixPackageRunner)
+
+Search nixpkgs with nix search, launch directly with nix run, and copy nix shell commands from the context menu
+
+
+
+- id: nixPackageRunner
+- name: Nix Package Runner
+- author: iahc
+- compositors: any
+- capabilities: launcher
+- dependencies: nix, jq, wl-clipboard
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/iahccc/NixPackageRunner/raw/main/screenshot.png)
 
 </details>
 
@@ -4529,6 +4945,35 @@ Shows how many Steam friends are online, and whos online playing what.
 
 
 
+#### [Steam Launch Flags](https://github.com/Gateton/dank-bar-steam-flags)
+
+Quick-access reference for Steam launch flags — skip launchers, performance tools, Proton env vars, and DXVK tweaks. Click any flag to copy it.
+
+
+
+- id: steamFlagsPlugin
+- name: Steam Launch Flags
+- author: Thomas
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Gateton/dank-bar-steam-flags/main/screenshots/popout.png)
+
+</details>
+
+
+
+
+
 #### [Sticker Search](https://github.com/AvengeMedia/dms-plugins)
 
 Search and browse stickers powered by Klipy
@@ -4824,6 +5269,40 @@ Running apps grouped by workspace with per-workspace pills
 
 
 
+#### [Uptime Bar](https://github.com/viewerofall-labs/weather-viewer)
+
+Dankbar uptime from /proc/uptime: schedule icon + monospace time, Theme bar sizing, shrink-wrapped width. Toggle seconds and day prefix; optional left inset if neighbors crowd you.
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: uptimeBar
+- name: Uptime Bar
+- author: viewerofall
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [uptimeBar](https://github.com/viewerofall-labs/weather-viewer/tree/main/uptimeBar) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/uptime.png)
+
+</details>
+
+
+
+
+
 #### [VSCode Launcher](https://github.com/sr-tream/dms-vscode-launcher)
 
 Quick access to recent Visual Studio Code files, folders, and projects
@@ -5032,6 +5511,35 @@ Search the web with 23+ built-in search engines plus custom search engine suppor
 
 
 
+#### [Weekly Calendar](https://github.com/arqueon/dms-calendar)
+
+A Material 3 weekly calendar with five views (Week, 4 Days, Day, Agenda, Month), Evolution Data Server integration for Google/Nextcloud/CalDAV calendars, event creation from the widget, tooltips, overlap management, and Evolution deep-link on click.
+
+
+
+- id: weeklyCalendar
+- name: Weekly Calendar
+- author: arqueon (ported from dodaars)
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: evolution-data-server, python-dateutil, libical
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-calendar/master/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [World Clock](https://github.com/rochacbruno/WorldClock)
 
 Multiple timezones clock for DankBar
@@ -5229,6 +5737,17 @@ Arc Darkest GTK theme ported to DankMaterialShell
 
 
 
+### Bru
+
+A lekker colorscheme — warm coffee-toned backgrounds with Selenized-bright accents
+
+- **Author:** kmf
+- **ID:** `bru` **Version:** `1.1.0`
+
+![Bru](themes/bru/preview.svg)
+
+
+
 ### Catppuccin
 
 Soothing pastel theme for the high-spirited
@@ -5237,6 +5756,17 @@ Soothing pastel theme for the high-spirited
 - **ID:** `catppuccin` **Version:** `1.0.0`
 
 ![Catppuccin](themes/catppuccin/preview.svg)
+
+
+
+### Creamy Schedule
+
+Vanilla Fuzzel-inspired theme
+
+- **Author:** banana100500
+- **ID:** `creamySchedule` **Version:** `1.0.0`
+
+![Creamy Schedule](themes/creamy-schedule/preview.svg)
 
 
 

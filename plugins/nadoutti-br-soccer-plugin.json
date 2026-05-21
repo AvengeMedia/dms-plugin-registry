@@ -1,0 +1,14 @@
+{
+    "id": "brSoccer",
+    "name": "Campeonatos BR",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/Nadoutti/nadotti-br-soccer-plugin",
+    "path": "",
+    "author": "Nadoutti",
+    "description": "Próximos jogos de Libertadores, Sudamericana e Brasileirão",
+    "dependencies": ["curl"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/Nadoutti/nadotti-br-soccer-plugin/blob/main/screenshot.png"
+}

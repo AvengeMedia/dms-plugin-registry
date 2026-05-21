@@ -25,7 +25,7 @@ def run_prefetch(repo):
         cmd,
         check=True,
         text=True,
-        capture_output=True,
+        stdout=subprocess.PIPE,
     )
     return run.stdout
 
