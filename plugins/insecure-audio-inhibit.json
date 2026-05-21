@@ -1,0 +1,16 @@
+{
+    "id": "audioInhibit",
+    "name": "Audio Inhibit",
+    "description": "Enables idle inhibitor if audio is playing.",
+    "version": "1.0.0",
+    "author": "Tobias Hommel",
+    "type": "daemon",
+    "component": "./audioInhibit.qml",
+    "capabilities": ["audio", "monitoring"],
+    "category": "monitoring",
+    "repo": "https://github.com/insecure/dms-audio-inhibit",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/insecure/dms-audio-inhibit/refs/heads/main/screenshot.png"
+}

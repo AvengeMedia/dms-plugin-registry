@@ -1,0 +1,13 @@
+{
+    "id": "qcalCalendar",
+    "name": "qCal Calendar",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/szabolcsf/dms-qcal-calendar",
+    "author": "Szabolcs Fazekas",
+    "description": "CalDAV calendar with events, notifications, and event management. Works with iCloud, Google, Nextcloud, and any CalDAV server.",
+    "dependencies": ["python3", "go"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/szabolcsf/dms-qcal-calendar/raw/main/screenshot.png"
+}

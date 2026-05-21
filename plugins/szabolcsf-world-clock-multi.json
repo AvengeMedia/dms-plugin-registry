@@ -1,0 +1,13 @@
+{
+    "id": "worldClockMulti",
+    "name": "World Clock Multi",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/szabolcsf/dms-world-clock-multi",
+    "author": "Szabolcs Fazekas",
+    "description": "Display up to 5 timezones on the DankBar. Toggle between showing all at once or cycling one at a time at a configurable interval.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/szabolcsf/dms-world-clock-multi/raw/main/screenshot.png"
+}

@@ -343,6 +343,20 @@ def validate_plugin(plugin_file: Path) -> list[str]:
     return errors
 
 
+def get_changed_plugin_files() -> set[str]:
+    """
+    Return the set of plugin filenames changed in the current PR.
+
+    Reads the CHANGED_PLUGINS environment variable (newline-separated paths
+    like "plugins/foo.json"). Returns just the basenames (e.g. "foo.json").
+    An empty set means either no env var was set or no plugin files changed.
+    """
+    raw = os.environ.get("CHANGED_PLUGINS", "").strip()
+    if not raw:
+        return set()
+    return {Path(p.strip()).name for p in raw.splitlines() if p.strip()}
+
+
 def main():
     """Main validation entry point."""
     plugins_dir = Path(__file__).parent.parent / "plugins"
@@ -356,6 +370,14 @@ def main():
     if not plugin_files:
         print(f"{YELLOW}Warning: No plugin files found in plugins/{RESET}")
         sys.exit(0)
+
+    changed_files = get_changed_plugin_files()
+
+    if changed_files:
+        plugin_files = [f for f in plugin_files if f.name in changed_files]
+        if not plugin_files:
+            print(f"{GREEN}No plugin files changed in this PR, nothing to validate.{RESET}")
+            sys.exit(0)
 
     print(f"Validating {len(plugin_files)} plugin(s)...\n")
 
@@ -382,7 +404,7 @@ def main():
             print()
         sys.exit(1)
     else:
-        print(f"{GREEN}✓ All plugins validated successfully!{RESET}")
+        print(f"{GREEN}All plugins validated successfully!{RESET}")
         sys.exit(0)
 
 

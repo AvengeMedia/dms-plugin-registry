@@ -1,0 +1,13 @@
+{
+    "id": "ephemera",
+    "name": "Ephemera",
+    "capabilities": ["slideout", "ai"],
+    "category": "utilities",
+    "repo": "https://github.com/nicolasgarcia214/Ephemera",
+    "author": "nicolasgarcia214",
+    "description": "Ephemeral AI chat — ask quick questions, keep nothing",
+    "dependencies": ["curl", "wl-copy"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true"
+}

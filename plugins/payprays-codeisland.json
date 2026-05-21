@@ -1,0 +1,15 @@
+{
+  "id": "codeIsland",
+  "name": "CodeIsland",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/payprays/codeIsland-dms",
+  "author": "payprays",
+  "description": "AI coding session island for DankMaterialShell with Codex, Claude Code, and OpenCode session cards on niri.",
+  "dependencies": ["python3", "niri"],
+  "compositors": ["niri"],
+  "distro": ["any"],
+  "requires_dms": ">=1.4.0",
+  "version": "0.1.0",
+  "screenshot": "https://raw.githubusercontent.com/payprays/codeIsland-dms/main/preview/screenshots/task-running.png"
+}

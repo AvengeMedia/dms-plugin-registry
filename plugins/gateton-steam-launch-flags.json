@@ -1,0 +1,13 @@
+{
+    "id": "steamFlagsPlugin",
+    "name": "Steam Launch Flags",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/Gateton/dank-bar-steam-flags",
+    "author": "Thomas",
+    "description": "Quick-access reference for Steam launch flags — skip launchers, performance tools, Proton env vars, and DXVK tweaks. Click any flag to copy it.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Gateton/dank-bar-steam-flags/main/screenshots/popout.png"
+}

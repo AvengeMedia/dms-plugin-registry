@@ -1,0 +1,14 @@
+{
+    "id": "canvasGrades",
+    "name": "Canvas Grades",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/mcwiseman97/dms-canvas-plugin",
+    "path": "canvasGrades",
+    "author": "mcwiseman97",
+    "description": "Courses, grades, upcoming assignments, missing work, and announcements from Canvas LMS",
+    "dependencies": ["curl", "jq", "bash"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/mcwiseman97/dms-canvas-plugin/main/screenshots/canvas-popout.png"
+}

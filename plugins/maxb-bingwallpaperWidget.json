@@ -1,0 +1,15 @@
+{
+	"id": "wallpaperBingWidget",
+	"name": "Wallpaper of the Day (Widget)",
+	"capabilities": ["dankbar-widget"],
+	"category": "appearance",
+	"repo": "https://github.com/max72bra/DankPluginBingWallpaperWidget",
+	"author": "maxb",
+	"description": "A new fresh daily wallpaper downloaded from a famous portal (Widget)",
+	"dependencies": [],
+  "compositors": ["any"],
+	"distro": [
+		"any"
+	],
+	"screenshot": "https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaperWidget/refs/heads/main/screenshot.png"
+}
