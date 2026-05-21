@@ -1,0 +1,18 @@
+{
+  "id": "uptimeBar",
+  "name": "Uptime Bar",
+  "description": "Dankbar uptime from /proc/uptime: schedule icon + monospace time, Theme bar sizing, shrink-wrapped width. Toggle seconds and day prefix; optional left inset if neighbors crowd you.",
+  "version": "1.1.3",
+  "author": "viewerofall",
+  "type": "widget",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/viewerofall-labs/weather-viewer",
+  "path": "uptimeBar",
+  "requires_dms": ">=1.4.0",
+  "tags": ["uptime", "system", "status", "dankbar", "viewerofall"],
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/uptime.png"
+}
