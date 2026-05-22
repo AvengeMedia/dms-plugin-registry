@@ -6,7 +6,7 @@
     "repo": "https://github.com/hthienloc/dms-hydrate",
     "author": "Loc Huynh",
     "description": "Drink water reminder and tracker.",
-    "dependencies": [],
+    "dependencies": ["dms-common"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hydrate/master/screenshot.png"
