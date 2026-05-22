@@ -4322,12 +4322,12 @@
     "url": "https://github.com/JDKamalakar/DMS-LiveChart.me"
   },
   "lutrisLauncher": {
-    "date": "2026-05-16T16:41:27+07:00",
+    "date": "2026-05-21T21:39:29+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-C4cObUl5jcKWg1L2RbgFAJiBaY+FNe56ip/2eP+X/HQ=",
+    "hash": "sha256-KRGKprXKEpzn8+FpQ3zExeP9U3D1FtH2FE1oEyHWlbA=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4351,10 +4351,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-lutris-launcher/master/screenshot.png",
       "version": "1.2.1"
     },
-    "path": "/nix/store/yar5l6v55cr29zgnn53a2k8xim5hvfr1-dms-lutris-launcher",
-    "rev": "2746f26b5eaaaa240520c52d449fc33dfb688cd1",
+    "path": "/nix/store/a4hk0v69dwvmlcxqf60wv894d5p2d999-dms-lutris-launcher",
+    "rev": "aa6c84108a6774164abfd41b816d9afac5e77bf6",
     "rootDir": "",
-    "sha256": "0x7wjzzpixlzi9xfwdc5ixlq36000nw4bxjjhfbc53br95nhx1qb",
+    "sha256": "1c4msqhi6s2d2kvd25pmf19zvqy5qiy46sg1ygkrq4nannk8l499",
     "url": "https://github.com/hthienloc/dms-lutris-launcher"
   },
   "lyricsOnPanel": {
@@ -4428,12 +4428,12 @@
     "url": "https://github.com/szabolcsf/dms-nameday"
   },
   "markets": {
-    "date": "2026-04-01T10:20:08+02:00",
+    "date": "2026-05-21T10:22:51+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ltC4Fe3ZG0rSeuEcVl96oaChQqSicNZcvLO9E4cMxzo=",
+    "hash": "sha256-Ss56zcaaEhDYWbW2olJuOag7qSk7lXl3l7AMF1rHhus=",
     "leaveDotGit": false,
     "meta": {
       "author": "TMS-Namespace",
@@ -4455,12 +4455,12 @@
       "name": "Markets",
       "repo": "https://github.com/TMS-Namespace/DMS-Markets-Plugin",
       "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png",
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
-    "path": "/nix/store/xbvmbb1nhw2yfclrs547n7dxfk6dn6w7-DMS-Markets-Plugin",
-    "rev": "be6eb3d0452e1703c34831f1efbf65613df008cf",
+    "path": "/nix/store/dsyzz4jh84h53fw493cdzi5z2jm9343q-DMS-Markets-Plugin",
+    "rev": "3602e9f59565145c2c28e74991f05cae78141bf1",
     "rootDir": "",
-    "sha256": "0fn71j3i7gdkpifdcw52li1a3851g9gmc771gb94l6yrxlavil4n",
+    "sha256": "1sw6qxd1f35hjxvpk59v56lkpa1rdr9a5dmmb7c104lsqv6pmkja",
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "mediaControlPlus": {
@@ -4788,12 +4788,12 @@
     "url": "https://github.com/arcatva/dms-next-boot-selector"
   },
   "niriDS": {
-    "date": "2026-05-20T21:57:04+07:00",
+    "date": "2026-05-21T21:12:10+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-/p7PNz1iUM8tM3TE/DL4jllZJVCZBRI1g0BgXzTPFQc=",
+    "hash": "sha256-x6BHLMod5uZSMfYf2TXj9SDu1KEzhh/IYC0cjQTOx/I=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4817,10 +4817,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-niri-display-settings/master/screenshot.png",
       "version": "1.9.0"
     },
-    "path": "/nix/store/ip8p7g9p5q3lzsccjxnv44cb36q810gc-dms-niri-display-settings",
-    "rev": "ea8dfd28e80af4dc96e2b4cd8dc27f844c7ff7b6",
+    "path": "/nix/store/m83an8d19z9kawa9pivpdzpayysbq9fj-dms-niri-display-settings",
+    "rev": "1234b2da14412bf66e2ad2a9a1efcfabb1814f9a",
     "rootDir": "",
-    "sha256": "01qmrws5yq20hcsi41cra0jmjncfz0rgri3l6cnwyl327lvwz7py",
+    "sha256": "1wn7rq28s71dc341z1ikl7afw87mwcsxj7zn659fdrhxr8n4g867",
     "url": "https://github.com/hthienloc/dms-niri-display-settings"
   },
   "niriScreenshot": {
@@ -4930,12 +4930,12 @@
     "url": "https://github.com/antonjah/nix-monitor"
   },
   "nixPackageRunner": {
-    "date": "2026-05-19T10:09:32+08:00",
+    "date": "2026-05-21T14:37:50+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-06D+M9yKXCztnSc6ct4ERnpMt7RaK8tl110aOOs3/jE=",
+    "hash": "sha256-ur+1oN+QmTu7p5ZMpL3rCd4JGYbkerko4twa+tH6uvg=",
     "leaveDotGit": false,
     "meta": {
       "author": "iahc",
@@ -4961,10 +4961,10 @@
       "screenshot": "https://github.com/iahccc/NixPackageRunner/raw/main/screenshot.png",
       "version": "0.1.0"
     },
-    "path": "/nix/store/jvq61p3kp1x2ajsyb5zfpyph4wy4sn2s-NixPackageRunner",
-    "rev": "e44adee25ef33e17262e685b297ab1057f506a7d",
+    "path": "/nix/store/2plyvxgjr458jjz9hlkp5ggnfj2s7gvl-NixPackageRunner",
+    "rev": "829ad93c15b7c0ec82a6d7483728029037442601",
     "rootDir": "",
-    "sha256": "0cgy6zmkh6jxsxjwnassnjvlqyj60kg74fi7kpnjqp4avhrzx86k",
+    "sha256": "1y5szb8zl6nww8lbjyp4hqchkph9xfys8k4nlyxkp6chvyhbbgxs",
     "url": "https://github.com/iahccc/NixPackageRunner"
   },
   "nvidiaGpuMonitor": {
