@@ -1,6 +1,6 @@
 {
     "id": "tokyoNightDark",
-    "name": "TokyoNight Dark",
+    "name": "TokyoNight Dark (and Light)",
     "version": "1.0.0",
     "author": "irunatbullets",
     "description": "A TokyoNight Dark variant.",
@@ -36,7 +36,7 @@
         "surfaceTint": "#4f93e6",
         "background": "#fdfdff",
         "backgroundText": "#111322",
-        "outline": "#c7cbe0",
+        "outline": "#9a9dab",
         "surfaceContainer": "#f2f4fa",
         "surfaceContainerHigh": "#e9ecf6",
         "error": "#ff5c7a",
