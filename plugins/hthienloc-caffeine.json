@@ -8,5 +8,6 @@
     "description": "Keep your screen awake and prevent idle sleep with a single click.",
     "dependencies": [],
     "compositors": ["any"],
-    "distro": ["any"]
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png"
 }
