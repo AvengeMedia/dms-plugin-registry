@@ -1,0 +1,47 @@
+{
+    "id": "tokyoNightDark",
+    "name": "TokyoNight Dark (and Light)",
+    "version": "1.0.0",
+    "author": "irunatbullets",
+    "description": "A TokyoNight Dark variant.",
+    "dark": {
+        "primary": "#7dcfff",
+        "primaryText": "#1a1b26",
+        "primaryContainer": "#2f334d",
+        "secondary": "#bb9af7",
+        "surface": "#1a1b26",
+        "surfaceText": "#a9b1d6",
+        "surfaceVariant": "#24283b",
+        "surfaceVariantText": "#9aa5ce",
+        "surfaceTint": "#89b4fa",
+        "background": "#16161e",
+        "backgroundText": "#c0caf5",
+        "outline": "#565f89",
+        "surfaceContainer": "#1a1b26",
+        "surfaceContainerHigh": "#1f2335",
+        "error": "#f7768e",
+        "warning": "#e0af68",
+        "info": "#7aa2f7"
+    },
+    "light": {
+        "primary": "#2f7fd6",
+        "primaryText": "#f8fbff",
+        "primaryContainer": "#cfe4ff",
+        "secondary": "#a78bfa",
+        "success": "#22c55e",
+        "surface": "#f7f8fc",
+        "surfaceText": "#1b1e2b",
+        "surfaceVariant": "#eef1f8",
+        "surfaceVariantText": "#4b556a",
+        "surfaceTint": "#4f93e6",
+        "background": "#fdfdff",
+        "backgroundText": "#111322",
+        "outline": "#c7cbe0",
+        "surfaceContainer": "#f2f4fa",
+        "surfaceContainerHigh": "#e9ecf6",
+        "error": "#ff5c7a",
+        "warning": "#f4b860",
+        "info": "#1f5f8b"
+    }
+}
+
