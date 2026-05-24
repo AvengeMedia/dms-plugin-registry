@@ -633,12 +633,12 @@
     "url": "https://github.com/psyreactor/dms-awcc"
   },
   "bongoCat": {
-    "date": "2026-05-20T18:27:14+07:00",
+    "date": "2026-05-23T11:13:50+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-fvUKg5nQigbUHUREJuadASzin0G12yzDBTDkTNInwBU=",
+    "hash": "sha256-sPTQevbBCY2c11vfnlHmRgrCtrQ+UFYDfIp4nesXHpI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -660,12 +660,12 @@
       "name": "Bongo Cat",
       "repo": "https://github.com/hthienloc/dms-bongo-cat",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-bongo-cat/main/screenshot.png",
-      "version": "1.4.0"
+      "version": "1.5.0"
     },
-    "path": "/nix/store/rk3mnhd1d3wr58i91f9ar1419gk7n6f9-dms-bongo-cat",
-    "rev": "f28deaab8050df1db9a8357c392e54c318f9e2af",
+    "path": "/nix/store/dqhv45a76jnxkvvc93hji9909vpk0mcp-dms-bongo-cat",
+    "rev": "1efdbe3d97327e6176dc83a8f4632c4feba8374b",
     "rootDir": "",
-    "sha256": "05f04z94rr1h0p1jrnxm86gy4b01kpk2ci243pa0d2nhk61hmxby",
+    "sha256": "14hy2zmrsy4agh1mcl1ynjvc42j6wr8rxpsvsyf8s2f1yrxd1x5h",
     "url": "https://github.com/hthienloc/dms-bongo-cat"
   },
   "brSoccer": {
@@ -4091,12 +4091,12 @@
     "url": "https://github.com/corcoran/dms-interval-command"
   },
   "ipIndicator": {
-    "date": "2026-05-16T16:41:28+07:00",
+    "date": "2026-05-24T01:25:41+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-w2+dWyUrK0yQsSN+MzU7y3UDu10DUxanpUhP8LNxSTE=",
+    "hash": "sha256-vrqU579SNZYd9GRwfbu4H/Q7+kBU5zyt6SXBictVoRc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4118,12 +4118,12 @@
       "name": "IP Indicator",
       "repo": "https://github.com/hthienloc/dms-ipIndicator",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ipIndicator/master/screenshot.png",
-      "version": "1.2.1"
+      "version": "1.3.1"
     },
-    "path": "/nix/store/xkss5yp0q89kpixw8isqc3c50sj5pq10-dms-ipIndicator",
-    "rev": "ea1631a4f75ed9de3ff24637c0bed3554c28a6c2",
+    "path": "/nix/store/qrvw6lgqklrlcz5qpsnmakakkk4j28am-dms-ipIndicator",
+    "rev": "f817bd4129a12cfbb34c04169e1c4acb727602fe",
     "rootDir": "",
-    "sha256": "0ca9f6rz0ks8lnkiclq3bnxh6xfb7csk6zi3n684qarb4mdrsvy3",
+    "sha256": "05x1ap5qkh95x6nkrrsl83x3px0zp2xpsw34yhfrcdajpzkr9fmy",
     "url": "https://github.com/hthienloc/dms-ipIndicator"
   },
   "kaomojiPicker": {
@@ -4322,12 +4322,12 @@
     "url": "https://github.com/JDKamalakar/DMS-LiveChart.me"
   },
   "lutrisLauncher": {
-    "date": "2026-05-21T21:39:29+07:00",
+    "date": "2026-05-23T20:21:34+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-KRGKprXKEpzn8+FpQ3zExeP9U3D1FtH2FE1oEyHWlbA=",
+    "hash": "sha256-ARlJ3zZQPTBwZiBTZupa44w84VZljUQG5f1Rxc/XZKw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4349,12 +4349,12 @@
       "name": "Lutris Launcher",
       "repo": "https://github.com/hthienloc/dms-lutris-launcher",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-lutris-launcher/master/screenshot.png",
-      "version": "1.2.1"
+      "version": "1.2.2"
     },
-    "path": "/nix/store/a4hk0v69dwvmlcxqf60wv894d5p2d999-dms-lutris-launcher",
-    "rev": "aa6c84108a6774164abfd41b816d9afac5e77bf6",
+    "path": "/nix/store/1xxwvwvs11ry7mysc14dn2g5c915637x-dms-lutris-launcher",
+    "rev": "34fbd2e7b36847c2c1118017446bbb28b469ad38",
     "rootDir": "",
-    "sha256": "1c4msqhi6s2d2kvd25pmf19zvqy5qiy46sg1ygkrq4nannk8l499",
+    "sha256": "1b34sz7walgxwl3493b5avhkr373bbm6clr0crq30gah6vglj681",
     "url": "https://github.com/hthienloc/dms-lutris-launcher"
   },
   "lyricsOnPanel": {
@@ -5040,12 +5040,12 @@
     "url": "https://github.com/kmf/dms-obsidian-search"
   },
   "ocrScanner": {
-    "date": "2026-05-18T21:34:19+07:00",
+    "date": "2026-05-23T14:52:02+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-dMxUAtR6i1G3DACJUt8x1H7d1A0USN6zWlt0sHduYa8=",
+    "hash": "sha256-cHAhW4ERZUDiDMQkJbDG+13SA0W5/QFLqrQQiCEQU2A=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -5069,21 +5069,21 @@
       "name": "OCR Scanner",
       "repo": "https://github.com/hthienloc/dms-ocr-scanner",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ocr-scanner/main/screenshot.png",
-      "version": "1.2.1"
+      "version": "1.2.2"
     },
-    "path": "/nix/store/qp4vrn60f015hxzlps1bsh2brbxxvvm4-dms-ocr-scanner",
-    "rev": "2715cc17cf45b09b5b088b869faeded95ef603a6",
+    "path": "/nix/store/cyw9lg6ndszs68mv03hcas25klqwf3kw-dms-ocr-scanner",
+    "rev": "d50a0612e119ebaddc484765ffcb76bff24ab36d",
     "rootDir": "",
-    "sha256": "1bv1drvv0x2vbarxwj0l1padsznl67gm52801jvm32vssh159k3l",
+    "sha256": "0q2k20hqh45lm95h3zdr8l1x4pgvqsq2a9641ki40r8ih5dj2w3h",
     "url": "https://github.com/hthienloc/dms-ocr-scanner"
   },
   "openTrackerBar": {
-    "date": "2026-05-20T16:41:26+02:00",
+    "date": "2026-05-24T00:16:00+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-o9+eXvGQTjK7R4j2cXVuOuohcgNxPgVONW8PF8OBFbA=",
+    "hash": "sha256-sKTCr+gBVX7Ft+5eAferbdobRei5FGa/6jRReZJlgX4=",
     "leaveDotGit": false,
     "meta": {
       "author": "smajt",
@@ -5108,12 +5108,12 @@
       "name": "OpenTrackerBar",
       "repo": "https://github.com/wsmajt/OpenTrackerBar",
       "screenshot": "https://raw.githubusercontent.com/wsmajt/OpenTrackerBar/refs/heads/main/Screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/ndvs6xa92dp0lji03bwlssva4d67r4d2-OpenTrackerBar",
-    "rev": "f0983f06797e7f826802bfeee9fc46303381f521",
+    "path": "/nix/store/fpzayc6vq4g95r2pna9j2m0cv1j9jslf-OpenTrackerBar",
+    "rev": "6b74a4f0af6f22fb7fb407a7eae0dffa64bcf820",
     "rootDir": "",
-    "sha256": "1c0mh71if3vg6m70agki0dr23sisdrsp3xl88yxk4klhy5g9xpx3",
+    "sha256": "0zl1cn97jl9lxaznc55rx12ipnkdmgvh2ppfnz2pwm81x2pw595h",
     "url": "https://github.com/wsmajt/OpenTrackerBar"
   },
   "pangolinWidget": {
