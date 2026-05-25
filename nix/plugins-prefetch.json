@@ -707,12 +707,12 @@
     "url": "https://github.com/Nadoutti/nadotti-br-soccer-plugin"
   },
   "breathing": {
-    "date": "2026-05-16T16:41:28+07:00",
+    "date": "2026-05-24T11:13:52+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-3h3YJXS1AaULWN4E4+buqRkv9x/BOkB+9fIlzuHdIdM=",
+    "hash": "sha256-D06SY7n1HiyHu7a7ZGRexW6nyYV55cye+PFESLMWChI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -732,12 +732,12 @@
       "name": "Breathing Exercise",
       "repo": "https://github.com/hthienloc/dms-breathing",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-breathing/master/screenshot.png",
-      "version": "1.2.1"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/90833v5w7qr5wnfshhl9gcz29a292v51-dms-breathing",
-    "rev": "499b4c4ed4a817ec4e599040729214d450ed065f",
+    "path": "/nix/store/q6v5cz5maqb4kwksv7n0cdkixhv5iaqp-dms-breathing",
+    "rev": "9ae8397ba25d33958408f5814c8c7007aa7db241",
     "rootDir": "",
-    "sha256": "1lr1vphww9gjymz40fn13zvjy6d9xvkf616yb05sa0dmfhjxh7fy",
+    "sha256": "04ha2srlhi7iz2gcrrbrhp4sfvn5brj69fxnpf3jq7pmp5ir4khg",
     "url": "https://github.com/hthienloc/dms-breathing"
   },
   "calculator": {
@@ -1911,12 +1911,12 @@
     "url": "https://github.com/Samoggino/dankObsidian"
   },
   "dankPinentry": {
-    "date": "2026-04-27T02:28:43-04:00",
+    "date": "2026-05-23T22:48:01-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-TmaRMZEHLatEjV5dIZqgEJMdqcK8CtG5mL++vWVlckg=",
+    "hash": "sha256-f7vGlkuTunR90+ERR6oW3XxHeKRhO72lpkr8m8V9TsM=",
     "leaveDotGit": false,
     "meta": {
       "author": "Parthiv Seetharaman",
@@ -1941,10 +1941,10 @@
       "screenshot": "https://raw.githubusercontent.com/Pacman99/DankPinentry/refs/heads/master/screenshot.png",
       "version": "0.1.0"
     },
-    "path": "/nix/store/pgbsvhx0h44w6632r72a10337d285sz4-DankPinentry",
-    "rev": "02df8bceb651bdbc5fdc7a07b5f6f19e60c3906a",
+    "path": "/nix/store/pih1zbwm62lhhsxy7y5wi0i3xb8hdcdp-DankPinentry",
+    "rev": "2a403dd67be8d346687af119cbd5314fe789bc94",
     "rootDir": "",
-    "sha256": "0j3jcmjvvgmzk2wx22mwqaliv4qhl2d22payim2anb87j4qr2rjf",
+    "sha256": "1hsfgp2rpz2alsjvsfv1liw4fz6x2sm4f4g1sdyp9flk9fbcdfvz",
     "url": "https://github.com/pacman99/DankPinentry"
   },
   "dankPomodoroTimer": {
@@ -3362,12 +3362,12 @@
     "url": "https://github.com/merdely/dms-plugins"
   },
   "floaty": {
-    "date": "2026-05-20T16:10:08+07:00",
+    "date": "2026-05-24T11:25:46+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-s4SEffkI7b0Crf7UE6kwgzBvXEeJR75QzkwV124j5WA=",
+    "hash": "sha256-QkoRnubCL1bfJxyWcGWvp64aAZSXd2dwi92rRRELHGo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -3390,12 +3390,12 @@
       "name": "Floaty",
       "repo": "https://github.com/hthienloc/dms-floaty",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-floaty/main/screenshot.png",
-      "version": "1.2.1"
+      "version": "1.2.2"
     },
-    "path": "/nix/store/0ljj7nshgzjj0w6574a91r7q50286g0y-dms-floaty",
-    "rev": "4a796a5c0b69d07c9eda86b4d8555be9fd6f81cf",
+    "path": "/nix/store/4096yj53y9bzimq6ana3fyqrrdqx8hwj-dms-floaty",
+    "rev": "742cddcf780f9e6fb21f20424166265b2e2c79fe",
     "rootDir": "",
-    "sha256": "0q754dpdf5acrr8bwiw98xf6yc4362li7m7yml1bvv88z5yq915k",
+    "sha256": "0shw1c8lbayxidq6fxwpjh0imbm7mxjp15hw4zgmcby2wsg12jj2",
     "url": "https://github.com/hthienloc/dms-floaty"
   },
   "formatColorPicker": {
@@ -3804,12 +3804,12 @@
     "url": "https://github.com/TaylanTatli/dms-plugins"
   },
   "hiddenBar": {
-    "date": "2026-05-18T00:55:28+07:00",
+    "date": "2026-05-24T10:39:25+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-c8Co9OVUcgMfhRBaBKhvhEWio8Rgeq30WnX4huz1y7w=",
+    "hash": "sha256-YZMVbqReT5nqko6Pkyv25poLCuwtp4xOf1Ei2slgx14=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -3831,10 +3831,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hidden-bar/master/screenshot.png",
       "version": "1.4.0"
     },
-    "path": "/nix/store/sdgs7b9b5fc6bajszj8ccgf3xagixmfc-dms-hidden-bar",
-    "rev": "e2eb14c9284869e0ba16cfd25f60d16041034aa3",
+    "path": "/nix/store/91xvg3ign8qzqrgcx976byb23kvxpvgm-dms-hidden-bar",
+    "rev": "0bff1650c752d86afa59458a2adf67dda0380bc0",
     "rootDir": "",
-    "sha256": "1g6bypn8dy3mbbsasyk0qjis4ic4dyl08nhhhlgh6wjlwpsaih3k",
+    "sha256": "0pn7c34xl8jigx78r9rdxh50p6p6yqmr73wfjbm9jksylip1b4v1",
     "url": "https://github.com/hthienloc/dms-hidden-bar"
   },
   "homeAssistantMonitor": {
@@ -4127,12 +4127,12 @@
     "url": "https://github.com/hthienloc/dms-ipIndicator"
   },
   "kaomojiPicker": {
-    "date": "2026-05-16T16:41:30+07:00",
+    "date": "2026-05-24T23:23:52+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-WdMbOpuBDjS7p8ocZthFR6MOUoQiK69z8sxSLfDD+CA=",
+    "hash": "sha256-CInVItAt6DI2oKW4mlEBUN2dMRtollTUTf4tFNxLL2A=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4154,12 +4154,12 @@
       "name": "Kaomoji Picker",
       "repo": "https://github.com/hthienloc/dms-kaomoji-picker",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-kaomoji-picker/master/screenshot.png",
-      "version": "1.2.1"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/9hmalszd2ndx0llk87k94l50c97in9fp-dms-kaomoji-picker",
-    "rev": "5af5cecd5e709ddc6968147e2cbfaff353e2daa3",
+    "path": "/nix/store/j816mhjsk980jwcf3s54bwmfy0m802zy-dms-kaomoji-picker",
+    "rev": "7a1955221dfc0caeca7bf7e282c146d3a706cc6e",
     "rootDir": "",
-    "sha256": "087qqgq2slncy9rsyar2hi90x8s78pc6c76alyxk83l1kcx1plsr",
+    "sha256": "0q1g9gf18bgy9pa595k83cqrvpah058rmf55l0v35s1ds0idb288",
     "url": "https://github.com/hthienloc/dms-kaomoji-picker"
   },
   "keybindingCheatSheet": {
