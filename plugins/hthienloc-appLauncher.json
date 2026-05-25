@@ -1,7 +1,7 @@
 {
     "id": "appLauncher",
     "name": "App Launcher",
-    "capabilities": ["app-launcher"],
+    "capabilities": ["desktop-widget"],
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-app-launcher",
     "author": "Loc Huynh",
