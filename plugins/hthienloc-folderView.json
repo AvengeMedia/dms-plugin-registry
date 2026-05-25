@@ -5,7 +5,7 @@
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-folder-view",
     "author": "Loc Huynh",
-    "description": "A folder viewer widget for DankMaterialShell that displays and manages files and directories on your screen.",
+    "description": "A folder viewer widget that displays and manages files and directories on your screen.",
     "dependencies": ["wl-clipboard", "glib2", "dms-common"],
     "compositors": ["any"],
     "distro": ["any"],
