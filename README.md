@@ -2097,35 +2097,6 @@ Add application shortcuts in your desktop :)
 
 
 
-#### [Audio Output Toggle](https://github.com/lelabdev/dms-plugin-audio-output)
-
-Quickly switch between audio outputs (speakers, headphones, etc.) from the DankBar with a single click
-
-
-
-- id: audioOutputToggle
-- name: Audio Output Toggle
-- author: LoopsLudo & Mako
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: wireplumber, wpctl
-- distro: any
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/lelabdev/dms-plugin-audio-output/refs/heads/master/assets/soundToogle.jpg)
-
-</details>
-
-
-
-
-
 #### [Audio Slots IPC](https://github.com/lpv11/dms-audio-slots)
 
 Daemon plugin for cycling saved output/input device slots and toggling focused-app mute via DMS IPC.
