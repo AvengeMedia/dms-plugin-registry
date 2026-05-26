@@ -3404,6 +3404,35 @@ Ephemeral AI chat — ask quick questions, keep nothing
 
 
 
+#### [Fd Search](https://codeberg.org/massimopavoni/DankFdSearch)
+
+Search files using fd without indexing filesystem
+
+
+
+- id: fdSearch
+- name: Fd Search
+- author: Massimo Pavoni
+- compositors: any
+- capabilities: launcher
+- dependencies: fd
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://codeberg.org/massimopavoni/DankFdSearch/raw/branch/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Flatpak Updates](https://github.com/merdely/dms-plugins)
 
 Check for and install Flatpak Updates
