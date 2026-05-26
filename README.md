@@ -1973,6 +1973,35 @@ Quickly toggle between different audio output devices
 
 
 
+#### [Baloo Search](https://github.com/Beepeeko/dms-baloo-search)
+
+Uses KDE Baloo indexer to search files
+
+
+
+- id: balooSearch
+- name: Baloo Search
+- author: Beepeeko
+- compositors: any
+- capabilities: launcher
+- dependencies: baloosearch6
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Beepeeko/dms-baloo-search/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Bongo Cat](https://github.com/hthienloc/dms-bongo-cat)
 
 A reactive animated cat that taps along with your keyboard input.
