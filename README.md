@@ -1388,6 +1388,35 @@ Battery/AC-aware pre-blank dim with restore on resume for screen and keyboard. L
 
 
 
+#### [Caffeine](https://github.com/hthienloc/dms-caffeine)
+
+Keep your screen awake and prevent idle sleep with a single click.
+
+
+
+- id: caffeine
+- name: Caffeine
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Clash Verge](https://github.com/smithyyang/dms-clash-verge-plugin)
 
 Lightweight Clash Verge overview, switching, and on-demand delay testing popout for DankMaterialShell
@@ -1974,6 +2003,35 @@ A QuickShell plugin for DankMaterialShell that tracks anime episode releases and
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin/blob/main/screenshots/today-tab.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [App Launcher](https://github.com/hthienloc/dms-app-launcher)
+
+Desktop widget to search, filter, and launch applications by categories.
+
+
+
+- id: appLauncher
+- name: App Launcher
+- author: Loc Huynh
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: python3, dms-common
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png)
 
 </details>
 
@@ -3402,6 +3460,35 @@ A feature-rich reference image tool to float images, screenshots, and vector gra
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/hthienloc/dms-floaty/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Folder View](https://github.com/hthienloc/dms-folder-view)
+
+A folder viewer widget that displays and manages files and directories on your screen.
+
+
+
+- id: folderView
+- name: Folder View
+- author: Loc Huynh
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: wl-clipboard, glib2, dms-common
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-folder-view/main/screenshot.png)
 
 </details>
 
