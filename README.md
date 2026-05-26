@@ -5793,7 +5793,7 @@ Soothing pastel theme for the high-spirited
 Vanilla Fuzzel-inspired theme
 
 - **Author:** banana100500
-- **ID:** `creamySchedule` **Version:** `1.0.0`
+- **ID:** `creamySchedule` **Version:** `1.0.1`
 
 ![Creamy Schedule](themes/creamy-schedule/preview.svg)
 
