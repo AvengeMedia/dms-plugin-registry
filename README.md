@@ -1602,7 +1602,7 @@ Display public IP address, ISP, and location with a privacy-focused toggle.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: curl
+- dependencies: curl, dms-common
 - distro: any
 
 
@@ -1842,7 +1842,7 @@ Adds a watermark to the bottom-right of the screen
 - author: Loc Huynh
 - compositors: any
 - capabilities: desktop-widget
-- dependencies: 
+- dependencies: dms-common
 - distro: any
 
 
@@ -1934,7 +1934,7 @@ Play ambient focus sounds with integrated sleep timer and volume control.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: mpv, socat
+- dependencies: mpv, socat, dms-common
 - distro: any
 
 
@@ -2137,7 +2137,7 @@ A reactive animated cat that taps along with your keyboard input.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: evtest
+- dependencies: evtest, libinput, dms-common
 - distro: any
 
 
@@ -2166,7 +2166,7 @@ A guided breathing exercise tool for mindfulness and relaxation.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: 
+- dependencies: dms-common
 - distro: any
 
 
@@ -3391,7 +3391,7 @@ A feature-rich reference image tool to float images, screenshots, and vector gra
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: wl-clipboard, kdialog
+- dependencies: poppler-utils, dms-common
 - distro: any
 
 
@@ -3701,7 +3701,7 @@ Hide/Show bar widgets with a click or hover
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: 
+- dependencies: dms-common
 - distro: any
 
 
@@ -3817,7 +3817,7 @@ Drink water reminder and tracker.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: 
+- dependencies: dms-common
 - distro: any
 
 
@@ -3938,7 +3938,7 @@ A lightweight launcher for browsing and copying kaomojis to the clipboard.
 - author: Loc Huynh
 - compositors: any
 - capabilities: launcher
-- dependencies: wl-clipboard
+- dependencies: wl-clipboard, dms-common
 - distro: any
 
 
@@ -4054,7 +4054,7 @@ Quickly browse and launch games from your Lutris library.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: lutris
+- dependencies: lutris, dms-common
 - distro: any
 
 
@@ -4321,7 +4321,7 @@ A NetBird VPN status plugin for DMS that shows your NetBird connection status an
 
 #### [Niri Display Settings](https://github.com/hthienloc/dms-niri-display-settings)
 
-Quickly toggle and configure display outputs in the Niri Wayland compositor with automatic laptop fallback protection.
+Quickly toggle and configure display outputs in the Niri Wayland compositor.
 
 
 
@@ -4330,7 +4330,7 @@ Quickly toggle and configure display outputs in the Niri Wayland compositor with
 - author: Loc Huynh
 - compositors: niri
 - capabilities: daemon
-- dependencies: niri
+- dependencies: niri, wl-mirror, dms-common
 - distro: any
 
 
@@ -4446,7 +4446,7 @@ Extract text from clipboard images or local files using Tesseract OCR.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: tesseract, wl-clipboard, kdialog
+- dependencies: tesseract, dms-common
 - distro: any
 
 
@@ -4674,7 +4674,7 @@ Monitor and control your Pulsar X3 gaming mouse
 
 #### [QR Generator](https://github.com/hthienloc/dms-qr-generator)
 
-Generate QR codes from clipboard text or manual input.
+Generate and scan QR codes from clipboard text, manual input, or dropped images.
 
 
 
@@ -4683,7 +4683,7 @@ Generate QR codes from clipboard text or manual input.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: qrencode, wl-clipboard
+- dependencies: qrencode, wl-clipboard, zbar, dms-common
 - distro: any
 
 
@@ -5201,7 +5201,7 @@ A high-precision stopwatch for time tracking.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: 
+- dependencies: dms-common
 - distro: any
 
 
@@ -5346,7 +5346,7 @@ A countdown timer with notification support and audio alerts.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: libnotify, pulseaudio
+- dependencies: libnotify, pulseaudio, dms-common
 - distro: any
 
 
