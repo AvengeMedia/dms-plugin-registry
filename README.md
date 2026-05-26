@@ -937,6 +937,35 @@ Monitor NVIDIA GPU usage, VRAM, and temperature.
 
 
 
+#### [Network Indicator](https://github.com/gemb0-0/Network-Indicator.git)
+
+Real-time network speed monitor for DankBar showing upload and download speeds
+
+
+
+- id: networkIndicator
+- name: Network Indicator
+- author: gemb0_0
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/gemb0-0/Network-Indicator/blob/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Nix Monitor](https://github.com/antonjah/nix-monitor)
 
 Monitor Nix store disk usage and system generations with integrated system management capabilities
@@ -5357,6 +5386,40 @@ A high-precision stopwatch for time tracking.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/hthienloc/dms-stopwatch/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [System Monitor Plus](https://github.com/Dadangdut33/dms-plugins)
+
+Unified DMS system monitor with capabilities to customize resources order, resource shown, colors, and new styles.
+
+
+
+- id: systemMonitorPlus
+- name: System Monitor Plus
+- author: Dadangdut33
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [SystemMonitorPlus](https://github.com/Dadangdut33/dms-plugins/tree/main/SystemMonitorPlus) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/SystemMonitorPlus/preview/preview.png)
 
 </details>
 
