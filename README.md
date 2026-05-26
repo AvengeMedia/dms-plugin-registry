@@ -1359,6 +1359,35 @@ Control, configure, and monitor adguardvpn-cli directly from DankBar
 
 
 
+#### [Backlight Idle Actions](https://github.com/nfrastack/dms-backlightIdleActions)
+
+Battery/AC-aware pre-blank dim with restore on resume for screen and keyboard. Layers on top of DMS's existing idle pipeline.
+
+
+
+- id: backlightIdleActions
+- name: Backlight Idle Actions
+- author: nfrastack
+- compositors: niri, hyprland
+- capabilities: 
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/nfrastack/dms-backlightIdleActions/refs/heads/main/img/settings.jpg)
+
+</details>
+
+
+
+
+
 #### [Clash Verge](https://github.com/smithyyang/dms-clash-verge-plugin)
 
 Lightweight Clash Verge overview, switching, and on-demand delay testing popout for DankMaterialShell
