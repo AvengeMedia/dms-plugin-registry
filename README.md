@@ -1736,6 +1736,35 @@ Battery health monitor + TLP charge threshold/mode controls.
 
 
 
+#### [TLP Power Profile](https://github.com/peturh/tlp-power-profile)
+
+Battery widget backed by TLP, exposing editable power profiles and charge thresholds.
+
+
+
+- id: tlpPowerProfile
+- name: TLP Power Profile
+- author: petur
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: tlp
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/peturh/tlp-power-profile/main/assets/screenshot1.jpg)
+
+</details>
+
+
+
+
+
 #### [USB Manager](https://github.com/NordicsSys/dms-usb-manager)
 
 Bar widget: monitor removable USB drives, mount/unmount, eject, format (FAT32/exFAT/ext4), resize partitions; notifications on plug/unplug via udisks.
