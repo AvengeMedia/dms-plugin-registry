@@ -5858,6 +5858,17 @@ Gruvbox Material + Classic with hard/medium/soft and green/blue/yellow/purple pr
 
 
 
+### Jozi City Nights
+
+A neon-lit colorscheme — cool blue-grey backgrounds with cyberpunk-bright accents
+
+- **Author:** kmf
+- **ID:** `joziCityNights` **Version:** `1.0.0`
+
+![Jozi City Nights](themes/jozi-city/preview.svg)
+
+
+
 ### Kanagawa-wave-lotus
 
 Kanagawa theme using Lotus for light mode and Wave for dark mode.
@@ -5976,6 +5987,17 @@ Popular Tokyo Night color scheme with vibrant blues and purples
 - **ID:** `tokyoNight` **Version:** `1.0.0`
 
 ![Tokyo Night](themes/tokyonight/preview.svg)
+
+
+
+### TokyoNight Dark
+
+A TokyoNight Dark variant.
+
+- **Author:** irunatbullets
+- **ID:** `tokyoNightDark` **Version:** `1.0.0`
+
+![TokyoNight Dark](themes/tokyonight-dark/preview.svg)
 
 
 
