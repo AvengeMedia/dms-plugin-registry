@@ -5979,6 +5979,17 @@ Popular Tokyo Night color scheme with vibrant blues and purples
 
 
 
+### TokyoNight Dark
+
+A TokyoNight Dark variant.
+
+- **Author:** irunatbullets
+- **ID:** `tokyoNightDark` **Version:** `1.0.0`
+
+![TokyoNight Dark](themes/tokyonight-dark/preview.svg)
+
+
+
 ### TokyoNight Night and Moon
 
 Popular Tokyo Night color scheme with vibrant blues and purples, Night and Moon variant
