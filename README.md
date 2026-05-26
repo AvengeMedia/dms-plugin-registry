@@ -5899,7 +5899,7 @@ Inky color scheme for prose and code by Steph Ango
 GNOME-inspired theme with Adwaita accent variants
 
 - **Author:** ciyoxe
-- **ID:** `gnomeAdwaitaSlate` **Version:** `1.0.0`
+- **ID:** `gnomeAdwaita` **Version:** `1.0.0`
 
 ![GNOME Adwaita](themes/gnome-adwaita/preview.svg)
 
@@ -6100,3 +6100,5 @@ Retrobox dark theme with retro groove colors
 - **ID:** `retrobox` **Version:** `1.0.0`
 
 ![retrobox](themes/retrobox/preview.svg)
+
+
