@@ -1,0 +1,13 @@
+{
+    "id": "tlpControl",
+    "name": "TLP Control",
+    "capabilities": ["dankbar-widget", "control-center"],
+    "category": "system",
+    "repo": "https://github.com/nfrastack/dms-tlpControl",
+    "author": "nfrastack",
+    "description": "Battery health monitor + TLP charge threshold/mode controls.",
+    "dependencies": ["tlp", "tee"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/nfrastack/dms-tlpControl/refs/heads/main/img/overview.jpg"
+}
