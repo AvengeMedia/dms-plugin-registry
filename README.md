@@ -729,6 +729,35 @@ Real-time UPS status widget via NUT (upsc).
 
 
 
+#### [DeepSeek Balance](https://github.com/juliuswms/dms-deepseekbalance)
+
+Display your DeepSeek API account balance in the taskbar
+
+
+
+- id: deepseekBalance
+- name: DeepSeek Balance
+- author: eugene :)
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/juliuswms/dms-deepseekbalance/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [DeepSeek Usage](https://github.com/gylove1994/deepseek-dms-widget)
 
 DeepSeek Platform API balance, monthly token usage and cost in the DankBar; Playwright-based cookie login.
