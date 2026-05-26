@@ -34,7 +34,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Network](#network) | [Productivity](#productivity) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Utility](#utility) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Network](#network) | [Networking](#networking) | [Productivity](#productivity) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Utility](#utility) | [Weather](#weather)
 
 ---
 
@@ -1146,6 +1146,43 @@ QuickShell plugin for DankMaterialShell that exposes Pangolin VPN status, peer l
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/RiceaRaul/DMS-PangolinPlugin/blob/main/docs/screenshots/popout.png?raw=true)
+
+</details>
+
+
+
+
+
+---
+
+
+
+### Networking
+
+
+
+#### [ZeroTier Manager](https://github.com/nfrastack/dms-zerotierManager)
+
+Show ZeroTier network status in the bar and join/leave/route networks from a popout.
+
+
+
+- id: zerotierManager
+- name: ZeroTier Manager
+- author: nfrastack
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: zerotier-cli
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/nfrastack/dms-zerotierManager/refs/heads/main/img/overview.jpg)
 
 </details>
 
