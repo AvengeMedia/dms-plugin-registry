@@ -3017,6 +3017,35 @@ Desktop widget that displays RSS/Atom feeds with auto-refresh
 
 
 
+#### [Dank Stopwatch](https://github.com/NordicsSys/dankStopwatch)
+
+A modern glassmorphic stopwatch pill for DankMaterialShell with laps, copy time, and a polished popout toolbar.
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: dankStopwatch
+- name: Dank Stopwatch
+- author: NordicsSys
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/NordicsSys/dankStopwatch/main/screenshots/stopwatch-laps.png)
+
+</details>
+
+
+
+
+
 #### [DankCalendar](https://github.com/alcxyz/DankCalendar)
 
 CalDAV calendar widget with event listing, notifications, and event management via a stdlib-only Go binary with keyring credentials
