@@ -14,5 +14,7 @@
     "permissions": ["settings_read", "settings_write", "process", "network"],
     "requires_dms": ">=1.2.0",
     "dependencies": ["curl", "secret-tool", "jq"],
+    "compositors": [],
+    "distro": [],
     "screenshot": "https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin/raw/main/Images/plugin_group_by_date.png"
 }
