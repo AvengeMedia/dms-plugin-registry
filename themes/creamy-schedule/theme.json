@@ -1,7 +1,7 @@
 {
   "id": "creamySchedule",
   "name": "Creamy Schedule",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "banana100500",
   "description": "Vanilla Fuzzel-inspired theme",
   "light": {
@@ -18,8 +18,8 @@
   "surfaceTint": "#eee8d5",
   "surfaceContainer": "#fdf6e3",
   "surfaceContainerHigh": "#eee8d5",
-  "surfaceContainerHighest": "#000000",
-  "outline": "#d5cdb5",
+  "surfaceContainerHighest": "#fdf6e3",
+  "outline": "#586875",
   "error": "#df4141",
   "warning": "#df4141",
   "info": "#586875"

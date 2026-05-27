@@ -1,0 +1,13 @@
+{
+    "id": "tlpPowerProfile",
+    "name": "TLP Power Profile",
+    "capabilities": ["dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/peturh/tlp-power-profile",
+    "author": "petur",
+    "description": "Battery widget backed by TLP, exposing editable power profiles and charge thresholds.",
+    "dependencies": ["tlp"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/peturh/tlp-power-profile/main/assets/screenshot1.jpg"
+}

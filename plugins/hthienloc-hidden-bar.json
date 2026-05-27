@@ -6,7 +6,7 @@
     "repo": "https://github.com/hthienloc/dms-hidden-bar",
     "author": "Loc Huynh",
     "description": "Hide/Show bar widgets with a click or hover",
-    "dependencies": [],
+    "dependencies": ["dms-common"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hidden-bar/master/screenshot.png"

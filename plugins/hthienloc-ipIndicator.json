@@ -6,7 +6,7 @@
     "repo": "https://github.com/hthienloc/dms-ipIndicator",
     "author": "Loc Huynh",
     "description": "Display public IP address, ISP, and location with a privacy-focused toggle.",
-    "dependencies": ["curl"],
+    "dependencies": ["curl", "dms-common"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ipIndicator/master/screenshot.png"
