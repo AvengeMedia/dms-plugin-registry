@@ -21,10 +21,14 @@
         in
         import ./nix/default.nix { inherit pkgs; }
       );
-      nixosModules.dms-plugin-registry = ./nix/module.nix;
-      nixosModules.default = self.nixosModules.dms-plugin-registry;
-      homeModules.dms-plugin-registry = ./nix/module.nix;
-      homeModules.default = self.homeModules.dms-plugin-registry;
+      nixosModules = {
+        dms-plugin-registry = ./nix/module.nix;
+        default = self.nixosModules.dms-plugin-registry;
+      };
+      homeModules = {
+        dms-plugin-registry = ./nix/module.nix;
+        default = self.homeModules.dms-plugin-registry;
+      };
 
       formatter = lib.genAttrs systems (system: nixpkgs.legacyPackages.${system}.nixfmt);
     };
