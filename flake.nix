@@ -1,6 +1,6 @@
 {
-
   inputs.nixpkgs.url = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz";
+
   outputs =
     { self, nixpkgs, ... }:
     let
@@ -11,16 +11,13 @@
         "x86_64-darwin"
         "x86_64-linux"
       ];
+      forEachSystem = lib.genAttrs systems;
+      pkgsForEach = nixpkgs.legacyPackages;
     in
     {
       checks = self.packages;
-      packages = lib.genAttrs systems (
-        system:
-        let
-          pkgs = nixpkgs.legacyPackages.${system};
-        in
-        import ./nix/default.nix { inherit pkgs; }
-      );
+      packages = forEachSystem (system: import ./nix/default.nix { pkgs = pkgsForEach.${system}; });
+
       nixosModules = {
         dms-plugin-registry = ./nix/module.nix;
         default = self.nixosModules.dms-plugin-registry;
@@ -30,6 +27,6 @@
         default = self.homeModules.dms-plugin-registry;
       };
 
-      formatter = lib.genAttrs systems (system: nixpkgs.legacyPackages.${system}.nixfmt);
+      formatter = lib.genAttrs systems (system: pkgsForEach.${system}.nixfmt);
     };
 }
