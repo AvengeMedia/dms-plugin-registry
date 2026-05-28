@@ -19,5 +19,7 @@
       homeModules.default = self.homeModules.dms-plugin-registry;
       modules.dms-plugin-registry = ./nix/module.nix;
       modules.default = self.modules.dms-plugin-registry;
+
+      formatter = lib.genAttrs systems (system: nixpkgs.legacyPackages.${system}.nixfmt);
     };
 }
