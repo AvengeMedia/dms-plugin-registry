@@ -3004,6 +3004,43 @@
     "sha256": "0minqry2lxy6n9lc0000xhik3k9yq9kfmlsljxpkqwjqriqh1g1g",
     "url": "https://github.com/nfoert/dms-desktop-countdown"
   },
+  "dmsFrameworkBattery": {
+    "date": "2026-05-27T11:42:45-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-bkKwL4+SwFMlwtGv6RTvvpo0JuHTUydyIYyRvcsubxE=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "nfoert",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [
+        "ectool"
+      ],
+      "description": "Dank Material Shell battery widget, with support for changing the charge limit on Framework laptops",
+      "distro": [
+        "any"
+      ],
+      "id": "dmsFrameworkBattery",
+      "name": "DMS Framework Battery",
+      "repo": "https://github.com/nfoert/dms-framework-battery",
+      "screenshot": "https://github.com/nfoert/dms-framework-battery/blob/main/repo/images/image.png?raw=true",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/i0cpjdn0kjcdjga315apygyd8x973vpb-dms-framework-battery",
+    "rev": "c84cc4139db8321e889b786829f8dc5404e79e67",
+    "rootDir": "",
+    "sha256": "04bg5v5vv4cc45r2flykw4k396myxwafkbyiq8jm7h4jiwpv0hkf",
+    "url": "https://github.com/nfoert/dms-framework-battery"
+  },
   "dmsJira": {
     "date": "2026-05-11T15:11:57+02:00",
     "deepClone": false,
@@ -5760,12 +5797,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-05-29T13:35:51+07:00",
+    "date": "2026-05-29T22:43:53+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-3uKJkzBZTqltNr3hJvTdUjl2LxIaUc8N7iMdUVWpDh0=",
+    "hash": "sha256-DyOVcmPNN1l1SgMDGGDZ2EnTo1J2KtFs4dGdKlGAe40=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -5785,12 +5822,12 @@
       "name": "Quick Capture",
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.3"
     },
-    "path": "/nix/store/r1im5rr3r6qhh8j5f268z1342z67fka5-dms-quick-capture",
-    "rev": "a0cdc95391bdf01400019e97a11b0f086267fe93",
+    "path": "/nix/store/fpvbjhb6061hih7d1vxnybsw7nakiz30-dms-quick-capture",
+    "rev": "e3b4f376d3cdd2b77d15236cdcc0d89d8eda7ea3",
     "rootDir": "",
-    "sha256": "078fm5am2793xq6wyl8s28ppcfajvps2dqdx6rnsjkjr629qkqny",
+    "sha256": "13bvh18jm7fiw5nd2aknaaix6jfqv5h1h0q399smjdydcdr9a8qg",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
