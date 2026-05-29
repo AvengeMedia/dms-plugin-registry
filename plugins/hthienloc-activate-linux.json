@@ -6,7 +6,7 @@
     "repo": "https://github.com/hthienloc/dms-activate-linux",
     "author": "Loc Huynh",
     "description": "Adds a watermark to the bottom-right of the screen",
-    "dependencies": ["dms-common"],
+    "dependencies": [],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-activate-linux/master/screenshot.png"
