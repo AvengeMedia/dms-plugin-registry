@@ -1504,6 +1504,35 @@ Control internal and external monitor brightness via brightnessctl and ddcutil
 
 
 
+#### [DMS Framework Battery](https://github.com/nfoert/dms-framework-battery)
+
+Dank Material Shell battery widget, with support for changing the charge limit on Framework laptops
+
+
+
+- id: dmsFrameworkBattery
+- name: DMS Framework Battery
+- author: nfoert
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: ectool
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/nfoert/dms-framework-battery/blob/main/repo/images/image.png?raw=true)
+
+</details>
+
+
+
+
+
 #### [Dank ASUS Control Center](https://github.com/shazzaam7/DankAsusControl)
 
 Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
