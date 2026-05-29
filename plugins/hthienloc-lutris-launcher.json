@@ -6,7 +6,7 @@
     "repo": "https://github.com/hthienloc/dms-lutris-launcher",
     "author": "Loc Huynh",
     "description": "Quickly browse and launch games from your Lutris library.",
-    "dependencies": ["lutris", "dms-common"],
+    "dependencies": ["lutris"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-lutris-launcher/master/screenshot.png"
