@@ -1660,7 +1660,7 @@ Display public IP address, ISP, and location with a privacy-focused toggle.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: curl, dms-common
+- dependencies: curl
 - distro: any
 
 
@@ -1900,7 +1900,7 @@ Adds a watermark to the bottom-right of the screen
 - author: Loc Huynh
 - compositors: any
 - capabilities: desktop-widget
-- dependencies: dms-common
+- dependencies: 
 - distro: any
 
 
@@ -1992,7 +1992,7 @@ Play ambient focus sounds with integrated sleep timer and volume control.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: mpv, socat, dms-common
+- dependencies: mpv, socat
 - distro: any
 
 
@@ -2050,7 +2050,7 @@ Desktop widget to search, filter, and launch applications by categories.
 - author: Loc Huynh
 - compositors: any
 - capabilities: desktop-widget
-- dependencies: python3, dms-common
+- dependencies: python3
 - distro: any
 
 
@@ -2195,7 +2195,7 @@ A reactive animated cat that taps along with your keyboard input.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: evtest, libinput, dms-common
+- dependencies: evtest, libinput
 - distro: any
 
 
@@ -2224,7 +2224,7 @@ A guided breathing exercise tool for mindfulness and relaxation.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: dms-common
+- dependencies: 
 - distro: any
 
 
@@ -3507,7 +3507,7 @@ A feature-rich reference image tool to float images, screenshots, and vector gra
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: poppler-utils, dms-common
+- dependencies: poppler-utils
 - distro: any
 
 
@@ -3536,7 +3536,7 @@ A folder viewer widget that displays and manages files and directories on your s
 - author: Loc Huynh
 - compositors: any
 - capabilities: desktop-widget
-- dependencies: wl-clipboard, glib2, dms-common
+- dependencies: wl-clipboard, glib2
 - distro: any
 
 
@@ -3846,7 +3846,7 @@ Hide/Show bar widgets with a click or hover
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: dms-common
+- dependencies: 
 - distro: any
 
 
@@ -3962,7 +3962,7 @@ Drink water reminder and tracker.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: dms-common
+- dependencies: 
 - distro: any
 
 
@@ -4083,7 +4083,7 @@ A lightweight launcher for browsing and copying kaomojis to the clipboard.
 - author: Loc Huynh
 - compositors: any
 - capabilities: launcher
-- dependencies: wl-clipboard, dms-common
+- dependencies: wl-clipboard
 - distro: any
 
 
@@ -4199,7 +4199,7 @@ Quickly browse and launch games from your Lutris library.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: lutris, dms-common
+- dependencies: lutris
 - distro: any
 
 
@@ -4475,7 +4475,7 @@ Quickly toggle and configure display outputs in the Niri Wayland compositor.
 - author: Loc Huynh
 - compositors: niri
 - capabilities: daemon
-- dependencies: niri, wl-mirror, dms-common
+- dependencies: niri, wl-mirror
 - distro: any
 
 
@@ -4591,7 +4591,7 @@ Extract text from clipboard images or local files using Tesseract OCR.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: tesseract, dms-common
+- dependencies: tesseract
 - distro: any
 
 
@@ -4828,7 +4828,7 @@ Generate and scan QR codes from clipboard text, manual input, or dropped images.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: qrencode, wl-clipboard, zbar, dms-common
+- dependencies: qrencode, wl-clipboard, zbar
 - distro: any
 
 
@@ -4839,6 +4839,35 @@ Generate and scan QR codes from clipboard text, manual input, or dropped images.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/hthienloc/dms-qr-generator/master/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Quick Capture](https://github.com/hthienloc/dms-quick-capture)
+
+A quick screen capture utility featuring screenshot tools, drawing, and annotation.
+
+
+
+- id: quickCapture
+- name: Quick Capture
+- author: Loc Huynh
+- compositors: any
+- capabilities: daemon
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png)
 
 </details>
 
@@ -5346,7 +5375,7 @@ A high-precision stopwatch for time tracking.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: dms-common
+- dependencies: 
 - distro: any
 
 
@@ -5525,7 +5554,7 @@ A countdown timer with notification support and audio alerts.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: libnotify, pulseaudio, dms-common
+- dependencies: libnotify, pulseaudio
 - distro: any
 
 
