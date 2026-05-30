@@ -6,7 +6,7 @@
     "repo": "https://github.com/hthienloc/dms-breathing",
     "author": "Loc Huynh",
     "description": "A guided breathing exercise tool for mindfulness and relaxation.",
-    "dependencies": ["dms-common"],
+    "dependencies": [],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-breathing/master/screenshot.png"

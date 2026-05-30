@@ -1,11 +1,11 @@
 {
   "activateLinux": {
-    "date": "2026-05-16T16:41:23+07:00",
+    "date": "2026-05-29T12:59:16+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-fs8u6VC62oM29922d8ItGhlXf8isxyVa/bFHvvjyKUk=",
+    "hash": "sha256-vT6A0rm2yHylCKApS7b1QtqRR4WyPyE9jFb1qM35m6o=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -16,9 +16,7 @@
       "compositors": [
         "any"
       ],
-      "dependencies": [
-        "dms-common"
-      ],
+      "dependencies": [],
       "description": "Adds a watermark to the bottom-right of the screen",
       "distro": [
         "any"
@@ -29,10 +27,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-activate-linux/master/screenshot.png",
       "version": "1.2.1"
     },
-    "path": "/nix/store/yl9m9x5s1fcf7qd6wvlz1s820w4kmyqw-dms-activate-linux",
-    "rev": "6d59e8741fb797d64157feb2ef49d730e415aecb",
+    "path": "/nix/store/k3y3jls6mi2mfqhk4xbnnyfqq9w4w4xn-dms-activate-linux",
+    "rev": "1c941f2a8d40c733b6a051f7af1c01a9cdf7ca65",
     "rootDir": "",
-    "sha256": "0j99ybwbwixizmd2bixcr1zmf68s5p17gdnxywv87nmsa3ljxkvy",
+    "sha256": "1alvz76sixanihyj2gxjhm3r3nj2ynv4nad012jprj5np7980gmx",
     "url": "https://github.com/hthienloc/dms-activate-linux"
   },
   "adguardVPplugin": {
@@ -227,12 +225,12 @@
     "url": "https://github.com/lucyfire/dms-plugins"
   },
   "ambientSound": {
-    "date": "2026-05-29T03:01:38+07:00",
+    "date": "2026-05-29T12:56:11+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ETd/CP+VKC+Dowya66WegVkBnes+99BRZfd+9kZOiNQ=",
+    "hash": "sha256-f7ryawrDzPQFeIVsVWUjMJeWJqGf2pUdNppkQE84s5U=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -245,8 +243,7 @@
       ],
       "dependencies": [
         "mpv",
-        "socat",
-        "dms-common"
+        "socat"
       ],
       "description": "Play ambient focus sounds with integrated sleep timer and volume control.",
       "distro": [
@@ -258,10 +255,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ambient-sound/master/screenshot.png",
       "version": "1.2.1"
     },
-    "path": "/nix/store/asg2dkrr2fz9azaday27x8s49kdj30pi-dms-ambient-sound",
-    "rev": "315561f203b8a7e962476a3de05611bb1074e41e",
+    "path": "/nix/store/0qwdnaly6bngmbg4dq570z8dl3dbj326-dms-ambient-sound",
+    "rev": "2f3a133c245bc33ca5c0ee353d3b0fbb43278fb7",
     "rootDir": "",
-    "sha256": "1m489r3gczppcm8x1xryxffh2nc1ksjyp6hclf1jya4mzw47ydqi",
+    "sha256": "15dk717l0r4s6qfrbnlzl4k9d5rh4djmav45g02z9k6319mz5fkz",
     "url": "https://github.com/hthienloc/dms-ambient-sound"
   },
   "amdGpuMonitor": {
@@ -382,12 +379,12 @@
     "url": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin"
   },
   "appLauncher": {
-    "date": "2026-05-28T23:10:27+07:00",
+    "date": "2026-05-29T19:04:24+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-u8chZXDM4CHip3m0lmGZug0o5tQhXw7ShcmacCOf480=",
+    "hash": "sha256-QbPbDtuF9GTHGs4IwdEx1QkZ0W2VDdr8N8HU7l/Ssp4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -399,8 +396,7 @@
         "any"
       ],
       "dependencies": [
-        "python3",
-        "dms-common"
+        "python3"
       ],
       "description": "Desktop widget to search, filter, and launch applications by categories.",
       "distro": [
@@ -410,12 +406,12 @@
       "name": "App Launcher",
       "repo": "https://github.com/hthienloc/dms-app-launcher",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png",
-      "version": "1.0.4"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/44jywcyshf27n4kdvqg49ckysyvpj2pj-dms-app-launcher",
-    "rev": "260b1d28cd6429306927900a7211908bf0be14bf",
+    "path": "/nix/store/vsvsin8w2rlx6xzhfwi5b7089b1wf2nv-dms-app-launcher",
+    "rev": "04b7a9356d8e4d8e5081eac9c15d897292093e32",
     "rootDir": "",
-    "sha256": "1kg3kwip16n9hp90wpr1skk2h3dsk5hrdd3rlzi23q6cf1jj3ixv",
+    "sha256": "17mjs9gyxm616zydl3cmdp8ij2fm678w226f3b3n9x45vc7dpcs1",
     "url": "https://github.com/hthienloc/dms-app-launcher"
   },
   "appShortcut": {
@@ -707,12 +703,12 @@
     "url": "https://github.com/Beepeeko/dms-baloo-search"
   },
   "bongoCat": {
-    "date": "2026-05-23T11:13:50+07:00",
+    "date": "2026-05-29T12:59:19+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-sPTQevbBCY2c11vfnlHmRgrCtrQ+UFYDfIp4nesXHpI=",
+    "hash": "sha256-8e4uLeIN8oN4HUN+kYthSu94rIFrKZxMuxHiV7+RhQo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -725,8 +721,7 @@
       ],
       "dependencies": [
         "evtest",
-        "libinput",
-        "dms-common"
+        "libinput"
       ],
       "description": "A reactive animated cat that taps along with your keyboard input.",
       "distro": [
@@ -738,10 +733,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-bongo-cat/main/screenshot.png",
       "version": "1.5.0"
     },
-    "path": "/nix/store/dqhv45a76jnxkvvc93hji9909vpk0mcp-dms-bongo-cat",
-    "rev": "1efdbe3d97327e6176dc83a8f4632c4feba8374b",
+    "path": "/nix/store/rbh770hzwx994rksrlvp400nvnanzyym-dms-bongo-cat",
+    "rev": "aa2da9eba419fab7b0648f919669893bb307229c",
     "rootDir": "",
-    "sha256": "14hy2zmrsy4agh1mcl1ynjvc42j6wr8rxpsvsyf8s2f1yrxd1x5h",
+    "sha256": "02l5j6zmgqhipd69qabbh6n7ivsac65r2zj33mw87whdw8njxvpi",
     "url": "https://github.com/hthienloc/dms-bongo-cat"
   },
   "brSoccer": {
@@ -783,12 +778,12 @@
     "url": "https://github.com/Nadoutti/nadotti-br-soccer-plugin"
   },
   "breathing": {
-    "date": "2026-05-26T23:43:41+07:00",
+    "date": "2026-05-29T12:59:23+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-AYW2xP363cE0ccrMjr5XfZ9EaoCes0oGMDfJGPgkwuc=",
+    "hash": "sha256-NoTvE0In+vasJddlSefbm6U0Jwi83h5LUAFGu50F/t0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -799,9 +794,7 @@
       "compositors": [
         "any"
       ],
-      "dependencies": [
-        "dms-common"
-      ],
+      "dependencies": [],
       "description": "A guided breathing exercise tool for mindfulness and relaxation.",
       "distro": [
         "any"
@@ -812,19 +805,19 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-breathing/master/screenshot.png",
       "version": "1.4.0"
     },
-    "path": "/nix/store/m9vig0m0i24y5avrxl00wl6bwhhai4r2-dms-breathing",
-    "rev": "e65da44d8af526e563d0983bb932aa26d87725c4",
+    "path": "/nix/store/c0gg2yzjic7qpd11d31ms4k5f9y62n91-dms-breathing",
+    "rev": "429b6c885eb6503e92765d6daf2bd58f16f9f3e3",
     "rootDir": "",
-    "sha256": "1ry24kw1ij9p6034mcwyh1m497vxayz8xk6af4sc3pgszp2bd181",
+    "sha256": "1pgy0nfvnih1a15ixpmw10kk99cvvgkljrfp4nngdyi7889yz11n",
     "url": "https://github.com/hthienloc/dms-breathing"
   },
   "caffeine": {
-    "date": "2026-05-27T07:07:27+07:00",
+    "date": "2026-05-29T12:59:14+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-MjXMwB/MaO2uDWuGI1UiWKVI5xzLrWSuoDE31I6brv4=",
+    "hash": "sha256-3nteaiw75aKshdk9IzsKTgKphlmF5gmppipBkwBZVC8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -846,10 +839,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/jcqzgzzjikc2jxh48ylinwq2vw1w8dgk-dms-caffeine",
-    "rev": "ba4dd6c35cc8c7066356eacfce22a921e9602d89",
+    "path": "/nix/store/sgbi3zfd5hf4qcr255f42i8ji9x806nj-dms-caffeine",
+    "rev": "131b4d0b143e03ef5e571994c74778e9e368966c",
     "rootDir": "",
-    "sha256": "1zmfkf7d8dril2p69bfb3kkli9aq49aj71kb1npfss6c3z0cqd9j",
+    "sha256": "0bslb4096h9alslhkrl5b63aj0jf18xj6gfrhnna5r9v5im5wyyy",
     "url": "https://github.com/hthienloc/dms-caffeine"
   },
   "calculator": {
@@ -3011,6 +3004,43 @@
     "sha256": "0minqry2lxy6n9lc0000xhik3k9yq9kfmlsljxpkqwjqriqh1g1g",
     "url": "https://github.com/nfoert/dms-desktop-countdown"
   },
+  "dmsFrameworkBattery": {
+    "date": "2026-05-27T11:42:45-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-bkKwL4+SwFMlwtGv6RTvvpo0JuHTUydyIYyRvcsubxE=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "nfoert",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [
+        "ectool"
+      ],
+      "description": "Dank Material Shell battery widget, with support for changing the charge limit on Framework laptops",
+      "distro": [
+        "any"
+      ],
+      "id": "dmsFrameworkBattery",
+      "name": "DMS Framework Battery",
+      "repo": "https://github.com/nfoert/dms-framework-battery",
+      "screenshot": "https://github.com/nfoert/dms-framework-battery/blob/main/repo/images/image.png?raw=true",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/i0cpjdn0kjcdjga315apygyd8x973vpb-dms-framework-battery",
+    "rev": "c84cc4139db8321e889b786829f8dc5404e79e67",
+    "rootDir": "",
+    "sha256": "04bg5v5vv4cc45r2flykw4k396myxwafkbyiq8jm7h4jiwpv0hkf",
+    "url": "https://github.com/nfoert/dms-framework-battery"
+  },
   "dmsJira": {
     "date": "2026-05-11T15:11:57+02:00",
     "deepClone": false,
@@ -3581,12 +3611,12 @@
     "url": "https://github.com/merdely/dms-plugins"
   },
   "floaty": {
-    "date": "2026-05-24T11:25:46+07:00",
+    "date": "2026-05-29T12:59:21+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-QkoRnubCL1bfJxyWcGWvp64aAZSXd2dwi92rRRELHGo=",
+    "hash": "sha256-fCem5vFGinQwlC5DHTrWV+V6uPioBt6MgE4ciBzamzg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -3598,8 +3628,7 @@
         "any"
       ],
       "dependencies": [
-        "poppler-utils",
-        "dms-common"
+        "poppler-utils"
       ],
       "description": "A feature-rich reference image tool to float images, screenshots, and vector graphics on top of all windows.",
       "distro": [
@@ -3611,19 +3640,19 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-floaty/main/screenshot.png",
       "version": "1.2.2"
     },
-    "path": "/nix/store/4096yj53y9bzimq6ana3fyqrrdqx8hwj-dms-floaty",
-    "rev": "742cddcf780f9e6fb21f20424166265b2e2c79fe",
+    "path": "/nix/store/23i852sj8gkhis8nf0nx9gwq2n57ha1g-dms-floaty",
+    "rev": "b5adda1ab42c0ac6ca6d0e9ca70d9d00f502ef7b",
     "rootDir": "",
-    "sha256": "0shw1c8lbayxidq6fxwpjh0imbm7mxjp15hw4zgmcby2wsg12jj2",
+    "sha256": "0f4vv8f8h72fh26dw1m8z2w7mrapsqx1shrfjhq792j6y7kac9vw",
     "url": "https://github.com/hthienloc/dms-floaty"
   },
   "folderView": {
-    "date": "2026-05-29T01:23:24+07:00",
+    "date": "2026-05-29T20:53:14+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-epV3kISBtGIvT/OWE+Blzh+lPAK4qvcG2nLz3YxuR0k=",
+    "hash": "sha256-xv3W8HO3WoK2vY9rsmIIZrZo8gJTPeW9naWnpCDVXQM=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -3636,8 +3665,7 @@
       ],
       "dependencies": [
         "wl-clipboard",
-        "glib2",
-        "dms-common"
+        "glib2"
       ],
       "description": "A folder viewer widget that displays and manages files and directories on your screen.",
       "distro": [
@@ -3647,12 +3675,12 @@
       "name": "Folder View",
       "repo": "https://github.com/hthienloc/dms-folder-view",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-folder-view/main/screenshot.png",
-      "version": "1.0.7"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/qfzlxinpz2dhxld5bpmy71hv04906cky-dms-folder-view",
-    "rev": "1697747773df7211fdc5bb51ff169c2bbb3b114f",
+    "path": "/nix/store/fs9ah6am5hxszm36svzqhci1pbbch8hv-dms-folder-view",
+    "rev": "8ab7b98116d522eacb45323750c4d66ba9cc71c7",
     "rootDir": "",
-    "sha256": "0ja7ds6dvwvjv83ggamq08yaa7yfcph175pk9wpn5d41hj87g5bs",
+    "sha256": "00sxslha99x5knyyagak0br6idk611ib4swgpnv84nmpfgqddzf6",
     "url": "https://github.com/hthienloc/dms-folder-view"
   },
   "formatColorPicker": {
@@ -4061,12 +4089,12 @@
     "url": "https://github.com/TaylanTatli/dms-plugins"
   },
   "hiddenBar": {
-    "date": "2026-05-24T10:39:25+07:00",
+    "date": "2026-05-29T13:38:47+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-YZMVbqReT5nqko6Pkyv25poLCuwtp4xOf1Ei2slgx14=",
+    "hash": "sha256-klocLADJCFkBColiW0wZel8VpS81tHH0Ha1XVQ753Gs=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4077,9 +4105,7 @@
       "compositors": [
         "any"
       ],
-      "dependencies": [
-        "dms-common"
-      ],
+      "dependencies": [],
       "description": "Hide/Show bar widgets with a click or hover",
       "distro": [
         "any"
@@ -4090,10 +4116,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hidden-bar/master/screenshot.png",
       "version": "1.4.0"
     },
-    "path": "/nix/store/91xvg3ign8qzqrgcx976byb23kvxpvgm-dms-hidden-bar",
-    "rev": "0bff1650c752d86afa59458a2adf67dda0380bc0",
+    "path": "/nix/store/wd0qq01gk1jjlxynis6s8vixrfml5d6d-dms-hidden-bar",
+    "rev": "b592ea188e21355d7d52ce62fcc2dd0c51cbf1e5",
     "rootDir": "",
-    "sha256": "0pn7c34xl8jigx78r9rdxh50p6p6yqmr73wfjbm9jksylip1b4v1",
+    "sha256": "0sywz475amxd3ps73d1m5yjiapvs3565nql9180mj26900n1qnlj",
     "url": "https://github.com/hthienloc/dms-hidden-bar"
   },
   "homeAssistantMonitor": {
@@ -4210,12 +4236,12 @@
     "url": "https://github.com/derethil/dms-hue-manager"
   },
   "hydrate": {
-    "date": "2026-05-29T03:09:48+07:00",
+    "date": "2026-05-29T12:59:46+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-L4HV4mG2zCDtkQ5qEfid7mMHW/VhbKxw5Kz6a4uvR3U=",
+    "hash": "sha256-aVDpGg1uea/sykS93UsLN3JQVXNawpnfZj+Jm+Q4gW8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4226,9 +4252,7 @@
       "compositors": [
         "any"
       ],
-      "dependencies": [
-        "dms-common"
-      ],
+      "dependencies": [],
       "description": "Drink water reminder and tracker.",
       "distro": [
         "any"
@@ -4239,10 +4263,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hydrate/master/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/xdmqa1gl49scffspb8pml4jw7rqzra86-dms-hydrate",
-    "rev": "78e17ad5b2a5325b4b9e41d5ff0f0459e9c4a257",
+    "path": "/nix/store/9vcxr9y4bz625rq96ra63h00wvlva65d-dms-hydrate",
+    "rev": "cd28ae9ff165f4e8695a2273778681bb692344ae",
     "rootDir": "",
-    "sha256": "0xa7my5npymcwiqaqv31ymdhfqzfkpw12shfj7nj1k5nc7idb09g",
+    "sha256": "0vw173j9p29zcvgrkhjsfdam0wip1d5xvga4rbnayybf1ldfjl39",
     "url": "https://github.com/hthienloc/dms-hydrate"
   },
   "hyprlandSubmap": {
@@ -4352,12 +4376,12 @@
     "url": "https://github.com/corcoran/dms-interval-command"
   },
   "ipIndicator": {
-    "date": "2026-05-28T14:43:39+07:00",
+    "date": "2026-05-29T20:47:09+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-RQFPjn8QC3kTEeDDfMet90UDoFi6eir6Jg57wX0NZRM=",
+    "hash": "sha256-fwLXzl4uR9QggWQ0k8NkgwIRdGiSFxDWK1TWE5y0czU=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4369,8 +4393,7 @@
         "any"
       ],
       "dependencies": [
-        "curl",
-        "dms-common"
+        "curl"
       ],
       "description": "Display public IP address, ISP, and location with a privacy-focused toggle.",
       "distro": [
@@ -4380,21 +4403,21 @@
       "name": "IP Indicator",
       "repo": "https://github.com/hthienloc/dms-ipIndicator",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ipIndicator/master/screenshot.png",
-      "version": "1.5.0"
+      "version": "1.6.1"
     },
-    "path": "/nix/store/hzh78gfdcl0idbwy5yj63vvfvrg05njd-dms-ipIndicator",
-    "rev": "7eddb99aaacc70bea66dbd3858157f33c5494f6c",
+    "path": "/nix/store/3diisb1zj2vc99vasbh41z1wyqqcwca2-dms-ipIndicator",
+    "rev": "ced0c388d569a1bba7c625e033d3b0de6e239a83",
     "rootDir": "",
-    "sha256": "04v51myw2yqf4vx2lymsb2h06igpmp3prhz0249pj2qhgy74y0a5",
+    "sha256": "0dbknjf17mjl5gb105wjd1s120l3ck1r6d34h4hd8irfbv7df0kz",
     "url": "https://github.com/hthienloc/dms-ipIndicator"
   },
   "kaomojiPicker": {
-    "date": "2026-05-24T23:23:52+07:00",
+    "date": "2026-05-29T13:02:24+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-CInVItAt6DI2oKW4mlEBUN2dMRtollTUTf4tFNxLL2A=",
+    "hash": "sha256-yvKIDtHOehbtRGJ+ZxT/qQ+0ayaRkge97nq3VmZr0iY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4406,8 +4429,7 @@
         "any"
       ],
       "dependencies": [
-        "wl-clipboard",
-        "dms-common"
+        "wl-clipboard"
       ],
       "description": "A lightweight launcher for browsing and copying kaomojis to the clipboard.",
       "distro": [
@@ -4419,10 +4441,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-kaomoji-picker/master/screenshot.png",
       "version": "1.3.0"
     },
-    "path": "/nix/store/j816mhjsk980jwcf3s54bwmfy0m802zy-dms-kaomoji-picker",
-    "rev": "7a1955221dfc0caeca7bf7e282c146d3a706cc6e",
+    "path": "/nix/store/b77jgrkhsm2gnsjrv16dg98l89qqfj7d-dms-kaomoji-picker",
+    "rev": "665d952d30dd2d0b857b6a00922e080cb1404dea",
     "rootDir": "",
-    "sha256": "0q1g9gf18bgy9pa595k83cqrvpah058rmf55l0v35s1ds0idb288",
+    "sha256": "09njddk5ddvsxsyhg4li4rmv83x9zwa6fzk28knicynfs478iwna",
     "url": "https://github.com/hthienloc/dms-kaomoji-picker"
   },
   "keybindingCheatSheet": {
@@ -4585,12 +4607,12 @@
     "url": "https://github.com/JDKamalakar/DMS-LiveChart.me"
   },
   "lutrisLauncher": {
-    "date": "2026-05-23T20:21:34+07:00",
+    "date": "2026-05-29T13:16:31+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ARlJ3zZQPTBwZiBTZupa44w84VZljUQG5f1Rxc/XZKw=",
+    "hash": "sha256-VkODlFiqfBS7BsG4V6iLarx6f1VRbrn4nRQd2k59gjc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4602,8 +4624,7 @@
         "any"
       ],
       "dependencies": [
-        "lutris",
-        "dms-common"
+        "lutris"
       ],
       "description": "Quickly browse and launch games from your Lutris library.",
       "distro": [
@@ -4615,10 +4636,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-lutris-launcher/master/screenshot.png",
       "version": "1.2.2"
     },
-    "path": "/nix/store/1xxwvwvs11ry7mysc14dn2g5c915637x-dms-lutris-launcher",
-    "rev": "34fbd2e7b36847c2c1118017446bbb28b469ad38",
+    "path": "/nix/store/ipgclfr1cx0vajzsiz54b4pf3h2vkdkn-dms-lutris-launcher",
+    "rev": "8c2053de1c7f8df8856e1d6fbac86a9a8e5f49a1",
     "rootDir": "",
-    "sha256": "1b34sz7walgxwl3493b5avhkr373bbm6clr0crq30gah6vglj681",
+    "sha256": "0dw2gm7dl78lkpwbjvjiamzpmg3aifl5gf610sxi8z5ab2a86hsn",
     "url": "https://github.com/hthienloc/dms-lutris-launcher"
   },
   "lyricsOnPanel": {
@@ -5014,12 +5035,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "networkIndicator": {
-    "date": "2026-05-26T15:01:23+03:00",
+    "date": "2026-05-30T03:03:06+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-CLsR2EMuLGP7lVjnyVact9H5mfNgpUpwm+QmazK+nfQ=",
+    "hash": "sha256-X9YG3GqbaYR3doVEAVzf8n6f1cBmG5olliVOQCGEe5I=",
     "leaveDotGit": false,
     "meta": {
       "author": "gemb0_0",
@@ -5039,12 +5060,12 @@
       "name": "Network Indicator",
       "repo": "https://github.com/gemb0-0/Network-Indicator.git",
       "screenshot": "https://github.com/gemb0-0/Network-Indicator/blob/master/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/n9pxxswvcz9n3cqcwv3mp35dl7g0hm2i-Network-Indicator",
-    "rev": "0eee98f691c41c2cb6ee15a799ebae735f7c66c1",
+    "path": "/nix/store/js6yhm1rfryx1azh9fbjqfrij7wnaf7q-Network-Indicator",
+    "rev": "f78737304d8131ed82f7481682009e5e8b9bd67a",
     "rootDir": "",
-    "sha256": "1x4xpqr6n9p4kdq4m9b0yfczkldpkibckrsqjpxn6b1f8gc13fq8",
+    "sha256": "14kvhhhl0ki5jqjrl6v6q3aryzpjvxf02i45frvq8scvdbf0dmjz",
     "url": "https://github.com/gemb0-0/Network-Indicator.git"
   },
   "nextBootSelector": {
@@ -5086,12 +5107,12 @@
     "url": "https://github.com/arcatva/dms-next-boot-selector"
   },
   "niriDS": {
-    "date": "2026-05-27T09:22:59+07:00",
+    "date": "2026-05-29T13:20:38+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5kBaWjHDW8dtol2sn+JbM5If6l/02LN9vJGKMPHqD34=",
+    "hash": "sha256-TRa2RFHx8GhF7xJa7wPhAfH18FMamUWEny7eVrCeeY4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -5104,8 +5125,7 @@
       ],
       "dependencies": [
         "niri",
-        "wl-mirror",
-        "dms-common"
+        "wl-mirror"
       ],
       "description": "Quickly toggle and configure display outputs in the Niri Wayland compositor.",
       "distro": [
@@ -5117,10 +5137,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-niri-display-settings/master/screenshot.png",
       "version": "1.9.1"
     },
-    "path": "/nix/store/5fwg8k40z54zknvaaqd7kikzm9lbr3bx-dms-niri-display-settings",
-    "rev": "8272ec16dbb9ebb03edf1a51f9fcf58006f7331f",
+    "path": "/nix/store/sw1kl712d93rn9wdkrrqg7s3h16q1z6n-dms-niri-display-settings",
+    "rev": "1cdc92b7cf32cdea6de902e7733d818dabf20e04",
     "rootDir": "",
-    "sha256": "0zhgxbqk12lipiyv7n7lbzm1z4ikbgi9zb2xl9nwfny365d5lh76",
+    "sha256": "13krksq5dpifky24b68sagqgbw81w41yynhjxx2niw7ia52bc5jd",
     "url": "https://github.com/hthienloc/dms-niri-display-settings"
   },
   "niriScreenshot": {
@@ -5340,12 +5360,12 @@
     "url": "https://github.com/kmf/dms-obsidian-search"
   },
   "ocrScanner": {
-    "date": "2026-05-23T14:52:02+07:00",
+    "date": "2026-05-29T12:59:31+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-cHAhW4ERZUDiDMQkJbDG+13SA0W5/QFLqrQQiCEQU2A=",
+    "hash": "sha256-BveVIc/1bLcnEGBUzZDy7JQe8H0ylHbnoy3jlQKGmLg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -5357,8 +5377,7 @@
         "any"
       ],
       "dependencies": [
-        "tesseract",
-        "dms-common"
+        "tesseract"
       ],
       "description": "Extract text from clipboard images or local files using Tesseract OCR.",
       "distro": [
@@ -5368,12 +5387,12 @@
       "name": "OCR Scanner",
       "repo": "https://github.com/hthienloc/dms-ocr-scanner",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ocr-scanner/main/screenshot.png",
-      "version": "1.2.2"
+      "version": "1.2.3"
     },
-    "path": "/nix/store/cyw9lg6ndszs68mv03hcas25klqwf3kw-dms-ocr-scanner",
-    "rev": "d50a0612e119ebaddc484765ffcb76bff24ab36d",
+    "path": "/nix/store/m9dlz1qf0563vix7i428n9hwrl6sl5qa-dms-ocr-scanner",
+    "rev": "2c7a18594b2427b178f2ae75c0e07b71302e5374",
     "rootDir": "",
-    "sha256": "0q2k20hqh45lm95h3zdr8l1x4pgvqsq2a9641ki40r8ih5dj2w3h",
+    "sha256": "1f4qhq19bqrdlgkpd51jgpq1x57cya8csm3020kvfv7mrwhrbxq6",
     "url": "https://github.com/hthienloc/dms-ocr-scanner"
   },
   "openTrackerBar": {
@@ -5740,12 +5759,12 @@
     "url": "https://github.com/szabolcsf/dms-qcal-calendar"
   },
   "qrGenerator": {
-    "date": "2026-05-29T03:04:40+07:00",
+    "date": "2026-05-29T12:54:05+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-GtNRjHv0BcH54h3116LEOCNGdMkVyaLrrvJdmyWo5eU=",
+    "hash": "sha256-y2zmf3GGG3SwxFME4RRwDysFAJnr8oQKt47l4um59gw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -5759,8 +5778,7 @@
       "dependencies": [
         "qrencode",
         "wl-clipboard",
-        "zbar",
-        "dms-common"
+        "zbar"
       ],
       "description": "Generate and scan QR codes from clipboard text, manual input, or dropped images.",
       "distro": [
@@ -5772,11 +5790,45 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-qr-generator/master/screenshot.png",
       "version": "1.2.1"
     },
-    "path": "/nix/store/iv0yj8a5ckvw6rf1gvx2s0z56zxrca3f-dms-qr-generator",
-    "rev": "2daf9f2c346bdd1120b52477c6656f22894cb3ab",
+    "path": "/nix/store/5b70z9v35h660yg0chsj4myhq63dhc5g-dms-qr-generator",
+    "rev": "769544efa9da84fb048b2d1a2f98a30737003705",
     "rootDir": "",
-    "sha256": "1rg5m0jrnpgjmvms5j8mr5s4c8rqqjidgx8xwbww21glgf653lqs",
+    "sha256": "037np7ly5rcfnw589wpbk400aaqgf0af212kqjq786w6f5zycv6b",
     "url": "https://github.com/hthienloc/dms-qr-generator"
+  },
+  "quickCapture": {
+    "date": "2026-05-29T22:43:53+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-DyOVcmPNN1l1SgMDGGDZ2EnTo1J2KtFs4dGdKlGAe40=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Loc Huynh",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "A quick screen capture utility featuring screenshot tools, drawing, and annotation.",
+      "distro": [
+        "any"
+      ],
+      "id": "quickCapture",
+      "name": "Quick Capture",
+      "repo": "https://github.com/hthienloc/dms-quick-capture",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
+      "version": "1.1.3"
+    },
+    "path": "/nix/store/fpvbjhb6061hih7d1vxnybsw7nakiz30-dms-quick-capture",
+    "rev": "e3b4f376d3cdd2b77d15236cdcc0d89d8eda7ea3",
+    "rootDir": "",
+    "sha256": "13bvh18jm7fiw5nd2aknaaix6jfqv5h1h0q399smjdydcdr9a8qg",
+    "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
     "date": "2026-05-12T22:39:09+05:30",
@@ -6335,12 +6387,12 @@
     "url": "https://github.com/leemeng0x61/stockManager"
   },
   "stopwatch": {
-    "date": "2026-05-29T02:51:08+07:00",
+    "date": "2026-05-29T12:17:02+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Ho32uMc4qFnO2D39IxRspa6e/fxM9RmW/PMoD9GZFhU=",
+    "hash": "sha256-P7TIVR0p9bMJZ24WJkGS4vzRkMI+NvW9gFff8YqlpuM=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6351,9 +6403,7 @@
       "compositors": [
         "any"
       ],
-      "dependencies": [
-        "dms-common"
-      ],
+      "dependencies": [],
       "description": "A high-precision stopwatch for time tracking.",
       "distro": [
         "any"
@@ -6364,10 +6414,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-stopwatch/main/screenshot.png",
       "version": "1.2.2"
     },
-    "path": "/nix/store/cri98aw3grfddgvmgglf8968hd2vxrn7-dms-stopwatch",
-    "rev": "cba1a24c447a62fe524d9772c5db0153e5f387a5",
+    "path": "/nix/store/rk2frvig4x7i5k7x3byh0x3n1br8jw30-dms-stopwatch",
+    "rev": "50d814e9cba9904e573875f8a8ee5c174048031e",
     "rootDir": "",
-    "sha256": "058nk78hya7kzjb1kxaczkyrxbm5dha27z9xv375ka1qqywgd38y",
+    "sha256": "1qx6ln5g3psph2yzadiyqa8d3z72j90jc5kfcw4v7x993mawid1z",
     "url": "https://github.com/hthienloc/dms-stopwatch"
   },
   "systemMonitorPlus": {
@@ -6588,12 +6638,12 @@
     "url": "https://github.com/fdmarcin/TimeUntil"
   },
   "timer": {
-    "date": "2026-05-18T08:43:21+07:00",
+    "date": "2026-05-29T12:59:26+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-T48t6HGCq9nDDeshPrdGWHLBNODMFyb2+aVfPQg7/l4=",
+    "hash": "sha256-uzOFmfq3cjfBGSl/4AyhVwe0TrVpB3l1e0La8e3D2Vc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6606,8 +6656,7 @@
       ],
       "dependencies": [
         "libnotify",
-        "pulseaudio",
-        "dms-common"
+        "pulseaudio"
       ],
       "description": "A countdown timer with notification support and audio alerts.",
       "distro": [
@@ -6619,10 +6668,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-timer/master/screenshot.png",
       "version": "2.3.0"
     },
-    "path": "/nix/store/n7zb1sspffblj54mz3bcwvwsr6c70q7h-dms-timer",
-    "rev": "e42ec9eb3ff3b7a1d2da385dd6cf681c0f24bd94",
+    "path": "/nix/store/3p7116kw7gb9cpfy8irhibkkzd1vd51a-dms-timer",
+    "rev": "9448199a46bb458e880dd6a8fff574d264f4f901",
     "rootDir": "",
-    "sha256": "0ppy7c43spx5z7v2c5ycw0sc2wjq8svkw8gb1p1xkaw2f7l2v3sg",
+    "sha256": "0myrqgnz3nj2gdspj1v9nm7b81spl46f0zr9370kfwmpzacqacxv",
     "url": "https://github.com/hthienloc/dms-timer"
   },
   "tlpControl": {
