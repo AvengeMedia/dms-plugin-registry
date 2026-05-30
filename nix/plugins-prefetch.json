@@ -5035,12 +5035,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "networkIndicator": {
-    "date": "2026-05-26T15:01:23+03:00",
+    "date": "2026-05-30T03:03:06+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-CLsR2EMuLGP7lVjnyVact9H5mfNgpUpwm+QmazK+nfQ=",
+    "hash": "sha256-X9YG3GqbaYR3doVEAVzf8n6f1cBmG5olliVOQCGEe5I=",
     "leaveDotGit": false,
     "meta": {
       "author": "gemb0_0",
@@ -5060,12 +5060,12 @@
       "name": "Network Indicator",
       "repo": "https://github.com/gemb0-0/Network-Indicator.git",
       "screenshot": "https://github.com/gemb0-0/Network-Indicator/blob/master/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/n9pxxswvcz9n3cqcwv3mp35dl7g0hm2i-Network-Indicator",
-    "rev": "0eee98f691c41c2cb6ee15a799ebae735f7c66c1",
+    "path": "/nix/store/js6yhm1rfryx1azh9fbjqfrij7wnaf7q-Network-Indicator",
+    "rev": "f78737304d8131ed82f7481682009e5e8b9bd67a",
     "rootDir": "",
-    "sha256": "1x4xpqr6n9p4kdq4m9b0yfczkldpkibckrsqjpxn6b1f8gc13fq8",
+    "sha256": "14kvhhhl0ki5jqjrl6v6q3aryzpjvxf02i45frvq8scvdbf0dmjz",
     "url": "https://github.com/gemb0-0/Network-Indicator.git"
   },
   "nextBootSelector": {
