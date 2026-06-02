@@ -958,7 +958,7 @@ Real-time network speed monitor for DankBar showing upload and download speeds
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://github.com/gemb0-0/Network-Indicator/blob/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/gemb0-0/Network-Indicator/refs/heads/main/screenshot.png)
 
 </details>
 
