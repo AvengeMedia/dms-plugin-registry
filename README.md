@@ -242,7 +242,7 @@ A new fresh daily wallpaper downloaded from a famous portal
 - author: maxb
 - compositors: any
 - capabilities: wallpaper-downloader, wallpaper-set, daemon
-- dependencies: curl
+- dependencies: curl, inotify-tools
 - distro: any
 
 
@@ -271,7 +271,7 @@ A new fresh daily wallpaper downloaded from a famous portal (Widget)
 - author: maxb
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: 
+- dependencies: inotify-tools
 - distro: any
 
 
@@ -2482,6 +2482,35 @@ AI coding session island for DankMaterialShell with Codex, Claude Code, and Open
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/payprays/codeIsland-dms/main/preview/screenshots/task-running.png)
+
+</details>
+
+
+
+
+
+#### [Color Picker DMS](https://github.com/bernardopg/color-picker-dms)
+
+Pick colors from the screen, convert common color formats, build palettes, and check WCAG contrast from DankBar
+
+
+
+- id: colorPicker
+- name: Color Picker DMS
+- author: bernardopg
+- compositors: niri, hyprland
+- capabilities: dankbar-widget, control-center
+- dependencies: wl-clipboard
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/screenshot.png)
 
 </details>
 
