@@ -5144,6 +5144,43 @@
     "sha256": "1rb8dz2i0ljw821c6bvlzlkfnzkhzv0fhznnqw2kr97hwi0f9nl7",
     "url": "https://github.com/arcatva/dms-next-boot-selector"
   },
+  "nightModeControl": {
+    "date": "2026-05-21T11:13:56-07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-qqORVWXG02nuZ8fHx9UrvFSIm2bJXRSFu3lWctFcqKU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Nfrastack",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "niri",
+        "hyprland",
+        "sway",
+        "river"
+      ],
+      "dependencies": [],
+      "description": "Control night mode parameters from bar and Control Center",
+      "distro": [
+        "any"
+      ],
+      "id": "nightModeControl",
+      "name": "Night Mode Control",
+      "repo": "https://github.com/nfrastack/dms-nightModeControl",
+      "screenshot": "https://raw.githubusercontent.com/nfrastack/dms-nightModeControl/refs/heads/main/img/overview.jpg",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/wfz6y8akpwdww1xvw3s60li13nw2l42y-dms-nightModeControl",
+    "rev": "7622613d5a908ebdeee156517df3c6641d574e0c",
+    "rootDir": "",
+    "sha256": "19d8bk8p4mkrpf2i8pf9csdqhm5w5gawgiy7czp6kly6cmar38xa",
+    "url": "https://github.com/nfrastack/dms-nightModeControl"
+  },
   "niriDS": {
     "date": "2026-06-02T22:43:53+07:00",
     "deepClone": false,
