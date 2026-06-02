@@ -1765,6 +1765,35 @@ Pick which EFI boot entry to load on next reboot via efibootmgr. Bar pill + Cont
 
 
 
+#### [Night Mode Control](https://github.com/nfrastack/dms-nightModeControl)
+
+Control night mode parameters from bar and Control Center
+
+
+
+- id: nightModeControl
+- name: Night Mode Control
+- author: Nfrastack
+- compositors: niri, hyprland, sway, river
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/nfrastack/dms-nightModeControl/refs/heads/main/img/overview.jpg)
+
+</details>
+
+
+
+
+
 #### [Package Updates](https://github.com/rahulmysore23/dms-pkg-update)
 
 Check and manage DNF and Flatpak package updates from the bar.
