@@ -1,0 +1,13 @@
+{
+    "id": "colorPicker",
+    "name": "Color Picker DMS",
+    "capabilities": ["dankbar-widget", "control-center"],
+    "category": "utilities",
+    "repo": "https://github.com/bernardopg/color-picker-dms",
+    "author": "bernardopg",
+    "description": "Pick colors from the screen, convert common color formats, build palettes, and check WCAG contrast from DankBar",
+    "dependencies": ["wl-clipboard"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/screenshot.png"
+}
