@@ -1,5 +1,5 @@
 {
-    "id": "colorPicker",
+    "id": "colorPickerDms",
     "name": "Color Picker DMS",
     "capabilities": ["dankbar-widget", "control-center"],
     "category": "utilities",
@@ -9,5 +9,5 @@
     "dependencies": ["wl-clipboard"],
     "compositors": ["niri", "hyprland"],
     "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/assets/screenshot.png"
 }
