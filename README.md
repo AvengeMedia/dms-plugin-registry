@@ -2524,7 +2524,7 @@ Pick colors from the screen, convert common color formats, build palettes, and c
 
 
 
-- id: colorPicker
+- id: colorPickerDms
 - name: Color Picker DMS
 - author: bernardopg
 - compositors: niri, hyprland
@@ -2539,7 +2539,7 @@ Pick colors from the screen, convert common color formats, build palettes, and c
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/assets/screenshot.png)
 
 </details>
 
