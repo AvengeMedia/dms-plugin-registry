@@ -242,7 +242,7 @@ A new fresh daily wallpaper downloaded from a famous portal
 - author: maxb
 - compositors: any
 - capabilities: wallpaper-downloader, wallpaper-set, daemon
-- dependencies: curl
+- dependencies: curl, inotify-tools
 - distro: any
 
 
@@ -271,7 +271,7 @@ A new fresh daily wallpaper downloaded from a famous portal (Widget)
 - author: maxb
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: 
+- dependencies: inotify-tools
 - distro: any
 
 
@@ -958,7 +958,7 @@ Real-time network speed monitor for DankBar showing upload and download speeds
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://github.com/gemb0-0/Network-Indicator/blob/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/gemb0-0/Network-Indicator/refs/heads/main/screenshot.png)
 
 </details>
 
@@ -1765,6 +1765,35 @@ Pick which EFI boot entry to load on next reboot via efibootmgr. Bar pill + Cont
 
 
 
+#### [Night Mode Control](https://github.com/nfrastack/dms-nightModeControl)
+
+Control night mode parameters from bar and Control Center
+
+
+
+- id: nightModeControl
+- name: Night Mode Control
+- author: Nfrastack
+- compositors: niri, hyprland, sway, river
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/nfrastack/dms-nightModeControl/refs/heads/main/img/overview.jpg)
+
+</details>
+
+
+
+
+
 #### [Package Updates](https://github.com/rahulmysore23/dms-pkg-update)
 
 Check and manage DNF and Flatpak package updates from the bar.
@@ -2482,6 +2511,35 @@ AI coding session island for DankMaterialShell with Codex, Claude Code, and Open
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/payprays/codeIsland-dms/main/preview/screenshots/task-running.png)
+
+</details>
+
+
+
+
+
+#### [Color Picker DMS](https://github.com/bernardopg/color-picker-dms)
+
+Pick colors from the screen, convert common color formats, build palettes, and check WCAG contrast from DankBar
+
+
+
+- id: colorPickerDms
+- name: Color Picker DMS
+- author: bernardopg
+- compositors: niri, hyprland
+- capabilities: dankbar-widget, control-center
+- dependencies: wl-clipboard
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/assets/screenshot.png)
 
 </details>
 
