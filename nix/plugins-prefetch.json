@@ -379,12 +379,12 @@
     "url": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin"
   },
   "appLauncher": {
-    "date": "2026-06-03T09:00:03+07:00",
+    "date": "2026-06-03T09:11:50+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-HACP8cPVnlf4zbgZP2UYjjxdw9iglIW4Xo6ICNi8xs8=",
+    "hash": "sha256-aBiFhQr+7bDj9PycpX3mWVvDTbXarex0AyO9AB5j+fs=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -408,10 +408,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png",
       "version": "2.2.0"
     },
-    "path": "/nix/store/fh5w7542cd15airm6hchslnypbn27b07-dms-app-launcher",
-    "rev": "dd6e28f19abdf54e9233bf1cd4a9092a84c83687",
+    "path": "/nix/store/sdvxzdcbdfvmnbsph77b3qxa2md9ygsc-dms-app-launcher",
+    "rev": "7f2dd0a6c7129bed6a81eedd49219e810d0dac37",
     "rootDir": "",
-    "sha256": "1ky6pkc0i24fbsw8b550v31msg4f31jky6dqrpw5g7nmqgqqy00w",
+    "sha256": "1yzrccg01g930dsfrbfsnm6w6nsrwrysb77wykiv1vgy1a2qa638",
     "url": "https://github.com/hthienloc/dms-app-launcher"
   },
   "appShortcut": {
