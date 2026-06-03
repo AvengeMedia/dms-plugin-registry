@@ -379,12 +379,12 @@
     "url": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin"
   },
   "appLauncher": {
-    "date": "2026-06-02T22:43:54+07:00",
+    "date": "2026-06-03T09:00:03+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-XCVTRhV6EdU2NdNKSy3zZN5q98kuvyxGSbLabgJ+ong=",
+    "hash": "sha256-HACP8cPVnlf4zbgZP2UYjjxdw9iglIW4Xo6ICNi8xs8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -406,12 +406,12 @@
       "name": "App Launcher",
       "repo": "https://github.com/hthienloc/dms-app-launcher",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png",
-      "version": "2.0.1"
+      "version": "2.2.0"
     },
-    "path": "/nix/store/2jwzcfbaq15wgmgz3xhgdzdrm00m2k00-dms-app-launcher",
-    "rev": "780b506ef2224675941152090b8ad6d1aef15c73",
+    "path": "/nix/store/fh5w7542cd15airm6hchslnypbn27b07-dms-app-launcher",
+    "rev": "dd6e28f19abdf54e9233bf1cd4a9092a84c83687",
     "rootDir": "",
-    "sha256": "0y52gq16xnmj9532rgrfr7vnmpk4ycnlnjnk6lvda4bs2m3569aw",
+    "sha256": "1ky6pkc0i24fbsw8b550v31msg4f31jky6dqrpw5g7nmqgqqy00w",
     "url": "https://github.com/hthienloc/dms-app-launcher"
   },
   "appShortcut": {
@@ -1258,13 +1258,13 @@
     "sha256": "1l3b8c00zimcqj0plh2w01q6sgfppd92wag0vqdiq88gqiq227ls",
     "url": "https://github.com/zakstam/dms-codexbar"
   },
-  "colorPicker": {
-    "date": "2026-06-02T12:34:11-03:00",
+  "colorPickerDms": {
+    "date": "2026-06-02T20:12:14-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-y4Ljgwa0UffmKPIBvc78a4GZhnJ0q0qSGfXzkA7reLQ=",
+    "hash": "sha256-le8Y5HnI7iIo0WgtB0NyL8OoAUGsKnYFIaPP4SXPUyk=",
     "leaveDotGit": false,
     "meta": {
       "author": "bernardopg",
@@ -1284,16 +1284,16 @@
       "distro": [
         "any"
       ],
-      "id": "colorPicker",
+      "id": "colorPickerDms",
       "name": "Color Picker DMS",
       "repo": "https://github.com/bernardopg/color-picker-dms",
-      "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/screenshot.png",
-      "version": "1.0.0"
+      "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/assets/screenshot.png",
+      "version": "1.1.0"
     },
-    "path": "/nix/store/q45c03p0089n9igdm4dk2vn8scbgzp6p-color-picker-dms",
-    "rev": "b7a7b802ee350ad75ac762648f69153bd98ef5fe",
+    "path": "/nix/store/xqbr5k7nafzws4zxqqsh8jp02sswsrq1-color-picker-dms",
+    "rev": "8fae34470097b6c78eeed1ea45d98a572b1acdfd",
     "rootDir": "",
-    "sha256": "1d3qxc791wzm3694mavlfa39k0bbzk7bs0gj53kgfldl0s1y70nb",
+    "sha256": "0aakrwjy3kx3442pcamc840sihrgf91hfbb8s4l25vn8g7j1ivwm",
     "url": "https://github.com/bernardopg/color-picker-dms"
   },
   "commandRunner": {
