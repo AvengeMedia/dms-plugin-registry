@@ -14,7 +14,7 @@
     "permissions": ["settings_read", "settings_write", "process", "network"],
     "requires_dms": ">=1.2.0",
     "dependencies": ["curl"],
-    "compositors": [],
-    "distro": [],
+    "compositors": ["any"],
+    "distro": ["any"],
     "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png"
 }
