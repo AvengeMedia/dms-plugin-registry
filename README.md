@@ -2068,7 +2068,7 @@ Play ambient focus sounds with integrated sleep timer and volume control.
 
 
 
-#### [Animation Rotate](https://github.com/pnbarbeito/dank-niri-animation-rotate)
+#### [Animation Rotate](https://github.com/pnbarbeito/dms-niri-animation-rotate)
 
 Control niri-animation-rotate from the Control Center: switch animations, change modes, and filter events. Daemon included — batteries included.
 
