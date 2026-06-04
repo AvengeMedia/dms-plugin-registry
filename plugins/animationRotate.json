@@ -1,0 +1,13 @@
+{
+  "id": "animationRotate",
+  "name": "Animation Rotate",
+  "capabilities": ["control-center", "dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/pnbarbeito/dank-niri-animation-rotate",
+  "author": "pnbarbeito",
+  "description": "Control niri-animation-rotate from the Control Center: switch animations, change modes, and filter events. Daemon included — batteries included.",
+  "dependencies": ["niri"],
+  "compositors": ["niri"],
+  "distro": ["any"],
+  "requires_dms": ">=1.4.0"
+}
