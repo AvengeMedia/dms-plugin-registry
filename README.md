@@ -2068,6 +2068,28 @@ Play ambient focus sounds with integrated sleep timer and volume control.
 
 
 
+#### [Animation Rotate](https://github.com/pnbarbeito/dank-niri-animation-rotate)
+
+Control niri-animation-rotate from the Control Center: switch animations, change modes, and filter events. Daemon included — batteries included.
+
+![screenshot](https://raw.githubusercontent.com/pnbarbeito/dms-niri-animation-rotate/f66b0ef7a1bb46e018d57c4cc8acccab17797d84/screenshots/widget.png)
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: animationRotate
+- name: Animation Rotate
+- author: pnbarbeito
+- compositors: niri
+- capabilities: control-center, dankbar-widget
+- dependencies: niri
+- distro: any
+
+
+
+
+
+
+
 #### [Anime Calendar](https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin)
 
 A QuickShell plugin for DankMaterialShell that tracks anime episode releases and sends notifications when your favorite shows air.
@@ -6519,5 +6541,3 @@ Retrobox dark theme with retro groove colors
 - **ID:** `retrobox` **Version:** `1.0.0`
 
 ![retrobox](themes/retrobox/preview.svg)
-
-
