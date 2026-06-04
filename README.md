@@ -2072,8 +2072,6 @@ Play ambient focus sounds with integrated sleep timer and volume control.
 
 Control niri-animation-rotate from the Control Center: switch animations, change modes, and filter events. Daemon included — batteries included.
 
-![screenshot](https://raw.githubusercontent.com/pnbarbeito/dms-niri-animation-rotate/f66b0ef7a1bb46e018d57c4cc8acccab17797d84/screenshots/widget.png)
-
 <strong>requires DMS version</strong>: <em>>=1.4.0</em>
 
 - id: animationRotate
@@ -2085,6 +2083,15 @@ Control niri-animation-rotate from the Control Center: switch animations, change
 - distro: any
 
 
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/pnbarbeito/dms-niri-animation-rotate/f66b0ef7a1bb46e018d57c4cc8acccab17797d84/screenshots/widget.png)
+
+</details>
 
 
 
@@ -6541,3 +6548,5 @@ Retrobox dark theme with retro groove colors
 - **ID:** `retrobox` **Version:** `1.0.0`
 
 ![retrobox](themes/retrobox/preview.svg)
+
+
