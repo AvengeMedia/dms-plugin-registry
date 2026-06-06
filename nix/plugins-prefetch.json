@@ -225,12 +225,12 @@
     "url": "https://github.com/lucyfire/dms-plugins"
   },
   "ambientSound": {
-    "date": "2026-06-06T00:57:49+07:00",
+    "date": "2026-06-06T10:02:18+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Lf3udGVE8BpCKX8V9S2q3ybpMD1UmBIj3STlMcI4mRo=",
+    "hash": "sha256-cCGoZjJ1pcFO5RnBQdNEh7Y2QxydtGUH/S+WiyMfmlc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -253,12 +253,12 @@
       "name": "Ambient Sound",
       "repo": "https://github.com/hthienloc/dms-ambient-sound",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ambient-sound/master/screenshot.png",
-      "version": "2.0.0"
+      "version": "2.1.0"
     },
-    "path": "/nix/store/kh4xd58dwdn5rczk6xw0dqhwp3vacf1c-dms-ambient-sound",
-    "rev": "f6e650f0e6d47384ee0b3c7ec2b9a4b0fb46413e",
+    "path": "/nix/store/7q1dfy6mk52v0mj77scbsg3v24fhnqil-dms-ambient-sound",
+    "rev": "4da676a6470ce7303cc15a0cafab43bc870b984b",
     "rootDir": "",
-    "sha256": "06lr73133r94vlii562l7lqfj9nzm8nza5bz5511mw24cmsfxz9d",
+    "sha256": "0mws3wiqp5igzl3nbd4x3i1kddl78k9l3h8rwm7c39bm69kah8bh",
     "url": "https://github.com/hthienloc/dms-ambient-sound"
   },
   "amdGpuMonitor": {
@@ -343,6 +343,44 @@
     "sha256": "1ll2knqa2719mgqqdcrzq5q6qj44rsdv0a8gwywiiamh4w71xmzw",
     "url": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive"
   },
+  "animationRotate": {
+    "date": "2026-06-04T15:51:16-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-uzC/y9k2v7ycm35Nh9CyZTAO4cfqoErlUnWcG32a8eA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "pnbarbeito",
+      "capabilities": [
+        "control-center",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "niri"
+      ],
+      "description": "Control niri-animation-rotate from the Control Center: switch animations, change modes, and filter events. Daemon included \u2014 batteries included.",
+      "distro": [
+        "any"
+      ],
+      "id": "animationRotate",
+      "name": "Animation Rotate",
+      "repo": "https://github.com/pnbarbeito/dms-niri-animation-rotate",
+      "requires_dms": ">=1.4.0",
+      "screenshot": "https://raw.githubusercontent.com/pnbarbeito/dms-niri-animation-rotate/f66b0ef7a1bb46e018d57c4cc8acccab17797d84/screenshots/widget.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/4aykp6ckg2h7fblp9rm88mi45c6isnff-dms-niri-animation-rotate",
+    "rev": "322fa6bc277d7ef82da166318c90000f31aa68ac",
+    "rootDir": "",
+    "sha256": "1q7ik9yip73mabjlm87aqzhhwc35nb88fkbykffbrgrnv75vyc5v",
+    "url": "https://github.com/pnbarbeito/dms-niri-animation-rotate"
+  },
   "animeCalendar": {
     "date": "2026-05-02T17:17:00+03:00",
     "deepClone": false,
@@ -379,12 +417,12 @@
     "url": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin"
   },
   "appLauncher": {
-    "date": "2026-06-05T23:33:54+07:00",
+    "date": "2026-06-06T22:11:31+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-dCwNsg/1XfHJE1hA5mIyE2BigXJeMsY5keh7H3crGeI=",
+    "hash": "sha256-aV/iRfskKzpZDLIjbci+3PtvU+dy5b4pXxCEAG9sURg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -408,10 +446,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png",
       "version": "2.2.0"
     },
-    "path": "/nix/store/d95vs3c83iksy99q98klkx54mfcrysd3-dms-app-launcher",
-    "rev": "835df109fa91888f8d291562aa15088501113740",
+    "path": "/nix/store/wcb9vfggf206yd73q2kmrb151agxcfd2-dms-app-launcher",
+    "rev": "d72e6861971aaaa55ed3c068e51b9888f9cf0241",
     "rootDir": "",
-    "sha256": "1qhr5dviyyz8j4wwccjyfa0n4q0k69ifch2q2g4z2pgm1yr0sb3l",
+    "sha256": "062idiph110hbwlvxrbjwx9nzyywpv46s8xj1icklar4zd2y4pv9",
     "url": "https://github.com/hthienloc/dms-app-launcher"
   },
   "appShortcut": {
@@ -3649,12 +3687,12 @@
     "url": "https://github.com/merdely/dms-plugins"
   },
   "floaty": {
-    "date": "2026-06-06T01:00:46+07:00",
+    "date": "2026-06-06T22:21:41+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-SGmQ2jq/xwFfOhklKEwwRy/NwdS4Bw/rcBuA/bz0zqQ=",
+    "hash": "sha256-2Lwn/LVrKwlKCoCGoXQJAb/XrvKThvUlxILWncVUm0E=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -3678,19 +3716,19 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-floaty/main/screenshot.png",
       "version": "2.0.0"
     },
-    "path": "/nix/store/351qq6al87i8k2akzw91272r50hc0xy8-dms-floaty",
-    "rev": "d3ee471bc04858b66ab0559d6281e20ea1f64e4e",
+    "path": "/nix/store/cakgmjgsg3pnq06agy6h66fspd2mfal2-dms-floaty",
+    "rev": "114c20e60dfaab06553696b55c8f2f501a4d7fcb",
     "rootDir": "",
-    "sha256": "196fyjygv00vf3mhy1xqsk0wsbs76162h98r79gh3ixz7bd90sa8",
+    "sha256": "0hcvak2rvml2qhjzb1lkyapdggq115sa31l01950javbnpy2gg6q",
     "url": "https://github.com/hthienloc/dms-floaty"
   },
   "folderView": {
-    "date": "2026-06-05T23:33:51+07:00",
+    "date": "2026-06-06T22:27:52+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5crm6VNABVsrbBzCpW8wtEckJQyNyt4nXCqABYw7NAI=",
+    "hash": "sha256-n3fno0og/Hwn/aeGjnMnNa1NmyChPgMVrQgfihg6Afw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -3715,10 +3753,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-folder-view/main/screenshot.png",
       "version": "2.0.3"
     },
-    "path": "/nix/store/hk1c8f4dp4kwrip16c676y9bqlbdib5w-dms-folder-view",
-    "rev": "ab36419c6885956c9177ccefc0ef299a5d969659",
+    "path": "/nix/store/qz76jm73h2ca86azzw07r7hx4g21vily-dms-folder-view",
+    "rev": "486a3ec1d01f7198daaa4a32abcf5261739ef0cb",
     "rootDir": "",
-    "sha256": "00il7f60b01abhkxxjld1hjj8ixl61psbhhwdhmmn1a0aglydjp5",
+    "sha256": "1z0178c8l7q8mlah6gm142dlvb9m4xrqx1m7zlkprz109aiyfxwz",
     "url": "https://github.com/hthienloc/dms-folder-view"
   },
   "formatColorPicker": {
@@ -5435,12 +5473,12 @@
     "url": "https://github.com/kmf/dms-obsidian-search"
   },
   "ocrScanner": {
-    "date": "2026-06-05T23:33:13+07:00",
+    "date": "2026-06-06T22:32:25+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5kMA6W0eQJxSmNCSgikFwu+hffv8QupXdItr/j9hrkA=",
+    "hash": "sha256-de3SA+Q955aOcl6iYToFBX0xzl1fL2uYQwSdKzNzmkI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -5464,10 +5502,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ocr-scanner/main/screenshot.png",
       "version": "2.0.0"
     },
-    "path": "/nix/store/lixnf8dqhx8hb0p9axq7pl1wr5csxar8-dms-ocr-scanner",
-    "rev": "8319f2ce206334e32305b3d08c7c8a55147e6d58",
+    "path": "/nix/store/ihsxwih0lna3jgb6qw50cp09ilc2wvss-dms-ocr-scanner",
+    "rev": "7e0dc5544ae68659f351e258ddfbc022c786e608",
     "rootDir": "",
-    "sha256": "0h5fc4zzwswbfibylhpwzdys3vy20llq54nhk199qh0ydplh0hz6",
+    "sha256": "0hlsfcrjp7848fc6nbszbp732z850lx638jyfa79drrxwh1x5vbm",
     "url": "https://github.com/hthienloc/dms-ocr-scanner"
   },
   "openTrackerBar": {
@@ -5834,12 +5872,12 @@
     "url": "https://github.com/szabolcsf/dms-qcal-calendar"
   },
   "qrGenerator": {
-    "date": "2026-06-05T23:33:04+07:00",
+    "date": "2026-06-06T09:47:14+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-vdITR6r26QdSRzbZxy5ITDSdBGgfO9WE+ca1JC9A9Ik=",
+    "hash": "sha256-TbjwYR74iNHKYDiLVTLD4CcQCYFtSYRVrMW7QPFwXMU=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -5865,10 +5903,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-qr-generator/master/screenshot.png",
       "version": "1.2.1"
     },
-    "path": "/nix/store/ny67a86xkjc26zyjvdw4s5gmm5smpad0-dms-qr-generator",
-    "rev": "66043ec17687a30adc70c8b368f07ef4889787f7",
+    "path": "/nix/store/ib3h1zl097inwirjsfzlnz17mc7nfva2-dms-qr-generator",
+    "rev": "ee619f7f67906b2b0a9f52e91498f3c1af682d40",
     "rootDir": "",
-    "sha256": "12gl80pj9df6z62dafqzd029sd2c90pcgn9n8x90gsgnm93i7lmx",
+    "sha256": "1iawf3ql1fy5miaq8jbdh44i09z0qcr5b2rqc35d327q3rhz1f2d",
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
