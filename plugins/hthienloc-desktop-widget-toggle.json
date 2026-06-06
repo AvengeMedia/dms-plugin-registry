@@ -1,7 +1,8 @@
 {
     "id": "desktopWidgetToggle",
     "name": "Desktop Widget Toggle",
-    "capabilities": ["dankbar-widget"],
+    "type": "daemon",
+    "capabilities": ["dankbar-widget", "ipc"],
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-desktop-widget-toggle",
     "author": "Loc Huynh",
