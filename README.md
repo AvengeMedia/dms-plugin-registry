@@ -1422,6 +1422,35 @@ Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
 
 
 
+#### [Acer Sense](https://github.com/raphamzn/dms-acer-sense)
+
+Control panel for Acer Nitro/Predator laptops: power profile, fan presets, battery charge limit, USB charging and GPU mode (envycontrol), powered by linuwu-sense.
+
+
+
+- id: acerSense
+- name: Acer Sense
+- author: raphamzn
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: linuwu-sense
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/raphamzn/dms-acer-sense/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [AdGuard VPN](https://github.com/bernardopg/dms-adguard-vpn-plugin)
 
 Control, configure, and monitor adguardvpn-cli directly from DankBar
