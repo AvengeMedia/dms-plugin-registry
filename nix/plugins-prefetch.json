@@ -1447,6 +1447,43 @@
     "sha256": "1pgpn126vzmafd55sgpkg1lnw6gyj1b153l9563fs8db5dm7ij7d",
     "url": "https://github.com/viewerofall-labs/weather-viewer"
   },
+  "cpuCoreLoad": {
+    "date": "2026-05-28T17:17:18-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Y2xJkMsQ02JVCIxwGFh29Ps5UQJvz+xnfIOjStjztWc=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Rabit",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "component": "./CpuCoreLoadWidget.qml",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Dank Bar widget showing per-CPU-core load as bars with.",
+      "distro": [
+        "any"
+      ],
+      "id": "cpuCoreLoad",
+      "name": "CPU Core Load",
+      "repo": "https://github.com/rabits/dms-plugin-cpucoreload",
+      "screenshot": "https://raw.githubusercontent.com/rabits/dms-plugin-cpucoreload/main/preview.png",
+      "settings": "./CpuCoreLoadSettings.qml",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/d705z594nvj0cm6bmwlsir0mpiqs7x02-dms-plugin-cpucoreload",
+    "rev": "c0b1399eaf452abc04060c734fece535f8e08320",
+    "rootDir": "",
+    "sha256": "0rxmygc4m8w3gikyrkvg098kkyzlfrc1hw4c11an5lqhrf84jv33",
+    "url": "https://github.com/rabits/dms-plugin-cpucoreload"
+  },
   "customRunningApps": {
     "date": "2026-02-03T15:23:06-08:00",
     "deepClone": false,
