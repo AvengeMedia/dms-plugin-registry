@@ -4009,6 +4009,55 @@
     "sha256": "1gyxrqw96c5ihz80zirvcra7akblr94ig6zcfshmiy7jmg4pg9vg",
     "url": "https://github.com/JDKamalakar/DMS-GitHub_HeatMap"
   },
+  "githubInbox": {
+    "date": "2026-06-05T14:49:42+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-g+KLqRqUBbyzB++tW4E/PyGE0KXDuwAvM9eMP9CLrDk=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "TMS-Namespace",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "productivity",
+      "component": "./QML/Widget.qml",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl",
+        "secret-tool",
+        "jq"
+      ],
+      "description": "Shows your GitHub notifications (aka inbox) in a popup and lets you mark them as read or done.",
+      "distro": [
+        "any"
+      ],
+      "icon": "code",
+      "id": "githubInbox",
+      "name": "GitHub Inbox",
+      "permissions": [
+        "settings_read",
+        "settings_write",
+        "process",
+        "network"
+      ],
+      "repo": "https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin/raw/main/Images/plugin_group_by_date.png",
+      "settings": "./QML/Views/Settings.qml",
+      "type": "widget",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/f2f63p3ifcsw1ganvj2r4ys64ngjbwhi-DMS-GitHub-Inbox-Plugin",
+    "rev": "ab9559df1fe2a21913c98f2758443a7216429d32",
+    "rootDir": "",
+    "sha256": "0fdcig83z36p6cph1fy3lp88889z7y0mpbgg0yrvq1cl3alqpql3",
+    "url": "https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin"
+  },
   "githubNotifier": {
     "date": "2026-04-17T21:44:08-03:00",
     "deepClone": false,
