@@ -7,7 +7,7 @@
     "author": "hkl",
     "description": "AI chat sidebar powered by local Hermes agent.",
     "dependencies": [],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://github.com/huangkaile22-prog/dankhermes/blob/main/screenshot-chat.png"
 }
