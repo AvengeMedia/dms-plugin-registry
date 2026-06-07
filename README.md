@@ -3288,6 +3288,35 @@ A widget that displays a command output on your desktop
 
 
 
+#### [Desktop Widget Toggle](https://github.com/hthienloc/dms-desktop-widget-toggle)
+
+Toggle visibility of desktop widget groups as overlay
+
+
+
+- id: desktopWidgetToggle
+- name: Desktop Widget Toggle
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget, ipc
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-desktop-widget-toggle/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Developer Utilities](https://github.com/xxyangyoulin/dms-plugin-developer-utilities)
 
 Encoders, Decoders, Formatters and Converters for Developers
