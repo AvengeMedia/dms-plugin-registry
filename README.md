@@ -908,6 +908,40 @@ Shows the current submap in Hyprland
 
 
 
+#### [Hyprland Submap Indicator](https://github.com/nderscore/dms-plugins)
+
+Shows a customizable indicator when a Hyprland submap is active
+
+
+
+- id: hyprlandSubmapIndicator
+- name: Hyprland Submap Indicator
+- author: _nderscore
+- compositors: hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [HyprlandSubmapIndicator](https://github.com/nderscore/dms-plugins/tree/main/HyprlandSubmapIndicator) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/nderscore/dms-plugins/main/assets/HyprlandSubmapIndicator-screenshot.png)
+
+</details>
+
+
+
+
+
 #### [NVIDIA GPU Monitor](https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor)
 
 Monitor NVIDIA GPU usage, VRAM, and temperature.
