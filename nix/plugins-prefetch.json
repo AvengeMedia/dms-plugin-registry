@@ -4380,6 +4380,41 @@
     "sha256": "1jxpr4pjyw7wbmh2jpakp4flzj1pp90yq7y5f5afdzf0345hr7qh",
     "url": "https://github.com/mesteryui/DMS_HyprlandSubmap"
   },
+  "hyprlandSubmapIndicator": {
+    "date": "2026-06-02T21:42:27-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-7sirKRVHVibRJFco4uqPpC7sfwIIqG7bqvDG6EAJSRw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "_nderscore",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Shows a customizable indicator when a Hyprland submap is active",
+      "distro": [
+        "any"
+      ],
+      "id": "hyprlandSubmapIndicator",
+      "name": "Hyprland Submap Indicator",
+      "path": "HyprlandSubmapIndicator",
+      "repo": "https://github.com/nderscore/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/nderscore/dms-plugins/main/assets/HyprlandSubmapIndicator-screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/i1prwxrrpgkrgs7cwnw7kpy8p4vsnlvd-dms-plugins",
+    "rev": "851e06ca204f17a97414a666728246fd3acad3c6",
+    "rootDir": "",
+    "sha256": "0729150fiiphmbdnxa0809zyqbm4izmf4a2p4k8jcmj72llspj7f",
+    "url": "https://github.com/nderscore/dms-plugins"
+  },
   "imageConverter": {
     "date": "2026-04-09T00:18:18-03:00",
     "deepClone": false,
