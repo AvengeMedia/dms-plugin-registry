@@ -1290,6 +1290,35 @@ A simple locally-saved TODO list widget for the Dank bar.
 
 
 
+#### [GitHub Inbox](https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin)
+
+Shows your GitHub notifications (aka inbox) in a popup and lets you mark them as read or done.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: githubInbox
+- name: GitHub Inbox
+- author: TMS-Namespace
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: curl, secret-tool, jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin/raw/main/Images/plugin_group_by_date.png)
+
+</details>
+
+
+
+
+
 #### [Jira Tickets](https://github.com/Klievan/dms-jira)
 
 Assigned Jira Cloud tickets in the DankBar with quick actions — open, transition status, comment, copy branch name — plus optional new-assignment and @mention notifications.
