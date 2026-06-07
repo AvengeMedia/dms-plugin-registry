@@ -1,0 +1,13 @@
+{
+  "id": "acerSense",
+  "name": "Acer Sense",
+  "capabilities": ["dankbar-widget"],
+  "category": "system",
+  "repo": "https://github.com/raphamzn/dms-acer-sense",
+  "author": "raphamzn",
+  "description": "Control panel for Acer Nitro/Predator laptops: power profile, fan presets, battery charge limit, USB charging and GPU mode (envycontrol), powered by linuwu-sense.",
+  "dependencies": ["linuwu-sense"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/raphamzn/dms-acer-sense/main/screenshot.png"
+}
