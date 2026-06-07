@@ -2759,6 +2759,42 @@
     "sha256": "1yi9rz01ipiia5b975c5q93h8azwfh0r8p8sa75hjcwngmw9mya4",
     "url": "https://github.com/yayuuu/desktopCommand"
   },
+  "desktopWidgetToggle": {
+    "date": "2026-06-06T22:41:25+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-87Tl2rHvKXulQFTIW/QZeahZXRG299mJZnGuK8XgbsU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Loc Huynh",
+      "capabilities": [
+        "dankbar-widget",
+        "ipc"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Toggle visibility of desktop widget groups as overlay",
+      "distro": [
+        "any"
+      ],
+      "id": "desktopWidgetToggle",
+      "name": "Desktop Widget Toggle",
+      "repo": "https://github.com/hthienloc/dms-desktop-widget-toggle",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-desktop-widget-toggle/master/screenshot.png",
+      "type": "daemon",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/ryp76kxsn0plsdwsagns4613bydgk4rl-dms-desktop-widget-toggle",
+    "rev": "07c0fddaa3ab1a59cc4a3ccbbc82b715514a1bce",
+    "rootDir": "",
+    "sha256": "1ibfw32jpbkics4xkxxn25fmka3r37s5pj2l82jpnaggn7dfbd7k",
+    "url": "https://github.com/hthienloc/dms-desktop-widget-toggle"
+  },
   "developerUtilities": {
     "date": "2026-03-05T19:21:10+08:00",
     "deepClone": false,
