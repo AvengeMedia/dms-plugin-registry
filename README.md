@@ -362,17 +362,17 @@ Video wallpaper support using mpvpaper
 
 #### [Markets](https://github.com/TMS-Namespace/DMS-Markets-Plugin)
 
-Semi-Live market prices for currencies, stocks, and commodities with charts
+Near-live market prices for currencies, stocks, and commodities with charts. Requires free key, no registration is required.
 
-
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
 
 - id: markets
 - name: Markets
 - author: TMS-Namespace
-- compositors: niri
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: curl
-- distro: fedora
+- distro: any
 
 
 
