@@ -579,6 +579,35 @@ Enables idle inhibitor if audio is playing.
 
 
 
+#### [CPU Core Load](https://github.com/rabits/dms-plugin-cpucoreload)
+
+Dank Bar widget showing per-CPU-core load as bars with.
+
+
+
+- id: cpuCoreLoad
+- name: CPU Core Load
+- author: Rabit
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rabits/dms-plugin-cpucoreload/main/preview.png)
+
+</details>
+
+
+
+
+
 #### [Cat Widget](https://github.com/xi-ve/cat-dms)
 
 An animated running cat for the DankBar whose speed reflects CPU usage. Based on CatWalk by Driglu4it.
