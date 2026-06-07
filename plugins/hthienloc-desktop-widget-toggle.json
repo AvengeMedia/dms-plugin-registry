@@ -1,0 +1,14 @@
+{
+    "id": "desktopWidgetToggle",
+    "name": "Desktop Widget Toggle",
+    "type": "daemon",
+    "capabilities": ["dankbar-widget", "ipc"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-desktop-widget-toggle",
+    "author": "Loc Huynh",
+    "description": "Toggle visibility of desktop widget groups as overlay",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-desktop-widget-toggle/master/screenshot.png"
+}
