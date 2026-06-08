@@ -6196,6 +6196,35 @@ A Material 3 weekly calendar with five views (Week, 4 Days, Day, Agenda, Month),
 
 
 
+#### [Wiener Linien](https://github.com/wolfsblu/dms-wiener-linien)
+
+Track departure times of Wiener Linien public transit
+
+
+
+- id: wienerLinien
+- name: Wiener Linien
+- author: Lukas Wolfsberger
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/wolfsblu/dms-wiener-linien/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [World Clock](https://github.com/rochacbruno/WorldClock)
 
 Multiple timezones clock for DankBar
