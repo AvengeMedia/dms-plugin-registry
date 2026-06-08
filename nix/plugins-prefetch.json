@@ -2904,6 +2904,41 @@
     "sha256": "0fn1kw24wd1h88fw32wpzv2q98hyyh7yblhaxqqkpqzhzx0kd4ah",
     "url": "https://github.com/xxyangyoulin/dms-plugin-developer-utilities"
   },
+  "dgpuStatus": {
+    "date": "2026-06-08T01:18:52+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-i3tzxxvklE7EWg3SJs+RkiWRpHdtogYt0lQyrzAWexg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "xantrk",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Monitor dGPU power state (D0, D3cold) and optionally display battery wattage with toggles for cardwire and/or supergfxctl mode switching.",
+      "distro": [
+        "any"
+      ],
+      "id": "dgpuStatus",
+      "name": "dGPU Sleep Monitor",
+      "repo": "https://github.com/xantrk/dgpu-sleep-monitor",
+      "screenshot": "https://raw.githubusercontent.com/xantrk/dgpu-sleep-monitor/refs/heads/master/screenshots/Screenshot%20from%202026-06-08%2000-50-01.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/gdndkldfw1h7mxbc50lizqaxb79gxwg4-dgpu-sleep-monitor",
+    "rev": "1d181198fd312f1557617e9ff544031070accb84",
+    "rootDir": "",
+    "sha256": "063v2qqaycjls8nhd8kdfyj929cjj77jdlhdbb24x5743g3p6ywb",
+    "url": "https://github.com/xantrk/dgpu-sleep-monitor"
+  },
   "discordVoice": {
     "date": "2026-05-02T22:37:53-07:00",
     "deepClone": false,
