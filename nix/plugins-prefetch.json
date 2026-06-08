@@ -5209,12 +5209,12 @@
     "url": "https://github.com/kanghengliu/dms-mpvpaper"
   },
   "musicLyrics": {
-    "date": "2026-02-24T23:20:07+07:00",
+    "date": "2026-06-08T10:16:17+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-22WKbmfNb2TcmTxlxijqHF48nQYTK26vs/3W8/TzrBo=",
+    "hash": "sha256-4CdXSjhXhHGwmh7mJcw6vJqTHOZNXbABSYBtHJqTm/Y=",
     "leaveDotGit": false,
     "meta": {
       "author": "gasiyu",
@@ -5235,12 +5235,12 @@
       "name": "Music Lyrics",
       "repo": "https://github.com/gasiyu/dms-plugin-musiclyrics",
       "screenshot": "https://raw.githubusercontent.com/Gasiyu/dms-plugin-musiclyrics/main/screenshots.png",
-      "version": "1.4.0"
+      "version": "1.5.0"
     },
-    "path": "/nix/store/nbd5ch4h5jhwq06fsh587c6i7x3507bj-dms-plugin-musiclyrics",
-    "rev": "4f7a65475ad3774a38190808729de7e6e4c84d61",
+    "path": "/nix/store/kql32ilpxyq2ql858kxrlniwpaywivyc-dms-plugin-musiclyrics",
+    "rev": "eee104c5107182b6a2caa383bac05d0c11b2974a",
     "rootDir": "",
-    "sha256": "06mcygsg7mpxnfpnwaqk0sfkqphwx8lccr9wk7f68vydcxp8lrfv",
+    "sha256": "1xlvjfd1qvc0940v0padwqf976mw7b62brhykaq7312p7155f9z0",
     "url": "https://github.com/gasiyu/dms-plugin-musiclyrics"
   },
   "nepaliCalendar": {
@@ -7617,6 +7617,40 @@
     "rootDir": "",
     "sha256": "10my8nq5kqx0kdhlvf7ax7wv80vlw8jq3bcqdwwbmfbs7wnd54qj",
     "url": "https://github.com/arqueon/dms-calendar"
+  },
+  "wienerLinien": {
+    "date": "2026-06-08T12:52:00+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-+Uu0dm3lvmVoWyjXS/grt7dwmZZoMMsmwD+2E3wSLVs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Lukas Wolfsberger",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Track departure times of Wiener Linien public transit",
+      "distro": [
+        "any"
+      ],
+      "id": "wienerLinien",
+      "name": "Wiener Linien",
+      "repo": "https://github.com/wolfsblu/dms-wiener-linien",
+      "screenshot": "https://raw.githubusercontent.com/wolfsblu/dms-wiener-linien/refs/heads/main/screenshot.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/s40gyln5cm1gzx5li3yrv6gxndc5ind1-dms-wiener-linien",
+    "rev": "547c550c40e17e28fe91bf74ca875bca6c8af3ee",
+    "rootDir": "",
+    "sha256": "0nrd29y17dizq0kcnc38jscp1dxp5gw4pmr8bdl6bgp5dmvb8jzr",
+    "url": "https://github.com/wolfsblu/dms-wiener-linien"
   },
   "worldClock": {
     "date": "2026-05-08T12:59:01+01:00",
