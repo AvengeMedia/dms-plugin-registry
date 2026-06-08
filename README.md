@@ -6283,6 +6283,35 @@ Display up to 5 timezones on the DankBar. Toggle between showing all at once or 
 
 
 
+#### [dGPU Sleep Monitor](https://github.com/xantrk/dgpu-sleep-monitor)
+
+Monitor dGPU power state (D0, D3cold) and optionally display battery wattage with toggles for cardwire and/or supergfxctl mode switching.
+
+
+
+- id: dgpuStatus
+- name: dGPU Sleep Monitor
+- author: xantrk
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/xantrk/dgpu-sleep-monitor/refs/heads/master/screenshots/Screenshot%20from%202026-06-08%2000-50-01.png)
+
+</details>
+
+
+
+
+
 #### [qCal Calendar](https://github.com/szabolcsf/dms-qcal-calendar)
 
 CalDAV calendar with events, notifications, and event management. Works with iCloud, Google, Nextcloud, and any CalDAV server.
