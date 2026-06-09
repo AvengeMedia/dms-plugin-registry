@@ -7654,12 +7654,12 @@
     "url": "https://github.com/arqueon/dms-calendar"
   },
   "wienerLinien": {
-    "date": "2026-06-08T12:52:00+02:00",
+    "date": "2026-06-08T17:24:21+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-+Uu0dm3lvmVoWyjXS/grt7dwmZZoMMsmwD+2E3wSLVs=",
+    "hash": "sha256-LQbCoef0cj+33hpXFdrLA7PIlsr3s1w47ftyVHYAvok=",
     "leaveDotGit": false,
     "meta": {
       "author": "Lukas Wolfsberger",
@@ -7679,12 +7679,12 @@
       "name": "Wiener Linien",
       "repo": "https://github.com/wolfsblu/dms-wiener-linien",
       "screenshot": "https://raw.githubusercontent.com/wolfsblu/dms-wiener-linien/refs/heads/main/screenshot.png",
-      "version": "0.1.0"
+      "version": "0.1.2"
     },
-    "path": "/nix/store/s40gyln5cm1gzx5li3yrv6gxndc5ind1-dms-wiener-linien",
-    "rev": "547c550c40e17e28fe91bf74ca875bca6c8af3ee",
+    "path": "/nix/store/ml2zh6mbh4q9hzscl926afqvf0j0kdds-dms-wiener-linien",
+    "rev": "fac494339b07bf650dc6a9b12cc64e6823131b9d",
     "rootDir": "",
-    "sha256": "0nrd29y17dizq0kcnc38jscp1dxp5gw4pmr8bdl6bgp5dmvb8jzr",
+    "sha256": "12dy01v58wpvxlw5rczprabcicq3rgd1amqsvsvkywplwyhw41id",
     "url": "https://github.com/wolfsblu/dms-wiener-linien"
   },
   "worldClock": {
