@@ -6196,6 +6196,35 @@ A Material 3 weekly calendar with five views (Week, 4 Days, Day, Agenda, Month),
 
 
 
+#### [Wiener Linien](https://github.com/wolfsblu/dms-wiener-linien)
+
+Track departure times of Wiener Linien public transit
+
+
+
+- id: wienerLinien
+- name: Wiener Linien
+- author: Lukas Wolfsberger
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/wolfsblu/dms-wiener-linien/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [World Clock](https://github.com/rochacbruno/WorldClock)
 
 Multiple timezones clock for DankBar
@@ -6247,6 +6276,35 @@ Display up to 5 timezones on the DankBar. Toggle between showing all at once or 
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/szabolcsf/dms-world-clock-multi/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [dGPU Sleep Monitor](https://github.com/xantrk/dgpu-sleep-monitor)
+
+Monitor dGPU power state (D0, D3cold) and optionally display battery wattage with toggles for cardwire and/or supergfxctl mode switching.
+
+
+
+- id: dgpuStatus
+- name: dGPU Sleep Monitor
+- author: xantrk
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/xantrk/dgpu-sleep-monitor/refs/heads/master/screenshots/Screenshot%20from%202026-06-08%2000-50-01.png)
 
 </details>
 

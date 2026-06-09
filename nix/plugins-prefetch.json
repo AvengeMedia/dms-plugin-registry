@@ -2904,6 +2904,41 @@
     "sha256": "0fn1kw24wd1h88fw32wpzv2q98hyyh7yblhaxqqkpqzhzx0kd4ah",
     "url": "https://github.com/xxyangyoulin/dms-plugin-developer-utilities"
   },
+  "dgpuStatus": {
+    "date": "2026-06-08T01:18:52+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-i3tzxxvklE7EWg3SJs+RkiWRpHdtogYt0lQyrzAWexg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "xantrk",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Monitor dGPU power state (D0, D3cold) and optionally display battery wattage with toggles for cardwire and/or supergfxctl mode switching.",
+      "distro": [
+        "any"
+      ],
+      "id": "dgpuStatus",
+      "name": "dGPU Sleep Monitor",
+      "repo": "https://github.com/xantrk/dgpu-sleep-monitor",
+      "screenshot": "https://raw.githubusercontent.com/xantrk/dgpu-sleep-monitor/refs/heads/master/screenshots/Screenshot%20from%202026-06-08%2000-50-01.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/gdndkldfw1h7mxbc50lizqaxb79gxwg4-dgpu-sleep-monitor",
+    "rev": "1d181198fd312f1557617e9ff544031070accb84",
+    "rootDir": "",
+    "sha256": "063v2qqaycjls8nhd8kdfyj929cjj77jdlhdbb24x5743g3p6ywb",
+    "url": "https://github.com/xantrk/dgpu-sleep-monitor"
+  },
   "discordVoice": {
     "date": "2026-05-02T22:37:53-07:00",
     "deepClone": false,
@@ -5209,12 +5244,12 @@
     "url": "https://github.com/kanghengliu/dms-mpvpaper"
   },
   "musicLyrics": {
-    "date": "2026-02-24T23:20:07+07:00",
+    "date": "2026-06-08T10:16:17+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-22WKbmfNb2TcmTxlxijqHF48nQYTK26vs/3W8/TzrBo=",
+    "hash": "sha256-4CdXSjhXhHGwmh7mJcw6vJqTHOZNXbABSYBtHJqTm/Y=",
     "leaveDotGit": false,
     "meta": {
       "author": "gasiyu",
@@ -5235,12 +5270,12 @@
       "name": "Music Lyrics",
       "repo": "https://github.com/gasiyu/dms-plugin-musiclyrics",
       "screenshot": "https://raw.githubusercontent.com/Gasiyu/dms-plugin-musiclyrics/main/screenshots.png",
-      "version": "1.4.0"
+      "version": "1.5.0"
     },
-    "path": "/nix/store/nbd5ch4h5jhwq06fsh587c6i7x3507bj-dms-plugin-musiclyrics",
-    "rev": "4f7a65475ad3774a38190808729de7e6e4c84d61",
+    "path": "/nix/store/kql32ilpxyq2ql858kxrlniwpaywivyc-dms-plugin-musiclyrics",
+    "rev": "eee104c5107182b6a2caa383bac05d0c11b2974a",
     "rootDir": "",
-    "sha256": "06mcygsg7mpxnfpnwaqk0sfkqphwx8lccr9wk7f68vydcxp8lrfv",
+    "sha256": "1xlvjfd1qvc0940v0padwqf976mw7b62brhykaq7312p7155f9z0",
     "url": "https://github.com/gasiyu/dms-plugin-musiclyrics"
   },
   "nepaliCalendar": {
@@ -7617,6 +7652,40 @@
     "rootDir": "",
     "sha256": "10my8nq5kqx0kdhlvf7ax7wv80vlw8jq3bcqdwwbmfbs7wnd54qj",
     "url": "https://github.com/arqueon/dms-calendar"
+  },
+  "wienerLinien": {
+    "date": "2026-06-08T17:24:21+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-LQbCoef0cj+33hpXFdrLA7PIlsr3s1w47ftyVHYAvok=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Lukas Wolfsberger",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Track departure times of Wiener Linien public transit",
+      "distro": [
+        "any"
+      ],
+      "id": "wienerLinien",
+      "name": "Wiener Linien",
+      "repo": "https://github.com/wolfsblu/dms-wiener-linien",
+      "screenshot": "https://raw.githubusercontent.com/wolfsblu/dms-wiener-linien/refs/heads/main/screenshot.png",
+      "version": "0.1.2"
+    },
+    "path": "/nix/store/ml2zh6mbh4q9hzscl926afqvf0j0kdds-dms-wiener-linien",
+    "rev": "fac494339b07bf650dc6a9b12cc64e6823131b9d",
+    "rootDir": "",
+    "sha256": "12dy01v58wpvxlw5rczprabcicq3rgd1amqsvsvkywplwyhw41id",
+    "url": "https://github.com/wolfsblu/dms-wiener-linien"
   },
   "worldClock": {
     "date": "2026-05-08T12:59:01+01:00",
