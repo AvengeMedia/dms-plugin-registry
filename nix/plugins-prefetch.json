@@ -1179,6 +1179,43 @@
     "sha256": "03z4nhmvligdbz6f7fy9ds8psb40g4x0vx2kqd3rilfhbz335l7j",
     "url": "https://github.com/titeya/dms-claudecode"
   },
+  "claudeUsage": {
+    "date": "2026-06-10T14:40:08+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-pr2ASMWk3LG/iM1apfxlFIyZxK3Wm9GKiatnMNkXt/k=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Bogdan Velicu",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "jq",
+        "curl"
+      ],
+      "description": "Claude Code 5-hour and weekly subscription limits in your bar, as theme-colored rings with a popout. Zero setup.",
+      "distro": [
+        "any"
+      ],
+      "id": "claudeUsage",
+      "name": "Claude Usage",
+      "repo": "https://github.com/bogdan-velicu/DankClaudeUsage",
+      "screenshot": "https://raw.githubusercontent.com/bogdan-velicu/DankClaudeUsage/main/assets/popout.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/a4wp7f74wz8j5ahhswaafis32f9yfbc7-DankClaudeUsage",
+    "rev": "1efd20ed6c29c2e2ee2a2dc8a1dd354f46ab0b0c",
+    "rootDir": "",
+    "sha256": "1ydp2zck0rxbi65d36ynmp29k30lcpyaanndi2zv3p54qm481gd6",
+    "url": "https://github.com/bogdan-velicu/DankClaudeUsage"
+  },
   "clipboardPlus": {
     "date": "2026-05-26T13:09:13+07:00",
     "deepClone": false,
@@ -6842,6 +6879,42 @@
     "rootDir": "",
     "sha256": "0qh4pssfqc75br7wzxpj7wj9rnxn7y5w1wdyf6ws7wa80f6aayvi",
     "url": "https://github.com/cglavin50/dms-tailscale"
+  },
+  "takeABreak": {
+    "date": "2026-06-09T23:54:39+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-xHqloAwcahvfJtmnrPZBNS+jYX9hBz0GpRsEjBIv1zo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Loc Huynh",
+      "capabilities": [
+        "control-center",
+        "ipc"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "A gentle companion that reminds you to rest your eyes with short and long breaks.",
+      "distro": [
+        "any"
+      ],
+      "id": "takeABreak",
+      "name": "Take a Break",
+      "repo": "https://github.com/hthienloc/dms-take-a-break",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png",
+      "type": "daemon",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/5jn4v9811xcjqsffl89jby5fzp9hqv16-dms-take-a-break",
+    "rev": "d8d8fd4c3d5f6b9013cea41261071ef8a8ffa86d",
+    "rootDir": "",
+    "sha256": "0fnp5w98q10vll33s1v1gxhs6brm87var9yr4vginshw1jhaayn4",
+    "url": "https://github.com/hthienloc/dms-take-a-break"
   },
   "tasks": {
     "date": "2026-05-25T17:59:02+05:30",
