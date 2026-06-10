@@ -666,6 +666,35 @@ Monitor your Claude Code subscription usage with token tracking, rate limits, an
 
 
 
+#### [Claude Usage](https://github.com/bogdan-velicu/DankClaudeUsage)
+
+Claude Code 5-hour and weekly subscription limits in your bar, as theme-colored rings with a popout. Zero setup.
+
+
+
+- id: claudeUsage
+- name: Claude Usage
+- author: Bogdan Velicu
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: jq, curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/bogdan-velicu/DankClaudeUsage/main/assets/popout.png)
+
+</details>
+
+
+
+
+
 #### [Codeforces Heatmap](https://github.com/EchoSingh/codeforces-dms-plugin)
 
 Display daily Codeforces problem solving activity with a color-coded heatmap
