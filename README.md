@@ -5722,6 +5722,35 @@ Tailscale-toggle plugin for DankBar
 
 
 
+#### [Take a Break](https://github.com/hthienloc/dms-take-a-break)
+
+A gentle companion that reminds you to rest your eyes with short and long breaks.
+
+
+
+- id: takeABreak
+- name: Take a Break
+- author: Loc Huynh
+- compositors: any
+- capabilities: control-center, ipc
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Taskwarrior](https://github.com/cyrylas/dms-taskwarrior)
 
 Taskwarrior integration for DMS: see your pending tasks in the status bar, create new tasks using Taskwarrior syntax, and check them off with a single click
