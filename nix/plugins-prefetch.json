@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-06-02T23:58:36-03:00",
+    "date": "2026-06-10T17:23:08-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-hjsa8NBp9Lgs2y2HtBxDNYpMDaToGvBRnFTFB0dF180=",
+    "hash": "sha256-xvUyPmym4YiTj/tksAVkIokNEADYDFpA4q8lWlvUoHI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -180,10 +180,10 @@
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
       "version": "1.2.4"
     },
-    "path": "/nix/store/lvmz8fk81p42w5rc5gniqr3790ns4aq4-AiOverviewControl",
-    "rev": "46c2d5a20dee1960a8a5d1d16a7bee1cd9d5c37d",
+    "path": "/nix/store/pvmgklphb4mcf4sdclp8qgv2npmy1jjy-AiOverviewControl",
+    "rev": "a6c5200e4a6c0d61d7721771f7bb225ab779f23d",
     "rootDir": "",
-    "sha256": "1kfp8m3hgialki8z06p8lh6lr2im8cfb91rdvcnbix39s3q1lfw6",
+    "sha256": "0wm0sidml9dgw905l36q0080v292ch2v0r7viy9qiqd6dhz35xf6",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "airQuality": {
@@ -6186,12 +6186,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-06-09T17:00:06+07:00",
+    "date": "2026-06-11T02:06:00+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-+3p6MUGGhuxneBpxX7gEDLnb4cG0gGmuKL6H8HrGDEQ=",
+    "hash": "sha256-lFrE9bbhKqJLgZMpaKAzd1JRZJ/IRTZ76mHsEbNdV6I=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6211,12 +6211,12 @@
       "name": "Quick Capture",
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.2.0"
+      "version": "2.2.1"
     },
-    "path": "/nix/store/ak9pcp0bvz88x8z0yw0101pni2rbwl9r-dms-quick-capture",
-    "rev": "d5ca2081128c3864d91156e4c86f6e22b98534b6",
+    "path": "/nix/store/6h7zdgnz7ixg345j6l3cc19m26a1qzdj-dms-quick-capture",
+    "rev": "ad16797a2fe1e8f2b5cb9a818f7d4c2e09f1c72b",
     "rootDir": "",
-    "sha256": "0i0cqrxg11xy52p6k05lq7hxpf8c0jw5yw8sg1kyr1l684qplypv",
+    "sha256": "18jpbnri3v31x9xkcif8kxj52lkp6fh6hackh55s4ap1nvsw8nll",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -7687,6 +7687,44 @@
     "rootDir": "",
     "sha256": "008v65iq4wzkf24dk6glsq31dqbqqqskwbz36bpxf9b4742rbabk",
     "url": "https://github.com/devnullvoid/dms-web-search"
+  },
+  "webcamViewer": {
+    "date": "2026-06-06T13:32:17-06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-WDtFAfS5j307cmwdMmpinN5rR8dq5jSvS8IIBIwe2nM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "antikytheraton",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "vlc",
+        "mpv",
+        "ffmpeg"
+      ],
+      "description": "Shows RTSP camera streams via vlc/ffplay/mpv from the DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "webcamViewer",
+      "name": "Webcam Viewer",
+      "repo": "https://github.com/antikytheraton/DankWebcamViewer",
+      "screenshot": "https://github.com/antikytheraton/DankWebcamViewer/blob/main/assets/screenshot-plugin.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/a8b84i12jdj2ahji0l5dng1y2lmh1agx-DankWebcamViewer",
+    "rev": "e571b69211ed901ca3f42a09ccf15fec7ec899b4",
+    "rootDir": "",
+    "sha256": "0wys3s6082629fpk9rkaqx3npplwc9m347bcf8xpv3xryh0lafsq",
+    "url": "https://github.com/antikytheraton/DankWebcamViewer"
   },
   "weeklyCalendar": {
     "date": "2026-05-13T23:54:25-06:00",
