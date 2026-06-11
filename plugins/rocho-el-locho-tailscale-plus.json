@@ -1,0 +1,23 @@
+{
+    "id": "tailscalePlus",
+    "name": "Tailscale Plus",
+    "capabilities": [
+        "dankbar-widget",
+        "control-center-widget"
+    ],
+    "category": "network",
+    "repo": "https://github.com/Rocho-EL-Locho/dms-tailscale",
+    "path": "",
+    "author": "Rocho",
+    "description": "Tailscale management widget: connection toggle, exit node picker with online state and Mullvad badges, allow-LAN-access toggle and a collapsible peer list. Extended fork of cglavin50's dms-tailscale.",
+    "dependencies": [
+        "tailscale"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://github.com/Rocho-EL-Locho/dms-tailscale/raw/main/plugin-notif.png"
+}
