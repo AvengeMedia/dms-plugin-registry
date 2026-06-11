@@ -666,6 +666,35 @@ Monitor your Claude Code subscription usage with token tracking, rate limits, an
 
 
 
+#### [Claude Usage](https://github.com/bogdan-velicu/DankClaudeUsage)
+
+Claude Code 5-hour and weekly subscription limits in your bar, as theme-colored rings with a popout. Zero setup.
+
+
+
+- id: claudeUsage
+- name: Claude Usage
+- author: Bogdan Velicu
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: jq, curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/bogdan-velicu/DankClaudeUsage/main/assets/popout.png)
+
+</details>
+
+
+
+
+
 #### [Codeforces Heatmap](https://github.com/EchoSingh/codeforces-dms-plugin)
 
 Display daily Codeforces problem solving activity with a color-coded heatmap
@@ -1201,6 +1230,35 @@ Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png)
+
+</details>
+
+
+
+
+
+#### [Webcam Viewer](https://github.com/antikytheraton/DankWebcamViewer)
+
+Shows RTSP camera streams via vlc/ffplay/mpv from the DankBar
+
+
+
+- id: webcamViewer
+- name: Webcam Viewer
+- author: antikytheraton
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: vlc, mpv, ffmpeg
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/antikytheraton/DankWebcamViewer/blob/main/assets/screenshot-plugin.png)
 
 </details>
 
@@ -5715,6 +5773,35 @@ Tailscale-toggle plugin for DankBar
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/cglavin50/dms-tailscale/raw/main/plugin-notif.png)
+
+</details>
+
+
+
+
+
+#### [Take a Break](https://github.com/hthienloc/dms-take-a-break)
+
+A gentle companion that reminds you to rest your eyes with short and long breaks.
+
+
+
+- id: takeABreak
+- name: Take a Break
+- author: Loc Huynh
+- compositors: any
+- capabilities: control-center, ipc
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png)
 
 </details>
 

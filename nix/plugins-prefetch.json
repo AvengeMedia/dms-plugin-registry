@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-06-02T23:58:36-03:00",
+    "date": "2026-06-10T17:23:08-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-hjsa8NBp9Lgs2y2HtBxDNYpMDaToGvBRnFTFB0dF180=",
+    "hash": "sha256-xvUyPmym4YiTj/tksAVkIokNEADYDFpA4q8lWlvUoHI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -180,10 +180,10 @@
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
       "version": "1.2.4"
     },
-    "path": "/nix/store/lvmz8fk81p42w5rc5gniqr3790ns4aq4-AiOverviewControl",
-    "rev": "46c2d5a20dee1960a8a5d1d16a7bee1cd9d5c37d",
+    "path": "/nix/store/pvmgklphb4mcf4sdclp8qgv2npmy1jjy-AiOverviewControl",
+    "rev": "a6c5200e4a6c0d61d7721771f7bb225ab779f23d",
     "rootDir": "",
-    "sha256": "1kfp8m3hgialki8z06p8lh6lr2im8cfb91rdvcnbix39s3q1lfw6",
+    "sha256": "0wm0sidml9dgw905l36q0080v292ch2v0r7viy9qiqd6dhz35xf6",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "airQuality": {
@@ -1178,6 +1178,43 @@
     "rootDir": "",
     "sha256": "03z4nhmvligdbz6f7fy9ds8psb40g4x0vx2kqd3rilfhbz335l7j",
     "url": "https://github.com/titeya/dms-claudecode"
+  },
+  "claudeUsage": {
+    "date": "2026-06-10T14:40:08+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-pr2ASMWk3LG/iM1apfxlFIyZxK3Wm9GKiatnMNkXt/k=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Bogdan Velicu",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "jq",
+        "curl"
+      ],
+      "description": "Claude Code 5-hour and weekly subscription limits in your bar, as theme-colored rings with a popout. Zero setup.",
+      "distro": [
+        "any"
+      ],
+      "id": "claudeUsage",
+      "name": "Claude Usage",
+      "repo": "https://github.com/bogdan-velicu/DankClaudeUsage",
+      "screenshot": "https://raw.githubusercontent.com/bogdan-velicu/DankClaudeUsage/main/assets/popout.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/a4wp7f74wz8j5ahhswaafis32f9yfbc7-DankClaudeUsage",
+    "rev": "1efd20ed6c29c2e2ee2a2dc8a1dd354f46ab0b0c",
+    "rootDir": "",
+    "sha256": "1ydp2zck0rxbi65d36ynmp29k30lcpyaanndi2zv3p54qm481gd6",
+    "url": "https://github.com/bogdan-velicu/DankClaudeUsage"
   },
   "clipboardPlus": {
     "date": "2026-05-26T13:09:13+07:00",
@@ -6074,12 +6111,12 @@
     "url": "https://github.com/jonkristian/dms-pulsar-x3"
   },
   "qcalCalendar": {
-    "date": "2026-03-10T16:03:58+08:00",
+    "date": "2026-06-11T09:36:31+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5C+mYt+l6tsahTDsmHYAPaqKWMfiBGRCX70KHETBcQs=",
+    "hash": "sha256-p2sqBWxnMl4qxvYWhx+ZZitwirEilXCYVvgleu8pkEg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Szabolcs Fazekas",
@@ -6102,12 +6139,12 @@
       "name": "qCal Calendar",
       "repo": "https://github.com/szabolcsf/dms-qcal-calendar",
       "screenshot": "https://github.com/szabolcsf/dms-qcal-calendar/raw/main/screenshot.png",
-      "version": "1.0.1"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/i7pqq9irk5dzmqgb2qj836hx10fwmbl0-dms-qcal-calendar",
-    "rev": "2505d71d5df0c5b62ca2d746e029b57fc03fab52",
+    "path": "/nix/store/azciwnp48y1rrp3sci25a91bkss216bh-dms-qcal-calendar",
+    "rev": "271cc05fa3249540994a53a420ecfea6d19eeca0",
     "rootDir": "",
-    "sha256": "02viq521q2mxbx168172qxc8maix01v9iv1hhlddpsm5vxiacbz4",
+    "sha256": "0j4h57ppl9gqasc71592n6570av6k4gqf5pnqqm5wck7dh2jlsx7",
     "url": "https://github.com/szabolcsf/dms-qcal-calendar"
   },
   "qrGenerator": {
@@ -6149,12 +6186,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-06-09T17:00:06+07:00",
+    "date": "2026-06-11T09:52:54+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-+3p6MUGGhuxneBpxX7gEDLnb4cG0gGmuKL6H8HrGDEQ=",
+    "hash": "sha256-mYd0ymJNFlbtniAsEMp57vNYkzn0wpUamLCjRTfAHu0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6174,12 +6211,12 @@
       "name": "Quick Capture",
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.2.0"
+      "version": "2.3.0"
     },
-    "path": "/nix/store/ak9pcp0bvz88x8z0yw0101pni2rbwl9r-dms-quick-capture",
-    "rev": "d5ca2081128c3864d91156e4c86f6e22b98534b6",
+    "path": "/nix/store/3y2gaj1zbksp66y7c6qb4gyvwn5wj3hr-dms-quick-capture",
+    "rev": "959e97f121652ed9da747540a063d71a2d7234ab",
     "rootDir": "",
-    "sha256": "0i0cqrxg11xy52p6k05lq7hxpf8c0jw5yw8sg1kyr1l684qplypv",
+    "sha256": "1v8yq0vlb8xhk0d9bhpl769miwzfg7510b10kvnmc5jdcb5791wr",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -6842,6 +6879,42 @@
     "rootDir": "",
     "sha256": "0qh4pssfqc75br7wzxpj7wj9rnxn7y5w1wdyf6ws7wa80f6aayvi",
     "url": "https://github.com/cglavin50/dms-tailscale"
+  },
+  "takeABreak": {
+    "date": "2026-06-09T23:54:39+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-xHqloAwcahvfJtmnrPZBNS+jYX9hBz0GpRsEjBIv1zo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Loc Huynh",
+      "capabilities": [
+        "control-center",
+        "ipc"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "A gentle companion that reminds you to rest your eyes with short and long breaks.",
+      "distro": [
+        "any"
+      ],
+      "id": "takeABreak",
+      "name": "Take a Break",
+      "repo": "https://github.com/hthienloc/dms-take-a-break",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png",
+      "type": "daemon",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/5jn4v9811xcjqsffl89jby5fzp9hqv16-dms-take-a-break",
+    "rev": "d8d8fd4c3d5f6b9013cea41261071ef8a8ffa86d",
+    "rootDir": "",
+    "sha256": "0fnp5w98q10vll33s1v1gxhs6brm87var9yr4vginshw1jhaayn4",
+    "url": "https://github.com/hthienloc/dms-take-a-break"
   },
   "tasks": {
     "date": "2026-05-25T17:59:02+05:30",
@@ -7615,6 +7688,44 @@
     "sha256": "008v65iq4wzkf24dk6glsq31dqbqqqskwbz36bpxf9b4742rbabk",
     "url": "https://github.com/devnullvoid/dms-web-search"
   },
+  "webcamViewer": {
+    "date": "2026-06-06T13:32:17-06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-WDtFAfS5j307cmwdMmpinN5rR8dq5jSvS8IIBIwe2nM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "antikytheraton",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "vlc",
+        "mpv",
+        "ffmpeg"
+      ],
+      "description": "Shows RTSP camera streams via vlc/ffplay/mpv from the DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "webcamViewer",
+      "name": "Webcam Viewer",
+      "repo": "https://github.com/antikytheraton/DankWebcamViewer",
+      "screenshot": "https://github.com/antikytheraton/DankWebcamViewer/blob/main/assets/screenshot-plugin.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/a8b84i12jdj2ahji0l5dng1y2lmh1agx-DankWebcamViewer",
+    "rev": "e571b69211ed901ca3f42a09ccf15fec7ec899b4",
+    "rootDir": "",
+    "sha256": "0wys3s6082629fpk9rkaqx3npplwc9m347bcf8xpv3xryh0lafsq",
+    "url": "https://github.com/antikytheraton/DankWebcamViewer"
+  },
   "weeklyCalendar": {
     "date": "2026-05-13T23:54:25-06:00",
     "deepClone": false,
@@ -7725,12 +7836,12 @@
     "url": "https://github.com/rochacbruno/WorldClock"
   },
   "worldClockMulti": {
-    "date": "2026-02-25T14:04:23+08:00",
+    "date": "2026-06-11T09:02:14+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-MVarVualYNco9oc1TeMJovUcJGnbgjzf+MzmbBme36Q=",
+    "hash": "sha256-39iqKERTdo+Qcv/2LssFPO8mPji4FqYs12KkS0SjNtg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Szabolcs Fazekas",
@@ -7750,12 +7861,12 @@
       "name": "World Clock Multi",
       "repo": "https://github.com/szabolcsf/dms-world-clock-multi",
       "screenshot": "https://github.com/szabolcsf/dms-world-clock-multi/raw/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/rsdyf91ci50bc34ydvgf422kqwp5w32n-dms-world-clock-multi",
-    "rev": "eb35f2db7efb14b74c21c1e0c7a7cd55c8b7f8b6",
+    "path": "/nix/store/s4p9a72jcxas7q8kif9f8dy9i012syhs-dms-world-clock-multi",
+    "rev": "7229958de9781b20fb27f48944f0f77bf891bf22",
     "rootDir": "",
-    "sha256": "196zkqcnrrncz3gkr0nvd4j1rxd217ilsdc7yqldfq55wrbanmii",
+    "sha256": "1n1nld24p932swnac5mq70z2dvrw0p5jxxpzfa88yxjk8hlamn6z",
     "url": "https://github.com/szabolcsf/dms-world-clock-multi"
   },
   "zerotierManager": {
