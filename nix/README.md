@@ -18,7 +18,7 @@ Add the NixOS or Home Manager module:
 ```nix
 {
   # Same module for NixOS and Home Manager
-  imports = [ inputs.dms-plugin-registry.modules.default ];
+  imports = [ inputs.dms-plugin-registry.nixosModules.default ];
 }
 ```
 
