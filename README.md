@@ -6824,6 +6824,17 @@ Popular Tokyo Night color scheme with vibrant blues and purples, Night and Moon 
 
 
 
+### neofusion
+
+Theme inspired by the https://github.com/diegoulloao/neofusion.nvim
+
+- **Author:** antikytheraton
+- **ID:** `neofusion` **Version:** `1.0.0`
+
+![neofusion](themes/neofusion/preview.svg)
+
+
+
 ### nord
 
 nord theme
