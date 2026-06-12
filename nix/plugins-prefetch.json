@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-06-10T17:23:08-03:00",
+    "date": "2026-06-11T16:43:21-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-xvUyPmym4YiTj/tksAVkIokNEADYDFpA4q8lWlvUoHI=",
+    "hash": "sha256-l+V7IRAc7qu5Nc+PUjpiPu7KexdqwPxd0HRjHgiEBic=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -178,12 +178,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.2.4"
+      "version": "1.4.1"
     },
-    "path": "/nix/store/pvmgklphb4mcf4sdclp8qgv2npmy1jjy-AiOverviewControl",
-    "rev": "a6c5200e4a6c0d61d7721771f7bb225ab779f23d",
+    "path": "/nix/store/7bnpss88vsh1hg3zqv5a41470pz1y23l-AiOverviewControl",
+    "rev": "bfd9ff5d41fda6e432663c64bdf1640c7775c704",
     "rootDir": "",
-    "sha256": "0wm0sidml9dgw905l36q0080v292ch2v0r7viy9qiqd6dhz35xf6",
+    "sha256": "09q6hh41wqvls1fzrh3a2xxwmviyc8x553yg6nwspvhw20hpprcp",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "airQuality": {
@@ -6186,12 +6186,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-06-11T09:52:54+07:00",
+    "date": "2026-06-12T06:37:01+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-mYd0ymJNFlbtniAsEMp57vNYkzn0wpUamLCjRTfAHu0=",
+    "hash": "sha256-7kp1rhJFljBfYOQCn26jkqSiahPZoXAkVo2gCxd21mY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6213,10 +6213,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "2.3.0"
     },
-    "path": "/nix/store/3y2gaj1zbksp66y7c6qb4gyvwn5wj3hr-dms-quick-capture",
-    "rev": "959e97f121652ed9da747540a063d71a2d7234ab",
+    "path": "/nix/store/2cilgn9fs1qyz6815l2b2ibnm4gm8lmr-dms-quick-capture",
+    "rev": "7c3b6fb6ed1736f4ecece0c3c3f19838cc0a55e3",
     "rootDir": "",
-    "sha256": "1v8yq0vlb8xhk0d9bhpl769miwzfg7510b10kvnmc5jdcb5791wr",
+    "sha256": "0rnnfqbhp84daqj718fr2dma594jldp9y0p4c1gk15j52ap7ajpf",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -6881,12 +6881,12 @@
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
   "takeABreak": {
-    "date": "2026-06-09T23:54:39+07:00",
+    "date": "2026-06-11T22:42:33+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-xHqloAwcahvfJtmnrPZBNS+jYX9hBz0GpRsEjBIv1zo=",
+    "hash": "sha256-FsFYGD1vLP2XSORtI0a9/LnboKhKQcKp+w+OQ7gJFn8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6908,12 +6908,12 @@
       "repo": "https://github.com/hthienloc/dms-take-a-break",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png",
       "type": "daemon",
-      "version": "1.0.0"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/5jn4v9811xcjqsffl89jby5fzp9hqv16-dms-take-a-break",
-    "rev": "d8d8fd4c3d5f6b9013cea41261071ef8a8ffa86d",
+    "path": "/nix/store/n32jj6bqxbmgwiv7x6659kdwb6wrv5y1-dms-take-a-break",
+    "rev": "fed4e66e83c8e3617f3a9bcfe4e4a4ed560438bd",
     "rootDir": "",
-    "sha256": "0fnp5w98q10vll33s1v1gxhs6brm87var9yr4vginshw1jhaayn4",
+    "sha256": "0zqn16w473hgzflw4haam2hdpfgwpm326vg492bzsb3g7lc5ih8n",
     "url": "https://github.com/hthienloc/dms-take-a-break"
   },
   "tasks": {
