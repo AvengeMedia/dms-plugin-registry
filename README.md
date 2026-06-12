@@ -6856,3 +6856,14 @@ Retrobox dark theme with retro groove colors
 ![retrobox](themes/retrobox/preview.svg)
 
 
+
+### teenKOii
+
+Theme inspired by Teenage Engineering K.O. II
+
+- **Author:** antikytheraton
+- **ID:** `teenKOii` **Version:** `1.0.0`
+
+![teenKOii](themes/teenKOII/preview.svg)
+
+
