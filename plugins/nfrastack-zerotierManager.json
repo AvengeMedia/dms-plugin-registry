@@ -1,0 +1,13 @@
+{
+    "id": "zerotierManager",
+    "name": "ZeroTier Manager",
+    "capabilities": ["dankbar-widget"],
+    "category": "networking",
+    "repo": "https://github.com/nfrastack/dms-zerotierManager",
+    "author": "nfrastack",
+    "description": "Show ZeroTier network status in the bar and join/leave/route networks from a popout.",
+    "dependencies": ["zerotier-cli"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/nfrastack/dms-zerotierManager/refs/heads/main/img/overview.jpg"
+}
