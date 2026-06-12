@@ -6824,6 +6824,17 @@ Popular Tokyo Night color scheme with vibrant blues and purples, Night and Moon 
 
 
 
+### neofusion
+
+Theme inspired by the https://github.com/diegoulloao/neofusion.nvim
+
+- **Author:** antikytheraton
+- **ID:** `neofusion` **Version:** `1.0.0`
+
+![neofusion](themes/neofusion/preview.svg)
+
+
+
 ### nord
 
 nord theme
@@ -6843,5 +6854,16 @@ Retrobox dark theme with retro groove colors
 - **ID:** `retrobox` **Version:** `1.0.0`
 
 ![retrobox](themes/retrobox/preview.svg)
+
+
+
+### teenKOii
+
+Theme inspired by Teenage Engineering K.O. II
+
+- **Author:** antikytheraton
+- **ID:** `teenKOii` **Version:** `1.0.0`
+
+![teenKOii](themes/teenKOII/preview.svg)
 
 
