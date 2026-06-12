@@ -5,7 +5,7 @@
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-hand-mirror",
     "author": "Loc Huynh",
-    "description": "A cozy camera preview plugin inspired by the macOS Hand Mirror app. Supports digital zoom, pan, snapshot with countdown, and a pinnable floating window.",
+    "description": "Cozy camera preview with digital zoom, snapshots, and a pinnable floating window.",
     "dependencies": [],
     "compositors": ["any"],
     "distro": ["any"],
