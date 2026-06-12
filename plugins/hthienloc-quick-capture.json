@@ -6,7 +6,7 @@
     "repo": "https://github.com/hthienloc/dms-quick-capture",
     "author": "Loc Huynh",
     "description": "A quick screen capture utility featuring screenshot tools, drawing, and annotation.",
-    "dependencies": [],
+    "dependencies": ["dms-floaty", "wl-clipboard", "imagemagick", "img2pdf"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png"
