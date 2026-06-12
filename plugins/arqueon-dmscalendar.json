@@ -1,0 +1,13 @@
+{
+    "id": "dmsCalendar",
+    "name": "DMS Calendar",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/arqueon/dms-calendar",
+    "author": "arqueon",
+    "description": "A comprehensive calendar with Evolution Data Server integration, ported from Noctalia.",
+    "dependencies": ["python3"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/user-attachments/assets/cb3352b0-addb-43a4-a89c-b3ce011a29f0"
+}
