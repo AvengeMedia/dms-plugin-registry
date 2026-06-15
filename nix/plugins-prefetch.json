@@ -452,6 +452,46 @@
     "sha256": "0j3x4daxv4zxzpd78dqayl01qznzcfrm5284vmgffi847ncqwdnr",
     "url": "https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin"
   },
+  "antigravityUsage": {
+    "date": "2026-06-14T14:49:19+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-4s0O7PV80u6pCQqVB+Ooh3zLPKPAG42rDB6/3SyLozg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Feiko Wielsma",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [
+        "agy",
+        "jq",
+        "curl",
+        "secret-tool"
+      ],
+      "description": "Monitor Google Antigravity (agy) usage \u2014 the shared 5-hour and weekly limits for the Gemini and Claude/GPT model groups, with reset countdowns.",
+      "distro": [
+        "any"
+      ],
+      "id": "antigravityUsage",
+      "name": "Antigravity Usage",
+      "repo": "https://github.com/FeikoWielsma/dms-antigravity-cli",
+      "screenshot": "https://raw.githubusercontent.com/FeikoWielsma/dms-antigravity-cli/main/screenshot2.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/v6hdp11603pcf7bprbdgqfw5qcp5p9q2-dms-antigravity-cli",
+    "rev": "b10676be20679702a3c5941e638972c32858a604",
+    "rootDir": "",
+    "sha256": "0f53icndvgqy1jmqs6y0lcycnz47m3ihg58a16lyxlkwypn0xkg2",
+    "url": "https://github.com/FeikoWielsma/dms-antigravity-cli"
+  },
   "appLauncher": {
     "date": "2026-06-13T22:17:57+07:00",
     "deepClone": false,
@@ -2385,6 +2425,40 @@
     "rootDir": "",
     "sha256": "073jw5bp7xi1332g57xbd1303ikwa41lj3c7lgyip3c1ii0sqfi3",
     "url": "https://github.com/BrendonJL/dms-rss-widget"
+  },
+  "dankSchedPicker": {
+    "date": "2026-06-14T22:47:55+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-/PSgII2KLxa+6f2/K6R5rdjfOD5FSkcNeTzYrfHblXs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "SK-DEV-AI",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Switch CPU schedulers (sched-ext) and power profiles from the bar. Supports all 12 scx schedulers with descriptions and 5 power modes (Auto, Gaming, PowerSave, LowLatency, Server). Requires scx_loader.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankSchedPicker",
+      "name": "Scheduler Picker",
+      "repo": "https://github.com/SK-DEV-AI/dankSchedPicker",
+      "screenshot": "https://raw.githubusercontent.com/SK-DEV-AI/dankSchedPicker/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/73ml8vvymmk4irzjy33h0x1y2mpnihqy-dankSchedPicker",
+    "rev": "b136d8e99bce9610e1d4ec9f98d7e8a19621ce80",
+    "rootDir": "",
+    "sha256": "0ywmvgqsvn1wg46lfjj57qwdzn5dg6j2pgzxx6z1cbwailha1x7w",
+    "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSpotify": {
     "date": "2026-06-04T16:17:16+02:00",
