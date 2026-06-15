@@ -1435,6 +1435,35 @@ Assigned Jira Cloud tickets in the DankBar with quick actions — open, transiti
 
 
 
+#### [Mail Checker](https://github.com/Rocho-EL-Locho/dms-mail-checker)
+
+Unread mail checker for IMAP mailboxes: bar indicator with unread count, popout with message list, desktop notifications. Not a mail client, just a checker.
+
+
+
+- id: mailChecker
+- name: Mail Checker
+- author: Rocho
+- compositors: any
+- capabilities: dankbar-widget, control-center-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/Rocho-EL-Locho/dms-mail-checker/raw/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
