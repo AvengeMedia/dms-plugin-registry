@@ -362,7 +362,7 @@ Video wallpaper support using mpvpaper
 
 #### [Markets](https://github.com/TMS-Namespace/DMS-Markets-Plugin)
 
-Near-live market prices for currencies, stocks, and commodities with charts. Requires free key, no registration is required.
+Near-live market prices for currencies, stocks, and commodities with charts.
 
 <strong>requires DMS version</strong>: <em>>=1.2.0</em>
 
@@ -381,7 +381,7 @@ Near-live market prices for currencies, stocks, and commodities with charts. Req
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png)
+![screenshot](https://github.com/TMS-Namespace/DMS-Markets-Plugin/raw/main/Images/Dark-Popup.png)
 
 </details>
 
@@ -2519,7 +2519,7 @@ A guided breathing exercise tool for mindfulness and relaxation.
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: 
+- dependencies: mpv, socat
 - distro: any
 
 
@@ -3976,7 +3976,7 @@ A folder viewer widget that displays and manages files and directories on your s
 - author: Loc Huynh
 - compositors: any
 - capabilities: desktop-widget
-- dependencies: wl-clipboard, glib2
+- dependencies: wl-clipboard, glib2, dms-floaty
 - distro: any
 
 
@@ -4268,6 +4268,35 @@ Quick screenshot menu for grimblast with multiple capture modes
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/TaylanTatli/dms-plugins/refs/heads/master/grimblast/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Hand Mirror](https://github.com/hthienloc/dms-hand-mirror)
+
+Cozy camera preview with digital zoom, snapshots, and a pinnable floating window.
+
+
+
+- id: handMirror
+- name: Hand Mirror
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-hand-mirror/main/screenshot.png)
 
 </details>
 
@@ -4812,6 +4841,35 @@ Media controls with full bar volume scroll. Disables workspace scroll.
 
 
 
+#### [Media Downloader](https://github.com/hthienloc/dms-media-downloader)
+
+Download audio and video from web links using yt-dlp
+
+
+
+- id: mediaDownloader
+- name: Media Downloader
+- author: Loc Huynh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: yt-dlp, ffmpeg
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-media-downloader/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Media Player](https://github.com/arrifat346afs/mediaPlayer)
 
 A desktop media player widget
@@ -5319,14 +5377,14 @@ Generate and scan QR codes from clipboard text, manual input, or dropped images.
 
 A quick screen capture utility featuring screenshot tools, drawing, and annotation.
 
-
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: quickCapture
 - name: Quick Capture
 - author: Loc Huynh
 - compositors: any
 - capabilities: daemon
-- dependencies: 
+- dependencies: dms-floaty, wl-clipboard, imagemagick, img2pdf
 - distro: any
 
 
@@ -6121,6 +6179,35 @@ Monitor and manage your system trash directly from your status bar. Features rea
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/kerojiang/dms-transBin/refs/heads/main/images/bin-full.png)
+
+</details>
+
+
+
+
+
+#### [Typing Sounds](https://github.com/hthienloc/dms-typing-sounds)
+
+Play mechanical keyboard sounds as you type
+
+
+
+- id: typingSounds
+- name: Typing Sounds
+- author: Loc Huynh
+- compositors: any
+- capabilities: daemon
+- dependencies: evtest, libinput, ffmpeg
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-typing-sounds/main/screenshot.png)
 
 </details>
 
