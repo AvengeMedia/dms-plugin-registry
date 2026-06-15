@@ -4512,6 +4512,35 @@ Kubernetes plugin for DankBar
 
 
 
+#### [Live Lyrics](https://gitlab.com/noahpolimon/dms-plugin-livelyrics)
+
+Display synced lyrics on your DankBar (Music Lyrics fork)
+
+
+
+- id: liveLyrics
+- name: Live Lyrics
+- author: noahpolimon
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://gitlab.com/noahpolimon/dms-plugin-livelyrics/-/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [LiveChart Schedule](https://github.com/JDKamalakar/DMS-LiveChart.me)
 
 Displays LiveChart anime schedule data pulled from a local browser session.
