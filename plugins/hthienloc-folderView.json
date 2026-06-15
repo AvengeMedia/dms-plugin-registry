@@ -6,7 +6,7 @@
     "repo": "https://github.com/hthienloc/dms-folder-view",
     "author": "Loc Huynh",
     "description": "A folder viewer widget that displays and manages files and directories on your screen.",
-    "dependencies": ["wl-clipboard", "glib2"],
+    "dependencies": ["wl-clipboard", "glib2", "dms-floaty"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-folder-view/main/screenshot.png"

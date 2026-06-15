@@ -1,0 +1,13 @@
+{
+    "id": "typingSounds",
+    "name": "Typing Sounds",
+    "capabilities": ["daemon"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-typing-sounds",
+    "author": "Loc Huynh",
+    "description": "Play mechanical keyboard sounds as you type",
+    "dependencies": ["evtest", "libinput", "ffmpeg"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-typing-sounds/main/screenshot.png"
+}
