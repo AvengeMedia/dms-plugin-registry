@@ -3226,6 +3226,42 @@
     "sha256": "00p33ha0yr87dxw9w30wfsd5v2q3qbcfx9j8b1ax5lqxk88kwqny",
     "url": "https://github.com/Francisdelca/dms-agent"
   },
+  "dmsCalendar": {
+    "date": "2026-06-12T11:58:04-06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-L5mpTOu5yyN78Io/9pRVc/1tI8hO/1r8M8bBPtjKuTw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "arqueon",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3"
+      ],
+      "description": "A comprehensive calendar with Evolution Data Server integration, ported from Noctalia.",
+      "distro": [
+        "any"
+      ],
+      "id": "dmsCalendar",
+      "name": "DMS Calendar",
+      "repo": "https://github.com/arqueon/dms-calendar",
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-calendar/main/assets/screenshot.png",
+      "version": "2.0.0"
+    },
+    "path": "/nix/store/ragcq6arrl4g3c6rilfiyp4l0rjf971y-dms-calendar",
+    "rev": "aa2c02f0652aea24481a147f31e7a6cc6dc704cb",
+    "rootDir": "",
+    "sha256": "0g5rrbc3xhf66gy5mzsfr0invzbkanagcgway1xj7jxrxd6ak69g",
+    "url": "https://github.com/arqueon/dms-calendar"
+  },
   "dmsDesktopCountdown": {
     "date": "2026-05-31T14:57:40-04:00",
     "deepClone": false,
@@ -3648,6 +3684,40 @@
     "rootDir": "",
     "sha256": "12m0l3xmxl70hbm444xc7qc967r1bg5vkzgbp0gsdy0c0giin1yi",
     "url": "https://github.com/MetalCar/dms-dooit-widget"
+  },
+  "dropdownMenu": {
+    "date": "2026-06-11T20:52:14-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-JsSMisz3PVioKZLO7eT/T1xNOEsyVtoOzhq/MvSx9yI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "rdannenbring",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Configurable bar button that opens a dropdown menu of actions, plugin toggles, popouts, and IPC commands",
+      "distro": [
+        "any"
+      ],
+      "id": "dropdownMenu",
+      "name": "Dropdown Menu",
+      "repo": "https://github.com/rdannenbring/dropdown-menu",
+      "screenshot": "https://raw.githubusercontent.com/rdannenbring/dropdown-menu/main/assets/dropdown-menu.png",
+      "version": "0.5.0"
+    },
+    "path": "/nix/store/cj5ls1idzdlk0i4zb78nkw02pnv52ncr-dropdown-menu",
+    "rev": "219cdbd08c57c168dddd3cf9951755eea05b0562",
+    "rootDir": "",
+    "sha256": "08ppn7s35gqsrq7dlmij9cw4sp2gzzjfvklj56l5hggprj58ri16",
+    "url": "https://github.com/rdannenbring/dropdown-menu"
   },
   "easyEffects": {
     "date": "2025-12-15T09:52:12+01:00",
@@ -7836,6 +7906,40 @@
     "rootDir": "",
     "sha256": "0g5rrbc3xhf66gy5mzsfr0invzbkanagcgway1xj7jxrxd6ak69g",
     "url": "https://github.com/arqueon/dms-calendar"
+  },
+  "widgetGroup": {
+    "date": "2026-06-11T20:52:15-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-KAJB7afcoGy6b/wRBdnd3Le+snqG4MsXrrP8efircm8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "rdannenbring",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "One bar button that expands to reveal a group of widgets inline, each with its own live pill and popout",
+      "distro": [
+        "any"
+      ],
+      "id": "widgetGroup",
+      "name": "Widget Group",
+      "repo": "https://github.com/rdannenbring/widget-group",
+      "screenshot": "https://raw.githubusercontent.com/rdannenbring/widget-group/main/assets/group-expanded.png",
+      "version": "0.5.0"
+    },
+    "path": "/nix/store/0vxsd30jzlh6zlwvznbkkhvs6sn4lvc5-widget-group",
+    "rev": "24e6f254a712832132fe992f0e228161c9d9391a",
+    "rootDir": "",
+    "sha256": "0vvjmgw7kz5kmqbwpq46garbxdywvpcha4gwdyx6r86wlznl20i8",
+    "url": "https://github.com/rdannenbring/widget-group"
   },
   "wienerLinien": {
     "date": "2026-06-08T17:24:21+02:00",
