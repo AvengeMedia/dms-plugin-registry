@@ -6714,6 +6714,17 @@ Accessible themes conforming to the highest color-contrast standard (WCAG AAA)
 
 
 
+### Oxeo
+
+Oxeo theme DMS port. https://github.com/specialfish9/oxeo-nvim
+
+- **Author:** specialfish9
+- **ID:** `oxeo` **Version:** `1.0.0`
+
+![Oxeo](themes/oxeo/preview.svg)
+
+
+
 ### Oxocarbon
 
 High contrast accessible colorscheme inspired by IBM Carbon
