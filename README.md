@@ -550,6 +550,35 @@ Display the current Air Quality Index (AQI) on the bar with detailed pollutant b
 
 
 
+#### [Antigravity Usage](https://github.com/FeikoWielsma/dms-antigravity-cli)
+
+Monitor Google Antigravity (agy) usage — the shared 5-hour and weekly limits for the Gemini and Claude/GPT model groups, with reset countdowns.
+
+
+
+- id: antigravityUsage
+- name: Antigravity Usage
+- author: Feiko Wielsma
+- compositors: niri, hyprland
+- capabilities: dankbar-widget
+- dependencies: agy, jq, curl, secret-tool
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/FeikoWielsma/dms-antigravity-cli/main/screenshot2.png)
+
+</details>
+
+
+
+
+
 #### [Audio Inhibit](https://github.com/insecure/dms-audio-inhibit)
 
 Enables idle inhibitor if audio is playing.
