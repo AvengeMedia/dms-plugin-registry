@@ -868,7 +868,10 @@
       "compositors": [
         "any"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "mpv",
+        "socat"
+      ],
       "description": "A guided breathing exercise tool for mindfulness and relaxation.",
       "distro": [
         "any"
@@ -3528,6 +3531,40 @@
     "sha256": "1hyr6rrhfvrfk93p9cbm6iprnzfx0zc4f2p5p6m9jxihpg9y8p0c",
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
+  "dmsconky": {
+    "date": "2026-06-14T15:12:00+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-rDMKwmovcZxciHqmC7iB3DnvExe7358E3Zfz5u8Km6w=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "suruibin",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Classic Conky-style System Monitor + App Launcher",
+      "distro": [
+        "any"
+      ],
+      "id": "dmsconky",
+      "name": "DMS Conky",
+      "repo": "https://github.com/suruibin/dms-conky",
+      "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/w5qglbq43gyx2l5d73h7gx1dr3yv1l6b-dms-conky",
+    "rev": "fd70db6ef18f309b65fae51e941fd0b68fb267eb",
+    "rootDir": "",
+    "sha256": "1b4v1bpydwwpvl29zpxv2w9yyffwh6w0p9ksi1f9qw9gdb10lcxc",
+    "url": "https://github.com/suruibin/dms-conky"
+  },
   "dnsSwitcher": {
     "date": "2026-06-10T00:38:17+05:30",
     "deepClone": false,
@@ -3992,7 +4029,8 @@
       ],
       "dependencies": [
         "wl-clipboard",
-        "glib2"
+        "glib2",
+        "dms-floaty"
       ],
       "description": "A folder viewer widget that displays and manages files and directories on your screen.",
       "distro": [
@@ -4463,6 +4501,40 @@
     "rootDir": "",
     "sha256": "16xrvih3v17qyi88lizhjs2lqcvnbpnxfrhzg9bm16la3n65y3h8",
     "url": "https://github.com/TaylanTatli/dms-plugins"
+  },
+  "handMirror": {
+    "date": "2026-06-14T21:27:09+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-p7JbcyldHi+nhoEddjbodtW0IaOojoHP7SenDFaHrxQ=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Loc Huynh",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Cozy camera preview with digital zoom, snapshots, and a pinnable floating window.",
+      "distro": [
+        "any"
+      ],
+      "id": "handMirror",
+      "name": "Hand Mirror",
+      "repo": "https://github.com/hthienloc/dms-hand-mirror",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hand-mirror/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/5va5h6wd6x1hnj9xaa56d1fd97zig895-dms-hand-mirror",
+    "rev": "97213b1735016c6d4c9e15f41c2df5daabe568a2",
+    "rootDir": "",
+    "sha256": "055ghxb0r9r7xp7q33m8lchv9mbnx0v7c7c1hskjy7jx55rmpcm7",
+    "url": "https://github.com/hthienloc/dms-hand-mirror"
   },
   "hiddenBar": {
     "date": "2026-06-14T01:58:22+07:00",
@@ -5217,7 +5289,7 @@
       "dependencies": [
         "curl"
       ],
-      "description": "Near-live market prices for currencies, stocks, and commodities with charts. Requires free key, no registration is required.",
+      "description": "Near-live market prices for currencies, stocks, and commodities with charts.",
       "distro": [
         "any"
       ],
@@ -5232,7 +5304,7 @@
       ],
       "repo": "https://github.com/TMS-Namespace/DMS-Markets-Plugin",
       "requires_dms": ">=1.2.0",
-      "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png",
+      "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/raw/main/Images/Dark-Popup.png",
       "settings": "./QML/Settings.qml",
       "type": "widget",
       "version": "1.0.3"
@@ -5311,6 +5383,43 @@
     "rootDir": "",
     "sha256": "1ajf9acwkjksihkwhynk60ba7210yhqplxd4f2lh2rxr4fy3y9rn",
     "url": "https://github.com/lpv11/dms-media-controls-plus"
+  },
+  "mediaDownloader": {
+    "date": "2026-06-15T03:00:27+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-rWoVqqXbXeJjiTrhUtnQTev1tDrVMJyupUnXTfSXm7U=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Loc Huynh",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "yt-dlp",
+        "ffmpeg"
+      ],
+      "description": "Download audio and video from web links using yt-dlp",
+      "distro": [
+        "any"
+      ],
+      "id": "mediaDownloader",
+      "name": "Media Downloader",
+      "repo": "https://github.com/hthienloc/dms-media-downloader",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-media-downloader/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/hcssm8al9jaa2z4ma9hy1clma6kz1ysc-dms-media-downloader",
+    "rev": "790862189afd41a40a8cf441665238084de3cc67",
+    "rootDir": "",
+    "sha256": "1dcvjzs4vms9lnp9qc6m7asgbssds3cm5q9si5iy4pfvlnm1asmd",
+    "url": "https://github.com/hthienloc/dms-media-downloader"
   },
   "mediaFrame": {
     "date": "2026-05-07T00:23:14Z",
@@ -6345,7 +6454,12 @@
       "compositors": [
         "any"
       ],
-      "dependencies": [],
+      "dependencies": [
+        "dms-floaty",
+        "wl-clipboard",
+        "imagemagick",
+        "img2pdf"
+      ],
       "description": "A quick screen capture utility featuring screenshot tools, drawing, and annotation.",
       "distro": [
         "any"
@@ -6353,6 +6467,7 @@
       "id": "quickCapture",
       "name": "Quick Capture",
       "repo": "https://github.com/hthienloc/dms-quick-capture",
+      "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "2.4.0"
     },
@@ -7350,6 +7465,44 @@
     "rootDir": "",
     "sha256": "0zijg3jawf991h80gwwdq2xr332r1fdywainn3xr3zk1yw0i843i",
     "url": "https://github.com/kerojiang/dms-transBin"
+  },
+  "typingSounds": {
+    "date": "2026-06-14T22:52:32+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-IEmvG7e8Ea2cxIdXlGt9BScAfvfKdqMR+zNTk+vK9nA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Loc Huynh",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "evtest",
+        "libinput",
+        "ffmpeg"
+      ],
+      "description": "Play mechanical keyboard sounds as you type",
+      "distro": [
+        "any"
+      ],
+      "id": "typingSounds",
+      "name": "Typing Sounds",
+      "repo": "https://github.com/hthienloc/dms-typing-sounds",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-typing-sounds/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/8d15zbh13arjiaa9gh98v060mvamwdax-dms-typing-sounds",
+    "rev": "f983da5b62aff4601b10c274d900e083b12acdf2",
+    "rootDir": "",
+    "sha256": "0w7nrbmr6lrkzc8s6xnayxz009q5gmmr8mw7qjfas4dwnwdsyj90",
+    "url": "https://github.com/hthienloc/dms-typing-sounds"
   },
   "unifiedTaskbar": {
     "date": "2026-06-11T23:09:12-04:00",
