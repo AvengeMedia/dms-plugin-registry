@@ -4947,6 +4947,41 @@
     "sha256": "0hyh087lxp8v4c3j13n6nq8fjaz43c8d58930nwhhk5i396h6bcf",
     "url": "https://github.com/JDKamalakar/DMS-LiveChart.me"
   },
+  "liveLyrics": {
+    "date": "2026-06-13T09:13:52+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-nO8yMf2Ys1jYom15tgFqBU0aodkpKKDZPFk71rBFjoc=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "noahpolimon",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Display synced lyrics on your DankBar (Music Lyrics fork)",
+      "distro": [
+        "any"
+      ],
+      "id": "liveLyrics",
+      "name": "Live Lyrics",
+      "repo": "https://gitlab.com/noahpolimon/dms-plugin-livelyrics",
+      "screenshot": "https://gitlab.com/noahpolimon/dms-plugin-livelyrics/-/raw/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/7sb028i19nkn76nlbysvjhl3j52ydw98-dms-plugin-livelyrics",
+    "rev": "143e7b8d64f1ab49b18175f2634c157a83029f36",
+    "rootDir": "",
+    "sha256": "11wf8nqdcfsr7kcs0a19v6hilk85d80vcybdlbc5icwqzlqk5vww",
+    "url": "https://gitlab.com/noahpolimon/dms-plugin-livelyrics"
+  },
   "lutrisLauncher": {
     "date": "2026-06-05T23:33:29+07:00",
     "deepClone": false,
