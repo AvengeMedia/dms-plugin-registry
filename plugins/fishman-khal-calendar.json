@@ -8,5 +8,6 @@
     "description": "Calendar widget using khal and vdirsyncer for CalDAV sync. Create, edit, and delete events from the bar. Middle-click events to open URLs. Desktop notifications for upcoming events.",
     "dependencies": ["khal", "vdirsyncer"],
     "compositors": ["any"],
-    "distro": ["any"]
+    "distro": ["any"],
+    "screenshot": "https://github.com/fishman/dms-khal-calendar/raw/main/screenshot.png"
 }
