@@ -2031,6 +2031,35 @@ Check and manage DNF and Flatpak package updates from the bar.
 
 
 
+#### [Scheduler Picker](https://github.com/SK-DEV-AI/dankSchedPicker)
+
+Switch CPU schedulers (sched-ext) and power profiles from the bar. Supports all 12 scx schedulers with descriptions and 5 power modes (Auto, Gaming, PowerSave, LowLatency, Server). Requires scx_loader.
+
+
+
+- id: dankSchedPicker
+- name: Scheduler Picker
+- author: SK-DEV-AI
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/SK-DEV-AI/dankSchedPicker/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [TLP Control](https://github.com/nfrastack/dms-tlpControl)
 
 Battery health monitor + TLP charge threshold/mode controls.
