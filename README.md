@@ -2905,6 +2905,35 @@ AI desktop assistant powered by Claude Code. Floating chat panel for controlling
 
 
 
+#### [DMS Calendar](https://github.com/arqueon/dms-calendar)
+
+A comprehensive calendar with Evolution Data Server integration, ported from Noctalia.
+
+
+
+- id: dmsCalendar
+- name: DMS Calendar
+- author: arqueon
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-calendar/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [DMS Desktop Countdown](https://github.com/nfoert/dms-desktop-countdown)
 
 Allows creating desktop widget countdowns with progress, view options, and the ability to only count certain days in a week
