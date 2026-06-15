@@ -3728,6 +3728,35 @@ This plugin shows todays task and the oldest five without due date from dooit.
 
 
 
+#### [Dropdown Menu](https://github.com/rdannenbring/dropdown-menu)
+
+Configurable bar button that opens a dropdown menu of actions, plugin toggles, popouts, and IPC commands
+
+
+
+- id: dropdownMenu
+- name: Dropdown Menu
+- author: rdannenbring
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rdannenbring/dropdown-menu/main/assets/dropdown-menu.png)
+
+</details>
+
+
+
+
+
 #### [Easy Effects Profile Switcher](https://github.com/jonkristian/dms-easyeffects)
 
 Quick switch between Easy Effects audio profiles
@@ -6363,6 +6392,35 @@ A Material 3 weekly calendar with five views (Week, 4 Days, Day, Agenda, Month),
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/arqueon/dms-calendar/master/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Widget Group](https://github.com/rdannenbring/widget-group)
+
+One bar button that expands to reveal a group of widgets inline, each with its own live pill and popout
+
+
+
+- id: widgetGroup
+- name: Widget Group
+- author: rdannenbring
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rdannenbring/widget-group/main/assets/group-expanded.png)
 
 </details>
 
