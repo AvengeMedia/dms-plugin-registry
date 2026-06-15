@@ -2934,6 +2934,35 @@ A comprehensive calendar with Evolution Data Server integration, ported from Noc
 
 
 
+#### [DMS Conky](https://github.com/suruibin/dms-conky)
+
+Classic Conky-style System Monitor + App Launcher
+
+
+
+- id: dmsconky
+- name: DMS Conky
+- author: suruibin
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png)
+
+</details>
+
+
+
+
+
 #### [DMS Desktop Countdown](https://github.com/nfoert/dms-desktop-countdown)
 
 Allows creating desktop widget countdowns with progress, view options, and the ability to only count certain days in a week
