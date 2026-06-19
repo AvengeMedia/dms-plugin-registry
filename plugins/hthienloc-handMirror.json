@@ -1,0 +1,13 @@
+{
+    "id": "handMirror",
+    "name": "Hand Mirror",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-hand-mirror",
+    "author": "Loc Huynh",
+    "description": "Cozy camera preview with digital zoom, snapshots, and a pinnable floating window.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hand-mirror/main/screenshot.png"
+}

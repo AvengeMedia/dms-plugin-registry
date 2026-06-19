@@ -1,0 +1,13 @@
+{
+  "id": "webcamViewer",
+  "name": "Webcam Viewer",
+  "capabilities": ["dankbar-widget"],
+  "category": "monitoring",
+  "repo": "https://github.com/antikytheraton/DankWebcamViewer",
+  "author": "antikytheraton",
+  "description": "Shows RTSP camera streams via vlc/ffplay/mpv from the DankBar",
+  "dependencies": ["vlc", "mpv", "ffmpeg"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://github.com/antikytheraton/DankWebcamViewer/blob/main/assets/screenshot-plugin.png"
+}

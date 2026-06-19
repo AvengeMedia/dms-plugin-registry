@@ -5,8 +5,8 @@
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-qr-generator",
     "author": "Loc Huynh",
-    "description": "Generate QR codes from clipboard text or manual input.",
-    "dependencies": ["qrencode", "wl-clipboard"],
+    "description": "Generate and scan QR codes from clipboard text, manual input, or dropped images.",
+    "dependencies": ["qrencode", "wl-clipboard", "zbar"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-qr-generator/master/screenshot.png"
