@@ -1,0 +1,29 @@
+{
+    "id": "dmsWhisper",
+    "name": "DMS Whisper",
+    "capabilities": [
+        "dankbar-widget",
+        "ipc"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/arqueon/dms-whisper",
+    "path": "",
+    "author": "arqueon",
+    "description": "Voice recognition using Whisper. Copies to clipboard and saves a local backup.",
+    "dependencies": [
+        "wl-clipboard",
+        "ffmpeg",
+        "curl",
+        "jq"
+    ],
+    "compositors": [
+        "niri",
+        "hyprland",
+        "sway",
+        "wayfire"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": ""
+}
