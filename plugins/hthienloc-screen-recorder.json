@@ -1,0 +1,26 @@
+{
+    "id": "screenRecorder",
+    "name": "Screen Recorder",
+    "capabilities": [
+        "daemon",
+        "control-center",
+        "ipc"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-screen-recorder",
+    "author": "Loc Huynh",
+    "description": "GPU-accelerated Wayland screen recorder with real-time file size estimation, multi-monitor support, and smart notifications.",
+    "dependencies": [
+        "gpu-screen-recorder",
+        "ffmpeg",
+        "libnotify"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "requires_dms": ">=1.5.0",
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-screen-recorder/master/screenshot.png"
+}
