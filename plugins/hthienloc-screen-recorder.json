@@ -9,7 +9,7 @@
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-screen-recorder",
     "author": "Loc Huynh",
-    "description": "GPU-accelerated Wayland screen recorder with real-time file size estimation, multi-monitor support, and smart notifications.",
+    "description": "GPU-accelerated screen recorder with multi-monitor support and smart notifications.",
     "dependencies": [
         "gpu-screen-recorder",
         "ffmpeg",
