@@ -1,0 +1,13 @@
+{
+  "id": "openTrackerBar",
+  "name": "OpenTrackerBar",
+  "capabilities": ["dankbar-widget"],
+  "category": "monitoring",
+  "repo": "https://github.com/wsmajt/OpenTrackerBar",
+  "author": "smajt",
+  "description": "Track AI usage limits via opentracker CLI",
+  "dependencies": ["opentracker-cli"],
+  "compositors": ["niri", "hyprland", "sway", "river"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/wsmajt/OpenTrackerBar/refs/heads/main/Screenshot.png"
+}

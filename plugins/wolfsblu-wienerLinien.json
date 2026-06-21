@@ -1,0 +1,13 @@
+{
+    "id": "wienerLinien",
+    "name": "Wiener Linien",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/wolfsblu/dms-wiener-linien",
+    "author": "Lukas Wolfsberger",
+    "description": "Track departure times of Wiener Linien public transit",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/wolfsblu/dms-wiener-linien/refs/heads/main/screenshot.png"
+}

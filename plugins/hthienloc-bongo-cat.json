@@ -1,0 +1,13 @@
+{
+    "id": "bongoCat",
+    "name": "Bongo Cat",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-bongo-cat",
+    "author": "Loc Huynh",
+    "description": "A reactive animated cat that taps along with your keyboard input.",
+    "dependencies": ["evtest", "libinput"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-bongo-cat/main/screenshot.png"
+}

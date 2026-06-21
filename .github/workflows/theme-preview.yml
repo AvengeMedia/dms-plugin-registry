@@ -16,22 +16,22 @@ jobs:
 
     steps:
       - name: Checkout base branch
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.base.sha }}
           path: base
 
       - name: Checkout PR head
-        uses: actions/checkout@v4
+        uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           path: pr
 
-      - name: Install dependencies
-        run: sudo apt-get install -y librsvg2-bin
-
       - name: Find changed themes and generate previews
         id: preview
+        env:
+          UPLOAD_TOKEN: ${{ secrets.UPLOAD_TOKEN }}
+          PR_NUMBER: ${{ github.event.pull_request.number }}
         run: |
           cd pr
 
@@ -78,12 +78,18 @@ jobs:
             echo "" >> ../comment.md
 
             if [ -f "${theme_dir}/preview.svg" ]; then
-              rsvg-convert "${theme_dir}/preview.svg" -o "/tmp/${theme_slug}.png"
+              upload_name="pr-${PR_NUMBER}-${theme_slug}.svg"
+              upload_url="https://api.danklinux.com/uploads/${upload_name}"
 
-              img_url=$(curl -s -F "reqtype=fileupload" -F "fileToUpload=@/tmp/${theme_slug}.png" https://catbox.moe/user/api.php)
-
-              if [ -n "$img_url" ] && [[ "$img_url" == http* ]]; then
-                echo "![${name}](${img_url})" >> ../comment.md
+              if curl --fail -sS -X PUT "$upload_url" \
+                  -H "Authorization: Bearer ${UPLOAD_TOKEN}" \
+                  -H "Content-Type: image/svg+xml" \
+                  --data-binary @"${theme_dir}/preview.svg" \
+                  -o /dev/null; then
+                echo "![${name}](${upload_url})" >> ../comment.md
+                echo "" >> ../comment.md
+              else
+                echo "_Preview upload failed_" >> ../comment.md
                 echo "" >> ../comment.md
               fi
             fi
