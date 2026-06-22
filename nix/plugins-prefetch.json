@@ -3606,12 +3606,12 @@
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dmsconky": {
-    "date": "2026-06-21T02:10:23+08:00",
+    "date": "2026-06-21T22:52:06+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-1ShnQ9rHYlg6SaM4ujsz0ICdnGyg+H1B1uaFU3oWB1Q=",
+    "hash": "sha256-XPvp8QkoVwMETMzeiYihLHFT2FGHc2lVfkESLmYrfCs=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3631,12 +3631,12 @@
       "name": "DMS Conky",
       "repo": "https://github.com/suruibin/dms-conky",
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
-    "path": "/nix/store/3p96vd4fkvfk8wvllhcy6njq0n9difpb-dms-conky",
-    "rev": "887e9c4fdcf10a952a0957af1965f4e4fac69709",
+    "path": "/nix/store/abxmnijwffqy4ggqqnmpz6l2i8ys0im7-dms-conky",
+    "rev": "70e4ae57c97f1550dd139ad12ee30cf9e566d9ad",
     "rootDir": "",
-    "sha256": "0m072rx571g6sr0pvy50djf9v06h6cxvlf5394x5hqn7v91nfa6m",
+    "sha256": "0avw5dk2w4j1granjww7a7c56w9cl648kpnc9h206mr817qykysw",
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dnsSwitcher": {
@@ -7579,12 +7579,12 @@
     "url": "https://github.com/hthienloc/dms-typing-sounds"
   },
   "unifiedTaskbar": {
-    "date": "2026-06-17T02:22:35-04:00",
+    "date": "2026-06-20T22:58:11-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-I/rnqJKlfKETCQaPQoN+H4m9FzgHlhMIFFqdRnWEd00=",
+    "hash": "sha256-vvjDdX0F0R9zD20Ii/Tw6Gh0Or+JlwtPQMN8tMXCxUQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "Joshua Landau",
@@ -7606,10 +7606,10 @@
       "screenshot": "https://raw.githubusercontent.com/jslandau/dms-unified-taskbar/master/screenshot.png",
       "version": "1.1.1"
     },
-    "path": "/nix/store/i5sg2fkxqp6x75b3risyc8510l87yfzp-dms-unified-taskbar",
-    "rev": "352c3aa876a283605c035469143430435e6fdbb1",
+    "path": "/nix/store/xzclq840rq5wx5b6vwykbz7sa7bb5ipa-dms-unified-taskbar",
+    "rev": "0dd45d5c6b3f217594a2bd361527efae71b78378",
     "rootDir": "",
-    "sha256": "0kbphisld7as2h4175h770bvv28zgs1l53q6149s2z55jalfgyi3",
+    "sha256": "0i65qb2v8z63817hp5w9pwx78s78y3s8n23d1xrizl85gmsw7y5y",
     "url": "https://github.com/jslandau/dms-unified-taskbar"
   },
   "uptimeBar": {
