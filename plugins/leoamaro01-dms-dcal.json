@@ -1,0 +1,12 @@
+{
+    "id": "dcalUpcoming",
+    "name": "Dcal Upcoming Event",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/leoamaro01/dms-dcal",
+    "author": "leoamaro01",
+    "description": "Shows your next calendar event from dcal with a live countdown timer. Displays event name and time remaining, with Now indicator for current events. Click to toggle dcal UI.",
+    "dependencies": ["dcal", "jq"],
+    "compositors": ["any"],
+    "distro": ["any"]
+}
