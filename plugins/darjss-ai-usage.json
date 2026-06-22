@@ -8,5 +8,6 @@
     "description": "Shows Codex and Claude Code usage limits in the DankBar",
     "dependencies": ["sqlite3"],
     "compositors": ["any"],
-    "distro": ["any"]
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/darjss/dms-bar-usage/main/screenshot.png"
 }
