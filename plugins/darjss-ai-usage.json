@@ -1,0 +1,12 @@
+{
+    "id": "aiUsage",
+    "name": "AI Usage",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/darjss/dms-bar-usage",
+    "author": "darjs",
+    "description": "Shows Codex and Claude Code usage limits in the DankBar",
+    "dependencies": ["sqlite3"],
+    "compositors": ["any"],
+    "distro": ["any"]
+}
