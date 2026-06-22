@@ -1,0 +1,13 @@
+{
+    "id": "mailReader",
+    "name": "Mail Reader",
+    "capabilities": ["dankbar-widget", "control-center-widget"],
+    "category": "productivity",
+    "repo": "https://github.com/smithyyang/dms-mail-reader",
+    "author": "youngshine",
+    "description": "IMAP mail reader with built-in email content viewer. Read emails directly inside the shell without opening a separate mail client. Forked from Rocho's mailChecker.",
+    "dependencies": ["python3"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-mail-reader/main/assets/screenshot.png"
+}
