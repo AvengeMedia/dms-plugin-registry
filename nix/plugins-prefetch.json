@@ -3687,12 +3687,12 @@
     "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
-    "date": "2026-06-24T00:08:00+08:00",
+    "date": "2026-06-24T00:31:25+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Wz55y5909muDRwXz/g4/2pTlj4ZrUS0vW8YJN1A8M34=",
+    "hash": "sha256-O26PVI0hnVa5XyZI+z2Qkani5EJnGd0RjUhJucIXpa8=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3714,19 +3714,19 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
       "version": "1.0.2"
     },
-    "path": "/nix/store/n911jmm1hbfrrl0j0xg8x9c14szn9lnf-dms-conky",
-    "rev": "1d4932d533ba66eb99f0834a48240499b9b9a470",
+    "path": "/nix/store/1ady6a46ybn6fdljbqjaqabxx7aq7lck-dms-conky",
+    "rev": "2e2c8c86d29fb9df9852b6912f4113f4a60dc549",
     "rootDir": "",
-    "sha256": "0zik7i83f2f6bcpjslbbhs7yb56s7w7gxwq58y1npxklkz5pjgjv",
+    "sha256": "1bx52z1bjja8il8xs6b78bjf5acij0yznj16bywmd791ima8yviv",
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
-    "date": "2026-06-23T22:18:30+08:00",
+    "date": "2026-06-24T00:30:18+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-hdV28B4kXtZKIb9zAUvo/L9c6++f/3hKHBH+zdJRAkk=",
+    "hash": "sha256-FWxbOlnxVhw2uVKBFdIFTwyL1z46sUfxJuTNMYp0+ms=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3748,10 +3748,10 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
       "version": "1.0.2"
     },
-    "path": "/nix/store/vbaqyr6wpzv0a8kwlyxx6mqq31w89j9i-dms-filemanager",
-    "rev": "ae38a368011b53f81c0a20c04ff655e96c23f9c5",
+    "path": "/nix/store/g2dpb3nb8mck4gqgx63w9rxlg45z6hvh-dms-filemanager",
+    "rev": "1fd8552dd4e506ff488d19610983028f812b45b6",
     "rootDir": "",
-    "sha256": "0j82a79cvzhi3i57izwzxzmmrgzwx15h2wxz455dcpi43vq7dmc5",
+    "sha256": "0szsfj533kg44vqlgc9s7vbqn32g0p91b0ajp4v1qmpib4x5nv0m",
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
@@ -6472,7 +6472,7 @@
         "wtype",
         "wl-clipboard"
       ],
-      "description": "Text expander for the launcher \u2014 define shortcuts that expand to longer text and copy to clipboard",
+      "description": "Text expander for the launcher \u2014 copy/paste pre-defined text using a shortcut via launcher",
       "distro": [
         "any"
       ],
