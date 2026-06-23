@@ -5486,7 +5486,7 @@ DMS Launcher plugin to fuzzy-search Pass entries and copy them to the clipboard.
 
 #### [Personal Dictionary](https://github.com/gemb0-0/Personal-Dictionary)
 
-Text expander for the launcher — define shortcuts that expand to longer text and copy to clipboard
+Text expander for the launcher — copy/paste pre-defined text using a shortcut via launcher
 
 
 
