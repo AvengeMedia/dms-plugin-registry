@@ -397,6 +397,35 @@ Near-live market prices for currencies, stocks, and commodities with charts.
 
 
 
+#### [DMS Last.fm Scrobbler](https://github.com/arqueon/dms-scrobbler)
+
+Scrobble MPRIS music to Last.fm, love/unlove tracks from the bar or via IPC, with media controls, album art, scrobble progress, an offline retry queue, and a live audio visualizer.
+
+
+
+- id: lastfmScrobbler
+- name: DMS Last.fm Scrobbler
+- author: arqueon
+- compositors: any
+- capabilities: dankbar-widget, control-center, ipc
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-scrobbler/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Audio Visualizer](https://github.com/odtgit/DankAudioVisualizer)
 
 Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from Noctalia's fancy-audiovisualizer by Lemmy / Noctalia Team.
