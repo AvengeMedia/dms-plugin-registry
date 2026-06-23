@@ -3723,6 +3723,35 @@ GPG/SSH passphrase entry with native DMS modal.
 
 
 
+#### [Dcal Upcoming Event](https://github.com/leoamaro01/dms-dcal)
+
+Shows your next calendar event from dcal with a live countdown timer. Displays event name and time remaining, with Now indicator for current events. Click to toggle dcal UI.
+
+
+
+- id: dcalUpcoming
+- name: Dcal Upcoming Event
+- author: leoamaro01
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dcal, jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/leoamaro01/dms-dcal/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Desktop Command](https://github.com/yayuuu/desktopCommand)
 
 A widget that displays a command output on your desktop
