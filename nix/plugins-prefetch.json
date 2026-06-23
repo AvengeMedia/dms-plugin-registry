@@ -3721,12 +3721,12 @@
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
-    "date": "2026-06-23T12:39:04+08:00",
+    "date": "2026-06-23T22:18:30+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-a4yI5fcAdLPc3BjkrX+RFVbAFtZmdV3SMtVcb8LR2BQ=",
+    "hash": "sha256-hdV28B4kXtZKIb9zAUvo/L9c6++f/3hKHBH+zdJRAkk=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3748,10 +3748,10 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
       "version": "1.0.2"
     },
-    "path": "/nix/store/3vz50qkzf7dskw87cq9cl3haygv7ax45-dms-filemanager",
-    "rev": "75bc05036343ac18dc6da16e69ff3aad2e511bf3",
+    "path": "/nix/store/vbaqyr6wpzv0a8kwlyxx6mqq31w89j9i-dms-filemanager",
+    "rev": "ae38a368011b53f81c0a20c04ff655e96c23f9c5",
     "rootDir": "",
-    "sha256": "056qs716yp6m6b95sxb6sqbc0mhmj5zsvr0qvkfb6x00yzjqi33b",
+    "sha256": "0j82a79cvzhi3i57izwzxzmmrgzwx15h2wxz455dcpi43vq7dmc5",
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
@@ -7958,12 +7958,12 @@
     "url": "https://github.com/kerojiang/dms-transBin"
   },
   "typingSounds": {
-    "date": "2026-06-16T15:44:27+07:00",
+    "date": "2026-06-23T22:37:12+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-XpjU0FdONj44qlv5BF6SGKKWqLUVAqo+OfyIVqIPWVg=",
+    "hash": "sha256-P344KCwZDL2mzVBEI8Xdj8axpa2ZDjJaKGaBAvqW2gg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7989,10 +7989,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-typing-sounds/main/screenshot.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/kn46i0qdkxn3r31f4j2vv5x9k32nvxhm-dms-typing-sounds",
-    "rev": "b668cf1943e80021e03e441bf3bb4220ed74ac19",
+    "path": "/nix/store/6i255ngc82mdvr8gvw801qmfdrkh8wp7-dms-typing-sounds",
+    "rev": "c7a8528f8591500736effb740214084836663b65",
     "rootDir": "",
-    "sha256": "0n2r1yi5d27w74zal0hmnnl9d8hqj9g09yavm8w3wdjfaz8d962y",
+    "sha256": "026sjvx050b651d343lrmnjv3ilgvp2j6i2hrnkbs30r5hl3hziz",
     "url": "https://github.com/hthienloc/dms-typing-sounds"
   },
   "unifiedTaskbar": {
