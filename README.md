@@ -6655,6 +6655,35 @@ voxtype status plugin for DankBar
 
 
 
+#### [WARP Toggle](https://github.com/ahmed-mekky/dms-warp-toggle)
+
+Toggle Cloudflare WARP via warp-cli with real-time status updates
+
+
+
+- id: warpToggle
+- name: WARP Toggle
+- author: ahmed-mekky
+- compositors: niri
+- capabilities: warp-toggle, dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper Carousel](https://github.com/motor-dev/wallpaperCarousel)
 
 Browse and pick wallpapers with a fullscreen skewed carousel overlay
