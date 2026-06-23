@@ -3166,6 +3166,35 @@ Allows creating desktop widget countdowns with progress, view options, and the a
 
 
 
+#### [DMS File Manager](https://github.com/suruibin/dms-filemanager)
+
+File Manager For DMS - browse, manage and organize files on your desktop
+
+
+
+- id: dmsfilemanager
+- name: DMS File Manager
+- author: suruibin
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [DMS Screenshot](https://github.com/JDKamalakar/DMS-Screenshot)
 
 Control DMS screenshot actions from the Widget & Control Center
