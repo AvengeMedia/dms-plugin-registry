@@ -3108,6 +3108,35 @@ Create tmux sessions for your projects
 
 
 
+#### [DMS Whisper](https://github.com/arqueon/dms-whisper)
+
+Voice recognition using Whisper. Copies to clipboard and saves a local backup.
+
+
+
+- id: dmsWhisper
+- name: DMS Whisper
+- author: arqueon
+- compositors: niri, hyprland, sway, wayfire
+- capabilities: dankbar-widget, ipc
+- dependencies: alsa-utils, wl-clipboard, ffmpeg, libnotify
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-whisper/master/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [DNS Switcher](https://github.com/JDKamalakar/DMS-DNS_Switcher)
 
 Switch system DNS providers and monitor network status.
