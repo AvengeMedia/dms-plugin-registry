@@ -5252,6 +5252,35 @@ DMS Launcher plugin to fuzzy-search Pass entries and copy them to the clipboard.
 
 
 
+#### [Personal Dictionary](https://github.com/gemb0-0/Personal-Dictionary)
+
+Text expander for the launcher — define shortcuts that expand to longer text and copy to clipboard
+
+
+
+- id: personalDictionary
+- name: Personal Dictionary
+- author: gemb0_0
+- compositors: any
+- capabilities: launcher
+- dependencies: wtype, wl-clipboard
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/gemb0-0/Personal-Dictionary/refs/heads/master/screenshot2.png)
+
+</details>
+
+
+
+
+
 #### [Phone Connect](https://github.com/AvengeMedia/dms-plugins)
 
 Control connected devices via KDE Connect or Valent - view battery, send files, find phone, and more
