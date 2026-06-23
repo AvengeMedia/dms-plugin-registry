@@ -3643,12 +3643,12 @@
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dmsWhisper": {
-    "date": "2026-06-22T21:09:56-06:00",
+    "date": "2026-06-23T11:49:16-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-cZ1awhfZtisgNeK8orGlH7ZWOdjUDFbRvjq8djgaZho=",
+    "hash": "sha256-Srrws0N52s6RHP14o+mmct0az5zErzovwfAbuhtrx2w=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -3680,10 +3680,10 @@
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-whisper/master/assets/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/d9hpr95ww4dk8dvm8jnymm8am7bvy813-dms-whisper",
-    "rev": "936d94549953f446bddd9a67628ac91ce2234b21",
+    "path": "/nix/store/mlmaj3rnygbdd1vqh61n3znakr66nli2-dms-whisper",
+    "rev": "54b3edb2686e6673737576d9bd45c4fc69c6763c",
     "rootDir": "",
-    "sha256": "06k638w7dg1spv8mc36lv0wmddhzlnqs5g726lh2pdnr2z15m7bi",
+    "sha256": "0v67dcdvl6zhq4pkmby4kk7impbjlvls6y7x3j8wxnkr8frz1fja",
     "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
