@@ -4657,6 +4657,35 @@ A desktop widget that parses your compositor's keybinding config and displays th
 
 
 
+#### [Khal Calendar](https://github.com/fishman/dms-khal-calendar)
+
+Calendar widget using khal and vdirsyncer for CalDAV sync. Create, edit, and delete events from the bar. Middle-click events to open URLs. Desktop notifications for upcoming events.
+
+
+
+- id: khalCalendar
+- name: Khal Calendar
+- author: Reza Jelveh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: khal, vdirsyncer
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/fishman/dms-khal-calendar/raw/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Kubernetes](https://github.com/psyreactor/dms-kubernetes)
 
 Kubernetes plugin for DankBar
