@@ -128,7 +128,7 @@ def build_body(plugin: dict) -> str:
         "",
         f"👍 **Upvote** this issue to rank this plugin higher in the [directory]({DIRECTORY_URL}).",
         "",
-        "Maintainers update status with `/broken` `/working` `/unmaintained` `/deprecated` `/verified`.",
+        "Plugin moderators update status with `/broken` `/working` `/unmaintained` `/deprecated` `/verified`.",
         "",
         f"<!-- dms-plugin-id: {plugin['id']} -->",
     ]
