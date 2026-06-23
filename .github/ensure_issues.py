@@ -74,6 +74,14 @@ def to_raw(url: str) -> str:
     return url
 
 
+def github_handle(plugin: dict) -> str:
+    parsed = urlparse(plugin.get("repo", ""))
+    if parsed.netloc != "github.com":
+        return ""
+    parts = parsed.path.strip("/").split("/")
+    return parts[0] if parts and parts[0] else ""
+
+
 def build_title(plugin: dict) -> str:
     name = plugin.get("name", plugin["id"])
     author = plugin.get("author", "Unknown")
@@ -88,6 +96,10 @@ def build_body(plugin: dict) -> str:
         lines += [f"> {description}", ""]
 
     lines += [f"**Author:** {plugin.get('author', 'Unknown')}"]
+
+    handle = github_handle(plugin)
+    if handle:
+        lines += [f"**Maintainer:** @{handle}"]
 
     repo = plugin.get("repo", "")
     if repo:
@@ -184,6 +196,26 @@ def create_issue(plugin: dict) -> None:
     time.sleep(CREATE_DELAY_SECONDS)
 
 
+def sync_issue_content(issue: dict, plugin: dict) -> bool:
+    title = build_title(plugin)
+    body = build_body(plugin)
+
+    body_matches = (issue.get("body") or "").replace("\r\n", "\n").strip() == body.strip()
+    if issue.get("title") == title and body_matches:
+        return False
+
+    if DRY_RUN:
+        print(f"[dry-run] would update content of issue #{issue['number']} ({plugin['id']})")
+        return True
+
+    api(
+        "PATCH",
+        f"/repos/{GITHUB_REPOSITORY}/issues/{issue['number']}",
+        json={"title": title, "body": body},
+    )
+    return True
+
+
 def set_issue_state(issue: dict, state: str, comment: str = "") -> None:
     number = issue["number"]
     if DRY_RUN:
@@ -216,7 +248,7 @@ def reconcile() -> int:
     ensure_plugin_label()
     issues = fetch_plugin_issues()
 
-    created = reopened = closed = 0
+    created = reopened = closed = updated = 0
 
     for plugin_id, plugin in plugins.items():
         issue = issues.get(plugin_id)
@@ -227,6 +259,8 @@ def reconcile() -> int:
         if issue["state"] == "closed":
             set_issue_state(issue, "open", "Plugin is back in the registry; reopening.")
             reopened += 1
+        if sync_issue_content(issue, plugin):
+            updated += 1
 
     if not ONLY:
         for plugin_id, issue in issues.items():
@@ -237,7 +271,7 @@ def reconcile() -> int:
             set_issue_state(issue, "closed", "Plugin was removed from the registry; closing.")
             closed += 1
 
-    print(f"Reconciled: {created} created, {reopened} reopened, {closed} closed")
+    print(f"Reconciled: {created} created, {reopened} reopened, {updated} updated, {closed} closed")
     return 0
 
 

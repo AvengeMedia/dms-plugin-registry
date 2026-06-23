@@ -52,9 +52,10 @@ def parse_commands(body: str) -> list[tuple[str, str]]:
     actions = []
     seen = set()
     for word in body.split():
-        command = COMMANDS.get(word.lower())
-        if command and word.lower() not in seen:
-            seen.add(word.lower())
+        token = word.lower().rstrip(".,;:!?")
+        command = COMMANDS.get(token)
+        if command and token not in seen:
+            seen.add(token)
             actions.append(command)
     return actions
 
