@@ -9,5 +9,6 @@
   "dependencies": ["vlc", "mpv", "ffmpeg"],
   "compositors": ["any"],
   "distro": ["any"],
-  "screenshot": "https://github.com/antikytheraton/DankWebcamViewer/blob/main/assets/screenshot-plugin.png"
+  "screenshot": "https://raw.githubusercontent.com/antikytheraton/DankWebcamViewer/main/assets/screenshot.png",
+  "requires_dms": ">=0.3.0"
 }
