@@ -995,6 +995,35 @@ Display weekly GitHub contribution heatmap with color-coded activity levels
 
 
 
+#### [HamQSL Propagation](https://github.com/devnullvoid/dms-hamqsl-propagation)
+
+Display HamQSL solar-terrestrial and ham radio propagation data in DankBar with compact bar modes and a detailed popout
+
+<strong>requires DMS version</strong>: <em>>=0.0.28</em>
+
+- id: hamqslPropagation
+- name: HamQSL Propagation
+- author: devnullvoid
+- compositors: any
+- capabilities: dankbar-widget, ham-radio, propagation
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/devnullvoid/dms-hamqsl-propagation/main/screenshot.svg)
+
+</details>
+
+
+
+
+
 #### [Hyprland Submap](https://github.com/mesteryui/DMS_HyprlandSubmap)
 
 Shows the current submap in Hyprland
