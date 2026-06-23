@@ -5784,6 +5784,64 @@ Start, stop, and configure screen captures with gpu-screen-recorder on any Wayla
 
 
 
+#### [Screen Recorder LH](https://github.com/hthienloc/dms-screen-recorder)
+
+GPU-accelerated screen recorder with multi-monitor support and smart notifications.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: screenRecorderLH
+- name: Screen Recorder LH
+- author: Loc Huynh
+- compositors: any
+- capabilities: daemon, control-center, ipc
+- dependencies: gpu-screen-recorder, ffmpeg, libnotify
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-screen-recorder/master/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Screenkey](https://github.com/hthienloc/dms-screenkey)
+
+An always-on-top keystroke and mouse click visualizer for tutorials.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: screenkey
+- name: Screenkey
+- author: Loc Huynh
+- compositors: any
+- capabilities: daemon, control-center
+- dependencies: evtest, libinput
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-screenkey/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Screenshot Toggle](https://github.com/boutabong/dms-plugins)
 
 Toggle niri screenshot mode between disk save and clipboard only
