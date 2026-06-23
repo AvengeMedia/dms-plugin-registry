@@ -3687,12 +3687,12 @@
     "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
-    "date": "2026-06-23T12:50:17+08:00",
+    "date": "2026-06-24T00:08:00+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uJ/Ufp6EJjwe9gDacjy737i4LV6+he8tJingig5iER8=",
+    "hash": "sha256-Wz55y5909muDRwXz/g4/2pTlj4ZrUS0vW8YJN1A8M34=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3714,10 +3714,10 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
       "version": "1.0.2"
     },
-    "path": "/nix/store/q3v0za9ckg15lgym58lzrz3h4gk86ycx-dms-conky",
-    "rev": "edaff0a15aa685579cebafdada8d78ff9c20fd35",
+    "path": "/nix/store/n911jmm1hbfrrl0j0xg8x9c14szn9lnf-dms-conky",
+    "rev": "1d4932d533ba66eb99f0834a48240499b9b9a470",
     "rootDir": "",
-    "sha256": "07qic878mq194qnyz1dybqnvif6zpcy75nh0yqg3q9l4krzd97xq",
+    "sha256": "0zik7i83f2f6bcpjslbbhs7yb56s7w7gxwq58y1npxklkz5pjgjv",
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
