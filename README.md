@@ -1270,7 +1270,7 @@ Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
 
 Shows RTSP camera streams via vlc/ffplay/mpv from the DankBar
 
-
+<strong>requires DMS version</strong>: <em>>=0.3.0</em>
 
 - id: webcamViewer
 - name: Webcam Viewer
@@ -1287,7 +1287,7 @@ Shows RTSP camera streams via vlc/ffplay/mpv from the DankBar
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://github.com/antikytheraton/DankWebcamViewer/blob/main/assets/screenshot-plugin.png)
+![screenshot](https://raw.githubusercontent.com/antikytheraton/DankWebcamViewer/main/assets/screenshot.png)
 
 </details>
 
