@@ -13,10 +13,23 @@ result = {}
 
 
 def run_prefetch(repo):
+    # Try to locate the locked nixpkgs revision to align nix-prefetch-git with the flake lock
+    nixpkgs_ref = "nixpkgs"
+    try:
+        lock_path = Path.cwd() / "flake.lock"
+        if lock_path.is_file():
+            with lock_path.open() as f:
+                lock = json.load(f)
+            rev = lock.get("nodes", {}).get("nixpkgs", {}).get("locked", {}).get("rev")
+            if rev:
+                nixpkgs_ref = f"github:NixOS/nixpkgs/{rev}"
+    except Exception as e:
+        print(f"Warning: failed to read flake.lock: {e}")
+
     cmd = [
         "nix",
         "shell",
-        "nixpkgs#nix-prefetch-git",
+        f"{nixpkgs_ref}#nix-prefetch-git",
         "--command",
         "nix-prefetch-git",
         repo,
@@ -25,7 +38,7 @@ def run_prefetch(repo):
         cmd,
         check=True,
         text=True,
-        stdout=subprocess.PIPE,
+        capture_output=True,
     )
     return run.stdout
 
