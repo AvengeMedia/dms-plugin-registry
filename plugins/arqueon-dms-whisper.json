@@ -11,10 +11,10 @@
     "author": "arqueon",
     "description": "Voice recognition using Whisper. Copies to clipboard and saves a local backup.",
     "dependencies": [
+        "alsa-utils",
         "wl-clipboard",
         "ffmpeg",
-        "curl",
-        "jq"
+        "libnotify"
     ],
     "compositors": [
         "niri",
