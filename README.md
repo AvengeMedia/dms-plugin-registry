@@ -1551,6 +1551,35 @@ Unread mail checker for IMAP mailboxes: bar indicator with unread count, popout 
 
 
 
+#### [Mail Reader](https://github.com/smithyyang/dms-mail-reader)
+
+IMAP mail reader with built-in email content viewer, server-side read status, and attachment opening. Forked from Rocho's mailChecker.
+
+
+
+- id: mailReader
+- name: Mail Reader
+- author: youngshine
+- compositors: any
+- capabilities: dankbar-widget, control-center-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/smithyyang/dms-mail-reader/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Todo](https://github.com/iskepr/DankTodoLauncher)
 
 A simple todo list plugin to manage, track, and export your daily tasks directly from the launcher.
