@@ -5042,6 +5042,43 @@
     "sha256": "1v7rb8qr6s1sff75qb8rbalsv775w6fywrr0vv6fz7fdvi4qpbch",
     "url": "https://github.com/stvnwrgs/dms-keybindings-cheat-sheet"
   },
+  "khalCalendar": {
+    "date": "2026-06-21T20:46:25+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-s/ynryiRm+E62TGrAkX4+GU++Tdolag1sT5lKV16Frs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Reza Jelveh",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "khal",
+        "vdirsyncer"
+      ],
+      "description": "Calendar widget using khal and vdirsyncer for CalDAV sync. Create, edit, and delete events from the bar. Middle-click events to open URLs. Desktop notifications for upcoming events.",
+      "distro": [
+        "any"
+      ],
+      "id": "khalCalendar",
+      "name": "Khal Calendar",
+      "repo": "https://github.com/fishman/dms-khal-calendar",
+      "screenshot": "https://github.com/fishman/dms-khal-calendar/raw/master/screenshot.png",
+      "version": "0.1.2"
+    },
+    "path": "/nix/store/yrkyqhd3mh7hwdfbp65ij9dsaihr7959-dms-khal-calendar",
+    "rev": "e1fddff3b6a1dfb6ec82ef085a43d33c55480253",
+    "rootDir": "",
+    "sha256": "1fqng9fjjr9yn4ssi5b86zwkwrgqz12h5ariv4xf36wi52psgz5k",
+    "url": "https://github.com/fishman/dms-khal-calendar"
+  },
   "kubernetes": {
     "date": "2025-12-25T23:40:56-03:00",
     "deepClone": false,
@@ -6186,6 +6223,43 @@
     "rootDir": "",
     "sha256": "01bygfasbzay8khxljsn1a70rpjydgshiw1xkqx5jj4gsk4p7iwj",
     "url": "https://github.com/RiceaRaul/DMS-PangolinPlugin"
+  },
+  "personalDictionary": {
+    "date": "2026-06-19T18:03:53+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-mjY3D3no3IyJ2lc/nxiko4ql3xs6L+UT4uLLnKJtfUA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "gemb0_0",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "wtype",
+        "wl-clipboard"
+      ],
+      "description": "Text expander for the launcher \u2014 define shortcuts that expand to longer text and copy to clipboard",
+      "distro": [
+        "any"
+      ],
+      "id": "personalDictionary",
+      "name": "Personal Dictionary",
+      "repo": "https://github.com/gemb0-0/Personal-Dictionary",
+      "screenshot": "https://raw.githubusercontent.com/gemb0-0/Personal-Dictionary/refs/heads/master/screenshot2.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/iwdd4fnlpzm1xwkixh0h73c3i2k5bk77-Personal-Dictionary",
+    "rev": "5f7a3ce7bd83ee606e697522ca6d371b05c7e246",
+    "rootDir": "",
+    "sha256": "0h3xdni9rjz2w89yabrs3ggsb2m3lhc9ygspva4qrp78g47kfdls",
+    "url": "https://github.com/gemb0-0/Personal-Dictionary"
   },
   "pkgUpdate": {
     "date": "2026-05-16T22:25:37-04:00",
