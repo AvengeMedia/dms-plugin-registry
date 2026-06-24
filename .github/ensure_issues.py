@@ -133,8 +133,8 @@ def build_body(plugin: dict) -> str:
         "- `/working` — clear the broken flag once it's fixed",
         "- `/unmaintained` — flag the plugin as no longer actively maintained",
         "- `/deprecated` — flag the plugin as deprecated or retired",
-        "- `/verified` — mark the plugin as reviewed and verified by a moderator",
-        "- `/unverified` — remove the verified mark",
+        "- `/review` — mark the plugin as reviewed by a moderator",
+        "- `/unreview` — remove the reviewed mark",
         "",
         f"<!-- dms-plugin-id: {plugin['id']} -->",
     ]
