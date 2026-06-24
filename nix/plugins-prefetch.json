@@ -1223,12 +1223,12 @@
     "url": "https://github.com/titeya/dms-claudecode"
   },
   "claudeUsage": {
-    "date": "2026-06-10T14:40:08+03:00",
+    "date": "2026-06-24T11:11:39+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-pr2ASMWk3LG/iM1apfxlFIyZxK3Wm9GKiatnMNkXt/k=",
+    "hash": "sha256-KC3Q1U3fadxu1M8PaOpf2pYnDVlQ/QJnrSzq+6OKkIU=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bogdan Velicu",
@@ -1251,12 +1251,12 @@
       "name": "Claude Usage",
       "repo": "https://github.com/bogdan-velicu/DankClaudeUsage",
       "screenshot": "https://raw.githubusercontent.com/bogdan-velicu/DankClaudeUsage/main/assets/popout.png",
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
-    "path": "/nix/store/a4wp7f74wz8j5ahhswaafis32f9yfbc7-DankClaudeUsage",
-    "rev": "1efd20ed6c29c2e2ee2a2dc8a1dd354f46ab0b0c",
+    "path": "/nix/store/mx68fsqk67ppm306b38r288qbqmxr80s-DankClaudeUsage",
+    "rev": "38e67a4017698c4bbaf84d1c703a32d250d39265",
     "rootDir": "",
-    "sha256": "1ydp2zck0rxbi65d36ynmp29k30lcpyaanndi2zv3p54qm481gd6",
+    "sha256": "11chiaizpsicmmkh5zahb46jg5nsbzm6h3ygsipdqsfz9pax0b98",
     "url": "https://github.com/bogdan-velicu/DankClaudeUsage"
   },
   "clipboardPlus": {
@@ -2800,12 +2800,12 @@
     "url": "https://github.com/eduardez/DankTerminalTheme"
   },
   "dcalUpcoming": {
-    "date": "2026-06-22T13:58:22-04:00",
+    "date": "2026-06-24T05:31:38-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-YukxIAJZ1PNNbx1X1GrT387fomh3q0RhS8bH90pJ2Ag=",
+    "hash": "sha256-fssCWeIxUmBntyyR7btPv/QEEmiVaAb8V+ISvpwwPcs=",
     "leaveDotGit": false,
     "meta": {
       "author": "leoamaro01",
@@ -2828,12 +2828,12 @@
       "name": "Dcal Upcoming Event",
       "repo": "https://github.com/leoamaro01/dms-dcal",
       "screenshot": "https://raw.githubusercontent.com/leoamaro01/dms-dcal/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/r5bifky4img6nz6hhxss6qkys0hmwyy1-dms-dcal",
-    "rev": "5074db126a3255ef2d249e1f27c5621d47fa7f23",
+    "path": "/nix/store/flkhm810agjfrn3fnbl4724d2rpwqfkk-dms-dcal",
+    "rev": "53b64d6764118418a3f6305d4deb3d0806ebf8cb",
     "rootDir": "",
-    "sha256": "026q955ggiy69dhl9avpd2idzknzsdmd8mqxdx6z7m2r08h33sb2",
+    "sha256": "1jrx62fbw4p2azy0cs4md0909x5z9yxyv49cnxkn0liiw9ch5jvy",
     "url": "https://github.com/leoamaro01/dms-dcal"
   },
   "ddcBrightness": {
@@ -3687,12 +3687,12 @@
     "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
-    "date": "2026-06-24T00:31:25+08:00",
+    "date": "2026-06-24T19:14:29+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-O26PVI0hnVa5XyZI+z2Qkani5EJnGd0RjUhJucIXpa8=",
+    "hash": "sha256-nqsVVS5MbE7PDUdTrTMmYxeKfbZr4Li0b0Mv7OM+SD8=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3712,21 +3712,21 @@
       "name": "DMS Conky",
       "repo": "https://github.com/suruibin/dms-conky",
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
-    "path": "/nix/store/1ady6a46ybn6fdljbqjaqabxx7aq7lck-dms-conky",
-    "rev": "2e2c8c86d29fb9df9852b6912f4113f4a60dc549",
+    "path": "/nix/store/44ykp6vhs3swnf5dkyb7mdq0y9cizql7-dms-conky",
+    "rev": "ca1253ae24b21ce86f6a59b3c08e4003f4cd4a4a",
     "rootDir": "",
-    "sha256": "1bx52z1bjja8il8xs6b78bjf5acij0yznj16bywmd791ima8yviv",
+    "sha256": "0gs87viyqbs3dysbiq3bnryql5v34qrssls71p7lwv2c5raibawy",
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
-    "date": "2026-06-24T00:30:18+08:00",
+    "date": "2026-06-24T13:52:09+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-FWxbOlnxVhw2uVKBFdIFTwyL1z46sUfxJuTNMYp0+ms=",
+    "hash": "sha256-RO6P9k+Z9pPk+a7VjFxa8IrRYsu0FdpkewaBKMyBVPY=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3746,12 +3746,12 @@
       "name": "DMS File Manager",
       "repo": "https://github.com/suruibin/dms-filemanager",
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
-      "version": "1.0.2"
+      "version": "1.0.3"
     },
-    "path": "/nix/store/g2dpb3nb8mck4gqgx63w9rxlg45z6hvh-dms-filemanager",
-    "rev": "1fd8552dd4e506ff488d19610983028f812b45b6",
+    "path": "/nix/store/7i2a9j3ir4nf5w74a4nnd54lzwzwaj43-dms-filemanager",
+    "rev": "fcca2cd729166b54f4b899557b8a8719cc201ef8",
     "rootDir": "",
-    "sha256": "0szsfj533kg44vqlgc9s7vbqn32g0p91b0ajp4v1qmpib4x5nv0m",
+    "sha256": "1xjlh762i086gdjdl5dlrdid32phb9f8rmdfz7j97xlr9zv8zvj4",
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
@@ -6813,12 +6813,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-06-23T11:32:16+07:00",
+    "date": "2026-06-24T12:27:05+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9Y9xaiE22LzaQp/9cNNnL0snYF7zV6F/0ej30+jUK78=",
+    "hash": "sha256-uw4lP0OyJLf2o11tZbv87Unc9CHCXsbZlZRnm9ZIdRs=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6844,12 +6844,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.5.0"
+      "version": "2.6.0"
     },
-    "path": "/nix/store/7ssrjr0hwpygcknyl660wvx9pnp95b0c-dms-quick-capture",
-    "rev": "b2bee7ae1e946dbfa3eb39cea9e755b6ccc8830f",
+    "path": "/nix/store/mqirf1yi6vjvpffrcx37r896si71dxlc-dms-quick-capture",
+    "rev": "b7ebd7565e569e945daf843425bc0c386abcc5a9",
     "rootDir": "",
-    "sha256": "1grbskld7xz8s5zs2mzkbrh2fjrgcz9p1zcz8bdbrn1n45m733zm",
+    "sha256": "06vm93b9nrwljpcwcpn247sdqjgdzjxnavaxlgvbf95j8czja3mv",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -7304,6 +7304,42 @@
     "rootDir": "",
     "sha256": "05jjqh1l87vk1jnpr7vbynr69408yx6cq0pbhbnb1y1lfwxchjgj",
     "url": "https://github.com/Dadangdut33/dms-plugins"
+  },
+  "splayerLyrics": {
+    "date": "2026-06-24T16:25:13+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-7/fDc8wfTmYc8AsOK1KQF2rDDDyPTNEc67Of1a4iYsw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lycbowen",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "media",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "qt6-websockets"
+      ],
+      "description": "Display lyrics from SPlayer in Dank Material Shell.",
+      "distro": [
+        "any"
+      ],
+      "id": "splayerLyrics",
+      "name": "SPlayerLyrics",
+      "repo": "https://github.com/lycbowen/SPlayerLyrics",
+      "screenshot": "https://raw.githubusercontent.com/lycbowen/SPlayerLyrics/refs/heads/main/Screenshot2.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/5v23bfk4r5v4x0rl97bjhcsi2yia44il-SPlayerLyrics",
+    "rev": "6d7ecbdf507fef6c69a73b098056dab46fdda653",
+    "rootDir": "",
+    "sha256": "1k324apdb7xkxcfd2k4g7h6c6shpj192n3hby0f6ckhzrirw7xzg",
+    "url": "https://github.com/lycbowen/SPlayerLyrics"
   },
   "sshConnections": {
     "date": "2026-03-27T09:13:36-04:00",
