@@ -493,12 +493,12 @@
     "url": "https://github.com/FeikoWielsma/dms-antigravity-cli"
   },
   "appLauncher": {
-    "date": "2026-06-20T01:51:55+07:00",
+    "date": "2026-06-22T17:20:46+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Tsl2lbkFUqvLeurDtBLa3pI6J/n2rVk8zPu6acLzDOc=",
+    "hash": "sha256-iApJFiP7Y3lMWSlciBgIl5ksYlXRipSINE8BXpzVqvk=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -522,10 +522,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png",
       "version": "2.2.0"
     },
-    "path": "/nix/store/7a51fy70l7f0bd57q3l5lx4kv9g29l3n-dms-app-launcher",
-    "rev": "47ab360facf2b1d4a1dffedb8058d01ebfe8e18c",
+    "path": "/nix/store/jng971mwj36y5vfm6xhm2z88m9ydqkmz-dms-app-launcher",
+    "rev": "ef53897d09335dfbc293746820516d7c0c8ff6ce",
     "rootDir": "",
-    "sha256": "1rqcyg16kfpvrhy5kbgnz4kkm4nyv89b9hzagb5snlh5p6apdjaf",
+    "sha256": "1ydasnf5w0ag6j4992niami2r6cp10c8hp19b567jqzv4cb4j2l8",
     "url": "https://github.com/hthienloc/dms-app-launcher"
   },
   "appShortcut": {
@@ -963,12 +963,12 @@
     "url": "https://github.com/hthienloc/dms-caffeine"
   },
   "calculator": {
-    "date": "2026-05-11T16:00:24+01:00",
+    "date": "2026-06-22T17:37:48+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-hiqrO8WkzmWGVlUrzxmffUZBs4t1QM2mMTBUxZqCIyU=",
+    "hash": "sha256-j8C62+sevr6b+akzVSAqUVysIhb6Vbr8jnWcTXeOtE8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bruno Cesar Rocha",
@@ -992,10 +992,10 @@
       "screenshot": "https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png",
       "version": "0.3.3"
     },
-    "path": "/nix/store/xsjsav6glsyzh8hc6bhxs52kb42k9nsg-DankCalculator",
-    "rev": "73073d051d08254633f28f89d2609344c8289813",
+    "path": "/nix/store/kzbni0wlspwm9p7zvn21sqiw1wrk222s-DankCalculator",
+    "rev": "1db5865419a40a33171a475855a59e0b8bf7187f",
     "rootDir": "",
-    "sha256": "0993hadcam1h66kcsh3mifrl2ikxkwcwyasmas36bkm4qlxsnal6",
+    "sha256": "0kxlirvlv73mivyblmgs2qiaqp2i58h5acx9z6dvxghyxgdvmh4g",
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
   "canvasGrades": {
@@ -2427,12 +2427,12 @@
     "url": "https://github.com/BrendonJL/dms-rss-widget"
   },
   "dankSchedPicker": {
-    "date": "2026-06-15T19:35:22+05:30",
+    "date": "2026-06-23T01:32:10+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bfZ18A6JQ2MGlXZesd/9ts9rSePeh4aUcA8W0BocDic=",
+    "hash": "sha256-Q1sMKWajAaRT0pAhwQSqdDXfaXRVnptx/l6P+LBdEGc=",
     "leaveDotGit": false,
     "meta": {
       "author": "SK-DEV-AI",
@@ -2454,10 +2454,10 @@
       "screenshot": "https://raw.githubusercontent.com/SK-DEV-AI/dankSchedPicker/main/screenshot.png",
       "version": "2.0.0"
     },
-    "path": "/nix/store/y5f875g74yvy0yr0365xib2yzl7rv6ry-dankSchedPicker",
-    "rev": "f6707b3b315dfa60ae89f95116be4c6d3f60b45f",
+    "path": "/nix/store/0c0085fl7ahm1wi5pqqny79lllrd4hxp-dankSchedPicker",
+    "rev": "4d5c85995980b01acc0ad195c20a86f616434b4a",
     "rootDir": "",
-    "sha256": "09qf3hdd05hgf2a8d1yywd4npkxnzpgv2pknjl366hw91vq7bxkd",
+    "sha256": "0rqhbnqgi3syzrqrp7jmfilxydblm82c28chs99s80d3cqlhqns3",
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSpotify": {
@@ -2798,6 +2798,43 @@
     "rootDir": "",
     "sha256": "029gbjyxb253xsw7x6nmahp0cd0rmrvy9x0wivkpfdpmg2alsxzp",
     "url": "https://github.com/eduardez/DankTerminalTheme"
+  },
+  "dcalUpcoming": {
+    "date": "2026-06-22T13:58:22-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-YukxIAJZ1PNNbx1X1GrT387fomh3q0RhS8bH90pJ2Ag=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "leoamaro01",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dcal",
+        "jq"
+      ],
+      "description": "Shows your next calendar event from dcal with a live countdown timer. Displays event name and time remaining, with Now indicator for current events. Click to toggle dcal UI.",
+      "distro": [
+        "any"
+      ],
+      "id": "dcalUpcoming",
+      "name": "Dcal Upcoming Event",
+      "repo": "https://github.com/leoamaro01/dms-dcal",
+      "screenshot": "https://raw.githubusercontent.com/leoamaro01/dms-dcal/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/r5bifky4img6nz6hhxss6qkys0hmwyy1-dms-dcal",
+    "rev": "5074db126a3255ef2d249e1f27c5621d47fa7f23",
+    "rootDir": "",
+    "sha256": "026q955ggiy69dhl9avpd2idzknzsdmd8mqxdx6z7m2r08h33sb2",
+    "url": "https://github.com/leoamaro01/dms-dcal"
   },
   "ddcBrightness": {
     "date": "2026-05-12T15:47:14+08:00",
@@ -3605,13 +3642,57 @@
     "sha256": "1hyr6rrhfvrfk93p9cbm6iprnzfx0zc4f2p5p6m9jxihpg9y8p0c",
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
-  "dmsconky": {
-    "date": "2026-06-21T22:52:06+08:00",
+  "dmsWhisper": {
+    "date": "2026-06-23T11:49:16-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-XPvp8QkoVwMETMzeiYihLHFT2FGHc2lVfkESLmYrfCs=",
+    "hash": "sha256-Srrws0N52s6RHP14o+mmct0az5zErzovwfAbuhtrx2w=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "arqueon",
+      "capabilities": [
+        "dankbar-widget",
+        "ipc"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland",
+        "sway",
+        "wayfire"
+      ],
+      "dependencies": [
+        "alsa-utils",
+        "wl-clipboard",
+        "ffmpeg",
+        "libnotify"
+      ],
+      "description": "Voice recognition using Whisper. Copies to clipboard and saves a local backup.",
+      "distro": [
+        "any"
+      ],
+      "id": "dmsWhisper",
+      "name": "DMS Whisper",
+      "path": "",
+      "repo": "https://github.com/arqueon/dms-whisper",
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-whisper/master/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/mlmaj3rnygbdd1vqh61n3znakr66nli2-dms-whisper",
+    "rev": "54b3edb2686e6673737576d9bd45c4fc69c6763c",
+    "rootDir": "",
+    "sha256": "0v67dcdvl6zhq4pkmby4kk7impbjlvls6y7x3j8wxnkr8frz1fja",
+    "url": "https://github.com/arqueon/dms-whisper"
+  },
+  "dmsconky": {
+    "date": "2026-06-24T00:31:25+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-O26PVI0hnVa5XyZI+z2Qkani5EJnGd0RjUhJucIXpa8=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3633,11 +3714,45 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
       "version": "1.0.2"
     },
-    "path": "/nix/store/abxmnijwffqy4ggqqnmpz6l2i8ys0im7-dms-conky",
-    "rev": "70e4ae57c97f1550dd139ad12ee30cf9e566d9ad",
+    "path": "/nix/store/1ady6a46ybn6fdljbqjaqabxx7aq7lck-dms-conky",
+    "rev": "2e2c8c86d29fb9df9852b6912f4113f4a60dc549",
     "rootDir": "",
-    "sha256": "0avw5dk2w4j1granjww7a7c56w9cl648kpnc9h206mr817qykysw",
+    "sha256": "1bx52z1bjja8il8xs6b78bjf5acij0yznj16bywmd791ima8yviv",
     "url": "https://github.com/suruibin/dms-conky"
+  },
+  "dmsfilemanager": {
+    "date": "2026-06-24T00:30:18+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-FWxbOlnxVhw2uVKBFdIFTwyL1z46sUfxJuTNMYp0+ms=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "suruibin",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "File Manager For DMS - browse, manage and organize files on your desktop",
+      "distro": [
+        "any"
+      ],
+      "id": "dmsfilemanager",
+      "name": "DMS File Manager",
+      "repo": "https://github.com/suruibin/dms-filemanager",
+      "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
+      "version": "1.0.2"
+    },
+    "path": "/nix/store/g2dpb3nb8mck4gqgx63w9rxlg45z6hvh-dms-filemanager",
+    "rev": "1fd8552dd4e506ff488d19610983028f812b45b6",
+    "rootDir": "",
+    "sha256": "0szsfj533kg44vqlgc9s7vbqn32g0p91b0ajp4v1qmpib4x5nv0m",
+    "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
     "date": "2026-06-10T00:38:17+05:30",
@@ -4085,12 +4200,12 @@
     "url": "https://github.com/hthienloc/dms-floaty"
   },
   "folderView": {
-    "date": "2026-06-20T22:36:59+07:00",
+    "date": "2026-06-22T17:20:42+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-soMElPbCDT7koY/Tn9lDRXIFhXqlAxCc7GQUl1fwUNc=",
+    "hash": "sha256-h9Eka4CFTtBDU0NiEC3Vtm9AfnSwGIflz/Ytdo6pGPE=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4116,10 +4231,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-folder-view/main/screenshot.png",
       "version": "2.3.0"
     },
-    "path": "/nix/store/yhamp6bs1sp6lf47zsp9796azzpjiirr-dms-folder-view",
-    "rev": "a391cd69f5a621dfb56327885d21b533f994da72",
+    "path": "/nix/store/fwbahlmd69n7n47zk2cgv55jc88ap1xf-dms-folder-view",
+    "rev": "2bc9e88a979e8f634f0cfaaf62d2cc72943815ba",
     "rootDir": "",
-    "sha256": "1mshy1brf534xjf100x5ga2hawj58gcrzlwgl7j3w3f2ysa090xj",
+    "sha256": "1w8qm677cbgnrzjqf65hfiz40vxnslni0qj3ad1x0kl5h1mj9lc7",
     "url": "https://github.com/hthienloc/dms-folder-view"
   },
   "formatColorPicker": {
@@ -4575,6 +4690,43 @@
     "rootDir": "",
     "sha256": "16xrvih3v17qyi88lizhjs2lqcvnbpnxfrhzg9bm16la3n65y3h8",
     "url": "https://github.com/TaylanTatli/dms-plugins"
+  },
+  "hamqslPropagation": {
+    "date": "2026-06-21T20:17:46-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-WMe3QrFaNCHHIlmuiGJcVNBqlt1rf8/P12bIbJJnvjM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "devnullvoid",
+      "capabilities": [
+        "dankbar-widget",
+        "ham-radio",
+        "propagation"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Display HamQSL solar-terrestrial and ham radio propagation data in DankBar with compact bar modes and a detailed popout",
+      "distro": [
+        "any"
+      ],
+      "id": "hamqslPropagation",
+      "name": "HamQSL Propagation",
+      "repo": "https://github.com/devnullvoid/dms-hamqsl-propagation",
+      "requires_dms": ">=0.0.28",
+      "screenshot": "https://raw.githubusercontent.com/devnullvoid/dms-hamqsl-propagation/main/screenshot.svg",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/w1dlf8dnla4vspay6jg311cw668i53hd-dms-hamqsl-propagation",
+    "rev": "1a9524602d56edc1396bfa64812d3251e6ac68da",
+    "rootDir": "",
+    "sha256": "0cxycy96rj36sz7wyzvbvnb6ml2lbii8ibjr4b3j2d2sn51bgisq",
+    "url": "https://github.com/devnullvoid/dms-hamqsl-propagation"
   },
   "handMirror": {
     "date": "2026-06-21T00:45:06+07:00",
@@ -5042,6 +5194,43 @@
     "sha256": "1v7rb8qr6s1sff75qb8rbalsv775w6fywrr0vv6fz7fdvi4qpbch",
     "url": "https://github.com/stvnwrgs/dms-keybindings-cheat-sheet"
   },
+  "khalCalendar": {
+    "date": "2026-06-21T20:46:25+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-s/ynryiRm+E62TGrAkX4+GU++Tdolag1sT5lKV16Frs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Reza Jelveh",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "khal",
+        "vdirsyncer"
+      ],
+      "description": "Calendar widget using khal and vdirsyncer for CalDAV sync. Create, edit, and delete events from the bar. Middle-click events to open URLs. Desktop notifications for upcoming events.",
+      "distro": [
+        "any"
+      ],
+      "id": "khalCalendar",
+      "name": "Khal Calendar",
+      "repo": "https://github.com/fishman/dms-khal-calendar",
+      "screenshot": "https://github.com/fishman/dms-khal-calendar/raw/master/screenshot.png",
+      "version": "0.1.2"
+    },
+    "path": "/nix/store/yrkyqhd3mh7hwdfbp65ij9dsaihr7959-dms-khal-calendar",
+    "rev": "e1fddff3b6a1dfb6ec82ef085a43d33c55480253",
+    "rootDir": "",
+    "sha256": "1fqng9fjjr9yn4ssi5b86zwkwrgqz12h5ariv4xf36wi52psgz5k",
+    "url": "https://github.com/fishman/dms-khal-calendar"
+  },
   "kubernetes": {
     "date": "2025-12-25T23:40:56-03:00",
     "deepClone": false,
@@ -5078,6 +5267,44 @@
     "rootDir": "",
     "sha256": "1hwpqgqgd47dv0h5207w7cdyzfhdi8fx7v2dg9y2205qgb7l6qd3",
     "url": "https://github.com/psyreactor/dms-kubernetes"
+  },
+  "lastfmScrobbler": {
+    "date": "2026-06-20T19:20:39-06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-1lB4hRfVf7l9vbC6wMAkJphUI2KUAoP2vE2dVLaChIU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "arqueon",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center",
+        "ipc"
+      ],
+      "category": "media",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3"
+      ],
+      "description": "Scrobble MPRIS music to Last.fm, love/unlove tracks from the bar or via IPC, with media controls, album art, scrobble progress, an offline retry queue, and a live audio visualizer.",
+      "distro": [
+        "any"
+      ],
+      "id": "lastfmScrobbler",
+      "name": "DMS Last.fm Scrobbler",
+      "repo": "https://github.com/arqueon/dms-scrobbler",
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-scrobbler/main/assets/screenshot.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/1q84hf087jmg51n80vvx2l9ccl6l4f71-dms-scrobbler",
+    "rev": "49282f5098cd2a5a086c40ef77f4382d55b502ab",
+    "rootDir": "",
+    "sha256": "11c4hav597adpkv860llc8im96164k0c1fmhpmyvjzym2y2phl6n",
+    "url": "https://github.com/arqueon/dms-scrobbler"
   },
   "linuxWallpaperEngine": {
     "date": "2026-03-09T16:01:11+03:00",
@@ -5341,6 +5568,43 @@
     "rootDir": "",
     "sha256": "1ldjfwgg10ixgl37mgbs794km72khzwkh547vwm74snrdhm74kr7",
     "url": "https://github.com/Rocho-EL-Locho/dms-mail-checker"
+  },
+  "mailReader": {
+    "date": "2026-06-22T21:50:03+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-5wzdwDAY0sSBQLuc6gMWy/YRYpN4iBYYKgmPG2EIxpA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "youngshine",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center-widget"
+      ],
+      "category": "productivity",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3"
+      ],
+      "description": "IMAP mail reader with built-in email content viewer, server-side read status, and attachment opening. Forked from Rocho's mailChecker.",
+      "distro": [
+        "any"
+      ],
+      "id": "mailReader",
+      "name": "Mail Reader",
+      "repo": "https://github.com/smithyyang/dms-mail-reader",
+      "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-mail-reader/main/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/hlnyr7ai1xxymwhd9rkg5yyyx5rr0qvy-dms-mail-reader",
+    "rev": "9290c174cf04ed319d9b28947cd8def2193d709f",
+    "rootDir": "",
+    "sha256": "146611hip3q958c1d23qjdi13xnb2q1ym75v820w9lhq630ds377",
+    "url": "https://github.com/smithyyang/dms-mail-reader"
   },
   "markets": {
     "date": "2026-06-12T15:13:32+02:00",
@@ -5896,12 +6160,12 @@
     "url": "https://github.com/jfchenier/dms-niri-screenshot"
   },
   "niriWindows": {
-    "date": "2026-02-02T09:34:56Z",
+    "date": "2026-06-22T17:38:56+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-KkB+xq4AObTqTDxtBVqfCsnxn0jnNk3iM4vpk9jlEBA=",
+    "hash": "sha256-uKNiqr/DiX28dePBqsEfBPaCB/kmVDzjayXHdIwGkZQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bruno Cesar Rocha",
@@ -5924,10 +6188,10 @@
       "screenshot": "https://github.com/rochacbruno/DankNiriWindows/raw/main/screenshot.png",
       "version": "1.1.1"
     },
-    "path": "/nix/store/nbplcqnalqji5s6f40f3y30vdxcbigs7-DankNiriWindows",
-    "rev": "b866af4cb599e7eeae90779b959f56b1a9905f18",
+    "path": "/nix/store/27pfwbx1i7iz7na4d4v794sarmrs6x21-DankNiriWindows",
+    "rev": "f2c0b0fc0325e3299257cc5d1895069a3d49247f",
     "rootDir": "",
-    "sha256": "040hwpc97scb6gi4sdp792gz3j8akxd0av9w9kmb8f80mv37wh1a",
+    "sha256": "154i0s679ir5dgikqm16z43q5xh43z0smhg3fny7v2f3pym658xq",
     "url": "https://github.com/rochacbruno/DankNiriWindows"
   },
   "nixMonitor": {
@@ -6186,6 +6450,43 @@
     "rootDir": "",
     "sha256": "01bygfasbzay8khxljsn1a70rpjydgshiw1xkqx5jj4gsk4p7iwj",
     "url": "https://github.com/RiceaRaul/DMS-PangolinPlugin"
+  },
+  "personalDictionary": {
+    "date": "2026-06-19T18:03:53+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-mjY3D3no3IyJ2lc/nxiko4ql3xs6L+UT4uLLnKJtfUA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "gemb0_0",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "wtype",
+        "wl-clipboard"
+      ],
+      "description": "Text expander for the launcher \u2014 copy/paste pre-defined text using a shortcut via launcher",
+      "distro": [
+        "any"
+      ],
+      "id": "personalDictionary",
+      "name": "Personal Dictionary",
+      "repo": "https://github.com/gemb0-0/Personal-Dictionary",
+      "screenshot": "https://raw.githubusercontent.com/gemb0-0/Personal-Dictionary/refs/heads/master/screenshot2.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/iwdd4fnlpzm1xwkixh0h73c3i2k5bk77-Personal-Dictionary",
+    "rev": "5f7a3ce7bd83ee606e697522ca6d371b05c7e246",
+    "rootDir": "",
+    "sha256": "0h3xdni9rjz2w89yabrs3ggsb2m3lhc9ygspva4qrp78g47kfdls",
+    "url": "https://github.com/gemb0-0/Personal-Dictionary"
   },
   "pkgUpdate": {
     "date": "2026-05-16T22:25:37-04:00",
@@ -6512,12 +6813,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-06-21T00:44:57+07:00",
+    "date": "2026-06-23T11:32:16+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-NqHf8D83/jiQ39BaG3Tyt4+iBUbgOayV2dvhHaypNiU=",
+    "hash": "sha256-9Y9xaiE22LzaQp/9cNNnL0snYF7zV6F/0ej30+jUK78=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6543,12 +6844,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.4.2"
+      "version": "2.5.0"
     },
-    "path": "/nix/store/pzvv3h67y694izmaws41x5cf6pssrhfy-dms-quick-capture",
-    "rev": "aee4fd0e8ede56fa9f69d128219d786608a882fd",
+    "path": "/nix/store/7ssrjr0hwpygcknyl660wvx9pnp95b0c-dms-quick-capture",
+    "rev": "b2bee7ae1e946dbfa3eb39cea9e755b6ccc8830f",
     "rootDir": "",
-    "sha256": "099nm6n1vqfvv6asqfg08q2s53xpy9s1nnnhvy83izip7zqdz89n",
+    "sha256": "1grbskld7xz8s5zs2mzkbrh2fjrgcz9p1zcz8bdbrn1n45m733zm",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -6780,6 +7081,86 @@
     "rootDir": "",
     "sha256": "10lkv5dn1bqb6940817mcygwzhi8sr14jzx92sb20dk52b7kz3ln",
     "url": "https://github.com/arqueon/dms-screen-recorder"
+  },
+  "screenRecorderLH": {
+    "date": "2026-06-23T12:49:33+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-z0hrGmxokwoVDTZA07A3vDQc23+XDoEEAouA9UlUZlg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Loc Huynh",
+      "capabilities": [
+        "daemon",
+        "control-center",
+        "ipc"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "gpu-screen-recorder",
+        "ffmpeg",
+        "libnotify"
+      ],
+      "description": "GPU-accelerated screen recorder with multi-monitor support and smart notifications.",
+      "distro": [
+        "any"
+      ],
+      "id": "screenRecorderLH",
+      "name": "Screen Recorder LH",
+      "repo": "https://github.com/hthienloc/dms-screen-recorder",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-screen-recorder/master/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/p7h4pfifzb2ajnddb85w2h6rrjyvrnv4-dms-screen-recorder",
+    "rev": "6e7fe691d021fc4450539958440f2a7b50706952",
+    "rootDir": "",
+    "sha256": "0n36ai4zb04b082823lpgzdiqd5w6yqd6h1n1lahm4v8dhd6nj6g",
+    "url": "https://github.com/hthienloc/dms-screen-recorder"
+  },
+  "screenkey": {
+    "date": "2026-06-21T12:21:01+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-1DLQVW7+xAYdmtrrZE/at1HHO3vV0aZObpi3D6PyQ9s=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Loc Huynh",
+      "capabilities": [
+        "daemon",
+        "control-center"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "evtest",
+        "libinput"
+      ],
+      "description": "An always-on-top keystroke and mouse click visualizer for tutorials.",
+      "distro": [
+        "any"
+      ],
+      "id": "screenkey",
+      "name": "Screenkey",
+      "repo": "https://github.com/hthienloc/dms-screenkey",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-screenkey/main/screenshot.png",
+      "version": "1.0.5"
+    },
+    "path": "/nix/store/30f5wjrw4xqaqjmfqa7dhkfjd09zhmag-dms-screenkey",
+    "rev": "487e875717b04b85fed1a2aff94863f670da10dc",
+    "rootDir": "",
+    "sha256": "1ns3yaihzdwqdr7adlfmgcxwfldpv97n9sysk8fhdi7ydrax0cnl",
+    "url": "https://github.com/hthienloc/dms-screenkey"
   },
   "screenshotToggle": {
     "date": "2026-03-04T15:59:24-08:00",
@@ -7395,12 +7776,12 @@
     "url": "https://github.com/fdmarcin/TimeUntil"
   },
   "timer": {
-    "date": "2026-06-05T23:33:01+07:00",
+    "date": "2026-06-23T11:01:20+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-OZaynSMqvkwbDt4tANVOW71q/F05DChChOoCT4kYMrU=",
+    "hash": "sha256-9uMK3PPs0kgRUsbcE6YbBUMegVmPklAHMo19rIsyAug=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7425,10 +7806,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-timer/master/screenshot.png",
       "version": "3.0.0"
     },
-    "path": "/nix/store/gdcgz3y86zjq8a7fagicwgn8w1a3bac0-dms-timer",
-    "rev": "2f82861fbac65c9eab52efda606aecc5f7f7d5f3",
+    "path": "/nix/store/lm9w7mrzm0f9mxc3sgfdpi8jnm26xkld-dms-timer",
+    "rev": "befb7b102a21f1d981b19a49891b4d44b24d15c0",
     "rootDir": "",
-    "sha256": "1d9j324ly0pahi12h31rbpy6mgav9vah0bfy1qdlrgia4ffv55ir",
+    "sha256": "1s026a5sqzcd683m14lgb60iwhq53fk17p66a88lilpcygf0mqzn",
     "url": "https://github.com/hthienloc/dms-timer"
   },
   "tlpControl": {
@@ -7506,6 +7887,42 @@
     "sha256": "18pnq39cqaqa86izvnjfr8hkzhmkd847wa12dcy0x3y5yfixaprd",
     "url": "https://github.com/peturh/tlp-power-profile"
   },
+  "todoLauncher": {
+    "date": "2026-06-20T15:40:22+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-ibS5c8zerVLkpNthcZdOd6dh7uvdr1tIa93IpLnajCE=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Mohammed Skepr",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "productivity",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "A simple todo list plugin to manage, track, and export your daily tasks directly from the launcher.",
+      "distro": [
+        "any"
+      ],
+      "featured": true,
+      "id": "todoLauncher",
+      "name": "Todo",
+      "repo": "https://github.com/iskepr/DankTodoLauncher",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://github.com/iskepr/DankTodoLauncher/blob/main/screenshots/tasks.png?raw=true",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/ibc2zad15qvv4h6xlh24bnvwh2133w38-DankTodoLauncher",
+    "rev": "a42aec0a85b662f167d48c3d8a590b0ba23e8499",
+    "rootDir": "",
+    "sha256": "08ccvaws9j6xdd45pbyxxgp639vp9sbp2qfvlkj55bfyrirvkd49",
+    "url": "https://github.com/iskepr/DankTodoLauncher"
+  },
   "trashBin": {
     "date": "2026-04-18T00:08:04+08:00",
     "deepClone": false,
@@ -7541,12 +7958,12 @@
     "url": "https://github.com/kerojiang/dms-transBin"
   },
   "typingSounds": {
-    "date": "2026-06-16T15:44:27+07:00",
+    "date": "2026-06-24T07:35:01+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-XpjU0FdONj44qlv5BF6SGKKWqLUVAqo+OfyIVqIPWVg=",
+    "hash": "sha256-GeH/Ev0xGVoumOTExjfAuZTtczdLsVO4PtWX2xXGb3Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7572,10 +7989,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-typing-sounds/main/screenshot.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/kn46i0qdkxn3r31f4j2vv5x9k32nvxhm-dms-typing-sounds",
-    "rev": "b668cf1943e80021e03e441bf3bb4220ed74ac19",
+    "path": "/nix/store/j899rv64fhkz5s552gwdqiz3lsa2499h-dms-typing-sounds",
+    "rev": "8291b3183f25fed55a3f96f7b0b0b5c141700047",
     "rootDir": "",
-    "sha256": "0n2r1yi5d27w74zal0hmnnl9d8hqj9g09yavm8w3wdjfaz8d962y",
+    "sha256": "0x3gqqaxp5ym7sw57cab6xryv55rq0vwdi74k0p5l69izl9gzq8r",
     "url": "https://github.com/hthienloc/dms-typing-sounds"
   },
   "unifiedTaskbar": {
@@ -7989,6 +8406,41 @@
     "sha256": "02kygwc227naa6cngr1k8kfklpdh73b4jafkxdx4rz06fddvs0ck",
     "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
   },
+  "warpToggle": {
+    "date": "2026-06-22T01:18:52+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-gZ0CAnd7DlwIWMZBm2ndtDPcmGMSi+IMNYAyjPgejTI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "ahmed-mekky",
+      "capabilities": [
+        "warp-toggle",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [],
+      "description": "Toggle Cloudflare WARP via warp-cli with real-time status updates",
+      "distro": [
+        "any"
+      ],
+      "id": "warpToggle",
+      "name": "WARP Toggle",
+      "repo": "https://github.com/ahmed-mekky/dms-warp-toggle",
+      "screenshot": "https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/yz4shbdyybwvqh58m5l3qdxj1dvn6xgl-dms-warp-toggle",
+    "rev": "ecfa171a8fe592259492b0d68b7c2a0034a55eff",
+    "rootDir": "",
+    "sha256": "0cld3vw8qcl06l6f52qjcfcdqcxlvmlrnhf6b045q3kvfw1057c1",
+    "url": "https://github.com/ahmed-mekky/dms-warp-toggle"
+  },
   "weatherArt": {
     "date": "2026-05-31T13:35:05-07:00",
     "deepClone": false,
@@ -8087,7 +8539,8 @@
       "id": "webcamViewer",
       "name": "Webcam Viewer",
       "repo": "https://github.com/antikytheraton/DankWebcamViewer",
-      "screenshot": "https://github.com/antikytheraton/DankWebcamViewer/blob/main/assets/screenshot-plugin.png",
+      "requires_dms": ">=0.3.0",
+      "screenshot": "https://raw.githubusercontent.com/antikytheraton/DankWebcamViewer/main/assets/screenshot.png",
       "version": "1.0.1"
     },
     "path": "/nix/store/020bipmc8sj9xxzacq47zwmb1j35bi22-DankWebcamViewer",
@@ -8203,12 +8656,12 @@
     "url": "https://github.com/wolfsblu/dms-wiener-linien"
   },
   "worldClock": {
-    "date": "2026-05-08T12:59:01+01:00",
+    "date": "2026-06-22T17:36:50+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-FkOC8I5e3XVUyw9OUc2RQ81qnE58UkpHMoEMavkV7CQ=",
+    "hash": "sha256-7M9jdfy4/VX7sLmiXfjyERe7sFVKuHzqHgPSmT6XOAc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bruno Cesar Rocha",
@@ -8233,10 +8686,10 @@
       "screenshot": "https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png",
       "version": "1.3.0"
     },
-    "path": "/nix/store/pn3wn8lzncwchw515mzi5497jiank176-WorldClock",
-    "rev": "86612afc20a266521732e77239a90f91dd630990",
+    "path": "/nix/store/2pkn8s1d0z0bwplx9wyq1n207lc572hj-WorldClock",
+    "rev": "f10e1f9c1ce14a819640fbea9e2787472cf3815f",
     "rootDir": "",
-    "sha256": "097c2pwnl341693lllkw9sf6mka3j76m2khgrda7bpayivq84hqn",
+    "sha256": "01rqjwz9klh33vm7rf2aanqbn5qiybw5v8mrn3xmbzdqzisn7kzc",
     "url": "https://github.com/rochacbruno/WorldClock"
   },
   "worldClockMulti": {

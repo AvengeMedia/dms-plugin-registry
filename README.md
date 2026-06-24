@@ -397,6 +397,35 @@ Near-live market prices for currencies, stocks, and commodities with charts.
 
 
 
+#### [DMS Last.fm Scrobbler](https://github.com/arqueon/dms-scrobbler)
+
+Scrobble MPRIS music to Last.fm, love/unlove tracks from the bar or via IPC, with media controls, album art, scrobble progress, an offline retry queue, and a live audio visualizer.
+
+
+
+- id: lastfmScrobbler
+- name: DMS Last.fm Scrobbler
+- author: arqueon
+- compositors: any
+- capabilities: dankbar-widget, control-center, ipc
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-scrobbler/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Audio Visualizer](https://github.com/odtgit/DankAudioVisualizer)
 
 Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from Noctalia's fancy-audiovisualizer by Lemmy / Noctalia Team.
@@ -966,6 +995,35 @@ Display weekly GitHub contribution heatmap with color-coded activity levels
 
 
 
+#### [HamQSL Propagation](https://github.com/devnullvoid/dms-hamqsl-propagation)
+
+Display HamQSL solar-terrestrial and ham radio propagation data in DankBar with compact bar modes and a detailed popout
+
+<strong>requires DMS version</strong>: <em>>=0.0.28</em>
+
+- id: hamqslPropagation
+- name: HamQSL Propagation
+- author: devnullvoid
+- compositors: any
+- capabilities: dankbar-widget, ham-radio, propagation
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/devnullvoid/dms-hamqsl-propagation/main/screenshot.svg)
+
+</details>
+
+
+
+
+
 #### [Hyprland Submap](https://github.com/mesteryui/DMS_HyprlandSubmap)
 
 Shows the current submap in Hyprland
@@ -1270,7 +1328,7 @@ Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
 
 Shows RTSP camera streams via vlc/ffplay/mpv from the DankBar
 
-
+<strong>requires DMS version</strong>: <em>>=0.3.0</em>
 
 - id: webcamViewer
 - name: Webcam Viewer
@@ -1287,7 +1345,7 @@ Shows RTSP camera streams via vlc/ffplay/mpv from the DankBar
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://github.com/antikytheraton/DankWebcamViewer/blob/main/assets/screenshot-plugin.png)
+![screenshot](https://raw.githubusercontent.com/antikytheraton/DankWebcamViewer/main/assets/screenshot.png)
 
 </details>
 
@@ -1486,6 +1544,64 @@ Unread mail checker for IMAP mailboxes: bar indicator with unread count, popout 
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/Rocho-EL-Locho/dms-mail-checker/raw/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Mail Reader](https://github.com/smithyyang/dms-mail-reader)
+
+IMAP mail reader with built-in email content viewer, server-side read status, and attachment opening. Forked from Rocho's mailChecker.
+
+
+
+- id: mailReader
+- name: Mail Reader
+- author: youngshine
+- compositors: any
+- capabilities: dankbar-widget, control-center-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/smithyyang/dms-mail-reader/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Todo](https://github.com/iskepr/DankTodoLauncher)
+
+A simple todo list plugin to manage, track, and export your daily tasks directly from the launcher.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: todoLauncher
+- name: Todo
+- author: Mohammed Skepr
+- compositors: any
+- capabilities: launcher
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/iskepr/DankTodoLauncher/blob/main/screenshots/tasks.png?raw=true)
 
 </details>
 
@@ -3050,6 +3166,35 @@ Allows creating desktop widget countdowns with progress, view options, and the a
 
 
 
+#### [DMS File Manager](https://github.com/suruibin/dms-filemanager)
+
+File Manager For DMS - browse, manage and organize files on your desktop
+
+
+
+- id: dmsfilemanager
+- name: DMS File Manager
+- author: suruibin
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [DMS Screenshot](https://github.com/JDKamalakar/DMS-Screenshot)
 
 Control DMS screenshot actions from the Widget & Control Center
@@ -3101,6 +3246,35 @@ Create tmux sessions for your projects
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/leonardofranco01/dms-sessionizer/refs/heads/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [DMS Whisper](https://github.com/arqueon/dms-whisper)
+
+Voice recognition using Whisper. Copies to clipboard and saves a local backup.
+
+
+
+- id: dmsWhisper
+- name: DMS Whisper
+- author: arqueon
+- compositors: niri, hyprland, sway, wayfire
+- capabilities: dankbar-widget, ipc
+- dependencies: alsa-utils, wl-clipboard, ffmpeg, libnotify
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-whisper/master/assets/screenshot.png)
 
 </details>
 
@@ -3542,6 +3716,35 @@ GPG/SSH passphrase entry with native DMS modal.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/Pacman99/DankPinentry/refs/heads/master/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Dcal Upcoming Event](https://github.com/leoamaro01/dms-dcal)
+
+Shows your next calendar event from dcal with a live countdown timer. Displays event name and time remaining, with Now indicator for current events. Click to toggle dcal UI.
+
+
+
+- id: dcalUpcoming
+- name: Dcal Upcoming Event
+- author: leoamaro01
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dcal, jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/leoamaro01/dms-dcal/main/screenshot.png)
 
 </details>
 
@@ -4657,6 +4860,35 @@ A desktop widget that parses your compositor's keybinding config and displays th
 
 
 
+#### [Khal Calendar](https://github.com/fishman/dms-khal-calendar)
+
+Calendar widget using khal and vdirsyncer for CalDAV sync. Create, edit, and delete events from the bar. Middle-click events to open URLs. Desktop notifications for upcoming events.
+
+
+
+- id: khalCalendar
+- name: Khal Calendar
+- author: Reza Jelveh
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: khal, vdirsyncer
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/fishman/dms-khal-calendar/raw/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Kubernetes](https://github.com/psyreactor/dms-kubernetes)
 
 Kubernetes plugin for DankBar
@@ -5252,6 +5484,35 @@ DMS Launcher plugin to fuzzy-search Pass entries and copy them to the clipboard.
 
 
 
+#### [Personal Dictionary](https://github.com/gemb0-0/Personal-Dictionary)
+
+Text expander for the launcher — copy/paste pre-defined text using a shortcut via launcher
+
+
+
+- id: personalDictionary
+- name: Personal Dictionary
+- author: gemb0_0
+- compositors: any
+- capabilities: launcher
+- dependencies: wtype, wl-clipboard
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/gemb0-0/Personal-Dictionary/refs/heads/master/screenshot2.png)
+
+</details>
+
+
+
+
+
 #### [Phone Connect](https://github.com/AvengeMedia/dms-plugins)
 
 Control connected devices via KDE Connect or Valent - view battery, send files, find phone, and more
@@ -5690,6 +5951,64 @@ Start, stop, and configure screen captures with gpu-screen-recorder on any Wayla
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Screen Recorder LH](https://github.com/hthienloc/dms-screen-recorder)
+
+GPU-accelerated screen recorder with multi-monitor support and smart notifications.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: screenRecorderLH
+- name: Screen Recorder LH
+- author: Loc Huynh
+- compositors: any
+- capabilities: daemon, control-center, ipc
+- dependencies: gpu-screen-recorder, ffmpeg, libnotify
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-screen-recorder/master/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Screenkey](https://github.com/hthienloc/dms-screenkey)
+
+An always-on-top keystroke and mouse click visualizer for tutorials.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: screenkey
+- name: Screenkey
+- author: Loc Huynh
+- compositors: any
+- capabilities: daemon, control-center
+- dependencies: evtest, libinput
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-screenkey/main/screenshot.png)
 
 </details>
 
@@ -6445,6 +6764,35 @@ voxtype status plugin for DankBar
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/psyreactor/dms-voxtype/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [WARP Toggle](https://github.com/ahmed-mekky/dms-warp-toggle)
+
+Toggle Cloudflare WARP via warp-cli with real-time status updates
+
+
+
+- id: warpToggle
+- name: WARP Toggle
+- author: ahmed-mekky
+- compositors: niri
+- capabilities: warp-toggle, dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/screenshot.png)
 
 </details>
 

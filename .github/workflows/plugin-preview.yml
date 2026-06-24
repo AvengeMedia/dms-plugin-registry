@@ -1,0 +1,116 @@
+name: Plugin Preview
+
+on:
+  pull_request_target:
+    branches: [master]
+    paths:
+      - 'plugins/**'
+
+jobs:
+  preview:
+    runs-on: ubuntu-latest
+    permissions:
+      pull-requests: write
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout base branch
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.base.sha }}
+          path: base
+
+      - name: Checkout PR head
+        uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event.pull_request.head.sha }}
+          path: pr
+
+      - name: Find changed plugins and build preview
+        id: preview
+        run: |
+          cd pr
+
+          git fetch origin ${{ github.event.pull_request.base.sha }} --depth=1
+
+          changed_plugins=$(git diff --name-only ${{ github.event.pull_request.base.sha }}..${{ github.event.pull_request.head.sha }} -- plugins/ | \
+            grep -oP '^plugins/[^/]+\.json$' | sort -u || true)
+
+          if [ -z "$changed_plugins" ]; then
+            echo "No plugin changes detected"
+            echo "has_changes=false" >> $GITHUB_OUTPUT
+            exit 0
+          fi
+
+          echo "has_changes=true" >> $GITHUB_OUTPUT
+
+          echo "## Plugin Preview" > ../comment.md
+          echo "" >> ../comment.md
+
+          for plugin_file in $changed_plugins; do
+            if [ ! -f "$plugin_file" ]; then
+              # Plugin was removed in this PR; nothing to preview.
+              continue
+            fi
+
+            if [ ! -f "../base/${plugin_file}" ]; then
+              badge="(new)"
+            else
+              badge="(updated)"
+            fi
+
+            CHANGED_PLUGIN="$plugin_file" BADGE="$badge" python3 - >> ../comment.md <<'PY'
+          import json
+          import os
+          from urllib.parse import urlparse
+
+          plugin_file = os.environ["CHANGED_PLUGIN"]
+          badge = os.environ["BADGE"]
+
+          with open(plugin_file) as f:
+              plugin = json.load(f)
+
+          name = plugin.get("name", os.path.basename(plugin_file))
+          author = plugin.get("author", "Unknown")
+          desc = plugin.get("description", "")
+          repo = plugin.get("repo", "")
+          screenshot = plugin.get("screenshot", "")
+
+
+          def to_raw(url):
+              """Rewrite a GitHub blob URL to a raw URL so it renders inline."""
+              parsed = urlparse(url)
+              if parsed.netloc == "github.com" and "/blob/" in parsed.path:
+                  path = parsed.path.replace("/blob/", "/", 1)
+                  return f"https://raw.githubusercontent.com{path}"
+              return url
+
+
+          print(f"### {name} {badge}")
+          print()
+          if desc:
+              print(f"> {desc}")
+              print()
+          print(f"**Author:** {author}")
+          print()
+          if repo:
+              print(f"**Repository:** {repo}")
+              print()
+          if screenshot:
+              print(f"![{name}]({to_raw(screenshot)})")
+              print()
+          else:
+              print("_No screenshot provided_")
+              print()
+          print("---")
+          print()
+          PY
+          done
+
+      - name: Post preview comment
+        if: steps.preview.outputs.has_changes == 'true'
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body-path: comment.md
