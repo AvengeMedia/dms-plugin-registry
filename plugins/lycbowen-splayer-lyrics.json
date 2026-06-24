@@ -1,0 +1,14 @@
+{
+  "id": "splayerLyrics",
+  "name": "SPlayerLyrics",
+  "version": "1.0.0",
+  "capabilities": ["dankbar-widget"],
+  "category": "media",
+  "repo": "https://github.com/lycbowen/SPlayerLyrics",
+  "author": "lycbowen",
+  "description": "Display lyrics from SPlayer in Dank Material Shell.",
+  "dependencies": ["qt6-websockets"],
+  "compositors": ["niri", "hyprland"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/lycbowen/SPlayerLyrics/refs/heads/main/Screenshot2.png"
+}
