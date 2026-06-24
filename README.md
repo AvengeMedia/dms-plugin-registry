@@ -455,6 +455,35 @@ Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from
 
 
 
+#### [SPlayerLyrics](https://github.com/lycbowen/SPlayerLyrics)
+
+Display lyrics from SPlayer in Dank Material Shell.
+
+
+
+- id: splayerLyrics
+- name: SPlayerLyrics
+- author: lycbowen
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: qt6-websockets
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/lycbowen/SPlayerLyrics/refs/heads/main/Screenshot2.png)
+
+</details>
+
+
+
+
+
 ---
 
 
