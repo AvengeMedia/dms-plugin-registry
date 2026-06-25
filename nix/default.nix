@@ -10,9 +10,6 @@ let
       
       src = pkgs.fetchgit {
         inherit (plugin) url rev hash fetchSubmodules;
-        deepClone = plugin.deepClone or false;
-        leaveDotGit = plugin.leaveDotGit or false;
-        fetchLFS = plugin.fetchLFS or false;
       };
 
       preferLocalBuild = true;
