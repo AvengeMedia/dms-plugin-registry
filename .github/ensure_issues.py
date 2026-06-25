@@ -25,6 +25,7 @@ DIRECTORY_URL = "https://danklinux.com/plugins"
 PLUGIN_LABEL = "plugin"
 PLUGIN_LABEL_COLOR = "1f6feb"
 MARKER_RE = re.compile(r"<!--\s*dms-plugin-id:\s*([A-Za-z0-9]+)\s*-->")
+SIMILAR_BLOCK_RE = re.compile(r"<!-- dms-similar-start -->.*?<!-- dms-similar-end -->", re.DOTALL)
 CREATE_DELAY_SECONDS = 3.0
 
 DRY_RUN = "--dry-run" in sys.argv
@@ -135,6 +136,10 @@ def build_body(plugin: dict) -> str:
         "- `/deprecated` — flag the plugin as deprecated or retired",
         "- `/review` — mark the plugin as reviewed by a moderator",
         "- `/unreview` — remove the reviewed mark",
+        "- `/similar #<issue>` — link a related plugin (use `/unsimilar #<issue>` to unlink)",
+        "",
+        "<!-- dms-similar-start -->",
+        "<!-- dms-similar-end -->",
         "",
         f"<!-- dms-plugin-id: {plugin['id']} -->",
     ]
@@ -202,9 +207,22 @@ def create_issue(plugin: dict) -> None:
     time.sleep(CREATE_DELAY_SECONDS)
 
 
+def preserve_similar(new_body: str, old_body: str) -> str:
+    """Carry the moderator-managed similar block over from the live issue.
+
+    The server edits the ``dms-similar`` block via the /similar command; the registry
+    must not overwrite it when re-syncing manifest-derived content.
+    """
+    old = (old_body or "").replace("\r\n", "\n")
+    match = SIMILAR_BLOCK_RE.search(old)
+    if not match:
+        return new_body
+    return SIMILAR_BLOCK_RE.sub(lambda _: match.group(0), new_body, count=1)
+
+
 def sync_issue_content(issue: dict, plugin: dict) -> bool:
     title = build_title(plugin)
-    body = build_body(plugin)
+    body = preserve_similar(build_body(plugin), issue.get("body") or "")
 
     body_matches = (issue.get("body") or "").replace("\r\n", "\n").strip() == body.strip()
     if issue.get("title") == title and body_matches:
