@@ -8585,44 +8585,6 @@
     "sha256": "1v0s59l1kpzsmcwhzk0qj2x6cgfgi7p1r9ba61335h9vjqw3rw8p",
     "url": "https://github.com/antikytheraton/DankWebcamViewer"
   },
-  "weeklyCalendar": {
-    "date": "2026-06-12T11:58:04-06:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-L5mpTOu5yyN78Io/9pRVc/1tI8hO/1r8M8bBPtjKuTw=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "arqueon (ported from dodaars)",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [
-        "evolution-data-server",
-        "python-dateutil",
-        "libical"
-      ],
-      "description": "A Material 3 weekly calendar with five views (Week, 4 Days, Day, Agenda, Month), Evolution Data Server integration for Google/Nextcloud/CalDAV calendars, event creation from the widget, tooltips, overlap management, and Evolution deep-link on click.",
-      "distro": [
-        "any"
-      ],
-      "id": "weeklyCalendar",
-      "name": "Weekly Calendar",
-      "repo": "https://github.com/arqueon/dms-calendar",
-      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-calendar/master/assets/screenshot.png",
-      "version": "2.0.0"
-    },
-    "path": "/nix/store/ragcq6arrl4g3c6rilfiyp4l0rjf971y-dms-calendar",
-    "rev": "aa2c02f0652aea24481a147f31e7a6cc6dc704cb",
-    "rootDir": "",
-    "sha256": "0g5rrbc3xhf66gy5mzsfr0invzbkanagcgway1xj7jxrxd6ak69g",
-    "url": "https://github.com/arqueon/dms-calendar"
-  },
   "widgetGroup": {
     "date": "2026-06-19T12:47:01-04:00",
     "deepClone": false,
