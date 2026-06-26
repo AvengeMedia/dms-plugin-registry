@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-06-24T20:52:14-03:00",
+    "date": "2026-06-26T00:19:15-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-4m6egZK42upAm7H+hwGfyHVYYcg/+gntq+PFzuhf3AI=",
+    "hash": "sha256-WR1gf3z8lba1wET3F/z7jndJfVHTnKA00E2iMQnx2as=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -178,12 +178,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.4.11"
+      "version": "1.4.12"
     },
-    "path": "/nix/store/dkgga4kg8xrz504qbnkkij19dh3y3pra-AiOverviewControl",
-    "rev": "1c065d2043989d4017af88a5d43123fa87322b4d",
+    "path": "/nix/store/27sha5dymmjilpp4m3j4x54qpfjb4gay-AiOverviewControl",
+    "rev": "008217815bb611b5c6f09af8d00c09f9f0656fd4",
     "rootDir": "",
-    "sha256": "00nwbzlcxig3mgnhkyizr1hmhxf8kw0qgzmikd0fmnmqja0rwvp2",
+    "sha256": "1ayry44k38jds0sa176ka5yljxwfzgy1gxs4q2svd5gwgizn07ar",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "airQuality": {
@@ -3687,12 +3687,12 @@
     "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
-    "date": "2026-06-25T01:19:07+08:00",
+    "date": "2026-06-26T00:06:24+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uztlYYj+WFbd3fR3XjyhDCqZiDCwPyEDsVG1DBRysK8=",
+    "hash": "sha256-8m+LsomJgtBPDtdzhI5UMplxVRzFaITaFUG0cTNojns=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3714,19 +3714,19 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
       "version": "1.0.3"
     },
-    "path": "/nix/store/z59j00l0iiqs7lvwjinq5rl6hsqx0ia9-dms-conky",
-    "rev": "8274c803c33eb619add345d2bd18443b997214be",
+    "path": "/nix/store/kzmaav6n8jxy0r089gxl9qzpp61jmy8n-dms-conky",
+    "rev": "aa2b3be48c5288d136714bf244f0339df02e55b5",
     "rootDir": "",
-    "sha256": "1bxhf8a0rdain41j2gxh6249jahcl4y5wxzlvpfmcn7yi1hnafxv",
+    "sha256": "0ywfd0rp3d212pd88s653iap369jaj788wyp1r7x10l9i6r8nvzj",
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
-    "date": "2026-06-24T23:40:53+08:00",
+    "date": "2026-06-26T13:10:22+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-BVpc/x+abz4+Ul3TQMGLEEg+iEv/D5I7kQ2PF3xJ8WU=",
+    "hash": "sha256-PWsuYCxvqzYIL9r7HNRpeNdv2sAix+Q13JOmEjob0k0=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3746,12 +3746,12 @@
       "name": "DMS File Manager",
       "repo": "https://github.com/suruibin/dms-filemanager",
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
-    "path": "/nix/store/yc5h992k32mfgn27d35vh7b2ngfh5qz4-dms-filemanager",
-    "rev": "292de01957c77fe0c4667e55e666d334273d5681",
+    "path": "/nix/store/7d6m3b98my4vppb4063i0g5qcfy6j2yc-dms-filemanager",
+    "rev": "e29c185706b55c961889370c911b7acfc12b16a8",
     "rootDir": "",
-    "sha256": "0rgi95y1g3qdj4xr43zz9f43wj0hig0l1lsxa8z3wvws3zzmqnh5",
+    "sha256": "0kfj3cx159lkvhsy9ir2q3d6zmvqd7a1ryys5w43davg5ih2wsrx",
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
@@ -6813,12 +6813,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-06-25T02:42:19+07:00",
+    "date": "2026-06-26T00:21:23+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-pT0+djXG0oLtXIhUggkQDSenJr7d2rLxIDtSRbMUjlU=",
+    "hash": "sha256-aZQYA8EKCWc5UMH54VCuKriXX+K5p7iNEmhlNS993f0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6846,10 +6846,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "2.6.0"
     },
-    "path": "/nix/store/1n61rlp8s46vyzdf4bvh16acxv8s7hdx-dms-quick-capture",
-    "rev": "03e9bd03e278e47756e9fe0996aaab8bede732ab",
+    "path": "/nix/store/lbnkscydy6dsp4bg4d5ddn8d2jlhk2gh-dms-quick-capture",
+    "rev": "e5a9e9ce29ddbdfac42ec063c7d3a1716e7cb13b",
     "rootDir": "",
-    "sha256": "0mcf2jrlaliv43qv5nnxpqkaf9qd204q4m48bknq5ln66mv3wgd5",
+    "sha256": "1zfxglpkarb82a6vi9xrw9grgf1amr8f3yf1a0wnf28aq41ii539",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -7083,12 +7083,12 @@
     "url": "https://github.com/arqueon/dms-screen-recorder"
   },
   "screenRecorderLH": {
-    "date": "2026-06-23T12:49:33+07:00",
+    "date": "2026-06-25T11:18:55+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-z0hrGmxokwoVDTZA07A3vDQc23+XDoEEAouA9UlUZlg=",
+    "hash": "sha256-zCVip4iaFx9g5sLIxyolEMPunycskf5U4tltFPEWUnw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7115,12 +7115,12 @@
       "repo": "https://github.com/hthienloc/dms-screen-recorder",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-screen-recorder/master/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/p7h4pfifzb2ajnddb85w2h6rrjyvrnv4-dms-screen-recorder",
-    "rev": "6e7fe691d021fc4450539958440f2a7b50706952",
+    "path": "/nix/store/fqx4wswlss30h7xi8spn1d3g220a39yv-dms-screen-recorder",
+    "rev": "440a71f1bdd275f3d662beaae38593b68a605dd2",
     "rootDir": "",
-    "sha256": "0n36ai4zb04b082823lpgzdiqd5w6yqd6h1n1lahm4v8dhd6nj6g",
+    "sha256": "0z2j2vqi8vfrw9agx49c4ygyxhqh4lmcgj62wrh1y5wsi2kn49fc",
     "url": "https://github.com/hthienloc/dms-screen-recorder"
   },
   "screenkey": {
