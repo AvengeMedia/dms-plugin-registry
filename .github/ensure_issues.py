@@ -25,6 +25,10 @@ DIRECTORY_URL = "https://danklinux.com/plugins"
 PLUGIN_LABEL = "plugin"
 PLUGIN_LABEL_COLOR = "1f6feb"
 MARKER_RE = re.compile(r"<!--\s*dms-plugin-id:\s*([A-Za-z0-9]+)\s*-->")
+SIMILAR_START = "<!-- dms-similar-start -->"
+SIMILAR_END = "<!-- dms-similar-end -->"
+SIMILAR_BLOCK_RE = re.compile(r"<!-- dms-similar-start -->.*?<!-- dms-similar-end -->", re.DOTALL)
+SIMILAR_DATA_RE = re.compile(r"<!--\s*dms-similar:\s*([^>]*?)\s*-->")
 CREATE_DELAY_SECONDS = 3.0
 
 DRY_RUN = "--dry-run" in sys.argv
@@ -135,6 +139,10 @@ def build_body(plugin: dict) -> str:
         "- `/deprecated` — flag the plugin as deprecated or retired",
         "- `/review` — mark the plugin as reviewed by a moderator",
         "- `/unreview` — remove the reviewed mark",
+        "- `/similar #<issue>` — link a related plugin (use `/unsimilar #<issue>` to unlink)",
+        "",
+        "<!-- dms-similar-start -->",
+        "<!-- dms-similar-end -->",
         "",
         f"<!-- dms-plugin-id: {plugin['id']} -->",
     ]
@@ -202,9 +210,67 @@ def create_issue(plugin: dict) -> None:
     time.sleep(CREATE_DELAY_SECONDS)
 
 
-def sync_issue_content(issue: dict, plugin: dict) -> bool:
+def extract_similar_entries(body: str) -> list[tuple[str, int]]:
+    match = SIMILAR_DATA_RE.search(body or "")
+    if not match:
+        return []
+
+    entries = []
+    for part in match.group(1).split(","):
+        pair = part.strip().split("=", 1)
+        if len(pair) != 2:
+            continue
+        try:
+            entries.append((pair[0].strip(), int(pair[1].strip())))
+        except ValueError:
+            continue
+    return entries
+
+
+def render_similar_block(entries: list[tuple[str, int]], names: dict[str, str]) -> str:
+    """Render the related-plugins block as a markdown list linking each plugin by name.
+
+    Must stay byte-identical to the server's renderer so reconciling never fights the
+    /similar webhook. The hidden ``dms-similar`` marker carries the ``id=issueNumber``
+    pairs both sides rely on.
+    """
+    if not entries:
+        return f"{SIMILAR_START}\n{SIMILAR_END}"
+
+    items = []
+    data = []
+    for plugin_id, number in entries:
+        name = names.get(plugin_id, plugin_id)
+        url = f"https://github.com/{GITHUB_REPOSITORY}/issues/{number}"
+        items.append(f"- [{name}]({url})")
+        data.append(f"{plugin_id}={number}")
+
+    return (
+        f"{SIMILAR_START}\n**Related plugins:**\n"
+        + "\n".join(items)
+        + f"\n<!-- dms-similar: {','.join(data)} -->\n{SIMILAR_END}"
+    )
+
+
+def preserve_similar(new_body: str, old_body: str, names: dict[str, str]) -> str:
+    """Re-render the moderator-managed similar block from the live issue.
+
+    The server owns this block via the /similar command; the registry re-renders it from
+    its data marker (rather than overwriting it) so the format stays canonical and stale
+    layouts get repaired on the next reconcile.
+    """
+    old = (old_body or "").replace("\r\n", "\n")
+    entries = extract_similar_entries(old)
+    if not entries:
+        return new_body
+
+    block = render_similar_block(entries, names)
+    return SIMILAR_BLOCK_RE.sub(lambda _: block, new_body, count=1)
+
+
+def sync_issue_content(issue: dict, plugin: dict, names: dict[str, str]) -> bool:
     title = build_title(plugin)
-    body = build_body(plugin)
+    body = preserve_similar(build_body(plugin), issue.get("body") or "", names)
 
     body_matches = (issue.get("body") or "").replace("\r\n", "\n").strip() == body.strip()
     if issue.get("title") == title and body_matches:
@@ -244,6 +310,7 @@ def reconcile() -> int:
 
     plugins_dir = Path(__file__).parent.parent / "plugins"
     plugins = load_plugins(plugins_dir)
+    names = {plugin_id: plugin.get("name", plugin_id) for plugin_id, plugin in plugins.items()}
 
     if ONLY:
         plugins = {ONLY: plugins[ONLY]} if ONLY in plugins else {}
@@ -265,7 +332,7 @@ def reconcile() -> int:
         if issue["state"] == "closed":
             set_issue_state(issue, "open", "Plugin is back in the registry; reopening.")
             reopened += 1
-        if sync_issue_content(issue, plugin):
+        if sync_issue_content(issue, plugin, names):
             updated += 1
 
     if not ONLY:
