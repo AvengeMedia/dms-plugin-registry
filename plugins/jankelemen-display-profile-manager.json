@@ -6,7 +6,7 @@
     "repo": "https://github.com/jankelemen/dank-display-profile-manager",
     "author": "Jan Kelemen",
     "description": "DankBar widget for selecting DMS output profiles.",
-    "dependencies": ["dms"],
+    "dependencies": [],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/jankelemen/dank-display-profile-manager/master/assets/screenshot.png"
