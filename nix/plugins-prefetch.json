@@ -3268,6 +3268,40 @@
     "sha256": "1lrgma4kw3j7bs89bmf9ijqwyfl7npvnfwmb4jikziyn91z74blk",
     "url": "https://github.com/EienWolf/dms-displayprofile"
   },
+  "displayProfileManager": {
+    "date": "2026-06-26T17:05:31+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-QXPIrVxlP7+0iJXcn/j0DMkTjZhJueRFsvirmdr2VFI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Jan Kelemen",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "DankBar widget for selecting DMS output profiles.",
+      "distro": [
+        "any"
+      ],
+      "id": "displayProfileManager",
+      "name": "Display Profile Manager",
+      "repo": "https://github.com/jankelemen/dank-display-profile-manager",
+      "screenshot": "https://raw.githubusercontent.com/jankelemen/dank-display-profile-manager/master/assets/screenshot.png",
+      "version": "0.1.1"
+    },
+    "path": "/nix/store/7ipv7qjdn5ianb76r8xi53f0qv3f038c-dank-display-profile-manager",
+    "rev": "92204e68bef4553f7f26e8cd7d29d431f5ae527d",
+    "rootDir": "",
+    "sha256": "0ljlyvd9kazqn92y9fa9k26i7j8cykw9zp4mi2sbygv5bjnwhws1",
+    "url": "https://github.com/jankelemen/dank-display-profile-manager"
+  },
   "displaySettings": {
     "date": "2026-05-18T15:09:12+03:00",
     "deepClone": false,
@@ -3687,12 +3721,12 @@
     "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
-    "date": "2026-06-26T00:06:24+08:00",
+    "date": "2026-06-26T23:52:38+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-8m+LsomJgtBPDtdzhI5UMplxVRzFaITaFUG0cTNojns=",
+    "hash": "sha256-U1ghvkUDyU9gZQjfM1Ol2UUOhb7qLMWG1uVpchqDya4=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3712,21 +3746,21 @@
       "name": "DMS Conky",
       "repo": "https://github.com/suruibin/dms-conky",
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
-    "path": "/nix/store/kzmaav6n8jxy0r089gxl9qzpp61jmy8n-dms-conky",
-    "rev": "aa2b3be48c5288d136714bf244f0339df02e55b5",
+    "path": "/nix/store/w5nazf8vij2nbjiim6hz9mhlwm30w6rd-dms-conky",
+    "rev": "923ca4981cec08de0c20167206e712f18d3a3d4c",
     "rootDir": "",
-    "sha256": "0ywfd0rp3d212pd88s653iap369jaj788wyp1r7x10l9i6r8nvzj",
+    "sha256": "1bn9hcd74sg5ss3cab7aps2hwifrlm9k7pq8cmh4zj838nz22n2k",
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
-    "date": "2026-06-26T13:10:22+08:00",
+    "date": "2026-06-26T23:50:52+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-PWsuYCxvqzYIL9r7HNRpeNdv2sAix+Q13JOmEjob0k0=",
+    "hash": "sha256-nfviMgJnKn7SgniMk4EEcXJq+RjJR0R0vHAfCREwLVs=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3748,10 +3782,10 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
       "version": "1.0.4"
     },
-    "path": "/nix/store/7d6m3b98my4vppb4063i0g5qcfy6j2yc-dms-filemanager",
-    "rev": "e29c185706b55c961889370c911b7acfc12b16a8",
+    "path": "/nix/store/7vgjk6sysny6vcr9qyvpmz0my362gvk1-dms-filemanager",
+    "rev": "80e5793650badb0319d91cb3769193e9bf8f2584",
     "rootDir": "",
-    "sha256": "0kfj3cx159lkvhsy9ir2q3d6zmvqd7a1ryys5w43davg5ih2wsrx",
+    "sha256": "0nrd608hj7vhpis48iy933wnlwki0j0r733qhb97wak708rf5ywx",
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
@@ -3946,12 +3980,12 @@
     "url": "https://github.com/rdannenbring/dropdown-menu"
   },
   "easyEffects": {
-    "date": "2025-12-15T09:52:12+01:00",
+    "date": "2026-06-26T15:17:32+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-q0Xp4RzHd0HgtUZEM4hIES6SDyN8R4lPgQe5aeLMh4c=",
+    "hash": "sha256-FuDIMFZx9KvygoX/otnhrVBSd+NiswzFRU2TSp/kyKg=",
     "leaveDotGit": false,
     "meta": {
       "author": "jonkristian",
@@ -3973,12 +4007,12 @@
       "name": "Easy Effects Profile Switcher",
       "repo": "https://github.com/jonkristian/dms-easyeffects",
       "screenshot": "https://github.com/jonkristian/dms-easyeffects/blob/main/screenshot.png?raw=true",
-      "version": "1.0.4"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/lgx12sqg7l1fs6anl5dmgw3x29gpzimf-dms-easyeffects",
-    "rev": "f50fdb7a110ddb90b7625bc143884fd773c3d5c7",
+    "path": "/nix/store/2s98fj719ah4sy0m5lksq9nl47hxpwp8-dms-easyeffects",
+    "rev": "1c132bf974bcc43db974c7e337b6c6c23526c680",
     "rootDir": "",
-    "sha256": "11w7rki6kf87h57qjivw4c7r4bhi92436i26nph42xy73khyjidb",
+    "sha256": "1a68wjglm4sd8p2hrcv2wdvm4l5dw7cs5zw5hbrapx3iaqqciq0n",
     "url": "https://github.com/jonkristian/dms-easyeffects"
   },
   "emojiLauncher": {
@@ -8443,12 +8477,12 @@
     "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
   },
   "warpToggle": {
-    "date": "2026-06-22T01:18:52+03:00",
+    "date": "2026-06-26T18:05:23+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-gZ0CAnd7DlwIWMZBm2ndtDPcmGMSi+IMNYAyjPgejTI=",
+    "hash": "sha256-WtknXk2vzcYQFHLUXoJ4fdW/R3diO+vmH2P057a4by8=",
     "leaveDotGit": false,
     "meta": {
       "author": "ahmed-mekky",
@@ -8471,10 +8505,10 @@
       "screenshot": "https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/yz4shbdyybwvqh58m5l3qdxj1dvn6xgl-dms-warp-toggle",
-    "rev": "ecfa171a8fe592259492b0d68b7c2a0034a55eff",
+    "path": "/nix/store/fbk14fg2a1jdqd8zwlv64zzls9jmb714-dms-warp-toggle",
+    "rev": "1f3d1c6b74dc0d813ee8f20261b26b2bcf38fc76",
     "rootDir": "",
-    "sha256": "0cld3vw8qcl06l6f52qjcfcdqcxlvmlrnhf6b045q3kvfw1057c1",
+    "sha256": "0bvgp2vfgx333zkfnfv2fx3vzmbxg215xm3j2h8cdkdg9mg2gnas",
     "url": "https://github.com/ahmed-mekky/dms-warp-toggle"
   },
   "weatherArt": {
