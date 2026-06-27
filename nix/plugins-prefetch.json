@@ -929,12 +929,12 @@
     "url": "https://github.com/hthienloc/dms-breathing"
   },
   "caffeine": {
-    "date": "2026-06-27T02:37:53+07:00",
+    "date": "2026-06-27T12:44:05+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-WDd1hVqY7xn6osrZjHH1mGAa5R+TpMT1z2C/rKQp1y8=",
+    "hash": "sha256-FrqNhEFa7YDSCgEyxYqLshCIIPXqie8OBcRKg91ok4Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -956,10 +956,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png",
       "version": "2.1.0"
     },
-    "path": "/nix/store/zn8ig59jimpy34sxxk9awg37n02rx8i5-dms-caffeine",
-    "rev": "bcd649ce07c17a205f62022702a06ae210b6cdbc",
+    "path": "/nix/store/q30sxyjywjv31074niqaa3s022vid0k4-dms-caffeine",
+    "rev": "8af6ed66b367924cba375c7cefeb9eed095f9b67",
     "rootDir": "",
-    "sha256": "0byp56jargv0rzsw994k3zjilq4qymqqrnfalbx1kvwqba2padsq",
+    "sha256": "114kd3fq6jn40l7fz2gaylh8h45jif5cach11b981vas8628vfhn",
     "url": "https://github.com/hthienloc/dms-caffeine"
   },
   "calculator": {
@@ -3721,12 +3721,12 @@
     "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
-    "date": "2026-06-27T09:10:25+08:00",
+    "date": "2026-06-27T12:44:42+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-4eqK7q+FYA4Qc2gT7H3lId1R9KcsZzekSSmrJyQgi6g=",
+    "hash": "sha256-KXMv9l3rtixB9PQB0AbjocsaBc7vQUMJQ1qaE/XnxQs=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3748,19 +3748,19 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
       "version": "1.0.4"
     },
-    "path": "/nix/store/78zp70889fkspmxc0snlmlmnlaqvh4dd-dms-conky",
-    "rev": "d8b14369de8d93c4d3c56764c702f166dd6b9bd8",
+    "path": "/nix/store/h4lkaixcyybj20sa52f9x8p8wqmyskyc-dms-conky",
+    "rev": "311d59934669cc38aaa030dfe06ce831003b2788",
     "rootDir": "",
-    "sha256": "1a4b40j2gar996j3frrclzs53p91wmyyq4v8fc80wq45mzp8msp1",
+    "sha256": "02y5wzsi76js8c4l6hggrq2imjx1wc3d00glyi0jrdpbbpv2ywr9",
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
-    "date": "2026-06-27T08:46:19+08:00",
+    "date": "2026-06-27T10:53:21+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-/PMGzAILXRcuJknc38ZGQGlFgRv+2YfsAHwu0CxOve8=",
+    "hash": "sha256-GFJ+YahedMHuG4CZJxWXqEdkcvkoEqdrFD6z3PxJCsQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3782,10 +3782,10 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
       "version": "1.0.4"
     },
-    "path": "/nix/store/z1qsbkglashk4kpd8fyk34v5if4dlp51-dms-filemanager",
-    "rev": "57303a4fae7bf90721d7047ffded7855a231ce87",
+    "path": "/nix/store/ffqj44axs8lbkcgmvian1hzhhv521qbd-dms-filemanager",
+    "rev": "26ff82d97d1b0d51575d5b4a696ca9ce18272700",
     "rootDir": "",
-    "sha256": "1vxx9qnd0bkw03n8gngy3f0lasa08v3dzp294qp1fp8b0b60dwzw",
+    "sha256": "1i0a97ydrcry2imsf4i8z5r68ix8jwajg6c03gpc2x2ym1hpwlhq",
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
@@ -4797,12 +4797,12 @@
     "url": "https://github.com/hthienloc/dms-hand-mirror"
   },
   "hiddenBar": {
-    "date": "2026-06-14T01:58:22+07:00",
+    "date": "2026-06-27T14:12:41+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-J5TVNFlGZ/DimwU9xcySPDY5F/QTpX3i8uB7jufsGTc=",
+    "hash": "sha256-+CbpWnwxSUo8NKhfg2rumTSDTOZH5Ks1QGwmUEGGOUE=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4822,12 +4822,12 @@
       "name": "Hidden Bar",
       "repo": "https://github.com/hthienloc/dms-hidden-bar",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hidden-bar/master/screenshot.png",
-      "version": "2.4.0"
+      "version": "2.4.2"
     },
-    "path": "/nix/store/ik1i1vabwjdh7jbhir4ckl6mrxzi4snq-dms-hidden-bar",
-    "rev": "e9afb04273f2dbaac31c9bdcd7edb40ee95ad306",
+    "path": "/nix/store/sxc3lc3rsbvvrq3d43rib104lgn0kavd-dms-hidden-bar",
+    "rev": "a42ade74d9ca5b0fd656f9128964b7904b8132af",
     "rootDir": "",
-    "sha256": "0dqrxkkqwyz0ybi7v98kyhbkjdiwjb6cag85kgig0rs6b4sdb517",
+    "sha256": "0h9rhr0m09kc80sspr27wr686d4rxrm86px86hy4lj9igidfj9pq",
     "url": "https://github.com/hthienloc/dms-hidden-bar"
   },
   "homeAssistantMonitor": {
@@ -6609,8 +6609,7 @@
       ],
       "category": "utilities",
       "compositors": [
-        "niri",
-        "hyprland"
+        "any"
       ],
       "dependencies": [],
       "description": "Access power options like shutdown and reboot from the launcher",
@@ -8491,7 +8490,7 @@
       ],
       "category": "utilities",
       "compositors": [
-        "niri"
+        "any"
       ],
       "dependencies": [],
       "description": "Toggle Cloudflare WARP via warp-cli with real-time status updates",
@@ -8501,7 +8500,7 @@
       "id": "warpToggle",
       "name": "WARP Toggle",
       "repo": "https://github.com/ahmed-mekky/dms-warp-toggle",
-      "screenshot": "https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/preview.gif",
       "version": "1.0.0"
     },
     "path": "/nix/store/ixd1iw2l51gp8g8lhq2acjkmjm4lp9rr-dms-warp-toggle",
