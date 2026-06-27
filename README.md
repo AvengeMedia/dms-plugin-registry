@@ -6838,7 +6838,7 @@ Toggle Cloudflare WARP via warp-cli with real-time status updates
 - id: warpToggle
 - name: WARP Toggle
 - author: ahmed-mekky
-- compositors: niri
+- compositors: any
 - capabilities: warp-toggle, dankbar-widget
 - dependencies: 
 - distro: any
@@ -6850,7 +6850,7 @@ Toggle Cloudflare WARP via warp-cli with real-time status updates
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/preview.gif)
 
 </details>
 
