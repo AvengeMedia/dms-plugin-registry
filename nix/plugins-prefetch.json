@@ -929,12 +929,12 @@
     "url": "https://github.com/hthienloc/dms-breathing"
   },
   "caffeine": {
-    "date": "2026-06-13T20:12:25+07:00",
+    "date": "2026-06-27T02:37:53+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-49ukatgfa+9ZgwsS7yyy+VGNTsJOLJVaWB9mU/smBjI=",
+    "hash": "sha256-WDd1hVqY7xn6osrZjHH1mGAa5R+TpMT1z2C/rKQp1y8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -954,12 +954,12 @@
       "name": "Caffeine",
       "repo": "https://github.com/hthienloc/dms-caffeine",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png",
-      "version": "2.0.0"
+      "version": "2.1.0"
     },
-    "path": "/nix/store/lvxqpwn5w4bi4hwgnn57w0cvmq8c6wa1-dms-caffeine",
-    "rev": "d44757a88f1c1b5096eee8f9d48521549de03f63",
+    "path": "/nix/store/zn8ig59jimpy34sxxk9awg37n02rx8i5-dms-caffeine",
+    "rev": "bcd649ce07c17a205f62022702a06ae210b6cdbc",
     "rootDir": "",
-    "sha256": "0ch64vxm6rhzb1d9ab2fq978slgrn8nfy4hbhdcyysqzv1ma9nz3",
+    "sha256": "0byp56jargv0rzsw994k3zjilq4qymqqrnfalbx1kvwqba2padsq",
     "url": "https://github.com/hthienloc/dms-caffeine"
   },
   "calculator": {
@@ -3721,12 +3721,12 @@
     "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
-    "date": "2026-06-26T23:52:38+08:00",
+    "date": "2026-06-27T09:10:25+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-U1ghvkUDyU9gZQjfM1Ol2UUOhb7qLMWG1uVpchqDya4=",
+    "hash": "sha256-4eqK7q+FYA4Qc2gT7H3lId1R9KcsZzekSSmrJyQgi6g=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3748,19 +3748,19 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
       "version": "1.0.4"
     },
-    "path": "/nix/store/w5nazf8vij2nbjiim6hz9mhlwm30w6rd-dms-conky",
-    "rev": "923ca4981cec08de0c20167206e712f18d3a3d4c",
+    "path": "/nix/store/78zp70889fkspmxc0snlmlmnlaqvh4dd-dms-conky",
+    "rev": "d8b14369de8d93c4d3c56764c702f166dd6b9bd8",
     "rootDir": "",
-    "sha256": "1bn9hcd74sg5ss3cab7aps2hwifrlm9k7pq8cmh4zj838nz22n2k",
+    "sha256": "1a4b40j2gar996j3frrclzs53p91wmyyq4v8fc80wq45mzp8msp1",
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
-    "date": "2026-06-26T23:50:52+08:00",
+    "date": "2026-06-27T08:46:19+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-nfviMgJnKn7SgniMk4EEcXJq+RjJR0R0vHAfCREwLVs=",
+    "hash": "sha256-/PMGzAILXRcuJknc38ZGQGlFgRv+2YfsAHwu0CxOve8=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3782,10 +3782,10 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
       "version": "1.0.4"
     },
-    "path": "/nix/store/7vgjk6sysny6vcr9qyvpmz0my362gvk1-dms-filemanager",
-    "rev": "80e5793650badb0319d91cb3769193e9bf8f2584",
+    "path": "/nix/store/z1qsbkglashk4kpd8fyk34v5if4dlp51-dms-filemanager",
+    "rev": "57303a4fae7bf90721d7047ffded7855a231ce87",
     "rootDir": "",
-    "sha256": "0nrd608hj7vhpis48iy933wnlwki0j0r733qhb97wak708rf5ywx",
+    "sha256": "1vxx9qnd0bkw03n8gngy3f0lasa08v3dzp294qp1fp8b0b60dwzw",
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
@@ -8383,8 +8383,7 @@
       ],
       "category": "utilities",
       "compositors": [
-        "niri",
-        "hyprland"
+        "any"
       ],
       "dependencies": [],
       "description": "Browse and pick wallpapers with a fullscreen skewed carousel overlay",
@@ -8477,12 +8476,12 @@
     "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
   },
   "warpToggle": {
-    "date": "2026-06-26T18:05:23+03:00",
+    "date": "2026-06-26T19:07:24+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-WtknXk2vzcYQFHLUXoJ4fdW/R3diO+vmH2P057a4by8=",
+    "hash": "sha256-SgUWuMG5bDuFbdXvWmSUfgOyiq2kX/6iovUIWITDxsE=",
     "leaveDotGit": false,
     "meta": {
       "author": "ahmed-mekky",
@@ -8505,10 +8504,10 @@
       "screenshot": "https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/fbk14fg2a1jdqd8zwlv64zzls9jmb714-dms-warp-toggle",
-    "rev": "1f3d1c6b74dc0d813ee8f20261b26b2bcf38fc76",
+    "path": "/nix/store/ixd1iw2l51gp8g8lhq2acjkmjm4lp9rr-dms-warp-toggle",
+    "rev": "3bee1e952c626071167c4e0aedad6241f7f624e0",
     "rootDir": "",
-    "sha256": "0bvgp2vfgx333zkfnfv2fx3vzmbxg215xm3j2h8cdkdg9mg2gnas",
+    "sha256": "1hf6qf25h27mlaigwpx4mn5b40vyjij5mvymdn2knv5rq6w1c1aa",
     "url": "https://github.com/ahmed-mekky/dms-warp-toggle"
   },
   "weatherArt": {
@@ -8658,12 +8657,12 @@
     "url": "https://github.com/arqueon/dms-calendar"
   },
   "widgetGroup": {
-    "date": "2026-06-19T12:47:01-04:00",
+    "date": "2026-06-26T16:54:43-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-3uMtYcR4/drkAbjAopxWaNCeGv1PpwovPhq4OnU866s=",
+    "hash": "sha256-+ApvThHcyP5Ivd+5nDrkZpKyoq9N1Aet+AJNKBPWfmY=",
     "leaveDotGit": false,
     "meta": {
       "author": "rdannenbring",
@@ -8683,12 +8682,12 @@
       "name": "Widget Group",
       "repo": "https://github.com/rdannenbring/widget-group",
       "screenshot": "https://raw.githubusercontent.com/rdannenbring/widget-group/main/assets/group-expanded.png",
-      "version": "0.5.0"
+      "version": "0.6.0"
     },
-    "path": "/nix/store/7afzcd2gd07jd626qswyx39g8xir4bn6-widget-group",
-    "rev": "a82424ffdaddda90fcfe8d571d902c22fb894bb2",
+    "path": "/nix/store/csiba65aqqckv8zfdzd3wc076nyx9nb7-widget-group",
+    "rev": "cd748fb105375629bf32378c7d05d10e50c51281",
     "rootDir": "",
-    "sha256": "1azb7iskmf0s7qphm9sgzld9xl38asfa5h5q07jdmzbqqihjvqyy",
+    "sha256": "0rkysq9jhk82z2nhgm2dmyib54k6whx9rffzpm4gxj6w2576y2pq",
     "url": "https://github.com/rdannenbring/widget-group"
   },
   "wienerLinien": {
