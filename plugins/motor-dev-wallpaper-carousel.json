@@ -7,7 +7,7 @@
     "author": "yngwe",
     "description": "Browse and pick wallpapers with a fullscreen skewed carousel overlay",
     "dependencies": [],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/motor-dev/wallpaperCarousel/refs/heads/main/screenshot.png",
     "requires_dms": ">=1.2.0"

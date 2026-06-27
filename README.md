@@ -2031,6 +2031,35 @@ Manage display outputs (Single Display, Mirror, Extend).
 
 
 
+#### [Display Profile Manager](https://github.com/jankelemen/dank-display-profile-manager)
+
+DankBar widget for selecting DMS output profiles.
+
+
+
+- id: displayProfileManager
+- name: Display Profile Manager
+- author: Jan Kelemen
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/jankelemen/dank-display-profile-manager/master/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Extended Network Toggle](https://github.com/notherealmarco/dms-plugin-extended-network)
 
 Network toggle with Ethernet, WiFi, and Other interfaces (bridges, VLANs, bonds)
@@ -6809,7 +6838,7 @@ Toggle Cloudflare WARP via warp-cli with real-time status updates
 - id: warpToggle
 - name: WARP Toggle
 - author: ahmed-mekky
-- compositors: niri
+- compositors: any
 - capabilities: warp-toggle, dankbar-widget
 - dependencies: 
 - distro: any
@@ -6821,7 +6850,7 @@ Toggle Cloudflare WARP via warp-cli with real-time status updates
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/preview.gif)
 
 </details>
 
@@ -6838,7 +6867,7 @@ Browse and pick wallpapers with a fullscreen skewed carousel overlay
 - id: wallpaperCarousel
 - name: Wallpaper Carousel
 - author: yngwe
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: wallpaper
 - dependencies: 
 - distro: any
