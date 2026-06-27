@@ -5643,7 +5643,7 @@ Access power options like shutdown and reboot from the launcher
 - id: powerOptions
 - name: Power Options
 - author: Nazahim
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: command-execution
 - dependencies: 
 - distro: any
