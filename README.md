@@ -1655,7 +1655,7 @@ Discord voice call overlay — shows participants as circular avatars with speak
 - id: discordVoice
 - name: Discord Voice Widget
 - author: PandorasFox
-- compositors: niri, hyprland, sway
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: python3
 - distro: any
@@ -5643,7 +5643,7 @@ Access power options like shutdown and reboot from the launcher
 - id: powerOptions
 - name: Power Options
 - author: Nazahim
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: command-execution
 - dependencies: 
 - distro: any
