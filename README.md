@@ -3088,7 +3088,7 @@ Flexible Custom Widget for Showing Running Apps on Dank Bar
 - id: customRunningApps
 - name: Custom Running Apps
 - author: Michael Kushma
-- compositors: niri
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: 
 - distro: any
