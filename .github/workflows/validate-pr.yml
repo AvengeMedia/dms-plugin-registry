@@ -49,16 +49,24 @@ jobs:
           if [ -n "$CI_CHANGED" ]; then
             echo "CI scripts changed, validating all plugins"
             echo "files=" >> "$GITHUB_OUTPUT"
+            echo "should_validate=true" >> "$GITHUB_OUTPUT"
           else
             CHANGED=$(echo "$ALL_CHANGED" | grep '^plugins/' || true)
-            echo "files<<EOF" >> "$GITHUB_OUTPUT"
-            echo "$CHANGED" >> "$GITHUB_OUTPUT"
-            echo "EOF" >> "$GITHUB_OUTPUT"
+            if [ -n "$CHANGED" ]; then
+              echo "files<<EOF" >> "$GITHUB_OUTPUT"
+              echo "$CHANGED" >> "$GITHUB_OUTPUT"
+              echo "EOF" >> "$GITHUB_OUTPUT"
+              echo "should_validate=true" >> "$GITHUB_OUTPUT"
+            else
+              echo "No plugin or CI files changed, skipping plugin validation"
+              echo "should_validate=false" >> "$GITHUB_OUTPUT"
+            fi
           fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Validate plugin links and paths
+        if: steps.changed.outputs.should_validate == 'true'
         id: validate-links
         run: |
           python3 .github/validate_links.py 2>&1 | tee /tmp/validate-links-output.txt
