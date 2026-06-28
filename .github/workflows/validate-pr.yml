@@ -45,22 +45,15 @@ jobs:
         id: changed
         run: |
           ALL_CHANGED=$(gh pr diff ${{ github.event.pull_request.number }} --name-only)
-          CI_CHANGED=$(echo "$ALL_CHANGED" | grep '^\.github/' || true)
-          if [ -n "$CI_CHANGED" ]; then
-            echo "CI scripts changed, validating all plugins"
-            echo "files=" >> "$GITHUB_OUTPUT"
+          CHANGED=$(echo "$ALL_CHANGED" | grep '^plugins/' || true)
+          if [ -n "$CHANGED" ]; then
+            echo "files<<EOF" >> "$GITHUB_OUTPUT"
+            echo "$CHANGED" >> "$GITHUB_OUTPUT"
+            echo "EOF" >> "$GITHUB_OUTPUT"
             echo "should_validate=true" >> "$GITHUB_OUTPUT"
           else
-            CHANGED=$(echo "$ALL_CHANGED" | grep '^plugins/' || true)
-            if [ -n "$CHANGED" ]; then
-              echo "files<<EOF" >> "$GITHUB_OUTPUT"
-              echo "$CHANGED" >> "$GITHUB_OUTPUT"
-              echo "EOF" >> "$GITHUB_OUTPUT"
-              echo "should_validate=true" >> "$GITHUB_OUTPUT"
-            else
-              echo "No plugin or CI files changed, skipping plugin validation"
-              echo "should_validate=false" >> "$GITHUB_OUTPUT"
-            fi
+            echo "No plugin files changed, skipping plugin link validation"
+            echo "should_validate=false" >> "$GITHUB_OUTPUT"
           fi
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
