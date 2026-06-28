@@ -7450,6 +7450,17 @@ Oxeo theme DMS port. https://github.com/specialfish9/oxeo-nvim
 
 
 
+### Oxeo Deep
+
+A darker, more muted DankMaterialShell variant of Oxeo with toned-down primary containers and deeper shell surfaces. Based on the Oxeo DMS port and specialfish9/oxeo-nvim.
+
+- **Author:** William Zimmerman, based on specialfish9
+- **ID:** `oxeoDeep` **Version:** `1.0.0`
+
+![Oxeo Deep](themes/oxeo-deep/preview.svg)
+
+
+
 ### Oxocarbon
 
 High contrast accessible colorscheme inspired by IBM Carbon
