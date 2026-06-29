@@ -1,0 +1,13 @@
+{
+    "id": "digitalClock",
+    "name": "LCD Digital Clock",
+    "capabilities": ["desktop-widget", "clock"],
+    "category": "utilities",
+    "repo": "https://github.com/Kavotax/LCD-Digital-Clock.git",
+    "author": "Kavotax",
+    "description": "A customizable LCD digital clock desktop widget",
+    "dependencies": [],
+    "compositors": ["niri"],
+    "distro": ["arch"],
+    "screenshot": "https://res.cloudinary.com/dk3mpurhc/image/upload/v1782690525/WhatsApp_Image_2026-06-28_at_7.48.29_PM_dmfvdn.jpg"
+}
