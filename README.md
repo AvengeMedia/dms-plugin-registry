@@ -6950,35 +6950,6 @@ Search the web with 23+ built-in search engines plus custom search engine suppor
 
 
 
-#### [Weekly Calendar](https://github.com/arqueon/dms-calendar)
-
-A Material 3 weekly calendar with five views (Week, 4 Days, Day, Agenda, Month), Evolution Data Server integration for Google/Nextcloud/CalDAV calendars, event creation from the widget, tooltips, overlap management, and Evolution deep-link on click.
-
-
-
-- id: weeklyCalendar
-- name: Weekly Calendar
-- author: arqueon (ported from dodaars)
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: evolution-data-server, python-dateutil, libical
-- distro: any
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/arqueon/dms-calendar/master/assets/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Widget Group](https://github.com/rdannenbring/widget-group)
 
 One bar button that expands to reveal a group of widgets inline, each with its own live pill and popout
