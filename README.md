@@ -5005,6 +5005,35 @@ Kubernetes plugin for DankBar
 
 
 
+#### [LCD Digital Clock](https://github.com/Kavotax/LCD-Digital-Clock.git)
+
+A customizable LCD digital clock desktop widget
+
+
+
+- id: digitalClock
+- name: LCD Digital Clock
+- author: Kavotax
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Kavotax/LCD-Digital-Clock/main/LCDClockScreenShot.jpeg)
+
+</details>
+
+
+
+
+
 #### [Live Lyrics](https://gitlab.com/noahpolimon/dms-plugin-livelyrics)
 
 Display synced lyrics on your DankBar (Music Lyrics fork)
