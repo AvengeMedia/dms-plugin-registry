@@ -1473,10 +1473,10 @@ A simple locally-saved TODO list widget for the Dank bar.
 - id: dankTodo
 - name: Dank Todo
 - author: Deepu K Sasidharan
-- compositors: niri
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: 
-- distro: arch
+- distro: any
 
 
 
