@@ -3088,7 +3088,7 @@ Flexible Custom Widget for Showing Running Apps on Dank Bar
 - id: customRunningApps
 - name: Custom Running Apps
 - author: Michael Kushma
-- compositors: niri
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: 
 - distro: any
@@ -7447,6 +7447,17 @@ Oxeo theme DMS port. https://github.com/specialfish9/oxeo-nvim
 - **ID:** `oxeo` **Version:** `1.0.0`
 
 ![Oxeo](themes/oxeo/preview.svg)
+
+
+
+### Oxeo Deep
+
+A darker, more muted DankMaterialShell variant of Oxeo with toned-down primary containers and deeper shell surfaces. Based on the Oxeo DMS port and specialfish9/oxeo-nvim.
+
+- **Author:** William Zimmerman, based on specialfish9
+- **ID:** `oxeoDeep` **Version:** `1.0.0`
+
+![Oxeo Deep](themes/oxeo-deep/preview.svg)
 
 
 
