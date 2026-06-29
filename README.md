@@ -110,6 +110,35 @@ A simple, customizable audio visualizer for your desktop
 
 
 
+#### [DMS Theme Sync](https://github.com/arqueon/dms-theme-sync)
+
+Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fontconfig and XWayland apps — theme, light/dark, fonts, sizes, icons and cursor.
+
+
+
+- id: dmsThemeSync
+- name: DMS Theme Sync
+- author: arqueon
+- compositors: niri
+- capabilities: dankbar-widget, daemon, ipc
+- dependencies: bash
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Terminal Theme](https://github.com/eduardez/DankTerminalTheme)
 
 Real-time Ghostty theme management from the navbar
