@@ -147,6 +147,8 @@ Thank you for contributing a theme to the Dank Material Shell registry!
     "background": "#hex",
     "backgroundText": "#hex",
     "outline": "#hex",
+    "surfaceContainerLowest": "#hex",
+    "surfaceContainerLow": "#hex",
     "surfaceContainer": "#hex",
     "surfaceContainerHigh": "#hex",
     "error": "#hex",
@@ -166,6 +168,8 @@ Thank you for contributing a theme to the Dank Material Shell registry!
     "background": "#hex",
     "backgroundText": "#hex",
     "outline": "#hex",
+    "surfaceContainerLowest": "#hex",
+    "surfaceContainerLow": "#hex",
     "surfaceContainer": "#hex",
     "surfaceContainerHigh": "#hex",
     "error": "#hex",
@@ -197,6 +201,8 @@ Thank you for contributing a theme to the Dank Material Shell registry!
 - **background**: App background color
 - **backgroundText**: Text on background
 - **outline**: Border/divider color
+- **surfaceContainerLowest**: Lowest-elevation container background (darkest in dark mode, lightest in light mode)
+- **surfaceContainerLow**: Low-elevation container background (between surface and surfaceContainer)
 - **surfaceContainer**: Container background
 - **surfaceContainerHigh**: Elevated container background
 - **error**: Error state color
