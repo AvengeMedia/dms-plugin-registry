@@ -199,15 +199,21 @@ Thank you for contributing a theme to the Dank Material Shell registry!
 - **surfaceVariantText**: Text on variant surfaces
 - **surfaceTint**: Tint overlay color
 - **background**: App background color
-- **backgroundText**: Text on background
+- **backgroundText**: Text on background _(matugen-only — see note)_
 - **outline**: Border/divider color
-- **surfaceContainerLowest**: Lowest-elevation container background (darkest in dark mode, lightest in light mode)
-- **surfaceContainerLow**: Low-elevation container background (between surface and surfaceContainer)
+- **surfaceContainerLowest**: Lowest-elevation container background (darkest in dark mode, lightest in light mode) _(matugen-only — see note)_
+- **surfaceContainerLow**: Low-elevation container background (between surface and surfaceContainer) _(matugen-only — see note)_
 - **surfaceContainer**: Container background
 - **surfaceContainerHigh**: Elevated container background
 - **error**: Error state color
 - **warning**: Warning state color
 - **info**: Info state color
+
+> **Note — matugen-only keys:** `surfaceContainerLowest`, `surfaceContainerLow`, and
+> `backgroundText` are not rendered by DankMaterialShell's own UI. They complete the
+> Material palette and are exported to matugen templates (VS Code, KDE, Firefox, Zed,
+> etc.), so external apps themed via DMS use them. They are still required for a valid
+> theme — pick sensible values that fit your palette.
 
 ### Theme Variants (Optional)
 
