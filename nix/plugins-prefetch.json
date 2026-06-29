@@ -2800,12 +2800,12 @@
     "url": "https://github.com/eduardez/DankTerminalTheme"
   },
   "dcalUpcoming": {
-    "date": "2026-06-27T20:10:56-04:00",
+    "date": "2026-06-29T11:52:29-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-BFkLnJJQ9WsEAMUtfImQ3gjwyzWhTXBzR4TgWnpsIg8=",
+    "hash": "sha256-xw3kCpsSR656iv/pmiaxjNKPsON0j8n7WDZW82tYGts=",
     "leaveDotGit": false,
     "meta": {
       "author": "leoamaro01",
@@ -2830,10 +2830,10 @@
       "screenshot": "https://raw.githubusercontent.com/leoamaro01/dms-dcal/main/screenshot.png",
       "version": "1.2.0"
     },
-    "path": "/nix/store/68wyzj2sw3pfx77dx352ww284qpmqyvi-dms-dcal",
-    "rev": "69993a096f772032132ac8ee0cbedc4e7caa06a2",
+    "path": "/nix/store/46lrfhc5pazlvi00m4329g71xan67if8-dms-dcal",
+    "rev": "409d724cdd1f3f59dc3aa7f687c8185a95c051de",
     "rootDir": "",
-    "sha256": "03r2dix5mq448xrp0kd16p5z026yj24pqbf50026pxahjaf0nn84",
+    "sha256": "1nqsb1mz6minb3xwk3vlwfq8zllcn4k9msgzi9xawiqjkc5f83f7",
     "url": "https://github.com/leoamaro01/dms-dcal"
   },
   "ddcBrightness": {
@@ -3089,6 +3089,40 @@
     "rootDir": "",
     "sha256": "063v2qqaycjls8nhd8kdfyj929cjj77jdlhdbb24x5743g3p6ywb",
     "url": "https://github.com/xantrk/dgpu-sleep-monitor"
+  },
+  "digitalClock": {
+    "date": "2026-06-28T23:42:20-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-fKIQz5ZzTs45nwsf537iD9LI6GILTk1SGm6tewxVfiI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Kavotax",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "A customizable LCD digital clock desktop widget",
+      "distro": [
+        "any"
+      ],
+      "id": "digitalClock",
+      "name": "LCD Digital Clock",
+      "repo": "https://github.com/Kavotax/LCD-Digital-Clock.git",
+      "screenshot": "https://raw.githubusercontent.com/Kavotax/LCD-Digital-Clock/main/LCDClockScreenShot.jpeg",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/jrbhpd1991pagwqycvkhlr74w8drci77-LCD-Digital-Clock",
+    "rev": "4e22b95a6404c88abcdcccfdd095c3c33aa3078a",
+    "rootDir": "",
+    "sha256": "08kyal67pbbf3994skhbcblcilhgw9zff7qbkwwwwkkkjv7i18kw",
+    "url": "https://github.com/Kavotax/LCD-Digital-Clock.git"
   },
   "discordVoice": {
     "date": "2026-06-14T08:21:18-07:00",
@@ -6882,12 +6916,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-06-29T22:06:55+07:00",
+    "date": "2026-06-29T23:24:23+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-x0WmAxWKSKTUQgJ+CQDMQcO5cjIG6B16nlaX7/Slvs0=",
+    "hash": "sha256-7RhxN/LMs1wSrrAoahheoyXjw1tWdVcrSjEM3blxqQo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6915,10 +6949,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "2.7.1"
     },
-    "path": "/nix/store/l9aqmwil3knl75w45sgzvqhlcq0g1ai8-dms-quick-capture",
-    "rev": "0f38384ad058fdb01de132efb62f14ac92ad5fa5",
+    "path": "/nix/store/lh1qa22z9lipyn7pp0abp903h8n70xd2-dms-quick-capture",
+    "rev": "bbf0136ce1c7e78a8362059645da1dc5f99ca17e",
     "rootDir": "",
-    "sha256": "1kdylpsfz5snkrx1vs0669rbkhs1rh00jzh28baa8j4a2l1scif7",
+    "sha256": "02m9f6wxs31i98mmfxanbg1y69d3bqc6la5hmq95rcycy8vp267d",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
