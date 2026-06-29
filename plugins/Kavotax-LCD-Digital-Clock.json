@@ -1,7 +1,7 @@
 {
     "id": "digitalClock",
     "name": "LCD Digital Clock",
-    "capabilities": ["desktop-widget", "clock"],
+    "capabilities": ["desktop-widget"]
     "category": "utilities",
     "repo": "https://github.com/Kavotax/LCD-Digital-Clock.git",
     "author": "Kavotax",
