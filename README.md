@@ -4758,7 +4758,7 @@ A widget for displaying your hostname
 - author: irunatbullets
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: dms
+- dependencies: 
 - distro: any
 
 
