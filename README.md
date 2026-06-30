@@ -4259,7 +4259,7 @@ Check for and install Flatpak Updates
 - id: flatpakUpdates
 - name: Flatpak Updates
 - author: Michael Erdely
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: flatpak
 - distro: any
