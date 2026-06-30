@@ -2800,12 +2800,12 @@
     "url": "https://github.com/eduardez/DankTerminalTheme"
   },
   "dcalUpcoming": {
-    "date": "2026-06-29T16:07:04-04:00",
+    "date": "2026-06-29T17:19:16-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uDEbj5VT/Q9a1W9MXo4f2Z+V/k7EcpmfmX3mygN+1iQ=",
+    "hash": "sha256-hJT39y0/2O0jp2KoGToFE59sTd3+eKCfAkmS1mLIAws=",
     "leaveDotGit": false,
     "meta": {
       "author": "leoamaro01",
@@ -2828,12 +2828,12 @@
       "name": "Dcal Upcoming Event",
       "repo": "https://github.com/leoamaro01/dms-dcal",
       "screenshot": "https://raw.githubusercontent.com/leoamaro01/dms-dcal/main/screenshot.png",
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/ww01xvs8hsgxaj3whs9dcyvsg0ayx0n4-dms-dcal",
-    "rev": "eaf26bd6d0c9e0f0a7ce324e8f579f47dd9788f2",
+    "path": "/nix/store/dryfyxwfirfm8xl9972na9bxwl6n9ahr-dms-dcal",
+    "rev": "30850946db526d8cac37014ebd627d66de90fae2",
     "rootDir": "",
-    "sha256": "096ngq1wmrkxk6grjwn49vz9b7yr3y75wk3gsmd0zzakjn7incdq",
+    "sha256": "02q3r1idd4j90ags0y7yvm6nr7qk0lx1ka32lwiyvn1z5pvzg544",
     "url": "https://github.com/leoamaro01/dms-dcal"
   },
   "ddcBrightness": {
@@ -3301,12 +3301,12 @@
     "url": "https://github.com/EienWolf/dms-displayprofile"
   },
   "displayProfileManager": {
-    "date": "2026-06-29T10:20:24+02:00",
+    "date": "2026-06-30T01:58:28+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-LxhclkGoqnWSaXr5IajezhmcafafEiCHzCgqkV9tUUc=",
+    "hash": "sha256-LkM4sze8pxc3ytJJTOSAys/7OXwDE+8SUTk4IH8UcQw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Jan Kelemen",
@@ -3326,12 +3326,12 @@
       "name": "Display Profile Manager",
       "repo": "https://github.com/jankelemen/dank-display-profile-manager",
       "screenshot": "https://raw.githubusercontent.com/jankelemen/dank-display-profile-manager/master/assets/screenshot.png",
-      "version": "0.1.2"
+      "version": "0.1.3"
     },
-    "path": "/nix/store/b7yjcz0hl5n259aqlyfqlaazp3dqyns4-dank-display-profile-manager",
-    "rev": "4e5dd69419eba34a63c37a1dd54a10d3c734f77e",
+    "path": "/nix/store/655bzwwxidlbkja7nd23k28m8q6a0v3n-dank-display-profile-manager",
+    "rev": "4098824bd7039c46f33d1491ac5961170440eff2",
     "rootDir": "",
-    "sha256": "0isidmgr2ai8rj3j04lzyrlrq6ffvsl23ybsd697bam886b5q61g",
+    "sha256": "033i2izj0f1ra49fy4q3ghwzpkyah3j4qjfjr8vig9xw6yrkhhrf",
     "url": "https://github.com/jankelemen/dank-display-profile-manager"
   },
   "displaySettings": {
@@ -4244,8 +4244,7 @@
       ],
       "category": "utilities",
       "compositors": [
-        "niri",
-        "hyprland"
+        "any"
       ],
       "dependencies": [
         "flatpak"
