@@ -637,6 +637,42 @@
     "sha256": "02qa59wndwhgw9dpwy1xjvvjmxh2xlwfn1k5d2r4mib2b6hc2yqv",
     "url": "https://github.com/insecure/dms-audio-inhibit"
   },
+  "audioPortSwitcher": {
+    "date": "2026-06-29T21:46:26-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Wptq7kQsl7y1ogiSMI2x6KDYeuhJits4Imd9AV9Mh4E=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "osvaldx",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "audio",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "pactl"
+      ],
+      "description": "Switch audio ports on a 3.5mm combo jack (internal mic vs headset mic) dynamically.",
+      "distro": [
+        "any"
+      ],
+      "id": "audioPortSwitcher",
+      "name": "Audio Port Switcher",
+      "repo": "https://github.com/osvaldx/Audio-Port-Switcher",
+      "screenshot": "https://raw.githubusercontent.com/osvaldx/Audio-Port-Switcher/refs/heads/main/previews/settings.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/xi7if4ghn9g1bg6vhvcddy4yhkkbx05q-Audio-Port-Switcher",
+    "rev": "c09de3433fce36f250625c3ac7ce7dcda8c17fee",
+    "rootDir": "",
+    "sha256": "10c79igh2zb748wdp2j9x1xdi878n66k14h8lasvr5rc8kp6m6ss",
+    "url": "https://github.com/osvaldx/Audio-Port-Switcher"
+  },
   "audioSlots": {
     "date": "2026-03-22T19:55:58+02:00",
     "deepClone": false,
