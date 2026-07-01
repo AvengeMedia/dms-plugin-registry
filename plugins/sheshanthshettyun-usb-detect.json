@@ -1,0 +1,13 @@
+{
+  "id": "usbDetect",
+  "name": "USB Drive Detector",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/sheshanthShettyun/dms-usb-detect",
+  "author": "sheshanthShettyun",
+  "description": "USB drive detection widget with a compact bar icon, polished popout, storage details, and safe eject support.",
+  "dependencies": ["python3", "udisksctl"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/sheshanthShettyun/dms-usb-detect/main/screenshot_2026-07-01_17-59-17.png"
+}
