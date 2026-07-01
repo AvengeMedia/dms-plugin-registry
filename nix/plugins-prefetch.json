@@ -3861,12 +3861,12 @@
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
-    "date": "2026-06-27T10:53:21+08:00",
+    "date": "2026-07-01T19:47:29+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-GFJ+YahedMHuG4CZJxWXqEdkcvkoEqdrFD6z3PxJCsQ=",
+    "hash": "sha256-5Qi52nclQ6Gb0TmtsaRMlvDAdyjBZW/AAmnZ/H4Sfm0=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3888,10 +3888,10 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
       "version": "1.0.4"
     },
-    "path": "/nix/store/ffqj44axs8lbkcgmvian1hzhhv521qbd-dms-filemanager",
-    "rev": "26ff82d97d1b0d51575d5b4a696ca9ce18272700",
+    "path": "/nix/store/45kl6gr0wnv8j01sq2113xwcxk6cqk9j-dms-filemanager",
+    "rev": "60ae65576334a2f3e0a4889e26ad2c925faefe4b",
     "rootDir": "",
-    "sha256": "1i0a97ydrcry2imsf4i8z5r68ix8jwajg6c03gpc2x2ym1hpwlhq",
+    "sha256": "0vby29zgrnb90b06yrf151vw1w4n9jjb3b9rs6ds2hr5fzdbj275",
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
@@ -7816,7 +7816,7 @@
       ],
       "category": "utility",
       "compositors": [
-        "niri"
+        "any"
       ],
       "dependencies": [
         "python3",
