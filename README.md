@@ -7395,6 +7395,17 @@ Deep and dark color themes with two variants to fit with being dark better
 
 
 
+### Deep Sage
+
+Muted sage green theme, easy on the eyes at night, with bright/deep button variants
+
+- **Author:** viewerofall
+- **ID:** `deepsage` **Version:** `1.0.0`
+
+![Deep Sage](themes/deepsage/preview.svg)
+
+
+
 ### Dracula
 
 Dracula dark theme with Alucard light variant
@@ -7634,6 +7645,17 @@ Popular Tokyo Night color scheme with vibrant blues and purples, Night and Moon 
 - **ID:** `tokyoNightNightMoon` **Version:** `1.0.0`
 
 ![TokyoNight Night and Moon](themes/tokyonight-night-moon/preview.svg)
+
+
+
+### deepmono
+
+Pure grayscale theme, soft off-black at night, three button variants
+
+- **Author:** viewerofall
+- **ID:** `deepmono` **Version:** `1.1.0`
+
+![deepmono](themes/deepmono/preview.svg)
 
 
 
