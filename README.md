@@ -381,6 +381,40 @@ Video wallpaper support using mpvpaper
 
 
 
+#### [theGrove](https://github.com/viewerofall-labs/weather-viewer)
+
+A living tree on your desktop that grows as long as DankMaterialShell does. Water it, watch it grow through six real-time stages, and let it wilt if you forget.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: theGrove
+- name: theGrove
+- author: viewerofall
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: notify-send
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [theGrove](https://github.com/viewerofall-labs/weather-viewer/tree/main/theGrove) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/grove.png)
+
+</details>
+
+
+
+
+
 ---
 
 
