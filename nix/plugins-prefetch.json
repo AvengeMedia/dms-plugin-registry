@@ -493,12 +493,12 @@
     "url": "https://github.com/FeikoWielsma/dms-antigravity-cli"
   },
   "appLauncher": {
-    "date": "2026-06-22T17:20:46+07:00",
+    "date": "2026-07-03T03:41:36+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-iApJFiP7Y3lMWSlciBgIl5ksYlXRipSINE8BXpzVqvk=",
+    "hash": "sha256-sXaG838IBBCV85Iin/zicada0FpQUxANQrbl+nQ8l68=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -520,12 +520,12 @@
       "name": "App Launcher",
       "repo": "https://github.com/hthienloc/dms-app-launcher",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png",
-      "version": "2.2.0"
+      "version": "2.2.1"
     },
-    "path": "/nix/store/jng971mwj36y5vfm6xhm2z88m9ydqkmz-dms-app-launcher",
-    "rev": "ef53897d09335dfbc293746820516d7c0c8ff6ce",
+    "path": "/nix/store/h1cg296264n5gwprwklr6bqrzyd2s2za-dms-app-launcher",
+    "rev": "b8296a20f42593631db93c01d01e7a9706647acb",
     "rootDir": "",
-    "sha256": "1ydasnf5w0ag6j4992niami2r6cp10c8hp19b567jqzv4cb4j2l8",
+    "sha256": "1bwp7isgmrdn886i0lshbb85m9viwby9y8ljyfai0108gzrqcxmi",
     "url": "https://github.com/hthienloc/dms-app-launcher"
   },
   "appShortcut": {
@@ -1449,12 +1449,12 @@
     "url": "https://github.com/zakstam/dms-codexbar"
   },
   "colorPickerDms": {
-    "date": "2026-07-02T01:32:53-03:00",
+    "date": "2026-07-02T15:11:09-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-smdW/nPgD/05inZlOkQK5gPQbIzrllqjZMLf8c3ds8Y=",
+    "hash": "sha256-qA+H3Q8Y+zHs83wSAcAdkwo9DNYJ1CefIjqB+ptZIJ8=",
     "leaveDotGit": false,
     "meta": {
       "author": "bernardopg",
@@ -1480,10 +1480,10 @@
       "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/assets/screenshot.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/mbyfqpalkzkkvdhxi0yi71p1w8xi3vgd-color-picker-dms",
-    "rev": "845c3ae7aff708c90eaeebeb9fb487ffb77abe2d",
+    "path": "/nix/store/m3fyv80mkrnjm36i5b920i4k0i4v1a7m-color-picker-dms",
+    "rev": "0df54f77073cf7891e3597a1a9366d0175d4d569",
     "rootDir": "",
-    "sha256": "1imkvp6z3py2cjimm5pbiind00z61923lrbni8wzs3z0fgz5crxj",
+    "sha256": "17r0b6dzm09s4agjgm09sq63s2lk3p0024kwygn33yqq1zfqf3x8",
     "url": "https://github.com/bernardopg/color-picker-dms"
   },
   "commandRunner": {
@@ -1521,12 +1521,12 @@
     "url": "https://github.com/devnullvoid/dms-command-runner"
   },
   "converter": {
-    "date": "2026-07-01T14:00:26-07:00",
+    "date": "2026-07-02T11:42:56-07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-L3S2z7QqEzisocADeyYKJt5h+u9aanPqRxW6w7q4pW8=",
+    "hash": "sha256-gg00rVoftBlGdfpo7M/XneMMdwfi4Yakm0a6Xmqktoo=",
     "leaveDotGit": false,
     "meta": {
       "author": "viewerofall ",
@@ -1557,10 +1557,10 @@
       "type": "launcher",
       "version": "1.0.0"
     },
-    "path": "/nix/store/j5dipvnrnb4knbpd57lb0m7gj23vwihr-weather-viewer",
-    "rev": "e5cb2512cf2c38f92c10c4670c167b5d90f8b863",
+    "path": "/nix/store/7qj932haqmnissw9zbp7akdafwbkvhr1-weather-viewer",
+    "rev": "e942bc84580fb44e7f4aec9fc0ea29d345c9dcfe",
     "rootDir": "",
-    "sha256": "0vx5p2xc7fhm8zm76sjsxzx63pi618k7n0y0l6n3h4rank7vcx1g",
+    "sha256": "12mnlim5xfj6kfj8dqg20xvhrqwxsz7yqs7sfm31kd0zbank83c2",
     "url": "https://github.com/viewerofall-labs/weather-viewer"
   },
   "cpuCoreLoad": {
@@ -1821,12 +1821,12 @@
     "url": "https://github.com/pacman99/DankBitwarden"
   },
   "dankCalendar": {
-    "date": "2026-06-04T16:17:05+02:00",
+    "date": "2026-07-02T22:06:27+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-+LZpUz5uQTJkvlW3Vv3qKaFqIBPPZenFhEX4CPlzMjI=",
+    "hash": "sha256-obgQOpHScJ1uN21QuPIFTEVgTpDAUxblP77+4Tu3T5k=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -1849,12 +1849,12 @@
       "name": "DankCalendar",
       "repo": "https://github.com/alcxyz/DankCalendar",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankCalendar/main/docs/screenshot.png",
-      "version": "0.5.0"
+      "version": "0.6.0"
     },
-    "path": "/nix/store/mk57x8d254s7xn496qf2bk8hgnr4gg54-DankCalendar",
-    "rev": "bce516c9898429618af38a94593864e4ea9041d7",
+    "path": "/nix/store/fqjb2sprrh8yayfmyz4jikb8az41szdy-DankCalendar",
+    "rev": "0231693cbaf81a995147364a16eec623cb1233f4",
     "rootDir": "",
-    "sha256": "0cijfgwhiy25hk2yjrfg2ch6m899xbymddsmprj34hbf7r9nkdpq",
+    "sha256": "16agnwxy3zmy7zjicly0j1760iac0prbhl3d6xp9sw6jj4x11f51",
     "url": "https://github.com/alcxyz/DankCalendar"
   },
   "dankCleaner": {
@@ -4902,12 +4902,12 @@
     "url": "https://github.com/hthienloc/dms-hand-mirror"
   },
   "hiddenBar": {
-    "date": "2026-06-27T14:53:41+07:00",
+    "date": "2026-07-03T04:44:07+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-PbTC/KCahatV1BXcrd8n2C+BvTyTmEdjmKTS+EYGtg4=",
+    "hash": "sha256-gCmK9oIdz9lUCrUJqyDCkZgNG5XfmqUWqe8xRz7MgJw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -4927,12 +4927,12 @@
       "name": "Hidden Bar",
       "repo": "https://github.com/hthienloc/dms-hidden-bar",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hidden-bar/master/screenshot.png",
-      "version": "2.4.3"
+      "version": "2.5.0"
     },
-    "path": "/nix/store/l24pq9yhxb0f7g49bil7mjp4ginsj4pg-dms-hidden-bar",
-    "rev": "49a21710830d5b45850f526b42d3ab27edd4721a",
+    "path": "/nix/store/0xb1499xyw8bn7afrs8d94rkr217fxgb-dms-hidden-bar",
+    "rev": "21b127f44bb5ee42621df94f509a0410ec803e55",
     "rootDir": "",
-    "sha256": "03mn0r3gilm4k1ilg64k7jyq2byq4zgsvp0msiasp1csl3yc5d1x",
+    "sha256": "1740rhz4fcggm4bab6nzjldhv64iq8han2dm19adkkqxhbv8lac0",
     "url": "https://github.com/hthienloc/dms-hidden-bar"
   },
   "homeAssistantMonitor": {
@@ -7914,12 +7914,12 @@
     "url": "https://github.com/thisilike/dms-plugin-teamspeak"
   },
   "theGrove": {
-    "date": "2026-07-01T14:00:26-07:00",
+    "date": "2026-07-02T11:42:56-07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-L3S2z7QqEzisocADeyYKJt5h+u9aanPqRxW6w7q4pW8=",
+    "hash": "sha256-gg00rVoftBlGdfpo7M/XneMMdwfi4Yakm0a6Xmqktoo=",
     "leaveDotGit": false,
     "meta": {
       "author": "viewerofall",
@@ -7953,10 +7953,10 @@
       "type": "desktop-widget",
       "version": "1.0.0"
     },
-    "path": "/nix/store/j5dipvnrnb4knbpd57lb0m7gj23vwihr-weather-viewer",
-    "rev": "e5cb2512cf2c38f92c10c4670c167b5d90f8b863",
+    "path": "/nix/store/7qj932haqmnissw9zbp7akdafwbkvhr1-weather-viewer",
+    "rev": "e942bc84580fb44e7f4aec9fc0ea29d345c9dcfe",
     "rootDir": "",
-    "sha256": "0vx5p2xc7fhm8zm76sjsxzx63pi618k7n0y0l6n3h4rank7vcx1g",
+    "sha256": "12mnlim5xfj6kfj8dqg20xvhrqwxsz7yqs7sfm31kd0zbank83c2",
     "url": "https://github.com/viewerofall-labs/weather-viewer"
   },
   "timeUntil": {
@@ -8248,12 +8248,12 @@
     "url": "https://github.com/jslandau/dms-unified-taskbar"
   },
   "uptimeBar": {
-    "date": "2026-07-01T14:00:26-07:00",
+    "date": "2026-07-02T11:42:56-07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-L3S2z7QqEzisocADeyYKJt5h+u9aanPqRxW6w7q4pW8=",
+    "hash": "sha256-gg00rVoftBlGdfpo7M/XneMMdwfi4Yakm0a6Xmqktoo=",
     "leaveDotGit": false,
     "meta": {
       "author": "viewerofall",
@@ -8285,10 +8285,10 @@
       "type": "widget",
       "version": "1.1.3"
     },
-    "path": "/nix/store/j5dipvnrnb4knbpd57lb0m7gj23vwihr-weather-viewer",
-    "rev": "e5cb2512cf2c38f92c10c4670c167b5d90f8b863",
+    "path": "/nix/store/7qj932haqmnissw9zbp7akdafwbkvhr1-weather-viewer",
+    "rev": "e942bc84580fb44e7f4aec9fc0ea29d345c9dcfe",
     "rootDir": "",
-    "sha256": "0vx5p2xc7fhm8zm76sjsxzx63pi618k7n0y0l6n3h4rank7vcx1g",
+    "sha256": "12mnlim5xfj6kfj8dqg20xvhrqwxsz7yqs7sfm31kd0zbank83c2",
     "url": "https://github.com/viewerofall-labs/weather-viewer"
   },
   "usbManager": {
@@ -8659,12 +8659,12 @@
     "url": "https://github.com/ahmed-mekky/dms-warp-toggle"
   },
   "weatherArt": {
-    "date": "2026-07-01T14:00:26-07:00",
+    "date": "2026-07-02T11:42:56-07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-L3S2z7QqEzisocADeyYKJt5h+u9aanPqRxW6w7q4pW8=",
+    "hash": "sha256-gg00rVoftBlGdfpo7M/XneMMdwfi4Yakm0a6Xmqktoo=",
     "leaveDotGit": false,
     "meta": {
       "author": "viewerofall",
@@ -8687,10 +8687,10 @@
       "screenshot": "https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/weather.png",
       "version": "0.1.0"
     },
-    "path": "/nix/store/j5dipvnrnb4knbpd57lb0m7gj23vwihr-weather-viewer",
-    "rev": "e5cb2512cf2c38f92c10c4670c167b5d90f8b863",
+    "path": "/nix/store/7qj932haqmnissw9zbp7akdafwbkvhr1-weather-viewer",
+    "rev": "e942bc84580fb44e7f4aec9fc0ea29d345c9dcfe",
     "rootDir": "",
-    "sha256": "0vx5p2xc7fhm8zm76sjsxzx63pi618k7n0y0l6n3h4rank7vcx1g",
+    "sha256": "12mnlim5xfj6kfj8dqg20xvhrqwxsz7yqs7sfm31kd0zbank83c2",
     "url": "https://github.com/viewerofall-labs/weather-viewer"
   },
   "webSearch": {
