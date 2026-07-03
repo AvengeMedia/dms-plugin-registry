@@ -4099,7 +4099,7 @@ Display Docker/Podman container status and management controls
 - name: Docker Manager
 - author: LuckShiba
 - compositors: any
-- capabilities: docker-management, dankbar-widget
+- capabilities: dankbar-widget
 - dependencies: docker or podman
 - distro: any
 
