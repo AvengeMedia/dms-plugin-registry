@@ -3910,6 +3910,35 @@ GPG/SSH passphrase entry with native DMS modal.
 
 
 
+#### [Dankmail Unread](https://github.com/arqueon/dms-dankmail)
+
+Live unread mail badge for dankmail with a triage popout: recent inbox with per-message actions, compose, sync and DND. Requires the dmail daemon.
+
+
+
+- id: dankmailUnread
+- name: Dankmail Unread
+- author: arqueon
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dmail
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-dankmail/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dcal Upcoming Event](https://github.com/leoamaro01/dms-dcal)
 
 Shows your next calendar event from dcal with a live countdown timer. Displays event name and time remaining, with Now indicator for current events. Click to toggle dcal UI.
