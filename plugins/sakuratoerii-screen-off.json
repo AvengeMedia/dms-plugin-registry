@@ -7,7 +7,7 @@
     "author": "Ordis",
     "description": "Turn off monitors from DankBar or Control Center.",
     "dependencies": [],
-    "compositors": ["niri", "hyprland", "sway", "labwc"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/SakuraToErii/DmsScreenOff/main/assets/screenshot.png"
 }
