@@ -7,7 +7,7 @@
     "author": "Deepu K Sasidharan",
     "description": "A simple locally-saved TODO list widget for the Dank bar.",
     "dependencies": [],
-    "compositors": ["niri"],
-    "distro": ["arch"],
+    "compositors": ["any"],
+    "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/deepu105/dms-dank-todo/main/screenshot.png"
 }

@@ -34,7 +34,7 @@ Some plugins are created by third-party developers and are not officially suppor
 
 ## Plugins
 
-**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Network](#network) | [Networking](#networking) | [Productivity](#productivity) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Utility](#utility) | [Weather](#weather)
+**Categories:** [Stock](#stock) | [Appearance](#appearance) | [Audio](#audio) | [Finance](#finance) | [Media](#media) | [Monitoring](#monitoring) | [Network](#network) | [Networking](#networking) | [Productivity](#productivity) | [Social](#social) | [System](#system) | [Utilities](#utilities) | [Utility](#utility) | [Weather](#weather)
 
 ---
 
@@ -103,6 +103,35 @@ A simple, customizable audio visualizer for your desktop
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/ernestowgg/cava-visualizer/blob/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [DMS Theme Sync](https://github.com/arqueon/dms-theme-sync)
+
+Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fontconfig and XWayland apps — theme, light/dark, fonts, sizes, icons and cursor.
+
+
+
+- id: dmsThemeSync
+- name: DMS Theme Sync
+- author: arqueon
+- compositors: niri
+- capabilities: dankbar-widget, daemon, ipc
+- dependencies: bash
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png)
 
 </details>
 
@@ -345,6 +374,77 @@ Video wallpaper support using mpvpaper
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/kanghengliu/dms-mpvpaper/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [theGrove](https://github.com/viewerofall-labs/weather-viewer)
+
+A living tree on your desktop that grows as long as DankMaterialShell does. Water it, watch it grow through six real-time stages, and let it wilt if you forget.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: theGrove
+- name: theGrove
+- author: viewerofall
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: notify-send
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [theGrove](https://github.com/viewerofall-labs/weather-viewer/tree/main/theGrove) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/grove.png)
+
+</details>
+
+
+
+
+
+---
+
+
+
+### Audio
+
+
+
+#### [Audio Port Switcher](https://github.com/osvaldx/Audio-Port-Switcher)
+
+Switch audio ports on a 3.5mm combo jack (internal mic vs headset mic) dynamically.
+
+
+
+- id: audioPortSwitcher
+- name: Audio Port Switcher
+- author: osvaldx
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: pactl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/osvaldx/Audio-Port-Switcher/refs/heads/main/previews/settings.png)
 
 </details>
 
@@ -1473,10 +1573,10 @@ A simple locally-saved TODO list widget for the Dank bar.
 - id: dankTodo
 - name: Dank Todo
 - author: Deepu K Sasidharan
-- compositors: niri
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: 
-- distro: arch
+- distro: any
 
 
 
@@ -1655,7 +1755,7 @@ Discord voice call overlay — shows participants as circular avatars with speak
 - id: discordVoice
 - name: Discord Voice Widget
 - author: PandorasFox
-- compositors: niri, hyprland, sway
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: python3
 - distro: any
@@ -2031,6 +2131,35 @@ Manage display outputs (Single Display, Mirror, Extend).
 
 
 
+#### [Display Profile Manager](https://github.com/jankelemen/dank-display-profile-manager)
+
+DankBar widget for selecting DMS output profiles.
+
+
+
+- id: displayProfileManager
+- name: Display Profile Manager
+- author: Jan Kelemen
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/jankelemen/dank-display-profile-manager/master/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Extended Network Toggle](https://github.com/notherealmarco/dms-plugin-extended-network)
 
 Network toggle with Ethernet, WiFi, and Other interfaces (bridges, VLANs, bonds)
@@ -2227,6 +2356,35 @@ Switch CPU schedulers (sched-ext) and power profiles from the bar. Supports all 
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/SK-DEV-AI/dankSchedPicker/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Screen Off](https://github.com/SakuraToErii/DmsScreenOff)
+
+Turn off monitors from DankBar or Control Center.
+
+
+
+- id: screenOff
+- name: Screen Off
+- author: Ordis
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/SakuraToErii/DmsScreenOff/main/assets/screenshot.png)
 
 </details>
 
@@ -3059,7 +3217,7 @@ Flexible Custom Widget for Showing Running Apps on Dank Bar
 - id: customRunningApps
 - name: Custom Running Apps
 - author: Michael Kushma
-- compositors: niri
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: 
 - distro: any
@@ -3970,7 +4128,7 @@ Display Docker/Podman container status and management controls
 - name: Docker Manager
 - author: LuckShiba
 - compositors: any
-- capabilities: docker-management, dankbar-widget
+- capabilities: dankbar-widget
 - dependencies: docker or podman
 - distro: any
 
@@ -4201,7 +4359,7 @@ Check for and install Flatpak Updates
 - id: flatpakUpdates
 - name: Flatpak Updates
 - author: Michael Erdely
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: flatpak
 - distro: any
@@ -4663,7 +4821,7 @@ A widget for displaying your hostname
 - author: irunatbullets
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: dms
+- dependencies: 
 - distro: any
 
 
@@ -4940,6 +5098,35 @@ Kubernetes plugin for DankBar
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/psyreactor/dms-kubernetes/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [LCD Digital Clock](https://github.com/Kavotax/LCD-Digital-Clock.git)
+
+A customizable LCD digital clock desktop widget
+
+
+
+- id: digitalClock
+- name: LCD Digital Clock
+- author: Kavotax
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Kavotax/LCD-Digital-Clock/main/LCDClockScreenShot.jpeg)
 
 </details>
 
@@ -5614,7 +5801,7 @@ Access power options like shutdown and reboot from the launcher
 - id: powerOptions
 - name: Power Options
 - author: Nazahim
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: command-execution
 - dependencies: 
 - distro: any
@@ -6809,7 +6996,7 @@ Toggle Cloudflare WARP via warp-cli with real-time status updates
 - id: warpToggle
 - name: WARP Toggle
 - author: ahmed-mekky
-- compositors: niri
+- compositors: any
 - capabilities: warp-toggle, dankbar-widget
 - dependencies: 
 - distro: any
@@ -6821,7 +7008,7 @@ Toggle Cloudflare WARP via warp-cli with real-time status updates
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/preview.gif)
 
 </details>
 
@@ -6838,7 +7025,7 @@ Browse and pick wallpapers with a fullscreen skewed carousel overlay
 - id: wallpaperCarousel
 - name: Wallpaper Carousel
 - author: yngwe
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: wallpaper
 - dependencies: 
 - distro: any
@@ -7112,7 +7299,7 @@ A simple plugin to manage CalDav To-Do events or tasks.
 - id: tasks
 - name: Tasks
 - author: Yasiru Dharmathilaka
-- compositors: niri
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: python3, python-caldav
 - distro: any
@@ -7205,6 +7392,17 @@ Arc Darkest GTK theme ported to DankMaterialShell
 
 
 
+### Astral Journey
+
+warm star-glow falling into deep space — deep-space backgrounds with luminous star-glow accents
+
+- **Author:** kmf
+- **ID:** `astralJourney` **Version:** `1.1.0`
+
+![Astral Journey](themes/astral-journey/preview.svg)
+
+
+
 ### Bru
 
 A lekker colorscheme — warm coffee-toned backgrounds with Selenized-bright accents
@@ -7268,6 +7466,17 @@ Deep and dark color themes with two variants to fit with being dark better
 - **ID:** `deepdark` **Version:** `1.0.0`
 
 ![Deep Dark](themes/deepdark/preview.svg)
+
+
+
+### Deep Sage
+
+Muted sage green theme, easy on the eyes at night, with bright/deep button variants
+
+- **Author:** viewerofall
+- **ID:** `deepsage` **Version:** `1.0.0`
+
+![Deep Sage](themes/deepsage/preview.svg)
 
 
 
@@ -7392,6 +7601,17 @@ Oxeo theme DMS port. https://github.com/specialfish9/oxeo-nvim
 
 
 
+### Oxeo Deep
+
+A darker, more muted DankMaterialShell variant of Oxeo with toned-down primary containers and deeper shell surfaces. Based on the Oxeo DMS port and specialfish9/oxeo-nvim.
+
+- **Author:** William Zimmerman, based on specialfish9
+- **ID:** `oxeoDeep` **Version:** `1.0.0`
+
+![Oxeo Deep](themes/oxeo-deep/preview.svg)
+
+
+
 ### Oxocarbon
 
 High contrast accessible colorscheme inspired by IBM Carbon
@@ -7499,6 +7719,17 @@ Popular Tokyo Night color scheme with vibrant blues and purples, Night and Moon 
 - **ID:** `tokyoNightNightMoon` **Version:** `1.0.0`
 
 ![TokyoNight Night and Moon](themes/tokyonight-night-moon/preview.svg)
+
+
+
+### deepmono
+
+Pure grayscale theme, soft off-black at night, three button variants
+
+- **Author:** viewerofall
+- **ID:** `deepmono` **Version:** `1.1.0`
+
+![deepmono](themes/deepmono/preview.svg)
 
 
 

@@ -14,6 +14,14 @@ let
 
       preferLocalBuild = true;
       allowSubstitutes = false;
+
+      # The registry only copies plugin files into $out; it never uses build
+      # output. Skip configure/build so plugins that happen to ship a Makefile
+      # (e.g. a native helper) don't trigger a compile in the compiler-less
+      # stdenvNoCC environment ("cc: command not found").
+      dontConfigure = true;
+      dontBuild = true;
+
       installPhase = ''
         mkdir -p $out
         cp -r ./${plugin.meta.path or "./"}/* $out
