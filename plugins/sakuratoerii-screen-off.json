@@ -1,0 +1,13 @@
+{
+    "id": "screenOff",
+    "name": "Screen Off",
+    "capabilities": ["dankbar-widget", "control-center"],
+    "category": "system",
+    "repo": "https://github.com/SakuraToErii/DmsScreenOff",
+    "author": "Ordis",
+    "description": "Turn off monitors from DankBar or Control Center.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/SakuraToErii/DmsScreenOff/main/assets/screenshot.png"
+}
