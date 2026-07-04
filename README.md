@@ -2363,6 +2363,35 @@ Switch CPU schedulers (sched-ext) and power profiles from the bar. Supports all 
 
 
 
+#### [Screen Off](https://github.com/SakuraToErii/DmsScreenOff)
+
+Turn off monitors from DankBar or Control Center.
+
+
+
+- id: screenOff
+- name: Screen Off
+- author: Ordis
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/SakuraToErii/DmsScreenOff/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [TLP Control](https://github.com/nfrastack/dms-tlpControl)
 
 Battery health monitor + TLP charge threshold/mode controls.
