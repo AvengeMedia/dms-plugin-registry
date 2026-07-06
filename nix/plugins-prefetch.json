@@ -261,12 +261,12 @@
     "url": "https://github.com/lucyfire/dms-plugins"
   },
   "ambientSound": {
-    "date": "2026-07-03T13:28:28+07:00",
+    "date": "2026-07-04T21:36:56+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bJ0OI8If1cn2Zg+DQa/tcgRSJtPug2Z4UzUGlsIKa64=",
+    "hash": "sha256-PwmKzTVgEsL8NYuaPXav3gMZtQzSiEdyp1LvuEQX8AU=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -291,10 +291,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ambient-sound/master/screenshot.png",
       "version": "2.2.0"
     },
-    "path": "/nix/store/pm32sgmb8wfb3vdnf10320sifyj3dl90-dms-ambient-sound",
-    "rev": "960ef22b688fca7fe5e2ffc948e4d726190349cc",
+    "path": "/nix/store/zvdf37mfalz3hyrg7yh7s23fkld9m30c-dms-ambient-sound",
+    "rev": "d1db2c49ec410a601f2611d805cbfb97aaa7c0cb",
     "rootDir": "",
-    "sha256": "1bkb1b19c1imadw6d0zfsck5413jxnpl30qgcvvckm8zq8ihx7bc",
+    "sha256": "01gh2x2bivsjlxr4g26j1jsij0yymxv3v6lb6pyc44k06p6ql29z",
     "url": "https://github.com/hthienloc/dms-ambient-sound"
   },
   "amdGpuMonitor": {
@@ -965,12 +965,12 @@
     "url": "https://github.com/hthienloc/dms-breathing"
   },
   "caffeine": {
-    "date": "2026-06-28T09:31:38+07:00",
+    "date": "2026-07-04T21:02:16+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-wMo9BdPtt0CQf227uH0LDhUTk+ppOEXHts+Yt1k/NuI=",
+    "hash": "sha256-RcO23UGjVLvjggvZgR6M0IU1NStKhTl/2pVkXSNZniQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -992,10 +992,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png",
       "version": "2.1.0"
     },
-    "path": "/nix/store/2a1791y34b5rqnfl71sk9657xgg07f4d-dms-caffeine",
-    "rev": "8a7428a74cc1f0e7247feef237b6079f5f7386bb",
+    "path": "/nix/store/c4vr78p49ay7hyl0kzgk9i5vsnmz8pl0-dms-caffeine",
+    "rev": "b08207b605e2a599566ebb502d3b5acc5837d2b3",
     "rootDir": "",
-    "sha256": "1qin7xcvg66gnv3laf39xa9i658f1dyvifvdgy841dzdsc2kvjn0",
+    "sha256": "094yb4imsr4mv9zkk1aa5cskb1fhihg83n8bhbivnm5387fvdhs5",
     "url": "https://github.com/hthienloc/dms-caffeine"
   },
   "calculator": {
@@ -1671,12 +1671,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankAsusControlCenter": {
-    "date": "2026-05-07T19:02:38+02:00",
+    "date": "2026-07-04T20:37:16+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-qcV7hIqXd+0CNjsVaZyGB7x0Sd54dkH/BtzVbMRQ9rU=",
+    "hash": "sha256-uEmm1e3PHqFH3r4SJrRWwQQpUURzaG1oQc1EwpsxLYg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Shazzaam",
@@ -1700,12 +1700,12 @@
       "name": "Dank ASUS Control Center",
       "repo": "https://github.com/shazzaam7/DankAsusControl",
       "screenshot": "https://raw.githubusercontent.com/shazzaam7/DankAsusControl/refs/heads/main/assets/popup.png",
-      "version": "2.0.0"
+      "version": "2.1.0"
     },
-    "path": "/nix/store/cp30g4c3y9v52811cdbsrljzz81m5jdk-DankAsusControl",
-    "rev": "07ef2964f0f4966feac5e704f1c5fb22ea378552",
+    "path": "/nix/store/6a1af63cgsvry32wa727zc6azkhybw4q-DankAsusControl",
+    "rev": "06548f4d09ce97b9db050f89aff8468fa893c246",
     "rootDir": "",
-    "sha256": "1dgna326rmfw0vzl2xkqvr4p9g07hsf6j59v6q1fsxwpia27pid9",
+    "sha256": "121d66dw4i6d85l6ss3k8i8jj161ass2c4myvr3s27ngxpascjdq",
     "url": "https://github.com/shazzaam7/DankAsusControl"
   },
   "dankAudioVisualizer": {
@@ -8210,12 +8210,12 @@
     "url": "https://github.com/kerojiang/dms-transBin"
   },
   "typingSounds": {
-    "date": "2026-06-24T07:35:01+07:00",
+    "date": "2026-07-04T20:15:22+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-GeH/Ev0xGVoumOTExjfAuZTtczdLsVO4PtWX2xXGb3Q=",
+    "hash": "sha256-WtKH7v5YbPmg95NdrBjJTnEeJYtA1/3yp05Ygn2a/4E=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8239,12 +8239,12 @@
       "name": "Typing Sounds",
       "repo": "https://github.com/hthienloc/dms-typing-sounds",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-typing-sounds/main/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/j899rv64fhkz5s552gwdqiz3lsa2499h-dms-typing-sounds",
-    "rev": "8291b3183f25fed55a3f96f7b0b0b5c141700047",
+    "path": "/nix/store/zr50w2vya5fhgq0n5ijcacfmjwhxgkhi-dms-typing-sounds",
+    "rev": "46982048b5131b669c3e531e0dea012390a104be",
     "rootDir": "",
-    "sha256": "0x3gqqaxp5ym7sw57cab6xryv55rq0vwdi74k0p5l69izl9gzq8r",
+    "sha256": "10gzk9yq4n2flzrgvms0icjiwwafr4caqpckyyhgjv2qzvp8gljs",
     "url": "https://github.com/hthienloc/dms-typing-sounds"
   },
   "unifiedTaskbar": {
