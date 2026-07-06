@@ -7,7 +7,7 @@
     "author": "dwright",
     "description": "Manage your Tailscale network: connect/disconnect, switch accounts, copy device IPs, pick exit nodes, manage routes, and control DNS",
     "dependencies": ["tailscale"],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/dwright134/dms-dankscale/main/docs/screenshot.png"
 }
