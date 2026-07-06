@@ -7166,6 +7166,35 @@ Search the web with 23+ built-in search engines plus custom search engine suppor
 
 
 
+#### [Whisperer](https://github.com/dwright134/dms-whisperer)
+
+Voice dictation: records your voice, transcribes it locally with whisper.cpp, and types the result at the cursor. Optional cloud AI (OpenRouter / Gemini) transcribes and formats in one pass.
+
+
+
+- id: whisperer
+- name: Whisperer
+- author: dwright134
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: pipewire, ffmpeg, wtype, whisper.cpp, libsecret
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/dwright134/dms-whisperer/main/docs/popout.png)
+
+</details>
+
+
+
+
+
 #### [Widget Group](https://github.com/rdannenbring/widget-group)
 
 One bar button that expands to reveal a group of widgets inline, each with its own live pill and popout
