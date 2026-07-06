@@ -2833,6 +2833,45 @@
     "sha256": "02cai4pk9pnajd9xvmf6k38qmg8fbqxqck527ixw0v4g74g5w76h",
     "url": "https://github.com/arqueon/dms-dankmail"
   },
+  "dankscale": {
+    "date": "2026-07-05T15:52:38-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-/LLC0p5l5v8yt0ppsBJ1aHyDJuNatP4y9DAk+qh/fQg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "dwright",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center",
+        "vpn",
+        "network"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "tailscale"
+      ],
+      "description": "Manage your Tailscale network: connect/disconnect, switch accounts, copy device IPs, pick exit nodes, manage routes, and control DNS",
+      "distro": [
+        "any"
+      ],
+      "id": "dankscale",
+      "name": "Dankscale",
+      "repo": "https://github.com/dwright134/dms-dankscale",
+      "screenshot": "https://raw.githubusercontent.com/dwright134/dms-dankscale/main/docs/screenshot.png",
+      "version": "0.2.0"
+    },
+    "path": "/nix/store/pmg1zpx783dprvhwdn0h03dq6sv5n47g-dms-dankscale",
+    "rev": "bc66b53403025e0bcb3aa583495d93d6f8813c92",
+    "rootDir": "",
+    "sha256": "023xgylgl91hyhrgxd2swck86z38fl9b0saanwrgzrk5kv9c5cpw",
+    "url": "https://github.com/dwright134/dms-dankscale"
+  },
   "dankterminaltheme": {
     "date": "2026-04-29T18:37:41+02:00",
     "deepClone": false,
@@ -6984,12 +7023,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-06T13:11:56+07:00",
+    "date": "2026-07-06T21:30:08+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-UYrfSMmcr1bb4ffq0VGhgsR0jCO0v13uMcRezrtVE1s=",
+    "hash": "sha256-kiADEznM7ZxoHYLs4fz4waGWSY4tE9nx+LmQLXm0k7Y=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7015,12 +7054,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.7.7"
+      "version": "2.8.0"
     },
-    "path": "/nix/store/0hng8z9rxw4x1mnc1ryqsk4cjss67qsy-dms-quick-capture",
-    "rev": "d34c3f42b50592dcc67cbd5c852f4117319c18c3",
+    "path": "/nix/store/7i01n00nm4pk5nzkij6yxk2n9vg887dc-dms-quick-capture",
+    "rev": "5ce028d09bb336f6dac7b6af85d326ebfc977adb",
     "rootDir": "",
-    "sha256": "0nqkanxwwpn467p5vgxl4f679i42l58x3sppw7dmdbwwr54dz2ji",
+    "sha256": "1dlkniwjv45rz3qxj4rdir4rd8f1z3yf3v423ml9rvfc749h684j",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -8884,6 +8923,47 @@
     "rootDir": "",
     "sha256": "1v0s59l1kpzsmcwhzk0qj2x6cgfgi7p1r9ba61335h9vjqw3rw8p",
     "url": "https://github.com/antikytheraton/DankWebcamViewer"
+  },
+  "whisperer": {
+    "date": "2026-07-05T17:34:38-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-ASvIqwR2qaybWUOHmy7zdc2gKo7j1O/3xlvamxcNPVI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "dwright134",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "pipewire",
+        "ffmpeg",
+        "wtype",
+        "whisper.cpp",
+        "libsecret"
+      ],
+      "description": "Voice dictation: records your voice, transcribes it locally with whisper.cpp, and types the result at the cursor. Optional cloud AI (OpenRouter / Gemini) transcribes and formats in one pass.",
+      "distro": [
+        "any"
+      ],
+      "id": "whisperer",
+      "name": "Whisperer",
+      "path": "",
+      "repo": "https://github.com/dwright134/dms-whisperer",
+      "screenshot": "https://raw.githubusercontent.com/dwright134/dms-whisperer/main/docs/popout.png",
+      "version": "0.3.0"
+    },
+    "path": "/nix/store/gzg9zzly8ihg7x8zlq3cawqny2yawmhw-dms-whisperer",
+    "rev": "12b69528c3c134281b5e8ad7afb4beeddd71ff4a",
+    "rootDir": "",
+    "sha256": "0lix1lbrpnjvqvvyzm73iqma1kbmycp9p1s3b6dsrabn0jmwhaq1",
+    "url": "https://github.com/dwright134/dms-whisperer"
   },
   "widgetGroup": {
     "date": "2026-06-26T16:54:43-04:00",
