@@ -3968,6 +3968,35 @@ Live unread mail badge for dankmail with a triage popout: recent inbox with per-
 
 
 
+#### [Dankscale](https://github.com/dwright134/dms-dankscale)
+
+Manage your Tailscale network: connect/disconnect, switch accounts, copy device IPs, pick exit nodes, manage routes, and control DNS
+
+
+
+- id: dankscale
+- name: Dankscale
+- author: dwright
+- compositors: any
+- capabilities: dankbar-widget, control-center, vpn, network
+- dependencies: tailscale
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/dwright134/dms-dankscale/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dcal Upcoming Event](https://github.com/leoamaro01/dms-dcal)
 
 Shows your next calendar event from dcal with a live countdown timer. Displays event name and time remaining, with Now indicator for current events. Click to toggle dcal UI.
