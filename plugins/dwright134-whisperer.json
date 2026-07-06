@@ -8,7 +8,7 @@
     "author": "dwright134",
     "description": "Voice dictation: records your voice, transcribes it locally with whisper.cpp, and types the result at the cursor. Optional cloud AI (OpenRouter / Gemini) transcribes and formats in one pass.",
     "dependencies": ["pipewire", "ffmpeg", "wtype", "whisper.cpp", "libsecret"],
-    "compositors": ["niri", "hyprland", "sway"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/dwright134/dms-whisperer/main/docs/popout.png"
 }
