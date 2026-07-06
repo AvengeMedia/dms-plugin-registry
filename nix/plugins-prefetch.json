@@ -3761,7 +3761,7 @@
       ],
       "category": "appearance",
       "compositors": [
-        "niri"
+        "any"
       ],
       "dependencies": [
         "bash"
@@ -7294,12 +7294,12 @@
     "url": "https://github.com/hthienloc/dms-screen-recorder"
   },
   "screenkey": {
-    "date": "2026-06-21T12:24:45+07:00",
+    "date": "2026-07-06T12:14:26+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-myn7XYbUHh5RFWoc9eMdAs3SM7HNJJ2QTR6xDVZBEAI=",
+    "hash": "sha256-LRho8bSSQuUUm9a24JerkIeTOY85uqvg4WvdarFDEys=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7324,12 +7324,12 @@
       "repo": "https://github.com/hthienloc/dms-screenkey",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-screenkey/main/screenshot.png",
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
-    "path": "/nix/store/x621spkxa450nqhqh1rnz1b6wh7ysy1y-dms-screenkey",
-    "rev": "f0a414a4cf4c09ac4bc60edccc70e2d48fa3739d",
+    "path": "/nix/store/z5bcr4qijwh44lwn7rrhb4nilgi5zajw-dms-screenkey",
+    "rev": "670cac883f9362707132bff4733de9034fee42b0",
     "rootDir": "",
-    "sha256": "00hh85b0vc8y9n89s96dn4rx5k823piza73a2m8iw7nlhrfznacv",
+    "sha256": "0aqk8fqnmpbbw7hapfiriwwr71whmfby1dnnkcafahljnkqnh61d",
     "url": "https://github.com/hthienloc/dms-screenkey"
   },
   "screenshotToggle": {
