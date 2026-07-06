@@ -1521,12 +1521,12 @@
     "url": "https://github.com/devnullvoid/dms-command-runner"
   },
   "converter": {
-    "date": "2026-07-02T19:46:54-07:00",
+    "date": "2026-07-05T11:10:10-07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bd0oA20MWzeoOlShDV8pvurC76N3HJ9LccJV54C2jD0=",
+    "hash": "sha256-Hl0kQyNMkag378Bg5u6DHsP/HUsLkWEaxuZYAGxHohU=",
     "leaveDotGit": false,
     "meta": {
       "author": "viewerofall ",
@@ -1557,10 +1557,10 @@
       "type": "launcher",
       "version": "1.0.0"
     },
-    "path": "/nix/store/7fvsmhnn5z2l8zq4zibzj8s527m284q9-weather-viewer",
-    "rev": "2af355c4c62a5dca0021edc8770f49c001b095e7",
+    "path": "/nix/store/7wwfrpg3inzmsjxg5pnhaly7yn0y4g70-weather-viewer",
+    "rev": "1900d8293d87b5b04c16b47591cc59613074eb0d",
     "rootDir": "",
-    "sha256": "0gccns0ffmf2f55ry73plgpw5smy55ghv8al7al3fnqcdl1jipbd",
+    "sha256": "05d28xn00n76qqd6348b9cfzzhqyhgpfcq60xwvsi4ac4d1j8p8y",
     "url": "https://github.com/viewerofall-labs/weather-viewer"
   },
   "cpuCoreLoad": {
@@ -3745,12 +3745,12 @@
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dmsThemeSync": {
-    "date": "2026-06-29T23:30:41-06:00",
+    "date": "2026-07-05T00:38:12-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-QhEVA7jfwQDIiYErr/20ycfd07H2e0JlYFtOiopS+3Y=",
+    "hash": "sha256-vYIxkJRTt6xhTu1t44oK8RoYdn/2jxd7HmNqUK27DI8=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -3761,7 +3761,7 @@
       ],
       "category": "appearance",
       "compositors": [
-        "niri"
+        "any"
       ],
       "dependencies": [
         "bash"
@@ -3774,12 +3774,12 @@
       "name": "DMS Theme Sync",
       "repo": "https://github.com/arqueon/dms-theme-sync",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png",
-      "version": "0.3.0"
+      "version": "0.4.0"
     },
-    "path": "/nix/store/z21lr6rqcdcbi9jjjsay803fr461q55m-dms-theme-sync",
-    "rev": "a80dfda4b40b1f871333219f75c45f8ec9b71d06",
+    "path": "/nix/store/bywkvq6fx9f285yxsiy77jq8153k7n77-dms-theme-sync",
+    "rev": "c70575ea49fc12bfd69152cdaa72d1d6618841fb",
     "rootDir": "",
-    "sha256": "0xpvaa58lkjvc1jl4yznn79xviy9nkysyaw1i7401hfzp01ia4a2",
+    "sha256": "13qcpfnm0sk33rxig3zngxv1h6pi1a5f6vgd9rhsrdskjj8330mx",
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
   "dmsWhisper": {
@@ -3827,12 +3827,12 @@
     "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
-    "date": "2026-06-27T12:44:42+08:00",
+    "date": "2026-07-05T10:50:15+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-KXMv9l3rtixB9PQB0AbjocsaBc7vQUMJQ1qaE/XnxQs=",
+    "hash": "sha256-cDkooWI4KIZ+EHjdSzvOH/arF8TR7v1UuTp6GYKV6ic=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -3854,10 +3854,10 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
       "version": "1.0.4"
     },
-    "path": "/nix/store/h4lkaixcyybj20sa52f9x8p8wqmyskyc-dms-conky",
-    "rev": "311d59934669cc38aaa030dfe06ce831003b2788",
+    "path": "/nix/store/dbv54xwjq7f40r6a7w3jygnjxbwmhri9-dms-conky",
+    "rev": "e9d7ae769309fa6a628a611abe70f9995f188456",
     "rootDir": "",
-    "sha256": "02y5wzsi76js8c4l6hggrq2imjx1wc3d00glyi0jrdpbbpv2ywr9",
+    "sha256": "09zajn11jyisp5agvvniqhbspxhzrqxlppbq21z8ca1qcahjhfbh",
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
@@ -7294,12 +7294,12 @@
     "url": "https://github.com/hthienloc/dms-screen-recorder"
   },
   "screenkey": {
-    "date": "2026-06-21T12:24:45+07:00",
+    "date": "2026-07-06T12:14:26+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-myn7XYbUHh5RFWoc9eMdAs3SM7HNJJ2QTR6xDVZBEAI=",
+    "hash": "sha256-LRho8bSSQuUUm9a24JerkIeTOY85uqvg4WvdarFDEys=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7324,12 +7324,12 @@
       "repo": "https://github.com/hthienloc/dms-screenkey",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-screenkey/main/screenshot.png",
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
-    "path": "/nix/store/x621spkxa450nqhqh1rnz1b6wh7ysy1y-dms-screenkey",
-    "rev": "f0a414a4cf4c09ac4bc60edccc70e2d48fa3739d",
+    "path": "/nix/store/z5bcr4qijwh44lwn7rrhb4nilgi5zajw-dms-screenkey",
+    "rev": "670cac883f9362707132bff4733de9034fee42b0",
     "rootDir": "",
-    "sha256": "00hh85b0vc8y9n89s96dn4rx5k823piza73a2m8iw7nlhrfznacv",
+    "sha256": "0aqk8fqnmpbbw7hapfiriwwr71whmfby1dnnkcafahljnkqnh61d",
     "url": "https://github.com/hthienloc/dms-screenkey"
   },
   "screenshotToggle": {
@@ -7836,12 +7836,12 @@
     "url": "https://github.com/hthienloc/dms-take-a-break"
   },
   "tasks": {
-    "date": "2026-05-25T17:59:02+05:30",
+    "date": "2026-07-05T13:03:35+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Mpt9jU/eVI4nkHnaXwFDrueW+i9MG4YflNt3B6yhZQk=",
+    "hash": "sha256-foogvVcO89hUiZ78RpCpaRFXSzxy6V3mI4BIEoI3lso=",
     "leaveDotGit": false,
     "meta": {
       "author": "Yasiru Dharmathilaka",
@@ -7864,12 +7864,12 @@
       "name": "Tasks",
       "repo": "https://github.com/AyoItsYas/dms-tasks",
       "screenshot": "https://raw.githubusercontent.com/AyoItsYas/dms-tasks/refs/heads/main/screenshot.png",
-      "version": "1.1.2"
+      "version": "1.1.5"
     },
-    "path": "/nix/store/aa2z2201pcgqjl1hlfifz57cdwn0a4ai-dms-tasks",
-    "rev": "d58822c5e307e92e5ca91dc4d609aff463ea2afb",
+    "path": "/nix/store/zl8a03q212q4rbzhirb3hwbi96796pms-dms-tasks",
+    "rev": "da212be5e329053a9a1e77b3826221674c6bbe77",
     "rootDir": "",
-    "sha256": "02b5l6n0fxyvjhgqc6sc5zx9drxf8c0mznkrj0kqwm6y9y6pv6rj",
+    "sha256": "1jln6y114j404gk5vsbj7i5mf4b9m684dz4yi5adiwqfayyj12ky",
     "url": "https://github.com/AyoItsYas/dms-tasks"
   },
   "taskwarrior": {
@@ -7948,12 +7948,12 @@
     "url": "https://github.com/thisilike/dms-plugin-teamspeak"
   },
   "theGrove": {
-    "date": "2026-07-02T19:46:54-07:00",
+    "date": "2026-07-05T11:10:10-07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bd0oA20MWzeoOlShDV8pvurC76N3HJ9LccJV54C2jD0=",
+    "hash": "sha256-Hl0kQyNMkag378Bg5u6DHsP/HUsLkWEaxuZYAGxHohU=",
     "leaveDotGit": false,
     "meta": {
       "author": "viewerofall",
@@ -7987,10 +7987,10 @@
       "type": "desktop-widget",
       "version": "1.0.0"
     },
-    "path": "/nix/store/7fvsmhnn5z2l8zq4zibzj8s527m284q9-weather-viewer",
-    "rev": "2af355c4c62a5dca0021edc8770f49c001b095e7",
+    "path": "/nix/store/7wwfrpg3inzmsjxg5pnhaly7yn0y4g70-weather-viewer",
+    "rev": "1900d8293d87b5b04c16b47591cc59613074eb0d",
     "rootDir": "",
-    "sha256": "0gccns0ffmf2f55ry73plgpw5smy55ghv8al7al3fnqcdl1jipbd",
+    "sha256": "05d28xn00n76qqd6348b9cfzzhqyhgpfcq60xwvsi4ac4d1j8p8y",
     "url": "https://github.com/viewerofall-labs/weather-viewer"
   },
   "timeUntil": {
@@ -8282,12 +8282,12 @@
     "url": "https://github.com/jslandau/dms-unified-taskbar"
   },
   "uptimeBar": {
-    "date": "2026-07-02T19:46:54-07:00",
+    "date": "2026-07-05T11:10:10-07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bd0oA20MWzeoOlShDV8pvurC76N3HJ9LccJV54C2jD0=",
+    "hash": "sha256-Hl0kQyNMkag378Bg5u6DHsP/HUsLkWEaxuZYAGxHohU=",
     "leaveDotGit": false,
     "meta": {
       "author": "viewerofall",
@@ -8319,10 +8319,10 @@
       "type": "widget",
       "version": "1.1.3"
     },
-    "path": "/nix/store/7fvsmhnn5z2l8zq4zibzj8s527m284q9-weather-viewer",
-    "rev": "2af355c4c62a5dca0021edc8770f49c001b095e7",
+    "path": "/nix/store/7wwfrpg3inzmsjxg5pnhaly7yn0y4g70-weather-viewer",
+    "rev": "1900d8293d87b5b04c16b47591cc59613074eb0d",
     "rootDir": "",
-    "sha256": "0gccns0ffmf2f55ry73plgpw5smy55ghv8al7al3fnqcdl1jipbd",
+    "sha256": "05d28xn00n76qqd6348b9cfzzhqyhgpfcq60xwvsi4ac4d1j8p8y",
     "url": "https://github.com/viewerofall-labs/weather-viewer"
   },
   "usbManager": {
@@ -8693,12 +8693,12 @@
     "url": "https://github.com/ahmed-mekky/dms-warp-toggle"
   },
   "weatherArt": {
-    "date": "2026-07-02T19:46:54-07:00",
+    "date": "2026-07-05T11:10:10-07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bd0oA20MWzeoOlShDV8pvurC76N3HJ9LccJV54C2jD0=",
+    "hash": "sha256-Hl0kQyNMkag378Bg5u6DHsP/HUsLkWEaxuZYAGxHohU=",
     "leaveDotGit": false,
     "meta": {
       "author": "viewerofall",
@@ -8721,10 +8721,10 @@
       "screenshot": "https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/weather.png",
       "version": "0.1.0"
     },
-    "path": "/nix/store/7fvsmhnn5z2l8zq4zibzj8s527m284q9-weather-viewer",
-    "rev": "2af355c4c62a5dca0021edc8770f49c001b095e7",
+    "path": "/nix/store/7wwfrpg3inzmsjxg5pnhaly7yn0y4g70-weather-viewer",
+    "rev": "1900d8293d87b5b04c16b47591cc59613074eb0d",
     "rootDir": "",
-    "sha256": "0gccns0ffmf2f55ry73plgpw5smy55ghv8al7al3fnqcdl1jipbd",
+    "sha256": "05d28xn00n76qqd6348b9cfzzhqyhgpfcq60xwvsi4ac4d1j8p8y",
     "url": "https://github.com/viewerofall-labs/weather-viewer"
   },
   "webSearch": {
