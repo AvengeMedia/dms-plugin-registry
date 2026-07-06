@@ -1593,35 +1593,6 @@ A simple locally-saved TODO list widget for the Dank bar.
 
 
 
-#### [DMS-Wallabag](https://github.com/arqueon/dms-wallabag)
-
-Your Wallabag read-it-later queue in the DankBar: unread badge, entry list with source and excerpt, open links without closing the popout, archive/star/delete/re-fetch, multi-select batch actions, server-side search and quick-add. OAuth2 with secrets in the system keyring.
-
-<strong>requires DMS version</strong>: <em>>=1.2.0</em>
-
-- id: wallabag
-- name: DMS-Wallabag
-- author: arqueon
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: curl, secret-tool
-- distro: any
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/arqueon/dms-wallabag/main/assets/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [GitHub Inbox](https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin)
 
 Shows your GitHub notifications (aka inbox) in a popup and lets you mark them as read or done.
@@ -1760,6 +1731,35 @@ A simple todo list plugin to manage, track, and export your daily tasks directly
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/iskepr/DankTodoLauncher/blob/main/screenshots/tasks.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [Wallabag](https://github.com/arqueon/dms-wallabag)
+
+Your Wallabag read-it-later queue in the DankBar: unread badge, entry list with source and excerpt, open links without closing the popout, archive/star/delete/re-fetch, multi-select batch actions, server-side search and quick-add. OAuth2 with secrets in the system keyring.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: wallabag
+- name: Wallabag
+- author: arqueon
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: curl, secret-tool
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-wallabag/main/assets/screenshot.png)
 
 </details>
 
