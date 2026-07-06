@@ -119,7 +119,7 @@ Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fo
 - id: dmsThemeSync
 - name: DMS Theme Sync
 - author: arqueon
-- compositors: niri
+- compositors: any
 - capabilities: dankbar-widget, daemon, ipc
 - dependencies: bash
 - distro: any
