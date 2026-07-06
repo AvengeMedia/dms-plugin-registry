@@ -2797,6 +2797,42 @@
     "sha256": "0zl8rl4dhr36c4i17wpm8blfvdjn7d9zn8xgvy40898ihqsls2d4",
     "url": "https://github.com/alcxyz/DankVault"
   },
+  "dankmailUnread": {
+    "date": "2026-07-04T19:10:28-06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-gmZwqHp+QUlWbBPmVKqMXrNXW/QsC72AMj90cc6ZoZw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "arqueon",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dmail"
+      ],
+      "description": "Live unread mail badge for dankmail with a triage popout: recent inbox with per-message actions, compose, sync and DND. Requires the dmail daemon.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankmailUnread",
+      "name": "Dankmail Unread",
+      "repo": "https://github.com/arqueon/dms-dankmail",
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-dankmail/main/assets/screenshot.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/g8jmwwndgadq9g8072a4drlxigcrhjd9-dms-dankmail",
+    "rev": "643cab918f829f41635576f89e2f2b15e68a4a32",
+    "rootDir": "",
+    "sha256": "1751k7772x1z6a0bs2rcyidmgcsyijm59rhkdib4jhbygal70rl2",
+    "url": "https://github.com/arqueon/dms-dankmail"
+  },
   "dankterminaltheme": {
     "date": "2026-04-29T18:37:41+02:00",
     "deepClone": false,
@@ -6948,12 +6984,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-02T15:46:42+07:00",
+    "date": "2026-07-06T13:11:56+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-rMG2vGIw/ybIf9+1Up/RdnCWAvOT+8ZdWyEZ7Mom83c=",
+    "hash": "sha256-UYrfSMmcr1bb4ffq0VGhgsR0jCO0v13uMcRezrtVE1s=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6979,12 +7015,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.7.6"
+      "version": "2.7.7"
     },
-    "path": "/nix/store/8dg9lz1dp722f1mms5sqgrzh7mr3q7q0-dms-quick-capture",
-    "rev": "d2007b83df72c7b5ceabf3e7438d1581f351ee8d",
+    "path": "/nix/store/0hng8z9rxw4x1mnc1ryqsk4cjss67qsy-dms-quick-capture",
+    "rev": "d34c3f42b50592dcc67cbd5c852f4117319c18c3",
     "rootDir": "",
-    "sha256": "0xzk4v5fq691bdfwdywkyc19cw3ns6gm5dfzgz42dzrhcaybdhdc",
+    "sha256": "0nqkanxwwpn467p5vgxl4f679i42l58x3sppw7dmdbwwr54dz2ji",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
