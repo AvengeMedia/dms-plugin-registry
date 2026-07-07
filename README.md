@@ -1090,6 +1090,35 @@ Monitor disk, ZFS pool, and Nix store usage with smart mount classification and 
 
 
 
+#### [GPU Monitor](https://github.com/rollecode/dms-gpu-monitor)
+
+NVIDIA GPU load as an animated progress bar in your DankBar, updated every second
+
+
+
+- id: gpuMonitor
+- name: GPU Monitor
+- author: Rolle Laukkarinen
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: nvidia-smi
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rollecode/dms-gpu-monitor/main/Screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Game Controller Battery](https://github.com/Hujair/gameControllerBattery)
 
 Shows the battery level of connected game controllers
@@ -1419,6 +1448,35 @@ Desktop overlay widget for live process monitoring with grouping, sorting, and s
 
 
 
+#### [RAM Monitor](https://github.com/rollecode/dms-ram-monitor)
+
+RAM usage as an animated progress bar in your DankBar, updated every second
+
+
+
+- id: ramMonitor
+- name: RAM Monitor
+- author: Rolle Laukkarinen
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rollecode/dms-ram-monitor/main/Screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Resource Monitor](https://github.com/smithyyang/dms-resource-monitor)
 
 Real-time CPU, memory and swap usage with circular progress indicators
@@ -1475,6 +1533,35 @@ Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png)
+
+</details>
+
+
+
+
+
+#### [VRAM Monitor](https://github.com/rollecode/dms-vram-monitor)
+
+NVIDIA VRAM usage as an animated progress bar in your DankBar, updated every second
+
+
+
+- id: vramMonitor
+- name: VRAM Monitor
+- author: Rolle Laukkarinen
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: nvidia-smi
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rollecode/dms-vram-monitor/main/Screenshot.png)
 
 </details>
 
