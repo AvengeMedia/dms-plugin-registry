@@ -4902,6 +4902,42 @@
     "sha256": "1zkv0i85rffx678hmbzar08xylkk1k28yf8f6h08zpf6b0b6mcdf",
     "url": "https://github.com/ChaoXu1997/glance"
   },
+  "gpuMonitor": {
+    "date": "2026-07-07T19:12:48+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-6zakNjkd31cMpgEJV/zvGx5Mu5qtsCJYK81PrQrLYKE=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Rolle Laukkarinen",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "nvidia-smi"
+      ],
+      "description": "NVIDIA GPU load as an animated progress bar in your DankBar, updated every second",
+      "distro": [
+        "any"
+      ],
+      "id": "gpuMonitor",
+      "name": "GPU Monitor",
+      "repo": "https://github.com/rollecode/dms-gpu-monitor",
+      "screenshot": "https://raw.githubusercontent.com/rollecode/dms-gpu-monitor/main/Screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/fdwdm99y2h9s0qhgmqvcscdi90d6crd0-dms-gpu-monitor",
+    "rev": "8ce8003effdc5fd5c47a7a47ab08ee6375223ccf",
+    "rootDir": "",
+    "sha256": "18b0rc5askyd5dc25c5dkaxlq7hvxzy5f281lq65gpqx74va8dpb",
+    "url": "https://github.com/rollecode/dms-gpu-monitor"
+  },
   "grimblast": {
     "date": "2025-10-27T04:32:31+03:00",
     "deepClone": false,
@@ -6225,12 +6261,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "networkIndicator": {
-    "date": "2026-07-07T10:36:59+03:00",
+    "date": "2026-07-07T17:38:59+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-z2iK9ROzvJ5odlQpzBJXHSB81KkdroJvs1qIEepEZFM=",
+    "hash": "sha256-+ELdDBwXyk4kN21ktj9m9B4hnkA8GZUwiL2jixc8cmY=",
     "leaveDotGit": false,
     "meta": {
       "author": "gemb0_0",
@@ -6252,10 +6288,10 @@
       "screenshot": "https://raw.githubusercontent.com/gemb0-0/Network-Indicator/refs/heads/main/screenshot.png",
       "version": "1.3.1"
     },
-    "path": "/nix/store/y6am169ab6ld4mf94p9b4pij6jxl88qg-Network-Indicator",
-    "rev": "414434bae761d1095dde90931247ce470a32274c",
+    "path": "/nix/store/w1hwcsxrf12ykfkb1189svgnq4j8gi89-Network-Indicator",
+    "rev": "4439fc4121a2bd6f1ade76c296ee9f77311560c6",
     "rootDir": "",
-    "sha256": "0lv48km1322sndpq5bhxm7a7q80xaw9cqaalfrl9xg5k2gsqls6g",
+    "sha256": "0rkj7hbqp8xxi0q9a69w82g227plcqzvcr3d6wj4xjhp3h6dshpq",
     "url": "https://github.com/gemb0-0/Network-Indicator.git"
   },
   "nextBootSelector": {
@@ -7060,12 +7096,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-07T02:21:03+07:00",
+    "date": "2026-07-07T22:14:18+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-e0bZGcNEeCSGkQhacXJn/iY/2BblO3IFE61o2K8L0DQ=",
+    "hash": "sha256-u4ceZlSM2G0kckG9+4S4F7eIQQRabj4fos4tjT+1tVA=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7091,12 +7127,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.8.0"
+      "version": "2.9.0"
     },
-    "path": "/nix/store/ghzkhh24k9nsamc2qkwnjkqay9p9prk0-dms-quick-capture",
-    "rev": "178567e1fb8697087a0ef3d7729d93cce130cbfe",
+    "path": "/nix/store/5g61whm6i9g5mam7j6dij82cc1ymfgkd-dms-quick-capture",
+    "rev": "3ae147685e5f2b6ba5a791cbda512f15dadcf4cf",
     "rootDir": "",
-    "sha256": "0d6h1fpxhs5d2c2p4fz52vc3y9pycxr72nh8j6328y24qccxjikv",
+    "sha256": "0l5mnlzqsbffl8gkwvjs0i0qidqpp22gpga1f8j6vn4caik1x1xv",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -7177,6 +7213,40 @@
     "rootDir": "",
     "sha256": "1bv752jlwdz13dba4f0qcy23xbi65zmzqqv7c3r1jgx68aik1ffq",
     "url": "https://codeberg.org/MezoAhmedII/quranWidget"
+  },
+  "ramMonitor": {
+    "date": "2026-07-07T19:12:44+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-d63mOZlvop8V8JeRxGmFGYHIW+UP8fnOO3nLu7hSwWg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Rolle Laukkarinen",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "RAM usage as an animated progress bar in your DankBar, updated every second",
+      "distro": [
+        "any"
+      ],
+      "id": "ramMonitor",
+      "name": "RAM Monitor",
+      "repo": "https://github.com/rollecode/dms-ram-monitor",
+      "screenshot": "https://raw.githubusercontent.com/rollecode/dms-ram-monitor/main/Screenshot.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/dq1wgdnhbaf2xk9xb7cw9kiryshl1vn7-dms-ram-monitor",
+    "rev": "dec31c4dff0bb9e2273a8109d875bfb90c97adbe",
+    "rootDir": "",
+    "sha256": "0s61aawbpjvr7g7gkw8gwmdwi08rhmlw94cpy0arz8kgk4wydbbp",
+    "url": "https://github.com/rollecode/dms-ram-monitor"
   },
   "resourceMonitor": {
     "date": "2026-05-15T12:56:28+08:00",
@@ -8140,12 +8210,12 @@
     "url": "https://github.com/fdmarcin/TimeUntil"
   },
   "timer": {
-    "date": "2026-06-23T11:01:20+07:00",
+    "date": "2026-07-07T20:36:23+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9uMK3PPs0kgRUsbcE6YbBUMegVmPklAHMo19rIsyAug=",
+    "hash": "sha256-e5cxFwjbwke7Kh/CIyB4lnAlfqbX9tDqAP3zJBSBXeE=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8168,12 +8238,12 @@
       "name": "Timer",
       "repo": "https://github.com/hthienloc/dms-timer",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-timer/master/screenshot.png",
-      "version": "3.0.0"
+      "version": "3.0.2"
     },
-    "path": "/nix/store/lm9w7mrzm0f9mxc3sgfdpi8jnm26xkld-dms-timer",
-    "rev": "befb7b102a21f1d981b19a49891b4d44b24d15c0",
+    "path": "/nix/store/74gsd69448cs7mdj1dcba4wmllch16x4-dms-timer",
+    "rev": "eaec24fcf2fdea91bd0c671f3bd0ece0275217d9",
     "rootDir": "",
-    "sha256": "1s026a5sqzcd683m14lgb60iwhq53fk17p66a88lilpcygf0mqzn",
+    "sha256": "1qaxh4a29wzx03md1xnplrz2aw4ng0h27hhz5axlghnv10bk35vv",
     "url": "https://github.com/hthienloc/dms-timer"
   },
   "tlpControl": {
@@ -8552,6 +8622,42 @@
     "rootDir": "",
     "sha256": "0yx0yrna473xphgmax9fzl517ycbvzkfqm7jlqm2sp82ffrwqcqa",
     "url": "https://github.com/psyreactor/dms-voxtype"
+  },
+  "vramMonitor": {
+    "date": "2026-07-07T19:12:46+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-L7cZ7ztAN7m3ibimto1qfT8xZZsH10RNwM18MN2+CH8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Rolle Laukkarinen",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "nvidia-smi"
+      ],
+      "description": "NVIDIA VRAM usage as an animated progress bar in your DankBar, updated every second",
+      "distro": [
+        "any"
+      ],
+      "id": "vramMonitor",
+      "name": "VRAM Monitor",
+      "repo": "https://github.com/rollecode/dms-vram-monitor",
+      "screenshot": "https://raw.githubusercontent.com/rollecode/dms-vram-monitor/main/Screenshot.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/s8c3n2m077wm0dhdmg788p46my4m3mpb-dms-vram-monitor",
+    "rev": "e00c64191236db756f375e73bced3227c26035cd",
+    "rootDir": "",
+    "sha256": "0zq8pvfk0z6dq16l9mq7kdjk2gvxda6vd9mqi6vvjds07gpikdrg",
+    "url": "https://github.com/rollecode/dms-vram-monitor"
   },
   "vscodeLauncher": {
     "date": "2026-02-25T06:08:27+05:00",
@@ -8962,12 +9068,12 @@
     "url": "https://github.com/antikytheraton/DankWebcamViewer"
   },
   "whisperer": {
-    "date": "2026-07-07T01:32:03-05:00",
+    "date": "2026-07-07T08:28:25-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-niYNlmMQD4oaaKXkdr5up//L5DP3NZ43Aiu8DagNXQY=",
+    "hash": "sha256-zt0sMrV8kY6Lj/zcebx9QSTiCEr8tP4KtiB/dXroHHI=",
     "leaveDotGit": false,
     "meta": {
       "author": "dwright134",
@@ -8994,12 +9100,12 @@
       "path": "",
       "repo": "https://github.com/dwright134/dms-whisperer",
       "screenshot": "https://raw.githubusercontent.com/dwright134/dms-whisperer/main/docs/popout.png",
-      "version": "0.4.0"
+      "version": "0.4.1"
     },
-    "path": "/nix/store/c0lqg0i98n3v86zfks2p3n7s1w5jlhq9-dms-whisperer",
-    "rev": "6cd941bbd45a36f56ae35fb3424f39ba6ef39408",
+    "path": "/nix/store/i0nk995wa0xjan8vxi4yj77slv2vza8b-dms-whisperer",
+    "rev": "dfc5517a882467bb43ad1962c7f16850a5ee3102",
     "rootDir": "",
-    "sha256": "01jx1nl0vg1b08vrwdgp6gjcpzx7dsz7dr55d0d8l3qhcfb0s9ly",
+    "sha256": "0whwx1x7azr0nq5gxd7w984f4921gny7kp7wiy5qx4bwnlr2rpff",
     "url": "https://github.com/dwright134/dms-whisperer"
   },
   "widgetGroup": {
