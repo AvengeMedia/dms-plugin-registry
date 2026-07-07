@@ -766,6 +766,35 @@ Enables idle inhibitor if audio is playing.
 
 
 
+#### [Battery Plus](https://github.com/arcatva/dms-battery-plus)
+
+Battery panel with phone-style charge history, detailed stats and power profiles
+
+
+
+- id: batteryPlus
+- name: Battery Plus
+- author: arcatva
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: upower
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arcatva/dms-battery-plus/main/screenshots/popout.png)
+
+</details>
+
+
+
+
+
 #### [CPU Core Load](https://github.com/rabits/dms-plugin-cpucoreload)
 
 Dank Bar widget showing per-CPU-core load as bars with.
