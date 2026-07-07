@@ -298,12 +298,12 @@
     "url": "https://github.com/hthienloc/dms-ambient-sound"
   },
   "amdGpuMonitor": {
-    "date": "2026-05-15T13:27:39+02:00",
+    "date": "2026-07-07T11:08:38Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-BCvsFVwGhsvjdmtiK3MW7931sxaSiZAB6dOnXCUN7f0=",
+    "hash": "sha256-HbFiTpbmBtcLffD0krgN3KSUAkpVsdZZyGm2EwTFYms=",
     "leaveDotGit": false,
     "meta": {
       "author": "navidagz",
@@ -325,12 +325,12 @@
       "name": "AMD GPU Monitor",
       "repo": "https://github.com/navidagz/dms-amd-gpu-monitor",
       "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshots/screenshot.png",
-      "version": "3.0.0"
+      "version": "3.1.0"
     },
-    "path": "/nix/store/qcx0sjrhq20qmpgm28gj4zd5allz0jk7-dms-amd-gpu-monitor",
-    "rev": "430d783232fe00eb4ba046833021353e63c152ed",
+    "path": "/nix/store/pal69fassv7gx74lycc47a2a8i3na3nf-dms-amd-gpu-monitor",
+    "rev": "6f1ac2b7ebe62e22e76721579d12fa946417285c",
     "rootDir": "",
-    "sha256": "1zgd1ljmr9ykx40r12cj2srzbpgg2rrjnqkbfviwp1h6bhayqaq4",
+    "sha256": "0sv2ql217dk9r1cxdcam9819996w1nw95x7hgl5xf1p6jr765c8x",
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor"
   },
   "amdGpuMonitorRevive": {
@@ -851,6 +851,43 @@
     "rootDir": "",
     "sha256": "16djs76n9mj4qdvfnlv6vz1srb88k0j5fmn37lijb0yjq9k3v5gh",
     "url": "https://github.com/Beepeeko/dms-baloo-search"
+  },
+  "batteryPlus": {
+    "date": "2026-07-07T23:49:10+12:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-XEAvnTisFTPs55+uVCDeHXSJthtkE0CU6No29TDyAYY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "arcatva",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "upower"
+      ],
+      "description": "Battery panel with phone-style charge history, detailed stats and power profiles",
+      "distro": [
+        "any"
+      ],
+      "id": "batteryPlus",
+      "name": "Battery Plus",
+      "repo": "https://github.com/arcatva/dms-battery-plus",
+      "screenshot": "https://raw.githubusercontent.com/arcatva/dms-battery-plus/main/screenshots/popout.png",
+      "version": "1.0.1"
+    },
+    "path": "/nix/store/4y2lxxmihy5xx720c355islf2l9n4jz7-dms-battery-plus",
+    "rev": "4e653d09174e1edc260f279c42ec2477b6fb2e24",
+    "rootDir": "",
+    "sha256": "11h1y8qgadnsx2a404v43fv8jx0xvqh59blzwzn365dc72fjyh2w",
+    "url": "https://github.com/arcatva/dms-battery-plus"
   },
   "bongoCat": {
     "date": "2026-07-03T13:28:28+07:00",
@@ -3858,12 +3895,12 @@
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
   "dmsWhisper": {
-    "date": "2026-07-06T18:30:08-06:00",
+    "date": "2026-07-06T20:28:08-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-sDwHSABzHUtBVb6tCSpiPCZ2zRtrcQyWcJPBlVW6/IM=",
+    "hash": "sha256-7AwaJZRjRaITDqTEjnpjWNOVWj5p1nAhwk2Q/wYJk94=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -3893,12 +3930,12 @@
       "path": "",
       "repo": "https://github.com/arqueon/dms-whisper",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-whisper/master/assets/screenshot.png",
-      "version": "2.0.0"
+      "version": "1.0.0"
     },
-    "path": "/nix/store/vmigscx2grhpa422v7dmrn97d7fng2c0-dms-whisper",
-    "rev": "f2031f8f56422ccd4ac5b037bbb9a8d80270321c",
+    "path": "/nix/store/kvv47q9l0gkvvsp373wll5d4pzj29i5i-dms-whisper",
+    "rev": "b63b3f4bd8c11ebae6eef7ab7a07c8c792b27a3b",
     "rootDir": "",
-    "sha256": "10zwp9arbhckf2b0qwbb3g6pc9iwc8m0kbdyam0ln7bk0140fg5h",
+    "sha256": "1plk143gz42dq8hp1mk97rd9blsqcdx8xi541q9s4ib3jhjil37c",
     "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
@@ -6188,12 +6225,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "networkIndicator": {
-    "date": "2026-06-29T14:25:22+03:00",
+    "date": "2026-07-07T10:36:59+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jJNFCUVjKudm1B1VEdiFknt4X+9ZnMOGedsyugBJIew=",
+    "hash": "sha256-z2iK9ROzvJ5odlQpzBJXHSB81KkdroJvs1qIEepEZFM=",
     "leaveDotGit": false,
     "meta": {
       "author": "gemb0_0",
@@ -6213,21 +6250,21 @@
       "name": "Network Indicator",
       "repo": "https://github.com/gemb0-0/Network-Indicator.git",
       "screenshot": "https://raw.githubusercontent.com/gemb0-0/Network-Indicator/refs/heads/main/screenshot.png",
-      "version": "1.3.0"
+      "version": "1.3.1"
     },
-    "path": "/nix/store/nz01sn31r3ymim4rpi8pxqkfrn1knz33-Network-Indicator",
-    "rev": "f11893de3065d2082e5a6159447aacff2ae067ff",
+    "path": "/nix/store/y6am169ab6ld4mf94p9b4pij6jxl88qg-Network-Indicator",
+    "rev": "414434bae761d1095dde90931247ce470a32274c",
     "rootDir": "",
-    "sha256": "1v11940blcnvg63c772rxxgphywjhpc12m8xsikffak38l4lb4wc",
+    "sha256": "0lv48km1322sndpq5bhxm7a7q80xaw9cqaalfrl9xg5k2gsqls6g",
     "url": "https://github.com/gemb0-0/Network-Indicator.git"
   },
   "nextBootSelector": {
-    "date": "2026-04-12T07:01:55+12:00",
+    "date": "2026-07-07T22:21:25+12:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-h9rkQOTwpDwFx9Z+6MD+cH7rJv10L8OCQFxSEMVvaOU=",
+    "hash": "sha256-dqlGzzqwecHAaDXlx+oOC5W1arDrR58hduVuGX0YLGs=",
     "leaveDotGit": false,
     "meta": {
       "author": "arcatva",
@@ -6251,12 +6288,12 @@
       "name": "Next Boot Selector",
       "repo": "https://github.com/arcatva/dms-next-boot-selector",
       "screenshot": "https://raw.githubusercontent.com/arcatva/dms-next-boot-selector/main/screenshots/popout.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/x44l0plhy7k97mjywvfa58bhckcmh254-dms-next-boot-selector",
-    "rev": "89e0f38554db8adb6d15f93fa21fbe5c2eecb06e",
+    "path": "/nix/store/whnbfwbvnx64v3pbk1y2hrjlngpa171y-dms-next-boot-selector",
+    "rev": "78e75e8e0555f9a8f860f4be98a39cd22e1c09bf",
     "rootDir": "",
-    "sha256": "1rb8dz2i0ljw821c6bvlzlkfnzkhzv0fhznnqw2kr97hwi0f9nl7",
+    "sha256": "0src31yijvp5fqhryizbn1mbb58b1vmcgr9md30c2ydh7b7ldabn",
     "url": "https://github.com/arcatva/dms-next-boot-selector"
   },
   "nightModeControl": {
@@ -8551,12 +8588,12 @@
     "url": "https://github.com/sr-tream/dms-vscode-launcher"
   },
   "wallabag": {
-    "date": "2026-07-06T00:39:05-06:00",
+    "date": "2026-07-06T20:35:30-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2OOsZv8lJEzY3fne3TELhmpV34bCou1/LGG16BwMOnY=",
+    "hash": "sha256-rp6rIqByX9T+NuDIAp6n0IN3lYadps3R4F8L7aXppSo=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -8591,12 +8628,12 @@
       "settings": "./Settings.qml",
       "startupCheck": "./StartupCheck.qml",
       "type": "widget",
-      "version": "0.1.0"
+      "version": "0.1.1"
     },
-    "path": "/nix/store/zdh2yc3idp4bazj0fk7jyxyhjsmd1dy0-dms-wallabag",
-    "rev": "7a708ff8f2e716f6149f413fa36fbb625fba81b8",
+    "path": "/nix/store/v2nh048rgvcpsk9dyqrpyl1flj6a6f1b-dms-wallabag",
+    "rev": "f0f90e8589005461c8c1ef989acbeb5eae5bc326",
     "rootDir": "",
-    "sha256": "0xis1hffidb15izyv8n2hvgmasl61cqxvpprvpc4q915zxkarqyq",
+    "sha256": "0am5x6jys2szw38wv9lxhsapg0yhlyg05j706vzd8pvjl0iap7mf",
     "url": "https://github.com/arqueon/dms-wallabag"
   },
   "wallpaperBing": {
@@ -8925,12 +8962,12 @@
     "url": "https://github.com/antikytheraton/DankWebcamViewer"
   },
   "whisperer": {
-    "date": "2026-07-05T17:34:38-05:00",
+    "date": "2026-07-07T01:32:03-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ASvIqwR2qaybWUOHmy7zdc2gKo7j1O/3xlvamxcNPVI=",
+    "hash": "sha256-niYNlmMQD4oaaKXkdr5up//L5DP3NZ43Aiu8DagNXQY=",
     "leaveDotGit": false,
     "meta": {
       "author": "dwright134",
@@ -8957,12 +8994,12 @@
       "path": "",
       "repo": "https://github.com/dwright134/dms-whisperer",
       "screenshot": "https://raw.githubusercontent.com/dwright134/dms-whisperer/main/docs/popout.png",
-      "version": "0.3.0"
+      "version": "0.4.0"
     },
-    "path": "/nix/store/gzg9zzly8ihg7x8zlq3cawqny2yawmhw-dms-whisperer",
-    "rev": "12b69528c3c134281b5e8ad7afb4beeddd71ff4a",
+    "path": "/nix/store/c0lqg0i98n3v86zfks2p3n7s1w5jlhq9-dms-whisperer",
+    "rev": "6cd941bbd45a36f56ae35fb3424f39ba6ef39408",
     "rootDir": "",
-    "sha256": "0lix1lbrpnjvqvvyzm73iqma1kbmycp9p1s3b6dsrabn0jmwhaq1",
+    "sha256": "01jx1nl0vg1b08vrwdgp6gjcpzx7dsz7dr55d0d8l3qhcfb0s9ly",
     "url": "https://github.com/dwright134/dms-whisperer"
   },
   "widgetGroup": {
