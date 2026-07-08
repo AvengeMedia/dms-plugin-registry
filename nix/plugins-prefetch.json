@@ -6720,10 +6720,7 @@
       ],
       "category": "monitoring",
       "compositors": [
-        "niri",
-        "hyprland",
-        "sway",
-        "river"
+        "any"
       ],
       "dependencies": [
         "opentracker-cli"
