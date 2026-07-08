@@ -1370,7 +1370,7 @@ Track AI usage limits via opentracker CLI
 - id: openTrackerBar
 - name: OpenTrackerBar
 - author: smajt
-- compositors: niri, hyprland, sway, river
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: opentracker-cli
 - distro: any
