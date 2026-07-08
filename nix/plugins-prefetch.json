@@ -2835,12 +2835,12 @@
     "url": "https://github.com/alcxyz/DankVault"
   },
   "dankmailUnread": {
-    "date": "2026-07-06T00:48:39-06:00",
+    "date": "2026-07-07T13:00:29-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-0BxeHjmPbMB7PKJMhjteDr2K0ZjG1d1Tk8reNC+Jigk=",
+    "hash": "sha256-A6fMxqq476/yBtdTy6+tAem+nWphj4XmgWafd1lfwpg=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -2864,10 +2864,10 @@
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-dankmail/main/assets/screenshot.png",
       "version": "0.1.0"
     },
-    "path": "/nix/store/cw2hq1ab3y69lyq0s007s6d7bjiz9i66-dms-dankmail",
-    "rev": "fe770ea69fff904fc0378dea854fccfb2a76a26c",
+    "path": "/nix/store/ib0ckqxbd6xwx151064k3fl8nzd712ff-dms-dankmail",
+    "rev": "48cfe269db2d45186587e80462b122f24e1df3c6",
     "rootDir": "",
-    "sha256": "02cai4pk9pnajd9xvmf6k38qmg8fbqxqck527ixw0v4g74g5w76h",
+    "sha256": "1662bxcpg7v6h7k8b3v1dafvxs81mnpwnlyp0vrazvxqmb3cr9q3",
     "url": "https://github.com/arqueon/dms-dankmail"
   },
   "dankscale": {
@@ -7096,12 +7096,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-07T22:14:18+07:00",
+    "date": "2026-07-08T07:47:45+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-u4ceZlSM2G0kckG9+4S4F7eIQQRabj4fos4tjT+1tVA=",
+    "hash": "sha256-vg3UYqbLgUD3rHwMRnf6lOhkT3nOjQ6A0SV3jmB9I/Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7129,10 +7129,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "2.9.0"
     },
-    "path": "/nix/store/5g61whm6i9g5mam7j6dij82cc1ymfgkd-dms-quick-capture",
-    "rev": "3ae147685e5f2b6ba5a791cbda512f15dadcf4cf",
+    "path": "/nix/store/pa4dr4xb1yli2h8r7swj02dzdq45girz-dms-quick-capture",
+    "rev": "655061073d31c5a9c0b04ac533ee371409ddda27",
     "rootDir": "",
-    "sha256": "0l5mnlzqsbffl8gkwvjs0i0qidqpp22gpga1f8j6vn4caik1x1xv",
+    "sha256": "1x13gmh8wxr5s600x3ffg57n9s4lz9vlc33wmkvl10fblrid83dy",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
