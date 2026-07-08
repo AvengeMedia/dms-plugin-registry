@@ -5590,6 +5590,53 @@
     "sha256": "1dymgcfarcq6d9znj5c1g0qaj60kami92hjqa0r4kmzsnb7ff27d",
     "url": "https://github.com/arqueon/dms-scrobbler"
   },
+  "librepods": {
+    "date": "2026-07-08T13:49:35+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-ASVmCsBG7gj0aXOxikFVDCB3MM+NabvyapwqL8w+1xY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "demic-dev",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "utilities",
+      "component": "./AirPodsWidget.qml",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "librepods-ctl",
+        "dbus-send"
+      ],
+      "description": "AirPods control center, powered by LibrePods.",
+      "distro": [
+        "any"
+      ],
+      "icon": "earbuds",
+      "id": "librepods",
+      "name": "AirPods Control",
+      "permissions": [
+        "settings_read",
+        "settings_write"
+      ],
+      "repo": "https://github.com/demic-dev/airpods-widget-DMS",
+      "screenshot": "https://raw.githubusercontent.com/demic-dev/airpods-widget-DMS/refs/heads/main/assets/control-center.png",
+      "settings": "./Settings.qml",
+      "startupCheck": "./StartupCheck.qml",
+      "type": "widget",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/xnbi13dfznnad1664fc5nkmj2695w656-airpods-widget-DMS",
+    "rev": "5011127f3f8136174e1eb5035b5fd122545baac8",
+    "rootDir": "",
+    "sha256": "05np7v62yalwdbrbnscdrwq7f80cam0qmcbkd7s0ivj6q056c981",
+    "url": "https://github.com/demic-dev/airpods-widget-DMS"
+  },
   "linuxWallpaperEngine": {
     "date": "2026-07-03T20:00:36+03:00",
     "deepClone": false,
@@ -7096,12 +7143,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-08T07:47:45+07:00",
+    "date": "2026-07-08T20:55:17+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-vg3UYqbLgUD3rHwMRnf6lOhkT3nOjQ6A0SV3jmB9I/Q=",
+    "hash": "sha256-a+j9rIYnuGBy85z+YIPlXNn6Kijeli+9z8ig2a01qzg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7127,12 +7174,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.9.0"
+      "version": "2.11.2"
     },
-    "path": "/nix/store/pa4dr4xb1yli2h8r7swj02dzdq45girz-dms-quick-capture",
-    "rev": "655061073d31c5a9c0b04ac533ee371409ddda27",
+    "path": "/nix/store/392iddnyl5b04pvf2c1kpl1w2ldrcj68-dms-quick-capture",
+    "rev": "9b5fffe7dca2ffff07090f7101c209dcf05532d2",
     "rootDir": "",
-    "sha256": "1x13gmh8wxr5s600x3ffg57n9s4lz9vlc33wmkvl10fblrid83dy",
+    "sha256": "0f5b6nnxk868ryyjz5ny50mgmnawwn1n1zlwydr61f17hsngvs3b",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
