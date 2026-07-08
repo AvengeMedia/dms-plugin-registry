@@ -2690,6 +2690,35 @@ Adds a watermark to the bottom-right of the screen
 
 
 
+#### [AirPods Control](https://github.com/demic-dev/airpods-widget-DMS)
+
+AirPods control center, powered by LibrePods.
+
+
+
+- id: librepods
+- name: AirPods Control
+- author: demic-dev
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: librepods-ctl, dbus-send
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/demic-dev/airpods-widget-DMS/refs/heads/main/assets/control-center.png)
+
+</details>
+
+
+
+
+
 #### [Alarm Clock](https://github.com/lucyfire/dms-plugins)
 
 An alarm clock widget
