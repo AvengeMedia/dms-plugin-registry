@@ -6846,7 +6846,7 @@ Taskwarrior integration for DMS: see your pending tasks in the status bar, creat
 - id: taskwarrior
 - name: Taskwarrior
 - author: Michał Wazgird
-- compositors: hyprland, niri, sway
+- compositors: any
 - capabilities: dankbar-widget
 - dependencies: taskwarrior
 - distro: any
