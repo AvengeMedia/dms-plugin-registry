@@ -6294,7 +6294,7 @@ SSH to configured servers from the Launcher
 - id: sshConnections
 - name: SSH Connections
 - author: Michael Erdely
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: launcher
 - dependencies: ssh
 - distro: any
