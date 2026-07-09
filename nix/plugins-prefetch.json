@@ -5083,12 +5083,12 @@
     "url": "https://github.com/hthienloc/dms-hidden-bar"
   },
   "homeAssistantMonitor": {
-    "date": "2026-06-09T17:49:32+08:00",
+    "date": "2026-07-09T13:06:19+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-YScGw1b4OHX3s7f+JUCoCuK+BcWGDLgpYxgSI+N3EPI=",
+    "hash": "sha256-c2uWe9i/uxHYtYQ1upOWksadlcmq/VNN+1KMPvfGDAw=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -5113,12 +5113,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-      "version": "2.0.3"
+      "version": "2.0.4"
     },
-    "path": "/nix/store/30wmjhlxirki28jnkj911ch43d0iqi7p-dms-plugin-hass",
-    "rev": "0d3cd45f6a094582db5f9209b3dc1f72c1cfb067",
+    "path": "/nix/store/fh1hpsfahfz88zmkbf7b9g7qncab5kx4-dms-plugin-hass",
+    "rev": "a90cda73b6e88cbe910fae45d4f12d4d42c17580",
     "rootDir": "",
-    "sha256": "1whhfzij64hqcclvh346ql2vxqham102bzmpngvpaf7qav1hc9v1",
+    "sha256": "030cqvvkx32jzd6m7zdar6arviljjs9vldc4npc13fxzv1xrcsvk",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hostnameWidget": {
@@ -7140,12 +7140,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-09T01:35:01+07:00",
+    "date": "2026-07-09T11:33:49+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-KyoeWjzBzYJjRPbBB7y/B2BCsTqWt4rGo+GMOhkrexc=",
+    "hash": "sha256-2Osc27kOFHXRgYontSZmQH5Zhms2hKJiyyRBHRiSsME=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7171,12 +7171,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.11.3"
+      "version": "2.11.5"
     },
-    "path": "/nix/store/c58bzypn4pxi07v2mhy206m0b4ngrm79-dms-quick-capture",
-    "rev": "834e994ee22b694e13ce689f76156aab1b92b1fa",
+    "path": "/nix/store/h5sd91smh41kdnxf2if4cjvaxm42am4l-dms-quick-capture",
+    "rev": "ea464c25d850a85ccfb2eee1760cf5ec05fbfce5",
     "rootDir": "",
-    "sha256": "05vv5cckm371lg38mdwn7aql4q07pyy0ghgn8iiq5kf17id1waib",
+    "sha256": "1hdhj8c1sh94rdia511ndf35jzj0cqkba9wah78pa50fp7dirsyq",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -8112,9 +8112,7 @@
       ],
       "category": "utilities",
       "compositors": [
-        "hyprland",
-        "niri",
-        "sway"
+        "any"
       ],
       "dependencies": [
         "taskwarrior"
