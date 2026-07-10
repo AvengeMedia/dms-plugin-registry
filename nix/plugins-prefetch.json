@@ -2762,6 +2762,45 @@
     "sha256": "0355bfblq0z8sm0mzz3hdx880n8nhbi2msmvvgy8mx22libr0609",
     "url": "https://github.com/alcxyz/DankTranslate"
   },
+  "dankTranslateAI": {
+    "date": "2026-07-10T20:11:15+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-8bgNccGartF5zKCdk3iLISBCKw4tTliBDhIZtHpQE4Y=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "SakuraToErii",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "uv",
+        "wl-clipboard"
+      ],
+      "description": "Security-focused, shortcut-driven AI translation with one-shot input reads, local secret screening, streaming, custom OpenAI-compatible APIs, and DankBar history.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankTranslateAI",
+      "name": "Dank Translate AI",
+      "repo": "https://github.com/SakuraToErii/dank-translate-ai",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/SakuraToErii/dank-translate-ai/main/docs/translation-popup.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/a3dls7cdvw778hklqn9pgnrs9p0byn2h-dank-translate-ai",
+    "rev": "1586b2f02e49fe1ea7981e4dd1a16dd164f0bd7c",
+    "rootDir": "",
+    "sha256": "11hka1xb868j1s0mhkid1qml4811idw977d0riwx3blsq5qhvf7i",
+    "url": "https://github.com/SakuraToErii/dank-translate-ai"
+  },
   "dankUpsMonitor": {
     "date": "2026-04-16T16:49:41-06:00",
     "deepClone": false,
@@ -2835,12 +2874,12 @@
     "url": "https://github.com/alcxyz/DankVault"
   },
   "dankmailUnread": {
-    "date": "2026-07-07T13:00:29-06:00",
+    "date": "2026-07-09T22:29:25-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-A6fMxqq476/yBtdTy6+tAem+nWphj4XmgWafd1lfwpg=",
+    "hash": "sha256-ngZmzOy0rftF8EUGiONcnbz9iFXb5RAIe41pzQTbXA0=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -2864,10 +2903,10 @@
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-dankmail/main/assets/screenshot.png",
       "version": "0.1.0"
     },
-    "path": "/nix/store/ib0ckqxbd6xwx151064k3fl8nzd712ff-dms-dankmail",
-    "rev": "48cfe269db2d45186587e80462b122f24e1df3c6",
+    "path": "/nix/store/dy3m6cjpsq990cqf1jwn17qmrsv7xj70-dms-dankmail",
+    "rev": "cb0bed1eb8e878c4871ad7c4db8d483c2f0de497",
     "rootDir": "",
-    "sha256": "1662bxcpg7v6h7k8b3v1dafvxs81mnpwnlyp0vrazvxqmb3cr9q3",
+    "sha256": "03awvc2csscdgc411rfvan4gvg4xbkiqh1j5y12zpbdlxk66c1ly",
     "url": "https://github.com/arqueon/dms-dankmail"
   },
   "dankscale": {
@@ -5083,12 +5122,12 @@
     "url": "https://github.com/hthienloc/dms-hidden-bar"
   },
   "homeAssistantMonitor": {
-    "date": "2026-07-09T13:06:19+08:00",
+    "date": "2026-07-10T13:27:04+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-c2uWe9i/uxHYtYQ1upOWksadlcmq/VNN+1KMPvfGDAw=",
+    "hash": "sha256-ugvnYbZOq/F5pOqnZrNuRhLIOFxASpvUNcWxOJWkaWE=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -5113,12 +5152,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-      "version": "2.0.4"
+      "version": "2.0.5"
     },
-    "path": "/nix/store/fh1hpsfahfz88zmkbf7b9g7qncab5kx4-dms-plugin-hass",
-    "rev": "a90cda73b6e88cbe910fae45d4f12d4d42c17580",
+    "path": "/nix/store/dqx5jgxndsdkmbxqyday677y233vssjn-dms-plugin-hass",
+    "rev": "2c3697e44e25bd91315a10aaa746f22289d812c1",
     "rootDir": "",
-    "sha256": "030cqvvkx32jzd6m7zdar6arviljjs9vldc4npc13fxzv1xrcsvk",
+    "sha256": "0qb9ljakicf56pa9njj0bhwch4j6dsrnd9zaliwz3asfnrhyf2xs",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hostnameWidget": {
@@ -7140,12 +7179,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-10T08:35:45+07:00",
+    "date": "2026-07-10T15:11:12+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-XCKDgi9FfAZIAgWd3Wg279zj5aTf79tcikMmjqnPuqI=",
+    "hash": "sha256-4TgTMNTr3w5u4ndmzO4gQKQC5GYNqHjmvSxOlQe/lG4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7171,12 +7210,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.12.0"
+      "version": "2.13.0"
     },
-    "path": "/nix/store/fpz2aal6mbr61cynsgn6zqw438smhzb0-dms-quick-capture",
-    "rev": "b19ff158ebab2299b324f2e1eb51966ff45d2ece",
+    "path": "/nix/store/c4vpnyw1ckm67rszjc96pbc6wn2hcagf-dms-quick-capture",
+    "rev": "daa9877fdd10860d4155f5c93ed19c9351b41880",
     "rootDir": "",
-    "sha256": "18msrylqw9j3i9fdpvyzlkjy7p7g6rldv7850940cz255y1868jw",
+    "sha256": "0vllpw3rakicppk7ia0dcvj0592043pcqrkpw9p0xpzbshq16f71",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
