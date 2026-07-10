@@ -4021,6 +4021,35 @@ A modern glassmorphic stopwatch pill for DankMaterialShell with laps, copy time,
 
 
 
+#### [Dank Translate AI](https://github.com/SakuraToErii/dank-translate-ai)
+
+Security-focused, shortcut-driven AI translation with one-shot input reads, local secret screening, streaming, custom OpenAI-compatible APIs, and DankBar history.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: dankTranslateAI
+- name: Dank Translate AI
+- author: SakuraToErii
+- compositors: any
+- capabilities: daemon, dankbar-widget
+- dependencies: uv, wl-clipboard
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/SakuraToErii/dank-translate-ai/main/docs/translation-popup.png)
+
+</details>
+
+
+
+
+
 #### [DankCalendar](https://github.com/alcxyz/DankCalendar)
 
 CalDAV calendar widget with event listing, notifications, and event management via a stdlib-only Go binary with keyring credentials
