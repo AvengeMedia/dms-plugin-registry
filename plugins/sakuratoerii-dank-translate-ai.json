@@ -1,0 +1,25 @@
+{
+  "id": "dankTranslateAI",
+  "name": "Dank Translate AI",
+  "capabilities": [
+    "daemon",
+    "dankbar-widget",
+    "translation",
+    "translation-history"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/SakuraToErii/dank-translate-ai",
+  "author": "SakuraToErii",
+  "description": "Security-focused, shortcut-driven AI translation with one-shot input reads, local secret screening, streaming, custom OpenAI-compatible APIs, and DankBar history.",
+  "dependencies": [
+    "uv",
+    "wl-clipboard"
+  ],
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/SakuraToErii/dank-translate-ai/main/docs/translation-popup.png"
+}
