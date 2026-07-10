@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-07-02T01:21:40-03:00",
+    "date": "2026-07-10T14:31:23-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-RTH2eaNqNl9RcDGAzjPxsj1rAVjF9ykTQf6Mwq2Urnc=",
+    "hash": "sha256-J5hNl6Uy2Iu0Io87CZgHEiNQL5zuZoHDeftTEeOHi50=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -178,12 +178,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.6.0"
+      "version": "1.6.1"
     },
-    "path": "/nix/store/iv2fgj3lq3fhp2i8jqymyz0bipxvikly-AiOverviewControl",
-    "rev": "c33c149274bf583af2379a60f8be4f8fe0c60892",
+    "path": "/nix/store/vfzzgr2ajbq0xd0qzji4iry2aw7yqdpd-AiOverviewControl",
+    "rev": "e7ff23cb30aee79770ba5044a3579935c480a886",
     "rootDir": "",
-    "sha256": "0xxfjjnw537y849jkxy5b00nngdjy4rwx01if18mydkaldwzcca5",
+    "sha256": "17cbhzii2lzvg71q2rpfkhpm08qj0yc0jfwg4as8pn1jlnblv617",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "airQuality": {
@@ -4306,12 +4306,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "ephemera": {
-    "date": "2026-04-30T22:37:52-05:00",
+    "date": "2026-07-10T13:22:07-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-G6oanR4zHbNSV+A94mNcB4EHK+S2ieo4dY8bwUEkv2I=",
+    "hash": "sha256-+i7rbacYd7gfXcJtFuzV9GoIDSH8JFsf6H2FXPGMRpQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "nicolasgarcia214",
@@ -4337,10 +4337,10 @@
       "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true",
       "version": "1.1.0"
     },
-    "path": "/nix/store/dpvfkhg08zphzin13435w4rmkbd1sfmi-Ephemera",
-    "rev": "eaadf6d933a8449f36219935520a8e9f944b4aa0",
+    "path": "/nix/store/hy47iw0ww214sskcyamb6qxgi3qwgbcb-Ephemera",
+    "rev": "172783fccb37e99756f999daa737ced42aeefe4e",
     "rootDir": "",
-    "sha256": "0qmz4i0w26wgflwfm2dnwhmhg087biiy4gg0ax9b679k3sfimahv",
+    "sha256": "1526ikqmr1bxx0gmn97w446hhsplspn1cvf2blgvhxqqlxnynbps",
     "url": "https://github.com/nicolasgarcia214/Ephemera"
   },
   "extendedNetworkToggle": {
@@ -7179,12 +7179,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-10T15:11:12+07:00",
+    "date": "2026-07-11T00:09:37+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-4TgTMNTr3w5u4ndmzO4gQKQC5GYNqHjmvSxOlQe/lG4=",
+    "hash": "sha256-VxcRi8To/UgRCopk6Z4Rv+ODwCUn995xJC+iz5rFjQ0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7212,10 +7212,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "2.13.0"
     },
-    "path": "/nix/store/c4vpnyw1ckm67rszjc96pbc6wn2hcagf-dms-quick-capture",
-    "rev": "daa9877fdd10860d4155f5c93ed19c9351b41880",
+    "path": "/nix/store/nfxv52a0a16la04gpj7gf6di6zyn25xw-dms-quick-capture",
+    "rev": "03c967148b011f4c01347b428563fd05b3514fe9",
     "rootDir": "",
-    "sha256": "0vllpw3rakicppk7ia0dcvj0592043pcqrkpw9p0xpzbshq16f71",
+    "sha256": "03cdqndcz8ig4iqxxxr74p087qxz26gfjr4a188lizg8qj5i25sp",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -9148,12 +9148,12 @@
     "url": "https://github.com/antikytheraton/DankWebcamViewer"
   },
   "whisperer": {
-    "date": "2026-07-08T19:13:51-05:00",
+    "date": "2026-07-10T12:29:00-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-c6Tjzxrdar98B3xISaPSCE19QAdavVzFVRanlBeH924=",
+    "hash": "sha256-8cMKDbBZSoK5e9eqBefzRX+/obkrxUHrNhJgMPlUC3Y=",
     "leaveDotGit": false,
     "meta": {
       "author": "dwright134",
@@ -9180,12 +9180,12 @@
       "path": "",
       "repo": "https://github.com/dwright134/dms-whisperer",
       "screenshot": "https://raw.githubusercontent.com/dwright134/dms-whisperer/main/docs/popout.png",
-      "version": "0.4.3"
+      "version": "0.4.4"
     },
-    "path": "/nix/store/fph8lckzbbpc0kjc8mgc4b7mbx4y5qh6-dms-whisperer",
-    "rev": "e15a64b193402b9a95bffb8e453ccd672579a336",
+    "path": "/nix/store/7nwpla4239jf1m3s8r2yn91rdj04hhdw-dms-whisperer",
+    "rev": "f54b20a41128500134c3947ad9929bc78e019de3",
     "rootDir": "",
-    "sha256": "0vpphwbr99qnap2mrgas0x07sk88sailjj3w0xybysnx3b7y793k",
+    "sha256": "0xhbakwk0q0j6vml3i9bp6hvyzs5ygkhbanpgfwq4jjrn06hmhzi",
     "url": "https://github.com/dwright134/dms-whisperer"
   },
   "widgetGroup": {
