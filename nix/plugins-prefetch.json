@@ -70,12 +70,12 @@
     "url": "https://github.com/hthienloc/dms-activate-linux"
   },
   "adguardVPplugin": {
-    "date": "2026-07-10T19:02:11-03:00",
+    "date": "2026-07-10T23:29:09-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Up6FiNaPvHnqUjFOWbFcz47jg71RojFX8MzPGt1OLz4=",
+    "hash": "sha256-C1DZGgDr/2IESov23Ud27Mayvd4kFZAfPko4DmTziw0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -100,12 +100,12 @@
       "repo": "https://github.com/bernardopg/dms-adguard-vpn-plugin",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/dms-adguard-vpn-plugin/main/docs/screenshot.png",
-      "version": "1.5.0"
+      "version": "1.5.1"
     },
-    "path": "/nix/store/z5lircbjvhfrfl0vb9azgfwsg3xx6x9l-dms-adguard-vpn-plugin",
-    "rev": "27016eadaaad1afc05a8b845f1de9df43ffa7172",
+    "path": "/nix/store/cyr9kqx76v156pzihj8j4ka2v5lq4pcc-dms-adguard-vpn-plugin",
+    "rev": "46722e51bdfef43945a4b39b0a32b02b934307eb",
     "rootDir": "",
-    "sha256": "0gig9vfimkycy1bk38jipn1y73ngbjqmjkiiabm7kg4gss48b7jj",
+    "sha256": "03cbydj0wf2a7qgr0594vsyv5ipcfr3xvxlb98265zzb00ddjl0b",
     "url": "https://github.com/bernardopg/dms-adguard-vpn-plugin"
   },
   "aiAssistant": {
@@ -1894,6 +1894,51 @@
     "sha256": "1chkc688zrl5rfk13z53fsibv0jsg2lpp3ri8ml2iklpxy683n2n",
     "url": "https://github.com/alcxyz/DankCalendar"
   },
+  "dankCalendarAgenda": {
+    "date": "2026-07-11T01:20:16-06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-oovFoBhASJrn+zYJAMuqOwsEi61CDoxDeLw1saOQ7MM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "arqueon",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "productivity",
+      "component": "./DankCalendarWidget.qml",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dcal",
+        "jq"
+      ],
+      "description": "Next-event countdown for dcal with a scrollable agenda popout grouped by day: click an event to open it in DankCalendar, + creates a new one, right click refreshes, middle click toggles the calendar window. Happening-now events in green, past ones dimmed.",
+      "distro": [
+        "any"
+      ],
+      "icon": "calendar_today",
+      "id": "dankCalendarAgenda",
+      "name": "Dank Calendar Agenda",
+      "permissions": [
+        "settings_read",
+        "settings_write"
+      ],
+      "repo": "https://github.com/arqueon/dms-dankcalendar",
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-dankcalendar/main/assets/screenshot.png",
+      "settings": "./DankCalendarSettings.qml",
+      "type": "widget",
+      "version": "1.2.1"
+    },
+    "path": "/nix/store/7jmq0ng3fzh108d4i1z570yxmqhiarkm-dms-dankcalendar",
+    "rev": "1f3c5f0618d13f123c40b2f4310a50756d462a5a",
+    "rootDir": "",
+    "sha256": "1hzcj2iv2ddwg11qq3j2mn5h82rvmb5h029nzgkrlj2032hcb2x2",
+    "url": "https://github.com/arqueon/dms-dankcalendar"
+  },
   "dankCleaner": {
     "date": "2026-03-31T18:08:49+07:00",
     "deepClone": false,
@@ -2908,12 +2953,12 @@
     "url": "https://github.com/alcxyz/DankVault"
   },
   "dankmailUnread": {
-    "date": "2026-07-09T22:29:25-06:00",
+    "date": "2026-07-11T01:05:21-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ngZmzOy0rftF8EUGiONcnbz9iFXb5RAIe41pzQTbXA0=",
+    "hash": "sha256-NzRLOXJJ+VXnNW9jWUjGdzX/e5RzPV72wbUvMZUCnMA=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -2935,12 +2980,12 @@
       "name": "Dankmail Unread",
       "repo": "https://github.com/arqueon/dms-dankmail",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-dankmail/main/assets/screenshot.png",
-      "version": "0.1.0"
+      "version": "0.1.2"
     },
-    "path": "/nix/store/dy3m6cjpsq990cqf1jwn17qmrsv7xj70-dms-dankmail",
-    "rev": "cb0bed1eb8e878c4871ad7c4db8d483c2f0de497",
+    "path": "/nix/store/rqihsfzkscslfghq3lv3x4h80j2ndkj0-dms-dankmail",
+    "rev": "e66c8f53021d289164bb7302f292ac9020fb32de",
     "rootDir": "",
-    "sha256": "03awvc2csscdgc411rfvan4gvg4xbkiqh1j5y12zpbdlxk66c1ly",
+    "sha256": "1h4w0aak2bxmq7v5wgbkjixzydbpqr45jqvg6pkmbya9f8wlnd1p",
     "url": "https://github.com/arqueon/dms-dankmail"
   },
   "dankscale": {
@@ -3930,12 +3975,12 @@
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dmsThemeSync": {
-    "date": "2026-07-10T17:20:58-06:00",
+    "date": "2026-07-10T20:48:50-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-0FX0TAAc7wl9iWHya4nd2Bqvk1sTuJcEzNa70i6meWk=",
+    "hash": "sha256-zaLPQBwzLPLZReSTjqgsmiUXXwO65GnBpTaUqOFCiQ8=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -3961,10 +4006,10 @@
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png",
       "version": "0.7.0"
     },
-    "path": "/nix/store/asv85b1h71d74257h7ri9xb0kny577q9-dms-theme-sync",
-    "rev": "5450ba1b875447b86f61a6a23e4ab3a211da27e0",
+    "path": "/nix/store/ydgfr4c3pf68skdl7dgiggj22w706gzm-dms-theme-sync",
+    "rev": "28e4abc2c6c8137ad00c1e0e0dc95c037dc50cf9",
     "rootDir": "",
-    "sha256": "0sbrlqpd5fynrh29gf0kbf9sy6nqvn4npwk1i5yhkvqw016g8mfh",
+    "sha256": "03w98bhsi51nlp0nkr5s0dgif9cs5jl8x4z48pcz4b1k3i0cz8nd",
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
   "dmsWhisper": {
@@ -4862,12 +4907,12 @@
     "url": "https://github.com/psyreactor/dms-githubNotifier"
   },
   "gitlabNotifier": {
-    "date": "2026-07-10T18:59:29-03:00",
+    "date": "2026-07-11T01:31:20-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-EQkP7Wpv7uVa6Y1lhjFMkQvnn1pytby7xKarvDEHBUc=",
+    "hash": "sha256-uUcJuRq5WKgofookdFblqt6ydqYcr3I7nMRH6KBYdzY=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -4891,12 +4936,12 @@
       "repo": "https://github.com/psyreactor/dms-gitlabNotifier",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-gitlabNotifier/raw/main/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/25z3mqh3vyck1yxfsl6j9vw2pa8mdg2m-dms-gitlabNotifier",
-    "rev": "0eba0d327ebb0fcd20223ddb2599a02dc0021843",
+    "path": "/nix/store/nih0hkz20y9wjhbij1wsyc155yyfhpqx-dms-gitlabNotifier",
+    "rev": "7134f421f18f76a34852b179a9bb85f0e2c80b4f",
     "rootDir": "",
-    "sha256": "0iq50wqvrax6qjxvrdbjbagyf2wi9hqqcrcdx5dfbvkgdbnhy28i",
+    "sha256": "0dkpb2hfhiy4khxp5bqwlrvb5pmawmb7894agqlahn5r3awhjixr",
     "url": "https://github.com/psyreactor/dms-gitlabNotifier"
   },
   "gitmojiLauncher": {
@@ -7213,12 +7258,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-11T08:13:06+07:00",
+    "date": "2026-07-11T15:49:59+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-hLi8/CQem7iRfaxdO9AB8Et0tyqHYAPHUlOK+Zu3gE4=",
+    "hash": "sha256-kVfc5A2AU1TGH0VTS3LJG3CVZKZ6P7gxkaRbfZ+ZjGc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7244,12 +7289,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.13.0"
+      "version": "2.14.0"
     },
-    "path": "/nix/store/0k44f9dvgdk932nfcg785l97fmx5gkjn-dms-quick-capture",
-    "rev": "c31cc2f09747e80776294cfe7df081f2cd92e063",
+    "path": "/nix/store/bzb4v1g45qdhlhfpcf27fg2w3gsxdv1r-dms-quick-capture",
+    "rev": "61171c86a1eb2ce94c98b54953f7ce154d8a4da8",
     "rootDir": "",
-    "sha256": "0kl0nydzk2jkab3h6q475avp8jzh0783npdcgn8vi6qy4kybrf44",
+    "sha256": "0rwck6gpsnx4j4qvhgvslrj9aw0vr5r4nls53z358lw01pjdqmwi",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
