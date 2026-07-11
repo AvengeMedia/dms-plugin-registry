@@ -7,13 +7,13 @@
   "category": "monitoring",
   "repo": "https://github.com/agneswd/dms-ai-quotas",
   "author": "agneswd",
-  "description": "OpenCode usage quotas and DeepSeek balance in your bar.",
+  "description": "OpenCode Go usage quotas and DeepSeek API balance in your bar.",
   "dependencies": [
     "curl",
     "jq"
   ],
   "compositors": [
-    "niri"
+    "any"
   ],
   "distro": [
     "any"
