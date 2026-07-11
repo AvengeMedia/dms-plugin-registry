@@ -1,0 +1,22 @@
+{
+  "id": "aiQuotas",
+  "name": "AI Quotas",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "category": "monitoring",
+  "repo": "https://github.com/agneswd/dms-ai-quotas",
+  "author": "agneswd",
+  "description": "OpenCode usage quotas and DeepSeek balance in your bar.",
+  "dependencies": [
+    "curl",
+    "jq"
+  ],
+  "compositors": [
+    "niri"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://i.imgur.com/n2CBZyZ.png"
+}
