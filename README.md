@@ -1680,6 +1680,35 @@ Show ZeroTier network status in the bar and join/leave/route networks from a pop
 
 
 
+#### [Dank Calendar Agenda](https://github.com/arqueon/dms-dankcalendar)
+
+Next-event countdown for dcal with a scrollable agenda popout grouped by day: click an event to open it in DankCalendar, + creates a new one, right click refreshes, middle click toggles the calendar window. Happening-now events in green, past ones dimmed.
+
+
+
+- id: dankCalendarAgenda
+- name: Dank Calendar Agenda
+- author: arqueon
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dcal, jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-dankcalendar/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Todo](https://github.com/deepu105/dms-dank-todo)
 
 A simple locally-saved TODO list widget for the Dank bar.
