@@ -3798,6 +3798,35 @@ Safe one-click cleaner plugin for DankMaterialShell.
 
 
 
+#### [Dank Hermes](https://github.com/huangkaile22-prog/dankhermes)
+
+AI chat sidebar powered by local Hermes agent.
+
+
+
+- id: dankHermes
+- name: Dank Hermes
+- author: hkl
+- compositors: any
+- capabilities: ai-chat
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/huangkaile22-prog/dankhermes/blob/main/screenshot-chat.png)
+
+</details>
+
+
+
+
+
 #### [Dank Hooks](https://github.com/AvengeMedia/dms-plugins)
 
 Trigger scripts based on various system events.
