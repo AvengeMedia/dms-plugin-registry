@@ -7306,6 +7306,35 @@ Standalone volume mixer for your bar
 
 
 
+#### [VoxType Activity Overlay](https://github.com/agneswd/dms-voxtype-activity-overlay)
+
+Live microphone activity overlay while VoxType is recording. Shows a Cava audio visualizer pill and final transcript bubble.
+
+
+
+- id: voxtypeActivityOverlay
+- name: VoxType Activity Overlay
+- author: agneswd
+- compositors: any
+- capabilities: daemon
+- dependencies: voxtype, cava
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/agneswd/dms-voxtype-activity-overlay/main/assets/screenshot-pill.png)
+
+</details>
+
+
+
+
+
 #### [Voxtype](https://github.com/psyreactor/dms-voxtype)
 
 voxtype status plugin for DankBar
