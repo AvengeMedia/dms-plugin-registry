@@ -186,6 +186,43 @@
     "sha256": "02jz8k6n7qn5w2c2rmpbllpkni9mgzc0ypqz3j0mrrnprdyhry49",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
+  "aiQuotas": {
+    "date": "2026-07-11T18:26:53+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-rA1lLQEO4evADkNGHAx38sP6nJmaXUeV1EnfPyIi6Xc=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "agneswd",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl",
+        "jq"
+      ],
+      "description": "OpenCode Go usage quotas and DeepSeek API balance in your bar.",
+      "distro": [
+        "any"
+      ],
+      "id": "aiQuotas",
+      "name": "AI Quotas",
+      "repo": "https://github.com/agneswd/dms-ai-quotas",
+      "screenshot": "https://raw.githubusercontent.com/agneswd/dms-ai-quotas/main/assets/screenshot.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/xzi5d4f418jzgarx9ak061pksg9hz0nn-dms-ai-quotas",
+    "rev": "d385140ef6e170da7a523554e0069a90351a3be2",
+    "rootDir": "",
+    "sha256": "0xz948i3zps9sjalfpcsk6fgmhzjfw61qij31v0fpq8f04nna3dc",
+    "url": "https://github.com/agneswd/dms-ai-quotas"
+  },
   "airQuality": {
     "date": "2026-02-26T10:45:26+08:00",
     "deepClone": false,
@@ -7258,12 +7295,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-12T08:21:27+07:00",
+    "date": "2026-07-12T10:14:12+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-UGFhmxNrVQp9AMFtQZ3qkCZHpPRiz3yzLRF4w3hB1sg=",
+    "hash": "sha256-UjW5CuzUHUe5hLwyltC28EsqRkkbpRHtK5s/ILf0xog=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7289,12 +7326,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.15.0"
+      "version": "2.16.0"
     },
-    "path": "/nix/store/5kd14qz4h8mz62dr93figvy1fq82jzyk-dms-quick-capture",
-    "rev": "1db9c473df5d8bde5511070dd0d24e59a2aafe37",
+    "path": "/nix/store/sb3ajin1dg8dl3hwd9gi00210vif7fn5-dms-quick-capture",
+    "rev": "6a5081b1beab05103df8915f30c9f7d44600a61f",
     "rootDir": "",
-    "sha256": "1j6n85wc6y0i5nrprkv2yjj4f9lhxafl2vf101yhlmbb2fdn2qah",
+    "sha256": "1266yjvj0gwv5gni398v9532ljzhnv89ccmwhjwlf7flxh5bjdaj",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
