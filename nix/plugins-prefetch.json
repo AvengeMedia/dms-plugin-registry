@@ -8819,6 +8819,43 @@
     "sha256": "1phbpf2ksfmjxmy53vfjp15q3faas1a5i6z2ba96maihbfp87ng5",
     "url": "https://github.com/psyreactor/dms-voxtype"
   },
+  "voxtypeActivityOverlay": {
+    "date": "2026-07-11T18:19:52+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-TRFAma1ItjWRGvp0osOxfdP5HU2ovkOM4d1Etia3NxQ=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "agneswd",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "voxtype",
+        "cava"
+      ],
+      "description": "Live microphone activity overlay while VoxType is recording. Shows a Cava audio visualizer pill and final transcript bubble.",
+      "distro": [
+        "any"
+      ],
+      "id": "voxtypeActivityOverlay",
+      "name": "VoxType Activity Overlay",
+      "repo": "https://github.com/agneswd/dms-voxtype-activity-overlay",
+      "screenshot": "https://raw.githubusercontent.com/agneswd/dms-voxtype-activity-overlay/main/assets/screenshot-pill.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/wx7s7dd9hsmsx1prn1jciz185fi6n172-dms-voxtype-activity-overlay",
+    "rev": "039dff74c6d313acb3ab83d1bd78834890a5ca59",
+    "rootDir": "",
+    "sha256": "051pnwkbci6xw6647gm89lfzklvxn71s4x7s3a8kbdj8mncl04ad",
+    "url": "https://github.com/agneswd/dms-voxtype-activity-overlay"
+  },
   "vramMonitor": {
     "date": "2026-07-07T19:12:46+03:00",
     "deepClone": false,
