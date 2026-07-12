@@ -592,6 +592,35 @@ Display lyrics from SPlayer in Dank Material Shell.
 
 
 
+#### [AI Quotas](https://github.com/agneswd/dms-ai-quotas)
+
+OpenCode Go usage quotas and DeepSeek API balance in your bar.
+
+
+
+- id: aiQuotas
+- name: AI Quotas
+- author: agneswd
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: curl, jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/agneswd/dms-ai-quotas/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [AMD GPU Monitor](https://github.com/navidagz/dms-amd-gpu-monitor)
 
 Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
