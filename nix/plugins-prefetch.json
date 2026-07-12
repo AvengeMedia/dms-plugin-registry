@@ -298,12 +298,12 @@
     "url": "https://github.com/hthienloc/dms-ambient-sound"
   },
   "amdGpuMonitor": {
-    "date": "2026-07-07T11:08:38Z",
+    "date": "2026-07-11T19:04:22+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-HbFiTpbmBtcLffD0krgN3KSUAkpVsdZZyGm2EwTFYms=",
+    "hash": "sha256-wHg1m0cqAeM7nporbHjyE9Q/KH5BteIKWZ41T9Ybt6g=",
     "leaveDotGit": false,
     "meta": {
       "author": "navidagz",
@@ -327,10 +327,10 @@
       "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshots/screenshot.png",
       "version": "3.1.0"
     },
-    "path": "/nix/store/pal69fassv7gx74lycc47a2a8i3na3nf-dms-amd-gpu-monitor",
-    "rev": "6f1ac2b7ebe62e22e76721579d12fa946417285c",
+    "path": "/nix/store/d63jhgfnlazp7h92h8f102p6kvryfywa-dms-amd-gpu-monitor",
+    "rev": "3a2de757ffa8f90ee6401147929103b4bfad7776",
     "rootDir": "",
-    "sha256": "0sv2ql217dk9r1cxdcam9819996w1nw95x7hgl5xf1p6jr765c8x",
+    "sha256": "1a5p3gb4ydcyb45f5da1gql3zm0ky9w6qawskqxy609a8ydkay60",
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor"
   },
   "amdGpuMonitorRevive": {
@@ -5709,12 +5709,12 @@
     "url": "https://github.com/arqueon/dms-scrobbler"
   },
   "librepods": {
-    "date": "2026-07-08T13:49:35+02:00",
+    "date": "2026-07-11T16:51:47+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ASVmCsBG7gj0aXOxikFVDCB3MM+NabvyapwqL8w+1xY=",
+    "hash": "sha256-GPEPjZ5ElLC56Wls4lKmBjurS8+WC3LjGYhVCfI4EvE=",
     "leaveDotGit": false,
     "meta": {
       "author": "demic-dev",
@@ -5749,10 +5749,10 @@
       "type": "widget",
       "version": "1.0.0"
     },
-    "path": "/nix/store/xnbi13dfznnad1664fc5nkmj2695w656-airpods-widget-DMS",
-    "rev": "5011127f3f8136174e1eb5035b5fd122545baac8",
+    "path": "/nix/store/5jhizsr8vwwwhm3p64wkn8pbqhqjih63-airpods-widget-DMS",
+    "rev": "b0a74f89b3ac522716e1ba1da1002881d60c51bf",
     "rootDir": "",
-    "sha256": "05np7v62yalwdbrbnscdrwq7f80cam0qmcbkd7s0ivj6q056c981",
+    "sha256": "1w8j73r0jmc837ip42wnrx5snfq6lr9f4v39x6wv1524ks6hzw8q",
     "url": "https://github.com/demic-dev/airpods-widget-DMS"
   },
   "linuxWallpaperEngine": {
@@ -7258,12 +7258,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-11T15:49:59+07:00",
+    "date": "2026-07-12T08:21:27+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-kVfc5A2AU1TGH0VTS3LJG3CVZKZ6P7gxkaRbfZ+ZjGc=",
+    "hash": "sha256-UGFhmxNrVQp9AMFtQZ3qkCZHpPRiz3yzLRF4w3hB1sg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7289,12 +7289,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.14.0"
+      "version": "2.15.0"
     },
-    "path": "/nix/store/bzb4v1g45qdhlhfpcf27fg2w3gsxdv1r-dms-quick-capture",
-    "rev": "61171c86a1eb2ce94c98b54953f7ce154d8a4da8",
+    "path": "/nix/store/5kd14qz4h8mz62dr93figvy1fq82jzyk-dms-quick-capture",
+    "rev": "1db9c473df5d8bde5511070dd0d24e59a2aafe37",
     "rootDir": "",
-    "sha256": "0rwck6gpsnx4j4qvhgvslrj9aw0vr5r4nls53z358lw01pjdqmwi",
+    "sha256": "1j6n85wc6y0i5nrprkv2yjj4f9lhxafl2vf101yhlmbb2fdn2qah",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -8746,12 +8746,12 @@
     "url": "https://github.com/cwelsys/dms-volume-mixer"
   },
   "voxtype": {
-    "date": "2026-03-28T17:05:46-03:00",
+    "date": "2026-07-11T22:03:24-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-CjPMs3MCXS0qpvJU7Obfi/kTCv0udVUfvH0comz2oHs=",
+    "hash": "sha256-5dmDrlswqmqSWuKbWFTQSrmBS7jS7VF87bI6PYW7C94=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -8774,12 +8774,12 @@
       "repo": "https://github.com/psyreactor/dms-voxtype",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-voxtype/raw/main/screenshot.png",
-      "version": "1.0.3"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/bn85fd6hm2xszyfji60pjcc9c4fngbhi-dms-voxtype",
-    "rev": "85576ed6577ef166af7d64f007e7d7ddcac99dc7",
+    "path": "/nix/store/lpclazz3gn2mgslk8qx5bkkrl44dvcza-dms-voxtype",
+    "rev": "3e763839028e6a763661a6967f3076dd8f12edf3",
     "rootDir": "",
-    "sha256": "0yx0yrna473xphgmax9fzl517ycbvzkfqm7jlqm2sp82ffrwqcqa",
+    "sha256": "1phbpf2ksfmjxmy53vfjp15q3faas1a5i6z2ba96maihbfp87ng5",
     "url": "https://github.com/psyreactor/dms-voxtype"
   },
   "vramMonitor": {
