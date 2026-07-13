@@ -6430,6 +6430,35 @@ Control Razer peripherals via OpenRazer — lighting effects, brightness, DPI, a
 
 
 
+#### [Recent Files](https://github.com/gouwazi/dms-recent-files)
+
+Search recently opened XDG files directly from the DMS launcher
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: recentFiles
+- name: Recent Files
+- author: Xianggang Wang
+- compositors: any
+- capabilities: launcher
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/gouwazi/dms-recent-files/refs/heads/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [SSH Connections](https://github.com/merdely/dms-plugins)
 
 SSH to configured servers from the Launcher
