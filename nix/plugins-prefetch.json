@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-07-10T17:45:55-03:00",
+    "date": "2026-07-13T00:49:15-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ifgMfcvX5lyBHB9fD9h/NUU7L6Xr1iyY4MXiY81EXwo=",
+    "hash": "sha256-dEWTygMxYZGf60D8/AoWhNuer6oYWCY+IesmSMyztLA=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -178,12 +178,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.6.1"
+      "version": "1.7.0"
     },
-    "path": "/nix/store/ll8lxnc95b9hbw2zay7p6hi2wa4ir19p-AiOverviewControl",
-    "rev": "b5ef98eb811e0a810ddcab98e67a3973d2bd2a20",
+    "path": "/nix/store/gmf5mcmvi360d9b0bii3k5z4a880rdp7-AiOverviewControl",
+    "rev": "87a0b1fa5b677b5dd523a0be05748f813ae9315b",
     "rootDir": "",
-    "sha256": "02jz8k6n7qn5w2c2rmpbllpkni9mgzc0ypqz3j0mrrnprdyhry49",
+    "sha256": "1c5lng64h9pb44z2cn0qmaprxnw42q5grz20xfgr2q9i0g596ibl",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
@@ -2879,12 +2879,12 @@
     "url": "https://github.com/alcxyz/DankTranslate"
   },
   "dankTranslateAI": {
-    "date": "2026-07-10T20:11:15+08:00",
+    "date": "2026-07-13T13:39:51+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-8bgNccGartF5zKCdk3iLISBCKw4tTliBDhIZtHpQE4Y=",
+    "hash": "sha256-utVoa0tHcJvaY1vjgr4xC95wOntkKKHlXYSJSplxHFM=",
     "leaveDotGit": false,
     "meta": {
       "author": "SakuraToErii",
@@ -2909,12 +2909,12 @@
       "repo": "https://github.com/SakuraToErii/dank-translate-ai",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/SakuraToErii/dank-translate-ai/main/docs/translation-popup.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/a3dls7cdvw778hklqn9pgnrs9p0byn2h-dank-translate-ai",
-    "rev": "1586b2f02e49fe1ea7981e4dd1a16dd164f0bd7c",
+    "path": "/nix/store/l9hcrd7qxx79qfjl246qw78azq96r5wn-dank-translate-ai",
+    "rev": "81c7c40fd1be57f36f4b18d6b98ac4a3315364e1",
     "rootDir": "",
-    "sha256": "11hka1xb868j1s0mhkid1qml4811idw977d0riwx3blsq5qhvf7i",
+    "sha256": "0lqwf6clm2c4bpjs2a34gcx71phb66z85qsvcgd9nw279dmnimds",
     "url": "https://github.com/SakuraToErii/dank-translate-ai"
   },
   "dankUpsMonitor": {
@@ -4811,6 +4811,43 @@
     "sha256": "11ray67pvx1n1s7wlbg2adaxdc0l8lkmknh0pxv5495ypw0kvjcw",
     "url": "https://github.com/boutabong/dms-plugins"
   },
+  "githubHeatmapPlus": {
+    "date": "2026-07-13T14:25:58+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-lOnDOrH8bKu5wPAEI6ZGZrT8Wb3vekKFB8nTbcfS4dY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "maxlen727",
+      "capabilities": [
+        "dankbar-widget",
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dms"
+      ],
+      "description": "GitHub contribution heatmap for DankBar and your desktop, with color-coded activity levels and theme-aware styling.",
+      "distro": [
+        "any"
+      ],
+      "id": "githubHeatmapPlus",
+      "name": "GitHub Heatmap Plus",
+      "repo": "https://github.com/maxlen727/DMS-GitHub_HeatMap_Plus",
+      "screenshot": "https://raw.githubusercontent.com/maxlen727/DMS-GitHub_HeatMap_Plus/refs/heads/main/assets/Overall.png",
+      "version": "2.0.0"
+    },
+    "path": "/nix/store/nif16848ddh5x42vgcxxg7kjbq5fpqhn-DMS-GitHub_HeatMap_Plus",
+    "rev": "b2b20ecb3dde94e10f859446fc70140ccda70005",
+    "rootDir": "",
+    "sha256": "1mp1sb3nvly90y2l4ypgpmczrd368sk2617hq2wsnv7wn4xc7scl",
+    "url": "https://github.com/maxlen727/DMS-GitHub_HeatMap_Plus"
+  },
   "githubHeatmapRevive": {
     "date": "2026-06-28T01:46:34+05:30",
     "deepClone": false,
@@ -4906,12 +4943,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin"
   },
   "githubNotifier": {
-    "date": "2026-07-10T18:39:34-03:00",
+    "date": "2026-07-12T23:40:39-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Om3/+yPPjxgJNsm4q8w3KQWaVFNhCG3iP7Eww0HT9qo=",
+    "hash": "sha256-ngoLMzXjdnLDoJ4b2er59N3YubWi7Q13AiUB9g2guTE=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -4935,21 +4972,21 @@
       "repo": "https://github.com/psyreactor/dms-githubNotifier",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-githubNotifier/raw/main/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/99yz34fs18w5sdkfhwzl0pjn7g56hhc9-dms-githubNotifier",
-    "rev": "048bbb3f6a10b9fa51335f2de14e3fecad339af3",
+    "path": "/nix/store/kh25fm2wwh85qzvdv8yddfbaqvgqpry9-dms-githubNotifier",
+    "rev": "b1af35656f2ea6fac8d2b75e8fa54d62a1fc1fd5",
     "rootDir": "",
-    "sha256": "1apnsd0w6c5i7zi6s231ada9l1996z6apf696q4ii3yg4gxzyv9s",
+    "sha256": "0cdrl06zc09509vhvvd2nnwxipglz7mdj6wyl31p4xp36lrhn2ly",
     "url": "https://github.com/psyreactor/dms-githubNotifier"
   },
   "gitlabNotifier": {
-    "date": "2026-07-11T01:31:20-03:00",
+    "date": "2026-07-12T23:41:11-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uUcJuRq5WKgofookdFblqt6ydqYcr3I7nMRH6KBYdzY=",
+    "hash": "sha256-Ch2ji5clz2MUcJTj2S9wLLrshn0Wnm1ikcBk/Es0TX4=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -4973,12 +5010,12 @@
       "repo": "https://github.com/psyreactor/dms-gitlabNotifier",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-gitlabNotifier/raw/main/screenshot.png",
-      "version": "1.2.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/nih0hkz20y9wjhbij1wsyc155yyfhpqx-dms-gitlabNotifier",
-    "rev": "7134f421f18f76a34852b179a9bb85f0e2c80b4f",
+    "path": "/nix/store/6hi6yb2833hm24rfimx4j31q81fmbzw6-dms-gitlabNotifier",
+    "rev": "4191319569c7b95f0f150c70c410c6aaca892a53",
     "rootDir": "",
-    "sha256": "0dkpb2hfhiy4khxp5bqwlrvb5pmawmb7894agqlahn5r3awhjixr",
+    "sha256": "0zjd6i5zqr60j5i6v7hngn3frficf0pxkqwlf0a67kr5jy5s678a",
     "url": "https://github.com/psyreactor/dms-gitlabNotifier"
   },
   "gitmojiLauncher": {
@@ -5238,12 +5275,12 @@
     "url": "https://github.com/hthienloc/dms-hidden-bar"
   },
   "homeAssistantMonitor": {
-    "date": "2026-07-13T09:38:42+08:00",
+    "date": "2026-07-13T09:58:09+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-qhDyzlvJFTKe9COcIG82FGgn0pyrECxzY1Rwkxxv2nc=",
+    "hash": "sha256-woLXMu5/t/mADIG1svWNifuo3ypZMJ94ee44+kBCXK4=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -5268,12 +5305,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-      "version": "2.0.5"
+      "version": "2.0.6"
     },
-    "path": "/nix/store/hm6r60r93dvny08pl9w8hj35rl400z2p-dms-plugin-hass",
-    "rev": "2a72de23f3d064ff937c42ff77e9f2a2849d92d7",
+    "path": "/nix/store/0wb9r7jjzk0cihqqag4zlwcpip0vg703-dms-plugin-hass",
+    "rev": "3cef9b5a66f2d2010ee5e2fe49456b0aed32c003",
     "rootDir": "",
-    "sha256": "0xysdwf96w2lcdrjq45bkk92fs0l6rpj1713yjg345f9bg7g445a",
+    "sha256": "1bjw890glf7fg5w9yc2r5bgsiyw9ipsv5dc11j0gkdvzxqrdg0n2",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hostnameWidget": {
@@ -7295,12 +7332,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-13T03:20:40+07:00",
+    "date": "2026-07-13T12:31:39+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-AQs0/cqBbjuDr6LCtqqNEx8jmrhfAicHmDssDgQSrDU=",
+    "hash": "sha256-0hZq8wcOA3segoKgGYpVuWGITdEgRxd/hDKQFuJDrY4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7326,12 +7363,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.16.2"
+      "version": "2.16.3"
     },
-    "path": "/nix/store/pq5m469yxxnq6xsadjw0c4prj604lvqs-dms-quick-capture",
-    "rev": "96287105cd73eb98b5c3f6c94f7ea7c9194414b2",
+    "path": "/nix/store/06dbgs6bfh2ydmhwsl8b7qiavvmczm4x-dms-quick-capture",
+    "rev": "e1b8a47c897ce3068f51e928b8ae6619b4d707d2",
     "rootDir": "",
-    "sha256": "0ddc2820wb1vk03jf0jzp2d267qkinmbdhm2my1knvl1rbyk82q1",
+    "sha256": "13md8gi1d41jhizifir0s56qhqdran51k842h8g7n0qf0zrnl5nj",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -9301,12 +9338,12 @@
     "url": "https://github.com/antikytheraton/DankWebcamViewer"
   },
   "whisperer": {
-    "date": "2026-07-10T12:29:00-05:00",
+    "date": "2026-07-13T01:34:19-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-8cMKDbBZSoK5e9eqBefzRX+/obkrxUHrNhJgMPlUC3Y=",
+    "hash": "sha256-RCOqBrRmAbVFmupqXdDDXZChDf6UkhNoD9wmaA/cHvs=",
     "leaveDotGit": false,
     "meta": {
       "author": "dwright134",
@@ -9333,12 +9370,12 @@
       "path": "",
       "repo": "https://github.com/dwright134/dms-whisperer",
       "screenshot": "https://raw.githubusercontent.com/dwright134/dms-whisperer/main/docs/popout.png",
-      "version": "0.4.4"
+      "version": "0.4.5"
     },
-    "path": "/nix/store/7nwpla4239jf1m3s8r2yn91rdj04hhdw-dms-whisperer",
-    "rev": "f54b20a41128500134c3947ad9929bc78e019de3",
+    "path": "/nix/store/58p46pqj5p0mn19x6vjjyn479vlcgfpz-dms-whisperer",
+    "rev": "493b1ae61eac1c505a82eb541f7d85b5410a08da",
     "rootDir": "",
-    "sha256": "0xhbakwk0q0j6vml3i9bp6hvyzs5ygkhbanpgfwq4jjrn06hmhzi",
+    "sha256": "1yqyvh7nh9nw1xl174llzq6s342xqg85sspak92va0b6nh3al8s4",
     "url": "https://github.com/dwright134/dms-whisperer"
   },
   "widgetGroup": {
