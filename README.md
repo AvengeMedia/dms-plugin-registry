@@ -231,6 +231,35 @@ Desktop plugin to display a picture on your desktop
 
 
 
+#### [MpvPaper Plugin](https://github.com/tokisak1kurum1/mpvpaper-plugin)
+
+Play and switch video wallpapers with multi-monitor support, lock-screen power saving, and an included DankBar widget.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: mpvpaper
+- name: MpvPaper Plugin
+- author: tokisak1kurum1
+- compositors: any
+- capabilities: wallpaper, daemon, dankbar-widget
+- dependencies: mpvpaper, ffmpeg
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/tokisak1kurum1/mpvpaper-plugin/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper Shuffler](https://github.com/Daniel-42-z/dms-wallpaper-shuffler)
 
 Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder
@@ -6522,6 +6551,35 @@ A simple multi model ai client to use with your dank shell. Use it ollama, gemin
 
 
 
+#### [Screen Capture](https://github.com/crowforkotlin/dms-screen-capture)
+
+Take screenshots using Niri's built-in command with area, full screen and active window modes
+
+
+
+- id: screenCapture
+- name: Screen Capture
+- author: crowforkotlin
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/crowforkotlin/dms-screen-capture/main/Screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Screen Capture Toolbar](https://github.com/JDKamalakar/DMS-ScreenCapture_Toolbar)
 
 Premium pill-shaped toolbar for quick screenshots and screen recording
@@ -6602,6 +6660,35 @@ GPU-accelerated screen recorder with multi-monitor support and smart notificatio
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/hthienloc/dms-screen-recorder/master/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Screen Recorder X](https://github.com/crowforkotlin/dms-screen-recorder)
+
+Record screen or selected area using wf-recorder with configurable codec, framerate, quality, resolution, format and save path
+
+
+
+- id: screenRecorderX
+- name: Screen Recorder X
+- author: crowforkotlin
+- compositors: niri, hyprland, sway
+- capabilities: dankbar-widget
+- dependencies: wf-recorder, zenity
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/crowforkotlin/dms-screen-recorder/main/Screenshot.png)
 
 </details>
 
