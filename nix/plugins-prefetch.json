@@ -4812,12 +4812,12 @@
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "githubHeatmapPlus": {
-    "date": "2026-07-13T17:43:45+08:00",
+    "date": "2026-07-14T07:15:44+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-QPyolCY96/NDM8tQaRX0X09M20ae1unJbyjdU8Te628=",
+    "hash": "sha256-mo2PtzJlvdWk1GO4kzVpbZ+AfPIZX38miZg5l1QmD78=",
     "leaveDotGit": false,
     "meta": {
       "author": "maxlen727",
@@ -4842,10 +4842,10 @@
       "screenshot": "https://raw.githubusercontent.com/maxlen727/DMS-GitHub_HeatMap_Plus/refs/heads/main/assets/Overall.png",
       "version": "2.0.0"
     },
-    "path": "/nix/store/7z42skdglsxwpxl6lw0rmk7lai8d7va8-DMS-GitHub_HeatMap_Plus",
-    "rev": "03f398ed978f2ed079fa64b76b71d9e7b08fd375",
+    "path": "/nix/store/wvs98ak9s47djx93xncbl04dd32j8nxc-DMS-GitHub_HeatMap_Plus",
+    "rev": "471961c0539099ebdbbc6ebc05931e30cd818a39",
     "rootDir": "",
-    "sha256": "0vzbvv257p98dz4ykmly8vdlqkszyhanjl6b6d1z7srx4saaiz20",
+    "sha256": "1gqg4ra9ffcqi4k7ypqry9y817vdd4sr7f33sjjdbgb56avqz3cs",
     "url": "https://github.com/maxlen727/DMS-GitHub_HeatMap_Plus"
   },
   "githubHeatmapRevive": {
@@ -7332,12 +7332,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-14T01:26:45+07:00",
+    "date": "2026-07-14T02:52:49+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-z9QoAc8H9y8OWWRInorAXlyXK9uJKZCgzXgEAW6X9NE=",
+    "hash": "sha256-uuvw8HbfPd3xcBWe1WHLu1rsKbzXc4mbSp20N6c744s=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7363,12 +7363,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.16.3"
+      "version": "2.17.0"
     },
-    "path": "/nix/store/s8hvg4di2hjr8mabazp6xmv98746pam4-dms-quick-capture",
-    "rev": "a710a26eb57eb16576e7c1d20301eb2a00801dd5",
+    "path": "/nix/store/3ql7gijdlp2nady4lb2vyrs4axrw36h9-dms-quick-capture",
+    "rev": "acc58a5c20094d022c32f8035f543ba62c102509",
     "rootDir": "",
-    "sha256": "1lgljxp0213qrnh90ac9vcmrfp2yq259wj34b472zxq7rw0jim6g",
+    "sha256": "12z37fkkgd4x9adqjwypphlyqnmvrdhxb7hmf3qxsgfzfvqg1sxs",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
