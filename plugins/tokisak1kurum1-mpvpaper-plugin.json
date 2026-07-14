@@ -1,11 +1,11 @@
 {
     "id": "mpvpaper",
     "name": "MpvPaper Plugin",
-    "capabilities": ["wallpaper", "daemon"],
+    "capabilities": ["wallpaper", "daemon", "dankbar-widget"],
     "category": "appearance",
     "repo": "https://github.com/tokisak1kurum1/mpvpaper-plugin",
     "author": "tokisak1kurum1",
-    "description": "Play videos as desktop wallpapers with multi-monitor and lock-screen power-saving support.",
+    "description": "Play and switch video wallpapers with multi-monitor support, lock-screen power saving, and an included DankBar widget.",
     "dependencies": ["mpvpaper", "ffmpeg"],
     "compositors": ["any"],
     "distro": ["any"],
