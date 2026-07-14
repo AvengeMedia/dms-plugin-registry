@@ -1,0 +1,24 @@
+{
+  "id": "screenRecorder",
+  "name": "Screen Recorder",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/crowforkotlin/dms-screen-recorder",
+  "author": "crowforkotlin",
+  "description": "Record screen or selected area using wf-recorder with configurable codec, framerate, quality, resolution, format and save path",
+  "dependencies": [
+    "wf-recorder",
+    "zenity"
+  ],
+  "compositors": [
+    "niri",
+    "hyprland",
+    "sway"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/crowforkotlin/dms-screen-recorder/main/Screenshot.png"
+}
