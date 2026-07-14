@@ -19,7 +19,7 @@ date: {{ current_date }}
 title: {{ plugin.name }}
 author: {{ plugin.author }}
 tags: {{ tags }}
-card_image: {{ screenshot }}
+card_image: {{ card_image }}
 pinned: {{ 'true' if is_official else 'false' }}
 ---
 
@@ -213,7 +213,7 @@ def generate_markdown(plugin: dict, plugin_filename: str, current_date: str) -> 
     tags_str = ", ".join(tags)
 
     # Build screenshot section
-    screenshot = plugin.get("screenshot", "null")
+    card_image = f"https://api.danklinux.com/previews/{plugin.get('id')}"
     no_image_on_readme = "![" not in readme_content
     screenshot_section = ""
     if "screenshot" in plugin and plugin["screenshot"] and no_image_on_readme:
@@ -295,7 +295,7 @@ def generate_markdown(plugin: dict, plugin_filename: str, current_date: str) -> 
             "requires_dms": plugin.get("requires_dms", "N/A"),
         },
         "tags": tags_str,
-        "screenshot": screenshot,
+        "card_image": card_image,
         "is_official": is_official,
         "release_badge": release_badge,
         "screenshot_section": screenshot_section,
