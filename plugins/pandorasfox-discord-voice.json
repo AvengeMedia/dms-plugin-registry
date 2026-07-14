@@ -6,7 +6,7 @@
     "repo": "https://github.com/PandorasFox/dms-discord-widget",
     "author": "PandorasFox",
     "description": "Discord voice call overlay — shows participants as circular avatars with speaking/mute/deafen indicators. Supports mute/deafen keybinds and push-to-talk.",
-    "compositors": ["niri", "hyprland", "sway"],
+    "compositors": ["any"],
     "dependencies": ["python3"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/PandorasFox/dms-discord-widget/master/screenshot.png"

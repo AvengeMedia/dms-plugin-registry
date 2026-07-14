@@ -1,0 +1,107 @@
+{
+  "id": "deepsage",
+  "name": "Deep Sage",
+  "version": "1.0.0",
+  "author": "viewerofall",
+  "description": "Muted sage green theme, easy on the eyes at night, with bright/deep button variants",
+  "dark": {},
+  "light": {},
+  "variants": {
+    "type": "multi",
+    "defaults": {
+      "dark": {
+        "flavor": "sage",
+        "accent": "deep"
+      },
+      "light": {
+        "flavor": "sage-light",
+        "accent": "bright"
+      }
+    },
+    "flavors": [
+      {
+        "id": "sage",
+        "name": "Sage",
+        "dark": {
+          "background": "#0d120f",
+          "backgroundText": "#dce6df",
+          "surface": "#121915",
+          "surfaceText": "#d7e2d9",
+          "surfaceVariant": "#1b251f",
+          "surfaceVariantText": "#9fb3a3",
+          "outline": "#2c3a30",
+          "surfaceContainerLowest": "#0a0f0c",
+          "surfaceContainerLow": "#101611",
+          "surfaceContainer": "#161e19",
+          "surfaceContainerHigh": "#1e2922",
+          "surfaceContainerHighest": "#27342c",
+          "error": "#e07a7a",
+          "warning": "#d9a256",
+          "info": "#7fa8a3",
+          "matugen_type": "scheme-neutral"
+        }
+      },
+      {
+        "id": "sage-light",
+        "name": "Sage Light",
+        "light": {
+          "background": "#f4f7f4",
+          "backgroundText": "#19231c",
+          "surface": "#eef3ee",
+          "surfaceText": "#1d2820",
+          "surfaceVariant": "#e1e9e2",
+          "surfaceVariantText": "#46524a",
+          "outline": "#c7d2c8",
+          "surfaceContainerLowest": "#ffffff",
+          "surfaceContainerLow": "#f6f9f6",
+          "surfaceContainer": "#eef2ee",
+          "surfaceContainerHigh": "#e3e9e3",
+          "surfaceContainerHighest": "#d8e0d8",
+          "error": "#c4453f",
+          "warning": "#a8732e",
+          "info": "#3f6f68",
+          "matugen_type": "scheme-neutral"
+        }
+      }
+    ],
+    "accents": [
+      {
+        "id": "bright",
+        "name": "Bright Sage",
+        "sage": {
+          "primary": "#8bbf8a",
+          "primaryText": "#0d150f",
+          "primaryContainer": "#4d6f4f",
+          "secondary": "#a9cda7",
+          "surfaceTint": "#8bbf8a"
+        },
+        "sage-light": {
+          "primary": "#5c8c5e",
+          "primaryText": "#ffffff",
+          "primaryContainer": "#d3e6d2",
+          "secondary": "#6f9c70",
+          "surfaceTint": "#5c8c5e"
+        }
+      },
+      {
+        "id": "deep",
+        "name": "Deep Sage",
+        "sage": {
+          "primary": "#5c7a5e",
+          "primaryText": "#e8f0e8",
+          "primaryContainer": "#3a4f3c",
+          "secondary": "#7a9279",
+          "surfaceTint": "#5c7a5e"
+        },
+        "sage-light": {
+          "primary": "#3f5940",
+          "primaryText": "#f0f5ef",
+          "primaryContainer": "#c3d3c2",
+          "secondary": "#5c785c",
+          "surfaceTint": "#3f5940"
+        }
+      }
+    ]
+  },
+  "sourceDir": "deepsage"
+}

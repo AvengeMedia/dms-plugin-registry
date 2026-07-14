@@ -1,0 +1,13 @@
+{
+    "id": "dmsconky",
+    "name": "DMS Conky",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/suruibin/dms-conky",
+    "author": "suruibin",
+    "description": "Classic Conky-style System Monitor + App Launcher",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png"
+}

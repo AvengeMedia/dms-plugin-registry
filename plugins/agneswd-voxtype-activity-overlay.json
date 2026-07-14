@@ -1,0 +1,22 @@
+{
+  "id": "voxtypeActivityOverlay",
+  "name": "VoxType Activity Overlay",
+  "capabilities": [
+    "daemon"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/agneswd/dms-voxtype-activity-overlay",
+  "author": "agneswd",
+  "description": "Live microphone activity overlay while VoxType is recording. Shows a Cava audio visualizer pill and final transcript bubble.",
+  "dependencies": [
+    "voxtype",
+    "cava"
+  ],
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/agneswd/dms-voxtype-activity-overlay/main/assets/screenshot-pill.png"
+}
