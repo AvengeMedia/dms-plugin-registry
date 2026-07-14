@@ -3604,12 +3604,12 @@
     "url": "https://github.com/EienWolf/dms-displayprofile"
   },
   "displayProfileManager": {
-    "date": "2026-06-30T08:31:17+02:00",
+    "date": "2026-07-14T10:52:22+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Vo72prBcg/D3NFwEuJuOnwBqxHHXyeol3h5Xnpe48C4=",
+    "hash": "sha256-mlNKbE/HbyqNywIHPZi7U/ITtRSmNkf6a0zxb1mRdDQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "Jan Kelemen",
@@ -3629,12 +3629,12 @@
       "name": "Display Profile Manager",
       "repo": "https://github.com/jankelemen/dank-display-profile-manager",
       "screenshot": "https://raw.githubusercontent.com/jankelemen/dank-display-profile-manager/master/assets/screenshot.png",
-      "version": "0.1.3"
+      "version": "0.1.4"
     },
-    "path": "/nix/store/ndha1hm394b2miwa9d7r19yxh4vfksij-dank-display-profile-manager",
-    "rev": "a676dabea8b38f3121ef2a0a36aae2071395958d",
+    "path": "/nix/store/cx4if1kyhywd4f4gj5jii7ywxgs72hhb-dank-display-profile-manager",
+    "rev": "4107b2fa5e12b493b205d64cb3c60e9a2785c32e",
     "rootDir": "",
-    "sha256": "0bphp2brwmqyvqjymjfpf726l04zisdvh12w6kvz10swn2kgd3jn",
+    "sha256": "0d3lj5cnzwacdgx4fdm62jsi7wjkpfc3s1q2rf6jlvy79xn4llws",
     "url": "https://github.com/jankelemen/dank-display-profile-manager"
   },
   "displaySettings": {
@@ -4012,12 +4012,12 @@
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dmsThemeSync": {
-    "date": "2026-07-10T20:48:50-06:00",
+    "date": "2026-07-14T00:08:15-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-zaLPQBwzLPLZReSTjqgsmiUXXwO65GnBpTaUqOFCiQ8=",
+    "hash": "sha256-MNcrYxbpp0MjG56Os2KmHDzbLr0ZKKEZ4qYBRLVsv8Y=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -4043,10 +4043,10 @@
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png",
       "version": "0.7.0"
     },
-    "path": "/nix/store/ydgfr4c3pf68skdl7dgiggj22w706gzm-dms-theme-sync",
-    "rev": "28e4abc2c6c8137ad00c1e0e0dc95c037dc50cf9",
+    "path": "/nix/store/xlp87qz5h5qs11hsbbajlpz6623vm9q6-dms-theme-sync",
+    "rev": "2607942db4fbd00505199f665ee3137aa57a6d1d",
     "rootDir": "",
-    "sha256": "03w98bhsi51nlp0nkr5s0dgif9cs5jl8x4z48pcz4b1k3i0cz8nd",
+    "sha256": "1imzdjsl80d6w8cs2a0rplpdng0wlrib73ly3cil79z92rijpmrh",
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
   "dmsWhisper": {
@@ -7332,12 +7332,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-14T02:52:49+07:00",
+    "date": "2026-07-14T17:08:07+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uuvw8HbfPd3xcBWe1WHLu1rsKbzXc4mbSp20N6c744s=",
+    "hash": "sha256-FLrcPWGHO4m7QDfpEYPz8kBpzk/9MigNSnVl8FPj++I=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7365,10 +7365,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "2.17.0"
     },
-    "path": "/nix/store/3ql7gijdlp2nady4lb2vyrs4axrw36h9-dms-quick-capture",
-    "rev": "acc58a5c20094d022c32f8035f543ba62c102509",
+    "path": "/nix/store/vd5rkhvb7gxi41ji5ils293y1p1bjy3q-dms-quick-capture",
+    "rev": "f01d94a727f2956081470e1ef7511b1a24bc2c88",
     "rootDir": "",
-    "sha256": "12z37fkkgd4x9adqjwypphlyqnmvrdhxb7hmf3qxsgfzfvqg1sxs",
+    "sha256": "1qpvwd9z0rbm986jhcpx9z76jh7jyf1i3s9p82xqjfw7c4yxrfhl",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -7587,6 +7587,40 @@
     "rootDir": "",
     "sha256": "1w11pddiq2rs7slc14n599vrgiyn9xhdrf0zgmn4hcf7ndpxr5zx",
     "url": "https://github.com/ss44/sathi.ai"
+  },
+  "screenCapture": {
+    "date": "2026-07-14T17:46:43+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-04DzALCrXWjI4kbK3XYoiEFs3xIdnrmHY11YYlVMKvI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "crowforkotlin",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [],
+      "description": "Take screenshots using Niri's built-in command with area, full screen and active window modes",
+      "distro": [
+        "any"
+      ],
+      "id": "screenCapture",
+      "name": "Screen Capture",
+      "repo": "https://github.com/crowforkotlin/dms-screen-capture",
+      "screenshot": "https://raw.githubusercontent.com/crowforkotlin/dms-screen-capture/main/Screenshot.png",
+      "version": "1.3.0"
+    },
+    "path": "/nix/store/v5j5bh3v2hmlx0jgfghkclzyxkmi34i2-dms-screen-capture",
+    "rev": "0d68fee1d23bd1fe0e5a0ffabda7d7fd1d07f0e8",
+    "rootDir": "",
+    "sha256": "1wia9ian4n2xcf3vk7hx2bgnqhc851vdvjj6wb46hpdbn00g706k",
+    "url": "https://github.com/crowforkotlin/dms-screen-capture"
   },
   "screenCaptureToolbar": {
     "date": "2026-06-30T15:55:16+05:30",
@@ -8626,12 +8660,12 @@
     "url": "https://github.com/iskepr/DankTodoLauncher"
   },
   "trashBin": {
-    "date": "2026-04-18T00:08:04+08:00",
+    "date": "2026-07-14T16:16:48+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-cRAUAfdh/pH7sDYq7psLWYyRu8CN8wcQDCk5ruR4Mn4=",
+    "hash": "sha256-o/+ocLCBeA9wIZQwG5oeE8hu7DAo73iQ7/3Hck7iLvA=",
     "leaveDotGit": false,
     "meta": {
       "author": "kerojiang",
@@ -8651,12 +8685,12 @@
       "name": "Trash Bin",
       "repo": "https://github.com/kerojiang/dms-transBin",
       "screenshot": "https://raw.githubusercontent.com/kerojiang/dms-transBin/refs/heads/main/images/bin-full.png",
-      "version": "1.3.0"
+      "version": "1.3.1"
     },
-    "path": "/nix/store/h9q5vs2dbvx7s9032r2znxlhq94qnnn6-dms-transBin",
-    "rev": "100b14f27b6c624ab2b8b171bca64a3d0505155b",
+    "path": "/nix/store/fm409ydvbsa3n7nj54q903rmb16k65wq-dms-transBin",
+    "rev": "95ee2a137eddca5c847ce983efe3478ec1be88c9",
     "rootDir": "",
-    "sha256": "0zijg3jawf991h80gwwdq2xr332r1fdywainn3xr3zk1yw0i843i",
+    "sha256": "1w1fw9775izxxy87ivr863n6xj0k3sd1nc4l45q0yy41n1qaizx3",
     "url": "https://github.com/kerojiang/dms-transBin"
   },
   "typingSounds": {
