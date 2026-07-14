@@ -6354,6 +6354,46 @@
     "sha256": "0gmlcvh1rwpxiskmamx8y58j6hyrh11bfp82yxgdyij75ld624av",
     "url": "https://github.com/arrifat346afs/mediaPlayer"
   },
+  "mpvpaper": {
+    "date": "2026-07-14T18:49:00+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-CffTJ0CXzj7Kr8i5HbJJGU4MkiURH9H7aUc5KROaQEY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "tokisak1kurum1",
+      "capabilities": [
+        "wallpaper",
+        "daemon",
+        "dankbar-widget"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "mpvpaper",
+        "ffmpeg"
+      ],
+      "description": "Play and switch video wallpapers with multi-monitor support, lock-screen power saving, and an included DankBar widget.",
+      "distro": [
+        "any"
+      ],
+      "id": "mpvpaper",
+      "name": "MpvPaper Plugin",
+      "repo": "https://github.com/tokisak1kurum1/mpvpaper-plugin",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/tokisak1kurum1/mpvpaper-plugin/master/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/kgp27n2rqziih8r6z03f74lysrca7dz3-mpvpaper-plugin",
+    "rev": "f0f83ad6fb034a02a9073bd7a2036cc879f78413",
+    "rootDir": "",
+    "sha256": "0ij0k89jjfa7d7xx27qi4n90qkhr96r1vff8mz53xklp80kx7xq9",
+    "url": "https://github.com/tokisak1kurum1/mpvpaper-plugin"
+  },
   "mpvpaperWallpaper": {
     "date": "2026-05-14T23:26:43-04:00",
     "deepClone": false,
