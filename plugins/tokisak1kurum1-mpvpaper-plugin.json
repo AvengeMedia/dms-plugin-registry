@@ -1,0 +1,14 @@
+{
+    "id": "mpvpaper",
+    "name": "MpvPaper Plugin",
+    "capabilities": ["wallpaper", "daemon"],
+    "category": "appearance",
+    "repo": "https://github.com/tokisak1kurum1/mpvpaper-plugin",
+    "author": "tokisak1kurum1",
+    "description": "Play videos as desktop wallpapers with multi-monitor and lock-screen power-saving support.",
+    "dependencies": ["mpvpaper", "ffmpeg"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/tokisak1kurum1/mpvpaper-plugin/master/screenshot.png",
+    "requires_dms": ">=1.5.0"
+}
