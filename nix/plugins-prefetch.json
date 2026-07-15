@@ -7455,17 +7455,19 @@
     "meta": {
       "author": "Loc Huynh",
       "capabilities": [
-        "daemon"
+        "daemon",
+        "dankbar-widget",
+        "control-center"
       ],
       "category": "utilities",
       "compositors": [
         "any"
       ],
       "dependencies": [
-        "dms-floaty",
-        "wl-clipboard",
         "imagemagick",
-        "img2pdf"
+        "img2pdf",
+        "tesseract",
+        "zbar"
       ],
       "description": "A quick screen capture utility featuring screenshot tools, drawing, and annotation.",
       "distro": [
