@@ -1,0 +1,13 @@
+{
+    "id": "cardwireManager",
+    "name": "Cardwire Manager",
+    "capabilities": ["dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/jankelemen/cardwire-manager",
+    "author": "Jan Kelemen",
+    "description": "DankBar widget for selecting Cardwire GPU modes and showing the currently active mode.",
+    "dependencies": ["cardwire"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/jankelemen/cardwire-manager/master/assets/screenshot.png"
+}
