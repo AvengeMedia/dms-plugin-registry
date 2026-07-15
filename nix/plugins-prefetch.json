@@ -2095,6 +2095,43 @@
     "sha256": "187v2n3mr2dwd4ik8hrr9qkcb5f5nsqdlmy1x670z6x5hzkm2f1n",
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
+  "dankConsoleSteam": {
+    "date": "2026-07-14T19:56:15-06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-48BCiOs9tJnkNg6R+0HJ9OqRSw7eVvbEc4lLWs48TE8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "JessVolet",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "steam",
+        "gamescope"
+      ],
+      "description": "A simple widget to start steam in big picture mode with custom commands.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankConsoleSteam",
+      "name": "Steam Big Picture",
+      "repo": "https://github.com/JessVolet/DankConsoleModeWithSteam",
+      "screenshot": "https://raw.githubusercontent.com/JessVolet/DankConsoleModeWithSteam/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/w322lqwl2zzmx7fabvmjks6bn1v7cpyz-DankConsoleModeWithSteam",
+    "rev": "cffe37530cf6ce3cc126da79e6105acb5d6cfce6",
+    "rootDir": "",
+    "sha256": "0ksc7k75ljw9fg2gcmny1r5r3splr50zp48f6vj9kd1xxf445h73",
+    "url": "https://github.com/JessVolet/DankConsoleModeWithSteam"
+  },
   "dankDesktopWeather": {
     "date": "2026-07-14T08:53:25-04:00",
     "deepClone": false,
@@ -4354,12 +4391,12 @@
     "url": "https://github.com/MetalCar/dms-dooit-widget"
   },
   "dropdownMenu": {
-    "date": "2026-07-14T14:08:28-04:00",
+    "date": "2026-07-15T10:05:43-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Yv7R4pzV51hBJgwfM7tQCi8CIP69x7mx8h4jLRFQ9uI=",
+    "hash": "sha256-9/tyygaxIVsy1ZELnNE0sIQLCyiRWCiKvN2cnNuaMJw=",
     "leaveDotGit": false,
     "meta": {
       "author": "rdannenbring",
@@ -4379,12 +4416,12 @@
       "name": "Dropdown Menu",
       "repo": "https://github.com/rdannenbring/dropdown-menu",
       "screenshot": "https://raw.githubusercontent.com/rdannenbring/dropdown-menu/main/assets/dropdown-menu.png",
-      "version": "0.7.0"
+      "version": "0.8.0-dev"
     },
-    "path": "/nix/store/xjkczmymrsnqaxf9wzxm44vl0z2rzi1h-dropdown-menu",
-    "rev": "1fd3b42b4e76eb0551e4e3b0e6183358c9460772",
+    "path": "/nix/store/69kjb1n0w8mcming6h0b5dam5shfr6cy-dropdown-menu",
+    "rev": "00c49915c34de7f5a1829f93d2998195e164a529",
     "rootDir": "",
-    "sha256": "1qpna08js8qyyaqvkixxzqh04bqaa2xk67qc4r0mirymkkid3zk2",
+    "sha256": "171hkbdrr76xpj52hn4i505hp15h6k8rq2wislr5n8di0v575yzp",
     "url": "https://github.com/rdannenbring/dropdown-menu"
   },
   "easyEffects": {
@@ -7408,12 +7445,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-15T13:26:07+07:00",
+    "date": "2026-07-16T00:15:05+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-7n5e4kLT88z70cpTZ7C+BkmyfVsBIXpAy5Bf6edZ7nc=",
+    "hash": "sha256-S7zQyE7HKVQY0o6Ncs3610ibgA21vRP+84INASABXt4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7439,12 +7476,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "3.0.1"
+      "version": "3.1.0"
     },
-    "path": "/nix/store/qq917qhykkqh5zlsjsrqi0any06z4amn-dms-quick-capture",
-    "rev": "249e36e237f6952311215cf913709ba4185046b3",
+    "path": "/nix/store/ylixr9gbjgxv8kjnfmjkvamcaz23nkrk-dms-quick-capture",
+    "rev": "6181181021cfeddc807b20a75c27324276e6b5dd",
     "rootDir": "",
-    "sha256": "0xzfb7kyjpwhrd07l881bdyv4j86psq6flyas7xwrwyk8bi5wzpf",
+    "sha256": "1pjy04h023c2ygz17gdm1n09nj6pzb6p53cfs8c58af79v4d1g2b",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
