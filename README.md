@@ -2160,6 +2160,35 @@ Keep your screen awake and prevent idle sleep with a single click.
 
 
 
+#### [Cardwire Manager](https://github.com/jankelemen/cardwire-manager)
+
+DankBar widget for selecting Cardwire GPU modes and showing the currently active mode.
+
+
+
+- id: cardwireManager
+- name: Cardwire Manager
+- author: Jan Kelemen
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: cardwire
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/jankelemen/cardwire-manager/master/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Clash Verge](https://github.com/smithyyang/dms-clash-verge-plugin)
 
 Lightweight Clash Verge overview, switching, and on-demand delay testing popout for DankMaterialShell
