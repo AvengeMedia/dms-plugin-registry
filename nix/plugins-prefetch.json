@@ -1148,6 +1148,42 @@
     "sha256": "0ri397vz21aj4wbzkcqdjp4f9wa1pkpnh757bq53x3xiz8ff6r06",
     "url": "https://github.com/mcwiseman97/dms-canvas-plugin"
   },
+  "cardwireManager": {
+    "date": "2026-07-15T15:00:56+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-pMN2MFihx78Bs1W21eFUWLTihfPiSFmFb+gT4FP4f6Y=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Jan Kelemen",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "cardwire"
+      ],
+      "description": "DankBar widget for selecting Cardwire GPU modes and showing the currently active mode.",
+      "distro": [
+        "any"
+      ],
+      "id": "cardwireManager",
+      "name": "Cardwire Manager",
+      "repo": "https://github.com/jankelemen/cardwire-manager",
+      "screenshot": "https://raw.githubusercontent.com/jankelemen/cardwire-manager/master/assets/screenshot.png",
+      "version": "0.1.2"
+    },
+    "path": "/nix/store/cgf7r8fs078lcv3pgc054hvkvvlj0zv8-cardwire-manager",
+    "rev": "1513e4208d955933432650dbf0238faf5cbeaca7",
+    "rootDir": "",
+    "sha256": "19kzz19y04z8dy2mjj72yf2y5d2qakhxbdjmnc0vzix1b0q7dhx4",
+    "url": "https://github.com/jankelemen/cardwire-manager"
+  },
   "catWidget": {
     "date": "2026-04-13T11:27:25+02:00",
     "deepClone": false,
@@ -1219,12 +1255,12 @@
     "url": "https://github.com/ernestowgg/cava-visualizer"
   },
   "chineseCalendar": {
-    "date": "2026-03-31T13:35:13+08:00",
+    "date": "2026-07-15T18:01:12+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5LnLUn1uttyXtCPdH6i+V7TTc9Ji9/UGZkrcbR8sOQs=",
+    "hash": "sha256-AGn/gss0BEIhLxTpCSodpbc46ruVmDFtpw0UpXgVST0=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -1249,12 +1285,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-ccal",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-ccal/master/assets/screenshot.png",
-      "version": "1.2.1"
+      "version": "1.2.2"
     },
-    "path": "/nix/store/x1z7hl3838kbil4aldj8jb8fa67d1jhc-dms-plugin-ccal",
-    "rev": "123e4e2a8658cc61a36284a7add94f701e60a3fb",
+    "path": "/nix/store/scrvvi55n376rrm1ggy927c37wfmmk6l-dms-plugin-ccal",
+    "rev": "b4de8eb83d05abd83aaf90fa61de5ef6b143ee3f",
     "rootDir": "",
-    "sha256": "02rr5hgnvp2acq3gbxv2s9rx7d2ppsl1zp93njbxrdkfgm9cpfg4",
+    "sha256": "0ga92mwaa50dlxnk364mpgm3idx53lm0ks8l5whl411lrf1gys80",
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
   "clashVerge": {
@@ -3604,12 +3640,12 @@
     "url": "https://github.com/EienWolf/dms-displayprofile"
   },
   "displayProfileManager": {
-    "date": "2026-07-15T00:37:26+02:00",
+    "date": "2026-07-15T14:33:44+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-iDV2cyPiyOeS2xkUpDVgR91BX3lDzmWaFJcEtzboUP0=",
+    "hash": "sha256-CzEGtqtT82Ba9sXQKFNp3x8wibHLgJQVU+sIa1hmRiM=",
     "leaveDotGit": false,
     "meta": {
       "author": "Jan Kelemen",
@@ -3629,12 +3665,12 @@
       "name": "Display Profile Manager",
       "repo": "https://github.com/jankelemen/dank-display-profile-manager",
       "screenshot": "https://raw.githubusercontent.com/jankelemen/dank-display-profile-manager/master/assets/screenshot.png",
-      "version": "0.1.5"
+      "version": "0.1.8"
     },
-    "path": "/nix/store/yf46m2587s5zn0ynz7bcfbqcsilhmgfc-dank-display-profile-manager",
-    "rev": "b35a6530e2e92d9d5d909f846c62a29f5c9afb5c",
+    "path": "/nix/store/59mq3lms0jldxa2gxfcz14wf6rxwglm1-dank-display-profile-manager",
+    "rev": "497ea32fe48fe76835d52f7a6794d516cde15b48",
     "rootDir": "",
-    "sha256": "1zahx0vbf14p2jd6bkj3g5gl3pa7c0ss850rvf9fgj724drpcdc8",
+    "sha256": "08s6crc6n27bacar906bn64k07yzd59jil65yrd61wskmfv0cc8b",
     "url": "https://github.com/jankelemen/dank-display-profile-manager"
   },
   "displaySettings": {
@@ -7372,12 +7408,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-15T00:48:31+07:00",
+    "date": "2026-07-15T13:26:07+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-BIEwYwmKfOT/E0dIvdtiBXplJwKuWofmEcZh7tO/Fqc=",
+    "hash": "sha256-7n5e4kLT88z70cpTZ7C+BkmyfVsBIXpAy5Bf6edZ7nc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7403,12 +7439,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "2.17.2"
+      "version": "3.0.1"
     },
-    "path": "/nix/store/p9vn6n9p3hf4g9fk9ghavhzy6bxxa5ky-dms-quick-capture",
-    "rev": "4f632134a7279da078df22d4e08035ef97591758",
+    "path": "/nix/store/qq917qhykkqh5zlsjsrqi0any06z4amn-dms-quick-capture",
+    "rev": "249e36e237f6952311215cf913709ba4185046b3",
     "rootDir": "",
-    "sha256": "19qnpz9ywqf627k8fnmf08knayh5cbdvsj272gzy8z4a15ik1084",
+    "sha256": "0xzfb7kyjpwhrd07l881bdyv4j86psq6flyas7xwrwyk8bi5wzpf",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -7821,12 +7857,12 @@
     "url": "https://github.com/hthienloc/dms-screen-recorder"
   },
   "screenRecorderX": {
-    "date": "2026-07-14T18:49:18+08:00",
+    "date": "2026-07-15T09:44:02+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-yEI+vN0vW3rH3OrA431zRRCke7GTTrBOo5I7L/0ROH8=",
+    "hash": "sha256-CpcQFBLUlSbZCp6Oe5nAgNsVlBvGaOKsyVoz/V2qaqs=",
     "leaveDotGit": false,
     "meta": {
       "author": "crowforkotlin",
@@ -7853,10 +7889,10 @@
       "screenshot": "https://raw.githubusercontent.com/crowforkotlin/dms-screen-recorder/main/Screenshot.png",
       "version": "1.4.0"
     },
-    "path": "/nix/store/fz412prmirds4g366ffmgr2h269g0p6k-dms-screen-recorder",
-    "rev": "44091d2da9843b070dcdec4a2850f8b9d5e5dfbd",
+    "path": "/nix/store/m6gijqz5qhhyxxz46llcjvcdqfmwim32-dms-screen-recorder",
+    "rev": "0c69710538a110a647da94c4ecdfc6cd4f414e85",
     "rootDir": "",
-    "sha256": "0zrq27yjyfwjld7b0klkn5xs8425fdyy7h7avk3plnrgvny3whn8",
+    "sha256": "1avam9fzscssr6nf4s663fa1bnw0q2cpp3ly1bcjd5fl28a115qa",
     "url": "https://github.com/crowforkotlin/dms-screen-recorder"
   },
   "screenkey": {
