@@ -6353,8 +6353,8 @@ A quick screen capture utility featuring screenshot tools, drawing, and annotati
 - name: Quick Capture
 - author: Loc Huynh
 - compositors: any
-- capabilities: daemon
-- dependencies: dms-floaty, wl-clipboard, imagemagick, img2pdf
+- capabilities: daemon, dankbar-widget, control-center
+- dependencies: imagemagick, img2pdf, tesseract, zbar
 - distro: any
 
 
