@@ -1,7 +1,7 @@
 {
     "id": "quickCapture",
     "name": "Quick Capture",
-    "capabilities": ["daemon"],
+    "capabilities": ["daemon", "dankbar-widget", "control-center"],
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-quick-capture",
     "author": "Loc Huynh",
