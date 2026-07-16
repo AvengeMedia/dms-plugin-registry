@@ -5,9 +5,9 @@
   "category": "system",
   "repo": "https://github.com/rdannenbring/dms-shelly-updater",
   "screenshot": "https://raw.githubusercontent.com/rdannenbring/dms-shelly-updater/main/preview/updates.png",
-  "author": "Robert Dannenbring",
+  "author": "rdannenbring",
   "description": "Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view and an action menu.",
   "dependencies": ["shelly"],
-  "compositors": ["niri", "hyprland"],
+  "compositors": ["any"],
   "distro": ["arch"]
 }
