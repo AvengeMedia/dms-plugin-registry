@@ -4495,12 +4495,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "ephemera": {
-    "date": "2026-07-10T13:22:07-05:00",
+    "date": "2026-07-15T13:46:38-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-+i7rbacYd7gfXcJtFuzV9GoIDSH8JFsf6H2FXPGMRpQ=",
+    "hash": "sha256-h8/lVANAuXR2JIOgZxWHqeH1UEjHtiPtAhfraVGqO58=",
     "leaveDotGit": false,
     "meta": {
       "author": "nicolasgarcia214",
@@ -4524,12 +4524,12 @@
       "name": "Ephemera",
       "repo": "https://github.com/nicolasgarcia214/Ephemera",
       "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/hy47iw0ww214sskcyamb6qxgi3qwgbcb-Ephemera",
-    "rev": "172783fccb37e99756f999daa737ced42aeefe4e",
+    "path": "/nix/store/xlcih0dnw1wb9b8gdg38xg2sfkqf1rix-Ephemera",
+    "rev": "e3ffa6b321d5b7460f45ddfc10fb2a600cd5c208",
     "rootDir": "",
-    "sha256": "1526ikqmr1bxx0gmn97w446hhsplspn1cvf2blgvhxqqlxnynbps",
+    "sha256": "17rvm98nksqp0bnj7dn7918gbqd9hwang8434iv79fa00dafbkw7",
     "url": "https://github.com/nicolasgarcia214/Ephemera"
   },
   "extendedNetworkToggle": {
@@ -7445,12 +7445,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-16T00:15:05+07:00",
+    "date": "2026-07-16T07:51:44+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-S7zQyE7HKVQY0o6Ncs3610ibgA21vRP+84INASABXt4=",
+    "hash": "sha256-iM8YoUOOQvJMw1dzcyG0bLO+jkh9ExwMmqaWi3dHG8s=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7480,10 +7480,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "3.1.0"
     },
-    "path": "/nix/store/ylixr9gbjgxv8kjnfmjkvamcaz23nkrk-dms-quick-capture",
-    "rev": "6181181021cfeddc807b20a75c27324276e6b5dd",
+    "path": "/nix/store/nwdv5dpa23s8gbzx3hxi8g1pm0cx367k-dms-quick-capture",
+    "rev": "81d881dfcb6a4eb4476fb962586088d69720eb0d",
     "rootDir": "",
-    "sha256": "1pjy04h023c2ygz17gdm1n09nj6pzb6p53cfs8c58af79v4d1g2b",
+    "sha256": "1jqv8xvqp5m6k861q4vx927bxcvcnhhp6wspqd6g4hlf8fhiikw8",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
