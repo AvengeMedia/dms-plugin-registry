@@ -8081,6 +8081,42 @@
     "sha256": "12a8zimgsynll3fvbw5a0la6dw3zw6f9hk9cdx0q7a289fx7378p",
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
+  "shellyUpdater": {
+    "date": "2026-07-16T17:41:05-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-NJDN8iOuQTq5CCvORvBrWl0bweGZjwbmeMewsIgcV20=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "rdannenbring",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "shelly"
+      ],
+      "description": "Comprehensive system update widget backed by the Shelly (ALPM) CLI \u2014 pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view and an action menu.",
+      "distro": [
+        "arch"
+      ],
+      "id": "shellyUpdater",
+      "name": "Shelly Updater",
+      "repo": "https://github.com/rdannenbring/dms-shelly-updater",
+      "screenshot": "https://raw.githubusercontent.com/rdannenbring/dms-shelly-updater/main/preview/updates.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/ibl5x4vx1jaz9qs60942pbvyh328vcbf-dms-shelly-updater",
+    "rev": "17314cc82cb3446a4fceae41abe3bde7155aed42",
+    "rootDir": "",
+    "sha256": "0vap3j4b1c67g3k0d3wrw70inpasdgq4dkib12wklhdf4grcv41l",
+    "url": "https://github.com/rdannenbring/dms-shelly-updater"
+  },
   "showDesktop": {
     "date": "2026-03-03T03:23:07+02:00",
     "deepClone": false,
