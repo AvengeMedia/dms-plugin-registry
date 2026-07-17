@@ -1,0 +1,13 @@
+{
+    "id": "intelGpuMonitor",
+    "name": "Intel GPU Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/rdannenbring/dms-intel-gpu-plugin",
+    "author": "rdannenbring",
+    "description": "Monitor Intel GPU usage, VRAM and temperature in the DankBar with configurable charts and a per-process detail view — reads kernel DRM fdinfo and sysfs directly, no root or extra tools required.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/rdannenbring/dms-intel-gpu-plugin/main/Screenshot.png"
+}
