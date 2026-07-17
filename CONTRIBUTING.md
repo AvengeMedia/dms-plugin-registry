@@ -59,7 +59,15 @@ Thank you for contributing to the Dank Material Shell Plugins registry!
 - **dependencies** (required): Array of dependencies, use `[]` if none
 - **compositors** (required): Supported Wayland compositors: `["niri", "hyprland"]`, etc.
 - **distro** (required): Supported distributions: `["any"]`, `["fedora"]`, `["arch"]`, etc.
-- **screenshot** (optional): Direct URL to a screenshot image
+- **screenshot** (required): Direct URL to a screenshot image showing your plugin — see [Previews](#previews) for easy ways to produce a good one
+
+### Previews
+
+Every plugin gets a standardized 960×540 preview card served at `https://api.danklinux.com/previews/{id}`. The card wraps your `screenshot` in a dank-themed frame with the plugin's name, category, and description; if the screenshot URL ever becomes unreachable, a metadata-only card is served instead.
+
+Screenshots of any aspect ratio work well — the card letterboxes them over a blurred backdrop rather than cropping. Capture your plugin in a representative state (popout open, real data visible) on the default dank purple theme where possible.
+
+If you prefer to hand-craft the full card image, there is a web generator at [`https://danklinux.com/thumbnail-generator.html`](https://danklinux.com/thumbnail-generator.html) that produces cards matching the standard layout (see `docs/PREVIEWS.md` for the exact composition spec).
 
 4. **Validate your plugin locally** before submitting:
 
@@ -98,7 +106,7 @@ Thank you for contributing to the Dank Material Shell Plugins registry!
 - Keep descriptions concise and informative
 - Ensure your repository has proper documentation
 - Test that your plugin works with the specified compositors and distros
-- Include a screenshot when possible to showcase your plugin
+- Capture your screenshot in a representative state — popout open, real data visible — ideally on the default dank purple theme (see [Previews](#previews))
 - **IMPORTANT**: The `id` and `name` fields in your registry JSON file **must exactly match** the corresponding fields in your plugin repository's `plugin.json` file
   - For regular plugins: Must match `{repo}/plugin.json`
   - For monorepo plugins: Must match `{repo}/{path}/plugin.json`
@@ -147,6 +155,8 @@ Thank you for contributing a theme to the Dank Material Shell registry!
     "background": "#hex",
     "backgroundText": "#hex",
     "outline": "#hex",
+    "surfaceContainerLowest": "#hex",
+    "surfaceContainerLow": "#hex",
     "surfaceContainer": "#hex",
     "surfaceContainerHigh": "#hex",
     "error": "#hex",
@@ -166,6 +176,8 @@ Thank you for contributing a theme to the Dank Material Shell registry!
     "background": "#hex",
     "backgroundText": "#hex",
     "outline": "#hex",
+    "surfaceContainerLowest": "#hex",
+    "surfaceContainerLow": "#hex",
     "surfaceContainer": "#hex",
     "surfaceContainerHigh": "#hex",
     "error": "#hex",
@@ -195,13 +207,21 @@ Thank you for contributing a theme to the Dank Material Shell registry!
 - **surfaceVariantText**: Text on variant surfaces
 - **surfaceTint**: Tint overlay color
 - **background**: App background color
-- **backgroundText**: Text on background
+- **backgroundText**: Text on background _(matugen-only — see note)_
 - **outline**: Border/divider color
+- **surfaceContainerLowest**: Lowest-elevation container background (darkest in dark mode, lightest in light mode) _(matugen-only — see note)_
+- **surfaceContainerLow**: Low-elevation container background (between surface and surfaceContainer) _(matugen-only — see note)_
 - **surfaceContainer**: Container background
 - **surfaceContainerHigh**: Elevated container background
 - **error**: Error state color
 - **warning**: Warning state color
 - **info**: Info state color
+
+> **Note — matugen-only keys:** `surfaceContainerLowest`, `surfaceContainerLow`, and
+> `backgroundText` are not rendered by DankMaterialShell's own UI. They complete the
+> Material palette and are exported to matugen templates (VS Code, KDE, Firefox, Zed,
+> etc.), so external apps themed via DMS use them. They are still required for a valid
+> theme — pick sensible values that fit your palette.
 
 ### Theme Variants (Optional)
 

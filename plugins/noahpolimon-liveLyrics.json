@@ -1,0 +1,13 @@
+{
+    "id": "liveLyrics",
+    "name": "Live Lyrics",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://gitlab.com/noahpolimon/dms-plugin-livelyrics",
+    "author": "noahpolimon",
+    "description": "Display synced lyrics on your DankBar (Music Lyrics fork)",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://gitlab.com/noahpolimon/dms-plugin-livelyrics/-/raw/main/screenshot.png"
+}

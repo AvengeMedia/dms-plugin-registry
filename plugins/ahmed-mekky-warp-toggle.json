@@ -1,0 +1,20 @@
+{
+  "id": "warpToggle",
+  "name": "WARP Toggle",
+  "capabilities": [
+    "warp-toggle",
+    "dankbar-widget"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/ahmed-mekky/dms-warp-toggle",
+  "author": "ahmed-mekky",
+  "description": "Toggle Cloudflare WARP via warp-cli with real-time status updates",
+  "dependencies": [],
+  "screenshot": "https://raw.githubusercontent.com/ahmed-mekky/dms-warp-toggle/main/assets/preview.gif",
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ]
+}

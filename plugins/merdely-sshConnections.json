@@ -8,7 +8,7 @@
     "author": "Michael Erdely",
     "description": "SSH to configured servers from the Launcher",
     "dependencies": ["ssh"],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/sshconnections.png"
 }

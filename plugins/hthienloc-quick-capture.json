@@ -1,12 +1,13 @@
 {
     "id": "quickCapture",
     "name": "Quick Capture",
-    "capabilities": ["daemon"],
+    "capabilities": ["daemon", "dankbar-widget", "control-center"],
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-quick-capture",
     "author": "Loc Huynh",
     "description": "A quick screen capture utility featuring screenshot tools, drawing, and annotation.",
-    "dependencies": [],
+    "requires_dms": ">=1.5.0",
+    "dependencies": ["imagemagick", "img2pdf", "tesseract", "zbar"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png"

@@ -1,0 +1,21 @@
+{
+    "id": "librepods",
+    "name": "AirPods Control",
+    "category": "utilities",
+    "description": "AirPods control center, powered by LibrePods.",
+    "repo": "https://github.com/demic-dev/airpods-widget-DMS",
+    "version": "1.0.0",
+    "author": "demic-dev",
+    "type": "widget",
+    "capabilities": ["dankbar-widget", "control-center"],
+    "component": "./AirPodsWidget.qml",
+    "icon": "earbuds",
+    "settings": "./Settings.qml",
+    "compositors": ["any"],
+    "distro": ["any"],
+    "startupCheck": "./StartupCheck.qml",
+    "dependencies": ["librepods-ctl", "dbus-send"],
+    "permissions": ["settings_read", "settings_write"],
+    "screenshot": "https://raw.githubusercontent.com/demic-dev/airpods-widget-DMS/refs/heads/main/assets/control-center.png"
+}
+

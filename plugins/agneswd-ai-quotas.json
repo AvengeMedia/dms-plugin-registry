@@ -1,0 +1,22 @@
+{
+  "id": "aiQuotas",
+  "name": "AI Quotas",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "category": "monitoring",
+  "repo": "https://github.com/agneswd/dms-ai-quotas",
+  "author": "agneswd",
+  "description": "OpenCode Go usage quotas and DeepSeek API balance in your bar.",
+  "dependencies": [
+    "curl",
+    "jq"
+  ],
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/agneswd/dms-ai-quotas/main/assets/screenshot.png"
+}
