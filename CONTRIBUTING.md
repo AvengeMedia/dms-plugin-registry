@@ -59,7 +59,15 @@ Thank you for contributing to the Dank Material Shell Plugins registry!
 - **dependencies** (required): Array of dependencies, use `[]` if none
 - **compositors** (required): Supported Wayland compositors: `["niri", "hyprland"]`, etc.
 - **distro** (required): Supported distributions: `["any"]`, `["fedora"]`, `["arch"]`, etc.
-- **screenshot** (optional): Direct URL to a screenshot image
+- **screenshot** (required): Direct URL to a screenshot image showing your plugin — see [Previews](#previews) for easy ways to produce a good one
+
+### Previews
+
+Every plugin gets a standardized 960×540 preview card served at `https://api.danklinux.com/previews/{id}`. The card wraps your `screenshot` in a dank-themed frame with the plugin's name, category, and description; if the screenshot URL ever becomes unreachable, a metadata-only card is served instead.
+
+Screenshots of any aspect ratio work well — the card letterboxes them over a blurred backdrop rather than cropping. Capture your plugin in a representative state (popout open, real data visible) on the default dank purple theme where possible.
+
+If you prefer to hand-craft the full card image, there is a web generator at [`https://danklinux.com/thumbnail-generator.html`](https://danklinux.com/thumbnail-generator.html) that produces cards matching the standard layout (see `docs/PREVIEWS.md` for the exact composition spec).
 
 4. **Validate your plugin locally** before submitting:
 
@@ -98,7 +106,7 @@ Thank you for contributing to the Dank Material Shell Plugins registry!
 - Keep descriptions concise and informative
 - Ensure your repository has proper documentation
 - Test that your plugin works with the specified compositors and distros
-- Include a screenshot when possible to showcase your plugin
+- Capture your screenshot in a representative state — popout open, real data visible — ideally on the default dank purple theme (see [Previews](#previews))
 - **IMPORTANT**: The `id` and `name` fields in your registry JSON file **must exactly match** the corresponding fields in your plugin repository's `plugin.json` file
   - For regular plugins: Must match `{repo}/plugin.json`
   - For monorepo plugins: Must match `{repo}/{path}/plugin.json`

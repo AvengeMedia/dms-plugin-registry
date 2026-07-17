@@ -231,6 +231,35 @@ Desktop plugin to display a picture on your desktop
 
 
 
+#### [MpvPaper Plugin](https://github.com/tokisak1kurum1/mpvpaper-plugin)
+
+Play and switch video wallpapers with multi-monitor support, lock-screen power saving, and an included DankBar widget.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: mpvpaper
+- name: MpvPaper Plugin
+- author: tokisak1kurum1
+- compositors: any
+- capabilities: wallpaper, daemon, dankbar-widget
+- dependencies: mpvpaper, ffmpeg
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/tokisak1kurum1/mpvpaper-plugin/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper Shuffler](https://github.com/Daniel-42-z/dms-wallpaper-shuffler)
 
 Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder
@@ -2124,6 +2153,35 @@ Keep your screen awake and prevent idle sleep with a single click.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Cardwire Manager](https://github.com/jankelemen/cardwire-manager)
+
+DankBar widget for selecting Cardwire GPU modes and showing the currently active mode.
+
+
+
+- id: cardwireManager
+- name: Cardwire Manager
+- author: Jan Kelemen
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: cardwire
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/jankelemen/cardwire-manager/master/assets/screenshot.png)
 
 </details>
 
@@ -6295,8 +6353,8 @@ A quick screen capture utility featuring screenshot tools, drawing, and annotati
 - name: Quick Capture
 - author: Loc Huynh
 - compositors: any
-- capabilities: daemon
-- dependencies: dms-floaty, wl-clipboard, imagemagick, img2pdf
+- capabilities: daemon, dankbar-widget, control-center
+- dependencies: imagemagick, img2pdf, tesseract, zbar
 - distro: any
 
 
@@ -6522,6 +6580,35 @@ A simple multi model ai client to use with your dank shell. Use it ollama, gemin
 
 
 
+#### [Screen Capture](https://github.com/crowforkotlin/dms-screen-capture)
+
+Take screenshots using Niri's built-in command with area, full screen and active window modes
+
+
+
+- id: screenCapture
+- name: Screen Capture
+- author: crowforkotlin
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/crowforkotlin/dms-screen-capture/main/Screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Screen Capture Toolbar](https://github.com/JDKamalakar/DMS-ScreenCapture_Toolbar)
 
 Premium pill-shaped toolbar for quick screenshots and screen recording
@@ -6602,6 +6689,35 @@ GPU-accelerated screen recorder with multi-monitor support and smart notificatio
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/hthienloc/dms-screen-recorder/master/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Screen Recorder X](https://github.com/crowforkotlin/dms-screen-recorder)
+
+Record screen or selected area using wf-recorder with configurable codec, framerate, quality, resolution, format and save path
+
+
+
+- id: screenRecorderX
+- name: Screen Recorder X
+- author: crowforkotlin
+- compositors: niri, hyprland, sway
+- capabilities: dankbar-widget
+- dependencies: wf-recorder, zenity
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/crowforkotlin/dms-screen-recorder/main/Screenshot.png)
 
 </details>
 
@@ -6791,6 +6907,35 @@ Control Spotify playback and search tracks via ncspot
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/alcxyz/DankSpotify/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Steam Big Picture](https://github.com/JessVolet/DankConsoleModeWithSteam)
+
+A simple widget to start steam in big picture mode with custom commands.
+
+
+
+- id: dankConsoleSteam
+- name: Steam Big Picture
+- author: JessVolet
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: steam, gamescope
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JessVolet/DankConsoleModeWithSteam/main/screenshot.png)
 
 </details>
 
