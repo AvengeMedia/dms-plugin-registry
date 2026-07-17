@@ -5599,6 +5599,40 @@
     "sha256": "0zis3glyw8p26igwzb1jgpqynh99ip8q44y8sf4vwcn442c0qqci",
     "url": "https://github.com/murilo-gotardo/dms-image-converter"
   },
+  "intelGpuMonitor": {
+    "date": "2026-07-16T20:16:04-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-BIwmn8vYccPuZteOEbZNQlLCtm5sol2C15j319c4pPk=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "rdannenbring",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Monitor Intel GPU usage, VRAM and temperature in the DankBar with configurable charts and a per-process detail view \u2014 reads kernel DRM fdinfo and sysfs directly, no root or extra tools required.",
+      "distro": [
+        "any"
+      ],
+      "id": "intelGpuMonitor",
+      "name": "Intel GPU Monitor",
+      "repo": "https://github.com/rdannenbring/dms-intel-gpu-plugin",
+      "screenshot": "https://raw.githubusercontent.com/rdannenbring/dms-intel-gpu-plugin/main/Screenshot.png",
+      "version": "1.0.1"
+    },
+    "path": "/nix/store/hs0mlrhmvhz9am8pi741sygmyf6nj815-dms-intel-gpu-plugin",
+    "rev": "3a37dfe51aa43abf08df9f5bf481d10f1691d1a2",
+    "rootDir": "",
+    "sha256": "1yd473bxgxwqsy15v8kcdsvc4lj29nv133npcvpc6wfqrfgjd304",
+    "url": "https://github.com/rdannenbring/dms-intel-gpu-plugin"
+  },
   "intervalCommand": {
     "date": "2026-05-09T19:13:38-04:00",
     "deepClone": false,
@@ -7445,12 +7479,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-16T21:58:50+07:00",
+    "date": "2026-07-17T09:15:14+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-NmwGEHR5iyASD46sBBOFzN7qzhi1UJw6wVukDt1fccg=",
+    "hash": "sha256-lHOVeqwUmr8me4YdOGaNGqcCNtctnIi8BYqVLC3Exmo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7480,10 +7514,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "3.2.0"
     },
-    "path": "/nix/store/cq1zp06g617nfyfrximl2vx73l9xnkdb-dms-quick-capture",
-    "rev": "6b8b10872a335012c326545dba171b120a98d6ab",
+    "path": "/nix/store/fcapk1mlagc9v90r80qfi92p8rhi1jf4-dms-quick-capture",
+    "rev": "4bf3277eb16b88581616e0ff1e17e5dd3b39440c",
     "rootDir": "",
-    "sha256": "1j3ibzfhx92vq4x9ql5m337fmpnchl9h9b4f1w9212vrfh80cv1n",
+    "sha256": "0sn6qhnjr5ca0ny8i71dswv059qsimk3h7c6gckbz6hlmix9awwl",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
