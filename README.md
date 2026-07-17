@@ -1332,6 +1332,35 @@ Shows a customizable indicator when a Hyprland submap is active
 
 
 
+#### [Intel GPU Monitor](https://github.com/rdannenbring/dms-intel-gpu-plugin)
+
+Monitor Intel GPU usage, VRAM and temperature in the DankBar with configurable charts and a per-process detail view — reads kernel DRM fdinfo and sysfs directly, no root or extra tools required.
+
+
+
+- id: intelGpuMonitor
+- name: Intel GPU Monitor
+- author: rdannenbring
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rdannenbring/dms-intel-gpu-plugin/main/Screenshot.png)
+
+</details>
+
+
+
+
+
 #### [NVIDIA GPU Monitor](https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor)
 
 Monitor NVIDIA GPU usage, VRAM, and temperature.
