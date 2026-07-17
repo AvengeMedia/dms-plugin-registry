@@ -2682,6 +2682,35 @@ Turn off monitors from DankBar or Control Center.
 
 
 
+#### [Shelly Updater](https://github.com/rdannenbring/dms-shelly-updater)
+
+Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view and an action menu.
+
+
+
+- id: shellyUpdater
+- name: Shelly Updater
+- author: rdannenbring
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: shelly
+- distro: arch
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rdannenbring/dms-shelly-updater/main/preview/updates.png)
+
+</details>
+
+
+
+
+
 #### [TLP Control](https://github.com/nfrastack/dms-tlpControl)
 
 Battery health monitor + TLP charge threshold/mode controls.
