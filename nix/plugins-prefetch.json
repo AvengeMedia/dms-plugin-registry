@@ -3964,6 +3964,42 @@
     "sha256": "1npyfl5mx8p6z4ddxbkakmzp6i8160smbmz9xmb18rgzyr1622gy",
     "url": "https://github.com/neoscaler/dms-lenovo-battery-settings"
   },
+  "dmsNothingX": {
+    "date": "2026-07-18T02:37:26+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-vH5/NZDIQ+19Sgaq5Q+7GQ2SUFH1u4UPgbEAGKbl7Aw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Bestello",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3"
+      ],
+      "description": "Control center for Nothing and CMF audio devices",
+      "distro": [
+        "any"
+      ],
+      "id": "dmsNothingX",
+      "name": "DMS Nothing X",
+      "repo": "https://github.com/Bestello/dms-nothingx",
+      "screenshot": "https://raw.githubusercontent.com/Bestello/dms-nothingx/main/docs/screenshot.png",
+      "version": "0.0.1"
+    },
+    "path": "/nix/store/5h6rbd21igh90igs72q2nfna1n6d21mr-dms-nothingx",
+    "rev": "a9a32025efc1068875a9a62db04d18924364c8bf",
+    "rootDir": "",
+    "sha256": "037cwnk1h05ih47qbfzma589438rpc7ybah699yyshy8j0spyzmw",
+    "url": "https://github.com/Bestello/dms-nothingx"
+  },
   "dmsPass": {
     "date": "2026-02-06T10:26:15+01:00",
     "deepClone": false,
