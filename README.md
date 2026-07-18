@@ -3730,6 +3730,35 @@ File Manager For DMS - browse, manage and organize files on your desktop
 
 
 
+#### [DMS Nothing X](https://github.com/Bestello/dms-nothingx)
+
+Control center for Nothing and CMF audio devices
+
+
+
+- id: dmsNothingX
+- name: DMS Nothing X
+- author: Bestello
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Bestello/dms-nothingx/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [DMS Screenshot](https://github.com/JDKamalakar/DMS-Screenshot)
 
 Control DMS screenshot actions from the Widget & Control Center
