@@ -1941,6 +1941,35 @@ IMAP mail reader with built-in email content viewer, server-side read status, an
 
 
 
+#### [Sit/Stand Reminder](https://github.com/knappancash/SitStandReminder)
+
+Reminds you to alternate between sitting and standing with configurable, idle-aware timers.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: sitStandReminder
+- name: Sit/Stand Reminder
+- author: Justus
+- compositors: any
+- capabilities: daemon, dankbar-widget, control-center
+- dependencies: notify-send
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/knappancash/SitStandReminder/main/sit-stand-reminder-preview.png)
+
+</details>
+
+
+
+
+
 #### [Todo](https://github.com/iskepr/DankTodoLauncher)
 
 A simple todo list plugin to manage, track, and export your daily tasks directly from the launcher.
