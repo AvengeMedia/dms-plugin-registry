@@ -4752,12 +4752,12 @@
     "url": "https://github.com/hthienloc/dms-folder-view"
   },
   "formatColorPicker": {
-    "date": "2026-07-18T23:45:45+05:30",
+    "date": "2026-07-19T15:40:49+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-F/ou8mRfGidkWjSBzJiKc0KQZF9T6AA1De9XfBkiVT0=",
+    "hash": "sha256-TppRKyo+TIlP68XHhwrryigClSoeFlBG6nkDaLXKEZU=",
     "leaveDotGit": false,
     "meta": {
       "author": "Incognitux",
@@ -4787,12 +4787,12 @@
       "repo": "https://github.com/Incognitux/dms-format-color-picker",
       "screenshot": "https://raw.githubusercontent.com/Incognitux/dms-format-color-picker/refs/heads/master/assets/screenshot1.png",
       "type": "widget",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/0rw4ybl0ikgi459av5qv1rr8g2jdw025-dms-format-color-picker",
-    "rev": "6a1f828daff435cee893c644005b9a6e7948895e",
+    "path": "/nix/store/6ih2ib077n0sa31f9y2nwc3h6mbddsl6-dms-format-color-picker",
+    "rev": "7e4b9b83607487bdfabb171f44ae18f24046a0d9",
     "rootDir": "",
-    "sha256": "0gam48cpqmzg1lsh1s2kbxj90hkkiaccr09lb9j2f6jzckr2xyhp",
+    "sha256": "158irasnh0vrx93505hy5aah4a6axc58giy5xd7qjk1y58mm36jf",
     "url": "https://github.com/Incognitux/dms-format-color-picker"
   },
   "fullscreenPowerMenu": {
@@ -6791,12 +6791,12 @@
     "url": "https://github.com/nfrastack/dms-nightModeControl"
   },
   "niriDS": {
-    "date": "2026-06-21T12:24:41+07:00",
+    "date": "2026-07-19T15:56:51+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-92hg3yYipE1QKeVpE7gm4GpQ412X3h0lJLPjoiZhlsY=",
+    "hash": "sha256-Crf7PR47UUScJKEA2StQxpYenhvXogb171zoPjsN0Rw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6819,12 +6819,12 @@
       "name": "Niri Display Settings",
       "repo": "https://github.com/hthienloc/dms-niri-display-settings",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-niri-display-settings/master/screenshot.png",
-      "version": "2.0.1"
+      "version": "2.0.2"
     },
-    "path": "/nix/store/kxqg3ipkpn8kwy9swz1jvfjab7ridzc1-dms-niri-display-settings",
-    "rev": "0b9d963d9557b924d6c43c9d6e16850429f56d76",
+    "path": "/nix/store/b9jldbmyrwknx7kmmj4by84q98098mcm-dms-niri-display-settings",
+    "rev": "d67b1bc7ec07a92053fa16274fa025c223bf4c0f",
     "rootDir": "",
-    "sha256": "1ilnc4ka5qxk4hjivplpbpim0sp04sw16sg55584v9124vgn0s7p",
+    "sha256": "076i1lxkxs2wxzshd8np3fg1x5n6a0mxj0514jf48l9v3qyzpdqa",
     "url": "https://github.com/hthienloc/dms-niri-display-settings"
   },
   "niriScreenshot": {
@@ -9595,6 +9595,42 @@
     "rootDir": "",
     "sha256": "1hf6qf25h27mlaigwpx4mn5b40vyjij5mvymdn2knv5rq6w1c1aa",
     "url": "https://github.com/ahmed-mekky/dms-warp-toggle"
+  },
+  "wayfireWorkspace": {
+    "date": "2026-07-19T18:11:03+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-5dSDz7AEd0qK2HpVRU5HP8ynyjsw7zRnpxWwQlqZcis=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "joyanhui",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "wayfire"
+      ],
+      "dependencies": [
+        "python3"
+      ],
+      "description": "Display Wayfire workspace switcher in the bar with active/occupied indicators and click-to-switch",
+      "distro": [
+        "any"
+      ],
+      "id": "wayfireWorkspace",
+      "name": "Wayfire Workspace",
+      "repo": "https://github.com/joyanhui/dms-ext-wayfire-workspace",
+      "screenshot": "https://github.com/joyanhui/dms-ext-wayfire-workspace/raw/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/nz0bncy8jb83n3924xmlxnw8lr9h7i29-dms-ext-wayfire-workspace",
+    "rev": "6091272cd8f4810fde41397d89fa7aabaf7c583e",
+    "rootDir": "",
+    "sha256": "0avjk5d45c0mlxkk9vrh7g5agk1z8x74ambsv254lxq4n37q7m75",
+    "url": "https://github.com/joyanhui/dms-ext-wayfire-workspace"
   },
   "weatherArt": {
     "date": "2026-07-06T11:35:00-07:00",
