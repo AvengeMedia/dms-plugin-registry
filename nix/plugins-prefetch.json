@@ -109,12 +109,12 @@
     "url": "https://github.com/bernardopg/dms-adguard-vpn-plugin"
   },
   "aiAssistant": {
-    "date": "2026-07-04T00:28:51-04:00",
+    "date": "2026-07-18T16:13:06-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-tNjs7w/kk3p3dp27h80d4DRsNNPHDmeUW4+zuM3AzQE=",
+    "hash": "sha256-ZAue+mWacaZ4MTb+5cs1EhqKGTH5/vCkoH7AlW3r2wk=",
     "leaveDotGit": false,
     "meta": {
       "author": "devnullvoid",
@@ -140,12 +140,12 @@
       "repo": "https://github.com/devnullvoid/dms-ai-assistant",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://github.com/devnullvoid/dms-ai-assistant/blob/main/screenshots/AI_ASSISTANT_SCREENSHOT_CURRENT_1.png?raw=true",
-      "version": "1.6.0"
+      "version": "1.6.1"
     },
-    "path": "/nix/store/0jx791r591d38c95xh5brs624rv7nn3d-dms-ai-assistant",
-    "rev": "b51419fe616b14595485819fbfc60e0ab98413be",
+    "path": "/nix/store/2y9rdqbl77fgbsbyxjphxr9q9fkgjqi3-dms-ai-assistant",
+    "rev": "a65e2f7dd87241b6e49f88a34aa1f3af4542b190",
     "rootDir": "",
-    "sha256": "00fdq36vicwgbfa6f3n7scs6qd703p6qgfwxfrvpm4z41zpyrn5l",
+    "sha256": "02fvxdnrbh3yl2jg1zpr64cql6hj6p5ybzin65wacwcscpx9w2v4",
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
@@ -3501,12 +3501,12 @@
     "url": "https://github.com/Kavotax/LCD-Digital-Clock.git"
   },
   "discordVoice": {
-    "date": "2026-07-08T09:03:18-07:00",
+    "date": "2026-07-17T22:31:51-07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-xM0ycUSBGgA1zmqwIl6oaX515vNMqpeaOr7KcUYlx8A=",
+    "hash": "sha256-El77+iyms2xm3UMokbE7SQ+JK3/h++mmBOioLRlUYhE=",
     "leaveDotGit": false,
     "meta": {
       "author": "PandorasFox",
@@ -3528,12 +3528,12 @@
       "name": "Discord Voice Widget",
       "repo": "https://github.com/PandorasFox/dms-discord-widget",
       "screenshot": "https://raw.githubusercontent.com/PandorasFox/dms-discord-widget/master/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/jakaq3sac27kc6f5i7yr1zlxyjngkadl-dms-discord-widget",
-    "rev": "a0b3c5c7a96fbea40996d25243bd8556eed6881b",
+    "path": "/nix/store/b1fbffp795sfjic65dxql5fkcpkmiqp9-dms-discord-widget",
+    "rev": "e16ec247fcd94c1bea7d8d2b2acb384c048cc151",
     "rootDir": "",
-    "sha256": "1h674m373jmy7ad9gajcygk7azk9m1g25c3arqsh06l18iqk5kf4",
+    "sha256": "04b2ahcjva780jkfkyz1gwmqj3s97fqr2a23vmk6rcx65kxgnphj",
     "url": "https://github.com/PandorasFox/dms-discord-widget"
   },
   "displayManager": {
@@ -4531,12 +4531,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "ephemera": {
-    "date": "2026-07-17T14:20:38-05:00",
+    "date": "2026-07-17T23:19:55-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-/HQrQGHfWVnsVjth2EZHkj0b5dJ/ZD0fqX4n6aOWF14=",
+    "hash": "sha256-AUO5dE2piIbgMb9ymnnjf3zn9yrhjiB6NF/o4RQscUY=",
     "leaveDotGit": false,
     "meta": {
       "author": "nicolasgarcia214",
@@ -4562,10 +4562,10 @@
       "screenshot": "https://github.com/nicolasgarcia214/Ephemera/blob/master/screenshots/screenshot.jpg?raw=true",
       "version": "1.2.1"
     },
-    "path": "/nix/store/zag572kxqcl047i12ccsm0wjkv5rdzcd-Ephemera",
-    "rev": "f2790087d5ef8499fd548f5e0dbb61244d29ad8c",
+    "path": "/nix/store/1q1anb951h62lk5692n8kjskhbc39xdf-Ephemera",
+    "rev": "042f03dc72c25e1e83d81134e2b8c1cc2e9c2bc3",
     "rootDir": "",
-    "sha256": "0phpjsiyj9vym4gksr3zsbjingcj8x3dhq9vavn5jnfzc502nx7w",
+    "sha256": "0iki5haf3s2z6ix213p15bvyfz3zwdwrlwmz67h8d2599msbjhq1",
     "url": "https://github.com/nicolasgarcia214/Ephemera"
   },
   "extendedNetworkToggle": {
@@ -4752,12 +4752,12 @@
     "url": "https://github.com/hthienloc/dms-folder-view"
   },
   "formatColorPicker": {
-    "date": "2026-03-16T15:16:51+05:30",
+    "date": "2026-07-18T23:45:45+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-JRzDfRF+Auw8wSNh1Css8Y03pePlV4DUFOX813TMfLs=",
+    "hash": "sha256-F/ou8mRfGidkWjSBzJiKc0KQZF9T6AA1De9XfBkiVT0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Incognitux",
@@ -4790,10 +4790,10 @@
       "type": "widget",
       "version": "1.0.0"
     },
-    "path": "/nix/store/g6818k26fi39nhq1p9cc6kqyxannjihx-dms-format-color-picker",
-    "rev": "1b4aebad1f92d9edef89296806da7acd38d4a705",
+    "path": "/nix/store/0rw4ybl0ikgi459av5qv1rr8g2jdw025-dms-format-color-picker",
+    "rev": "6a1f828daff435cee893c644005b9a6e7948895e",
     "rootDir": "",
-    "sha256": "1fvwrisdgz752ka80mz5wfjkg3gi5hmx8q93q4yfq0ky25yw6715",
+    "sha256": "0gam48cpqmzg1lsh1s2kbxj90hkkiaccr09lb9j2f6jzckr2xyhp",
     "url": "https://github.com/Incognitux/dms-format-color-picker"
   },
   "fullscreenPowerMenu": {
@@ -6683,12 +6683,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "networkIndicator": {
-    "date": "2026-07-11T02:38:36+03:00",
+    "date": "2026-07-19T01:57:08+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-VTBP76bKuXw+N5gJcICNZa1Ez+Mttc2dk1DQQiwbaU8=",
+    "hash": "sha256-fUeT84rpKhmWQ9y44zoJH+xooo0DQVIyLe6SAmpFThk=",
     "leaveDotGit": false,
     "meta": {
       "author": "gemb0_0",
@@ -6708,12 +6708,12 @@
       "name": "Network Indicator",
       "repo": "https://github.com/gemb0-0/Network-Indicator.git",
       "screenshot": "https://raw.githubusercontent.com/gemb0-0/Network-Indicator/refs/heads/main/screenshot.png",
-      "version": "1.3.3"
+      "version": "1.4.0"
     },
-    "path": "/nix/store/da3hx7ynxl9j0zj92ry2yqjy6amdar5y-Network-Indicator",
-    "rev": "a5af70063faff52ceb0701701a41e4dd83081868",
+    "path": "/nix/store/w27gfybgy4hysllwbw58n1kxax14ny1i-Network-Indicator",
+    "rev": "619a5526ba4bd0eb5921b96c7c46848faba8f0e7",
     "rootDir": "",
-    "sha256": "0kv93cn45l2hjffwvd9dwg7l9bb5in0702cq6wz7rffalvplyc2m",
+    "sha256": "06af8mm054pf5lr54h83ini6iv0z14xf7f6w8fb1jap9ibrr6ivx",
     "url": "https://github.com/gemb0-0/Network-Indicator.git"
   },
   "nextBootSelector": {
@@ -7515,12 +7515,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-17T09:15:14+07:00",
+    "date": "2026-07-19T08:41:01+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-lHOVeqwUmr8me4YdOGaNGqcCNtctnIi8BYqVLC3Exmo=",
+    "hash": "sha256-jAlGJnapI9Xz1F82HwA4/JEkGkGarcfDO2L1Jeo33ko=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7548,12 +7548,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "3.2.0"
+      "version": "3.4.0"
     },
-    "path": "/nix/store/fcapk1mlagc9v90r80qfi92p8rhi1jf4-dms-quick-capture",
-    "rev": "4bf3277eb16b88581616e0ff1e17e5dd3b39440c",
+    "path": "/nix/store/1kxgqb618q0xcz15yp00m12gdi8v8jwl-dms-quick-capture",
+    "rev": "96be9041e222f852693708530016adf83ea9462b",
     "rootDir": "",
-    "sha256": "0sn6qhnjr5ca0ny8i71dswv059qsimk3h7c6gckbz6hlmix9awwl",
+    "sha256": "0jny6zm2bxb27g1wgbcs84d294gw7001ydjzskrxa8x9fqk4c2cc",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -8992,12 +8992,12 @@
     "url": "https://github.com/hthienloc/dms-typing-sounds"
   },
   "unifiedTaskbar": {
-    "date": "2026-06-20T22:58:11-04:00",
+    "date": "2026-07-17T22:49:18-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-vvjDdX0F0R9zD20Ii/Tw6Gh0Or+JlwtPQMN8tMXCxUQ=",
+    "hash": "sha256-71wIg+ndD/TD6h87yxOdOdNhNRNrhVCFPEHnV3vltbQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "Joshua Landau",
@@ -9017,12 +9017,12 @@
       "name": "Unified Taskbar",
       "repo": "https://github.com/jslandau/dms-unified-taskbar",
       "screenshot": "https://raw.githubusercontent.com/jslandau/dms-unified-taskbar/master/screenshot.png",
-      "version": "1.1.1"
+      "version": "1.1.2"
     },
-    "path": "/nix/store/xzclq840rq5wx5b6vwykbz7sa7bb5ipa-dms-unified-taskbar",
-    "rev": "0dd45d5c6b3f217594a2bd361527efae71b78378",
+    "path": "/nix/store/87376i3a27axr8mc0y3jfa7j8k32bhk3-dms-unified-taskbar",
+    "rev": "0e54bd7be92267c6028e606a20c84a0cddfbbae3",
     "rootDir": "",
-    "sha256": "0i65qb2v8z63817hp5w9pwx78s78y3s8n23d1xrizl85gmsw7y5y",
+    "sha256": "1d5mwmxmgrs17j2m11bb2csn3lrrkl9wnfqzxb1z83yxx61hhp7g",
     "url": "https://github.com/jslandau/dms-unified-taskbar"
   },
   "uptimeBar": {
