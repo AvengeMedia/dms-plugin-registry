@@ -4768,8 +4768,7 @@
       "category": "utilities",
       "component": "./pickerWidget.qml",
       "compositors": [
-        "niri",
-        "hyprland"
+        "any"
       ],
       "dependencies": [
         "dms"
