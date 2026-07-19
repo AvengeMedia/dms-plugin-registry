@@ -7775,6 +7775,35 @@ Search and download wallpapers
 
 
 
+#### [Wayfire Workspace](https://github.com/joyanhui/dms-ext-wayfire-workspace)
+
+Display Wayfire workspace switcher in the bar with active/occupied indicators and click-to-switch
+
+
+
+- id: wayfireWorkspace
+- name: Wayfire Workspace
+- author: joyanhui
+- compositors: wayfire
+- capabilities: dankbar-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/joyanhui/dms-ext-wayfire-workspace/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Web Search](https://github.com/devnullvoid/dms-web-search)
 
 Search the web with 23+ built-in search engines plus custom search engine support with keyword-based selection
