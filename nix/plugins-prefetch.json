@@ -8221,6 +8221,45 @@
     "sha256": "17yailv4z1viv7g6hlsvr1l0l9s6hmrdk9yi7yfk7dklpzqp3x7b",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
+  "sitStandReminder": {
+    "date": "2026-07-18T17:11:25+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-iK66qA/1Jwio3znSP2LLhSWyt8230cN58XQHpVel9es=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Justus",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "productivity",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "notify-send"
+      ],
+      "description": "Reminds you to alternate between sitting and standing with configurable, idle-aware timers.",
+      "distro": [
+        "any"
+      ],
+      "id": "sitStandReminder",
+      "name": "Sit/Stand Reminder",
+      "repo": "https://github.com/knappancash/SitStandReminder",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/knappancash/SitStandReminder/main/sit-stand-reminder-preview.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/1x3mhy9dq2xjisn56p88f94axw5b3kr6-SitStandReminder",
+    "rev": "8d6eab56d851f709c4639090de48b4f17bec53c1",
+    "rootDir": "",
+    "sha256": "1szmlmbsa1vly5ww7ldprnvv49c5rdi3zlirvyl0h9zm1ylbmbl8",
+    "url": "https://github.com/knappancash/SitStandReminder"
+  },
   "splayerLyrics": {
     "date": "2026-06-30T15:53:18+08:00",
     "deepClone": false,
