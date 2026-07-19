@@ -12,7 +12,7 @@
   ],
   "category": "utilities",
   "component": "./pickerWidget.qml",
-  "compositors": ["niri", "hyprland"],
+  "compositors": ["any"],
   "distro": ["any"],
   "dependencies": ["dms"],
   "repo": "https://github.com/Incognitux/dms-format-color-picker",
