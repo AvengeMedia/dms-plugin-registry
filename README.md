@@ -4944,7 +4944,7 @@ Choose color format before picking
 - id: formatColorPicker
 - name: Format Color Picker
 - author: Incognitux
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: control-center, dankbar-widget
 - dependencies: dms
 - distro: any
