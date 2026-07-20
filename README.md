@@ -1941,6 +1941,35 @@ IMAP mail reader with built-in email content viewer, server-side read status, an
 
 
 
+#### [Sit/Stand Reminder](https://github.com/knappancash/SitStandReminder)
+
+Reminds you to alternate between sitting and standing with configurable, idle-aware timers.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: sitStandReminder
+- name: Sit/Stand Reminder
+- author: Justus
+- compositors: any
+- capabilities: daemon, dankbar-widget, control-center
+- dependencies: notify-send
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/knappancash/SitStandReminder/main/sit-stand-reminder-preview.png)
+
+</details>
+
+
+
+
+
 #### [Todo](https://github.com/iskepr/DankTodoLauncher)
 
 A simple todo list plugin to manage, track, and export your daily tasks directly from the launcher.
@@ -1963,6 +1992,35 @@ A simple todo list plugin to manage, track, and export your daily tasks directly
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/iskepr/DankTodoLauncher/blob/main/screenshots/tasks.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [Todoman Tasks](https://github.com/Shochraos/dms-todoman-plugin)
+
+CalDAV tasks in the bar via todoman: list, complete, and create todos with a popout.
+
+<strong>requires DMS version</strong>: <em>>=1.5</em>
+
+- id: dankTodoman
+- name: Todoman Tasks
+- author: shochraos
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: todoman, python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Shochraos/dms-todoman-plugin/main/screenshot.png)
 
 </details>
 
@@ -3730,6 +3788,35 @@ File Manager For DMS - browse, manage and organize files on your desktop
 
 
 
+#### [DMS Nothing X](https://github.com/Bestello/dms-nothingx)
+
+Control center for Nothing and CMF audio devices
+
+
+
+- id: dmsNothingX
+- name: DMS Nothing X
+- author: Bestello
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Bestello/dms-nothingx/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [DMS Screenshot](https://github.com/JDKamalakar/DMS-Screenshot)
 
 Control DMS screenshot actions from the Widget & Control Center
@@ -4915,7 +5002,7 @@ Choose color format before picking
 - id: formatColorPicker
 - name: Format Color Picker
 - author: Incognitux
-- compositors: niri, hyprland
+- compositors: any
 - capabilities: control-center, dankbar-widget
 - dependencies: dms
 - distro: any
@@ -7710,6 +7797,35 @@ Search and download wallpapers
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/Lucyfire/dms-plugins/blob/master/wallpaperDiscovery/screenshot.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [Wayfire Workspace](https://github.com/joyanhui/dms-ext-wayfire-workspace)
+
+Display Wayfire workspace switcher in the bar with active/occupied indicators and click-to-switch
+
+
+
+- id: wayfireWorkspace
+- name: Wayfire Workspace
+- author: joyanhui
+- compositors: wayfire
+- capabilities: dankbar-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/joyanhui/dms-ext-wayfire-workspace/raw/main/screenshot.png)
 
 </details>
 
