@@ -1999,6 +1999,35 @@ A simple todo list plugin to manage, track, and export your daily tasks directly
 
 
 
+#### [Todoman Tasks](https://github.com/Shochraos/dms-todoman-plugin)
+
+CalDAV tasks in the bar via todoman: list, complete, and create todos with a popout.
+
+<strong>requires DMS version</strong>: <em>>=1.5</em>
+
+- id: dankTodoman
+- name: Todoman Tasks
+- author: shochraos
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: todoman, python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Shochraos/dms-todoman-plugin/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallabag](https://github.com/arqueon/dms-wallabag)
 
 Your Wallabag read-it-later queue in the DankBar: unread badge, entry list with source and excerpt, open links without closing the popout, archive/star/delete/re-fetch, multi-select batch actions, server-side search and quick-add. OAuth2 with secrets in the system keyring.
