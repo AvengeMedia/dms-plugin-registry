@@ -74,7 +74,27 @@
       "mocha-sky": "AA",
       "mocha-teal": "AA",
       "mocha-yellow": "AA"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Mocha",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Macchiato",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Frapp\u00e9",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -122,6 +142,14 @@
       "latte-sky": "fail",
       "latte-teal": "fail",
       "latte-yellow": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Latte",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
   }
 }

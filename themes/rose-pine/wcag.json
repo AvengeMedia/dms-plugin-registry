@@ -35,7 +35,27 @@
       "dawn": "AA",
       "moon": "AA",
       "rosePine": "AA"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Ros\u00e9 Pine",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Moon",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Dawn",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -72,6 +92,26 @@
       "dawn": "fail",
       "moon": "fail",
       "rosePine": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Ros\u00e9 Pine",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Moon",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Dawn",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      }
+    ]
   }
 }

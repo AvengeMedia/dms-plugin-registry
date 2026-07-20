@@ -56,7 +56,45 @@
       "material-soft-dark-green": "fail",
       "material-soft-dark-purple": "fail",
       "material-soft-dark-yellow": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Mat. H",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Mat. M",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Mat. S",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Cls. H",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Cls. M",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Cls. S",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -114,6 +152,44 @@
       "material-soft-light-green": "fail",
       "material-soft-light-purple": "fail",
       "material-soft-light-yellow": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Mat. H",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Mat. M",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Mat. S",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Cls. H",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Cls. M",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Cls. S",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
   }
 }

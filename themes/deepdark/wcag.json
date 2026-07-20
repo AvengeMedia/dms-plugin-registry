@@ -34,7 +34,15 @@
     "variants": {
       "voltage-blue": "fail",
       "voltage-purple": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Voltage",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -70,6 +78,14 @@
     "variants": {
       "voltage-light-blue": "fail",
       "voltage-light-purple": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Voltage Light",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      }
+    ]
   }
 }

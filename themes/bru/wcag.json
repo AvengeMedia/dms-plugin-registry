@@ -40,7 +40,15 @@
       "espresso-teal": "AAA",
       "espresso-violet": "AA",
       "espresso-yellow": "AAA"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Espresso",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -82,6 +90,14 @@
       "latte-teal": "fail",
       "latte-violet": "fail",
       "latte-yellow": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Latte",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
   }
 }

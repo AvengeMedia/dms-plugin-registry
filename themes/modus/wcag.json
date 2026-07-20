@@ -64,7 +64,33 @@
       "vivendi-tritanopia-yellow": "fail",
       "vivendi-warmer-blue": "fail",
       "vivendi-yellow": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Standard",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Tinted",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Deuteranopia",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Tritanopia",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -130,6 +156,32 @@
       "operandi-tritanopia-yellow": "fail",
       "operandi-warmer-blue": "fail",
       "operandi-yellow": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Standard",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Tinted",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Deuteranopia",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Tritanopia",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
   }
 }

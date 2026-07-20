@@ -38,7 +38,45 @@
       "mint": "AAA",
       "pink": "AAA",
       "salmon": "AAA"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Salmon",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Cyan",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Mint",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Lavender",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Blue",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Pink",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -78,6 +116,44 @@
       "mint": "fail",
       "pink": "AA",
       "salmon": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Salmon",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Cyan",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Mint",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Lavender",
+        "mode": "light",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Blue",
+        "mode": "light",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Pink",
+        "mode": "light",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      }
+    ]
   }
 }

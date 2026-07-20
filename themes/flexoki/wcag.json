@@ -40,7 +40,57 @@
       "purple": "AA",
       "red": "fail",
       "yellow": "AAA"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Blue",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Red",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Orange",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Yellow",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Green",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Cyan",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Purple",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Magenta",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -82,6 +132,56 @@
       "purple": "AA",
       "red": "fail",
       "yellow": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Blue",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Red",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Orange",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Yellow",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Green",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Cyan",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Purple",
+        "mode": "light",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Magenta",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
   }
 }

@@ -35,7 +35,27 @@
       "hard": "AA",
       "medium": "AA",
       "soft": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Hard",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Medium",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Soft",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -72,6 +92,26 @@
       "hard": "fail",
       "medium": "fail",
       "soft": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Hard",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Medium",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Soft",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      }
+    ]
   }
 }

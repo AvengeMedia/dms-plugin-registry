@@ -41,7 +41,63 @@
       "slate": "fail",
       "teal": "fail",
       "yellow": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Blue",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Teal",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Green",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Yellow",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Orange",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Red",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Pink",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Purple",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Slate",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -84,6 +140,62 @@
       "slate": "fail",
       "teal": "fail",
       "yellow": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Blue",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Teal",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Green",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Yellow",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Orange",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Red",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Pink",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Purple",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Slate",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
   }
 }

@@ -35,7 +35,15 @@
       "mono-fog": "fail",
       "mono-graphite": "AA",
       "mono-paper": "AA"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Mono",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AA"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -72,6 +80,14 @@
       "mono-light-fog": "AA",
       "mono-light-graphite": "fail",
       "mono-light-paper": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Mono Light",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      }
+    ]
   }
 }

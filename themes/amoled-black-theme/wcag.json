@@ -46,7 +46,15 @@
       "black-turquoise": "AAA",
       "black-white": "AAA",
       "black-yellow": "AAA"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "black",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
   },
   "light": {
     "level": "AAA",
@@ -94,6 +102,14 @@
       "black-light-turquoise": "AAA",
       "black-light-white": "AAA",
       "black-light-yellow": "AAA"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "black",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
   }
 }

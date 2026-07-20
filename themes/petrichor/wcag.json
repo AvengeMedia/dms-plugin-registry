@@ -35,7 +35,27 @@
       "blue": "fail",
       "green": "fail",
       "pink": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Green",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Blue",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Pink",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -72,6 +92,26 @@
       "blue": "fail",
       "green": "fail",
       "pink": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Green",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Blue",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Pink",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
   }
 }

@@ -30,7 +30,15 @@
         "error",
         "surfaceContainer"
       ]
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Dark",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -62,6 +70,14 @@
         "info",
         "surfaceContainer"
       ]
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Light",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
   }
 }

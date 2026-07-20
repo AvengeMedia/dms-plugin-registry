@@ -48,7 +48,21 @@
       "nights-purple": "fail",
       "nights-teal": "AA",
       "nights-yellow": "AA"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Nights",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Midnight",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -90,6 +104,14 @@
       "morning-purple": "fail",
       "morning-teal": "fail",
       "morning-yellow": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Morning",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      }
+    ]
   }
 }

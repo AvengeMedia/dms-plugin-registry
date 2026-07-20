@@ -34,7 +34,21 @@
     "variants": {
       "blue": "AAA",
       "pink": "AAA"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Blue",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Pink",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -70,6 +84,20 @@
     "variants": {
       "blue": "fail",
       "pink": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Blue",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Pink",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      }
+    ]
   }
 }

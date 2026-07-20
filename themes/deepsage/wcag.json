@@ -34,7 +34,15 @@
     "variants": {
       "sage-bright": "AA",
       "sage-deep": "fail"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Sage",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AA"
+      }
+    ]
   },
   "light": {
     "level": "fail",
@@ -70,6 +78,14 @@
     "variants": {
       "sage-light-bright": "fail",
       "sage-light-deep": "AA"
-    }
+    },
+    "breakdown": [
+      {
+        "name": "Sage Light",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      }
+    ]
   }
 }

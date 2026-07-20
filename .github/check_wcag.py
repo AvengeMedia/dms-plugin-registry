@@ -159,44 +159,69 @@ def scheme_report(scheme):
     return report
 
 
-def mode_schemes(theme, mode):
+def mode_configs(theme, mode):
+    # A config is one thing a user can actually select. Themes without variants
+    # offer just the mode itself; flavor themes offer every flavor/accent combo.
+    # Each config carries the group it rolls up to for the breakdown display.
     base = theme.get(mode, {})
     variants = theme.get("variants")
+    plain = [{"key": "", "group": "", "label": mode.capitalize(), "scheme": base}]
     if not variants:
-        return {"": base}, ""
+        return plain, ""
 
     if variants.get("type") == "multi":
-        return multi_variant_schemes(variants, base, mode)
+        return multi_variant_configs(variants, base, mode)
 
     options = variants.get("options", [])
     if not options:
-        return {"": base}, ""
+        return plain, ""
 
-    schemes = {}
+    configs = []
     for option in options:
         oid = option.get("id")
         if not oid:
             continue
-        schemes[oid] = {**base, **option.get(mode, {})}
-    return schemes, variants.get("default", "")
+        configs.append(
+            {
+                "key": oid,
+                "group": oid,
+                "label": option.get("name") or oid,
+                "scheme": {**base, **option.get(mode, {})},
+            }
+        )
+    return configs, variants.get("default", "")
 
 
-def multi_variant_schemes(variants, base, mode):
-    schemes = {}
+def multi_variant_configs(variants, base, mode):
+    # Accents roll up into their flavor: authors document flavors as the unit a
+    # user picks, and listing every combo would run to dozens of rows.
+    configs = []
     for flavor in variants.get("flavors", []):
         fid = flavor.get("id")
         if not fid or mode not in flavor:
             continue
+
+        flavor_label = flavor.get("name") or fid
         for accent in variants.get("accents", []):
             aid = accent.get("id")
             if not aid:
                 continue
-            accent_colors = accent.get(fid) or {}
-            schemes[f"{fid}-{aid}"] = {**base, **flavor.get(mode, {}), **accent_colors}
+            configs.append(
+                {
+                    "key": f"{fid}-{aid}",
+                    "group": fid,
+                    "label": flavor_label,
+                    "scheme": {
+                        **base,
+                        **flavor.get(mode, {}),
+                        **(accent.get(fid) or {}),
+                    },
+                }
+            )
 
     defaults = variants.get("defaults", {}).get(mode, {})
     default_key = f"{defaults.get('flavor')}-{defaults.get('accent')}"
-    return schemes, default_key
+    return configs, default_key
 
 
 def worst_report(reports):
@@ -207,20 +232,38 @@ def worst_report(reports):
 
 
 def mode_report(theme, mode):
-    schemes, default_key = mode_schemes(theme, mode)
+    configs, default_key = mode_configs(theme, mode)
     reports = {}
-    for key, scheme in schemes.items():
-        report = scheme_report(scheme)
+    groups = {}
+    for config in configs:
+        report = scheme_report(config["scheme"])
         if report is None:
             continue
-        reports[key] = report
+
+        reports[config["key"]] = report
+        group = groups.setdefault(
+            config["group"], {"name": config["label"], "levels": [], "bodyLevels": []}
+        )
+        group["levels"].append(report["level"])
+        group["bodyLevels"].append(report.get("body", {}).get("level", "fail"))
 
     if not reports:
         return None
 
+    # The headline stays the default config, which is what a user gets on first
+    # apply; breakdown carries every other config so nothing is over-promised.
     primary = dict(reports.get(default_key) or worst_report(reports))
     if len(reports) > 1:
         primary["variants"] = {key: r["level"] for key, r in sorted(reports.items())}
+    primary["breakdown"] = [
+        {
+            "name": group["name"],
+            "mode": mode,
+            "level": min(group["levels"], key=LEVEL_RANK.get),
+            "bodyLevel": min(group["bodyLevels"], key=LEVEL_RANK.get),
+        }
+        for group in groups.values()
+    ]
     return primary
 
 
@@ -239,33 +282,32 @@ def theme_report(theme):
     return report
 
 
-def tier_levels(report, tier):
-    levels = {}
+def breakdown_rows(report):
+    rows = []
     for mode in ("dark", "light"):
         mode_result = report.get(mode)
         if not mode_result:
             continue
-        if tier == "all":
-            levels[mode] = mode_result["level"]
-            continue
-        levels[mode] = mode_result.get(tier, {}).get("level")
-    return {mode: level for mode, level in levels.items() if level}
+        rows.extend(mode_result.get("breakdown", []))
+    return rows
 
 
 def badge_level_label(report):
-    # A theme often passes in one mode only, or passes for everything except the
-    # accent color, so credit what does pass instead of flattening it all to a
-    # single failure.
-    for tier, suffix in (("all", ""), ("body", " body")):
-        levels = tier_levels(report, tier)
-        passing = {m: l for m, l in levels.items() if l != "fail"}
+    # Rate every selectable config, not just the default, then advertise the
+    # level they all reach. "Partial" flags that some configs fall short, so the
+    # badge never over-promises for a theme whose flavors differ. Themes that
+    # only miss on accent colors still get credit for readable body text.
+    rows = breakdown_rows(report)
+    for tier, suffix in (("level", ""), ("bodyLevel", " body")):
+        levels = [row[tier] for row in rows if row.get(tier)]
+        passing = [level for level in levels if level != "fail"]
         if not passing:
             continue
 
-        level = min(passing.values(), key=LEVEL_RANK.get)
+        level = min(passing, key=LEVEL_RANK.get)
         if len(passing) == len(levels):
             return level, f"{level}{suffix}"
-        return level, f"{level}{suffix} ({next(iter(passing))})"
+        return level, f"{level}{suffix} (Partial)"
 
     return "fail", "below AA"
 
@@ -291,6 +333,15 @@ def markdown_summary(report):
             continue
         lines.append(f"**{mode}** — {group_summary(mode_result)}")
         lines.append("")
+
+    rows = breakdown_rows(report)
+    if len(rows) > 1:
+        lines.append("| Variant | Mode | Contrast |")
+        lines.append("| --- | --- | --- |")
+        for row in rows:
+            level = "below AA" if row["level"] == "fail" else f"WCAG {row['level']}"
+            lines.append(f"| {row['name']} | {row['mode']} | {level} |")
+        lines.append("")
     return "\n".join(lines)
 
 
@@ -310,16 +361,13 @@ def group_summary(mode_result):
 def print_reports(reports):
     level_colors = {"AAA": GREEN, "AA": GREEN, "fail": RED}
     for slug, report in sorted(reports.items()):
-        _, label = badge_level_label(report)
-        color = level_colors[report["level"]]
-        parts = []
-        for mode in ("dark", "light"):
-            mode_result = report.get(mode)
-            if not mode_result:
-                continue
-            body = mode_result.get("body", {}).get("level", "n/a")
-            accent = mode_result.get("accent", {}).get("level", "n/a")
-            parts.append(f"{mode} body {body} / accent {accent}")
+        level, label = badge_level_label(report)
+        color = level_colors[level]
+        rows = breakdown_rows(report)
+        parts = [
+            f"{row['name']} ({row['mode']}) {row['level']}"
+            for row in rows
+        ]
         print(f"{slug}: {color}{label}{RESET} — {', '.join(parts)}")
 
 
