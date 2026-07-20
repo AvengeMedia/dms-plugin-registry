@@ -2914,6 +2914,44 @@
     "sha256": "0hpa454ai4d4xrjvz46kq402rfjpvc2nsybf3jbsrr1akjs6nzyd",
     "url": "https://github.com/deepu105/dms-dank-todo"
   },
+  "dankTodoman": {
+    "date": "2026-07-20T00:59:33+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-nDFG8sv0j/GJYy8RNGCMgxA4bPZjav6eGfa5/JCxGsE=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "shochraos",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "productivity",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "todoman",
+        "python3"
+      ],
+      "description": "CalDAV tasks in the bar via todoman: list, complete, and create todos with a popout.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankTodoman",
+      "name": "Todoman Tasks",
+      "repo": "https://github.com/Shochraos/dms-todoman-plugin",
+      "requires_dms": ">=1.5",
+      "screenshot": "https://raw.githubusercontent.com/Shochraos/dms-todoman-plugin/main/screenshot.png",
+      "version": "0.2.0"
+    },
+    "path": "/nix/store/57357k6il155mv2pk7ppccpwz2ypc66m-dms-todoman-plugin",
+    "rev": "54e397fce9ffb88c25bc7e50c504cd3c522719f3",
+    "rootDir": "",
+    "sha256": "1h8sn68grfgn36ggwsk3yrn3h443iih3849gcf4z33zlrgr4cccw",
+    "url": "https://github.com/Shochraos/dms-todoman-plugin"
+  },
   "dankTranslate": {
     "date": "2026-06-04T16:17:20+02:00",
     "deepClone": false,
@@ -7514,12 +7552,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-19T08:41:01+07:00",
+    "date": "2026-07-20T01:42:17+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jAlGJnapI9Xz1F82HwA4/JEkGkGarcfDO2L1Jeo33ko=",
+    "hash": "sha256-uignurgMIAzIv1ItfZlB5ABmHtXAO4cyw1dePk6A3GE=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7549,10 +7587,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "3.4.0"
     },
-    "path": "/nix/store/1kxgqb618q0xcz15yp00m12gdi8v8jwl-dms-quick-capture",
-    "rev": "96be9041e222f852693708530016adf83ea9462b",
+    "path": "/nix/store/psgdf6jnl9dni3asb4iwhw828hrk3vdw-dms-quick-capture",
+    "rev": "2dd691c515ecbdba66726072c7ca80ed7b32e0a3",
     "rootDir": "",
-    "sha256": "0jny6zm2bxb27g1wgbcs84d294gw7001ydjzskrxa8x9fqk4c2cc",
+    "sha256": "0qfwh173wpjpqcr8ffy0slg6c07486cpsbajpz40q80cp2x2fa5s",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -7807,12 +7845,12 @@
     "url": "https://github.com/crowforkotlin/dms-screen-capture"
   },
   "screenCaptureToolbar": {
-    "date": "2026-06-30T15:55:16+05:30",
+    "date": "2026-07-19T23:21:21+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-CBkRYyM5BX5Mlj1x3yyXMd/hnVRBEsRigf4L8kI8h5A=",
+    "hash": "sha256-6vmoL1y0Joxqa8bF8zIUcpaBW8Jv0T+sD4M050OoW/Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -7844,12 +7882,12 @@
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-ScreenCapture_Toolbar/refs/heads/main/assets/Screenshot_UI.png",
       "settings": "./Settings.qml",
       "type": "daemon",
-      "version": "2.0.0"
+      "version": "2.1.0"
     },
-    "path": "/nix/store/dqhv3mxyi399c6yyrzb28r11f4m4dg1n-DMS-ScreenCapture_Toolbar",
-    "rev": "d9699eb9ec2e8344548c644c63b108a6a1aa8743",
+    "path": "/nix/store/7fd6lndrx1svqcxkj4g4h25yyjmxq8qw-DMS-ScreenCapture_Toolbar",
+    "rev": "5a307c53362f1c347d5dad697bb33c1e6869f910",
     "rootDir": "",
-    "sha256": "14477i1g42zyh5ic84j1ajfy3prijwndyw9xjr67w19r4dii2688",
+    "sha256": "1x2vm11yfd431yn3zlbgq9dq35kj2hrg7if6ddm8q9mlbhpsiyga",
     "url": "https://github.com/JDKamalakar/DMS-ScreenCapture_Toolbar"
   },
   "screenOff": {
@@ -8222,12 +8260,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "sitStandReminder": {
-    "date": "2026-07-18T17:11:25+02:00",
+    "date": "2026-07-20T00:40:50+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-iK66qA/1Jwio3znSP2LLhSWyt8230cN58XQHpVel9es=",
+    "hash": "sha256-47jAXVn7v2WfwyOk02SuayrQNzKA3pz3qFVQ0mmyjYs=",
     "leaveDotGit": false,
     "meta": {
       "author": "Justus",
@@ -8252,12 +8290,12 @@
       "repo": "https://github.com/knappancash/SitStandReminder",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/knappancash/SitStandReminder/main/sit-stand-reminder-preview.png",
-      "version": "1.0.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/1x3mhy9dq2xjisn56p88f94axw5b3kr6-SitStandReminder",
-    "rev": "8d6eab56d851f709c4639090de48b4f17bec53c1",
+    "path": "/nix/store/981cnhx69mdx2b6k5jhqi9n5kdbig9mx-SitStandReminder",
+    "rev": "edfdd0b86a98bcc60d3d18c4d0a1f69b6535552f",
     "rootDir": "",
-    "sha256": "1szmlmbsa1vly5ww7ldprnvv49c5rdi3zlirvyl0h9zm1ylbmbl8",
+    "sha256": "12wdn9lx4l2mm3vrrpl068vx0akbmrjd7913qfgnbgzvb5fw1f73",
     "url": "https://github.com/knappancash/SitStandReminder"
   },
   "splayerLyrics": {
@@ -9597,12 +9635,12 @@
     "url": "https://github.com/ahmed-mekky/dms-warp-toggle"
   },
   "wayfireWorkspace": {
-    "date": "2026-07-19T18:11:03+08:00",
+    "date": "2026-07-19T19:18:58+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5dSDz7AEd0qK2HpVRU5HP8ynyjsw7zRnpxWwQlqZcis=",
+    "hash": "sha256-bzu63u3yy8WKcJ9r940EK3wiDQ0Cxs/FLS85v8buDN0=",
     "leaveDotGit": false,
     "meta": {
       "author": "joyanhui",
@@ -9626,10 +9664,10 @@
       "screenshot": "https://github.com/joyanhui/dms-ext-wayfire-workspace/raw/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/nz0bncy8jb83n3924xmlxnw8lr9h7i29-dms-ext-wayfire-workspace",
-    "rev": "6091272cd8f4810fde41397d89fa7aabaf7c583e",
+    "path": "/nix/store/k61zh3lqrcik2n5r19wn1dbikv4afky9-dms-ext-wayfire-workspace",
+    "rev": "a56b2d4f0d892ebf15ceec043591e106725ecb9d",
     "rootDir": "",
-    "sha256": "0avjk5d45c0mlxkk9vrh7g5agk1z8x74ambsv254lxq4n37q7m75",
+    "sha256": "1p8cxv3byf9g5p2wzih21l6j4z1b0j6zfswzf25cbjzjxpgblfvg",
     "url": "https://github.com/joyanhui/dms-ext-wayfire-workspace"
   },
   "weatherArt": {
