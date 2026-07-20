@@ -1,0 +1,71 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "AA",
+    "minRatio": 4.65,
+    "worstPair": [
+      "surfaceText",
+      "surfaceContainerHighest"
+    ],
+    "variants": {
+      "classic-hard-dark-blue": "AA",
+      "classic-hard-dark-green": "AA",
+      "classic-hard-dark-purple": "AA",
+      "classic-hard-dark-yellow": "AA",
+      "classic-medium-dark-blue": "AA",
+      "classic-medium-dark-green": "AA",
+      "classic-medium-dark-purple": "AA",
+      "classic-medium-dark-yellow": "AA",
+      "classic-soft-dark-blue": "fail",
+      "classic-soft-dark-green": "fail",
+      "classic-soft-dark-purple": "fail",
+      "classic-soft-dark-yellow": "fail",
+      "material-hard-dark-blue": "AA",
+      "material-hard-dark-green": "AA",
+      "material-hard-dark-purple": "AA",
+      "material-hard-dark-yellow": "AA",
+      "material-medium-dark-blue": "AA",
+      "material-medium-dark-green": "AA",
+      "material-medium-dark-purple": "AA",
+      "material-medium-dark-yellow": "AA",
+      "material-soft-dark-blue": "fail",
+      "material-soft-dark-green": "fail",
+      "material-soft-dark-purple": "fail",
+      "material-soft-dark-yellow": "fail"
+    }
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 3.83,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "variants": {
+      "classic-hard-light-blue": "AA",
+      "classic-hard-light-green": "fail",
+      "classic-hard-light-purple": "AA",
+      "classic-hard-light-yellow": "fail",
+      "classic-medium-light-blue": "AA",
+      "classic-medium-light-green": "fail",
+      "classic-medium-light-purple": "AA",
+      "classic-medium-light-yellow": "fail",
+      "classic-soft-light-blue": "fail",
+      "classic-soft-light-green": "fail",
+      "classic-soft-light-purple": "fail",
+      "classic-soft-light-yellow": "fail",
+      "material-hard-light-blue": "AA",
+      "material-hard-light-green": "fail",
+      "material-hard-light-purple": "fail",
+      "material-hard-light-yellow": "fail",
+      "material-medium-light-blue": "fail",
+      "material-medium-light-green": "fail",
+      "material-medium-light-purple": "fail",
+      "material-medium-light-yellow": "fail",
+      "material-soft-light-blue": "fail",
+      "material-soft-light-green": "fail",
+      "material-soft-light-purple": "fail",
+      "material-soft-light-yellow": "fail"
+    }
+  }
+}

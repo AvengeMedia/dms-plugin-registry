@@ -1,0 +1,27 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "fail",
+    "minRatio": 4.1,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "variants": {
+      "sage-bright": "AAA",
+      "sage-deep": "fail"
+    }
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 3.91,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "variants": {
+      "sage-light-bright": "fail",
+      "sage-light-deep": "AA"
+    }
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "AAA",
+    "minRatio": 10.55,
+    "worstPair": [
+      "surfaceText",
+      "surfaceContainerHighest"
+    ],
+    "variants": {
+      "blackhole-amber": "AAA",
+      "blackhole-aurora": "AAA",
+      "blackhole-azure": "AA",
+      "blackhole-coral": "AA",
+      "blackhole-lilac": "AAA",
+      "blackhole-orange": "AAA",
+      "blackhole-teal": "AA",
+      "blackhole-violet": "AA"
+    }
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 2.98,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "variants": {
+      "supernova-amber": "fail",
+      "supernova-aurora": "fail",
+      "supernova-azure": "AA",
+      "supernova-coral": "fail",
+      "supernova-lilac": "AA",
+      "supernova-orange": "fail",
+      "supernova-teal": "AA",
+      "supernova-violet": "AA"
+    }
+  }
+}

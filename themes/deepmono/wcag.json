@@ -1,0 +1,29 @@
+{
+  "level": "AA",
+  "dark": {
+    "level": "AA",
+    "minRatio": 6.69,
+    "worstPair": [
+      "surfaceVariantText",
+      "surfaceVariant"
+    ],
+    "variants": {
+      "mono-fog": "AA",
+      "mono-graphite": "AA",
+      "mono-paper": "AA"
+    }
+  },
+  "light": {
+    "level": "AA",
+    "minRatio": 6.91,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "variants": {
+      "mono-light-fog": "AA",
+      "mono-light-graphite": "AA",
+      "mono-light-paper": "AAA"
+    }
+  }
+}

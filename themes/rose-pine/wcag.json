@@ -1,0 +1,29 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "AA",
+    "minRatio": 5.96,
+    "worstPair": [
+      "surfaceText",
+      "surfaceContainerHighest"
+    ],
+    "variants": {
+      "dawn": "AA",
+      "moon": "AA",
+      "rosePine": "AA"
+    }
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 3.47,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "variants": {
+      "dawn": "fail",
+      "moon": "fail",
+      "rosePine": "fail"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "AA",
+    "minRatio": 6.13,
+    "worstPair": [
+      "backgroundText",
+      "background"
+    ]
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 4.03,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ]
+  }
+}

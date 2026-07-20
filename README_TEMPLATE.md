@@ -91,6 +91,9 @@ Some plugins are created by third-party developers and are not officially suppor
 
 - **Author:** {{ theme.author }}
 - **ID:** `{{ theme.id }}` **Version:** `{{ theme.version }}`
+{% if theme._wcag_badge %}
+{{ theme._wcag_badge }}
+{% endif %}
 
 ![{{ theme.name }}](themes/{{ theme._dirname }}/preview.svg)
 

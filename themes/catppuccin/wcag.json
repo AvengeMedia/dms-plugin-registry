@@ -1,0 +1,79 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "AA",
+    "minRatio": 6.31,
+    "worstPair": [
+      "surfaceText",
+      "surfaceContainerHighest"
+    ],
+    "variants": {
+      "frappe-blue": "AA",
+      "frappe-flamingo": "AA",
+      "frappe-green": "AA",
+      "frappe-lavender": "AA",
+      "frappe-maroon": "AA",
+      "frappe-mauve": "AA",
+      "frappe-peach": "AA",
+      "frappe-pink": "AA",
+      "frappe-red": "AA",
+      "frappe-rosewater": "AA",
+      "frappe-sapphire": "AA",
+      "frappe-sky": "AA",
+      "frappe-teal": "AA",
+      "frappe-yellow": "AA",
+      "macchiato-blue": "AA",
+      "macchiato-flamingo": "AA",
+      "macchiato-green": "AA",
+      "macchiato-lavender": "AA",
+      "macchiato-maroon": "AA",
+      "macchiato-mauve": "AA",
+      "macchiato-peach": "AA",
+      "macchiato-pink": "AA",
+      "macchiato-red": "AA",
+      "macchiato-rosewater": "AA",
+      "macchiato-sapphire": "AA",
+      "macchiato-sky": "AA",
+      "macchiato-teal": "AA",
+      "macchiato-yellow": "AA",
+      "mocha-blue": "AA",
+      "mocha-flamingo": "AA",
+      "mocha-green": "AA",
+      "mocha-lavender": "AA",
+      "mocha-maroon": "AA",
+      "mocha-mauve": "AA",
+      "mocha-peach": "AA",
+      "mocha-pink": "AA",
+      "mocha-red": "AA",
+      "mocha-rosewater": "AA",
+      "mocha-sapphire": "AA",
+      "mocha-sky": "AA",
+      "mocha-teal": "AA",
+      "mocha-yellow": "AA"
+    }
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 4.37,
+    "worstPair": [
+      "surfaceVariantText",
+      "surfaceVariant"
+    ],
+    "variants": {
+      "latte-blue": "fail",
+      "latte-flamingo": "fail",
+      "latte-green": "fail",
+      "latte-lavender": "fail",
+      "latte-maroon": "fail",
+      "latte-mauve": "fail",
+      "latte-peach": "fail",
+      "latte-pink": "fail",
+      "latte-red": "fail",
+      "latte-rosewater": "fail",
+      "latte-sapphire": "fail",
+      "latte-sky": "fail",
+      "latte-teal": "fail",
+      "latte-yellow": "fail"
+    }
+  }
+}

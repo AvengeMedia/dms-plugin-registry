@@ -1,0 +1,19 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "AA",
+    "minRatio": 6.0,
+    "worstPair": [
+      "surfaceVariantText",
+      "surfaceVariant"
+    ]
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 3.95,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ]
+  }
+}

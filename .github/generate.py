@@ -9,6 +9,8 @@ from pathlib import Path
 
 from jinja2 import Environment, FileSystemLoader
 
+import check_wcag
+
 CAMEL_CASE_PATTERN = re.compile(r"^[a-z][a-zA-Z0-9]*$")
 THEME_REQUIRED_FIELDS = [
     "id",
@@ -211,6 +213,11 @@ def load_themes(themes_dir: Path) -> list[dict]:
             with open(theme_file) as f:
                 theme_data = json.load(f)
                 theme_data["_dirname"] = theme_dir.name
+                report = check_wcag.theme_report(theme_data)
+                if report:
+                    theme_data["_wcag_badge"] = check_wcag.badge_markdown(
+                        report["level"]
+                    )
                 themes.append(theme_data)
         except (json.JSONDecodeError, Exception) as e:
             print(f"Error reading {theme_file}: {e}", file=sys.stderr)

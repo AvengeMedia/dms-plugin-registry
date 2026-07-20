@@ -1,0 +1,39 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "AA",
+    "minRatio": 4.86,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "variants": {
+      "blue": "AA",
+      "cyan": "AA",
+      "green": "AA",
+      "magenta": "AA",
+      "orange": "AA",
+      "purple": "AA",
+      "red": "fail",
+      "yellow": "AAA"
+    }
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 4.09,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "variants": {
+      "blue": "fail",
+      "cyan": "fail",
+      "green": "fail",
+      "magenta": "fail",
+      "orange": "fail",
+      "purple": "AA",
+      "red": "fail",
+      "yellow": "fail"
+    }
+  }
+}

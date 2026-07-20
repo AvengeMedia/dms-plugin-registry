@@ -1,0 +1,19 @@
+{
+  "level": "AA",
+  "dark": {
+    "level": "AA",
+    "minRatio": 6.47,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ]
+  },
+  "light": {
+    "level": "AAA",
+    "minRatio": 7.49,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ]
+  }
+}

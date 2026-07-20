@@ -171,15 +171,18 @@ def theme_report(theme):
     return report
 
 
-def markdown_summary(report):
+def badge_markdown(level):
     badge_colors = {"AAA": "brightgreen", "AA": "green", "fail": "lightgrey"}
-    level = report["level"]
     label = level if level != "fail" else "below AA"
 
     # Static badge format: https://shields.io/badges (underscores render as spaces)
     badge_label = label.replace(" ", "_")
+    return f"![WCAG {label}](https://img.shields.io/badge/WCAG_contrast-{badge_label}-{badge_colors[level]})"
+
+
+def markdown_summary(report):
     lines = [
-        f"![WCAG {label}](https://img.shields.io/badge/WCAG_contrast-{badge_label}-{badge_colors[level]})",
+        badge_markdown(report["level"]),
         "",
     ]
 
@@ -233,6 +236,9 @@ def main():
     output = parser.add_mutually_exclusive_group()
     output.add_argument("--json", action="store_true")
     output.add_argument("--markdown", action="store_true")
+    output.add_argument(
+        "--write", action="store_true", help="write wcag.json next to each theme.json"
+    )
     args = parser.parse_args()
 
     if args.dirs:
@@ -255,7 +261,14 @@ def main():
         if report is None:
             continue
         reports[theme_dir.name] = report
+        if args.write:
+            with open(theme_dir / "wcag.json", "w") as f:
+                json.dump(report, f, indent=2)
+                f.write("\n")
+            print(f"Wrote {theme_dir / 'wcag.json'}")
 
+    if args.write:
+        return
     if args.json:
         print(json.dumps(reports, indent=2))
         return

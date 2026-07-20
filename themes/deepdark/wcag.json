@@ -1,0 +1,27 @@
+{
+  "level": "AA",
+  "dark": {
+    "level": "AA",
+    "minRatio": 5.11,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "variants": {
+      "voltage-blue": "AA",
+      "voltage-purple": "AA"
+    }
+  },
+  "light": {
+    "level": "AA",
+    "minRatio": 6.02,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "variants": {
+      "voltage-light-blue": "AA",
+      "voltage-light-purple": "AA"
+    }
+  }
+}
