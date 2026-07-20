@@ -21,11 +21,15 @@ jobs:
           ref: ${{ github.event.pull_request.base.sha }}
           path: base
 
+      # The PR checkout is treated as untrusted data only — nothing from it is
+      # executed.
       - name: Checkout PR head
         uses: actions/checkout@v6
         with:
           ref: ${{ github.event.pull_request.head.sha }}
           path: pr
+          persist-credentials: false
+          allow-unsafe-pr-checkout: true
 
       - name: Find changed plugins and build preview
         id: preview
