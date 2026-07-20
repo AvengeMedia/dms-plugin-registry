@@ -85,6 +85,10 @@ jobs:
             echo "**Author:** ${author}" >> ../comment.md
             echo "" >> ../comment.md
 
+            if [ -f ../base/.github/check_wcag.py ]; then
+              python3 ../base/.github/check_wcag.py --markdown "$theme_dir" >> ../comment.md
+            fi
+
             if [ -f "${theme_dir}/preview.svg" ]; then
               upload_name="pr-${PR_NUMBER}-${theme_slug}.svg"
               upload_url="https://api.danklinux.com/uploads/${upload_name}"
