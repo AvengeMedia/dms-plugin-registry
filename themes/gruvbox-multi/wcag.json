@@ -7,14 +7,21 @@
       "surfaceText",
       "surfaceContainerHighest"
     ],
+    "nonText": {
+      "minRatio": 4.19,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "classic-hard-dark-blue": "AA",
       "classic-hard-dark-green": "AA",
       "classic-hard-dark-purple": "AA",
       "classic-hard-dark-yellow": "AA",
-      "classic-medium-dark-blue": "AA",
+      "classic-medium-dark-blue": "fail",
       "classic-medium-dark-green": "AA",
-      "classic-medium-dark-purple": "AA",
+      "classic-medium-dark-purple": "fail",
       "classic-medium-dark-yellow": "AA",
       "classic-soft-dark-blue": "fail",
       "classic-soft-dark-green": "fail",
@@ -41,14 +48,21 @@
       "primaryText",
       "primary"
     ],
+    "nonText": {
+      "minRatio": 3.23,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "classic-hard-light-blue": "AA",
       "classic-hard-light-green": "fail",
       "classic-hard-light-purple": "AA",
       "classic-hard-light-yellow": "fail",
-      "classic-medium-light-blue": "AA",
+      "classic-medium-light-blue": "fail",
       "classic-medium-light-green": "fail",
-      "classic-medium-light-purple": "AA",
+      "classic-medium-light-purple": "fail",
       "classic-medium-light-yellow": "fail",
       "classic-soft-light-blue": "fail",
       "classic-soft-light-green": "fail",

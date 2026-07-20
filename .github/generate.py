@@ -215,9 +215,7 @@ def load_themes(themes_dir: Path) -> list[dict]:
                 theme_data["_dirname"] = theme_dir.name
                 report = check_wcag.theme_report(theme_data)
                 if report:
-                    theme_data["_wcag_badge"] = check_wcag.badge_markdown(
-                        report["level"]
-                    )
+                    theme_data["_wcag_badge"] = check_wcag.badge_markdown(report)
                 themes.append(theme_data)
         except (json.JSONDecodeError, Exception) as e:
             print(f"Error reading {theme_file}: {e}", file=sys.stderr)

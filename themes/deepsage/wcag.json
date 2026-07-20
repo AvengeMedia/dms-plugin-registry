@@ -2,23 +2,37 @@
   "level": "fail",
   "dark": {
     "level": "fail",
-    "minRatio": 4.1,
+    "minRatio": 3.57,
     "worstPair": [
-      "primaryText",
-      "primary"
+      "primary",
+      "surfaceContainer"
     ],
+    "nonText": {
+      "minRatio": 5.86,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
-      "sage-bright": "AAA",
+      "sage-bright": "AA",
       "sage-deep": "fail"
     }
   },
   "light": {
     "level": "fail",
-    "minRatio": 3.91,
+    "minRatio": 3.46,
     "worstPair": [
-      "primaryText",
-      "primary"
+      "primary",
+      "surfaceContainer"
     ],
+    "nonText": {
+      "minRatio": 3.6,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "sage-light-bright": "fail",
       "sage-light-deep": "AA"

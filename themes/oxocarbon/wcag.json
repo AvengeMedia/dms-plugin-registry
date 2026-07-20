@@ -7,6 +7,13 @@
       "primaryText",
       "primary"
     ],
+    "nonText": {
+      "minRatio": 5.44,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "blue": "AAA",
       "pink": "AAA"
@@ -19,6 +26,13 @@
       "primaryText",
       "primary"
     ],
+    "nonText": {
+      "minRatio": 1.33,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "blue": "fail",
       "pink": "fail"

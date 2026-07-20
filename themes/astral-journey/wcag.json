@@ -7,6 +7,13 @@
       "surfaceText",
       "surfaceContainerHighest"
     ],
+    "nonText": {
+      "minRatio": 6.1,
+      "worstPair": [
+        "info",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "blackhole-amber": "AAA",
       "blackhole-aurora": "AAA",
@@ -20,17 +27,24 @@
   },
   "light": {
     "level": "fail",
-    "minRatio": 2.98,
+    "minRatio": 2.76,
     "worstPair": [
-      "primaryText",
-      "primary"
+      "primary",
+      "surfaceContainer"
     ],
+    "nonText": {
+      "minRatio": 3.15,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "supernova-amber": "fail",
       "supernova-aurora": "fail",
       "supernova-azure": "AA",
       "supernova-coral": "fail",
-      "supernova-lilac": "AA",
+      "supernova-lilac": "fail",
       "supernova-orange": "fail",
       "supernova-teal": "AA",
       "supernova-violet": "AA"

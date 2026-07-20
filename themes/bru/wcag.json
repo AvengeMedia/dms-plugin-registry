@@ -2,14 +2,21 @@
   "level": "fail",
   "dark": {
     "level": "AAA",
-    "minRatio": 8.82,
+    "minRatio": 7.97,
     "worstPair": [
-      "primaryText",
-      "primary"
+      "primary",
+      "surfaceContainer"
     ],
+    "nonText": {
+      "minRatio": 4.97,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "espresso-blue": "AA",
-      "espresso-green": "AAA",
+      "espresso-green": "AA",
       "espresso-magenta": "AA",
       "espresso-orange": "AA",
       "espresso-red": "AA",
@@ -20,17 +27,24 @@
   },
   "light": {
     "level": "fail",
-    "minRatio": 2.98,
+    "minRatio": 2.75,
     "worstPair": [
-      "primaryText",
-      "primary"
+      "primary",
+      "surfaceContainer"
     ],
+    "nonText": {
+      "minRatio": 3.59,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "latte-blue": "fail",
       "latte-green": "fail",
       "latte-magenta": "fail",
       "latte-orange": "fail",
-      "latte-red": "AA",
+      "latte-red": "fail",
       "latte-teal": "fail",
       "latte-violet": "fail",
       "latte-yellow": "fail"

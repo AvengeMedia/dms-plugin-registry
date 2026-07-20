@@ -7,6 +7,13 @@
       "surfaceText",
       "surfaceContainerHighest"
     ],
+    "nonText": {
+      "minRatio": 5.67,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "dawn": "AA",
       "moon": "AA",
@@ -20,6 +27,13 @@
       "primaryText",
       "primary"
     ],
+    "nonText": {
+      "minRatio": 2.16,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "dawn": "fail",
       "moon": "fail",

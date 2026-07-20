@@ -2,26 +2,33 @@
   "level": "fail",
   "dark": {
     "level": "AA",
-    "minRatio": 6.31,
+    "minRatio": 5.65,
     "worstPair": [
-      "surfaceText",
-      "surfaceContainerHighest"
+      "surfaceVariantText",
+      "surfaceContainerHigh"
     ],
+    "nonText": {
+      "minRatio": 7.08,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
-      "frappe-blue": "AA",
-      "frappe-flamingo": "AA",
-      "frappe-green": "AA",
-      "frappe-lavender": "AA",
-      "frappe-maroon": "AA",
-      "frappe-mauve": "AA",
-      "frappe-peach": "AA",
-      "frappe-pink": "AA",
-      "frappe-red": "AA",
-      "frappe-rosewater": "AA",
-      "frappe-sapphire": "AA",
-      "frappe-sky": "AA",
-      "frappe-teal": "AA",
-      "frappe-yellow": "AA",
+      "frappe-blue": "fail",
+      "frappe-flamingo": "fail",
+      "frappe-green": "fail",
+      "frappe-lavender": "fail",
+      "frappe-maroon": "fail",
+      "frappe-mauve": "fail",
+      "frappe-peach": "fail",
+      "frappe-pink": "fail",
+      "frappe-red": "fail",
+      "frappe-rosewater": "fail",
+      "frappe-sapphire": "fail",
+      "frappe-sky": "fail",
+      "frappe-teal": "fail",
+      "frappe-yellow": "fail",
       "macchiato-blue": "AA",
       "macchiato-flamingo": "AA",
       "macchiato-green": "AA",
@@ -54,11 +61,18 @@
   },
   "light": {
     "level": "fail",
-    "minRatio": 4.37,
+    "minRatio": 3.2,
     "worstPair": [
       "surfaceVariantText",
-      "surfaceVariant"
+      "surfaceContainerHigh"
     ],
+    "nonText": {
+      "minRatio": 2.45,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "latte-blue": "fail",
       "latte-flamingo": "fail",

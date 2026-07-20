@@ -1,23 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+<svg xmlns="http://www.w3.org/2000/svg" width="280" height="240" viewBox="0 0 280 240">
   <g transform="translate(0, 0)">
-  <rect width="240" height="240" fill="#282828"/>
-  <rect x="8" y="8" width="224" height="224" rx="8" fill="#1b1b1b"/>
-  <rect x="16" y="16" width="208" height="36" rx="6" fill="#32302f"/>
-  <text x="28" y="40" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#ddc7a1">Gruvbox Multi Mat. M Purple</text>
-  <rect x="16" y="60" width="208" height="72" rx="6" fill="#45403d"/>
-  <text x="28" y="82" font-family="system-ui, sans-serif" font-size="11" fill="#ddc7a1">Surface Text</text>
-  <text x="28" y="98" font-family="system-ui, sans-serif" font-size="10" fill="#a89984">Outline color</text>
-  <rect x="28" y="108" width="72" height="18" rx="9" fill="#d3869b"/>
-  <text x="64" y="120" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#1b1b1b">Primary</text>
-  <rect x="108" y="108" width="48" height="18" rx="4" fill="#e78a4e"/>
-  <rect x="16" y="140" width="100" height="52" rx="6" fill="#32302f"/>
-  <rect x="24" y="148" width="84" height="36" rx="4" fill="#282828"/>
-  <text x="66" y="170" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#ddc7a1">Background</text>
-  <rect x="124" y="140" width="100" height="52" rx="6" fill="#32302f"/>
-  <circle cx="148" cy="166" r="9" fill="#ea6962"/>
-  <circle cx="172" cy="166" r="9" fill="#d8a657"/>
-  <circle cx="196" cy="166" r="9" fill="#7daea3"/>
-  <rect x="16" y="200" width="208" height="24" rx="4" fill="#443840" opacity="0.15"/>
-  <text x="120" y="216" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#ddc7a1">Surface Tint Overlay</text>
+  <rect width="280" height="240" fill="#282828"/>
+
+  <rect width="280" height="26" fill="#32302f"/>
+  <rect x="12" y="9" width="20" height="8" rx="4" fill="#d3869b"/>
+  <circle cx="40" cy="13" r="3" fill="#d4be98"/>
+  <circle cx="50" cy="13" r="3" fill="#d4be98"/>
+  <text x="140" y="17" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#d3869b">9:41</text>
+  <circle cx="238" cy="13" r="4" fill="#7daea3"/>
+  <circle cx="252" cy="13" r="4" fill="#d8a657"/>
+  <circle cx="266" cy="13" r="4" fill="#ea6962"/>
+
+  <rect x="14" y="38" width="252" height="190" rx="12" fill="#32302f" stroke="#a89984" stroke-opacity="0.5"/>
+  <text x="28" y="61" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#ddc7a1">Gruvbox Multi Mat. M Purple</text>
+  <text x="28" y="77" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" fill="#d4be98">Secondary text</text>
+
+  <rect x="26" y="87" width="228" height="50" rx="8" fill="#45403d"/>
+  <text x="38" y="105" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="500" fill="#ddc7a1">Nested card</text>
+  <text x="38" y="120" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#d4be98">Body text on an elevated surface</text>
+
+  <rect x="26" y="145" width="228" height="22" rx="6" fill="#1b1b1b" stroke="#a89984" stroke-opacity="0.4"/>
+  <text x="38" y="160" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#d4be98">Search</text>
+
+  <rect x="26" y="175" width="78" height="22" rx="11" fill="#d3869b"/>
+  <text x="65" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" font-weight="600" text-anchor="middle" fill="#1b1b1b">Button</text>
+  <rect x="112" y="175" width="70" height="22" rx="11" fill="#d3869b" fill-opacity="0.15"/>
+  <text x="147" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" font-weight="500" text-anchor="middle" fill="#d3869b">Accent</text>
+  <rect x="190" y="175" width="64" height="22" rx="11" fill="#5a524c"/>
+  <text x="222" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" text-anchor="middle" fill="#ddc7a1">Chip</text>
+
+  <circle cx="34" cy="212" r="7" fill="#d3869b"/>
+  <circle cx="54" cy="212" r="7" fill="#e78a4e"/>
+  <circle cx="74" cy="212" r="7" fill="#ea6962"/>
+  <circle cx="94" cy="212" r="7" fill="#d8a657"/>
+  <circle cx="114" cy="212" r="7" fill="#7daea3"/>
 </g>
 </svg>

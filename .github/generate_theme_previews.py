@@ -5,55 +5,102 @@ import json
 from html import escape as xml_escape
 from pathlib import Path
 
+# Mirrors how DankMaterialShell composes a desktop: the bar and popouts fill
+# with surfaceContainer, nested cards step up to surfaceContainerHigh, input
+# wells drop to surface, and the clock renders primary as accent text.
 PANEL_TEMPLATE = """<g transform="translate({x}, 0)">
-  <rect width="240" height="240" fill="{background}"/>
-  <rect x="8" y="8" width="224" height="224" rx="8" fill="{surface}"/>
-  <rect x="16" y="16" width="208" height="36" rx="6" fill="{surfaceContainer}"/>
-  <text x="28" y="40" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="{surfaceText}">{name}</text>
-  <rect x="16" y="60" width="208" height="72" rx="6" fill="{surfaceContainerHigh}"/>
-  <text x="28" y="82" font-family="system-ui, sans-serif" font-size="11" fill="{surfaceText}">Surface Text</text>
-  <text x="28" y="98" font-family="system-ui, sans-serif" font-size="10" fill="{outline}">Outline color</text>
-  <rect x="28" y="108" width="72" height="18" rx="9" fill="{primary}"/>
-  <text x="64" y="120" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="{primaryText}">Primary</text>
-  <rect x="108" y="108" width="48" height="18" rx="4" fill="{secondary}"/>
-  <rect x="16" y="140" width="100" height="52" rx="6" fill="{surfaceContainer}"/>
-  <rect x="24" y="148" width="84" height="36" rx="4" fill="{background}"/>
-  <text x="66" y="170" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="{backgroundText}">Background</text>
-  <rect x="124" y="140" width="100" height="52" rx="6" fill="{surfaceContainer}"/>
-  <circle cx="148" cy="166" r="9" fill="{error}"/>
-  <circle cx="172" cy="166" r="9" fill="{warning}"/>
-  <circle cx="196" cy="166" r="9" fill="{info}"/>
-  <rect x="16" y="200" width="208" height="24" rx="4" fill="{surfaceTint}" opacity="0.15"/>
-  <text x="120" y="216" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="{surfaceText}">Surface Tint Overlay</text>
+  <rect width="280" height="240" fill="{background}"/>
+
+  <rect width="280" height="26" fill="{surfaceContainer}"/>
+  <rect x="12" y="9" width="20" height="8" rx="4" fill="{primary}"/>
+  <circle cx="40" cy="13" r="3" fill="{surfaceVariantText}"/>
+  <circle cx="50" cy="13" r="3" fill="{surfaceVariantText}"/>
+  <text x="140" y="17" font-family="{font}" font-size="10" font-weight="600" text-anchor="middle" fill="{primary}">9:41</text>
+  <circle cx="238" cy="13" r="4" fill="{info}"/>
+  <circle cx="252" cy="13" r="4" fill="{warning}"/>
+  <circle cx="266" cy="13" r="4" fill="{error}"/>
+
+  <rect x="14" y="38" width="252" height="190" rx="12" fill="{surfaceContainer}" stroke="{outline}" stroke-opacity="0.5"/>
+  <text x="28" y="61" font-family="{font}" font-size="12.5" font-weight="600" fill="{surfaceText}">{name}</text>
+  <text x="28" y="77" font-family="{font}" font-size="9.5" fill="{surfaceVariantText}">Secondary text</text>
+
+  <rect x="26" y="87" width="228" height="50" rx="8" fill="{surfaceContainerHigh}"/>
+  <text x="38" y="105" font-family="{font}" font-size="10" font-weight="500" fill="{surfaceText}">Nested card</text>
+  <text x="38" y="120" font-family="{font}" font-size="9" fill="{surfaceVariantText}">Body text on an elevated surface</text>
+
+  <rect x="26" y="145" width="228" height="22" rx="6" fill="{surface}" stroke="{outline}" stroke-opacity="0.4"/>
+  <text x="38" y="160" font-family="{font}" font-size="9" fill="{surfaceVariantText}">Search</text>
+
+  <rect x="26" y="175" width="78" height="22" rx="11" fill="{primary}"/>
+  <text x="65" y="190" font-family="{font}" font-size="9.5" font-weight="600" text-anchor="middle" fill="{primaryText}">Button</text>
+  <rect x="112" y="175" width="70" height="22" rx="11" fill="{primary}" fill-opacity="0.15"/>
+  <text x="147" y="190" font-family="{font}" font-size="9.5" font-weight="500" text-anchor="middle" fill="{primary}">Accent</text>
+  <rect x="190" y="175" width="64" height="22" rx="11" fill="{surfaceContainerHighest}"/>
+  <text x="222" y="190" font-family="{font}" font-size="9.5" text-anchor="middle" fill="{surfaceText}">Chip</text>
+
+  <circle cx="34" cy="212" r="7" fill="{primary}"/>
+  <circle cx="54" cy="212" r="7" fill="{secondary}"/>
+  <circle cx="74" cy="212" r="7" fill="{error}"/>
+  <circle cx="94" cy="212" r="7" fill="{warning}"/>
+  <circle cx="114" cy="212" r="7" fill="{info}"/>
 </g>"""
 
-COMBINED_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="484" height="240" viewBox="0 0 484 240">
+COMBINED_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="564" height="240" viewBox="0 0 564 240">
   {dark_panel}
-  <rect x="240" y="0" width="4" height="240" fill="#888"/>
+  <rect x="280" y="0" width="4" height="240" fill="#888"/>
   {light_panel}
 </svg>"""
 
-SINGLE_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="240" height="240" viewBox="0 0 240 240">
+SINGLE_TEMPLATE = """<svg xmlns="http://www.w3.org/2000/svg" width="280" height="240" viewBox="0 0 280 240">
   {panel}
 </svg>"""
 
+FONT_STACK = "system-ui, -apple-system, Segoe UI, sans-serif"
 
 PANEL_KEYS = {
-    "background", "surface", "surfaceContainer", "surfaceText",
-    "surfaceContainerHigh", "outline", "primary", "primaryText",
-    "secondary", "backgroundText", "error", "warning", "info", "surfaceTint",
+    "background", "surface", "surfaceContainer", "surfaceContainerHigh",
+    "surfaceContainerHighest", "surfaceText", "surfaceVariantText", "outline",
+    "primary", "primaryText", "secondary", "error", "warning", "info",
 }
 
 
-def generate_panel(scheme: dict, name: str, x: int) -> str:
+# Fallbacks match DankMaterialShell Common/Theme.qml, which derives missing
+# container steps from the ones a theme does define.
+PANEL_FALLBACKS = {
+    "surfaceContainer": "surface",
+    "surfaceContainerHigh": "surfaceContainer",
+    "surfaceContainerHighest": "surfaceContainerHigh",
+    "surfaceVariantText": "surfaceText",
+    "background": "surface",
+    "secondary": "primary",
+    "info": "primary",
+    "warning": "error",
+}
+
+
+def resolve_panel_colors(scheme: dict) -> dict:
     colors = {k: v for k, v in scheme.items() if k in PANEL_KEYS}
-    return PANEL_TEMPLATE.format(x=x, name=xml_escape(name), **colors)
+    for key in PANEL_KEYS:
+        if key in colors:
+            continue
+        fallback = PANEL_FALLBACKS.get(key)
+        while fallback and fallback not in colors:
+            fallback = PANEL_FALLBACKS.get(fallback)
+        colors[key] = colors.get(fallback, "#808080")
+    return colors
+
+
+def generate_panel(scheme: dict, name: str, x: int) -> str:
+    colors = resolve_panel_colors(scheme)
+    return PANEL_TEMPLATE.format(
+        x=x, name=xml_escape(name), font=FONT_STACK, **colors
+    )
 
 
 def generate_combined_preview(theme: dict) -> str:
     name = theme.get("name", "Theme")
     dark_panel = generate_panel(theme["dark"], f"{name} (dark)", 0)
-    light_panel = generate_panel(theme["light"], f"{name} (light)", 244)
+    light_panel = generate_panel(theme["light"], f"{name} (light)", 284)
     return COMBINED_TEMPLATE.format(dark_panel=dark_panel, light_panel=light_panel)
 
 

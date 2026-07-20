@@ -1,27 +1,41 @@
 {
-  "level": "AA",
+  "level": "fail",
   "dark": {
-    "level": "AA",
-    "minRatio": 5.11,
+    "level": "fail",
+    "minRatio": 3.12,
     "worstPair": [
-      "primaryText",
-      "primary"
+      "primary",
+      "surfaceContainer"
     ],
+    "nonText": {
+      "minRatio": 5.1,
+      "worstPair": [
+        "info",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
-      "voltage-blue": "AA",
-      "voltage-purple": "AA"
+      "voltage-blue": "fail",
+      "voltage-purple": "fail"
     }
   },
   "light": {
-    "level": "AA",
-    "minRatio": 6.02,
+    "level": "fail",
+    "minRatio": 5.23,
     "worstPair": [
-      "primaryText",
-      "primary"
+      "primary",
+      "surfaceContainer"
     ],
+    "nonText": {
+      "minRatio": 1.77,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
-      "voltage-light-blue": "AA",
-      "voltage-light-purple": "AA"
+      "voltage-light-blue": "fail",
+      "voltage-light-purple": "fail"
     }
   }
 }

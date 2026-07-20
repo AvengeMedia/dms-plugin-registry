@@ -1,29 +1,43 @@
 {
-  "level": "AA",
+  "level": "fail",
   "dark": {
     "level": "AA",
-    "minRatio": 6.69,
+    "minRatio": 6.06,
     "worstPair": [
-      "surfaceVariantText",
-      "surfaceVariant"
+      "primary",
+      "surfaceContainer"
     ],
+    "nonText": {
+      "minRatio": 4.15,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
-      "mono-fog": "AA",
+      "mono-fog": "fail",
       "mono-graphite": "AA",
       "mono-paper": "AA"
     }
   },
   "light": {
-    "level": "AA",
-    "minRatio": 6.91,
+    "level": "fail",
+    "minRatio": 2.45,
     "worstPair": [
-      "primaryText",
-      "primary"
+      "primary",
+      "surfaceContainer"
     ],
+    "nonText": {
+      "minRatio": 3.92,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "mono-light-fog": "AA",
-      "mono-light-graphite": "AA",
-      "mono-light-paper": "AAA"
+      "mono-light-graphite": "fail",
+      "mono-light-paper": "fail"
     }
   }
 }

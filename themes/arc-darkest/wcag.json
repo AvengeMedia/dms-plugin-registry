@@ -6,7 +6,14 @@
     "worstPair": [
       "primaryText",
       "primary"
-    ]
+    ],
+    "nonText": {
+      "minRatio": 3.25,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    }
   },
   "light": {
     "level": "fail",
@@ -14,6 +21,13 @@
     "worstPair": [
       "primaryText",
       "primary"
-    ]
+    ],
+    "nonText": {
+      "minRatio": 2.92,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    }
   }
 }

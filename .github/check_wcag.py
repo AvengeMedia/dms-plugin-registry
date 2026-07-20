@@ -16,17 +16,33 @@ RESET = "\033[0m"
 AA_RATIO = 4.5
 AAA_RATIO = 7.0
 
+# Pairs mirror what DMS/quickshell actually renders: bars, popouts, and modals
+# fill with surfaceContainer, nested cards with surfaceContainerHigh (see
+# DankMaterialShell Common/Theme.qml nestedSurface), window bases with surface,
+# and primary doubles as accent text on the bar (Clock widget).
 TEXT_PAIRS = [
-    ("backgroundText", "background"),
     ("surfaceText", "surface"),
-    ("surfaceText", "surfaceContainerLowest"),
-    ("surfaceText", "surfaceContainerLow"),
     ("surfaceText", "surfaceContainer"),
     ("surfaceText", "surfaceContainerHigh"),
     ("surfaceText", "surfaceContainerHighest"),
-    ("surfaceVariantText", "surfaceVariant"),
+    ("surfaceVariantText", "surface"),
+    ("surfaceVariantText", "surfaceContainer"),
+    ("surfaceVariantText", "surfaceContainerHigh"),
     ("primaryText", "primary"),
+    ("primary", "surfaceContainer"),
 ]
+
+# Status colors render as standalone icons and badges, so they get the 3:1
+# non-text minimum from WCAG 2.2 SC 1.4.11
+# https://www.w3.org/TR/WCAG22/#non-text-contrast
+# Outline is excluded: it is a divider color that DMS draws at 12% alpha
+# (Theme.outlineMedium), which SC 1.4.11 exempts as decorative.
+NON_TEXT_PAIRS = [
+    ("error", "surfaceContainer"),
+    ("warning", "surfaceContainer"),
+    ("info", "surfaceContainer"),
+]
+NON_TEXT_RATIO = 3.0
 
 LEVEL_RANK = {"fail": 0, "AA": 1, "AAA": 2}
 
@@ -71,24 +87,48 @@ def level_for_ratio(ratio):
     return "fail"
 
 
-def scheme_report(scheme):
-    ratios = []
-    for fg_key, bg_key in TEXT_PAIRS:
+def worst_ratio(scheme, pairs):
+    worst = None
+    for fg_key, bg_key in pairs:
         fg = parse_hex(scheme.get(fg_key))
         bg = parse_hex(scheme.get(bg_key))
         if fg is None or bg is None:
             continue
-        ratios.append((contrast_ratio(fg, bg), fg_key, bg_key))
 
-    if not ratios:
+        ratio = contrast_ratio(fg, bg)
+        if worst is not None and ratio >= worst[0]:
+            continue
+        worst = (ratio, fg_key, bg_key)
+
+    return worst
+
+
+def scheme_report(scheme):
+    text = worst_ratio(scheme, TEXT_PAIRS)
+    if text is None:
         return None
 
-    min_ratio, fg_key, bg_key = min(ratios)
-    return {
+    min_ratio, fg_key, bg_key = text
+    report = {
         "level": level_for_ratio(min_ratio),
         "minRatio": round(min_ratio, 2),
         "worstPair": [fg_key, bg_key],
     }
+
+    non_text = worst_ratio(scheme, NON_TEXT_PAIRS)
+    if non_text is None:
+        return report
+
+    non_text_ratio, non_text_fg, non_text_bg = non_text
+    report["nonText"] = {
+        "minRatio": round(non_text_ratio, 2),
+        "worstPair": [non_text_fg, non_text_bg],
+    }
+
+    # SC 1.4.11 is itself a Level AA criterion, so failing it fails AA outright.
+    if non_text_ratio < NON_TEXT_RATIO:
+        report["level"] = "fail"
+    return report
 
 
 def mode_schemes(theme, mode):
@@ -171,9 +211,23 @@ def theme_report(theme):
     return report
 
 
-def badge_markdown(level):
+def badge_level_label(report):
+    # A theme often passes in one mode only, so credit the mode that passes
+    # rather than hiding it behind the combined level.
+    if report["level"] != "fail":
+        return report["level"], report["level"]
+
+    for mode in ("dark", "light"):
+        level = report.get(mode, {}).get("level")
+        if level and level != "fail":
+            return level, f"{level} ({mode})"
+
+    return "fail", "below AA"
+
+
+def badge_markdown(report):
     badge_colors = {"AAA": "brightgreen", "AA": "green", "fail": "lightgrey"}
-    label = level if level != "fail" else "below AA"
+    level, label = badge_level_label(report)
 
     # Static badge format: https://shields.io/badges (underscores render as spaces)
     badge_label = label.replace(" ", "_")
@@ -182,7 +236,7 @@ def badge_markdown(level):
 
 def markdown_summary(report):
     lines = [
-        badge_markdown(report["level"]),
+        badge_markdown(report),
         "",
     ]
 

@@ -7,6 +7,13 @@
       "surfaceText",
       "surface"
     ],
+    "nonText": {
+      "minRatio": 4.07,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "black-blue": "fail",
       "black-coral": "AAA",
@@ -31,6 +38,13 @@
       "surfaceText",
       "surface"
     ],
+    "nonText": {
+      "minRatio": 4.07,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
     "variants": {
       "black-light-blue": "fail",
       "black-light-coral": "AAA",

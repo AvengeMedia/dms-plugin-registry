@@ -1,19 +1,33 @@
 {
-  "level": "AA",
+  "level": "fail",
   "dark": {
     "level": "AA",
-    "minRatio": 5.95,
+    "minRatio": 5.83,
     "worstPair": [
-      "primaryText",
-      "primary"
-    ]
+      "primary",
+      "surfaceContainer"
+    ],
+    "nonText": {
+      "minRatio": 5.1,
+      "worstPair": [
+        "info",
+        "surfaceContainer"
+      ]
+    }
   },
   "light": {
-    "level": "AA",
-    "minRatio": 5.95,
+    "level": "fail",
+    "minRatio": 2.75,
     "worstPair": [
-      "primaryText",
-      "primary"
-    ]
+      "primary",
+      "surfaceContainer"
+    ],
+    "nonText": {
+      "minRatio": 2.72,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    }
   }
 }
