@@ -7,7 +7,24 @@
       "primary",
       "surfaceContainer"
     ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 9.31,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "fail",
+      "minRatio": 2.93,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
     "nonText": {
+      "level": "fail",
       "minRatio": 2.93,
       "worstPair": [
         "error",
@@ -22,7 +39,24 @@
       "primaryText",
       "primary"
     ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 9.31,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "fail",
+      "minRatio": 3.0,
+      "worstPair": [
+        "primaryText",
+        "primary"
+      ]
+    },
     "nonText": {
+      "level": "fail",
       "minRatio": 2.48,
       "worstPair": [
         "warning",

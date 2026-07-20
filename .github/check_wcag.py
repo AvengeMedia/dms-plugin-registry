@@ -18,9 +18,10 @@ AAA_RATIO = 7.0
 
 # Pairs mirror what DMS/quickshell actually renders: bars, popouts, and modals
 # fill with surfaceContainer, nested cards with surfaceContainerHigh (see
-# DankMaterialShell Common/Theme.qml nestedSurface), window bases with surface,
-# and primary doubles as accent text on the bar (Clock widget).
-TEXT_PAIRS = [
+# DankMaterialShell Common/Theme.qml nestedSurface), window bases with surface.
+# Body covers the text read constantly; accent covers primary, which DMS draws
+# as bar text (Clock widget) and as filled button labels.
+BODY_PAIRS = [
     ("surfaceText", "surface"),
     ("surfaceText", "surfaceContainer"),
     ("surfaceText", "surfaceContainerHigh"),
@@ -28,9 +29,14 @@ TEXT_PAIRS = [
     ("surfaceVariantText", "surface"),
     ("surfaceVariantText", "surfaceContainer"),
     ("surfaceVariantText", "surfaceContainerHigh"),
+]
+
+ACCENT_PAIRS = [
     ("primaryText", "primary"),
     ("primary", "surfaceContainer"),
 ]
+
+TEXT_PAIRS = BODY_PAIRS + ACCENT_PAIRS
 
 # Status colors render as standalone icons and badges, so they get the 3:1
 # non-text minimum from WCAG 2.2 SC 1.4.11
@@ -103,6 +109,19 @@ def worst_ratio(scheme, pairs):
     return worst
 
 
+def group_report(scheme, pairs):
+    worst = worst_ratio(scheme, pairs)
+    if worst is None:
+        return None
+
+    ratio, fg_key, bg_key = worst
+    return {
+        "level": level_for_ratio(ratio),
+        "minRatio": round(ratio, 2),
+        "worstPair": [fg_key, bg_key],
+    }
+
+
 def scheme_report(scheme):
     text = worst_ratio(scheme, TEXT_PAIRS)
     if text is None:
@@ -115,12 +134,21 @@ def scheme_report(scheme):
         "worstPair": [fg_key, bg_key],
     }
 
+    body = group_report(scheme, BODY_PAIRS)
+    if body:
+        report["body"] = body
+
+    accent = group_report(scheme, ACCENT_PAIRS)
+    if accent:
+        report["accent"] = accent
+
     non_text = worst_ratio(scheme, NON_TEXT_PAIRS)
     if non_text is None:
         return report
 
     non_text_ratio, non_text_fg, non_text_bg = non_text
     report["nonText"] = {
+        "level": "AA" if non_text_ratio >= NON_TEXT_RATIO else "fail",
         "minRatio": round(non_text_ratio, 2),
         "worstPair": [non_text_fg, non_text_bg],
     }
@@ -211,16 +239,33 @@ def theme_report(theme):
     return report
 
 
-def badge_level_label(report):
-    # A theme often passes in one mode only, so credit the mode that passes
-    # rather than hiding it behind the combined level.
-    if report["level"] != "fail":
-        return report["level"], report["level"]
-
+def tier_levels(report, tier):
+    levels = {}
     for mode in ("dark", "light"):
-        level = report.get(mode, {}).get("level")
-        if level and level != "fail":
-            return level, f"{level} ({mode})"
+        mode_result = report.get(mode)
+        if not mode_result:
+            continue
+        if tier == "all":
+            levels[mode] = mode_result["level"]
+            continue
+        levels[mode] = mode_result.get(tier, {}).get("level")
+    return {mode: level for mode, level in levels.items() if level}
+
+
+def badge_level_label(report):
+    # A theme often passes in one mode only, or passes for everything except the
+    # accent color, so credit what does pass instead of flattening it all to a
+    # single failure.
+    for tier, suffix in (("all", ""), ("body", " body")):
+        levels = tier_levels(report, tier)
+        passing = {m: l for m, l in levels.items() if l != "fail"}
+        if not passing:
+            continue
+
+        level = min(passing.values(), key=LEVEL_RANK.get)
+        if len(passing) == len(levels):
+            return level, f"{level}{suffix}"
+        return level, f"{level}{suffix} ({next(iter(passing))})"
 
     return "fail", "below AA"
 
@@ -240,34 +285,42 @@ def markdown_summary(report):
         "",
     ]
 
-    details = []
     for mode in ("dark", "light"):
         mode_result = report.get(mode)
         if not mode_result:
             continue
-        fg_key, bg_key = mode_result["worstPair"]
-        details.append(
-            f"{mode} **{mode_result['level']}** "
-            f"(min {mode_result['minRatio']}:1, {fg_key} on {bg_key})"
-        )
-    lines.append(" · ".join(details))
-    lines.append("")
+        lines.append(f"**{mode}** — {group_summary(mode_result)}")
+        lines.append("")
     return "\n".join(lines)
+
+
+def group_summary(mode_result):
+    parts = []
+    for tier, label in (("body", "body text"), ("accent", "accent"), ("nonText", "status")):
+        group = mode_result.get(tier)
+        if not group:
+            continue
+        fg_key, bg_key = group["worstPair"]
+        parts.append(
+            f"{label} {group['level']} ({group['minRatio']}:1, {fg_key} on {bg_key})"
+        )
+    return " · ".join(parts)
 
 
 def print_reports(reports):
     level_colors = {"AAA": GREEN, "AA": GREEN, "fail": RED}
     for slug, report in sorted(reports.items()):
+        _, label = badge_level_label(report)
         color = level_colors[report["level"]]
         parts = []
         for mode in ("dark", "light"):
             mode_result = report.get(mode)
             if not mode_result:
                 continue
-            parts.append(
-                f"{mode} {mode_result['level']} (min {mode_result['minRatio']}:1)"
-            )
-        print(f"{slug}: {color}{report['level']}{RESET} — {', '.join(parts)}")
+            body = mode_result.get("body", {}).get("level", "n/a")
+            accent = mode_result.get("accent", {}).get("level", "n/a")
+            parts.append(f"{mode} body {body} / accent {accent}")
+        print(f"{slug}: {color}{label}{RESET} — {', '.join(parts)}")
 
 
 def load_theme(theme_dir):

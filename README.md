@@ -8174,7 +8174,7 @@ Arc Darkest GTK theme ported to DankMaterialShell
 - **Author:** schneik
 - **ID:** `arcdarkest` **Version:** `1.0.0`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AA body](https://img.shields.io/badge/WCAG_contrast-AA_body-green)
 
 
 ![Arc Darkest](themes/arc-darkest/preview.svg)
@@ -8272,7 +8272,7 @@ Deep and dark color themes with two variants to fit with being dark better
 - **Author:** viewerofall
 - **ID:** `deepdark` **Version:** `1.0.0`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AA body](https://img.shields.io/badge/WCAG_contrast-AA_body-green)
 
 
 ![Deep Dark](themes/deepdark/preview.svg)
@@ -8286,7 +8286,7 @@ Muted sage green theme, easy on the eyes at night, with bright/deep button varia
 - **Author:** viewerofall
 - **ID:** `deepsage` **Version:** `1.0.0`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AA body](https://img.shields.io/badge/WCAG_contrast-AA_body-green)
 
 
 ![Deep Sage](themes/deepsage/preview.svg)
@@ -8328,7 +8328,7 @@ Inky color scheme for prose and code by Steph Ango
 - **Author:** Euan Deas
 - **ID:** `flexoki` **Version:** `1.0.0`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AAA body](https://img.shields.io/badge/WCAG_contrast-AAA_body-brightgreen)
 
 
 ![Flexoki](themes/flexoki/preview.svg)
@@ -8342,7 +8342,7 @@ GNOME-inspired theme with Adwaita accent variants
 - **Author:** ciyoxe
 - **ID:** `gnomeAdwaita` **Version:** `1.0.0`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AAA body](https://img.shields.io/badge/WCAG_contrast-AAA_body-brightgreen)
 
 
 ![GNOME Adwaita](themes/gnome-adwaita/preview.svg)
@@ -8384,7 +8384,7 @@ A neon-lit colorscheme — cool blue-grey backgrounds with cyberpunk-bright acce
 - **Author:** kmf
 - **ID:** `joziCityNights` **Version:** `1.0.0`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AA body](https://img.shields.io/badge/WCAG_contrast-AA_body-green)
 
 
 ![Jozi City Nights](themes/jozi-city/preview.svg)
@@ -8398,7 +8398,7 @@ Kanagawa theme using Lotus for light mode and Wave for dark mode.
 - **Author:** wirus
 - **ID:** `kanagawaWl` **Version:** `1.0.0`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AA body](https://img.shields.io/badge/WCAG_contrast-AA_body-green)
 
 
 ![Kanagawa-wave-lotus](themes/kanagawa-wl/preview.svg)
@@ -8412,7 +8412,7 @@ A red & purple color scheme based on the game 'Milk outside a bag of milk'.
 - **Author:** esc
 - **ID:** `milkTheme` **Version:** `1.0.0`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AAA body](https://img.shields.io/badge/WCAG_contrast-AAA_body-brightgreen)
 
 
 ![Milk outside a bag of milk](themes/milk-outside-a-bag-of-milk/preview.svg)
@@ -8440,7 +8440,7 @@ Oxeo theme DMS port. https://github.com/specialfish9/oxeo-nvim
 - **Author:** specialfish9
 - **ID:** `oxeo` **Version:** `1.0.0`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AAA body](https://img.shields.io/badge/WCAG_contrast-AAA_body-brightgreen)
 
 
 ![Oxeo](themes/oxeo/preview.svg)
@@ -8454,7 +8454,7 @@ A darker, more muted DankMaterialShell variant of Oxeo with toned-down primary c
 - **Author:** William Zimmerman, based on specialfish9
 - **ID:** `oxeoDeep` **Version:** `1.0.0`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AAA body](https://img.shields.io/badge/WCAG_contrast-AAA_body-brightgreen)
 
 
 ![Oxeo Deep](themes/oxeo-deep/preview.svg)
@@ -8636,7 +8636,7 @@ nord theme
 - **Author:** wirus
 - **ID:** `nord` **Version:** `1.0.1`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AA body](https://img.shields.io/badge/WCAG_contrast-AA_body-green)
 
 
 ![nord](themes/nord/preview.svg)
@@ -8650,7 +8650,7 @@ Retrobox dark theme with retro groove colors
 - **Author:** dacyberduck
 - **ID:** `retrobox` **Version:** `1.0.0`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AA body](https://img.shields.io/badge/WCAG_contrast-AA_body-green)
 
 
 ![retrobox](themes/retrobox/preview.svg)
@@ -8664,7 +8664,7 @@ Theme inspired by Teenage Engineering K.O. II
 - **Author:** antikytheraton
 - **ID:** `teenKOii` **Version:** `1.0.0`
 
-![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+![WCAG AA body](https://img.shields.io/badge/WCAG_contrast-AA_body-green)
 
 
 ![teenKOii](themes/teenKOII/preview.svg)
