@@ -3304,6 +3304,35 @@ A guided breathing exercise tool for mindfulness and relaxation.
 
 
 
+#### [CPU Thermal Indicator](https://github.com/zhtlancer/dms-cpu-thermal-indicator.git)
+
+CPU temperature and fan speed monitor for DankBar using Linux hwmon
+
+<strong>requires DMS version</strong>: <em>>=1.4.6</em>
+
+- id: cpuThermalIndicator
+- name: CPU Thermal Indicator
+- author: zhtlancer
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/zhtlancer/dms-cpu-thermal-indicator/blob/261457e37c40c9560a4649c4bd92715c315683ad/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Calculator](https://github.com/rochacbruno/DankCalculator)
 
 A calculator plugin that evaluates mathematical expressions and copies results to clipboard
