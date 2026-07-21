@@ -1,0 +1,20 @@
+{
+    "id": "timeManager",
+    "name": "Time Manager",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/Zhainy/DmsTimeManager",
+    "author": "Zhainy",
+    "description": "Timer, Stopwatch & Pomodoro \u2014 all-in-one time manager for DankBar with progress bar, sound alarm and session tracking",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Zhainy/DmsTimeManager/main/screenshot.png",
+    "requires_dms": ">=1.2.0"
+}
