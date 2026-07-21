@@ -4318,12 +4318,12 @@
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
-    "date": "2026-07-17T13:45:38+08:00",
+    "date": "2026-07-21T23:49:38+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ahjdhHe7bqbFzsTDNdTrsOyoN/Z2q68IZsCVLmDxQ9s=",
+    "hash": "sha256-NgAxIQTLSEN7xJMtKPev9la+7row/WvGAEUUnLYLt+A=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -4345,10 +4345,10 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
       "version": "1.0.4"
     },
-    "path": "/nix/store/5npyc3as8ajxspjzwz8iyhwz2kfqbihp-dms-filemanager",
-    "rev": "d698375c41cb29b168cf69728ce28206f92dd24e",
+    "path": "/nix/store/mncq8y40bbwv5rz15vxb3knwbfnhc321-dms-filemanager",
+    "rev": "1b25dfb512d4c09fcbde13b97e978e808f061594",
     "rootDir": "",
-    "sha256": "1ns3y5h2x5f0cq4azavnyqvsiv5hxga3bhy4rv2scvmvfy2ds63a",
+    "sha256": "1q5p1fv9q5250336pz9hpbpbwmpnmzvjhbckqixl6j6b0hhk201n",
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
@@ -7595,12 +7595,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-21T20:23:16+07:00",
+    "date": "2026-07-21T22:55:48+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-zK4lki7NNLWUdWB9tFwEJJuHiYIh0LTIX9CH97LH+Nw=",
+    "hash": "sha256-wWhGtmmgbNY+aLClXQFqTZfEyD+Jp0cSN6076d47iYI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7628,12 +7628,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "3.6.1"
+      "version": "3.6.2"
     },
-    "path": "/nix/store/ans21v41qild9vnvfs64nhqnss70azz2-dms-quick-capture",
-    "rev": "b2189814f154f4de845022a29287ac0feed17e7e",
+    "path": "/nix/store/d4pclhy97dr3wp51cf59bwd05phiqcd5-dms-quick-capture",
+    "rev": "b26ed33fb446896b251cbb30d492796004f3c8d4",
     "rootDir": "",
-    "sha256": "1p7qqyrgg1yhbz4b9l11ha4qg6r40ifb8zb0fnabad6d5s92bbnc",
+    "sha256": "10l97ggfjfxd6w94g9w97z4c95sdd80mv9dhd0zdcv50d6v4cs61",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -8303,12 +8303,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "sitStandReminder": {
-    "date": "2026-07-20T00:40:50+02:00",
+    "date": "2026-07-21T17:27:28+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-47jAXVn7v2WfwyOk02SuayrQNzKA3pz3qFVQ0mmyjYs=",
+    "hash": "sha256-yCHlXnaUi2jeT4Nueuna0kzpqbGYj/fTGcs9hqkmI/I=",
     "leaveDotGit": false,
     "meta": {
       "author": "Justus",
@@ -8335,10 +8335,10 @@
       "screenshot": "https://raw.githubusercontent.com/knappancash/SitStandReminder/main/sit-stand-reminder-preview.png",
       "version": "1.1.1"
     },
-    "path": "/nix/store/981cnhx69mdx2b6k5jhqi9n5kdbig9mx-SitStandReminder",
-    "rev": "edfdd0b86a98bcc60d3d18c4d0a1f69b6535552f",
+    "path": "/nix/store/jyg534bnl0hvqm8ynhlh3hkjah5yjfs5-SitStandReminder",
+    "rev": "6c4cc7ff0e2d3bada853023dbe79ab4a967dd9af",
     "rootDir": "",
-    "sha256": "12wdn9lx4l2mm3vrrpl068vx0akbmrjd7913qfgnbgzvb5fw1f73",
+    "sha256": "1wi34slqcgfb379zg3wqn6lyjk6jvblplvl39zg6i2wlfrgfa8f8",
     "url": "https://github.com/knappancash/SitStandReminder"
   },
   "splayerLyrics": {
@@ -8855,6 +8855,41 @@
     "rootDir": "",
     "sha256": "0knydxv052x4qcxqanv6wp6cs03zsv6x2b4zi3s9r2wd47xbygww",
     "url": "https://github.com/viewerofall-labs/weather-viewer"
+  },
+  "timeManager": {
+    "date": "2026-07-21T14:23:09-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-ODDjsD+X/hLYI47r2GSDCoHTUHavL91G2REJQ/9f9qs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Zhainy",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Timer, Stopwatch & Pomodoro \u2014 all-in-one time manager for DankBar with progress bar, sound alarm and session tracking",
+      "distro": [
+        "any"
+      ],
+      "id": "timeManager",
+      "name": "Time Manager",
+      "repo": "https://github.com/Zhainy/DmsTimeManager",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://raw.githubusercontent.com/Zhainy/DmsTimeManager/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/pi3af9n4wq8q5pzacbjx51ax6fjvlivk-DmsTimeManager",
+    "rev": "2ad012c14c10c0e667ca4e48c8958d4b2206f84f",
+    "rootDir": "",
+    "sha256": "1aznbzzl628iv53dsbxgfr8d708ahdjdiswf4gc15zlp7yqf6c1q",
+    "url": "https://github.com/Zhainy/DmsTimeManager"
   },
   "timeUntil": {
     "date": "2026-02-28T11:28:45+01:00",
