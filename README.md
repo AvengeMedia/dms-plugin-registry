@@ -7388,6 +7388,35 @@ Real-time TeamSpeak 6 status display — server, channel, mute, talking, away
 
 
 
+#### [Time Manager](https://github.com/Zhainy/DmsTimeManager)
+
+Timer, Stopwatch & Pomodoro — all-in-one time manager for DankBar with progress bar, sound alarm and session tracking
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: timeManager
+- name: Time Manager
+- author: Zhainy
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Zhainy/DmsTimeManager/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Time Until](https://github.com/fdmarcin/TimeUntil)
 
 Display a customizable countdown timer in the Dankbar. Perfect for tracking important deadlines, goals, or any time-sensitive events.
