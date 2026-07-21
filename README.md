@@ -8462,6 +8462,20 @@ Accessible themes conforming to the highest color-contrast standard (WCAG AAA)
 
 
 
+### Monokai Pro
+
+✨ Professional dark & light theme, not from the author of the original Monokai color scheme.
+
+- **Author:** Khobza
+- **ID:** `monokaiPro` **Version:** `2.0.13`
+
+![WCAG below AA](https://img.shields.io/badge/WCAG_contrast-below_AA-lightgrey)
+
+
+![Monokai Pro](themes/monokai-pro/preview.svg)
+
+
+
 ### Oxeo
 
 Oxeo theme DMS port. https://github.com/specialfish9/oxeo-nvim
