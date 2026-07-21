@@ -1255,12 +1255,12 @@
     "url": "https://github.com/ernestowgg/cava-visualizer"
   },
   "chineseCalendar": {
-    "date": "2026-07-15T18:01:12+08:00",
+    "date": "2026-07-21T14:22:28+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-AGn/gss0BEIhLxTpCSodpbc46ruVmDFtpw0UpXgVST0=",
+    "hash": "sha256-tztOMdaUS29/vrZ4xOE2UOA+2b8r6Sejr91uJ/t68z8=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -1285,12 +1285,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-ccal",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-ccal/master/assets/screenshot.png",
-      "version": "1.2.2"
+      "version": "1.2.3"
     },
-    "path": "/nix/store/scrvvi55n376rrm1ggy927c37wfmmk6l-dms-plugin-ccal",
-    "rev": "b4de8eb83d05abd83aaf90fa61de5ef6b143ee3f",
+    "path": "/nix/store/m20s8q3wwgrxymnq5r7ls3mrfrynfklf-dms-plugin-ccal",
+    "rev": "2d7e052e229b260c8ac638e4fa79b312c305de72",
     "rootDir": "",
-    "sha256": "0ga92mwaa50dlxnk364mpgm3idx53lm0ks8l5whl411lrf1gys80",
+    "sha256": "0gzkgbxjfvnxmyijgs9bpzckxq2h6vhw8y5nprznyjwlsqqlwfxp",
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
   "clashVerge": {
@@ -1709,6 +1709,49 @@
     "rootDir": "",
     "sha256": "0rxmygc4m8w3gikyrkvg098kkyzlfrc1hw4c11an5lqhrf84jv33",
     "url": "https://github.com/rabits/dms-plugin-cpucoreload"
+  },
+  "cpuThermalIndicator": {
+    "date": "2026-07-20T22:39:39+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-bNhFEMFdcBVHl3L6bWWSFo9mopSdc/H53hCx+tOOrTs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "zhtlancer",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "CPU temperature and fan speed monitor for DankBar using Linux hwmon",
+      "distro": [
+        "any"
+      ],
+      "id": "cpuThermalIndicator",
+      "name": "CPU Thermal Indicator",
+      "repo": "https://github.com/zhtlancer/dms-cpu-thermal-indicator.git",
+      "requires_dms": ">=1.4.6",
+      "screenshot": "https://github.com/zhtlancer/dms-cpu-thermal-indicator/blob/261457e37c40c9560a4649c4bd92715c315683ad/screenshot.png",
+      "tags": [
+        "temperature",
+        "system",
+        "status",
+        "dankbar",
+        "cpu"
+      ],
+      "type": "widget",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/4ws935cjprf83kmj7f2267xy612rqnhy-dms-cpu-thermal-indicator",
+    "rev": "261457e37c40c9560a4649c4bd92715c315683ad",
+    "rootDir": "",
+    "sha256": "0fxdiv9zmc8hvvwz2wwxjji6d3qnj9jnvykjjx3iaw2xq484bn3c",
+    "url": "https://github.com/zhtlancer/dms-cpu-thermal-indicator.git"
   },
   "customRunningApps": {
     "date": "2026-06-28T09:50:09-07:00",
@@ -7552,12 +7595,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-21T00:45:30+07:00",
+    "date": "2026-07-21T12:43:05+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-AFohy9qvcvCsBGOicQg1p+AD3j+Zfk0j7b+ub0UdbuQ=",
+    "hash": "sha256-TotTTTbIJn+eHgr+X5dGgfmQKuDqGbew6PvP6KXkE3Y=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7585,12 +7628,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "3.6.0"
+      "version": "3.6.1"
     },
-    "path": "/nix/store/bpa8ya07q8mqb5a5b211xiqwwmfzmdjb-dms-quick-capture",
-    "rev": "66665d73e8d5238e8e1c605d3bf481837a0cb4f5",
+    "path": "/nix/store/y9an5sqsal93zkk83yj0qc3waiydbggk-dms-quick-capture",
+    "rev": "e1268b6350fcaec393b1768f916885a19a7d33ab",
     "rootDir": "",
-    "sha256": "1r3f3m2nzbmzxlilszlr7zg07q576l4738k30jng0wmgvb5j2nh0",
+    "sha256": "0xhkwjjyikzvx2qbf6gaw0m91yc18sbmzzha3sg7y9n86r6m72sf",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
