@@ -1,0 +1,13 @@
+{
+    "id": "gpuMonitor",
+    "name": "GPU Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/rollecode/dms-gpu-monitor",
+    "author": "Rolle Laukkarinen",
+    "description": "NVIDIA GPU load as an animated progress bar in your DankBar, updated every second",
+    "dependencies": ["nvidia-smi"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/rollecode/dms-gpu-monitor/main/Screenshot.png"
+}

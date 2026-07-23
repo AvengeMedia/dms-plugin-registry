@@ -1,0 +1,13 @@
+{
+    "id": "personalDictionary",
+    "name": "Personal Dictionary",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/gemb0-0/Personal-Dictionary",
+    "author": "gemb0_0",
+    "description": "Text expander for the launcher — copy/paste pre-defined text using a shortcut via launcher",
+    "dependencies": ["wtype", "wl-clipboard"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/gemb0-0/Personal-Dictionary/refs/heads/master/screenshot2.png"
+}

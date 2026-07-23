@@ -1,0 +1,13 @@
+{
+    "id": "dmsJira",
+    "name": "Jira Tickets",
+    "capabilities": ["dankbar-widget"],
+    "category": "productivity",
+    "repo": "https://github.com/Klievan/dms-jira",
+    "author": "Klievan",
+    "description": "Assigned Jira Cloud tickets in the DankBar with quick actions — open, transition status, comment, copy branch name — plus optional new-assignment and @mention notifications.",
+    "dependencies": ["wl-clipboard", "libnotify"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Klievan/dms-jira/8c66f630892c12665643bf4538d0b265adb1a056/assets/screenshot.png"
+}

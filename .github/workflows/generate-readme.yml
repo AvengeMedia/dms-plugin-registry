@@ -7,23 +7,33 @@ on:
 
 jobs:
   generate:
+    if: github.repository == 'AvengeMedia/dms-plugin-registry'
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v4
+      - name: Create GitHub App token
+        id: app_token
+        uses: actions/create-github-app-token@v1
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ steps.app_token.outputs.token }}
 
       - name: Install dependencies
         run: pip install jinja2
 
       - name: Generate theme previews
         run: python3 .github/generate_theme_previews.py
+
+      - name: Generate WCAG contrast data
+        run: python3 .github/check_wcag.py --write
 
       - name: Generate README
         run: python3 .github/generate.py
@@ -40,9 +50,11 @@ jobs:
 
       - name: Commit and push if changed
         if: steps.check_changes.outputs.changed == 'true'
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
         run: |
-          git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git config --local user.name "github-actions[bot]"
+          git config user.name "dms-ci[bot]"
+          git config user.email "dms-ci[bot]@users.noreply.github.com"
           git commit -m "chore: auto-generate README.md [skip ci]"
-          git pull --rebase
-          git push
+          git pull --rebase origin ${{ github.ref_name }}
+          git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}

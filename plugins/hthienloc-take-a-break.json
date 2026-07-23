@@ -1,0 +1,14 @@
+{
+    "id": "takeABreak",
+    "name": "Take a Break",
+    "type": "daemon",
+    "capabilities": ["control-center", "ipc"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-take-a-break",
+    "author": "Loc Huynh",
+    "description": "A gentle companion that reminds you to rest your eyes with short and long breaks.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png"
+}

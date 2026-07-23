@@ -1,0 +1,24 @@
+{
+    "id": "lastfmScrobbler",
+    "name": "DMS Last.fm Scrobbler",
+    "version": "1.1.0",
+    "capabilities": [
+        "dankbar-widget",
+        "control-center",
+        "ipc"
+    ],
+    "category": "media",
+    "repo": "https://github.com/arqueon/dms-scrobbler",
+    "author": "arqueon",
+    "description": "Scrobble MPRIS music to Last.fm, love/unlove tracks from the bar or via IPC, with media controls, album art, scrobble progress, an offline retry queue, and a live audio visualizer.",
+    "dependencies": [
+        "python3"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-scrobbler/main/assets/screenshot.png"
+}

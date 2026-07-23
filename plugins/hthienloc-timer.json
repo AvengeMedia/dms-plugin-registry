@@ -5,7 +5,7 @@
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-timer",
     "author": "Loc Huynh",
-    "description": "Feature-rich countdown timer.",
+    "description": "A countdown timer with notification support and audio alerts.",
     "dependencies": ["libnotify", "pulseaudio"],
     "compositors": ["any"],
     "distro": ["any"],

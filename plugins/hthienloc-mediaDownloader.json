@@ -1,0 +1,13 @@
+{
+    "id": "mediaDownloader",
+    "name": "Media Downloader",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-media-downloader",
+    "author": "Loc Huynh",
+    "description": "Download audio and video from web links using yt-dlp",
+    "dependencies": ["yt-dlp", "ffmpeg"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-media-downloader/main/screenshot.png"
+}

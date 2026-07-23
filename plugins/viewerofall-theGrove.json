@@ -1,0 +1,18 @@
+{
+  "id": "theGrove",
+  "name": "theGrove",
+  "description": "A living tree on your desktop that grows as long as DankMaterialShell does. Water it, watch it grow through six real-time stages, and let it wilt if you forget.",
+  "version": "1.0.0",
+  "author": "viewerofall",
+  "type": "desktop-widget",
+  "capabilities": ["desktop-widget"],
+  "category": "appearance",
+  "repo": "https://github.com/viewerofall-labs/weather-viewer",
+  "path": "theGrove",
+  "requires_dms": ">=1.2.0",
+  "tags": ["desktop", "ambient", "tree", "growth", "pet"],
+  "dependencies": ["notify-send"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/grove.png"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "resourceMonitor",
+    "name": "Resource Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/smithyyang/dms-resource-monitor",
+    "author": "youngshine",
+    "description": "Real-time CPU, memory and swap usage with circular progress indicators",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-resource-monitor/main/assets/screenshot.png"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "githubHeatmapPlus",
+    "name": "GitHub Heatmap Plus",
+    "capabilities": ["dankbar-widget","desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/maxlen727/DMS-GitHub_HeatMap_Plus",
+    "author": "maxlen727",
+    "description": "GitHub contribution heatmap for DankBar and your desktop, with color-coded activity levels and theme-aware styling.",
+    "dependencies": ["dms"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/maxlen727/DMS-GitHub_HeatMap_Plus/refs/heads/main/assets/Overall.png"
+}

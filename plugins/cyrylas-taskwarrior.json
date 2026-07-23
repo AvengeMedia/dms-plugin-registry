@@ -7,7 +7,7 @@
   "author": "Michał Wazgird",
   "capabilities": ["dankbar-widget"],
   "dependencies": ["taskwarrior"],
-  "compositors": ["hyprland", "niri", "sway"],
+  "compositors": ["any"],
   "distro": ["any"],
   "screenshot": "https://raw.githubusercontent.com/cyrylas/dms-taskwarrior/master/screenshots/screenshot-dark.png",
   "requires_dms": ">=1.2.0"

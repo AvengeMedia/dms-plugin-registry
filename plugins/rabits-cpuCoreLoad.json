@@ -1,0 +1,15 @@
+{
+    "id": "cpuCoreLoad",
+    "name": "CPU Core Load",
+    "description": "Dank Bar widget showing per-CPU-core load as bars with.",
+    "author": "Rabit",
+    "category": "monitoring",
+    "repo": "https://github.com/rabits/dms-plugin-cpucoreload",
+    "component": "./CpuCoreLoadWidget.qml",
+    "settings": "./CpuCoreLoadSettings.qml",
+    "capabilities": ["dankbar-widget"],
+    "compositors": ["niri", "hyprland"],
+    "dependencies": [],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/rabits/dms-plugin-cpucoreload/main/preview.png"
+}

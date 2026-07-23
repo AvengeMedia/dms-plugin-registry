@@ -1,0 +1,135 @@
+{
+  "id": "joziCityNights",
+  "name": "Jozi City Nights",
+  "version": "1.0.0",
+  "author": "kmf",
+  "description": "A neon-lit colorscheme — cool blue-grey backgrounds with cyberpunk-bright accents",
+  "dark": {
+    "surfaceText": "#a9b1d6",
+    "surfaceVariantText": "#c0caf5",
+    "backgroundText": "#a9b1d6",
+    "outline": "#8089b3",
+    "error": "#f92aad",
+    "warning": "#ff9e64",
+    "info": "#7aa2f7"
+  },
+  "light": {
+    "surfaceText": "#343b58",
+    "surfaceVariantText": "#1f2335",
+    "backgroundText": "#343b58",
+    "outline": "#6172af",
+    "error": "#d6197a",
+    "warning": "#d9580a",
+    "info": "#4f46e5"
+  },
+  "variants": {
+    "type": "multi",
+    "defaults": {
+      "dark": { "flavor": "nights", "accent": "pink" },
+      "light": { "flavor": "morning", "accent": "pink" },
+      "midnight": { "flavor": "midnight", "accent": "pink" }
+    },
+    "flavors": [
+      {
+        "id": "nights",
+        "name": "Nights",
+        "dark": {
+          "surface": "#1f2335",
+          "surfaceVariant": "#24283b",
+          "background": "#1b1e2e",
+          "surfaceContainerLowest": "#1d2133",
+          "surfaceContainerLow": "#1d2133",
+          "surfaceContainer": "#1f2335",
+          "surfaceContainerHigh": "#24283b",
+          "surfaceContainerHighest": "#3b4261"
+        }
+      },
+      {
+        "id": "midnight",
+        "name": "Midnight",
+        "dark": {
+          "surface": "#16161e",
+          "surfaceVariant": "#1a1b26",
+          "background": "#101014",
+          "surfaceContainerLowest": "#14141b",
+          "surfaceContainerLow": "#14141b",
+          "surfaceContainer": "#16161e",
+          "surfaceContainerHigh": "#1a1b26",
+          "surfaceContainerHighest": "#232433"
+        }
+      },
+      {
+        "id": "morning",
+        "name": "Morning",
+        "light": {
+          "surface": "#c8c9d1",
+          "surfaceVariant": "#bfc1cc",
+          "background": "#d5d6db",
+          "surfaceContainerLowest": "#ccccd3",
+          "surfaceContainerLow": "#ccccd3",
+          "surfaceContainer": "#c8c9d1",
+          "surfaceContainerHigh": "#bfc1cc",
+          "surfaceContainerHighest": "#b0b3be"
+        }
+      }
+    ],
+    "accents": [
+      {
+        "id": "pink",
+        "name": "Pink",
+        "nights": { "primary": "#f92aad", "secondary": "#73daca", "primaryText": "#1b1e2e", "primaryContainer": "#4d1a3c", "surfaceTint": "#2d1628" },
+        "midnight": { "primary": "#f92aad", "secondary": "#73daca", "primaryText": "#101014", "primaryContainer": "#2e1024", "surfaceTint": "#1a0d18" },
+        "morning": { "primary": "#d6197a", "secondary": "#0d9488", "primaryText": "#d5d6db", "primaryContainer": "#e8c2d4", "surfaceTint": "#e8c2d4" }
+      },
+      {
+        "id": "blue",
+        "name": "Blue",
+        "nights": { "primary": "#7aa2f7", "secondary": "#ff9e64", "primaryText": "#1b1e2e", "primaryContainer": "#2a3a5c", "surfaceTint": "#1e2436" },
+        "midnight": { "primary": "#7aa2f7", "secondary": "#ff9e64", "primaryText": "#101014", "primaryContainer": "#192238", "surfaceTint": "#121520" },
+        "morning": { "primary": "#4f46e5", "secondary": "#d9580a", "primaryText": "#d5d6db", "primaryContainer": "#c8c5e8", "surfaceTint": "#c8c5e8" }
+      },
+      {
+        "id": "purple",
+        "name": "Purple",
+        "nights": { "primary": "#b141f1", "secondary": "#e0b401", "primaryText": "#1b1e2e", "primaryContainer": "#3e1e54", "surfaceTint": "#281730" },
+        "midnight": { "primary": "#b141f1", "secondary": "#e0b401", "primaryText": "#101014", "primaryContainer": "#251234", "surfaceTint": "#180e1d" },
+        "morning": { "primary": "#7928a8", "secondary": "#c49000", "primaryText": "#d5d6db", "primaryContainer": "#d5c2e0", "surfaceTint": "#d5c2e0" }
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "nights": { "primary": "#54e484", "secondary": "#b141f1", "primaryText": "#1b1e2e", "primaryContainer": "#1e4833", "surfaceTint": "#182b22" },
+        "midnight": { "primary": "#54e484", "secondary": "#b141f1", "primaryText": "#101014", "primaryContainer": "#122b1f", "surfaceTint": "#0e1a14" },
+        "morning": { "primary": "#16864a", "secondary": "#7928a8", "primaryText": "#d5d6db", "primaryContainer": "#c2dccb", "surfaceTint": "#c2dccb" }
+      },
+      {
+        "id": "yellow",
+        "name": "Yellow",
+        "nights": { "primary": "#e0b401", "secondary": "#7aa2f7", "primaryText": "#1b1e2e", "primaryContainer": "#4a3c10", "surfaceTint": "#2a2413" },
+        "midnight": { "primary": "#e0b401", "secondary": "#7aa2f7", "primaryText": "#101014", "primaryContainer": "#2c240a", "surfaceTint": "#19160b" },
+        "morning": { "primary": "#c49000", "secondary": "#4f46e5", "primaryText": "#d5d6db", "primaryContainer": "#ddd5be", "surfaceTint": "#ddd5be" }
+      },
+      {
+        "id": "orange",
+        "name": "Orange",
+        "nights": { "primary": "#ff9e64", "secondary": "#7aa2f7", "primaryText": "#1b1e2e", "primaryContainer": "#553a25", "surfaceTint": "#302419" },
+        "midnight": { "primary": "#ff9e64", "secondary": "#7aa2f7", "primaryText": "#101014", "primaryContainer": "#332316", "surfaceTint": "#1d160f" },
+        "morning": { "primary": "#d9580a", "secondary": "#4f46e5", "primaryText": "#d5d6db", "primaryContainer": "#e4cfc0", "surfaceTint": "#e4cfc0" }
+      },
+      {
+        "id": "cyan",
+        "name": "Cyan",
+        "nights": { "primary": "#58c7e0", "secondary": "#f92aad", "primaryText": "#1b1e2e", "primaryContainer": "#1e4450", "surfaceTint": "#162a30" },
+        "midnight": { "primary": "#58c7e0", "secondary": "#f92aad", "primaryText": "#101014", "primaryContainer": "#122930", "surfaceTint": "#0d191d" },
+        "morning": { "primary": "#0891b2", "secondary": "#d6197a", "primaryText": "#d5d6db", "primaryContainer": "#c0d8de", "surfaceTint": "#c0d8de" }
+      },
+      {
+        "id": "teal",
+        "name": "Teal",
+        "nights": { "primary": "#73daca", "secondary": "#f92aad", "primaryText": "#1b1e2e", "primaryContainer": "#1e4c44", "surfaceTint": "#162c28" },
+        "midnight": { "primary": "#73daca", "secondary": "#f92aad", "primaryText": "#101014", "primaryContainer": "#122d29", "surfaceTint": "#0d1a18" },
+        "morning": { "primary": "#0d9488", "secondary": "#d6197a", "primaryText": "#d5d6db", "primaryContainer": "#c0dcd8", "surfaceTint": "#c0dcd8" }
+      }
+    ]
+  }
+}

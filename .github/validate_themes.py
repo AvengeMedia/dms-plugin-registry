@@ -34,6 +34,8 @@ REQUIRED_COLOR_FIELDS = [
     "background",
     "backgroundText",
     "outline",
+    "surfaceContainerLowest",
+    "surfaceContainerLow",
     "surfaceContainer",
     "surfaceContainerHigh",
     "error",

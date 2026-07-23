@@ -5,7 +5,7 @@
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-lutris-launcher",
     "author": "Loc Huynh",
-    "description": "Quickly launch and manage your Lutris games library directly from the shell bar.",
+    "description": "Quickly browse and launch games from your Lutris library.",
     "dependencies": ["lutris"],
     "compositors": ["any"],
     "distro": ["any"],

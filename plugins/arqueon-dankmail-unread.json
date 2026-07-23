@@ -1,0 +1,13 @@
+{
+    "id": "dankmailUnread",
+    "name": "Dankmail Unread",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/arqueon/dms-dankmail",
+    "author": "arqueon",
+    "description": "Live unread mail badge for dankmail with a triage popout: recent inbox with per-message actions, compose, sync and DND. Requires the dmail daemon.",
+    "dependencies": ["dmail"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-dankmail/main/assets/screenshot.png"
+}

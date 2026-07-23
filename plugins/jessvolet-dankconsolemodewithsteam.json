@@ -1,0 +1,22 @@
+{
+    "id": "dankConsoleSteam",
+    "name": "Steam Big Picture",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/JessVolet/DankConsoleModeWithSteam",
+    "author": "JessVolet",
+    "description": "A simple widget to start steam in big picture mode with custom commands.",
+    "dependencies": [
+        "steam",
+        "gamescope"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/JessVolet/DankConsoleModeWithSteam/main/screenshot.png"
+}

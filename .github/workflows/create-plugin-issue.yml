@@ -1,0 +1,32 @@
+name: Reconcile Plugin Issues
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'plugins/**'
+  workflow_dispatch:
+
+permissions:
+  issues: write
+
+jobs:
+  reconcile:
+    if: github.repository == 'AvengeMedia/dms-plugin-registry'
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v6
+
+      - name: Install dependencies
+        run: pip install requests
+
+      - name: Reconcile issues with registry
+        run: python3 .github/ensure_issues.py
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GITHUB_REPOSITORY: ${{ github.repository }}

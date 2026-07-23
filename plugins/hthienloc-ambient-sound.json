@@ -5,7 +5,7 @@
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-ambient-sound",
     "author": "Loc Huynh",
-    "description": "Play ambient sounds for focus with sleep timer and volume control.",
+    "description": "Play ambient focus sounds with integrated sleep timer and volume control.",
     "dependencies": ["mpv", "socat"],
     "compositors": ["any"],
     "distro": ["any"],

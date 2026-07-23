@@ -1,0 +1,13 @@
+{
+    "id": "appLauncher",
+    "name": "App Launcher",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-app-launcher",
+    "author": "Loc Huynh",
+    "description": "Desktop widget to search, filter, and launch applications by categories.",
+    "dependencies": ["python3"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "dmsfilemanager",
+    "name": "DMS File Manager",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/suruibin/dms-filemanager",
+    "author": "suruibin",
+    "description": "File Manager For DMS - browse, manage and organize files on your desktop",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png"
+}

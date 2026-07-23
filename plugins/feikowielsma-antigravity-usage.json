@@ -1,0 +1,13 @@
+{
+    "id": "antigravityUsage",
+    "name": "Antigravity Usage",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/FeikoWielsma/dms-antigravity-cli",
+    "author": "Feiko Wielsma",
+    "description": "Monitor Google Antigravity (agy) usage — the shared 5-hour and weekly limits for the Gemini and Claude/GPT model groups, with reset countdowns.",
+    "dependencies": ["agy", "jq", "curl", "secret-tool"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/FeikoWielsma/dms-antigravity-cli/main/screenshot2.png"
+}

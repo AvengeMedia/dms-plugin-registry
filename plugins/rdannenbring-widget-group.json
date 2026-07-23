@@ -1,0 +1,13 @@
+{
+    "id": "widgetGroup",
+    "name": "Widget Group",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/rdannenbring/widget-group",
+    "author": "rdannenbring",
+    "description": "One bar button that expands to reveal a group of widgets inline, each with its own live pill and popout",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/rdannenbring/widget-group/main/assets/group-expanded.png"
+}

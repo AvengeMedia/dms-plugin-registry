@@ -1,0 +1,198 @@
+{
+  "id": "gnomeAdwaita",
+  "name": "GNOME Adwaita",
+  "version": "1.0.0",
+  "author": "ciyoxe",
+  "description": "GNOME-inspired theme with Adwaita accent variants",
+  "dark": {
+    "primary": "#6f8396",
+    "primaryText": "#ffffff",
+    "primaryContainer": "#2e2e32",
+    "secondary": "#bbd1e5",
+    "surface": "#1d1d20",
+    "surfaceText": "#ffffff",
+    "surfaceVariant": "#28282c",
+    "surfaceVariantText": "#ffffff",
+    "surfaceTint": "#1d1d20",
+    "background": "#222226",
+    "backgroundText": "#ffffff",
+    "outline": "#5e5c64",
+    "surfaceContainerLowest": "#151518",
+    "surfaceContainerLow": "#1a1a1e",
+    "surfaceContainer": "#222226",
+    "surfaceContainerHigh": "#36363a",
+    "error": "#c01c28",
+    "warning": "#cd9309",
+    "info": "#6f8396"
+  },
+  "light": {
+    "primary": "#6f8396",
+    "primaryText": "#ffffff",
+    "primaryContainer": "#dce3e8",
+    "secondary": "#526678",
+    "surface": "#ffffff",
+    "surfaceText": "#1e1e1e",
+    "surfaceVariant": "#ebe9e6",
+    "surfaceVariantText": "#1e1e1e",
+    "surfaceTint": "#ffffff",
+    "background": "#f2f1ef",
+    "backgroundText": "#1e1e1e",
+    "outline": "#aaa7a2",
+    "surfaceContainerLowest": "#fbfaf9",
+    "surfaceContainerLow": "#eeece9",
+    "surfaceContainer": "#f2f1ef",
+    "surfaceContainerHigh": "#fdfdfd",
+    "error": "#e01b24",
+    "warning": "#e5a50a",
+    "info": "#6f8396"
+  },
+  "variants": {
+    "default": "slate",
+    "options": [
+      {
+        "id": "blue",
+        "name": "Blue",
+        "dark": {
+          "primary": "#3584e4",
+          "secondary": "#81d0ff",
+          "surfaceTint": "#3584e4",
+          "info": "#3584e4"
+        },
+        "light": {
+          "primary": "#3584e4",
+          "secondary": "#0461be",
+          "surfaceTint": "#3584e4",
+          "info": "#3584e4"
+        }
+      },
+      {
+        "id": "teal",
+        "name": "Teal",
+        "dark": {
+          "primary": "#2190a4",
+          "secondary": "#7bdff4",
+          "surfaceTint": "#2190a4",
+          "info": "#2190a4"
+        },
+        "light": {
+          "primary": "#2190a4",
+          "secondary": "#007184",
+          "surfaceTint": "#2190a4",
+          "info": "#2190a4"
+        }
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "dark": {
+          "primary": "#3a944a",
+          "secondary": "#8de698",
+          "surfaceTint": "#3a944a",
+          "info": "#3a944a"
+        },
+        "light": {
+          "primary": "#3a944a",
+          "secondary": "#15772e",
+          "surfaceTint": "#3a944a",
+          "info": "#3a944a"
+        }
+      },
+      {
+        "id": "yellow",
+        "name": "Yellow",
+        "dark": {
+          "primary": "#c88800",
+          "secondary": "#ffc057",
+          "surfaceTint": "#c88800",
+          "info": "#c88800"
+        },
+        "light": {
+          "primary": "#c88800",
+          "secondary": "#905300",
+          "surfaceTint": "#c88800",
+          "info": "#c88800"
+        }
+      },
+      {
+        "id": "orange",
+        "name": "Orange",
+        "dark": {
+          "primary": "#ed5b00",
+          "secondary": "#ff9c5b",
+          "surfaceTint": "#ed5b00",
+          "info": "#ed5b00"
+        },
+        "light": {
+          "primary": "#ed5b00",
+          "secondary": "#b62200",
+          "surfaceTint": "#ed5b00",
+          "info": "#ed5b00"
+        }
+      },
+      {
+        "id": "red",
+        "name": "Red",
+        "dark": {
+          "primary": "#e62d42",
+          "secondary": "#ff888c",
+          "surfaceTint": "#e62d42",
+          "info": "#e62d42"
+        },
+        "light": {
+          "primary": "#e62d42",
+          "secondary": "#c00023",
+          "surfaceTint": "#e62d42",
+          "info": "#e62d42"
+        }
+      },
+      {
+        "id": "pink",
+        "name": "Pink",
+        "dark": {
+          "primary": "#d56199",
+          "secondary": "#ffa0d8",
+          "surfaceTint": "#d56199",
+          "info": "#d56199"
+        },
+        "light": {
+          "primary": "#d56199",
+          "secondary": "#a2326c",
+          "surfaceTint": "#d56199",
+          "info": "#d56199"
+        }
+      },
+      {
+        "id": "purple",
+        "name": "Purple",
+        "dark": {
+          "primary": "#9141ac",
+          "secondary": "#fba7ff",
+          "surfaceTint": "#9141ac",
+          "info": "#9141ac"
+        },
+        "light": {
+          "primary": "#9141ac",
+          "secondary": "#8939a4",
+          "surfaceTint": "#9141ac",
+          "info": "#9141ac"
+        }
+      },
+      {
+        "id": "slate",
+        "name": "Slate",
+        "dark": {
+          "primary": "#6f8396",
+          "secondary": "#bbd1e5",
+          "surfaceTint": "#6f8396",
+          "info": "#6f8396"
+        },
+        "light": {
+          "primary": "#6f8396",
+          "secondary": "#526678",
+          "surfaceTint": "#6f8396",
+          "info": "#6f8396"
+        }
+      }
+    ]
+  }
+}
