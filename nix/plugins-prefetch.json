@@ -1710,6 +1710,40 @@
     "sha256": "0rxmygc4m8w3gikyrkvg098kkyzlfrc1hw4c11an5lqhrf84jv33",
     "url": "https://github.com/rabits/dms-plugin-cpucoreload"
   },
+  "cpuMonitor": {
+    "date": "2026-07-22T17:04:36+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-x8Ec3fH5X4sanZ9M8Xh7F7GL2FigwDHGyMbOkbv0dX4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Rolle Laukkarinen",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "CPU usage as an animated progress bar in your DankBar, updated every second",
+      "distro": [
+        "any"
+      ],
+      "id": "cpuMonitor",
+      "name": "CPU Monitor",
+      "repo": "https://github.com/rollecode/dms-cpu-monitor",
+      "screenshot": "https://raw.githubusercontent.com/rollecode/dms-cpu-monitor/main/Screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/a8f1j227n0r0sw50d90pkzamryj4pizz-dms-cpu-monitor",
+    "rev": "09102edadf1aef3dfea9b0e6025ec3dffe462bb4",
+    "rootDir": "",
+    "sha256": "0zkmyjxr3kn6r3333h50b3c8pc8pgdwg2k4zkld8npzry7firhf7",
+    "url": "https://github.com/rollecode/dms-cpu-monitor"
+  },
   "cpuThermalIndicator": {
     "date": "2026-07-20T22:39:39+08:00",
     "deepClone": false,
@@ -3617,6 +3651,40 @@
     "sha256": "04b2ahcjva780jkfkyz1gwmqj3s97fqr2a23vmk6rcx65kxgnphj",
     "url": "https://github.com/PandorasFox/dms-discord-widget"
   },
+  "diskMonitor": {
+    "date": "2026-07-22T17:04:46+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-9TBZ413pmTUIiNvN5OyOONlR/7QPErxl7sDM8NmTk1U=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Rolle Laukkarinen",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Disk usage as an animated progress bar in your DankBar, refreshed every 30 seconds",
+      "distro": [
+        "any"
+      ],
+      "id": "diskMonitor",
+      "name": "Disk Monitor",
+      "repo": "https://github.com/rollecode/dms-disk-monitor",
+      "screenshot": "https://raw.githubusercontent.com/rollecode/dms-disk-monitor/main/Screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/3hxd5mif7vr3n7lm07crb5rsmhaxzrk6-dms-disk-monitor",
+    "rev": "ac4b04ec67b06c471c5cda338fc456ab03fb0675",
+    "rootDir": "",
+    "sha256": "0mckjgcz1k60xrjvq4hgnkzm3n9qivnf9kfvi043b6g9bpimjc7m",
+    "url": "https://github.com/rollecode/dms-disk-monitor"
+  },
   "displayManager": {
     "date": "2026-07-13T09:05:34-03:00",
     "deepClone": false,
@@ -5464,12 +5532,12 @@
     "url": "https://github.com/hthienloc/dms-hidden-bar"
   },
   "homeAssistantMonitor": {
-    "date": "2026-07-22T11:31:23+08:00",
+    "date": "2026-07-23T16:39:11+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-xG7uaS0YIg3YLkDV+O3gDquH/dglXqxCR8N0oIKvIVo=",
+    "hash": "sha256-i/O+z1WoXmnM26s/DtWHW8+Y7dhMVpOB544m2pRwBSY=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -5496,10 +5564,10 @@
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
       "version": "2.0.6"
     },
-    "path": "/nix/store/jsix0i32asl9i86l1kh0grgnpx19hb0w-dms-plugin-hass",
-    "rev": "ccedaf62ce8f4ee3ff05efadb7a225d61c56a463",
+    "path": "/nix/store/s81fj4cpikj5fix0l8q7q10ihj17cxq8-dms-plugin-hass",
+    "rev": "60c4acf5f06c0036a69193c40d3c77dc67da7467",
     "rootDir": "",
-    "sha256": "0ni1my1a0x638x1aqpi5v3yqgaqfw3nzima05vc0s8hq5mlywvn4",
+    "sha256": "09h5f2adl9lfwy0r6mjcv3nriksvhzahwgxbvg66jpm8ap7vxwwb",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hostnameWidget": {
@@ -7595,12 +7663,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-21T22:55:48+07:00",
+    "date": "2026-07-23T11:30:40+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-wWhGtmmgbNY+aLClXQFqTZfEyD+Jp0cSN6076d47iYI=",
+    "hash": "sha256-sdhC/bX/m1T1gKF+XEQoMAAEPlbLwzaqxOhZZFLZMTo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7628,12 +7696,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "3.6.2"
+      "version": "3.6.3"
     },
-    "path": "/nix/store/d4pclhy97dr3wp51cf59bwd05phiqcd5-dms-quick-capture",
-    "rev": "b26ed33fb446896b251cbb30d492796004f3c8d4",
+    "path": "/nix/store/qvy00payihxa3cknhbz2x8mxpfvs6ldv-dms-quick-capture",
+    "rev": "ebabf441be8093ab5b85bdc4b8248590dabfff91",
     "rootDir": "",
-    "sha256": "10l97ggfjfxd6w94g9w97z4c95sdd80mv9dhd0zdcv50d6v4cs61",
+    "sha256": "0fiiv5968ng8qjm3dhybaqz0801h5125qzm1h3sm96zznpyl5n5i",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
