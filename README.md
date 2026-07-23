@@ -882,6 +882,35 @@ Dank Bar widget showing per-CPU-core load as bars with.
 
 
 
+#### [CPU Monitor](https://github.com/rollecode/dms-cpu-monitor)
+
+CPU usage as an animated progress bar in your DankBar, updated every second
+
+
+
+- id: cpuMonitor
+- name: CPU Monitor
+- author: Rolle Laukkarinen
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rollecode/dms-cpu-monitor/main/Screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Cat Widget](https://github.com/xi-ve/cat-dms)
 
 An animated running cat for the DankBar whose speed reflects CPU usage. Based on CatWalk by Driglu4it.
@@ -1112,6 +1141,35 @@ DeepSeek Platform API balance, monthly token usage and cost in the DankBar; Play
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/gylove1994/deepseek-dms-widget/master/screenshots/bar-pill.png)
+
+</details>
+
+
+
+
+
+#### [Disk Monitor](https://github.com/rollecode/dms-disk-monitor)
+
+Disk usage as an animated progress bar in your DankBar, refreshed every 30 seconds
+
+
+
+- id: diskMonitor
+- name: Disk Monitor
+- author: Rolle Laukkarinen
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rollecode/dms-disk-monitor/main/Screenshot.png)
 
 </details>
 
