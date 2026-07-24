@@ -4504,12 +4504,12 @@
     "url": "https://github.com/LuckShiba/DmsDockerManager"
   },
   "dolarBlue": {
-    "date": "2025-12-25T23:31:31-03:00",
+    "date": "2026-07-23T20:16:54-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-PBwTgpkqOPvnO+STKbOuqdVM4HNCGjoDjFZlZR/NxJk=",
+    "hash": "sha256-gBeVk56657+ugbYuzCdAdCme0cG1T6rGqcwkQ5SQutU=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -4530,12 +4530,12 @@
       "repo": "https://github.com/psyreactor/dms-dolarBlue",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-dolarBlue/raw/main/screenshot.png",
-      "version": "1.0.1"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/hfyrmfg18sqzvvi41n18bbxvq44hvq5y-dms-dolarBlue",
-    "rev": "bc3194a583f3abf0af7d7f5535c29f254117c37b",
+    "path": "/nix/store/kwnv57ndw36y4hdc5g48gnr2x84pflql-dms-dolarBlue",
+    "rev": "6bc21f950a7b027ce991ddbf6b452c66513943f1",
     "rootDir": "",
-    "sha256": "16f4rlgnaranih1kl6j2fgh4rmd9msrjk4z47gkznf1ak611671w",
+    "sha256": "1mdsj2a4696cm73alkxmq78rwabl80kwqbmnh6pbzrxsks9ra5w0",
     "url": "https://github.com/psyreactor/dms-dolarBlue"
   },
   "dooitPlugin": {
@@ -5200,12 +5200,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin"
   },
   "githubNotifier": {
-    "date": "2026-07-12T23:40:39-03:00",
+    "date": "2026-07-23T18:00:41-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ngoLMzXjdnLDoJ4b2er59N3YubWi7Q13AiUB9g2guTE=",
+    "hash": "sha256-uXx+7imRCBrno7lsaK7qXEvieyix9OWImgGmC+YcArs=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -5229,12 +5229,12 @@
       "repo": "https://github.com/psyreactor/dms-githubNotifier",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-githubNotifier/raw/main/screenshot.png",
-      "version": "1.1.1"
+      "version": "1.1.2"
     },
-    "path": "/nix/store/kh25fm2wwh85qzvdv8yddfbaqvgqpry9-dms-githubNotifier",
-    "rev": "b1af35656f2ea6fac8d2b75e8fa54d62a1fc1fd5",
+    "path": "/nix/store/hzj03xqfm75amfdrdbik6zl2drxci63b-dms-githubNotifier",
+    "rev": "e48ae9749e59fdef5ed0e591825c19564e2f0dbf",
     "rootDir": "",
-    "sha256": "0cdrl06zc09509vhvvd2nnwxipglz7mdj6wyl31p4xp36lrhn2ly",
+    "sha256": "1fq23kk0p9h1ka4fbx5i51xy4jswxap6hv5rlgkil24i57p7wz5r",
     "url": "https://github.com/psyreactor/dms-githubNotifier"
   },
   "gitlabNotifier": {
@@ -5999,12 +5999,12 @@
     "url": "https://github.com/fishman/dms-khal-calendar"
   },
   "kubernetes": {
-    "date": "2025-12-25T23:40:56-03:00",
+    "date": "2026-07-23T19:11:06-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-o2FDz3q4ACF8ek3s0x2KDbrvGzv8AFEg2O2Q9vDDl8M=",
+    "hash": "sha256-VLtbt7Ka6T0jyu+wmkBs1JgWFYDgE1KLsoEhkSK5Ay4=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -6027,12 +6027,12 @@
       "repo": "https://github.com/psyreactor/dms-kubernetes",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-kubernetes/raw/main/screenshot.png",
-      "version": "1.0.2"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/rmpm6706yaanvk8076kn35d011q6n9dp-dms-kubernetes",
-    "rev": "6134233f839cce7796b1bd230e15f19b890125da",
+    "path": "/nix/store/21c1k0r34d2d92ijlmi8yy8ldnsdnvhl-dms-kubernetes",
+    "rev": "3b2212e81c13088d10e97a116d23719c6742cdd7",
     "rootDir": "",
-    "sha256": "1hwpqgqgd47dv0h5207w7cdyzfhdi8fx7v2dg9y2205qgb7l6qd3",
+    "sha256": "0bh3p4i928c1na5m44z0h0aid66ldi09mc7gr8ikvscsnavmpfsl",
     "url": "https://github.com/psyreactor/dms-kubernetes"
   },
   "lastfmScrobbler": {
@@ -6121,12 +6121,12 @@
     "url": "https://github.com/demic-dev/airpods-widget-DMS"
   },
   "linuxWallpaperEngine": {
-    "date": "2026-07-03T20:00:36+03:00",
+    "date": "2026-07-23T20:41:47+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-GVJMblmhuaEocBiUrajUI/37NLmIC95+9mWFaLDQ56o=",
+    "hash": "sha256-ZmtFxyhEcHFIJJcJdW1HulAHpX8ygif64S12P9ZmDIM=",
     "leaveDotGit": false,
     "meta": {
       "author": "sgtaziz",
@@ -6151,10 +6151,10 @@
       "screenshot": "https://raw.githubusercontent.com/sgtaziz/dms-wallpaperengine/refs/heads/main/screenshot.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/a5p7250m62wy53ahlqyfw5cm24b6p7mr-dms-wallpaperengine",
-    "rev": "714ccb7ae6c73efd1b946c68bf9f7277318d3b62",
+    "path": "/nix/store/k07alkwifbrvrp0spsvdcf7pwqw9bshg-dms-wallpaperengine",
+    "rev": "5a43e5b1384ab0a74ab45db76c454fbefede5177",
     "rootDir": "",
-    "sha256": "1ap7s2q6i1b5yrzdw2w8p4sgpz93sjlav50qf0la3fd1b5p4qlhr",
+    "sha256": "10qccvb3yxidw7x2g0ijgyjhfl5s8xnpa2cp4i472w24533lasv6",
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
   },
   "liveChartSchedule": {
@@ -7663,12 +7663,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-23T11:30:40+07:00",
+    "date": "2026-07-24T04:09:33+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-sdhC/bX/m1T1gKF+XEQoMAAEPlbLwzaqxOhZZFLZMTo=",
+    "hash": "sha256-DQubyoIleqGDPyCjQhzkNylQjACldd1xiD2tmjF7Bpw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7696,12 +7696,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "3.6.3"
+      "version": "3.7.0"
     },
-    "path": "/nix/store/qvy00payihxa3cknhbz2x8mxpfvs6ldv-dms-quick-capture",
-    "rev": "ebabf441be8093ab5b85bdc4b8248590dabfff91",
+    "path": "/nix/store/n802iyqy2j1h191kmf5c7nchc684cwyh-dms-quick-capture",
+    "rev": "250d4ef6804db403020f29435d4baab722c3e8e4",
     "rootDir": "",
-    "sha256": "0fiiv5968ng8qjm3dhybaqz0801h5125qzm1h3sm96zznpyl5n5i",
+    "sha256": "1706gcqrmb9xi1qxsxd502650a9pwhf458r07y1s2yi5hb59n2qd",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
