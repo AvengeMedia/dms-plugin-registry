@@ -528,7 +528,7 @@ Near-live market prices for currencies, stocks, and commodities with charts.
 
 #### [DMS Last.fm Scrobbler](https://github.com/arqueon/dms-scrobbler)
 
-Scrobble MPRIS music to Last.fm, love/unlove tracks from the bar or via IPC, with media controls, album art, scrobble progress, an offline retry queue, and a live audio visualizer.
+Last.fm companion for the native DMS media player: scrobbling, love/unlove actions, profile links, scrobble progress, and an offline retry queue.
 
 
 
@@ -536,7 +536,7 @@ Scrobble MPRIS music to Last.fm, love/unlove tracks from the bar or via IPC, wit
 - name: DMS Last.fm Scrobbler
 - author: arqueon
 - compositors: any
-- capabilities: dankbar-widget, control-center, ipc
+- capabilities: daemon, dankbar-widget, control-center, ipc
 - dependencies: python3
 - distro: any
 
