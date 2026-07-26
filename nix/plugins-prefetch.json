@@ -10140,5 +10140,44 @@
     "rootDir": "",
     "sha256": "0yjrhvsn5wqcc3h6xrg1jipn0kq65xk39fj1nmwz2gmcxzsfrk47",
     "url": "https://github.com/nfrastack/dms-zerotierManager"
+  },
+  "zmkBattery": {
+    "date": "2026-07-24T19:46:29+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Qw1uirw9x1BXQ07kfXkORbgExLhAXaj7PPhIFCGLf0w=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "ayak",
+      "capabilities": [
+        "dankbar-widget",
+        "process"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "bash",
+        "busctl",
+        "jq"
+      ],
+      "description": "Shows central and peripheral battery levels for a ZMK split keyboard",
+      "distro": [
+        "any"
+      ],
+      "id": "zmkBattery",
+      "name": "ZmkBattery",
+      "repo": "https://github.com/ayaOwO/ZmkBattery",
+      "screenshot": "https://raw.githubusercontent.com/ayaOwO/ZmkBattery/main/screenshot.png",
+      "version": "1.3.0"
+    },
+    "path": "/nix/store/ibzx52wg8cbjr9yl4kh4jdv9lvyk57ja-ZmkBattery",
+    "rev": "1a7337ee8d848b42fe4e34e04eb857c61ec20c31",
+    "rootDir": "",
+    "sha256": "0k3zichi8j7q7kxshpa0p3209f251rwpvr2f8dbm1irxpj56w3a3",
+    "url": "https://github.com/ayaOwO/ZmkBattery"
   }
 }
