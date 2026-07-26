@@ -7121,6 +7121,41 @@
     "sha256": "1y5szb8zl6nww8lbjyp4hqchkph9xfys8k4nlyxkp6chvyhbbgxs",
     "url": "https://github.com/iahccc/NixPackageRunner"
   },
+  "nothingClock": {
+    "date": "2026-07-25T23:53:04+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-nlYn39/J9XYEVHiQHvZY8hvAYvyeTg4GP3OtgXWqvTY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Sayan",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Nothing OS-inspired desktop clock with 6 styles: digital, split, analog, analog classic, digital cards, and orbit.",
+      "distro": [
+        "any"
+      ],
+      "id": "nothingClock",
+      "name": "Nothing Clock",
+      "path": "nothingclock",
+      "repo": "https://github.com/samgrande/Dank-Nothing-Clock",
+      "screenshot": "https://raw.githubusercontent.com/samgrande/Dank-Nothing-Clock/main/assets/screenshots/preview.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/yjligi3889kliyi9jp5an0m1y17bfs57-Dank-Nothing-Clock",
+    "rev": "66514c18824f4625baca3259a941dcc47743eeff",
+    "rootDir": "",
+    "sha256": "0dmxm9sq3bbk7w30wklyziic06zjb3v1x43qah27dxf9vzgjfmly",
+    "url": "https://github.com/samgrande/Dank-Nothing-Clock"
+  },
   "nvidiaGpuMonitor": {
     "date": "2026-05-17T07:06:01+05:30",
     "deepClone": false,
@@ -7664,12 +7699,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-24T23:52:38+07:00",
+    "date": "2026-07-26T12:39:24+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-/ARRQZ78v1Kor0OT8rvdjk6/WMdj5PWvsy1DTypOJws=",
+    "hash": "sha256-OMrto50z2GU0810/Nf2cARRy1IHMtxuiFeEql2MThFM=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7699,10 +7734,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "3.7.2"
     },
-    "path": "/nix/store/si59lrc5w4b8xyixvf7hp78nkllii70k-dms-quick-capture",
-    "rev": "595dc47edd0c6f6c21bd8838f78659f115b92aea",
+    "path": "/nix/store/z0g7yb40xvw8s6790pmbf1nl9pmnz4a1-dms-quick-capture",
+    "rev": "1064fa53a72af01598ff10d0ba9b6b4c8b52b522",
     "rootDir": "",
-    "sha256": "02r79qm4yhrdnfpzbr33qxcbyklfvnxz54s3myl55gzwkr0m217w",
+    "sha256": "0lw42dirfap12ni1pdych7a74501kkykagsxycs6bn1kkniyvjiq",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
