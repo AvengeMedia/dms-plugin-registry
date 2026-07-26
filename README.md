@@ -2144,14 +2144,14 @@ Your Wallabag read-it-later queue in the DankBar: unread badge, entry list with 
 
 
 
-#### [ntfy](https://github.com/arqueon/dms-ntfy)
+#### [dms-ntfy](https://github.com/arqueon/dms-ntfy)
 
 A persistent ntfy review inbox for the DankBar with All and per-topic views, unread state, local search, links, attachments, and explicit local dismissal. Supports ntfy.sh and any self-hosted instance.
 
 <strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: ntfy
-- name: ntfy
+- name: dms-ntfy
 - author: arqueon
 - compositors: any
 - capabilities: daemon, dankbar-widget, ipc
