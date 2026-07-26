@@ -1743,6 +1743,35 @@ Shows RTSP camera streams via vlc/ffplay/mpv from the DankBar
 
 
 
+#### [ZmkBattery](https://github.com/ayaOwO/ZmkBattery)
+
+Shows central and peripheral battery levels for a ZMK split keyboard
+
+
+
+- id: zmkBattery
+- name: ZmkBattery
+- author: ayak
+- compositors: any
+- capabilities: dankbar-widget, process
+- dependencies: bash, busctl, jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/ayaOwO/ZmkBattery/main/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
