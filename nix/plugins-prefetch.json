@@ -70,12 +70,12 @@
     "url": "https://github.com/hthienloc/dms-activate-linux"
   },
   "adguardVPplugin": {
-    "date": "2026-07-12T18:06:00-03:00",
+    "date": "2026-07-25T13:48:16-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-PQaAr6zi02IfmY4voqcvLy5dFB2TRxn/wg1WHar1K+4=",
+    "hash": "sha256-/db+1unk4SdcCJ0NyWpxJPpYDOCOlh447l1ytyeb1L0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -102,10 +102,10 @@
       "screenshot": "https://raw.githubusercontent.com/bernardopg/dms-adguard-vpn-plugin/main/docs/screenshot.png",
       "version": "1.5.3"
     },
-    "path": "/nix/store/gzdrhhyq2qw8x6zqilz9w76g4nnwvca0-dms-adguard-vpn-plugin",
-    "rev": "14aa29bb1a8a5cca33dafbc22a0bdd8cf136c129",
+    "path": "/nix/store/hwy5ikpk3ayzvw0mk1jbzw2b3djljwi0-dms-adguard-vpn-plugin",
+    "rev": "1c4756cbe3d51f4d15d986fd3f12d0d2b2b5c09b",
     "rootDir": "",
-    "sha256": "1vibynm1smhdqbzijiwk3la5sbig5yks4bwfk4gn5lz2mjpq01ix",
+    "sha256": "1gflkckvfwjxxqw1x5lfw065iyi4f5mcj3cx11f2gqg4x7bgxmpx",
     "url": "https://github.com/bernardopg/dms-adguard-vpn-plugin"
   },
   "aiAssistant": {
@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-07-20T12:54:03-03:00",
+    "date": "2026-07-24T14:58:20-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ZePxpPHpDF0Zx8PU2g5P1jukg7qRInoiXPSl8ivZyWQ=",
+    "hash": "sha256-LCwEyMMJSFAhKf3RFxo3n7qBP3hif+xfhCNCz+PvU20=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -178,12 +178,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.7.1"
+      "version": "1.8.1"
     },
-    "path": "/nix/store/w40x0mlqk2kcl9gga15irvdjqxpg0l4v-AiOverviewControl",
-    "rev": "03ba3952a1496e5e0588bf29cba552bbe75e107a",
+    "path": "/nix/store/78z7jlvirdh307vrd08wp0cj68k7hjqg-AiOverviewControl",
+    "rev": "a23eb1713be6a9abe3770cb912b802d2d090cf24",
     "rootDir": "",
-    "sha256": "0r69v4mz59glbhi7l8lipa1s8fyn9w7dmm63qwcms379y6jg3qv5",
+    "sha256": "0vakxziwyhi3higyqzv2g0zq3flz6wd1glgx54hm0j09qg408b1c",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
@@ -1711,12 +1711,12 @@
     "url": "https://github.com/rabits/dms-plugin-cpucoreload"
   },
   "cpuMonitor": {
-    "date": "2026-07-22T17:04:36+03:00",
+    "date": "2026-07-24T17:12:15+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-x8Ec3fH5X4sanZ9M8Xh7F7GL2FigwDHGyMbOkbv0dX4=",
+    "hash": "sha256-haBhGp8gftyDki/tCun7iB6AQ5krZ1uqXTwsxi/tpM4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Rolle Laukkarinen",
@@ -1736,12 +1736,12 @@
       "name": "CPU Monitor",
       "repo": "https://github.com/rollecode/dms-cpu-monitor",
       "screenshot": "https://raw.githubusercontent.com/rollecode/dms-cpu-monitor/main/Screenshot.png",
-      "version": "1.0.0"
+      "version": "1.4.1"
     },
-    "path": "/nix/store/a8f1j227n0r0sw50d90pkzamryj4pizz-dms-cpu-monitor",
-    "rev": "09102edadf1aef3dfea9b0e6025ec3dffe462bb4",
+    "path": "/nix/store/jp6rbm0m7fk6k05izv09hbcbc4whc8mp-dms-cpu-monitor",
+    "rev": "8f8386d9059719cb25d71453810bbd2b8831702a",
     "rootDir": "",
-    "sha256": "0zkmyjxr3kn6r3333h50b3c8pc8pgdwg2k4zkld8npzry7firhf7",
+    "sha256": "1km4xlpwcb1wbnm5nrrbk51q07l8zglhmv9gja1xqzi0kwd63845",
     "url": "https://github.com/rollecode/dms-cpu-monitor"
   },
   "cpuThermalIndicator": {
@@ -3616,12 +3616,12 @@
     "url": "https://github.com/Kavotax/LCD-Digital-Clock.git"
   },
   "discordVoice": {
-    "date": "2026-07-17T22:31:51-07:00",
+    "date": "2026-07-25T09:13:50-07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-El77+iyms2xm3UMokbE7SQ+JK3/h++mmBOioLRlUYhE=",
+    "hash": "sha256-OO07903YGwE26kj1LRItdRvstCmxRdxQ85zyjaq7BSU=",
     "leaveDotGit": false,
     "meta": {
       "author": "PandorasFox",
@@ -3643,12 +3643,12 @@
       "name": "Discord Voice Widget",
       "repo": "https://github.com/PandorasFox/dms-discord-widget",
       "screenshot": "https://raw.githubusercontent.com/PandorasFox/dms-discord-widget/master/screenshot.png",
-      "version": "1.1.1"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/b1fbffp795sfjic65dxql5fkcpkmiqp9-dms-discord-widget",
-    "rev": "e16ec247fcd94c1bea7d8d2b2acb384c048cc151",
+    "path": "/nix/store/ags83c327jnmgksxfng3cwmv4j5s9qk9-dms-discord-widget",
+    "rev": "ae0d695205d953e6fe5cb3a408f58cd77f706717",
     "rootDir": "",
-    "sha256": "04b2ahcjva780jkfkyz1gwmqj3s97fqr2a23vmk6rcx65kxgnphj",
+    "sha256": "0985pfm8vwlwyd8dqidi56sfq6vm5l92vxa8x8v026yq9pvkpv9q",
     "url": "https://github.com/PandorasFox/dms-discord-widget"
   },
   "diskMonitor": {
@@ -4270,12 +4270,12 @@
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dmsThemeSync": {
-    "date": "2026-07-14T00:08:15-06:00",
+    "date": "2026-07-25T14:44:45-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-MNcrYxbpp0MjG56Os2KmHDzbLr0ZKKEZ4qYBRLVsv8Y=",
+    "hash": "sha256-j8yHJBV+LX6r+RNGHy/bgMlZhzFbr5FUPXOGM1z3O5w=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -4299,12 +4299,12 @@
       "name": "DMS Theme Sync",
       "repo": "https://github.com/arqueon/dms-theme-sync",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png",
-      "version": "0.7.0"
+      "version": "0.8.1"
     },
-    "path": "/nix/store/xlp87qz5h5qs11hsbbajlpz6623vm9q6-dms-theme-sync",
-    "rev": "2607942db4fbd00505199f665ee3137aa57a6d1d",
+    "path": "/nix/store/dgj381dwv9l8r32jyh74gwdpp9xbs65b-dms-theme-sync",
+    "rev": "1acf0b03d4298b17ec063dbc63cf3724657ae5a1",
     "rootDir": "",
-    "sha256": "1imzdjsl80d6w8cs2a0rplpdng0wlrib73ly3cil79z92rijpmrh",
+    "sha256": "171vyxf371kk7ma93bsv663mkjc0vcpiyihkz6mpwbby2lj8gk4g",
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
   "dmsWhisper": {
@@ -6036,12 +6036,12 @@
     "url": "https://github.com/psyreactor/dms-kubernetes"
   },
   "lastfmScrobbler": {
-    "date": "2026-06-28T14:02:49-06:00",
+    "date": "2026-07-24T13:19:20-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-7QjnzrL610kyUFhCkWJVExipMHiBFWl/agazrBx71bc=",
+    "hash": "sha256-y/fDMGN8nHRSKQdQetRQUQ0O5VBimpaLNqwluKgoloQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -6065,12 +6065,12 @@
       "name": "DMS Last.fm Scrobbler",
       "repo": "https://github.com/arqueon/dms-scrobbler",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-scrobbler/main/assets/screenshot.png",
-      "version": "1.3.0"
+      "version": "1.4.0"
     },
-    "path": "/nix/store/kzx30xl5cg8448w1wl2dwzdiyixzgags-dms-scrobbler",
-    "rev": "f904c2baec3c42b7b8926d02b523568d062424be",
+    "path": "/nix/store/sr86fxpdw2gajdcd58g7jzddg3pqb3nl-dms-scrobbler",
+    "rev": "9bbef330872bef88abc3cd77ea7457d76bcb8ac5",
     "rootDir": "",
-    "sha256": "1dymgcfarcq6d9znj5c1g0qaj60kami92hjqa0r4kmzsnb7ff27d",
+    "sha256": "114n52lbh9dc6s5rd6k2a3jhw3aia3a7ll075597973wccqc7xyb",
     "url": "https://github.com/arqueon/dms-scrobbler"
   },
   "librepods": {
@@ -7663,12 +7663,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-24T04:09:33+07:00",
+    "date": "2026-07-24T23:52:38+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-DQubyoIleqGDPyCjQhzkNylQjACldd1xiD2tmjF7Bpw=",
+    "hash": "sha256-/ARRQZ78v1Kor0OT8rvdjk6/WMdj5PWvsy1DTypOJws=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7696,12 +7696,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "3.7.0"
+      "version": "3.7.2"
     },
-    "path": "/nix/store/n802iyqy2j1h191kmf5c7nchc684cwyh-dms-quick-capture",
-    "rev": "250d4ef6804db403020f29435d4baab722c3e8e4",
+    "path": "/nix/store/si59lrc5w4b8xyixvf7hp78nkllii70k-dms-quick-capture",
+    "rev": "595dc47edd0c6f6c21bd8838f78659f115b92aea",
     "rootDir": "",
-    "sha256": "1706gcqrmb9xi1qxsxd502650a9pwhf458r07y1s2yi5hb59n2qd",
+    "sha256": "02r79qm4yhrdnfpzbr33qxcbyklfvnxz54s3myl55gzwkr0m217w",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -9408,12 +9408,12 @@
     "url": "https://github.com/psyreactor/dms-voxtype"
   },
   "voxtypeActivityOverlay": {
-    "date": "2026-07-11T18:19:52+02:00",
+    "date": "2026-07-25T00:35:51+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-TRFAma1ItjWRGvp0osOxfdP5HU2ovkOM4d1Etia3NxQ=",
+    "hash": "sha256-ApbomY4cc6cVn9yGzApmA4Q1uxzR4KXZXyXKrRmb3/I=",
     "leaveDotGit": false,
     "meta": {
       "author": "agneswd",
@@ -9436,12 +9436,12 @@
       "name": "VoxType Activity Overlay",
       "repo": "https://github.com/agneswd/dms-voxtype-activity-overlay",
       "screenshot": "https://raw.githubusercontent.com/agneswd/dms-voxtype-activity-overlay/main/assets/screenshot-pill.png",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/wx7s7dd9hsmsx1prn1jciz185fi6n172-dms-voxtype-activity-overlay",
-    "rev": "039dff74c6d313acb3ab83d1bd78834890a5ca59",
+    "path": "/nix/store/qqrzr39cz3sh0v041rbna3mkcph4hx9r-dms-voxtype-activity-overlay",
+    "rev": "98f3752532de9cc512002a706fb977a7f08816d9",
     "rootDir": "",
-    "sha256": "051pnwkbci6xw6647gm89lfzklvxn71s4x7s3a8kbdj8mncl04ad",
+    "sha256": "1wnzkccsvji5bzcsbq6i3jxkb103cq5cr1nwkwasfwqwiscyi5h2",
     "url": "https://github.com/agneswd/dms-voxtype-activity-overlay"
   },
   "vramMonitor": {
