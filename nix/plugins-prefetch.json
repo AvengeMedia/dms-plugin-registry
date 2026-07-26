@@ -6046,6 +6046,7 @@
     "meta": {
       "author": "arqueon",
       "capabilities": [
+        "daemon",
         "dankbar-widget",
         "control-center",
         "ipc"
@@ -6057,7 +6058,7 @@
       "dependencies": [
         "python3"
       ],
-      "description": "Scrobble MPRIS music to Last.fm, love/unlove tracks from the bar or via IPC, with media controls, album art, scrobble progress, an offline retry queue, and a live audio visualizer.",
+      "description": "Last.fm companion for the native DMS media player: scrobbling, love/unlove actions, profile links, scrobble progress, and an offline retry queue.",
       "distro": [
         "any"
       ],
