@@ -1390,6 +1390,35 @@ Shows a customizable indicator when a Hyprland submap is active
 
 
 
+#### [I/O Monitor](https://github.com/rollecode/dms-io-monitor)
+
+Live disk read and write throughput as an animated progress bar in your DankBar
+
+
+
+- id: ioMonitor
+- name: I/O Monitor
+- author: Rolle Laukkarinen
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rollecode/dms-io-monitor/main/Screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Intel GPU Monitor](https://github.com/rdannenbring/dms-intel-gpu-plugin)
 
 Monitor Intel GPU usage, VRAM and temperature in the DankBar with configurable charts and a per-process detail view — reads kernel DRM fdinfo and sysfs directly, no root or extra tools required.
