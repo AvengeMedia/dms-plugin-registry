@@ -1039,12 +1039,12 @@
     "url": "https://github.com/hthienloc/dms-breathing"
   },
   "caffeine": {
-    "date": "2026-07-26T21:20:00+07:00",
+    "date": "2026-07-28T17:48:54+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-NLnQw5xTFm9Lrxb2w7sl/kYFMPgXP2RlVrji0TtS+oU=",
+    "hash": "sha256-E+yDNyw0UPNXZ9N4AwffcXJH28k83TRIRryldJbbXds=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -1064,12 +1064,12 @@
       "name": "Caffeine",
       "repo": "https://github.com/hthienloc/dms-caffeine",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png",
-      "version": "2.2.1"
+      "version": "2.2.2"
     },
-    "path": "/nix/store/9gb27bzhgzwb6nig9khzssj91bnfv77b-dms-caffeine",
-    "rev": "df16c64ec2aef7d711ead282a9fa68dd7d134d7f",
+    "path": "/nix/store/phaiigapgxwsqpjx7g1d2b4q7fw2h3ps-dms-caffeine",
+    "rev": "353c2d13216e1bf5633df0eb0b14f93bee27a753",
     "rootDir": "",
-    "sha256": "11gsa8xx3qmqarjn8gqpz0q0aipy4nxw7xhnmx5ny5jkkk1x1f9l",
+    "sha256": "1nsxvfb799dw8r439p9wr7dlfwkivw3h6y6kcxbz6l1l5hvq7v0k",
     "url": "https://github.com/hthienloc/dms-caffeine"
   },
   "calculator": {
@@ -4989,6 +4989,42 @@
     "rootDir": "",
     "sha256": "101im83n5acnfncnv4y4vyghi5z1krdb1z4b7aiqi4s58l561nlq",
     "url": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu"
+  },
+  "fwFanctrl": {
+    "date": "2026-07-28T11:10:25+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-EN/psBgc2FG8B47c2FljhmUJtHHQqWtTcmfS3q5U3G0=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "clementpoiret",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "fw-fanctrl"
+      ],
+      "description": "Monitor Framework Laptop fan status and switch fw-fanctrl strategies from DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "fwFanctrl",
+      "name": "Framework Fan Control",
+      "repo": "https://github.com/clementpoiret/dms-fwfanctrl",
+      "screenshot": "https://raw.githubusercontent.com/clementpoiret/dms-fwfanctrl/main/docs/widget-preview.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/608qfqaa945hwnr6hrdsb3f5rs5ccgjz-dms-fwfanctrl",
+    "rev": "80015e2a8e113c473989306f2aed88ea8a1fb395",
+    "rootDir": "",
+    "sha256": "0vfwajpdxlk7f99npafhf6s0jrc6cdcxip4f0yy53n0w32qfkpqh",
+    "url": "https://github.com/clementpoiret/dms-fwfanctrl"
   },
   "gameControllerBattery": {
     "date": "2026-05-07T20:59:46+03:00",
