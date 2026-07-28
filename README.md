@@ -2682,6 +2682,35 @@ Network toggle with Ethernet, WiFi, and Other interfaces (bridges, VLANs, bonds)
 
 
 
+#### [Framework Fan Control](https://github.com/clementpoiret/dms-fwfanctrl)
+
+Monitor Framework Laptop fan status and switch fw-fanctrl strategies from DankBar
+
+
+
+- id: fwFanctrl
+- name: Framework Fan Control
+- author: clementpoiret
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: fw-fanctrl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/clementpoiret/dms-fwfanctrl/main/docs/widget-preview.png)
+
+</details>
+
+
+
+
+
 #### [IP Indicator](https://github.com/hthienloc/dms-ipIndicator)
 
 Display public IP address, ISP, and location with a privacy-focused toggle.
