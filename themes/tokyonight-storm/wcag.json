@@ -1,0 +1,83 @@
+{
+  "level": "AA",
+  "dark": {
+    "level": "AA",
+    "minRatio": 4.65,
+    "worstPair": [
+      "surfaceVariantText",
+      "surfaceContainerHigh"
+    ],
+    "body": {
+      "level": "AA",
+      "minRatio": 4.65,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "AA",
+      "minRatio": 5.33,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 5.08,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
+    "breakdown": [
+      {
+        "name": "Dark",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      }
+    ]
+  },
+  "light": {
+    "level": "AA",
+    "minRatio": 5.3,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AA",
+      "minRatio": 5.93,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "AA",
+      "minRatio": 5.3,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 3.65,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
+    "breakdown": [
+      {
+        "name": "Light",
+        "mode": "light",
+        "level": "AA",
+        "bodyLevel": "AA"
+      }
+    ]
+  }
+}
