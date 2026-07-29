@@ -8881,6 +8881,20 @@ Popular Tokyo Night color scheme with vibrant blues and purples, Night and Moon 
 
 
 
+### TokyoNight Storm
+
+Official Tokyo Night Storm color scheme - softer contrast storm variant with deep blue-grey surfaces
+
+- **Author:** Carlos Echenique (built from Tokyo Night Storm palette)
+- **ID:** `tokyoNightStorm` **Version:** `1.0.0`
+
+![WCAG AA](https://img.shields.io/badge/WCAG_contrast-AA-green)
+
+
+![TokyoNight Storm](themes/tokyonight-storm/preview.svg)
+
+
+
 ### deepmono
 
 Pure grayscale theme, soft off-black at night, three button variants
