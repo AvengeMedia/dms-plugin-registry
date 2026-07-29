@@ -260,6 +260,35 @@ Play and switch video wallpapers with multi-monitor support, lock-screen power s
 
 
 
+#### [Spotify Matugen](https://github.com/Grant07/dms-spotify-matugen)
+
+Lock DMS dynamic colors to Spotify album art while music is playing
+
+
+
+- id: spotifyMatugen
+- name: Spotify Matugen
+- author: Grant Mosha
+- compositors: any
+- capabilities: daemon
+- dependencies: spotify, matugen
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Grant07/dms-spotify-matugen/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper Shuffler](https://github.com/Daniel-42-z/dms-wallpaper-shuffler)
 
 Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder
@@ -6926,6 +6955,35 @@ SSH to configured servers from the Launcher
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/sshconnections.png)
+
+</details>
+
+
+
+
+
+#### [SVGL Search](https://github.com/Grant07/dms-svgl-search)
+
+Search and copy SVGL brand logos directly from the DMS launcher
+
+
+
+- id: svglSearch
+- name: SVGL Search
+- author: Grant Mosha
+- compositors: any
+- capabilities: launcher
+- dependencies: wl-copy
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Grant07/dms-svgl-search/main/assets/screenshot.png)
 
 </details>
 
