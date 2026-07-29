@@ -7227,12 +7227,12 @@
     "url": "https://github.com/samgrande/Dank-Nothing-Clock"
   },
   "ntfy": {
-    "date": "2026-07-26T02:19:50-06:00",
+    "date": "2026-07-28T14:47:05-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-x7MXlNiGAg/mVVoGphzvQ7O6XgYHfmCLEW4SZ8dQQoE=",
+    "hash": "sha256-RaFQ3B7hRry1X9BsmObRoOXrTqQcreeQertLlpTiJDU=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -7273,12 +7273,12 @@
       "settings": "./Settings.qml",
       "startupCheck": "./StartupCheck.qml",
       "type": "composite",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
-    "path": "/nix/store/mvhqiq0p4098nyz74sck4bm9vcg95s1l-dms-ntfy",
-    "rev": "8bad4132bbfb536ed48776d8e223ae992b67f495",
+    "path": "/nix/store/ijm0vmr1dzlqdc0gmidqy58ns71pqnn0-dms-ntfy",
+    "rev": "cf817b38920549684165ea4222b472bc561fac77",
     "rootDir": "",
-    "sha256": "10a2a33nf4kf265n0zh70rgbmcs3xwfac1jsapk0y0l6v2a1gcy7",
+    "sha256": "0d94waa9cjxvga8fgb8wli7fprd0s7k9hv6hbysvqip13vf518a5",
     "url": "https://github.com/arqueon/dms-ntfy"
   },
   "nvidiaGpuMonitor": {
