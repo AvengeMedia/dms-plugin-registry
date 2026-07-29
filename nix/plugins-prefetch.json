@@ -1,11 +1,11 @@
 {
   "acerSense": {
-    "date": "2026-05-31T22:59:51-03:00",
+    "date": "2026-07-29T01:04:56-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5uBURmbRYpot1jO9H8kZMy7TuWc946YhQzVkrQPUY90=",
+    "hash": "sha256-cTFirXSsZKcVA5eFN+eBHgKgm0Kuqe3B6vaL96oXjy8=",
     "leaveDotGit": false,
     "meta": {
       "author": "raphamzn",
@@ -27,12 +27,12 @@
       "name": "Acer Sense",
       "repo": "https://github.com/raphamzn/dms-acer-sense",
       "screenshot": "https://raw.githubusercontent.com/raphamzn/dms-acer-sense/main/screenshot.png",
-      "version": "1.1.1"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/fsnn9gzhrkhv9s8rfvcb95ffzrj1d5rx-dms-acer-sense",
-    "rev": "5a3a21f1bfa4b24ec1c14d6ef237ea44dbe3ea47",
+    "path": "/nix/store/jw9jq858fb35kil9pnw44sinbw302yq8-dms-acer-sense",
+    "rev": "f75a62bbe5c0e7772569d16e1dd05ec4e54a6f95",
     "rootDir": "",
-    "sha256": "1pb3sh1ssr1m8chsdqrxcywx6bik374izg9ksqnrlqnicr359q76",
+    "sha256": "0bwg2ymgg2znxb0yvadf8ads00hyh7kkg1cp0casfr5cfjnn4cbi",
     "url": "https://github.com/raphamzn/dms-acer-sense"
   },
   "activateLinux": {
@@ -927,12 +927,12 @@
     "url": "https://github.com/arcatva/dms-battery-plus"
   },
   "bongoCat": {
-    "date": "2026-07-03T13:28:28+07:00",
+    "date": "2026-07-29T09:45:26+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jypdXhE1scPFZ4KeT8NJgT+EVIqzN2ga487gfB6EEA4=",
+    "hash": "sha256-vGBGBFwd78R7q+gqxOb2PCPAiNO157HJcHXspABDCx0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -957,10 +957,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-bongo-cat/main/screenshot.png",
       "version": "2.3.0"
     },
-    "path": "/nix/store/jmjrdz3190y08nq9dxqgycc4mprzyn3l-dms-bongo-cat",
-    "rev": "92690f8041f636bfa40029179e8c9f577d50a6c7",
+    "path": "/nix/store/jyfbw9khbz4g4w5pnajxg0j79kxjy5yx-dms-bongo-cat",
+    "rev": "237b1a34b2fb8d90e4f4c8656af758c3d7dab638",
     "rootDir": "",
-    "sha256": "03hhhhg7rq6fwcd6hdxki9a88gw1971lz7l2cz2w7c9m25g5salg",
+    "sha256": "078b8c0a9v3mf34v3rxmsf4c08rwyvkc8ap8mdxw9vqxbh24cq5w",
     "url": "https://github.com/hthienloc/dms-bongo-cat"
   },
   "brSoccer": {
@@ -7824,12 +7824,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-27T18:27:27+07:00",
+    "date": "2026-07-29T22:35:11+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-n3ldszH/Xo427QM1rA4FeVb3aKLTtWC7kJSZ7saVtRE=",
+    "hash": "sha256-SvWD12ruHbc5d5iN51o50A7Dwr/XI3uBbhMZ+2cUcSc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7859,10 +7859,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "3.7.4"
     },
-    "path": "/nix/store/8ki8n9zf9iqp3iw4m63c6qiakll0w74l-dms-quick-capture",
-    "rev": "e72e105ca76071dd23721a12b250350f2f74f907",
+    "path": "/nix/store/rk8rgvbi7yr1pl21z9cpwwahpn33id7d-dms-quick-capture",
+    "rev": "8ebe4265e172217c4be834a0342781d5c9d7f813",
     "rootDir": "",
-    "sha256": "04dmjp3fx6clj2xn1dfkl9lgfmkr0l7aqd83xlv8wppz66rmsycz",
+    "sha256": "09vi2ikzn68kds0pn8yppz1c63nh75dfg3cqfwwvf7gfdbbq7xaa",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -8606,6 +8606,43 @@
     "sha256": "13w249cs4gycjgsr8pl9mz0nphiqay91ygzxbakap7dpwf3x14ha",
     "url": "https://github.com/lycbowen/SPlayerLyrics"
   },
+  "spotifyMatugen": {
+    "date": "2026-07-29T16:32:18+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-C0YWeQovCbmy+kt+4wB/yBIM5L4yG/HXpluDfJpQbLY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Grant Mosha",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "spotify",
+        "matugen"
+      ],
+      "description": "Lock DMS dynamic colors to Spotify album art while music is playing",
+      "distro": [
+        "any"
+      ],
+      "id": "spotifyMatugen",
+      "name": "Spotify Matugen",
+      "repo": "https://github.com/Grant07/dms-spotify-matugen",
+      "screenshot": "https://raw.githubusercontent.com/Grant07/dms-spotify-matugen/main/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/rbwzqi31axpj09caxaq33nwbzip0s4l1-dms-spotify-matugen",
+    "rev": "38bbc6fb78fa68713884f171ad3e741d73d85ceb",
+    "rootDir": "",
+    "sha256": "1dkca2d7r0svlvbz26rjpvj0q4n8gw0f6zjbzarbj29g19wicihb",
+    "url": "https://github.com/Grant07/dms-spotify-matugen"
+  },
   "sshConnections": {
     "date": "2026-03-27T09:13:36-04:00",
     "deepClone": false,
@@ -8821,6 +8858,42 @@
     "rootDir": "",
     "sha256": "0w1ws4ak38nv2m1rrcp4m9rnmjbalbfblszv7sb13jzpnm3ggz9h",
     "url": "https://github.com/hthienloc/dms-stopwatch"
+  },
+  "svglSearch": {
+    "date": "2026-07-29T16:31:55+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-0a3ZHBst6G9jq6ZsmdPU05jiplPosejr8lxNtEgTldM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Grant Mosha",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "wl-copy"
+      ],
+      "description": "Search and copy SVGL brand logos directly from the DMS launcher",
+      "distro": [
+        "any"
+      ],
+      "id": "svglSearch",
+      "name": "SVGL Search",
+      "repo": "https://github.com/Grant07/dms-svgl-search",
+      "screenshot": "https://raw.githubusercontent.com/Grant07/dms-svgl-search/main/assets/screenshot.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/xbpm14mv31ipr25kl83p2glhl86jc41a-dms-svgl-search",
+    "rev": "ed6ece4f83b7cfe90b6142cb7a271abf844a92d3",
+    "rootDir": "",
+    "sha256": "1lwm2d4b8kawybmyicg8afkf566ksk9rjv56mdinzs1d3cfdkbfi",
+    "url": "https://github.com/Grant07/dms-svgl-search"
   },
   "systemMonitorPlus": {
     "date": "2026-07-17T19:33:47+07:00",
