@@ -7824,12 +7824,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-29T22:35:11+07:00",
+    "date": "2026-07-30T07:38:49+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-SvWD12ruHbc5d5iN51o50A7Dwr/XI3uBbhMZ+2cUcSc=",
+    "hash": "sha256-wv+yXENKXdiowsMonPSmWPuh/a/rFH4kq/8fpFfbU6o=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7857,12 +7857,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "3.7.4"
+      "version": "3.7.5"
     },
-    "path": "/nix/store/rk8rgvbi7yr1pl21z9cpwwahpn33id7d-dms-quick-capture",
-    "rev": "8ebe4265e172217c4be834a0342781d5c9d7f813",
+    "path": "/nix/store/qrjpp9zbi8ypnhsdjzgfjfdw7kjncrld-dms-quick-capture",
+    "rev": "a50c37e3bf19751e7d1667875dcb447ba6550e9c",
     "rootDir": "",
-    "sha256": "09vi2ikzn68kds0pn8yppz1c63nh75dfg3cqfwwvf7gfdbbq7xaa",
+    "sha256": "1ajkvdbs87zzmcj7w57bmzys3ysqlvs9qa63qaldhpaa8dfb5zy2",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -8427,12 +8427,12 @@
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
   "shellyUpdater": {
-    "date": "2026-07-26T23:22:37-04:00",
+    "date": "2026-07-29T19:22:40-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2vj6szqEmYuXggyC3dUrMwWf4ueT3IJanHaKsXWUq90=",
+    "hash": "sha256-Hfonbxx7rC5ApFfPBFNG6cxCbs2Q4ZW8yZ9pECIgtnk=",
     "leaveDotGit": false,
     "meta": {
       "author": "rdannenbring",
@@ -8454,12 +8454,12 @@
       "name": "Shelly Updater",
       "repo": "https://github.com/rdannenbring/dms-shelly-updater",
       "screenshot": "https://raw.githubusercontent.com/rdannenbring/dms-shelly-updater/main/preview/updates.png",
-      "version": "1.0.0"
+      "version": "2.0.0"
     },
-    "path": "/nix/store/qmrq7sqaiy43mblwkiwxhfhai4xckksp-dms-shelly-updater",
-    "rev": "50a8a4bfe02c636d023785e87bf0426db3642a0b",
+    "path": "/nix/store/h4g9pcng0mrkvha6ffgw1pgg630wdaz7-dms-shelly-updater",
+    "rev": "c35d601959ecece4134e97edb7b1f02fec19f732",
     "rootDir": "",
-    "sha256": "1pdbjisv32knkid85p4kwzi9y19k5gaxv0hchabqp6c47arzmy6s",
+    "sha256": "0ydn40i10sczr6y9bqchrmp45k798r9h9kspli02xb3v3ipjgyhx",
     "url": "https://github.com/rdannenbring/dms-shelly-updater"
   },
   "showDesktop": {
