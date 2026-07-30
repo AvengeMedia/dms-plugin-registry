@@ -1,7 +1,7 @@
 {
   "id": "shellyUpdater",
   "name": "Shelly Updater",
-  "capabilities": ["dankbar-widget", "control-center-widget"],
+  "capabilities": ["dankbar-widget", "control-center"],
   "category": "system",
   "repo": "https://github.com/rdannenbring/dms-shelly-updater",
   "screenshot": "https://raw.githubusercontent.com/rdannenbring/dms-shelly-updater/main/preview/updates.png",
