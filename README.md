@@ -6609,6 +6609,40 @@ Control connected devices via KDE Connect or Valent - view battery, send files, 
 
 
 
+#### [PokeDash](https://github.com/samgrande/PokeDash)
+
+Pick your favorite pokemon, plop it on your desktop, and watch it idle menacingly (or adorably) while you actually get work done.
+
+
+
+- id: pokeDash
+- name: PokeDash
+- author: Sayan
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [pokedash](https://github.com/samgrande/PokeDash/tree/main/pokedash) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/samgrande/PokeDash/main/assets/screenshots/preview.png)
+
+</details>
+
+
+
+
+
 #### [Polyglot](https://github.com/Silzinc/Polyglot)
 
 A WIP translation plugin. Currently supports DeepL's free API.
