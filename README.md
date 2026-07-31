@@ -2945,7 +2945,7 @@ Turn off monitors from DankBar or Control Center.
 
 #### [Shelly Updater](https://github.com/rdannenbring/dms-shelly-updater)
 
-Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view and an action menu.
+Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view, action menu, and control-center panel. Requires Shelly v3+.
 
 
 
@@ -2953,8 +2953,8 @@ Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, A
 - name: Shelly Updater
 - author: rdannenbring
 - compositors: any
-- capabilities: dankbar-widget
-- dependencies: shelly
+- capabilities: dankbar-widget, control-center
+- dependencies: shelly>=3
 - distro: arch
 
 
