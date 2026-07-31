@@ -7536,6 +7536,41 @@
     "sha256": "177ancr3ydfpfb0mk96ic6lzfavs3f7qzly0ss7gv8wcpax78ivk",
     "url": "https://github.com/rahulmysore23/dms-pkg-update"
   },
+  "pokeDash": {
+    "date": "2026-07-30T23:56:00+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-AYBNwiGoa2YQ0g3H5Y70s2G/4xT8NhL+vwhn8yVi5Sc=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Sayan",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Pick your favorite pokemon, plop it on your desktop, and watch it idle menacingly (or adorably) while you actually get work done.",
+      "distro": [
+        "any"
+      ],
+      "id": "pokeDash",
+      "name": "PokeDash",
+      "path": "pokedash",
+      "repo": "https://github.com/samgrande/PokeDash",
+      "screenshot": "https://raw.githubusercontent.com/samgrande/PokeDash/main/assets/screenshots/preview.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/lzqd7wx1h1i2xg548dcn9618sv461n7n-PokeDash",
+    "rev": "6ff39df9c05704a05956d124cc0627627fbf9798",
+    "rootDir": "",
+    "sha256": "09z5c8jz6rq8pzz14dpw2kivyqdkyj7fbiqds886csx84714v001",
+    "url": "https://github.com/samgrande/PokeDash"
+  },
   "polyglot": {
     "date": "2026-01-31T21:31:43+01:00",
     "deepClone": false,
@@ -7824,12 +7859,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-30T07:38:49+07:00",
+    "date": "2026-07-30T22:05:36+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-wv+yXENKXdiowsMonPSmWPuh/a/rFH4kq/8fpFfbU6o=",
+    "hash": "sha256-d2ZSy4SzeePEsaZ5jIrYeppRQuUfUqZs6T8vNj34P28=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7857,12 +7892,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "3.7.5"
+      "version": "3.7.6"
     },
-    "path": "/nix/store/qrjpp9zbi8ypnhsdjzgfjfdw7kjncrld-dms-quick-capture",
-    "rev": "a50c37e3bf19751e7d1667875dcb447ba6550e9c",
+    "path": "/nix/store/nqw83pqzb4pm4q2mi5s1jndimmyxy70x-dms-quick-capture",
+    "rev": "5b963300d63a9621a5eac2a3fe3000c5697ac5b0",
     "rootDir": "",
-    "sha256": "1ajkvdbs87zzmcj7w57bmzys3ysqlvs9qa63qaldhpaa8dfb5zy2",
+    "sha256": "0vrzz0ykcbrzx5naclhzwm1536ksv258qyd6n72f6ydkhk5m4rkp",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -8048,12 +8083,12 @@
     "url": "https://github.com/smithyyang/dms-resource-monitor"
   },
   "sathiAi": {
-    "date": "2026-02-18T21:29:24-05:00",
+    "date": "2026-07-30T11:43:33-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-/Zfcb7PHMUhsfR+43GBP1seXd0rFksCoPjoLHFu7IfA=",
+    "hash": "sha256-slYJmfRyzOG2v/jfMeo0d6U2Qx5CqNu3G18KJGSMCJU=",
     "leaveDotGit": false,
     "meta": {
       "author": "SSingh44",
@@ -8076,10 +8111,10 @@
       "screenshot": "https://raw.githubusercontent.com/ss44/sathi.ai/refs/heads/master/assets/screenshot-01.png",
       "version": "1.6.2"
     },
-    "path": "/nix/store/063r6p8zdjvqinhrdnr0wkpn66kpn28m-sathi.ai",
-    "rev": "92ffa151fd4780e904bda9f3e6d336c046f61fd5",
+    "path": "/nix/store/ahvj3icpjx23451ky15l899qy4g75zig-sathi.ai",
+    "rev": "a9beb2e3e3967ed0410f318e68066d9aaaadd4a9",
     "rootDir": "",
-    "sha256": "1w11pddiq2rs7slc14n599vrgiyn9xhdrf0zgmn4hcf7ndpxr5zx",
+    "sha256": "1588iij282jz3fvxpa223r1kd9bp6km33pzqpyvf3k3jyjchjmmj",
     "url": "https://github.com/ss44/sathi.ai"
   },
   "screenCapture": {
