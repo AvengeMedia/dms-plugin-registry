@@ -3846,6 +3846,35 @@ Universal unit and color converter. Convert distance, weight, temperature, speed
 
 
 
+#### [Cursor Highlight](https://github.com/ReyArlena/dms-cursor-highlight)
+
+Cursor highlight for presentations, screen sharing or gaming. Rainbow mode, per-style settings, IPC keybind support.
+
+
+
+- id: cursorHighlight
+- name: Cursor Highlight
+- author: ReyArlena
+- compositors: hyprland
+- capabilities: daemon
+- dependencies: python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/ReyArlena/dms-cursor-highlight/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Custom Running Apps](https://github.com/heyitsmikey128/DankCustomRunningApps)
 
 Flexible Custom Widget for Showing Running Apps on Dank Bar
