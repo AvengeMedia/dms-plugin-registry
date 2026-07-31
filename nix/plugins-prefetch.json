@@ -1787,6 +1787,42 @@
     "sha256": "0fxdiv9zmc8hvvwz2wwxjji6d3qnj9jnvykjjx3iaw2xq484bn3c",
     "url": "https://github.com/zhtlancer/dms-cpu-thermal-indicator.git"
   },
+  "cursorHighlight": {
+    "date": "2026-07-30T21:04:14+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-kzhG/Q7BwEU6dKgmIoWqs+UPHIVs3d/Sq+pAEKz9DoU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "ReyArlena",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [
+        "python3"
+      ],
+      "description": "Cursor highlight for presentations, screen sharing or gaming. Rainbow mode, per-style settings, IPC keybind support.",
+      "distro": [
+        "any"
+      ],
+      "id": "cursorHighlight",
+      "name": "Cursor Highlight",
+      "repo": "https://github.com/ReyArlena/dms-cursor-highlight",
+      "screenshot": "https://raw.githubusercontent.com/ReyArlena/dms-cursor-highlight/main/assets/screenshot.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/72cn9hp8h0x3xgmfaddi56glwikmwnvr-dms-cursor-highlight",
+    "rev": "b17c59973f34eb1c7598ae985ebaaef5f2c30d8a",
+    "rootDir": "",
+    "sha256": "118fznn10h7amg9dzpbchlf0zrdkma2j49m8fhx4bh611vylcf4k",
+    "url": "https://github.com/ReyArlena/dms-cursor-highlight"
+  },
   "customRunningApps": {
     "date": "2026-06-28T09:50:09-07:00",
     "deepClone": false,
