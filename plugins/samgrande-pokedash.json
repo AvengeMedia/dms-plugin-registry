@@ -1,0 +1,14 @@
+{
+    "id": "pokeDash",
+    "name": "PokeDash",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/samgrande/PokeDash",
+    "path": "pokedash",
+    "author": "Sayan",
+    "description": "Pick your favorite pokemon, plop it on your desktop, and watch it idle menacingly (or adorably) while you actually get work done.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/samgrande/PokeDash/main/assets/screenshots/preview.png"
+}
