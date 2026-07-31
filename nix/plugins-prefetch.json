@@ -8472,16 +8472,17 @@
     "meta": {
       "author": "rdannenbring",
       "capabilities": [
-        "dankbar-widget"
+        "dankbar-widget",
+        "control-center"
       ],
       "category": "system",
       "compositors": [
         "any"
       ],
       "dependencies": [
-        "shelly"
+        "shelly>=3"
       ],
-      "description": "Comprehensive system update widget backed by the Shelly (ALPM) CLI \u2014 pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view and an action menu.",
+      "description": "Comprehensive system update widget backed by the Shelly (ALPM) CLI \u2014 pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view, action menu, and control-center panel. Requires Shelly v3+.",
       "distro": [
         "arch"
       ],
