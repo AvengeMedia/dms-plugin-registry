@@ -7263,12 +7263,12 @@
     "url": "https://github.com/samgrande/Dank-Nothing-Clock"
   },
   "ntfy": {
-    "date": "2026-07-28T14:47:05-06:00",
+    "date": "2026-08-01T17:24:26-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-RaFQ3B7hRry1X9BsmObRoOXrTqQcreeQertLlpTiJDU=",
+    "hash": "sha256-xf1mL2UjbcRQQSlVBmQlY++kxeGSrVy+19QqYVRjg+I=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -7311,10 +7311,10 @@
       "type": "composite",
       "version": "0.2.0"
     },
-    "path": "/nix/store/ijm0vmr1dzlqdc0gmidqy58ns71pqnn0-dms-ntfy",
-    "rev": "cf817b38920549684165ea4222b472bc561fac77",
+    "path": "/nix/store/kx4n0ms0jg99v1i9ykkyjdc8hprb0hjy-dms-ntfy",
+    "rev": "13bf0f876ed3ddd97f43b485882b5367468cc98b",
     "rootDir": "",
-    "sha256": "0d94waa9cjxvga8fgb8wli7fprd0s7k9hv6hbysvqip13vf518a5",
+    "sha256": "1ql3cda62anlsyz5rbcjw72s9vv34mj0cm99858c8v93clpndzf5",
     "url": "https://github.com/arqueon/dms-ntfy"
   },
   "nvidiaGpuMonitor": {
@@ -7895,12 +7895,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-07-31T21:42:03+07:00",
+    "date": "2026-08-02T07:08:03+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-rnrwG5+78EFvbdPpGAQyC7vy/g/9CJLmnDkWt7Q3TK4=",
+    "hash": "sha256-znZqx6p6/ruM4MUVUOERrTySb67r+ZsDGKnRskOIZR8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7928,12 +7928,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "3.7.6"
+      "version": "3.8.1"
     },
-    "path": "/nix/store/rk9km3zww1y2v9k0m0lk0rbiycnsr9qj-dms-quick-capture",
-    "rev": "a1708502ba77001b7013ef91f6db3995b7718a42",
+    "path": "/nix/store/iyfq3yba4mmhxj9p57xp3wh17pp8xlwm-dms-quick-capture",
+    "rev": "05c629a9d5b698892ad4bdc8af2a5dfb4cd13ad3",
     "rootDir": "",
-    "sha256": "1bjc6ysbf5irkkk9427x1zzg5fqb6821isfkdmpl3w5vkwdz0ymf",
+    "sha256": "07v5i11v5ld9301rpygbmrpr4g5d27hm05f5w26bpzksmb3nlxnf",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -8119,12 +8119,12 @@
     "url": "https://github.com/smithyyang/dms-resource-monitor"
   },
   "sathiAi": {
-    "date": "2026-07-30T23:49:26-04:00",
+    "date": "2026-07-31T22:29:07-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-45Ja8BYZqTiIFNaqPBW48AddydSq2YyRaxN3uQYwn1w=",
+    "hash": "sha256-VAPclvsTMb1zGbZ6EL5rxENRFTWj5ktaP+hyyYzOtrI=",
     "leaveDotGit": false,
     "meta": {
       "author": "SSingh44",
@@ -8145,12 +8145,12 @@
       "name": "Sathi.AI",
       "repo": "https://github.com/ss44/sathi.ai",
       "screenshot": "https://raw.githubusercontent.com/ss44/sathi.ai/refs/heads/master/assets/screenshot-01.png",
-      "version": "1.7.0"
+      "version": "1.9.0"
     },
-    "path": "/nix/store/gw741wfi5dhy3b9ib4bm2bm67ld1jjij-sathi.ai",
-    "rev": "9501d11b2ac0fe76f74d9d819acdc2418148f74c",
+    "path": "/nix/store/bsrz767yy8b14bpik9n20p6fyaadn1wd-sathi.ai",
+    "rev": "b767c9ce7ada8267b85dcfdf1630735f836ca02a",
     "rootDir": "",
-    "sha256": "0p4z603bjxqkdf8qrndask4ms1zhp0akrann2j43ia8r2vq5m4p3",
+    "sha256": "1cmnrs6cjwp87xd4prm36lam2hy4dfz10ymn35rvsc8kzfbdq0sl",
     "url": "https://github.com/ss44/sathi.ai"
   },
   "screenCapture": {
@@ -8498,12 +8498,12 @@
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
   "shellyUpdater": {
-    "date": "2026-07-29T19:22:40-04:00",
+    "date": "2026-07-31T16:09:11-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Hfonbxx7rC5ApFfPBFNG6cxCbs2Q4ZW8yZ9pECIgtnk=",
+    "hash": "sha256-2h6ad+7aFaS4/EPFrrwIcs1I0MO5wuJxHiyjxCTgQA8=",
     "leaveDotGit": false,
     "meta": {
       "author": "rdannenbring",
@@ -8526,12 +8526,12 @@
       "name": "Shelly Updater",
       "repo": "https://github.com/rdannenbring/dms-shelly-updater",
       "screenshot": "https://raw.githubusercontent.com/rdannenbring/dms-shelly-updater/main/preview/updates.png",
-      "version": "2.0.0"
+      "version": "2.0.1"
     },
-    "path": "/nix/store/h4g9pcng0mrkvha6ffgw1pgg630wdaz7-dms-shelly-updater",
-    "rev": "c35d601959ecece4134e97edb7b1f02fec19f732",
+    "path": "/nix/store/dwmd7mq004p4ska3xb7892y6iiw97rza-dms-shelly-updater",
+    "rev": "e665cafb3f8a31365e401f851d59e9134df37bd7",
     "rootDir": "",
-    "sha256": "0ydn40i10sczr6y9bqchrmp45k798r9h9kspli02xb3v3ipjgyhx",
+    "sha256": "03s0w0jc98rc3rqy5hmrqg84ikbj12yaxia3zjwa85fsxrvrl7ns",
     "url": "https://github.com/rdannenbring/dms-shelly-updater"
   },
   "showDesktop": {
