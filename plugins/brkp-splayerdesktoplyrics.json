@@ -1,0 +1,13 @@
+{
+    "id": "splayerDesktopLyrics",
+    "name": "SPlayer Lyrics (Desktop)",
+    "capabilities": ["desktop-widget"],
+    "category": "media",
+    "repo": "https://github.com/brkp/DMS_splayerLyrics",
+    "author": "brkpt",
+    "description": "Desktop lyrics widget for SPlayer, fetches lyrics from SPlayer's local Netease API",
+    "dependencies": ["dms"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/brkp/DMS_splayerLyrics/main/screenshot.png"
+}
