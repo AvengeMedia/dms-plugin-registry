@@ -613,6 +613,35 @@ Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from
 
 
 
+#### [SPlayer Lyrics (Desktop)](https://github.com/brkp/DMS_splayerLyrics)
+
+Desktop lyrics widget for SPlayer, fetches lyrics from SPlayer's local Netease API
+
+
+
+- id: splayerDesktopLyrics
+- name: SPlayer Lyrics (Desktop)
+- author: brkpt
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/brkp/DMS_splayerLyrics/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [SPlayerLyrics](https://github.com/lycbowen/SPlayerLyrics)
 
 Display lyrics from SPlayer in Dank Material Shell.
