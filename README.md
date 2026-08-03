@@ -8099,6 +8099,35 @@ Live microphone activity overlay while VoxType is recording. Shows a Cava audio 
 
 
 
+#### [VoxType Recording Overlay](https://github.com/rdannenbring/voxtype-dms-overlay)
+
+VoxType for DMS: a recording overlay (dim + active-window cutout + pulsing mic) and a bar/tray control widget — start/stop the daemon, switch output mode, pick your mic, switch engine, and run meetings from your DMS bar.
+
+
+
+- id: voxtypeOverlay
+- name: VoxType Recording Overlay
+- author: rdannenbring
+- compositors: any
+- capabilities: daemon, dankbar-widget, control-center, ipc
+- dependencies: voxtype
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rdannenbring/voxtype-dms-overlay/main/assets/overlay.png)
+
+</details>
+
+
+
+
+
 #### [Voxtype](https://github.com/psyreactor/dms-voxtype)
 
 voxtype status plugin for DankBar
