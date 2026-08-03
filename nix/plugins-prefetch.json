@@ -9789,6 +9789,45 @@
     "sha256": "1wnzkccsvji5bzcsbq6i3jxkb103cq5cr1nwkwasfwqwiscyi5h2",
     "url": "https://github.com/agneswd/dms-voxtype-activity-overlay"
   },
+  "voxtypeOverlay": {
+    "date": "2026-08-02T01:04:53-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-LHhAQmru/lIqsAzwUYffNL4iwHgdV9UPIP7uNDKI2As=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "rdannenbring",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center",
+        "ipc"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "voxtype"
+      ],
+      "description": "VoxType for DMS: a recording overlay (dim + active-window cutout + pulsing mic) and a bar/tray control widget \u2014 start/stop the daemon, switch output mode, pick your mic, switch engine, and run meetings from your DMS bar.",
+      "distro": [
+        "any"
+      ],
+      "id": "voxtypeOverlay",
+      "name": "VoxType Recording Overlay",
+      "repo": "https://github.com/rdannenbring/voxtype-dms-overlay",
+      "screenshot": "https://raw.githubusercontent.com/rdannenbring/voxtype-dms-overlay/main/assets/overlay.png",
+      "version": "1.2.0"
+    },
+    "path": "/nix/store/5jgsfy51nwkhwi67w6a791r459kq8lla-voxtype-dms-overlay",
+    "rev": "c1be466e170adcbf4dc4ee1e9fa94d37b53e0955",
+    "rootDir": "",
+    "sha256": "02yqi0r39vpy407xamqxg3025gilvy3m3w0cn0m55zpfd9140y1c",
+    "url": "https://github.com/rdannenbring/voxtype-dms-overlay"
+  },
   "vramMonitor": {
     "date": "2026-07-26T16:00:42+03:00",
     "deepClone": false,
