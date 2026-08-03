@@ -9677,6 +9677,44 @@
     "sha256": "1idn4sznijm720xd5z81ll9bhxxc0snqs575arxbd1p9j7qjc8s6",
     "url": "https://github.com/cwelsys/dms-volume-mixer"
   },
+  "voxTypeOsd": {
+    "date": "2026-08-02T11:24:16+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-KJKnkqHFKGCT6OAGg6vegMb7pV4zifpffGcancoxJYI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Iris Blur",
+      "capabilities": [
+        "monitoring"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "voxtype",
+        "voxtype-audio-bridge"
+      ],
+      "description": "VoxType recording and transcription waveform OSD",
+      "distro": [
+        "any"
+      ],
+      "id": "voxTypeOsd",
+      "name": "VoxType OSD",
+      "repo": "https://github.com/irisblur17/dms-voxtype-osd",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/irisblur17/dms-voxtype-osd/main/screenshot.png",
+      "version": "0.2.1"
+    },
+    "path": "/nix/store/sm1pvjcyn1iyl3kqvy5rjvkw6ddj17b9-dms-voxtype-osd",
+    "rev": "80fbcdbf375d56e090bf560b58ec774b7ef756b4",
+    "rootDir": "",
+    "sha256": "10i56759s6k7gigzm29kbsjzpil0vsmq61p0x29n0a65l69ag4i8",
+    "url": "https://github.com/irisblur17/dms-voxtype-osd"
+  },
   "voxtype": {
     "date": "2026-07-11T22:03:24-03:00",
     "deepClone": false,
@@ -10273,12 +10311,12 @@
     "url": "https://github.com/dwright134/dms-whisperer"
   },
   "widgetGroup": {
-    "date": "2026-06-26T16:54:43-04:00",
+    "date": "2026-08-03T00:47:02-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-+ApvThHcyP5Ivd+5nDrkZpKyoq9N1Aet+AJNKBPWfmY=",
+    "hash": "sha256-ACdRPzC6jymzsjXOcb90Xk2u40UmSrXttfTR+a6ZUMA=",
     "leaveDotGit": false,
     "meta": {
       "author": "rdannenbring",
@@ -10298,12 +10336,12 @@
       "name": "Widget Group",
       "repo": "https://github.com/rdannenbring/widget-group",
       "screenshot": "https://raw.githubusercontent.com/rdannenbring/widget-group/main/assets/group-expanded.png",
-      "version": "0.6.0"
+      "version": "0.7.0"
     },
-    "path": "/nix/store/csiba65aqqckv8zfdzd3wc076nyx9nb7-widget-group",
-    "rev": "cd748fb105375629bf32378c7d05d10e50c51281",
+    "path": "/nix/store/zwg0fpwc9a2j9wairg49v00ffxd0ygzz-widget-group",
+    "rev": "c421dadd596e34917eb16e477de3086059485f76",
     "rootDir": "",
-    "sha256": "0rkysq9jhk82z2nhgm2dmyib54k6whx9rffzpm4gxj6w2576y2pq",
+    "sha256": "1h2hk6pgklglnpnvaji68piswkayfjzp3kimnarjk3xs60zm29q0",
     "url": "https://github.com/rdannenbring/widget-group"
   },
   "wienerLinien": {
