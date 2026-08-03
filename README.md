@@ -1772,6 +1772,35 @@ NVIDIA VRAM usage as an animated progress bar in your DankBar, updated every sec
 
 
 
+#### [VoxType OSD](https://github.com/irisblur17/dms-voxtype-osd)
+
+VoxType recording and transcription waveform OSD
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: voxTypeOsd
+- name: VoxType OSD
+- author: Iris Blur
+- compositors: any
+- capabilities: monitoring
+- dependencies: voxtype, voxtype-audio-bridge
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/irisblur17/dms-voxtype-osd/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Webcam Viewer](https://github.com/antikytheraton/DankWebcamViewer)
 
 Shows RTSP camera streams via vlc/ffplay/mpv from the DankBar
