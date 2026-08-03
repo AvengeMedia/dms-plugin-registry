@@ -6180,6 +6180,45 @@
     "sha256": "114n52lbh9dc6s5rd6k2a3jhw3aia3a7ll075597973wccqc7xyb",
     "url": "https://github.com/arqueon/dms-scrobbler"
   },
+  "latex2svg": {
+    "date": "2026-08-03T19:27:20+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-9dirLasVcMhp4bbtgudn+UnRZuAsdBHqmjroJ9yfcR0=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "KinnariyaMamaTanha",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3",
+        "latex",
+        "dvisvgm"
+      ],
+      "description": "Convert LaTeX formulas to portable SVG from Dank Bar, with a sharp preview, configurable saving, and image clipboard copy.",
+      "distro": [
+        "any"
+      ],
+      "id": "latex2svg",
+      "name": "LaTeX to SVG",
+      "repo": "https://github.com/KinnariyaMamaTanha/latex2svg",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/KinnariyaMamaTanha/latex2svg/main/assets/screenshot.png",
+      "version": "2.1.2"
+    },
+    "path": "/nix/store/aqks6hpgwp25jwaql4fi3nadhvbx8sj6-latex2svg",
+    "rev": "2e63a953e42f79a74907026d0e6f2342292d9f30",
+    "rootDir": "",
+    "sha256": "07bikzf2gs1skbm12x1cw1kd2jgrczkq5vdnw5lwhw0mmcnspn7m",
+    "url": "https://github.com/KinnariyaMamaTanha/latex2svg"
+  },
   "librepods": {
     "date": "2026-07-11T16:51:47+02:00",
     "deepClone": false,
@@ -7929,12 +7968,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-03T14:38:12+07:00",
+    "date": "2026-08-03T19:38:01+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-RiKeeCwJjsXtx0FtIV7K/pigoCiKcMkwtRiUhZVBVF0=",
+    "hash": "sha256-6hl+4CL4yAo693lcgUFRHtdULBnaQwzNUc85ONAYF5k=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7962,12 +8001,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "3.8.1"
+      "version": "3.9.0"
     },
-    "path": "/nix/store/hbxl28xvaszv8xiydigcj4k3dg6p16rg-dms-quick-capture",
-    "rev": "ff77c866874ecd8aba78b451e2eb85da2dec54dd",
+    "path": "/nix/store/j348akg1r8czi863pcv68rkr87zdwws0-dms-quick-capture",
+    "rev": "c2e7a2d2d918cf7431e65aa7f1408e5a5e8be610",
     "rootDir": "",
-    "sha256": "0pal86aqb50qnlqcjw4a52ha167yr9g22va1qznwb3h95iw9w8j6",
+    "sha256": "168p3383hffga76hqhys34n59mqya50q2p3rywx0mj7q4bh7w6ga",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
