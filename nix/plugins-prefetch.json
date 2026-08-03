@@ -530,12 +530,12 @@
     "url": "https://github.com/FeikoWielsma/dms-antigravity-cli"
   },
   "appLauncher": {
-    "date": "2026-07-03T03:41:36+07:00",
+    "date": "2026-08-03T14:19:33+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-sXaG838IBBCV85Iin/zicada0FpQUxANQrbl+nQ8l68=",
+    "hash": "sha256-lBC2IMFFW/xajLNqxaishh7M5plEXsMsgHJesq6frqs=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -557,12 +557,12 @@
       "name": "App Launcher",
       "repo": "https://github.com/hthienloc/dms-app-launcher",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png",
-      "version": "2.2.1"
+      "version": "2.2.2"
     },
-    "path": "/nix/store/h1cg296264n5gwprwklr6bqrzyd2s2za-dms-app-launcher",
-    "rev": "b8296a20f42593631db93c01d01e7a9706647acb",
+    "path": "/nix/store/ai0sghq9lpwqh4r6vcp6x8x8bqk56s12-dms-app-launcher",
+    "rev": "b190f6070da9be8fac579dd1da8b5651a42f034a",
     "rootDir": "",
-    "sha256": "1bwp7isgmrdn886i0lshbb85m9viwby9y8ljyfai0108gzrqcxmi",
+    "sha256": "1axfkypb4pkjh0nc6pj4k7kcq7l6mjlcasmkiidgqns5q4hbc44l",
     "url": "https://github.com/hthienloc/dms-app-launcher"
   },
   "appShortcut": {
@@ -7499,6 +7499,40 @@
     "sha256": "01bygfasbzay8khxljsn1a70rpjydgshiw1xkqx5jj4gsk4p7iwj",
     "url": "https://github.com/RiceaRaul/DMS-PangolinPlugin"
   },
+  "persianCalendar": {
+    "date": "2026-08-03T12:04:35+03:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-0QTUJj7+ImWf9ZI3UiQDI0L3zDEJeHs751BDZa21x24=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Rassoul Shahsanaii",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "A bilingual Persian Jalali calendar with holidays, occasions, custom events, configurable date formats, and a full month popup.",
+      "distro": [
+        "any"
+      ],
+      "id": "persianCalendar",
+      "name": "Persian Calendar Pro",
+      "repo": "https://github.com/rassoulshah/dms-persian-calendar",
+      "screenshot": "https://raw.githubusercontent.com/rassoulshah/dms-persian-calendar/main/screenshots/popup.png",
+      "version": "2.1.0"
+    },
+    "path": "/nix/store/990qzx7pxyfwa4s1l4rcda69x1phyljw-dms-persian-calendar",
+    "rev": "e98ed38cad57f91e358bd5e3f3c78b2f61ec6858",
+    "rootDir": "",
+    "sha256": "0vn7nnnnahshwwxpny09676gfhi30cj54dwjyngna8py7qkd816i",
+    "url": "https://github.com/rassoulshah/dms-persian-calendar"
+  },
   "personalDictionary": {
     "date": "2026-06-19T18:03:53+03:00",
     "deepClone": false,
@@ -7895,12 +7929,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-02T07:08:03+07:00",
+    "date": "2026-08-03T14:38:12+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-znZqx6p6/ruM4MUVUOERrTySb67r+ZsDGKnRskOIZR8=",
+    "hash": "sha256-RiKeeCwJjsXtx0FtIV7K/pigoCiKcMkwtRiUhZVBVF0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7930,10 +7964,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "3.8.1"
     },
-    "path": "/nix/store/iyfq3yba4mmhxj9p57xp3wh17pp8xlwm-dms-quick-capture",
-    "rev": "05c629a9d5b698892ad4bdc8af2a5dfb4cd13ad3",
+    "path": "/nix/store/hbxl28xvaszv8xiydigcj4k3dg6p16rg-dms-quick-capture",
+    "rev": "ff77c866874ecd8aba78b451e2eb85da2dec54dd",
     "rootDir": "",
-    "sha256": "07v5i11v5ld9301rpygbmrpr4g5d27hm05f5w26bpzksmb3nlxnf",
+    "sha256": "0pal86aqb50qnlqcjw4a52ha167yr9g22va1qznwb3h95iw9w8j6",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
