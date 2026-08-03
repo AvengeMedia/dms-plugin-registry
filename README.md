@@ -6004,6 +6004,35 @@ A customizable LCD digital clock desktop widget
 
 
 
+#### [LaTeX to SVG](https://github.com/KinnariyaMamaTanha/latex2svg)
+
+Convert LaTeX formulas to portable SVG from Dank Bar, with a sharp preview, configurable saving, and image clipboard copy.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: latex2svg
+- name: LaTeX to SVG
+- author: KinnariyaMamaTanha
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3, latex, dvisvgm
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/KinnariyaMamaTanha/latex2svg/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Live Lyrics](https://gitlab.com/noahpolimon/dms-plugin-livelyrics)
 
 Display synced lyrics on your DankBar (Music Lyrics fork)
