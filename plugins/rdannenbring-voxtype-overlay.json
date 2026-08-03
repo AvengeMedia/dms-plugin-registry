@@ -1,0 +1,13 @@
+{
+  "id": "voxtypeOverlay",
+  "name": "VoxType Recording Overlay",
+  "capabilities": ["daemon", "dankbar-widget", "control-center", "ipc"],
+  "category": "utilities",
+  "repo": "https://github.com/rdannenbring/voxtype-dms-overlay",
+  "screenshot": "https://raw.githubusercontent.com/rdannenbring/voxtype-dms-overlay/main/assets/overlay.png",
+  "author": "rdannenbring",
+  "description": "VoxType for DMS: a recording overlay (dim + active-window cutout + pulsing mic) and a bar/tray control widget — start/stop the daemon, switch output mode, pick your mic, switch engine, and run meetings from your DMS bar.",
+  "dependencies": ["voxtype"],
+  "compositors": ["any"],
+  "distro": ["any"]
+}
