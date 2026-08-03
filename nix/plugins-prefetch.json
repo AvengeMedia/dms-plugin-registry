@@ -70,12 +70,12 @@
     "url": "https://github.com/hthienloc/dms-activate-linux"
   },
   "adguardVPplugin": {
-    "date": "2026-07-25T13:48:16-03:00",
+    "date": "2026-08-02T00:13:32-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-/db+1unk4SdcCJ0NyWpxJPpYDOCOlh447l1ytyeb1L0=",
+    "hash": "sha256-GVRXwaRiep4TTx6tMGeCmpmw0tbXqGciU//htbauuG0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -100,12 +100,12 @@
       "repo": "https://github.com/bernardopg/dms-adguard-vpn-plugin",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/dms-adguard-vpn-plugin/main/docs/screenshot.png",
-      "version": "1.5.3"
+      "version": "1.6.0"
     },
-    "path": "/nix/store/hwy5ikpk3ayzvw0mk1jbzw2b3djljwi0-dms-adguard-vpn-plugin",
-    "rev": "1c4756cbe3d51f4d15d986fd3f12d0d2b2b5c09b",
+    "path": "/nix/store/a64m65n6jvnb508wacc00b5yjhzzzhjd-dms-adguard-vpn-plugin",
+    "rev": "775aa4f057358880ecd97f520883f6b83219c6f7",
     "rootDir": "",
-    "sha256": "1gflkckvfwjxxqw1x5lfw065iyi4f5mcj3cx11f2gqg4x7bgxmpx",
+    "sha256": "0vdqmsvbbqgzaci6ga6psv9b16csh9kk1b8y9w9rwyk2lk0mfm0r",
     "url": "https://github.com/bernardopg/dms-adguard-vpn-plugin"
   },
   "aiAssistant": {
@@ -7573,12 +7573,12 @@
     "url": "https://github.com/rahulmysore23/dms-pkg-update"
   },
   "pokeDash": {
-    "date": "2026-07-31T07:48:15+05:30",
+    "date": "2026-08-02T21:09:34+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Nm3AdTH0i0jA2CK0bTWt9QmpRk/6TxRXaDExuLce9QY=",
+    "hash": "sha256-sAHaP2Nh3+K8+rUXTbEII/gXtNGavsOuZA3YjuQ0HWo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Sayan",
@@ -7601,10 +7601,10 @@
       "screenshot": "https://raw.githubusercontent.com/samgrande/PokeDash/main/assets/screenshots/preview.png",
       "version": "0.1.0"
     },
-    "path": "/nix/store/rl380mpyzl8k2gs52l7xh2wnksn31kyl-PokeDash",
-    "rev": "7cee20ccaa48f961dcf008f96f03656d16053c0b",
+    "path": "/nix/store/ajhd5vkaf8sfklx93d1l2xiih6w9mlkx-PokeDash",
+    "rev": "408e18310988e36d30a89631363f87a8e574400d",
     "rootDir": "",
-    "sha256": "01pm3svvhc9id1bi8kzs9x3aj2gmmlsnvd12v304i2zl65sw0v9n",
+    "sha256": "0shx6kj8xn0dcjpc7glss6s1gy1312qls5xmzayf5pv1cczxl0dh",
     "url": "https://github.com/samgrande/PokeDash"
   },
   "polyglot": {
@@ -8119,12 +8119,12 @@
     "url": "https://github.com/smithyyang/dms-resource-monitor"
   },
   "sathiAi": {
-    "date": "2026-07-31T22:29:07-04:00",
+    "date": "2026-08-02T15:42:47-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-VAPclvsTMb1zGbZ6EL5rxENRFTWj5ktaP+hyyYzOtrI=",
+    "hash": "sha256-WK+US89e1U28O33/kuMdtIpU1Bsqxgm+71VUu6cuyJs=",
     "leaveDotGit": false,
     "meta": {
       "author": "SSingh44",
@@ -8145,12 +8145,12 @@
       "name": "Sathi.AI",
       "repo": "https://github.com/ss44/sathi.ai",
       "screenshot": "https://raw.githubusercontent.com/ss44/sathi.ai/refs/heads/master/assets/screenshot-01.png",
-      "version": "1.9.0"
+      "version": "1.10.0"
     },
-    "path": "/nix/store/bsrz767yy8b14bpik9n20p6fyaadn1wd-sathi.ai",
-    "rev": "b767c9ce7ada8267b85dcfdf1630735f836ca02a",
+    "path": "/nix/store/b6ypj0x803xr945fvi46fg2hk63xaqx2-sathi.ai",
+    "rev": "d1a386d083f15b827d258b5ea59f3ba4154b59f1",
     "rootDir": "",
-    "sha256": "1cmnrs6cjwp87xd4prm36lam2hy4dfz10ymn35rvsc8kzfbdq0sl",
+    "sha256": "16y85skvnm2mxyz0kiia3ga592ml3pir5zvx7fy4vmayrx5r9bsq",
     "url": "https://github.com/ss44/sathi.ai"
   },
   "screenCapture": {
@@ -8826,12 +8826,12 @@
     "url": "https://github.com/Gateton/dank-bar-steam-flags"
   },
   "steamfriends": {
-    "date": "2026-04-28T21:08:54+01:00",
+    "date": "2026-08-02T16:20:26+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-frcNaPWxO3pKwASDwupQJU9wzE6gPTOIgKKHz4SeC7g=",
+    "hash": "sha256-2zEykmDj8ssjuM2GShhhs3Fb7TwGRIFb7CsQjUi7L2I=",
     "leaveDotGit": false,
     "meta": {
       "author": "Banicnas",
@@ -8851,12 +8851,13 @@
       "id": "steamfriends",
       "name": "Steam Friends",
       "repo": "https://github.com/banicans/DMS-SteamFriends",
-      "screenshot": "https://raw.githubusercontent.com/banicans/DMS-SteamFriends/main/Screenshot.png"
+      "screenshot": "https://raw.githubusercontent.com/banicans/DMS-SteamFriends/main/Screenshot.png",
+      "version": "1.2.0"
     },
-    "path": "/nix/store/q621fpl610byniadjcfj5ysrvd8a25ar-DMS-SteamFriends",
-    "rev": "cdfa2cef54339bf4b6bc9f841f2348e13e35c847",
+    "path": "/nix/store/ki65kqqzkzbjb2s2z3ckxyim4z3qpbq3-DMS-SteamFriends",
+    "rev": "c52eb3498149926a3ca058bb562b621e3aaee81e",
     "rootDir": "",
-    "sha256": "1f0bks2cz1x2h2436gd09v670kr5a3mc50q4q157lfxiyml0vdvy",
+    "sha256": "0qigpd48s41bxidq2i067knmnwdkc4c4m1ndp0iwpwp3c2934cfv",
     "url": "https://github.com/banicans/DMS-SteamFriends"
   },
   "stockManager": {
@@ -8932,12 +8933,12 @@
     "url": "https://github.com/hthienloc/dms-stopwatch"
   },
   "svglSearch": {
-    "date": "2026-07-29T16:31:55+03:00",
+    "date": "2026-08-02T22:16:40+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-0a3ZHBst6G9jq6ZsmdPU05jiplPosejr8lxNtEgTldM=",
+    "hash": "sha256-HiTtrB4X6Xg1FGjeIccfxY9rT7ffYF1CLyJ2JcoW8ZE=",
     "leaveDotGit": false,
     "meta": {
       "author": "Grant Mosha",
@@ -8961,10 +8962,10 @@
       "screenshot": "https://raw.githubusercontent.com/Grant07/dms-svgl-search/main/assets/screenshot.png",
       "version": "0.1.0"
     },
-    "path": "/nix/store/xbpm14mv31ipr25kl83p2glhl86jc41a-dms-svgl-search",
-    "rev": "ed6ece4f83b7cfe90b6142cb7a271abf844a92d3",
+    "path": "/nix/store/wfzjqpbgvwa3778ikn4wbx0v4dc9rn1d-dms-svgl-search",
+    "rev": "98301dd987fc0fc73af719bc59d725544c4bdb9b",
     "rootDir": "",
-    "sha256": "1lwm2d4b8kawybmyicg8afkf566ksk9rjv56mdinzs1d3cfdkbfi",
+    "sha256": "14gi2v52axi25x15sq6znx7np3y53z3j3pk82hspis8p3snfs90y",
     "url": "https://github.com/Grant07/dms-svgl-search"
   },
   "systemMonitorPlus": {
@@ -9643,12 +9644,12 @@
     "url": "https://github.com/NordicsSys/dms-usb-manager"
   },
   "volumeMixer": {
-    "date": "2026-03-01T01:38:13-05:00",
+    "date": "2026-08-02T00:48:19-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-yBgHyTvWz381UJq7wuHdaxYjn7DQ2f40qwj3kxUt9Ko=",
+    "hash": "sha256-RiMm8ZHphrZ6VuUUja0GrHe4EqUB/dI6EKfKaL8mtsU=",
     "leaveDotGit": false,
     "meta": {
       "author": "cwel",
@@ -9668,12 +9669,12 @@
       "name": "Volume Mixer",
       "repo": "https://github.com/cwelsys/dms-volume-mixer",
       "screenshot": "https://raw.githubusercontent.com/cwelsys/dms-volume-mixer/main/assets/screenshot.png",
-      "version": "1.0.1"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/axmw2x24rsl6g745ybpmymb99v2j42gc-dms-volume-mixer",
-    "rev": "3996bdfbc11cb7458d9d23e45a69ec2374cf8601",
+    "path": "/nix/store/xfwc6q51hbkvcvmry70nghfrbn8w48pz-dms-volume-mixer",
+    "rev": "353e00b659a16df07105b16c8790e6b526743471",
     "rootDir": "",
-    "sha256": "1apl5lar7xq8mcsgxnfhn2gj65kbvphw5fwsa0spzkyn7g4hf668",
+    "sha256": "1idn4sznijm720xd5z81ll9bhxxc0snqs575arxbd1p9j7qjc8s6",
     "url": "https://github.com/cwelsys/dms-volume-mixer"
   },
   "voxtype": {
