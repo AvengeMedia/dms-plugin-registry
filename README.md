@@ -6604,6 +6604,35 @@ DMS Launcher plugin to fuzzy-search Pass entries and copy them to the clipboard.
 
 
 
+#### [Persian Calendar Pro](https://github.com/rassoulshah/dms-persian-calendar)
+
+A bilingual Persian Jalali calendar with holidays, occasions, custom events, configurable date formats, and a full month popup.
+
+
+
+- id: persianCalendar
+- name: Persian Calendar Pro
+- author: Rassoul Shahsanaii
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rassoulshah/dms-persian-calendar/main/screenshots/popup.png)
+
+</details>
+
+
+
+
+
 #### [Personal Dictionary](https://github.com/gemb0-0/Personal-Dictionary)
 
 Text expander for the launcher — copy/paste pre-defined text using a shortcut via launcher
