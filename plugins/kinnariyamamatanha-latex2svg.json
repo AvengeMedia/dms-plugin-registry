@@ -1,0 +1,14 @@
+{
+  "id": "latex2svg",
+  "name": "LaTeX to SVG",
+  "capabilities": ["dankbar-widget", "latex-rendering", "clipboard"],
+  "category": "utilities",
+  "repo": "https://github.com/KinnariyaMamaTanha/latex2svg",
+  "author": "KinnariyaMamaTanha",
+  "description": "Convert LaTeX formulas to portable SVG from Dank Bar, with preview, configurable saving, and clipboard copy.",
+  "dependencies": ["python3", "latex", "dvisvgm"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/KinnariyaMamaTanha/latex2svg/main/assets/screenshot.png",
+  "requires_dms": ">=1.5.0"
+}
