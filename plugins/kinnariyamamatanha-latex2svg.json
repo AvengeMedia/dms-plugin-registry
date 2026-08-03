@@ -5,7 +5,7 @@
   "category": "utilities",
   "repo": "https://github.com/KinnariyaMamaTanha/latex2svg",
   "author": "KinnariyaMamaTanha",
-  "description": "Convert LaTeX formulas to portable SVG from Dank Bar, with preview, configurable saving, and clipboard copy.",
+  "description": "Convert LaTeX formulas to portable SVG from Dank Bar, with a sharp preview, configurable saving, and image clipboard copy.",
   "dependencies": ["python3", "latex", "dvisvgm"],
   "compositors": ["any"],
   "distro": ["any"],
