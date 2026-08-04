@@ -1772,6 +1772,40 @@ Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
 
 
 
+#### [Sysmon](https://github.com/rtabulov/dms-sysmon)
+
+Compact DankBar Pill of system resource Items with a graph Popout
+
+
+
+- id: sysmon
+- name: Sysmon
+- author: rassul
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dgop
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugin](https://github.com/rtabulov/dms-sysmon/tree/main/plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/rtabulov/dms-sysmon/main/plugin/assets/popout.png)
+
+</details>
+
+
+
+
+
 #### [System Monitor](https://github.com/chr314/dms-system-monitor)
 
 Real-time CPU, temperature, RAM, network, disk and GPU line charts for the DankBar
