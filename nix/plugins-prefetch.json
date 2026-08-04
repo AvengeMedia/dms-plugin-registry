@@ -7267,12 +7267,12 @@
     "url": "https://github.com/iahccc/NixPackageRunner"
   },
   "nothingClock": {
-    "date": "2026-07-31T07:52:26+05:30",
+    "date": "2026-08-03T23:44:09+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-dAB/u0vQ5tJo5lpB2D1cmleRjSvvM1dYYFqN3eRAcy8=",
+    "hash": "sha256-aiQmFZzvWtCWYd8YT4PC248y5WLRwIPgrKaUlwJNF14=",
     "leaveDotGit": false,
     "meta": {
       "author": "Sayan",
@@ -7293,12 +7293,12 @@
       "path": "nothingclock",
       "repo": "https://github.com/samgrande/Dank-Nothing-Clock",
       "screenshot": "https://raw.githubusercontent.com/samgrande/Dank-Nothing-Clock/main/assets/screenshots/preview.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/j8vx3slq8kmiw4mwi00rvzmj844l8blm-Dank-Nothing-Clock",
-    "rev": "0ae52d366ac66b4ca3612d2693caafda778f928a",
+    "path": "/nix/store/009vb29az1j09x3cnmpaqn76kljf4rrq-Dank-Nothing-Clock",
+    "rev": "36a04d4073b8b741cfd28055897387fd54b2fd61",
     "rootDir": "",
-    "sha256": "0bvk83jdv3asc1c5fczg5f6r2mwsbhyxhhaswrld5rnh9fxpy03l",
+    "sha256": "0php9l19g556mkh87h6icbjk53yvqa1ly66zc6bd0npgkhajc93a",
     "url": "https://github.com/samgrande/Dank-Nothing-Clock"
   },
   "ntfy": {
@@ -7968,12 +7968,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-03T19:38:01+07:00",
+    "date": "2026-08-03T21:43:31+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-6hl+4CL4yAo693lcgUFRHtdULBnaQwzNUc85ONAYF5k=",
+    "hash": "sha256-fLPjr7CFJXJSajjMLKfD8by73Z9ba9AOcuwEesZh8CY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8003,10 +8003,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "3.9.0"
     },
-    "path": "/nix/store/j348akg1r8czi863pcv68rkr87zdwws0-dms-quick-capture",
-    "rev": "c2e7a2d2d918cf7431e65aa7f1408e5a5e8be610",
+    "path": "/nix/store/r8wrn54rwc1lf2ni4hw31m0s5va1x6x3-dms-quick-capture",
+    "rev": "6b22bc8c31451f8c686b724f341a19b7176a059c",
     "rootDir": "",
-    "sha256": "168p3383hffga76hqhys34n59mqya50q2p3rywx0mj7q4bh7w6ga",
+    "sha256": "09phc737l17cf87d0ssvkzfvpg7iqfkjrk1qd99749c5n2py7cvw",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -9074,6 +9074,42 @@
     "rootDir": "",
     "sha256": "14gi2v52axi25x15sq6znx7np3y53z3j3pk82hspis8p3snfs90y",
     "url": "https://github.com/Grant07/dms-svgl-search"
+  },
+  "systemMonitor": {
+    "date": "2026-08-04T02:33:33+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-j226qqOvQd8+1USJCf+pR8Vn3ranZCxefAq920j8EVg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Christoforos Aslanov",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dgop"
+      ],
+      "description": "Real-time CPU, temperature, RAM, network, disk and GPU line charts for the DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "systemMonitor",
+      "name": "System Monitor",
+      "repo": "https://github.com/chr314/dms-system-monitor",
+      "screenshot": "https://raw.githubusercontent.com/chr314/dms-system-monitor/refs/heads/master/screenshots/popup.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/5b546bky59i8w78isbmbx5awi9ks1v3g-dms-system-monitor",
+    "rev": "b78934887dedbf8b944725071f8f6f9d0b80ab17",
+    "rootDir": "",
+    "sha256": "0n0izi4dpg8agig2qr57nvg6gia7m7zhk2a4slzdyhdglfmblvcg",
+    "url": "https://github.com/chr314/dms-system-monitor"
   },
   "systemMonitorPlus": {
     "date": "2026-07-31T22:44:24+07:00",
