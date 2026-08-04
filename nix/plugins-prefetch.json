@@ -7194,6 +7194,41 @@
     "sha256": "154i0s679ir5dgikqm16z43q5xh43z0smhg3fny7v2f3pym658xq",
     "url": "https://github.com/rochacbruno/DankNiriWindows"
   },
+  "niriWorkspaces": {
+    "date": "2026-08-04T14:31:54+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-pxkZkl1hylRKVwswodpBjlJTege7mnvfkG11j28js2Q=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Embers-of-the-Fire",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [],
+      "description": "Search and switch to Niri workspaces by name from the launcher",
+      "distro": [
+        "any"
+      ],
+      "id": "niriWorkspaces",
+      "name": "Niri Workspaces",
+      "repo": "https://github.com/Embers-of-the-Fire/dank-niri-workspaces",
+      "requires_dms": ">0.1.18",
+      "screenshot": "https://github.com/Embers-of-the-Fire/dank-niri-workspaces/raw/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/hvfy3gl2l2qj6v240vsnbrgnxzfwrdwy-dank-niri-workspaces",
+    "rev": "c6699c6a2cfc8f6a3f22f6ea6b3bee9e2d43d582",
+    "rootDir": "",
+    "sha256": "0r5k4dpqyxbdj3gpp6mv0xx56llf87da2c0bax559jk1bn91j6d7",
+    "url": "https://github.com/Embers-of-the-Fire/dank-niri-workspaces"
+  },
   "nixMonitor": {
     "date": "2026-02-20T07:24:29+01:00",
     "deepClone": false,
