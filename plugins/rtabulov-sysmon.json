@@ -1,14 +1,22 @@
 {
     "id": "sysmon",
     "name": "Sysmon",
-    "capabilities": ["dankbar-widget"],
+    "capabilities": [
+        "dankbar-widget"
+    ],
     "category": "monitoring",
     "repo": "https://github.com/rtabulov/dms-sysmon",
     "path": "plugin",
     "author": "rassul",
     "description": "Compact DankBar Pill of system resource Items with a graph Popout",
-    "dependencies": ["dgop"],
-    "compositors": ["any"],
-    "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/rtabulov/dms-sysmon/main/plugin/assets/pill.png"
+    "dependencies": [
+        "dgop"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/rtabulov/dms-sysmon/main/plugin/assets/popout.png"
 }
