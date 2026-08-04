@@ -6575,6 +6575,35 @@ List and switch to open Niri windows from the launcher
 
 
 
+#### [Niri Workspaces](https://github.com/Embers-of-the-Fire/dank-niri-workspaces)
+
+Search and switch to Niri workspaces by name from the launcher
+
+<strong>requires DMS version</strong>: <em>>0.1.18</em>
+
+- id: niriWorkspaces
+- name: Niri Workspaces
+- author: Embers-of-the-Fire
+- compositors: niri
+- capabilities: launcher
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/Embers-of-the-Fire/dank-niri-workspaces/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Nix Package Runner](https://github.com/iahccc/NixPackageRunner)
 
 Search nixpkgs with nix search, launch directly with nix run, and copy nix shell commands from the context menu
