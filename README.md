@@ -1772,6 +1772,35 @@ Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
 
 
 
+#### [System Monitor](https://github.com/chr314/dms-system-monitor)
+
+Real-time CPU, temperature, RAM, network, disk and GPU line charts for the DankBar
+
+
+
+- id: systemMonitor
+- name: System Monitor
+- author: Christoforos Aslanov
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dgop
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/chr314/dms-system-monitor/refs/heads/master/screenshots/popup.png)
+
+</details>
+
+
+
+
+
 #### [VRAM Monitor](https://github.com/rollecode/dms-vram-monitor)
 
 NVIDIA VRAM usage as an animated progress bar in your DankBar, updated every second
