@@ -5604,12 +5604,12 @@
     "url": "https://github.com/hthienloc/dms-hidden-bar"
   },
   "homeAssistantMonitor": {
-    "date": "2026-07-23T16:39:11+08:00",
+    "date": "2026-08-04T16:36:08+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-i/O+z1WoXmnM26s/DtWHW8+Y7dhMVpOB544m2pRwBSY=",
+    "hash": "sha256-T0jvHC7VPqXslPGsDC1u4wgBkWO6+4bYB4F21sU8D0c=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -5634,12 +5634,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-      "version": "2.0.6"
+      "version": "2.0.7"
     },
-    "path": "/nix/store/s81fj4cpikj5fix0l8q7q10ihj17cxq8-dms-plugin-hass",
-    "rev": "60c4acf5f06c0036a69193c40d3c77dc67da7467",
+    "path": "/nix/store/k1qjzqm3znmyafqgrr5wyhpxgqjx1927-dms-plugin-hass",
+    "rev": "fcc931b057faac50ab03a722682f73f08ae82c86",
     "rootDir": "",
-    "sha256": "09h5f2adl9lfwy0r6mjcv3nriksvhzahwgxbvg66jpm8ap7vxwwb",
+    "sha256": "0iqg7k2xcxl10zc8dyxscf8h2273dqnhrb7ijknaagnm5qffyj2g",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hostnameWidget": {
@@ -6181,12 +6181,12 @@
     "url": "https://github.com/arqueon/dms-scrobbler"
   },
   "latex2svg": {
-    "date": "2026-08-03T19:27:20+08:00",
+    "date": "2026-08-04T09:37:45+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9dirLasVcMhp4bbtgudn+UnRZuAsdBHqmjroJ9yfcR0=",
+    "hash": "sha256-xSHeSyFNdB/Nhtp9gQIWfzBTVPSYApUk9ur9dv98vN0=",
     "leaveDotGit": false,
     "meta": {
       "author": "KinnariyaMamaTanha",
@@ -6213,10 +6213,10 @@
       "screenshot": "https://raw.githubusercontent.com/KinnariyaMamaTanha/latex2svg/main/assets/screenshot.png",
       "version": "2.1.2"
     },
-    "path": "/nix/store/aqks6hpgwp25jwaql4fi3nadhvbx8sj6-latex2svg",
-    "rev": "2e63a953e42f79a74907026d0e6f2342292d9f30",
+    "path": "/nix/store/000p6xm2hjbymsbi746qcxnxxnyg6nsl-latex2svg",
+    "rev": "f0a4e5cb6b51b57c49f9ad4350daa157d52c2240",
     "rootDir": "",
-    "sha256": "07bikzf2gs1skbm12x1cw1kd2jgrczkq5vdnw5lwhw0mmcnspn7m",
+    "sha256": "1pdwgkzpdzgayqj9a0lqyia56c3z2q182zfshv6iyx2d455xw8f5",
     "url": "https://github.com/KinnariyaMamaTanha/latex2svg"
   },
   "librepods": {
@@ -7302,12 +7302,12 @@
     "url": "https://github.com/samgrande/Dank-Nothing-Clock"
   },
   "ntfy": {
-    "date": "2026-08-01T17:24:26-06:00",
+    "date": "2026-08-03T19:32:32-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-xf1mL2UjbcRQQSlVBmQlY++kxeGSrVy+19QqYVRjg+I=",
+    "hash": "sha256-GaoubMjRLqU39r5G5106y42AvjMlfdWykY5yGmKG1e8=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -7348,12 +7348,12 @@
       "settings": "./Settings.qml",
       "startupCheck": "./StartupCheck.qml",
       "type": "composite",
-      "version": "0.2.0"
+      "version": "0.3.0"
     },
-    "path": "/nix/store/kx4n0ms0jg99v1i9ykkyjdc8hprb0hjy-dms-ntfy",
-    "rev": "13bf0f876ed3ddd97f43b485882b5367468cc98b",
+    "path": "/nix/store/0bad89s23apfp6w4smnkdjpmrf2xcdw5-dms-ntfy",
+    "rev": "a672e40364a99229d5cb487fffc708ebed9d8580",
     "rootDir": "",
-    "sha256": "1ql3cda62anlsyz5rbcjw72s9vv34mj0cm99858c8v93clpndzf5",
+    "sha256": "1vymhri1lwlfj6rdaz956fz813fb79fyfimyyqvsabnir1n2xahr",
     "url": "https://github.com/arqueon/dms-ntfy"
   },
   "nvidiaGpuMonitor": {
@@ -7968,12 +7968,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-04T08:01:10+07:00",
+    "date": "2026-08-04T10:13:13+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-dnB9Bfx9mxPBRY6Qr0VFBujwhSF6BFDeKCj/cOq7fGY=",
+    "hash": "sha256-iqJBazXOkTCbyF3CWK3opmigxzfxD1R7Us/2teJEKhY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8001,12 +8001,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "3.9.0"
+      "version": "4.0.0"
     },
-    "path": "/nix/store/hvkz6mxd607splz5pf4r4rc17jav69gw-dms-quick-capture",
-    "rev": "14c0d618dff4d42db1d501607d9d1816bf8d8292",
+    "path": "/nix/store/jdfaqpxylbvrzrshc5w4iwfz99wkkhnr-dms-quick-capture",
+    "rev": "2402099c8f66bce6db94c8697aaacd4474001659",
     "rootDir": "",
-    "sha256": "0rkwpgm71zr853g5013s462z1s068m2sz44f8p0i76vxzh2psw3n",
+    "sha256": "05ia8kibbxnga9xm83zi6z3s0s56x2nmihjxr2dk14ff6mml38la",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -9074,6 +9074,43 @@
     "rootDir": "",
     "sha256": "14gi2v52axi25x15sq6znx7np3y53z3j3pk82hspis8p3snfs90y",
     "url": "https://github.com/Grant07/dms-svgl-search"
+  },
+  "sysmon": {
+    "date": "2026-08-04T10:28:50+05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-M7/qKhxDSji63eorBHbVVigYHoKgJ6Fy26iQzvQ3cOY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "rassul",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dgop"
+      ],
+      "description": "Compact DankBar Pill of system resource Items with a graph Popout",
+      "distro": [
+        "any"
+      ],
+      "id": "sysmon",
+      "name": "Sysmon",
+      "path": "plugin",
+      "repo": "https://github.com/rtabulov/dms-sysmon",
+      "screenshot": "https://raw.githubusercontent.com/rtabulov/dms-sysmon/main/plugin/assets/popout.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/v3pkmmrq4n88m8qhri14zc8ifyim7g4d-dms-sysmon",
+    "rev": "76def966ddb66464cb04539638e074818011210a",
+    "rootDir": "",
+    "sha256": "1rkh6zscx458vdra29x0h8g1ha2nsmv08azavnx3hjj33hmfmgrk",
+    "url": "https://github.com/rtabulov/dms-sysmon"
   },
   "systemMonitor": {
     "date": "2026-08-04T02:33:33+03:00",
