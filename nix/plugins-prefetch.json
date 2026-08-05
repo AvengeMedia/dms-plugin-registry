@@ -2835,6 +2835,46 @@
     "sha256": "0a3b8mik4xszympfvb5ihz3hsx98gnc3q97b0nadca17lrbr6yvx",
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
+  "dankSoftwareDepot": {
+    "date": "2026-08-05T12:22:34+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-K4kIh46g8lrTQ/i8zOuzf5N8NDAlLLI3FV95VeoHKB4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Vincent Blok",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3",
+        "python3-gobject",
+        "flatpak",
+        "dnf5"
+      ],
+      "description": "Software & updates center: rich update cards with release notes, app store for Fedora/Flathub/AppImage with ratings and reviews, installed-software management, firmware updates and an action log",
+      "distro": [
+        "fedora"
+      ],
+      "id": "dankSoftwareDepot",
+      "name": "Dank Software Depot",
+      "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/m42azjnill2vwzkzszbnhhqpnas78m8v-DankSoftwareDepot",
+    "rev": "90b232b6fdb4ce5e9538c964797c0560026e0766",
+    "rootDir": "",
+    "sha256": "07i80zm5ayaz2lvv4b1560s7r4vzngmwrg7q8g9mmwm0is3hi29b",
+    "url": "https://github.com/vinceecniv/DankSoftwareDepot"
+  },
   "dankSpotify": {
     "date": "2026-06-04T16:17:16+02:00",
     "deepClone": false,
@@ -8039,12 +8079,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-04T23:03:57+07:00",
+    "date": "2026-08-05T13:29:08+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5mkRzuWvO8IlRYMDMYqdrF0PXOyNRRvBepNuu7vsXOE=",
+    "hash": "sha256-amDc3EXC1I2u7JhDZKIeoEBPPZVazrv8xjWL3Tu3P/c=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8074,10 +8114,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "4.0.1"
     },
-    "path": "/nix/store/y4r9sa89r631qfij5iim1rnn61ywx5rb-dms-quick-capture",
-    "rev": "ec41990cb2d778395dd6318d0f3bcfb3db7915fd",
+    "path": "/nix/store/pb73n5n32cjs7ksx2b8zxhj26nsagysx-dms-quick-capture",
+    "rev": "3b1862a94c8f2e5e25bd59de115dbcbcd3622b45",
     "rootDir": "",
-    "sha256": "1qawxjxvnvlkgb0inicdxif0ypdckn5320w38ljw4fxgwp712sg6",
+    "sha256": "1xrznwxxv2rmqvybpkjsjlylyh503si68hwqxjp8vm628pfdqq3a",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
