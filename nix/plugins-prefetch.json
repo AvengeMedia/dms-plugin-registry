@@ -335,12 +335,12 @@
     "url": "https://github.com/hthienloc/dms-ambient-sound"
   },
   "amdGpuMonitor": {
-    "date": "2026-07-12T14:55:08+02:00",
+    "date": "2026-08-04T22:23:15+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-/xZQAs2S49uer/RjpzIrHjtFiBQaG38ZvhcAnEjhZhA=",
+    "hash": "sha256-0B1covnslqKrANe28iKVLTFCG0WEBEJjGLP4TlzVBV4=",
     "leaveDotGit": false,
     "meta": {
       "author": "navidagz",
@@ -362,12 +362,12 @@
       "name": "AMD GPU Monitor",
       "repo": "https://github.com/navidagz/dms-amd-gpu-monitor",
       "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshots/screenshot.png",
-      "version": "3.1.0"
+      "version": "4.0.0"
     },
-    "path": "/nix/store/4ygavp81qakipvvyl8vffwplrnh1n9kv-dms-amd-gpu-monitor",
-    "rev": "1ab6a486f36e540668d72bc0217acacc0a3b24e1",
+    "path": "/nix/store/lfydjg2pg8li095d0izadxmkggffi2aj-dms-amd-gpu-monitor",
+    "rev": "2084a650e5369a1f8a9e421e855cc199a12c6a07",
     "rootDir": "",
-    "sha256": "0436w549q00ppqcpy6qs2j44afqy5crafqzlmygdpqwjrl1505pz",
+    "sha256": "0ph5smf4xy5k31il41448ldl4c9djlig5dnp02ms55pcz6i5q7fh",
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor"
   },
   "amdGpuMonitorRevive": {
@@ -4306,12 +4306,12 @@
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dmsThemeSync": {
-    "date": "2026-07-25T14:44:45-06:00",
+    "date": "2026-08-04T13:30:04-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-j8yHJBV+LX6r+RNGHy/bgMlZhzFbr5FUPXOGM1z3O5w=",
+    "hash": "sha256-aI+1rXBYzs8/iKBbbbLndlS5xLrS/Q/c2a+h2pRFd2k=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -4337,10 +4337,10 @@
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png",
       "version": "0.8.1"
     },
-    "path": "/nix/store/dgj381dwv9l8r32jyh74gwdpp9xbs65b-dms-theme-sync",
-    "rev": "1acf0b03d4298b17ec063dbc63cf3724657ae5a1",
+    "path": "/nix/store/1lpb6xp5199zzg1j75izkvqzwkbf6ili-dms-theme-sync",
+    "rev": "294aa4a56019fc11dbe7154ab9b993e7caa1d5f2",
     "rootDir": "",
-    "sha256": "171vyxf371kk7ma93bsv663mkjc0vcpiyihkz6mpwbby2lj8gk4g",
+    "sha256": "0sbp8nadm8dgv7f0zzfjpb2bjm3nwyr6snx0i0zwzkjqf2nvb3v8",
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
   "dmsWhisper": {
@@ -7337,12 +7337,12 @@
     "url": "https://github.com/samgrande/Dank-Nothing-Clock"
   },
   "ntfy": {
-    "date": "2026-08-03T19:32:32-06:00",
+    "date": "2026-08-04T13:59:12-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-GaoubMjRLqU39r5G5106y42AvjMlfdWykY5yGmKG1e8=",
+    "hash": "sha256-tgr+aMYNQhx52zf6ZfN8fI+xiVvc5oOhAGA0VNkY5dk=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -7385,10 +7385,10 @@
       "type": "composite",
       "version": "0.3.0"
     },
-    "path": "/nix/store/0bad89s23apfp6w4smnkdjpmrf2xcdw5-dms-ntfy",
-    "rev": "a672e40364a99229d5cb487fffc708ebed9d8580",
+    "path": "/nix/store/nrgkvy1v9a2kkf2p37gryzf95i8qkn9c-dms-ntfy",
+    "rev": "ee9364ac261932018bed1059cf9e4d5a1596c578",
     "rootDir": "",
-    "sha256": "1vymhri1lwlfj6rdaz956fz813fb79fyfimyyqvsabnir1n2xahr",
+    "sha256": "1ng533cm8d3002hq7rnwbf4v33vwgkrnbyipvdwiqhhdqrlgw2mn",
     "url": "https://github.com/arqueon/dms-ntfy"
   },
   "nvidiaGpuMonitor": {
@@ -8003,12 +8003,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-04T10:13:13+07:00",
+    "date": "2026-08-04T23:03:57+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-iqJBazXOkTCbyF3CWK3opmigxzfxD1R7Us/2teJEKhY=",
+    "hash": "sha256-5mkRzuWvO8IlRYMDMYqdrF0PXOyNRRvBepNuu7vsXOE=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8036,12 +8036,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "4.0.0"
+      "version": "4.0.1"
     },
-    "path": "/nix/store/jdfaqpxylbvrzrshc5w4iwfz99wkkhnr-dms-quick-capture",
-    "rev": "2402099c8f66bce6db94c8697aaacd4474001659",
+    "path": "/nix/store/y4r9sa89r631qfij5iim1rnn61ywx5rb-dms-quick-capture",
+    "rev": "ec41990cb2d778395dd6318d0f3bcfb3db7915fd",
     "rootDir": "",
-    "sha256": "05ia8kibbxnga9xm83zi6z3s0s56x2nmihjxr2dk14ff6mml38la",
+    "sha256": "1qawxjxvnvlkgb0inicdxif0ypdckn5320w38ljw4fxgwp712sg6",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -8227,12 +8227,12 @@
     "url": "https://github.com/smithyyang/dms-resource-monitor"
   },
   "sathiAi": {
-    "date": "2026-08-02T15:42:47-04:00",
+    "date": "2026-08-04T20:51:40-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-WK+US89e1U28O33/kuMdtIpU1Bsqxgm+71VUu6cuyJs=",
+    "hash": "sha256-xz/cgiQEypzRG54+fWkrIocB+40DWbWaRawGqWwcqA4=",
     "leaveDotGit": false,
     "meta": {
       "author": "SSingh44",
@@ -8253,12 +8253,12 @@
       "name": "Sathi.AI",
       "repo": "https://github.com/ss44/sathi.ai",
       "screenshot": "https://raw.githubusercontent.com/ss44/sathi.ai/refs/heads/master/assets/screenshot-01.png",
-      "version": "1.10.0"
+      "version": "1.11.0"
     },
-    "path": "/nix/store/b6ypj0x803xr945fvi46fg2hk63xaqx2-sathi.ai",
-    "rev": "d1a386d083f15b827d258b5ea59f3ba4154b59f1",
+    "path": "/nix/store/zhs6xs4hzd3agcg2rfcq3j30p62pvwlw-sathi.ai",
+    "rev": "1d656040fb2a4a08656ac9bcd4df2dc859456e99",
     "rootDir": "",
-    "sha256": "16y85skvnm2mxyz0kiia3ga592ml3pir5zvx7fy4vmayrx5r9bsq",
+    "sha256": "03m83inaj1mc8ndban83ipxh31r25dlpsgly3g8rrjh44j1dqgy7",
     "url": "https://github.com/ss44/sathi.ai"
   },
   "screenCapture": {
@@ -9148,12 +9148,12 @@
     "url": "https://github.com/rtabulov/dms-sysmon"
   },
   "systemMonitor": {
-    "date": "2026-08-04T02:33:33+03:00",
+    "date": "2026-08-05T00:31:41+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-j226qqOvQd8+1USJCf+pR8Vn3ranZCxefAq920j8EVg=",
+    "hash": "sha256-HYEum+fM2w4iNcao4qxJTN7rGkStwDa4yU/TnJgYss4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Christoforos Aslanov",
@@ -9175,12 +9175,12 @@
       "name": "System Monitor",
       "repo": "https://github.com/chr314/dms-system-monitor",
       "screenshot": "https://raw.githubusercontent.com/chr314/dms-system-monitor/refs/heads/master/screenshots/popup.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/5b546bky59i8w78isbmbx5awi9ks1v3g-dms-system-monitor",
-    "rev": "b78934887dedbf8b944725071f8f6f9d0b80ab17",
+    "path": "/nix/store/64cb65kwwrz7y91ibcqbkiycb4lncah4-dms-system-monitor",
+    "rev": "de03f72155c17455c810bb6eda677c85dd38df5c",
     "rootDir": "",
-    "sha256": "0n0izi4dpg8agig2qr57nvg6gia7m7zhk2a4slzdyhdglfmblvcg",
+    "sha256": "1kmj32c9rlsgr6w3dh5d8hdfppjc96nf5a666li0xnycwydjx08x",
     "url": "https://github.com/chr314/dms-system-monitor"
   },
   "systemMonitorPlus": {
@@ -9736,12 +9736,12 @@
     "url": "https://github.com/hthienloc/dms-typing-sounds"
   },
   "unifiedTaskbar": {
-    "date": "2026-07-17T22:49:18-04:00",
+    "date": "2026-08-04T18:57:57-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-71wIg+ndD/TD6h87yxOdOdNhNRNrhVCFPEHnV3vltbQ=",
+    "hash": "sha256-G5JJ23AYNPSHp8e/zLb8B6shY2CDPqGu1T17tT6IYFg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Joshua Landau",
@@ -9763,10 +9763,10 @@
       "screenshot": "https://raw.githubusercontent.com/jslandau/dms-unified-taskbar/master/screenshot.png",
       "version": "1.1.2"
     },
-    "path": "/nix/store/87376i3a27axr8mc0y3jfa7j8k32bhk3-dms-unified-taskbar",
-    "rev": "0e54bd7be92267c6028e606a20c84a0cddfbbae3",
+    "path": "/nix/store/0m3kr7lz01fii0i4xr7967k0lgfddish-dms-unified-taskbar",
+    "rev": "6b1787f61f297a3ce5a14cbc7c425fc2314ad4a0",
     "rootDir": "",
-    "sha256": "1d5mwmxmgrs17j2m11bb2csn3lrrkl9wnfqzxb1z83yxx61hhp7g",
+    "sha256": "0n30i0zbayrxsnpa2gl3c1ij3aq7zjvcrgy7ly3z8d0qf3dlk4hv",
     "url": "https://github.com/jslandau/dms-unified-taskbar"
   },
   "uptimeBar": {
