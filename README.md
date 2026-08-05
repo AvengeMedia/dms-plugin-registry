@@ -2687,6 +2687,35 @@ Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
 
 
 
+#### [Dank Software Depot](https://github.com/vinceecniv/DankSoftwareDepot)
+
+Software & updates center: rich update cards with release notes, app store for Fedora/Flathub/AppImage with ratings and reviews, installed-software management, firmware updates and an action log
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: dankSoftwareDepot
+- name: Dank Software Depot
+- author: Vincent Blok
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3, python3-gobject, flatpak, dnf5
+- distro: fedora
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank System Doctor](https://github.com/NordicsSys/DankSystemDoctor)
 
 AI-powered system health monitor. Tracks CPU, RAM, disk, GPU & temp; detects pending updates (apt/dnf/pacman/brew); one-click maintenance and snapshot guardrails; Ollama diagnostics with triage playbooks.
