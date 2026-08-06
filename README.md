@@ -2352,6 +2352,35 @@ A persistent ntfy review inbox for the DankBar with All and per-topic views, unr
 
 
 
+#### [dms-vikunja](https://github.com/arqueon/dms-vikunja)
+
+Manage Vikunja projects and tasks from DankBar with nested project and label views, due dates, priorities, attachments, and notifications.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: dmsVikunja
+- name: dms-vikunja
+- author: arqueon
+- compositors: any
+- capabilities: daemon, dankbar-widget, control-center, notifications
+- dependencies: python3, secret-tool, notify-send
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-vikunja/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
