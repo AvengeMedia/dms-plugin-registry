@@ -2836,12 +2836,12 @@
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSoftwareDepot": {
-    "date": "2026-08-05T12:22:34+02:00",
+    "date": "2026-08-05T18:22:38+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-K4kIh46g8lrTQ/i8zOuzf5N8NDAlLLI3FV95VeoHKB4=",
+    "hash": "sha256-nJgs4+jpv74VYZZ+TvUIBs4394R0ErIqsPao3JpHj3o=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -2867,12 +2867,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "0.1.0"
+      "version": "0.2.1"
     },
-    "path": "/nix/store/m42azjnill2vwzkzszbnhhqpnas78m8v-DankSoftwareDepot",
-    "rev": "90b232b6fdb4ce5e9538c964797c0560026e0766",
+    "path": "/nix/store/v91yf9b1jbriwmkliipiwnp057i406x3-DankSoftwareDepot",
+    "rev": "490a67aa644dd03bf5320911803dae798cf65fa8",
     "rootDir": "",
-    "sha256": "07i80zm5ayaz2lvv4b1560s7r4vzngmwrg7q8g9mmwm0is3hi29b",
+    "sha256": "0ylg8yddra7nn0mb44klhkvkgkh613slwzlnc4avxgz9x3ijr64w",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -6343,12 +6343,12 @@
     "url": "https://github.com/demic-dev/airpods-widget-DMS"
   },
   "linuxWallpaperEngine": {
-    "date": "2026-07-31T17:40:58+03:00",
+    "date": "2026-08-05T20:13:31+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-vFkGT28Wve3WdP4nJCAxqxNspnH5Yt0kY/c/1IS5WQc=",
+    "hash": "sha256-Cp0mLBH9aU8ID4T/PSP8MJ6P32oa3zvMuLLgA3NbA8Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "sgtaziz",
@@ -6371,12 +6371,12 @@
       "name": "Linux Wallpaper Engine",
       "repo": "https://github.com/sgtaziz/dms-wallpaperengine",
       "screenshot": "https://raw.githubusercontent.com/sgtaziz/dms-wallpaperengine/refs/heads/main/screenshot.png",
-      "version": "1.1.1"
+      "version": "1.1.2"
     },
-    "path": "/nix/store/3c8gp3dvbild8j9a4c0alip02b592hza-dms-wallpaperengine",
-    "rev": "92f5d1be3989cf49cdb5e180323125f996977db2",
+    "path": "/nix/store/p4s4y14f5r64s1s8li0qpv4xdwcry2jh-dms-wallpaperengine",
+    "rev": "3c63881418ddac81ab640aeba39362338a1e1169",
     "rootDir": "",
-    "sha256": "01srp62d8gzpccjdsqprf6k6q4xb64h289zyfkbfvg8ndx7hcndw",
+    "sha256": "1i03bdrh7q5jp363ppqsdbgqz7ihzhikvzw41w44ysgx24n2d78a",
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
   },
   "liveChartSchedule": {
@@ -8079,12 +8079,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-05T13:29:08+07:00",
+    "date": "2026-08-06T08:20:47+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-amDc3EXC1I2u7JhDZKIeoEBPPZVazrv8xjWL3Tu3P/c=",
+    "hash": "sha256-2t33z5iooT6IINwL2XfIfcQP8X18AP7VMSdO5WQi12o=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8112,12 +8112,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "4.0.1"
+      "version": "4.0.2"
     },
-    "path": "/nix/store/pb73n5n32cjs7ksx2b8zxhj26nsagysx-dms-quick-capture",
-    "rev": "3b1862a94c8f2e5e25bd59de115dbcbcd3622b45",
+    "path": "/nix/store/60s9wxgkc309jcc3ypy3yh5ka48c40p4-dms-quick-capture",
+    "rev": "ea91c654f0eca2ae3f40ce3677c45fafd8ed4a27",
     "rootDir": "",
-    "sha256": "1xrznwxxv2rmqvybpkjsjlylyh503si68hwqxjp8vm628pfdqq3a",
+    "sha256": "0snp49jfaki767azw03wgpqhzi3xr1vxj2yw4243x8d8k37zgpfs",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
