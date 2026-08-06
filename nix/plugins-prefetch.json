@@ -4419,6 +4419,56 @@
     "sha256": "0sbp8nadm8dgv7f0zzfjpb2bjm3nwyr6snx0i0zwzkjqf2nvb3v8",
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
+  "dmsVikunja": {
+    "date": "2026-08-06T01:41:23-06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-w/mz9CRD3tUpXvvoxIopA0/nZUTw/oWgzo8AeviPjNs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "arqueon",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center",
+        "notifications"
+      ],
+      "category": "productivity",
+      "components": {
+        "daemon": "./VikunjaDaemon.qml",
+        "widget": "./VikunjaWidget.qml"
+      },
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3",
+        "secret-tool",
+        "notify-send"
+      ],
+      "description": "Manage Vikunja projects and tasks from DankBar with nested project and label views, due dates, priorities, attachments, and notifications.",
+      "distro": [
+        "any"
+      ],
+      "icon": "task_alt",
+      "id": "dmsVikunja",
+      "name": "dms-vikunja",
+      "repo": "https://github.com/arqueon/dms-vikunja",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-vikunja/main/assets/screenshot.png",
+      "settings": "./Settings.qml",
+      "startupCheck": "./StartupCheck.qml",
+      "type": "composite",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/3ppfgk7kpjbrrnj4rg3kcg76zsk1w97s-dms-vikunja",
+    "rev": "b702b649dbd0badb4cdc6cc50fdba16b010c9073",
+    "rootDir": "",
+    "sha256": "1nwcizw7l04grsh8bzph8ijyfkq3565c9s7vbqlxbpj34ksb7yf3",
+    "url": "https://github.com/arqueon/dms-vikunja"
+  },
   "dmsWhisper": {
     "date": "2026-07-06T20:28:08-06:00",
     "deepClone": false,
@@ -8079,12 +8129,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-06T08:20:47+07:00",
+    "date": "2026-08-06T18:58:47+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2t33z5iooT6IINwL2XfIfcQP8X18AP7VMSdO5WQi12o=",
+    "hash": "sha256-28bEiEEosXpVxSgV34gUZ6k2pR1Yth2ATx/RMTN9L80=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8114,10 +8164,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "4.0.2"
     },
-    "path": "/nix/store/60s9wxgkc309jcc3ypy3yh5ka48c40p4-dms-quick-capture",
-    "rev": "ea91c654f0eca2ae3f40ce3677c45fafd8ed4a27",
+    "path": "/nix/store/k8pvxzxgjdyscpq1fcg3k3yfgmfj9d1r-dms-quick-capture",
+    "rev": "f0380a80de5f8678dee57bace39ee715af388389",
     "rootDir": "",
-    "sha256": "0snp49jfaki767azw03wgpqhzi3xr1vxj2yw4243x8d8k37zgpfs",
+    "sha256": "1k9gglrk3l8z9y01vdjq3njkdab72j4dy598qmapmc98864c9inv",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -8827,12 +8877,12 @@
     "url": "https://github.com/knappancash/SitStandReminder"
   },
   "splayerDesktopLyrics": {
-    "date": "2026-08-02T16:31:46+08:00",
+    "date": "2026-08-06T15:16:36+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-+FLyr2DD/JcQBLs/Oko0KAa1brKk8j5rm5DOrGDLpMg=",
+    "hash": "sha256-88dRs+uQ4Mqr+Mg8o9TgPKAKcrlCzOogsXKtZB139+o=",
     "leaveDotGit": false,
     "meta": {
       "author": "brkpt",
@@ -8854,10 +8904,10 @@
       "screenshot": "https://raw.githubusercontent.com/brkp/DMS_splayerLyrics/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/3r40srxwff37155yg815h5dhwj5a6gfk-DMS_splayerLyrics",
-    "rev": "d171db3575462b557715fc46e6462fdc9ba9046f",
+    "path": "/nix/store/mc7mn5sdjhmgbpc5r9nr3jl0rhp38bqx-DMS_splayerLyrics",
+    "rev": "44fa00c9c65ac555b632e86cbd611d28656cf354",
     "rootDir": "",
-    "sha256": "1j54rdharklhkdmkxwm4n9pba1i86i53lgxv0h89gz63c2pz4lpq",
+    "sha256": "1sppfwfn9bbjn4hfmk22p5r0m81ww3aa6g68z2mwmq4hxfrm3izk",
     "url": "https://github.com/brkp/DMS_splayerLyrics"
   },
   "splayerLyrics": {
