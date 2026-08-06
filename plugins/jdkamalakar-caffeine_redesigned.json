@@ -1,0 +1,29 @@
+{
+  "id": "caffeine_redesigned",
+  "name": "Caffeine",
+  "description": "Keep your screen awake and prevent idle sleep with a single click.",
+  "category": "utilities",
+  "version": "1.0.0",
+  "author": "JDKamalakar",
+  "icon": "local_cafe",
+  "type": "widget",
+  "component": "./CaffeineWidget.qml",
+  "settings": "./CaffeineSettings.qml",
+  "capabilities": [
+    "control-center",
+    "dankbar-widget"
+  ],
+  "repo": "https://github.com/jdkamalakar/DMS-Caffeine",
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "dependencies": [],
+  "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Caffeine/refs/heads/main/assets/Control-Center_UI.png",
+  "permissions": [
+    "settings_read",
+    "settings_write"
+  ]
+}
