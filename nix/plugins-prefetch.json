@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-07-27T09:58:39-03:00",
+    "date": "2026-08-06T21:53:55-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-JgboCykRmdciCNH7O0+U/8i69YulfuhmjjDZtm1q4Xw=",
+    "hash": "sha256-SRa8cZIOUFIfnhrAa9qIqDGrGGS47mk1Yvpu1C5kFmw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -178,12 +178,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.8.1"
+      "version": "1.9.0"
     },
-    "path": "/nix/store/c9q0lzbbgrhs0lcna72v33ff7dpbq61j-AiOverviewControl",
-    "rev": "7afce99a019e22daef56bab1a8990a2d7c16152a",
+    "path": "/nix/store/42wmkjc1c4y8czfqhka5s8cxv2bv3lrc-AiOverviewControl",
+    "rev": "dbea25ce7564a28b8247e159e76c5e2e488f497a",
     "rootDir": "",
-    "sha256": "0z71d9nvdn9hirkfhzm5igsvmj7zji7kpyyi10idg68i545yh1i6",
+    "sha256": "0v0nchpd8vpsc8snkvmqchcancd8i3d6ph0skqgm4l0fj9qvq5j9",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
@@ -2836,12 +2836,12 @@
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSoftwareDepot": {
-    "date": "2026-08-05T18:22:38+02:00",
+    "date": "2026-08-06T23:23:50+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-nJgs4+jpv74VYZZ+TvUIBs4394R0ErIqsPao3JpHj3o=",
+    "hash": "sha256-xREY2BE0/nh51/pz5cVJrLvRu6SaLzLlfSG1THchaa4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -2867,12 +2867,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "0.2.1"
+      "version": "0.2.3"
     },
-    "path": "/nix/store/v91yf9b1jbriwmkliipiwnp057i406x3-DankSoftwareDepot",
-    "rev": "490a67aa644dd03bf5320911803dae798cf65fa8",
+    "path": "/nix/store/330p75x4bfb8fifpg27rgbalwllskg07-DankSoftwareDepot",
+    "rev": "432494a8990b9ed976bdf256ab079addd90748dd",
     "rootDir": "",
-    "sha256": "0ylg8yddra7nn0mb44klhkvkgkh613slwzlnc4avxgz9x3ijr64w",
+    "sha256": "1bk945vlrd91gpjk4bwsljxx3fxc972yawzssxwpizil27c1h4f5",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -3692,12 +3692,12 @@
     "url": "https://github.com/Kavotax/LCD-Digital-Clock.git"
   },
   "discordVoice": {
-    "date": "2026-07-25T09:13:50-07:00",
+    "date": "2026-08-06T08:55:36-07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-OO07903YGwE26kj1LRItdRvstCmxRdxQ85zyjaq7BSU=",
+    "hash": "sha256-AMAIIAaeeoEqd6AKjdoDo8z9pYlohGmKy5OhbjllxYc=",
     "leaveDotGit": false,
     "meta": {
       "author": "PandorasFox",
@@ -3719,12 +3719,12 @@
       "name": "Discord Voice Widget",
       "repo": "https://github.com/PandorasFox/dms-discord-widget",
       "screenshot": "https://raw.githubusercontent.com/PandorasFox/dms-discord-widget/master/screenshot.png",
-      "version": "1.2.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/ags83c327jnmgksxfng3cwmv4j5s9qk9-dms-discord-widget",
-    "rev": "ae0d695205d953e6fe5cb3a408f58cd77f706717",
+    "path": "/nix/store/33lpy0rxpahxvg0mrn3jk398sa2l1vfb-dms-discord-widget",
+    "rev": "937e33a6c362546fa0a0e8546ff565b3f0945e0b",
     "rootDir": "",
-    "sha256": "0985pfm8vwlwyd8dqidi56sfq6vm5l92vxa8x8v026yq9pvkpv9q",
+    "sha256": "11y5clwnx8ckrf56k138i6jzvk530gd8s2m0fwm82yly0qh0ih00",
     "url": "https://github.com/PandorasFox/dms-discord-widget"
   },
   "diskMonitor": {
@@ -7212,12 +7212,12 @@
     "url": "https://github.com/nfrastack/dms-nightModeControl"
   },
   "niriDS": {
-    "date": "2026-07-19T15:56:51+07:00",
+    "date": "2026-08-06T23:36:21+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Crf7PR47UUScJKEA2StQxpYenhvXogb171zoPjsN0Rw=",
+    "hash": "sha256-+DTMKPW5A9dwu33WeVszfGzJiVe+T7LmPLApvFBqYRM=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -7240,12 +7240,12 @@
       "name": "Niri Display Settings",
       "repo": "https://github.com/hthienloc/dms-niri-display-settings",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-niri-display-settings/master/screenshot.png",
-      "version": "2.0.2"
+      "version": "2.0.3"
     },
-    "path": "/nix/store/b9jldbmyrwknx7kmmj4by84q98098mcm-dms-niri-display-settings",
-    "rev": "d67b1bc7ec07a92053fa16274fa025c223bf4c0f",
+    "path": "/nix/store/amx8hcsdw4kqbpcl7n7s2gpj6k7nd3hd-dms-niri-display-settings",
+    "rev": "bb52314ce2e9170c03d96564b15c72dcea146f91",
     "rootDir": "",
-    "sha256": "076i1lxkxs2wxzshd8np3fg1x5n6a0mxj0514jf48l9v3qyzpdqa",
+    "sha256": "04v1d98bqadh7kkb4kxyay4wjv3w6ddpkmkxpdqdf0xryllcqd7q",
     "url": "https://github.com/hthienloc/dms-niri-display-settings"
   },
   "niriScreenshot": {
@@ -8129,12 +8129,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-06T18:58:47+07:00",
+    "date": "2026-08-07T00:58:54+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-28bEiEEosXpVxSgV34gUZ6k2pR1Yth2ATx/RMTN9L80=",
+    "hash": "sha256-LP3c0Fwwv7h6GO3Er129AxS3u39+POpRfxvBORG45kw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8162,12 +8162,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "4.0.2"
+      "version": "4.0.4"
     },
-    "path": "/nix/store/k8pvxzxgjdyscpq1fcg3k3yfgmfj9d1r-dms-quick-capture",
-    "rev": "f0380a80de5f8678dee57bace39ee715af388389",
+    "path": "/nix/store/sn0g9vknh9125r6x79aczgiwfwj8b0sg-dms-quick-capture",
+    "rev": "1bfec9249e35910b7fae149f97d07b7ee279a367",
     "rootDir": "",
-    "sha256": "1k9gglrk3l8z9y01vdjq3njkdab72j4dy598qmapmc98864c9inv",
+    "sha256": "0k76p08kkh8vgx8ylg3ygyxvf503pmfszi7d31xbigrhbk8drz9c",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
