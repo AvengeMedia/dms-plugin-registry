@@ -2747,7 +2747,7 @@ Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
 
 #### [Dank Software Depot](https://github.com/vinceecniv/DankSoftwareDepot)
 
-Software & updates center: rich update cards with release notes, app store for Fedora/Flathub/AppImage with ratings and reviews, installed-software management, firmware updates and an action log
+Software & updates center: rich update cards with release notes, app store for system repos/Flathub/AppImage with ratings and reviews, installed-software management, firmware updates and an action log. Fedora first; Debian/Ubuntu and Arch experimental.
 
 <strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
@@ -2756,8 +2756,8 @@ Software & updates center: rich update cards with release notes, app store for F
 - author: Vincent Blok
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: python3, python3-gobject, flatpak, dnf5
-- distro: fedora
+- dependencies: python3, python3-gobject, flatpak, python3-libdnf5 (Fedora), python3-apt (Debian/Ubuntu), pyalpm (Arch)
+- distro: fedora, debian, ubuntu, arch
 
 
 
