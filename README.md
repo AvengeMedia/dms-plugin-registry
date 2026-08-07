@@ -481,6 +481,35 @@ A living tree on your desktop that grows as long as DankMaterialShell does. Wate
 
 
 
+#### [Audio Output Monitor](https://github.com/thiswod/dank-audio-output-monitor)
+
+Identify applications currently or recently using audio output, including short-lived notification sounds.
+
+
+
+- id: audioOutputMonitor
+- name: Audio Output Monitor
+- author: thiswod
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: pactl, pw-mon
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/thiswod/dank-audio-output-monitor/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Audio Port Switcher](https://github.com/osvaldx/Audio-Port-Switcher)
 
 Switch audio ports on a 3.5mm combo jack (internal mic vs headset mic) dynamically.
