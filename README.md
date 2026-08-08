@@ -3744,6 +3744,35 @@ CPU temperature and fan speed monitor for DankBar using Linux hwmon
 
 
 
+#### [Caffeine Redesigned](https://github.com/JDKamalakar/DMS-Caffeine)
+
+Keep your screen awake and prevent idle sleep with a single click.
+
+
+
+- id: caffeineRedesigned
+- name: Caffeine Redesigned
+- author: JDKamalakar
+- compositors: any
+- capabilities: control-center, dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-Caffeine/refs/heads/main/assets/POP-Up_UI.png)
+
+</details>
+
+
+
+
+
 #### [Calculator](https://github.com/rochacbruno/DankCalculator)
 
 A calculator plugin that evaluates mathematical expressions and copies results to clipboard
@@ -4297,7 +4326,7 @@ Control DMS screenshot actions from the Widget & Control Center
 - author: JDKamalakar
 - compositors: any
 - capabilities: dankbar-widget, control-center
-- dependencies: dms
+- dependencies: 
 - distro: any
 
 
@@ -4384,7 +4413,7 @@ Switch system DNS providers and monitor network status.
 - author: JDKamalakar
 - compositors: any
 - capabilities: dankbar-widget, control-center
-- dependencies: dms
+- dependencies: 
 - distro: any
 
 
@@ -5531,7 +5560,7 @@ Material 3 inspired fullscreen Power Menu triggered via IPC
 - author: JDKamalakar
 - compositors: any
 - capabilities: power, ipc
-- dependencies: dms
+- dependencies: 
 - distro: any
 
 
@@ -5623,7 +5652,7 @@ Display GitHub contribution heatmap with color-coded activity levels
 - author: JDKamalakar
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: dms
+- dependencies: 
 - distro: any
 
 
@@ -6281,7 +6310,7 @@ Displays LiveChart anime schedule data pulled from a local browser session.
 - author: JDKamalakar
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: dms, python3, browser_cookie3
+- dependencies: python3, browser_cookie3
 - distro: any
 
 
@@ -6626,6 +6655,35 @@ Quickly toggle and configure display outputs in the Niri Wayland compositor.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/hthienloc/dms-niri-display-settings/master/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Niri Display Settings Advance](https://github.com/jdkamalakar/DMS-Niri_Display_Settings)
+
+Quickly toggle and configure display outputs in the Niri Wayland compositor
+
+
+
+- id: niriDSA
+- name: Niri Display Settings Advance
+- author: JDKamalakar
+- compositors: niri
+- capabilities: control-center, dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-Niri_Display_Settings/refs/heads/main/assets/Full-Screen_UI.png)
 
 </details>
 
@@ -7083,6 +7141,35 @@ Display Islamic prayer times from Aladhan API
 
 
 
+#### [Proton VPN](https://github.com/JDKamalakar/DMS-Proton_VPN)
+
+Proton VPN client using pVPN backend CLI.
+
+
+
+- id: protonVPN
+- name: Proton VPN
+- author: JDKamalakar
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: pvpn
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-Proton_VPN/refs/heads/main/assets/POP-Up_UI.png)
+
+</details>
+
+
+
+
+
 #### [Pulsar X3 Mouse](https://github.com/jonkristian/dms-pulsar-x3)
 
 Monitor and control your Pulsar X3 gaming mouse
@@ -7210,7 +7297,7 @@ Quick access to recent downloads, screenshots, and pinned files (CROS Tote style
 - author: JDKamalakar
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: dms
+- dependencies: 
 - distro: any
 
 
@@ -7447,7 +7534,7 @@ Premium pill-shaped toolbar for quick screenshots and screen recording
 - author: JDKamalakar
 - compositors: any
 - capabilities: ipc
-- dependencies: dms, gpu screen recorder
+- dependencies: gpu screen recorder, slurp, grim, wl-clipboard, satty
 - distro: any
 
 
