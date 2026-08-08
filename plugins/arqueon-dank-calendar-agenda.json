@@ -1,0 +1,31 @@
+{
+    "id": "dankCalendarAgenda",
+    "name": "Dank Calendar Agenda",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "productivity",
+    "repo": "https://github.com/arqueon/dms-dankcalendar",
+    "description": "Next-event countdown for dcal with a scrollable agenda popout grouped by day: click an event to open it in DankCalendar, + creates a new one, right click refreshes, middle click toggles the calendar window. Happening-now events in green, past ones dimmed.",
+    "version": "1.2.0",
+    "author": "arqueon",
+    "icon": "calendar_today",
+    "type": "widget",
+    "component": "./DankCalendarWidget.qml",
+    "settings": "./DankCalendarSettings.qml",
+    "permissions": [
+        "settings_read",
+        "settings_write"
+    ],
+    "dependencies": [
+        "dcal",
+        "jq"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-dankcalendar/main/assets/screenshot.png"
+}

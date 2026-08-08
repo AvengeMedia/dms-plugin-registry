@@ -1,0 +1,13 @@
+{
+    "id": "cursorHighlight",
+    "name": "Cursor Highlight",
+    "capabilities": ["daemon"],
+    "category": "utilities",
+    "repo": "https://github.com/ReyArlena/dms-cursor-highlight",
+    "author": "ReyArlena",
+    "description": "Cursor highlight for presentations, screen sharing or gaming. Rainbow mode, per-style settings, IPC keybind support.",
+    "dependencies": ["python3"],
+    "compositors": ["hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/ReyArlena/dms-cursor-highlight/main/assets/screenshot.png"
+}

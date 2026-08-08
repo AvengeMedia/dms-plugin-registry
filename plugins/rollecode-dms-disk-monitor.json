@@ -1,0 +1,13 @@
+{
+    "id": "diskMonitor",
+    "name": "Disk Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/rollecode/dms-disk-monitor",
+    "author": "Rolle Laukkarinen",
+    "description": "Disk usage as an animated progress bar in your DankBar, refreshed every 30 seconds",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/rollecode/dms-disk-monitor/main/Screenshot.png"
+}

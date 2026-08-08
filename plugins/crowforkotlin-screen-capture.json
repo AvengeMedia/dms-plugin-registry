@@ -1,0 +1,19 @@
+{
+  "id": "screenCapture",
+  "name": "Screen Capture",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/crowforkotlin/dms-screen-capture",
+  "author": "crowforkotlin",
+  "description": "Take screenshots using Niri's built-in command with area, full screen and active window modes",
+  "dependencies": [],
+  "compositors": [
+    "niri"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/crowforkotlin/dms-screen-capture/main/Screenshot.png"
+}

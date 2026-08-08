@@ -1,0 +1,13 @@
+{
+    "id": "audioOutputMonitor",
+    "name": "Audio Output Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "audio",
+    "repo": "https://github.com/thiswod/dank-audio-output-monitor",
+    "author": "thiswod",
+    "description": "Identify applications currently or recently using audio output, including short-lived notification sounds.",
+    "dependencies": ["pactl", "pw-mon"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/thiswod/dank-audio-output-monitor/main/assets/screenshot.png"
+}
