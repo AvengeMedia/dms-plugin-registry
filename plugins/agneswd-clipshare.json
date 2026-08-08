@@ -8,5 +8,6 @@
     "description": "Record a screen region, compress it for sharing, or upload it to Catbox with an optional Autocompressor embed link.",
     "dependencies": ["gpu-screen-recorder", "ffmpeg", "slurp", "pactl", "curl", "jq"],
     "compositors": ["niri"],
-    "distro": ["arch"]
+    "distro": ["arch"],
+    "screenshot": "https://raw.githubusercontent.com/agneswd/dms-clipshare/main/assets/screenshot.png"
 }
