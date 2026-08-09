@@ -1,0 +1,13 @@
+{
+    "id": "modernClock",
+    "name": "Modern Clock",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/beefsizzle/ModernClockDMS",
+    "author": "beefsizzle",
+    "description": "Minimal desktop clock with a large day name over the date and time - a port of Prayag2's KDE Modern Clock plasmoid",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/beefsizzle/ModernClockDMS/main/docs/screenshot.png"
+}
