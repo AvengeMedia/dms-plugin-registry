@@ -197,6 +197,35 @@ Animated wallpaper support using linux-wallpaperengine with Steam Workshop scene
 
 
 
+#### [Material Weather](https://github.com/notsopreety/materialWeather)
+
+Android Material You 3 styled weather widget with current conditions, forecasts, and dynamic shapes
+
+
+
+- id: materialWeather
+- name: Material Weather
+- author: notsopreety (Samir Badaila)
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/notsopreety/materialWeather/main/assets/cookie-badge-stadium.png)
+
+</details>
+
+
+
+
+
 #### [Media Frame](https://codeberg.org/claymorwan/dms-plugins)
 
 Desktop plugin to display a picture on your desktop
