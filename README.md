@@ -5675,6 +5675,35 @@ Search and browse GIFs powered by Klipy
 
 
 
+#### [Gaze Authentication](https://github.com/arqueon/dms-gaze-auth)
+
+Inspect Gaze face-authentication health and DMS lock integration without changing PAM or biometric data.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: gazeAuth
+- name: Gaze Authentication
+- author: arqueon
+- compositors: any
+- capabilities: control-center, authentication, command-execution
+- dependencies: bash, gaze, systemctl, xdg-open
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-gaze-auth/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [GitHub Heatmap Plus](https://github.com/maxlen727/DMS-GitHub_HeatMap_Plus)
 
 GitHub contribution heatmap for DankBar and your desktop, with color-coded activity levels and theme-aware styling.
