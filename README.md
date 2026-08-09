@@ -3064,6 +3064,40 @@ Manage Lenovo battery settings like conservation mode
 
 
 
+#### [Mihomo VPN](https://github.com/korbash/mihomo-dms-widget)
+
+Monitor and control Mihomo proxy groups, switch nodes, and run latency checks from DankBar
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: mihomoVpn
+- name: Mihomo VPN
+- author: korbash
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: mihomo, curl, jq
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugin](https://github.com/korbash/mihomo-dms-widget/tree/main/plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/korbash/mihomo-dms-widget/main/assets/mihomo-vpn.png)
+
+</details>
+
+
+
+
+
 #### [Next Boot Selector](https://github.com/arcatva/dms-next-boot-selector)
 
 Pick which EFI boot entry to load on next reboot via efibootmgr. Bar pill + Control Center widget with a scrollable picker.
