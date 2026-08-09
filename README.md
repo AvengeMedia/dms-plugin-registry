@@ -6662,6 +6662,35 @@ A desktop media player widget
 
 
 
+#### [Modern Clock](https://github.com/beefsizzle/ModernClockDMS)
+
+Minimal desktop clock with a large day name over the date and time - a port of Prayag2's KDE Modern Clock plasmoid
+
+
+
+- id: modernClock
+- name: Modern Clock
+- author: beefsizzle
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/beefsizzle/ModernClockDMS/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Music Lyrics](https://github.com/gasiyu/dms-plugin-musiclyrics)
 
 Display synced music lyrics from multiple sources.
