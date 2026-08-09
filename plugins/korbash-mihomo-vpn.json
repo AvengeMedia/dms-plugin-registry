@@ -1,0 +1,15 @@
+{
+    "id": "mihomoVpn",
+    "name": "Mihomo VPN",
+    "capabilities": ["vpn", "network", "dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/korbash/mihomo-dms-widget",
+    "path": "plugin",
+    "author": "korbash",
+    "description": "Monitor and control Mihomo proxy groups, switch nodes, and run latency checks from DankBar",
+    "dependencies": ["mihomo", "curl", "jq"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/korbash/mihomo-dms-widget/main/assets/mihomo-vpn.png",
+    "requires_dms": ">=1.5.0"
+}
