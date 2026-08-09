@@ -1,7 +1,7 @@
 {
     "id": "mihomoVpn",
     "name": "Mihomo VPN",
-    "capabilities": ["vpn", "network", "dankbar-widget"],
+    "capabilities": ["dankbar-widget"],
     "category": "system",
     "repo": "https://github.com/korbash/mihomo-dms-widget",
     "path": "plugin",
