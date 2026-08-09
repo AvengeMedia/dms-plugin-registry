@@ -3962,6 +3962,35 @@ Advanced clipboard manager with integrated notes, todo, and pinned items.
 
 
 
+#### [ClipShare](https://github.com/agneswd/dms-clipshare)
+
+Record a screen region, compress it for sharing, or upload it to Catbox with an optional Autocompressor embed link.
+
+
+
+- id: clipShare
+- name: ClipShare
+- author: agneswd
+- compositors: any
+- capabilities: daemon, ipc
+- dependencies: gpu-screen-recorder, ffmpeg, slurp, pactl, curl, jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/agneswd/dms-clipshare/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [CodeIsland](https://github.com/payprays/codeIsland-dms)
 
 AI coding session island for DankMaterialShell with Codex, Claude Code, and OpenCode session cards on niri.
