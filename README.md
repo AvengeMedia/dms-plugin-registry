@@ -4286,6 +4286,40 @@ File Manager For DMS - browse, manage and organize files on your desktop
 
 
 
+#### [DMS Ketchup](https://github.com/virtualwolf-369/dms-ketchup)
+
+Ketchup timer with break modal, sounds, and manual resume controls
+
+
+
+- id: dmsKetchup
+- name: DMS Ketchup
+- author: Virtual Wolf 369
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [DankPomodoroTimer](https://github.com/virtualwolf-369/dms-ketchup/tree/main/DankPomodoroTimer) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/virtualwolf-369/dms-ketchup/main/docs/screenshots/panel.png)
+
+</details>
+
+
+
+
+
 #### [DMS Nothing X](https://github.com/Bestello/dms-nothingx)
 
 Control center for Nothing and CMF audio devices
