@@ -1,0 +1,15 @@
+{
+    "id": "materialWeather",
+    "name": "Material Weather",
+    "capabilities": ["desktop-widget"],
+    "category": "appearance",
+    "repo": "https://github.com/notsopreety/materialWeather",
+    "path": "materialWeather",
+    "author": "notsopreety (Samir Badaila)",
+    "description": "Android Material You 3 styled weather widget with current conditions, forecasts, and dynamic shapes",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "version": "0.1.0",
+    "screenshot": "https://raw.githubusercontent.com/notsopreety/materialWeather/main/assets/cookie-badge-stadium.png"
+}
