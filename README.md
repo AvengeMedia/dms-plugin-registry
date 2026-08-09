@@ -671,6 +671,35 @@ Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from
 
 
 
+#### [Material Player & Lyrics](https://github.com/notsopreety/materialPlayer)
+
+Desktop media player widget with real-time synced lyrics and Material You 3 design
+
+
+
+- id: materialPlayer
+- name: Material Player & Lyrics
+- author: Samir Badaila
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: cava, python
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/notsopreety/materialPlayer/refs/heads/main/assets/preview.png)
+
+</details>
+
+
+
+
+
 #### [SPlayer Lyrics (Desktop)](https://github.com/brkp/DMS_splayerLyrics)
 
 Desktop lyrics widget for SPlayer, fetches lyrics from SPlayer's local Netease API
