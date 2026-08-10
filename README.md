@@ -1593,6 +1593,35 @@ Monitor Intel GPU usage, VRAM and temperature in the DankBar with configurable c
 
 
 
+#### [NVIDIA GPU Dankbar Monitor](https://github.com/Reverssss/dms-nvidia-gpu-monitor)
+
+Monitor NVIDIA GPU usage, VRAM, temperature, power consumption and process usage.
+
+
+
+- id: nvidiaGpuDankbarMonitor
+- name: NVIDIA GPU Dankbar Monitor
+- author: Revers
+- compositors: any
+- capabilities: dankbar-widget, monitoring
+- dependencies: nvidia-smi
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Reverssss/dms-nvidia-gpu-monitor/refs/heads/main/docs/images/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [NVIDIA GPU Monitor](https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor)
 
 Monitor NVIDIA GPU usage, VRAM, and temperature.
