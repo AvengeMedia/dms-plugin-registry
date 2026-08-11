@@ -112,7 +112,7 @@ A simple, customizable audio visualizer for your desktop
 
 #### [DMS Theme Sync](https://github.com/arqueon/dms-theme-sync)
 
-Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fontconfig and XWayland apps — theme, light/dark, fonts, sizes, icons and cursor.
+Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fontconfig and XWayland apps — theme, light/dark, fonts, sizes, icons and cursor, with optional Matugen-accent folder colors and Bibata-Material cursor variants.
 
 
 
@@ -121,7 +121,7 @@ Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fo
 - author: arqueon
 - compositors: any
 - capabilities: dankbar-widget, daemon, ipc
-- dependencies: bash
+- dependencies: bash, dbus-send
 - distro: any
 
 
