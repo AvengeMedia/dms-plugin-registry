@@ -4235,7 +4235,7 @@ Universal unit and color converter. Convert distance, weight, temperature, speed
 
 #### [Cursor Highlight](https://github.com/ReyArlena/dms-cursor-highlight)
 
-Cursor highlight for presentations, screen sharing or gaming. Rainbow mode, per-style settings, IPC keybind support.
+Cursor highlight for presentations, screen sharing or gaming. Bar widget toggle, rainbow mode, per-style settings, IPC keybind support.
 
 
 
@@ -4243,7 +4243,7 @@ Cursor highlight for presentations, screen sharing or gaming. Rainbow mode, per-
 - name: Cursor Highlight
 - author: ReyArlena
 - compositors: hyprland
-- capabilities: daemon
+- capabilities: daemon, dankbar-widget, ipc
 - dependencies: python3
 - distro: any
 
