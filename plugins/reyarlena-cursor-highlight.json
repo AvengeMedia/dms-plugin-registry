@@ -1,11 +1,11 @@
 {
     "id": "cursorHighlight",
     "name": "Cursor Highlight",
-    "capabilities": ["daemon"],
+    "capabilities": ["daemon", "dankbar-widget", "ipc"],
     "category": "utilities",
     "repo": "https://github.com/ReyArlena/dms-cursor-highlight",
     "author": "ReyArlena",
-    "description": "Cursor highlight for presentations, screen sharing or gaming. Rainbow mode, per-style settings, IPC keybind support.",
+    "description": "Cursor highlight for presentations, screen sharing or gaming. Bar widget toggle, rainbow mode, per-style settings, IPC keybind support.",
     "dependencies": ["python3"],
     "compositors": ["hyprland"],
     "distro": ["any"],
