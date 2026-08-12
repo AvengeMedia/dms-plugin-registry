@@ -1,0 +1,13 @@
+{
+  "id": "persianCalendar",
+  "name": "Persian Calendar Pro",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/rassoulshah/dms-persian-calendar",
+  "author": "Rassoul Shahsanaii",
+  "description": "A bilingual Persian Jalali calendar with holidays, occasions, custom events, configurable date formats, and a full month popup.",
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/rassoulshah/dms-persian-calendar/main/screenshots/popup.png"
+}

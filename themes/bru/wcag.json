@@ -1,0 +1,103 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "AAA",
+    "minRatio": 7.97,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 10.22,
+      "worstPair": [
+        "surfaceText",
+        "surfaceContainerHighest"
+      ]
+    },
+    "accent": {
+      "level": "AAA",
+      "minRatio": 7.97,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 4.97,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "espresso-blue": "AA",
+      "espresso-green": "AA",
+      "espresso-magenta": "AA",
+      "espresso-orange": "AA",
+      "espresso-red": "AA",
+      "espresso-teal": "AAA",
+      "espresso-violet": "AA",
+      "espresso-yellow": "AAA"
+    },
+    "breakdown": [
+      {
+        "name": "Espresso",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      }
+    ]
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 2.75,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 8.83,
+      "worstPair": [
+        "surfaceText",
+        "surfaceContainerHighest"
+      ]
+    },
+    "accent": {
+      "level": "fail",
+      "minRatio": 2.75,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 3.59,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "latte-blue": "fail",
+      "latte-green": "fail",
+      "latte-magenta": "fail",
+      "latte-orange": "fail",
+      "latte-red": "fail",
+      "latte-teal": "fail",
+      "latte-violet": "fail",
+      "latte-yellow": "fail"
+    },
+    "breakdown": [
+      {
+        "name": "Latte",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
+  }
+}

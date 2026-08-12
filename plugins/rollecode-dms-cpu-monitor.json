@@ -1,0 +1,13 @@
+{
+    "id": "cpuMonitor",
+    "name": "CPU Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/rollecode/dms-cpu-monitor",
+    "author": "Rolle Laukkarinen",
+    "description": "CPU usage as an animated progress bar in your DankBar, updated every second",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/rollecode/dms-cpu-monitor/main/Screenshot.png"
+}

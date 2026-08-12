@@ -1,0 +1,155 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "AA",
+    "minRatio": 5.65,
+    "worstPair": [
+      "surfaceVariantText",
+      "surfaceContainerHigh"
+    ],
+    "body": {
+      "level": "AA",
+      "minRatio": 5.65,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "AAA",
+      "minRatio": 8.07,
+      "worstPair": [
+        "primaryText",
+        "primary"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 7.08,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "frappe-blue": "fail",
+      "frappe-flamingo": "fail",
+      "frappe-green": "fail",
+      "frappe-lavender": "fail",
+      "frappe-maroon": "fail",
+      "frappe-mauve": "fail",
+      "frappe-peach": "fail",
+      "frappe-pink": "fail",
+      "frappe-red": "fail",
+      "frappe-rosewater": "fail",
+      "frappe-sapphire": "fail",
+      "frappe-sky": "fail",
+      "frappe-teal": "fail",
+      "frappe-yellow": "fail",
+      "macchiato-blue": "AA",
+      "macchiato-flamingo": "AA",
+      "macchiato-green": "AA",
+      "macchiato-lavender": "AA",
+      "macchiato-maroon": "AA",
+      "macchiato-mauve": "AA",
+      "macchiato-peach": "AA",
+      "macchiato-pink": "AA",
+      "macchiato-red": "AA",
+      "macchiato-rosewater": "AA",
+      "macchiato-sapphire": "AA",
+      "macchiato-sky": "AA",
+      "macchiato-teal": "AA",
+      "macchiato-yellow": "AA",
+      "mocha-blue": "AA",
+      "mocha-flamingo": "AA",
+      "mocha-green": "AA",
+      "mocha-lavender": "AA",
+      "mocha-maroon": "AA",
+      "mocha-mauve": "AA",
+      "mocha-peach": "AA",
+      "mocha-pink": "AA",
+      "mocha-red": "AA",
+      "mocha-rosewater": "AA",
+      "mocha-sapphire": "AA",
+      "mocha-sky": "AA",
+      "mocha-teal": "AA",
+      "mocha-yellow": "AA"
+    },
+    "breakdown": [
+      {
+        "name": "Mocha",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Macchiato",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Frapp\u00e9",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 3.2,
+    "worstPair": [
+      "surfaceVariantText",
+      "surfaceContainerHigh"
+    ],
+    "body": {
+      "level": "fail",
+      "minRatio": 3.2,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "fail",
+      "minRatio": 4.45,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "fail",
+      "minRatio": 2.45,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "latte-blue": "fail",
+      "latte-flamingo": "fail",
+      "latte-green": "fail",
+      "latte-lavender": "fail",
+      "latte-maroon": "fail",
+      "latte-mauve": "fail",
+      "latte-peach": "fail",
+      "latte-pink": "fail",
+      "latte-red": "fail",
+      "latte-rosewater": "fail",
+      "latte-sapphire": "fail",
+      "latte-sky": "fail",
+      "latte-teal": "fail",
+      "latte-yellow": "fail"
+    },
+    "breakdown": [
+      {
+        "name": "Latte",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
+  }
+}

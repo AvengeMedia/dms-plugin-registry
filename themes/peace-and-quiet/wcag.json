@@ -1,0 +1,159 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "AAA",
+    "minRatio": 8.5,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 14.26,
+      "worstPair": [
+        "surfaceText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "AAA",
+      "minRatio": 8.5,
+      "worstPair": [
+        "primaryText",
+        "primary"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 8.66,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "blue": "AAA",
+      "cyan": "AAA",
+      "lavender": "AAA",
+      "mint": "AAA",
+      "pink": "AAA",
+      "salmon": "AAA"
+    },
+    "breakdown": [
+      {
+        "name": "Salmon",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Cyan",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Mint",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Lavender",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Blue",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Pink",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      }
+    ]
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 3.65,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 10.89,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "fail",
+      "minRatio": 3.65,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "fail",
+      "minRatio": 2.85,
+      "worstPair": [
+        "info",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "blue": "AA",
+      "cyan": "fail",
+      "lavender": "AA",
+      "mint": "fail",
+      "pink": "AA",
+      "salmon": "fail"
+    },
+    "breakdown": [
+      {
+        "name": "Salmon",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Cyan",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Mint",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Lavender",
+        "mode": "light",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Blue",
+        "mode": "light",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Pink",
+        "mode": "light",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      }
+    ]
+  }
+}

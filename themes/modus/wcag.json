@@ -1,0 +1,187 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "fail",
+    "minRatio": 2.67,
+    "worstPair": [
+      "surfaceVariantText",
+      "surfaceContainerHigh"
+    ],
+    "body": {
+      "level": "fail",
+      "minRatio": 2.67,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "AA",
+      "minRatio": 5.47,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 4.42,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "vivendi-blue": "fail",
+      "vivendi-cyan": "fail",
+      "vivendi-deuteranopia-blue": "fail",
+      "vivendi-deuteranopia-cyan": "fail",
+      "vivendi-deuteranopia-green": "fail",
+      "vivendi-deuteranopia-magenta": "fail",
+      "vivendi-deuteranopia-purple": "fail",
+      "vivendi-deuteranopia-red": "fail",
+      "vivendi-deuteranopia-warmer-blue": "fail",
+      "vivendi-deuteranopia-yellow": "fail",
+      "vivendi-green": "fail",
+      "vivendi-magenta": "fail",
+      "vivendi-purple": "fail",
+      "vivendi-red": "fail",
+      "vivendi-tinted-blue": "fail",
+      "vivendi-tinted-cyan": "fail",
+      "vivendi-tinted-green": "fail",
+      "vivendi-tinted-magenta": "fail",
+      "vivendi-tinted-purple": "fail",
+      "vivendi-tinted-red": "fail",
+      "vivendi-tinted-warmer-blue": "fail",
+      "vivendi-tinted-yellow": "fail",
+      "vivendi-tritanopia-blue": "fail",
+      "vivendi-tritanopia-cyan": "fail",
+      "vivendi-tritanopia-green": "fail",
+      "vivendi-tritanopia-magenta": "fail",
+      "vivendi-tritanopia-purple": "fail",
+      "vivendi-tritanopia-red": "fail",
+      "vivendi-tritanopia-warmer-blue": "fail",
+      "vivendi-tritanopia-yellow": "fail",
+      "vivendi-warmer-blue": "fail",
+      "vivendi-yellow": "fail"
+    },
+    "breakdown": [
+      {
+        "name": "Standard",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Tinted",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Deuteranopia",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Tritanopia",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 4.02,
+    "worstPair": [
+      "surfaceVariantText",
+      "surfaceContainerHigh"
+    ],
+    "body": {
+      "level": "fail",
+      "minRatio": 4.02,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "AAA",
+      "minRatio": 7.91,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 5.35,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "operandi-blue": "fail",
+      "operandi-cyan": "fail",
+      "operandi-deuteranopia-blue": "fail",
+      "operandi-deuteranopia-cyan": "fail",
+      "operandi-deuteranopia-green": "fail",
+      "operandi-deuteranopia-magenta": "fail",
+      "operandi-deuteranopia-purple": "fail",
+      "operandi-deuteranopia-red": "fail",
+      "operandi-deuteranopia-warmer-blue": "fail",
+      "operandi-deuteranopia-yellow": "fail",
+      "operandi-green": "fail",
+      "operandi-magenta": "fail",
+      "operandi-purple": "fail",
+      "operandi-red": "fail",
+      "operandi-tinted-blue": "fail",
+      "operandi-tinted-cyan": "fail",
+      "operandi-tinted-green": "fail",
+      "operandi-tinted-magenta": "fail",
+      "operandi-tinted-purple": "fail",
+      "operandi-tinted-red": "fail",
+      "operandi-tinted-warmer-blue": "fail",
+      "operandi-tinted-yellow": "fail",
+      "operandi-tritanopia-blue": "fail",
+      "operandi-tritanopia-cyan": "fail",
+      "operandi-tritanopia-green": "fail",
+      "operandi-tritanopia-magenta": "fail",
+      "operandi-tritanopia-purple": "fail",
+      "operandi-tritanopia-red": "fail",
+      "operandi-tritanopia-warmer-blue": "fail",
+      "operandi-tritanopia-yellow": "fail",
+      "operandi-warmer-blue": "fail",
+      "operandi-yellow": "fail"
+    },
+    "breakdown": [
+      {
+        "name": "Standard",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Tinted",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Deuteranopia",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      },
+      {
+        "name": "Tritanopia",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "fail"
+      }
+    ]
+  }
+}
