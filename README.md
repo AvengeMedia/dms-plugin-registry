@@ -521,7 +521,7 @@ Identify applications currently or recently using audio output, including short-
 - author: thiswod
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: pactl, pw-mon
+- dependencies: pactl, pw-mon, parec, python3
 - distro: any
 
 
