@@ -3388,6 +3388,35 @@ Bar widget: monitor removable USB drives, mount/unmount, eject, format (FAT32/ex
 
 
 
+#### [VMonitorSRV](https://github.com/JessVolet/VMonitorSRV)
+
+Monitor remote Linux servers running Glances: CPU, RAM, Btrfs subvolumes, network interfaces, and Podman containers.
+
+
+
+- id: vMonitorSRV
+- name: VMonitorSRV
+- author: JessVolet
+- compositors: any
+- capabilities: dankbar-widget, desktop-widget
+- dependencies: python3, glances, glances-dotfiles
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JessVolet/VMonitorSRV/main/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
