@@ -12,10 +12,10 @@
     "gpu-screen-recorder"
   ],
   "compositors": [
-    "hyprland"
+    "any"
   ],
   "distro": [
-    "arch"
+    "any"
   ],
   "requires_dms": ">=1.2.0",
   "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-screen-recorder/main/assets/screenshot.png"
