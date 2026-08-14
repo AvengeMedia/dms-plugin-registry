@@ -112,7 +112,7 @@ A simple, customizable audio visualizer for your desktop
 
 #### [DMS Theme Sync](https://github.com/arqueon/dms-theme-sync)
 
-Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fontconfig and XWayland apps — theme, light/dark, fonts, sizes, icons and cursor.
+Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fontconfig and XWayland apps — theme, light/dark, fonts, sizes, icons and cursor, with optional Matugen-accent folder colors and Bibata-Material cursor variants.
 
 
 
@@ -121,7 +121,7 @@ Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fo
 - author: arqueon
 - compositors: any
 - capabilities: dankbar-widget, daemon, ipc
-- dependencies: bash
+- dependencies: bash, dbus-send
 - distro: any
 
 
@@ -190,6 +190,35 @@ Animated wallpaper support using linux-wallpaperengine with Steam Workshop scene
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/sgtaziz/dms-wallpaperengine/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Material Weather](https://github.com/notsopreety/materialWeather)
+
+Android Material You 3 styled weather widget with current conditions, forecasts, and dynamic shapes
+
+
+
+- id: materialWeather
+- name: Material Weather
+- author: notsopreety (Samir Badaila)
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/notsopreety/materialWeather/main/assets/cookie-badge-stadium.png)
 
 </details>
 
@@ -492,7 +521,7 @@ Identify applications currently or recently using audio output, including short-
 - author: thiswod
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: pactl, pw-mon
+- dependencies: pactl, pw-mon, parec, python3
 - distro: any
 
 
@@ -635,6 +664,35 @@ Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/odtgit/DankAudioVisualizer/main/preview.png)
+
+</details>
+
+
+
+
+
+#### [Material Player & Lyrics](https://github.com/notsopreety/materialPlayer)
+
+Desktop media player widget with real-time synced lyrics and Material You 3 design
+
+
+
+- id: materialPlayer
+- name: Material Player & Lyrics
+- author: Samir Badaila
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: cava, python
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/notsopreety/materialPlayer/refs/heads/main/assets/preview.png)
 
 </details>
 
@@ -1535,6 +1593,35 @@ Monitor Intel GPU usage, VRAM and temperature in the DankBar with configurable c
 
 
 
+#### [NVIDIA GPU Dankbar Monitor](https://github.com/Reverssss/dms-nvidia-gpu-monitor)
+
+Monitor NVIDIA GPU usage, VRAM, temperature, power consumption and process usage.
+
+
+
+- id: nvidiaGpuDankbarMonitor
+- name: NVIDIA GPU Dankbar Monitor
+- author: Revers
+- compositors: any
+- capabilities: dankbar-widget, monitoring
+- dependencies: nvidia-smi
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Reverssss/dms-nvidia-gpu-monitor/refs/heads/main/docs/images/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [NVIDIA GPU Monitor](https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor)
 
 Monitor NVIDIA GPU usage, VRAM, and temperature.
@@ -1794,40 +1881,6 @@ Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png)
-
-</details>
-
-
-
-
-
-#### [Sysmon](https://github.com/rtabulov/dms-sysmon)
-
-Compact DankBar Pill of system resource Items with a graph Popout
-
-
-
-- id: sysmon
-- name: Sysmon
-- author: rassul
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: dgop
-- distro: any
-
-
-
-> [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugin](https://github.com/rtabulov/dms-sysmon/tree/main/plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/rtabulov/dms-sysmon/main/plugin/assets/popout.png)
 
 </details>
 
@@ -3006,6 +3059,40 @@ Manage Lenovo battery settings like conservation mode
 
 
 
+#### [Mihomo VPN](https://github.com/korbash/mihomo-dms-widget)
+
+Monitor and control Mihomo proxy groups, switch nodes, and run latency checks from DankBar
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: mihomoVpn
+- name: Mihomo VPN
+- author: korbash
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: mihomo, curl, jq
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugin](https://github.com/korbash/mihomo-dms-widget/tree/main/plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/korbash/mihomo-dms-widget/main/assets/mihomo-vpn.png)
+
+</details>
+
+
+
+
+
 #### [Next Boot Selector](https://github.com/arcatva/dms-next-boot-selector)
 
 Pick which EFI boot entry to load on next reboot via efibootmgr. Bar pill + Control Center widget with a scrollable picker.
@@ -3260,6 +3347,35 @@ Bar widget: monitor removable USB drives, mount/unmount, eject, format (FAT32/ex
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/NordicsSys/dms-usb-manager/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [VMonitorSRV](https://github.com/JessVolet/VMonitorSRV)
+
+Monitor remote Linux servers running Glances: CPU, RAM, Btrfs subvolumes, network interfaces, and Podman containers.
+
+
+
+- id: vMonitorSRV
+- name: VMonitorSRV
+- author: JessVolet
+- compositors: any
+- capabilities: dankbar-widget, desktop-widget
+- dependencies: python3, glances, glances-dotfiles
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/JessVolet/VMonitorSRV/main/screenshot.png)
 
 </details>
 
@@ -3962,6 +4078,35 @@ Advanced clipboard manager with integrated notes, todo, and pinned items.
 
 
 
+#### [ClipShare](https://github.com/agneswd/dms-clipshare)
+
+Record a screen region, compress it for sharing, or upload it to Catbox with an optional Autocompressor embed link.
+
+
+
+- id: clipShare
+- name: ClipShare
+- author: agneswd
+- compositors: any
+- capabilities: daemon, ipc
+- dependencies: gpu-screen-recorder, ffmpeg, slurp, pactl, curl, jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/agneswd/dms-clipshare/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [CodeIsland](https://github.com/payprays/codeIsland-dms)
 
 AI coding session island for DankMaterialShell with Codex, Claude Code, and OpenCode session cards on niri.
@@ -4085,7 +4230,7 @@ Universal unit and color converter. Convert distance, weight, temperature, speed
 
 #### [Cursor Highlight](https://github.com/ReyArlena/dms-cursor-highlight)
 
-Cursor highlight for presentations, screen sharing or gaming. Rainbow mode, per-style settings, IPC keybind support.
+Cursor highlight for presentations, screen sharing or gaming. Bar widget toggle, rainbow mode, per-style settings, IPC keybind support.
 
 
 
@@ -4093,7 +4238,7 @@ Cursor highlight for presentations, screen sharing or gaming. Rainbow mode, per-
 - name: Cursor Highlight
 - author: ReyArlena
 - compositors: hyprland
-- capabilities: daemon
+- capabilities: daemon, dankbar-widget, ipc
 - dependencies: python3
 - distro: any
 
@@ -4279,6 +4424,40 @@ File Manager For DMS - browse, manage and organize files on your desktop
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [DMS Ketchup](https://github.com/virtualwolf-369/dms-ketchup)
+
+Ketchup timer with break modal, sounds, and manual resume controls
+
+
+
+- id: dmsKetchup
+- name: DMS Ketchup
+- author: Virtual Wolf 369
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [DankPomodoroTimer](https://github.com/virtualwolf-369/dms-ketchup/tree/main/DankPomodoroTimer) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/virtualwolf-369/dms-ketchup/main/docs/screenshots/panel.png)
 
 </details>
 
@@ -5612,6 +5791,35 @@ Search and browse GIFs powered by Klipy
 
 
 
+#### [Gaze Authentication](https://github.com/arqueon/dms-gaze-auth)
+
+Inspect Gaze face-authentication health and DMS lock integration without changing PAM or biometric data.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: gazeAuth
+- name: Gaze Authentication
+- author: arqueon
+- compositors: any
+- capabilities: control-center, authentication, command-execution
+- dependencies: bash, gaze, systemctl, xdg-open
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/arqueon/dms-gaze-auth/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [GitHub Heatmap Plus](https://github.com/maxlen727/DMS-GitHub_HeatMap_Plus)
 
 GitHub contribution heatmap for DankBar and your desktop, with color-coded activity levels and theme-aware styling.
@@ -6534,6 +6742,35 @@ A desktop media player widget
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/arrifat346afs/mediaPlayer/refs/heads/main/screenshot_8.png)
+
+</details>
+
+
+
+
+
+#### [Modern Clock](https://github.com/beefsizzle/ModernClockDMS)
+
+Minimal desktop clock with a large day name over the date and time - a port of Prayag2's KDE Modern Clock plasmoid
+
+
+
+- id: modernClock
+- name: Modern Clock
+- author: beefsizzle
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/beefsizzle/ModernClockDMS/main/docs/screenshot.png)
 
 </details>
 
@@ -7554,7 +7791,7 @@ Premium pill-shaped toolbar for quick screenshots and screen recording
 
 #### [Screen Recorder](https://github.com/arqueon/dms-screen-recorder)
 
-Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Supports IPC keybinds.
+Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Audio modes: system audio, microphone, both mixed, or both as separate tracks. IPC keybinds and Control Center toggle.
 
 
 
@@ -7562,7 +7799,7 @@ Start, stop, and configure screen captures with gpu-screen-recorder on any Wayla
 - name: Screen Recorder
 - author: arqueon
 - compositors: any
-- capabilities: dankbar-widget
+- capabilities: daemon, dankbar-widget, control-center
 - dependencies: gpu-screen-recorder
 - distro: any
 
@@ -7632,6 +7869,35 @@ Record screen or selected area using wf-recorder with configurable codec, framer
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/crowforkotlin/dms-screen-recorder/main/Screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Screen Recorder YS](https://github.com/smithyyang/dms-screen-recorder)
+
+GPU-accelerated monitor recording with VFR, quality and resolution controls, cursor capture, countdown, and independently selectable system and microphone audio.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: screenRecorderYS
+- name: Screen Recorder YS
+- author: youngshine
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: gpu-screen-recorder
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/smithyyang/dms-screen-recorder/main/assets/screenshot.png)
 
 </details>
 
