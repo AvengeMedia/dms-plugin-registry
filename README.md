@@ -9624,6 +9624,20 @@ All natural pine, faux fur and a bit of soho vibes for the classy minimalist
 
 
 
+### Sayafushi
+
+because it's too sharp to exist
+
+- **Author:** r3everb
+- **ID:** `sayafushi` **Version:** `1.0.0`
+
+![WCAG AAA](https://img.shields.io/badge/WCAG_contrast-AAA-brightgreen)
+
+
+![Sayafushi](themes/sayafushi/preview.svg)
+
+
+
 ### Solarized Osaka Night
 
 Solarized Osaka inspired theme darker
