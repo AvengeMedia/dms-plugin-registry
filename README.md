@@ -7791,7 +7791,7 @@ Premium pill-shaped toolbar for quick screenshots and screen recording
 
 #### [Screen Recorder](https://github.com/arqueon/dms-screen-recorder)
 
-Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Supports IPC keybinds.
+Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Audio modes: system audio, microphone, both mixed, or both as separate tracks. IPC keybinds and Control Center toggle.
 
 
 
@@ -7799,7 +7799,7 @@ Start, stop, and configure screen captures with gpu-screen-recorder on any Wayla
 - name: Screen Recorder
 - author: arqueon
 - compositors: any
-- capabilities: dankbar-widget
+- capabilities: daemon, dankbar-widget, control-center
 - dependencies: gpu-screen-recorder
 - distro: any
 
