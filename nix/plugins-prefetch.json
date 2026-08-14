@@ -8984,12 +8984,12 @@
     "url": "https://github.com/SakuraToErii/DmsScreenOff"
   },
   "screenRecorder": {
-    "date": "2026-07-12T10:51:23-06:00",
+    "date": "2026-08-13T17:44:45-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-whTko1MNMAL21gCOgXMlXyaRGAuIOrfZRkpHauwUrIQ=",
+    "hash": "sha256-EBt5JDjXeNkkn+8M879tGnpekGTc22965KSxAn9GRmU=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -9013,10 +9013,10 @@
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png",
       "version": "1.4.0"
     },
-    "path": "/nix/store/q2zd1bhwbcfzd2g4fawgyc2qawxc1sfj-dms-screen-recorder",
-    "rev": "6d8ae9722e8a2129db771a3337ff6964685fd447",
+    "path": "/nix/store/wmriggwji566mi4igrwdar6yyx3wds54-dms-screen-recorder",
+    "rev": "69c2cb758d2aa4b8a77123887e178a0439351c67",
     "rootDir": "",
-    "sha256": "115c2kn6lisa8vcvffl81cc929jz4mrq33h0svv04c0dafiy8562",
+    "sha256": "0ra68rzh5cd4wix6znywcj85wyhsdnzz637gkwjdjy6p70j7j6qh",
     "url": "https://github.com/arqueon/dms-screen-recorder"
   },
   "screenRecorderLH": {
@@ -9098,6 +9098,43 @@
     "rootDir": "",
     "sha256": "0siz94npn2w83sgirvl9an585vxpjbag8pnh16lc41c5wbnlmyfl",
     "url": "https://github.com/crowforkotlin/dms-screen-recorder"
+  },
+  "screenRecorderYS": {
+    "date": "2026-08-13T21:55:30+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-48YAAtugDOOQPIGltM0KRDjMuB8K2L+XFcbbik2wLYc=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "youngshine",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "gpu-screen-recorder"
+      ],
+      "description": "GPU-accelerated monitor recording with VFR, quality and resolution controls, cursor capture, countdown, and independently selectable system and microphone audio.",
+      "distro": [
+        "any"
+      ],
+      "id": "screenRecorderYS",
+      "name": "Screen Recorder YS",
+      "repo": "https://github.com/smithyyang/dms-screen-recorder",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-screen-recorder/main/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/fw1zfxaipr2i8lk2cwhrncmf9csnm5s1-dms-screen-recorder",
+    "rev": "e3014914bd0efae92ba525dff52919eea39b58c3",
+    "rootDir": "",
+    "sha256": "11rdn16qmny62nbvzn0a3ywcqf241b6v99c17j8f6350vc101ip3",
+    "url": "https://github.com/smithyyang/dms-screen-recorder"
   },
   "screenkey": {
     "date": "2026-08-07T19:05:36+07:00",
