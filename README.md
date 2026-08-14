@@ -1143,6 +1143,35 @@ Claude Code 5-hour and weekly subscription limits in your bar, as theme-colored 
 
 
 
+#### [CodeBurn](https://github.com/gtheys/dms-codeburn)
+
+Monitor AI coding assistant token usage and costs from DankBar — cost pill, popup dashboard with insights, budget alerts, and multi-currency conversion
+
+
+
+- id: codeburn
+- name: CodeBurn
+- author: Geert Theys
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: codeburn, bash, jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/gtheys/dms-codeburn/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Codeforces Heatmap](https://github.com/EchoSingh/codeforces-dms-plugin)
 
 Display daily Codeforces problem solving activity with a color-coded heatmap
