@@ -8984,17 +8984,19 @@
     "url": "https://github.com/SakuraToErii/DmsScreenOff"
   },
   "screenRecorder": {
-    "date": "2026-08-13T17:44:45-06:00",
+    "date": "2026-08-13T19:33:58-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-EBt5JDjXeNkkn+8M879tGnpekGTc22965KSxAn9GRmU=",
+    "hash": "sha256-Azssq4fuyhVVjtOgusY8mZ2l+CObb2RoDuEkrUSaFqI=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
       "capabilities": [
-        "dankbar-widget"
+        "daemon",
+        "dankbar-widget",
+        "control-center"
       ],
       "category": "utilities",
       "compositors": [
@@ -9003,7 +9005,7 @@
       "dependencies": [
         "gpu-screen-recorder"
       ],
-      "description": "Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Supports IPC keybinds.",
+      "description": "Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Audio modes: system audio, microphone, both mixed, or both as separate tracks. IPC keybinds and Control Center toggle.",
       "distro": [
         "any"
       ],
@@ -9011,12 +9013,12 @@
       "name": "Screen Recorder",
       "repo": "https://github.com/arqueon/dms-screen-recorder",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png",
-      "version": "1.4.0"
+      "version": "1.5.0"
     },
-    "path": "/nix/store/wmriggwji566mi4igrwdar6yyx3wds54-dms-screen-recorder",
-    "rev": "69c2cb758d2aa4b8a77123887e178a0439351c67",
+    "path": "/nix/store/inizk14nzjgrmf0g0cmmp81bsyhjd59v-dms-screen-recorder",
+    "rev": "1c3464e4644076fea31e5e7d6987b8b9354df288",
     "rootDir": "",
-    "sha256": "0ra68rzh5cd4wix6znywcj85wyhsdnzz637gkwjdjy6p70j7j6qh",
+    "sha256": "18hnk92as9711rl68vwv4gwab7cr7k3bm86kiraibjpfhymjqfq3",
     "url": "https://github.com/arqueon/dms-screen-recorder"
   },
   "screenRecorderLH": {
