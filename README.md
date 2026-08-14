@@ -7876,6 +7876,35 @@ Record screen or selected area using wf-recorder with configurable codec, framer
 
 
 
+#### [Screen Recorder YS](https://github.com/smithyyang/dms-screen-recorder)
+
+GPU-accelerated monitor recording with VFR, quality and resolution controls, cursor capture, countdown, and independently selectable system and microphone audio.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: screenRecorderYS
+- name: Screen Recorder YS
+- author: youngshine
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: gpu-screen-recorder
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/smithyyang/dms-screen-recorder/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Screenkey](https://github.com/hthienloc/dms-screenkey)
 
 An always-on-top keystroke and mouse click visualizer for tutorials.
