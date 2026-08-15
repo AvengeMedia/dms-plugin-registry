@@ -5138,9 +5138,9 @@ GPG/SSH passphrase entry with native DMS modal.
 
 
 
-#### [Dankmail Unread](https://github.com/arqueon/dms-dankmail)
+#### [Dankmail Unread](https://github.com/arqueon/dankmail)
 
-Live unread mail badge for dankmail with a triage popout: recent inbox with per-message actions, compose, sync and DND. Requires the dmail daemon.
+The DankMaterialShell companion shipped with Dankmail: live unread status and quick triage powered by the same dmail daemon.
 
 
 
@@ -5154,12 +5154,17 @@ Live unread mail badge for dankmail with a triage popout: recent inbox with per-
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [dms-plugin](https://github.com/arqueon/dankmail/tree/main/dms-plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/arqueon/dms-dankmail/main/assets/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/arqueon/dankmail/main/assets/screenshot.png)
 
 </details>
 
