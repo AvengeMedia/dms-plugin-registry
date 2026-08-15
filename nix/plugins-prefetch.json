@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-08-13T14:15:55-03:00",
+    "date": "2026-08-14T23:50:49-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-k3DOraPvTpIFukoiwF02IyY/+tp7RATSB/p9gaSnaQA=",
+    "hash": "sha256-vq0exHXUjjLZiilkrYEjl041NtRGucTeb9fC/SbbtcA=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -178,12 +178,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.9.1"
+      "version": "1.10.0"
     },
-    "path": "/nix/store/4jn51m7kva87xjp5kc411g9isargw69w-AiOverviewControl",
-    "rev": "fa21899300f71e20e840e1b3517904850f2082ff",
+    "path": "/nix/store/l6x1ldp9xj8nihlw1d98cmbcjb0wa5hj-AiOverviewControl",
+    "rev": "8c550987417606c9d500ac2e983ea77170502f8a",
     "rootDir": "",
-    "sha256": "0039lyj82zgs0z908i3vvbx3y9i36rfw08jap82r4kpglfnwww4k",
+    "sha256": "1h5mvckgvhnpdzgc9fa6shv3aklp4f0ssr19ibck53nlfp21xbdy",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
@@ -2245,12 +2245,12 @@
     "url": "https://github.com/alcxyz/DankCalendar"
   },
   "dankCalendarAgenda": {
-    "date": "2026-08-07T11:46:49-06:00",
+    "date": "2026-08-15T02:31:55-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-HQIOR9Nwai115prdY4M3pX6y7ZYgfYq8NID6EX2Q5ug=",
+    "hash": "sha256-Ud7I1+EIDCXep/02mCR8wwu1D66jy/F6VzjX0tvsvbo=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -2281,12 +2281,12 @@
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-dankcalendar/main/assets/screenshot.png",
       "settings": "./DankCalendarSettings.qml",
       "type": "widget",
-      "version": "1.2.1"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/knbz8i882b0aylypxvcymzy5mx9hlcmr-dms-dankcalendar",
-    "rev": "03085860494486912069e303757679fc73e64cb1",
+    "path": "/nix/store/g7d67x1nainpsz14xlp1mgjz6s9dazdh-dms-dankcalendar",
+    "rev": "a592b4954ded272303d76fe5c85663a0fad1cdaf",
     "rootDir": "",
-    "sha256": "1s76j1yi3yl06jy8lz90jvnv4zm56y1n7pcswrsjsskhsd3hw0hx",
+    "sha256": "1fmxxkdx5mrqaxxg3jx3mq7va2y3ghj9hdpxlzg2a308w7bwipji",
     "url": "https://github.com/arqueon/dms-dankcalendar"
   },
   "dankCleaner": {
@@ -3423,12 +3423,12 @@
     "url": "https://github.com/alcxyz/DankVault"
   },
   "dankmailUnread": {
-    "date": "2026-08-07T11:46:45-06:00",
+    "date": "2026-08-15T02:31:55-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Y+oSXzzhnG7tJg1olttOefxj6nlL2kwR9jQYxYvIO7Y=",
+    "hash": "sha256-i7r52HI4bpmMsPFa6XAG8X2Lt2otiRfp5jpv1ppypqw=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -3442,21 +3442,22 @@
       "dependencies": [
         "dmail"
       ],
-      "description": "Live unread mail badge for dankmail with a triage popout: recent inbox with per-message actions, compose, sync and DND. Requires the dmail daemon.",
+      "description": "The DankMaterialShell companion shipped with Dankmail: live unread status and quick triage powered by the same dmail daemon.",
       "distro": [
         "any"
       ],
       "id": "dankmailUnread",
       "name": "Dankmail Unread",
-      "repo": "https://github.com/arqueon/dms-dankmail",
-      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-dankmail/main/assets/screenshot.png",
-      "version": "0.1.2"
+      "path": "dms-plugin",
+      "repo": "https://github.com/arqueon/dankmail",
+      "screenshot": "https://raw.githubusercontent.com/arqueon/dankmail/main/assets/screenshot.png",
+      "version": "0.2.0"
     },
-    "path": "/nix/store/bzk1fpsw9lyv9y9vl8099hj8sl2vhyf7-dms-dankmail",
-    "rev": "77fb5bb6a4998b99b50aede937b59c25fef180dc",
+    "path": "/nix/store/8rr1fk39qrr8chijz6iifjrrc4v73ws9-dankmail",
+    "rev": "f3ed4bea8085e44daa44d4be5880cc5a02693c85",
     "rootDir": "",
-    "sha256": "1divr25wa61lyq8lrnjbg7m67z3r9vdrcs0d4vnnx7717igi5sk3",
-    "url": "https://github.com/arqueon/dms-dankmail"
+    "sha256": "1b56faddcvrswvlig29ddavqnzgi0rqfjnpin269jviqfbcgkflb",
+    "url": "https://github.com/arqueon/dankmail"
   },
   "dankscale": {
     "date": "2026-07-06T13:06:47-05:00",
@@ -4584,12 +4585,12 @@
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dmsThemeSync": {
-    "date": "2026-08-13T00:14:48-06:00",
+    "date": "2026-08-15T02:31:55-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-moLEGtAkZ+foHdqVwKhIop3+R/f/KAgWgJ8uobSQGAI=",
+    "hash": "sha256-7ugN8x+seAgo36Is5kKm1L8Sls7/wOiMda1U1Lnnyug=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -4614,21 +4615,21 @@
       "name": "DMS Theme Sync",
       "repo": "https://github.com/arqueon/dms-theme-sync",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png",
-      "version": "0.10.0"
+      "version": "0.11.0"
     },
-    "path": "/nix/store/n754icy7iyl30m4qvzk9y6wg86myb9k9-dms-theme-sync",
-    "rev": "e0f99b324dc84806f8173aced5a4a92833e221ff",
+    "path": "/nix/store/k9vwyfqxii96s1sz8wizdkymbhwzgw4i-dms-theme-sync",
+    "rev": "cf5cab542fefafa2ce381cc15830a50a11e16b6b",
     "rootDir": "",
-    "sha256": "00hqj2sa2blzh0b0ha7zyx3zx7d292lc15fs3plffrr4s0dc90ls",
+    "sha256": "1s6awywx8m5dfn6fih7zrsb15gyllr1fcb52vwl0hy5c3zrhvs7f",
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
   "dmsVikunja": {
-    "date": "2026-08-06T01:41:23-06:00",
+    "date": "2026-08-15T02:31:55-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-w/mz9CRD3tUpXvvoxIopA0/nZUTw/oWgzo8AeviPjNs=",
+    "hash": "sha256-Q/gqDW4FQlhCe+5lytBRFKDxmJ7N1h99ADwVVx0QuzM=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -4664,12 +4665,12 @@
       "settings": "./Settings.qml",
       "startupCheck": "./StartupCheck.qml",
       "type": "composite",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
-    "path": "/nix/store/3ppfgk7kpjbrrnj4rg3kcg76zsk1w97s-dms-vikunja",
-    "rev": "b702b649dbd0badb4cdc6cc50fdba16b010c9073",
+    "path": "/nix/store/rdjk05cisjwh9rcclq0myycg1i9wkkqz-dms-vikunja",
+    "rev": "dbf6fa6e876c54dfc9a79a4f90ce61fa5459fad4",
     "rootDir": "",
-    "sha256": "1nwcizw7l04grsh8bzph8ijyfkq3565c9s7vbqlxbpj34ksb7yf3",
+    "sha256": "0cxv20fmf59w01yizmndkscg380la78clrgfgd15hhh5dq6jmy23",
     "url": "https://github.com/arqueon/dms-vikunja"
   },
   "dmsWhisper": {
@@ -8647,12 +8648,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-15T02:34:52+07:00",
+    "date": "2026-08-15T12:39:24+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-AGGBgEWmDTx111BKriJxj2XPIHAYWv+AoAfBFE8favI=",
+    "hash": "sha256-8TszuxwVgBd17QmOhFD3SZ+Rccbz4x3cPVercYxZzo0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8680,12 +8681,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "5.0.0-beta.2"
+      "version": "5.0.0-beta.3"
     },
-    "path": "/nix/store/laaklf35a58vgqljp4qc2nwpn8260330-dms-quick-capture",
-    "rev": "9b2eba30a23b2b44f0129b85def5e9a9c103e691",
+    "path": "/nix/store/xwas0kmxv8imivh8yffy9djwlfsa6sr9-dms-quick-capture",
+    "rev": "d9a1a2141e2727c33c598bd06fdab5031655e965",
     "rootDir": "",
-    "sha256": "1wka3x7i9h87l20gynhqf0hcyrcgf4iawjjhsxskq3d68n082q80",
+    "sha256": "13ffb6673asp7pf1vqzkqrqr37s9yx8893h9xmsig00m3jxk6fzi",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
