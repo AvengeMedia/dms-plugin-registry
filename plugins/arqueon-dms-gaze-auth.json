@@ -10,11 +10,11 @@
     "repo": "https://github.com/arqueon/dms-gaze-auth",
     "author": "arqueon",
     "description": "Inspect Gaze face-authentication health and DMS lock integration without changing PAM or biometric data.",
-    "version": "0.1.0",
+    "version": "0.4.0",
     "type": "widget",
     "component": "./GazeAuth.qml",
     "icon": "face",
-    "requires_dms": ">=1.5.0",
+    "requires_dms": ">=1.6.0",
     "dependencies": [
         "bash",
         "gaze",
