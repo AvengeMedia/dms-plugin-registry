@@ -3423,12 +3423,12 @@
     "url": "https://github.com/alcxyz/DankVault"
   },
   "dankmailUnread": {
-    "date": "2026-08-15T02:31:55-06:00",
+    "date": "2026-08-15T13:50:25-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-i7r52HI4bpmMsPFa6XAG8X2Lt2otiRfp5jpv1ppypqw=",
+    "hash": "sha256-kObybf5uzzehMOXvusl1kmZ5s+0qTDbrn1YNaItL11E=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -3453,10 +3453,10 @@
       "screenshot": "https://raw.githubusercontent.com/arqueon/dankmail/main/assets/screenshot.png",
       "version": "0.2.0"
     },
-    "path": "/nix/store/8rr1fk39qrr8chijz6iifjrrc4v73ws9-dankmail",
-    "rev": "f3ed4bea8085e44daa44d4be5880cc5a02693c85",
+    "path": "/nix/store/5lk6fcv07j8y35mnxs2wkgggbzi7ywm4-dankmail",
+    "rev": "27c81799e7d8f51cc3e00ced338a9902a600a726",
     "rootDir": "",
-    "sha256": "1b56faddcvrswvlig29ddavqnzgi0rqfjnpin269jviqfbcgkflb",
+    "sha256": "0lfp9f5nh3ankzmkck1axnrpjrljfp4vmvz562hkgkvfzrnz5rlh",
     "url": "https://github.com/arqueon/dankmail"
   },
   "dankscale": {
@@ -4585,12 +4585,12 @@
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dmsThemeSync": {
-    "date": "2026-08-15T02:31:55-06:00",
+    "date": "2026-08-15T18:14:14-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-7ugN8x+seAgo36Is5kKm1L8Sls7/wOiMda1U1Lnnyug=",
+    "hash": "sha256-p/EIzS4RYv1k885cmPZTiMrRKavb4YT5jKwFAQd3NXc=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -4615,12 +4615,12 @@
       "name": "DMS Theme Sync",
       "repo": "https://github.com/arqueon/dms-theme-sync",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png",
-      "version": "0.11.0"
+      "version": "0.11.1"
     },
-    "path": "/nix/store/k9vwyfqxii96s1sz8wizdkymbhwzgw4i-dms-theme-sync",
-    "rev": "cf5cab542fefafa2ce381cc15830a50a11e16b6b",
+    "path": "/nix/store/55h9ql6vgrl2a0cwmxbjmc1cf2kqys3f-dms-theme-sync",
+    "rev": "7bdd41d1822f0e4378ae334e8b63c9a84d6abb4b",
     "rootDir": "",
-    "sha256": "1s6awywx8m5dfn6fih7zrsb15gyllr1fcb52vwl0hy5c3zrhvs7f",
+    "sha256": "0xrmfw3h21dcikwq9qfvmclx3jl8agv9hp6fydjgsqhi5v6hiwd7",
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
   "dmsVikunja": {
@@ -7493,12 +7493,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "networkIndicator": {
-    "date": "2026-07-19T01:57:08+03:00",
+    "date": "2026-08-15T18:50:20+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-fUeT84rpKhmWQ9y44zoJH+xooo0DQVIyLe6SAmpFThk=",
+    "hash": "sha256-YUFCzEO/8GkfvwzXBZsylw0vwYw+AnIs+cKHXWnt0qo=",
     "leaveDotGit": false,
     "meta": {
       "author": "gemb0_0",
@@ -7518,12 +7518,12 @@
       "name": "Network Indicator",
       "repo": "https://github.com/gemb0-0/Network-Indicator.git",
       "screenshot": "https://raw.githubusercontent.com/gemb0-0/Network-Indicator/refs/heads/main/screenshot.png",
-      "version": "1.4.0"
+      "version": "1.5.0"
     },
-    "path": "/nix/store/w27gfybgy4hysllwbw58n1kxax14ny1i-Network-Indicator",
-    "rev": "619a5526ba4bd0eb5921b96c7c46848faba8f0e7",
+    "path": "/nix/store/r0fyx0avr6ddmxasdwd4iq3rbv8q2bzb-Network-Indicator",
+    "rev": "81d948dbabceba0f446a0441f3901a4d6b6b2f3a",
     "rootDir": "",
-    "sha256": "06af8mm054pf5lr54h83ini6iv0z14xf7f6w8fb1jap9ibrr6ivx",
+    "sha256": "1anjxmlmv1y2z4n740iyik0jy3cp6adhbmqcpwgnkw5z8g644hb1",
     "url": "https://github.com/gemb0-0/Network-Indicator.git"
   },
   "nextBootSelector": {
