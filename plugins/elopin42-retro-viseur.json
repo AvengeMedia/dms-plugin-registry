@@ -7,7 +7,7 @@
     "author": "elopin42",
     "description": "Rear-view mirror: click the bar icon to open a small popup with your live webcam feed",
     "dependencies": ["qt6-multimedia-ffmpeg"],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/elopin42/dank-retro-viseur/main/screenshot.png"
 }
