@@ -2144,6 +2144,35 @@ Show ZeroTier network status in the bar and join/leave/route networks from a pop
 
 
 
+#### [Attention Badges](https://github.com/mkoester/dms-attention-badges)
+
+Per-app bar badges for what happened since you last focused that app, cleared by focusing its window — not an unread counter. Every watched app is a small JSON provider file, so the plugin itself knows nothing about any particular program.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: attentionBadges
+- name: Attention Badges
+- author: Mirko Köster
+- compositors: any
+- capabilities: daemon, dankbar-widget, ipc
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/mkoester/dms-attention-badges/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Calendar Agenda](https://github.com/arqueon/dms-dankcalendar)
 
 Next-event countdown for dcal with a scrollable agenda popout grouped by day: click an event to open it in DankCalendar, + creates a new one, right click refreshes, middle click toggles the calendar window. Happening-now events in green, past ones dimmed.
