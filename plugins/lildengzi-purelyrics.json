@@ -1,0 +1,19 @@
+{
+    "id": "pureLyrics",
+    "name": "Pure Lyrics",
+    "capabilities": [
+        "desktop-widget"
+    ],
+    "category": "media",
+    "repo": "https://github.com/lildengzi/pureLyrics",
+    "author": "lildengzi",
+    "description": "A minimal floating desktop widget that displays real-time synced lyrics from multiple sources.",
+    "dependencies": [],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/lildengzi/pureLyrics/main/screenshot.png"
+}
