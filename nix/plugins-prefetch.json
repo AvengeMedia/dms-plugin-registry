@@ -638,12 +638,12 @@
     "url": "https://github.com/pseudofractal/AsusControl"
   },
   "attentionBadges": {
-    "date": "2026-08-15T20:55:33+02:00",
+    "date": "2026-08-16T08:40:12+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ermesgH14r3wBe789kUcmem3qp7e6c5vkNhd7MjJID4=",
+    "hash": "sha256-wylEUQlS8pe2Q/rg69ir6aCksp9uOX0pR19yQA8y1Ns=",
     "leaveDotGit": false,
     "meta": {
       "author": "Mirko K\u00f6ster",
@@ -666,12 +666,12 @@
       "repo": "https://github.com/mkoester/dms-attention-badges",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/mkoester/dms-attention-badges/main/docs/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/6klg22xb7mp3ca06vhixk11d56vid518-dms-attention-badges",
-    "rev": "f2af7c4b07ec04d279fd9354cdc0a085079e16c8",
+    "path": "/nix/store/lxxm2mb7srw6pk5bvd2gvcp8s0h41anr-dms-attention-badges",
+    "rev": "032525b52c82d8432ba26726916b42a51a27eae4",
     "rootDir": "",
-    "sha256": "0gi0r74fqpfqj1pwxsfyksmbgscr3i2zdz7f0pqbvqpm06r9xfbs",
+    "sha256": "1nyl687l0wjz8wlpsfbfkyra9879mgcfpq7s8fv9gwjj158l8af3",
     "url": "https://github.com/mkoester/dms-attention-badges"
   },
   "audioInhibit": {
@@ -3003,12 +3003,12 @@
     "url": "https://github.com/BrendonJL/dms-rss-widget"
   },
   "dankSchedPicker": {
-    "date": "2026-06-30T18:41:31+05:30",
+    "date": "2026-08-16T17:53:57+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-fXuTV6YnKNaUBeskPJh9KHUNx4exrO1u9V93MmNFayg=",
+    "hash": "sha256-xFXYZ1xk/GX8jytqq5u21U3VoTAwUNFFTUtdePCD3tU=",
     "leaveDotGit": false,
     "meta": {
       "author": "SK-DEV-AI",
@@ -3028,12 +3028,12 @@
       "name": "Scheduler Picker",
       "repo": "https://github.com/SK-DEV-AI/dankSchedPicker",
       "screenshot": "https://raw.githubusercontent.com/SK-DEV-AI/dankSchedPicker/main/screenshot.png",
-      "version": "2.0.0"
+      "version": "2.2.0"
     },
-    "path": "/nix/store/fh4rbv8l9yd02yxybgkayblf7z9ph46d-dankSchedPicker",
-    "rev": "5d9d6063d58cf5f33e8fb36fd19acb7bd05c678d",
+    "path": "/nix/store/6kzxsd5aazzp8hdzjl97xfbv2jslhlfc-dankSchedPicker",
+    "rev": "6aa1ce934132390666d6d150a2ebc663062d6e50",
     "rootDir": "",
-    "sha256": "0a3b8mik4xszympfvb5ihz3hsx98gnc3q97b0nadca17lrbr6yvx",
+    "sha256": "1mfyhgq7hpab9m2x2l1h62hxakfmnsdsnsibizy6bz34bikxhmf4",
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSoftwareDepot": {
@@ -3424,12 +3424,12 @@
     "url": "https://github.com/acmagn/DMS-UPS-Monitor"
   },
   "dankVault": {
-    "date": "2026-06-04T16:17:25+02:00",
+    "date": "2026-08-16T13:37:11+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-pAlNNYYRJQSI368j+1M7Vrbt6EL18hMiYWZk2AjNiH4=",
+    "hash": "sha256-NDXnhvSENpKwbEdhfbb7TJQ1TI8GUQwcoD0O2Bbc+Qg=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -3451,12 +3451,12 @@
       "name": "Vault",
       "repo": "https://github.com/alcxyz/DankVault",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankVault/main/docs/screenshot.png",
-      "version": "0.3.2"
+      "version": "0.3.3"
     },
-    "path": "/nix/store/yz4nv74s9fipk4xp6c1si388kw8v4sw3-DankVault",
-    "rev": "755a9fbe9f62a5e14b4dda63a5fce0c2b40af92c",
+    "path": "/nix/store/4hznphmmrsjlvf92kjh84ik6g494bwd6-DankVault",
+    "rev": "f83a7f90e3633cb385cf153a7bcc64f660207e55",
     "rootDir": "",
-    "sha256": "0zl8rl4dhr36c4i17wpm8blfvdjn7d9zn8xgvy40898ihqsls2d4",
+    "sha256": "027rvhbdh3ixl0f0ql86ix63b52czfv7sqa7djq94dl4yj3ffd9l",
     "url": "https://github.com/alcxyz/DankVault"
   },
   "dankmailUnread": {
