@@ -8906,6 +8906,42 @@
     "sha256": "0fw55d3fmp4440kqp58211qd31d1hika8b0f2hjvz5rwyy56azr5",
     "url": "https://github.com/smithyyang/dms-resource-monitor"
   },
+  "retroViseur": {
+    "date": "2026-08-06T19:36:28+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-W2jQg6dOT0PAaPph1tqpRC5QlFB1RwMEaMDP3EJOb3o=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "elopin42",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "qt6-multimedia-ffmpeg"
+      ],
+      "description": "Rear-view mirror: click the bar icon to open a small popup with your live webcam feed",
+      "distro": [
+        "any"
+      ],
+      "id": "retroViseur",
+      "name": "Retro Viseur",
+      "repo": "https://github.com/elopin42/dank-retro-viseur",
+      "screenshot": "https://raw.githubusercontent.com/elopin42/dank-retro-viseur/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/lq5jm4y06kdr270i0ykrw5k4pmzmhdzj-dank-retro-viseur",
+    "rev": "39f3b72ffdbdd68796b217feffeba9f779cbe821",
+    "rootDir": "",
+    "sha256": "0ykg9r1drky0d0206ivma2a50bj4m7ddcqgsd3046ksfly1x0s2v",
+    "url": "https://github.com/elopin42/dank-retro-viseur"
+  },
   "sathiAi": {
     "date": "2026-08-04T20:51:40-04:00",
     "deepClone": false,
