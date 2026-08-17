@@ -7702,6 +7702,35 @@ Search recently opened XDG files directly from the DMS launcher
 
 
 
+#### [Retro Viseur](https://github.com/elopin42/dank-retro-viseur)
+
+Rear-view mirror: click the bar icon to open a small popup with your live webcam feed
+
+
+
+- id: retroViseur
+- name: Retro Viseur
+- author: elopin42
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: qt6-multimedia-ffmpeg
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/elopin42/dank-retro-viseur/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [SSH Connections](https://github.com/merdely/dms-plugins)
 
 SSH to configured servers from the Launcher
