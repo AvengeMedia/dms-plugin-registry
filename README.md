@@ -3383,6 +3383,35 @@ Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, A
 
 
 
+#### [Storage Monitor](https://github.com/YoungJurry/dms-storage-monitor)
+
+Monitor total and per-partition storage usage with progress bars, and mount or unmount internal and removable drives via udisks2.
+
+
+
+- id: storageMonitor
+- name: Storage Monitor
+- author: youngshine
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: udisks2
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/YoungJurry/dms-storage-monitor/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [TLP Control](https://github.com/nfrastack/dms-tlpControl)
 
 Battery health monitor + TLP charge threshold/mode controls.
