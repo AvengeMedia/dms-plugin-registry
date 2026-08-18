@@ -5,7 +5,6 @@
     "category": "utilities",
     "repo": "https://github.com/lucianosrp/HyprwhsprVoiceOverlay",
     "author": "lucianosrp",
-    "firstParty": false,
     "description": "On-screen voice visualizer for hyprwhspr. A large mirrored equalizer, driven by the live microphone level, that fades in only while hyprwhspr is recording.",
     "dependencies": ["hyprwhspr"],
     "compositors": ["any"],
