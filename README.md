@@ -700,6 +700,35 @@ Desktop media player widget with real-time synced lyrics and Material You 3 desi
 
 
 
+#### [Pure Lyrics](https://github.com/lildengzi/pureLyrics)
+
+A minimal floating desktop widget that displays real-time synced lyrics from multiple sources.
+
+
+
+- id: pureLyrics
+- name: Pure Lyrics
+- author: lildengzi
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/lildengzi/pureLyrics/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [SPlayer Lyrics (Desktop)](https://github.com/brkp/DMS_splayerLyrics)
 
 Desktop lyrics widget for SPlayer, fetches lyrics from SPlayer's local Netease API
