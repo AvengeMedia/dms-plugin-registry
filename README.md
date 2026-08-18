@@ -7910,6 +7910,35 @@ A simple multi model ai client to use with your dank shell. Use it ollama, gemin
 
 
 
+#### [Scratchpad Helper](https://github.com/fluxwrk/dms-scratchpad-helper)
+
+A visual scratchpad picker for MangoWM with cached previews and optional managed named scratchpads
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: scratchpadHelper
+- name: Scratchpad Helper
+- author: fluxwrk
+- compositors: mangowc
+- capabilities: daemon, dankbar-widget, control-center
+- dependencies: mmsg
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/fluxwrk/dms-scratchpad-helper/main/assets/scratchpad-picker.png)
+
+</details>
+
+
+
+
+
 #### [Screen Capture](https://github.com/crowforkotlin/dms-screen-capture)
 
 Take screenshots using Niri's built-in command with area, full screen and active window modes
