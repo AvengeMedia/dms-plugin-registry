@@ -8758,12 +8758,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-18T19:48:46+07:00",
+    "date": "2026-08-18T23:11:38+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-+0qgpXw41h9FhV5DfPPpwsk2Ml44S80ukRkQg7dnOXo=",
+    "hash": "sha256-elOitAy1ihaWSmSnDXPPULfxuWHfbEDkL9ai2qNocIs=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8791,12 +8791,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "5.0.0"
+      "version": "5.0.2"
     },
-    "path": "/nix/store/rk73bw4hqqcfvdx0n66g026jy6pczg95-dms-quick-capture",
-    "rev": "a14185e0dd22d34889e461ca50844ce23b0b6fd1",
+    "path": "/nix/store/j4h63b71cjkbr9acby7md0qrwd3lhya5-dms-quick-capture",
+    "rev": "46e90a7cf1a1e95178c6b6da2d26481019ed5d3b",
     "rootDir": "",
-    "sha256": "0yircyvq640rj4pcsjrqbqr3djf2x7rpqhsyhm2izmiqgjjs0jpv",
+    "sha256": "12vhd2ixm8nn5zj40v6zc6wz3dshrxrhv9v49ab1d2mm1jsa4lvs",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -9049,6 +9049,45 @@
     "rootDir": "",
     "sha256": "03m83inaj1mc8ndban83ipxh31r25dlpsgly3g8rrjh44j1dqgy7",
     "url": "https://github.com/ss44/sathi.ai"
+  },
+  "scratchpadHelper": {
+    "date": "2026-08-18T06:58:17-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-5rvxJWLmnoQvMuZeBvpuMJNQJSbGuhk2ft8XF2u0/sA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "fluxwrk",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "mangowc"
+      ],
+      "dependencies": [
+        "mmsg"
+      ],
+      "description": "A visual scratchpad picker for MangoWM with cached previews and optional managed named scratchpads",
+      "distro": [
+        "any"
+      ],
+      "id": "scratchpadHelper",
+      "name": "Scratchpad Helper",
+      "repo": "https://github.com/fluxwrk/dms-scratchpad-helper",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/fluxwrk/dms-scratchpad-helper/main/assets/scratchpad-picker.png",
+      "version": "1.3.5"
+    },
+    "path": "/nix/store/5xhrpsvizhc5pqc5cvrw9p3bh9hss5lb-dms-scratchpad-helper",
+    "rev": "5460c51d76fe27d24405b37d8b95d80f56c3a5c5",
+    "rootDir": "",
+    "sha256": "1h7ynimif5yzgqv1kfn64qjm14rhdvx0cpp668pq97p6c8jz3fz6",
+    "url": "https://github.com/fluxwrk/dms-scratchpad-helper"
   },
   "screenCapture": {
     "date": "2026-07-14T17:46:43+08:00",
