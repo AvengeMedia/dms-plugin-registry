@@ -2107,6 +2107,35 @@ QuickShell plugin for DankMaterialShell that exposes Pangolin VPN status, peer l
 
 
 
+#### [Mobile Network](https://github.com/NaClwww/dms-modem-plugin)
+
+Manage mobile broadband with NetworkManager: toggle the WWAN radio, view live modem, operator, and signal status, and create, edit, and activate APN profiles from the Control Center.
+
+
+
+- id: modemManager
+- name: Mobile Network
+- author: NaClwww
+- compositors: any
+- capabilities: daemon, control-center
+- dependencies: nmcli, mmcli
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/NaClwww/dms-modem-plugin/main/assets/control-center.png)
+
+</details>
+
+
+
+
+
 #### [ZeroTier Manager](https://github.com/nfrastack/dms-zerotierManager)
 
 Show ZeroTier network status in the bar and join/leave/route networks from a popout.
