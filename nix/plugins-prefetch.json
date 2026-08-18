@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-08-14T23:50:49-03:00",
+    "date": "2026-08-17T14:28:00-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-vq0exHXUjjLZiilkrYEjl041NtRGucTeb9fC/SbbtcA=",
+    "hash": "sha256-zWIqIwuHiiNPeITpOccmBUElnQLUcXqNnlGS4Oiqkvg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -178,12 +178,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.10.0"
+      "version": "1.11.0"
     },
-    "path": "/nix/store/l6x1ldp9xj8nihlw1d98cmbcjb0wa5hj-AiOverviewControl",
-    "rev": "8c550987417606c9d500ac2e983ea77170502f8a",
+    "path": "/nix/store/z7qh3yrj16r87bfm7ppkxfimc39ms94r-AiOverviewControl",
+    "rev": "f285e594710edb14f7217c5c1938d4f2519d9e95",
     "rootDir": "",
-    "sha256": "1h5mvckgvhnpdzgc9fa6shv3aklp4f0ssr19ibck53nlfp21xbdy",
+    "sha256": "1y4jmblf14jiks6plwfl0afjah854v3kksc4g17j72l71cijlqnd",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
@@ -3037,12 +3037,12 @@
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSoftwareDepot": {
-    "date": "2026-08-14T17:29:56+02:00",
+    "date": "2026-08-17T21:02:12+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-o/HjA/nakXGeKOlUY+eUxaUX3yDzMtN4XNdSrpMuhvs=",
+    "hash": "sha256-bCDTS+7HtEYD77Yo1ngey6yW50xbdom7oEHICeglsY8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3073,12 +3073,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "0.9.6"
+      "version": "0.9.7"
     },
-    "path": "/nix/store/6rxarxij1ja3qwhl2mwcw0qz6vls9pjk-DankSoftwareDepot",
-    "rev": "54f18cef4369172bae93d8c3220cc703bbad4f1e",
+    "path": "/nix/store/bnn9mrr9fvzwawyl6pkn808a8n2g66sa-DankSoftwareDepot",
+    "rev": "46571464ccb9709be438f4b8c2ef4b8b63ca8ada",
     "rootDir": "",
-    "sha256": "1yw65s9swlnpbiwd6cpk43gig9f5jkkn6m7952g734fsz41y7wd3",
+    "sha256": "13xi4pl0kj21l2xqjxjv9kkrdb6b3rwdca5nxw1ldd67xr5x683c",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -3460,12 +3460,12 @@
     "url": "https://github.com/alcxyz/DankVault"
   },
   "dankmailUnread": {
-    "date": "2026-08-15T13:50:25-06:00",
+    "date": "2026-08-17T17:36:19-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-kObybf5uzzehMOXvusl1kmZ5s+0qTDbrn1YNaItL11E=",
+    "hash": "sha256-Ch3F3XHx4FpbFjN+o/WW/hh5tto2cZRJTSCkoOwv8/k=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -3490,10 +3490,10 @@
       "screenshot": "https://raw.githubusercontent.com/arqueon/dankmail/main/assets/screenshot.png",
       "version": "0.2.0"
     },
-    "path": "/nix/store/5lk6fcv07j8y35mnxs2wkgggbzi7ywm4-dankmail",
-    "rev": "27c81799e7d8f51cc3e00ced338a9902a600a726",
+    "path": "/nix/store/gzd6q7s99fa7zrnyvmixl1j02bfj4mg0-dankmail",
+    "rev": "eef087387cbdccbde9a8da98c955ef53bb2eca90",
     "rootDir": "",
-    "sha256": "0lfp9f5nh3ankzmkck1axnrpjrljfp4vmvz562hkgkvfzrnz5rlh",
+    "sha256": "1ygk5zna19109m4r8w9nvav7j67yjvss6zik2rdmmq7if7fwa78a",
     "url": "https://github.com/arqueon/dankmail"
   },
   "dankscale": {
@@ -5681,12 +5681,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin"
   },
   "githubNotifier": {
-    "date": "2026-07-23T18:00:41-03:00",
+    "date": "2026-08-17T20:25:35-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uXx+7imRCBrno7lsaK7qXEvieyix9OWImgGmC+YcArs=",
+    "hash": "sha256-u/fluVeHBBnhz0qCBjknc5FvtwSclqFkapAdcIunXXc=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -5710,21 +5710,21 @@
       "repo": "https://github.com/psyreactor/dms-githubNotifier",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-githubNotifier/raw/main/screenshot.png",
-      "version": "1.1.2"
+      "version": "1.1.3"
     },
-    "path": "/nix/store/hzj03xqfm75amfdrdbik6zl2drxci63b-dms-githubNotifier",
-    "rev": "e48ae9749e59fdef5ed0e591825c19564e2f0dbf",
+    "path": "/nix/store/rmkmq84b6c16wvijrac165bkd38vh8bg-dms-githubNotifier",
+    "rev": "faee2b5cd0ecb73dba6757568f8ce1fccb3bcb22",
     "rootDir": "",
-    "sha256": "1fq23kk0p9h1ka4fbx5i51xy4jswxap6hv5rlgkil24i57p7wz5r",
+    "sha256": "0xsxly5p07chd9ja35lw0jvnz4bk4wwhd0jarzhij147aywybxxv",
     "url": "https://github.com/psyreactor/dms-githubNotifier"
   },
   "gitlabNotifier": {
-    "date": "2026-07-12T23:41:11-03:00",
+    "date": "2026-08-17T20:52:35-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Ch2ji5clz2MUcJTj2S9wLLrshn0Wnm1ikcBk/Es0TX4=",
+    "hash": "sha256-gUgATzOyBJSjnmshJaGmMZMzBvXU6RPTYoXOMZBW+P4=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -5748,12 +5748,12 @@
       "repo": "https://github.com/psyreactor/dms-gitlabNotifier",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-gitlabNotifier/raw/main/screenshot.png",
-      "version": "1.2.1"
+      "version": "1.2.2"
     },
-    "path": "/nix/store/6hi6yb2833hm24rfimx4j31q81fmbzw6-dms-gitlabNotifier",
-    "rev": "4191319569c7b95f0f150c70c410c6aaca892a53",
+    "path": "/nix/store/4kkbfixqc2s7jhmy4zm4r6jm79qlp4mp-dms-gitlabNotifier",
+    "rev": "d1376fb4e719f2a62be2858fed36c0ae3680049f",
     "rootDir": "",
-    "sha256": "0zjd6i5zqr60j5i6v7hngn3frficf0pxkqwlf0a67kr5jy5s678a",
+    "sha256": "1zpqas833kl5cb9i7sflyl3374rilshja8bbksir815j6d7h0j41",
     "url": "https://github.com/psyreactor/dms-gitlabNotifier"
   },
   "gitmojiLauncher": {
