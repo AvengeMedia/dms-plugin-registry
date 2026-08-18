@@ -10,7 +10,7 @@
     "description": "A minimal floating desktop widget that displays real-time synced lyrics from multiple sources.",
     "dependencies": [],
     "compositors": [
-        "niri"
+        "any"
     ],
     "distro": [
         "any"
