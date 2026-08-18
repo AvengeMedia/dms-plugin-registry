@@ -8648,6 +8648,40 @@
     "sha256": "1k6v5xjccvakmsx7s13336gp9gn4kadqmmd413v50ikj13aw0yjs",
     "url": "https://github.com/jonkristian/dms-pulsar-x3"
   },
+  "pureLyrics": {
+    "date": "2026-08-18T14:43:09+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-qKh+AUsh+dBU/aGLGvXdrmWGzegSm0mFwTQ3xuDFK7M=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lildengzi",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "media",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "A minimal floating desktop widget that displays real-time synced lyrics from multiple sources.",
+      "distro": [
+        "any"
+      ],
+      "id": "pureLyrics",
+      "name": "Pure Lyrics",
+      "repo": "https://github.com/lildengzi/pureLyrics",
+      "screenshot": "https://raw.githubusercontent.com/lildengzi/pureLyrics/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/ngl6gcsxg58csflg8nfw5khgxp6gk8bj-pureLyrics",
+    "rev": "6a803e11110a858779da0be20eeb2f724ed28441",
+    "rootDir": "",
+    "sha256": "1crbqphccdrlq62lk6qjx36qcrdfvpsim2x1zmad1y919c0pxa58",
+    "url": "https://github.com/lildengzi/pureLyrics"
+  },
   "qcalCalendar": {
     "date": "2026-06-12T14:49:22+08:00",
     "deepClone": false,
@@ -8724,12 +8758,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-17T19:17:07+07:00",
+    "date": "2026-08-18T19:48:46+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-pCx+YQHObzvy+IPx9MNxiBGuIQdwKMrbagIGb7TRsE8=",
+    "hash": "sha256-+0qgpXw41h9FhV5DfPPpwsk2Ml44S80ukRkQg7dnOXo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8757,12 +8791,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "5.0.0-beta.3"
+      "version": "5.0.0"
     },
-    "path": "/nix/store/ph97fw0mbv9rl4g5rq6m7masiwfjcy8h-dms-quick-capture",
-    "rev": "b4814dab5a0f4c8dc641aefd1548e7891c57d21d",
+    "path": "/nix/store/rk73bw4hqqcfvdx0n66g026jy6pczg95-dms-quick-capture",
+    "rev": "a14185e0dd22d34889e461ca50844ce23b0b6fd1",
     "rootDir": "",
-    "sha256": "0kxhs6s6y1h2dbdwla3h0whsw4c8f71z9wc3z3r3nvyf05hpwb54",
+    "sha256": "0yircyvq640rj4pcsjrqbqr3djf2x7rpqhsyhm2izmiqgjjs0jpv",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -9871,6 +9905,42 @@
     "sha256": "0w1ws4ak38nv2m1rrcp4m9rnmjbalbfblszv7sb13jzpnm3ggz9h",
     "url": "https://github.com/hthienloc/dms-stopwatch"
   },
+  "storageMonitor": {
+    "date": "2026-08-18T15:06:28+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-oShajBrMZb0+MSVDHETL+LXDwIOicYd8IyzPbIRjUlk=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "youngshine",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "udisks2"
+      ],
+      "description": "Monitor total and per-partition storage usage with progress bars, and mount or unmount internal and removable drives via udisks2.",
+      "distro": [
+        "any"
+      ],
+      "id": "storageMonitor",
+      "name": "Storage Monitor",
+      "repo": "https://github.com/YoungJurry/dms-storage-monitor",
+      "screenshot": "https://raw.githubusercontent.com/YoungJurry/dms-storage-monitor/main/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/py7naak17wwa5p68nz1nh8ja977ady7p-dms-storage-monitor",
+    "rev": "8dbf7f2484b0f81683add744664b3bb17c1389e5",
+    "rootDir": "",
+    "sha256": "0najcf26rkrc4dy8fwd2hg0c7dgqrd21qhr564zbsrfc3a65la51",
+    "url": "https://github.com/YoungJurry/dms-storage-monitor"
+  },
   "svglSearch": {
     "date": "2026-08-02T22:16:40+03:00",
     "deepClone": false,
@@ -10767,12 +10837,12 @@
     "url": "https://github.com/psyreactor/dms-voxtype"
   },
   "voxtypeActivityOverlay": {
-    "date": "2026-08-10T16:58:22+02:00",
+    "date": "2026-08-18T09:27:27+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-PN/+BVJy37n3f/QUNN3VBhuRrIOSYyIB4sVXBZ2gMV0=",
+    "hash": "sha256-2BO//VFbSkR6joa3S6hsnf+WIXtsfU1ipU5byegWRFo=",
     "leaveDotGit": false,
     "meta": {
       "author": "agneswd",
@@ -10797,10 +10867,10 @@
       "screenshot": "https://raw.githubusercontent.com/agneswd/dms-voxtype-activity-overlay/main/assets/screenshot-pill.png",
       "version": "1.2.0"
     },
-    "path": "/nix/store/z188mw265rbxhla7c727yl01iiddb607-dms-voxtype-activity-overlay",
-    "rev": "942e9d745fd041aa5ca68f9cc0b16d23f2967981",
+    "path": "/nix/store/amk1da5hi70wr2b2bcvysm5dj905z1wb-dms-voxtype-activity-overlay",
+    "rev": "84d0f3ec6a2ac376ad534f666a47c23dc7488771",
     "rootDir": "",
-    "sha256": "0p9il2fhamy5w80j4qwjhfn926q6spfk857lgzvvkpvja82zxprw",
+    "sha256": "0nj42vlcjnsflmi4szbcgchrdzwxdjl4pdw6irx48jjva7yvy4yq",
     "url": "https://github.com/agneswd/dms-voxtype-activity-overlay"
   },
   "voxtypeOverlay": {
