@@ -8,7 +8,7 @@
     "firstParty": false,
     "description": "On-screen voice visualizer for hyprwhspr. A large mirrored equalizer, driven by the live microphone level, that fades in only while hyprwhspr is recording.",
     "dependencies": ["hyprwhspr"],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/lucianosrp/HyprwhsprVoiceOverlay/main/screenshot.png",
     "requires_dms": ">=1.2.0"
