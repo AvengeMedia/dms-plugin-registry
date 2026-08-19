@@ -6475,6 +6475,40 @@
     "sha256": "0h6a4r8pcidlgk8ymyhlwyihpsyxcc84lb3dwd4zj8wafq4v6aln",
     "url": "https://github.com/hthienloc/dms-kaomoji-picker"
   },
+  "kbdBacklightOSD": {
+    "date": "2026-08-19T18:01:20+05:45",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-FTU1za2Bn9TkA0lH89ZxHG+MT+BeN058P6YPG7+kvE4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Samir Badaila",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "On-Screen Display popup and keyboard shortcut controls for laptop keyboard backlight brightness",
+      "distro": [
+        "any"
+      ],
+      "id": "kbdBacklightOSD",
+      "name": "Keyboard Backlight OSD",
+      "repo": "https://github.com/notsopreety/kbdBacklightOSD",
+      "screenshot": "https://raw.githubusercontent.com/notsopreety/kbdBacklightOSD/refs/heads/main/prev-image.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/a0yihkd74w9clirxw6lhnav3nbjgsjzf-kbdBacklightOSD",
+    "rev": "621096924eef6b5521f6927bbe6fcb75c47ab94d",
+    "rootDir": "",
+    "sha256": "0kmwljzin3x67xy4wdsyw17qqvqwf7bg6is90gjd97w1mp6kad8m",
+    "url": "https://github.com/notsopreety/kbdBacklightOSD"
+  },
   "keybindingCheatSheet": {
     "date": "2026-04-07T12:40:10+02:00",
     "deepClone": false,
@@ -8829,12 +8863,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-19T12:05:21+07:00",
+    "date": "2026-08-19T19:25:19+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-qZrCz2AiRkaxYFxWo6PcDoHtItNpXZxt3/rn6Fwa1J8=",
+    "hash": "sha256-5PjKlEQ8iqAoJzJgf3L2fHs50ft52HpL9i8Qap0koas=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8864,10 +8898,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.0.2"
     },
-    "path": "/nix/store/xa93ga7xaq57r9xj3n2q451mf9laphdc-dms-quick-capture",
-    "rev": "61d0f254c72db1a70896a23a9ae7fb033044087b",
+    "path": "/nix/store/3ndjf3ywav91g8fw2aj6jphsan27vz6a-dms-quick-capture",
+    "rev": "df90c1ebf312a1e37f9b20c6d67646ae22baf66e",
     "rootDir": "",
-    "sha256": "17yl39ffirzsvxnrqpb9scifv08fvjis6mjwc2qlcii2c37w56m9",
+    "sha256": "1ax14jfnl41gyr5pmn3rzg8kjyvwyrr7yq1j4wla12iw8jacmy74",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
