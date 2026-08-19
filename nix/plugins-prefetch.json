@@ -335,12 +335,12 @@
     "url": "https://github.com/hthienloc/dms-ambient-sound"
   },
   "amdGpuMonitor": {
-    "date": "2026-08-07T20:50:55Z",
+    "date": "2026-08-18T21:55:31+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uKgfStITxvBMJtTDr2+jRpA17vaxHHwqZNSnE7yh8f0=",
+    "hash": "sha256-Bnhj7bbnwHue+yN5A65WYEZRek/kX0V2F7WlUl7bpi0=",
     "leaveDotGit": false,
     "meta": {
       "author": "navidagz",
@@ -362,12 +362,12 @@
       "name": "AMD GPU Monitor",
       "repo": "https://github.com/navidagz/dms-amd-gpu-monitor",
       "screenshot": "https://raw.githubusercontent.com/navidagz/dms-amd-gpu-monitor/refs/heads/main/screenshots/screenshot.png",
-      "version": "4.2.0"
+      "version": "4.2.1"
     },
-    "path": "/nix/store/wn5b3z3x71ppivnxz4qd9d98x3lm2vyv-dms-amd-gpu-monitor",
-    "rev": "ebd5564c4a9b070c405e88e36ca1d465f1dd6436",
+    "path": "/nix/store/31pwqx36dm444izzqrvcqd8c7fsyig5c-dms-amd-gpu-monitor",
+    "rev": "d0f87efb534b86dc07107288c5f86cfeb7ad9cd2",
     "rootDir": "",
-    "sha256": "1zgil6y179ylchm7q75iyvp3b426ldpszhyl4r6g1ihks951za5q",
+    "sha256": "0bd6vdg559dm2xv4apz49xx52ik0asp06y93zfg7ph77nvnn6y06",
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor"
   },
   "amdGpuMonitorRevive": {
@@ -638,12 +638,12 @@
     "url": "https://github.com/pseudofractal/AsusControl"
   },
   "attentionBadges": {
-    "date": "2026-08-16T08:40:12+02:00",
+    "date": "2026-08-18T20:56:13+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-wylEUQlS8pe2Q/rg69ir6aCksp9uOX0pR19yQA8y1Ns=",
+    "hash": "sha256-LsnoLV1gaXNf3Xvqo7NU7qx36j0//KeZLupbi7s1y+A=",
     "leaveDotGit": false,
     "meta": {
       "author": "Mirko K\u00f6ster",
@@ -668,10 +668,10 @@
       "screenshot": "https://raw.githubusercontent.com/mkoester/dms-attention-badges/main/docs/screenshot.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/lxxm2mb7srw6pk5bvd2gvcp8s0h41anr-dms-attention-badges",
-    "rev": "032525b52c82d8432ba26726916b42a51a27eae4",
+    "path": "/nix/store/ir81y4mpy6hy0al90ny1dc0n7i7kzas3-dms-attention-badges",
+    "rev": "42c19d8a202bb39e4ea036b01942d633857a1bfe",
     "rootDir": "",
-    "sha256": "1nyl687l0wjz8wlpsfbfkyra9879mgcfpq7s8fv9gwjj158l8af3",
+    "sha256": "1q6b6nxqnnza5scsgz1z7pm7gb7fajrs7skvvmgp6sb0blnyij9f",
     "url": "https://github.com/mkoester/dms-attention-badges"
   },
   "audioInhibit": {
@@ -3037,12 +3037,12 @@
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSoftwareDepot": {
-    "date": "2026-08-17T21:02:12+02:00",
+    "date": "2026-08-18T21:58:25+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bCDTS+7HtEYD77Yo1ngey6yW50xbdom7oEHICeglsY8=",
+    "hash": "sha256-4ZpOd8PLxc8LnaCQu0Pht7WF43pxIPhfqjy97KiUlB8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3073,12 +3073,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "0.9.7"
+      "version": "0.9.9"
     },
-    "path": "/nix/store/bnn9mrr9fvzwawyl6pkn808a8n2g66sa-DankSoftwareDepot",
-    "rev": "46571464ccb9709be438f4b8c2ef4b8b63ca8ada",
+    "path": "/nix/store/zfg2459jvc7g562c3i1jzdjw7bjqwkdd-DankSoftwareDepot",
+    "rev": "b447a84f30034954288cff37b79efcc50bb0914d",
     "rootDir": "",
-    "sha256": "13xi4pl0kj21l2xqjxjv9kkrdb6b3rwdca5nxw1ldd67xr5x683c",
+    "sha256": "07wljjlfrg9wm9gzh83igbiqbddpw51vp450kl5wzifbqdvlx6p1",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -3460,12 +3460,12 @@
     "url": "https://github.com/alcxyz/DankVault"
   },
   "dankmailUnread": {
-    "date": "2026-08-17T17:36:19-06:00",
+    "date": "2026-08-18T14:57:50-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Ch3F3XHx4FpbFjN+o/WW/hh5tto2cZRJTSCkoOwv8/k=",
+    "hash": "sha256-3ZF7Cn0zkh85Ki1cCZ19JKsINebscPA9Gd196edvdAE=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -3490,10 +3490,10 @@
       "screenshot": "https://raw.githubusercontent.com/arqueon/dankmail/main/assets/screenshot.png",
       "version": "0.2.0"
     },
-    "path": "/nix/store/gzd6q7s99fa7zrnyvmixl1j02bfj4mg0-dankmail",
-    "rev": "eef087387cbdccbde9a8da98c955ef53bb2eca90",
+    "path": "/nix/store/baczv4kkn7n5knshmzckknpd3k4s1ck3-dankmail",
+    "rev": "175016cecf4b060dbb059a05b0eab7382d62bd98",
     "rootDir": "",
-    "sha256": "1ygk5zna19109m4r8w9nvav7j67yjvss6zik2rdmmq7if7fwa78a",
+    "sha256": "00bldzkyjzfx34yz0w7cwqshiar4gnfhjp1d58wiz4ikgl57p4fx",
     "url": "https://github.com/arqueon/dankmail"
   },
   "dankscale": {
@@ -6367,12 +6367,12 @@
     "url": "https://github.com/rollecode/dms-io-monitor"
   },
   "ipIndicator": {
-    "date": "2026-06-25T01:52:04+07:00",
+    "date": "2026-08-19T07:38:40+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-nbNS00WCSyLfaxT47xSS17GosZK49sbLIw75rkZmgr8=",
+    "hash": "sha256-ivyGMBRlRVjbLmG5/uwbDh89Q2N0gDHFkiL5OXWpeP0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6394,12 +6394,12 @@
       "name": "IP Indicator",
       "repo": "https://github.com/hthienloc/dms-ipIndicator",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ipIndicator/master/screenshot.png",
-      "version": "2.0.1"
+      "version": "2.1.0"
     },
-    "path": "/nix/store/ji52033p9z3p4br35kx5sv1iksfq95f8-dms-ipIndicator",
-    "rev": "f9761382c4b8504615e749dea48fd545e24e8fd9",
+    "path": "/nix/store/mn9wq8xybpp1p2h34pn8vxcd1r8vr8l1-dms-ipIndicator",
+    "rev": "02075b56c0219a8d0d435998456663f72c85d758",
     "rootDir": "",
-    "sha256": "1gw2cr3axy8f4g5wdxmqjaqsicfpj8afzy0ldggj4jw28p9m5cwx",
+    "sha256": "1zbqm5skky92jb2k303lcd1ks7qf3gngxfb15vdmhib52hq8dz4a",
     "url": "https://github.com/hthienloc/dms-ipIndicator"
   },
   "kaomojiPicker": {
@@ -9051,12 +9051,12 @@
     "url": "https://github.com/ss44/sathi.ai"
   },
   "scratchpadHelper": {
-    "date": "2026-08-18T06:58:17-05:00",
+    "date": "2026-08-18T13:00:10-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5rvxJWLmnoQvMuZeBvpuMJNQJSbGuhk2ft8XF2u0/sA=",
+    "hash": "sha256-9oBPe2oSzJOLnxyUziu4QU3cCGjvre/KYavOiK8KQTY=",
     "leaveDotGit": false,
     "meta": {
       "author": "fluxwrk",
@@ -9083,10 +9083,10 @@
       "screenshot": "https://raw.githubusercontent.com/fluxwrk/dms-scratchpad-helper/main/assets/scratchpad-picker.png",
       "version": "1.3.5"
     },
-    "path": "/nix/store/5xhrpsvizhc5pqc5cvrw9p3bh9hss5lb-dms-scratchpad-helper",
-    "rev": "5460c51d76fe27d24405b37d8b95d80f56c3a5c5",
+    "path": "/nix/store/kbjhf5nl91cwfgc06pl7g02kiw6m79yj-dms-scratchpad-helper",
+    "rev": "09d03255c1f65f65914738602dded245b6329ad6",
     "rootDir": "",
-    "sha256": "1h7ynimif5yzgqv1kfn64qjm14rhdvx0cpp668pq97p6c8jz3fz6",
+    "sha256": "0dj11apqikmbc75fzbggd04dqka1p0mwx50wky5r7k0jd9xlz07n",
     "url": "https://github.com/fluxwrk/dms-scratchpad-helper"
   },
   "screenCapture": {
