@@ -6227,6 +6227,43 @@
     "sha256": "0729150fiiphmbdnxa0809zyqbm4izmf4a2p4k8jcmj72llspj7f",
     "url": "https://github.com/nderscore/dms-plugins"
   },
+  "hyprwhsprVoiceOverlay": {
+    "date": "2026-08-18T22:29:45+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-CT88AUYa6KpNOM0mMO7tMgnyyx6Ww2CoI6UeadQnK/8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lucianosrp",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "hyprwhspr"
+      ],
+      "description": "On-screen voice visualizer for hyprwhspr. A large mirrored equalizer, driven by the live microphone level, that fades in only while hyprwhspr is recording.",
+      "distro": [
+        "any"
+      ],
+      "id": "hyprwhsprVoiceOverlay",
+      "name": "Hyprwhspr Voice Overlay",
+      "repo": "https://github.com/lucianosrp/HyprwhsprVoiceOverlay",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/lucianosrp/HyprwhsprVoiceOverlay/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/5gf6sg9m959v57v25nf1w21njnykg1sp-HyprwhsprVoiceOverlay",
+    "rev": "dd7e1b60fbf31aa01398e54cc27f975958769e5a",
+    "rootDir": "",
+    "sha256": "1zrb4za6j7m54fl61hwn3v5z429jxpp309nd716sms0s8q0kqgq9",
+    "url": "https://github.com/lucianosrp/HyprwhsprVoiceOverlay"
+  },
   "imageConverter": {
     "date": "2026-04-09T00:18:18-03:00",
     "deepClone": false,
@@ -6367,12 +6404,12 @@
     "url": "https://github.com/rollecode/dms-io-monitor"
   },
   "ipIndicator": {
-    "date": "2026-08-19T07:38:40+07:00",
+    "date": "2026-08-19T07:40:05+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ivyGMBRlRVjbLmG5/uwbDh89Q2N0gDHFkiL5OXWpeP0=",
+    "hash": "sha256-/G8iXOz75CAaoawVnZvoW214KGAXzHVQQ3Iprleba3Y=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -6396,10 +6433,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ipIndicator/master/screenshot.png",
       "version": "2.1.0"
     },
-    "path": "/nix/store/mn9wq8xybpp1p2h34pn8vxcd1r8vr8l1-dms-ipIndicator",
-    "rev": "02075b56c0219a8d0d435998456663f72c85d758",
+    "path": "/nix/store/2hrsyl4gwaycv171g9xq7sffjdnpxrb4-dms-ipIndicator",
+    "rev": "988aeadbdcece2484d64806b16c9546642185674",
     "rootDir": "",
-    "sha256": "1zbqm5skky92jb2k303lcd1ks7qf3gngxfb15vdmhib52hq8dz4a",
+    "sha256": "0xkbkdbswabj8d87bk0pc0l7hvavx2drs5dcl4d21r7vxif24vzw",
     "url": "https://github.com/hthienloc/dms-ipIndicator"
   },
   "kaomojiPicker": {
@@ -8758,12 +8795,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-18T23:11:38+07:00",
+    "date": "2026-08-19T12:05:21+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-elOitAy1ihaWSmSnDXPPULfxuWHfbEDkL9ai2qNocIs=",
+    "hash": "sha256-qZrCz2AiRkaxYFxWo6PcDoHtItNpXZxt3/rn6Fwa1J8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8793,10 +8830,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.0.2"
     },
-    "path": "/nix/store/j4h63b71cjkbr9acby7md0qrwd3lhya5-dms-quick-capture",
-    "rev": "46e90a7cf1a1e95178c6b6da2d26481019ed5d3b",
+    "path": "/nix/store/xa93ga7xaq57r9xj3n2q451mf9laphdc-dms-quick-capture",
+    "rev": "61d0f254c72db1a70896a23a9ae7fb033044087b",
     "rootDir": "",
-    "sha256": "12vhd2ixm8nn5zj40v6zc6wz3dshrxrhv9v49ab1d2mm1jsa4lvs",
+    "sha256": "17yl39ffirzsvxnrqpb9scifv08fvjis6mjwc2qlcii2c37w56m9",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
