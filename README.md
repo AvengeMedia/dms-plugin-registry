@@ -6396,6 +6396,35 @@ Switch between Hyprland windows with live previews
 
 
 
+#### [Hyprwhspr Voice Overlay](https://github.com/lucianosrp/HyprwhsprVoiceOverlay)
+
+On-screen voice visualizer for hyprwhspr. A large mirrored equalizer, driven by the live microphone level, that fades in only while hyprwhspr is recording.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: hyprwhsprVoiceOverlay
+- name: Hyprwhspr Voice Overlay
+- author: lucianosrp
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: hyprwhspr
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/lucianosrp/HyprwhsprVoiceOverlay/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [ImageConverter](https://github.com/murilo-gotardo/dms-image-converter)
 
 Convert images between formats (PNG, JPG, WEBP, BMP, TIFF) from the DankBar
