@@ -7534,6 +7534,40 @@
     "sha256": "1xlvjfd1qvc0940v0padwqf976mw7b62brhykaq7312p7155f9z0",
     "url": "https://github.com/gasiyu/dms-plugin-musiclyrics"
   },
+  "musicTheme": {
+    "date": "2026-08-18T18:40:52-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-dxTQYVL/Hgjao8NH6pXqR2rvVZjpSYqMt0B8WVUGTxQ=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "felipeadeildo",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Themes your system from the currently playing album art",
+      "distro": [
+        "any"
+      ],
+      "id": "musicTheme",
+      "name": "Music Theme",
+      "repo": "https://github.com/felipeadeildo/dms-music-theme",
+      "screenshot": "https://raw.githubusercontent.com/felipeadeildo/dms-music-theme/main/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/mj2zdkpnf6nhl4lks8z1f1l9qwqdn5zk-dms-music-theme",
+    "rev": "b7314c0644b5a74490d62568bd7810a42284976c",
+    "rootDir": "",
+    "sha256": "052g0ramjz20ny68ljg9k1ayysj7xaayliy3lgd0h7pza9hx053p",
+    "url": "https://github.com/felipeadeildo/dms-music-theme"
+  },
   "nepaliCalendar": {
     "date": "2026-03-27T20:36:23+05:45",
     "deepClone": false,
