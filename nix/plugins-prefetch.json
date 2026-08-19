@@ -965,6 +965,40 @@
     "sha256": "16djs76n9mj4qdvfnlv6vz1srb88k0j5fmn37lijb0yjq9k3v5gh",
     "url": "https://github.com/Beepeeko/dms-baloo-search"
   },
+  "batteryOSD": {
+    "date": "2026-08-19T19:54:10+05:45",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-G7hub23SF9o6j+N098NfoUovycqL8yyT4fJUHr1invE=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Samir Badaila",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Material YOU inspired On-Screen Display popup and liquid wave indicator for battery charging",
+      "distro": [
+        "any"
+      ],
+      "id": "batteryOSD",
+      "name": "Battery & Power OSD",
+      "repo": "https://github.com/notsopreety/batteryOSD",
+      "screenshot": "https://raw.githubusercontent.com/notsopreety/batteryOSD/refs/heads/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/z23l5qr1ihc8c5vdylyza9i0s3db4x2f-batteryOSD",
+    "rev": "170730fa798d0760662c32a17d98467b46ee02c7",
+    "rootDir": "",
+    "sha256": "1wcycayiwm7jw69jrwwbrb4jyjm1bz1zfx73iwxdl5yjdmpnxf0v",
+    "url": "https://github.com/notsopreety/batteryOSD"
+  },
   "batteryPlus": {
     "date": "2026-07-07T23:49:10+12:00",
     "deepClone": false,
@@ -3037,12 +3071,12 @@
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSoftwareDepot": {
-    "date": "2026-08-18T21:58:25+02:00",
+    "date": "2026-08-19T17:33:43+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-4ZpOd8PLxc8LnaCQu0Pht7WF43pxIPhfqjy97KiUlB8=",
+    "hash": "sha256-2UdgtxoVXqKcleKimsy80RtUsUg+5D0RjRYoWDGKa6w=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3073,12 +3107,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "0.9.9"
+      "version": "1.0.0"
     },
-    "path": "/nix/store/zfg2459jvc7g562c3i1jzdjw7bjqwkdd-DankSoftwareDepot",
-    "rev": "b447a84f30034954288cff37b79efcc50bb0914d",
+    "path": "/nix/store/dbph86vvbfyv7nkpkaimr0jg77vrpanm-DankSoftwareDepot",
+    "rev": "5e38feb90c6268b53fe17b0cf810c3a5a2e5c9f9",
     "rootDir": "",
-    "sha256": "07wljjlfrg9wm9gzh83igbiqbddpw51vp450kl5wzifbqdvlx6p1",
+    "sha256": "1b3bi8qmha0nil8kvr1y92qm86yipk69m8p2jnfa4phm3avn0iyr",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -8863,12 +8897,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-19T19:25:19+07:00",
+    "date": "2026-08-19T21:33:23+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5PjKlEQ8iqAoJzJgf3L2fHs50ft52HpL9i8Qap0koas=",
+    "hash": "sha256-bNT7e0GoewE9GwGng19PBdEjf1VuAwnBpJ+MjWe++R8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8896,12 +8930,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "5.0.2"
+      "version": "5.1.0"
     },
-    "path": "/nix/store/3ndjf3ywav91g8fw2aj6jphsan27vz6a-dms-quick-capture",
-    "rev": "df90c1ebf312a1e37f9b20c6d67646ae22baf66e",
+    "path": "/nix/store/gdqipyaxfpl7s94v1nanfdcc926i1sxg-dms-quick-capture",
+    "rev": "6ad6c44345ff214f987b2847cd6ac6c7be3802bb",
     "rootDir": "",
-    "sha256": "1ax14jfnl41gyr5pmn3rzg8kjyvwyrr7yq1j4wla12iw8jacmy74",
+    "sha256": "07zrprkqv34zlk0hj0vfamzj7l859xgq79q13cyh2yx885xzpm3c",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
