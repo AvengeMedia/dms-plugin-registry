@@ -2769,6 +2769,35 @@ Battery/AC-aware pre-blank dim with restore on resume for screen and keyboard. L
 
 
 
+#### [Battery & Power OSD](https://github.com/notsopreety/batteryOSD)
+
+Material YOU inspired On-Screen Display popup and liquid wave indicator for battery charging
+
+
+
+- id: batteryOSD
+- name: Battery & Power OSD
+- author: Samir Badaila
+- compositors: any
+- capabilities: daemon
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/notsopreety/batteryOSD/refs/heads/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Caffeine](https://github.com/hthienloc/dms-caffeine)
 
 Keep your screen awake and prevent idle sleep with a single click.
