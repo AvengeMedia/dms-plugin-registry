@@ -289,6 +289,35 @@ Play and switch video wallpapers with multi-monitor support, lock-screen power s
 
 
 
+#### [Music Theme](https://github.com/felipeadeildo/dms-music-theme)
+
+Themes your system from the currently playing album art
+
+
+
+- id: musicTheme
+- name: Music Theme
+- author: felipeadeildo
+- compositors: any
+- capabilities: daemon
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/felipeadeildo/dms-music-theme/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Spotify Matugen](https://github.com/Grant07/dms-spotify-matugen)
 
 Lock DMS dynamic colors to Spotify album art while music is playing
