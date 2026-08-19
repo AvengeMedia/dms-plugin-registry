@@ -3175,6 +3175,35 @@ Display public IP address, ISP, and location with a privacy-focused toggle.
 
 
 
+#### [Keyboard Backlight OSD](https://github.com/notsopreety/kbdBacklightOSD)
+
+On-Screen Display popup and keyboard shortcut controls for laptop keyboard backlight brightness
+
+
+
+- id: kbdBacklightOSD
+- name: Keyboard Backlight OSD
+- author: Samir Badaila
+- compositors: any
+- capabilities: daemon
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/notsopreety/kbdBacklightOSD/refs/heads/main/prev-image.png)
+
+</details>
+
+
+
+
+
 #### [Lenovo Battery Settings](https://github.com/neoscaler/dms-lenovo-battery-settings)
 
 Manage Lenovo battery settings like conservation mode
