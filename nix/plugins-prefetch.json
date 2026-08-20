@@ -3037,12 +3037,12 @@
     "url": "https://github.com/BrendonJL/dms-rss-widget"
   },
   "dankSchedPicker": {
-    "date": "2026-08-16T17:53:57+05:30",
+    "date": "2026-08-20T04:30:41+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-xFXYZ1xk/GX8jytqq5u21U3VoTAwUNFFTUtdePCD3tU=",
+    "hash": "sha256-Rh222/yOfIpQWECCEKx3L56TsttcJKBXuHhPdzsFC/c=",
     "leaveDotGit": false,
     "meta": {
       "author": "SK-DEV-AI",
@@ -3064,19 +3064,19 @@
       "screenshot": "https://raw.githubusercontent.com/SK-DEV-AI/dankSchedPicker/main/screenshot.png",
       "version": "2.2.0"
     },
-    "path": "/nix/store/6kzxsd5aazzp8hdzjl97xfbv2jslhlfc-dankSchedPicker",
-    "rev": "6aa1ce934132390666d6d150a2ebc663062d6e50",
+    "path": "/nix/store/pyqbfffxw1l1ad4yxiah4p7479pig2fs-dankSchedPicker",
+    "rev": "a0c18d7c28fd535ace1be018a5574cc6a88bfa7a",
     "rootDir": "",
-    "sha256": "1mfyhgq7hpab9m2x2l1h62hxakfmnsdsnsibizy6bz34bikxhmf4",
+    "sha256": "1xqb0lxpfkvqp1bs092wvfr977igfyn110j0b188lz4fzkdvc7a6",
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSoftwareDepot": {
-    "date": "2026-08-19T17:33:43+02:00",
+    "date": "2026-08-19T23:54:54+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2UdgtxoVXqKcleKimsy80RtUsUg+5D0RjRYoWDGKa6w=",
+    "hash": "sha256-QUGE6T5wd1DBzlmjDtYdgtfhHXp4H4iNpRzAHs5iDLc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3107,12 +3107,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/dbph86vvbfyv7nkpkaimr0jg77vrpanm-DankSoftwareDepot",
-    "rev": "5e38feb90c6268b53fe17b0cf810c3a5a2e5c9f9",
+    "path": "/nix/store/5812pmj2h9g7hkgihnj30xh586jg40q8-DankSoftwareDepot",
+    "rev": "c60596ec5b76555f882562bb0d96a3269c182651",
     "rootDir": "",
-    "sha256": "1b3bi8qmha0nil8kvr1y92qm86yipk69m8p2jnfa4phm3avn0iyr",
+    "sha256": "1dqccb71xh0wln6qh7vqg8fy3mw23pb0x8srrv0m0xvh7vlq8ha1",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -11532,12 +11532,12 @@
     "url": "https://github.com/devnullvoid/dms-web-search"
   },
   "webcamViewer": {
-    "date": "2026-06-15T20:42:53-06:00",
+    "date": "2026-08-19T18:28:58-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-F/E8OJY7wTJGMGqlHO6Jzz1mupAYzA85q/rfGWgqGuw=",
+    "hash": "sha256-5mr7QC+Hk3zxswXuPgni8+p9Nb89w+g/lKjQN5MTEfc=",
     "leaveDotGit": false,
     "meta": {
       "author": "antikytheraton",
@@ -11562,12 +11562,12 @@
       "repo": "https://github.com/antikytheraton/DankWebcamViewer",
       "requires_dms": ">=0.3.0",
       "screenshot": "https://raw.githubusercontent.com/antikytheraton/DankWebcamViewer/main/assets/screenshot.png",
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
-    "path": "/nix/store/020bipmc8sj9xxzacq47zwmb1j35bi22-DankWebcamViewer",
-    "rev": "ab3da441b0e20bab1ef46e55ff8853b4cb8c5f5d",
+    "path": "/nix/store/cw6jkvdn2dwhc2vrnn4wlcqk0j1a906v-DankWebcamViewer",
+    "rev": "4289ba3cf9f05e1332bd99e9c19de09cd547c56d",
     "rootDir": "",
-    "sha256": "1v0s59l1kpzsmcwhzk0qj2x6cgfgi7p1r9ba61335h9vjqw3rw8p",
+    "sha256": "1xqi2f9kgl58jhzyihrxpwspvspkw84kxvh5ngqpr4w75x0gnsp6",
     "url": "https://github.com/antikytheraton/DankWebcamViewer"
   },
   "whisperer": {
