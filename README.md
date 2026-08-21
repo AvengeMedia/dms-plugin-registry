@@ -2318,6 +2318,35 @@ A simple locally-saved TODO list widget for the Dank bar.
 
 
 
+#### [Dcal Tasks](https://github.com/AntonyKor/dcal-tasks-launcher)
+
+List, search, create, and complete dcal tasks from the launcher, with natural language due dates.
+
+
+
+- id: dcalTasks
+- name: Dcal Tasks
+- author: AntonyKor
+- compositors: any
+- capabilities: launcher
+- dependencies: dcal
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AntonyKor/dcal-tasks-launcher/master/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [GitHub Inbox](https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin)
 
 Shows your GitHub notifications (aka inbox) in a popup and lets you mark them as read or done.
