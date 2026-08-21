@@ -1408,12 +1408,12 @@
     "url": "https://github.com/ernestowgg/cava-visualizer"
   },
   "chineseCalendar": {
-    "date": "2026-07-21T14:22:28+08:00",
+    "date": "2026-08-20T15:46:25+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-tztOMdaUS29/vrZ4xOE2UOA+2b8r6Sejr91uJ/t68z8=",
+    "hash": "sha256-T214jvsgHv7qx5ShWhXUPoP7XYRirKsjZedwwdS3xRU=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -1438,12 +1438,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-ccal",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-ccal/master/assets/screenshot.png",
-      "version": "1.2.3"
+      "version": "1.2.5"
     },
-    "path": "/nix/store/m20s8q3wwgrxymnq5r7ls3mrfrynfklf-dms-plugin-ccal",
-    "rev": "2d7e052e229b260c8ac638e4fa79b312c305de72",
+    "path": "/nix/store/5sig1apgbzp14xdlyq5cmylg4vs8wmr9-dms-plugin-ccal",
+    "rev": "0d43ddcd0dfc96bc72dc7d31200a386f329c0417",
     "rootDir": "",
-    "sha256": "0gzkgbxjfvnxmyijgs9bpzckxq2h6vhw8y5nprznyjwlsqqlwfxp",
+    "sha256": "05f5nzac2w77clispb32hifzp0ryshamm8clqzmgw7i0zf77hvag",
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
   "clashVerge": {
@@ -8897,12 +8897,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-19T21:33:23+07:00",
+    "date": "2026-08-21T00:36:33+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bNT7e0GoewE9GwGng19PBdEjf1VuAwnBpJ+MjWe++R8=",
+    "hash": "sha256-uT/tHbCs55tqdSEXdJoHmp8qsSWkT4hLwZ/U92BfoqU=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8930,12 +8930,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "5.1.0"
+      "version": "5.1.3"
     },
-    "path": "/nix/store/gdqipyaxfpl7s94v1nanfdcc926i1sxg-dms-quick-capture",
-    "rev": "6ad6c44345ff214f987b2847cd6ac6c7be3802bb",
+    "path": "/nix/store/bizyvrjnx5dv7sill4pmvrfhrb6xai11-dms-quick-capture",
+    "rev": "bae4b51712526490f9cf3291f2b332650fd8bc7f",
     "rootDir": "",
-    "sha256": "07zrprkqv34zlk0hj0vfamzj7l859xgq79q13cyh2yx885xzpm3c",
+    "sha256": "19d2bxhggm4zq55qhkx44nqjm7ws0yd785r1fmm9prxcn0fysgxr",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -9190,12 +9190,12 @@
     "url": "https://github.com/ss44/sathi.ai"
   },
   "scratchpadHelper": {
-    "date": "2026-08-18T13:00:10-05:00",
+    "date": "2026-08-20T12:42:24-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9oBPe2oSzJOLnxyUziu4QU3cCGjvre/KYavOiK8KQTY=",
+    "hash": "sha256-3p/NWxqjhxqRlr/haDHi0KzAmSysoS1BmEwRT4bUlqI=",
     "leaveDotGit": false,
     "meta": {
       "author": "fluxwrk",
@@ -9222,10 +9222,10 @@
       "screenshot": "https://raw.githubusercontent.com/fluxwrk/dms-scratchpad-helper/main/assets/scratchpad-picker.png",
       "version": "1.3.5"
     },
-    "path": "/nix/store/kbjhf5nl91cwfgc06pl7g02kiw6m79yj-dms-scratchpad-helper",
-    "rev": "09d03255c1f65f65914738602dded245b6329ad6",
+    "path": "/nix/store/0bw7c2a2hi2ijkmx8dnahx3kb2s66p3k-dms-scratchpad-helper",
+    "rev": "b440b86cb621f61bcc2c10bf4c5797da098a5d88",
     "rootDir": "",
-    "sha256": "0dj11apqikmbc75fzbggd04dqka1p0mwx50wky5r7k0jd9xlz07n",
+    "sha256": "18lnsj34y4ack10jv8dc5jcw1b6hw8qniqdzjs8im1x339dwv7yy",
     "url": "https://github.com/fluxwrk/dms-scratchpad-helper"
   },
   "screenCapture": {
@@ -11285,12 +11285,12 @@
     "url": "https://github.com/max72bra/DankPluginBingWallpaperWidget"
   },
   "wallpaperCarousel": {
-    "date": "2026-06-30T13:04:07Z",
+    "date": "2026-08-20T08:37:14+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-t70CBhiEBYHa9HvPpCZnfA8eCOWhUlXc6SUa9VprFNE=",
+    "hash": "sha256-/LoehTfSeeqkgIXw46Ll/PrxeEDhg4RZI5BXib6yEnI=",
     "leaveDotGit": false,
     "meta": {
       "author": "yngwe",
@@ -11311,12 +11311,12 @@
       "repo": "https://github.com/motor-dev/wallpaperCarousel",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/motor-dev/wallpaperCarousel/refs/heads/main/screenshot.png",
-      "version": "0.8.3"
+      "version": "0.8.4"
     },
-    "path": "/nix/store/icqmhshlgsj79jflmab061wlw86553db-wallpaperCarousel",
-    "rev": "c08fbb92c39d4d778bb08e520cfd96e395594440",
+    "path": "/nix/store/r0dhqjrh4kdb453v1fxgf98gfd75q6am-wallpaperCarousel",
+    "rev": "761ecd1b7f347beee9f17909f8334d987c935a1a",
     "rootDir": "",
-    "sha256": "1l8ldddga6i5x7f5alm1wl41w3vwcwka9kvvykd821c430305gdp",
+    "sha256": "0whjnaz8jmwh4dcq90z181wg3ypwwnif7w45h2jflyfj6y2ixfpw",
     "url": "https://github.com/motor-dev/wallpaperCarousel"
   },
   "wallpaperDiscovery": {
