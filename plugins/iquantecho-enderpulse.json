@@ -1,0 +1,25 @@
+{
+  "id": "enderPulse",
+  "name": "EnderPulse",
+  "capabilities": [
+    "daemon",
+    "dankbar-widget",
+    "desktop-widget",
+    "variants"
+  ],
+  "category": "appearance",
+  "repo": "https://github.com/iquantecho/enderpulse",
+  "author": "iquantecho",
+  "description": "A responsive Cava visualizer for DankBar and the desktop",
+  "dependencies": [
+    "cava"
+  ],
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "requires_dms": ">=1.5.1",
+  "screenshot": "https://raw.githubusercontent.com/iquantecho/enderpulse/main/docs/enderpulse-preview.png"
+}
