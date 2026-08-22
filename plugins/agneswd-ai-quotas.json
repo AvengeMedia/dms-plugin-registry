@@ -2,12 +2,13 @@
   "id": "aiQuotas",
   "name": "AI Quotas",
   "capabilities": [
-    "dankbar-widget"
+    "dankbar-widget",
+    "daemon"
   ],
   "category": "monitoring",
   "repo": "https://github.com/agneswd/dms-ai-quotas",
   "author": "agneswd",
-  "description": "OpenCode Go usage quotas and DeepSeek API balance in your bar.",
+  "description": "Monitor Claude, Codex, OpenCode, Antigravity, DeepSeek, and Grok usage limits and balances in your bar.",
   "dependencies": [
     "curl",
     "jq"
@@ -18,5 +19,6 @@
   "distro": [
     "any"
   ],
-  "screenshot": "https://raw.githubusercontent.com/agneswd/dms-ai-quotas/main/assets/screenshot.png"
+  "screenshot": "https://raw.githubusercontent.com/agneswd/dms-ai-quotas/main/assets/screenshot.png",
+  "requires_dms": ">=1.5.0"
 }
