@@ -1,0 +1,34 @@
+{
+    "id": "gazeAuth",
+    "name": "Gaze Authentication",
+    "capabilities": [
+        "control-center",
+        "authentication",
+        "command-execution"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/arqueon/dms-gaze-auth",
+    "author": "arqueon",
+    "description": "Inspect Gaze face-authentication health and DMS lock integration without changing PAM or biometric data.",
+    "version": "0.1.0",
+    "type": "widget",
+    "component": "./GazeAuth.qml",
+    "icon": "face",
+    "requires_dms": ">=1.5.0",
+    "dependencies": [
+        "bash",
+        "gaze",
+        "systemctl",
+        "xdg-open"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-gaze-auth/main/assets/screenshot.png",
+    "permissions": [
+        "process"
+    ]
+}

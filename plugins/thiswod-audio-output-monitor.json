@@ -6,7 +6,7 @@
     "repo": "https://github.com/thiswod/dank-audio-output-monitor",
     "author": "thiswod",
     "description": "Identify applications currently or recently using audio output, including short-lived notification sounds.",
-    "dependencies": ["pactl", "pw-mon"],
+    "dependencies": ["pactl", "pw-mon", "parec", "python3"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/thiswod/dank-audio-output-monitor/main/assets/screenshot.png"

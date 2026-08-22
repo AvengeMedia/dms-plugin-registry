@@ -1,0 +1,22 @@
+{
+  "id": "screenRecorderYS",
+  "name": "Screen Recorder YS",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/smithyyang/dms-screen-recorder",
+  "author": "youngshine",
+  "description": "GPU-accelerated monitor recording with VFR, quality and resolution controls, cursor capture, countdown, and independently selectable system and microphone audio.",
+  "dependencies": [
+    "gpu-screen-recorder"
+  ],
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "requires_dms": ">=1.2.0",
+  "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-screen-recorder/main/assets/screenshot.png"
+}

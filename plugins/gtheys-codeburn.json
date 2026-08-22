@@ -1,0 +1,13 @@
+{
+    "id": "codeburn",
+    "name": "CodeBurn",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/gtheys/dms-codeburn",
+    "author": "Geert Theys",
+    "description": "Monitor AI coding assistant token usage and costs from DankBar — cost pill, popup dashboard with insights, budget alerts, and multi-currency conversion",
+    "dependencies": ["codeburn", "bash", "jq"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/gtheys/dms-codeburn/main/docs/screenshot.png"
+}
