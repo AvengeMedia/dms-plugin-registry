@@ -1,0 +1,14 @@
+{
+  "id": "dankMenu",
+  "name": "Dank Menu",
+  "capabilities": ["daemon", "ipc"],
+  "category": "utilities",
+  "repo": "https://github.com/sitolam/dms-plugins",
+  "path": "plugins/dankmenu",
+  "author": "sitolam",
+  "description": "Omarchy-style root menu: one key to every command, with built-in search",
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/dankmenu/screenshots/root.png"
+}
