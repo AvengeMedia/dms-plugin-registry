@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-08-17T14:28:00-03:00",
+    "date": "2026-08-22T18:28:32-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-zWIqIwuHiiNPeITpOccmBUElnQLUcXqNnlGS4Oiqkvg=",
+    "hash": "sha256-ELXTG1RW48sy/zJj9KVkSPEofTgD3BuS4HbNwkioGf4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -178,26 +178,27 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.11.0"
+      "version": "1.12.0"
     },
-    "path": "/nix/store/z7qh3yrj16r87bfm7ppkxfimc39ms94r-AiOverviewControl",
-    "rev": "f285e594710edb14f7217c5c1938d4f2519d9e95",
+    "path": "/nix/store/gbx6hml99fm0ffbrnsgrl66jv3w7xlbl-AiOverviewControl",
+    "rev": "d94a3a605e85a9320875a533b6a3266379ed3f8b",
     "rootDir": "",
-    "sha256": "1y4jmblf14jiks6plwfl0afjah854v3kksc4g17j72l71cijlqnd",
+    "sha256": "1zhrm14c5kbnw291pp0371yjiwa8cjjz8qrjzwrcpqsnahdx7d8h",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
-    "date": "2026-08-14T23:18:25+02:00",
+    "date": "2026-08-22T14:15:28+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9YMNz0y36QwMJjDwHjFLAmrivzgjZlX1RADcmHXyEQA=",
+    "hash": "sha256-ua/ECME/yrER86PDNpfI/q1aPDfq26M7L7c0IJLdlQk=",
     "leaveDotGit": false,
     "meta": {
       "author": "agneswd",
       "capabilities": [
-        "dankbar-widget"
+        "dankbar-widget",
+        "daemon"
       ],
       "category": "monitoring",
       "compositors": [
@@ -207,20 +208,21 @@
         "curl",
         "jq"
       ],
-      "description": "OpenCode Go usage quotas and DeepSeek API balance in your bar.",
+      "description": "Monitor Claude, Codex, OpenCode, Antigravity, DeepSeek, and Grok usage limits and balances in your bar.",
       "distro": [
         "any"
       ],
       "id": "aiQuotas",
       "name": "AI Quotas",
       "repo": "https://github.com/agneswd/dms-ai-quotas",
+      "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/agneswd/dms-ai-quotas/main/assets/screenshot.png",
       "version": "1.7.0"
     },
-    "path": "/nix/store/cgkdfqgkbaxk2zafdq4vnbaypd7ifgm6-dms-ai-quotas",
-    "rev": "9d318d38193b285235fd918a96f47bd617712b34",
+    "path": "/nix/store/hxhk5i08lkhwcrs91xy5ppv2k6xiazrg-dms-ai-quotas",
+    "rev": "1f90e8724403cf18259c8d8a7cd0cac2c4aae4af",
     "rootDir": "",
-    "sha256": "000iy9srip008ksmari372zy4sh29cqixw1h4q60rsdp9k7hv0zm",
+    "sha256": "02cmvn920d5p5wxs7nza6wy5mbgyr2bkdhx3yc8v3jizq44c9bxr",
     "url": "https://github.com/agneswd/dms-ai-quotas"
   },
   "airQuality": {
@@ -2778,6 +2780,42 @@
     "sha256": "06d9wm44b3h607c29rc1i2xc16kgyd29wipb3rcfxq9dcvvjf2ya",
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
+  "dankMenu": {
+    "date": "2026-08-23T15:34:45+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-ZxGRPIA7gfF7Yt4nLPt918WhwEpfrXSoCiz74cov+v4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "sitolam",
+      "capabilities": [
+        "daemon",
+        "ipc"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Omarchy-style root menu: one key to every command, with built-in search",
+      "distro": [
+        "any"
+      ],
+      "id": "dankMenu",
+      "name": "Dank Menu",
+      "path": "plugins/dankmenu",
+      "repo": "https://github.com/sitolam/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/dankmenu/screenshots/root.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/k3fky54m1pgvfzxxxibja38yl8w7f460-dms-plugins",
+    "rev": "40e13a101d59fa5c0bc9cda430f56b9e43dd3b96",
+    "rootDir": "",
+    "sha256": "1zps5z5f3yrc1al79baz9b0a3ifpgpxjq9yyc9xz309vh0y924b7",
+    "url": "https://github.com/sitolam/dms-plugins"
+  },
   "dankNotepadModule": {
     "date": "2026-08-13T23:19:42-04:00",
     "deepClone": false,
@@ -3037,12 +3075,12 @@
     "url": "https://github.com/BrendonJL/dms-rss-widget"
   },
   "dankSchedPicker": {
-    "date": "2026-08-20T04:30:41+05:30",
+    "date": "2026-06-30T18:41:31+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Rh222/yOfIpQWECCEKx3L56TsttcJKBXuHhPdzsFC/c=",
+    "hash": "sha256-fXuTV6YnKNaUBeskPJh9KHUNx4exrO1u9V93MmNFayg=",
     "leaveDotGit": false,
     "meta": {
       "author": "SK-DEV-AI",
@@ -3062,21 +3100,21 @@
       "name": "Scheduler Picker",
       "repo": "https://github.com/SK-DEV-AI/dankSchedPicker",
       "screenshot": "https://raw.githubusercontent.com/SK-DEV-AI/dankSchedPicker/main/screenshot.png",
-      "version": "2.2.0"
+      "version": "2.0.0"
     },
-    "path": "/nix/store/pyqbfffxw1l1ad4yxiah4p7479pig2fs-dankSchedPicker",
-    "rev": "a0c18d7c28fd535ace1be018a5574cc6a88bfa7a",
+    "path": "/nix/store/fh4rbv8l9yd02yxybgkayblf7z9ph46d-dankSchedPicker",
+    "rev": "5d9d6063d58cf5f33e8fb36fd19acb7bd05c678d",
     "rootDir": "",
-    "sha256": "1xqb0lxpfkvqp1bs092wvfr977igfyn110j0b188lz4fzkdvc7a6",
+    "sha256": "0a3b8mik4xszympfvb5ihz3hsx98gnc3q97b0nadca17lrbr6yvx",
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSoftwareDepot": {
-    "date": "2026-08-19T23:54:54+02:00",
+    "date": "2026-08-22T10:50:59+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-QUGE6T5wd1DBzlmjDtYdgtfhHXp4H4iNpRzAHs5iDLc=",
+    "hash": "sha256-MZuuon9eE65U1FTi3791vFtK6DQH0kf5yndcXpBBERk=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3107,12 +3145,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.2"
     },
-    "path": "/nix/store/5812pmj2h9g7hkgihnj30xh586jg40q8-DankSoftwareDepot",
-    "rev": "c60596ec5b76555f882562bb0d96a3269c182651",
+    "path": "/nix/store/sk5h6vfc1n3pkrd9a55k0sjzn036vdfy-DankSoftwareDepot",
+    "rev": "c59b80fc5a7cfd91f0b88e317178032fde3fee42",
     "rootDir": "",
-    "sha256": "1dqccb71xh0wln6qh7vqg8fy3mw23pb0x8srrv0m0xvh7vlq8ha1",
+    "sha256": "068i8685wp3prbwlglh76kl4lnxwfnzxzqjlsiaaw4sygyiax6ri",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -3606,6 +3644,42 @@
     "rootDir": "",
     "sha256": "029gbjyxb253xsw7x6nmahp0cd0rmrvy9x0wivkpfdpmg2alsxzp",
     "url": "https://github.com/eduardez/DankTerminalTheme"
+  },
+  "dcalTasks": {
+    "date": "2026-08-21T17:53:59+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-TsiP0y9pTGeyT04F2U8s4z4jHYy6Yjtj6NEc/Mi3iqg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "AntonyKor",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "productivity",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dcal"
+      ],
+      "description": "List, search, create, and complete dcal tasks from the launcher, with natural language due dates.",
+      "distro": [
+        "any"
+      ],
+      "id": "dcalTasks",
+      "name": "Dcal Tasks",
+      "repo": "https://github.com/AntonyKor/dcal-tasks-launcher",
+      "screenshot": "https://raw.githubusercontent.com/AntonyKor/dcal-tasks-launcher/master/docs/screenshot.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/l2dbz9v7lfhg86pw2wq3qh5k712by5vr-dcal-tasks-launcher",
+    "rev": "a6cdf736b4932cdf00551abd351ae4d983f6d2f9",
+    "rootDir": "",
+    "sha256": "1a4anz4gq76ix1iknqmsihfj6gp35i7xj1af9yr6fk395z9qzj2f",
+    "url": "https://github.com/AntonyKor/dcal-tasks-launcher"
   },
   "dcalUpcoming": {
     "date": "2026-07-03T04:39:03-04:00",
@@ -5113,6 +5187,46 @@
     "rootDir": "",
     "sha256": "11alzivmn8yfvalbyvv309fifw8f5l9jqbdhq6y062y05ds1sqky",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
+  },
+  "enderPulse": {
+    "date": "2026-08-22T22:06:08-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-I7tglJRMlSSxTyGBvXojUIZMVSoFpQ9Q4AdMl+Ky9s0=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "iquantecho",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "desktop-widget",
+        "variants"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "cava"
+      ],
+      "description": "A responsive Cava visualizer for DankBar and the desktop",
+      "distro": [
+        "any"
+      ],
+      "id": "enderPulse",
+      "name": "EnderPulse",
+      "repo": "https://github.com/iquantecho/enderpulse",
+      "requires_dms": ">=1.5.1",
+      "screenshot": "https://raw.githubusercontent.com/iquantecho/enderpulse/main/docs/enderpulse-preview.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/byax0r2n482fhbxb1w79g8x0mh8c7bqc-enderpulse",
+    "rev": "7b908fa130a2d3c5cd43e2bfdcb067ee77735c42",
+    "rootDir": "",
+    "sha256": "1kgnnbi9fk07w180z98559alr1jh4dxbv0919yqj95acjja61fr3",
+    "url": "https://github.com/iquantecho/enderpulse"
   },
   "ephemera": {
     "date": "2026-07-17T23:19:55-05:00",
@@ -6859,6 +6973,43 @@
     "sha256": "11wf8nqdcfsr7kcs0a19v6hilk85d80vcybdlbc5icwqzlqk5vww",
     "url": "https://gitlab.com/noahpolimon/dms-plugin-livelyrics"
   },
+  "localServices": {
+    "date": "2026-08-23T16:20:14+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-51jSURgyCqFCoHpkB9wbFuqBex1uHStLZKah06y4Qsk=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "NyllRE",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "iproute2"
+      ],
+      "description": "Passive discovery of local TCP services (ports 1000-9999): dev servers auto-surface with live favicons; pin ports or ranges to track them on the DankBar.",
+      "distro": [
+        "any"
+      ],
+      "id": "localServices",
+      "name": "Local Services",
+      "path": "plugins/local-services",
+      "repo": "https://github.com/NyllRE/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/NyllRE/dms-plugins/master/plugins/local-services/preview.webp",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/gvkxgf7gi8nyr1hxyb665xqiqgwlvqbg-dms-plugins",
+    "rev": "d1b2e2e19181117ad3a7de62b86e4abf220f5ca4",
+    "rootDir": "",
+    "sha256": "1ja2p2nd78d6ci5jn7bf3mxq3shn3gf0fr3sl11a22ij318x4n77",
+    "url": "https://github.com/NyllRE/dms-plugins"
+  },
   "lutrisLauncher": {
     "date": "2026-06-21T12:24:40+07:00",
     "deepClone": false,
@@ -7448,6 +7599,47 @@
     "rootDir": "",
     "sha256": "0jbh3ibbkk9l0gy46xvcfn0hrqnsykk84vgi0j8nmw66qfihfgvh",
     "url": "https://github.com/beefsizzle/ModernClockDMS"
+  },
+  "mouthGuard": {
+    "date": "2026-08-23T15:34:45+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-ZxGRPIA7gfF7Yt4nLPt918WhwEpfrXSoCiz74cov+v4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "sitolam",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3",
+        "python-opencv",
+        "python-openvino"
+      ],
+      "description": "Webcam mouth-closure tracker with alerts and session stats",
+      "distro": [
+        "any"
+      ],
+      "id": "mouthGuard",
+      "name": "MouthGuard",
+      "path": "plugins/mouthguard",
+      "repo": "https://github.com/sitolam/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/mouthguard/screenshots/popout.png",
+      "version": "0.2.0"
+    },
+    "path": "/nix/store/k3fky54m1pgvfzxxxibja38yl8w7f460-dms-plugins",
+    "rev": "40e13a101d59fa5c0bc9cda430f56b9e43dd3b96",
+    "rootDir": "",
+    "sha256": "1zps5z5f3yrc1al79baz9b0a3ifpgpxjq9yyc9xz309vh0y924b7",
+    "url": "https://github.com/sitolam/dms-plugins"
   },
   "mpvpaper": {
     "date": "2026-07-14T18:49:00+08:00",
@@ -8858,12 +9050,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-21T00:36:33+07:00",
+    "date": "2026-08-21T10:03:54+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uT/tHbCs55tqdSEXdJoHmp8qsSWkT4hLwZ/U92BfoqU=",
+    "hash": "sha256-AKSiIjZWFhjou2ikk36ymC6GJ8OAloiGiIxmeDakYos=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -8891,21 +9083,21 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "5.1.3"
+      "version": "5.1.4"
     },
-    "path": "/nix/store/bizyvrjnx5dv7sill4pmvrfhrb6xai11-dms-quick-capture",
-    "rev": "bae4b51712526490f9cf3291f2b332650fd8bc7f",
+    "path": "/nix/store/gd4zqbm7lk1qgl89dzpnm5lcnjjchdqi-dms-quick-capture",
+    "rev": "8e923d1604fd860007f0d5a3a3088011f253f2c1",
     "rootDir": "",
-    "sha256": "19d2bxhggm4zq55qhkx44nqjm7ws0yd785r1fmm9prxcn0fysgxr",
+    "sha256": "12v2lhv7hrlci238i5l0qckqcblqn9z97938pgl1h5jn6qia5900",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
-    "date": "2026-06-28T18:34:12+05:30",
+    "date": "2026-08-23T00:46:47+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-YxDbpm4eQh5EfJLPnQpDAW5RxmDE3eAvYWu7B7D6rNs=",
+    "hash": "sha256-C+bV5p5LqCrsnFiWjaCa0KzWBusmStr1QtG5jTxhg90=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -8936,10 +9128,10 @@
       "type": "widget",
       "version": "1.2.2"
     },
-    "path": "/nix/store/gqkaqy84dirp8n93mlxsayr1s97nyd46-DMS-Quick_Tote",
-    "rev": "3ae86d02f2b7f8afd4a9a4704db2a7b06f2c1a4a",
+    "path": "/nix/store/cd1gm4b3mv9kl3g0bfdf40lyjbqxj006-DMS-Quick_Tote",
+    "rev": "38b1c061ec08a525a28594cb4ebcf8b0c3f166ba",
     "rootDir": "",
-    "sha256": "1nxczaq0gfvbc4py1pf4c3352vh18c59vkwjgi21whhydskdn433",
+    "sha256": "1pc3c4y8vffi8bsxlji6xc3ddb6hkah8v5jqkkn2ma2bkvkdbrhb",
     "url": "https://github.com/JDKamalakar/DMS-Quick_Tote"
   },
   "quranWidget": {
@@ -9224,12 +9416,12 @@
     "url": "https://github.com/crowforkotlin/dms-screen-capture"
   },
   "screenCaptureToolbar": {
-    "date": "2026-08-08T12:32:04+05:30",
+    "date": "2026-08-23T00:44:02+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-f2qEyhIp+OwxCU3FHHbsePZF+SyN26JqYCQT1AIQQrI=",
+    "hash": "sha256-BN9+l5BTYZAPfhMhIAxawd3KaraWmdFJ4n9p3V2Wl3c=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -9264,12 +9456,12 @@
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-ScreenCapture_Toolbar/refs/heads/main/assets/Screenshot_UI.png",
       "settings": "./Settings.qml",
       "type": "daemon",
-      "version": "2.1.0"
+      "version": "2.4.0"
     },
-    "path": "/nix/store/rc86x3wq2fh8cydgwmpnl3xnkq9vn01m-DMS-ScreenCapture_Toolbar",
-    "rev": "f2ecab32e9d230f0d44226645c00a846e6c0f34d",
+    "path": "/nix/store/pvvpwfawk33ihx8nr8w8kfhmsmsyp6v1-DMS-ScreenCapture_Toolbar",
+    "rev": "2b923cc95faa36876d790df6fc1ed575388e966d",
     "rootDir": "",
-    "sha256": "1cj2201d84r4c1ma5nwd5kwlbxkqxiv1riad14qyry192b588skz",
+    "sha256": "0xwpjrfxssbzw94x36cnnrmcmpf1b862088kgq7r0qakj2bpxpq4",
     "url": "https://github.com/JDKamalakar/DMS-ScreenCapture_Toolbar"
   },
   "screenOff": {
@@ -10224,12 +10416,12 @@
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
   "takeABreak": {
-    "date": "2026-08-11T21:41:32+07:00",
+    "date": "2026-08-23T16:26:20+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uiKZJyXjYm7mFNv73BFXtHvzSJSzm5zbGHerUo7KyVs=",
+    "hash": "sha256-y2XG9XRx1JBugIfgsftm6W5I/2TcBpaS451Ab0meeiI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -10251,12 +10443,12 @@
       "repo": "https://github.com/hthienloc/dms-take-a-break",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png",
       "type": "daemon",
-      "version": "1.4.3"
+      "version": "1.4.4"
     },
-    "path": "/nix/store/q9ahl12kn6shprzkz342lff0rqy4w4gx-dms-take-a-break",
-    "rev": "ff16711a650ddacbe7577877631ef1a1879b6885",
+    "path": "/nix/store/r07vrmp81gl92nk42lphzh42fy6mqhsd-dms-take-a-break",
+    "rev": "38e5a1cc12cd797a0d55d26d47c905fab9fa180b",
     "rootDir": "",
-    "sha256": "0ny9ra755avp33drr6xkji4g6yxlaw8xryyv2kk6wqp34lkrj8ms",
+    "sha256": "08kskr4nyh4xwf99c1nwckzlhvp9cvxv3q47h1p91m3ifkswcrfb",
     "url": "https://github.com/hthienloc/dms-take-a-break"
   },
   "tasks": {
@@ -10667,12 +10859,12 @@
     "url": "https://github.com/kerojiang/dms-transBin"
   },
   "typingSounds": {
-    "date": "2026-08-11T18:39:23+07:00",
+    "date": "2026-08-23T16:11:28+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-FJ50pN4C1q72P725LqHB7Co0rd/l8epaFVEMtyuW8Ag=",
+    "hash": "sha256-pWeyreTQvLhq/ka/mBTyo+kBxG8WSUdhPZCgQSx90hI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -10696,12 +10888,12 @@
       "name": "Typing Sounds",
       "repo": "https://github.com/hthienloc/dms-typing-sounds",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-typing-sounds/main/screenshot.png",
-      "version": "1.3.0"
+      "version": "1.3.1"
     },
-    "path": "/nix/store/961hgy0h5likmxhg3bp5lbq46k5d5xhc-dms-typing-sounds",
-    "rev": "878d060f208f353714a773513c34e5657e31f3f8",
+    "path": "/nix/store/75skzshs7z3a4cjn8zhfnws49p3agj36-dms-typing-sounds",
+    "rev": "0d61da952116aa18942128ca216bffc558684fdf",
     "rootDir": "",
-    "sha256": "027hjqmvf32i2mdfmwg5vynk8apcq6hjxfdx7zvaxmh2vsj797hl",
+    "sha256": "04njgln4384h7mhlfj8ndz203sd3y8a9igs6zrmbig6hwjnv4rx5",
     "url": "https://github.com/hthienloc/dms-typing-sounds"
   },
   "unifiedTaskbar": {
