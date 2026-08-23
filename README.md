@@ -9842,6 +9842,20 @@ inspired by dank.
 
 
 
+### Darkmatter
+
+A near-black theme based on the Darkmatter color scheme
+
+- **Author:** rbardini
+- **ID:** `darkmatter` **Version:** `1.0.0`
+
+![WCAG AA (Partial)](https://img.shields.io/badge/WCAG_contrast-AA_(Partial)-green)
+
+
+![Darkmatter](themes/darkmatter/preview.svg)
+
+
+
 ### Deep Dark
 
 Deep and dark color themes with two variants to fit with being dark better
