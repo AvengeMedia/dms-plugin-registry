@@ -826,15 +826,15 @@ Display lyrics from SPlayer in Dank Material Shell.
 
 #### [AI Quotas](https://github.com/agneswd/dms-ai-quotas)
 
-OpenCode Go usage quotas and DeepSeek API balance in your bar.
+Monitor Claude, Codex, OpenCode, Antigravity, DeepSeek, and Grok usage limits and balances in your bar.
 
-
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: aiQuotas
 - name: AI Quotas
 - author: agneswd
 - compositors: any
-- capabilities: dankbar-widget
+- capabilities: dankbar-widget, daemon
 - dependencies: curl, jq
 - distro: any
 
