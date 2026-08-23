@@ -8,7 +8,7 @@
   "category": "utilities",
   "repo": "https://github.com/kepeto/dms-hermes-command-deck",
   "author": "Kepeto",
-  "description": "A focused local command deck for Hermes Agent and DankMaterialShell.",
+  "description": "Streaming Hermes Agent command deck with edge-dock or centered-modal surfaces, tool activity, and persistent local chat history.",
   "dependencies": [
     "curl",
     "Hermes Agent"
