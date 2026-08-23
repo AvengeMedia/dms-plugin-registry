@@ -5123,6 +5123,40 @@ Search and browse keyboard shortcuts from your compositor and applications
 
 
 
+#### [Dank Menu](https://github.com/sitolam/dms-plugins)
+
+Omarchy-style root menu: one key to every command, with built-in search
+
+
+
+- id: dankMenu
+- name: Dank Menu
+- author: sitolam
+- compositors: any
+- capabilities: daemon, ipc
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugins/dankmenu](https://github.com/sitolam/dms-plugins/tree/main/plugins/dankmenu) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/dankmenu/screenshots/root.png)
+
+</details>
+
+
+
+
+
 #### [Dank Notepad Syntax Module](https://github.com/AvengeMedia/dms-plugins)
 
 Inline preview and chroma-based syntax highlighting for Notepad
