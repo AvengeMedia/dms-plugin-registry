@@ -1709,6 +1709,40 @@ Monitor Intel GPU usage, VRAM and temperature in the DankBar with configurable c
 
 
 
+#### [MouthGuard](https://github.com/sitolam/dms-plugins)
+
+Webcam mouth-closure tracker with alerts and session stats
+
+
+
+- id: mouthGuard
+- name: MouthGuard
+- author: sitolam
+- compositors: any
+- capabilities: daemon, dankbar-widget, control-center
+- dependencies: python3, python-opencv, python-openvino
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugins/mouthguard](https://github.com/sitolam/dms-plugins/tree/main/plugins/mouthguard) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/mouthguard/screenshots/popout.png)
+
+</details>
+
+
+
+
+
 #### [NVIDIA GPU Dankbar Monitor](https://github.com/Reverssss/dms-nvidia-gpu-monitor)
 
 Monitor NVIDIA GPU usage, VRAM, temperature, power consumption and process usage.
