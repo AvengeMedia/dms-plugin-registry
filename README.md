@@ -6401,40 +6401,6 @@ Popout translation widget for DankMaterialShell bar. Select text, click the tran
 
 
 
-#### [Grimblast](https://github.com/TaylanTatli/dms-plugins)
-
-Quick screenshot menu for grimblast with multiple capture modes
-
-<strong>requires DMS version</strong>: <em>>=0.1.18</em>
-
-- id: grimblast
-- name: Grimblast
-- author: Taylan TATLI
-- compositors: hyprland
-- capabilities: screenshot-tool, dankbar-widget
-- dependencies: grimblast
-- distro: any
-
-
-
-> [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [grimblast](https://github.com/TaylanTatli/dms-plugins/tree/main/grimblast) folder to your `~/.config/DankMaterialShell/plugins/` folder.
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/TaylanTatli/dms-plugins/refs/heads/master/grimblast/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Hand Mirror](https://github.com/hthienloc/dms-hand-mirror)
 
 Cozy camera preview with digital zoom, snapshots, and a pinnable floating window.

@@ -5902,45 +5902,6 @@
     "sha256": "04vrq71k4gf17284bhr60kf173l6x77b8k00xlxd59s8phyl496d",
     "url": "https://github.com/rollecode/dms-gpu-monitor"
   },
-  "grimblast": {
-    "date": "2025-10-27T04:32:31+03:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-CA5fjB2KmlBXeh9m1+1ddjNMhZbwR4pQ9PiEPWDcuZs=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Taylan TATLI",
-      "capabilities": [
-        "screenshot-tool",
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "hyprland"
-      ],
-      "dependencies": [
-        "grimblast"
-      ],
-      "description": "Quick screenshot menu for grimblast with multiple capture modes",
-      "distro": [
-        "any"
-      ],
-      "id": "grimblast",
-      "name": "Grimblast",
-      "path": "grimblast",
-      "repo": "https://github.com/TaylanTatli/dms-plugins",
-      "requires_dms": ">=0.1.18",
-      "screenshot": "https://raw.githubusercontent.com/TaylanTatli/dms-plugins/refs/heads/master/grimblast/screenshot.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/6ddvdpn5lz64wyzd04ayz4prk5maz6qd-dms-plugins",
-    "rev": "2fa71a37f7ba411991a9e76baa3637351830ec6a",
-    "rootDir": "",
-    "sha256": "16xrvih3v17qyi88lizhjs2lqcvnbpnxfrhzg9bm16la3n65y3h8",
-    "url": "https://github.com/TaylanTatli/dms-plugins"
-  },
   "hamqslPropagation": {
     "date": "2026-07-04T00:28:51-04:00",
     "deepClone": false,
