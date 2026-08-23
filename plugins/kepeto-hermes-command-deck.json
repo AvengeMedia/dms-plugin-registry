@@ -1,0 +1,24 @@
+{
+  "id": "hermesCommandDeck",
+  "name": "Hermes Command Deck",
+  "capabilities": [
+    "ai",
+    "slideout"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/kepeto/dms-hermes-command-deck",
+  "author": "Kepeto",
+  "description": "A focused local command deck for Hermes Agent and DankMaterialShell.",
+  "dependencies": [
+    "curl",
+    "Hermes Agent"
+  ],
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/kepeto/dms-hermes-command-deck/main/assets/hermes-command-deck-sidebar.png",
+  "requires_dms": ">=1.4.0"
+}
