@@ -1709,6 +1709,40 @@ Monitor Intel GPU usage, VRAM and temperature in the DankBar with configurable c
 
 
 
+#### [Local Services](https://github.com/NyllRE/dms-plugins)
+
+Passive discovery of local TCP services (ports 1000-9999): dev servers auto-surface with live favicons; pin ports or ranges to track them on the DankBar.
+
+
+
+- id: localServices
+- name: Local Services
+- author: NyllRE
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: iproute2
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugins/local-services](https://github.com/NyllRE/dms-plugins/tree/main/plugins/local-services) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/NyllRE/dms-plugins/master/plugins/local-services/preview.webp)
+
+</details>
+
+
+
+
+
 #### [MouthGuard](https://github.com/sitolam/dms-plugins)
 
 Webcam mouth-closure tracker with alerts and session stats
