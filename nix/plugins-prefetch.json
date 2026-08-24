@@ -5188,6 +5188,42 @@
     "sha256": "11alzivmn8yfvalbyvv309fifw8f5l9jqbdhq6y062y05ds1sqky",
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
+  "emojiPicker": {
+    "date": "2026-08-24T12:31:09+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-FdkAZh2xv8zngqwseoTSXdKV+VXA0US+HTsGdziCDnY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Loc Huynh",
+      "capabilities": [
+        "daemon",
+        "ipc"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Search, copy, and paste emoji from a centered picker.",
+      "distro": [
+        "any"
+      ],
+      "id": "emojiPicker",
+      "name": "Emoji Picker",
+      "repo": "https://github.com/hthienloc/dms-emoji-picker",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-emoji-picker/main/screenshot.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/y0i71s4xdyspa6rjh1gqmhpb4pybw2m4-dms-emoji-picker",
+    "rev": "53fb27442c5b48ab2ab0ea37e7c2bcf72da0902a",
+    "rootDir": "",
+    "sha256": "0xhfh8w7f1iv3nz49lf0apwrbljxsa27lb5chbkwrgxi3mk01n8m",
+    "url": "https://github.com/hthienloc/dms-emoji-picker"
+  },
   "enderPulse": {
     "date": "2026-08-22T22:06:08-04:00",
     "deepClone": false,
