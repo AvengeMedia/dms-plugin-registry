@@ -1,0 +1,21 @@
+{
+    "id": "emojiPicker",
+    "name": "Emoji Picker",
+    "capabilities": [
+        "daemon",
+        "ipc"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-emoji-picker",
+    "author": "Loc Huynh",
+    "description": "Search, copy, and paste emoji from a centered picker.",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "requires_dms": ">=1.5.0",
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-emoji-picker/main/screenshot.png"
+}
