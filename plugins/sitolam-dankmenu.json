@@ -6,7 +6,7 @@
   "repo": "https://github.com/sitolam/dms-plugins",
   "path": "plugins/dankmenu",
   "author": "sitolam",
-  "description": "Omarchy-style root menu: one key to every command, with built-in search",
+  "description": "Omarchy-style root menu: one key to every command, with built-in search, conditional rows and live labels",
   "dependencies": [],
   "compositors": ["any"],
   "distro": ["any"],
