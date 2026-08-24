@@ -1,0 +1,27 @@
+{
+    "id": "dankCalendarPlus",
+    "name": "Dank Calendar Plus",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/luckjokerwang/dms-dankcalendar",
+    "author": "luckjokerwang",
+    "description": "Next-event countdown & full tasks manager for dcal: dual-mode bar pill, interactive agenda & tasks popout with priority tagging and instant synchronization",
+    "dependencies": [
+        "dcal",
+        "jq",
+        "python3"
+    ],
+    "compositors": [
+        "niri",
+        "hyprland",
+        "sway",
+        "dwl",
+        "wayfire"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/luckjokerwang/dms-dankcalendar/main/assets/screenshot.png"
+}
