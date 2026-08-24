@@ -2781,12 +2781,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankMenu": {
-    "date": "2026-08-23T15:34:45+02:00",
+    "date": "2026-08-23T23:55:50+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ZxGRPIA7gfF7Yt4nLPt918WhwEpfrXSoCiz74cov+v4=",
+    "hash": "sha256-majqubiByGpfqZjamM0VgjeuF4CF3p5fSzJPML5qE1E=",
     "leaveDotGit": false,
     "meta": {
       "author": "sitolam",
@@ -2808,12 +2808,12 @@
       "path": "plugins/dankmenu",
       "repo": "https://github.com/sitolam/dms-plugins",
       "screenshot": "https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/dankmenu/screenshots/root.png",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
-    "path": "/nix/store/k3fky54m1pgvfzxxxibja38yl8w7f460-dms-plugins",
-    "rev": "40e13a101d59fa5c0bc9cda430f56b9e43dd3b96",
+    "path": "/nix/store/6ynmb4ibs16bqdk0xi3gvg3gssfs6yxj-dms-plugins",
+    "rev": "f469567e1edc03a53218d9600cc2a21053bd4ec8",
     "rootDir": "",
-    "sha256": "1zps5z5f3yrc1al79baz9b0a3ifpgpxjq9yyc9xz309vh0y924b7",
+    "sha256": "0l8kdaz30krj9dgrxpl5h0bswdw22p6rinlqm5gnmj41p2wyma4r",
     "url": "https://github.com/sitolam/dms-plugins"
   },
   "dankNotepadModule": {
@@ -3109,12 +3109,12 @@
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSoftwareDepot": {
-    "date": "2026-08-22T10:50:59+02:00",
+    "date": "2026-08-23T19:46:27+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-MZuuon9eE65U1FTi3791vFtK6DQH0kf5yndcXpBBERk=",
+    "hash": "sha256-NMog576uT4Hdt/gS3ryfCvvyFZyt2PUXiOHNK0TnYw4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3145,12 +3145,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "1.1.2"
+      "version": "1.1.3"
     },
-    "path": "/nix/store/sk5h6vfc1n3pkrd9a55k0sjzn036vdfy-DankSoftwareDepot",
-    "rev": "c59b80fc5a7cfd91f0b88e317178032fde3fee42",
+    "path": "/nix/store/wlhcb7sxc8fvf4pmygfw9fnb5br00r7a-DankSoftwareDepot",
+    "rev": "7a74acb98fb53c567ee6feafde69bb8016c5623b",
     "rootDir": "",
-    "sha256": "068i8685wp3prbwlglh76kl4lnxwfnzxzqjlsiaaw4sygyiax6ri",
+    "sha256": "03k3wx22pkg1i0bzbn5dkhaz5yqakyydw4pqnzfq2kxfpvkj1jil",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -7601,12 +7601,12 @@
     "url": "https://github.com/beefsizzle/ModernClockDMS"
   },
   "mouthGuard": {
-    "date": "2026-08-23T15:34:45+02:00",
+    "date": "2026-08-23T23:55:50+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ZxGRPIA7gfF7Yt4nLPt918WhwEpfrXSoCiz74cov+v4=",
+    "hash": "sha256-majqubiByGpfqZjamM0VgjeuF4CF3p5fSzJPML5qE1E=",
     "leaveDotGit": false,
     "meta": {
       "author": "sitolam",
@@ -7635,10 +7635,10 @@
       "screenshot": "https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/mouthguard/screenshots/popout.png",
       "version": "0.2.0"
     },
-    "path": "/nix/store/k3fky54m1pgvfzxxxibja38yl8w7f460-dms-plugins",
-    "rev": "40e13a101d59fa5c0bc9cda430f56b9e43dd3b96",
+    "path": "/nix/store/6ynmb4ibs16bqdk0xi3gvg3gssfs6yxj-dms-plugins",
+    "rev": "f469567e1edc03a53218d9600cc2a21053bd4ec8",
     "rootDir": "",
-    "sha256": "1zps5z5f3yrc1al79baz9b0a3ifpgpxjq9yyc9xz309vh0y924b7",
+    "sha256": "0l8kdaz30krj9dgrxpl5h0bswdw22p6rinlqm5gnmj41p2wyma4r",
     "url": "https://github.com/sitolam/dms-plugins"
   },
   "mpvpaper": {
