@@ -5946,6 +5946,35 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 
 
 
+#### [Emoji Picker](https://github.com/hthienloc/dms-emoji-picker)
+
+Search, copy, and paste emoji from a centered picker.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: emojiPicker
+- name: Emoji Picker
+- author: Loc Huynh
+- compositors: any
+- capabilities: daemon, ipc
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-emoji-picker/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Ephemera](https://github.com/nicolasgarcia214/Ephemera)
 
 Ephemeral AI chat — ask quick questions, keep nothing
