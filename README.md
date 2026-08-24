@@ -5222,7 +5222,7 @@ Search and browse keyboard shortcuts from your compositor and applications
 
 #### [Dank Menu](https://github.com/sitolam/dms-plugins)
 
-Omarchy-style root menu: one key to every command, with built-in search
+Omarchy-style root menu: one key to every command, with built-in search, conditional rows and live labels
 
 
 
