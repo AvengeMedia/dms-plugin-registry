@@ -1794,12 +1794,12 @@
     "url": "https://github.com/zakstam/dms-codexbar"
   },
   "colorPickerDms": {
-    "date": "2026-08-08T00:02:43-03:00",
+    "date": "2026-08-24T14:17:06-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-BLlBfvSYC+/nY+TWoA0tjtA4ewPT0ulMdjH6PH9dUyU=",
+    "hash": "sha256-3WvA3QMV1Stg4fF22sQRaW942IaPfkovJXh/+uQqyKM=",
     "leaveDotGit": false,
     "meta": {
       "author": "bernardopg",
@@ -1825,10 +1825,10 @@
       "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/assets/screenshot.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/y9g3k8hdbc0dfm2w1a6kwcjza48zadxg-color-picker-dms",
-    "rev": "ab8d78fef1fb45a2d5ec94caaf69f81ae43b0032",
+    "path": "/nix/store/y2158d1v504z57a6p0frj6yxsvsdhrjl-color-picker-dms",
+    "rev": "f4f0d759a177178f6acabb00e520602d5ea43a78",
     "rootDir": "",
-    "sha256": "09akbmzkryiifr6fklnk0dxkil4f5l6s1mp4cgkyy2wqyiz43f84",
+    "sha256": "18y85bjglzvq4lpllzlghvc7hvv9272dlxpiw5h2pm8m0gfw0syx",
     "url": "https://github.com/bernardopg/color-picker-dms"
   },
   "commandRunner": {
@@ -3109,12 +3109,12 @@
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSoftwareDepot": {
-    "date": "2026-08-23T19:46:27+02:00",
+    "date": "2026-08-24T19:39:01+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-NMog576uT4Hdt/gS3ryfCvvyFZyt2PUXiOHNK0TnYw4=",
+    "hash": "sha256-FfvoqPwVJ5h5gk5unDz/93R50XZHmSqQoStEYp5Xl1Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3145,12 +3145,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "1.1.3"
+      "version": "1.1.5"
     },
-    "path": "/nix/store/wlhcb7sxc8fvf4pmygfw9fnb5br00r7a-DankSoftwareDepot",
-    "rev": "7a74acb98fb53c567ee6feafde69bb8016c5623b",
+    "path": "/nix/store/b87pz50290p76l2k3b0wm4iv8nxlyv9d-DankSoftwareDepot",
+    "rev": "4f91ced1bafdc8e9a89b36eeda72c0c242adbdb0",
     "rootDir": "",
-    "sha256": "03k3wx22pkg1i0bzbn5dkhaz5yqakyydw4pqnzfq2kxfpvkj1jil",
+    "sha256": "0m4payg64i1bl682m6a7fv8pjx7pzwy9qvjfh9wrh9qmzjlfiyqm",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
