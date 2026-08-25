@@ -1,0 +1,13 @@
+{
+    "id": "spotifyLike",
+    "name": "Spotify Like",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/Dukko/dms-spotify-like",
+    "author": "Dukko",
+    "description": "DankDash-style media popout with a heart button to save/unsave the current track to your Spotify Library",
+    "dependencies": ["python3", "curl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Dukko/dms-spotify-like/main/docs/screenshot.png"
+}
