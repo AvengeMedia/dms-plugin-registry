@@ -1,0 +1,14 @@
+{
+  "id": "virtualKeyboard",
+  "name": "Virtual Keyboard",
+  "capabilities": ["daemon", "ipc", "dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/sitolam/dms-plugins",
+  "path": "plugins/virtualkeyboard",
+  "author": "sitolam",
+  "description": "On-screen keyboard overlay, toggled by IPC or an optional DankBar pill",
+  "dependencies": ["ydotool"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/virtualkeyboard/screenshots/docked.png"
+}
