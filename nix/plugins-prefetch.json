@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-08-22T18:28:32-03:00",
+    "date": "2026-08-25T19:14:25-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ELXTG1RW48sy/zJj9KVkSPEofTgD3BuS4HbNwkioGf4=",
+    "hash": "sha256-bDYW3A5bHMWqzagnudd+q1azs5Bh3FtbvDy2kVbDXso=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -178,12 +178,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.12.0"
+      "version": "1.13.1"
     },
-    "path": "/nix/store/gbx6hml99fm0ffbrnsgrl66jv3w7xlbl-AiOverviewControl",
-    "rev": "d94a3a605e85a9320875a533b6a3266379ed3f8b",
+    "path": "/nix/store/ygf4zq92sy0idnjdyai9lrdyrrcjh0bf-AiOverviewControl",
+    "rev": "fa3be530af0b159c5c984463673919ebbd828214",
     "rootDir": "",
-    "sha256": "1zhrm14c5kbnw291pp0371yjiwa8cjjz8qrjzwrcpqsnahdx7d8h",
+    "sha256": "1jjyqdb93diwpidmpp31j2rv6mmbgvbvj9x8rnmca72v1vf1cdkc",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
@@ -1865,6 +1865,44 @@
     "sha256": "1b3nazwmn7a1bwn5667wvfbgj6gsa42k1q14h5r9byv145pv7mfx",
     "url": "https://github.com/devnullvoid/dms-command-runner"
   },
+  "controlD": {
+    "date": "2026-08-24T20:28:24+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-WbVxqAQ2XRO/r0+SsLqnKHFHfabZVQrj7DwocGyVJuM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "clementpoiret",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget"
+      ],
+      "category": "networking",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "nslookup"
+      ],
+      "description": "Control and validate a Control D endpoint from DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "controlD",
+      "name": "Control D",
+      "repo": "https://github.com/clementpoiret/dms-controld",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/clementpoiret/dms-controld/main/docs/control-d-preview.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/hn62bk41mfx045dpx24y661d97viji1w-dms-controld",
+    "rev": "c9beea5f41c2bfd96dfd786f23ddb0915fce9c1d",
+    "rootDir": "",
+    "sha256": "1qr6jmn70a1wxkihlmfrlrylfw98lyxb14jgmyzi6p9n0jl73dar",
+    "url": "https://github.com/clementpoiret/dms-controld"
+  },
   "converter": {
     "date": "2026-07-06T11:35:00-07:00",
     "deepClone": false,
@@ -2552,6 +2590,44 @@
     "rootDir": "",
     "sha256": "1p8izbpbh02hj8lwwqma8i98l4gh5jzwpzlwlfdlw60dj6ymdbim",
     "url": "https://github.com/alcxyz/DankDiskUsage"
+  },
+  "dankGearyMail": {
+    "date": "2026-08-25T08:34:28-07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-+id1N3GnWZ8AHn5jl2q3NNd4AYULU+ICxocyTocyMh8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "schneik80",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "productivity",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3",
+        "geary"
+      ],
+      "description": "Unread mail counts for every account configured in Geary. Reads Geary's local database, so no IMAP credentials are needed. Bar badge plus a popout with per-account counts and recent unread messages.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankGearyMail",
+      "name": "Dank Geary Mail",
+      "path": "plugin",
+      "repo": "https://github.com/schneik80/dms-geary-mail",
+      "screenshot": "https://raw.githubusercontent.com/schneik80/dms-geary-mail/main/assets/screenshot.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/dp9nkvgmgxm0sbdlwvf53fbma6zsil2h-dms-geary-mail",
+    "rev": "2419bf2134eda5f02cdac0397ce8f2a3a50de4da",
+    "rootDir": "",
+    "sha256": "07rj6a3lwcl7qq1f4lqbhl0pimrlnxm9fqvy3q09ynd7f4vpa9zs",
+    "url": "https://github.com/schneik80/dms-geary-mail"
   },
   "dankGifSearch": {
     "date": "2026-08-13T23:19:42-04:00",
@@ -3346,12 +3422,12 @@
     "url": "https://github.com/deepu105/dms-dank-todo"
   },
   "dankTodoman": {
-    "date": "2026-07-20T00:59:33+02:00",
+    "date": "2026-08-25T18:29:46+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-nDFG8sv0j/GJYy8RNGCMgxA4bPZjav6eGfa5/JCxGsE=",
+    "hash": "sha256-7nk0ud47fyMXamrSMuWE+xuuzVxjdJeejwQnRzxTVFI=",
     "leaveDotGit": false,
     "meta": {
       "author": "shochraos",
@@ -3375,12 +3451,12 @@
       "repo": "https://github.com/Shochraos/dms-todoman-plugin",
       "requires_dms": ">=1.5",
       "screenshot": "https://raw.githubusercontent.com/Shochraos/dms-todoman-plugin/main/screenshot.png",
-      "version": "0.2.0"
+      "version": "0.3.0"
     },
-    "path": "/nix/store/57357k6il155mv2pk7ppccpwz2ypc66m-dms-todoman-plugin",
-    "rev": "54e397fce9ffb88c25bc7e50c504cd3c522719f3",
+    "path": "/nix/store/0l24d6mfsy0qyxfi4vcwkpx2wwqgf5kw-dms-todoman-plugin",
+    "rev": "a8dff35ac533164ccd60b21767b26ae717c6f785",
     "rootDir": "",
-    "sha256": "1h8sn68grfgn36ggwsk3yrn3h443iih3849gcf4z33zlrgr4cccw",
+    "sha256": "0ljlacy4f9q4iyg9fx33bk6sw6zvhkjk5lkad8bj6zrvvswk8ygf",
     "url": "https://github.com/Shochraos/dms-todoman-plugin"
   },
   "dankTranslate": {
@@ -4769,12 +4845,12 @@
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
   "dmsVikunja": {
-    "date": "2026-08-15T02:31:55-06:00",
+    "date": "2026-08-24T18:50:49-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Q/gqDW4FQlhCe+5lytBRFKDxmJ7N1h99ADwVVx0QuzM=",
+    "hash": "sha256-YJD3p0Bss6W3hvQEKV9deg/Kg/j3t+SrzzEauUjGDKk=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -4812,10 +4888,10 @@
       "type": "composite",
       "version": "0.2.0"
     },
-    "path": "/nix/store/rdjk05cisjwh9rcclq0myycg1i9wkkqz-dms-vikunja",
-    "rev": "dbf6fa6e876c54dfc9a79a4f90ce61fa5459fad4",
+    "path": "/nix/store/kp6sgc45mqsxlv6kdb41galcfkg9dlli-dms-vikunja",
+    "rev": "d488539107b3a45b7acbc1cf25f62dd88f7fc4ad",
     "rootDir": "",
-    "sha256": "0cxv20fmf59w01yizmndkscg380la78clrgfgd15hhh5dq6jmy23",
+    "sha256": "1a8cqr4bj6iirymy9dzpz21wl3vsbmgjj17lhsvsbcvc82kzg430",
     "url": "https://github.com/arqueon/dms-vikunja"
   },
   "dmsWhisper": {
@@ -8303,12 +8379,12 @@
     "url": "https://github.com/samgrande/Dank-Nothing-Clock"
   },
   "ntfy": {
-    "date": "2026-08-07T11:46:41-06:00",
+    "date": "2026-08-24T19:07:49-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-tpJw280IRkUEFVcHQLM0oruHthu63YGBpAZHQfjZs2o=",
+    "hash": "sha256-/gAJ8VEYX3FBUMA33UFhUYv/3+xlebO/wT5TbFhl9XA=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -8351,10 +8427,10 @@
       "type": "composite",
       "version": "0.3.0"
     },
-    "path": "/nix/store/v64d39rihnrsnacrc7w2pirwbhj4n7fz-dms-ntfy",
-    "rev": "8d63c9930f32d307575b207bca96e7a14d99117e",
+    "path": "/nix/store/x9rsfp4dbb93xa8gmf1mrjykmbprg28j-dms-ntfy",
+    "rev": "2219171f0323d3d1231d33f8391a1c70e0129ab8",
     "rootDir": "",
-    "sha256": "0smkv7w42iq6lj0q3pds3fv8gfx26jrl01sp2l24aih8rpdp14mn",
+    "sha256": "0w7mcmc6qlryq6zv6yb5xkgzz2sic50xsdy0a10p2pqqa7qhj07y",
     "url": "https://github.com/arqueon/dms-ntfy"
   },
   "nvidiaGpuDankbarMonitor": {
@@ -11350,12 +11426,12 @@
     "url": "https://github.com/sr-tream/dms-vscode-launcher"
   },
   "wallabag": {
-    "date": "2026-08-07T11:46:37-06:00",
+    "date": "2026-08-24T19:07:49-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-SmNsRMzF6ZuGYbJQa3cljyj2aqxvAMlLEdstzu2zm0k=",
+    "hash": "sha256-D200NTz1L9LwqgPD58sf2b+cgBo1EVQdc/eWaq8g6/8=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -11392,10 +11468,10 @@
       "type": "widget",
       "version": "0.1.1"
     },
-    "path": "/nix/store/6rpp32n71wsynqls7j2i7x15ryj2wms1-dms-wallabag",
-    "rev": "be1962808bbfe7fd9f470b00eb9d2e860b8b43b6",
+    "path": "/nix/store/ll0r7qrhcpvb2ik65m39zgxniqawcp06-dms-wallabag",
+    "rev": "a02f13ae2dc41f8044ba92abb45004ec366c9957",
     "rootDir": "",
-    "sha256": "0jcvngnwwbfv255wj03gmimgca4g4mvnnl5jc639psf5ri26qqsa",
+    "sha256": "1zzb42pnm5ppfcfm849m3a09rgyr3z5yghq3mbqd4bzm7hsk8v8g",
     "url": "https://github.com/arqueon/dms-wallabag"
   },
   "wallpaperBing": {
