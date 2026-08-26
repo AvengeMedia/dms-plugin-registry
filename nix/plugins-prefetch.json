@@ -10094,6 +10094,43 @@
     "sha256": "13w249cs4gycjgsr8pl9mz0nphiqay91ygzxbakap7dpwf3x14ha",
     "url": "https://github.com/lycbowen/SPlayerLyrics"
   },
+  "spotifyLike": {
+    "date": "2026-08-24T22:05:28-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-eI7I9MoFN8FRxHkDL6ZoyicLS5rKcb+DAcZlCz+oC0Y=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Dukko",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3",
+        "curl"
+      ],
+      "description": "DankDash-style media popout with a heart button to save/unsave the current track to your Spotify Library",
+      "distro": [
+        "any"
+      ],
+      "id": "spotifyLike",
+      "name": "Spotify Like",
+      "repo": "https://github.com/Dukko/dms-spotify-like",
+      "screenshot": "https://raw.githubusercontent.com/Dukko/dms-spotify-like/main/docs/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/07yk76c83wpwl707bjh07l0ax34rsxmv-dms-spotify-like",
+    "rev": "856cf7a6c087fa22c7c743c568fe37d0b118377f",
+    "rootDir": "",
+    "sha256": "0ihbm0zhnrf6061vywfak95hn9yad2k2y0vrqi8w2dq5rbsci3kq",
+    "url": "https://github.com/Dukko/dms-spotify-like"
+  },
   "spotifyMatugen": {
     "date": "2026-07-29T16:32:18+03:00",
     "deepClone": false,
