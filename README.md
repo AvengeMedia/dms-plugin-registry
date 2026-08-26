@@ -8636,6 +8636,35 @@ Control Spotify playback and search tracks via ncspot
 
 
 
+#### [Spotify Like](https://github.com/Dukko/dms-spotify-like)
+
+DankDash-style media popout with a heart button to save/unsave the current track to your Spotify Library
+
+
+
+- id: spotifyLike
+- name: Spotify Like
+- author: Dukko
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3, curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Dukko/dms-spotify-like/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Steam Big Picture](https://github.com/JessVolet/DankConsoleModeWithSteam)
 
 A simple widget to start steam in big picture mode with custom commands.
