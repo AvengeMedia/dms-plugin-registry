@@ -2415,6 +2415,40 @@ Next-event countdown for dcal with a scrollable agenda popout grouped by day: cl
 
 
 
+#### [Dank Geary Mail](https://github.com/schneik80/dms-geary-mail)
+
+Unread mail counts for every account configured in Geary. Reads Geary's local database, so no IMAP credentials are needed. Bar badge plus a popout with per-account counts and recent unread messages.
+
+
+
+- id: dankGearyMail
+- name: Dank Geary Mail
+- author: schneik80
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3, geary
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugin](https://github.com/schneik80/dms-geary-mail/tree/main/plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/schneik80/dms-geary-mail/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Todo](https://github.com/deepu105/dms-dank-todo)
 
 A simple locally-saved TODO list widget for the Dank bar.
