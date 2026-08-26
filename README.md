@@ -2262,6 +2262,35 @@ QuickShell plugin for DankMaterialShell that exposes Pangolin VPN status, peer l
 
 
 
+#### [Control D](https://github.com/clementpoiret/dms-controld)
+
+Control and validate a Control D endpoint from DankBar
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: controlD
+- name: Control D
+- author: clementpoiret
+- compositors: any
+- capabilities: daemon, dankbar-widget
+- dependencies: nslookup
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/clementpoiret/dms-controld/main/docs/control-d-preview.png)
+
+</details>
+
+
+
+
+
 #### [Mobile Network](https://github.com/NaClwww/dms-modem-plugin)
 
 Manage mobile broadband with NetworkManager: toggle the WWAN radio, view live modem, operator, and signal status, and create, edit, and activate APN profiles from the Control Center.
