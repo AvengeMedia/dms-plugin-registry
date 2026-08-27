@@ -5,7 +5,7 @@
     "category": "productivity",
     "repo": "https://github.com/AntonyKor/dcal-tasks-launcher",
     "author": "AntonyKor",
-    "description": "List, search, create, and complete dcal tasks from the launcher, with natural language due dates.",
+    "description": "List, search, create, and complete dcal tasks from the launcher, with natural language due dates and /list task-list selection.",
     "dependencies": ["dcal"],
     "compositors": ["any"],
     "distro": ["any"],
