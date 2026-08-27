@@ -5128,6 +5128,35 @@ Search bitwarden entries from rbw.
 
 
 
+#### [Dank Calendar Plus](https://github.com/luckjokerwang/dms-dankcalendar)
+
+Next-event countdown & full tasks manager for dcal: dual-mode bar pill, interactive agenda & tasks popout with priority tagging and instant synchronization
+
+
+
+- id: dankCalendarPlus
+- name: Dank Calendar Plus
+- author: luckjokerwang
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dcal, jq, python3
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/luckjokerwang/dms-dankcalendar/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Cleaner](https://github.com/NordicsSys/dankCleaner)
 
 Safe one-click cleaner plugin for DankMaterialShell.
