@@ -149,12 +149,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-08-25T19:14:25-03:00",
+    "date": "2026-08-26T14:27:53-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bDYW3A5bHMWqzagnudd+q1azs5Bh3FtbvDy2kVbDXso=",
+    "hash": "sha256-11zusgffdPd3/ZQ56uurmuYSWsdZwrdF8bVRHC8cNHM=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -178,12 +178,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.13.1"
+      "version": "1.14.0"
     },
-    "path": "/nix/store/ygf4zq92sy0idnjdyai9lrdyrrcjh0bf-AiOverviewControl",
-    "rev": "fa3be530af0b159c5c984463673919ebbd828214",
+    "path": "/nix/store/d1mdv14l2i2ydhnrasrmd8gg5myc63p7-AiOverviewControl",
+    "rev": "f2d0fc19493539c3134da3090b0887538ecbdfb0",
     "rootDir": "",
-    "sha256": "1jjyqdb93diwpidmpp31j2rv6mmbgvbvj9x8rnmca72v1vf1cdkc",
+    "sha256": "0wrl3hpiqldmy52vghjrqxd15rlsmgmylfclzmvzfx6z0yrfwp6p",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
@@ -2400,6 +2400,44 @@
     "sha256": "1fmxxkdx5mrqaxxg3jx3mq7va2y3ghj9hdpxlzg2a308w7bwipji",
     "url": "https://github.com/arqueon/dms-dankcalendar"
   },
+  "dankCalendarPlus": {
+    "date": "2026-08-27T10:05:50+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-abr9v1OR/WTITh414Myn82bGB3e+F7lE7F0OUiyvnLg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "luckjokerwang",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dcal",
+        "jq",
+        "python3"
+      ],
+      "description": "Next-event countdown & full tasks manager for dcal: dual-mode bar pill, interactive agenda & tasks popout with priority tagging and instant synchronization",
+      "distro": [
+        "any"
+      ],
+      "id": "dankCalendarPlus",
+      "name": "Dank Calendar Plus",
+      "repo": "https://github.com/luckjokerwang/dms-dankcalendar",
+      "screenshot": "https://raw.githubusercontent.com/luckjokerwang/dms-dankcalendar/main/assets/screenshot.png",
+      "version": "2.0.0"
+    },
+    "path": "/nix/store/48kc284y7sc1by6hx6k9mnjmpy224x32-dms-dankcalendar",
+    "rev": "b4d5ac4faa19d0433564ff3feb1c834724b83933",
+    "rootDir": "",
+    "sha256": "1f4wmwn543jxxi2bj5xyfw3wcrpklz6f0d8y9v469zciafzzvfk9",
+    "url": "https://github.com/luckjokerwang/dms-dankcalendar"
+  },
   "dankCleaner": {
     "date": "2026-03-31T18:08:49+07:00",
     "deepClone": false,
@@ -2857,12 +2895,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankMenu": {
-    "date": "2026-08-23T23:55:50+02:00",
+    "date": "2026-08-26T13:18:59+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-majqubiByGpfqZjamM0VgjeuF4CF3p5fSzJPML5qE1E=",
+    "hash": "sha256-yczbR3eJ21G+wyjU6tV8SgFLY6FertrxK2E39DKuBVE=",
     "leaveDotGit": false,
     "meta": {
       "author": "sitolam",
@@ -2886,10 +2924,10 @@
       "screenshot": "https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/dankmenu/screenshots/root.png",
       "version": "0.2.0"
     },
-    "path": "/nix/store/6ynmb4ibs16bqdk0xi3gvg3gssfs6yxj-dms-plugins",
-    "rev": "f469567e1edc03a53218d9600cc2a21053bd4ec8",
+    "path": "/nix/store/15janbrmmnbr55xwjc4rdpsi4ingwfz7-dms-plugins",
+    "rev": "19b73ceed77a7de6f8c1f5f4d99a2f781f49254c",
     "rootDir": "",
-    "sha256": "0l8kdaz30krj9dgrxpl5h0bswdw22p6rinlqm5gnmj41p2wyma4r",
+    "sha256": "0l85mqrg8dv15gqxmbjyl5iln0aagkaymm18qfz53nw9fx3xpk69",
     "url": "https://github.com/sitolam/dms-plugins"
   },
   "dankNotepadModule": {
@@ -3185,12 +3223,12 @@
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSoftwareDepot": {
-    "date": "2026-08-24T19:39:01+02:00",
+    "date": "2026-08-26T20:34:28+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-FfvoqPwVJ5h5gk5unDz/93R50XZHmSqQoStEYp5Xl1Q=",
+    "hash": "sha256-FYS0QlmM8csNQZ2zqZp8VEQtUMl9DYoG0j+79RVpSK4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3221,12 +3259,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "1.1.5"
+      "version": "1.1.6"
     },
-    "path": "/nix/store/b87pz50290p76l2k3b0wm4iv8nxlyv9d-DankSoftwareDepot",
-    "rev": "4f91ced1bafdc8e9a89b36eeda72c0c242adbdb0",
+    "path": "/nix/store/7ddgv6q0wryrfw522pqzp1qg6ya9rs99-DankSoftwareDepot",
+    "rev": "463715804218b90c126ebd54ba2b84168a79933c",
     "rootDir": "",
-    "sha256": "0m4payg64i1bl682m6a7fv8pjx7pzwy9qvjfh9wrh9qmzjlfiyqm",
+    "sha256": "1bj8d4azbfrzs838l3bxr582si2lgjdakcwx846wpwccb51b910m",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -3422,12 +3460,12 @@
     "url": "https://github.com/deepu105/dms-dank-todo"
   },
   "dankTodoman": {
-    "date": "2026-08-25T18:29:46+02:00",
+    "date": "2026-08-26T20:35:58+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-7nk0ud47fyMXamrSMuWE+xuuzVxjdJeejwQnRzxTVFI=",
+    "hash": "sha256-FW6qDsbBaUy4RrByvxPkAtwKhjKpQGJWlgB9r/Y7byk=",
     "leaveDotGit": false,
     "meta": {
       "author": "shochraos",
@@ -3453,10 +3491,10 @@
       "screenshot": "https://raw.githubusercontent.com/Shochraos/dms-todoman-plugin/main/screenshot.png",
       "version": "0.3.0"
     },
-    "path": "/nix/store/0l24d6mfsy0qyxfi4vcwkpx2wwqgf5kw-dms-todoman-plugin",
-    "rev": "a8dff35ac533164ccd60b21767b26ae717c6f785",
+    "path": "/nix/store/9rxqykqbw45hkxzrmkm0q1lnfwxck3xk-dms-todoman-plugin",
+    "rev": "f053e0474d72a79b68d15bf192ea32089b6a32e7",
     "rootDir": "",
-    "sha256": "0ljlacy4f9q4iyg9fx33bk6sw6zvhkjk5lkad8bj6zrvvswk8ygf",
+    "sha256": "0abg7gvayz80jrb64h596a30mp02wh9vywmh8sw4qsf1qq7alvhm",
     "url": "https://github.com/Shochraos/dms-todoman-plugin"
   },
   "dankTranslate": {
@@ -3722,12 +3760,12 @@
     "url": "https://github.com/eduardez/DankTerminalTheme"
   },
   "dcalTasks": {
-    "date": "2026-08-21T17:53:59+03:00",
+    "date": "2026-08-26T12:20:11+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-TsiP0y9pTGeyT04F2U8s4z4jHYy6Yjtj6NEc/Mi3iqg=",
+    "hash": "sha256-RM2UneJlJ9gZLdhaFPdPboMs3zMggQHFpxvvBXC1070=",
     "leaveDotGit": false,
     "meta": {
       "author": "AntonyKor",
@@ -3749,12 +3787,12 @@
       "name": "Dcal Tasks",
       "repo": "https://github.com/AntonyKor/dcal-tasks-launcher",
       "screenshot": "https://raw.githubusercontent.com/AntonyKor/dcal-tasks-launcher/master/docs/screenshot.png",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
-    "path": "/nix/store/l2dbz9v7lfhg86pw2wq3qh5k712by5vr-dcal-tasks-launcher",
-    "rev": "a6cdf736b4932cdf00551abd351ae4d983f6d2f9",
+    "path": "/nix/store/vrv8zhkccxh48bhx12ssw7izz232s973-dcal-tasks-launcher",
+    "rev": "e260e6341183ce285ac795534e51d44a108f09b7",
     "rootDir": "",
-    "sha256": "1a4anz4gq76ix1iknqmsihfj6gp35i7xj1af9yr6fk395z9qzj2f",
+    "sha256": "1gfknmq0bvqvlz2h30906ggjr0vf9zvi8nnq5lcxh9v5wafr9ka4",
     "url": "https://github.com/AntonyKor/dcal-tasks-launcher"
   },
   "dcalUpcoming": {
@@ -7713,12 +7751,12 @@
     "url": "https://github.com/beefsizzle/ModernClockDMS"
   },
   "mouthGuard": {
-    "date": "2026-08-23T23:55:50+02:00",
+    "date": "2026-08-26T13:18:59+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-majqubiByGpfqZjamM0VgjeuF4CF3p5fSzJPML5qE1E=",
+    "hash": "sha256-yczbR3eJ21G+wyjU6tV8SgFLY6FertrxK2E39DKuBVE=",
     "leaveDotGit": false,
     "meta": {
       "author": "sitolam",
@@ -7747,10 +7785,10 @@
       "screenshot": "https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/mouthguard/screenshots/popout.png",
       "version": "0.2.0"
     },
-    "path": "/nix/store/6ynmb4ibs16bqdk0xi3gvg3gssfs6yxj-dms-plugins",
-    "rev": "f469567e1edc03a53218d9600cc2a21053bd4ec8",
+    "path": "/nix/store/15janbrmmnbr55xwjc4rdpsi4ingwfz7-dms-plugins",
+    "rev": "19b73ceed77a7de6f8c1f5f4d99a2f781f49254c",
     "rootDir": "",
-    "sha256": "0l8kdaz30krj9dgrxpl5h0bswdw22p6rinlqm5gnmj41p2wyma4r",
+    "sha256": "0l85mqrg8dv15gqxmbjyl5iln0aagkaymm18qfz53nw9fx3xpk69",
     "url": "https://github.com/sitolam/dms-plugins"
   },
   "mpvpaper": {
@@ -11206,6 +11244,45 @@
     "rootDir": "",
     "sha256": "0733k5p53v5ddspd3d5sfwcrm5sa6p2czqvyv95ad1iax8qp784n",
     "url": "https://github.com/JessVolet/VMonitorSRV"
+  },
+  "virtualKeyboard": {
+    "date": "2026-08-26T13:18:59+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-yczbR3eJ21G+wyjU6tV8SgFLY6FertrxK2E39DKuBVE=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "sitolam",
+      "capabilities": [
+        "daemon",
+        "ipc",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "ydotool"
+      ],
+      "description": "On-screen keyboard overlay, toggled by IPC or an optional DankBar pill",
+      "distro": [
+        "any"
+      ],
+      "id": "virtualKeyboard",
+      "name": "Virtual Keyboard",
+      "path": "plugins/virtualkeyboard",
+      "repo": "https://github.com/sitolam/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/virtualkeyboard/screenshots/docked.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/15janbrmmnbr55xwjc4rdpsi4ingwfz7-dms-plugins",
+    "rev": "19b73ceed77a7de6f8c1f5f4d99a2f781f49254c",
+    "rootDir": "",
+    "sha256": "0l85mqrg8dv15gqxmbjyl5iln0aagkaymm18qfz53nw9fx3xpk69",
+    "url": "https://github.com/sitolam/dms-plugins"
   },
   "volumeMixer": {
     "date": "2026-08-02T00:48:19-04:00",
