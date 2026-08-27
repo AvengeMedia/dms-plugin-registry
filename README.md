@@ -2480,7 +2480,7 @@ A simple locally-saved TODO list widget for the Dank bar.
 
 #### [Dcal Tasks](https://github.com/AntonyKor/dcal-tasks-launcher)
 
-List, search, create, and complete dcal tasks from the launcher, with natural language due dates.
+List, search, create, and complete dcal tasks from the launcher, with natural language due dates and /list task-list selection.
 
 
 
