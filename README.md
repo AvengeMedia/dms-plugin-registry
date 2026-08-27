@@ -9289,6 +9289,40 @@ Search and copy passwords from your vault via rbw, pass, gopass, or op
 
 
 
+#### [Virtual Keyboard](https://github.com/sitolam/dms-plugins)
+
+On-screen keyboard overlay, toggled by IPC or an optional DankBar pill
+
+
+
+- id: virtualKeyboard
+- name: Virtual Keyboard
+- author: sitolam
+- compositors: any
+- capabilities: daemon, ipc, dankbar-widget
+- dependencies: ydotool
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugins/virtualkeyboard](https://github.com/sitolam/dms-plugins/tree/main/plugins/virtualkeyboard) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/virtualkeyboard/screenshots/docked.png)
+
+</details>
+
+
+
+
+
 #### [Volume Mixer](https://github.com/cwelsys/dms-volume-mixer)
 
 Standalone volume mixer for your bar
