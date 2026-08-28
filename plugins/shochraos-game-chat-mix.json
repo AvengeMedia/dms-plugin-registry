@@ -8,7 +8,7 @@
     "author": "Shochraos",
     "description": "Balance game audio against Discord/chat audio with a single slider, with the routing daemon built in",
     "dependencies": ["pactl", "gawk", "flock"],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/Shochraos/game-chat-mix/main/assets/screenshot.png"
 }
