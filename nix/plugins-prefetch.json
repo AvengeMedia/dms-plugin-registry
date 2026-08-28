@@ -997,7 +997,7 @@
       "version": "0.1.0"
     },
     "path": "/nix/store/sqvrc75qi2331l094yqp85nax9p9js32-dms-plugins",
-    "rev": "04ac2410c1666ddcdabfe012d2a6a7d197d83913",
+    "rev": "e8cd810cb3563128ab6b7f49f001a50267d7186b",
     "rootDir": "",
     "sha256": "0swwqp5c7v2dw1jpx7hsqp4i97h9d6jy7dkqmw5ky83jijblq95y",
     "url": "https://github.com/sitolam/dms-plugins"
@@ -1674,6 +1674,43 @@
     "rootDir": "",
     "sha256": "0jr5d2f9f8x4rnj8rv40qijg0w5yqpsz9klv8875qx7wx02jl8py",
     "url": "https://github.com/Dadangdut33/dms-plugins"
+  },
+  "cliproxyQuota": {
+    "date": "2026-08-28T16:34:34+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-6rW7YmaBb6R0flOYwEonxwHuwRnsvxgP1jKeOwJUeg8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Spyros Psarras",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl",
+        "jq"
+      ],
+      "description": "Remaining provider quota from a CLIProxyAPI server: per-provider rings, pace, reset countdowns and daily activity. Requires the pi-bridge plugin on the server.",
+      "distro": [
+        "any"
+      ],
+      "id": "cliproxyQuota",
+      "name": "CLIProxyAPI Quota",
+      "repo": "https://github.com/SpyrosPsarras/dms-cliproxy-quota",
+      "screenshot": "https://raw.githubusercontent.com/SpyrosPsarras/dms-cliproxy-quota/main/screenshot.png",
+      "version": "0.1.6"
+    },
+    "path": "/nix/store/2i55qmcdl55275gdzjhy3zadxrd0840z-dms-cliproxy-quota",
+    "rev": "fef6ff759f0843e045134ee192c884a90765801a",
+    "rootDir": "",
+    "sha256": "03vsah13p7ijsq7iigzc370yw0f74x5c162kgrsa8vw1cribpdga",
+    "url": "https://github.com/SpyrosPsarras/dms-cliproxy-quota"
   },
   "codeIsland": {
     "date": "2026-05-13T18:02:14+08:00",
@@ -2960,7 +2997,7 @@
       "version": "0.2.0"
     },
     "path": "/nix/store/sqvrc75qi2331l094yqp85nax9p9js32-dms-plugins",
-    "rev": "04ac2410c1666ddcdabfe012d2a6a7d197d83913",
+    "rev": "e8cd810cb3563128ab6b7f49f001a50267d7186b",
     "rootDir": "",
     "sha256": "0swwqp5c7v2dw1jpx7hsqp4i97h9d6jy7dkqmw5ky83jijblq95y",
     "url": "https://github.com/sitolam/dms-plugins"
@@ -3495,12 +3532,12 @@
     "url": "https://github.com/deepu105/dms-dank-todo"
   },
   "dankTodoman": {
-    "date": "2026-08-27T20:01:49+02:00",
+    "date": "2026-08-28T15:18:23+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-UFLDrsN8zqAi53rd/StTXIsupFE8u2SY9X//oCmY4fw=",
+    "hash": "sha256-u/j+n9lwOIUAEd+mRV2afe40MYai8B+rpS5/c9ot30E=",
     "leaveDotGit": false,
     "meta": {
       "author": "shochraos",
@@ -3526,10 +3563,10 @@
       "screenshot": "https://raw.githubusercontent.com/Shochraos/dms-todoman-plugin/main/screenshot.png",
       "version": "0.3.0"
     },
-    "path": "/nix/store/pmq3j4nr2v1m2mb37dxl0lnr3qkljrdk-dms-todoman-plugin",
-    "rev": "6a0763355433233c1c0bf1d1cc1780dc897a0c47",
+    "path": "/nix/store/vqlh8qxyzvmnfdfh36iay3lfm7bz7dy0-dms-todoman-plugin",
+    "rev": "f50f643df364201f326e9f36d9520e7d5b3a1d58",
     "rootDir": "",
-    "sha256": "1z71k0ls1zvzync69frwa6j2x2swacmzvpbswwia1kkwqfpc6ljh",
+    "sha256": "0hfz5pd76zrflnmizw52hqqk9vkxk9flb9nz2408af3hv6gzxy5v",
     "url": "https://github.com/Shochraos/dms-todoman-plugin"
   },
   "dankTranslate": {
@@ -7821,7 +7858,7 @@
       "version": "0.2.0"
     },
     "path": "/nix/store/sqvrc75qi2331l094yqp85nax9p9js32-dms-plugins",
-    "rev": "04ac2410c1666ddcdabfe012d2a6a7d197d83913",
+    "rev": "e8cd810cb3563128ab6b7f49f001a50267d7186b",
     "rootDir": "",
     "sha256": "0swwqp5c7v2dw1jpx7hsqp4i97h9d6jy7dkqmw5ky83jijblq95y",
     "url": "https://github.com/sitolam/dms-plugins"
@@ -9235,12 +9272,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-21T10:03:54+07:00",
+    "date": "2026-08-28T20:32:21+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-AKSiIjZWFhjou2ikk36ymC6GJ8OAloiGiIxmeDakYos=",
+    "hash": "sha256-DUt5Z1dopavXpSFqGiEkNLoE/ZN8Ts3xvp9VWuYq8sY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -9268,12 +9305,12 @@
       "repo": "https://github.com/hthienloc/dms-quick-capture",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
-      "version": "5.1.4"
+      "version": "5.1.5"
     },
-    "path": "/nix/store/gd4zqbm7lk1qgl89dzpnm5lcnjjchdqi-dms-quick-capture",
-    "rev": "8e923d1604fd860007f0d5a3a3088011f253f2c1",
+    "path": "/nix/store/2wajr0qklwbnvk31q8wsnwpzl5z413ix-dms-quick-capture",
+    "rev": "8e8c5822ba5a3029ce7723db39b05628d60f7f49",
     "rootDir": "",
-    "sha256": "12v2lhv7hrlci238i5l0qckqcblqn9z97938pgl1h5jn6qia5900",
+    "sha256": "1ipj5bk5lmczpvqwskkwjgyh9fil4hhilsi1lpbsp9b8axkpjjqd",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -11351,7 +11388,7 @@
       "version": "0.1.0"
     },
     "path": "/nix/store/sqvrc75qi2331l094yqp85nax9p9js32-dms-plugins",
-    "rev": "04ac2410c1666ddcdabfe012d2a6a7d197d83913",
+    "rev": "e8cd810cb3563128ab6b7f49f001a50267d7186b",
     "rootDir": "",
     "sha256": "0swwqp5c7v2dw1jpx7hsqp4i97h9d6jy7dkqmw5ky83jijblq95y",
     "url": "https://github.com/sitolam/dms-plugins"
