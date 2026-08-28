@@ -1,0 +1,13 @@
+{
+  "id": "lyricsEmbed",
+  "name": "LyricsEmbed",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/Lemon-mon-254/dms-plugin-Lyrics",
+  "author": "lemonmon",
+  "description": "An embedded-lyrics-first synced lyrics plugin for DMS: embedded LRC extraction, multi-source lyrics, bilingual split view, per-song offset tuning, zh/en interface.",
+  "dependencies": ["ffprobe"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-Lyrics/main/docs/screenshot.png"
+}
