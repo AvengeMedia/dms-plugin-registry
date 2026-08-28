@@ -300,12 +300,12 @@
     "url": "https://github.com/lucyfire/dms-plugins"
   },
   "ambientSound": {
-    "date": "2026-07-13T20:21:12+07:00",
+    "date": "2026-08-28T13:09:36+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-C9IBE5k1dQzOVgGRdVpLIP6pvjjVys18CXjymh8PzFc=",
+    "hash": "sha256-HenuQh/OHTCzPN5Hlr0atxdLTWn24rxF7KaKOfFbhQg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -328,12 +328,12 @@
       "name": "Ambient Sound",
       "repo": "https://github.com/hthienloc/dms-ambient-sound",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ambient-sound/master/screenshot.png",
-      "version": "2.3.0"
+      "version": "2.3.1"
     },
-    "path": "/nix/store/wp8l774a9l94w2x5p8ggllddwylbq21p-dms-ambient-sound",
-    "rev": "3d987f1a39e02e21d0bf9b33b42094367a69f771",
+    "path": "/nix/store/ybxa90ldd0j79mkbsgrb31m0v99k0lq9-dms-ambient-sound",
+    "rev": "83fae75429af7e5eaf9d34b832dd6d2c6f569769",
     "rootDir": "",
-    "sha256": "0myc1wgrmwkq15ycvjnm72zakzi09dd7b481av70qx9mk49h3lhb",
+    "sha256": "0245bgqkk2m6xi2vrqpnd56ln5xp3ayrciyy7jrk07ff3x1fxs8x",
     "url": "https://github.com/hthienloc/dms-ambient-sound"
   },
   "amdGpuMonitor": {
@@ -5338,12 +5338,12 @@
     "url": "https://github.com/devnullvoid/dms-emoji-launcher"
   },
   "emojiPicker": {
-    "date": "2026-08-24T12:31:09+07:00",
+    "date": "2026-08-28T14:03:15+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-FdkAZh2xv8zngqwseoTSXdKV+VXA0US+HTsGdziCDnY=",
+    "hash": "sha256-7JnbqV4drY+WG4GqYVP5tYfObEiWA8AaM86xZ8b61Kw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -5365,12 +5365,12 @@
       "repo": "https://github.com/hthienloc/dms-emoji-picker",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-emoji-picker/main/screenshot.png",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
-    "path": "/nix/store/y0i71s4xdyspa6rjh1gqmhpb4pybw2m4-dms-emoji-picker",
-    "rev": "53fb27442c5b48ab2ab0ea37e7c2bcf72da0902a",
+    "path": "/nix/store/7vd1zqm984pjfyrwx58fjy7zb8cynv82-dms-emoji-picker",
+    "rev": "dca1751fa8086098edd552e1299ad3caeff3cc07",
     "rootDir": "",
-    "sha256": "0xhfh8w7f1iv3nz49lf0apwrbljxsa27lb5chbkwrgxi3mk01n8m",
+    "sha256": "1b6lzb36gcff6cdc00wn91ncx1xmz59n3al13fb8zb8xbslxp6gc",
     "url": "https://github.com/hthienloc/dms-emoji-picker"
   },
   "enderPulse": {
