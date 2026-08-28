@@ -1085,6 +1085,35 @@ Battery panel with phone-style charge history, detailed stats and power profiles
 
 
 
+#### [CLIProxyAPI Quota](https://github.com/SpyrosPsarras/dms-cliproxy-quota)
+
+Remaining provider quota from a CLIProxyAPI server: per-provider rings, pace, reset countdowns and daily activity. Requires the pi-bridge plugin on the server.
+
+
+
+- id: cliproxyQuota
+- name: CLIProxyAPI Quota
+- author: Spyros Psarras
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: curl, jq
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/SpyrosPsarras/dms-cliproxy-quota/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [CPU Core Load](https://github.com/rabits/dms-plugin-cpucoreload)
 
 Dank Bar widget showing per-CPU-core load as bars with.
