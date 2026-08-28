@@ -4252,6 +4252,35 @@ A guided breathing exercise tool for mindfulness and relaxation.
 
 
 
+#### [Browser Tabs Launcher](https://github.com/kmf/dms-tabs-launcher)
+
+List and activate open browser tabs from the DMS launcher via tabctl
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: tabsLauncher
+- name: Browser Tabs Launcher
+- author: kmf
+- compositors: any
+- capabilities: launcher
+- dependencies: tabctl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/kmf/dms-tabs-launcher/blob/main/screenshot.png?raw=true)
+
+</details>
+
+
+
+
+
 #### [CPU Thermal Indicator](https://github.com/zhtlancer/dms-cpu-thermal-indicator.git)
 
 CPU temperature and fan speed monitor for DankBar using Linux hwmon
