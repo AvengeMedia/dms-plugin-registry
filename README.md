@@ -4194,6 +4194,40 @@ Uses KDE Baloo indexer to search files
 
 
 
+#### [Bar Dropdown](https://github.com/sitolam/dms-plugins)
+
+One bar button that drops a panel of real bar widgets below the bar, for side sections with no room to expand along it
+
+
+
+- id: barDropdown
+- name: Bar Dropdown
+- author: sitolam
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugins/bardropdown](https://github.com/sitolam/dms-plugins/tree/main/plugins/bardropdown) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/bardropdown/screenshots/panel.png)
+
+</details>
+
+
+
+
+
 #### [Bongo Cat](https://github.com/hthienloc/dms-bongo-cat)
 
 A reactive animated cat that taps along with your keyboard input.
