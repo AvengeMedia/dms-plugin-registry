@@ -1,0 +1,14 @@
+{
+  "id": "barDropdown",
+  "name": "Bar Dropdown",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/sitolam/dms-plugins",
+  "path": "plugins/bardropdown",
+  "author": "sitolam",
+  "description": "One bar button that drops a panel of real bar widgets below the bar, for side sections with no room to expand along it",
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/bardropdown/screenshots/panel.png"
+}
