@@ -967,6 +967,41 @@
     "sha256": "16djs76n9mj4qdvfnlv6vz1srb88k0j5fmn37lijb0yjq9k3v5gh",
     "url": "https://github.com/Beepeeko/dms-baloo-search"
   },
+  "barDropdown": {
+    "date": "2026-08-28T00:17:32+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-viRMl4xyID8Lr3i246VpCZ4UycUann5l4E3sw8rFnGs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "sitolam",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "One bar button that drops a panel of real bar widgets below the bar, for side sections with no room to expand along it",
+      "distro": [
+        "any"
+      ],
+      "id": "barDropdown",
+      "name": "Bar Dropdown",
+      "path": "plugins/bardropdown",
+      "repo": "https://github.com/sitolam/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/bardropdown/screenshots/panel.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/sqvrc75qi2331l094yqp85nax9p9js32-dms-plugins",
+    "rev": "04ac2410c1666ddcdabfe012d2a6a7d197d83913",
+    "rootDir": "",
+    "sha256": "0swwqp5c7v2dw1jpx7hsqp4i97h9d6jy7dkqmw5ky83jijblq95y",
+    "url": "https://github.com/sitolam/dms-plugins"
+  },
   "batteryOSD": {
     "date": "2026-08-19T19:54:10+05:45",
     "deepClone": false,
