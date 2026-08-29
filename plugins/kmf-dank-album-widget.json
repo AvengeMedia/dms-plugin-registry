@@ -1,0 +1,14 @@
+{
+    "id": "dankAlbumWidget",
+    "name": "Dank Album Widget",
+    "capabilities": ["desktop-widget"],
+    "category": "media",
+    "repo": "https://github.com/kmf/dank-album-widget",
+    "author": "kmf",
+    "description": "Square album-cover desktop widget with Material play, previous, and next over MPRIS",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/kmf/dank-album-widget/main/screenshot.jpg",
+    "requires_dms": ">=1.2.0"
+}
