@@ -187,12 +187,12 @@
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
-    "date": "2026-08-22T14:15:28+02:00",
+    "date": "2026-08-28T21:49:56+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ua/ECME/yrER86PDNpfI/q1aPDfq26M7L7c0IJLdlQk=",
+    "hash": "sha256-gPtvqkUXUrgi6DV7KZ8Gs40GX/5or296hjGlOC2wmn0=",
     "leaveDotGit": false,
     "meta": {
       "author": "agneswd",
@@ -217,12 +217,12 @@
       "repo": "https://github.com/agneswd/dms-ai-quotas",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/agneswd/dms-ai-quotas/main/assets/screenshot.png",
-      "version": "1.7.0"
+      "version": "1.8.0"
     },
-    "path": "/nix/store/hxhk5i08lkhwcrs91xy5ppv2k6xiazrg-dms-ai-quotas",
-    "rev": "1f90e8724403cf18259c8d8a7cd0cac2c4aae4af",
+    "path": "/nix/store/fvv419d9f8pkkzj4kcdywj1wv2v2w00f-dms-ai-quotas",
+    "rev": "1cf9f9565420fe4c54a8fb4aca1ffca28594f267",
     "rootDir": "",
-    "sha256": "02cmvn920d5p5wxs7nza6wy5mbgyr2bkdhx3yc8v3jizq44c9bxr",
+    "sha256": "0zcsn0nki99ihrx6zbv8zrghd3dk0sgjjyrmx0ibhlhp8nm6zyw0",
     "url": "https://github.com/agneswd/dms-ai-quotas"
   },
   "airQuality": {
@@ -1676,12 +1676,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "cliproxyQuota": {
-    "date": "2026-08-28T16:34:34+02:00",
+    "date": "2026-08-28T21:44:24+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-6rW7YmaBb6R0flOYwEonxwHuwRnsvxgP1jKeOwJUeg8=",
+    "hash": "sha256-357nXzjQceSTbDwEy3lTWmHKkpWwYaqsQxQYGacJ52c=",
     "leaveDotGit": false,
     "meta": {
       "author": "Spyros Psarras",
@@ -1706,10 +1706,10 @@
       "screenshot": "https://raw.githubusercontent.com/SpyrosPsarras/dms-cliproxy-quota/main/screenshot.png",
       "version": "0.1.6"
     },
-    "path": "/nix/store/2i55qmcdl55275gdzjhy3zadxrd0840z-dms-cliproxy-quota",
-    "rev": "fef6ff759f0843e045134ee192c884a90765801a",
+    "path": "/nix/store/wk82mm1gpca3hwlg351wn7852lcr8rfm-dms-cliproxy-quota",
+    "rev": "17c33cd6a8a7cf5fe2fba58461217e911fb1abb9",
     "rootDir": "",
-    "sha256": "03vsah13p7ijsq7iigzc370yw0f74x5c162kgrsa8vw1cribpdga",
+    "sha256": "0rz716kij60l8fnalqdhjn9clqasadwwn11wdj9y8wfh71gyg7nz",
     "url": "https://github.com/SpyrosPsarras/dms-cliproxy-quota"
   },
   "codeIsland": {
@@ -2473,12 +2473,12 @@
     "url": "https://github.com/arqueon/dms-dankcalendar"
   },
   "dankCalendarPlus": {
-    "date": "2026-08-27T10:05:50+08:00",
+    "date": "2026-08-29T00:05:09+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-abr9v1OR/WTITh414Myn82bGB3e+F7lE7F0OUiyvnLg=",
+    "hash": "sha256-CYunSLIlj0fSElS2IDi/Od5gaH3vNu9nEDZvT3lsxY4=",
     "leaveDotGit": false,
     "meta": {
       "author": "luckjokerwang",
@@ -2502,12 +2502,12 @@
       "name": "Dank Calendar Plus",
       "repo": "https://github.com/luckjokerwang/dms-dankcalendar",
       "screenshot": "https://raw.githubusercontent.com/luckjokerwang/dms-dankcalendar/main/assets/screenshot.png",
-      "version": "2.0.0"
+      "version": "3.0.0"
     },
-    "path": "/nix/store/48kc284y7sc1by6hx6k9mnjmpy224x32-dms-dankcalendar",
-    "rev": "b4d5ac4faa19d0433564ff3feb1c834724b83933",
+    "path": "/nix/store/lvb5jkjhdwk3ik0wrcnd81iz9yh6jscq-dms-dankcalendar",
+    "rev": "bd6ff339476e437a94468eae751dfb946a7e3403",
     "rootDir": "",
-    "sha256": "1f4wmwn543jxxi2bj5xyfw3wcrpklz6f0d8y9v469zciafzzvfk9",
+    "sha256": "13n5diwlyvrn21kyydpggml61pirpww21djl2b94g3r5n94ag2q9",
     "url": "https://github.com/luckjokerwang/dms-dankcalendar"
   },
   "dankCleaner": {
@@ -5832,6 +5832,47 @@
     "sha256": "1217wf8gb1nfpy6z2f5jq90g0v934xgprsghddpyh81wnbc8idca",
     "url": "https://github.com/Hujair/gameControllerBattery"
   },
+  "gamechatMix": {
+    "date": "2026-08-27T20:01:36+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-HuDDQuoBl80UKWbDTiMtFbWpEeMv9TyuGeZlLIkoEHY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Shochraos",
+      "capabilities": [
+        "dankbar-widget",
+        "daemon",
+        "audio"
+      ],
+      "category": "audio",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "pactl",
+        "gawk",
+        "flock"
+      ],
+      "description": "Balance game audio against Discord/chat audio with a single slider, with the routing daemon built in",
+      "distro": [
+        "any"
+      ],
+      "id": "gamechatMix",
+      "name": "Game / Chat Mix",
+      "path": "dms",
+      "repo": "https://github.com/Shochraos/game-chat-mix",
+      "screenshot": "https://raw.githubusercontent.com/Shochraos/game-chat-mix/main/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/vh9fc9wi6drxy6ayk6mnw1368qcl2pr1-game-chat-mix",
+    "rev": "2d73f5f595491d942136cd72f97593eea9c9e6e7",
+    "rootDir": "",
+    "sha256": "0xhh524jqrg636p3rx9gwc8skd8m5lilxhv654acv5q1x91c7q0y",
+    "url": "https://github.com/Shochraos/game-chat-mix"
+  },
   "gazeAuth": {
     "date": "2026-08-12T10:35:54-06:00",
     "deepClone": false,
@@ -9126,6 +9167,42 @@
     "sha256": "0irn6vbgv3axwbzlimb82zw8bfs2kl0qhy9kzmbbjnva5bdz53vj",
     "url": "https://github.com/JDKamalakar/DMS-Proton_VPN"
   },
+  "proxyTraffic": {
+    "date": "2026-08-28T16:02:50+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-upgdXE1rFcjzFCOA0IB9DEcyEXsWUD8+9afzHnc9A9I=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lemonmon",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "nft"
+      ],
+      "description": "Realtime throughput and cumulative traffic of your local proxy, tracked via nftables",
+      "distro": [
+        "any"
+      ],
+      "id": "proxyTraffic",
+      "name": "Proxy Traffic",
+      "repo": "https://github.com/Lemon-mon-254/dms-proxy-traffic",
+      "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-proxy-traffic/main/screenshots/1.png",
+      "version": "1.2.1"
+    },
+    "path": "/nix/store/n2sv9xx8x4xabw87jz23izl9h4pc19rz-dms-proxy-traffic",
+    "rev": "d7e1b11954db032cb5d3300e0a26144297b2733f",
+    "rootDir": "",
+    "sha256": "1lh37mvixwx7ylz3yl0ngc8k4iqcgn0d10132krwh5bb9mf1v65s",
+    "url": "https://github.com/Lemon-mon-254/dms-proxy-traffic"
+  },
   "pulsarX3": {
     "date": "2025-12-05T13:38:05+01:00",
     "deepClone": false,
@@ -9990,12 +10067,12 @@
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
   "shellyUpdater": {
-    "date": "2026-07-31T16:09:11-04:00",
+    "date": "2026-08-28T14:26:29-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2h6ad+7aFaS4/EPFrrwIcs1I0MO5wuJxHiyjxCTgQA8=",
+    "hash": "sha256-W1qVptT+T+uLzRyK+Hgg/sLNL/M7EW2c7fGM9ODQ20U=",
     "leaveDotGit": false,
     "meta": {
       "author": "rdannenbring",
@@ -10018,12 +10095,12 @@
       "name": "Shelly Updater",
       "repo": "https://github.com/rdannenbring/dms-shelly-updater",
       "screenshot": "https://raw.githubusercontent.com/rdannenbring/dms-shelly-updater/main/preview/updates.png",
-      "version": "2.0.1"
+      "version": "2.2.0"
     },
-    "path": "/nix/store/dwmd7mq004p4ska3xb7892y6iiw97rza-dms-shelly-updater",
-    "rev": "e665cafb3f8a31365e401f851d59e9134df37bd7",
+    "path": "/nix/store/yi3jm6rrm4f17c6b170ryqma845hpqyr-dms-shelly-updater",
+    "rev": "443062121de9d0ea71470f8117b8e4bd1a264dab",
     "rootDir": "",
-    "sha256": "03s0w0jc98rc3rqy5hmrqg84ikbj12yaxia3zjwa85fsxrvrl7ns",
+    "sha256": "0ifvs3hg937ixnf6s49vycpwvhpy41wgi2hwrn5ynkzysjk9anjv",
     "url": "https://github.com/rdannenbring/dms-shelly-updater"
   },
   "showDesktop": {
