@@ -7267,6 +7267,35 @@ Quickly browse and launch games from your Lutris library.
 
 
 
+#### [LyricsEmbed](https://github.com/Lemon-mon-254/dms-plugin-Lyrics)
+
+An embedded-lyrics-first synced lyrics plugin for DMS: embedded LRC extraction, multi-source lyrics, bilingual split view, per-song offset tuning, zh/en interface.
+
+
+
+- id: lyricsEmbed
+- name: LyricsEmbed
+- author: lemonmon
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: ffprobe
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-Lyrics/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Magyar Névnapok](https://github.com/szabolcsf/dms-nameday)
 
 Display the current Hungarian nameday on the DankBar. Shows today's name on the bar, with yesterday/today/tomorrow in the popout panel.
