@@ -2043,6 +2043,35 @@ Desktop overlay widget for live process monitoring with grouping, sorting, and s
 
 
 
+#### [Proxy Traffic](https://github.com/Lemon-mon-254/dms-proxy-traffic)
+
+Realtime throughput and cumulative traffic of your local proxy, tracked via nftables
+
+
+
+- id: proxyTraffic
+- name: Proxy Traffic
+- author: lemonmon
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: nft
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Lemon-mon-254/dms-proxy-traffic/main/screenshots/1.png)
+
+</details>
+
+
+
+
+
 #### [RAM Monitor](https://github.com/rollecode/dms-ram-monitor)
 
 RAM usage as an animated progress bar in your DankBar, updated every second
