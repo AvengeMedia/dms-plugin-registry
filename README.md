@@ -626,6 +626,40 @@ Switch audio ports on a 3.5mm combo jack (internal mic vs headset mic) dynamical
 
 
 
+#### [Game / Chat Mix](https://github.com/Shochraos/game-chat-mix)
+
+Balance game audio against Discord/chat audio with a single slider, with the routing daemon built in
+
+
+
+- id: gamechatMix
+- name: Game / Chat Mix
+- author: Shochraos
+- compositors: any
+- capabilities: dankbar-widget, daemon, audio
+- dependencies: pactl, gawk, flock
+- distro: any
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [dms](https://github.com/Shochraos/game-chat-mix/tree/main/dms) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Shochraos/game-chat-mix/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
