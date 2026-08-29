@@ -862,12 +862,12 @@
     "url": "https://github.com/CD-Z/dms-plugins"
   },
   "awcc": {
-    "date": "2026-08-27T11:24:32-03:00",
+    "date": "2026-08-28T22:51:30-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-tHAFWFW8jXsYyLkHJ6LlmE4lGHWejMJA3LtLUxr7R9Y=",
+    "hash": "sha256-zBenRhEh1tXy3eoBiJt77T8lzOVnQrlPJvALZJ40JUU=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -888,12 +888,12 @@
       "repo": "https://github.com/psyreactor/dms-awcc",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-awcc/raw/main/screenshot.png",
-      "version": "2.1.0"
+      "version": "2.1.1"
     },
-    "path": "/nix/store/03gw6m76dnxk2fb4v5hkqi89wr31kv5w-dms-awcc",
-    "rev": "8bd2f0369b07c21632e41ad17829508ddc762e74",
+    "path": "/nix/store/5djwlq28ngfm1r5i2vyq6m5vgnl2cnz3-dms-awcc",
+    "rev": "9a0d0f889a0703b244f2680257f5812ee4005870",
     "rootDir": "",
-    "sha256": "1mj7zcd56jxvvi0c534yflc2aklqwni2f1xrr0c7p3dwamc0aw5l",
+    "sha256": "0i956jg682zh4r7vjhk7wp62agzdgfdqh0gavprdbmi1253af5yc",
     "url": "https://github.com/psyreactor/dms-awcc"
   },
   "backlightIdleActions": {
@@ -5199,12 +5199,12 @@
     "url": "https://github.com/LuckShiba/DmsDockerManager"
   },
   "dolarBlue": {
-    "date": "2026-08-27T11:08:13-03:00",
+    "date": "2026-08-28T22:51:26-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-mYjR2qqAZurY05k+SIFRcil3wvhI/fN0Qn0QbRZZlPU=",
+    "hash": "sha256-WJJK07AimDVEtK5ofdBgIl52IbIRz2mJFVZfCsuldkY=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -5225,12 +5225,12 @@
       "repo": "https://github.com/psyreactor/dms-dolarBlue",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-dolarBlue/raw/main/screenshot.png",
-      "version": "1.2.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/qs9j84076wnjgc9hwhm38s3zns2x7p3r-dms-dolarBlue",
-    "rev": "9e5551524376927ef0eaf3a7ffbd00f97084e514",
+    "path": "/nix/store/gvsbgicj97s4mjbxvram0zg313yml5nb-dms-dolarBlue",
+    "rev": "651de2072c83b8e092097b5a25666160c15ca461",
     "rootDir": "",
-    "sha256": "1xclb4b6s43x89sg7za8z317fabja60lhglrsgcflrl0mbdd324r",
+    "sha256": "0iknlp5hlpsn2n4nkkqin8hpcpi2c387ss5fni23b612n39lm4jq",
     "url": "https://github.com/psyreactor/dms-dolarBlue"
   },
   "dooitPlugin": {
@@ -10103,12 +10103,12 @@
     "url": "https://github.com/ronmurphy/dms-contrib"
   },
   "shellyUpdater": {
-    "date": "2026-08-28T14:26:29-04:00",
+    "date": "2026-08-28T20:42:29-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-W1qVptT+T+uLzRyK+Hgg/sLNL/M7EW2c7fGM9ODQ20U=",
+    "hash": "sha256-n9qZ3S4v+jv1rTxAQCamjD6TMZrLKN3gDqxla+HgWok=",
     "leaveDotGit": false,
     "meta": {
       "author": "rdannenbring",
@@ -10133,10 +10133,10 @@
       "screenshot": "https://raw.githubusercontent.com/rdannenbring/dms-shelly-updater/main/preview/updates.png",
       "version": "2.2.0"
     },
-    "path": "/nix/store/yi3jm6rrm4f17c6b170ryqma845hpqyr-dms-shelly-updater",
-    "rev": "443062121de9d0ea71470f8117b8e4bd1a264dab",
+    "path": "/nix/store/i7akclnm3d7rzzsqq75z7i3g9f3rvq71-dms-shelly-updater",
+    "rev": "98b16b41c7622c7e3f739afac43d33e01c92e227",
     "rootDir": "",
-    "sha256": "0ifvs3hg937ixnf6s49vycpwvhpy41wgi2hwrn5ynkzysjk9anjv",
+    "sha256": "12asw3hnnrdc1vhdsa6bk8qr6glclqk40h1wmpskpyig5vfrknlz",
     "url": "https://github.com/rdannenbring/dms-shelly-updater"
   },
   "showDesktop": {
