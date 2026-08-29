@@ -7309,6 +7309,42 @@
     "sha256": "158jxs6a8a0c7ghvz5fsx8lxa039grfd2xj3gr94gvgb0zjyiys9",
     "url": "https://github.com/hthienloc/dms-lutris-launcher"
   },
+  "lyricsEmbed": {
+    "date": "2026-08-28T23:30:40+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-3aqlj70gju7Kjjm1a2a9KNb0DwT87KZckw1pxJ9J4to=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lemonmon",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "ffprobe"
+      ],
+      "description": "An embedded-lyrics-first synced lyrics plugin for DMS: embedded LRC extraction, multi-source lyrics, bilingual split view, per-song offset tuning, zh/en interface.",
+      "distro": [
+        "any"
+      ],
+      "id": "lyricsEmbed",
+      "name": "LyricsEmbed",
+      "repo": "https://github.com/Lemon-mon-254/dms-plugin-Lyrics",
+      "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-Lyrics/main/docs/screenshot.png",
+      "version": "1.7.0"
+    },
+    "path": "/nix/store/xnrrw1anrm8drwhpgqwml4vapmddzfzh-dms-plugin-Lyrics",
+    "rev": "37f735a26dbb0b4460d4fb6488eb826eb8394328",
+    "rootDir": "",
+    "sha256": "1np296gw8s8djdfadv7w0h7z9mi8pmk6pd9riv5fx3i0pn7sbanx",
+    "url": "https://github.com/Lemon-mon-254/dms-plugin-Lyrics"
+  },
   "lyricsOnPanel": {
     "date": "2026-07-20T21:32:56-04:00",
     "deepClone": false,
