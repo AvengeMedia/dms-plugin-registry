@@ -1121,7 +1121,7 @@ Battery panel with phone-style charge history, detailed stats and power profiles
 
 #### [CLIProxyAPI Quota](https://github.com/SpyrosPsarras/dms-cliproxy-quota)
 
-Remaining provider quota from a CLIProxyAPI server: per-provider rings, pace, reset countdowns and daily activity. Requires the pi-bridge plugin on the server.
+Remaining AI provider quota (Claude, Codex, Copilot and more) from a CLIProxyAPI server: per-provider rings, pace, reset countdowns and daily activity. Requires the pi-bridge plugin on the server.
 
 
 
