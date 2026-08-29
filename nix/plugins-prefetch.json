@@ -1696,7 +1696,7 @@
         "curl",
         "jq"
       ],
-      "description": "Remaining provider quota from a CLIProxyAPI server: per-provider rings, pace, reset countdowns and daily activity. Requires the pi-bridge plugin on the server.",
+      "description": "Remaining AI provider quota (Claude, Codex, Copilot and more) from a CLIProxyAPI server: per-provider rings, pace, reset countdowns and daily activity. Requires the pi-bridge plugin on the server.",
       "distro": [
         "any"
       ],
