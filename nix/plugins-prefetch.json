@@ -2473,12 +2473,12 @@
     "url": "https://github.com/arqueon/dms-dankcalendar"
   },
   "dankCalendarPlus": {
-    "date": "2026-08-29T00:05:09+08:00",
+    "date": "2026-08-30T03:02:58+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-CYunSLIlj0fSElS2IDi/Od5gaH3vNu9nEDZvT3lsxY4=",
+    "hash": "sha256-bwlN+fC3jdr0ogJvSG9lWjvlISoY7ujFfD7YsivVAG4=",
     "leaveDotGit": false,
     "meta": {
       "author": "luckjokerwang",
@@ -2502,12 +2502,12 @@
       "name": "Dank Calendar Plus",
       "repo": "https://github.com/luckjokerwang/dms-dankcalendar",
       "screenshot": "https://raw.githubusercontent.com/luckjokerwang/dms-dankcalendar/main/assets/screenshot.png",
-      "version": "3.0.0"
+      "version": "3.1.2"
     },
-    "path": "/nix/store/lvb5jkjhdwk3ik0wrcnd81iz9yh6jscq-dms-dankcalendar",
-    "rev": "bd6ff339476e437a94468eae751dfb946a7e3403",
+    "path": "/nix/store/sg18jiv00lcz8y3v8ymxn36cyl25hssi-dms-dankcalendar",
+    "rev": "dbafadf5a018750f10f24e3a44c42f15d804df8e",
     "rootDir": "",
-    "sha256": "13n5diwlyvrn21kyydpggml61pirpww21djl2b94g3r5n94ag2q9",
+    "sha256": "0vh0slmv5n1ygk2yivhq58hyafsscmplhvq2lbsdm3dpy3wls2bg",
     "url": "https://github.com/luckjokerwang/dms-dankcalendar"
   },
   "dankCleaner": {
@@ -6092,12 +6092,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin"
   },
   "githubNotifier": {
-    "date": "2026-08-27T10:38:08-03:00",
+    "date": "2026-08-29T11:02:08-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-52kwVgsAK90K/DoxvZCmQOb4XGdtxcZ78UsS2+Eqffw=",
+    "hash": "sha256-Ka3AE08nqs1FSE1+C584hfygGgs3TiBW6mVrtFIGlFM=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -6123,19 +6123,19 @@
       "screenshot": "https://github.com/psyreactor/dms-githubNotifier/raw/main/screenshot.png",
       "version": "1.2.0"
     },
-    "path": "/nix/store/nvcp2wz4xx3q8n251cwqrxqxk5va6vv0-dms-githubNotifier",
-    "rev": "b654661dbb50b9f6fcadc8ffe928dbd811c1313f",
+    "path": "/nix/store/l31zqs91qwjkawrqn06xi3w61ry0dshl-dms-githubNotifier",
+    "rev": "50b3929c1e4035620d9b100077cf8eb3be557535",
     "rootDir": "",
-    "sha256": "1z3x5bhxn4jby5xwdibdcxfgirj0ls8bsc9szh5dsaq01db30sg7",
+    "sha256": "0lwl0r9b8sv5x9b20kip1cda1z4572ghnzjd912wvai79w9w1b99",
     "url": "https://github.com/psyreactor/dms-githubNotifier"
   },
   "gitlabNotifier": {
-    "date": "2026-08-27T10:50:11-03:00",
+    "date": "2026-08-29T11:33:08-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-EaPM38nZCP3qRZJU+mPopvQBLnlTGPLQ4mrma7k03+Q=",
+    "hash": "sha256-wsdpVLUGSPy5lwo0yw8bcqcSSY5RRWlaFcDbsgV0HOI=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -6161,10 +6161,10 @@
       "screenshot": "https://github.com/psyreactor/dms-gitlabNotifier/raw/main/screenshot.png",
       "version": "1.3.0"
     },
-    "path": "/nix/store/ljghlz5z7x2x35ivmzi78pjhpaw0an43-dms-gitlabNotifier",
-    "rev": "d9bd0aafee782c2e8caaddc7c414d265fdd86544",
+    "path": "/nix/store/rmq1pz9aqw47c7gpq0mn4bpkcplrldnc-dms-gitlabNotifier",
+    "rev": "b3152b38ce3b5fbce526dfa190a12ef42499ef8b",
     "rootDir": "",
-    "sha256": "1r6z6jwnprkawb8g462kg4p03x56x1izlm4j8pmgs26rr7gwr8qi",
+    "sha256": "1qhwfh2v5ny02md6jiaiir4i59vj3c7wnd0ajywzqj06nma6kiy2",
     "url": "https://github.com/psyreactor/dms-gitlabNotifier"
   },
   "gitmojiLauncher": {
@@ -6957,12 +6957,12 @@
     "url": "https://github.com/fishman/dms-khal-calendar"
   },
   "kubernetes": {
-    "date": "2026-08-27T10:59:53-03:00",
+    "date": "2026-08-29T11:33:21-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-0651bb9hlMq9IkvL58nfyheQzTyWRnv6i3Ycr2nvAhs=",
+    "hash": "sha256-F1R9ZuRzMAY4+DG9HOMmpFd9BtLIepQ9RORw249aZA4=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -6987,10 +6987,10 @@
       "screenshot": "https://github.com/psyreactor/dms-kubernetes/raw/main/screenshot.png",
       "version": "1.3.0"
     },
-    "path": "/nix/store/2zjvx2x6fkfhdfvjhavl83q1lg0nwmgc-dms-kubernetes",
-    "rev": "eed987d5f632d880fa02dcadc97238815d6d91a7",
+    "path": "/nix/store/skk1ijs0qqjqcmpsibpdglwhlr3w6371-dms-kubernetes",
+    "rev": "b98161cb80693d982efc2eac9a506aec4e5ba021",
     "rootDir": "",
-    "sha256": "06q2xxlsy73nigx7niln7k6r05yavz4ygjsb4aywm531pxnpbbnk",
+    "sha256": "03k4ba7xnw748hyr8yn8s837smx44viirg9iz0w0cc3kwik7sm0p",
     "url": "https://github.com/psyreactor/dms-kubernetes"
   },
   "lastfmScrobbler": {
@@ -7310,12 +7310,12 @@
     "url": "https://github.com/hthienloc/dms-lutris-launcher"
   },
   "lyricsEmbed": {
-    "date": "2026-08-28T23:30:40+08:00",
+    "date": "2026-08-29T18:11:26+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-3aqlj70gju7Kjjm1a2a9KNb0DwT87KZckw1pxJ9J4to=",
+    "hash": "sha256-PTomnYz837s/aWlNWzPj4c0a1CjavNpRF7Fmd16KmTw=",
     "leaveDotGit": false,
     "meta": {
       "author": "lemonmon",
@@ -7339,10 +7339,10 @@
       "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-Lyrics/main/docs/screenshot.png",
       "version": "1.7.0"
     },
-    "path": "/nix/store/xnrrw1anrm8drwhpgqwml4vapmddzfzh-dms-plugin-Lyrics",
-    "rev": "37f735a26dbb0b4460d4fb6488eb826eb8394328",
+    "path": "/nix/store/ikmfxnvcsw2fx5naijsalcsb78zc6q14-dms-plugin-Lyrics",
+    "rev": "a8352f7904ef2c44e2c1e0f126b76270edf233f0",
     "rootDir": "",
-    "sha256": "1np296gw8s8djdfadv7w0h7z9mi8pmk6pd9riv5fx3i0pn7sbanx",
+    "sha256": "0g4ri9g7frmi2x8xmg6s53a1mkg1wcrmnkb9d4zvppzwijfjcfix",
     "url": "https://github.com/Lemon-mon-254/dms-plugin-Lyrics"
   },
   "lyricsOnPanel": {
@@ -7787,12 +7787,12 @@
     "url": "https://github.com/arrifat346afs/mediaPlayer"
   },
   "mihomoVpn": {
-    "date": "2026-08-10T01:04:59+03:00",
+    "date": "2026-08-29T09:28:31+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-lJUNL968T9+7D4z7/XTs6f2lzgl5ob9BIIh0SkQF8A0=",
+    "hash": "sha256-WVeH3ikrZHSE5gCw1EDmv/CP3V/m30JpypLkybcedxc=",
     "leaveDotGit": false,
     "meta": {
       "author": "korbash",
@@ -7818,12 +7818,12 @@
       "repo": "https://github.com/korbash/mihomo-dms-widget",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/korbash/mihomo-dms-widget/main/assets/mihomo-vpn.png",
-      "version": "1.2.1"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/c1ykk4imcsg1pmcqbjl45kdgr32vircm-mihomo-dms-widget",
-    "rev": "f121bf43a179fd3d3d632dbae4846aeb0e1a19b6",
+    "path": "/nix/store/9skrnhkr8irz951p676y8b5iij2y6fz8-mihomo-dms-widget",
+    "rev": "c8ce12ae82f74bcbaf176bbec12405a9eb40888a",
     "rootDir": "",
-    "sha256": "03gh0m24lx48410vz8br177abzg9xisgvywc1yxxykxwvqphv5cl",
+    "sha256": "05vp3svwkr4jr9ll5pz6bzfqzw5zwr0d9c00ws278r1b57g8fmsr",
     "url": "https://github.com/korbash/mihomo-dms-widget"
   },
   "modemManager": {
