@@ -734,6 +734,35 @@ Last.fm companion for the native DMS media player: scrobbling, love/unlove actio
 
 
 
+#### [Dank Album Widget](https://github.com/kmf/dank-album-widget)
+
+Square album-cover desktop widget with Material play, previous, and next over MPRIS
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: dankAlbumWidget
+- name: Dank Album Widget
+- author: kmf
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/kmf/dank-album-widget/main/screenshot.jpg)
+
+</details>
+
+
+
+
+
 #### [Dank Audio Visualizer](https://github.com/odtgit/DankAudioVisualizer)
 
 Circular audio visualizer with bars, wave, rings, and bloom effects. Ported from Noctalia's fancy-audiovisualizer by Lemmy / Noctalia Team.
