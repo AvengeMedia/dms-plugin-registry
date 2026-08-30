@@ -2240,6 +2240,41 @@
     "sha256": "1ghx4cjas6dhk0rr2ap3lxblcikmxpjd9rk45wvmisf13030dq80",
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
+  "dankAlbumWidget": {
+    "date": "2026-08-29T20:42:29+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-4HLMX5n0X3S6NnW5bgSei8NjtmBDoZjUcoZjLK4+9bM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "kmf",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "media",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Square album-cover desktop widget with Material play, previous, and next over MPRIS",
+      "distro": [
+        "any"
+      ],
+      "id": "dankAlbumWidget",
+      "name": "Dank Album Widget",
+      "repo": "https://github.com/kmf/dank-album-widget",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://raw.githubusercontent.com/kmf/dank-album-widget/main/screenshot.jpg",
+      "version": "1.2.0"
+    },
+    "path": "/nix/store/df819bkrvp91g5canvsjssx5fkgw0p83-dank-album-widget",
+    "rev": "433d85bf6309e155f23c626590bf1f3f579d2770",
+    "rootDir": "",
+    "sha256": "1czm7sp2qqw6fba9i8a3c2v67hwbkq26xfbm6sx78pzlk5gwqwp0",
+    "url": "https://github.com/kmf/dank-album-widget"
+  },
   "dankAsusControlCenter": {
     "date": "2026-07-04T20:37:16+02:00",
     "deepClone": false,
@@ -7310,12 +7345,12 @@
     "url": "https://github.com/hthienloc/dms-lutris-launcher"
   },
   "lyricsEmbed": {
-    "date": "2026-08-29T18:11:26+08:00",
+    "date": "2026-08-30T11:18:33+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-PTomnYz837s/aWlNWzPj4c0a1CjavNpRF7Fmd16KmTw=",
+    "hash": "sha256-mBhd/bDeTcLeWp2clZtQ2TU5P8BDfwP1Y6E70dNVn4I=",
     "leaveDotGit": false,
     "meta": {
       "author": "lemonmon",
@@ -7339,10 +7374,10 @@
       "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-Lyrics/main/docs/screenshot.png",
       "version": "1.7.0"
     },
-    "path": "/nix/store/ikmfxnvcsw2fx5naijsalcsb78zc6q14-dms-plugin-Lyrics",
-    "rev": "a8352f7904ef2c44e2c1e0f126b76270edf233f0",
+    "path": "/nix/store/mdn9xv7bg0hldmmgsfhm0gay366qkglf-dms-plugin-Lyrics",
+    "rev": "43a2446558b5e91445060980ef97eca375fc268a",
     "rootDir": "",
-    "sha256": "0g4ri9g7frmi2x8xmg6s53a1mkg1wcrmnkb9d4zvppzwijfjcfix",
+    "sha256": "10lzap9x2fx1cgsh6zs3q0zkjdfra2drb74xbbgc4kfyn3yms64q",
     "url": "https://github.com/Lemon-mon-254/dms-plugin-Lyrics"
   },
   "lyricsOnPanel": {
