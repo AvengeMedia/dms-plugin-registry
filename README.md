@@ -908,6 +908,35 @@ Display lyrics from SPlayer in Dank Material Shell.
 
 
 
+#### [Shazam](https://github.com/AwesomeMi/dms-shazam)
+
+Identify the song playing around you straight from the DankBar, powered by SongRec
+
+
+
+- id: shazam
+- name: Shazam
+- author: AwesomeMi
+- compositors: any
+- capabilities: dankbar-widget, daemon
+- dependencies: songrec, libpulse
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AwesomeMi/dms-shazam/main/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
