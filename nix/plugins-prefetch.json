@@ -9420,12 +9420,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-08-31T08:13:42+07:00",
+    "date": "2026-08-31T12:21:16+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-lE6sPodykJjAPhrgq9R+y1hmTrmS9Zb3cfyzoiDCx7k=",
+    "hash": "sha256-Ic79YCm3qqdlR4Q3IgPiGJlcTYYyGvo+UkQTaAU7H/A=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -9455,10 +9455,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.1.5"
     },
-    "path": "/nix/store/xz2b3zc00xwlzgfqfzginc038rl1rh2n-dms-quick-capture",
-    "rev": "b6532e9869dfedf2695291a56bbd6198f15a30a8",
+    "path": "/nix/store/5s72sywws8i7gyi6cf41znrsc4i8c3qv-dms-quick-capture",
+    "rev": "085ae63a502a9902a68b76b9065b5f289760e32b",
     "rootDir": "",
-    "sha256": "1ff7q8ha5czwf7vrdxcjp576cn6bgvaapq0s7v09i43jhwzaqkll",
+    "sha256": "1w0z7c2nh4s4a8zgl6ijhr6mr68qw81j4dw48xjsgamp55hgvki1",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -10136,6 +10136,44 @@
     "rootDir": "",
     "sha256": "12a8zimgsynll3fvbw5a0la6dw3zw6f9hk9cdx0q7a289fx7378p",
     "url": "https://github.com/ronmurphy/dms-contrib"
+  },
+  "shazam": {
+    "date": "2026-08-31T04:19:52+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-nU6COauR2CLvfnzjn9aAhCctdihORbFSaRwUg7rCCNU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "AwesomeMi",
+      "capabilities": [
+        "dankbar-widget",
+        "daemon"
+      ],
+      "category": "media",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "songrec",
+        "libpulse"
+      ],
+      "description": "Identify the song playing around you straight from the DankBar, powered by SongRec",
+      "distro": [
+        "any"
+      ],
+      "id": "shazam",
+      "name": "Shazam",
+      "repo": "https://github.com/AwesomeMi/dms-shazam",
+      "screenshot": "https://raw.githubusercontent.com/AwesomeMi/dms-shazam/main/screenshot.png",
+      "version": "1.3.0"
+    },
+    "path": "/nix/store/mivdh56w65325d31qbkprwcmnnv7y65i-dms-shazam",
+    "rev": "98bc392295590b3705d9db0e730497609950f164",
+    "rootDir": "",
+    "sha256": "1m88qax8650wd59b2iaf51v2s9w4h3b9zqvwgvpj5n4imcwq4klx",
+    "url": "https://github.com/AwesomeMi/dms-shazam"
   },
   "shellyUpdater": {
     "date": "2026-08-28T20:42:29-04:00",
