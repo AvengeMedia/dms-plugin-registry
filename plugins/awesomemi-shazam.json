@@ -1,0 +1,23 @@
+{
+    "id": "shazam",
+    "name": "Shazam",
+    "capabilities": [
+        "dankbar-widget",
+        "daemon"
+    ],
+    "category": "media",
+    "repo": "https://github.com/AwesomeMi/dms-shazam",
+    "author": "AwesomeMi",
+    "description": "Identify the song playing around you straight from the DankBar, powered by SongRec",
+    "dependencies": [
+        "songrec",
+        "libpulse"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/AwesomeMi/dms-shazam/main/screenshot.png"
+}
