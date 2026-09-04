@@ -347,6 +347,35 @@ Themes your system from the currently playing album art
 
 
 
+#### [OpenRGB Theme Sync](https://github.com/3DTreeDee/openrgb-theme-sync)
+
+Syncs your DankMaterialShell theme colors with RGB hardware via OpenRGB. Watches theme color changes and applies the configured color to connected devices, with optional per-device modes.
+
+
+
+- id: openrgbThemeSync
+- name: OpenRGB Theme Sync
+- author: 3DTreeDee
+- compositors: any
+- capabilities: daemon
+- dependencies: openrgb
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/3DTreeDee/openrgb-theme-sync/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Spotify Matugen](https://github.com/Grant07/dms-spotify-matugen)
 
 Lock DMS dynamic colors to Spotify album art while music is playing
