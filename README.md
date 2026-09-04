@@ -5520,35 +5520,6 @@ Trigger scripts based on various system events.
 
 
 
-#### [Dank Jobs](https://github.com/TabelaDev/dank-jobs-plugin)
-
-Shows the next pending djobs job in the bar and lists all pending jobs in a popout, with status dots and auto-refresh.
-
-
-
-- id: djobs
-- name: Dank Jobs
-- author: Ian Soares
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: djobs
-- distro: any
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/TabelaDev/dank-jobs-plugin/main/plugin-screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Dank Launcher Keys](https://github.com/AvengeMedia/dms-plugins)
 
 Search and browse keyboard shortcuts from your compositor and applications

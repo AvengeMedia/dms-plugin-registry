@@ -4472,42 +4472,6 @@
     "sha256": "1qjynn9znr466hif3z0i735z4jp9y3jbxq4zahd3cc9dp79bzc0l",
     "url": "https://github.com/lucyfire/dms-plugins"
   },
-  "djobs": {
-    "date": "2026-08-08T21:42:26-03:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-hn980yyLIv0iBsHInq5bFVvlCo1c62FNGs45N1SdLi8=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Ian Soares",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [
-        "djobs"
-      ],
-      "description": "Shows the next pending djobs job in the bar and lists all pending jobs in a popout, with status dots and auto-refresh.",
-      "distro": [
-        "any"
-      ],
-      "id": "djobs",
-      "name": "Dank Jobs",
-      "repo": "https://github.com/TabelaDev/dank-jobs-plugin",
-      "screenshot": "https://raw.githubusercontent.com/TabelaDev/dank-jobs-plugin/main/plugin-screenshot.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/q52lfrry4793jrwk3cqv42r5swnni53q-dank-jobs-plugin",
-    "rev": "ebcbbd0766450899e56872e935bcdd54f677fbe2",
-    "rootDir": "",
-    "sha256": "0brfkma3ffff396n3sswil5fanqmbfp9xj610qigs8lb5k9pqzw6",
-    "url": "https://github.com/TabelaDev/dank-jobs-plugin"
-  },
   "dmsAgent": {
     "date": "2026-04-07T18:03:11-05:00",
     "deepClone": false,
