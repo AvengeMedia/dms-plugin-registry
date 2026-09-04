@@ -1,0 +1,21 @@
+{
+    "id": "openrgbThemeSync",
+    "name": "OpenRGB Theme Sync",
+    "capabilities": [
+        "daemon"
+    ],
+    "category": "appearance",
+    "repo": "https://github.com/3DTreeDee/openrgb-theme-sync",
+    "author": "3DTreeDee",
+    "description": "Syncs your DankMaterialShell theme colors with RGB hardware via OpenRGB. Watches theme color changes and applies the configured color to connected devices, with optional per-device modes.",
+    "dependencies": [
+        "openrgb"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/3DTreeDee/openrgb-theme-sync/main/assets/screenshot.png"
+}
