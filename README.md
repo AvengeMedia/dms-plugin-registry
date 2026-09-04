@@ -2425,6 +2425,26 @@ Shows central and peripheral battery levels for a ZMK split keyboard
 
 
 
+#### [herdr Agent Monitor](https://github.com/Mor-dev/herdr-agent-monitor)
+
+Shows live agent status (working/idle/blocked/done) across herdr panes in the bar, click one to focus its pane
+
+
+
+- id: herdrAgentMonitor
+- name: herdr Agent Monitor
+- author: Mor-dev
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: herdr
+- distro: any
+
+
+
+
+
+
+
 ---
 
 
