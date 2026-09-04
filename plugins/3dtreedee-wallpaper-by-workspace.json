@@ -6,7 +6,7 @@
     "repo": "https://github.com/3DTreeDee/wallpaperByWorkspace",
     "author": "Jairo Sierra",
     "description": "Sets a different wallpaper per niri workspace, with fixed or alternate mode, optional periodic rotation, and a \"show desktop\" transition.",
-    "dependencies": ["niri"],
+    "dependencies": [],
     "compositors": ["niri"],
     "distro": ["any"],
     "screenshot": "https://github.com/3DTreeDee/wallpaperByWorkspace/raw/main/screenshot.png",
