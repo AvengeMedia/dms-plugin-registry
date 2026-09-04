@@ -41,9 +41,29 @@ jobs:
             echo "changed=true" >> $GITHUB_OUTPUT
           fi
 
-      # Check after plugins-prefetch.json is added to git
+      # Check after plugins-prefetch.json is added to git.
+      # Retry transient git-host outages; only tolerate network-only failures so
+      # a real hash mismatch or build error still fails the run.
       - name: Nix flake check
-        run: nix flake check
+        run: |
+          for attempt in 1 2 3; do
+            if nix flake check 2>&1 | tee flake-check.log; then
+              exit 0
+            fi
+            echo "flake check attempt $attempt failed"
+            if [ "$attempt" -lt 3 ]; then sleep $((attempt * 30)); fi
+          done
+
+          if grep -qiE 'hash mismatch|specified:|cc: command not found|No such file' flake-check.log; then
+            echo "::error::nix flake check failed with a non-transient error"
+            exit 1
+          fi
+          if grep -qiE 'returned error: 5[0-9][0-9]|unable to access|Could not resolve host|Connection timed out|error: 429' flake-check.log; then
+            echo "::warning::nix flake check failed due to transient git-host errors; skipping"
+            exit 0
+          fi
+          echo "::error::nix flake check failed"
+          exit 1
 
       - name: Commit and push if changed
         if: steps.check_changes.outputs.changed == 'true'

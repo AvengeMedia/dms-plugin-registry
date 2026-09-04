@@ -259,10 +259,11 @@ def preserve_similar(new_body: str, old_body: str, names: dict[str, str]) -> str
 
     The server owns this block via the /similar command; the registry re-renders it from
     its data marker (rather than overwriting it) so the format stays canonical and stale
-    layouts get repaired on the next reconcile.
+    layouts get repaired on the next reconcile. Entries pointing at a plugin that is no
+    longer in the registry are dropped, so removing a plugin also unlinks it everywhere.
     """
     old = (old_body or "").replace("\r\n", "\n")
-    entries = extract_similar_entries(old)
+    entries = [entry for entry in extract_similar_entries(old) if entry[0] in names]
     if not entries:
         return new_body
 

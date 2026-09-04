@@ -1,0 +1,59 @@
+name: Dead Plugin Check
+
+on:
+  schedule:
+    - cron: 0 6 * * *
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pull-requests: write
+  issues: write
+
+jobs:
+  check:
+    if: github.repository == 'AvengeMedia/dms-plugin-registry'
+    runs-on: ubuntu-latest
+    env:
+      FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
+
+    steps:
+      - name: Create GitHub App token
+        id: app_token
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+
+      - name: Checkout repository
+        uses: actions/checkout@v6
+        with:
+          fetch-depth: 0
+          token: ${{ steps.app_token.outputs.token }}
+
+      - name: Install dependencies
+        run: pip install requests jinja2
+
+      - name: Check for deleted plugin repositories
+        run: python3 .github/check_dead_plugins.py
+        env:
+          GITHUB_TOKEN: ${{ steps.app_token.outputs.token }}
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+          GITHUB_REPOSITORY: ${{ github.repository }}
+          BASE_BRANCH: ${{ github.ref_name }}
+          PLUGIN_MODERATORS: ${{ vars.PLUGIN_MODERATORS }}
+
+      - name: Commit health state if changed
+        env:
+          GH_TOKEN: ${{ steps.app_token.outputs.token }}
+        run: |
+          git config user.name "dms-ci[bot]"
+          git config user.email "dms-ci[bot]@users.noreply.github.com"
+          git add .github/plugin-health.json
+          if git diff --cached --quiet; then
+            echo "no health state changes"
+            exit 0
+          fi
+          git commit -m "chore: update plugin health state [skip ci]"
+          git pull --rebase origin ${{ github.ref_name }}
+          git push https://x-access-token:${GH_TOKEN}@github.com/${{ github.repository }}.git HEAD:${{ github.ref_name }}

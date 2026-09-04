@@ -67,6 +67,13 @@ def validate_plugin(plugin: dict, filename: str) -> bool:
         )
         return False
 
+    if "i18n" in plugin and not isinstance(plugin["i18n"], bool):
+        print(
+            f"Validation error in {filename}: 'i18n' must be a boolean",
+            file=sys.stderr,
+        )
+        return False
+
     return True
 
 
