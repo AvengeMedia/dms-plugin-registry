@@ -7654,6 +7654,35 @@ A NetBird VPN status plugin for DMS that shows your NetBird connection status an
 
 
 
+#### [Nexus AI](https://github.com/myNicole98/NexusAI-DMS)
+
+AI assistant, made to be useful
+
+
+
+- id: nexusAi
+- name: Nexus AI
+- author: myNicole98
+- compositors: any
+- capabilities: daemon
+- dependencies: curl
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/myNicole98/NexusAI-DMS/blob/main/resources/attachments/preview.png)
+
+</details>
+
+
+
+
+
 #### [Niri Display Settings](https://github.com/hthienloc/dms-niri-display-settings)
 
 Quickly toggle and configure display outputs in the Niri Wayland compositor.
