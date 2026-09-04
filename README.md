@@ -405,6 +405,35 @@ Shuffles wallpapers with a given time interval, finds wallpapers recursively ins
 
 
 
+#### [Wallpaper by Workspace](https://github.com/3DTreeDee/wallpaperByWorkspace)
+
+Sets a different wallpaper per niri workspace, with fixed or alternate mode, optional periodic rotation, and a "show desktop" transition.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: wallpaperByWorkspace
+- name: Wallpaper by Workspace
+- author: Jairo Sierra
+- compositors: niri
+- capabilities: wallpaper
+- dependencies: 
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/3DTreeDee/wallpaperByWorkspace/raw/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper of the Day](https://github.com/max72bra/DankPluginBingWallpaper)
 
 A new fresh daily wallpaper downloaded from a famous portal
