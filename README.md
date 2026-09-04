@@ -4257,35 +4257,6 @@ Desktop widget to search, filter, and launch applications by categories.
 
 
 
-#### [Application Shortcut](https://github.com/oabragh/AppShortcut)
-
-Add application shortcuts in your desktop :)
-
-<strong>requires DMS version</strong>: <em>>=1.2.0</em>
-
-- id: appShortcut
-- name: Application Shortcut
-- author: Omar (@oabragh)
-- compositors: any
-- capabilities: desktop-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://github.com/oabragh/AppShortcut/raw/main/assets/preview.png)
-
-</details>
-
-
-
-
-
 #### [Audio Slots IPC](https://github.com/lpv11/dms-audio-slots)
 
 Daemon plugin for cycling saved output/input device slots and toggling focused-app mute via DMS IPC.
