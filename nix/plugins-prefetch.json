@@ -567,41 +567,6 @@
     "sha256": "1axfkypb4pkjh0nc6pj4k7kcq7l6mjlcasmkiidgqns5q4hbc44l",
     "url": "https://github.com/hthienloc/dms-app-launcher"
   },
-  "appShortcut": {
-    "date": "2025-12-23T18:53:08+01:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-Yu3zRWkkgr5mC8pzNiRlHcCCb2lDZzkWWRJsMCAJfS4=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Omar (@oabragh)",
-      "capabilities": [
-        "desktop-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [],
-      "description": "Add application shortcuts in your desktop :)",
-      "distro": [
-        "any"
-      ],
-      "id": "appShortcut",
-      "name": "Application Shortcut",
-      "repo": "https://github.com/oabragh/AppShortcut",
-      "requires_dms": ">=1.2.0",
-      "screenshot": "https://github.com/oabragh/AppShortcut/raw/main/assets/preview.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/9cy09x358awvbi1wk79pwsg8qh687y5q-AppShortcut",
-    "rev": "373400a84e40b0fb73d6c809ea33c425b529c35f",
-    "rootDir": "",
-    "sha256": "0bkx14h30v0jb4b3jrs3d5pq5h0xclj3cwya1dkbx0i4d52z7vb2",
-    "url": "https://github.com/oabragh/AppShortcut"
-  },
   "asusControlCenter": {
     "date": "2026-05-15T21:08:51+05:30",
     "deepClone": false,
