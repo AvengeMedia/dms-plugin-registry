@@ -1,0 +1,13 @@
+{
+    "id": "nexusAi",
+    "name": "Nexus AI",
+    "capabilities": ["slideout", "ai"],
+    "category": "utilities",
+    "repo": "https://github.com/myNicole98/NexusAI-DMS",
+    "author": "myNicole98",
+    "description": "AI assistant, made to be useful",
+    "dependencies": ["curl", "wl-copy"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/myNicole98/NexusAI-DMS/blob/main/resources/attachments/preview.png"
+}
