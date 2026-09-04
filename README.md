@@ -2443,6 +2443,15 @@ Shows live agent status (working/idle/blocked/done) across herdr panes in the ba
 
 
 
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Mor-dev/herdr-agent-monitor/master/assets/popout.png)
+
+</details>
+
+
+
 
 
 ---
