@@ -8336,6 +8336,35 @@ Shows a random Quranic Ayah / verse on the desktop
 
 
 
+#### [Radio Atlas Lite](https://github.com/alamin147/RadioAtlasLite)
+
+Launch a lightweight interactive world radio atlas from DankBar.
+
+
+
+- id: radioAtlasLite
+- name: Radio Atlas Lite
+- author: Al Amin
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: mpv
+- distro: any
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/alamin147/RadioAtlasLite/blob/main/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Razer Device Manager](https://github.com/zachfi/dms-razer)
 
 Control Razer peripherals via OpenRazer — lighting effects, brightness, DPI, and battery monitoring
