@@ -6,7 +6,7 @@
     "repo": "https://github.com/Crambeary/dms-aerox3-battery-widget",
     "author": "Crambeary",
     "description": "Shows the battery level of a SteelSeries Aerox 3 Wireless Gen 2 mouse in the bar via rivalcfg, with cascading low-battery notifications",
-    "dependencies": ["python3", "rivalcfg", "notify-send"],
+    "dependencies": ["python3", "hidapi", "notify-send"],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://github.com/Crambeary/dms-aerox3-battery-widget/blob/main/screenshot.png"
