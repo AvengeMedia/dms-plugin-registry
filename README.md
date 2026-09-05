@@ -10790,9 +10790,9 @@ Gruvbox Material + Classic with hard/medium/soft and green/blue/yellow/purple pr
 A neon-lit colorscheme — cool blue-grey backgrounds with cyberpunk-bright accents
 
 - **Author:** kmf
-- **ID:** `joziCityNights` **Version:** `1.0.0`
+- **ID:** `joziCityNights` **Version:** `1.1.1`
 
-![WCAG AA body](https://img.shields.io/badge/WCAG_contrast-AA_body-green)
+![WCAG AA](https://img.shields.io/badge/WCAG_contrast-AA-green)
 
 
 ![Jozi City Nights](themes/jozi-city/preview.svg)
