@@ -7717,6 +7717,36 @@ Display the current Hungarian nameday on the DankBar. Shows today's name on the 
 
 
 
+#### [MangoWM Layout Manager](https://github.com/omarluq/DMSMangoWCLayoutManager)
+
+Switch MangoWM layouts from DankBar with visual previews, configurable click shortcuts, and scroll cycling.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: mangoWmLayoutManager
+- name: MangoWM Layout Manager
+- author: omarluq
+- compositors: mangowc
+- capabilities: dankbar-widget
+- dependencies: mmsg
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/omarluq/DMSMangoWCLayoutManager/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Media Control Plus](https://github.com/Dadangdut33/dms-plugins)
 
 Customized version of DMS media widget with extended features that is mainly focused on improving vertical bar support
