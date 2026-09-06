@@ -966,6 +966,36 @@ A minimal floating desktop widget that displays real-time synced lyrics from mul
 
 
 
+#### [Roon](https://github.com/NoaHimesaka1873/dms-plugin-roon)
+
+Roon zone control from the bar: now playing, seek, volume, queue, library browser and zones, launcher search, desktop now-playing card, and an MPRIS bridge for media keys
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: roon
+- name: Roon
+- author: Noa Himesaka
+- compositors: any
+- capabilities: dankbar-widget, control-center, launcher, desktop-widget, daemon
+- dependencies: node
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/NoaHimesaka1873/dms-plugin-roon/refs/heads/senpai/screenshots/popout.png)
+
+</details>
+
+
+
+
+
 #### [SPlayer Lyrics (Desktop)](https://github.com/brkp/DMS_splayerLyrics)
 
 Desktop lyrics widget for SPlayer, fetches lyrics from SPlayer's local Netease API
