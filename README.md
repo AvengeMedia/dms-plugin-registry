@@ -10610,9 +10610,9 @@ Arc Darkest GTK theme ported to DankMaterialShell
 warm star-glow falling into deep space — deep-space backgrounds with luminous star-glow accents
 
 - **Author:** kmf
-- **ID:** `astralJourney` **Version:** `1.1.0`
+- **ID:** `astralJourney` **Version:** `1.1.1`
 
-![WCAG AA (Partial)](https://img.shields.io/badge/WCAG_contrast-AA_(Partial)-green)
+![WCAG AA](https://img.shields.io/badge/WCAG_contrast-AA-green)
 
 
 ![Astral Journey](themes/astral-journey/preview.svg)
