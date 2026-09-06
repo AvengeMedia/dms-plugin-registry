@@ -7237,12 +7237,12 @@
     "url": "https://gitlab.com/noahpolimon/dms-plugin-livelyrics"
   },
   "localServices": {
-    "date": "2026-08-23T16:20:14+03:00",
+    "date": "2026-09-06T03:42:05+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-51jSURgyCqFCoHpkB9wbFuqBex1uHStLZKah06y4Qsk=",
+    "hash": "sha256-XTjZaL5RYIk41GAA8fXXNks7xR254scsN5dFWOdhhcY=",
     "leaveDotGit": false,
     "meta": {
       "author": "NyllRE",
@@ -7267,10 +7267,10 @@
       "screenshot": "https://raw.githubusercontent.com/NyllRE/dms-plugins/master/plugins/local-services/preview.webp",
       "version": "0.1.0"
     },
-    "path": "/nix/store/gvkxgf7gi8nyr1hxyb665xqiqgwlvqbg-dms-plugins",
-    "rev": "d1b2e2e19181117ad3a7de62b86e4abf220f5ca4",
+    "path": "/nix/store/hyhgxq8s8a92zyz983n1548rwdfnq15l-dms-plugins",
+    "rev": "1cb3197c5740d0ff4d5284f2c98487fce698ffc1",
     "rootDir": "",
-    "sha256": "1ja2p2nd78d6ci5jn7bf3mxq3shn3gf0fr3sl11a22ij318x4n77",
+    "sha256": "1il5c7kmhicp6wncgqmr3p2knjrnszsz2030shw8jq2iprldjf2x",
     "url": "https://github.com/NyllRE/dms-plugins"
   },
   "lutrisLauncher": {
@@ -10538,12 +10538,12 @@
     "url": "https://github.com/Grant07/dms-spotify-matugen"
   },
   "spotlightWallpapers": {
-    "date": "2026-09-06T06:44:22+12:00",
+    "date": "2026-09-06T13:02:17+12:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-JR7uiahPVDrpeS5iTF3aHbo4P+X8H+hed5hA5UXX7qU=",
+    "hash": "sha256-cf4Gc+28qEouly7mbOYPFmaFaLAz5tOA5vftJZBAy7A=",
     "leaveDotGit": false,
     "meta": {
       "author": "scottmckendry",
@@ -10565,12 +10565,12 @@
       "name": "Spotlight Wallpapers",
       "repo": "https://github.com/scottmckendry/spotlight-wallpapers",
       "screenshot": "https://raw.githubusercontent.com/scottmckendry/spotlight-wallpapers/main/screenshot.png",
-      "version": "0.1.0"
+      "version": "0.2.2"
     },
-    "path": "/nix/store/1rcbwmdflhzq2dna10jcmxg1277cyv3j-spotlight-wallpapers",
-    "rev": "51847e5452254f2add5ac0e0133ad4092564ecad",
+    "path": "/nix/store/v56n7brf4jaj7vzg8qym28rxy60x423c-spotlight-wallpapers",
+    "rev": "10a8e0be889af31e05c10914579975c4d6f64b61",
     "rootDir": "",
-    "sha256": "19gfsx2yah4qfxgfh7zwwlzkifhxv9flqqifg7lklm2gm24yw7i5",
+    "sha256": "1c6b8282bvgpws0d7rikn1l8arhn1zk6rrifjwp4ma5wxmrhdzki",
     "url": "https://github.com/scottmckendry/spotlight-wallpapers"
   },
   "sshConnections": {
