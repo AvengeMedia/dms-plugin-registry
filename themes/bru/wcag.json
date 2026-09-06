@@ -25,34 +25,34 @@
     },
     "nonText": {
       "level": "AA",
-      "minRatio": 4.97,
+      "minRatio": 7.01,
       "worstPair": [
-        "error",
+        "info",
         "surfaceContainer"
       ]
     },
     "variants": {
-      "espresso-blue": "AA",
-      "espresso-green": "AA",
-      "espresso-magenta": "AA",
-      "espresso-orange": "AA",
-      "espresso-red": "AA",
+      "espresso-blue": "AAA",
+      "espresso-green": "AAA",
+      "espresso-magenta": "AAA",
+      "espresso-orange": "AAA",
+      "espresso-red": "AAA",
       "espresso-teal": "AAA",
-      "espresso-violet": "AA",
+      "espresso-violet": "AAA",
       "espresso-yellow": "AAA"
     },
     "breakdown": [
       {
         "name": "Espresso",
         "mode": "dark",
-        "level": "AA",
+        "level": "AAA",
         "bodyLevel": "AAA"
       }
     ]
   },
   "light": {
     "level": "fail",
-    "minRatio": 2.75,
+    "minRatio": 4.16,
     "worstPair": [
       "primary",
       "surfaceContainer"
@@ -67,7 +67,7 @@
     },
     "accent": {
       "level": "fail",
-      "minRatio": 2.75,
+      "minRatio": 4.16,
       "worstPair": [
         "primary",
         "surfaceContainer"
@@ -75,7 +75,7 @@
     },
     "nonText": {
       "level": "AA",
-      "minRatio": 3.59,
+      "minRatio": 4.16,
       "worstPair": [
         "warning",
         "surfaceContainer"

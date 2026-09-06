@@ -10624,9 +10624,9 @@ warm star-glow falling into deep space — deep-space backgrounds with luminous 
 A lekker colorscheme — warm coffee-toned backgrounds with Selenized-bright accents
 
 - **Author:** kmf
-- **ID:** `bru` **Version:** `1.1.0`
+- **ID:** `bru` **Version:** `1.2.0`
 
-![WCAG AA (Partial)](https://img.shields.io/badge/WCAG_contrast-AA_(Partial)-green)
+![WCAG AAA (Partial)](https://img.shields.io/badge/WCAG_contrast-AAA_(Partial)-brightgreen)
 
 
 ![Bru](themes/bru/preview.svg)
