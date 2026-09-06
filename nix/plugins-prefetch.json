@@ -108,6 +108,43 @@
     "sha256": "1a7gvg15x9xh0b7jpd0ypwkihgg60zxpf0bx0svgml45jh2y0wym",
     "url": "https://github.com/bernardopg/dms-adguard-vpn-plugin"
   },
+  "aerox3Battery": {
+    "date": "2026-09-06T00:02:21-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-asZcm4Nd+cClVaLvEfzJjw2uA0mMmR9Gx0tnvRyYIPI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Crambeary",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3",
+        "hidapi"
+      ],
+      "description": "Shows the battery level of a SteelSeries Aerox 3 Wireless Gen 2 mouse in the bar via rivalcfg, with cascading low-battery notifications",
+      "distro": [
+        "any"
+      ],
+      "id": "aerox3Battery",
+      "name": "Aerox 3 Battery",
+      "repo": "https://github.com/Crambeary/dms-aerox3-battery-widget",
+      "screenshot": "https://github.com/Crambeary/dms-aerox3-battery-widget/blob/main/screenshots/popout.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/7y9f58r8hkmd9viwnmla41vifhgq4a1k-dms-aerox3-battery-widget",
+    "rev": "382a02935ff4a845463a1be029c3395b17ef9c25",
+    "rootDir": "",
+    "sha256": "1wi0k0fbsrsbqx31z6cc941sw3cgr7y13vx2anjw1yaxhfdmrika",
+    "url": "https://github.com/Crambeary/dms-aerox3-battery-widget"
+  },
   "aiAssistant": {
     "date": "2026-07-19T21:57:53-04:00",
     "deepClone": false,
@@ -7489,6 +7526,43 @@
     "rootDir": "",
     "sha256": "146611hip3q958c1d23qjdi13xnb2q1ym75v820w9lhq630ds377",
     "url": "https://github.com/smithyyang/dms-mail-reader"
+  },
+  "mangoWmLayoutManager": {
+    "date": "2026-09-05T22:38:24-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-2TW4Z/rA88NvB3kk/7wOpHn878NffYz+PnXevIqTEQ0=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "omarluq",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "mangowc"
+      ],
+      "dependencies": [
+        "mmsg"
+      ],
+      "description": "Switch MangoWM layouts from DankBar with visual previews, configurable click shortcuts, and scroll cycling.",
+      "distro": [
+        "any"
+      ],
+      "id": "mangoWmLayoutManager",
+      "name": "MangoWM Layout Manager",
+      "repo": "https://github.com/omarluq/DMSMangoWCLayoutManager",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://raw.githubusercontent.com/omarluq/DMSMangoWCLayoutManager/main/screenshot.png",
+      "version": "0.3.4"
+    },
+    "path": "/nix/store/if4mafw0r1344gs15w6i4ps1hvcsgzs5-DMSMangoWCLayoutManager",
+    "rev": "a3ccb258a171e6da77de8d0a2b4e09af81c5f7f8",
+    "rootDir": "",
+    "sha256": "038ijf5brpkm7vz8qzazqgpzqyd41sygy93r0xpw7wy0z9kvhdfr",
+    "url": "https://github.com/omarluq/DMSMangoWCLayoutManager"
   },
   "markets": {
     "date": "2026-06-12T15:13:32+02:00",
