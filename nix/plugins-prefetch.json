@@ -6382,7 +6382,7 @@
       "version": "1.0.0"
     },
     "path": "/nix/store/pkyqvfvmiv8m9lwpbs0812pf6x2rrz36-herdr-agent-monitor",
-    "rev": "88fd7217ebbab298985fcbacbdd712d5aad2d9f4",
+    "rev": "25b476f2d048069a745448bfba9b47cd7b5ecafa",
     "rootDir": "",
     "sha256": "0v29w97i28l7z8hmqj3s2g097m269b6wnpvjbv6qfvll0m6kyy6s",
     "url": "https://github.com/Mor-dev/herdr-agent-monitor"
@@ -9824,6 +9824,47 @@
     "sha256": "0ykg9r1drky0d0206ivma2a50bj4m7ddcqgsd3046ksfly1x0s2v",
     "url": "https://github.com/elopin42/dank-retro-viseur"
   },
+  "roon": {
+    "date": "2026-09-06T18:44:19+09:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-9evh1E6MQjTv7OuTzZRw1nnU72tMleBkaKxwB/7NN1g=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Noa Himesaka",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center",
+        "launcher",
+        "desktop-widget",
+        "daemon"
+      ],
+      "category": "media",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "node"
+      ],
+      "description": "Roon zone control from the bar: now playing, seek, volume, queue, library browser and zones, launcher search, desktop now-playing card, and an MPRIS bridge for media keys",
+      "distro": [
+        "any"
+      ],
+      "id": "roon",
+      "name": "Roon",
+      "repo": "https://github.com/NoaHimesaka1873/dms-plugin-roon",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/NoaHimesaka1873/dms-plugin-roon/refs/heads/senpai/screenshots/popout.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/ihwddnjzac5jccav5bsd8xnw5slw3nhd-dms-plugin-roon",
+    "rev": "042fff4b6e91c809b961d4c2ff67f0c347bcf796",
+    "rootDir": "",
+    "sha256": "0n1prpz0fw5cd1jf15acdgpx8yfnf2acv4zbxkpk8hlc9vaf3szm",
+    "url": "https://github.com/NoaHimesaka1873/dms-plugin-roon"
+  },
   "sathiAi": {
     "date": "2026-08-04T20:51:40-04:00",
     "deepClone": false,
@@ -10612,12 +10653,12 @@
     "url": "https://github.com/Grant07/dms-spotify-matugen"
   },
   "spotlightWallpapers": {
-    "date": "2026-09-06T13:02:17+12:00",
+    "date": "2026-09-06T17:04:21+12:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-cf4Gc+28qEouly7mbOYPFmaFaLAz5tOA5vftJZBAy7A=",
+    "hash": "sha256-pkA5hA9CUB8TXkaTW1h5kiP5L36Xg7VM4GHeaSsBEpg=",
     "leaveDotGit": false,
     "meta": {
       "author": "scottmckendry",
@@ -10641,10 +10682,10 @@
       "screenshot": "https://raw.githubusercontent.com/scottmckendry/spotlight-wallpapers/main/screenshot.png",
       "version": "0.2.2"
     },
-    "path": "/nix/store/v56n7brf4jaj7vzg8qym28rxy60x423c-spotlight-wallpapers",
-    "rev": "10a8e0be889af31e05c10914579975c4d6f64b61",
+    "path": "/nix/store/hzllkdfd002wfhgyfpi7pvksq2v23p38-spotlight-wallpapers",
+    "rev": "7140a4f80e4878846a3849a52c4b9cc34bd7bbb3",
     "rootDir": "",
-    "sha256": "1c6b8282bvgpws0d7rikn1l8arhn1zk6rrifjwp4ma5wxmrhdzki",
+    "sha256": "160j04mnkpk1w16bb0wpgqpzj8wjg5c5p4s6bq9iyl221y23jh56",
     "url": "https://github.com/scottmckendry/spotlight-wallpapers"
   },
   "sshConnections": {
