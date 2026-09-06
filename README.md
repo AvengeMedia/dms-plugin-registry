@@ -417,6 +417,36 @@ Lock DMS dynamic colors to Spotify album art while music is playing
 
 
 
+#### [Spotlight Wallpapers](https://github.com/scottmckendry/spotlight-wallpapers)
+
+Fetch and apply Windows Spotlight wallpapers from DankBar
+
+
+
+- id: spotlightWallpapers
+- name: Spotlight Wallpapers
+- author: scottmckendry
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/scottmckendry/spotlight-wallpapers/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper Shuffler](https://github.com/Daniel-42-z/dms-wallpaper-shuffler)
 
 Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder
