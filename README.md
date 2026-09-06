@@ -1154,6 +1154,36 @@ Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage wi
 
 
 
+#### [Aerox 3 Battery](https://github.com/Crambeary/dms-aerox3-battery-widget)
+
+Shows the battery level of a SteelSeries Aerox 3 Wireless Gen 2 mouse in the bar via rivalcfg, with cascading low-battery notifications
+
+
+
+- id: aerox3Battery
+- name: Aerox 3 Battery
+- author: Crambeary
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3, hidapi
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/Crambeary/dms-aerox3-battery-widget/blob/main/screenshots/popout.png)
+
+</details>
+
+
+
+
+
 #### [AiOverviewControl](https://github.com/bernardopg/AiOverviewControl)
 
 Monitor AI subscription and API usage for Claude, Copilot, Codex, Gemini, and OpenRouter from DankBar
