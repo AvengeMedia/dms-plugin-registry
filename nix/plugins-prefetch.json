@@ -3227,12 +3227,12 @@
     "url": "https://github.com/zachfi/dms-razer"
   },
   "dankRssWidget": {
-    "date": "2026-09-05T08:11:20-04:00",
+    "date": "2026-09-05T12:26:01-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-m7QSv/h54YQg+NFV/tcv57P1LsJU7DOk9zEMKlDl7Nk=",
+    "hash": "sha256-P0A2RyxCGbIxQH+Mo5hkBXqmkfqf9xQqCEpDcqBO7Lw=",
     "leaveDotGit": false,
     "meta": {
       "author": "BrendonJL",
@@ -3252,12 +3252,12 @@
       "name": "Dank RSS Widget",
       "repo": "https://github.com/BrendonJL/dms-rss-widget",
       "screenshot": "https://raw.githubusercontent.com/BrendonJL/dms-rss-widget/main/screenshot.png",
-      "version": "1.0.0"
+      "version": "2.3.0"
     },
-    "path": "/nix/store/0nl7m6s4s6jwp38zcvhad7b6zraqn4ny-dms-rss-widget",
-    "rev": "826231573acc23cff22a57db2758d044ee3ce329",
+    "path": "/nix/store/sr9dn53261k4wwwvr4ghdr7cfff2zinw-dms-rss-widget",
+    "rev": "99cd03ee5607389d585df647e223e53fa6591065",
     "rootDir": "",
-    "sha256": "1ngcwm82l31iyyj37v2lq8pgbcz75zbzwmfiz0h89qbrz2zi5d4v",
+    "sha256": "1g7c9sh74hsa10m19xwzza8scyh5cjca733z80qv46a25i3kch1z",
     "url": "https://github.com/BrendonJL/dms-rss-widget"
   },
   "dankSchedPicker": {
@@ -6315,12 +6315,12 @@
     "url": "https://github.com/hthienloc/dms-hand-mirror"
   },
   "herdrAgentMonitor": {
-    "date": "2026-09-04T15:32:05+02:00",
+    "date": "2026-09-05T21:49:23+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-i0Z1WlnVjoUo4Fhfk0k6Y4xBU1tPQgXfM7YD17e/wnU=",
+    "hash": "sha256-2ng/TQWUbofNXnJfy81KRtSTwBN6SFwh+ociEU/iSWw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Mor-dev",
@@ -6344,10 +6344,10 @@
       "screenshot": "https://raw.githubusercontent.com/Mor-dev/herdr-agent-monitor/master/assets/popout.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/c561sp0jqwbivw7hwkyf6qyn8n1fiayg-herdr-agent-monitor",
-    "rev": "6567987a9b3b1ab70effcb78968f78ac2eb61400",
+    "path": "/nix/store/pkyqvfvmiv8m9lwpbs0812pf6x2rrz36-herdr-agent-monitor",
+    "rev": "88fd7217ebbab298985fcbacbdd712d5aad2d9f4",
     "rootDir": "",
-    "sha256": "0xf2pyvxf0xn6gghahjgbd9l3333794r6psqw0l8b3nmb5d7ailb",
+    "sha256": "0v29w97i28l7z8hmqj3s2g097m269b6wnpvjbv6qfvll0m6kyy6s",
     "url": "https://github.com/Mor-dev/herdr-agent-monitor"
   },
   "hiddenBar": {
@@ -10537,6 +10537,42 @@
     "sha256": "1dkca2d7r0svlvbz26rjpvj0q4n8gw0f6zjbzarbj29g19wicihb",
     "url": "https://github.com/Grant07/dms-spotify-matugen"
   },
+  "spotlightWallpapers": {
+    "date": "2026-09-06T06:44:22+12:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-JR7uiahPVDrpeS5iTF3aHbo4P+X8H+hed5hA5UXX7qU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "scottmckendry",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl"
+      ],
+      "description": "Fetch and apply Windows Spotlight wallpapers from DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "spotlightWallpapers",
+      "name": "Spotlight Wallpapers",
+      "repo": "https://github.com/scottmckendry/spotlight-wallpapers",
+      "screenshot": "https://raw.githubusercontent.com/scottmckendry/spotlight-wallpapers/main/screenshot.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/1rcbwmdflhzq2dna10jcmxg1277cyv3j-spotlight-wallpapers",
+    "rev": "51847e5452254f2add5ac0e0133ad4092564ecad",
+    "rootDir": "",
+    "sha256": "19gfsx2yah4qfxgfh7zwwlzkifhxv9flqqifg7lklm2gm24yw7i5",
+    "url": "https://github.com/scottmckendry/spotlight-wallpapers"
+  },
   "sshConnections": {
     "date": "2026-03-27T09:13:36-04:00",
     "deepClone": false,
@@ -12032,12 +12068,12 @@
     "url": "https://github.com/max72bra/DankPluginBingWallpaperWidget"
   },
   "wallpaperByWorkspace": {
-    "date": "2026-09-04T13:43:57-05:00",
+    "date": "2026-09-05T12:14:40-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-S8MbqCQZPRmTODyHEmzC4NT7s8vUEd4AsRBwnRx57Cg=",
+    "hash": "sha256-A8/fhsyoC8KCRGnX0qjkSZXYY9CsmqmSLFSHQD3mHGs=",
     "leaveDotGit": false,
     "meta": {
       "author": "Jairo Sierra",
@@ -12060,10 +12096,10 @@
       "screenshot": "https://github.com/3DTreeDee/wallpaperByWorkspace/raw/main/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/zyy7nch2zqr7zvfqy4khcdc5ivbnrbgg-wallpaperByWorkspace",
-    "rev": "1bad2add3f8766f88d4a96a999aad12783430d27",
+    "path": "/nix/store/h8imknbn280y0hkvapv4qf88f92l7nhh-wallpaperByWorkspace",
+    "rev": "f191ba34a06a154e5efab4d4be61e594812a2dc9",
     "rootDir": "",
-    "sha256": "0a7cg4f9sw0hn40dw4flrfrzpm70q9n151rw729ijg8r4jl1phsb",
+    "sha256": "0sqwwqyl11sl5j9ak6mcs1ixi5a9wjld5mv98j1c42x8rj3dzkq3",
     "url": "https://github.com/3DTreeDee/wallpaperByWorkspace"
   },
   "wallpaperCarousel": {
