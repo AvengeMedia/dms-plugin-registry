@@ -186,12 +186,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-08-26T14:27:53-03:00",
+    "date": "2026-09-07T18:36:06-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-11zusgffdPd3/ZQ56uurmuYSWsdZwrdF8bVRHC8cNHM=",
+    "hash": "sha256-bALbWKXtVg6AXyKETAGOV28TwL4ifXKhE0D9Q7wVvLc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -217,10 +217,10 @@
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
       "version": "1.14.0"
     },
-    "path": "/nix/store/d1mdv14l2i2ydhnrasrmd8gg5myc63p7-AiOverviewControl",
-    "rev": "f2d0fc19493539c3134da3090b0887538ecbdfb0",
+    "path": "/nix/store/ywj6dhnxxcwd42ff4acfzwslgwwjqs9f-AiOverviewControl",
+    "rev": "d7586dc93208ef4b9494b3b293897f2fc042f144",
     "rootDir": "",
-    "sha256": "0wrl3hpiqldmy52vghjrqxd15rlsmgmylfclzmvzfx6z0yrfwp6p",
+    "sha256": "1dxw2ny47za02fhp4z92pv016vspiq0lr112by00wmpdlmcdn0kc",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
@@ -410,12 +410,12 @@
     "url": "https://github.com/navidagz/dms-amd-gpu-monitor"
   },
   "amdGpuMonitorRevive": {
-    "date": "2026-05-31T17:40:44+05:30",
+    "date": "2026-09-08T00:04:49+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-/NceDiewqhi55w8psJvOhEhscME/s4bxqykcobCdgtI=",
+    "hash": "sha256-SPo/dmnOm4C+GLkAyAaZKfYR8n1w7h2gbGcCU3ovQnE=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar.",
@@ -449,10 +449,10 @@
       "type": "widget",
       "version": "1.2.5"
     },
-    "path": "/nix/store/g478m0lbj1sa8s7zwnmckl7flsz5y106-DMS-AMD_GPU_Monitor_Revive",
-    "rev": "d99d4f0673635a7e71bc457fbbd3319f84c18b52",
+    "path": "/nix/store/a55db3mndmfaw1b575fadwh1s9rmgvsy-DMS-AMD_GPU_Monitor_Revive",
+    "rev": "ffc1f27c9278bccf282692bd75fa1a6c8e6d7d3c",
     "rootDir": "",
-    "sha256": "1ll2knqa2719mgqqdcrzq5q6qj44rsdv0a8gwywiiamh4w71xmzw",
+    "sha256": "0wa25xx560k7djh1vvkhgpr13xi9k43ch05r32z816yfd5v3zyj8",
     "url": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive"
   },
   "animationRotate": {
@@ -1222,12 +1222,12 @@
     "url": "https://github.com/hthienloc/dms-caffeine"
   },
   "caffeineRedesigned": {
-    "date": "2026-08-08T12:16:39+05:30",
+    "date": "2026-09-07T23:44:27+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-6fptcasC0FaJmjhKrsg5B5YanOMCtp2mUuPw2HNTFjs=",
+    "hash": "sha256-rXNSJkBv+hua+FKQxF2PG26Ko83jfOLcMCqCyf4rt6c=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -1258,10 +1258,10 @@
       "type": "widget",
       "version": "1.0.0"
     },
-    "path": "/nix/store/j19ghn06lq5q7vnsnzn588yih7ix08af-DMS-Caffeine",
-    "rev": "0ce109e5984d3e8b7a31433ab09bbb682bf47d79",
+    "path": "/nix/store/8d00d3schb166d0pd8kbbsyn60w3l70r-DMS-Caffeine",
+    "rev": "8d2e19bc1cde57aa7339b055d2bb385b36e00928",
     "rootDir": "",
-    "sha256": "0fqnadrxiw73aak9vdh2wff1m5h7774awjiqka4mdl02mdqnvyp9",
+    "sha256": "19xp5gzck0ia63ff4z73rniqlvhvixfw942jz2d1pykg80k54wxd",
     "url": "https://github.com/JDKamalakar/DMS-Caffeine"
   },
   "calculator": {
@@ -2205,6 +2205,45 @@
     "rootDir": "",
     "sha256": "1dqgi8xcpzb2laiva4lkgmkrwh123y6y635npf2nb4ks042w66g6",
     "url": "https://github.com/heyitsmikey128/DankCustomRunningApps"
+  },
+  "dankAIUsage": {
+    "date": "2026-09-07T14:09:36+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-o/5i+nF2pEcj/Ywg4tt2QyDhafY/0iWyPZmbaCnKBko=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "alcxyz",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dankaiusage",
+        "codex",
+        "claude",
+        "sqlite3"
+      ],
+      "description": "Monitor Codex and Claude subscription quotas, extra-usage credits, and local token history with switchable used/remaining views and quick bar controls",
+      "distro": [
+        "any"
+      ],
+      "id": "dankAIUsage",
+      "name": "AI Usage",
+      "repo": "https://github.com/alcxyz/DankAIUsage",
+      "screenshot": "https://raw.githubusercontent.com/alcxyz/DankAIUsage/main/docs/screenshot.png",
+      "version": "0.4.0"
+    },
+    "path": "/nix/store/rynkqw893n451csmmqa4nnv2hbm0fxmy-DankAIUsage",
+    "rev": "97d7c999e1482a9cd67fa3ce4e89284e34105f28",
+    "rootDir": "",
+    "sha256": "0jh6r8lni6wr7nr2blizyrly2823fvdy484czlilg93nf7x65zm3",
+    "url": "https://github.com/alcxyz/DankAIUsage"
   },
   "dankActions": {
     "date": "2026-09-04T10:11:09-04:00",
@@ -4947,12 +4986,12 @@
     "url": "https://github.com/LouisKottmann/dms-pass"
   },
   "dmsScreenshot": {
-    "date": "2026-08-08T12:43:49+05:30",
+    "date": "2026-09-07T23:56:57+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-TjX+mcEdbl///VGCkjD2Cve17SBTV0PRbyEE8P0WbI4=",
+    "hash": "sha256-/p85hztmwZlTqkzmhFiBdqmAcbY/u+yblgXp4CnPd1g=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -4984,10 +5023,10 @@
       "type": "widget",
       "version": "1.5.3"
     },
-    "path": "/nix/store/hbhgk201x2m3fgn83n0fp0rhr1kfnbrd-DMS-Screenshot",
-    "rev": "663eecc48d8532143c5995148aa561122d6bfd7e",
+    "path": "/nix/store/4j7prjr0kf9vwbjb1p19s3dqs6pr6vw7-DMS-Screenshot",
+    "rev": "d31161eaa4420ba3f54631956bf13bc35e3d46d5",
     "rootDir": "",
-    "sha256": "13kc2vyz0111dz8l6msk43nvbxqayqq950jizpzmyvhxq6czwdaf",
+    "sha256": "0n3prwly1s85jsdyrfrznrqq1abnh5c89rjcm99rkhb67f3kk7zy",
     "url": "https://github.com/JDKamalakar/DMS-Screenshot"
   },
   "dmsSessionizer": {
@@ -5230,12 +5269,12 @@
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
-    "date": "2026-08-08T12:31:19+05:30",
+    "date": "2026-09-07T23:53:29+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-hqQm22R6P0HuOJD4E9ZPiPOMh6CbaO6PcBnSkr+0y/k=",
+    "hash": "sha256-zUJVXnKH2/jsbsezoDiOkHvJL4AokXecgUJekkHyoUA=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -5267,10 +5306,10 @@
       "type": "widget",
       "version": "1.1.1"
     },
-    "path": "/nix/store/0pnvj46vrxmi8mw24j6d260ls9pf96bg-DMS-DNS_Switcher",
-    "rev": "b03cac0aaa9c70cf8c91896775459b5cada52144",
+    "path": "/nix/store/qk4x21bp4mwpfnh636wa8sdlsa2h5536-DMS-DNS_Switcher",
+    "rev": "a36f41d93e3ced7aa0787f5b8287532cb3aaeabc",
     "rootDir": "",
-    "sha256": "1yfbnjzr5lhrf27yws4vl23qrww89zb17y4h73p42gvsckdjd946",
+    "sha256": "0h51y90r4pj2h6f7g498h0pwjywhiqwa1cy7dvnginw7f9g5ahnd",
     "url": "https://github.com/JDKamalakar/DMS-DNS_Switcher"
   },
   "dockerManager": {
@@ -5829,12 +5868,12 @@
     "url": "https://github.com/Incognitux/dms-format-color-picker"
   },
   "fullscreenPowerMenu": {
-    "date": "2026-08-08T12:30:16+05:30",
+    "date": "2026-09-08T00:02:21+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-KE7qCXkDw1n4WMFaxqdvqf2nO7dodG6cQNYvXxKFrwo=",
+    "hash": "sha256-SJ1ZZ2zfGg8xYx7GZmri4DCGE2LHLKKgbfSSv5HomFY=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -5866,10 +5905,10 @@
       "type": "daemon",
       "version": "1.1.2"
     },
-    "path": "/nix/store/pan11nrcqp64irh3y8blmwfjf21zflh1-DMS-Fullscreen_Power_Menu",
-    "rev": "b474d69cff7564ea4999a9f78ce30027fbac07d2",
+    "path": "/nix/store/azjwds2cyyx042dirvjgglj20ss7qrag-DMS-Fullscreen_Power_Menu",
+    "rev": "d6a184c979696ad6ae24e98579d7ca9ba7c9268b",
     "rootDir": "",
-    "sha256": "02mghl95ybyn82f6wx38nwxsgzd9dykwcnn1b3w5khq3g44ylki8",
+    "sha256": "0mlqx28vz4pldnha4b67c89qcc70w9m6dihyccqhy6nzdikmk7a8",
     "url": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu"
   },
   "fwFanctrl": {
@@ -6113,12 +6152,12 @@
     "url": "https://github.com/maxlen727/DMS-GitHub_HeatMap_Plus"
   },
   "githubHeatmapRevive": {
-    "date": "2026-08-08T12:18:03+05:30",
+    "date": "2026-09-07T23:44:09+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-QXs9J9bd65ot6/Bc0b3QL/zturePV1agsQ3rIW2Bb9I=",
+    "hash": "sha256-oreRDf5KPDDj8tT8Bi16C5UIC6YMUukPjrXDwz5fw1M=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -6149,10 +6188,10 @@
       "type": "widget",
       "version": "2.0.0"
     },
-    "path": "/nix/store/3r6wa7k21cdrri0wpmx4s0s64h431g2y-DMS-GitHub_HeatMap",
-    "rev": "bafa478178631b3f0cd9b6acd4dcd2f2b1f2a744",
+    "path": "/nix/store/wndhdagdq6dfsh8h8ji4mlv3y628lmjm-DMS-GitHub_HeatMap",
+    "rev": "2d61d19eb078563029d50c15be02c2be24050c40",
     "rootDir": "",
-    "sha256": "1lkgh5nj3sqdn6h5cmwgnyxfvz1gs2yx2p7hxcnrmsyxsqkksys1",
+    "sha256": "0ly3bwzc7hxmiq7yjlhclq5hi58bg8nhdz6lybik0g2azq6r3dx2",
     "url": "https://github.com/JDKamalakar/DMS-GitHub_HeatMap"
   },
   "githubInbox": {
@@ -7305,12 +7344,12 @@
     "url": "https://github.com/sgtaziz/dms-wallpaperengine"
   },
   "liveChartSchedule": {
-    "date": "2026-08-08T12:31:38+05:30",
+    "date": "2026-09-07T23:49:32+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-qONJjyjS1euPHyUgEO3snsDlxkENQrX3N08d5g+c77I=",
+    "hash": "sha256-LXFJx4iat7ENgREhGnhg+kz4iNlSipNCFDd2nrHPu4Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -7344,10 +7383,10 @@
       "type": "widget",
       "version": "1.1.7"
     },
-    "path": "/nix/store/dkz10rac56v791n352zvh4xkxhl20s4k-DMS-LiveChart.me",
-    "rev": "d924c66f64da93edf76319249148d7ca04ef0686",
+    "path": "/nix/store/p59miwl9f0qr9c54w2djcikk1fr6j7hv-DMS-LiveChart.me",
+    "rev": "62b0b0d79c8fc5fbc856e12eda9b680eb66fa615",
     "rootDir": "",
-    "sha256": "1cpgkh7yc7ag6zvvahhd873fbh4yxkni08153y7ypmfj527lkqx8",
+    "sha256": "115vryqrwxip2i1972jjv64ghk7sc1w1l88ih46v3dwsi33ljw9d",
     "url": "https://github.com/JDKamalakar/DMS-LiveChart.me"
   },
   "liveLyrics": {
@@ -8528,12 +8567,12 @@
     "url": "https://github.com/hthienloc/dms-niri-display-settings"
   },
   "niriDSA": {
-    "date": "2026-08-07T00:02:22+05:30",
+    "date": "2026-09-07T23:42:54+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-RmprplSehumMzJIgPy3O/mqouVhfo1NMvubBczK1XwY=",
+    "hash": "sha256-UnZWmbVxDcNUX4ovVRfTpwIGZBzvHknahcNcb7aiBNc=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -8567,10 +8606,10 @@
       ],
       "version": "2.0.0"
     },
-    "path": "/nix/store/qvssql72aham1is2r35dkva1lfgbih52-DMS-Niri_Display_Settings",
-    "rev": "389d72890fac145448669775af5f28d5bbc8e878",
+    "path": "/nix/store/mp8m89619dpidsckm461x4y6rz7pd775-DMS-Niri_Display_Settings",
+    "rev": "0ac7b6ff093e5f14d2157a2aae463cc338ed97ed",
     "rootDir": "",
-    "sha256": "01jznlr77hg6pr6578szb2wshspyrqnky84jrj6fk1lyajk6nsj6",
+    "sha256": "1mq4lav6yp63hpd4j7pg3ij0c0m7scbmabwabxac63binncmcxjj",
     "url": "https://github.com/jdkamalakar/DMS-Niri_Display_Settings"
   },
   "niriScreenshot": {
@@ -9311,12 +9350,12 @@
     "url": "https://github.com/Silzinc/Polyglot"
   },
   "portWatch": {
-    "date": "2026-09-07T15:00:37+06:00",
+    "date": "2026-09-08T00:10:30+06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-XuB/erTN0LEwqupE9hdXSmYz70fZ6kesyBjCD1scsZs=",
+    "hash": "sha256-OFyWCKuOqRS/NsuIFq4cNRjSnv+t58FuQPDGyUzh4c4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Al Amin",
@@ -9344,10 +9383,10 @@
       "screenshot": "https://raw.githubusercontent.com/alamin147/PortWatch/main/main/docs/portwatch.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/6qihk0fvwjjzqhjm914iw700k3f9lp36-PortWatch",
-    "rev": "3210d27b63dcbb56472e78860ed3eb9360ae5541",
+    "path": "/nix/store/iqh50dmnvgh8z928h7qdm7ynvx6cm4xy-PortWatch",
+    "rev": "c689b30e5b9aabf4e06e9fe71ede71ab4338af7d",
     "rootDir": "",
-    "sha256": "16xi3idhzhhqr2n4gsnr8zpk6rjaawbzci7am8qb3l6dnix7zq2y",
+    "sha256": "1kp1w56ckiph81pc3rxdzygd461m3jp1d26b6szi9acfmc49cp1q",
     "url": "https://github.com/alamin147/PortWatch"
   },
   "powerOptions": {
@@ -9763,12 +9802,12 @@
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
-    "date": "2026-08-23T00:46:47+05:30",
+    "date": "2026-09-08T00:00:05+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-C+bV5p5LqCrsnFiWjaCa0KzWBusmStr1QtG5jTxhg90=",
+    "hash": "sha256-bbXQibpo8PPEBeoSgMQvq+sAKDmOG1rW+H303rWMaFw=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -9799,10 +9838,10 @@
       "type": "widget",
       "version": "1.2.2"
     },
-    "path": "/nix/store/cd1gm4b3mv9kl3g0bfdf40lyjbqxj006-DMS-Quick_Tote",
-    "rev": "38b1c061ec08a525a28594cb4ebcf8b0c3f166ba",
+    "path": "/nix/store/wb99r9aj81ki8c7hvqvhvz7dsl8r7dan-DMS-Quick_Tote",
+    "rev": "5c32375e37da1246eec1bd8bcee3e1c85c14aeed",
     "rootDir": "",
-    "sha256": "1pc3c4y8vffi8bsxlji6xc3ddb6hkah8v5jqkkn2ma2bkvkdbrhb",
+    "sha256": "0p38ijsxxx3xz3b5l6wf74l01sxb5z2804pa0p2g7w38pa4x1dbd",
     "url": "https://github.com/JDKamalakar/DMS-Quick_Tote"
   },
   "quranWidget": {
@@ -10164,12 +10203,12 @@
     "url": "https://github.com/crowforkotlin/dms-screen-capture"
   },
   "screenCaptureToolbar": {
-    "date": "2026-08-23T00:44:02+05:30",
+    "date": "2026-09-07T23:58:22+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-BN9+l5BTYZAPfhMhIAxawd3KaraWmdFJ4n9p3V2Wl3c=",
+    "hash": "sha256-4A6UVywB/R5O7rm/HV9LpBP7abXW/YlRJmubNlbmjUc=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -10206,10 +10245,10 @@
       "type": "daemon",
       "version": "2.4.0"
     },
-    "path": "/nix/store/pvvpwfawk33ihx8nr8w8kfhmsmsyp6v1-DMS-ScreenCapture_Toolbar",
-    "rev": "2b923cc95faa36876d790df6fc1ed575388e966d",
+    "path": "/nix/store/s014067f34q5q159iszkg2lbpi4fk4bk-DMS-ScreenCapture_Toolbar",
+    "rev": "332ea98c0fb2e2d26d55a0cda14c3c9b3cd28505",
     "rootDir": "",
-    "sha256": "0xwpjrfxssbzw94x36cnnrmcmpf1b862088kgq7r0qakj2bpxpq4",
+    "sha256": "0iwdwrb3d6vb4r8qkzfnnmlzn4x49dgivgxrxr71xz815ibr83p0",
     "url": "https://github.com/JDKamalakar/DMS-ScreenCapture_Toolbar"
   },
   "screenOff": {
