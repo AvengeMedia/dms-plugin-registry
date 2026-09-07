@@ -10,5 +10,6 @@
     "dependencies": ["imagemagick", "img2pdf", "tesseract", "zbar", "gpu-screen-recorder", "ffmpeg"],
     "compositors": ["any"],
     "distro": ["any"],
+    "i18n": true,
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png"
 }
