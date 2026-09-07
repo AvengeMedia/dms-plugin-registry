@@ -8845,7 +8845,7 @@ Screenshot annotation and screen recording plugin.
 - capabilities: daemon, dankbar-widget, control-center
 - dependencies: imagemagick, img2pdf, tesseract, zbar, gpu-screen-recorder, ffmpeg
 - distro: any
-
+- translations: 🌐 centrally translated via the DMS POEditor project
 
 
 
