@@ -1,0 +1,13 @@
+{
+    "id": "dankAIUsage",
+    "name": "AI Usage",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/alcxyz/DankAIUsage",
+    "author": "alcxyz",
+    "description": "Monitor Codex and Claude subscription quotas, extra-usage credits, and local token history with switchable used/remaining views and quick bar controls",
+    "dependencies": ["dankaiusage", "codex", "claude", "sqlite3"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/alcxyz/DankAIUsage/main/docs/screenshot.png"
+}
