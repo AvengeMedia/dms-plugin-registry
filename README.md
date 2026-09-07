@@ -3689,6 +3689,36 @@ AI-powered system health monitor. Tracks CPU, RAM, disk, GPU & temp; detects pen
 
 
 
+#### [DankSession](https://github.com/alcxyz/DankSession)
+
+Save and restore Hyprland application sessions, workspaces, and window sizes, with automatic saving, login restoration, and app exclusions
+
+
+
+- id: dankSession
+- name: DankSession
+- author: alcxyz
+- compositors: hyprland
+- capabilities: dankbar-widget
+- dependencies: danksession, hyprctl, systemd-run
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alcxyz/DankSession/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Display Manager](https://github.com/felri/display-manager-plugin-niri-dank-linux)
 
 Toggle Niri displays and control monitor hardware brightness, contrast, scale, refresh rate, and resolution.
