@@ -8533,6 +8533,41 @@
     "sha256": "154i0s679ir5dgikqm16z43q5xh43z0smhg3fny7v2f3pym658xq",
     "url": "https://github.com/rochacbruno/DankNiriWindows"
   },
+  "niriWorkspaceBar": {
+    "date": "2026-09-06T17:30:42-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-bQ422DmMLx/+0x4e5WiA/h9NPyvz+q8A1d2lDRvAMFg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Rob Wilkerson",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [],
+      "description": "The focused niri workspace as a pill segmented to match its column count, plus a grouped switcher for every named workspace.",
+      "distro": [
+        "any"
+      ],
+      "id": "niriWorkspaceBar",
+      "name": "Niri Workspace Bar",
+      "repo": "https://github.com/robwilkerson/dms-niri-workspace-bar",
+      "requires_dms": ">=1.4.0",
+      "screenshot": "https://raw.githubusercontent.com/robwilkerson/dms-niri-workspace-bar/main/docs/screenshot.png",
+      "version": "0.2.0"
+    },
+    "path": "/nix/store/s0v5h1kn9r33rxa40798yyvdqmwp2z66-dms-niri-workspace-bar",
+    "rev": "a79921a312bd252b87de19db38732b42358d3913",
+    "rootDir": "",
+    "sha256": "0n1hq0dhv9fxsl0azypk5czls7zyh1lfa7hysgz1ybwc77c3c3kd",
+    "url": "https://github.com/robwilkerson/dms-niri-workspace-bar"
+  },
   "niriWorkspaces": {
     "date": "2026-08-04T14:31:54+08:00",
     "deepClone": false,
@@ -11603,12 +11638,12 @@
     "url": "https://github.com/hthienloc/dms-typing-sounds"
   },
   "unifiedTaskbar": {
-    "date": "2026-08-04T18:57:57-04:00",
+    "date": "2026-09-07T00:51:36-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-G5JJ23AYNPSHp8e/zLb8B6shY2CDPqGu1T17tT6IYFg=",
+    "hash": "sha256-gOLipzxMKrGqP0DZdWzEszGzgwtz2FJde+nHiU8CwZo=",
     "leaveDotGit": false,
     "meta": {
       "author": "Joshua Landau",
@@ -11628,12 +11663,12 @@
       "name": "Unified Taskbar",
       "repo": "https://github.com/jslandau/dms-unified-taskbar",
       "screenshot": "https://raw.githubusercontent.com/jslandau/dms-unified-taskbar/master/screenshot.png",
-      "version": "1.1.2"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/0m3kr7lz01fii0i4xr7967k0lgfddish-dms-unified-taskbar",
-    "rev": "6b1787f61f297a3ce5a14cbc7c425fc2314ad4a0",
+    "path": "/nix/store/fjrsf260aw1k9daw56rqp24brrg25mrx-dms-unified-taskbar",
+    "rev": "eba5b385cfbbda85587fa0a4feefe293563617ff",
     "rootDir": "",
-    "sha256": "0n30i0zbayrxsnpa2gl3c1ij3aq7zjvcrgy7ly3z8d0qf3dlk4hv",
+    "sha256": "16n1097qkiz9gdfm5n3k1f1v6cdkqin7bna07ymb2ajc7jky5ql0",
     "url": "https://github.com/jslandau/dms-unified-taskbar"
   },
   "uptimeBar": {
