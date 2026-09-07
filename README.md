@@ -8834,16 +8834,16 @@ Generate and scan QR codes from clipboard text, manual input, or dropped images.
 
 #### [Quick Capture](https://github.com/hthienloc/dms-quick-capture)
 
-A quick screen capture utility featuring screenshot tools, drawing, and annotation.
+Screenshot annotation and screen recording plugin.
 
-<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
 
 - id: quickCapture
 - name: Quick Capture
 - author: Loc Huynh
 - compositors: any
 - capabilities: daemon, dankbar-widget, control-center
-- dependencies: imagemagick, img2pdf, tesseract, zbar
+- dependencies: imagemagick, img2pdf, tesseract, zbar, gpu-screen-recorder, ffmpeg
 - distro: any
 
 
