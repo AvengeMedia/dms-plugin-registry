@@ -1124,6 +1124,36 @@ Monitor Claude, Codex, OpenCode, Antigravity, DeepSeek, and Grok usage limits an
 
 
 
+#### [AI Usage](https://github.com/alcxyz/DankAIUsage)
+
+Monitor Codex and Claude subscription quotas, extra-usage credits, and local token history with switchable used/remaining views and quick bar controls
+
+
+
+- id: dankAIUsage
+- name: AI Usage
+- author: alcxyz
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: dankaiusage, codex, claude, sqlite3
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alcxyz/DankAIUsage/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [AMD GPU Monitor](https://github.com/navidagz/dms-amd-gpu-monitor)
 
 Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage.
