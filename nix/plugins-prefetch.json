@@ -7933,12 +7933,12 @@
     "url": "https://github.com/arrifat346afs/mediaPlayer"
   },
   "mihomoVpn": {
-    "date": "2026-08-29T09:28:31+03:00",
+    "date": "2026-09-07T13:23:32+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-WVeH3ikrZHSE5gCw1EDmv/CP3V/m30JpypLkybcedxc=",
+    "hash": "sha256-LjdNBBZsjlMuWbYLyJAzpCoUhwl04Uhqh3IUi3SPcEg=",
     "leaveDotGit": false,
     "meta": {
       "author": "korbash",
@@ -7964,12 +7964,12 @@
       "repo": "https://github.com/korbash/mihomo-dms-widget",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/korbash/mihomo-dms-widget/main/assets/mihomo-vpn.png",
-      "version": "1.3.0"
+      "version": "1.3.2"
     },
-    "path": "/nix/store/9skrnhkr8irz951p676y8b5iij2y6fz8-mihomo-dms-widget",
-    "rev": "c8ce12ae82f74bcbaf176bbec12405a9eb40888a",
+    "path": "/nix/store/i0h5ikgc7yscijj5hmv2hrn9qk9lcmk9-mihomo-dms-widget",
+    "rev": "35c0a5e2d6a5e89a66e300d33a87df146bd908ec",
     "rootDir": "",
-    "sha256": "05vp3svwkr4jr9ll5pz6bzfqzw5zwr0d9c00ws278r1b57g8fmsr",
+    "sha256": "0j3hixs8n53jhxm4iqbl163i8am46f8ch2xnb4p573kc2q24sdrf",
     "url": "https://github.com/korbash/mihomo-dms-widget"
   },
   "modemManager": {
@@ -8087,12 +8087,12 @@
     "url": "https://github.com/sitolam/dms-plugins"
   },
   "mpvpaper": {
-    "date": "2026-07-14T18:49:00+08:00",
+    "date": "2026-09-07T17:57:19+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-CffTJ0CXzj7Kr8i5HbJJGU4MkiURH9H7aUc5KROaQEY=",
+    "hash": "sha256-JKJNjwaaElFoWAONJyeRRg6BV1d9DlduEUabBLGO3JU=",
     "leaveDotGit": false,
     "meta": {
       "author": "tokisak1kurum1",
@@ -8120,10 +8120,10 @@
       "screenshot": "https://raw.githubusercontent.com/tokisak1kurum1/mpvpaper-plugin/master/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/kgp27n2rqziih8r6z03f74lysrca7dz3-mpvpaper-plugin",
-    "rev": "f0f83ad6fb034a02a9073bd7a2036cc879f78413",
+    "path": "/nix/store/0jxww9i2aj9zzgiic20bdp9sysgk22k8-mpvpaper-plugin",
+    "rev": "08c369830df392214bcde83112c4b2cddc5e63ee",
     "rootDir": "",
-    "sha256": "0ij0k89jjfa7d7xx27qi4n90qkhr96r1vff8mz53xklp80kx7xq9",
+    "sha256": "15fwisqh96s625p5f3kxaxbq23j6j4kjg383b1l524ls0s7lv8i4",
     "url": "https://github.com/tokisak1kurum1/mpvpaper-plugin"
   },
   "mpvpaperWallpaper": {
@@ -9269,6 +9269,46 @@
     "rootDir": "",
     "sha256": "096y9rg4xnpziqmb2zj0p3v7z5wkbvpqm8w9bfw2ln58bbqa1xh3",
     "url": "https://github.com/Silzinc/Polyglot"
+  },
+  "portWatch": {
+    "date": "2026-09-07T15:00:37+06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-XuB/erTN0LEwqupE9hdXSmYz70fZ6kesyBjCD1scsZs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Al Amin",
+      "capabilities": [
+        "dankbar-widget",
+        "monitoring"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [
+        "bash",
+        "ss",
+        "hyprctl"
+      ],
+      "description": "Shows local listening ports and development servers in DankBar, with a popout to stop them safely.",
+      "distro": [
+        "any"
+      ],
+      "id": "portWatch",
+      "name": "PortWatch",
+      "repo": "https://github.com/alamin147/PortWatch",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/alamin147/PortWatch/main/main/docs/portwatch.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/6qihk0fvwjjzqhjm914iw700k3f9lp36-PortWatch",
+    "rev": "3210d27b63dcbb56472e78860ed3eb9360ae5541",
+    "rootDir": "",
+    "sha256": "16xi3idhzhhqr2n4gsnr8zpk6rjaawbzci7am8qb3l6dnix7zq2y",
+    "url": "https://github.com/alamin147/PortWatch"
   },
   "powerOptions": {
     "date": "2026-01-24T09:07:53+01:00",
