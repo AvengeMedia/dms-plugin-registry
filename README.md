@@ -5892,6 +5892,76 @@ Omarchy-style root menu: one key to every command, with built-in search, conditi
 
 
 
+#### [Dank News RSS & Ticker](https://github.com/Xn4m3d/dms-rss-widget)
+
+RSS/Atom feeds as a desktop card plus a full-width scrolling news ticker that docks under your bar, follows a bottom bar, or floats
+
+
+
+- id: dankNewsRssTicker
+- name: Dank News RSS & Ticker
+- author: Xn4m3d
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: curl
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [dankNewsRssTicker](https://github.com/Xn4m3d/dms-rss-widget/tree/main/dankNewsRssTicker) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Xn4m3d/dms-rss-widget/main/screenshots/screen1.png)
+
+</details>
+
+
+
+
+
+#### [Dank News RSS & Ticker Pill](https://github.com/Xn4m3d/dms-rss-widget)
+
+Bar companion for Dank News RSS & Ticker: the same scrolling headlines as a compact pill inside the DankBar
+
+
+
+- id: dankNewsRssTickerPill
+- name: Dank News RSS & Ticker Pill
+- author: Xn4m3d
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [dankNewsRssTickerPill](https://github.com/Xn4m3d/dms-rss-widget/tree/main/dankNewsRssTickerPill) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Xn4m3d/dms-rss-widget/main/screenshots/pill-plugin.png)
+
+</details>
+
+
+
+
+
 #### [Dank Notepad Syntax Module](https://github.com/AvengeMedia/dms-plugins)
 
 Inline preview and chroma-based syntax highlighting for Notepad
