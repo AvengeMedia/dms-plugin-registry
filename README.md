@@ -3994,6 +3994,36 @@ Control night mode parameters from bar and Control Center
 
 
 
+#### [Niri Workspace Bar](https://github.com/robwilkerson/dms-niri-workspace-bar)
+
+The focused niri workspace as a pill segmented to match its column count, plus a grouped switcher for every named workspace.
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: niriWorkspaceBar
+- name: Niri Workspace Bar
+- author: Rob Wilkerson
+- compositors: niri
+- capabilities: dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/robwilkerson/dms-niri-workspace-bar/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Package Updates](https://github.com/rahulmysore23/dms-pkg-update)
 
 Check and manage DNF and Flatpak package updates from the bar.
