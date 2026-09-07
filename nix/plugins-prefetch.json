@@ -1678,12 +1678,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "cliproxyQuota": {
-    "date": "2026-09-03T14:13:38+02:00",
+    "date": "2026-09-07T15:23:35+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-EhPkcKsLCoWRlbRn3TqjZBsJbLR5fwv14UIoNJTQQgc=",
+    "hash": "sha256-l8B/7Gfalv6LfdkZtHqjOLDLLw4UOOi5nbikUOL1fyA=",
     "leaveDotGit": false,
     "meta": {
       "author": "Spyros Psarras",
@@ -1708,10 +1708,10 @@
       "screenshot": "https://raw.githubusercontent.com/SpyrosPsarras/dms-cliproxy-quota/main/screenshot.png",
       "version": "0.1.6"
     },
-    "path": "/nix/store/5a2qg9apcy89368ys25q1k21apvjr0m9-dms-cliproxy-quota",
-    "rev": "57c278e13ca7ad1a429f536886e8b3f0136bf324",
+    "path": "/nix/store/sizs21w37dmdqxgkn411fgnv7l0cgz58-dms-cliproxy-quota",
+    "rev": "da3857d6750b0d2d0788665ca8a261bcd921b0fd",
     "rootDir": "",
-    "sha256": "01s2s2a38a22w7shnzvrnin0j6v4lcxdsrxljn8qa2hbmdqf84qj",
+    "sha256": "083zypi5195qknwyhf0l1qpwpc1qldxb86frgn5zx5nsczn7zh4p",
     "url": "https://github.com/SpyrosPsarras/dms-cliproxy-quota"
   },
   "codeIsland": {
@@ -3336,12 +3336,12 @@
     "url": "https://github.com/zachfi/dms-razer"
   },
   "dankRssWidget": {
-    "date": "2026-09-07T08:00:43-04:00",
+    "date": "2026-09-07T08:27:53-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-IXvhr0X88gPkuk89hjkPeQtprXIRDLr6kwOXnDt07Wk=",
+    "hash": "sha256-ObCt0nQ5wujl1MINbJBXlQvvKpV4QyYTJ2r1p/aat6s=",
     "leaveDotGit": false,
     "meta": {
       "author": "BrendonJL, Xn4m3d, Alessandro Ianne",
@@ -3363,12 +3363,12 @@
       "name": "Dank RSS Widget",
       "repo": "https://github.com/BrendonJL/dms-rss-widget",
       "screenshot": "https://raw.githubusercontent.com/BrendonJL/dms-rss-widget/main/screenshot.png",
-      "version": "2.3.2"
+      "version": "2.3.3"
     },
-    "path": "/nix/store/13b9y17xgzl15yd9q6q55l9dgwmga0hv-dms-rss-widget",
-    "rev": "b50d1c16aeda32fe8cbf0af86ae53ccf70910cc7",
+    "path": "/nix/store/zc394lfwyjl9bimm04h2j1y61ys103rw-dms-rss-widget",
+    "rev": "f5481797db2667149a0d7dccbdc397250dde4d15",
     "rootDir": "",
-    "sha256": "0sgdfhxrr5q3jgxbl30ifannj2vr1wwqcgagpbj07wpw8npy2yr1",
+    "sha256": "1axpkbvagxba4w9jchvqjlmfy2wmay86q3f2skjyihirfk9avc1r",
     "url": "https://github.com/BrendonJL/dms-rss-widget"
   },
   "dankSchedPicker": {
@@ -3404,6 +3404,44 @@
     "rootDir": "",
     "sha256": "0a3b8mik4xszympfvb5ihz3hsx98gnc3q97b0nadca17lrbr6yvx",
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
+  },
+  "dankSession": {
+    "date": "2026-09-07T15:37:47+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-mzFlFiTRyyA0Esfwr3rIteOi7lr+vjak7GJM2duqpuI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "alcxyz",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [
+        "danksession",
+        "hyprctl",
+        "systemd-run"
+      ],
+      "description": "Save and restore Hyprland application sessions, workspaces, and window sizes, with automatic saving, login restoration, and app exclusions",
+      "distro": [
+        "any"
+      ],
+      "id": "dankSession",
+      "name": "DankSession",
+      "repo": "https://github.com/alcxyz/DankSession",
+      "screenshot": "https://raw.githubusercontent.com/alcxyz/DankSession/main/assets/screenshot.png",
+      "version": "0.3.5"
+    },
+    "path": "/nix/store/nryq5zql15r6lab465v5zs4bkfq1p465-DankSession",
+    "rev": "685ab95a425a9334d310d00429ee833aba575b89",
+    "rootDir": "",
+    "sha256": "1qm6mbdxjk32xjj3dgpybbpa5qxmr1xazw6728s21jyi4hb6accv",
+    "url": "https://github.com/alcxyz/DankSession"
   },
   "dankSoftwareDepot": {
     "date": "2026-09-03T08:26:50+02:00",
