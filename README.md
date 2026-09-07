@@ -2259,6 +2259,36 @@ Track AI usage limits via opentracker CLI
 
 
 
+#### [PortWatch](https://github.com/alamin147/PortWatch)
+
+Shows local listening ports and development servers in DankBar, with a popout to stop them safely.
+
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+
+- id: portWatch
+- name: PortWatch
+- author: Al Amin
+- compositors: hyprland
+- capabilities: dankbar-widget, monitoring
+- dependencies: bash, ss, hyprctl
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alamin147/PortWatch/main/main/docs/portwatch.png)
+
+</details>
+
+
+
+
+
 #### [Power Usage Monitor](https://github.com/Daniel-42-z/dms-power-usage)
 
 Display real-time power consumption from your device
