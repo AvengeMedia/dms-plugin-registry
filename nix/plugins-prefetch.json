@@ -1678,12 +1678,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "cliproxyQuota": {
-    "date": "2026-09-07T15:23:35+02:00",
+    "date": "2026-09-07T18:46:36+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-l8B/7Gfalv6LfdkZtHqjOLDLLw4UOOi5nbikUOL1fyA=",
+    "hash": "sha256-RN3WCkJ+Ft76qnS16kFR0n68tXtUGe3YPAJPhgyRZcY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Spyros Psarras",
@@ -1706,12 +1706,12 @@
       "name": "CLIProxyAPI Quota",
       "repo": "https://github.com/SpyrosPsarras/dms-cliproxy-quota",
       "screenshot": "https://raw.githubusercontent.com/SpyrosPsarras/dms-cliproxy-quota/main/screenshot.png",
-      "version": "0.1.6"
+      "version": "0.1.8"
     },
-    "path": "/nix/store/sizs21w37dmdqxgkn411fgnv7l0cgz58-dms-cliproxy-quota",
-    "rev": "da3857d6750b0d2d0788665ca8a261bcd921b0fd",
+    "path": "/nix/store/zwznrk6x6ycmpprj2wf5al9720p026x8-dms-cliproxy-quota",
+    "rev": "e70109e11ba3a786de539473302f87348862177c",
     "rootDir": "",
-    "sha256": "083zypi5195qknwyhf0l1qpwpc1qldxb86frgn5zx5nsczn7zh4p",
+    "sha256": "1ik5j468ckq27kcfs6algfsvqznja50ymdblmbxdw5ky885ddpa4",
     "url": "https://github.com/SpyrosPsarras/dms-cliproxy-quota"
   },
   "codeIsland": {
@@ -3040,12 +3040,12 @@
     "url": "https://github.com/sitolam/dms-plugins"
   },
   "dankNewsRssTicker": {
-    "date": "2026-09-06T14:58:22+02:00",
+    "date": "2026-09-07T16:28:55+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5s2cq0ta+oYmtNyVzuRI2L5LhwxXrNpt+JFNuYEg9xQ=",
+    "hash": "sha256-hmhznjATYURaz44PVt8PzM2ra5pU5oQLn03fQw/sSpY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Xn4m3d",
@@ -3070,19 +3070,19 @@
       "screenshot": "https://raw.githubusercontent.com/Xn4m3d/dms-rss-widget/main/screenshots/screen1.png",
       "version": "2.0.0"
     },
-    "path": "/nix/store/sjpa3m07df49sanka8yv55bwvzcgn1dq-dms-rss-widget",
-    "rev": "acba72157c3c0bfd1301df606dd13b0353681bcd",
+    "path": "/nix/store/njk301n0bcdaqczfh4in8valif3blqcl-dms-rss-widget",
+    "rev": "518f6235a5d1e044c8dfa25e5852c2365d4bcf26",
     "rootDir": "",
-    "sha256": "057p420vjkciz1nxmb2p1j3lpgnq93jcx5fwnhk8dyjs9fmrrkg6",
+    "sha256": "15jaxh7l7psdkw5q9rjlk9mspkfc1zgmc3wfrxd48q8k62g76s46",
     "url": "https://github.com/Xn4m3d/dms-rss-widget"
   },
   "dankNewsRssTickerPill": {
-    "date": "2026-09-06T14:58:22+02:00",
+    "date": "2026-09-07T16:28:55+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5s2cq0ta+oYmtNyVzuRI2L5LhwxXrNpt+JFNuYEg9xQ=",
+    "hash": "sha256-hmhznjATYURaz44PVt8PzM2ra5pU5oQLn03fQw/sSpY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Xn4m3d",
@@ -3105,10 +3105,10 @@
       "screenshot": "https://raw.githubusercontent.com/Xn4m3d/dms-rss-widget/main/screenshots/pill-plugin.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/sjpa3m07df49sanka8yv55bwvzcgn1dq-dms-rss-widget",
-    "rev": "acba72157c3c0bfd1301df606dd13b0353681bcd",
+    "path": "/nix/store/njk301n0bcdaqczfh4in8valif3blqcl-dms-rss-widget",
+    "rev": "518f6235a5d1e044c8dfa25e5852c2365d4bcf26",
     "rootDir": "",
-    "sha256": "057p420vjkciz1nxmb2p1j3lpgnq93jcx5fwnhk8dyjs9fmrrkg6",
+    "sha256": "15jaxh7l7psdkw5q9rjlk9mspkfc1zgmc3wfrxd48q8k62g76s46",
     "url": "https://github.com/Xn4m3d/dms-rss-widget"
   },
   "dankNotepadModule": {
@@ -9740,16 +9740,18 @@
         "imagemagick",
         "img2pdf",
         "tesseract",
-        "zbar"
+        "zbar",
+        "gpu-screen-recorder",
+        "ffmpeg"
       ],
-      "description": "A quick screen capture utility featuring screenshot tools, drawing, and annotation.",
+      "description": "Screenshot annotation and screen recording plugin.",
       "distro": [
         "any"
       ],
       "id": "quickCapture",
       "name": "Quick Capture",
       "repo": "https://github.com/hthienloc/dms-quick-capture",
-      "requires_dms": ">=1.5.0",
+      "requires_dms": ">=1.6.0",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.4.0"
     },
