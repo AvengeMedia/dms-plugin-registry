@@ -1,0 +1,14 @@
+{
+  "id": "workspaceOsdFlash",
+  "name": "Workspace OSD Flash",
+  "capabilities": ["daemon", "ipc"],
+  "category": "utilities",
+  "repo": "https://github.com/AleBles/dms-workspace-osd",
+  "author": "Ale Bles",
+  "description": "Briefly shows the id and name of the workspace you just switched to, centered on that screen.",
+  "dependencies": [],
+  "compositors": ["hyprland", "niri"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/AleBles/dms-workspace-osd/main/assets/screenshot.png",
+  "requires_dms": ">=1.6.0"
+}
