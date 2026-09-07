@@ -3336,15 +3336,15 @@
     "url": "https://github.com/zachfi/dms-razer"
   },
   "dankRssWidget": {
-    "date": "2026-09-05T12:26:01-04:00",
+    "date": "2026-09-07T08:00:43-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-P0A2RyxCGbIxQH+Mo5hkBXqmkfqf9xQqCEpDcqBO7Lw=",
+    "hash": "sha256-IXvhr0X88gPkuk89hjkPeQtprXIRDLr6kwOXnDt07Wk=",
     "leaveDotGit": false,
     "meta": {
-      "author": "BrendonJL",
+      "author": "BrendonJL, Xn4m3d, Alessandro Ianne",
       "capabilities": [
         "desktop-widget"
       ],
@@ -3352,8 +3352,10 @@
       "compositors": [
         "any"
       ],
-      "dependencies": [],
-      "description": "Desktop widget that displays RSS/Atom feeds with auto-refresh",
+      "dependencies": [
+        "curl"
+      ],
+      "description": "Desktop widget that displays RSS/Atom feeds with auto-refresh, plus full Miniflux integration with bidirectional read/unread/starred sync",
       "distro": [
         "any"
       ],
@@ -3361,12 +3363,12 @@
       "name": "Dank RSS Widget",
       "repo": "https://github.com/BrendonJL/dms-rss-widget",
       "screenshot": "https://raw.githubusercontent.com/BrendonJL/dms-rss-widget/main/screenshot.png",
-      "version": "2.3.0"
+      "version": "2.3.2"
     },
-    "path": "/nix/store/sr9dn53261k4wwwvr4ghdr7cfff2zinw-dms-rss-widget",
-    "rev": "99cd03ee5607389d585df647e223e53fa6591065",
+    "path": "/nix/store/13b9y17xgzl15yd9q6q55l9dgwmga0hv-dms-rss-widget",
+    "rev": "b50d1c16aeda32fe8cbf0af86ae53ccf70910cc7",
     "rootDir": "",
-    "sha256": "1g7c9sh74hsa10m19xwzza8scyh5cjca733z80qv46a25i3kch1z",
+    "sha256": "0sgdfhxrr5q3jgxbl30ifannj2vr1wwqcgagpbj07wpw8npy2yr1",
     "url": "https://github.com/BrendonJL/dms-rss-widget"
   },
   "dankSchedPicker": {
@@ -7933,12 +7935,12 @@
     "url": "https://github.com/arrifat346afs/mediaPlayer"
   },
   "mihomoVpn": {
-    "date": "2026-09-07T13:23:32+03:00",
+    "date": "2026-09-07T14:14:23+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-LjdNBBZsjlMuWbYLyJAzpCoUhwl04Uhqh3IUi3SPcEg=",
+    "hash": "sha256-vahu2yZ91zfLbxifJMbMrcY6+GTzW/7gOjXWQ57BPiU=",
     "leaveDotGit": false,
     "meta": {
       "author": "korbash",
@@ -7964,12 +7966,12 @@
       "repo": "https://github.com/korbash/mihomo-dms-widget",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/korbash/mihomo-dms-widget/main/assets/mihomo-vpn.png",
-      "version": "1.3.2"
+      "version": "1.3.3"
     },
-    "path": "/nix/store/i0h5ikgc7yscijj5hmv2hrn9qk9lcmk9-mihomo-dms-widget",
-    "rev": "35c0a5e2d6a5e89a66e300d33a87df146bd908ec",
+    "path": "/nix/store/srkwd1iknxpiyi9bhngzpvbmfr43yhg7-mihomo-dms-widget",
+    "rev": "063debedd366a2df338f9b67fb88de709632335a",
     "rootDir": "",
-    "sha256": "0j3hixs8n53jhxm4iqbl163i8am46f8ch2xnb4p573kc2q24sdrf",
+    "sha256": "099yq6g47mim7bhgwnzkckw3mimdrk3297qqdz5kgmvx4vdnxa5x",
     "url": "https://github.com/korbash/mihomo-dms-widget"
   },
   "modemManager": {
@@ -8087,12 +8089,12 @@
     "url": "https://github.com/sitolam/dms-plugins"
   },
   "mpvpaper": {
-    "date": "2026-09-07T17:57:19+08:00",
+    "date": "2026-09-07T19:12:09+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-JKJNjwaaElFoWAONJyeRRg6BV1d9DlduEUabBLGO3JU=",
+    "hash": "sha256-21AJpWLTrJ5XkRFBfUkTmhGJ+8LgQc92Jy4oJYBJ20s=",
     "leaveDotGit": false,
     "meta": {
       "author": "tokisak1kurum1",
@@ -8120,10 +8122,10 @@
       "screenshot": "https://raw.githubusercontent.com/tokisak1kurum1/mpvpaper-plugin/master/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/0jxww9i2aj9zzgiic20bdp9sysgk22k8-mpvpaper-plugin",
-    "rev": "08c369830df392214bcde83112c4b2cddc5e63ee",
+    "path": "/nix/store/nafnyzpf844idmw0b93sy284ma0w20bw-mpvpaper-plugin",
+    "rev": "bb4371cfbaab8ea7667ff4f63a35780fb5fa1615",
     "rootDir": "",
-    "sha256": "15fwisqh96s625p5f3kxaxbq23j6j4kjg383b1l524ls0s7lv8i4",
+    "sha256": "0jyv9602aa1f4xvcyhg0qbxqj4cs2d4psh8ij5brxb6kcajhjl6v",
     "url": "https://github.com/tokisak1kurum1/mpvpaper-plugin"
   },
   "mpvpaperWallpaper": {
