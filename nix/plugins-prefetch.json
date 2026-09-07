@@ -224,12 +224,12 @@
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
-    "date": "2026-08-28T21:49:56+02:00",
+    "date": "2026-09-06T13:14:24+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-gPtvqkUXUrgi6DV7KZ8Gs40GX/5or296hjGlOC2wmn0=",
+    "hash": "sha256-WMmzPVLXUiaHR8vg8uDMgfcGnQpGv45q3Qm2qI+OPA8=",
     "leaveDotGit": false,
     "meta": {
       "author": "agneswd",
@@ -254,12 +254,12 @@
       "repo": "https://github.com/agneswd/dms-ai-quotas",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/agneswd/dms-ai-quotas/main/assets/screenshot.png",
-      "version": "1.8.0"
+      "version": "1.8.1"
     },
-    "path": "/nix/store/fvv419d9f8pkkzj4kcdywj1wv2v2w00f-dms-ai-quotas",
-    "rev": "1cf9f9565420fe4c54a8fb4aca1ffca28594f267",
+    "path": "/nix/store/1razap9m4jp4xnp85zdpnq9vr7jxhf6i-dms-ai-quotas",
+    "rev": "7e5f7cbad1982b0472e53e9ba4816dbfb84addf3",
     "rootDir": "",
-    "sha256": "0zcsn0nki99ihrx6zbv8zrghd3dk0sgjjyrmx0ibhlhp8nm6zyw0",
+    "sha256": "03rwis7sidh9vmm8xgs61afhdxw1rkhg5q6b8y3jclnpa8yv7jaq",
     "url": "https://github.com/agneswd/dms-ai-quotas"
   },
   "airQuality": {
@@ -6602,12 +6602,12 @@
     "url": "https://github.com/mesteryui/DMS_HyprlandSubmap"
   },
   "hyprlandSubmapIndicator": {
-    "date": "2026-06-02T21:42:27-04:00",
+    "date": "2026-09-06T16:40:41-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-7sirKRVHVibRJFco4uqPpC7sfwIIqG7bqvDG6EAJSRw=",
+    "hash": "sha256-kRCa4feK4c+6VjvUHsOYetM+WBM38ZVU4s2IBYEoat4=",
     "leaveDotGit": false,
     "meta": {
       "author": "_nderscore",
@@ -6628,12 +6628,12 @@
       "path": "HyprlandSubmapIndicator",
       "repo": "https://github.com/nderscore/dms-plugins",
       "screenshot": "https://raw.githubusercontent.com/nderscore/dms-plugins/main/assets/HyprlandSubmapIndicator-screenshot.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/i1prwxrrpgkrgs7cwnw7kpy8p4vsnlvd-dms-plugins",
-    "rev": "851e06ca204f17a97414a666728246fd3acad3c6",
+    "path": "/nix/store/sn15cmsk4b0b1aa7i9za8xxh98rfajd6-dms-plugins",
+    "rev": "568fd7682a53ef07482799b91f81dc3383a91967",
     "rootDir": "",
-    "sha256": "0729150fiiphmbdnxa0809zyqbm4izmf4a2p4k8jcmj72llspj7f",
+    "sha256": "1pka520hb26dw9a9bw9p2dc3xlvsk31ixm1vasxczqcayzhrl44i",
     "url": "https://github.com/nderscore/dms-plugins"
   },
   "hyprwhsprVoiceOverlay": {
@@ -7528,12 +7528,12 @@
     "url": "https://github.com/smithyyang/dms-mail-reader"
   },
   "mangoWmLayoutManager": {
-    "date": "2026-09-05T22:38:24-05:00",
+    "date": "2026-09-06T12:28:27-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2TW4Z/rA88NvB3kk/7wOpHn878NffYz+PnXevIqTEQ0=",
+    "hash": "sha256-yZ47jDwu1STzJbfL8C2hJ0UKkK8bFdJrCRNfx1o7XzI=",
     "leaveDotGit": false,
     "meta": {
       "author": "omarluq",
@@ -7556,12 +7556,12 @@
       "repo": "https://github.com/omarluq/DMSMangoWCLayoutManager",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/omarluq/DMSMangoWCLayoutManager/main/screenshot.png",
-      "version": "0.3.4"
+      "version": "0.3.5"
     },
-    "path": "/nix/store/if4mafw0r1344gs15w6i4ps1hvcsgzs5-DMSMangoWCLayoutManager",
-    "rev": "a3ccb258a171e6da77de8d0a2b4e09af81c5f7f8",
+    "path": "/nix/store/kwydibnp2njwfaimn3mrvhhgyklsmmkl-DMSMangoWCLayoutManager",
+    "rev": "f4824511dad314db9881a1974387a4546e5aae6d",
     "rootDir": "",
-    "sha256": "038ijf5brpkm7vz8qzazqgpzqyd41sygy93r0xpw7wy0z9kvhdfr",
+    "sha256": "0cjz7ddcfpqk15mx458vmy80li97l4nz1jxp4prj9m9f7j63p7n9",
     "url": "https://github.com/omarluq/DMSMangoWCLayoutManager"
   },
   "markets": {
@@ -9531,12 +9531,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-09-05T20:50:03+07:00",
+    "date": "2026-09-06T22:34:03+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uV5jCVwYkoOKdQwX/NXt62fZZd6OMcvD+94ySbkLArQ=",
+    "hash": "sha256-EuGx/CBZjqoGftQJltE5zm00zazihUOzB7Ir5fMDG2A=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -9566,10 +9566,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.4.0"
     },
-    "path": "/nix/store/mv82fsj4bbw1n510r8d6iklf3bdvvgwy-dms-quick-capture",
-    "rev": "fa0a212edb9794326d2606e447c42a0bb218c56c",
+    "path": "/nix/store/18n1kb0g4bqcimcpjwmq1mm68yk9xl0v-dms-quick-capture",
+    "rev": "3e42f2d59950beb610b7b748d16568aee167af28",
     "rootDir": "",
-    "sha256": "1d021fwljcnyzg1wnccfvrjxjrzbxpazq5qcfn5874hqbh4n6pmr",
+    "sha256": "0q0v0gryaaxj0yrl71g2mk6k8vff778rc2flgq3am3jr43yb3q8j",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -10653,12 +10653,12 @@
     "url": "https://github.com/Grant07/dms-spotify-matugen"
   },
   "spotlightWallpapers": {
-    "date": "2026-09-06T17:04:21+12:00",
+    "date": "2026-09-07T04:48:08+12:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-pkA5hA9CUB8TXkaTW1h5kiP5L36Xg7VM4GHeaSsBEpg=",
+    "hash": "sha256-EhNowbmsLqmt2Z6i04tDpf2CTHce+IoxzfLR3BGpnwM=",
     "leaveDotGit": false,
     "meta": {
       "author": "scottmckendry",
@@ -10682,10 +10682,10 @@
       "screenshot": "https://raw.githubusercontent.com/scottmckendry/spotlight-wallpapers/main/screenshot.png",
       "version": "0.2.2"
     },
-    "path": "/nix/store/hzllkdfd002wfhgyfpi7pvksq2v23p38-spotlight-wallpapers",
-    "rev": "7140a4f80e4878846a3849a52c4b9cc34bd7bbb3",
+    "path": "/nix/store/1mwfhbydbxi98l8n36r8kpl8x3bdc1z0-spotlight-wallpapers",
+    "rev": "7c133db4f31174a552f2cf625c81690173e48084",
     "rootDir": "",
-    "sha256": "160j04mnkpk1w16bb0wpgqpzj8wjg5c5p4s6bq9iyl221y23jh56",
+    "sha256": "00wzm48xrlgjrlqqmy0yfx685zd58f5x78lyv6nsjbmcp70nh4qj",
     "url": "https://github.com/scottmckendry/spotlight-wallpapers"
   },
   "sshConnections": {
@@ -11913,12 +11913,12 @@
     "url": "https://github.com/psyreactor/dms-voxtype"
   },
   "voxtypeActivityOverlay": {
-    "date": "2026-08-18T09:27:27+02:00",
+    "date": "2026-09-06T15:37:38+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2BO//VFbSkR6joa3S6hsnf+WIXtsfU1ipU5byegWRFo=",
+    "hash": "sha256-ianB6ERQDLJfpXKFoYpnj/WIhVf67wyo52gGmo+QGaY=",
     "leaveDotGit": false,
     "meta": {
       "author": "agneswd",
@@ -11941,12 +11941,12 @@
       "name": "VoxType Activity Overlay",
       "repo": "https://github.com/agneswd/dms-voxtype-activity-overlay",
       "screenshot": "https://raw.githubusercontent.com/agneswd/dms-voxtype-activity-overlay/main/assets/screenshot-pill.png",
-      "version": "1.2.0"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/amk1da5hi70wr2b2bcvysm5dj905z1wb-dms-voxtype-activity-overlay",
-    "rev": "84d0f3ec6a2ac376ad534f666a47c23dc7488771",
+    "path": "/nix/store/igvry3ylvq5gmlywmffm1blnkr9yb8qj-dms-voxtype-activity-overlay",
+    "rev": "1596df495b2207d7a0cdcdc383b1a2097e540de5",
     "rootDir": "",
-    "sha256": "0nj42vlcjnsflmi4szbcgchrdzwxdjl4pdw6irx48jjva7yvy4yq",
+    "sha256": "19hrj27rl1k8wyl0rvzsay2qixcgcy5a31bjlmgv432h8klc3ac9",
     "url": "https://github.com/agneswd/dms-voxtype-activity-overlay"
   },
   "voxtypeOverlay": {
