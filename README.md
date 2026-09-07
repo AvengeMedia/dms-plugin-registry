@@ -6094,16 +6094,16 @@ A customizable Pomodoro timer.
 
 #### [Dank RSS Widget](https://github.com/BrendonJL/dms-rss-widget)
 
-Desktop widget that displays RSS/Atom feeds with auto-refresh
+Desktop widget that displays RSS/Atom feeds with auto-refresh, plus full Miniflux integration with bidirectional read/unread/starred sync
 
 
 
 - id: dankRssWidget
 - name: Dank RSS Widget
-- author: BrendonJL
+- author: BrendonJL, Xn4m3d, Alessandro Ianne
 - compositors: any
 - capabilities: desktop-widget
-- dependencies: 
+- dependencies: curl
 - distro: any
 
 
