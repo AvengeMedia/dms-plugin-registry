@@ -3039,6 +3039,78 @@
     "sha256": "1rfs2lv2kdy1j32r3x1c1kjpy1bzm93h52v8bl4lpcrzjh68c576",
     "url": "https://github.com/sitolam/dms-plugins"
   },
+  "dankNewsRssTicker": {
+    "date": "2026-09-06T14:58:22+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-5s2cq0ta+oYmtNyVzuRI2L5LhwxXrNpt+JFNuYEg9xQ=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Xn4m3d",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl"
+      ],
+      "description": "RSS/Atom feeds as a desktop card plus a full-width scrolling news ticker that docks under your bar, follows a bottom bar, or floats",
+      "distro": [
+        "any"
+      ],
+      "id": "dankNewsRssTicker",
+      "name": "Dank News RSS & Ticker",
+      "path": "dankNewsRssTicker",
+      "repo": "https://github.com/Xn4m3d/dms-rss-widget",
+      "screenshot": "https://raw.githubusercontent.com/Xn4m3d/dms-rss-widget/main/screenshots/screen1.png",
+      "version": "2.0.0"
+    },
+    "path": "/nix/store/sjpa3m07df49sanka8yv55bwvzcgn1dq-dms-rss-widget",
+    "rev": "acba72157c3c0bfd1301df606dd13b0353681bcd",
+    "rootDir": "",
+    "sha256": "057p420vjkciz1nxmb2p1j3lpgnq93jcx5fwnhk8dyjs9fmrrkg6",
+    "url": "https://github.com/Xn4m3d/dms-rss-widget"
+  },
+  "dankNewsRssTickerPill": {
+    "date": "2026-09-06T14:58:22+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-5s2cq0ta+oYmtNyVzuRI2L5LhwxXrNpt+JFNuYEg9xQ=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Xn4m3d",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Bar companion for Dank News RSS & Ticker: the same scrolling headlines as a compact pill inside the DankBar",
+      "distro": [
+        "any"
+      ],
+      "id": "dankNewsRssTickerPill",
+      "name": "Dank News RSS & Ticker Pill",
+      "path": "dankNewsRssTickerPill",
+      "repo": "https://github.com/Xn4m3d/dms-rss-widget",
+      "screenshot": "https://raw.githubusercontent.com/Xn4m3d/dms-rss-widget/main/screenshots/pill-plugin.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/sjpa3m07df49sanka8yv55bwvzcgn1dq-dms-rss-widget",
+    "rev": "acba72157c3c0bfd1301df606dd13b0353681bcd",
+    "rootDir": "",
+    "sha256": "057p420vjkciz1nxmb2p1j3lpgnq93jcx5fwnhk8dyjs9fmrrkg6",
+    "url": "https://github.com/Xn4m3d/dms-rss-widget"
+  },
   "dankNotepadModule": {
     "date": "2026-09-04T10:11:09-04:00",
     "deepClone": false,
