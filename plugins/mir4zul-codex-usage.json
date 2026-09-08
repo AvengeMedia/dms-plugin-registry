@@ -1,0 +1,21 @@
+{
+  "id": "codexUsage",
+  "name": "Codex Usage",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "category": "monitoring",
+  "repo": "https://github.com/mir4zul/dms-codex-usage",
+  "author": "mir4zul",
+  "description": "Two progress rings for locally recorded Codex five-hour and weekly usage, with remaining percentages and reset countdowns.",
+  "dependencies": [
+    "python3"
+  ],
+  "compositors": [
+    "hyprland"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/mir4zul/dms-codex-usage/main/assets/screenshot.png"
+}
