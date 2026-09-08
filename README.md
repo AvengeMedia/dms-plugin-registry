@@ -10647,6 +10647,36 @@ Track departure times of Wiener Linien public transit
 
 
 
+#### [Workspace OSD Flash](https://github.com/AleBles/dms-workspace-osd)
+
+Briefly shows the id and name of the workspace you just switched to, centered on that screen.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: workspaceOsdFlash
+- name: Workspace OSD Flash
+- author: Ale Bles
+- compositors: hyprland, niri
+- capabilities: daemon, ipc
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/AleBles/dms-workspace-osd/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [World Clock](https://github.com/rochacbruno/WorldClock)
 
 Multiple timezones clock for DankBar
