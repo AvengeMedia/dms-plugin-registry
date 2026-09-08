@@ -2207,12 +2207,12 @@
     "url": "https://github.com/heyitsmikey128/DankCustomRunningApps"
   },
   "dankAIUsage": {
-    "date": "2026-09-07T14:09:36+02:00",
+    "date": "2026-09-08T03:09:34+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-o/5i+nF2pEcj/Ywg4tt2QyDhafY/0iWyPZmbaCnKBko=",
+    "hash": "sha256-4p1w5eAtYNoRz3CSgKK1bpuW1RQFB7QWq+m7IXlYrj0=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -2237,12 +2237,12 @@
       "name": "AI Usage",
       "repo": "https://github.com/alcxyz/DankAIUsage",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankAIUsage/main/docs/screenshot.png",
-      "version": "0.4.0"
+      "version": "0.5.0"
     },
-    "path": "/nix/store/rynkqw893n451csmmqa4nnv2hbm0fxmy-DankAIUsage",
-    "rev": "97d7c999e1482a9cd67fa3ce4e89284e34105f28",
+    "path": "/nix/store/z4ip1bqainkgjq20z1ami52k79f5my24-DankAIUsage",
+    "rev": "a21bf3ae832c48d3a37e32e5eda88a4ce3d6dece",
     "rootDir": "",
-    "sha256": "0jh6r8lni6wr7nr2blizyrly2823fvdy484czlilg93nf7x65zm3",
+    "sha256": "0gdfb1wj3fz9mcbb81q52kard6vfnni814khrw8xlq1dw3jp17g2",
     "url": "https://github.com/alcxyz/DankAIUsage"
   },
   "dankActions": {
@@ -3375,12 +3375,12 @@
     "url": "https://github.com/zachfi/dms-razer"
   },
   "dankRssWidget": {
-    "date": "2026-09-07T08:27:53-04:00",
+    "date": "2026-09-07T21:01:47-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ObCt0nQ5wujl1MINbJBXlQvvKpV4QyYTJ2r1p/aat6s=",
+    "hash": "sha256-lF5vZtO0cpTGhLwU0+s0Mrpx92nGp+IRkg/wR7uS020=",
     "leaveDotGit": false,
     "meta": {
       "author": "BrendonJL, Xn4m3d, Alessandro Ianne",
@@ -3404,10 +3404,10 @@
       "screenshot": "https://raw.githubusercontent.com/BrendonJL/dms-rss-widget/main/screenshot.png",
       "version": "2.3.3"
     },
-    "path": "/nix/store/zc394lfwyjl9bimm04h2j1y61ys103rw-dms-rss-widget",
-    "rev": "f5481797db2667149a0d7dccbdc397250dde4d15",
+    "path": "/nix/store/4r2w09wdis7hqvpnpqs95v0q0i73xvb0-dms-rss-widget",
+    "rev": "3d277abd34db8f9efb28a75924d7b28aa0851eab",
     "rootDir": "",
-    "sha256": "1axpkbvagxba4w9jchvqjlmfy2wmay86q3f2skjyihirfk9avc1r",
+    "sha256": "0vfkjaxlgw0gj88y59y6d7vp3fij6kmx655whk398wmlsdk6ypll",
     "url": "https://github.com/BrendonJL/dms-rss-widget"
   },
   "dankSchedPicker": {
@@ -9757,12 +9757,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-09-08T06:54:31+07:00",
+    "date": "2026-09-08T09:00:43+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-24AFgC155HaYXWVeIIrzA3t6GtzY/DITTk/zZJkZHGA=",
+    "hash": "sha256-Jracq7Ia/n8rq3RMWW8oMA6d477y4Zp+KP4kVDHRET8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -9795,10 +9795,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.4.1"
     },
-    "path": "/nix/store/8naik4nrgb35j024s2hm6ls0mpbbv505-dms-quick-capture",
-    "rev": "91785561c0686360da065dd507894a8174bd9fc0",
+    "path": "/nix/store/3mc9cldr8s6z1wviyyfwqc3c3njvj5f3-dms-quick-capture",
+    "rev": "d4b0e1b19bcbab25556d8264d691e55a0a03f923",
     "rootDir": "",
-    "sha256": "0q0w36cn9wsg9q9k5z6qvhd7lyq3yf520pk5bnc7dr3r5n00b06v",
+    "sha256": "0gqis4qm897y51z9mqgjpvirs3ih51pmjk3lmcmpzzhsnamrrdi6",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
