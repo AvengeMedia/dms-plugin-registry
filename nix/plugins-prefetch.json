@@ -1868,12 +1868,12 @@
     "url": "https://github.com/zakstam/dms-codexbar"
   },
   "colorPickerDms": {
-    "date": "2026-08-31T17:04:06-03:00",
+    "date": "2026-09-09T00:44:03-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-EFqlKs0q6fe+jLpqIzr4wjdzuEEOQzE+hqg1V72zmm0=",
+    "hash": "sha256-gHZ6Nvw24OJeaNoe3OnHUAOkRBTANNqisn1ArfkQm2E=",
     "leaveDotGit": false,
     "meta": {
       "author": "bernardopg",
@@ -1899,10 +1899,10 @@
       "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/assets/screenshot.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/gmizc7hw55miaq9w9z9dis1dl406wklk-color-picker-dms",
-    "rev": "e874c1cbb7980b4e5bd2b9e795c08da5b4cba05a",
+    "path": "/nix/store/2vkjxj5whbbv1cbp089bfv7wgpg2fk8x-color-picker-dms",
+    "rev": "71b99e446de0e4a37ac7fcae1dc8cb571da3d7d6",
     "rootDir": "",
-    "sha256": "0vcsnfymfdd8hqz32hqf86w76dy2z0x26smsijzggs9arlmaanhh",
+    "sha256": "0qcv23wssh3xnaidld602i2a80shqzlxq7nsd1gf5q1nzhv7lxl0",
     "url": "https://github.com/bernardopg/color-picker-dms"
   },
   "commandRunner": {
@@ -5200,12 +5200,12 @@
     "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
-    "date": "2026-09-05T17:53:15+08:00",
+    "date": "2026-09-09T12:51:43+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-luU9q5iY3BjwJHx8MrvD46cd2BPvdmH6QxB7oc31vv0=",
+    "hash": "sha256-naCNqVU3xBbXoA8rC/ijmHOdrTAEIM1b6Hp1u7NrBcY=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -5227,19 +5227,19 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
       "version": "1.0.5"
     },
-    "path": "/nix/store/7mzrwy72fczdr9pwjljlhifn47ssng2y-dms-conky",
-    "rev": "82d874e870125addafd4dde774833b6fb1bde7da",
+    "path": "/nix/store/f3m68cah5hqk28wkk6gv72dig9lyl3hz-dms-conky",
+    "rev": "b88ec1551e8c24c95011f85108370717a4cef199",
     "rootDir": "",
-    "sha256": "1zdyyp6s2yqh8gx62xpg2gc1v9z3qfxk4z3w4kq1ip4qk2mkvrcn",
+    "sha256": "1ih5dfrvnxbsx1dws80462nrswwqlgw0naqgl3bidi1panlqv84x",
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
-    "date": "2026-09-05T16:18:26+08:00",
+    "date": "2026-09-09T12:36:45+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-X0djkj+Ejp7me5T4o68wauw/XLvMUmWLpMy7Mzg8quo=",
+    "hash": "sha256-GdRlqBYjtFzapiM45H+vosNjNcjAYsxmmhPh/rgQy6Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -5259,12 +5259,12 @@
       "name": "DMS File Manager",
       "repo": "https://github.com/suruibin/dms-filemanager",
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
-      "version": "1.0.5"
+      "version": "1.0.6"
     },
-    "path": "/nix/store/prnrnqlikcqjmar972fh189016gzp6ya-dms-filemanager",
-    "rev": "a3ad812290812a43840a86d1dc96d8ccd474243b",
+    "path": "/nix/store/cckf2kfvr83433qi9j47ri8yk1l9qlkz-dms-filemanager",
+    "rev": "c888576f19e552c997f30c379a14caa2c50d73ba",
     "rootDir": "",
-    "sha256": "1sma7hw37fyclj5nalncpdf3zv3a62ps7y4lggk9x3l47y966isz",
+    "sha256": "196b22wgxq8kk9kcqqn0r0sn7hx2mxzy8f13lvd5rd132sl6bm0r",
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
@@ -8346,6 +8346,42 @@
     "sha256": "1llfhkhimxyjg39lhbvmi9w9prmidpw546z3vzmfz25hmfrlkjp8",
     "url": "https://github.com/AC17dollars/dms-nepali-calendar"
   },
+  "netStatus": {
+    "date": "2026-09-08T22:36:36-07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-KDixi3tu/6Wz7udcL7R7IrPGeyDEx4zrlHZ8N1ZWTI0=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Noah",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "iproute2"
+      ],
+      "description": "Shows your local machine IP, active VPN tunnel IP, and optional Tailscale IP in the bar. Right-click to cycle between them.",
+      "distro": [
+        "any"
+      ],
+      "id": "netStatus",
+      "name": "Network Status",
+      "repo": "https://github.com/noahm-05/dms-net-status",
+      "screenshot": "https://raw.githubusercontent.com/noahm-05/dms-net-status/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/0dgzb6y6gr96s03aym0f8hdw9vbhj5z3-dms-net-status",
+    "rev": "511b19a95caee10831ff5accbdcdd211f3ca1b2c",
+    "rootDir": "",
+    "sha256": "13acarb3fz3njkmqriy441xwdcr2gfs2yp77xsrsbzvfgf5v2f18",
+    "url": "https://github.com/noahm-05/dms-net-status"
+  },
   "netbirdStatus": {
     "date": "2026-07-31T22:44:24+07:00",
     "deepClone": false,
@@ -9756,12 +9792,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-09-09T08:05:53+07:00",
+    "date": "2026-09-09T10:36:22+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Ym5hcZZE6Ytyi0XCPUaZ4Bbp3FkJXc8bn6sOebZzUCo=",
+    "hash": "sha256-HjfY5BRNWN+vwIiZ9d8D2mviab7tWGtKR/1TUkTeTJw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -9794,10 +9830,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.4.2"
     },
-    "path": "/nix/store/0qrs8zv8drxznjk4shwa09jvc4dsf7r0-dms-quick-capture",
-    "rev": "543628dcf770c59afa47fae76aa4b05bba1f061e",
+    "path": "/nix/store/7ybbanbiijsz1bdk2grd6lr88jrcp2xf-dms-quick-capture",
+    "rev": "8ec40761e8a3b150a267eeae436b08a53ab8d111",
     "rootDir": "",
-    "sha256": "0ajhffv7j3mbkwdwyp89b7ffj5p0k533vhj5idr8psa4jrqn2vk2",
+    "sha256": "172cvr254lzx8x56nn7dprly4sys0ggzb6c8q2pxyn2d2kjdhdqy",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
