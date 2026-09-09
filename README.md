@@ -1135,7 +1135,7 @@ Monitor Codex and Claude subscription quotas, extra-usage credits, and local tok
 - author: alcxyz
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: dankaiusage, codex, claude, sqlite3
+- dependencies: dankaiusage, codex, claude
 - distro: any
 
 
