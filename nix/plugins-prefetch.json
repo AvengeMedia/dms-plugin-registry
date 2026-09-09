@@ -2226,8 +2226,7 @@
       "dependencies": [
         "dankaiusage",
         "codex",
-        "claude",
-        "sqlite3"
+        "claude"
       ],
       "description": "Monitor Codex and Claude subscription quotas, extra-usage credits, and local token history with switchable used/remaining views and quick bar controls",
       "distro": [
