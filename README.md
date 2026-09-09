@@ -2229,6 +2229,36 @@ Real-time network speed monitor for DankBar showing upload and download speeds
 
 
 
+#### [Network Status](https://github.com/noahm-05/dms-net-status)
+
+Shows your local machine IP, active VPN tunnel IP, and optional Tailscale IP in the bar. Right-click to cycle between them.
+
+
+
+- id: netStatus
+- name: Network Status
+- author: Noah
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: iproute2
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/noahm-05/dms-net-status/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Nix Monitor](https://github.com/antonjah/nix-monitor)
 
 Monitor Nix store disk usage and system generations with integrated system management capabilities
