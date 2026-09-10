@@ -1447,12 +1447,12 @@
     "url": "https://github.com/ernestowgg/cava-visualizer"
   },
   "chineseCalendar": {
-    "date": "2026-08-20T15:46:25+08:00",
+    "date": "2026-09-10T15:06:52+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-T214jvsgHv7qx5ShWhXUPoP7XYRirKsjZedwwdS3xRU=",
+    "hash": "sha256-mNW5z9Umh+Jo6rHQjQjSXkIr22OeCs1z6kHFiFARzQc=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -1477,12 +1477,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-ccal",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-ccal/master/assets/screenshot.png",
-      "version": "1.2.5"
+      "version": "1.2.6"
     },
-    "path": "/nix/store/5sig1apgbzp14xdlyq5cmylg4vs8wmr9-dms-plugin-ccal",
-    "rev": "0d43ddcd0dfc96bc72dc7d31200a386f329c0417",
+    "path": "/nix/store/2z56i74mhhb1rmi0g4l2x7jpilz6m1qg-dms-plugin-ccal",
+    "rev": "4288531735f3be389715857478c8ace2662fd191",
     "rootDir": "",
-    "sha256": "05f5nzac2w77clispb32hifzp0ryshamm8clqzmgw7i0zf77hvag",
+    "sha256": "01yd2588iia1x9rws2lycgdjnhjys848vl5ix9lf51r6sp7vkmcq",
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
   "clashVerge": {
@@ -1868,12 +1868,12 @@
     "url": "https://github.com/zakstam/dms-codexbar"
   },
   "codexUsage": {
-    "date": "2026-09-08T17:31:25+06:00",
+    "date": "2026-09-10T14:02:41+06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-8Ll/AjXFpHAJsqB6K1GCtCVPqi1ouvi5T00+YXH3pi4=",
+    "hash": "sha256-aiSEOEgFJauRT5/FtJCdJ8pUBXjwcNAdyS6S/9V4ZR8=",
     "leaveDotGit": false,
     "meta": {
       "author": "mir4zul",
@@ -1897,10 +1897,10 @@
       "screenshot": "https://raw.githubusercontent.com/mir4zul/codex-usage/main/assets/screenshot.png",
       "version": "1.2.0"
     },
-    "path": "/nix/store/mf885f95pkq0zbiwkggnafzf09n4y19b-codex-usage",
-    "rev": "906c402c576506c8a51453d423718b41e980e871",
+    "path": "/nix/store/5g9sld88vpkdbv73rrsgym4rd3i7lbgh-codex-usage",
+    "rev": "46127eb42d7cfa9a9f8530caa4784e834abe00d8",
     "rootDir": "",
-    "sha256": "0bm6yxqn2gjd9ywzifk85nm4y9dlh98jnym0n84p19656l17zfgh",
+    "sha256": "07v5g3azz4ifr4fx0w7hg02m9ji7kn8b9icz9y8sn98590w8893a",
     "url": "https://github.com/mir4zul/codex-usage"
   },
   "colorPickerDms": {
@@ -7533,12 +7533,12 @@
     "url": "https://github.com/hthienloc/dms-lutris-launcher"
   },
   "lyricsEmbed": {
-    "date": "2026-08-31T02:00:05+08:00",
+    "date": "2026-09-10T12:21:13+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-zCyYBQacd1VDIZgq/sTBSpPqSm/BG8c+awBygP2hYBk=",
+    "hash": "sha256-ijRqhk+Y1i6NWjjFlYSfXVuFR0XUwMXBDPxnEZVpgUo=",
     "leaveDotGit": false,
     "meta": {
       "author": "lemonmon",
@@ -7562,10 +7562,10 @@
       "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-Lyrics/main/docs/screenshot.png",
       "version": "1.7.0"
     },
-    "path": "/nix/store/jkbwxqi6a5ki8szgzvdbmd66c9rsvnjl-dms-plugin-Lyrics",
-    "rev": "48f0690a570a406b72dece582ef23cc13e031fff",
+    "path": "/nix/store/2538y5a85la9n62wshqfb1lmdwfvsf8k-dms-plugin-Lyrics",
+    "rev": "3e7e71283b3798bde98d7e727fc9842c57eed785",
     "rootDir": "",
-    "sha256": "06b0l7yq0wh0dczcf6y1dx5fm4saq72gwalq451maxww0q2rhb6c",
+    "sha256": "0jl1d6ai2rzw1k0wbh6l8m3qansxky29bi9qba6jxmlq9y36ld4a",
     "url": "https://github.com/Lemon-mon-254/dms-plugin-Lyrics"
   },
   "lyricsOnPanel": {
@@ -11863,6 +11863,42 @@
     "rootDir": "",
     "sha256": "1w1fw9775izxxy87ivr863n6xj0k3sd1nc4l45q0yy41n1qaizx3",
     "url": "https://github.com/kerojiang/dms-transBin"
+  },
+  "tsMonitor": {
+    "date": "2026-09-10T14:52:37+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-lKwKk0cICk+SbjydRAy55tkaRiqGrAysYH7kOdS4YDU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Lemon-mon-254",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "pactl"
+      ],
+      "description": "TeamSpeak 6 voice status monitor for the bar: live mic/mute/away state, channel members with avatars and volume bars, one-click virtual-key controls, and an on-screen volume OSD via TS6 Remote Apps.",
+      "distro": [
+        "any"
+      ],
+      "id": "tsMonitor",
+      "name": "TS6 Monitor",
+      "repo": "https://github.com/Lemon-mon-254/dms-plugin-TS6Monitor",
+      "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-TS6Monitor/main/screenshots/ts.png",
+      "version": "0.3.0"
+    },
+    "path": "/nix/store/d0ikfq658lzqx6yblgllmmvvalv6kgxs-dms-plugin-TS6Monitor",
+    "rev": "b0b427f263d34ea7b29fe4a4cc1b98b9c2853ce7",
+    "rootDir": "",
+    "sha256": "0db0p3a3kr3yc2n0rb465931mng6p464979wds94y2h88y9hmb4l",
+    "url": "https://github.com/Lemon-mon-254/dms-plugin-TS6Monitor"
   },
   "typingSounds": {
     "date": "2026-08-23T16:11:28+07:00",
