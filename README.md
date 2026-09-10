@@ -1639,6 +1639,36 @@ Display daily Codeforces problem solving activity with a color-coded heatmap
 
 
 
+#### [Codex Usage](https://github.com/mir4zul/codex-usage)
+
+Two progress rings for locally recorded Codex five-hour and weekly usage, with remaining percentages and reset countdowns.
+
+
+
+- id: codexUsage
+- name: Codex Usage
+- author: mir4zul
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/mir4zul/codex-usage/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [CodexBar](https://github.com/zakstam/dms-codexbar)
 
 Monitor AI provider usage quotas
