@@ -8165,12 +8165,12 @@
     "url": "https://github.com/sitolam/dms-plugins"
   },
   "mpvpaper": {
-    "date": "2026-09-07T19:12:09+08:00",
+    "date": "2026-09-09T20:24:35+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-21AJpWLTrJ5XkRFBfUkTmhGJ+8LgQc92Jy4oJYBJ20s=",
+    "hash": "sha256-9GgCiyx+XrOhg0o5ZbBpixso42YRMeFfCZ2h2szHLcg=",
     "leaveDotGit": false,
     "meta": {
       "author": "tokisak1kurum1",
@@ -8196,12 +8196,12 @@
       "repo": "https://github.com/tokisak1kurum1/mpvpaper-plugin",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/tokisak1kurum1/mpvpaper-plugin/master/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/nafnyzpf844idmw0b93sy284ma0w20bw-mpvpaper-plugin",
-    "rev": "bb4371cfbaab8ea7667ff4f63a35780fb5fa1615",
+    "path": "/nix/store/kxyd0rq9kwfkczrq96szqjhl5wxl7ihx-mpvpaper-plugin",
+    "rev": "a14fcee73e3e91c48664241d5bf78c4e173a6cea",
     "rootDir": "",
-    "sha256": "0jyv9602aa1f4xvcyhg0qbxqj4cs2d4psh8ij5brxb6kcajhjl6v",
+    "sha256": "1j1dqz6dm8cx15gy2c8icvijh6wbd6q6afaahfhv6pky5j5h4s7l",
     "url": "https://github.com/tokisak1kurum1/mpvpaper-plugin"
   },
   "mpvpaperWallpaper": {
@@ -8685,12 +8685,12 @@
     "url": "https://github.com/jfchenier/dms-niri-screenshot"
   },
   "niriWindows": {
-    "date": "2026-06-22T17:38:56+01:00",
+    "date": "2026-09-09T11:46:54+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uKNiqr/DiX28dePBqsEfBPaCB/kmVDzjayXHdIwGkZQ=",
+    "hash": "sha256-+Ju8cbw1yWWW2K2Gpl7nTdkjINqXBD4ktl5g8OhuIEg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bruno Cesar Rocha",
@@ -8711,12 +8711,12 @@
       "repo": "https://github.com/rochacbruno/DankNiriWindows",
       "requires_dms": ">0.1.18",
       "screenshot": "https://github.com/rochacbruno/DankNiriWindows/raw/main/screenshot.png",
-      "version": "1.1.1"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/27pfwbx1i7iz7na4d4v794sarmrs6x21-DankNiriWindows",
-    "rev": "f2c0b0fc0325e3299257cc5d1895069a3d49247f",
+    "path": "/nix/store/h6cbw026vj0dr9mbd1j92pjib2sqacla-DankNiriWindows",
+    "rev": "411d5ee9f7707029f4c12c824ec3b24ca6756a0d",
     "rootDir": "",
-    "sha256": "154i0s679ir5dgikqm16z43q5xh43z0smhg3fny7v2f3pym658xq",
+    "sha256": "0j10dvlg0q2ynqj3w14pv8h27nadwxgad1mdv2b6bj9mpiqvr6zq",
     "url": "https://github.com/rochacbruno/DankNiriWindows"
   },
   "niriWorkspaceBar": {
@@ -9792,12 +9792,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-09-09T10:36:22+07:00",
+    "date": "2026-09-09T14:31:40+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-HjfY5BRNWN+vwIiZ9d8D2mviab7tWGtKR/1TUkTeTJw=",
+    "hash": "sha256-iN7V9XfLXK/AsQzapuH07zWgBm3HZ1x0fDe3KWJqrEY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -9830,10 +9830,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.4.2"
     },
-    "path": "/nix/store/7ybbanbiijsz1bdk2grd6lr88jrcp2xf-dms-quick-capture",
-    "rev": "8ec40761e8a3b150a267eeae436b08a53ab8d111",
+    "path": "/nix/store/gv7ri0h8i6lc884pkks45fn4dzz8f3qj-dms-quick-capture",
+    "rev": "f908845cb949be182257f77d88f21c53c3c38bce",
     "rootDir": "",
-    "sha256": "172cvr254lzx8x56nn7dprly4sys0ggzb6c8q2pxyn2d2kjdhdqy",
+    "sha256": "0imcd9i2kdrpgis5qry7dl3a0dggykhsdnhcn70ayp6bfzsxbpl8",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
