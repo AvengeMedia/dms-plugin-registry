@@ -1867,6 +1867,42 @@
     "sha256": "1l3b8c00zimcqj0plh2w01q6sgfppd92wag0vqdiq88gqiq227ls",
     "url": "https://github.com/zakstam/dms-codexbar"
   },
+  "codexUsage": {
+    "date": "2026-09-08T17:31:25+06:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-8Ll/AjXFpHAJsqB6K1GCtCVPqi1ouvi5T00+YXH3pi4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "mir4zul",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3"
+      ],
+      "description": "Two progress rings for locally recorded Codex five-hour and weekly usage, with remaining percentages and reset countdowns.",
+      "distro": [
+        "any"
+      ],
+      "id": "codexUsage",
+      "name": "Codex Usage",
+      "repo": "https://github.com/mir4zul/codex-usage",
+      "screenshot": "https://raw.githubusercontent.com/mir4zul/codex-usage/main/assets/screenshot.png",
+      "version": "1.2.0"
+    },
+    "path": "/nix/store/mf885f95pkq0zbiwkggnafzf09n4y19b-codex-usage",
+    "rev": "906c402c576506c8a51453d423718b41e980e871",
+    "rootDir": "",
+    "sha256": "0bm6yxqn2gjd9ywzifk85nm4y9dlh98jnym0n84p19656l17zfgh",
+    "url": "https://github.com/mir4zul/codex-usage"
+  },
   "colorPickerDms": {
     "date": "2026-09-09T00:44:03-03:00",
     "deepClone": false,
