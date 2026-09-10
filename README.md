@@ -2594,6 +2594,36 @@ Real-time CPU, temperature, RAM, network, disk and GPU line charts for the DankB
 
 
 
+#### [TS6 Monitor](https://github.com/Lemon-mon-254/dms-plugin-TS6Monitor)
+
+TeamSpeak 6 voice status monitor for the bar: live mic/mute/away state, channel members with avatars and volume bars, one-click virtual-key controls, and an on-screen volume OSD via TS6 Remote Apps.
+
+
+
+- id: tsMonitor
+- name: TS6 Monitor
+- author: Lemon-mon-254
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: pactl
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-TS6Monitor/main/screenshots/ts.png)
+
+</details>
+
+
+
+
+
 #### [VRAM Monitor](https://github.com/rollecode/dms-vram-monitor)
 
 NVIDIA VRAM usage as an animated progress bar in your DankBar, updated every second
