@@ -1,0 +1,13 @@
+{
+    "id": "tsMonitor",
+    "name": "TS6 Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/Lemon-mon-254/dms-plugin-TS6Monitor",
+    "author": "Lemon-mon-254",
+    "description": "TeamSpeak 6 voice status monitor for the bar: live mic/mute/away state, channel members with avatars and volume bars, one-click virtual-key controls, and an on-screen volume OSD via TS6 Remote Apps.",
+    "dependencies": ["pactl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-TS6Monitor/main/screenshots/ts.png"
+}
