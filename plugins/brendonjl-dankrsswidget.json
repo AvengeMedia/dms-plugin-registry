@@ -5,7 +5,7 @@
     "category": "utilities",
     "repo": "https://github.com/BrendonJL/dms-rss-widget",
     "author": "BrendonJL, Xn4m3d, Alessandro Ianne",
-    "description": "Desktop widget that displays RSS/Atom feeds with auto-refresh, plus full Miniflux integration with bidirectional read/unread/starred sync",
+    "description": "Desktop widget for RSS/Atom feeds with keyboard navigation, plus Miniflux and Google Reader sync (FreshRSS, Tiny Tiny RSS, Inoreader) with bidirectional read/unread and starred state",
     "dependencies": ["curl"],
     "compositors": ["any"],
     "distro": ["any"],
