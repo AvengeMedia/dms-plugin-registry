@@ -2243,12 +2243,12 @@
     "url": "https://github.com/heyitsmikey128/DankCustomRunningApps"
   },
   "dankAIUsage": {
-    "date": "2026-09-08T14:58:42+02:00",
+    "date": "2026-09-11T10:47:06+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-/a+XjSChTHH5n842/76mZO2gwGcKi74PDJf6ulpsIU8=",
+    "hash": "sha256-Tubx/lvTBkb5tlLqEgt0hT/nyH4WCA+IBvdRPgSZG0s=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -2272,12 +2272,12 @@
       "name": "AI Usage",
       "repo": "https://github.com/alcxyz/DankAIUsage",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankAIUsage/main/docs/screenshot.png",
-      "version": "0.7.0"
+      "version": "0.8.0"
     },
-    "path": "/nix/store/7wm7qxg12l3rai9i19lg8h5nw53hfd47-DankAIUsage",
-    "rev": "8afff94acc36e82f9c7f6702dab57d0e102580cb",
+    "path": "/nix/store/zywgfymkvjgajkkyxwzgawzhm5c0paga-DankAIUsage",
+    "rev": "ddc9181e6e58ce3255d8e1c640e4ccb231be026a",
     "rootDir": "",
-    "sha256": "0kr1didbmylp1h7vx2qacz0a1vb4lszgydnfkzwp2k51426rgbzx",
+    "sha256": "0jqvk423wlgp0s40y20ngv4ffgw5fh5i5sjjnvwlc1nkbgzg3rjf",
     "url": "https://github.com/alcxyz/DankAIUsage"
   },
   "dankActions": {
@@ -3410,12 +3410,12 @@
     "url": "https://github.com/zachfi/dms-razer"
   },
   "dankRssWidget": {
-    "date": "2026-09-08T20:36:44-04:00",
+    "date": "2026-09-11T06:27:12-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-FJmwLQed7Vb3nGmlL1cgaG5lZ5QdmoizxGjQkqOzXCA=",
+    "hash": "sha256-YG2PlnCXiTALZAnkjOzvzwZ4QcsuhFiveAfXJ3bgX+E=",
     "leaveDotGit": false,
     "meta": {
       "author": "BrendonJL, Xn4m3d, Alessandro Ianne",
@@ -3429,7 +3429,7 @@
       "dependencies": [
         "curl"
       ],
-      "description": "Desktop widget that displays RSS/Atom feeds with auto-refresh, plus full Miniflux integration with bidirectional read/unread/starred sync",
+      "description": "Desktop widget for RSS/Atom feeds with keyboard navigation, plus Miniflux and Google Reader sync (FreshRSS, Tiny Tiny RSS, Inoreader) with bidirectional read/unread and starred state",
       "distro": [
         "any"
       ],
@@ -3437,12 +3437,12 @@
       "name": "Dank RSS Widget",
       "repo": "https://github.com/BrendonJL/dms-rss-widget",
       "screenshot": "https://raw.githubusercontent.com/BrendonJL/dms-rss-widget/main/screenshot.png",
-      "version": "2.3.3"
+      "version": "2.4.0"
     },
-    "path": "/nix/store/jjz8m91xf93fzv6xj6sixvcd143wl3i0-dms-rss-widget",
-    "rev": "3022120bfe6b6e80ec8d72523d51fb0c8995168c",
+    "path": "/nix/store/zv5hsgg7g4gx2jm4cf8b2aa8fcvay8pp-dms-rss-widget",
+    "rev": "7e9cdc0771168d17057891cde40c8690aa9c537a",
     "rootDir": "",
-    "sha256": "082wnfir5l38qjrqi6hxjiknavk841bjz9b9kkvmdvcx0wnv168l",
+    "sha256": "1qazw1v2gmq7g2pmi11frd0ph1ngxzn8rr09ch5k12cpf2b8yvb0",
     "url": "https://github.com/BrendonJL/dms-rss-widget"
   },
   "dankSchedPicker": {
@@ -3518,12 +3518,12 @@
     "url": "https://github.com/alcxyz/DankSession"
   },
   "dankSoftwareDepot": {
-    "date": "2026-09-03T08:26:50+02:00",
+    "date": "2026-09-11T08:20:35+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-dNxEhBlQfAb3wj3mTBmG1QsN9kjZ0nqZXbq3r+CcUFU=",
+    "hash": "sha256-ET4RyU8jGlXdjEO6K/bFZMs7ZPEqbIvJdnynm0OKm14=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3554,12 +3554,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "1.1.7"
+      "version": "1.1.8"
     },
-    "path": "/nix/store/isy8k01s9vm9lkpn1cmnq24xja3j9bdj-DankSoftwareDepot",
-    "rev": "4d0485988904e8f3da5825bbffee9da2c9de1d39",
+    "path": "/nix/store/y7hyqjrk91r4rh0i2vhw1kvlnjabrhp6-DankSoftwareDepot",
+    "rev": "0231592f8feec1ffa576c0a50a61b0b3598c8873",
     "rootDir": "",
-    "sha256": "0mahkkhazdxsbncpmlnr93v0s2ymhqclrrixqbvhcz2h36249p3l",
+    "sha256": "0plvi91rp9vwfv4qnv1ay5j3pjv4qpv2pfj3ikfma6i39z4i2ghi",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -9828,12 +9828,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-09-09T14:31:40+07:00",
+    "date": "2026-09-11T17:40:04+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-iN7V9XfLXK/AsQzapuH07zWgBm3HZ1x0fDe3KWJqrEY=",
+    "hash": "sha256-kuOKiDIKXK/oY4AyFXIKAPV6kI+x5e4qG8+iXnO0SAg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -9866,10 +9866,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.4.2"
     },
-    "path": "/nix/store/gv7ri0h8i6lc884pkks45fn4dzz8f3qj-dms-quick-capture",
-    "rev": "f908845cb949be182257f77d88f21c53c3c38bce",
+    "path": "/nix/store/fd9mzm4i2v81qqk53nqpjaxb00jchkgr-dms-quick-capture",
+    "rev": "feb3590b8e8fed0bd1b940b4eb59c3e633735ba2",
     "rootDir": "",
-    "sha256": "0imcd9i2kdrpgis5qry7dl3a0dggykhsdnhcn70ayp6bfzsxbpl8",
+    "sha256": "0228nirmx8ng3cmfxrdiiy87mx8019r1acl0cglayp0a6a48mqwj",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
