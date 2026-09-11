@@ -8201,12 +8201,12 @@
     "url": "https://github.com/sitolam/dms-plugins"
   },
   "mpvpaper": {
-    "date": "2026-09-09T20:24:35+08:00",
+    "date": "2026-09-11T21:33:23+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9GgCiyx+XrOhg0o5ZbBpixso42YRMeFfCZ2h2szHLcg=",
+    "hash": "sha256-0GYqlhpBY5D+TalqPZRmIPKh29TAoTKEa7OiyCUliwA=",
     "leaveDotGit": false,
     "meta": {
       "author": "tokisak1kurum1",
@@ -8232,12 +8232,12 @@
       "repo": "https://github.com/tokisak1kurum1/mpvpaper-plugin",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/tokisak1kurum1/mpvpaper-plugin/master/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/kxyd0rq9kwfkczrq96szqjhl5wxl7ihx-mpvpaper-plugin",
-    "rev": "a14fcee73e3e91c48664241d5bf78c4e173a6cea",
+    "path": "/nix/store/wbd1x2k7fr2p2k3p2b2k4dj10902zp7w-mpvpaper-plugin",
+    "rev": "84776f6a7c53c6b3d1d8fde48b2a0b528dd3eedd",
     "rootDir": "",
-    "sha256": "1j1dqz6dm8cx15gy2c8icvijh6wbd6q6afaahfhv6pky5j5h4s7l",
+    "sha256": "004b4ljwi8mkdf2358f0skds3wi0csa3ssm99pz90qs13ab2lrnh",
     "url": "https://github.com/tokisak1kurum1/mpvpaper-plugin"
   },
   "mpvpaperWallpaper": {
@@ -9828,12 +9828,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-09-11T17:40:04+07:00",
+    "date": "2026-09-11T20:27:34+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-kuOKiDIKXK/oY4AyFXIKAPV6kI+x5e4qG8+iXnO0SAg=",
+    "hash": "sha256-8wjXRFemEkaHnnZM1un0N3D+goNroPqzwMeS/Nmn+9U=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -9866,10 +9866,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.4.2"
     },
-    "path": "/nix/store/fd9mzm4i2v81qqk53nqpjaxb00jchkgr-dms-quick-capture",
-    "rev": "feb3590b8e8fed0bd1b940b4eb59c3e633735ba2",
+    "path": "/nix/store/9bnkxiqcb6r3ivi7wlni7nrcz49yhkfn-dms-quick-capture",
+    "rev": "045ce4f645363d421f1fdaf92388d6c65989cd00",
     "rootDir": "",
-    "sha256": "0228nirmx8ng3cmfxrdiiy87mx8019r1acl0cglayp0a6a48mqwj",
+    "sha256": "1mgvlzczr4n7q2rzm83bhf1gww1pyklxck3nks3lc4m6ax2df27k",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
