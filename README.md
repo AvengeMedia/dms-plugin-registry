@@ -9562,6 +9562,36 @@ Toggle niri screenshot mode between disk save and clipboard only
 
 
 
+#### [Screenshot+](https://github.com/pcmid/dms-screenshot-plus)
+
+Region screenshot with live annotation: draw while you select. Rectangle, ellipse, line, arrow, pen, highlighter, text, mosaic and numbered markers. The selection stays movable and resizable with the toolbar following it; the result is copied to the clipboard or saved to a file at native resolution.
+
+
+
+- id: screenshotPlus
+- name: Screenshot+
+- author: pcmid
+- compositors: any
+- capabilities: daemon, ipc
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/pcmid/dms-screenshot-plus/main/screenshots/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Session Power Menu](https://github.com/ronmurphy/dms-contrib)
 
 Puts the Power menu in the Bar
