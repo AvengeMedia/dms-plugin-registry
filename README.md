@@ -6244,7 +6244,7 @@ A customizable Pomodoro timer.
 
 #### [Dank RSS Widget](https://github.com/BrendonJL/dms-rss-widget)
 
-Desktop widget that displays RSS/Atom feeds with auto-refresh, plus full Miniflux integration with bidirectional read/unread/starred sync
+Desktop widget for RSS/Atom feeds with keyboard navigation, plus Miniflux and Google Reader sync (FreshRSS, Tiny Tiny RSS, Inoreader) with bidirectional read/unread and starred state
 
 
 
