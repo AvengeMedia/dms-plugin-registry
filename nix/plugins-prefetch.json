@@ -2584,12 +2584,12 @@
     "url": "https://github.com/arqueon/dms-dankcalendar"
   },
   "dankCalendarPlus": {
-    "date": "2026-09-11T00:06:05+08:00",
+    "date": "2026-09-11T22:55:21+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-G++KlBdL08yulSx8rKaj9leL21Z4lsYOf1lRPoEdbTA=",
+    "hash": "sha256-XFpsHU/n8NYz8n4TE2KqhVrmpaA0pYTig5AVhjQcK/A=",
     "leaveDotGit": false,
     "meta": {
       "author": "luckjokerwang",
@@ -2613,12 +2613,12 @@
       "name": "Dank Calendar Plus",
       "repo": "https://github.com/luckjokerwang/dms-dankcalendar",
       "screenshot": "https://raw.githubusercontent.com/luckjokerwang/dms-dankcalendar/main/assets/screenshot.png",
-      "version": "3.3.13"
+      "version": "3.3.14"
     },
-    "path": "/nix/store/9zdl7q645kllh8ly8p4bmdw0nvv4b4hq-dms-dankcalendar",
-    "rev": "e3b6e44f68bf91355fd9aec8ec56a1eafdb3080e",
+    "path": "/nix/store/yygw19jffbjcmnxfazd803r74i0g4i61-dms-dankcalendar",
+    "rev": "8fa7cdb3c09be5d90aef2ea896d9419d59b5f3cc",
     "rootDir": "",
-    "sha256": "0c3d3n0kwlargw7cd5kqavdqnmznlfkaqz1cjnpcrlsb2ya8mvqv",
+    "sha256": "1w1b3hs8c5chhgi8999ll2jycnl5m9i164vyy8rxdw779wfnqnjw",
     "url": "https://github.com/luckjokerwang/dms-dankcalendar"
   },
   "dankCleaner": {
@@ -9530,12 +9530,12 @@
     "url": "https://github.com/Daniel-42-z/dms-power-usage"
   },
   "prayerTimes": {
-    "date": "2026-04-14T11:53:20+07:00",
+    "date": "2026-09-12T01:00:06+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-BfA1uN/xqw7uhmE+/caTfbP23rzsA2kq2yx9P26Cgkg=",
+    "hash": "sha256-E6i2I0BRCxj3lLbRRODrMDytK6uRnvFwcVqxPZA0v/8=",
     "leaveDotGit": false,
     "meta": {
       "author": "muadz",
@@ -9557,10 +9557,10 @@
       "screenshot": "https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/r72mxh028wjkbqydqdmvlgi6qlb37lkd-prayertimes",
-    "rev": "82b16b235d3f06101d79f04529a1a32b4d32fe2c",
+    "path": "/nix/store/mcy44z4mjva97va6nwgilmsbfibfkfpd-prayertimes",
+    "rev": "d9ee1b1d51152b1d9ae792281d8e6a9a7f39a86a",
     "rootDir": "",
-    "sha256": "0j42h9p3yz9cvcm6j0zcpkggdcvxjg3gsgk1hvp0xazivyw3bw05",
+    "sha256": "1zxz6j83vcasf5qg37limcmssg1hxgh49ldnjkvih2si80ivda0k",
     "url": "https://github.com/muadzmo/prayertimes"
   },
   "processList": {
@@ -10550,6 +10550,41 @@
     "rootDir": "",
     "sha256": "0y9h24bk156fiawaw39pqgypzdmzqdp1snlaz37hwwamak468i09",
     "url": "https://github.com/hthienloc/dms-screenkey"
+  },
+  "screenshotPlus": {
+    "date": "2026-09-12T01:50:52+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-A6bAjGtRk8T3ObsDVpfPlaix5oCcT4Yh44qtzyMtZjw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "pcmid",
+      "capabilities": [
+        "daemon",
+        "ipc"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Region screenshot with live annotation: draw while you select. Rectangle, ellipse, line, arrow, pen, highlighter, text, mosaic and numbered markers. The selection stays movable and resizable with the toolbar following it; the result is copied to the clipboard or saved to a file at native resolution.",
+      "distro": [
+        "any"
+      ],
+      "id": "screenshotPlus",
+      "name": "Screenshot+",
+      "repo": "https://github.com/pcmid/dms-screenshot-plus",
+      "screenshot": "https://raw.githubusercontent.com/pcmid/dms-screenshot-plus/main/screenshots/screenshot.png",
+      "version": "0.3.2"
+    },
+    "path": "/nix/store/bmxhrv1v40kwxd8y5mlninl2axvn3kqk-dms-screenshot-plus",
+    "rev": "5af404e4c5c4f766880a49fa0eb0ceb16f81b24f",
+    "rootDir": "",
+    "sha256": "0g365liwzbcawchqckwwh3kb3a4mrybmc0xv77vw94sidf6c19h3",
+    "url": "https://github.com/pcmid/dms-screenshot-plus"
   },
   "screenshotToggle": {
     "date": "2026-03-04T15:59:24-08:00",
@@ -11865,7 +11900,7 @@
     "url": "https://github.com/kerojiang/dms-transBin"
   },
   "tsMonitor": {
-    "date": "2026-09-10T14:52:37+08:00",
+    "date": "2026-09-11T23:33:05+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
@@ -11895,7 +11930,7 @@
       "version": "0.3.0"
     },
     "path": "/nix/store/d0ikfq658lzqx6yblgllmmvvalv6kgxs-dms-plugin-TS6Monitor",
-    "rev": "b0b427f263d34ea7b29fe4a4cc1b98b9c2853ce7",
+    "rev": "dc032ca3ef9b7226997be8bca1f19e44b512290d",
     "rootDir": "",
     "sha256": "0db0p3a3kr3yc2n0rb465931mng6p464979wds94y2h88y9hmb4l",
     "url": "https://github.com/Lemon-mon-254/dms-plugin-TS6Monitor"
