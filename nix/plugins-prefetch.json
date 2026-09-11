@@ -1678,12 +1678,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "cliproxyQuota": {
-    "date": "2026-09-07T18:46:36+02:00",
+    "date": "2026-09-10T20:58:55+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-RN3WCkJ+Ft76qnS16kFR0n68tXtUGe3YPAJPhgyRZcY=",
+    "hash": "sha256-K5Zl7Uv4gQkb0Xn5275rAAsipx1MViEKYi769+arTks=",
     "leaveDotGit": false,
     "meta": {
       "author": "Spyros Psarras",
@@ -1708,10 +1708,10 @@
       "screenshot": "https://raw.githubusercontent.com/SpyrosPsarras/dms-cliproxy-quota/main/screenshot.png",
       "version": "0.1.8"
     },
-    "path": "/nix/store/zwznrk6x6ycmpprj2wf5al9720p026x8-dms-cliproxy-quota",
-    "rev": "e70109e11ba3a786de539473302f87348862177c",
+    "path": "/nix/store/qnhzqdpmgla8cd2kalcq5pgjqlvvp7vx-dms-cliproxy-quota",
+    "rev": "a0bec37bdf5ca5965b0bfc7b6c3a954cb32776c8",
     "rootDir": "",
-    "sha256": "1ik5j468ckq27kcfs6algfsvqznja50ymdblmbxdw5ky885ddpa4",
+    "sha256": "0jsfmgkggyifc8522mjc3nkj42q0dfzdpybrs4dhk0gq9gnnb5ib",
     "url": "https://github.com/SpyrosPsarras/dms-cliproxy-quota"
   },
   "codeIsland": {
@@ -1868,12 +1868,12 @@
     "url": "https://github.com/zakstam/dms-codexbar"
   },
   "codexUsage": {
-    "date": "2026-09-10T14:02:41+06:00",
+    "date": "2026-09-10T22:03:20+06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-aiSEOEgFJauRT5/FtJCdJ8pUBXjwcNAdyS6S/9V4ZR8=",
+    "hash": "sha256-S3H7ivSt5R4bfGJXr9PwabaQNBPavGo+s3kgNohpvEk=",
     "leaveDotGit": false,
     "meta": {
       "author": "mir4zul",
@@ -1895,12 +1895,12 @@
       "name": "Codex Usage",
       "repo": "https://github.com/mir4zul/codex-usage",
       "screenshot": "https://raw.githubusercontent.com/mir4zul/codex-usage/main/assets/screenshot.png",
-      "version": "1.2.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/5g9sld88vpkdbv73rrsgym4rd3i7lbgh-codex-usage",
-    "rev": "46127eb42d7cfa9a9f8530caa4784e834abe00d8",
+    "path": "/nix/store/a576lwqp66r1fnq5n9xiql3kh0kb144d-codex-usage",
+    "rev": "badbe628d386cb30a6622f71e1986c11c2e9b6cb",
     "rootDir": "",
-    "sha256": "07v5g3azz4ifr4fx0w7hg02m9ji7kn8b9icz9y8sn98590w8893a",
+    "sha256": "0jdwd643c83rncz6mg6s2cs91dk9y39symv2ghdixrddyj5gnwab",
     "url": "https://github.com/mir4zul/codex-usage"
   },
   "colorPickerDms": {
@@ -2584,12 +2584,12 @@
     "url": "https://github.com/arqueon/dms-dankcalendar"
   },
   "dankCalendarPlus": {
-    "date": "2026-09-05T11:36:24+08:00",
+    "date": "2026-09-11T00:06:05+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-GuoKQO/7GXPpfYO6VJZQ4AjkjZRNT1GZZbJELST7nys=",
+    "hash": "sha256-G++KlBdL08yulSx8rKaj9leL21Z4lsYOf1lRPoEdbTA=",
     "leaveDotGit": false,
     "meta": {
       "author": "luckjokerwang",
@@ -2613,12 +2613,12 @@
       "name": "Dank Calendar Plus",
       "repo": "https://github.com/luckjokerwang/dms-dankcalendar",
       "screenshot": "https://raw.githubusercontent.com/luckjokerwang/dms-dankcalendar/main/assets/screenshot.png",
-      "version": "3.3.12"
+      "version": "3.3.13"
     },
-    "path": "/nix/store/smbnfswids0m9xxk1bmyg0b5ah4r8fcc-dms-dankcalendar",
-    "rev": "642107731b7b2d8deeb2607482c389cab3e9dc0b",
+    "path": "/nix/store/9zdl7q645kllh8ly8p4bmdw0nvv4b4hq-dms-dankcalendar",
+    "rev": "e3b6e44f68bf91355fd9aec8ec56a1eafdb3080e",
     "rootDir": "",
-    "sha256": "0awzzcj2si5jcncm2ksdjj6y8270a2b59fl3gplp66gvxx00mshs",
+    "sha256": "0c3d3n0kwlargw7cd5kqavdqnmznlfkaqz1cjnpcrlsb2ya8mvqv",
     "url": "https://github.com/luckjokerwang/dms-dankcalendar"
   },
   "dankCleaner": {
@@ -5348,12 +5348,12 @@
     "url": "https://github.com/JDKamalakar/DMS-DNS_Switcher"
   },
   "dockerManager": {
-    "date": "2026-07-03T17:31:06-03:00",
+    "date": "2026-09-10T21:26:54-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-YDCwXF0dyuNy07voKvkLlKfHFfPkhSS4oGopn+EnM+0=",
+    "hash": "sha256-tJjJaevs4iKfiGMIA05fmNtCCKrH+r+QZyvQRo9Okqg=",
     "leaveDotGit": false,
     "meta": {
       "author": "LuckShiba",
@@ -5377,12 +5377,12 @@
       "repo": "https://github.com/LuckShiba/DmsDockerManager",
       "requires_dms": ">=0.3.0",
       "screenshot": "https://raw.githubusercontent.com/LuckShiba/DmsDockerManager/main/assets/screenshot.png",
-      "version": "1.3.1"
+      "version": "1.3.2"
     },
-    "path": "/nix/store/3nqyg4jfrif3kwq6aj6zdx4085ind2h5-DmsDockerManager",
-    "rev": "255f46794b6e3a5f5e842fe1330db3869deddc09",
+    "path": "/nix/store/dqirrmhd0yvbp6l6v1hxivvzi2800ps0-DmsDockerManager",
+    "rev": "9e6a01283e169c46eff7a157202b1b8ab48577b1",
     "rootDir": "",
-    "sha256": "1v9k4zhryabal2w291g4ycawg9wl1gwjms5vsdrf7jhxbmfb0c30",
+    "sha256": "1a4j9s7ldl1bcy8bzyn7m8445nwqbx706233i2gj5qpcxdlwk65l",
     "url": "https://github.com/LuckShiba/DmsDockerManager"
   },
   "dolarBlue": {
@@ -7533,12 +7533,12 @@
     "url": "https://github.com/hthienloc/dms-lutris-launcher"
   },
   "lyricsEmbed": {
-    "date": "2026-09-10T12:21:13+08:00",
+    "date": "2026-09-10T17:51:49+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ijRqhk+Y1i6NWjjFlYSfXVuFR0XUwMXBDPxnEZVpgUo=",
+    "hash": "sha256-UfvPC2YI3Elh+N5nVulfTElPT7+heDjO2ev6sVlyWcs=",
     "leaveDotGit": false,
     "meta": {
       "author": "lemonmon",
@@ -7562,10 +7562,10 @@
       "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-Lyrics/main/docs/screenshot.png",
       "version": "1.7.0"
     },
-    "path": "/nix/store/2538y5a85la9n62wshqfb1lmdwfvsf8k-dms-plugin-Lyrics",
-    "rev": "3e7e71283b3798bde98d7e727fc9842c57eed785",
+    "path": "/nix/store/r9mmam4zsswcjwzcxyqvba73vndgmdxf-dms-plugin-Lyrics",
+    "rev": "56270e04574b316e5b58f03cf217aabb7ca67447",
     "rootDir": "",
-    "sha256": "0jl1d6ai2rzw1k0wbh6l8m3qansxky29bi9qba6jxmlq9y36ld4a",
+    "sha256": "1jsrf9cv3ypbv773hy51px7lyjacbzlmcryyz1hlkp08cq5wzysi",
     "url": "https://github.com/Lemon-mon-254/dms-plugin-Lyrics"
   },
   "lyricsOnPanel": {
@@ -7677,12 +7677,12 @@
     "url": "https://github.com/Rocho-EL-Locho/dms-mail-checker"
   },
   "mailReader": {
-    "date": "2026-06-22T21:50:03+08:00",
+    "date": "2026-09-10T22:54:31+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5wzdwDAY0sSBQLuc6gMWy/YRYpN4iBYYKgmPG2EIxpA=",
+    "hash": "sha256-TYrR8V7huj3hN9cfNH35iv3/0O/Fsr4vW8LaFVj+vok=",
     "leaveDotGit": false,
     "meta": {
       "author": "youngshine",
@@ -7705,12 +7705,12 @@
       "name": "Mail Reader",
       "repo": "https://github.com/smithyyang/dms-mail-reader",
       "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-mail-reader/main/assets/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/hlnyr7ai1xxymwhd9rkg5yyyx5rr0qvy-dms-mail-reader",
-    "rev": "9290c174cf04ed319d9b28947cd8def2193d709f",
+    "path": "/nix/store/9x5qrq2ibfxl86ln10pnsxk2qajy5n3f-dms-mail-reader",
+    "rev": "dd6c08e3c930a308e5ada8e783156b70b2f76b75",
     "rootDir": "",
-    "sha256": "146611hip3q958c1d23qjdi13xnb2q1ym75v820w9lhq630ds377",
+    "sha256": "12dyzrc1bnn2bcpvxcn5xz8gzzcaz5yk87yp6zhkvfp1bvqx32jd",
     "url": "https://github.com/smithyyang/dms-mail-reader"
   },
   "mangoWmLayoutManager": {
