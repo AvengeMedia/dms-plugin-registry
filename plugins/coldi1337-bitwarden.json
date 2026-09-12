@@ -1,0 +1,25 @@
+{
+    "id": "bitwarden",
+    "name": "Bitwarden",
+    "capabilities": [
+        "dankbar-widget",
+        "ipc"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/coldi1337/dms-bitwarden-cli",
+    "author": "coldi1337",
+    "description": "Search and manage Bitwarden or Vaultwarden using the official Bitwarden CLI, with optional PIN and fingerprint unlock.",
+    "dependencies": [
+        "bitwarden-cli",
+        "jq",
+        "wl-clipboard"
+    ],
+    "compositors": [
+        "hyprland"
+    ],
+    "distro": [
+        "arch"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/coldi1337/dms-bitwarden-cli/main/docs/screenshots/dms-settings.png",
+    "requires_dms": ">=1.6.0"
+}
