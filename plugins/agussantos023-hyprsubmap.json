@@ -1,0 +1,21 @@
+{
+	"id": "hyprSubmap",
+	"name": "Hyprland Submap",
+	"capabilities": [
+		"widget"
+	],
+	"category": "utilities",
+	"repo": "https://github.com/agussantos023/hyprSubmap",
+	"author": "agussantos023",
+	"description": "Muestra el submap actual de Hyprland en la barra de DMS",
+	"dependencies": [
+		"hyprland"
+	],
+	"compositors": [
+		"hyprland"
+	],
+	"distro": [
+		"any"
+	],
+	"screenshot": "https://raw.githubusercontent.com/agussantos023/hyprSubmap/main/screenshot/screenshot.png"
+}
