@@ -1,0 +1,19 @@
+{
+    "id": "dmsVault",
+    "name": "Vault Capture",
+    "capabilities": [
+        "daemon"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/nishantg96/dms-vault-capture",
+    "author": "nishantg96",
+    "description": "Capture a note or task into today's daily note from anywhere. Appends under configurable Notes and Tasks headings in a plain Markdown file, leaving the rest of the file untouched.",
+    "dependencies": [],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/nishantg96/dms-vault-capture/main/screenshot.png"
+}
