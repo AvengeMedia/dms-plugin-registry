@@ -1,0 +1,22 @@
+{
+    "id": "signalChat",
+    "name": "Signal",
+    "capabilities": [
+        "daemon"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/by-architect/DMS-Plugins",
+    "path": "signalChat",
+    "author": "by-architect",
+    "description": "Signal provider for the Chats plugin, linking as a companion device. Requires the Chats plugin.",
+    "dependencies": [
+        "go"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/signalChat/docs/screenshot.png"
+}

@@ -1,0 +1,20 @@
+{
+    "id": "chatRunner",
+    "name": "Chat Runner",
+    "capabilities": [
+        "launcher"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/by-architect/DMS-Plugins",
+    "path": "chatRunner",
+    "author": "by-architect",
+    "description": "Search every conversation from every chat provider in the launcher, ranked in one flat list. Requires the Chats plugin.",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/chatRunner/docs/screenshot.png"
+}

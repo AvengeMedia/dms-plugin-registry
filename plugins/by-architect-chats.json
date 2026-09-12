@@ -1,0 +1,22 @@
+{
+    "id": "chatManager",
+    "name": "Chats",
+    "capabilities": [
+        "daemon"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/by-architect/DMS-Plugins",
+    "path": "chatManager",
+    "author": "by-architect",
+    "description": "One chat window and one message store for every provider. Install a provider plugin -- Matrix, WhatsApp, Signal -- alongside it and each keeps its own history and settings.",
+    "dependencies": [
+        "go"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/chatManager/docs/screenshot.png"
+}
