@@ -11,7 +11,7 @@
     "description": "Capture a note or task into today's daily note from anywhere, with a bar widget showing open tasks. Built for Obsidian; works with any folder of Markdown files.",
     "dependencies": [],
     "compositors": [
-        "niri"
+        "any"
     ],
     "distro": [
         "any"
