@@ -1677,6 +1677,47 @@
     "sha256": "0jr5d2f9f8x4rnj8rv40qijg0w5yqpsz9klv8875qx7wx02jl8py",
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
+  "clipboardRunner": {
+    "date": "2026-09-12T21:45:24+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-5XFsdTqDobLjjpqFFbIy8U83QrKgWO9hBQ47abV37mc=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "by-architect",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "ffmpeg",
+        "imagemagick",
+        "python3",
+        "xdg-utils",
+        "curl"
+      ],
+      "description": "Run your own commands against whatever you just copied. Each action is filed under a content type -- link, colour, file or text -- and only the ones that fit the clipboard are offered, so typing 'clip' never shows an action that cannot apply.",
+      "distro": [
+        "any"
+      ],
+      "id": "clipboardRunner",
+      "name": "Clipboard Runner",
+      "path": "clipboardRunner",
+      "repo": "https://github.com/by-architect/DMS-Plugins",
+      "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/clipboardRunner/docs/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/r4fw8bfrbyy9i3ah79hzfq0dyr2cymdn-DMS-Plugins",
+    "rev": "c77b20194d5c1d51c78fadc4f275e4382e54a41e",
+    "rootDir": "",
+    "sha256": "0rzffysnjfqf0mhyyn50n913fkzi6ar1b1csiviv58c379snqwg5",
+    "url": "https://github.com/by-architect/DMS-Plugins"
+  },
   "cliproxyQuota": {
     "date": "2026-09-10T20:58:55+02:00",
     "deepClone": false,
@@ -3518,12 +3559,12 @@
     "url": "https://github.com/alcxyz/DankSession"
   },
   "dankSoftwareDepot": {
-    "date": "2026-09-11T08:20:35+02:00",
+    "date": "2026-09-12T16:24:12+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ET4RyU8jGlXdjEO6K/bFZMs7ZPEqbIvJdnynm0OKm14=",
+    "hash": "sha256-m3V7M/aoaDLdG0/6C+gTFkc2Ft1JKSugSAvbvqmAVjs=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3556,10 +3597,10 @@
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
       "version": "1.1.8"
     },
-    "path": "/nix/store/y7hyqjrk91r4rh0i2vhw1kvlnjabrhp6-DankSoftwareDepot",
-    "rev": "0231592f8feec1ffa576c0a50a61b0b3598c8873",
+    "path": "/nix/store/4hhzw6fg9xmz7hja4jx43g1v89mg99pj-DankSoftwareDepot",
+    "rev": "7850df038fa992b1e81b5f470b2922fa771d14f4",
     "rootDir": "",
-    "sha256": "0plvi91rp9vwfv4qnv1ay5j3pjv4qpv2pfj3ikfma6i39z4i2ghi",
+    "sha256": "0fsnh2lvxnqb92h2naa9vlb3ciqn2gl0pyjg3gfk4s58yqrpnxcv",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -9828,12 +9869,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-09-11T20:27:34+07:00",
+    "date": "2026-09-12T12:54:25+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-8wjXRFemEkaHnnZM1un0N3D+goNroPqzwMeS/Nmn+9U=",
+    "hash": "sha256-frDTFNkPx4lTWxVaASeWeg9OqLzxAMntlbcTEilS67I=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -9866,10 +9907,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.4.2"
     },
-    "path": "/nix/store/9bnkxiqcb6r3ivi7wlni7nrcz49yhkfn-dms-quick-capture",
-    "rev": "045ce4f645363d421f1fdaf92388d6c65989cd00",
+    "path": "/nix/store/ppmir4gi2n70frglj362vf7k0dgvh539-dms-quick-capture",
+    "rev": "7394909c44a75c12d6f331609cf06c46271ae842",
     "rootDir": "",
-    "sha256": "1mgvlzczr4n7q2rzm83bhf1gww1pyklxck3nks3lc4m6ax2df27k",
+    "sha256": "1cpba8li44xpjpnwj07ipjl4w3vsjqkh2nhmbd9qkiqgv4ad7c3y",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -11900,12 +11941,12 @@
     "url": "https://github.com/kerojiang/dms-transBin"
   },
   "tsMonitor": {
-    "date": "2026-09-11T23:33:05+08:00",
+    "date": "2026-09-12T12:19:18+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-lKwKk0cICk+SbjydRAy55tkaRiqGrAysYH7kOdS4YDU=",
+    "hash": "sha256-TuTDQnJh8nkWnC+eBFB3zJTOl2v4hYfQqy4beLJYU4s=",
     "leaveDotGit": false,
     "meta": {
       "author": "Lemon-mon-254",
@@ -11929,10 +11970,10 @@
       "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-TS6Monitor/main/screenshots/ts.png",
       "version": "0.3.0"
     },
-    "path": "/nix/store/d0ikfq658lzqx6yblgllmmvvalv6kgxs-dms-plugin-TS6Monitor",
-    "rev": "dc032ca3ef9b7226997be8bca1f19e44b512290d",
+    "path": "/nix/store/ak9w3s9an8csd8yizalwcfq51vhp3myl-dms-plugin-TS6Monitor",
+    "rev": "158b92d8f523ca150e25fff670d1cb02c72366a2",
     "rootDir": "",
-    "sha256": "0db0p3a3kr3yc2n0rb465931mng6p464979wds94y2h88y9hmb4l",
+    "sha256": "12skb2r7h6rfmg88g1gqdfbwx56cfx8097igkhb7kwk1f91c7r2f",
     "url": "https://github.com/Lemon-mon-254/dms-plugin-TS6Monitor"
   },
   "typingSounds": {
