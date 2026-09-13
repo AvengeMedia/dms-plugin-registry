@@ -1,6 +1,6 @@
 {
     "id": "whatsappChat",
-    "name": "WhatsApp",
+    "name": "WhatsApp Chat",
     "capabilities": [
         "daemon"
     ],
@@ -8,7 +8,7 @@
     "repo": "https://github.com/by-architect/DMS-Plugins",
     "path": "whatsappChat",
     "author": "by-architect",
-    "description": "WhatsApp provider for the Chats plugin, linking as a companion device. Requires the Chats plugin.",
+    "description": "WhatsApp provider for the Chat Manager plugin, linking as a companion device. Requires the Chat Manager plugin.",
     "dependencies": [
         "go"
     ],

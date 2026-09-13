@@ -1,6 +1,6 @@
 {
     "id": "matrixChat",
-    "name": "Matrix",
+    "name": "Matrix Chat",
     "capabilities": [
         "daemon"
     ],
@@ -8,7 +8,7 @@
     "repo": "https://github.com/by-architect/DMS-Plugins",
     "path": "matrixChat",
     "author": "by-architect",
-    "description": "Matrix provider for the Chats plugin. Rooms, direct messages, attachments, replies and read receipts, with end-to-end encryption and recovery-key verification. Requires the Chats plugin.",
+    "description": "Matrix provider for the Chat Manager plugin. Rooms, direct messages, attachments, replies and read receipts, with end-to-end encryption and recovery-key verification. Requires the Chat Manager plugin.",
     "dependencies": [
         "go"
     ],

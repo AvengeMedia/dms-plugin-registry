@@ -8,7 +8,7 @@
     "repo": "https://github.com/by-architect/DMS-Plugins",
     "path": "chatRunner",
     "author": "by-architect",
-    "description": "Search every conversation from every chat provider in the launcher, ranked in one flat list. Requires the Chats plugin.",
+    "description": "Search every conversation from every chat provider in the launcher, ranked in one flat list. Requires the Chat Manager plugin.",
     "dependencies": [],
     "compositors": [
         "any"
