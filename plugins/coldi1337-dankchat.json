@@ -1,0 +1,28 @@
+{
+  "id": "dankChat",
+  "name": "DankChat",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/coldi1337/DankChat",
+  "author": "coldi1337",
+  "description": "Native Telegram and WhatsApp chats with a bar dropdown, tiling window, media previews, emoji search and unread filters.",
+  "dependencies": [
+    "python3",
+    "python-telethon",
+    "python-qrcode",
+    "python-pillow",
+    "wacli 0.17.1",
+    "qt6-multimedia",
+    "qt6-imageformats",
+    "systemd"
+  ],
+  "compositors": [
+    "hyprland"
+  ],
+  "distro": [
+    "arch"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/d65e7d00cba55f2c55741b47b40f5b22d8090ba7/docs/preview.png"
+}
