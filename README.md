@@ -5127,6 +5127,76 @@ Courses, grades, upcoming assignments, missing work, and announcements from Canv
 
 
 
+#### [Chat Manager](https://github.com/by-architect/DMS-Plugins)
+
+One chat window and one message store for every provider. Install a provider plugin -- Matrix, WhatsApp, Signal -- alongside it and each keeps its own history and settings.
+
+
+
+- id: chatManager
+- name: Chat Manager
+- author: by-architect
+- compositors: any
+- capabilities: daemon
+- dependencies: go
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [chatManager](https://github.com/by-architect/DMS-Plugins/tree/main/chatManager) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/chatManager/docs/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Chat Runner](https://github.com/by-architect/DMS-Plugins)
+
+Search every conversation from every chat provider in the launcher, ranked in one flat list. Requires the Chat Manager plugin.
+
+
+
+- id: chatRunner
+- name: Chat Runner
+- author: by-architect
+- compositors: any
+- capabilities: launcher
+- dependencies: 
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [chatRunner](https://github.com/by-architect/DMS-Plugins/tree/main/chatRunner) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/chatRunner/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Chinese Calendar](https://github.com/xxyangyoulin/dms-plugin-ccal)
 
 Display Chinese lunar calendar with holiday information in the status bar
@@ -8092,6 +8162,41 @@ Switch MangoWM layouts from DankBar with visual previews, configurable click sho
 
 
 
+#### [Matrix Chat](https://github.com/by-architect/DMS-Plugins)
+
+Matrix provider for the Chat Manager plugin. Rooms, direct messages, attachments, replies and read receipts, with end-to-end encryption and recovery-key verification. Requires the Chat Manager plugin.
+
+
+
+- id: matrixChat
+- name: Matrix Chat
+- author: by-architect
+- compositors: any
+- capabilities: daemon
+- dependencies: go
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [matrixChat](https://github.com/by-architect/DMS-Plugins/tree/main/matrixChat) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/matrixChat/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Media Control Plus](https://github.com/Dadangdut33/dms-plugins)
 
 Customized version of DMS media widget with extended features that is mainly focused on improving vertical bar support
@@ -9692,6 +9797,41 @@ Clickable bar icon that adds windows-life show desktop function. For Hyprland.
 
 
 
+#### [Signal Chat](https://github.com/by-architect/DMS-Plugins)
+
+Signal provider for the Chat Manager plugin, linking as a companion device. Requires the Chat Manager plugin.
+
+
+
+- id: signalChat
+- name: Signal Chat
+- author: by-architect
+- compositors: any
+- capabilities: daemon
+- dependencies: go
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [signalChat](https://github.com/by-architect/DMS-Plugins/tree/main/signalChat) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/signalChat/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Simple Audio Control](https://github.com/Dadangdut33/dms-plugins)
 
 A simple widget for controlling audio output and input. Inspired by the audio widget in Noctalia Shell.
@@ -10705,6 +10845,41 @@ Search the web with 23+ built-in search engines plus custom search engine suppor
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/devnullvoid/dms-web-search/blob/main/screenshot.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [WhatsApp Chat](https://github.com/by-architect/DMS-Plugins)
+
+WhatsApp provider for the Chat Manager plugin, linking as a companion device. Requires the Chat Manager plugin.
+
+
+
+- id: whatsappChat
+- name: WhatsApp Chat
+- author: by-architect
+- compositors: any
+- capabilities: daemon
+- dependencies: go
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [whatsappChat](https://github.com/by-architect/DMS-Plugins/tree/main/whatsappChat) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/whatsappChat/docs/screenshot.png)
 
 </details>
 
