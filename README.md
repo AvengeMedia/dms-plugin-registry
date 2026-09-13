@@ -5257,6 +5257,41 @@ Record a screen region, compress it for sharing, or upload it to Catbox with an 
 
 
 
+#### [Clipboard Runner](https://github.com/by-architect/DMS-Plugins)
+
+Run your own commands against whatever you just copied. Each action is filed under a content type -- link, colour, file or text -- and only the ones that fit the clipboard are offered, so typing 'clip' never shows an action that cannot apply.
+
+
+
+- id: clipboardRunner
+- name: Clipboard Runner
+- author: by-architect
+- compositors: any
+- capabilities: launcher
+- dependencies: ffmpeg, imagemagick, python3, xdg-utils, curl
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [clipboardRunner](https://github.com/by-architect/DMS-Plugins/tree/main/clipboardRunner) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/clipboardRunner/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [CodeIsland](https://github.com/payprays/codeIsland-dms)
 
 AI coding session island for DankMaterialShell with Codex, Claude Code, and OpenCode session cards on niri.
