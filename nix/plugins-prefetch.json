@@ -1446,6 +1446,78 @@
     "sha256": "0b27sidgznlmnflfx4699sy4mgpgfyplb8pn93armlngzlpwj5cx",
     "url": "https://github.com/ernestowgg/cava-visualizer"
   },
+  "chatManager": {
+    "date": "2026-09-13T14:37:18+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Uovirb//YDxyYhIvZxO/JkqSnDtUgkTCeAbYg0kP1Tg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "by-architect",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "go"
+      ],
+      "description": "One chat window and one message store for every provider. Install a provider plugin -- Matrix, WhatsApp, Signal -- alongside it and each keeps its own history and settings.",
+      "distro": [
+        "any"
+      ],
+      "id": "chatManager",
+      "name": "Chat Manager",
+      "path": "chatManager",
+      "repo": "https://github.com/by-architect/DMS-Plugins",
+      "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/chatManager/docs/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/j2kan20cgjk3ycp5906xcqkjv9696zlq-DMS-Plugins",
+    "rev": "108e9c6040cc845500460ebfea6ad147156a0d1b",
+    "rootDir": "",
+    "sha256": "0f6m1x4q7n06g31490jl7ff94ji6pw9nfbqjc9r3qq7zpyny52sj",
+    "url": "https://github.com/by-architect/DMS-Plugins"
+  },
+  "chatRunner": {
+    "date": "2026-09-13T14:37:18+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Uovirb//YDxyYhIvZxO/JkqSnDtUgkTCeAbYg0kP1Tg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "by-architect",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Search every conversation from every chat provider in the launcher, ranked in one flat list. Requires the Chat Manager plugin.",
+      "distro": [
+        "any"
+      ],
+      "id": "chatRunner",
+      "name": "Chat Runner",
+      "path": "chatRunner",
+      "repo": "https://github.com/by-architect/DMS-Plugins",
+      "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/chatRunner/docs/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/j2kan20cgjk3ycp5906xcqkjv9696zlq-DMS-Plugins",
+    "rev": "108e9c6040cc845500460ebfea6ad147156a0d1b",
+    "rootDir": "",
+    "sha256": "0f6m1x4q7n06g31490jl7ff94ji6pw9nfbqjc9r3qq7zpyny52sj",
+    "url": "https://github.com/by-architect/DMS-Plugins"
+  },
   "chineseCalendar": {
     "date": "2026-09-10T15:06:52+08:00",
     "deepClone": false,
@@ -1678,12 +1750,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "clipboardRunner": {
-    "date": "2026-09-12T21:45:24+03:00",
+    "date": "2026-09-13T14:37:18+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5XFsdTqDobLjjpqFFbIy8U83QrKgWO9hBQ47abV37mc=",
+    "hash": "sha256-Uovirb//YDxyYhIvZxO/JkqSnDtUgkTCeAbYg0kP1Tg=",
     "leaveDotGit": false,
     "meta": {
       "author": "by-architect",
@@ -1712,10 +1784,10 @@
       "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/clipboardRunner/docs/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/r4fw8bfrbyy9i3ah79hzfq0dyr2cymdn-DMS-Plugins",
-    "rev": "c77b20194d5c1d51c78fadc4f275e4382e54a41e",
+    "path": "/nix/store/j2kan20cgjk3ycp5906xcqkjv9696zlq-DMS-Plugins",
+    "rev": "108e9c6040cc845500460ebfea6ad147156a0d1b",
     "rootDir": "",
-    "sha256": "0rzffysnjfqf0mhyyn50n913fkzi6ar1b1csiviv58c379snqwg5",
+    "sha256": "0f6m1x4q7n06g31490jl7ff94ji6pw9nfbqjc9r3qq7zpyny52sj",
     "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "cliproxyQuota": {
@@ -1909,12 +1981,12 @@
     "url": "https://github.com/zakstam/dms-codexbar"
   },
   "codexUsage": {
-    "date": "2026-09-10T22:03:20+06:00",
+    "date": "2026-09-13T09:13:38+06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-S3H7ivSt5R4bfGJXr9PwabaQNBPavGo+s3kgNohpvEk=",
+    "hash": "sha256-9L+y9ajGqdfJ0uWdXLpu0um38qPCPZgN4n9a4frlNGc=",
     "leaveDotGit": false,
     "meta": {
       "author": "mir4zul",
@@ -1938,10 +2010,10 @@
       "screenshot": "https://raw.githubusercontent.com/mir4zul/codex-usage/main/assets/screenshot.png",
       "version": "1.2.1"
     },
-    "path": "/nix/store/a576lwqp66r1fnq5n9xiql3kh0kb144d-codex-usage",
-    "rev": "badbe628d386cb30a6622f71e1986c11c2e9b6cb",
+    "path": "/nix/store/irm2x66jg320ql72wyaykvsln9asc7zn-codex-usage",
+    "rev": "2bf3469f91bf08b6b2e7d6dfa74e6294542f69fa",
     "rootDir": "",
-    "sha256": "0jdwd643c83rncz6mg6s2cs91dk9y39symv2ghdixrddyj5gnwab",
+    "sha256": "0rrlwpxf2nkzw86rhgf2lgrbgsfjdsx5r7g5sb4xgaf6m3sv5gzl",
     "url": "https://github.com/mir4zul/codex-usage"
   },
   "colorPickerDms": {
@@ -2284,12 +2356,12 @@
     "url": "https://github.com/heyitsmikey128/DankCustomRunningApps"
   },
   "dankAIUsage": {
-    "date": "2026-09-11T10:47:06+02:00",
+    "date": "2026-09-13T16:54:26+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Tubx/lvTBkb5tlLqEgt0hT/nyH4WCA+IBvdRPgSZG0s=",
+    "hash": "sha256-p2zL7bwVxOWvswsB6OqkoxXGst4eqDXoxKynNDGt9Qo=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -2313,12 +2385,12 @@
       "name": "AI Usage",
       "repo": "https://github.com/alcxyz/DankAIUsage",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankAIUsage/main/docs/screenshot.png",
-      "version": "0.8.0"
+      "version": "1.0.0"
     },
-    "path": "/nix/store/zywgfymkvjgajkkyxwzgawzhm5c0paga-DankAIUsage",
-    "rev": "ddc9181e6e58ce3255d8e1c640e4ccb231be026a",
+    "path": "/nix/store/vydkxc2kffn3dzrgn01rkv2vi2c6aiqm-DankAIUsage",
+    "rev": "bb94d58527daf77ced740764a0fe2271eecd67d5",
     "rootDir": "",
-    "sha256": "0jqvk423wlgp0s40y20ngv4ffgw5fh5i5sjjnvwlc1nkbgzg3rjf",
+    "sha256": "02pmmlqk99xcqkl3ba0yvsrcc5d3lkmfh08bnfpybi0mpknwnv57",
     "url": "https://github.com/alcxyz/DankAIUsage"
   },
   "dankActions": {
@@ -2543,12 +2615,12 @@
     "url": "https://github.com/pacman99/DankBitwarden"
   },
   "dankCalendar": {
-    "date": "2026-07-03T11:22:35+02:00",
+    "date": "2026-09-13T16:52:58+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-VtiBjO+XzihoRTGPe6l4WoK9onaj/BGmy4Xmj5BhE7I=",
+    "hash": "sha256-oCV4x6oteG/msD9D0snGGNnNc5mUfqJup0St+n4P7y4=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -2573,10 +2645,10 @@
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankCalendar/main/docs/screenshot.png",
       "version": "0.7.0"
     },
-    "path": "/nix/store/00s7vzwy3h7lwbfqi6vlnx4kr5yibgd6-DankCalendar",
-    "rev": "0d204e8450cc9c6d832fa8a092d6b282deea4c0b",
+    "path": "/nix/store/0s31vikv9c6fwp8x7bw20n3h5brdp1y9-DankCalendar",
+    "rev": "49ebb97f5fe9fffb3c7906147fe479924a2e495e",
     "rootDir": "",
-    "sha256": "1chkc688zrl5rfk13z53fsibv0jsg2lpp3ri8ml2iklpxy683n2n",
+    "sha256": "0bpg1xzgmba4lxpa4zllk5rwvn8qqv4x4hrzn3k6yy1dmb3ph9d0",
     "url": "https://github.com/alcxyz/DankCalendar"
   },
   "dankCalendarAgenda": {
@@ -3521,12 +3593,12 @@
     "url": "https://github.com/SK-DEV-AI/dankSchedPicker"
   },
   "dankSession": {
-    "date": "2026-09-07T15:37:47+02:00",
+    "date": "2026-09-13T16:52:54+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-mzFlFiTRyyA0Esfwr3rIteOi7lr+vjak7GJM2duqpuI=",
+    "hash": "sha256-9fRZI8B72BIKBXIGbPcnUKh6hSsriMKNPswgu0gNPww=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -3552,10 +3624,10 @@
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankSession/main/assets/screenshot.png",
       "version": "0.3.5"
     },
-    "path": "/nix/store/nryq5zql15r6lab465v5zs4bkfq1p465-DankSession",
-    "rev": "685ab95a425a9334d310d00429ee833aba575b89",
+    "path": "/nix/store/xs1wa7r6nfiasvakpdlm5fk0i1vjvhg0-DankSession",
+    "rev": "560b6cd47cf103dbca8118d34e1dd0aa921a7bf7",
     "rootDir": "",
-    "sha256": "1qm6mbdxjk32xjj3dgpybbpa5qxmr1xazw6728s21jyi4hb6accv",
+    "sha256": "031z1m4bn86c7s6w521b5f2pma2h4zvnq1kj0l515n3vq0imkx7m",
     "url": "https://github.com/alcxyz/DankSession"
   },
   "dankSoftwareDepot": {
@@ -5311,12 +5383,12 @@
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
-    "date": "2026-09-09T12:36:45+08:00",
+    "date": "2026-09-13T14:09:12+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-GdRlqBYjtFzapiM45H+vosNjNcjAYsxmmhPh/rgQy6Q=",
+    "hash": "sha256-7hr6+dVHlXfLiwhuR1LwxGJc0ZEJQs+3dYFtiTPBDlE=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -5338,10 +5410,10 @@
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
       "version": "1.0.6"
     },
-    "path": "/nix/store/cckf2kfvr83433qi9j47ri8yk1l9qlkz-dms-filemanager",
-    "rev": "c888576f19e552c997f30c379a14caa2c50d73ba",
+    "path": "/nix/store/kq0a65r3312np0ap2mics9qvjk5c2pnj-dms-filemanager",
+    "rev": "d41df19431b9920d50d91c21b1b028cf6e75aa58",
     "rootDir": "",
-    "sha256": "196b22wgxq8kk9kcqqn0r0sn7hx2mxzy8f13lvd5rd132sl6bm0r",
+    "sha256": "0l8fq4rqjvc1fnvwyhh9j78mqqn4y194fvh8ig5pg5a7spwzl6pf",
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
@@ -7908,6 +7980,43 @@
     "rootDir": "",
     "sha256": "1c9ljf1ccwbky8vppicaxzxx7k18irv1asnfyir2l7v3x8axxl6n",
     "url": "https://github.com/notsopreety/materialWeather"
+  },
+  "matrixChat": {
+    "date": "2026-09-13T14:37:18+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Uovirb//YDxyYhIvZxO/JkqSnDtUgkTCeAbYg0kP1Tg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "by-architect",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "go"
+      ],
+      "description": "Matrix provider for the Chat Manager plugin. Rooms, direct messages, attachments, replies and read receipts, with end-to-end encryption and recovery-key verification. Requires the Chat Manager plugin.",
+      "distro": [
+        "any"
+      ],
+      "id": "matrixChat",
+      "name": "Matrix Chat",
+      "path": "matrixChat",
+      "repo": "https://github.com/by-architect/DMS-Plugins",
+      "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/matrixChat/docs/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/j2kan20cgjk3ycp5906xcqkjv9696zlq-DMS-Plugins",
+    "rev": "108e9c6040cc845500460ebfea6ad147156a0d1b",
+    "rootDir": "",
+    "sha256": "0f6m1x4q7n06g31490jl7ff94ji6pw9nfbqjc9r3qq7zpyny52sj",
+    "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "mediaControlPlus": {
     "date": "2026-07-31T22:44:24+07:00",
@@ -10810,6 +10919,43 @@
     "sha256": "0mp73ca48bl0c0x8hflvbx4hhq5jzrlwrywxpgj1fkfww3w5mdjq",
     "url": "https://github.com/lpv11/dms-hypr-show-desktop"
   },
+  "signalChat": {
+    "date": "2026-09-13T14:37:18+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Uovirb//YDxyYhIvZxO/JkqSnDtUgkTCeAbYg0kP1Tg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "by-architect",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "go"
+      ],
+      "description": "Signal provider for the Chat Manager plugin, linking as a companion device. Requires the Chat Manager plugin.",
+      "distro": [
+        "any"
+      ],
+      "id": "signalChat",
+      "name": "Signal Chat",
+      "path": "signalChat",
+      "repo": "https://github.com/by-architect/DMS-Plugins",
+      "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/signalChat/docs/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/j2kan20cgjk3ycp5906xcqkjv9696zlq-DMS-Plugins",
+    "rev": "108e9c6040cc845500460ebfea6ad147156a0d1b",
+    "rootDir": "",
+    "sha256": "0f6m1x4q7n06g31490jl7ff94ji6pw9nfbqjc9r3qq7zpyny52sj",
+    "url": "https://github.com/by-architect/DMS-Plugins"
+  },
   "simpleAudioControl": {
     "date": "2026-07-31T22:44:24+07:00",
     "deepClone": false,
@@ -11029,12 +11175,12 @@
     "url": "https://github.com/Grant07/dms-spotify-matugen"
   },
   "spotlightWallpapers": {
-    "date": "2026-09-07T04:48:08+12:00",
+    "date": "2026-09-13T15:35:22+12:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-EhNowbmsLqmt2Z6i04tDpf2CTHce+IoxzfLR3BGpnwM=",
+    "hash": "sha256-b92dux9tBg44Px3KqeHXKwBMNsJ62Qho0+Va5EIt2NM=",
     "leaveDotGit": false,
     "meta": {
       "author": "scottmckendry",
@@ -11056,12 +11202,12 @@
       "name": "Spotlight Wallpapers",
       "repo": "https://github.com/scottmckendry/spotlight-wallpapers",
       "screenshot": "https://raw.githubusercontent.com/scottmckendry/spotlight-wallpapers/main/screenshot.png",
-      "version": "0.2.2"
+      "version": "0.3.0"
     },
-    "path": "/nix/store/1mwfhbydbxi98l8n36r8kpl8x3bdc1z0-spotlight-wallpapers",
-    "rev": "7c133db4f31174a552f2cf625c81690173e48084",
+    "path": "/nix/store/84mkj04s8iv9vcdp4m4kr00rqsi4kx0j-spotlight-wallpapers",
+    "rev": "b327867edf543d1312ef32e536799a7e7aebaef1",
     "rootDir": "",
-    "sha256": "00wzm48xrlgjrlqqmy0yfx685zd58f5x78lyv6nsjbmcp70nh4qj",
+    "sha256": "1lyq5m1f8np5sdl0inbsq8v4q01bszhskjhx7ww0w1kd3yxrvpbg",
     "url": "https://github.com/scottmckendry/spotlight-wallpapers"
   },
   "sshConnections": {
@@ -11941,12 +12087,12 @@
     "url": "https://github.com/kerojiang/dms-transBin"
   },
   "tsMonitor": {
-    "date": "2026-09-12T12:19:18+08:00",
+    "date": "2026-09-13T18:06:08+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-TuTDQnJh8nkWnC+eBFB3zJTOl2v4hYfQqy4beLJYU4s=",
+    "hash": "sha256-MMVrEcq0XEkgSWUvY6NuXtxodM5fr+z4v5gJk5Z3vfI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Lemon-mon-254",
@@ -11970,10 +12116,10 @@
       "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-TS6Monitor/main/screenshots/ts.png",
       "version": "0.3.0"
     },
-    "path": "/nix/store/ak9w3s9an8csd8yizalwcfq51vhp3myl-dms-plugin-TS6Monitor",
-    "rev": "158b92d8f523ca150e25fff670d1cb02c72366a2",
+    "path": "/nix/store/mvvs6nh1hl8r0rvh7bs8qixpap481kva-dms-plugin-TS6Monitor",
+    "rev": "15063cb52bb1382173af9de0de645598ebc222d6",
     "rootDir": "",
-    "sha256": "12skb2r7h6rfmg88g1gqdfbwx56cfx8097igkhb7kwk1f91c7r2f",
+    "sha256": "1wmxfyb962cqpzwfrbszrrs6ip2ydsin6bv594h4jp5lr88npi9h",
     "url": "https://github.com/Lemon-mon-254/dms-plugin-TS6Monitor"
   },
   "typingSounds": {
@@ -12914,6 +13060,43 @@
     "rootDir": "",
     "sha256": "1xqi2f9kgl58jhzyihrxpwspvspkw84kxvh5ngqpr4w75x0gnsp6",
     "url": "https://github.com/antikytheraton/DankWebcamViewer"
+  },
+  "whatsappChat": {
+    "date": "2026-09-13T14:37:18+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Uovirb//YDxyYhIvZxO/JkqSnDtUgkTCeAbYg0kP1Tg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "by-architect",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "go"
+      ],
+      "description": "WhatsApp provider for the Chat Manager plugin, linking as a companion device. Requires the Chat Manager plugin.",
+      "distro": [
+        "any"
+      ],
+      "id": "whatsappChat",
+      "name": "WhatsApp Chat",
+      "path": "whatsappChat",
+      "repo": "https://github.com/by-architect/DMS-Plugins",
+      "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/whatsappChat/docs/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/j2kan20cgjk3ycp5906xcqkjv9696zlq-DMS-Plugins",
+    "rev": "108e9c6040cc845500460ebfea6ad147156a0d1b",
+    "rootDir": "",
+    "sha256": "0f6m1x4q7n06g31490jl7ff94ji6pw9nfbqjc9r3qq7zpyny52sj",
+    "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "whisperer": {
     "date": "2026-07-17T19:23:48-05:00",
