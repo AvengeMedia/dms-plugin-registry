@@ -9210,6 +9210,41 @@
     "sha256": "17zky6c3p9jjcrnp7rrrq1p4b28jmm68p4dpsvzdlj724a1hqjxx",
     "url": "https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor"
   },
+  "obsidianCapture": {
+    "date": "2026-09-13T02:08:38+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-m8/P8uDimU2E2c6HcOxKJUx4qbOKKrxBgO+TeglFR+8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "nishantg96",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Capture a note or task into today's daily note from anywhere, with a bar widget showing open tasks. Built for Obsidian; works with any folder of Markdown files.",
+      "distro": [
+        "any"
+      ],
+      "id": "obsidianCapture",
+      "name": "Obsidian Capture",
+      "repo": "https://github.com/nishantg96/dms-obsidian-capture",
+      "screenshot": "https://raw.githubusercontent.com/nishantg96/dms-obsidian-capture/main/screenshot.png",
+      "version": "3.0.0"
+    },
+    "path": "/nix/store/i9mkjl3lrc67cgvp4d8n2qb8higb3yxj-dms-obsidian-capture",
+    "rev": "11706791268284766c717833233f46cb427fe63f",
+    "rootDir": "",
+    "sha256": "1vs78l4pm4zgh10vqalanflphk159bn711yfv624v6g2w3rczkwv",
+    "url": "https://github.com/nishantg96/dms-obsidian-capture"
+  },
   "obsidianSearch": {
     "date": "2026-08-27T10:41:21+02:00",
     "deepClone": false,
