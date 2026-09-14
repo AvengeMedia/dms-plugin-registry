@@ -6949,6 +6949,40 @@
     "sha256": "0allc8jc8h9lgl4pic466gldr45qhynkj0bll5kl7gwhfxrpcagm",
     "url": "https://github.com/hthienloc/dms-hydrate"
   },
+  "hyprSubmap": {
+    "date": "2026-09-14T13:28:30+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-qbRu51TaZVD9L+Tr40X1PILj6RFiLUC76JrHoYqRVcM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "agussantos023",
+      "capabilities": [
+        "widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [],
+      "description": "Shows the current Hyprland submap on the DMS bar",
+      "distro": [
+        "any"
+      ],
+      "id": "hyprSubmap",
+      "name": "Hyprland Submap Bar",
+      "repo": "https://github.com/agussantos023/hyprSubmap",
+      "screenshot": "https://raw.githubusercontent.com/agussantos023/hyprSubmap/main/screenshot/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/lg80q75gdva1w2ip84jm5k7jn2g81k3j-hyprSubmap",
+    "rev": "0d874c862c2e592943471a9eedc088eba41beaa4",
+    "rootDir": "",
+    "sha256": "1hsmj65a3iwsx2xl0bb227ly70iwym2y7sz45zym0rfsakknxd59",
+    "url": "https://github.com/agussantos023/hyprSubmap"
+  },
   "hyprlandSubmap": {
     "date": "2026-01-08T09:47:36+01:00",
     "deepClone": false,
