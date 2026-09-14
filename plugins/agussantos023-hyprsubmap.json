@@ -9,7 +9,6 @@
 	"author": "agussantos023",
 	"description": "Shows the current Hyprland submap on the DMS bar",
 	"dependencies": [
-		"hyprland"
 	],
 	"compositors": [
 		"hyprland"
