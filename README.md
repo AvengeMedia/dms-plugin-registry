@@ -4882,6 +4882,36 @@ One bar button that drops a panel of real bar widgets below the bar, for side se
 
 
 
+#### [Bitwarden Dankbar](https://github.com/coldi1337/dms-bitwarden-cli)
+
+Search and manage Bitwarden or Vaultwarden using the official Bitwarden CLI, with optional PIN and fingerprint unlock.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: bitwarden
+- name: Bitwarden Dankbar
+- author: coldi1337
+- compositors: any
+- capabilities: dankbar-widget, ipc
+- dependencies: bitwarden-cli, jq, wl-clipboard
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/coldi1337/dms-bitwarden-cli/main/docs/screenshots/dms-vault-preview.png)
+
+</details>
+
+
+
+
+
 #### [Bongo Cat](https://github.com/hthienloc/dms-bongo-cat)
 
 A reactive animated cat that taps along with your keyboard input.
