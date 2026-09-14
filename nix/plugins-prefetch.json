@@ -1075,6 +1075,46 @@
     "sha256": "11h1y8qgadnsx2a404v43fv8jx0xvqh59blzwzn365dc72fjyh2w",
     "url": "https://github.com/arcatva/dms-battery-plus"
   },
+  "bitwarden": {
+    "date": "2026-09-14T07:08:15+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-11Obkt6nOBJ3ZYN6TkC2PY5JZiG9GciL1V/H70F3XPI=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "coldi1337",
+      "capabilities": [
+        "dankbar-widget",
+        "ipc"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "bitwarden-cli",
+        "jq",
+        "wl-clipboard"
+      ],
+      "description": "Search and manage Bitwarden or Vaultwarden using the official Bitwarden CLI, with optional PIN and fingerprint unlock.",
+      "distro": [
+        "any"
+      ],
+      "id": "bitwarden",
+      "name": "Bitwarden Dankbar",
+      "repo": "https://github.com/coldi1337/dms-bitwarden-cli",
+      "requires_dms": ">=1.6.0",
+      "screenshot": "https://raw.githubusercontent.com/coldi1337/dms-bitwarden-cli/main/docs/screenshots/dms-vault-preview.png",
+      "version": "1.8.1-dms.3"
+    },
+    "path": "/nix/store/higrf40vardlqivwcapz3ppdw57zwqgy-dms-bitwarden-cli",
+    "rev": "a1ea09dbdef418f52cd4a628171c4bc7baaf6fff",
+    "rootDir": "",
+    "sha256": "1wjwfx0yziszsn5wh6dx45k4k3ixnr04wyl3cmvi4f57vs99nlyp",
+    "url": "https://github.com/coldi1337/dms-bitwarden-cli"
+  },
   "bongoCat": {
     "date": "2026-07-29T09:45:26+07:00",
     "deepClone": false,
@@ -2733,6 +2773,50 @@
     "rootDir": "",
     "sha256": "1w1b3hs8c5chhgi8999ll2jycnl5m9i164vyy8rxdw779wfnqnjw",
     "url": "https://github.com/luckjokerwang/dms-dankcalendar"
+  },
+  "dankChat": {
+    "date": "2026-09-14T07:38:56+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-wd+j7KDkn3Gu+rf5n6bs5K21zkD1avpgdVCfQjKNmRo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "coldi1337",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3",
+        "python-telethon",
+        "python-qrcode",
+        "python-pillow",
+        "wacli 0.17.1",
+        "qt6-multimedia",
+        "qt6-imageformats",
+        "systemd",
+        "wl-clipboard"
+      ],
+      "description": "Native Telegram and WhatsApp chats with a bar dropdown, tiling window, clipboard attachments, emoji reactions and unread filters.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankChat",
+      "name": "DankChat",
+      "repo": "https://github.com/coldi1337/DankChat",
+      "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.3.0/docs/preview.png",
+      "version": "0.3.0"
+    },
+    "path": "/nix/store/pjw9i7aqpi9358dznwxq52v3w14d9707-DankChat",
+    "rev": "d61044885bb7088193751cce81231d7a739c6e67",
+    "rootDir": "",
+    "sha256": "06lrilr457shfmhglspm837bbbg4xjk9zydpzap737z4l3na7py1",
+    "url": "https://github.com/coldi1337/DankChat"
   },
   "dankCleaner": {
     "date": "2026-03-31T18:08:49+07:00",
@@ -5349,12 +5433,12 @@
     "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
-    "date": "2026-09-14T01:30:29+08:00",
+    "date": "2026-09-14T13:29:44+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-wH8EpC2J1M0oTUIVwHZriT99Xs1HjjWIOO6a3sgP0ms=",
+    "hash": "sha256-QBuIKnq3Lbjk6+kJnIhjInrn1RUi91UneJl3Q6b6xMY=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -5374,21 +5458,21 @@
       "name": "DMS Conky",
       "repo": "https://github.com/suruibin/dms-conky",
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-conky/main/Screenshots/promo.png",
-      "version": "1.0.6"
+      "version": "1.0.7"
     },
-    "path": "/nix/store/hm0xjnisw91xrl5j6dj5zyma97hb2w8w-dms-conky",
-    "rev": "9eaefc9077cddc5b260159b1ccbb73e2037573b6",
+    "path": "/nix/store/dfm20f3rj3ll77w3fnm7r2s4iir9bj2y-dms-conky",
+    "rev": "493e4d9191df0ef0c0e03fb7319d4ff19697f3f7",
     "rootDir": "",
-    "sha256": "0syj1z4dx6pf7243b3j7rmg7sgw9ddvc05a29llcvm495nj08zy0",
+    "sha256": "1in4zak46xwrg0kmbxr22payfyi2cf49q2g9xgjbhbdpg8m8h6s0",
     "url": "https://github.com/suruibin/dms-conky"
   },
   "dmsfilemanager": {
-    "date": "2026-09-14T01:47:09+08:00",
+    "date": "2026-09-14T13:29:41+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-oWSjTEwFI+wtOQFPyDSJnHyG0JgXGjgj/wX7Fp9PY3E=",
+    "hash": "sha256-zZo626so60kUB2RMwD5FKBXzK59kyUtUn7NXQblB6OU=",
     "leaveDotGit": false,
     "meta": {
       "author": "suruibin",
@@ -5408,12 +5492,12 @@
       "name": "DMS File Manager",
       "repo": "https://github.com/suruibin/dms-filemanager",
       "screenshot": "https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png",
-      "version": "1.0.6"
+      "version": "1.0.7"
     },
-    "path": "/nix/store/cckmkbkgg02h22s9zx5ssqvnfp25x3ik-dms-filemanager",
-    "rev": "c7439d44a04dab6161b4a5889bd7a0da107d500f",
+    "path": "/nix/store/yvxnj5a9zlm8hwmnyr7p15ybgf11y397-dms-filemanager",
+    "rev": "712154f3eb5dae789ce03f0700488163928395fa",
     "rootDir": "",
-    "sha256": "0wb39ygidyq5zwikh6hpk388cz4wi4schkq174nyq8q59i6a6r51",
+    "sha256": "1rg886wl2mxkkxa4pjb4kwmz65988lzc0k340wa4ksr8mgdkm6nd",
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
