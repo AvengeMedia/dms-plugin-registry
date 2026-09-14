@@ -7702,6 +7702,36 @@ Drink water reminder and tracker.
 
 
 
+#### [Hyprland Submap Bar](https://github.com/agussantos023/hyprSubmap)
+
+Shows the current Hyprland submap on the DMS bar
+
+
+
+- id: hyprSubmap
+- name: Hyprland Submap Bar
+- author: agussantos023
+- compositors: hyprland
+- capabilities: widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/agussantos023/hyprSubmap/main/screenshot/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Hyprland Window Switcher](https://github.com/AvengeMedia/dms-plugins)
 
 Switch between Hyprland windows with live previews
