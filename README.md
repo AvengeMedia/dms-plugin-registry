@@ -6467,6 +6467,36 @@ CalDAV calendar widget with event listing, notifications, and event management v
 
 
 
+#### [DankChat](https://github.com/coldi1337/DankChat)
+
+Native Telegram and WhatsApp chats with a bar dropdown, tiling window, clipboard attachments, emoji reactions and unread filters.
+
+
+
+- id: dankChat
+- name: DankChat
+- author: coldi1337
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3, python-telethon, python-qrcode, python-pillow, wacli 0.17.1, qt6-multimedia, qt6-imageformats, systemd, wl-clipboard
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/coldi1337/DankChat/v0.3.0/docs/preview.png)
+
+</details>
+
+
+
+
+
 #### [DankPinentry](https://github.com/pacman99/DankPinentry)
 
 GPG/SSH passphrase entry with native DMS modal.
