@@ -6349,7 +6349,7 @@ A customizable Pomodoro timer.
 
 #### [Dank RSS Widget](https://github.com/BrendonJL/dms-rss-widget)
 
-Desktop widget for RSS/Atom feeds with keyboard navigation, plus Miniflux and Google Reader sync (FreshRSS, Tiny Tiny RSS, Inoreader) with bidirectional read/unread and starred state
+Desktop widget for RSS/Atom feeds with vim-style keyboard navigation, a reading window with local full-text extraction, and export to markdown notes. Syncs with Miniflux and Google Reader (FreshRSS, Tiny Tiny RSS, Inoreader). Optional local AI via any OpenAI-compatible runtime for per-article summaries, a daily digest and interest ranking. Colour-blindness-safe palettes
 
 
 
