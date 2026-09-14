@@ -8722,6 +8722,36 @@ Extract text from clipboard images or local files using Tesseract OCR.
 
 
 
+#### [Obsidian Capture](https://github.com/nishantg96/dms-obsidian-capture)
+
+Capture a note or task into today's daily note from anywhere, with a bar widget showing open tasks. Built for Obsidian; works with any folder of Markdown files.
+
+
+
+- id: obsidianCapture
+- name: Obsidian Capture
+- author: nishantg96
+- compositors: any
+- capabilities: daemon, dankbar-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/nishantg96/dms-obsidian-capture/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Obsidian Vault Search](https://github.com/kmf/dms-obsidian-search)
 
 Search notes in your Obsidian vaults by title, folder, and content directly from the DMS launcher
