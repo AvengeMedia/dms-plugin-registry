@@ -2775,12 +2775,12 @@
     "url": "https://github.com/luckjokerwang/dms-dankcalendar"
   },
   "dankChat": {
-    "date": "2026-09-14T07:38:56+02:00",
+    "date": "2026-09-14T20:41:24+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-wd+j7KDkn3Gu+rf5n6bs5K21zkD1avpgdVCfQjKNmRo=",
+    "hash": "sha256-IcIRGKE7i8kKQlZCGBZPmVw7zmFJPm4Mo95M6+k3VDU=",
     "leaveDotGit": false,
     "meta": {
       "author": "coldi1337",
@@ -2810,12 +2810,12 @@
       "name": "DankChat",
       "repo": "https://github.com/coldi1337/DankChat",
       "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.3.0/docs/preview.png",
-      "version": "0.3.0"
+      "version": "0.4.0"
     },
-    "path": "/nix/store/pjw9i7aqpi9358dznwxq52v3w14d9707-DankChat",
-    "rev": "d61044885bb7088193751cce81231d7a739c6e67",
+    "path": "/nix/store/pvi9jccbgqafcmrhkllhm3lz2l91r5vz-DankChat",
+    "rev": "abbcda0e30f4774440676ac105136a6b60e51674",
     "rootDir": "",
-    "sha256": "06lrilr457shfmhglspm837bbbg4xjk9zydpzap737z4l3na7py1",
+    "sha256": "0dal6zlynk6ylc66wgj9c773np4r9wb1hhjn885ck2rvl4c13hi1",
     "url": "https://github.com/coldi1337/DankChat"
   },
   "dankCleaner": {
@@ -10131,12 +10131,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-09-13T15:35:47-04:00",
+    "date": "2026-09-14T11:01:11-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-7eVsE1a2SBlFzKi8TyTUoKAiawSL1g7RfNg05bYs5oc=",
+    "hash": "sha256-QZfX0k9C+G4RXcLS0JJ+JdcaPpCUXcdmHGseaCGwjLc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -10169,10 +10169,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.4.2"
     },
-    "path": "/nix/store/7ib5snw317zacxmn046mc0zrdc65r3bc-dms-quick-capture",
-    "rev": "b073c1640d0ee0525912158af32e42816aea1075",
+    "path": "/nix/store/pb6vmgganijdgg4m5n7rb65kngb14isx-dms-quick-capture",
+    "rev": "c48ba0cc72c1d7690c76dcb9bcc5ae3e262ecf8f",
     "rootDir": "",
-    "sha256": "11z65jvfad6qgk8hxmlb0imj5850shj4zg58ri2ijj5naq9nrrgd",
+    "sha256": "1dwcn0hnh7kb3ikcfpclj0z1mmr5gs9d1ln2bl8nxy229z9dg5s1",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -11797,12 +11797,12 @@
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
   "takeABreak": {
-    "date": "2026-08-23T16:26:20+07:00",
+    "date": "2026-09-14T21:19:22+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-y2XG9XRx1JBugIfgsftm6W5I/2TcBpaS451Ab0meeiI=",
+    "hash": "sha256-h50O0LRjtI7fGzgtZzx5OLVsI5cd1mJQ5NjjSQlPc7E=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -11824,12 +11824,12 @@
       "repo": "https://github.com/hthienloc/dms-take-a-break",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png",
       "type": "daemon",
-      "version": "1.4.4"
+      "version": "1.5.0"
     },
-    "path": "/nix/store/r07vrmp81gl92nk42lphzh42fy6mqhsd-dms-take-a-break",
-    "rev": "38e5a1cc12cd797a0d55d26d47c905fab9fa180b",
+    "path": "/nix/store/zm69py77d0kj0l3hh1aa85i4w9vj16y0-dms-take-a-break",
+    "rev": "a35c114f364cd02f7500dbdf9caa145ee1520364",
     "rootDir": "",
-    "sha256": "08kskr4nyh4xwf99c1nwckzlhvp9cvxv3q47h1p91m3ifkswcrfb",
+    "sha256": "1cbk9w4lkqyqwi865mhxjwinrd9qg4y6fb9q3ggqxd33nk80x7c7",
     "url": "https://github.com/hthienloc/dms-take-a-break"
   },
   "tasks": {
