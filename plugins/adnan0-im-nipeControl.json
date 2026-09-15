@@ -1,0 +1,20 @@
+{
+  "id": "nipeControl",
+  "name": "Nipe Control",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/Adnan0-IM/nipeControl",
+  "author": "Adnan0-IM",
+  "description": "Start, stop, and monitor Nipe Tor gateway connection status and external IP address.",
+  "dependencies": [
+    "perl",
+    "perl-config-simple",
+    "perl-json",
+    "perl-readonly",
+    "perl-io-socket-ssl",
+    "perl-net-ssleay",
+    "tor"
+  ],
+  "compositors": ["any"],
+  "distro": ["any"]
+}
