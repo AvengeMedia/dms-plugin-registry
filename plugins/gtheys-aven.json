@@ -9,5 +9,6 @@
     "dependencies": ["aven"],
     "compositors": ["any"],
     "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/gtheys/dms-aven/main/screenshot.png",
     "requires_dms": ">=1.2.0"
 }
