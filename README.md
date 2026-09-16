@@ -2948,6 +2948,36 @@ Per-app bar badges for what happened since you last focused that app, cleared by
 
 
 
+#### [Aven Tasks](https://github.com/gtheys/dms-aven)
+
+Quick-add tasks to the aven todo manager from DankLauncher. Pick a project from any aven workspace, or create one on the fly.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: aven
+- name: Aven Tasks
+- author: Geert Theys
+- compositors: any
+- capabilities: launcher
+- dependencies: aven
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/gtheys/dms-aven/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Calendar Agenda](https://github.com/arqueon/dms-dankcalendar)
 
 Next-event countdown for dcal with a scrollable agenda popout grouped by day: click an event to open it in DankCalendar, + creates a new one, right click refreshes, middle click toggles the calendar window. Happening-now events in green, past ones dimmed.
