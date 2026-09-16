@@ -1,0 +1,25 @@
+{
+  "id": "desktopBackup",
+  "name": "EnderBackup",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "author": "iquantecho",
+  "description": "Verified desktop configuration backups for DMS, with configurable contents and bar styles.",
+  "dependencies": [
+    "python",
+    "tar",
+    "systemd",
+    "xdg-utils"
+  ],
+  "requires_dms": ">=1.6.0",
+  "category": "system",
+  "repo": "https://github.com/iquantecho/enderbackup",
+  "compositors": [
+    "hyprland"
+  ],
+  "distro": [
+    "arch"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/iquantecho/enderbackup/main/docs/preview.png"
+}
