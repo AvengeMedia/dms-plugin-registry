@@ -1,13 +1,19 @@
 {
     "id": "btcPriceMonitor",
     "name": "BTC Price Monitor",
-    "capabilities": ["dankbar-widget"],
+    "capabilities": [
+        "dankbar-widget"
+    ],
     "category": "monitoring",
     "repo": "https://github.com/kastormdz/dmsbtc",
     "author": "kastor",
     "description": "Bitcoin price in your DankBar with provider failover, trend coloring and a popout with a live sparkline",
     "dependencies": [],
-    "compositors": ["any"],
-    "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/kastormdz/dmsbtc/main/dmsbtc.png"
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/kastormdz/dmsbtc/main/popout.png"
 }
