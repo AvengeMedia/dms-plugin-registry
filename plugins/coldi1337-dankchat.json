@@ -7,7 +7,7 @@
   "category": "utilities",
   "repo": "https://github.com/coldi1337/DankChat",
   "author": "coldi1337",
-  "description": "Native Telegram and WhatsApp chats with a bar dropdown, tiling window, clipboard attachments, emoji reactions and unread filters.",
+  "description": "Native Telegram and WhatsApp chats with a bar dropdown, tiling window, voice messages, attachments and emoji reactions.",
   "dependencies": [
     "python3",
     "python-telethon",
@@ -17,7 +17,9 @@
     "qt6-multimedia",
     "qt6-imageformats",
     "systemd",
-    "wl-clipboard"
+    "wl-clipboard",
+    "ffmpeg (with libopus and PulseAudio input)",
+    "PulseAudio or PipeWire with pipewire-pulse"
   ],
   "compositors": [
     "any"
@@ -25,5 +27,5 @@
   "distro": [
     "any"
   ],
-  "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.3.0/docs/preview.png"
+  "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.4.0/docs/preview.png"
 }
