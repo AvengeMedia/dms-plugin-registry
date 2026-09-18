@@ -11166,7 +11166,7 @@ Briefly shows the id and name of the workspace you just switched to, centered on
 - id: workspaceOsdFlash
 - name: Workspace OSD Flash
 - author: Ale Bles
-- compositors: hyprland, niri
+- compositors: hyprland, niri, mangowc, sway, labwc, miracle-wm
 - capabilities: daemon, ipc
 - dependencies: 
 - distro: any
