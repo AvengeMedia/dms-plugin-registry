@@ -3959,6 +3959,36 @@ DankBar widget for selecting DMS output profiles.
 
 
 
+#### [EnderBackup](https://github.com/iquantecho/enderbackup)
+
+Verified desktop configuration backups for DMS, with configurable contents and bar styles.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: desktopBackup
+- name: EnderBackup
+- author: iquantecho
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python, tar, systemd, xdg-utils
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/iquantecho/enderbackup/main/docs/preview.png)
+
+</details>
+
+
+
+
+
 #### [Extended Network Toggle](https://github.com/notherealmarco/dms-plugin-extended-network)
 
 Network toggle with Ethernet, WiFi, and Other interfaces (bridges, VLANs, bonds)
