@@ -5,7 +5,7 @@
   "category": "utilities",
   "repo": "https://github.com/AleBles/dms-workspace-osd",
   "author": "Ale Bles",
-  "description": "Briefly shows the id and name of the workspace you just switched to, centered on that screen. Hyprland, niri, Mango, sway, Miracle WM, labwc and other ext-workspace compositors.",
+  "description": "Briefly shows the id and name of the workspace you just switched to, centered on that screen.",
   "dependencies": [],
   "compositors": ["hyprland", "niri", "mangowc", "sway", "labwc", "miracle-wm"],
   "distro": ["any"],
