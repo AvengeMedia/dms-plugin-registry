@@ -1418,12 +1418,12 @@
     "url": "https://github.com/mcwiseman97/dms-canvas-plugin"
   },
   "cardwireManager": {
-    "date": "2026-07-15T15:00:56+02:00",
+    "date": "2026-09-18T14:16:09+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-pMN2MFihx78Bs1W21eFUWLTihfPiSFmFb+gT4FP4f6Y=",
+    "hash": "sha256-kYgRY4SmuU/vfVf0eIVZz1Lve06CIHfaIo/xVevFw04=",
     "leaveDotGit": false,
     "meta": {
       "author": "Jan Kelemen",
@@ -1445,12 +1445,12 @@
       "name": "Cardwire Manager",
       "repo": "https://github.com/jankelemen/cardwire-manager",
       "screenshot": "https://raw.githubusercontent.com/jankelemen/cardwire-manager/master/assets/screenshot.png",
-      "version": "0.1.2"
+      "version": "0.1.3"
     },
-    "path": "/nix/store/cgf7r8fs078lcv3pgc054hvkvvlj0zv8-cardwire-manager",
-    "rev": "1513e4208d955933432650dbf0238faf5cbeaca7",
+    "path": "/nix/store/5246ndi9agazpgvc3g8p0d11wfk69bhv-cardwire-manager",
+    "rev": "f1638a3f34c02e9c2733997678c155b882e2764f",
     "rootDir": "",
-    "sha256": "19kzz19y04z8dy2mjj72yf2y5d2qakhxbdjmnc0vzix1b0q7dhx4",
+    "sha256": "0kn3qpmmbwcg4bd7f8429rxyylngb62pix2pgpplzfd6hiii324i",
     "url": "https://github.com/jankelemen/cardwire-manager"
   },
   "catWidget": {
@@ -2729,12 +2729,12 @@
     "url": "https://github.com/alcxyz/DankCalendar"
   },
   "dankCalendarAgenda": {
-    "date": "2026-08-15T02:31:55-06:00",
+    "date": "2026-09-18T12:38:43-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Ud7I1+EIDCXep/02mCR8wwu1D66jy/F6VzjX0tvsvbo=",
+    "hash": "sha256-6d5x/3iAmddDVt8YkPshHARBoSIgjabPCRJ8iJUeTK8=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -2765,12 +2765,12 @@
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-dankcalendar/main/assets/screenshot.png",
       "settings": "./DankCalendarSettings.qml",
       "type": "widget",
-      "version": "1.3.0"
+      "version": "1.5.0"
     },
-    "path": "/nix/store/g7d67x1nainpsz14xlp1mgjz6s9dazdh-dms-dankcalendar",
-    "rev": "a592b4954ded272303d76fe5c85663a0fad1cdaf",
+    "path": "/nix/store/gl2iqnm87dspjnszfsak3sxszk9966hh-dms-dankcalendar",
+    "rev": "927b7bf71bf2112bab09bded60b2e96bb99cd905",
     "rootDir": "",
-    "sha256": "1fmxxkdx5mrqaxxg3jx3mq7va2y3ghj9hdpxlzg2a308w7bwipji",
+    "sha256": "1bsc3saqhz0j177sd3904ahl210w47xr066zar1xg6c0g3zp3pp9",
     "url": "https://github.com/arqueon/dms-dankcalendar"
   },
   "dankCalendarPlus": {
@@ -4902,12 +4902,12 @@
     "url": "https://github.com/EienWolf/dms-displayprofile"
   },
   "displayProfileManager": {
-    "date": "2026-07-15T14:33:44+02:00",
+    "date": "2026-09-18T14:16:09+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-CzEGtqtT82Ba9sXQKFNp3x8wibHLgJQVU+sIa1hmRiM=",
+    "hash": "sha256-PIkoNwtSfbuN0FXv9SvD/2idypTiBm8/n5yGp+CZGBI=",
     "leaveDotGit": false,
     "meta": {
       "author": "Jan Kelemen",
@@ -4927,12 +4927,12 @@
       "name": "Display Profile Manager",
       "repo": "https://github.com/jankelemen/dank-display-profile-manager",
       "screenshot": "https://raw.githubusercontent.com/jankelemen/dank-display-profile-manager/master/assets/screenshot.png",
-      "version": "0.1.8"
+      "version": "0.1.9"
     },
-    "path": "/nix/store/59mq3lms0jldxa2gxfcz14wf6rxwglm1-dank-display-profile-manager",
-    "rev": "497ea32fe48fe76835d52f7a6794d516cde15b48",
+    "path": "/nix/store/bsn9kqqjn7k6xgcgvsd7y4zmqda0bycy-dank-display-profile-manager",
+    "rev": "e59fd5babc4e99b0c2fb224180fe5b0f8e18b8ca",
     "rootDir": "",
-    "sha256": "08s6crc6n27bacar906bn64k07yzd59jil65yrd61wskmfv0cc8b",
+    "sha256": "04hqk7hag1lwkwzny1p2jk59ss7zqcmzbvsms26vnzaj1cvji29w",
     "url": "https://github.com/jankelemen/dank-display-profile-manager"
   },
   "displaySettings": {
@@ -6814,12 +6814,12 @@
     "url": "https://github.com/hthienloc/dms-hand-mirror"
   },
   "herdrAgentMonitor": {
-    "date": "2026-09-05T21:49:23+02:00",
+    "date": "2026-09-18T23:27:21+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2ng/TQWUbofNXnJfy81KRtSTwBN6SFwh+ociEU/iSWw=",
+    "hash": "sha256-71z9fS650yIKhAdJZBZ6KVjdhlA7YddcJIhfrl5v3pE=",
     "leaveDotGit": false,
     "meta": {
       "author": "Mor-dev",
@@ -6843,10 +6843,10 @@
       "screenshot": "https://raw.githubusercontent.com/Mor-dev/herdr-agent-monitor/master/assets/popout.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/pkyqvfvmiv8m9lwpbs0812pf6x2rrz36-herdr-agent-monitor",
-    "rev": "25b476f2d048069a745448bfba9b47cd7b5ecafa",
+    "path": "/nix/store/638z0ifvpn7028k02mmainnlb6kc6m1p-herdr-agent-monitor",
+    "rev": "1a253f3eaf588602135513d30ccfb8bc46d90455",
     "rootDir": "",
-    "sha256": "0v29w97i28l7z8hmqj3s2g097m269b6wnpvjbv6qfvll0m6kyy6s",
+    "sha256": "14fydxgawpw84ifdfq9va23dsn19g8b68j87hh525lxr5ryzsp7g",
     "url": "https://github.com/Mor-dev/herdr-agent-monitor"
   },
   "hiddenBar": {
@@ -10210,12 +10210,12 @@
     "url": "https://github.com/hthienloc/dms-qr-generator"
   },
   "quickCapture": {
-    "date": "2026-09-15T10:02:53-04:00",
+    "date": "2026-09-18T07:49:06+07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-cb+IvVl2/i31qIwhIKVTY3GhYn1G0zwGPAEqVrXhRTY=",
+    "hash": "sha256-cu0Cux94PpAL0yGbHq6aSobjOmFaVLCI1fZrqfEDdI0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Loc Huynh",
@@ -10248,10 +10248,10 @@
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
       "version": "5.4.2"
     },
-    "path": "/nix/store/cm5078jdh5fdvpaalnql7jzkv4l4184g-dms-quick-capture",
-    "rev": "d84703fb9b1ae20c3870130fca4dae9a6b57b5c0",
+    "path": "/nix/store/3q4l7l03pjma9f730b4hsvy5mfz9ss33-dms-quick-capture",
+    "rev": "e00d21eb3e14f7e5c3cb24562fa71fa481ceb540",
     "rootDir": "",
-    "sha256": "0dj5w6smcah17h33rls6gmia2wb3afjj08ccm3sjvzknb6yqigvi",
+    "sha256": "13bl0gqsjsznsn4b0m2sc4xf71jakap1x6r1sc5r0gkq3yxh5vbj",
     "url": "https://github.com/hthienloc/dms-quick-capture"
   },
   "quickTote": {
@@ -13456,7 +13456,11 @@
       "category": "utilities",
       "compositors": [
         "hyprland",
-        "niri"
+        "niri",
+        "mangowc",
+        "sway",
+        "labwc",
+        "miracle-wm"
       ],
       "dependencies": [],
       "description": "Briefly shows the id and name of the workspace you just switched to, centered on that screen.",
