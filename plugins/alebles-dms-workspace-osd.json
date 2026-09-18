@@ -7,7 +7,7 @@
   "author": "Ale Bles",
   "description": "Briefly shows the id and name of the workspace you just switched to, centered on that screen.",
   "dependencies": [],
-  "compositors": ["hyprland", "niri"],
+  "compositors": ["hyprland", "niri", "mangowc", "sway", "labwc", "miracle-wm"],
   "distro": ["any"],
   "screenshot": "https://raw.githubusercontent.com/AleBles/dms-workspace-osd/main/assets/screenshot.png",
   "requires_dms": ">=1.6.0"
