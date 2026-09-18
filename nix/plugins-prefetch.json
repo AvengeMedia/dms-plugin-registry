@@ -1524,12 +1524,12 @@
     "url": "https://github.com/ernestowgg/cava-visualizer"
   },
   "chatManager": {
-    "date": "2026-09-17T21:17:44+03:00",
+    "date": "2026-09-18T08:47:34+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-yf/5Q1Nd7ikzyqNq6CoyhzH2H+zHrjDYFCAdFsCujCs=",
+    "hash": "sha256-K/TplbQhDrDUdE1bGjWgNSZXDZHbjMYzxQaxBBAVGS0=",
     "leaveDotGit": false,
     "meta": {
       "author": "by-architect",
@@ -1554,19 +1554,19 @@
       "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/chatManager/docs/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/5bs9sq8kpzvka6bqdpd7b1b7vncpdfqv-DMS-Plugins",
-    "rev": "abfad89fa090441c9946e45d949b3bb86a3e9005",
+    "path": "/nix/store/vhc7p4p81sb55922vkmzi2s8v8a86s1m-DMS-Plugins",
+    "rev": "6d53fbd9071aa1d62e4ce6d78ab7370a9eeba4c8",
     "rootDir": "",
-    "sha256": "0awcmv01c7902kc31bn7xhgzccc768mfhsm3r8rjkvjxad1zkzy9",
+    "sha256": "0b8r2l809c86qlrwd36vj46mf9iml0silnsdfkab03i1njaykx1b",
     "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "chatRunner": {
-    "date": "2026-09-17T21:17:44+03:00",
+    "date": "2026-09-18T08:47:34+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-yf/5Q1Nd7ikzyqNq6CoyhzH2H+zHrjDYFCAdFsCujCs=",
+    "hash": "sha256-K/TplbQhDrDUdE1bGjWgNSZXDZHbjMYzxQaxBBAVGS0=",
     "leaveDotGit": false,
     "meta": {
       "author": "by-architect",
@@ -1589,10 +1589,10 @@
       "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/chatRunner/docs/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/5bs9sq8kpzvka6bqdpd7b1b7vncpdfqv-DMS-Plugins",
-    "rev": "abfad89fa090441c9946e45d949b3bb86a3e9005",
+    "path": "/nix/store/vhc7p4p81sb55922vkmzi2s8v8a86s1m-DMS-Plugins",
+    "rev": "6d53fbd9071aa1d62e4ce6d78ab7370a9eeba4c8",
     "rootDir": "",
-    "sha256": "0awcmv01c7902kc31bn7xhgzccc768mfhsm3r8rjkvjxad1zkzy9",
+    "sha256": "0b8r2l809c86qlrwd36vj46mf9iml0silnsdfkab03i1njaykx1b",
     "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "chineseCalendar": {
@@ -1827,12 +1827,12 @@
     "url": "https://github.com/Dadangdut33/dms-plugins"
   },
   "clipboardRunner": {
-    "date": "2026-09-17T21:17:44+03:00",
+    "date": "2026-09-18T08:47:34+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-yf/5Q1Nd7ikzyqNq6CoyhzH2H+zHrjDYFCAdFsCujCs=",
+    "hash": "sha256-K/TplbQhDrDUdE1bGjWgNSZXDZHbjMYzxQaxBBAVGS0=",
     "leaveDotGit": false,
     "meta": {
       "author": "by-architect",
@@ -1861,10 +1861,10 @@
       "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/clipboardRunner/docs/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/5bs9sq8kpzvka6bqdpd7b1b7vncpdfqv-DMS-Plugins",
-    "rev": "abfad89fa090441c9946e45d949b3bb86a3e9005",
+    "path": "/nix/store/vhc7p4p81sb55922vkmzi2s8v8a86s1m-DMS-Plugins",
+    "rev": "6d53fbd9071aa1d62e4ce6d78ab7370a9eeba4c8",
     "rootDir": "",
-    "sha256": "0awcmv01c7902kc31bn7xhgzccc768mfhsm3r8rjkvjxad1zkzy9",
+    "sha256": "0b8r2l809c86qlrwd36vj46mf9iml0silnsdfkab03i1njaykx1b",
     "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "cliproxyQuota": {
@@ -4471,6 +4471,46 @@
     "rootDir": "",
     "sha256": "0pl7yvxrly8674yh11sp40q9d4qq6mszc51x4qpsq8sr02dv3cpm",
     "url": "https://github.com/gylove1994/deepseek-dms-widget"
+  },
+  "desktopBackup": {
+    "date": "2026-09-16T19:40:39Z",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-lEVguElJaa3yxXdAGoE4ZGYqJIlwolEYKT4ws2jPAss=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "iquantecho",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python",
+        "tar",
+        "systemd",
+        "xdg-utils"
+      ],
+      "description": "Verified desktop configuration backups for DMS, with configurable contents and bar styles.",
+      "distro": [
+        "any"
+      ],
+      "id": "desktopBackup",
+      "name": "EnderBackup",
+      "repo": "https://github.com/iquantecho/enderbackup",
+      "requires_dms": ">=1.6.0",
+      "screenshot": "https://raw.githubusercontent.com/iquantecho/enderbackup/main/docs/preview.png",
+      "version": "2.3.0"
+    },
+    "path": "/nix/store/af2h611inh6fvpgp6aa1ac6s57z9k76j-enderbackup",
+    "rev": "23293efe8a31768fc2ab108217d5e79e8730526b",
+    "rootDir": "",
+    "sha256": "1jq2rxlb6c1y54c538khi4j2lrk4720ilh3pqprassa996w60icl",
+    "url": "https://github.com/iquantecho/enderbackup"
   },
   "desktopCommand": {
     "date": "2026-01-06T22:34:35+01:00",
@@ -8139,12 +8179,12 @@
     "url": "https://github.com/notsopreety/materialWeather"
   },
   "matrixChat": {
-    "date": "2026-09-17T21:17:44+03:00",
+    "date": "2026-09-18T08:47:34+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-yf/5Q1Nd7ikzyqNq6CoyhzH2H+zHrjDYFCAdFsCujCs=",
+    "hash": "sha256-K/TplbQhDrDUdE1bGjWgNSZXDZHbjMYzxQaxBBAVGS0=",
     "leaveDotGit": false,
     "meta": {
       "author": "by-architect",
@@ -8169,10 +8209,10 @@
       "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/matrixChat/docs/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/5bs9sq8kpzvka6bqdpd7b1b7vncpdfqv-DMS-Plugins",
-    "rev": "abfad89fa090441c9946e45d949b3bb86a3e9005",
+    "path": "/nix/store/vhc7p4p81sb55922vkmzi2s8v8a86s1m-DMS-Plugins",
+    "rev": "6d53fbd9071aa1d62e4ce6d78ab7370a9eeba4c8",
     "rootDir": "",
-    "sha256": "0awcmv01c7902kc31bn7xhgzccc768mfhsm3r8rjkvjxad1zkzy9",
+    "sha256": "0b8r2l809c86qlrwd36vj46mf9iml0silnsdfkab03i1njaykx1b",
     "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "mediaControlPlus": {
@@ -11112,12 +11152,12 @@
     "url": "https://github.com/lpv11/dms-hypr-show-desktop"
   },
   "signalChat": {
-    "date": "2026-09-17T21:17:44+03:00",
+    "date": "2026-09-18T08:47:34+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-yf/5Q1Nd7ikzyqNq6CoyhzH2H+zHrjDYFCAdFsCujCs=",
+    "hash": "sha256-K/TplbQhDrDUdE1bGjWgNSZXDZHbjMYzxQaxBBAVGS0=",
     "leaveDotGit": false,
     "meta": {
       "author": "by-architect",
@@ -11142,10 +11182,10 @@
       "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/signalChat/docs/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/5bs9sq8kpzvka6bqdpd7b1b7vncpdfqv-DMS-Plugins",
-    "rev": "abfad89fa090441c9946e45d949b3bb86a3e9005",
+    "path": "/nix/store/vhc7p4p81sb55922vkmzi2s8v8a86s1m-DMS-Plugins",
+    "rev": "6d53fbd9071aa1d62e4ce6d78ab7370a9eeba4c8",
     "rootDir": "",
-    "sha256": "0awcmv01c7902kc31bn7xhgzccc768mfhsm3r8rjkvjxad1zkzy9",
+    "sha256": "0b8r2l809c86qlrwd36vj46mf9iml0silnsdfkab03i1njaykx1b",
     "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "simpleAudioControl": {
@@ -13254,12 +13294,12 @@
     "url": "https://github.com/antikytheraton/DankWebcamViewer"
   },
   "whatsappChat": {
-    "date": "2026-09-17T21:17:44+03:00",
+    "date": "2026-09-18T08:47:34+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-yf/5Q1Nd7ikzyqNq6CoyhzH2H+zHrjDYFCAdFsCujCs=",
+    "hash": "sha256-K/TplbQhDrDUdE1bGjWgNSZXDZHbjMYzxQaxBBAVGS0=",
     "leaveDotGit": false,
     "meta": {
       "author": "by-architect",
@@ -13284,10 +13324,10 @@
       "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/whatsappChat/docs/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/5bs9sq8kpzvka6bqdpd7b1b7vncpdfqv-DMS-Plugins",
-    "rev": "abfad89fa090441c9946e45d949b3bb86a3e9005",
+    "path": "/nix/store/vhc7p4p81sb55922vkmzi2s8v8a86s1m-DMS-Plugins",
+    "rev": "6d53fbd9071aa1d62e4ce6d78ab7370a9eeba4c8",
     "rootDir": "",
-    "sha256": "0awcmv01c7902kc31bn7xhgzccc768mfhsm3r8rjkvjxad1zkzy9",
+    "sha256": "0b8r2l809c86qlrwd36vj46mf9iml0silnsdfkab03i1njaykx1b",
     "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "whisperer": {
