@@ -1,0 +1,25 @@
+{
+    "id": "screenkey",
+    "name": "Screenkey",
+    "capabilities": [
+        "daemon",
+        "control-center"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-plugins",
+    "author": "Loc Huynh",
+    "description": "An always-on-top keystroke and mouse click visualizer for tutorials.",
+    "dependencies": [
+        "evtest",
+        "libinput"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "requires_dms": ">=1.5.0",
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/screenkey/screenshot.png",
+    "path": "plugins/screenkey"
+}

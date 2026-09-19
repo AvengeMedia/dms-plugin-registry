@@ -1,0 +1,20 @@
+{
+    "id": "hydrate",
+    "name": "Hydrate",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-plugins",
+    "author": "Loc Huynh",
+    "description": "Drink water reminder and tracker.",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/hydrate/screenshot.png",
+    "path": "plugins/hydrate"
+}

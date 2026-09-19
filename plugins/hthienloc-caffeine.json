@@ -1,0 +1,20 @@
+{
+    "id": "caffeine",
+    "name": "Caffeine",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "system",
+    "repo": "https://github.com/hthienloc/dms-plugins",
+    "author": "Loc Huynh",
+    "description": "Keep your screen awake and prevent idle sleep with a single click.",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/caffeine/screenshot.png",
+    "path": "plugins/caffeine"
+}
