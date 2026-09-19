@@ -1,0 +1,13 @@
+{
+    "id": "aiUsage",
+    "name": "AI Usage Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/blind0wl/dms-ai-usage",
+    "author": "blind0wl",
+    "description": "Monitor your Claude, ChatGPT/Codex, Z.ai and opencode Go usage with token tracking, estimated API costs, rate limits, and daily activity charts",
+    "dependencies": ["jq", "curl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/blind0wl/dms-ai-usage/master/screenshot.png"
+}
