@@ -7354,6 +7354,44 @@
     "sha256": "1v7rb8qr6s1sff75qb8rbalsv775w6fywrr0vv6fz7fdvi4qpbch",
     "url": "https://github.com/stvnwrgs/dms-keybindings-cheat-sheet"
   },
+  "keystrokes": {
+    "date": "2026-09-20T02:13:28+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-6Eekb+VhfhX4R2AbUsn9RFQjwba+VeMf/3JGLsgzKDY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Tz-slayer",
+      "capabilities": [
+        "daemon",
+        "control-center"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "libinput",
+        "python3"
+      ],
+      "description": "Shows every key you press as on-screen keycaps, with press counts and keystroke history. Ported from keyviz, for screencasts and tutorials.",
+      "distro": [
+        "any"
+      ],
+      "id": "keystrokes",
+      "name": "Keystrokes",
+      "repo": "https://github.com/Tz-slayer/keystrokes",
+      "screenshot": "https://raw.githubusercontent.com/Tz-slayer/keystrokes/main/docs/cover.png",
+      "version": "1.3.1"
+    },
+    "path": "/nix/store/ngbb81g010lvxk0maij5sw9q5s9khgsp-keystrokes",
+    "rev": "3ec7e44774e4aaf1adfa7eb49d32451e5708b79d",
+    "rootDir": "",
+    "sha256": "0di86g42wikjzwgy6mdynv0j6m24zp4m46v08zw1azk1wmps8iz8",
+    "url": "https://github.com/Tz-slayer/keystrokes"
+  },
   "khalCalendar": {
     "date": "2026-06-21T20:46:25+08:00",
     "deepClone": false,
@@ -10835,12 +10873,12 @@
     "url": "https://github.com/boutabong/dms-plugins"
   },
   "sessionEdge": {
-    "date": "2026-09-19T13:56:43-05:00",
+    "date": "2026-09-19T14:30:39-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-OwJDT4TMvvyHMQOCBixkJBNOMM0ZBFT3DrmII1zugLM=",
+    "hash": "sha256-O8XqynchXF0mIX7j2z8JwFw/mFXSaqAc9mzftzMMyhU=",
     "leaveDotGit": false,
     "meta": {
       "author": "satoshoe",
@@ -10862,10 +10900,10 @@
       "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-sessionedge/main/assets/screenshot.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/bk6y9fk3s8i43frcwl7lmlxfwvdmyp75-dms-sessionedge",
-    "rev": "2e09e306810e772f4567b7c879c0a8cdb3588b85",
+    "path": "/nix/store/99abi3lg6r751afl8ybmjkiya4i4rf8y-dms-sessionedge",
+    "rev": "f11473df1e236dc8210c49376a375be8ec82c112",
     "rootDir": "",
-    "sha256": "1cw0xrf2725r1vvm810rrlq4w4r4chn0d0h3663zrgnchi7l60iv",
+    "sha256": "05fa1hrvgpvcyqfa0snjanc3yp6014zxpqvy44k5sp11fz5fmi9v",
     "url": "https://github.com/satoshoe-dev/dms-sessionedge"
   },
   "sessionPower": {
