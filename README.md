@@ -3617,7 +3617,7 @@ Keep your screen awake and prevent idle sleep with a single click.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/caffeine](https://github.com/hthienloc/dms-plugins/tree/main/plugins/caffeine) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [caffeine](https://github.com/hthienloc/dms-plugins/tree/main/caffeine) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -3626,7 +3626,7 @@ Keep your screen awake and prevent idle sleep with a single click.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/caffeine/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/caffeine/screenshot.png)
 
 </details>
 
@@ -4072,7 +4072,7 @@ Display public IP address, ISP, and location with a privacy-focused toggle.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/ipIndicator](https://github.com/hthienloc/dms-plugins/tree/main/plugins/ipIndicator) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [ipIndicator](https://github.com/hthienloc/dms-plugins/tree/main/ipIndicator) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -4081,7 +4081,7 @@ Display public IP address, ISP, and location with a privacy-focused toggle.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/ipIndicator/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ipIndicator/screenshot.png)
 
 </details>
 
@@ -4600,7 +4600,7 @@ Adds a watermark to the bottom-right of the screen
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/activateLinux](https://github.com/hthienloc/dms-plugins/tree/main/plugins/activateLinux) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [activateLinux](https://github.com/hthienloc/dms-plugins/tree/main/activateLinux) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -4609,7 +4609,7 @@ Adds a watermark to the bottom-right of the screen
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/activateLinux/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/activateLinux/screenshot.png)
 
 </details>
 
@@ -4730,7 +4730,7 @@ Play ambient focus sounds with integrated sleep timer and volume control.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/ambientSound](https://github.com/hthienloc/dms-plugins/tree/main/plugins/ambientSound) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [ambientSound](https://github.com/hthienloc/dms-plugins/tree/main/ambientSound) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -4739,7 +4739,7 @@ Play ambient focus sounds with integrated sleep timer and volume control.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/ambientSound/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ambientSound/screenshot.png)
 
 </details>
 
@@ -4980,7 +4980,7 @@ A reactive animated cat that taps along with your keyboard input.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/bongoCat](https://github.com/hthienloc/dms-plugins/tree/main/plugins/bongoCat) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [bongoCat](https://github.com/hthienloc/dms-plugins/tree/main/bongoCat) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -4989,7 +4989,7 @@ A reactive animated cat that taps along with your keyboard input.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/bongoCat/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/bongoCat/screenshot.png)
 
 </details>
 
@@ -5015,7 +5015,7 @@ A guided breathing exercise tool for mindfulness and relaxation.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/breathing](https://github.com/hthienloc/dms-plugins/tree/main/plugins/breathing) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [breathing](https://github.com/hthienloc/dms-plugins/tree/main/breathing) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -5024,7 +5024,7 @@ A guided breathing exercise tool for mindfulness and relaxation.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/breathing/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/breathing/screenshot.png)
 
 </details>
 
@@ -6765,7 +6765,7 @@ Toggle visibility of desktop widget groups as overlay
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/desktopWidgetToggle](https://github.com/hthienloc/dms-plugins/tree/main/plugins/desktopWidgetToggle) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [desktopWidgetToggle](https://github.com/hthienloc/dms-plugins/tree/main/desktopWidgetToggle) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -6774,7 +6774,7 @@ Toggle visibility of desktop widget groups as overlay
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/desktopWidgetToggle/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/desktopWidgetToggle/screenshot.png)
 
 </details>
 
@@ -7105,7 +7105,7 @@ Search, copy, and paste emoji from a centered picker.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/emojiPicker](https://github.com/hthienloc/dms-plugins/tree/main/plugins/emojiPicker) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [emojiPicker](https://github.com/hthienloc/dms-plugins/tree/main/emojiPicker) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -7114,7 +7114,7 @@ Search, copy, and paste emoji from a centered picker.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/emojiPicker/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/emojiPicker/screenshot.png)
 
 </details>
 
@@ -7550,7 +7550,7 @@ Cozy camera preview with digital zoom, snapshots, and a pinnable floating window
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/handMirror](https://github.com/hthienloc/dms-plugins/tree/main/plugins/handMirror) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [handMirror](https://github.com/hthienloc/dms-plugins/tree/main/handMirror) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -7559,7 +7559,7 @@ Cozy camera preview with digital zoom, snapshots, and a pinnable floating window
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/handMirror/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/handMirror/screenshot.png)
 
 </details>
 
@@ -7585,7 +7585,7 @@ Hide/Show bar widgets with a click or hover
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/hiddenBar](https://github.com/hthienloc/dms-plugins/tree/main/plugins/hiddenBar) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [hiddenBar](https://github.com/hthienloc/dms-plugins/tree/main/hiddenBar) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -7594,7 +7594,7 @@ Hide/Show bar widgets with a click or hover
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/hiddenBar/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/hiddenBar/screenshot.png)
 
 </details>
 
@@ -7710,7 +7710,7 @@ Drink water reminder and tracker.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/hydrate](https://github.com/hthienloc/dms-plugins/tree/main/plugins/hydrate) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [hydrate](https://github.com/hthienloc/dms-plugins/tree/main/hydrate) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -7719,7 +7719,7 @@ Drink water reminder and tracker.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/hydrate/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/hydrate/screenshot.png)
 
 </details>
 
@@ -7900,7 +7900,7 @@ A lightweight launcher for browsing and copying kaomojis to the clipboard.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/kaomojiPicker](https://github.com/hthienloc/dms-plugins/tree/main/plugins/kaomojiPicker) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [kaomojiPicker](https://github.com/hthienloc/dms-plugins/tree/main/kaomojiPicker) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -7909,7 +7909,7 @@ A lightweight launcher for browsing and copying kaomojis to the clipboard.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/kaomojiPicker/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/kaomojiPicker/screenshot.png)
 
 </details>
 
@@ -8145,7 +8145,7 @@ Quickly browse and launch games from your Lutris library.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/lutrisLauncher](https://github.com/hthienloc/dms-plugins/tree/main/plugins/lutrisLauncher) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [lutrisLauncher](https://github.com/hthienloc/dms-plugins/tree/main/lutrisLauncher) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -8154,7 +8154,7 @@ Quickly browse and launch games from your Lutris library.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/lutrisLauncher/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/lutrisLauncher/screenshot.png)
 
 </details>
 
@@ -8405,7 +8405,7 @@ Download audio and video from web links using yt-dlp
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/mediaDownloader](https://github.com/hthienloc/dms-plugins/tree/main/plugins/mediaDownloader) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [mediaDownloader](https://github.com/hthienloc/dms-plugins/tree/main/mediaDownloader) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -8414,7 +8414,7 @@ Download audio and video from web links using yt-dlp
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/mediaDownloader/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/mediaDownloader/screenshot.png)
 
 </details>
 
@@ -8625,7 +8625,7 @@ Quickly toggle and configure display outputs in the Niri Wayland compositor.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/niriDS](https://github.com/hthienloc/dms-plugins/tree/main/plugins/niriDS) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [niriDS](https://github.com/hthienloc/dms-plugins/tree/main/niriDS) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -8634,7 +8634,7 @@ Quickly toggle and configure display outputs in the Niri Wayland compositor.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/niriDS/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/niriDS/screenshot.png)
 
 </details>
 
@@ -8845,7 +8845,7 @@ Extract text from clipboard images or local files using Tesseract OCR.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/ocrScanner](https://github.com/hthienloc/dms-plugins/tree/main/plugins/ocrScanner) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [ocrScanner](https://github.com/hthienloc/dms-plugins/tree/main/ocrScanner) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -8854,7 +8854,7 @@ Extract text from clipboard images or local files using Tesseract OCR.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/ocrScanner/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ocrScanner/screenshot.png)
 
 </details>
 
@@ -9250,7 +9250,7 @@ Screenshot annotation and screen recording plugin.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/quickCapture](https://github.com/hthienloc/dms-plugins/tree/main/plugins/quickCapture) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [quickCapture](https://github.com/hthienloc/dms-plugins/tree/main/quickCapture) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -9259,7 +9259,7 @@ Screenshot annotation and screen recording plugin.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/quickCapture/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/quickCapture/screenshot.png)
 
 </details>
 
@@ -9770,7 +9770,7 @@ An always-on-top keystroke and mouse click visualizer for tutorials.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/screenkey](https://github.com/hthienloc/dms-plugins/tree/main/plugins/screenkey) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [screenkey](https://github.com/hthienloc/dms-plugins/tree/main/screenkey) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -9779,7 +9779,7 @@ An always-on-top keystroke and mouse click visualizer for tutorials.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/screenkey/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/screenkey/screenshot.png)
 
 </details>
 
@@ -10255,7 +10255,7 @@ A gentle companion that reminds you to rest your eyes with short and long breaks
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/takeABreak](https://github.com/hthienloc/dms-plugins/tree/main/plugins/takeABreak) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [takeABreak](https://github.com/hthienloc/dms-plugins/tree/main/takeABreak) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -10264,7 +10264,7 @@ A gentle companion that reminds you to rest your eyes with short and long breaks
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/takeABreak/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/takeABreak/screenshot.png)
 
 </details>
 
@@ -10410,7 +10410,7 @@ A countdown timer with notification support and audio alerts.
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/timer](https://github.com/hthienloc/dms-plugins/tree/main/plugins/timer) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [timer](https://github.com/hthienloc/dms-plugins/tree/main/timer) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -10419,7 +10419,7 @@ A countdown timer with notification support and audio alerts.
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/timer/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/timer/screenshot.png)
 
 </details>
 
@@ -10505,7 +10505,7 @@ Play mechanical keyboard sounds as you type
 
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [plugins/typingSounds](https://github.com/hthienloc/dms-plugins/tree/main/plugins/typingSounds) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [typingSounds](https://github.com/hthienloc/dms-plugins/tree/main/typingSounds) folder to your `~/.config/DankMaterialShell/plugins/` folder.
 
 
 
@@ -10514,7 +10514,7 @@ Play mechanical keyboard sounds as you type
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/plugins/typingSounds/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/typingSounds/screenshot.png)
 
 </details>
 
