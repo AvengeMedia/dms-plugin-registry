@@ -3599,36 +3599,6 @@ Material YOU inspired On-Screen Display popup and liquid wave indicator for batt
 
 
 
-#### [Caffeine](https://github.com/hthienloc/dms-caffeine)
-
-Keep your screen awake and prevent idle sleep with a single click.
-
-
-
-- id: caffeine
-- name: Caffeine
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Cardwire Manager](https://github.com/jankelemen/cardwire-manager)
 
 DankBar widget for selecting Cardwire GPU modes and showing the currently active mode.
@@ -4042,36 +4012,6 @@ Monitor Framework Laptop fan status and switch fw-fanctrl strategies from DankBa
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/clementpoiret/dms-fwfanctrl/main/docs/widget-preview.png)
-
-</details>
-
-
-
-
-
-#### [IP Indicator](https://github.com/hthienloc/dms-ipIndicator)
-
-Display public IP address, ISP, and location with a privacy-focused toggle.
-
-
-
-- id: ipIndicator
-- name: IP Indicator
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: curl
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-ipIndicator/master/screenshot.png)
 
 </details>
 
@@ -4572,36 +4512,6 @@ Integrated AI chat assistant with markdown support, multiple AI provider support
 
 
 
-#### [Activate Linux Watermark](https://github.com/hthienloc/dms-activate-linux)
-
-Adds a watermark to the bottom-right of the screen
-
-
-
-- id: activateLinux
-- name: Activate Linux Watermark
-- author: Loc Huynh
-- compositors: any
-- capabilities: desktop-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-activate-linux/master/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [AirPods Control](https://github.com/demic-dev/airpods-widget-DMS)
 
 AirPods control center, powered by LibrePods.
@@ -4697,36 +4607,6 @@ Alienware Command Center plugin for DankBar
 
 
 
-#### [Ambient Sound](https://github.com/hthienloc/dms-ambient-sound)
-
-Play ambient focus sounds with integrated sleep timer and volume control.
-
-
-
-- id: ambientSound
-- name: Ambient Sound
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: mpv, socat
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-ambient-sound/master/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Animation Rotate](https://github.com/pnbarbeito/dms-niri-animation-rotate)
 
 Control niri-animation-rotate from the Control Center: switch animations, change modes, and filter events. Daemon included — batteries included.
@@ -4780,36 +4660,6 @@ A QuickShell plugin for DankMaterialShell that tracks anime episode releases and
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin/blob/main/screenshots/today-tab.png?raw=true)
-
-</details>
-
-
-
-
-
-#### [App Launcher](https://github.com/hthienloc/dms-app-launcher)
-
-Desktop widget to search, filter, and launch applications by categories.
-
-
-
-- id: appLauncher
-- name: App Launcher
-- author: Loc Huynh
-- compositors: any
-- capabilities: desktop-widget
-- dependencies: python3
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png)
 
 </details>
 
@@ -4965,66 +4815,6 @@ Search and manage Bitwarden or Vaultwarden using the official Bitwarden CLI, wit
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/coldi1337/dms-bitwarden-cli/main/docs/screenshots/dms-vault-preview.png)
-
-</details>
-
-
-
-
-
-#### [Bongo Cat](https://github.com/hthienloc/dms-bongo-cat)
-
-A reactive animated cat that taps along with your keyboard input.
-
-
-
-- id: bongoCat
-- name: Bongo Cat
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: evtest, libinput
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-bongo-cat/main/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [Breathing Exercise](https://github.com/hthienloc/dms-breathing)
-
-A guided breathing exercise tool for mindfulness and relaxation.
-
-
-
-- id: breathing
-- name: Breathing Exercise
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: mpv, socat
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-breathing/master/screenshot.png)
 
 </details>
 
@@ -6747,36 +6537,6 @@ A widget that displays a command output on your desktop
 
 
 
-#### [Desktop Widget Toggle](https://github.com/hthienloc/dms-desktop-widget-toggle)
-
-Toggle visibility of desktop widget groups as overlay
-
-
-
-- id: desktopWidgetToggle
-- name: Desktop Widget Toggle
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget, ipc
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-desktop-widget-toggle/master/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Developer Utilities](https://github.com/xxyangyoulin/dms-plugin-developer-utilities)
 
 Encoders, Decoders, Formatters and Converters for Developers
@@ -7082,36 +6842,6 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 
 
 
-#### [Emoji Picker](https://github.com/hthienloc/dms-emoji-picker)
-
-Search, copy, and paste emoji from a centered picker.
-
-<strong>requires DMS version</strong>: <em>>=1.5.0</em>
-
-- id: emojiPicker
-- name: Emoji Picker
-- author: Loc Huynh
-- compositors: any
-- capabilities: daemon, ipc
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-emoji-picker/main/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Ephemera](https://github.com/nicolasgarcia214/Ephemera)
 
 Ephemeral AI chat — ask quick questions, keep nothing
@@ -7200,66 +6930,6 @@ Check for and install Flatpak Updates
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png)
-
-</details>
-
-
-
-
-
-#### [Floaty](https://github.com/hthienloc/dms-floaty)
-
-A feature-rich reference image tool to float images, screenshots, and vector graphics on top of all windows.
-
-
-
-- id: floaty
-- name: Floaty
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: poppler-utils
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-floaty/main/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [Folder View](https://github.com/hthienloc/dms-folder-view)
-
-A folder viewer widget that displays and manages files and directories on your screen.
-
-
-
-- id: folderView
-- name: Folder View
-- author: Loc Huynh
-- compositors: any
-- capabilities: desktop-widget
-- dependencies: wl-clipboard, glib2, dms-floaty
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-folder-view/main/screenshot.png)
 
 </details>
 
@@ -7582,66 +7252,6 @@ Popout translation widget for DankMaterialShell bar. Select text, click the tran
 
 
 
-#### [Hand Mirror](https://github.com/hthienloc/dms-hand-mirror)
-
-Cozy camera preview with digital zoom, snapshots, and a pinnable floating window.
-
-
-
-- id: handMirror
-- name: Hand Mirror
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-hand-mirror/main/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [Hidden Bar](https://github.com/hthienloc/dms-hidden-bar)
-
-Hide/Show bar widgets with a click or hover
-
-
-
-- id: hiddenBar
-- name: Hidden Bar
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-hidden-bar/master/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Home Assistant Monitor](https://github.com/xxyangyoulin/dms-plugin-hass)
 
 Monitor and display Home Assistant entity states in your status bar
@@ -7725,36 +7335,6 @@ Control your Philips Hue lights directly from DMS
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/derethil/dms-hue-manager/main/assets/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [Hydrate](https://github.com/hthienloc/dms-hydrate)
-
-Drink water reminder and tracker.
-
-
-
-- id: hydrate
-- name: Hydrate
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-hydrate/master/screenshot.png)
 
 </details>
 
@@ -7910,36 +7490,6 @@ Run a command on a custom interval and display its output in the bar. Supports m
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/corcoran/dms-interval-command/main/screenshots/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [Kaomoji Picker](https://github.com/hthienloc/dms-kaomoji-picker)
-
-A lightweight launcher for browsing and copying kaomojis to the clipboard.
-
-
-
-- id: kaomojiPicker
-- name: Kaomoji Picker
-- author: Loc Huynh
-- compositors: any
-- capabilities: launcher
-- dependencies: wl-clipboard
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-kaomoji-picker/master/screenshot.png)
 
 </details>
 
@@ -8150,36 +7700,6 @@ Displays LiveChart anime schedule data pulled from a local browser session.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-LiveChart.me/refs/heads/main/assets/POP-Up_UI.png)
-
-</details>
-
-
-
-
-
-#### [Lutris Launcher](https://github.com/hthienloc/dms-lutris-launcher)
-
-Quickly browse and launch games from your Lutris library.
-
-
-
-- id: lutrisLauncher
-- name: Lutris Launcher
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: lutris
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-lutris-launcher/master/screenshot.png)
 
 </details>
 
@@ -8412,36 +7932,6 @@ Media controls with full bar volume scroll. Disables workspace scroll.
 
 
 
-#### [Media Downloader](https://github.com/hthienloc/dms-media-downloader)
-
-Download audio and video from web links using yt-dlp
-
-
-
-- id: mediaDownloader
-- name: Media Downloader
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: yt-dlp, ffmpeg
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-media-downloader/main/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Media Player](https://github.com/arrifat346afs/mediaPlayer)
 
 A desktop media player widget
@@ -8627,36 +8117,6 @@ AI assistant, made to be useful
 
 
 
-#### [Niri Display Settings](https://github.com/hthienloc/dms-niri-display-settings)
-
-Quickly toggle and configure display outputs in the Niri Wayland compositor.
-
-
-
-- id: niriDS
-- name: Niri Display Settings
-- author: Loc Huynh
-- compositors: niri
-- capabilities: daemon
-- dependencies: niri, wl-mirror
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-niri-display-settings/master/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Niri Display Settings Advance](https://github.com/jdkamalakar/DMS-Niri_Display_Settings)
 
 Quickly toggle and configure display outputs in the Niri Wayland compositor
@@ -8835,36 +8295,6 @@ Nothing OS-inspired desktop clock with 6 styles: digital, split, analog, analog 
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/samgrande/Dank-Nothing-Clock/main/assets/screenshots/preview.png)
-
-</details>
-
-
-
-
-
-#### [OCR Scanner](https://github.com/hthienloc/dms-ocr-scanner)
-
-Extract text from clipboard images or local files using Tesseract OCR.
-
-
-
-- id: ocrScanner
-- name: OCR Scanner
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: tesseract
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-ocr-scanner/main/screenshot.png)
 
 </details>
 
@@ -9235,66 +8665,6 @@ Monitor and control your Pulsar X3 gaming mouse
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/jonkristian/dms-pulsar-x3/blob/main/screenshot.png?raw=true)
-
-</details>
-
-
-
-
-
-#### [QR Generator](https://github.com/hthienloc/dms-qr-generator)
-
-Generate and scan QR codes from clipboard text, manual input, or dropped images.
-
-
-
-- id: qrGenerator
-- name: QR Generator
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: qrencode, wl-clipboard, zbar
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-qr-generator/master/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [Quick Capture](https://github.com/hthienloc/dms-quick-capture)
-
-Screenshot annotation and screen recording plugin.
-
-<strong>requires DMS version</strong>: <em>>=1.6.0</em>
-
-- id: quickCapture
-- name: Quick Capture
-- author: Loc Huynh
-- compositors: any
-- capabilities: daemon, dankbar-widget, control-center
-- dependencies: imagemagick, img2pdf, tesseract, zbar, gpu-screen-recorder, ffmpeg
-- distro: any
-- translations: 🌐 centrally translated via the DMS POEditor project
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png)
 
 </details>
 
@@ -9727,36 +9097,6 @@ Start, stop, and configure screen captures with gpu-screen-recorder on any Wayla
 
 
 
-#### [Screen Recorder LH](https://github.com/hthienloc/dms-screen-recorder)
-
-GPU-accelerated screen recorder with multi-monitor support and smart notifications.
-
-<strong>requires DMS version</strong>: <em>>=1.5.0</em>
-
-- id: screenRecorderLH
-- name: Screen Recorder LH
-- author: Loc Huynh
-- compositors: any
-- capabilities: daemon, control-center, ipc
-- dependencies: gpu-screen-recorder, ffmpeg, libnotify
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-screen-recorder/master/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Screen Recorder X](https://github.com/crowforkotlin/dms-screen-recorder)
 
 Record screen or selected area using wf-recorder with configurable codec, framerate, quality, resolution, format and save path
@@ -9810,36 +9150,6 @@ GPU-accelerated monitor recording with VFR, quality and resolution controls, cur
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/smithyyang/dms-screen-recorder/main/assets/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [Screenkey](https://github.com/hthienloc/dms-screenkey)
-
-An always-on-top keystroke and mouse click visualizer for tutorials.
-
-<strong>requires DMS version</strong>: <em>>=1.5.0</em>
-
-- id: screenkey
-- name: Screenkey
-- author: Loc Huynh
-- compositors: any
-- capabilities: daemon, control-center
-- dependencies: evtest, libinput
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-screenkey/main/screenshot.png)
 
 </details>
 
@@ -10232,36 +9542,6 @@ Search and browse stickers powered by Klipy
 
 
 
-#### [Stopwatch](https://github.com/hthienloc/dms-stopwatch)
-
-A high-precision stopwatch for time tracking.
-
-
-
-- id: stopwatch
-- name: Stopwatch
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-stopwatch/main/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [System Monitor Plus](https://github.com/Dadangdut33/dms-plugins)
 
 Unified DMS system monitor with capabilities to customize resources order, resource shown, colors, and new styles.
@@ -10320,36 +9600,6 @@ Tailscale-toggle plugin for DankBar
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/cglavin50/dms-tailscale/raw/main/plugin-notif.png)
-
-</details>
-
-
-
-
-
-#### [Take a Break](https://github.com/hthienloc/dms-take-a-break)
-
-A gentle companion that reminds you to rest your eyes with short and long breaks.
-
-
-
-- id: takeABreak
-- name: Take a Break
-- author: Loc Huynh
-- compositors: any
-- capabilities: control-center, ipc
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png)
 
 </details>
 
@@ -10477,36 +9727,6 @@ Display a customizable countdown timer in the Dankbar. Perfect for tracking impo
 
 
 
-#### [Timer](https://github.com/hthienloc/dms-timer)
-
-A countdown timer with notification support and audio alerts.
-
-
-
-- id: timer
-- name: Timer
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: libnotify, pulseaudio
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-timer/master/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Translate](https://github.com/alcxyz/DankTranslate)
 
 Translate text between languages using translate-shell
@@ -10560,36 +9780,6 @@ Monitor and manage your system trash directly from your status bar. Features rea
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/kerojiang/dms-transBin/refs/heads/main/images/bin-full.png)
-
-</details>
-
-
-
-
-
-#### [Typing Sounds](https://github.com/hthienloc/dms-typing-sounds)
-
-Play mechanical keyboard sounds as you type
-
-
-
-- id: typingSounds
-- name: Typing Sounds
-- author: Loc Huynh
-- compositors: any
-- capabilities: daemon
-- dependencies: evtest, libinput, ffmpeg
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-typing-sounds/main/screenshot.png)
 
 </details>
 
