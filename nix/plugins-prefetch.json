@@ -4441,6 +4441,45 @@
     "sha256": "0pl7yvxrly8674yh11sp40q9d4qq6mszc51x4qpsq8sr02dv3cpm",
     "url": "https://github.com/gylove1994/deepseek-dms-widget"
   },
+  "depthscape": {
+    "date": "2026-09-19T16:54:55+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Qa9ji9WHsJMWTgU/0I2F3Ji1yZ+v1Ssg5VAMFWvJ4LU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Tz-slayer",
+      "capabilities": [
+        "daemon",
+        "desktop-widget",
+        "ai"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "curl",
+        "qt6-5compat"
+      ],
+      "description": "AI depth-aware wallpapers: the near part of your wallpaper is redrawn above desktop widgets, so scenery and characters occlude your clock and cards like an iOS depth-effect lock screen.",
+      "distro": [
+        "any"
+      ],
+      "id": "depthscape",
+      "name": "Depthscape",
+      "repo": "https://github.com/Tz-slayer/depthscape",
+      "screenshot": "https://raw.githubusercontent.com/Tz-slayer/depthscape/main/assets/screenshot.jpg",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/6zyimfr90ppn6ycx4rlmkm66rh70gyxy-depthscape",
+    "rev": "87cc9aa6082098ff3ee9198e0e560d0e860910c2",
+    "rootDir": "",
+    "sha256": "1dg0r5mia32hwlh2pmdgkz4vb66whn6x0gq59qb97c47sn5n7bs1",
+    "url": "https://github.com/Tz-slayer/depthscape"
+  },
   "desktopBackup": {
     "date": "2026-09-16T19:40:39Z",
     "deepClone": false,
