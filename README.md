@@ -7977,6 +7977,36 @@ A desktop widget that parses your compositor's keybinding config and displays th
 
 
 
+#### [Keystrokes](https://github.com/Tz-slayer/keystrokes)
+
+Shows every key you press as on-screen keycaps, with press counts and keystroke history. Ported from keyviz, for screencasts and tutorials.
+
+
+
+- id: keystrokes
+- name: Keystrokes
+- author: Tz-slayer
+- compositors: any
+- capabilities: daemon, control-center
+- dependencies: libinput, python3
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Tz-slayer/keystrokes/main/docs/cover.png)
+
+</details>
+
+
+
+
+
 #### [Khal Calendar](https://github.com/fishman/dms-khal-calendar)
 
 Calendar widget using khal and vdirsyncer for CalDAV sync. Create, edit, and delete events from the bar. Middle-click events to open URLs. Desktop notifications for upcoming events.
