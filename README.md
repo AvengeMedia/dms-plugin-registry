@@ -11705,7 +11705,7 @@ Oceanic's color scheme from https://discord.com/channels/1387519366651842574/145
 Blue & teal theme inspired by https://github.com/drcmda/poimandres-theme
 
 - **Author:** aryas
-- **ID:** `poimandres` **Version:** `1.0.0`
+- **ID:** `poimandres` **Version:** `2.0.0`
 
 ![WCAG AAA (Partial)](https://img.shields.io/badge/WCAG_contrast-AAA_(Partial)-brightgreen)
 
