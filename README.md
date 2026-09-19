@@ -4364,6 +4364,36 @@ Turn off monitors from DankBar or Control Center.
 
 
 
+#### [SessionEdge](https://github.com/satoshoe-dev/dms-sessionedge)
+
+Session actions (lock, suspend, log out, reboot, power off, restart shell) in a slim strip that slides out of the DMS frame when you hover a screen edge. Actions that end the session need a click and hold.
+
+
+
+- id: sessionEdge
+- name: SessionEdge
+- author: satoshoe
+- compositors: any
+- capabilities: daemon
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/satoshoe-dev/dms-sessionedge/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Shelly Updater](https://github.com/rdannenbring/dms-shelly-updater)
 
 Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view, action menu, and control-center panel. Also counts DMS plugin and device firmware updates, plus any other tool you describe in a config file (mise and Rust toolchains ship as worked examples). Requires Shelly v3+.
