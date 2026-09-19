@@ -59,8 +59,9 @@
       ],
       "id": "activateLinux",
       "name": "Activate Linux Watermark",
-      "repo": "https://github.com/hthienloc/dms-activate-linux",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-activate-linux/master/screenshot.png",
+      "path": "activateLinux",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/activateLinux/screenshot.png",
       "version": "2.0.0"
     },
     "path": "/nix/store/as2ky91j5q4ss37f30s26vyxmcyk80pp-dms-activate-linux",
@@ -363,8 +364,9 @@
       ],
       "id": "ambientSound",
       "name": "Ambient Sound",
-      "repo": "https://github.com/hthienloc/dms-ambient-sound",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ambient-sound/master/screenshot.png",
+      "path": "ambientSound",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ambientSound/screenshot.png",
       "version": "2.3.1"
     },
     "path": "/nix/store/ybxa90ldd0j79mkbsgrb31m0v99k0lq9-dms-ambient-sound",
@@ -567,42 +569,6 @@
     "rootDir": "",
     "sha256": "0f53icndvgqy1jmqs6y0lcycnz47m3ihg58a16lyxlkwypn0xkg2",
     "url": "https://github.com/FeikoWielsma/dms-antigravity-cli"
-  },
-  "appLauncher": {
-    "date": "2026-08-03T14:19:33+07:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-lBC2IMFFW/xajLNqxaishh7M5plEXsMsgHJesq6frqs=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Loc Huynh",
-      "capabilities": [
-        "desktop-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [
-        "python3"
-      ],
-      "description": "Desktop widget to search, filter, and launch applications by categories.",
-      "distro": [
-        "any"
-      ],
-      "id": "appLauncher",
-      "name": "App Launcher",
-      "repo": "https://github.com/hthienloc/dms-app-launcher",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png",
-      "version": "2.2.2"
-    },
-    "path": "/nix/store/ai0sghq9lpwqh4r6vcp6x8x8bqk56s12-dms-app-launcher",
-    "rev": "b190f6070da9be8fac579dd1da8b5651a42f034a",
-    "rootDir": "",
-    "sha256": "1axfkypb4pkjh0nc6pj4k7kcq7l6mjlcasmkiidgqns5q4hbc44l",
-    "url": "https://github.com/hthienloc/dms-app-launcher"
   },
   "asusControlCenter": {
     "date": "2026-05-15T21:08:51+05:30",
@@ -1179,8 +1145,9 @@
       ],
       "id": "bongoCat",
       "name": "Bongo Cat",
-      "repo": "https://github.com/hthienloc/dms-bongo-cat",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-bongo-cat/main/screenshot.png",
+      "path": "bongoCat",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/bongoCat/screenshot.png",
       "version": "2.3.0"
     },
     "path": "/nix/store/jyfbw9khbz4g4w5pnajxg0j79kxjy5yx-dms-bongo-cat",
@@ -1254,8 +1221,9 @@
       ],
       "id": "breathing",
       "name": "Breathing Exercise",
-      "repo": "https://github.com/hthienloc/dms-breathing",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-breathing/master/screenshot.png",
+      "path": "breathing",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/breathing/screenshot.png",
       "version": "2.0.0"
     },
     "path": "/nix/store/gg5iysqmp4874zwazxclzdcg5jlfq92s-dms-breathing",
@@ -1288,8 +1256,9 @@
       ],
       "id": "caffeine",
       "name": "Caffeine",
-      "repo": "https://github.com/hthienloc/dms-caffeine",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png",
+      "path": "caffeine",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/caffeine/screenshot.png",
       "version": "2.2.2"
     },
     "path": "/nix/store/phaiigapgxwsqpjx7g1d2b4q7fw2h3ps-dms-caffeine",
@@ -4575,8 +4544,9 @@
       ],
       "id": "desktopWidgetToggle",
       "name": "Desktop Widget Toggle",
-      "repo": "https://github.com/hthienloc/dms-desktop-widget-toggle",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-desktop-widget-toggle/master/screenshot.png",
+      "path": "desktopWidgetToggle",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/desktopWidgetToggle/screenshot.png",
       "type": "daemon",
       "version": "1.2.0"
     },
@@ -5862,9 +5832,10 @@
       ],
       "id": "emojiPicker",
       "name": "Emoji Picker",
-      "repo": "https://github.com/hthienloc/dms-emoji-picker",
+      "path": "emojiPicker",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "requires_dms": ">=1.5.0",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-emoji-picker/main/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/emojiPicker/screenshot.png",
       "version": "0.2.0"
     },
     "path": "/nix/store/7vd1zqm984pjfyrwx58fjy7zb8cynv82-dms-emoji-picker",
@@ -6059,80 +6030,6 @@
     "rootDir": "",
     "sha256": "0iz1w5lwvp4bhq42axhp1bbnbsw3h021hlbilb7dsh9m5yg9qmrr",
     "url": "https://github.com/merdely/dms-plugins"
-  },
-  "floaty": {
-    "date": "2026-06-06T22:21:41+07:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-2Lwn/LVrKwlKCoCGoXQJAb/XrvKThvUlxILWncVUm0E=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Loc Huynh",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [
-        "poppler-utils"
-      ],
-      "description": "A feature-rich reference image tool to float images, screenshots, and vector graphics on top of all windows.",
-      "distro": [
-        "any"
-      ],
-      "id": "floaty",
-      "name": "Floaty",
-      "repo": "https://github.com/hthienloc/dms-floaty",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-floaty/main/screenshot.png",
-      "version": "2.0.0"
-    },
-    "path": "/nix/store/cakgmjgsg3pnq06agy6h66fspd2mfal2-dms-floaty",
-    "rev": "114c20e60dfaab06553696b55c8f2f501a4d7fcb",
-    "rootDir": "",
-    "sha256": "0hcvak2rvml2qhjzb1lkyapdggq115sa31l01950javbnpy2gg6q",
-    "url": "https://github.com/hthienloc/dms-floaty"
-  },
-  "folderView": {
-    "date": "2026-07-22T18:11:19+07:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-8MVtM5rbAcO8QcX3cPCfb2rm/tQKyw79ZAQUrtEhra0=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Loc Huynh",
-      "capabilities": [
-        "desktop-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [
-        "wl-clipboard",
-        "glib2",
-        "dms-floaty"
-      ],
-      "description": "A folder viewer widget that displays and manages files and directories on your screen.",
-      "distro": [
-        "any"
-      ],
-      "id": "folderView",
-      "name": "Folder View",
-      "repo": "https://github.com/hthienloc/dms-folder-view",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-folder-view/main/screenshot.png",
-      "version": "2.3.1"
-    },
-    "path": "/nix/store/ypwjqa1rjvhq44nqa5w4w0rgirj5fkqm-dms-folder-view",
-    "rev": "3c0c68305aad7b93da68bbab0d0e0a7aaf38a97e",
-    "rootDir": "",
-    "sha256": "1bdd478sw504ckyhxjqaskzfcskgkzq71xy586yc60fvk8rnvigh",
-    "url": "https://github.com/hthienloc/dms-folder-view"
   },
   "formatColorPicker": {
     "date": "2026-07-19T15:40:49+05:30",
@@ -6803,8 +6700,9 @@
       ],
       "id": "handMirror",
       "name": "Hand Mirror",
-      "repo": "https://github.com/hthienloc/dms-hand-mirror",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hand-mirror/main/screenshot.png",
+      "path": "handMirror",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/handMirror/screenshot.png",
       "version": "1.1.1"
     },
     "path": "/nix/store/37dlmynpbgn0g28l1pwbhbyck5y4yg3a-dms-hand-mirror",
@@ -6873,8 +6771,9 @@
       ],
       "id": "hiddenBar",
       "name": "Hidden Bar",
-      "repo": "https://github.com/hthienloc/dms-hidden-bar",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hidden-bar/master/screenshot.png",
+      "path": "hiddenBar",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/hiddenBar/screenshot.png",
       "version": "2.5.0"
     },
     "path": "/nix/store/0xb1499xyw8bn7afrs8d94rkr217fxgb-dms-hidden-bar",
@@ -7018,8 +6917,9 @@
       ],
       "id": "hydrate",
       "name": "Hydrate",
-      "repo": "https://github.com/hthienloc/dms-hydrate",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hydrate/master/screenshot.png",
+      "path": "hydrate",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/hydrate/screenshot.png",
       "version": "2.1.0"
     },
     "path": "/nix/store/v33qh91bk29wwyzdm7ipfg4q1r7nw3ay-dms-hydrate",
@@ -7334,8 +7234,9 @@
       ],
       "id": "ipIndicator",
       "name": "IP Indicator",
-      "repo": "https://github.com/hthienloc/dms-ipIndicator",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ipIndicator/master/screenshot.png",
+      "path": "ipIndicator",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ipIndicator/screenshot.png",
       "version": "2.1.0"
     },
     "path": "/nix/store/2hrsyl4gwaycv171g9xq7sffjdnpxrb4-dms-ipIndicator",
@@ -7370,8 +7271,9 @@
       ],
       "id": "kaomojiPicker",
       "name": "Kaomoji Picker",
-      "repo": "https://github.com/hthienloc/dms-kaomoji-picker",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-kaomoji-picker/master/screenshot.png",
+      "path": "kaomojiPicker",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/kaomojiPicker/screenshot.png",
       "version": "2.1.0"
     },
     "path": "/nix/store/pwa2kg338qgdfnjbg0ibrs9ychg1ig6f-dms-kaomoji-picker",
@@ -7832,8 +7734,9 @@
       ],
       "id": "lutrisLauncher",
       "name": "Lutris Launcher",
-      "repo": "https://github.com/hthienloc/dms-lutris-launcher",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-lutris-launcher/master/screenshot.png",
+      "path": "lutrisLauncher",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/lutrisLauncher/screenshot.png",
       "version": "2.0.0"
     },
     "path": "/nix/store/mvml310vq3mhf5iahp6y1bidqa70b47m-dms-lutris-launcher",
@@ -8311,8 +8214,9 @@
       ],
       "id": "mediaDownloader",
       "name": "Media Downloader",
-      "repo": "https://github.com/hthienloc/dms-media-downloader",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-media-downloader/main/screenshot.png",
+      "path": "mediaDownloader",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/mediaDownloader/screenshot.png",
       "version": "1.0.1"
     },
     "path": "/nix/store/m900diq4r6pj6nbmshjzv4aqxckc5y5w-dms-media-downloader",
@@ -8974,8 +8878,9 @@
       ],
       "id": "niriDS",
       "name": "Niri Display Settings",
-      "repo": "https://github.com/hthienloc/dms-niri-display-settings",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-niri-display-settings/master/screenshot.png",
+      "path": "niriDS",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/niriDS/screenshot.png",
       "version": "2.0.3"
     },
     "path": "/nix/store/bbx8vrm4y6mynmwn2ssgfcg4b4l5pvsr-dms-niri-display-settings",
@@ -9504,8 +9409,9 @@
       ],
       "id": "ocrScanner",
       "name": "OCR Scanner",
-      "repo": "https://github.com/hthienloc/dms-ocr-scanner",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-ocr-scanner/main/screenshot.png",
+      "path": "ocrScanner",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ocrScanner/screenshot.png",
       "version": "2.0.0"
     },
     "path": "/nix/store/2shbwbqda8l1a5j08bg0sqapycahjqhw-dms-ocr-scanner",
@@ -10171,44 +10077,6 @@
     "sha256": "0vdph68am8bxf5iid9aa4afs739vv7rkbw0zfrvrnaf5qf5iicif",
     "url": "https://github.com/szabolcsf/dms-qcal-calendar"
   },
-  "qrGenerator": {
-    "date": "2026-06-21T12:24:43+07:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-mMWqX57QowThG44hO5FhLw64ikdpDCFcsXAbath+BCc=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Loc Huynh",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [
-        "qrencode",
-        "wl-clipboard",
-        "zbar"
-      ],
-      "description": "Generate and scan QR codes from clipboard text, manual input, or dropped images.",
-      "distro": [
-        "any"
-      ],
-      "id": "qrGenerator",
-      "name": "QR Generator",
-      "repo": "https://github.com/hthienloc/dms-qr-generator",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-qr-generator/master/screenshot.png",
-      "version": "1.3.0"
-    },
-    "path": "/nix/store/fkhxaavkqa2iahan1v78z3c2xi7ldpg6-dms-qr-generator",
-    "rev": "361fde5f62d91bcbdaebf36b7984f91c0abaf027",
-    "rootDir": "",
-    "sha256": "09q4gvc6l6vhn5f223398y5bh3igc68kn8cf3ghh98yhkrgsmicq",
-    "url": "https://github.com/hthienloc/dms-qr-generator"
-  },
   "quickCapture": {
     "date": "2026-09-19T08:12:09+07:00",
     "deepClone": false,
@@ -10243,9 +10111,10 @@
       "i18n": true,
       "id": "quickCapture",
       "name": "Quick Capture",
-      "repo": "https://github.com/hthienloc/dms-quick-capture",
+      "path": "quickCapture",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "requires_dms": ">=1.6.0",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/quickCapture/screenshot.png",
       "version": "5.4.2"
     },
     "path": "/nix/store/ghc9maabx8304bqy8423lqgvdw14hjh6-dms-quick-capture",
@@ -10777,47 +10646,6 @@
     "sha256": "18hnk92as9711rl68vwv4gwab7cr7k3bm86kiraibjpfhymjqfq3",
     "url": "https://github.com/arqueon/dms-screen-recorder"
   },
-  "screenRecorderLH": {
-    "date": "2026-06-25T11:18:55+07:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-zCVip4iaFx9g5sLIxyolEMPunycskf5U4tltFPEWUnw=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Loc Huynh",
-      "capabilities": [
-        "daemon",
-        "control-center",
-        "ipc"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [
-        "gpu-screen-recorder",
-        "ffmpeg",
-        "libnotify"
-      ],
-      "description": "GPU-accelerated screen recorder with multi-monitor support and smart notifications.",
-      "distro": [
-        "any"
-      ],
-      "id": "screenRecorderLH",
-      "name": "Screen Recorder LH",
-      "repo": "https://github.com/hthienloc/dms-screen-recorder",
-      "requires_dms": ">=1.5.0",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-screen-recorder/master/screenshot.png",
-      "version": "1.1.0"
-    },
-    "path": "/nix/store/fqx4wswlss30h7xi8spn1d3g220a39yv-dms-screen-recorder",
-    "rev": "440a71f1bdd275f3d662beaae38593b68a605dd2",
-    "rootDir": "",
-    "sha256": "0z2j2vqi8vfrw9agx49c4ygyxhqh4lmcgj62wrh1y5wsi2kn49fc",
-    "url": "https://github.com/hthienloc/dms-screen-recorder"
-  },
   "screenRecorderX": {
     "date": "2026-07-17T17:26:50+08:00",
     "deepClone": false,
@@ -10922,9 +10750,10 @@
       ],
       "id": "screenkey",
       "name": "Screenkey",
-      "repo": "https://github.com/hthienloc/dms-screenkey",
+      "path": "screenkey",
+      "repo": "https://github.com/hthienloc/dms-plugins",
       "requires_dms": ">=1.5.0",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-screenkey/main/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/screenkey/screenshot.png",
       "version": "1.0.7"
     },
     "path": "/nix/store/yawrwrfv05qxygd4p12vkk6rbdqdl39g-dms-screenkey",
@@ -11625,40 +11454,6 @@
     "sha256": "0c6nh67x59jxcv5ax39yijrvm4bk54kw4kg5w12218sjc6fyqxhq",
     "url": "https://github.com/leemeng0x61/stockManager"
   },
-  "stopwatch": {
-    "date": "2026-06-21T12:24:45+07:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-MP33RrX3yxGWPvtrutyiaslqc6rkspxDFduiMRXRPHA=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Loc Huynh",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [],
-      "description": "A high-precision stopwatch for time tracking.",
-      "distro": [
-        "any"
-      ],
-      "id": "stopwatch",
-      "name": "Stopwatch",
-      "repo": "https://github.com/hthienloc/dms-stopwatch",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-stopwatch/main/screenshot.png",
-      "version": "2.0.0"
-    },
-    "path": "/nix/store/7l9430n2sz9qi1cpvxfqwgyg5i0i3pja-dms-stopwatch",
-    "rev": "28a9d3e25a16f688f50af7222814e735edb739ac",
-    "rootDir": "",
-    "sha256": "0w1ws4ak38nv2m1rrcp4m9rnmjbalbfblszv7sb13jzpnm3ggz9h",
-    "url": "https://github.com/hthienloc/dms-stopwatch"
-  },
   "storageMonitor": {
     "date": "2026-09-01T16:47:34+08:00",
     "deepClone": false,
@@ -11900,8 +11695,9 @@
       ],
       "id": "takeABreak",
       "name": "Take a Break",
-      "repo": "https://github.com/hthienloc/dms-take-a-break",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png",
+      "path": "takeABreak",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/takeABreak/screenshot.png",
       "type": "daemon",
       "version": "1.5.0"
     },
@@ -12163,8 +11959,9 @@
       ],
       "id": "timer",
       "name": "Timer",
-      "repo": "https://github.com/hthienloc/dms-timer",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-timer/master/screenshot.png",
+      "path": "timer",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/timer/screenshot.png",
       "version": "3.0.3"
     },
     "path": "/nix/store/djpxq2bbm9wzyc3lmjn3az5nhin2a1fv-dms-timer",
@@ -12382,8 +12179,9 @@
       ],
       "id": "typingSounds",
       "name": "Typing Sounds",
-      "repo": "https://github.com/hthienloc/dms-typing-sounds",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-typing-sounds/main/screenshot.png",
+      "path": "typingSounds",
+      "repo": "https://github.com/hthienloc/dms-plugins",
+      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/typingSounds/screenshot.png",
       "version": "1.3.1"
     },
     "path": "/nix/store/75skzshs7z3a4cjn8zhfnws49p3agj36-dms-typing-sounds",
