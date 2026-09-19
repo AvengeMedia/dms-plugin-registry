@@ -1079,12 +1079,12 @@
     "url": "https://github.com/arcatva/dms-battery-plus"
   },
   "bitwarden": {
-    "date": "2026-09-14T07:08:15+02:00",
+    "date": "2026-09-19T20:17:02+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-11Obkt6nOBJ3ZYN6TkC2PY5JZiG9GciL1V/H70F3XPI=",
+    "hash": "sha256-SgOvOBRkltObMorerI4AWI6syjBdQZQ0cqE2D99O+Fo=",
     "leaveDotGit": false,
     "meta": {
       "author": "coldi1337",
@@ -1112,10 +1112,10 @@
       "screenshot": "https://raw.githubusercontent.com/coldi1337/dms-bitwarden-cli/main/docs/screenshots/dms-vault-preview.png",
       "version": "1.8.1-dms.3"
     },
-    "path": "/nix/store/higrf40vardlqivwcapz3ppdw57zwqgy-dms-bitwarden-cli",
-    "rev": "a1ea09dbdef418f52cd4a628171c4bc7baaf6fff",
+    "path": "/nix/store/4n5k6lkhfmp33lqvlkp41dcahbn1cmb8-dms-bitwarden-cli",
+    "rev": "22073d695d7d96a540daca8e0482b2a7bad75056",
     "rootDir": "",
-    "sha256": "1wjwfx0yziszsn5wh6dx45k4k3ixnr04wyl3cmvi4f57vs99nlyp",
+    "sha256": "0npq9vghydm1f8s98hax635ar3jq027arpla6adx75k42hway0sa",
     "url": "https://github.com/coldi1337/dms-bitwarden-cli"
   },
   "bongoCat": {
@@ -3723,12 +3723,12 @@
     "url": "https://github.com/alcxyz/DankSession"
   },
   "dankSoftwareDepot": {
-    "date": "2026-09-12T16:24:12+02:00",
+    "date": "2026-09-19T16:13:18+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-m3V7M/aoaDLdG0/6C+gTFkc2Ft1JKSugSAvbvqmAVjs=",
+    "hash": "sha256-qgacwSwcDfNZZ3xzswkoik8bp4nFzjirAJumdnSG3bA=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3759,12 +3759,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "1.1.8"
+      "version": "1.1.9"
     },
-    "path": "/nix/store/4hhzw6fg9xmz7hja4jx43g1v89mg99pj-DankSoftwareDepot",
-    "rev": "7850df038fa992b1e81b5f470b2922fa771d14f4",
+    "path": "/nix/store/0cyhi2c80mqdl1d26b5257kiwlkqqqmh-DankSoftwareDepot",
+    "rev": "5588c93678ed1dc193c9a9e436df14805a205d29",
     "rootDir": "",
-    "sha256": "0fsnh2lvxnqb92h2naa9vlb3ciqn2gl0pyjg3gfk4s58yqrpnxcv",
+    "sha256": "1c6xhrs7d9lv02mkikn5i6kinkwa504v6wvwcxcz638w5k0rq1ma",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -4732,12 +4732,12 @@
     "url": "https://github.com/rollecode/dms-disk-monitor"
   },
   "displayManager": {
-    "date": "2026-07-13T09:05:34-03:00",
+    "date": "2026-09-19T12:59:51-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-VFM+NjZwTeUI92lEiWN61OMoT75p7PTmPaSZaMo3K7U=",
+    "hash": "sha256-zyYGbsi2wV6T5bHgMX59Og8vUdSS0BCcSjEl0XgIByU=",
     "leaveDotGit": false,
     "meta": {
       "author": "felri",
@@ -4759,12 +4759,12 @@
       "name": "Display Manager",
       "repo": "https://github.com/felri/display-manager-plugin-niri-dank-linux",
       "screenshot": "https://raw.githubusercontent.com/felri/display-manager-plugin-niri-dank-linux/refs/heads/main/assets/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/m7jp1waqyd8dq3s4i99qdbiqp7dwdgq9-display-manager-plugin-niri-dank-linux",
-    "rev": "f789f12a06793212ece407377ad53668b63f76b4",
+    "path": "/nix/store/g1fb8a62h1n7yc1vmz5mq259vmslh9yb-display-manager-plugin-niri-dank-linux",
+    "rev": "64348e6ecf09737de75328c3f38f2d5c8c5fa313",
     "rootDir": "",
-    "sha256": "1d9b6z56i6d47pkg9v39pr7jiqylg9iqji39yw4fakbh6qv3wlsl",
+    "sha256": "098711wd299i9af11l4jsi8jy3rsgmz33q5iwn9mxhdnr1p0c9ng",
     "url": "https://github.com/felri/display-manager-plugin-niri-dank-linux"
   },
   "displayMirror": {
@@ -10834,6 +10834,40 @@
     "sha256": "11ray67pvx1n1s7wlbg2adaxdc0l8lkmknh0pxv5495ypw0kvjcw",
     "url": "https://github.com/boutabong/dms-plugins"
   },
+  "sessionEdge": {
+    "date": "2026-09-19T13:56:43-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-OwJDT4TMvvyHMQOCBixkJBNOMM0ZBFT3DrmII1zugLM=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "satoshoe",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Session actions (lock, suspend, log out, reboot, power off, restart shell) in a slim strip that slides out of the DMS frame when you hover a screen edge. Actions that end the session need a click and hold.",
+      "distro": [
+        "any"
+      ],
+      "id": "sessionEdge",
+      "name": "SessionEdge",
+      "repo": "https://github.com/satoshoe-dev/dms-sessionedge",
+      "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-sessionedge/main/assets/screenshot.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/bk6y9fk3s8i43frcwl7lmlxfwvdmyp75-dms-sessionedge",
+    "rev": "2e09e306810e772f4567b7c879c0a8cdb3588b85",
+    "rootDir": "",
+    "sha256": "1cw0xrf2725r1vvm810rrlq4w4r4chn0d0h3663zrgnchi7l60iv",
+    "url": "https://github.com/satoshoe-dev/dms-sessionedge"
+  },
   "sessionPower": {
     "date": "2025-12-10T00:52:02-05:00",
     "deepClone": false,
@@ -13238,12 +13272,12 @@
     "url": "https://github.com/wolfsblu/dms-wiener-linien"
   },
   "workspaceOsdFlash": {
-    "date": "2026-09-17T15:45:29+02:00",
+    "date": "2026-09-19T13:22:29+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-kgp7ic6ksAvG6rMjF1aoJaqE1jj3A7VWYfwtoz63So4=",
+    "hash": "sha256-/5q9FFxLfKlalakHxizGfou8/TUEr9jZyzMuck2ap9g=",
     "leaveDotGit": false,
     "meta": {
       "author": "Ale Bles",
@@ -13272,10 +13306,10 @@
       "screenshot": "https://raw.githubusercontent.com/AleBles/dms-workspace-osd/main/assets/screenshot.png",
       "version": "0.2.0"
     },
-    "path": "/nix/store/xgbmzchc1xvwpl0a03vb4jig5f9prqpy-dms-workspace-osd",
-    "rev": "8e48bc69e356a3fbf82672d6a5323de6bff890ed",
+    "path": "/nix/store/97pzw3yb9rbjz7l1zb5ai6d1q00lfv44-dms-workspace-osd",
+    "rev": "759b8e55e6d07dedd10183a87666f73a25ef6646",
     "rootDir": "",
-    "sha256": "13janwza6bgwc5bba0zp73b89ai5m1b1f8xkxb30pc54rs4pn2lj",
+    "sha256": "1n57k96p4bikrgcxibq46pyvr2vyqqncc1x9jmdajz2bbhabv6pz",
     "url": "https://github.com/AleBles/dms-workspace-osd"
   },
   "worldClock": {
