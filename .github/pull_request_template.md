@@ -16,7 +16,7 @@
 > Non-compliant submissions may be closed by maintainers without explanation.
 
 - [ ] I have read and followed [CONTRIBUTING.md](../CONTRIBUTING.md).
-- [ ] This plugin does not duplicate an existing plugin, OR it meets the [Duplication & Quality Guidelines](../CONTRIBUTING.md#duplication--quality) (unmaintained original / major improvements / upstream contacted first).
+- [ ] This plugin does not duplicate an existing plugin, OR it meets the [duplication guidelines](../CONTRIBUTING.md#guidelines) (unmaintained original / major improvements / upstream contacted first).
 - [ ] The `id` in the JSON is in camelCase and exactly matches `plugin.json` in the plugin repository.
 - [ ] I have validated locally (`python3 .github/generate.py --validate` and `python3 .github/validate_links.py`).
 - [ ] I understand that non-compliant submissions may be rejected or closed without explanation.
