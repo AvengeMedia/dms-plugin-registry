@@ -123,7 +123,7 @@ If you prefer to hand-craft the full card image, there is a web generator at [`h
   - For monorepo plugins: Must match `{repo}/{path}/plugin.json`
 - **IMPORTANT**: The `id` field must be in camelCase format (starts with lowercase, only letters/digits)
 
-## Duplication & Quality Guidelines
+### Duplication & Quality
 
 Avoid submitting plugins that duplicate existing ones unless:
 - The original plugin is unmaintained (maintainer unresponsive to issues/PRs for over 30 days).
