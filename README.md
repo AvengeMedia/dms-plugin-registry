@@ -477,36 +477,6 @@ Fetch and apply Windows Spotlight wallpapers from DankBar
 
 
 
-#### [Wallpaper Shuffler](https://github.com/Daniel-42-z/dms-wallpaper-shuffler)
-
-Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder
-
-
-
-- id: wallpaperShufflerPlugin
-- name: Wallpaper Shuffler
-- author: Daniel-42-z
-- compositors: any
-- capabilities: set-wallpaper
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/Daniel-42-z/dms-wallpaper-shuffler/refs/heads/main/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Wallpaper by Workspace](https://github.com/3DTreeDee/wallpaperByWorkspace)
 
 Sets a different wallpaper per niri workspace, with fixed or alternate mode, optional periodic rotation, and a "show desktop" transition.
@@ -6067,41 +6037,6 @@ Add customizable, scriptable actions to your bar.
 
 
 
-#### [Dank Battery Alerts](https://github.com/AvengeMedia/dms-plugins)
-
-Notify on low battery levels.
-
-
-
-- id: dankBatteryAlerts
-- name: Dank Battery Alerts
-- author: Avenge Media
-- compositors: any
-- capabilities: watch-events, notify
-- dependencies: 
-- distro: any
-
-
-
-
-> [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [DankBatteryAlerts](https://github.com/AvengeMedia/dms-plugins/tree/main/DankBatteryAlerts) folder to your `~/.config/DankMaterialShell/plugins/` folder.
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-batteryalerts.png)
-
-</details>
-
-
-
-
-
 #### [Dank Bitwarden](https://github.com/pacman99/DankBitwarden)
 
 Search bitwarden entries from rbw.
@@ -9195,36 +9130,6 @@ A WIP translation plugin. Currently supports DeepL's free API.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/Silzinc/Polyglot/refs/heads/main/screenshot1.png)
-
-</details>
-
-
-
-
-
-#### [Power Options](https://github.com/Nazahim/PowerOptions)
-
-Access power options like shutdown and reboot from the launcher
-
-
-
-- id: powerOptions
-- name: Power Options
-- author: Nazahim
-- compositors: any
-- capabilities: command-execution
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/Nazahim/PowerOptions/edf8a49fceadf61e208151e6f4d38480eb831878/screenshot.png)
 
 </details>
 
