@@ -123,6 +123,14 @@ If you prefer to hand-craft the full card image, there is a web generator at [`h
   - For monorepo plugins: Must match `{repo}/{path}/plugin.json`
 - **IMPORTANT**: The `id` field must be in camelCase format (starts with lowercase, only letters/digits)
 
+## Duplication & Quality Guidelines
+
+Avoid submitting plugins that duplicate existing ones unless:
+- The original plugin is unmaintained (maintainer unresponsive to issues/PRs for over 30 days).
+- It offers major functional improvements or significantly better design/integration with DMS.
+
+Whenever possible, contribute upstream first. If submitting a successor to an existing plugin, link your upstream issue/PR in the submission.
+
 ## Plugin Translations
 
 Any plugin can ship its own translations — a `translations/` directory with one JSON file per locale, loaded by DMS automatically. No approval needed, no registry involvement. See the [plugin development docs](https://danklinux.com/docs/dankmaterialshell/plugin-development#translations) for the file format and the `I18n.trFor` API.
