@@ -1574,6 +1574,36 @@ Claude Code 5-hour and weekly subscription limits in your bar, as theme-colored 
 
 
 
+#### [Claude Usage and Stats](https://github.com/HotcocoaCanary/Canary-DMS-ClaudeUsageStats)
+
+Claude Code usage from local transcripts: /usage limits, /stats overview, per-model charts and an activity heatmap. /usage is synced manually or on a configurable schedule
+
+
+
+- id: claudeUsageStats
+- name: Claude Usage and Stats
+- author: HotcocoaCanary
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/HotcocoaCanary/Canary-DMS-ClaudeUsageStats/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [CodeBurn](https://github.com/gtheys/dms-codeburn)
 
 Monitor AI coding assistant token usage and costs from DankBar — cost pill, popup dashboard with insights, budget alerts, and multi-currency conversion
@@ -2617,6 +2647,36 @@ TeamSpeak 6 voice status monitor for the bar: live mic/mute/away state, channel 
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/Lemon-mon-254/dms-plugin-TS6Monitor/main/screenshots/ts.png)
+
+</details>
+
+
+
+
+
+#### [Tailscale Dashboard](https://github.com/HotcocoaCanary/Canary-DMS-TailscaleDashboard)
+
+Read-only Tailscale status: this device, the devices in the tailnet, traffic and relay latencies as charts, plus a link to the admin console
+
+
+
+- id: tailscaleDashboard
+- name: Tailscale Dashboard
+- author: HotcocoaCanary
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: tailscale, python3
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/HotcocoaCanary/Canary-DMS-TailscaleDashboard/main/screenshot.png)
 
 </details>
 
@@ -6895,6 +6955,36 @@ Turn on/off displays for Hyprland
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/Lucyfire/dms-plugins/blob/master/displaySettings/screenshot.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [Docker Dashboard](https://github.com/HotcocoaCanary/Canary-DMS-DockerDashboard)
+
+Docker containers, compose projects, images, networks and volumes with start/stop/restart/recreate/delete and live logs
+
+
+
+- id: dockerDashboard
+- name: Docker Dashboard
+- author: HotcocoaCanary
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: docker, python3
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/HotcocoaCanary/Canary-DMS-DockerDashboard/main/screenshot.png)
 
 </details>
 
