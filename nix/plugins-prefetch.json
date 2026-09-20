@@ -2586,43 +2586,6 @@
     "sha256": "1f504pjhc02vqnywwgc68lab70wm22za539nd0p6qns9hrl9dmbd",
     "url": "https://github.com/odtgit/DankAudioVisualizer"
   },
-  "dankBatteryAlerts": {
-    "date": "2026-09-15T18:33:03-04:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-NYmw2wCZYAKNU1xcodKMDXs5wwtAguOUNazRxcLjsUE=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Avenge Media",
-      "capabilities": [
-        "watch-events",
-        "notify"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [],
-      "description": "Notify on low battery levels.",
-      "distro": [
-        "any"
-      ],
-      "firstParty": true,
-      "id": "dankBatteryAlerts",
-      "name": "Dank Battery Alerts",
-      "path": "DankBatteryAlerts",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-batteryalerts.png",
-      "version": "1.1.2"
-    },
-    "path": "/nix/store/q28nj2ii9qiy3rm4hwymv8yyzqhiihaj-dms-plugins",
-    "rev": "bb90a1db7d540e64ae049c5906afba9b24baa865",
-    "rootDir": "",
-    "sha256": "0hdiwg1cbldc6naf70j01g1kjyqdik9a2p2waf6h4q4r03dv129m",
-    "url": "https://github.com/AvengeMedia/dms-plugins"
-  },
   "dankBitwarden": {
     "date": "2026-05-19T22:18:28-04:00",
     "deepClone": false,
@@ -9825,41 +9788,6 @@
     "sha256": "1kp1w56ckiph81pc3rxdzygd461m3jp1d26b6szi9acfmc49cp1q",
     "url": "https://github.com/alamin147/PortWatch"
   },
-  "powerOptions": {
-    "date": "2026-01-24T09:07:53+01:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-PSlQIDWkteYaV0WPQlnm9wkc/8A8h1ZYxKgKSxlu+xo=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Nazahim",
-      "capabilities": [
-        "command-execution"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [],
-      "description": "Access power options like shutdown and reboot from the launcher",
-      "distro": [
-        "any"
-      ],
-      "id": "powerOptions",
-      "name": "Power Options",
-      "path": "",
-      "repo": "https://github.com/Nazahim/PowerOptions",
-      "screenshot": "https://raw.githubusercontent.com/Nazahim/PowerOptions/edf8a49fceadf61e208151e6f4d38480eb831878/screenshot.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/yr4vqy8c4rp2ik84mnicjgzrgmnz4d2j-PowerOptions",
-    "rev": "95fa7949fd9614a21bcc7a14ff8cc917a7208cf8",
-    "rootDir": "",
-    "sha256": "06pvdqcln2m8qic5d1rwq3ziq2gpwrcl53s5awdfddd46lh50a9x",
-    "url": "https://github.com/Nazahim/PowerOptions"
-  },
   "powerUsagePlugin": {
     "date": "2026-04-06T15:02:21+08:00",
     "deepClone": false,
@@ -12988,40 +12916,6 @@
     "rootDir": "",
     "sha256": "1qjynn9znr466hif3z0i735z4jp9y3jbxq4zahd3cc9dp79bzc0l",
     "url": "https://github.com/lucyfire/dms-plugins"
-  },
-  "wallpaperShufflerPlugin": {
-    "date": "2026-05-10T20:33:06+08:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-kwG9W3MG/Ex669MpSdY4sF063UQz5GeZUcoeIRh/fgo=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Daniel-42-z",
-      "capabilities": [
-        "set-wallpaper"
-      ],
-      "category": "appearance",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [],
-      "description": "Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder",
-      "distro": [
-        "any"
-      ],
-      "id": "wallpaperShufflerPlugin",
-      "name": "Wallpaper Shuffler",
-      "repo": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler",
-      "screenshot": "https://raw.githubusercontent.com/Daniel-42-z/dms-wallpaper-shuffler/refs/heads/main/screenshot.png",
-      "version": "1.0.2"
-    },
-    "path": "/nix/store/dqv85hvra7ild8sbzrzbjf8kv68fv26v-dms-wallpaper-shuffler",
-    "rev": "8c6758cb1bb91ef226b070d859bedd5c4b2ce9d0",
-    "rootDir": "",
-    "sha256": "02kygwc227naa6cngr1k8kfklpdh73b4jafkxdx4rz06fddvs0ck",
-    "url": "https://github.com/Daniel-42-z/dms-wallpaper-shuffler"
   },
   "warpToggle": {
     "date": "2026-06-26T19:07:24+03:00",
