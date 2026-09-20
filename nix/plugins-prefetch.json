@@ -6858,12 +6858,12 @@
     "url": "https://github.com/irunatbullets/hostname-widget"
   },
   "hueManager": {
-    "date": "2026-05-18T09:56:54-06:00",
+    "date": "2026-09-19T18:11:00-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bHvkgZuXe/ztBvRnj/r8zxhAmmemlcelP7iCqZwgISc=",
+    "hash": "sha256-Wv2arSQzGjZnvpGmccSP10FOrlzHXASltoqxv1SAsxo=",
     "leaveDotGit": false,
     "meta": {
       "author": "derethil",
@@ -6889,10 +6889,10 @@
       "screenshot": "https://raw.githubusercontent.com/derethil/dms-hue-manager/main/assets/screenshot.png",
       "version": "0.5.0"
     },
-    "path": "/nix/store/rh7m0fp2c3vxvh9gc866khyxksj8nbjn-dms-hue-manager",
-    "rev": "e0877d7c9bc7260e6a2eb124d150846e7a4d40e3",
+    "path": "/nix/store/2a2ma2vyxcg2l6dflnkhzilmyl9j9pid-dms-hue-manager",
+    "rev": "44929395bd170e57f542239dd122ab7887cebdaa",
     "rootDir": "",
-    "sha256": "09r142fak0mq7yjwg5d6cyd4066gzkx8yrzl0vnzqywpkf0y8yvc",
+    "sha256": "06mkh1abzccansjh8p67bjp4whfpiz2739liprkkc6ik4jnrmzas",
     "url": "https://github.com/derethil/dms-hue-manager"
   },
   "hydrate": {
