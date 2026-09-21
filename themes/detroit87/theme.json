@@ -1,0 +1,140 @@
+{
+  "id": "detroit87",
+  "name": "Detroit87",
+  "version": "1.0.0",
+  "author": "ocodo",
+  "description": "A dark, cool Detroit Techno-inspired theme.",
+  "dark":{},
+  "light":{},
+  "variants":{
+    "type": "multi",
+    "defaults": {
+      "dark": {
+	"flavor": "detroit",
+	"accent": "nitro"
+      },
+      "light": {
+	"flavor": "detroit-light",
+	"accent": "nitro"
+      }
+    },
+    "flavors": [
+      {
+	"id": "detroit",
+	"name": "Detroit67",	
+	"dark": {
+	  "primary": "#8D5EAE",
+	  "primaryText": "#000000",
+	  "primaryContainer": "#000000",
+	  "secondary": "#9AA1A6",
+	  "surface": "#101214",
+	  "surfaceText": "#F2F4F5",
+	  "surfaceVariant": "#171A1D",
+	  "surfaceVariantText": "#D7DBDE",
+	  "surfaceTint": "#AAAABF",
+	  "background": "#101214",
+	  "backgroundText": "#F2F4F5",
+	  "outline": "#555B60",    
+	  "surfaceContainerLowest": "#000000",
+	  "surfaceContainerLow": "#080808",
+	  "surfaceContainer": "#111111",
+	  "surfaceContainerHigh": "#181818",
+	  "surfaceContainerHighest": "#1D1D1D",
+	  "error": "#B86668",
+	  "warning": "#B39A62",
+	  "info": "#668FA2"
+	}
+      },
+      {
+	"id":"detroit-light",
+	"name":"Detroit87 Light",
+	"light": {
+	  "primary": "#8D5EAE",
+	  "primaryText": "#000000",
+	  "primaryContainer": "#000000",
+	  "secondary": "#9AA1A6",
+	  "surface": "#101214",
+	  "surfaceText": "#F2F4F5",
+	  "surfaceVariant": "#171A1D",
+	  "surfaceVariantText": "#D7DBDE",
+	  "surfaceTint": "#AAAABF",
+	  "background": "#101214",
+	  "backgroundText": "#F2F4F5",
+	  "outline": "#555B60",    
+	  "surfaceContainerLowest": "#000000",
+	  "surfaceContainerLow": "#080808",
+	  "surfaceContainer": "#111111",
+	  "surfaceContainerHigh": "#181818",
+	  "surfaceContainerHighest": "#1D1D1D",
+	  "error": "#B86668",
+	  "warning": "#B39A62",
+	  "info": "#668FA2"
+	}
+      }
+    ],
+    "accents": [
+      {
+	"detroit": {
+          "primary": "#8D5EAE"
+	},
+	"detroit-light": {
+          "primary": "#8D5EAE"
+	},
+	"id": "nitro",
+	"name": "Nitro Deluxe"
+      },
+      {
+	"detroit": {
+          "primary": "#5E65AE"
+	},
+	"detroit-light": {
+          "primary": "#5E65AE"
+	},
+	"id": "brutal",
+	"name": "Let's get Brutal"
+      },
+      {
+	"detroit": {
+          "primary": "#4C87AE"
+	},
+	"detroit-light": {
+          "primary": "#4C87AE"
+	},
+	"id": "string",
+	"name": "Strings of Life"
+      },
+      {
+	"detroit": {
+          "primary": "#41B09F"
+	},
+	"detroit-light": {
+          "primary": "#41B09F"
+	},
+	"id": "model",
+	"name": "Model 500"
+      },
+      {
+	"detroit": {
+          "primary": "#41B04F"
+	},
+	"detroit-light": {
+          "primary": "#41B04F"
+	},
+
+	"id": "inner",
+	"name": "Inner City"
+      },
+      {
+	"detroit": {
+          "primary": "#B08941"
+	},
+	"detroit-light": {
+          "primary": "#B08941"
+	},	
+	"id": "love",
+	"name": "Your Love"
+      }
+    ]
+  },
+  "sourceDir": "detroit87-theme"
+}
