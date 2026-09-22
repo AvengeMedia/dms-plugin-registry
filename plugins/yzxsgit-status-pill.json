@@ -1,0 +1,13 @@
+{
+    "id": "statusPill",
+    "name": "Status Pill",
+    "capabilities": ["desktop-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/yzxsgit/statusPill",
+    "author": "yzxsgit",
+    "description": "Compact Material 3 system status dock for CPU, memory, battery, and temperature in Niri",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland", "any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/yzxsgit/statusPill/master/screenshot.png"
+}
