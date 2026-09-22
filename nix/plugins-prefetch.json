@@ -1387,12 +1387,12 @@
     "url": "https://github.com/mcwiseman97/dms-canvas-plugin"
   },
   "cardwireManager": {
-    "date": "2026-09-18T14:16:09+02:00",
+    "date": "2026-09-22T09:57:07+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-kYgRY4SmuU/vfVf0eIVZz1Lve06CIHfaIo/xVevFw04=",
+    "hash": "sha256-25AhIDyNpIu/jokQ3qxUa6qgr6SKzn6orNKskKXzp8g=",
     "leaveDotGit": false,
     "meta": {
       "author": "Jan Kelemen",
@@ -1414,12 +1414,12 @@
       "name": "Cardwire Manager",
       "repo": "https://github.com/jankelemen/cardwire-manager",
       "screenshot": "https://raw.githubusercontent.com/jankelemen/cardwire-manager/master/assets/screenshot.png",
-      "version": "0.1.3"
+      "version": "0.1.4"
     },
-    "path": "/nix/store/5246ndi9agazpgvc3g8p0d11wfk69bhv-cardwire-manager",
-    "rev": "f1638a3f34c02e9c2733997678c155b882e2764f",
+    "path": "/nix/store/zrh3adc0cn92yd0vfr43c62f5g40f34r-cardwire-manager",
+    "rev": "8d519698f8a9cb456443c150bbe3a799970371d3",
     "rootDir": "",
-    "sha256": "0kn3qpmmbwcg4bd7f8429rxyylngb62pix2pgpplzfd6hiii324i",
+    "sha256": "1j57yfjr1b6jmjl7xklaljps1akbajndw449iszqp94d7hh2346v",
     "url": "https://github.com/jankelemen/cardwire-manager"
   },
   "catWidget": {
