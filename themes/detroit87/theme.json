@@ -3,24 +3,24 @@
   "name": "Detroit87",
   "version": "1.0.0",
   "author": "ocodo",
-  "description": "A dark, cool Detroit Techno-inspired theme.",
+  "description": "Detroit Techno-inspired theme.",
   "dark":{},
   "light":{},
   "variants":{
     "type": "multi",
     "defaults": {
       "dark": {
-	"flavor": "detroit",
+	"flavor": "ultra",
 	"accent": "nitro"
       },
       "light": {
-	"flavor": "detroit-light",
+	"flavor": "lumin",
 	"accent": "nitro"
       }
     },
     "flavors": [
       {
-	"id": "detroit",
+	"id": "ultra",
 	"name": "dark",	
 	"dark": {
 	  "primary": "#8D5EAE",
@@ -46,7 +46,7 @@
 	}
       },
       {
-	"id":"detroit-light",
+	"id":"lumin",
 	"name":"light",
 	"light": {
 	  "primary": "#76509A",
@@ -74,50 +74,50 @@
     ],
     "accents": [
       {
-	"detroit": {
+	"ultra": {
           "primary": "#8D5EAE"
 	},
-	"detroit-light": {
+	"lumin": {
           "primary": "#8D5EAE"
 	},
 	"id": "nitro",
 	"name": "Nitro Deluxe"
       },
       {
-	"detroit": {
+	"ultra": {
           "primary": "#5E65AE"
 	},
-	"detroit-light": {
+	"lumin": {
           "primary": "#5E65AE"
 	},
 	"id": "brutal",
 	"name": "Let's get Brutal"
       },
       {
-	"detroit": {
+	"ultra": {
           "primary": "#4C87AE"
 	},
-	"detroit-light": {
+	"lumin": {
           "primary": "#4C87AE"
 	},
 	"id": "string",
 	"name": "Strings of Life"
       },
       {
-	"detroit": {
+	"ultra": {
           "primary": "#41B09F"
 	},
-	"detroit-light": {
+	"lumin": {
           "primary": "#41B09F"
 	},
 	"id": "model",
 	"name": "Model 500"
       },
       {
-	"detroit": {
+	"ultra": {
           "primary": "#41B04F"
 	},
-	"detroit-light": {
+	"lumin": {
           "primary": "#41B04F"
 	},
 
@@ -125,10 +125,10 @@
 	"name": "Inner City"
       },
       {
-	"detroit": {
+	"ultra": {
           "primary": "#B08941"
 	},
-	"detroit-light": {
+	"lumin": {
           "primary": "#B08941"
 	},	
 	"id": "love",
