@@ -1,0 +1,123 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "fail",
+    "minRatio": 3.67,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 12.29,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "fail",
+      "minRatio": 3.67,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 3.9,
+      "worstPair": [
+        "info",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "detroit67-alpine-feint": "fail",
+      "detroit67-alpine-muted": "fail",
+      "detroit67-alpine-toned": "fail",
+      "detroit67-flashdetroit67-light-feint": "fail",
+      "detroit67-flashdetroit67-light-muted": "AA",
+      "detroit67-flashdetroit67-light-toned": "AA",
+      "detroit67-fuse-feint": "fail",
+      "detroit67-fuse-muted": "fail",
+      "detroit67-fuse-toned": "AA",
+      "detroit67-motor-feint": "fail",
+      "detroit67-motor-muted": "fail",
+      "detroit67-motor-toned": "fail",
+      "detroit67-resistor-feint": "fail",
+      "detroit67-resistor-muted": "fail",
+      "detroit67-resistor-toned": "fail",
+      "detroit67-underground-feint": "fail",
+      "detroit67-underground-muted": "fail",
+      "detroit67-underground-toned": "fail"
+    },
+    "breakdown": [
+      {
+        "name": "Detroit67",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 2.9,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AA",
+      "minRatio": 6.92,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "fail",
+      "minRatio": 2.9,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "fail",
+      "minRatio": 2.68,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "detroit67-light-alpine-feint": "fail",
+      "detroit67-light-alpine-muted": "fail",
+      "detroit67-light-alpine-toned": "fail",
+      "detroit67-light-flashdetroit67-light-feint": "fail",
+      "detroit67-light-flashdetroit67-light-muted": "fail",
+      "detroit67-light-flashdetroit67-light-toned": "fail",
+      "detroit67-light-fuse-feint": "fail",
+      "detroit67-light-fuse-muted": "fail",
+      "detroit67-light-fuse-toned": "fail",
+      "detroit67-light-motor-feint": "fail",
+      "detroit67-light-motor-muted": "fail",
+      "detroit67-light-motor-toned": "fail",
+      "detroit67-light-resistor-feint": "fail",
+      "detroit67-light-resistor-muted": "fail",
+      "detroit67-light-resistor-toned": "fail",
+      "detroit67-light-underground-feint": "fail",
+      "detroit67-light-underground-muted": "fail",
+      "detroit67-light-underground-toned": "fail"
+    },
+    "breakdown": [
+      {
+        "name": "Detroit67",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      }
+    ]
+  }
+}

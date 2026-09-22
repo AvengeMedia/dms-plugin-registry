@@ -11561,6 +11561,20 @@ Muted sage green theme, easy on the eyes at night, with bright/deep button varia
 
 
 
+### Detroit67
+
+A warm, muted Detroit 60s-70s inspired dark theme
+
+- **Author:** ocodo
+- **ID:** `detroit67` **Version:** `1.0.0`
+
+![WCAG AA body](https://img.shields.io/badge/WCAG_contrast-AA_body-green)
+
+
+![Detroit67](themes/detroit67/preview.svg)
+
+
+
 ### Dracula
 
 Dracula dark theme with Alucard light variant
