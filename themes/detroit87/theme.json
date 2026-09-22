@@ -21,7 +21,7 @@
     "flavors": [
       {
 	"id": "detroit",
-	"name": "Detroit87",	
+	"name": "dark",	
 	"dark": {
 	  "primary": "#8D5EAE",
 	  "primaryText": "#000000",
@@ -47,7 +47,7 @@
       },
       {
 	"id":"detroit-light",
-	"name":"Detroit87 Light",
+	"name":"light",
 	"light": {
 	  "primary": "#76509A",
 	  "primaryText": "#FFFFFF",
