@@ -1,0 +1,14 @@
+{
+    "id": "vpnControl",
+    "name": "VPN Control",
+    "capabilities": ["dankbar-widget", "control-center"],
+    "category": "system",
+    "repo": "https://github.com/schneipp/dms-plugin-vpn-control",
+    "author": "schneipp",
+    "description": "Connect and disconnect NetworkManager VPNs (OpenVPN, WireGuard) from the bar, with a per-profile toggle popout, right-click quick toggle, and a Control Center tile",
+    "dependencies": ["networkmanager"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/schneipp/dms-plugin-vpn-control/main/screenshot.png",
+    "requires_dms": ">=1.6.0"
+}
