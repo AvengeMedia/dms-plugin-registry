@@ -1,0 +1,15 @@
+{
+  "id": "dankbarPinentry",
+  "name": "DankBar Pinentry",
+  "capabilities": ["daemon", "dankbar-widget", "ipc"],
+  "category": "system",
+  "repo": "https://github.com/augustocdias/dank-pinentry",
+  "path": "plugin",
+  "author": "augustocdias",
+  "description": "GPG and SSH passphrase prompts inside DankMaterialShell: in the bar, as a dialog, or as a screen-edge strip. Requires the companion dank-pinentry binary, built from the same repository.",
+  "dependencies": ["dank-pinentry"],
+  "compositors": ["hyprland", "niri"],
+  "distro": ["any"],
+  "requires_dms": ">=1.7.0",
+  "screenshot": "https://raw.githubusercontent.com/augustocdias/dank-pinentry/main/screenshots/bad_phrase.png"
+}
