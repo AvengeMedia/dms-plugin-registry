@@ -1,0 +1,154 @@
+{
+  "id": "amoledNoir",
+  "name": "AMOLED Noir",
+  "version": "1.0.0",
+  "author": "eleve",
+  "description": "Pure black AMOLED theme with WCAG AA accents.",
+  "dark": {},
+  "light": {},
+  "variants": {
+    "type": "multi",
+    "defaults": {
+      "dark": {
+        "flavor": "noir",
+        "accent": "violet"
+      },
+      "light": {
+        "flavor": "paper",
+        "accent": "violet"
+      }
+    },
+    "flavors": [
+      {
+        "id": "noir",
+        "name": "Noir",
+        "dark": {
+          "secondary": "#A3A3A3",
+          "surface": "#000000",
+          "surfaceText": "#E8E8E8",
+          "surfaceVariant": "#000000",
+          "surfaceVariantText": "#C8C8C8",
+          "background": "#000000",
+          "backgroundText": "#FFFFFF",
+          "outline": "#333333",
+          "surfaceContainerLowest": "#000000",
+          "surfaceContainerLow": "#000000",
+          "surfaceContainer": "#000000",
+          "surfaceContainerHigh": "#0A0A0A",
+          "surfaceContainerHighest": "#141414",
+          "error": "#FF6B6B",
+          "warning": "#F5C451",
+          "info": "#6CB6FF"
+        }
+      },
+      {
+        "id": "paper",
+        "name": "Paper",
+        "light": {
+          "secondary": "#595959",
+          "surface": "#FFFFFF",
+          "surfaceText": "#111111",
+          "surfaceVariant": "#F0F0F0",
+          "surfaceVariantText": "#333333",
+          "background": "#F5F5F5",
+          "backgroundText": "#111111",
+          "outline": "#8A8A8A",
+          "surfaceContainerLowest": "#FFFFFF",
+          "surfaceContainerLow": "#F8F8F8",
+          "surfaceContainer": "#F0F0F0",
+          "surfaceContainerHigh": "#E8E8E8",
+          "surfaceContainerHighest": "#E0E0E0",
+          "error": "#B3261E",
+          "warning": "#8A5A00",
+          "info": "#0B62B8"
+        }
+      }
+    ],
+    "accents": [
+      {
+        "id": "mono",
+        "name": "Mono",
+        "noir": { "primary": "#FFFFFF", "primaryText": "#000000", "primaryContainer": "#262626", "surfaceTint": "#FFFFFF" },
+        "paper": { "primary": "#111111", "primaryText": "#FFFFFF", "primaryContainer": "#E0E0E0", "surfaceTint": "#111111" }
+      },
+      {
+        "id": "red",
+        "name": "Red",
+        "noir": { "primary": "#FF5C5C", "primaryText": "#000000", "primaryContainer": "#3A1414", "surfaceTint": "#FF5C5C" },
+        "paper": { "primary": "#C62828", "primaryText": "#FFFFFF", "primaryContainer": "#FFDADA", "surfaceTint": "#C62828" }
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "noir": { "primary": "#4ADE80", "primaryText": "#000000", "primaryContainer": "#0F2E1A", "surfaceTint": "#4ADE80" },
+        "paper": { "primary": "#166A31", "primaryText": "#FFFFFF", "primaryContainer": "#D4F5DE", "surfaceTint": "#166A31" }
+      },
+      {
+        "id": "cyan",
+        "name": "Cyan",
+        "noir": { "primary": "#22D3EE", "primaryText": "#000000", "primaryContainer": "#0A2A30", "surfaceTint": "#22D3EE" },
+        "paper": { "primary": "#006573", "primaryText": "#FFFFFF", "primaryContainer": "#CCF1F5", "surfaceTint": "#006573" }
+      },
+      {
+        "id": "violet",
+        "name": "Violet",
+        "noir": { "primary": "#B18CFF", "primaryText": "#000000", "primaryContainer": "#251A3A", "surfaceTint": "#B18CFF" },
+        "paper": { "primary": "#6D3FD0", "primaryText": "#FFFFFF", "primaryContainer": "#E8DEFF", "surfaceTint": "#6D3FD0" }
+      },
+      {
+        "id": "amber",
+        "name": "Amber",
+        "noir": { "primary": "#FFB547", "primaryText": "#000000", "primaryContainer": "#33250A", "surfaceTint": "#FFB547" },
+        "paper": { "primary": "#8A5A00", "primaryText": "#FFFFFF", "primaryContainer": "#FFE8C2", "surfaceTint": "#8A5A00" }
+      },
+      {
+        "id": "pink",
+        "name": "Pink",
+        "noir": { "primary": "#FF6AC1", "primaryText": "#000000", "primaryContainer": "#3A0F2A", "surfaceTint": "#FF6AC1" },
+        "paper": { "primary": "#B0247A", "primaryText": "#FFFFFF", "primaryContainer": "#FFD9EE", "surfaceTint": "#B0247A" }
+      },
+      {
+        "id": "orange",
+        "name": "Orange",
+        "noir": { "primary": "#FF8A3D", "primaryText": "#000000", "primaryContainer": "#3A1C08", "surfaceTint": "#FF8A3D" },
+        "paper": { "primary": "#A84300", "primaryText": "#FFFFFF", "primaryContainer": "#FFE0CC", "surfaceTint": "#A84300" }
+      },
+      {
+        "id": "blue",
+        "name": "Blue",
+        "noir": { "primary": "#5FA8FF", "primaryText": "#000000", "primaryContainer": "#0C1E38", "surfaceTint": "#5FA8FF" },
+        "paper": { "primary": "#1F5FBF", "primaryText": "#FFFFFF", "primaryContainer": "#D6E6FF", "surfaceTint": "#1F5FBF" }
+      },
+      {
+        "id": "teal",
+        "name": "Teal",
+        "noir": { "primary": "#2DD4BF", "primaryText": "#000000", "primaryContainer": "#08302B", "surfaceTint": "#2DD4BF" },
+        "paper": { "primary": "#0F6B60", "primaryText": "#FFFFFF", "primaryContainer": "#CCF3EE", "surfaceTint": "#0F6B60" }
+      },
+      {
+        "id": "lime",
+        "name": "Lime",
+        "noir": { "primary": "#A3E635", "primaryText": "#000000", "primaryContainer": "#1E2E05", "surfaceTint": "#A3E635" },
+        "paper": { "primary": "#4D6B00", "primaryText": "#FFFFFF", "primaryContainer": "#E6F7C2", "surfaceTint": "#4D6B00" }
+      },
+      {
+        "id": "yellow",
+        "name": "Yellow",
+        "noir": { "primary": "#FFE14D", "primaryText": "#000000", "primaryContainer": "#332C05", "surfaceTint": "#FFE14D" },
+        "paper": { "primary": "#6E5A00", "primaryText": "#FFFFFF", "primaryContainer": "#FFF4BF", "surfaceTint": "#6E5A00" }
+      },
+      {
+        "id": "indigo",
+        "name": "Indigo",
+        "noir": { "primary": "#8C9EFF", "primaryText": "#000000", "primaryContainer": "#161C3D", "surfaceTint": "#8C9EFF" },
+        "paper": { "primary": "#3F51B5", "primaryText": "#FFFFFF", "primaryContainer": "#DDE2FF", "surfaceTint": "#3F51B5" }
+      },
+      {
+        "id": "rose",
+        "name": "Rose",
+        "noir": { "primary": "#FF8FA3", "primaryText": "#000000", "primaryContainer": "#3A1420", "surfaceTint": "#FF8FA3" },
+        "paper": { "primary": "#B3264A", "primaryText": "#FFFFFF", "primaryContainer": "#FFDCE3", "surfaceTint": "#B3264A" }
+      }
+    ]
+  }
+}
