@@ -11563,10 +11563,10 @@ Muted sage green theme, easy on the eyes at night, with bright/deep button varia
 
 ### Detroit67
 
-A warm, muted Detroit 60s-70s inspired dark theme
+A warm, muted Detroit 60s-70s inspired theme
 
 - **Author:** ocodo
-- **ID:** `detroit67` **Version:** `1.0.0`
+- **ID:** `detroit67` **Version:** `1.0.1`
 
 ![WCAG AA body](https://img.shields.io/badge/WCAG_contrast-AA_body-green)
 
