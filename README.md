@@ -417,6 +417,36 @@ Syncs your DankMaterialShell theme colors with RGB hardware via OpenRGB. Watches
 
 
 
+#### [Profiles](https://github.com/satoshoe-dev/dms-profiles)
+
+Save the look of the shell (theme, accent, light or dark, wallpaper, bars, frame, transparency, desktop widgets) as profiles and switch between them with an animated transition. The picker has four views, among them a carousel and a honeycomb grid.
+
+
+
+- id: dmsProfiles
+- name: Profiles
+- author: satoshoe
+- compositors: any
+- capabilities: daemon
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/satoshoe-dev/dms-profiles/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Spotify Matugen](https://github.com/Grant07/dms-spotify-matugen)
 
 Lock DMS dynamic colors to Spotify album art while music is playing
