@@ -122,6 +122,7 @@ If you prefer to hand-craft the full card image, there is a web generator at [`h
   - For regular plugins: Must match `{repo}/plugin.json`
   - For monorepo plugins: Must match `{repo}/{path}/plugin.json`
 - **IMPORTANT**: The `id` field must be in camelCase format (starts with lowercase, only letters/digits)
+- **Avoid duplicate plugins**: Do not submit plugins that duplicate existing ones unless the original is unmaintained (maintainer unresponsive to issues/PRs for over 30 days) or yours offers major improvements/better design. Contribute upstream first whenever possible; if submitting a successor, link your upstream issue/PR in the submission
 
 ## Plugin Translations
 

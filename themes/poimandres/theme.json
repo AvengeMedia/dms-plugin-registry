@@ -1,56 +1,113 @@
 {
   "id": "poimandres",
   "name": "Poimandres",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "author": "aryas",
   "description": "Blue & teal theme inspired by https://github.com/drcmda/poimandres-theme",
   "dark": {
     "name": "Poimandres",
-    "primary": "#89DDFF",
-    "primaryText": "#1B212E",
-    "primaryContainer": "#506477",
     "secondary": "#5DE4C7",
     "surface": "#1B1E28",
-    "surfaceText": "#E4F0FB",
-    "surfaceVariant": "#1F2130",
+    "surfaceVariant": "#1E213A",
     "surfaceVariantText": "#FFFFFF",
     "surfaceTint": "#add7ff",
-    "background": "#0F1018",
-    "backgroundText": "#E4F0FB",
     "outline": "#3C5170",
     "surfaceContainerLowest": "#0F1018",
     "surfaceContainerLow": "#151824",
-    "surfaceContainer": "#1B1E28",
-    "surfaceContainerHigh": "#1F2130",
+    
     "surfaceContainerHighest": "#303340",
     "error": "#F087BD",
     "warning": "#FFFAC2",
     "info": "#add7ff",
-    "matugen_type": "scheme-expressive"
+    "matugen_type": "scheme-tonal-spot"
   },
   "light": {
-  "name": "Poimandres Light",
-  "primary": "#00B1A2",
-  "primaryText": "#FFFFFF",
-  "primaryContainer": "#B0DAE8",
-  "secondary": "#00A194",
-  "surface": "#E3F0FD",
-  "surfaceText": "#1B212E",
-  "surfaceVariant": "#E4F0FB",
-  "surfaceVariantText": "#2A3142",
-  "surfaceTint": "#14AFEC",
-  "background": "#FFFFFF",
-  "backgroundText": "#1B212E",
-  "outline": "#087C91",
-  "surfaceContainerLowest": "#FFFFFF",
-  "surfaceContainerLow": "#F2F7FC",
-  "surfaceContainer": "#E9F2FA",
-  "surfaceContainerHigh": "#E0F1FF",
-  "surfaceContainerHighest": "#CFE0F2",
-  "error": "#CC1964",
-  "warning": "#B11B08",
-  "info": "#00677F",
-  "matugen_type": "scheme-tonal-spot"
-}
+    "name": "Poimandres Light",
+    "surface": "#E3F0FD",
+    "surfaceVariant": "#E4F0FB",
+    "surfaceVariantText": "#2A3142",
+    "surfaceTint": "#14AFEC",
+    "outline": "#087C91",
+    "surfaceContainerLowest": "#FFFFFF",
+    "surfaceContainerLow": "#F2F7FC",
+    
+    "surfaceContainerHighest": "#CFE0F2",
+    "error": "#CE0056",
+    "warning": "#8A000B",
+    "info": "#00677F",
+    "matugen_type": "scheme-tonal-spot"
+    },
+  "variants":{
+    "default": "normal",
+    "options":[
+      {
+        "id": "colorful", 
+        "name": "Colorful",
+        "dark": {
+          "primary": "#89DDFF",
+          "primaryContainer": "#5DE4C7",
+          "onPrimaryContainer": "#0D5547",
+          "surfaceText": "#E2F8FF",
+          "primaryText": "#1a162e",
+          "secondary":"#FFFAC2",
+          "secondaryContainer": "#FFFAC2",
+          "onSecondaryContainer":"#796D00",
+          "tertiary": "#F087BD",
+          "tertiaryContainer": "#F087BD",
+          "onTertiaryContainer": "#6B284B",
+          "surfaceContainer": "#0D121F",
+          "surfaceContainerHigh": "#10142C",
+          "background": "#0D0E1A",
+          "backgroundText": "#E4F0FB"
+          
+        },
+        "light":{
+          "primary": "#00B1A2",
+          "primaryText": "#FFFFFF",
+          "primaryContainer": "#01BBAB",
+          "onPrimaryContainer": "#00443E",
+          "surfaceText": "#1B212E",
+          "secondary":"#FFFAC2",
+          "secondaryContainer": "#FFFAC2",
+          "onSecondaryContainer":"#A79707",
+          "tertiary":"#F087BD",
+          "onTertiaryContainer": "#6B284B",
+          "surfaceContainer": "#E0FCFC",
+          "surfaceContainerHigh": "#D3FCFC",
+          "background": "#DBFBFF",
+          "backgroundText": "#131B2C"
+        }
+      },
+      { 
+        "id": "normal", 
+        "name": "Normal",
+        "dark":{
+          "primary": "#89DDFF",
+          "primaryContainer": "#161A2E",
+          "onPrimaryContainer": "#5DE4C7",
+          "primaryText": "#1B212E",
+          "secondary": "#5DE4C7",
+          "surfaceText": "#E4F0FB",
+          "surfaceContainerHigh": "#1F2130",
+          "background": "#0F1018",
+          "surfaceContainer": "#1B1E28",
+          "backgroundText": "#E4F0FB"
+        },
+        "light":{
+          "primary": "#00B1A2",
+          "primaryText": "#FFFFFF",
+          "primaryContainer": "#B0DAE8",
+          "onPrimaryContainer": "#11222E",
+          "surfaceText": "#1B212E",
+          "secondary": "#00A194",
+          "surfaceContainer": "#E8FAFF",
+          "surfaceContainerHigh": "#E0F1FF",
+          "background": "#FFFFFF",
+          "backgroundText": "#1B212E"
+        }
+      }
+    ]
+  }
+
 
 } 

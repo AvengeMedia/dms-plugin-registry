@@ -172,6 +172,36 @@ Real-time Ghostty theme management from the navbar
 
 
 
+#### [Depthscape](https://github.com/Tz-slayer/depthscape)
+
+AI depth-aware wallpapers: the near part of your wallpaper is redrawn above desktop widgets, so scenery and characters occlude your clock and cards like an iOS depth-effect lock screen.
+
+
+
+- id: depthscape
+- name: Depthscape
+- author: Tz-slayer
+- compositors: niri
+- capabilities: daemon, desktop-widget, ai
+- dependencies: curl, qt6-5compat
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Tz-slayer/depthscape/main/assets/screenshot.jpg)
+
+</details>
+
+
+
+
+
 #### [EnderPulse](https://github.com/iquantecho/enderpulse)
 
 A responsive Cava visualizer for DankBar and the desktop
@@ -387,6 +417,36 @@ Syncs your DankMaterialShell theme colors with RGB hardware via OpenRGB. Watches
 
 
 
+#### [Profiles](https://github.com/satoshoe-dev/dms-profiles)
+
+Save the look of the shell (theme, accent, light or dark, wallpaper, bars, frame, transparency, desktop widgets) as profiles and switch between them with an animated transition. The picker has four views, among them a carousel and a honeycomb grid.
+
+
+
+- id: dmsProfiles
+- name: Profiles
+- author: satoshoe
+- compositors: any
+- capabilities: daemon
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/satoshoe-dev/dms-profiles/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Spotify Matugen](https://github.com/Grant07/dms-spotify-matugen)
 
 Lock DMS dynamic colors to Spotify album art while music is playing
@@ -440,36 +500,6 @@ Fetch and apply Windows Spotlight wallpapers from DankBar
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/scottmckendry/spotlight-wallpapers/main/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [Wallpaper Shuffler](https://github.com/Daniel-42-z/dms-wallpaper-shuffler)
-
-Shuffles wallpapers with a given time interval, finds wallpapers recursively inside the specified folder
-
-
-
-- id: wallpaperShufflerPlugin
-- name: Wallpaper Shuffler
-- author: Daniel-42-z
-- compositors: any
-- capabilities: set-wallpaper
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/Daniel-42-z/dms-wallpaper-shuffler/refs/heads/main/screenshot.png)
 
 </details>
 
@@ -595,6 +625,36 @@ Dynamic weather art widget with responsive ASCII scenes, customizable stats, and
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/viewerofall-labs/weather-viewer/main/weather.png)
+
+</details>
+
+
+
+
+
+#### [Window FX](https://github.com/satoshoe-dev/dms-window-fx)
+
+Close and open animations for windows on niri. There are 13 kinds, among them ember, shatter, melt, glitch and tube off, or a random pick from a list you choose. Opening plays the kind backwards, and edges can glow in the accent color. Needs one include line in the niri config.
+
+
+
+- id: windowFx
+- name: Window FX
+- author: satoshoe
+- compositors: niri
+- capabilities: daemon
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/satoshoe-dev/dms-window-fx/main/assets/screenshot.png)
 
 </details>
 
@@ -1567,6 +1627,36 @@ Claude Code 5-hour and weekly subscription limits in your bar, as theme-colored 
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/bogdan-velicu/DankClaudeUsage/main/assets/popout.png)
+
+</details>
+
+
+
+
+
+#### [Claude Usage and Stats](https://github.com/HotcocoaCanary/Canary-DMS-ClaudeUsageStats)
+
+Claude Code usage from local transcripts: /usage limits, /stats overview, per-model charts and an activity heatmap. /usage is synced manually or on a configurable schedule
+
+
+
+- id: claudeUsageStats
+- name: Claude Usage and Stats
+- author: HotcocoaCanary
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/HotcocoaCanary/Canary-DMS-ClaudeUsageStats/main/screenshot.png)
 
 </details>
 
@@ -2624,6 +2714,36 @@ TeamSpeak 6 voice status monitor for the bar: live mic/mute/away state, channel 
 
 
 
+#### [Tailscale Dashboard](https://github.com/HotcocoaCanary/Canary-DMS-TailscaleDashboard)
+
+Read-only Tailscale status: this device, the devices in the tailnet, traffic and relay latencies as charts, plus a link to the admin console
+
+
+
+- id: tailscaleDashboard
+- name: Tailscale Dashboard
+- author: HotcocoaCanary
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: tailscale, python3
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/HotcocoaCanary/Canary-DMS-TailscaleDashboard/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [VRAM Monitor](https://github.com/rollecode/dms-vram-monitor)
 
 NVIDIA VRAM usage as an animated progress bar in your DankBar, updated every second
@@ -2941,6 +3061,36 @@ Per-app bar badges for what happened since you last focused that app, cleared by
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/mkoester/dms-attention-badges/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Aven Tasks](https://github.com/gtheys/dms-aven)
+
+Quick-add tasks to the aven todo manager from DankLauncher. Pick a project from any aven workspace, or create one on the fly.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: aven
+- name: Aven Tasks
+- author: Geert Theys
+- compositors: any
+- capabilities: launcher
+- dependencies: aven
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/gtheys/dms-aven/main/screenshot.png)
 
 </details>
 
@@ -3569,7 +3719,7 @@ Material YOU inspired On-Screen Display popup and liquid wave indicator for batt
 
 
 
-#### [Caffeine](https://github.com/hthienloc/dms-caffeine)
+#### [Caffeine](https://github.com/hthienloc/dms-plugins)
 
 Keep your screen awake and prevent idle sleep with a single click.
 
@@ -3586,12 +3736,17 @@ Keep your screen awake and prevent idle sleep with a single click.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [caffeine](https://github.com/hthienloc/dms-plugins/tree/main/caffeine) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-caffeine/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/caffeine/screenshot.png)
 
 </details>
 
@@ -3929,6 +4084,36 @@ DankBar widget for selecting DMS output profiles.
 
 
 
+#### [EnderBackup](https://github.com/iquantecho/enderbackup)
+
+Verified desktop configuration backups for DMS, with configurable contents and bar styles.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: desktopBackup
+- name: EnderBackup
+- author: iquantecho
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python, tar, systemd, xdg-utils
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/iquantecho/enderbackup/main/docs/preview.png)
+
+</details>
+
+
+
+
+
 #### [Extended Network Toggle](https://github.com/notherealmarco/dms-plugin-extended-network)
 
 Network toggle with Ethernet, WiFi, and Other interfaces (bridges, VLANs, bonds)
@@ -3989,7 +4174,7 @@ Monitor Framework Laptop fan status and switch fw-fanctrl strategies from DankBa
 
 
 
-#### [IP Indicator](https://github.com/hthienloc/dms-ipIndicator)
+#### [IP Indicator](https://github.com/hthienloc/dms-plugins)
 
 Display public IP address, ISP, and location with a privacy-focused toggle.
 
@@ -4006,12 +4191,17 @@ Display public IP address, ISP, and location with a privacy-focused toggle.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [ipIndicator](https://github.com/hthienloc/dms-plugins/tree/main/ipIndicator) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-ipIndicator/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ipIndicator/screenshot.png)
 
 </details>
 
@@ -4294,6 +4484,36 @@ Turn off monitors from DankBar or Control Center.
 
 
 
+#### [SessionEdge](https://github.com/satoshoe-dev/dms-sessionedge)
+
+Session actions (lock, suspend, log out, reboot, power off, restart shell) in a slim strip that slides out of the DMS frame when you hover a screen edge. Actions that end the session need a click and hold.
+
+
+
+- id: sessionEdge
+- name: SessionEdge
+- author: satoshoe
+- compositors: any
+- capabilities: daemon
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/satoshoe-dev/dms-sessionedge/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Shelly Updater](https://github.com/rdannenbring/dms-shelly-updater)
 
 Comprehensive system update widget backed by the Shelly (ALPM) CLI — pacman, AUR, Flatpak and AppImage in one DankBar pill with a detailed updates view, action menu, and control-center panel. Also counts DMS plugin and device firmware updates, plus any other tool you describe in a config file (mise and Rust toolchains ship as worked examples). Requires Shelly v3+.
@@ -4512,7 +4732,7 @@ Integrated AI chat assistant with markdown support, multiple AI provider support
 
 
 
-#### [Activate Linux Watermark](https://github.com/hthienloc/dms-activate-linux)
+#### [Activate Linux Watermark](https://github.com/hthienloc/dms-plugins)
 
 Adds a watermark to the bottom-right of the screen
 
@@ -4529,12 +4749,17 @@ Adds a watermark to the bottom-right of the screen
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [activateLinux](https://github.com/hthienloc/dms-plugins/tree/main/activateLinux) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-activate-linux/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/activateLinux/screenshot.png)
 
 </details>
 
@@ -4637,7 +4862,7 @@ Alienware Command Center plugin for DankBar
 
 
 
-#### [Ambient Sound](https://github.com/hthienloc/dms-ambient-sound)
+#### [Ambient Sound](https://github.com/hthienloc/dms-plugins)
 
 Play ambient focus sounds with integrated sleep timer and volume control.
 
@@ -4654,12 +4879,17 @@ Play ambient focus sounds with integrated sleep timer and volume control.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [ambientSound](https://github.com/hthienloc/dms-plugins/tree/main/ambientSound) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-ambient-sound/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ambientSound/screenshot.png)
 
 </details>
 
@@ -4720,36 +4950,6 @@ A QuickShell plugin for DankMaterialShell that tracks anime episode releases and
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/RiceaRaul/DMS-AnimeCalendarPlugin/blob/main/screenshots/today-tab.png?raw=true)
-
-</details>
-
-
-
-
-
-#### [App Launcher](https://github.com/hthienloc/dms-app-launcher)
-
-Desktop widget to search, filter, and launch applications by categories.
-
-
-
-- id: appLauncher
-- name: App Launcher
-- author: Loc Huynh
-- compositors: any
-- capabilities: desktop-widget
-- dependencies: python3
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-app-launcher/main/screenshot.png)
 
 </details>
 
@@ -4912,7 +5112,7 @@ Search and manage Bitwarden or Vaultwarden using the official Bitwarden CLI, wit
 
 
 
-#### [Bongo Cat](https://github.com/hthienloc/dms-bongo-cat)
+#### [Bongo Cat](https://github.com/hthienloc/dms-plugins)
 
 A reactive animated cat that taps along with your keyboard input.
 
@@ -4929,12 +5129,17 @@ A reactive animated cat that taps along with your keyboard input.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [bongoCat](https://github.com/hthienloc/dms-plugins/tree/main/bongoCat) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-bongo-cat/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/bongoCat/screenshot.png)
 
 </details>
 
@@ -4942,7 +5147,7 @@ A reactive animated cat that taps along with your keyboard input.
 
 
 
-#### [Breathing Exercise](https://github.com/hthienloc/dms-breathing)
+#### [Breathing Exercise](https://github.com/hthienloc/dms-plugins)
 
 A guided breathing exercise tool for mindfulness and relaxation.
 
@@ -4959,12 +5164,17 @@ A guided breathing exercise tool for mindfulness and relaxation.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [breathing](https://github.com/hthienloc/dms-plugins/tree/main/breathing) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-breathing/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/breathing/screenshot.png)
 
 </details>
 
@@ -5947,41 +6157,6 @@ Add customizable, scriptable actions to your bar.
 
 
 
-#### [Dank Battery Alerts](https://github.com/AvengeMedia/dms-plugins)
-
-Notify on low battery levels.
-
-
-
-- id: dankBatteryAlerts
-- name: Dank Battery Alerts
-- author: Avenge Media
-- compositors: any
-- capabilities: watch-events, notify
-- dependencies: 
-- distro: any
-
-
-
-
-> [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [DankBatteryAlerts](https://github.com/AvengeMedia/dms-plugins/tree/main/DankBatteryAlerts) folder to your `~/.config/DankMaterialShell/plugins/` folder.
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-batteryalerts.png)
-
-</details>
-
-
-
-
-
 #### [Dank Bitwarden](https://github.com/pacman99/DankBitwarden)
 
 Search bitwarden entries from rbw.
@@ -6499,7 +6674,7 @@ CalDAV calendar widget with event listing, notifications, and event management v
 
 #### [DankChat](https://github.com/coldi1337/DankChat)
 
-Native Telegram and WhatsApp chats with a bar dropdown, tiling window, clipboard attachments, emoji reactions and unread filters.
+Native Telegram and WhatsApp chats with a bar dropdown, tiling window, voice messages, attachments and emoji reactions.
 
 
 
@@ -6508,7 +6683,7 @@ Native Telegram and WhatsApp chats with a bar dropdown, tiling window, clipboard
 - author: coldi1337
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: python3, python-telethon, python-qrcode, python-pillow, wacli 0.17.1, qt6-multimedia, qt6-imageformats, systemd, wl-clipboard
+- dependencies: python3, python-telethon, python-qrcode, python-pillow, wacli 0.17.1, qt6-multimedia, qt6-imageformats, systemd, wl-clipboard, ffmpeg (with libopus and PulseAudio input), PulseAudio or PipeWire with pipewire-pulse
 - distro: any
 
 
@@ -6519,7 +6694,7 @@ Native Telegram and WhatsApp chats with a bar dropdown, tiling window, clipboard
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/coldi1337/DankChat/v0.3.0/docs/preview.png)
+![screenshot](https://raw.githubusercontent.com/coldi1337/DankChat/v0.4.0/docs/preview.png)
 
 </details>
 
@@ -6687,7 +6862,7 @@ A widget that displays a command output on your desktop
 
 
 
-#### [Desktop Widget Toggle](https://github.com/hthienloc/dms-desktop-widget-toggle)
+#### [Desktop Widget Toggle](https://github.com/hthienloc/dms-plugins)
 
 Toggle visibility of desktop widget groups as overlay
 
@@ -6704,12 +6879,17 @@ Toggle visibility of desktop widget groups as overlay
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [desktopWidgetToggle](https://github.com/hthienloc/dms-plugins/tree/main/desktopWidgetToggle) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-desktop-widget-toggle/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/desktopWidgetToggle/screenshot.png)
 
 </details>
 
@@ -6835,6 +7015,36 @@ Turn on/off displays for Hyprland
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/Lucyfire/dms-plugins/blob/master/displaySettings/screenshot.png?raw=true)
+
+</details>
+
+
+
+
+
+#### [Docker Dashboard](https://github.com/HotcocoaCanary/Canary-DMS-DockerDashboard)
+
+Docker containers, compose projects, images, networks and volumes with start/stop/restart/recreate/delete and live logs
+
+
+
+- id: dockerDashboard
+- name: Docker Dashboard
+- author: HotcocoaCanary
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: docker, python3
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/HotcocoaCanary/Canary-DMS-DockerDashboard/main/screenshot.png)
 
 </details>
 
@@ -7022,7 +7232,7 @@ Search and copy 300+ emojis and 100+ unicode characters directly from the launch
 
 
 
-#### [Emoji Picker](https://github.com/hthienloc/dms-emoji-picker)
+#### [Emoji Picker](https://github.com/hthienloc/dms-plugins)
 
 Search, copy, and paste emoji from a centered picker.
 
@@ -7039,12 +7249,17 @@ Search, copy, and paste emoji from a centered picker.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [emojiPicker](https://github.com/hthienloc/dms-plugins/tree/main/emojiPicker) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-emoji-picker/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/emojiPicker/screenshot.png)
 
 </details>
 
@@ -7140,66 +7355,6 @@ Check for and install Flatpak Updates
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png)
-
-</details>
-
-
-
-
-
-#### [Floaty](https://github.com/hthienloc/dms-floaty)
-
-A feature-rich reference image tool to float images, screenshots, and vector graphics on top of all windows.
-
-
-
-- id: floaty
-- name: Floaty
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: poppler-utils
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-floaty/main/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [Folder View](https://github.com/hthienloc/dms-folder-view)
-
-A folder viewer widget that displays and manages files and directories on your screen.
-
-
-
-- id: folderView
-- name: Folder View
-- author: Loc Huynh
-- compositors: any
-- capabilities: desktop-widget
-- dependencies: wl-clipboard, glib2, dms-floaty
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-folder-view/main/screenshot.png)
 
 </details>
 
@@ -7522,7 +7677,7 @@ Popout translation widget for DankMaterialShell bar. Select text, click the tran
 
 
 
-#### [Hand Mirror](https://github.com/hthienloc/dms-hand-mirror)
+#### [Hand Mirror](https://github.com/hthienloc/dms-plugins)
 
 Cozy camera preview with digital zoom, snapshots, and a pinnable floating window.
 
@@ -7539,12 +7694,17 @@ Cozy camera preview with digital zoom, snapshots, and a pinnable floating window
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [handMirror](https://github.com/hthienloc/dms-plugins/tree/main/handMirror) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-hand-mirror/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/handMirror/screenshot.png)
 
 </details>
 
@@ -7552,7 +7712,7 @@ Cozy camera preview with digital zoom, snapshots, and a pinnable floating window
 
 
 
-#### [Hidden Bar](https://github.com/hthienloc/dms-hidden-bar)
+#### [Hidden Bar](https://github.com/hthienloc/dms-plugins)
 
 Hide/Show bar widgets with a click or hover
 
@@ -7569,12 +7729,17 @@ Hide/Show bar widgets with a click or hover
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [hiddenBar](https://github.com/hthienloc/dms-plugins/tree/main/hiddenBar) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-hidden-bar/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/hiddenBar/screenshot.png)
 
 </details>
 
@@ -7672,7 +7837,7 @@ Control your Philips Hue lights directly from DMS
 
 
 
-#### [Hydrate](https://github.com/hthienloc/dms-hydrate)
+#### [Hydrate](https://github.com/hthienloc/dms-plugins)
 
 Drink water reminder and tracker.
 
@@ -7689,12 +7854,17 @@ Drink water reminder and tracker.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [hydrate](https://github.com/hthienloc/dms-plugins/tree/main/hydrate) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-hydrate/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/hydrate/screenshot.png)
 
 </details>
 
@@ -7857,7 +8027,7 @@ Run a command on a custom interval and display its output in the bar. Supports m
 
 
 
-#### [Kaomoji Picker](https://github.com/hthienloc/dms-kaomoji-picker)
+#### [Kaomoji Picker](https://github.com/hthienloc/dms-plugins)
 
 A lightweight launcher for browsing and copying kaomojis to the clipboard.
 
@@ -7874,12 +8044,17 @@ A lightweight launcher for browsing and copying kaomojis to the clipboard.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [kaomojiPicker](https://github.com/hthienloc/dms-plugins/tree/main/kaomojiPicker) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-kaomoji-picker/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/kaomojiPicker/screenshot.png)
 
 </details>
 
@@ -7910,6 +8085,36 @@ A desktop widget that parses your compositor's keybinding config and displays th
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/stvnwrgs/dms-keybindings-cheat-sheet/master/example-small.png)
+
+</details>
+
+
+
+
+
+#### [Keystrokes](https://github.com/Tz-slayer/keystrokes)
+
+Shows every key you press as on-screen keycaps, with press counts and keystroke history. Ported from keyviz, for screencasts and tutorials.
+
+
+
+- id: keystrokes
+- name: Keystrokes
+- author: Tz-slayer
+- compositors: any
+- capabilities: daemon, control-center
+- dependencies: libinput, python3
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Tz-slayer/keystrokes/main/docs/cover.png)
 
 </details>
 
@@ -8097,7 +8302,7 @@ Displays LiveChart anime schedule data pulled from a local browser session.
 
 
 
-#### [Lutris Launcher](https://github.com/hthienloc/dms-lutris-launcher)
+#### [Lutris Launcher](https://github.com/hthienloc/dms-plugins)
 
 Quickly browse and launch games from your Lutris library.
 
@@ -8114,12 +8319,17 @@ Quickly browse and launch games from your Lutris library.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [lutrisLauncher](https://github.com/hthienloc/dms-plugins/tree/main/lutrisLauncher) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-lutris-launcher/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/lutrisLauncher/screenshot.png)
 
 </details>
 
@@ -8352,7 +8562,7 @@ Media controls with full bar volume scroll. Disables workspace scroll.
 
 
 
-#### [Media Downloader](https://github.com/hthienloc/dms-media-downloader)
+#### [Media Downloader](https://github.com/hthienloc/dms-plugins)
 
 Download audio and video from web links using yt-dlp
 
@@ -8369,12 +8579,17 @@ Download audio and video from web links using yt-dlp
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [mediaDownloader](https://github.com/hthienloc/dms-plugins/tree/main/mediaDownloader) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-media-downloader/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/mediaDownloader/screenshot.png)
 
 </details>
 
@@ -8567,7 +8782,7 @@ AI assistant, made to be useful
 
 
 
-#### [Niri Display Settings](https://github.com/hthienloc/dms-niri-display-settings)
+#### [Niri Display Settings](https://github.com/hthienloc/dms-plugins)
 
 Quickly toggle and configure display outputs in the Niri Wayland compositor.
 
@@ -8584,12 +8799,17 @@ Quickly toggle and configure display outputs in the Niri Wayland compositor.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [niriDS](https://github.com/hthienloc/dms-plugins/tree/main/niriDS) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-niri-display-settings/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/niriDS/screenshot.png)
 
 </details>
 
@@ -8782,7 +9002,7 @@ Nothing OS-inspired desktop clock with 6 styles: digital, split, analog, analog 
 
 
 
-#### [OCR Scanner](https://github.com/hthienloc/dms-ocr-scanner)
+#### [OCR Scanner](https://github.com/hthienloc/dms-plugins)
 
 Extract text from clipboard images or local files using Tesseract OCR.
 
@@ -8799,12 +9019,17 @@ Extract text from clipboard images or local files using Tesseract OCR.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [ocrScanner](https://github.com/hthienloc/dms-plugins/tree/main/ocrScanner) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-ocr-scanner/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ocrScanner/screenshot.png)
 
 </details>
 
@@ -9062,36 +9287,6 @@ A WIP translation plugin. Currently supports DeepL's free API.
 
 
 
-#### [Power Options](https://github.com/Nazahim/PowerOptions)
-
-Access power options like shutdown and reboot from the launcher
-
-
-
-- id: powerOptions
-- name: Power Options
-- author: Nazahim
-- compositors: any
-- capabilities: command-execution
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/Nazahim/PowerOptions/edf8a49fceadf61e208151e6f4d38480eb831878/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Prayer Times](https://github.com/muadzmo/prayertimes)
 
 Display Islamic prayer times from Aladhan API
@@ -9182,37 +9377,7 @@ Monitor and control your Pulsar X3 gaming mouse
 
 
 
-#### [QR Generator](https://github.com/hthienloc/dms-qr-generator)
-
-Generate and scan QR codes from clipboard text, manual input, or dropped images.
-
-
-
-- id: qrGenerator
-- name: QR Generator
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: qrencode, wl-clipboard, zbar
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-qr-generator/master/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [Quick Capture](https://github.com/hthienloc/dms-quick-capture)
+#### [Quick Capture](https://github.com/hthienloc/dms-plugins)
 
 Screenshot annotation and screen recording plugin.
 
@@ -9229,12 +9394,17 @@ Screenshot annotation and screen recording plugin.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [quickCapture](https://github.com/hthienloc/dms-plugins/tree/main/quickCapture) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-quick-capture/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/quickCapture/screenshot.png)
 
 </details>
 
@@ -9667,36 +9837,6 @@ Start, stop, and configure screen captures with gpu-screen-recorder on any Wayla
 
 
 
-#### [Screen Recorder LH](https://github.com/hthienloc/dms-screen-recorder)
-
-GPU-accelerated screen recorder with multi-monitor support and smart notifications.
-
-<strong>requires DMS version</strong>: <em>>=1.5.0</em>
-
-- id: screenRecorderLH
-- name: Screen Recorder LH
-- author: Loc Huynh
-- compositors: any
-- capabilities: daemon, control-center, ipc
-- dependencies: gpu-screen-recorder, ffmpeg, libnotify
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-screen-recorder/master/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Screen Recorder X](https://github.com/crowforkotlin/dms-screen-recorder)
 
 Record screen or selected area using wf-recorder with configurable codec, framerate, quality, resolution, format and save path
@@ -9757,7 +9897,7 @@ GPU-accelerated monitor recording with VFR, quality and resolution controls, cur
 
 
 
-#### [Screenkey](https://github.com/hthienloc/dms-screenkey)
+#### [Screenkey](https://github.com/hthienloc/dms-plugins)
 
 An always-on-top keystroke and mouse click visualizer for tutorials.
 
@@ -9774,12 +9914,17 @@ An always-on-top keystroke and mouse click visualizer for tutorials.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [screenkey](https://github.com/hthienloc/dms-plugins/tree/main/screenkey) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-screenkey/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/screenkey/screenshot.png)
 
 </details>
 
@@ -10172,36 +10317,6 @@ Search and browse stickers powered by Klipy
 
 
 
-#### [Stopwatch](https://github.com/hthienloc/dms-stopwatch)
-
-A high-precision stopwatch for time tracking.
-
-
-
-- id: stopwatch
-- name: Stopwatch
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-stopwatch/main/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [System Monitor Plus](https://github.com/Dadangdut33/dms-plugins)
 
 Unified DMS system monitor with capabilities to customize resources order, resource shown, colors, and new styles.
@@ -10267,7 +10382,7 @@ Tailscale-toggle plugin for DankBar
 
 
 
-#### [Take a Break](https://github.com/hthienloc/dms-take-a-break)
+#### [Take a Break](https://github.com/hthienloc/dms-plugins)
 
 A gentle companion that reminds you to rest your eyes with short and long breaks.
 
@@ -10284,12 +10399,17 @@ A gentle companion that reminds you to rest your eyes with short and long breaks
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [takeABreak](https://github.com/hthienloc/dms-plugins/tree/main/takeABreak) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-take-a-break/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/takeABreak/screenshot.png)
 
 </details>
 
@@ -10417,7 +10537,7 @@ Display a customizable countdown timer in the Dankbar. Perfect for tracking impo
 
 
 
-#### [Timer](https://github.com/hthienloc/dms-timer)
+#### [Timer](https://github.com/hthienloc/dms-plugins)
 
 A countdown timer with notification support and audio alerts.
 
@@ -10434,12 +10554,17 @@ A countdown timer with notification support and audio alerts.
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [timer](https://github.com/hthienloc/dms-plugins/tree/main/timer) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-timer/master/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/timer/screenshot.png)
 
 </details>
 
@@ -10507,7 +10632,7 @@ Monitor and manage your system trash directly from your status bar. Features rea
 
 
 
-#### [Typing Sounds](https://github.com/hthienloc/dms-typing-sounds)
+#### [Typing Sounds](https://github.com/hthienloc/dms-plugins)
 
 Play mechanical keyboard sounds as you type
 
@@ -10524,12 +10649,17 @@ Play mechanical keyboard sounds as you type
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [typingSounds](https://github.com/hthienloc/dms-plugins/tree/main/typingSounds) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-typing-sounds/main/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/typingSounds/screenshot.png)
 
 </details>
 
@@ -11106,7 +11236,7 @@ Briefly shows the id and name of the workspace you just switched to, centered on
 - id: workspaceOsdFlash
 - name: Workspace OSD Flash
 - author: Ale Bles
-- compositors: hyprland, niri
+- compositors: hyprland, niri, mangowc, sway, labwc, miracle-wm
 - capabilities: daemon, ipc
 - dependencies: 
 - distro: any
@@ -11491,6 +11621,34 @@ Muted sage green theme, easy on the eyes at night, with bright/deep button varia
 
 
 
+### Detroit67
+
+A warm, muted Detroit 60s-70s inspired theme
+
+- **Author:** ocodo
+- **ID:** `detroit67` **Version:** `1.0.1`
+
+![WCAG AA body](https://img.shields.io/badge/WCAG_contrast-AA_body-green)
+
+
+![Detroit67](themes/detroit67/preview.svg)
+
+
+
+### Detroit87
+
+Detroit Techno-inspired theme.
+
+- **Author:** ocodo
+- **ID:** `detroit87` **Version:** `1.0.0`
+
+![WCAG AAA body](https://img.shields.io/badge/WCAG_contrast-AAA_body-brightgreen)
+
+
+![Detroit87](themes/detroit87/preview.svg)
+
+
+
 ### Dracula
 
 Dracula dark theme with Alucard light variant
@@ -11720,7 +11878,7 @@ Oceanic's color scheme from https://discord.com/channels/1387519366651842574/145
 Blue & teal theme inspired by https://github.com/drcmda/poimandres-theme
 
 - **Author:** aryas
-- **ID:** `poimandres` **Version:** `1.0.0`
+- **ID:** `poimandres` **Version:** `2.0.0`
 
 ![WCAG AAA (Partial)](https://img.shields.io/badge/WCAG_contrast-AAA_(Partial)-brightgreen)
 
