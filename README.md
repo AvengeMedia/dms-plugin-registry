@@ -11575,6 +11575,20 @@ A warm, muted Detroit 60s-70s inspired dark theme
 
 
 
+### Detroit87
+
+Detroit Techno-inspired theme.
+
+- **Author:** ocodo
+- **ID:** `detroit87` **Version:** `1.0.0`
+
+![WCAG AAA body](https://img.shields.io/badge/WCAG_contrast-AAA_body-brightgreen)
+
+
+![Detroit87](themes/detroit87/preview.svg)
+
+
+
 ### Dracula
 
 Dracula dark theme with Alucard light variant
