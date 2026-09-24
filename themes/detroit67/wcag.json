@@ -1,0 +1,123 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "fail",
+    "minRatio": 3.67,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 12.29,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "fail",
+      "minRatio": 3.67,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 3.9,
+      "worstPair": [
+        "info",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "67-dark-alpine-feint": "fail",
+      "67-dark-alpine-muted": "fail",
+      "67-dark-alpine-toned": "fail",
+      "67-dark-flashlight-feint": "fail",
+      "67-dark-flashlight-muted": "AA",
+      "67-dark-flashlight-toned": "AA",
+      "67-dark-fuse-feint": "fail",
+      "67-dark-fuse-muted": "fail",
+      "67-dark-fuse-toned": "AA",
+      "67-dark-motor-feint": "fail",
+      "67-dark-motor-muted": "fail",
+      "67-dark-motor-toned": "fail",
+      "67-dark-resistor-feint": "fail",
+      "67-dark-resistor-muted": "fail",
+      "67-dark-resistor-toned": "fail",
+      "67-dark-under-feint": "fail",
+      "67-dark-under-muted": "fail",
+      "67-dark-under-toned": "fail"
+    },
+    "breakdown": [
+      {
+        "name": "Dark",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 2.9,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AA",
+      "minRatio": 6.92,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "fail",
+      "minRatio": 2.9,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "fail",
+      "minRatio": 2.68,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "67-light-alpine-feint": "fail",
+      "67-light-alpine-muted": "fail",
+      "67-light-alpine-toned": "fail",
+      "67-light-flashlight-feint": "fail",
+      "67-light-flashlight-muted": "fail",
+      "67-light-flashlight-toned": "fail",
+      "67-light-fuse-feint": "fail",
+      "67-light-fuse-muted": "fail",
+      "67-light-fuse-toned": "fail",
+      "67-light-motor-feint": "fail",
+      "67-light-motor-muted": "fail",
+      "67-light-motor-toned": "fail",
+      "67-light-resistor-feint": "fail",
+      "67-light-resistor-muted": "fail",
+      "67-light-resistor-toned": "fail",
+      "67-light-under-feint": "fail",
+      "67-light-under-muted": "fail",
+      "67-light-under-toned": "fail"
+    },
+    "breakdown": [
+      {
+        "name": "Light",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AA"
+      }
+    ]
+  }
+}
