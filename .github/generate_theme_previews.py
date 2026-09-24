@@ -97,11 +97,88 @@ def generate_panel(scheme: dict, name: str, x: int) -> str:
     )
 
 
-def generate_combined_preview(theme: dict) -> str:
+def original_combined_preview(theme: dict) -> str:
     name = theme.get("name", "Theme")
     dark_panel = generate_panel(theme["dark"], f"{name} (dark)", 0)
     light_panel = generate_panel(theme["light"], f"{name} (light)", 284)
-    return COMBINED_TEMPLATE.format(dark_panel=dark_panel, light_panel=light_panel)
+    return COMBINED_TEMPLATE.format(
+        dark_panel=dark_panel,
+        light_panel=light_panel,
+    )
+
+
+def variant_defaults_combined_preview(
+    theme: dict,
+    dark: dict,
+    light: dict,
+    dark_flavor: dict,
+    dark_accent: dict,
+    light_flavor: dict,
+    light_accent: dict,
+) -> str:
+    name = theme.get("name", "Theme")
+
+    dark_panel = generate_panel(
+        dark,
+        f"{name} {dark_flavor.get('name')} {dark_accent.get('name')} (dark)",
+        0,
+    )
+    light_panel = generate_panel(
+        light,
+        f"{name} {light_flavor.get('name')} {light_accent.get('name')} (light)",
+        284,
+    )
+
+    return COMBINED_TEMPLATE.format(
+        dark_panel=dark_panel,
+        light_panel=light_panel,
+    )
+
+
+def generate_combined_preview(theme: dict) -> str:
+    variants = theme.get("variants")
+
+    if variants and variants.get("type") == "multi":
+        defaults = variants.get("defaults", {})
+
+        dark_defaults = defaults.get("dark", {})
+        light_defaults = defaults.get("light", {})
+
+        flavors = variants.get("flavors", [])
+        accents = variants.get("accents", [])
+
+        dark_flavor = next(
+            (f for f in flavors if f["id"] == dark_defaults.get("flavor")),
+            None,
+        )
+        dark_accent = next(
+            (a for a in accents if a["id"] == dark_defaults.get("accent")),
+            None,
+        )
+        light_flavor = next(
+            (f for f in flavors if f["id"] == light_defaults.get("flavor")),
+            None,
+        )
+        light_accent = next(
+            (a for a in accents if a["id"] == light_defaults.get("accent")),
+            None,
+        )
+
+        if all((dark_flavor, dark_accent, light_flavor, light_accent)):
+            dark, _ = resolve_multi_variant(theme, dark_flavor, dark_accent)
+            light, _ = resolve_multi_variant(theme, light_flavor, light_accent)
+
+            return variant_defaults_combined_preview(
+                theme,
+                dark,
+                light,
+                dark_flavor,
+                dark_accent,
+                light_flavor,
+                light_accent,
+            )
+
+    return original_combined_preview(theme)
 
 
 def generate_single_preview(scheme: dict, name: str) -> str:
@@ -183,10 +260,12 @@ def generate_all_previews(themes_dir: Path) -> None:
                         print(f"Generated {path}")
 
                 dark_flavor = next(
-                    (f for f in flavors if f["id"] == dark_defaults.get("flavor")), None
+                    (f for f in flavors if f["id"] == dark_defaults.get("flavor")),
+                    None,
                 )
                 dark_accent = next(
-                    (a for a in accents if a["id"] == dark_defaults.get("accent")), None
+                    (a for a in accents if a["id"] == dark_defaults.get("accent")),
+                    None,
                 )
                 light_flavor = next(
                     (f for f in flavors if f["id"] == light_defaults.get("flavor")),
@@ -197,26 +276,44 @@ def generate_all_previews(themes_dir: Path) -> None:
                     None,
                 )
 
-                if dark_flavor and dark_accent:
-                    resolved, _ = resolve_multi_variant(theme, dark_flavor, dark_accent)
-                    label = f"{theme_name} {dark_flavor.get('name')} {dark_accent.get('name')} (dark)"
-                    svg = generate_single_preview(resolved, label)
-                    for filename in ["preview.svg", "preview-dark.svg"]:
-                        path = theme_dir / filename
-                        with open(path, "w") as f:
-                            f.write(svg)
-                        print(f"Generated {path}")
-
-                if light_flavor and light_accent:
-                    resolved, _ = resolve_multi_variant(
+                if dark_flavor and dark_accent and light_flavor and light_accent:
+                    dark, _ = resolve_multi_variant(
+                        theme, dark_flavor, dark_accent
+                    )
+                    light, _ = resolve_multi_variant(
                         theme, light_flavor, light_accent
                     )
-                    label = f"{theme_name} {light_flavor.get('name')} {light_accent.get('name')} (light)"
-                    svg = generate_single_preview(resolved, label)
-                    path = theme_dir / "preview-light.svg"
-                    with open(path, "w") as f:
-                        f.write(svg)
-                    print(f"Generated {path}")
+
+                    combined = variant_defaults_combined_preview(
+                        theme,
+                        dark,
+                        light,
+                        dark_flavor,
+                        dark_accent,
+                        light_flavor,
+                        light_accent,
+                    )
+
+                    dark_svg = generate_single_preview(
+                        dark,
+                        f"{theme_name} {dark_flavor.get('name')} "
+                        f"{dark_accent.get('name')} (dark)",
+                    )
+                    light_svg = generate_single_preview(
+                        light,
+                        f"{theme_name} {light_flavor.get('name')} "
+                        f"{light_accent.get('name')} (light)",
+                    )
+
+                    for filename, content in [
+                        ("preview.svg", combined),
+                        ("preview-dark.svg", dark_svg),
+                        ("preview-light.svg", light_svg),
+                    ]:
+                        path = theme_dir / filename
+                        with open(path, "w") as f:
+                            f.write(content)
+                        print(f"Generated {path}")
             else:
                 default_id = variants.get("default")
 
