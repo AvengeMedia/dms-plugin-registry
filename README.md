@@ -602,6 +602,36 @@ Dynamic weather art widget with responsive ASCII scenes, customizable stats, and
 
 
 
+#### [Window FX](https://github.com/satoshoe-dev/dms-window-fx)
+
+Close and open animations for windows on niri. There are 13 kinds, among them ember, shatter, melt, glitch and tube off, or a random pick from a list you choose. Opening plays the kind backwards, and edges can glow in the accent color. Needs one include line in the niri config.
+
+
+
+- id: windowFx
+- name: Window FX
+- author: satoshoe
+- compositors: niri
+- capabilities: daemon
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/satoshoe-dev/dms-window-fx/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [mpvpaper Video Wallpaper](https://github.com/kanghengliu/dms-mpvpaper)
 
 Video wallpaper support using mpvpaper
