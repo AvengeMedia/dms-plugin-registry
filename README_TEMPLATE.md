@@ -55,6 +55,7 @@ Some plugins are created by third-party developers and are not officially suppor
 - capabilities: {{ plugin.capabilities | join(", ") }}
 - dependencies: {{ plugin.dependencies | join(", ") }}
 - distro: {{ plugin.distro | join(", ") }}
+{% if plugin.i18n %}- translations: 🌐 centrally translated via the DMS POEditor project{% endif %}
 
 {% if plugin.path %}
 

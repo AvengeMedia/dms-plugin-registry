@@ -7,11 +7,11 @@
   <circle cx="40" cy="13" r="3" fill="#fbf3db"/>
   <circle cx="50" cy="13" r="3" fill="#fbf3db"/>
   <text x="140" y="17" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#dbb32d">9:41</text>
-  <circle cx="238" cy="13" r="4" fill="#4695f7"/>
-  <circle cx="252" cy="13" r="4" fill="#ed8649"/>
-  <circle cx="266" cy="13" r="4" fill="#fa5750"/>
+  <circle cx="238" cy="13" r="4" fill="#73aff9"/>
+  <circle cx="252" cy="13" r="4" fill="#ef9762"/>
+  <circle cx="266" cy="13" r="4" fill="#fc8c87"/>
 
-  <rect x="14" y="38" width="252" height="190" rx="12" fill="#26211c" stroke="#8a7f6f" stroke-opacity="0.5"/>
+  <rect x="14" y="38" width="252" height="190" rx="12" fill="#26211c" stroke="#b2ab9f" stroke-opacity="0.5"/>
   <text x="28" y="61" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#f5e8c7">Bru Espresso Yellow (dark)</text>
   <text x="28" y="77" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" fill="#fbf3db">Secondary text</text>
 
@@ -19,7 +19,7 @@
   <text x="38" y="105" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="500" fill="#f5e8c7">Nested card</text>
   <text x="38" y="120" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#fbf3db">Body text on an elevated surface</text>
 
-  <rect x="26" y="145" width="228" height="22" rx="6" fill="#26211c" stroke="#8a7f6f" stroke-opacity="0.4"/>
+  <rect x="26" y="145" width="228" height="22" rx="6" fill="#26211c" stroke="#b2ab9f" stroke-opacity="0.4"/>
   <text x="38" y="160" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#fbf3db">Search</text>
 
   <rect x="26" y="175" width="78" height="22" rx="11" fill="#dbb32d"/>
@@ -31,8 +31,8 @@
 
   <circle cx="34" cy="212" r="7" fill="#dbb32d"/>
   <circle cx="54" cy="212" r="7" fill="#41c7b9"/>
-  <circle cx="74" cy="212" r="7" fill="#fa5750"/>
-  <circle cx="94" cy="212" r="7" fill="#ed8649"/>
-  <circle cx="114" cy="212" r="7" fill="#4695f7"/>
+  <circle cx="74" cy="212" r="7" fill="#fc8c87"/>
+  <circle cx="94" cy="212" r="7" fill="#ef9762"/>
+  <circle cx="114" cy="212" r="7" fill="#73aff9"/>
 </g>
 </svg>

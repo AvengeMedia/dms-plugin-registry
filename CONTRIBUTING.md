@@ -4,6 +4,16 @@
 
 - [Contributing a Plugin](#contributing-a-plugin)
 - [Contributing a Theme](#contributing-a-theme)
+- [Generative AI](#generative-ai)
+
+## Generative AI
+
+Using an LLM to help write code, issues, or comments is fine. Submitting its output unread is not.
+
+- You are responsible for every line you submit. You have read it, tested it, and can explain it in review.
+- Say in the PR when a meaningful part of it was AI generated.
+- Do not file issues or leave comments you have not verified yourself. Reports that do not reproduce get closed.
+- PRs that read like unreviewed output, with narrating comments, invented APIs, or style that ignores the file they are in, get closed without review.
 
 ---
 
@@ -60,6 +70,7 @@ Thank you for contributing to the Dank Material Shell Plugins registry!
 - **compositors** (required): Supported Wayland compositors: `["niri", "hyprland"]`, etc.
 - **distro** (required): Supported distributions: `["any"]`, `["fedora"]`, `["arch"]`, etc.
 - **screenshot** (required): Direct URL to a screenshot image showing your plugin — see [Previews](#previews) for easy ways to produce a good one
+- **i18n** (optional): `true` once your plugin has been approved for central translation via the DMS POEditor project — see [Plugin Translations](#plugin-translations). Do not set it in your initial submission.
 
 ### Previews
 
@@ -111,6 +122,26 @@ If you prefer to hand-craft the full card image, there is a web generator at [`h
   - For regular plugins: Must match `{repo}/plugin.json`
   - For monorepo plugins: Must match `{repo}/{path}/plugin.json`
 - **IMPORTANT**: The `id` field must be in camelCase format (starts with lowercase, only letters/digits)
+- **Avoid duplicate plugins**: Do not submit plugins that duplicate existing ones unless the original is unmaintained (maintainer unresponsive to issues/PRs for over 30 days) or yours offers major improvements/better design. Contribute upstream first whenever possible; if submitting a successor, link your upstream issue/PR in the submission
+
+## Plugin Translations
+
+Any plugin can ship its own translations — a `translations/` directory with one JSON file per locale, loaded by DMS automatically. No approval needed, no registry involvement. See the [plugin development docs](https://danklinux.com/docs/dankmaterialshell/plugin-development#translations) for the file format and the `I18n.trFor` API.
+
+On top of that, registry plugins can apply to join the central DMS POEditor project — the same one community translators use for DMS itself, currently covering 21 languages. Approved plugins get their strings translated alongside the shell, and finished translations come back to the plugin repo as PRs.
+
+**Before applying:**
+
+- Your plugin is listed in this registry and actively maintained
+- Every user-facing string goes through `I18n.trFor("<your plugin id>", ...)`, with the id as a literal string exactly matching the `id` in your `plugin.json` — the extraction tooling reads call sites, so a variable there means your strings never get picked up
+
+**Applying:**
+
+1. Open a PR setting `"i18n": true` in your plugin's registry JSON. Include a short note: what the plugin does, roughly how many strings
+2. On approval, a maintainer adds your repo to the translation sync. Your English strings get uploaded to POEditor, tagged with your plugin id
+3. As translators finish languages, you get PRs adding `translations/<locale>.json` files to your repo — merge them and the translations ship with your next plugin update
+
+**IMPORTANT**: Once your strings are in POEditor, renaming a term is a delete-plus-add — the old term's translations across every language are discarded. Keep English strings stable.
 
 ## Questions?
 

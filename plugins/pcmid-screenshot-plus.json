@@ -1,0 +1,20 @@
+{
+    "id": "screenshotPlus",
+    "name": "Screenshot+",
+    "capabilities": [
+        "daemon",
+        "ipc"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/pcmid/dms-screenshot-plus",
+    "author": "pcmid",
+    "description": "Region screenshot with live annotation: draw while you select. Rectangle, ellipse, line, arrow, pen, highlighter, text, mosaic and numbered markers. The selection stays movable and resizable with the toolbar following it; the result is copied to the clipboard or saved to a file at native resolution.",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/pcmid/dms-screenshot-plus/main/screenshots/screenshot.png"
+}

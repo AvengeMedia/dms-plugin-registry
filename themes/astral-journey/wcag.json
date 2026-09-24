@@ -1,5 +1,5 @@
 {
-  "level": "fail",
+  "level": "AA",
   "dark": {
     "level": "AAA",
     "minRatio": 10.55,
@@ -51,8 +51,8 @@
     ]
   },
   "light": {
-    "level": "fail",
-    "minRatio": 2.76,
+    "level": "AA",
+    "minRatio": 4.57,
     "worstPair": [
       "primary",
       "surfaceContainer"
@@ -66,8 +66,8 @@
       ]
     },
     "accent": {
-      "level": "fail",
-      "minRatio": 2.76,
+      "level": "AA",
+      "minRatio": 4.57,
       "worstPair": [
         "primary",
         "surfaceContainer"
@@ -75,19 +75,19 @@
     },
     "nonText": {
       "level": "AA",
-      "minRatio": 3.15,
+      "minRatio": 4.57,
       "worstPair": [
         "warning",
         "surfaceContainer"
       ]
     },
     "variants": {
-      "supernova-amber": "fail",
-      "supernova-aurora": "fail",
+      "supernova-amber": "AA",
+      "supernova-aurora": "AA",
       "supernova-azure": "AA",
-      "supernova-coral": "fail",
-      "supernova-lilac": "fail",
-      "supernova-orange": "fail",
+      "supernova-coral": "AA",
+      "supernova-lilac": "AA",
+      "supernova-orange": "AA",
       "supernova-teal": "AA",
       "supernova-violet": "AA"
     },
@@ -95,7 +95,7 @@
       {
         "name": "Supernova",
         "mode": "light",
-        "level": "fail",
+        "level": "AA",
         "bodyLevel": "AAA"
       }
     ]

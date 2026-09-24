@@ -1,13 +1,22 @@
 {
     "id": "kaomojiPicker",
     "name": "Kaomoji Picker",
-    "capabilities": ["launcher"],
+    "capabilities": [
+        "launcher"
+    ],
     "category": "utilities",
-    "repo": "https://github.com/hthienloc/dms-kaomoji-picker",
+    "repo": "https://github.com/hthienloc/dms-plugins",
     "author": "Loc Huynh",
     "description": "A lightweight launcher for browsing and copying kaomojis to the clipboard.",
-    "dependencies": ["wl-clipboard"],
-    "compositors": ["any"],
-    "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-kaomoji-picker/master/screenshot.png"
+    "dependencies": [
+        "wl-clipboard"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/kaomojiPicker/screenshot.png",
+    "path": "kaomojiPicker"
 }

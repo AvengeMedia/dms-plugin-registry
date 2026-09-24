@@ -9,9 +9,9 @@
   <text x="140" y="17" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#e0b401">9:41</text>
   <circle cx="238" cy="13" r="4" fill="#7aa2f7"/>
   <circle cx="252" cy="13" r="4" fill="#ff9e64"/>
-  <circle cx="266" cy="13" r="4" fill="#f92aad"/>
+  <circle cx="266" cy="13" r="4" fill="#f935b1"/>
 
-  <rect x="14" y="38" width="252" height="190" rx="12" fill="#1f2335" stroke="#8089b3" stroke-opacity="0.5"/>
+  <rect x="14" y="38" width="252" height="190" rx="12" fill="#1f2335" stroke="#868eb7" stroke-opacity="0.5"/>
   <text x="28" y="61" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#a9b1d6">Jozi City Nights Nights Yellow</text>
   <text x="28" y="77" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" fill="#c0caf5">Secondary text</text>
 
@@ -19,7 +19,7 @@
   <text x="38" y="105" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="500" fill="#a9b1d6">Nested card</text>
   <text x="38" y="120" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#c0caf5">Body text on an elevated surface</text>
 
-  <rect x="26" y="145" width="228" height="22" rx="6" fill="#1f2335" stroke="#8089b3" stroke-opacity="0.4"/>
+  <rect x="26" y="145" width="228" height="22" rx="6" fill="#1f2335" stroke="#868eb7" stroke-opacity="0.4"/>
   <text x="38" y="160" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#c0caf5">Search</text>
 
   <rect x="26" y="175" width="78" height="22" rx="11" fill="#e0b401"/>
@@ -31,7 +31,7 @@
 
   <circle cx="34" cy="212" r="7" fill="#e0b401"/>
   <circle cx="54" cy="212" r="7" fill="#7aa2f7"/>
-  <circle cx="74" cy="212" r="7" fill="#f92aad"/>
+  <circle cx="74" cy="212" r="7" fill="#f935b1"/>
   <circle cx="94" cy="212" r="7" fill="#ff9e64"/>
   <circle cx="114" cy="212" r="7" fill="#7aa2f7"/>
 </g>

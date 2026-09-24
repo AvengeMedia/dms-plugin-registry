@@ -1,8 +1,8 @@
 {
-  "level": "fail",
+  "level": "AA",
   "dark": {
-    "level": "fail",
-    "minRatio": 4.42,
+    "level": "AA",
+    "minRatio": 4.57,
     "worstPair": [
       "primary",
       "surfaceContainer"
@@ -16,8 +16,8 @@
       ]
     },
     "accent": {
-      "level": "fail",
-      "minRatio": 4.42,
+      "level": "AA",
+      "minRatio": 4.57,
       "worstPair": [
         "primary",
         "surfaceContainer"
@@ -25,7 +25,7 @@
     },
     "nonText": {
       "level": "AA",
-      "minRatio": 4.42,
+      "minRatio": 4.57,
       "worstPair": [
         "error",
         "surfaceContainer"
@@ -37,15 +37,15 @@
       "midnight-green": "AAA",
       "midnight-orange": "AAA",
       "midnight-pink": "AA",
-      "midnight-purple": "fail",
+      "midnight-purple": "AA",
       "midnight-teal": "AAA",
       "midnight-yellow": "AAA",
       "nights-blue": "AA",
       "nights-cyan": "AA",
       "nights-green": "AA",
       "nights-orange": "AA",
-      "nights-pink": "fail",
-      "nights-purple": "fail",
+      "nights-pink": "AA",
+      "nights-purple": "AA",
       "nights-teal": "AA",
       "nights-yellow": "AA"
     },
@@ -53,20 +53,20 @@
       {
         "name": "Nights",
         "mode": "dark",
-        "level": "fail",
+        "level": "AA",
         "bodyLevel": "AA"
       },
       {
         "name": "Midnight",
         "mode": "dark",
-        "level": "fail",
+        "level": "AA",
         "bodyLevel": "AAA"
       }
     ]
   },
   "light": {
-    "level": "fail",
-    "minRatio": 2.98,
+    "level": "AA",
+    "minRatio": 4.65,
     "worstPair": [
       "primary",
       "surfaceContainer"
@@ -80,36 +80,36 @@
       ]
     },
     "accent": {
-      "level": "fail",
-      "minRatio": 2.98,
+      "level": "AA",
+      "minRatio": 4.65,
       "worstPair": [
         "primary",
         "surfaceContainer"
       ]
     },
     "nonText": {
-      "level": "fail",
-      "minRatio": 2.38,
+      "level": "AA",
+      "minRatio": 4.59,
       "worstPair": [
         "warning",
         "surfaceContainer"
       ]
     },
     "variants": {
-      "morning-blue": "fail",
-      "morning-cyan": "fail",
-      "morning-green": "fail",
-      "morning-orange": "fail",
-      "morning-pink": "fail",
-      "morning-purple": "fail",
-      "morning-teal": "fail",
-      "morning-yellow": "fail"
+      "morning-blue": "AA",
+      "morning-cyan": "AA",
+      "morning-green": "AA",
+      "morning-orange": "AA",
+      "morning-pink": "AA",
+      "morning-purple": "AA",
+      "morning-teal": "AA",
+      "morning-yellow": "AA"
     },
     "breakdown": [
       {
         "name": "Morning",
         "mode": "light",
-        "level": "fail",
+        "level": "AA",
         "bodyLevel": "AA"
       }
     ]

@@ -1,0 +1,261 @@
+{
+  "id": "detroit67",
+  "name": "Detroit67",
+  "version": "1.0.0",
+  "author": "ocodo",
+  "description": "A warm, muted Detroit 60s-70s inspired dark theme",
+  "dark": {},
+  "light": {},
+  "variants": {
+    "type": "multi",
+    "defaults": {
+      "dark": {
+	"flavor": "detroit67",
+	"accent": "alpine-muted"
+      },
+      "light": {
+	"flavor": "detroit67-light",
+	"accent": "alpine-muted"
+      }
+    },
+    "flavors": [
+      {
+	"id": "detroit67",
+	"name": "Detroit67",
+	"dark": {
+	  "primaryText": "#161514",
+	  "primaryContainer": "#3A3530",
+	  "primary": "#A56D51",
+	  "secondary": "#999187",
+	  "surface": "#161514",
+	  "surfaceText": "#FFFDF9",
+	  "surfaceVariant": "#1C1A18",
+	  "surfaceVariantText": "#E4DED5",
+	  "surfaceTint": "#C16A3D",
+	  "background": "#161514",
+	  "backgroundText": "#FFFDF9",
+	  "outline": "#625B53",
+	  "surfaceContainer": "#1A1817",
+	  "surfaceContainerLow":"#080808",
+	  "surfaceContainerLowest": "#000000",
+	  "surfaceContainerHigh": "#211F1D",
+	  "surfaceContainerHighest": "#282522",
+	  "error": "#B85C4A",
+	  "warning": "#B58A3A",
+	  "info": "#4E7F78"
+	}
+      },
+      {
+	"id": "detroit67-light",
+	"name": "Detroit67",
+	"light": {
+	  "primaryText": "#D9CFC3",
+	  "primaryContainer": "#D8C8B9",
+	  "primary": "#A56D51",
+	  "secondary": "#75685D",
+	  "surface": "#D9CFC3",
+	  "surfaceText": "#161514",
+	  "surfaceVariant": "#CFC2B5",
+	  "surfaceVariantText": "#39322C",
+	  "surfaceTint": "#A56D51",
+	  "background": "#D9CFC3",
+	  "backgroundText": "#161514",
+	  "outline": "#75695F",
+	  "surfaceContainer": "#D3C7BA",
+	  "surfaceContainerLow": "#E2D8CC",
+	  "surfaceContainerLowest": "#E8DED2",
+	  "surfaceContainerHigh": "#CBBEB0",
+	  "surfaceContainerHighest": "#C2B3A4",
+	  "error": "#A95748",
+	  "warning": "#927333",
+	  "info": "#557873"
+
+	}	
+      }
+    ],
+
+    "accents": [
+      {
+	"detroit67": {
+          "primary": "#7F6A63"
+	},
+	"detroit67-light": {
+          "primary": "#7F6A63"
+	},
+	"id": "underground-feint",
+	"name": "Underground Feint"
+      },
+      {
+	"detroit67": {
+          "primary": "#9A6256"
+	},
+	"detroit67-light": {
+          "primary": "#9A6256"
+	},
+	"id": "underground-muted",
+	"name": "Underground Muted"
+      },
+      {
+	"detroit67": {
+          "primary": "#B85C4A"
+	},
+	"detroit67-light": {
+          "primary": "#B85C4A"
+	},
+	"id": "underground-toned",
+	"name": "Underground Toned"
+      },
+      {
+	"detroit67": {
+          "primary": "#817068"
+	},
+	"detroit67-light": {
+          "primary": "#817068"
+	},
+	"id": "fuse-feint",
+	"name": "Fuse Feint"
+      },
+      {
+	"detroit67": {
+          "primary": "#A56D51"
+	},
+	"detroit67-light": {
+          "primary": "#A56D51"
+	},
+	"id": "fuse-muted",
+	"name": "Fuse Muted"
+      },
+      {
+	"detroit67": {
+          "primary": "#C16A3D"
+	},
+	"detroit67-light": {
+          "primary": "#C16A3D"
+	},
+	"id": "fuse-toned",
+	"name": "Fuse Toned"
+      },
+      {
+	"detroit67": {
+          "primary": "#817565"
+	},
+	"detroit67-light": {
+          "primary": "#817565"
+	},
+	"id": "flashdetroit67-light-feint",
+	"name": "Flashdetroit67-light Feint"
+      },
+      {
+	"detroit67": {
+          "primary": "#9D884E"
+	},
+	"detroit67-light": {
+          "primary": "#9D884E"
+	},
+	"id": "flashdetroit67-light-muted",
+	"name": "Flashdetroit67-light Muted"
+      },
+      {
+	"detroit67": {
+          "primary": "#B58A3A"
+	},
+	"detroit67-light": {
+          "primary": "#B58A3A"
+	},
+	"id": "flashdetroit67-light-toned",
+	"name": "Flashdetroit67-light Toned"
+      },
+      {
+	"detroit67": {
+          "primary": "#6C765F"
+	},
+	"detroit67-light": {
+          "primary": "#6C765F"
+	},
+	"id": "motor-feint",
+	"name": "Motor Feint"
+      },
+      {
+	"detroit67": {
+          "primary": "#747B50"
+	},
+	"detroit67-light": {
+          "primary": "#747B50"
+	},
+	"id": "motor-muted",
+	"name": "Motor Muted"
+      },
+      {
+	"detroit67": {
+          "primary": "#78834A"
+	},
+	"detroit67-light": {
+          "primary": "#78834A"
+	},
+	"id": "motor-toned",
+	"name": "Motor Toned"
+      },
+      {
+	"detroit67": {
+          "primary": "#62736D"
+	},
+	"detroit67-light": {
+          "primary": "#62736D"
+	},
+	"id": "alpine-feint",
+	"name": "Alpine Feint"
+      },
+      {
+	"detroit67": {
+          "primary": "#587875"
+	},
+	"detroit67-light": {
+          "primary": "#587875"
+	},
+	"id": "alpine-muted",
+	"name": "Alpine Muted"
+      },
+      {
+	"detroit67": {
+          "primary": "#4E7F78"
+	},
+	"detroit67-light": {
+          "primary": "#4E7F78"
+	},
+	"id": "alpine-toned",
+	"name": "Alpine Toned"
+      },
+      {
+	"detroit67": {
+          "primary": "#72666E"
+	},
+	"detroit67-light": {
+          "primary": "#72666E"
+	},
+	"id": "resistor-feint",
+	"name": "Resistor Feint"
+      },
+      {
+	"detroit67": {
+          "primary": "#765E6D"
+	},
+	"detroit67-light": {
+          "primary": "#765E6D"
+	},
+	"id": "resistor-muted",
+	"name": "Resistor Muted"
+      },
+      {
+	"detroit67": {
+          "primary": "#80586F"
+	},
+	"detroit67-light": {
+          "primary": "#80586F"
+	},
+	"id": "resistor-toned",
+	"name": "Resistor Toned"
+      }
+    ]
+  },    
+  "sourceDir": "detroit67-theme"
+}

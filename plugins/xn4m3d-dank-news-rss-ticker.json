@@ -1,0 +1,14 @@
+{
+    "id": "dankNewsRssTicker",
+    "name": "Dank News RSS & Ticker",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/Xn4m3d/dms-rss-widget",
+    "path": "dankNewsRssTicker",
+    "author": "Xn4m3d",
+    "description": "RSS/Atom feeds as a desktop card plus a full-width scrolling news ticker that docks under your bar, follows a bottom bar, or floats",
+    "dependencies": ["curl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Xn4m3d/dms-rss-widget/main/screenshots/screen1.png"
+}

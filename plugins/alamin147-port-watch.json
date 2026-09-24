@@ -1,0 +1,14 @@
+{
+  "id": "portWatch",
+  "name": "PortWatch",
+  "capabilities": ["dankbar-widget", "monitoring"],
+  "category": "monitoring",
+  "repo": "https://github.com/alamin147/PortWatch",
+  "author": "Al Amin",
+  "description": "Shows local listening ports and development servers in DankBar, with a popout to stop them safely.",
+  "dependencies": ["bash", "ss", "hyprctl"],
+  "compositors": ["hyprland"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/alamin147/PortWatch/main/main/docs/portwatch.png",
+  "requires_dms": ">=1.5.0"
+}
