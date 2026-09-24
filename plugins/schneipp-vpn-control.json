@@ -7,7 +7,7 @@
     "author": "schneipp",
     "description": "Connect and disconnect NetworkManager VPNs (OpenVPN, WireGuard) from the bar, with a per-profile toggle popout, right-click quick toggle, and a Control Center tile",
     "dependencies": ["networkmanager"],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/schneipp/dms-plugin-vpn-control/main/screenshot.png",
     "requires_dms": ">=1.6.0"
