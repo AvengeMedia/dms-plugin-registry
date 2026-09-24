@@ -10,6 +10,6 @@
   "dependencies": ["dank-pinentry"],
   "compositors": ["hyprland", "niri"],
   "distro": ["any"],
-  "requires_dms": ">=1.7.0",
+  "requires_dms": ">=1.6.0",
   "screenshot": "https://raw.githubusercontent.com/augustocdias/dank-pinentry/main/screenshots/bad_phrase.png"
 }
