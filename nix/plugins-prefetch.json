@@ -13352,6 +13352,40 @@
     "sha256": "0k2kfajz2f11wc8cky0sll6211r2bxhxigl9qza2d9qnxw8nddys",
     "url": "https://github.com/wolfsblu/dms-wiener-linien"
   },
+  "windowFx": {
+    "date": "2026-09-23T12:44:14-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-uF7hQtcSkb2QtrGmDCKYyfGIql3tHZJbF652+1pe7Lk=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "satoshoe",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [],
+      "description": "Close and open animations for windows on niri. There are 13 kinds, among them ember, shatter, melt, glitch and tube off, or a random pick from a list you choose. Opening plays the kind backwards, and edges can glow in the accent color. Needs one include line in the niri config.",
+      "distro": [
+        "any"
+      ],
+      "id": "windowFx",
+      "name": "Window FX",
+      "repo": "https://github.com/satoshoe-dev/dms-window-fx",
+      "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-window-fx/main/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/j1r0zbpxg8yj8d92xj0p40fddxq34lwz-dms-window-fx",
+    "rev": "27463f12ee19225e4d3d6ca45ad3007444737cfc",
+    "rootDir": "",
+    "sha256": "1fgcbrdgnxmf2xdr47gdbnm8iwf9k0i0r9mins8bv48jsx1f2pmq",
+    "url": "https://github.com/satoshoe-dev/dms-window-fx"
+  },
   "workspaceOsdFlash": {
     "date": "2026-09-19T13:22:29+02:00",
     "deepClone": false,
