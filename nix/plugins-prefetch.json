@@ -11277,6 +11277,44 @@
     "sha256": "1wi34slqcgfb379zg3wqn6lyjk6jvblplvl39zg6i2wlfrgfa8f8",
     "url": "https://github.com/knappancash/SitStandReminder"
   },
+  "smartTimer": {
+    "date": "2026-09-25T00:51:02+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-NLBN6Bg6Yh9LjIhx465qcPLYD3qQG2qnh+Dj0GoofeA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "lung595",
+      "capabilities": [
+        "dankbar-widget",
+        "launcher",
+        "daemon"
+      ],
+      "category": "productivity",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "pw-play"
+      ],
+      "description": "Natural-language timers from the launcher (\u201ctimer 12 min pasta\u201d, \u201cat 6pm\u201d), a bar pill with a draining ring, and a floating hourglass panel whose sand is synced to the remaining time. Multiple named timers, pause freezes the hourglass, alarm sound of your choice.",
+      "distro": [
+        "any"
+      ],
+      "id": "smartTimer",
+      "name": "Sands",
+      "repo": "https://github.com/lung595/Sands",
+      "screenshot": "https://raw.githubusercontent.com/lung595/Sands/main/screenshot.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/97haffr1ja8wvjs95s8cayppsc8rsv2q-Sands",
+    "rev": "416cd58208384036ffe24e24d0e4f40d1fc74216",
+    "rootDir": "",
+    "sha256": "1q3x51md1qz0hyknl6whg87xiwkhdapf6wc8ii5iyqis33l4vc1l",
+    "url": "https://github.com/lung595/Sands"
+  },
   "splayerDesktopLyrics": {
     "date": "2026-08-06T15:16:36+08:00",
     "deepClone": false,
