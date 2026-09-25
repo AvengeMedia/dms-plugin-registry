@@ -4184,6 +4184,46 @@
     "sha256": "1vk3xvmy2mfd9vjwn4p97i3z0npbs4gwbjbv9d04m3hn42q1csn2",
     "url": "https://github.com/alcxyz/DankVault"
   },
+  "dankbarPinentry": {
+    "date": "2026-09-25T10:02:44+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-mrVdWw4Zu5ZLvkxQ445RCoD+oOWC5aWMog5Y9B1D95E=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "augustocdias",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "ipc"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "dank-pinentry"
+      ],
+      "description": "GPG and SSH passphrase prompts inside DankMaterialShell: in the bar, as a dialog, or as a screen-edge strip. Requires the companion dank-pinentry binary, built from the same repository.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankbarPinentry",
+      "name": "DankBar Pinentry",
+      "path": "plugin",
+      "repo": "https://github.com/augustocdias/dank-pinentry",
+      "requires_dms": ">=1.6.0",
+      "screenshot": "https://raw.githubusercontent.com/augustocdias/dank-pinentry/main/screenshots/bad_phrase.png",
+      "version": "0.2.0"
+    },
+    "path": "/nix/store/1r1x1ra9pg2w0c5wlhgl2diwwf6as5z0-dank-pinentry",
+    "rev": "f80392d79b1d47441894a2ad0732af6aa71cedfc",
+    "rootDir": "",
+    "sha256": "14gp8cfz8n0fla6abrc2wnhgx00aa67f6l2cpr5rdfqr1rdmvdcs",
+    "url": "https://github.com/augustocdias/dank-pinentry"
+  },
   "dankmailUnread": {
     "date": "2026-09-17T15:12:25-06:00",
     "deepClone": false,
