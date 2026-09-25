@@ -10977,6 +10977,36 @@ Toggle Cloudflare WARP via warp-cli with real-time status updates
 
 
 
+#### [Wallarchy](https://github.com/alamin147/wallarchyDms)
+
+Browse SFW Wallhaven wallpapers and apply them directly through DMS.
+
+
+
+- id: wallarchyDms
+- name: Wallarchy
+- author: Al Amin
+- compositors: any
+- capabilities: dankbar-widget, wallpaper, network
+- dependencies: curl
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alamin147/wallarchyDms/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper Carousel](https://github.com/motor-dev/wallpaperCarousel)
 
 Browse and pick wallpapers with a fullscreen skewed carousel overlay
