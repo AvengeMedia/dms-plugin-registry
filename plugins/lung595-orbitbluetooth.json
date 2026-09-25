@@ -1,0 +1,14 @@
+{
+    "id": "orbitBluetooth",
+    "name": "Orbit Bluetooth",
+    "capabilities": ["daemon", "dankbar-widget", "control-center", "desktop-widget"],
+    "category": "system",
+    "repo": "https://github.com/lung595/orbitBluetooth",
+    "author": "lung595",
+    "description": "A planetary Bluetooth manager: devices float in orbit around your machine, drag one to the center to connect. Control Center, bar and desktop.",
+    "dependencies": ["bluez", "qt6-multimedia"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png",
+    "requires_dms": ">=1.6.0"
+}
