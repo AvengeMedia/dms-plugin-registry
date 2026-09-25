@@ -13608,6 +13608,40 @@
     "sha256": "1n1nld24p932swnac5mq70z2dvrw0p5jxxpzfa88yxjk8hlamn6z",
     "url": "https://github.com/szabolcsf/dms-world-clock-multi"
   },
+  "xrayWallpaper": {
+    "date": "2026-09-23T13:49:09-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-punOaPbsLTvEgZpRd2qjykw9E1wVZELa4sxNPIKqhhA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "satoshoe",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Two wallpapers on top of each other: around the pointer the upper one has a soft hole that shows the picture underneath. Follows the pointer on the desktop, and a peek mode opens a round view above the windows.",
+      "distro": [
+        "any"
+      ],
+      "id": "xrayWallpaper",
+      "name": "Xray Wallpaper",
+      "repo": "https://github.com/satoshoe-dev/dms-xray-wallpaper",
+      "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-xray-wallpaper/main/assets/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/wqxfnw40b5rdf2l2xyqf4hphy927iksy-dms-xray-wallpaper",
+    "rev": "41915cd1a038a80e3b3eedf48e58a048e6e85190",
+    "rootDir": "",
+    "sha256": "0446ma13qkfcwbd44r0mbh9ksk6aldm7flcsh723nbgcyrlcxsd6",
+    "url": "https://github.com/satoshoe-dev/dms-xray-wallpaper"
+  },
   "zerotierManager": {
     "date": "2026-05-21T10:49:55-07:00",
     "deepClone": false,
