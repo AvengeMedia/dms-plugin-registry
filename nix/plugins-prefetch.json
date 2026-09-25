@@ -644,6 +644,46 @@
     "sha256": "1q6b6nxqnnza5scsgz1z7pm7gb7fajrs7skvvmgp6sb0blnyij9f",
     "url": "https://github.com/mkoester/dms-attention-badges"
   },
+  "audioFx": {
+    "date": "2026-09-23T10:34:50-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-r4r4RQ6vt4bcbaC8V7ceh2d2A12b+GyEg4hsOEDUOzg=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "satoshoe",
+      "capabilities": [
+        "daemon",
+        "control-center",
+        "desktop-widget"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "cava",
+        "python-numpy",
+        "python-pillow"
+      ],
+      "description": "Audio visualizer along a screen edge with eight styles, a glow that makes the bright spots of the wallpaper pulse to the music, and a round player disc desktop widget. By default cava only runs while something plays.",
+      "distro": [
+        "any"
+      ],
+      "id": "audioFx",
+      "name": "AudioFX",
+      "repo": "https://github.com/satoshoe-dev/dms-audiofx",
+      "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-audiofx/main/assets/screenshot.png",
+      "version": "1.4.0"
+    },
+    "path": "/nix/store/lqvbpnsifpf2rl1zcpzd80iakzpiy58i-dms-audiofx",
+    "rev": "f094a2c476af7470c69d28e1f54b60932c8ef958",
+    "rootDir": "",
+    "sha256": "0f1vsi03hv48hf26ry4vbl1pcrw73svmgg50dpf8ddxg1r2zi2mg",
+    "url": "https://github.com/satoshoe-dev/dms-audiofx"
+  },
   "audioInhibit": {
     "date": "2026-03-04T20:18:06+01:00",
     "deepClone": false,
