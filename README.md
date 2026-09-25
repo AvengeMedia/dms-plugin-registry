@@ -82,6 +82,36 @@ Simple Chinese A-share stock market monitoring plugin
 
 
 
+#### [AudioFX](https://github.com/satoshoe-dev/dms-audiofx)
+
+Audio visualizer along a screen edge with eight styles, a glow that makes the bright spots of the wallpaper pulse to the music, and a round player disc desktop widget. By default cava only runs while something plays.
+
+
+
+- id: audioFx
+- name: AudioFX
+- author: satoshoe
+- compositors: any
+- capabilities: daemon, control-center, desktop-widget
+- dependencies: cava, python-numpy, python-pillow
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/satoshoe-dev/dms-audiofx/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Cava Visualizer](https://github.com/ernestowgg/cava-visualizer)
 
 A simple, customizable audio visualizer for your desktop
