@@ -12759,6 +12759,44 @@
     "sha256": "02yqi0r39vpy407xamqxg3025gilvy3m3w0cn0m55zpfd9140y1c",
     "url": "https://github.com/rdannenbring/voxtype-dms-overlay"
   },
+  "vpnControl": {
+    "date": "2026-09-23T09:25:30+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-wuRyVTk7fb8bZanCr26aTa+0ijduCOGx1GF83p/yGd4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "schneipp",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "networkmanager"
+      ],
+      "description": "Connect and disconnect NetworkManager VPNs (OpenVPN, WireGuard) from the bar, with a per-profile toggle popout, right-click quick toggle, and a Control Center tile",
+      "distro": [
+        "any"
+      ],
+      "id": "vpnControl",
+      "name": "VPN Control",
+      "repo": "https://github.com/schneipp/dms-plugin-vpn-control",
+      "requires_dms": ">=1.6.0",
+      "screenshot": "https://raw.githubusercontent.com/schneipp/dms-plugin-vpn-control/main/screenshot.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/ml9rqhljhk1bsqqsgjxmfrhyl3z23jxz-dms-plugin-vpn-control",
+    "rev": "f7cfd655ec950a74033e345f1c771d8229e4bf1e",
+    "rootDir": "",
+    "sha256": "1phryagxwz31sjqy223f6y5b9bsdk9pazhm9cldvyz9v75ap5r62",
+    "url": "https://github.com/schneipp/dms-plugin-vpn-control"
+  },
   "vramMonitor": {
     "date": "2026-07-26T16:00:42+03:00",
     "deepClone": false,
