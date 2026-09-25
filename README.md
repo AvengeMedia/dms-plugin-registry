@@ -4054,6 +4054,41 @@ AI-powered system health monitor. Tracks CPU, RAM, disk, GPU & temp; detects pen
 
 
 
+#### [DankBar Pinentry](https://github.com/augustocdias/dank-pinentry)
+
+GPG and SSH passphrase prompts inside DankMaterialShell: in the bar, as a dialog, or as a screen-edge strip. Requires the companion dank-pinentry binary, built from the same repository.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: dankbarPinentry
+- name: DankBar Pinentry
+- author: augustocdias
+- compositors: any
+- capabilities: daemon, dankbar-widget, ipc
+- dependencies: dank-pinentry
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugin](https://github.com/augustocdias/dank-pinentry/tree/main/plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/augustocdias/dank-pinentry/main/screenshots/bad_phrase.png)
+
+</details>
+
+
+
+
+
 #### [DankSession](https://github.com/alcxyz/DankSession)
 
 Save and restore Hyprland application sessions, workspaces, and window sizes, with automatic saving, login restoration, and app exclusions
