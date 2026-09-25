@@ -3403,6 +3403,36 @@ IMAP mail reader with built-in email content viewer, server-side read status, an
 
 
 
+#### [Sands](https://github.com/lung595/Sands)
+
+Natural-language timers from the launcher (“timer 12 min pasta”, “at 6pm”), a bar pill with a draining ring, and a floating hourglass panel whose sand is synced to the remaining time. Multiple named timers, pause freezes the hourglass, alarm sound of your choice.
+
+
+
+- id: smartTimer
+- name: Sands
+- author: lung595
+- compositors: any
+- capabilities: dankbar-widget, launcher, daemon
+- dependencies: pw-play
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/lung595/Sands/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Sit/Stand Reminder](https://github.com/knappancash/SitStandReminder)
 
 Reminds you to alternate between sitting and standing with configurable, idle-aware timers.
