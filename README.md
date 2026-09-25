@@ -4484,6 +4484,36 @@ The focused niri workspace as a pill segmented to match its column count, plus a
 
 
 
+#### [Orbit Bluetooth](https://github.com/lung595/orbitBluetooth)
+
+A planetary Bluetooth manager: devices float in orbit around your machine, drag one to the center to connect. Control Center, bar and desktop.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: orbitBluetooth
+- name: Orbit Bluetooth
+- author: lung595
+- compositors: any
+- capabilities: daemon, dankbar-widget, control-center, desktop-widget
+- dependencies: bluez, qt6-multimedia
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png)
+
+</details>
+
+
+
+
+
 #### [Package Updates](https://github.com/rahulmysore23/dms-pkg-update)
 
 Check and manage DNF and Flatpak package updates from the bar.
