@@ -1,6 +1,6 @@
 {
     "id": "orangedeck",
-    "name": "OrangeDeck",
+    "name": "OrangeDeck Bitcoin Dashboard",
     "capabilities": ["daemon", "dankbar-widget", "control-center", "desktop-widget"],
     "category": "monitoring",
     "repo": "https://github.com/orangedeck-dev/dms-plugin",
