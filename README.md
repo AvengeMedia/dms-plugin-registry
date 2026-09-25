@@ -662,6 +662,36 @@ Close and open animations for windows on niri. There are 13 kinds, among them em
 
 
 
+#### [Xray Wallpaper](https://github.com/satoshoe-dev/dms-xray-wallpaper)
+
+Two wallpapers on top of each other: around the pointer the upper one has a soft hole that shows the picture underneath. Follows the pointer on the desktop, and a peek mode opens a round view above the windows.
+
+
+
+- id: xrayWallpaper
+- name: Xray Wallpaper
+- author: satoshoe
+- compositors: any
+- capabilities: daemon
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/satoshoe-dev/dms-xray-wallpaper/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [mpvpaper Video Wallpaper](https://github.com/kanghengliu/dms-mpvpaper)
 
 Video wallpaper support using mpvpaper
