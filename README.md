@@ -4694,6 +4694,36 @@ Monitor remote Linux servers running Glances: CPU, RAM, Btrfs subvolumes, networ
 
 
 
+#### [VPN Control](https://github.com/schneipp/dms-plugin-vpn-control)
+
+Connect and disconnect NetworkManager VPNs (OpenVPN, WireGuard) from the bar, with a per-profile toggle popout, right-click quick toggle, and a Control Center tile
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: vpnControl
+- name: VPN Control
+- author: schneipp
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: networkmanager
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/schneipp/dms-plugin-vpn-control/main/screenshot.png)
+
+</details>
+
+
+
+
+
 ---
 
 
