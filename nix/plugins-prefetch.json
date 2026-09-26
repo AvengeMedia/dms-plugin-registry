@@ -2820,12 +2820,12 @@
     "url": "https://github.com/luckjokerwang/dms-dankcalendar"
   },
   "dankChat": {
-    "date": "2026-09-14T20:41:24+02:00",
+    "date": "2026-09-26T14:01:48+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-IcIRGKE7i8kKQlZCGBZPmVw7zmFJPm4Mo95M6+k3VDU=",
+    "hash": "sha256-BGrCmToBDJ+ouUyaWkciQd/oWb8eg8l797Do7c1i0Cc=",
     "leaveDotGit": false,
     "meta": {
       "author": "coldi1337",
@@ -2857,12 +2857,12 @@
       "name": "DankChat",
       "repo": "https://github.com/coldi1337/DankChat",
       "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.4.0/docs/preview.png",
-      "version": "0.4.0"
+      "version": "0.5.0"
     },
-    "path": "/nix/store/pvi9jccbgqafcmrhkllhm3lz2l91r5vz-DankChat",
-    "rev": "abbcda0e30f4774440676ac105136a6b60e51674",
+    "path": "/nix/store/q498gay98mv5sah8a9mphyqpx2ni9xgl-DankChat",
+    "rev": "79faf3122d2e3b609377165f24af6cc93a1cd8d9",
     "rootDir": "",
-    "sha256": "0dal6zlynk6ylc66wgj9c773np4r9wb1hhjn885ck2rvl4c13hi1",
+    "sha256": "09yhcb6yvs5hyxxwk0qypxcyips1493mm6jcp6l9y3017acw4sh4",
     "url": "https://github.com/coldi1337/DankChat"
   },
   "dankCleaner": {
@@ -9757,12 +9757,12 @@
     "url": "https://github.com/orangedeck-dev/dms-plugin"
   },
   "orbitBluetooth": {
-    "date": "2026-09-26T00:08:34+02:00",
+    "date": "2026-09-26T15:25:20+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-CVrv4HTmBd6q+uT4GRQcqK+B4hhzMyTILkoXEPbwuu4=",
+    "hash": "sha256-FpNX5bC0yk+7e1Oylht6tjwdpvXLLs8kXtVydW1T/II=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -9778,9 +9778,10 @@
       ],
       "dependencies": [
         "bluez",
-        "qt6-multimedia"
+        "qt6-multimedia",
+        "python3"
       ],
-      "description": "A planetary Bluetooth manager: devices float in orbit around your machine, drag one to the center to connect. Control Center, bar and desktop.",
+      "description": "A planetary Bluetooth manager: devices float in orbit around your machine, drag one to the center to connect. Headphone noise control, battery time left. Control Center, bar and desktop.",
       "distro": [
         "any"
       ],
@@ -9789,12 +9790,12 @@
       "repo": "https://github.com/lung595/orbitBluetooth",
       "requires_dms": ">=1.6.0",
       "screenshot": "https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png",
-      "version": "1.1.1"
+      "version": "1.3.2"
     },
-    "path": "/nix/store/8hhsjav781ajs5j6fhdafj3wqc5afycc-orbitBluetooth",
-    "rev": "f29301199ede5ca834acdc1fec16d996107f6236",
+    "path": "/nix/store/mf4a24g07sj3f6y36clj9csjz1j9rg73-orbitBluetooth",
+    "rev": "b040f2be58160ad5d3a7d9c05ee5adb9c562275e",
     "rootDir": "",
-    "sha256": "1vmsy3v105sa5v428cvk33i83bx83ha1ky74zamdw1g6fkhfynh9",
+    "sha256": "10pwadnpawnmbqjcybnbynk1sg5ng8drdcjkgfxlzjmln3jmg4qn",
     "url": "https://github.com/lung595/orbitBluetooth"
   },
   "pangolinWidget": {
@@ -11396,12 +11397,12 @@
     "url": "https://github.com/knappancash/SitStandReminder"
   },
   "smartTimer": {
-    "date": "2026-09-25T14:02:30+02:00",
+    "date": "2026-09-26T15:25:28+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ryhc9G8pcPjMX87TGAMSZVPu3Tc/upMUlX+f/+T9qQU=",
+    "hash": "sha256-qktlqr7yWshUI/wA2Cs6HW4QqdB9BamcyZEL0os5Duw=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -11425,12 +11426,12 @@
       "name": "Sands",
       "repo": "https://github.com/lung595/Sands",
       "screenshot": "https://raw.githubusercontent.com/lung595/Sands/main/screenshot.png",
-      "version": "1.1.0"
+      "version": "1.2.1"
     },
-    "path": "/nix/store/1ssygjd8v6gg3fh07ffd9j43ga1ikssb-Sands",
-    "rev": "3b1bc88061a859e910666a27a068558c4fec65c7",
+    "path": "/nix/store/kamnrc9wx1gandihhcjwmcf60gds9i1j-Sands",
+    "rev": "ab36cc35c7cf540bf7a91761ea60375adb58542d",
     "rootDir": "",
-    "sha256": "01d9zpjgz7vzjla97fiz6zfywlv5281iilyfbz6ghw19dzs5qa5g",
+    "sha256": "1v0f765x42wir6faj1bxs2li0vhx78mxh07w4dachnpjpsm6ajxa",
     "url": "https://github.com/lung595/Sands"
   },
   "splayerDesktopLyrics": {
