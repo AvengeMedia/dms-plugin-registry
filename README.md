@@ -4551,7 +4551,7 @@ The focused niri workspace as a pill segmented to match its column count, plus a
 
 #### [Orbit Bluetooth](https://github.com/lung595/orbitBluetooth)
 
-A planetary Bluetooth manager: devices float in orbit around your machine, drag one to the center to connect. Control Center, bar and desktop.
+A planetary Bluetooth manager: devices float in orbit around your machine, drag one to the center to connect. Headphone noise control, battery time left. Control Center, bar and desktop.
 
 <strong>requires DMS version</strong>: <em>>=1.6.0</em>
 
@@ -4560,7 +4560,7 @@ A planetary Bluetooth manager: devices float in orbit around your machine, drag 
 - author: lung595
 - compositors: any
 - capabilities: daemon, dankbar-widget, control-center, desktop-widget
-- dependencies: bluez, qt6-multimedia
+- dependencies: bluez, qt6-multimedia, python3
 - distro: any
 
 
