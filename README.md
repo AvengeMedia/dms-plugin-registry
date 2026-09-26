@@ -6889,7 +6889,7 @@ CalDAV calendar widget with event listing, notifications, and event management v
 
 #### [DankChat](https://github.com/coldi1337/DankChat)
 
-Native Telegram and WhatsApp chats with a bar dropdown, tiling window, voice messages, attachments and emoji reactions.
+Native Telegram and WhatsApp with multiple accounts, message search, media, voice messages and a bar dropdown or tiling window.
 
 
 
@@ -6898,7 +6898,7 @@ Native Telegram and WhatsApp chats with a bar dropdown, tiling window, voice mes
 - author: coldi1337
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: python3, python-telethon, python-qrcode, python-pillow, wacli 0.17.1, qt6-multimedia, qt6-imageformats, systemd, wl-clipboard, ffmpeg (with libopus and PulseAudio input), PulseAudio or PipeWire with pipewire-pulse
+- dependencies: Python 3.10+ with venv and pip, Telethon, qrcode and Pillow (installed by scripts/setup), wacli with compatible commands (0.19.0 recommended; installed by scripts/setup), qt6-multimedia, qt6-imageformats, systemd, wl-clipboard, ffmpeg (with libopus and PulseAudio input), PulseAudio or PipeWire with pipewire-pulse, notify-send (optional desktop notifications)
 - distro: any
 
 
@@ -6909,7 +6909,7 @@ Native Telegram and WhatsApp chats with a bar dropdown, tiling window, voice mes
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/coldi1337/DankChat/v0.4.0/docs/preview.png)
+![screenshot](https://raw.githubusercontent.com/coldi1337/DankChat/v0.5.0/docs/preview.png)
 
 </details>
 
