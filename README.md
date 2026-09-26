@@ -2499,6 +2499,36 @@ Track AI usage limits via opentracker CLI
 
 
 
+#### [OrangeDeck Bitcoin Dashboard](https://github.com/orangedeck-dev/dms-plugin)
+
+Live view of the Bitcoin mempool: the latest block in the middle, the mempool as a pile below, new transactions raining in from above. Feed, clock, miner, market and explorer views, from mempool.space, no node and no extra service needed.
+
+
+
+- id: orangedeck
+- name: OrangeDeck Bitcoin Dashboard
+- author: satoshoe
+- compositors: any
+- capabilities: daemon, dankbar-widget, control-center, desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/orangedeck-dev/dms-plugin/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [PortWatch](https://github.com/alamin147/PortWatch)
 
 Shows local listening ports and development servers in DankBar, with a popout to stop them safely.
