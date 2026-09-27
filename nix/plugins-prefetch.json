@@ -12647,6 +12647,43 @@
     "sha256": "0knydxv052x4qcxqanv6wp6cs03zsv6x2b4zi3s9r2wd47xbygww",
     "url": "https://github.com/viewerofall-labs/weather-viewer"
   },
+  "uptimeMonitor": {
+    "date": "2026-09-26T22:34:13+07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-d4aJ2qFYu7MaxRrBjUrpc7dmNDBUiZkEBHh2MDtmFxQ=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Th1nkK1D",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "monitoring",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "curl"
+      ],
+      "description": "Periodically checks URLs and alerts on unexpected HTTP status",
+      "distro": [
+        "any"
+      ],
+      "id": "uptimeMonitor",
+      "name": "Uptime Monitor",
+      "repo": "https://github.com/Th1nkK1D/dms-uptime-monitor",
+      "requires_dms": ">=1.6.0",
+      "screenshot": "https://raw.githubusercontent.com/Th1nkK1D/dms-uptime-monitor/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/q8cphi2dqqmahf8x03q90wvh4m40l7vx-dms-uptime-monitor",
+    "rev": "daf57df119a923a689ff18386888d85eaf2480c3",
+    "rootDir": "",
+    "sha256": "050pcqxk0xkq0h29k2al60s6ddvkx558vh8sqldb7fsql7d8k1kp",
+    "url": "https://github.com/Th1nkK1D/dms-uptime-monitor"
+  },
   "usbManager": {
     "date": "2026-06-20T12:16:23+07:00",
     "deepClone": false,
