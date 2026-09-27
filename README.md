@@ -2834,6 +2834,36 @@ Read-only Tailscale status: this device, the devices in the tailnet, traffic and
 
 
 
+#### [Uptime Monitor](https://github.com/Th1nkK1D/dms-uptime-monitor)
+
+Periodically checks URLs and alerts on unexpected HTTP status
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: uptimeMonitor
+- name: Uptime Monitor
+- author: Th1nkK1D
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: curl
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Th1nkK1D/dms-uptime-monitor/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [VRAM Monitor](https://github.com/rollecode/dms-vram-monitor)
 
 NVIDIA VRAM usage as an animated progress bar in your DankBar, updated every second
