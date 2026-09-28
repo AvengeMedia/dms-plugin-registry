@@ -254,6 +254,19 @@ Thank you for contributing a theme to the Dank Material Shell registry!
 > etc.), so external apps themed via DMS use them. They are still required for a valid
 > theme — pick sensible values that fit your palette.
 
+**Optional color fields (derived when absent, used as is when present):**
+- **surfaceContainerHighest**: defaults to `surfaceContainerHigh`
+- **surfaceBright**, **surfaceDim**: bright and dim surface variants
+- **outlineVariant**: defaults to `outline` at 60% opacity
+- **secondaryContainer**, **tertiaryContainer**: containers using the secondary / tertiary color
+- **onPrimaryContainer**, **onSecondaryContainer**, **onTertiaryContainer**: text on those containers, otherwise picked for 4.5:1 contrast
+- **inverseSurface**, **inverseOnSurface**: inverted surface pair for tooltips
+- **selectedContainer**, **onSelectedContainer**: the fill and text behind the selected item of every list. Otherwise `secondaryContainer` when it is set and readable, else a 20% `primary` tint on `surfaceContainerHigh` that keeps `surfaceText` at 4.5:1
+- **accentOnSelectedContainer**, **accentOnPrimaryContainer**: accent glyphs on those containers, otherwise `primary` when it reads at 3:1
+- **accents**: categorical badge hues, see the [theme docs](https://danklinux.com/docs/dankmaterialshell/custom-themes#accents)
+
+DMS never adjusts a color you set, even one that fails a contrast check. Derivation only fills gaps.
+
 ### Theme Variants (Optional)
 
 If your theme has multiple contrast levels or style options (like hard/medium/soft), you can use the `variants` field instead of defining all colors at the top level.
