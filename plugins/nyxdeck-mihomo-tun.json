@@ -1,0 +1,13 @@
+{
+    "id": "mihomoTun",
+    "name": "Mihomo TUN",
+    "capabilities": ["daemon", "dankbar-widget"],
+    "category": "networking",
+    "repo": "https://github.com/NyxDeck/mihomo-tun",
+    "author": "NyxDeck",
+    "description": "Control a local systemd-managed mihomo TUN service: start and stop it, pick the mode, switch proxy groups and nodes, test their latency, manage subscriptions, add DIRECT rules and look up the exit IP.",
+    "dependencies": ["python3", "mihomo"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/NyxDeck/mihomo-tun/raw/main/screenshot.png"
+}
