@@ -2139,12 +2139,12 @@
     "url": "https://github.com/mir4zul/codex-usage"
   },
   "colorPickerDms": {
-    "date": "2026-09-22T14:33:20-03:00",
+    "date": "2026-09-29T14:06:51-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-P7NSf+/O3/A+piL2+VRdCoeAckWXstS/IBEoABZ5Coo=",
+    "hash": "sha256-vTJ6pvZzkwiVg45OUnX1bf9nfq0Q1+1XkD4atxpboBI=",
     "leaveDotGit": false,
     "meta": {
       "author": "bernardopg",
@@ -2170,10 +2170,10 @@
       "screenshot": "https://raw.githubusercontent.com/bernardopg/color-picker-dms/main/assets/screenshot.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/b3qbfw4adbnmh2bxaw0b9iiqnip1ngka-color-picker-dms",
-    "rev": "35b07d81e45b4e235cdce169a593c81af0e25fea",
+    "path": "/nix/store/rvry314r6pwq1mvgzlncwgza3pmrd402-color-picker-dms",
+    "rev": "dfdbefeb88841bf48ba3d5b720ad7ea369d97700",
     "rootDir": "",
-    "sha256": "12hag4b00a0i42zx9clp8mr811qabmagkxi2lqzg1pyfxxzm5crz",
+    "sha256": "04m0bcdbf6iyj1byvmqhmmz6gzvdymsm4klfhfahi4vkysk7lcmx",
     "url": "https://github.com/bernardopg/color-picker-dms"
   },
   "commandRunner": {
