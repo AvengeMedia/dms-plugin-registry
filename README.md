@@ -5549,15 +5549,15 @@ Keep your screen awake and prevent idle sleep with a single click.
 
 #### [Calculator](https://github.com/rochacbruno/DankCalculator)
 
-A calculator plugin that evaluates mathematical expressions and copies results to clipboard
+A calculator plugin that evaluates mathematical expressions and copies results to clipboard, with optional qalc and numbat engines
 
-<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
 
 - id: calculator
 - name: Calculator
 - author: Bruno Cesar Rocha
 - compositors: any
-- capabilities: launcher
+- capabilities: launcher, command-execution
 - dependencies: 
 - distro: any
 
