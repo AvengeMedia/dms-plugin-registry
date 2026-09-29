@@ -43,6 +43,13 @@ REQUIRED_COLOR_FIELDS = [
     "info",
 ]
 
+NON_COLOR_FIELDS = {
+    "selectedContainerTint": (int, float),
+    "containerTint": (int, float),
+    "accents": dict,
+    "matugen_type": str,
+}
+
 HEX_COLOR_PATTERN = re.compile(r"^#[0-9A-Fa-f]{6}$")
 CAMEL_CASE_PATTERN = re.compile(r"^[a-z][a-zA-Z0-9]*$")
 SEMVER_PATTERN = re.compile(r"^\d+\.\d+\.\d+$")
@@ -123,7 +130,14 @@ def validate_variants(theme: dict) -> list[str]:
             errors.extend(validate_color_scheme(resolved, label))
 
             for key, value in override.items():
-                if not is_valid_hex_color(value):
+                expected = NON_COLOR_FIELDS.get(key)
+                if expected:
+                    if not isinstance(value, expected):
+                        errors.append(
+                            f"variants.options[{i}].{mode}.{key} has the wrong type (got: {value})"
+                        )
+                    continue
+                if not isinstance(value, str) or not is_valid_hex_color(value):
                     errors.append(
                         f"variants.options[{i}].{mode}.{key} must be a valid hex color (got: {value})"
                     )

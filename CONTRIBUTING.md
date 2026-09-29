@@ -230,7 +230,7 @@ Thank you for contributing a theme to the Dank Material Shell registry!
 **Color Fields (required for both dark and light):**
 - **primary**: Primary accent color
 - **primaryText**: Text color on primary backgrounds
-- **primaryContainer**: Container using primary color
+- **primaryContainer**: Container using primary color. Exported to apps as is, DMS paints a softer derived container (see **softPrimaryContainer** below)
 - **secondary**: Secondary accent color
 - **surface**: Main surface/card background
 - **surfaceText**: Text on surfaces
@@ -259,13 +259,15 @@ Thank you for contributing a theme to the Dank Material Shell registry!
 - **surfaceBright**, **surfaceDim**: bright and dim surface variants
 - **outlineVariant**: defaults to `outline` at 60% opacity
 - **secondaryContainer**, **tertiaryContainer**: containers using the secondary / tertiary color
-- **onPrimaryContainer**, **onSecondaryContainer**, **onTertiaryContainer**: text on those containers, otherwise picked for 4.5:1 contrast
+- **softPrimaryContainer**: the tinted fill DMS paints wherever a primary container appears (clock and weather cards, badges, icon boxes). Otherwise a mix of `surfaceContainer` and `primary`, both taken at one tone just above `surfaceContainer`
+- **containerTint**: number from `0` to `1`, the share of `primary` in that mix. Defaults to `0.5` in dark and `1` in light. Lower reads more pastel
+- **onPrimaryContainer**, **onSecondaryContainer**, **onTertiaryContainer**: text on those containers, otherwise picked for 4.5:1 contrast. On the derived `softPrimaryContainer` an `onPrimaryContainer` you set is kept only when it reads at 4.5:1; set `softPrimaryContainer` too and both are used as is
 - **inverseSurface**, **inverseOnSurface**: inverted surface pair for tooltips
 - **selectedContainer**, **onSelectedContainer**: the fill and text behind the selected item of every list. Otherwise `secondaryContainer` when it is set and readable, else a 20% `primary` tint on `surfaceContainerHigh` that keeps `surfaceText` at 4.5:1
 - **accentOnSelectedContainer**, **accentOnPrimaryContainer**: accent glyphs on those containers, otherwise `primary` when it reads at 3:1
 - **accents**: categorical badge hues, see the [theme docs](https://danklinux.com/docs/dankmaterialshell/custom-themes#accents)
 
-DMS never adjusts a color you set, even one that fails a contrast check. Derivation only fills gaps.
+DMS never adjusts a color you set, even one that fails a contrast check. Derivation only fills gaps. The one exception is `onPrimaryContainer` without `softPrimaryContainer`, as noted above.
 
 ### Theme Variants (Optional)
 
