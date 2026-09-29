@@ -1,0 +1,13 @@
+{
+    "id": "extendedNetworkToggle",
+    "name": "Extended Network Toggle",
+    "capabilities": ["control-center"],
+    "category": "system",
+    "repo": "https://github.com/notherealmarco/dms-plugin-extended-network",
+    "author": "Marco Realacci",
+    "description": "Network toggle with Ethernet, WiFi, and Other interfaces (bridges, VLANs, bonds)",
+    "dependencies": ["nmcli"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/notherealmarco/dms-plugin-extended-network/refs/heads/main/docs/screenshot.png"
+}

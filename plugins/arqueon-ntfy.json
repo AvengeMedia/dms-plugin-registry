@@ -1,0 +1,41 @@
+{
+    "id": "ntfy",
+    "name": "dms-ntfy",
+    "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "ipc"
+    ],
+    "category": "productivity",
+    "repo": "https://github.com/arqueon/dms-ntfy",
+    "description": "A persistent ntfy review inbox for the DankBar with All and per-topic views, unread state, local search, links, attachments, and explicit local dismissal. Supports ntfy.sh and any self-hosted instance.",
+    "version": "0.1.0",
+    "author": "arqueon",
+    "icon": "notifications",
+    "type": "composite",
+    "components": {
+        "daemon": "./NtfyDaemon.qml",
+        "widget": "./NtfyWidget.qml"
+    },
+    "settings": "./Settings.qml",
+    "startupCheck": "./StartupCheck.qml",
+    "permissions": [
+        "settings_read",
+        "settings_write",
+        "network",
+        "process"
+    ],
+    "requires_dms": ">=1.5.0",
+    "dependencies": [
+        "curl",
+        "secret-tool",
+        "base64"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-ntfy/main/assets/screenshot.png"
+}

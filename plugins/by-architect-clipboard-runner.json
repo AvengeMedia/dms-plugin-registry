@@ -1,0 +1,26 @@
+{
+    "id": "clipboardRunner",
+    "name": "Clipboard Runner",
+    "capabilities": [
+        "launcher"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/by-architect/DMS-Plugins",
+    "path": "clipboardRunner",
+    "author": "by-architect",
+    "description": "Run your own commands against whatever you just copied. Each action is filed under a content type -- link, colour, file or text -- and only the ones that fit the clipboard are offered, so typing 'clip' never shows an action that cannot apply.",
+    "dependencies": [
+        "ffmpeg",
+        "imagemagick",
+        "python3",
+        "xdg-utils",
+        "curl"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/by-architect/DMS-Plugins/main/clipboardRunner/docs/screenshot.png"
+}

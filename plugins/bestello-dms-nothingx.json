@@ -1,0 +1,13 @@
+{
+    "id": "dmsNothingX",
+    "name": "DMS Nothing X",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/Bestello/dms-nothingx",
+    "author": "Bestello",
+    "description": "Control center for Nothing and CMF audio devices",
+    "dependencies": ["python3"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Bestello/dms-nothingx/main/docs/screenshot.png"
+}

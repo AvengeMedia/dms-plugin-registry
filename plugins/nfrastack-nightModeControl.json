@@ -1,0 +1,13 @@
+{
+    "id": "nightModeControl",
+    "name": "Night Mode Control",
+    "capabilities": ["dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/nfrastack/dms-nightModeControl",
+    "author": "Nfrastack",
+    "description": "Control night mode parameters from bar and Control Center",
+    "compositors": ["niri", "hyprland", "sway", "river"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/nfrastack/dms-nightModeControl/refs/heads/main/img/overview.jpg",
+    "dependencies": []
+}

@@ -1,0 +1,17 @@
+{
+  "id": "cpuThermalIndicator",
+  "name": "CPU Thermal Indicator",
+  "description": "CPU temperature and fan speed monitor for DankBar using Linux hwmon",
+  "version": "1.0.0",
+  "author": "zhtlancer",
+  "type": "widget",
+  "capabilities": ["dankbar-widget"],
+  "category": "utilities",
+  "repo": "https://github.com/zhtlancer/dms-cpu-thermal-indicator.git",
+  "requires_dms": ">=1.4.6",
+  "tags": ["temperature", "system", "status", "dankbar", "cpu"],
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://github.com/zhtlancer/dms-cpu-thermal-indicator/blob/261457e37c40c9560a4649c4bd92715c315683ad/screenshot.png"
+}

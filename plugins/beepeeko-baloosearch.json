@@ -1,0 +1,13 @@
+{
+    "id": "balooSearch",
+    "name": "Baloo Search",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/Beepeeko/dms-baloo-search",
+    "author": "Beepeeko",
+    "description": "Uses KDE Baloo indexer to search files",
+    "dependencies": ["baloosearch6"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Beepeeko/dms-baloo-search/refs/heads/main/screenshot.png"
+}

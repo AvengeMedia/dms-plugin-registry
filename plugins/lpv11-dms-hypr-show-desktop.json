@@ -1,0 +1,19 @@
+{
+  "id": "showDesktop",
+  "name": "Show Desktop",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/lpv11/dms-hypr-show-desktop",
+  "author": "lpv11",
+  "description": "Clickable bar icon that adds windows-life show desktop function. For Hyprland.",
+  "dependencies": [],
+  "compositors": [
+    "hyprland"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/lpv11/dms-hypr-show-desktop/main/screenshot.png"
+}

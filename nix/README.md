@@ -17,8 +17,8 @@ Add the registry as a flake input:
 Add the NixOS or Home Manager module:
 ```nix
 {
-  # Same module for NixOS and Home Manager
-  imports = [ inputs.dms-plugin-registry.modules.default ];
+  # homeModules if for home-manager
+  imports = [ inputs.dms-plugin-registry.nixosModules.default ];
 }
 ```
 

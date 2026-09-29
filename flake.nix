@@ -1,21 +1,54 @@
 {
-  outputs = { self, nixpkgs, ... }:
+  inputs.nixpkgs.url = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz";
+
+  outputs =
+    { self, nixpkgs, ... }:
     let
       inherit (nixpkgs) lib;
-      systems = [ "aarch64-darwin" "aarch64-linux" "x86_64-darwin" "x86_64-linux" ];
+      systems = [
+        "aarch64-darwin"
+        "aarch64-linux"
+        "x86_64-darwin"
+        "x86_64-linux"
+      ];
+      forEachSystem = lib.genAttrs systems;
+      pkgsForEach = nixpkgs.legacyPackages;
     in
     {
       checks = self.packages;
-      packages = lib.genAttrs systems (system:
+      packages = forEachSystem (system: import ./nix/default.nix { pkgs = pkgsForEach.${system}; });
+
+      devShells = forEachSystem (
+        system:
         let
-          pkgs = nixpkgs.legacyPackages.${system};
-        in import ./nix/default.nix { inherit pkgs; }
+          pkgs = pkgsForEach.${system};
+          pythonEnv = pkgs.python3.withPackages (
+            ps: with ps; [
+              requests
+              jinja2
+            ]
+          );
+        in
+        {
+          default = pkgs.mkShell {
+            packages = with pkgs; [
+              pythonEnv
+              nixd
+              self.formatter.${system}
+            ];
+          };
+        }
       );
-      nixosModules.dms-plugin-registry = ./nix/module.nix;
-      nixosModules.default = self.nixosModules.dms-plugin-registry;
-      homeModules.dms-plugin-registry = ./nix/module.nix;
-      homeModules.default = self.homeModules.dms-plugin-registry;
-      modules.dms-plugin-registry = ./nix/module.nix;
-      modules.default = self.modules.dms-plugin-registry;
+
+      nixosModules = {
+        dms-plugin-registry = ./nix/module.nix;
+        default = self.nixosModules.dms-plugin-registry;
+      };
+      homeModules = {
+        dms-plugin-registry = ./nix/module.nix;
+        default = self.homeModules.dms-plugin-registry;
+      };
+
+      formatter = lib.genAttrs systems (system: pkgsForEach.${system}.nixfmt);
     };
 }

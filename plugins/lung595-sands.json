@@ -1,0 +1,23 @@
+{
+    "id": "smartTimer",
+    "name": "Sands",
+    "capabilities": [
+        "dankbar-widget",
+        "launcher",
+        "daemon"
+    ],
+    "category": "productivity",
+    "repo": "https://github.com/lung595/Sands",
+    "author": "lung595",
+    "description": "Natural-language timers from the launcher (“timer 12 min pasta”, “at 6pm”), a bar pill with a draining ring, and a floating hourglass panel whose sand is synced to the remaining time. Multiple named timers, pause freezes the hourglass, alarm sound of your choice.",
+    "dependencies": [
+        "pw-play"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/lung595/Sands/main/screenshot.png"
+}

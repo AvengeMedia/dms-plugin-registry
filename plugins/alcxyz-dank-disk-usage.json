@@ -1,0 +1,13 @@
+{
+    "id": "dankDiskUsage",
+    "name": "Disk Usage",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/alcxyz/DankDiskUsage",
+    "author": "alcxyz",
+    "description": "Monitor disk, ZFS pool, and Nix store usage with smart mount classification and expandable ZFS pool detail",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/alcxyz/DankDiskUsage/main/docs/screenshot.png"
+}

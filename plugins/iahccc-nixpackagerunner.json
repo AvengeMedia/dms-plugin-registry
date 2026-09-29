@@ -1,0 +1,13 @@
+{
+  "id": "nixPackageRunner",
+  "name": "Nix Package Runner",
+  "capabilities": ["launcher"],
+  "category": "utilities",
+  "repo": "https://github.com/iahccc/NixPackageRunner",
+  "author": "iahc",
+  "description": "Search nixpkgs with nix search, launch directly with nix run, and copy nix shell commands from the context menu",
+  "dependencies": ["nix", "jq", "wl-clipboard"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://github.com/iahccc/NixPackageRunner/raw/main/screenshot.png"
+}

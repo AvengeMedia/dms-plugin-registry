@@ -1,0 +1,22 @@
+{
+    "id": "localServices",
+    "name": "Local Services",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "monitoring",
+    "repo": "https://github.com/NyllRE/dms-plugins",
+    "path": "plugins/local-services",
+    "author": "NyllRE",
+    "description": "Passive discovery of local TCP services (ports 1000-9999): dev servers auto-surface with live favicons; pin ports or ranges to track them on the DankBar.",
+    "dependencies": [
+        "iproute2"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/NyllRE/dms-plugins/master/plugins/local-services/preview.webp"
+}

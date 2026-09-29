@@ -1,0 +1,19 @@
+{
+    "id": "sessionEdge",
+    "name": "SessionEdge",
+    "capabilities": [
+        "daemon"
+    ],
+    "category": "system",
+    "repo": "https://github.com/satoshoe-dev/dms-sessionedge",
+    "author": "satoshoe",
+    "description": "Session actions (lock, suspend, log out, reboot, power off, restart shell) in a slim strip that slides out of the DMS frame when you hover a screen edge. Actions that end the session need a click and hold.",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-sessionedge/main/assets/screenshot.png"
+}

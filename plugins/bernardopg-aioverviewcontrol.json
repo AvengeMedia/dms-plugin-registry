@@ -1,0 +1,13 @@
+{
+    "id": "aiOverviewControl",
+    "name": "AiOverviewControl",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/bernardopg/AiOverviewControl",
+    "author": "Bernardo Gomes",
+    "description": "Monitor AI subscription and API usage for Claude, Copilot, Codex, Gemini, and OpenRouter from DankBar",
+    "dependencies": ["bash", "jq", "curl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "dmsFrameworkBattery",
+    "name": "DMS Framework Battery",
+    "capabilities": ["dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/nfoert/dms-framework-battery",
+    "author": "nfoert",
+    "description": "Dank Material Shell battery widget, with support for changing the charge limit on Framework laptops",
+    "dependencies": ["ectool"],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/nfoert/dms-framework-battery/blob/main/repo/images/image.png?raw=true"
+}

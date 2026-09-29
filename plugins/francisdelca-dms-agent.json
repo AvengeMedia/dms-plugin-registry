@@ -1,0 +1,21 @@
+{
+    "id": "dmsAgent",
+    "name": "DMS Agent",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/Francisdelca/dms-agent",
+    "author": "Francisdelca (Francis)",
+    "description": "AI desktop assistant powered by Claude Code. Floating chat panel for controlling your desktop with natural language — open apps, switch windows, play music, search the web, and more.",
+    "dependencies": [
+        "claude"
+    ],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Francisdelca/dms-agent/main/screenshots/panel.png"
+}

@@ -1,0 +1,18 @@
+{
+    "id": "nvidiaGpuDankbarMonitor",
+    "name": "NVIDIA GPU Dankbar Monitor",
+    "capabilities": [
+      "dankbar-widget",
+      "monitoring"
+    ],    
+    "category": "monitoring",
+    "repo": "https://github.com/Reverssss/dms-nvidia-gpu-monitor",
+    "author": "Revers",
+    "description": "Monitor NVIDIA GPU usage, VRAM, temperature, power consumption and process usage.",
+    "dependencies": ["nvidia-smi"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Reverssss/dms-nvidia-gpu-monitor/refs/heads/main/docs/images/screenshot.png"
+}
+
+

@@ -1,0 +1,25 @@
+{
+    "id": "lastfmScrobbler",
+    "name": "DMS Last.fm Scrobbler",
+    "version": "1.4.0",
+    "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center",
+        "ipc"
+    ],
+    "category": "media",
+    "repo": "https://github.com/arqueon/dms-scrobbler",
+    "author": "arqueon",
+    "description": "Last.fm companion for the native DMS media player: scrobbling, love/unlove actions, profile links, scrobble progress, and an offline retry queue.",
+    "dependencies": [
+        "python3"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-scrobbler/main/assets/screenshot.png"
+}

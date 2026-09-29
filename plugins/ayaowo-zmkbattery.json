@@ -1,0 +1,24 @@
+{
+  "id": "zmkBattery",
+  "name": "ZmkBattery",
+  "capabilities": [
+    "dankbar-widget",
+    "process"
+  ],
+  "category": "monitoring",
+  "repo": "https://github.com/ayaOwO/ZmkBattery",
+  "author": "ayak",
+  "description": "Shows central and peripheral battery levels for a ZMK split keyboard",
+  "dependencies": [
+    "bash",
+    "busctl",
+    "jq"
+  ],
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/ayaOwO/ZmkBattery/main/screenshot.png"
+}

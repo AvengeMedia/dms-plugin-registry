@@ -1,0 +1,14 @@
+{
+    "id": "dankmailUnread",
+    "name": "Dankmail Unread",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/arqueon/dankmail",
+    "path": "dms-plugin",
+    "author": "arqueon",
+    "description": "The DankMaterialShell companion shipped with Dankmail: live unread status and quick triage powered by the same dmail daemon.",
+    "dependencies": ["dmail"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dankmail/main/assets/screenshot.png"
+}

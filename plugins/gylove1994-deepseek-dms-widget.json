@@ -1,0 +1,13 @@
+{
+  "id": "deepseekWidget",
+  "name": "DeepSeek Usage",
+  "capabilities": ["dankbar-widget"],
+  "category": "monitoring",
+  "repo": "https://github.com/gylove1994/deepseek-dms-widget",
+  "author": "gylove1994",
+  "description": "DeepSeek Platform API balance, monthly token usage and cost in the DankBar; Playwright-based cookie login.",
+  "dependencies": ["python3"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/gylove1994/deepseek-dms-widget/master/screenshots/bar-pill.png"
+}

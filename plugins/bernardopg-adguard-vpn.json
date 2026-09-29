@@ -1,0 +1,14 @@
+{
+    "id": "adguardVPplugin",
+    "name": "AdGuard VPN",
+    "capabilities": ["vpn", "network", "dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/bernardopg/dms-adguard-vpn-plugin",
+    "author": "Bernardo Gomes",
+    "description": "Control, configure, and monitor adguardvpn-cli directly from DankBar",
+    "dependencies": ["adguardvpn-cli"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/bernardopg/dms-adguard-vpn-plugin/main/docs/screenshot.png",
+    "requires_dms": ">=1.4.0"
+}

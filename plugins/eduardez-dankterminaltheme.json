@@ -1,0 +1,15 @@
+
+{
+    "id": "dankterminaltheme",
+    "name": "Dank Terminal Theme",
+    "capabilities": ["terminal", "dankbar-widget"],
+    "category": "appearance",
+    "repo": "https://github.com/eduardez/DankTerminalTheme",
+    "author": "EduarD3V",
+    "description": "Real-time Ghostty theme management from the navbar",
+    "dependencies": ["ghostty"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/eduardez/DankTerminalTheme/main/assets/screenshot_2.png",
+    "requires_dms": ">=1.4.0"
+}

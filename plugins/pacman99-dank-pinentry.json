@@ -1,0 +1,14 @@
+{
+    "id": "dankPinentry",
+    "name": "DankPinentry",
+    "capabilities": ["authentication", "ipc", "daemon"],
+    "category": "utilities",
+    "repo": "https://github.com/pacman99/DankPinentry",
+    "path": "plugin",
+    "author": "Parthiv Seetharaman",
+    "description": "GPG/SSH passphrase entry with native DMS modal.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Pacman99/DankPinentry/refs/heads/master/screenshot.png"
+}

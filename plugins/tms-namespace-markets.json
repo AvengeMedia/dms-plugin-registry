@@ -4,10 +4,17 @@
     "capabilities": ["dankbar-widget"],
     "category": "finance",
     "repo": "https://github.com/TMS-Namespace/DMS-Markets-Plugin",
+    "description": "Near-live market prices for currencies, stocks, and commodities with charts.",
+    "version": "1.0.3",
     "author": "TMS-Namespace",
-    "description": "Semi-Live market prices for currencies, stocks, and commodities with charts",
+    "icon": "show_chart",
+    "type": "widget",
+    "component": "./QML/Widget.qml",
+    "settings": "./QML/Settings.qml",
+    "permissions": ["settings_read", "settings_write", "process", "network"],
+    "requires_dms": ">=1.2.0",
     "dependencies": ["curl"],
-    "compositors": ["niri"],
-    "distro": ["fedora"],
-    "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/blob/main/Images/Dark-Popup.png"
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/raw/main/Images/Dark-Popup.png"
 }

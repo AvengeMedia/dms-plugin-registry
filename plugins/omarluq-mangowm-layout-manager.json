@@ -1,0 +1,14 @@
+{
+    "id": "mangoWmLayoutManager",
+    "name": "MangoWM Layout Manager",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/omarluq/DMSMangoWCLayoutManager",
+    "author": "omarluq",
+    "description": "Switch MangoWM layouts from DankBar with visual previews, configurable click shortcuts, and scroll cycling.",
+    "dependencies": ["mmsg"],
+    "compositors": ["mangowc"],
+    "distro": ["any"],
+    "requires_dms": ">=1.2.0",
+    "screenshot": "https://raw.githubusercontent.com/omarluq/DMSMangoWCLayoutManager/main/screenshot.png"
+}

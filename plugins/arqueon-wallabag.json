@@ -1,0 +1,35 @@
+{
+    "id": "wallabag",
+    "name": "Wallabag",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "productivity",
+    "repo": "https://github.com/arqueon/dms-wallabag",
+    "description": "Your Wallabag read-it-later queue in the DankBar: unread badge, entry list with source and excerpt, open links without closing the popout, archive/star/delete/re-fetch, multi-select batch actions, server-side search and quick-add. OAuth2 with secrets in the system keyring.",
+    "version": "0.1.0",
+    "author": "arqueon",
+    "icon": "bookmark",
+    "type": "widget",
+    "component": "./WallabagWidget.qml",
+    "settings": "./Settings.qml",
+    "startupCheck": "./StartupCheck.qml",
+    "permissions": [
+        "settings_read",
+        "settings_write",
+        "network",
+        "process"
+    ],
+    "requires_dms": ">=1.2.0",
+    "dependencies": [
+        "curl",
+        "secret-tool"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-wallabag/main/assets/screenshot.png"
+}

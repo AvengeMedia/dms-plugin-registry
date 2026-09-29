@@ -1,0 +1,13 @@
+{
+    "id": "timeUntil",
+    "name": "Time Until",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/fdmarcin/TimeUntil",
+    "author": "Marcin Sędłak-Jakubowski",
+    "description": "Display a customizable countdown timer in the Dankbar. Perfect for tracking important deadlines, goals, or any time-sensitive events.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/fdmarcin/TimeUntil/refs/heads/main/img/horizontal-pill.png"
+}

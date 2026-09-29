@@ -1,0 +1,19 @@
+{
+    "id": "dmsProfiles",
+    "name": "Profiles",
+    "capabilities": [
+        "daemon"
+    ],
+    "category": "appearance",
+    "repo": "https://github.com/satoshoe-dev/dms-profiles",
+    "author": "satoshoe",
+    "description": "Save the look of the shell (theme, accent, light or dark, wallpaper, bars, frame, transparency, desktop widgets) as profiles and switch between them with an animated transition. The picker has four views, among them a carousel and a honeycomb grid.",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-profiles/main/assets/screenshot.png"
+}

@@ -1,0 +1,24 @@
+{
+    "id": "dmsThemeSync",
+    "name": "DMS Theme Sync",
+    "capabilities": [
+        "dankbar-widget",
+        "daemon",
+        "ipc"
+    ],
+    "category": "appearance",
+    "repo": "https://github.com/arqueon/dms-theme-sync",
+    "author": "arqueon",
+    "description": "Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fontconfig and XWayland apps — theme, light/dark, fonts, sizes, icons and cursor, with optional Matugen-accent folder colors and Bibata-Material cursor variants.",
+    "dependencies": [
+        "bash",
+        "dbus-send"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png"
+}

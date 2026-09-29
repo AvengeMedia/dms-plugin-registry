@@ -1,0 +1,13 @@
+{
+    "id": "backlightIdleActions",
+    "name": "Backlight Idle Actions",
+    "capabilities": [""],
+    "category": "system",
+    "repo": "https://github.com/nfrastack/dms-backlightIdleActions",
+    "author": "nfrastack",
+    "description": "Battery/AC-aware pre-blank dim with restore on resume for screen and keyboard. Layers on top of DMS's existing idle pipeline.",
+    "dependencies": [],
+    "compositors": ["niri", "hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/nfrastack/dms-backlightIdleActions/refs/heads/main/img/settings.jpg"
+}

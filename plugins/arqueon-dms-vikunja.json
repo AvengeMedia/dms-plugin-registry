@@ -1,0 +1,36 @@
+{
+    "id": "dmsVikunja",
+    "name": "dms-vikunja",
+    "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center",
+        "notifications"
+    ],
+    "category": "productivity",
+    "repo": "https://github.com/arqueon/dms-vikunja",
+    "author": "arqueon",
+    "description": "Manage Vikunja projects and tasks from DankBar with nested project and label views, due dates, priorities, attachments, and notifications.",
+    "version": "0.1.0",
+    "type": "composite",
+    "icon": "task_alt",
+    "components": {
+        "daemon": "./VikunjaDaemon.qml",
+        "widget": "./VikunjaWidget.qml"
+    },
+    "settings": "./Settings.qml",
+    "startupCheck": "./StartupCheck.qml",
+    "requires_dms": ">=1.5.0",
+    "dependencies": [
+        "python3",
+        "secret-tool",
+        "notify-send"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-vikunja/main/assets/screenshot.png"
+}

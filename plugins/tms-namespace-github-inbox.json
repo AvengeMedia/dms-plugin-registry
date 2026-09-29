@@ -1,0 +1,20 @@
+{
+    "id": "githubInbox",
+    "name": "GitHub Inbox",
+    "capabilities": ["dankbar-widget"],
+    "category": "productivity",
+    "repo": "https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin",
+    "description": "Shows your GitHub notifications (aka inbox) in a popup and lets you mark them as read or done.",
+    "version": "1.0.0",
+    "author": "TMS-Namespace",
+    "icon": "code",
+    "type": "widget",
+    "component": "./QML/Widget.qml",
+    "settings": "./QML/Views/Settings.qml",
+    "permissions": ["settings_read", "settings_write", "process", "network"],
+    "requires_dms": ">=1.2.0",
+    "dependencies": ["curl", "secret-tool", "jq"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin/raw/main/Images/plugin_group_by_date.png"
+}

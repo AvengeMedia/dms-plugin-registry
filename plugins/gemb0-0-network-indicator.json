@@ -1,0 +1,13 @@
+{
+    "id": "networkIndicator",
+    "name": "Network Indicator",
+    "capabilities": ["dankbar-widget" ],
+    "category": "monitoring",
+    "repo": "https://github.com/gemb0-0/Network-Indicator.git",
+    "author": "gemb0_0",
+    "description": "Real-time network speed monitor for DankBar showing upload and download speeds",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/gemb0-0/Network-Indicator/refs/heads/main/screenshot.png"
+}

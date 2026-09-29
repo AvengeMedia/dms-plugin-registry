@@ -8,7 +8,7 @@
     "author": "Michael Erdely",
     "description": "Check for and install Flatpak Updates",
     "dependencies": ["flatpak"],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/merdely/dms-plugins/main/screenshots/flatpakupdates-popout.png"
 }

@@ -1,0 +1,15 @@
+{
+  "id": "codeforcesHeatmap",
+  "name": "Codeforces Heatmap",
+  "capabilities": ["dankbar-widget"],
+  "category": "monitoring",
+  "repo": "https://github.com/EchoSingh/codeforces-dms-plugin",
+  "path": "CodeForcesHeatMap",
+  "author": "EchoSingh",
+  "description": "Display daily Codeforces problem solving activity with a color-coded heatmap",
+  "dependencies": ["bash", "curl", "jq", "notify-send", "xdg-open"],
+  "compositors": ["niri"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/EchoSingh/codeforces-dms-plugin/main/CodeForcesHeatMap/cf_heatmap.png",
+  "license": "MIT"
+}

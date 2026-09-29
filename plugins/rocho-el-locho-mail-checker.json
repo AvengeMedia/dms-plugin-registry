@@ -1,0 +1,14 @@
+{
+    "id": "mailChecker",
+    "name": "Mail Checker",
+    "capabilities": ["dankbar-widget", "control-center-widget"],
+    "category": "productivity",
+    "repo": "https://github.com/Rocho-EL-Locho/dms-mail-checker",
+    "path": "",
+    "author": "Rocho",
+    "description": "Unread mail checker for IMAP mailboxes: bar indicator with unread count, popout with message list, desktop notifications. Not a mail client, just a checker.",
+    "dependencies": ["python3"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/Rocho-EL-Locho/dms-mail-checker/raw/main/docs/screenshot.png"
+}

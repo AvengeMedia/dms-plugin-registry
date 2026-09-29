@@ -1,0 +1,14 @@
+{
+    "id": "roon",
+    "name": "Roon",
+    "capabilities": ["dankbar-widget", "control-center", "launcher", "desktop-widget", "daemon"],
+    "category": "media",
+    "repo": "https://github.com/NoaHimesaka1873/dms-plugin-roon",
+    "author": "Noa Himesaka",
+    "description": "Roon zone control from the bar: now playing, seek, volume, queue, library browser and zones, launcher search, desktop now-playing card, and an MPRIS bridge for media keys",
+    "dependencies": ["node"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/NoaHimesaka1873/dms-plugin-roon/refs/heads/senpai/screenshots/popout.png",
+    "requires_dms": ">=1.5.0"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "claudeUsage",
+    "name": "Claude Usage",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/bogdan-velicu/DankClaudeUsage",
+    "author": "Bogdan Velicu",
+    "description": "Claude Code 5-hour and weekly subscription limits in your bar, as theme-colored rings with a popout. Zero setup.",
+    "dependencies": ["jq", "curl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/bogdan-velicu/DankClaudeUsage/main/assets/popout.png"
+}
