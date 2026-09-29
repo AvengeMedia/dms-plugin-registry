@@ -58,6 +58,8 @@ VERDICTS = {
 }
 SEVERITIES = {"blocker", "issue"}
 MINIMIZE = "mutation($id: ID!) { minimizeComment(input: {subjectId: $id, classifier: OUTDATED}) { clientMutationId } }"
+TO_DRAFT = "mutation($id: ID!) { convertPullRequestToDraft(input: {pullRequestId: $id}) { clientMutationId } }"
+DRAFT_NOTE = "Moved to draft. Push fixes or update the plugin repo, then mark it ready for review for another pass."
 
 
 def run(*args: str, cwd: Path | None = None, timeout: int | None = None, stdin: str | None = None) -> str:
@@ -400,7 +402,7 @@ def finding_line(finding: dict, meta: dict) -> str:
     return f"- **{severity}** {where}: {detail}"
 
 
-def render(result: dict, meta: dict) -> str:
+def render(result: dict, meta: dict, drafted: bool) -> str:
     verdict = VERDICTS[meta["kind"]].get(result["verdict"], "no verdict")
     lines = [MARKER, f"## Claude review: {verdict}", "", plain(result["summary"], 600), ""]
 
@@ -410,6 +412,8 @@ def render(result: dict, meta: dict) -> str:
 
     findings = result["findings"][:MAX_FINDINGS]
     lines += [finding_line(f, meta) for f in findings] or ["No issues found."]
+    if drafted:
+        lines += ["", DRAFT_NOTE]
 
     notes = [
         f"Automated first pass on `{meta['head'][:7]}`, not an approval."
@@ -424,6 +428,21 @@ def render(result: dict, meta: dict) -> str:
     return "\n".join(lines) + "\n"
 
 
+def move_to_draft(repo: str, number: int, reviewed_head: str) -> bool:
+    pr = gh_json("pr", "view", str(number), "--repo", repo, "--json", "id,isDraft,headRefOid")
+    if pr["headRefOid"] != reviewed_head:
+        print("PR head moved since this review, leaving draft state to the next review")
+        return False
+    if pr["isDraft"]:
+        return True
+    try:
+        run("gh", "api", "graphql", "-f", f"query={TO_DRAFT}", "-f", f"id={pr['id']}")
+    except subprocess.CalledProcessError as e:
+        print(f"could not move to draft: {e.stderr.strip()}")
+        return False
+    return True
+
+
 def post(result_dir: Path) -> None:
     repo = os.environ["GH_REPO"]
     number = int(os.environ["NUMBER"])
@@ -431,7 +450,11 @@ def post(result_dir: Path) -> None:
     if SECRET.search(raw):
         sys.exit("refusing to post: review output matches a credential pattern")
 
-    body = render(json.loads(raw), json.loads((result_dir / "meta.json").read_text()))
+    result = json.loads(raw)
+    meta = json.loads((result_dir / "meta.json").read_text())
+    needs_work = meta["kind"] == "pr" and result["verdict"] != "ready"
+    drafted = needs_work and move_to_draft(repo, number, meta["head"])
+    body = render(result, meta, drafted)
     for comment in review_comments(repo, number):
         try:
             run("gh", "api", "graphql", "-f", f"query={MINIMIZE}", "-f", f"id={comment['node_id']}")
