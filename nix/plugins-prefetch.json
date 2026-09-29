@@ -7542,6 +7542,47 @@
     "sha256": "1v7rb8qr6s1sff75qb8rbalsv775w6fywrr0vv6fz7fdvi4qpbch",
     "url": "https://github.com/stvnwrgs/dms-keybindings-cheat-sheet"
   },
+  "keyboardLayoutSearch": {
+    "date": "2026-09-27T07:48:49+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Dd3LsWq4w7/Px03gRf3jUN9+j27f3M8kPaQGzia9VCU=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "korbash",
+      "capabilities": [
+        "daemon"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3",
+        "libxkbcommon",
+        "xkeyboard-config",
+        "xkbcli"
+      ],
+      "description": "Find apps even when you type their names in another keyboard layout.",
+      "distro": [
+        "any"
+      ],
+      "id": "keyboardLayoutSearch",
+      "name": "DMS Keyboard Layout Search",
+      "path": "plugin",
+      "repo": "https://github.com/korbash/dms-keyboard-layout-search",
+      "requires_dms": ">=1.6.2",
+      "screenshot": "https://raw.githubusercontent.com/korbash/dms-keyboard-layout-search/main/assets/keyboard-layout-search.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/6pzniw1jr5id7rsjgwh4jlf228za3416-dms-keyboard-layout-search",
+    "rev": "25b6f45d3f22b2b4f9e08e5921aee98a82ab7186",
+    "rootDir": "",
+    "sha256": "09alplkcw1m47ljczp6zds7pxpshwgylbq2dqz7vzhxqdaqwpp8d",
+    "url": "https://github.com/korbash/dms-keyboard-layout-search"
+  },
   "keystrokes": {
     "date": "2026-09-20T13:54:41+08:00",
     "deepClone": false,
@@ -9523,9 +9564,9 @@
       "dependencies": [
         "nvidia-smi"
       ],
-      "description": "Monitor NVIDIA GPU usage, VRAM, and temperature.",
+      "description": "Monitor NVIDIA GPU usage, VRAM, temperature, power and GPU processes.",
       "distro": [
-        "any"
+        "arch"
       ],
       "id": "nvidiaGpuMonitor",
       "name": "NVIDIA GPU Monitor",
