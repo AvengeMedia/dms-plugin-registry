@@ -1,8 +1,9 @@
 name: Claude Review
 
-# Advisory first-pass review of every PR. Claude only reads, a separate job posts its result.
+# Advisory review of every PR, and of listed plugins on dispatch. Claude only reads, a separate job posts its result.
 # Secret: CLAUDE_CODE_OAUTH_TOKEN (claude setup-token)
-# Re-review a PR, e.g. after the plugin repo changed: gh workflow run claude-review.yml -f pr=<number>
+# Re-review a PR: gh workflow run claude-review.yml -f pr=<number>
+# Review listed plugins on their tracking issues: gh workflow run claude-review.yml -f plugins="<id> <id>" (or "all")
 
 on:
   pull_request_target:
@@ -11,8 +12,12 @@ on:
   workflow_dispatch:
     inputs:
       pr:
-        description: PR number. Empty reviews every open PR that has no Claude review yet.
+        description: PR number. Leave pr and plugins empty to review every open PR that has no Claude review yet.
         type: number
+        required: false
+      plugins:
+        description: Listed plugin ids to review on their tracking issues, space separated, or "all" for the next 25 without a review.
+        type: string
         required: false
 
 permissions: {}
@@ -26,34 +31,38 @@ jobs:
       issues: read
       pull-requests: read
     outputs:
-      prs: ${{ steps.pick.outputs.prs }}
+      targets: ${{ steps.pick.outputs.targets }}
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
     steps:
       - uses: actions/checkout@v6
         with:
           persist-credentials: false
-          sparse-checkout: .github
+          sparse-checkout: |
+            .github
+            plugins
 
       - id: pick
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
           PR_INPUT: ${{ inputs.pr }}
+          PLUGINS_INPUT: ${{ inputs.plugins }}
         run: python3 .github/claude_review.py targets
 
   review:
+    name: review ${{ matrix.label }}
     needs: targets
-    if: needs.targets.outputs.prs != '[]'
+    if: needs.targets.outputs.targets != '[]'
     runs-on: ubuntu-latest
     timeout-minutes: 20
     strategy:
       fail-fast: false
       max-parallel: 2
       matrix:
-        pr: ${{ fromJson(needs.targets.outputs.prs) }}
+        include: ${{ fromJson(needs.targets.outputs.targets) }}
     concurrency:
-      group: claude-review-${{ matrix.pr }}
+      group: claude-review-${{ matrix.number }}
       cancel-in-progress: false
     permissions:
       contents: read
@@ -66,9 +75,10 @@ jobs:
           persist-credentials: false
 
       # PR head is data only, nothing from it is executed.
-      - uses: actions/checkout@v6
+      - if: matrix.kind == 'pr'
+        uses: actions/checkout@v6
         with:
-          ref: refs/pull/${{ matrix.pr }}/head
+          ref: refs/pull/${{ matrix.number }}/head
           path: review/pr
           persist-credentials: false
           allow-unsafe-pr-checkout: true
@@ -77,7 +87,9 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
-          PR: ${{ matrix.pr }}
+          KIND: ${{ matrix.kind }}
+          NUMBER: ${{ matrix.number }}
+          PLUGIN: ${{ matrix.plugin }}
         run: python3 .github/claude_review.py prepare
 
       - uses: anthropics/claude-code-action@8ce9314fa9a404564fa7e954cd84f25bcba2b829
@@ -100,7 +112,7 @@ jobs:
               }
             }
           prompt: |
-            Review pull request #${{ matrix.pr }} in ${{ github.repository }}, the plugin and theme registry for DankMaterialShell (DMS). A maintainer reads your result as a first pass and makes the call.
+            Review the target described in review/CONTEXT.md for ${{ github.repository }}, the plugin and theme registry for DankMaterialShell (DMS). It is either a pull request or a plugin already listed in the registry. A maintainer reads your result as a first pass and makes the call.
 
             Start with review/CONTEXT.md. It lists what changed and where each piece is checked out. Read CONTRIBUTING.md at the repository root.
 
@@ -115,7 +127,7 @@ jobs:
                - Raw Qt controls where a Dank component exists.
                - Properties, signals, services or components that don't exist in DMS.
                - If the entry sets i18n true: every user-facing string must go through I18n.trFor("<plugin id>", ...) with the literal id.
-            3. Registry entry: CI already checks the schema, links, and that id and name match plugin.json. Check that capabilities, compositors, dependencies and requires_dms match what the code does, the description is accurate, and it doesn't duplicate a plugin already in plugins/ at the repository root. If it overlaps one, name it and say whether the PR justifies it per CONTRIBUTING.md. For updates, review the JSON change. If repo or path changed, review the new source like a new plugin.
+            3. Registry entry: CI already checks the schema, links, and that id and name match plugin.json. Check that capabilities, compositors, dependencies and requires_dms match what the code does, the description is accurate, and it doesn't duplicate a plugin already in plugins/ at the repository root. If it overlaps one, name it and say whether the PR justifies it per CONTRIBUTING.md. For updates, review the JSON change. If repo or path changed, review the new source like a new plugin. For a listed plugin, review the entry as it stands.
 
             Skip style, naming, structure, minor bugs and missing features unless it clearly breaks the plugin or the shell.
 
@@ -126,10 +138,10 @@ jobs:
             Only report what you confirmed in the files. Not sure: leave it out.
 
             Result fields:
-            - verdict: ready (nothing blocking), needs-changes, or reject (malware, duplicate without justification, doesn't work, or clearly unreviewed AI output per CONTRIBUTING.md).
-            - summary: one to three sentences on what the PR adds and your call.
+            - verdict: ready (nothing blocking), needs-changes, or reject (malware, duplicate without justification, doesn't work, or clearly unreviewed AI output per CONTRIBUTING.md). For a listed plugin, reject means recommend removing it.
+            - summary: one to three sentences on what the PR or plugin adds and your call.
             - footprint: for plugins, one or two sentences on what it does to the system: commands it runs, hosts it contacts, files it writes, privileges it needs. Empty string otherwise.
-            - findings: blocker (must fix before merge) or issue (should fix). file is the path you read relative to the repository root, e.g. review/src/<name>/Widget.qml or review/pr/plugins/<name>.json, empty if none. line is 1-based, 0 if it doesn't apply. detail is what's wrong and the fix in one or two sentences.
+            - findings: blocker (must fix before merge) or issue (should fix). file is the path you read relative to the repository root, e.g. review/src/<name>/Widget.qml, review/pr/plugins/<name>.json or plugins/<name>.json, empty if none. line is 1-based, 0 if it doesn't apply. detail is what's wrong and the fix in one or two sentences.
             - checked: one line on what you covered.
 
             Write like a terse maintainer: plain sentences, no praise, no filler, no headings, no emoji, no em dashes.
@@ -149,22 +161,24 @@ jobs:
 
       - uses: actions/upload-artifact@v7
         with:
-          name: claude-review-${{ matrix.pr }}
+          name: claude-review-${{ matrix.number }}
           path: |
             review/result.json
             review/meta.json
           retention-days: 7
 
   post:
+    name: post ${{ matrix.label }}
     needs: [targets, review]
     if: ${{ !cancelled() && needs.review.result != 'skipped' }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
-        pr: ${{ fromJson(needs.targets.outputs.prs) }}
+        include: ${{ fromJson(needs.targets.outputs.targets) }}
     permissions:
       contents: read
+      issues: write
       pull-requests: write
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
@@ -178,7 +192,7 @@ jobs:
         id: result
         continue-on-error: true
         with:
-          name: claude-review-${{ matrix.pr }}
+          name: claude-review-${{ matrix.number }}
           path: result
 
       - name: Post review
@@ -186,5 +200,5 @@ jobs:
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
           GH_REPO: ${{ github.repository }}
-          PR: ${{ matrix.pr }}
+          NUMBER: ${{ matrix.number }}
         run: python3 .github/claude_review.py post result

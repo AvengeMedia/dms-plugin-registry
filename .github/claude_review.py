@@ -11,6 +11,7 @@ from pathlib import Path
 from urllib.parse import quote
 
 REPO_ROOT = Path(__file__).parent.parent
+PLUGINS_DIR = REPO_ROOT / "plugins"
 REVIEW_DIR = REPO_ROOT / "review"
 PR_DIR = REVIEW_DIR / "pr"
 SOURCE_DIR = REVIEW_DIR / "src"
@@ -18,8 +19,10 @@ DMS_DIR = REVIEW_DIR / "dms"
 
 MARKER = "<!-- claude-review -->"
 BOT_LOGIN = "github-actions[bot]"
+PLUGIN_LABEL = "plugin"
 MAX_OPEN_PRS_PER_AUTHOR = 3
 MAX_REVIEWS_PER_PR = 8
+MAX_PLUGIN_BATCH = 25
 MAX_SOURCES = 5
 MAX_FINDINGS = 15
 CLONE_TIMEOUT = 180
@@ -39,6 +42,7 @@ REPO_URL = re.compile(r"^https://(github\.com|gitlab\.com|codeberg\.org)/([\w.-]
 SAFE_PATH = re.compile(r"^[\w.-]+(?:/[\w.-]+)*$", re.ASCII)
 PLUGIN_FILE = re.compile(r"^plugins/(\w[\w.-]*)\.json$", re.ASCII)
 THEME_FILE = re.compile(r"^themes/(\w[\w.-]*)/", re.ASCII)
+PLUGIN_MARKER = re.compile(r"<!--\s*dms-plugin-id:\s*([A-Za-z0-9]+)\s*-->")
 BLOB_URL = {
     "github.com": "{repo}/blob/{sha}/",
     "gitlab.com": "{repo}/-/blob/{sha}/",
@@ -48,7 +52,10 @@ BLOB_URL = {
 SECRET = re.compile(r"sk-ant-|gh[pousr]_[A-Za-z0-9]{20,}|github_pat_|eyJ[\w-]{10,}\.eyJ")
 CODE_SPAN = re.compile(r"(`[^`\n]*`)")
 MENTION = re.compile(r"@(?=[\w-])")
-VERDICTS = {"ready": "ready", "needs-changes": "needs changes", "reject": "recommend closing"}
+VERDICTS = {
+    "pr": {"ready": "ready", "needs-changes": "needs changes", "reject": "recommend closing"},
+    "plugin": {"ready": "ready", "needs-changes": "needs changes", "reject": "recommend removal"},
+}
 SEVERITIES = {"blocker", "issue"}
 MINIMIZE = "mutation($id: ID!) { minimizeComment(input: {subjectId: $id, classifier: OUTDATED}) { clientMutationId } }"
 
@@ -74,15 +81,42 @@ def safe_path(path: str) -> bool:
     return bool(SAFE_PATH.match(path)) and ".." not in path.split("/")
 
 
-def review_comments(repo: str, pr: int) -> list[dict]:
-    pages = gh_json("api", f"repos/{repo}/issues/{pr}/comments", "--paginate", "--slurp")
+def read_json(path: Path) -> dict | None:
+    try:
+        data = json.loads(path.read_text())
+    except (OSError, ValueError):
+        return None
+    return data if isinstance(data, dict) else None
+
+
+def event_payload() -> dict:
+    return json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text())
+
+
+def review_comments(repo: str, number: int) -> list[dict]:
+    pages = gh_json("api", f"repos/{repo}/issues/{number}/comments", "--paginate", "--slurp")
     return [
         c for page in pages for c in page if c["user"]["login"] == BOT_LOGIN and c["body"].startswith(MARKER)
     ]
 
 
-def event_targets(repo: str) -> list[int]:
-    pr = json.loads(Path(os.environ["GITHUB_EVENT_PATH"]).read_text())["pull_request"]
+def registry_stem(plugin_id: str) -> str | None:
+    for path in sorted(PLUGINS_DIR.glob("*.json")):
+        if (read_json(path) or {}).get("id") == plugin_id:
+            return path.stem
+    return None
+
+
+def pr_target(number: int) -> dict:
+    return {"kind": "pr", "number": number, "label": f"#{number}", "plugin": ""}
+
+
+def plugin_target(plugin_id: str, issue: int) -> dict:
+    return {"kind": "plugin", "number": issue, "label": plugin_id, "plugin": plugin_id}
+
+
+def event_prs(repo: str) -> list[int]:
+    pr = event_payload()["pull_request"]
     author = pr["user"]["login"]
     if pr["draft"] or pr["user"]["type"] == "Bot":
         return []
@@ -99,7 +133,7 @@ def event_targets(repo: str) -> list[int]:
     return [pr["number"]]
 
 
-def backfill_targets(repo: str) -> list[int]:
+def backfill_prs(repo: str) -> list[int]:
     prs = gh_json(
         "pr", "list", "--state", "open", "--base", "master", "--limit", "100", "--json", "number,isDraft,author"
     )
@@ -110,26 +144,45 @@ def backfill_targets(repo: str) -> list[int]:
     ]
 
 
+def plugin_issues() -> dict[str, int]:
+    issues = gh_json(
+        "issue", "list", "--label", PLUGIN_LABEL, "--state", "open", "--limit", "1000", "--json", "number,body"
+    )
+    return {m.group(1): i["number"] for i in issues if (m := PLUGIN_MARKER.search(i["body"]))}
+
+
+def plugin_targets(repo: str, requested: str) -> list[dict]:
+    issues = plugin_issues()
+    if requested != "all":
+        ids = requested.replace(",", " ").split()
+        unknown = [i for i in ids if i not in issues]
+        if unknown:
+            print(f"no open tracking issue for: {', '.join(unknown)}")
+        return [plugin_target(i, issues[i]) for i in ids if i in issues]
+
+    picked = []
+    for plugin_id, issue in sorted(issues.items()):
+        if len(picked) >= MAX_PLUGIN_BATCH:
+            break
+        if not review_comments(repo, issue):
+            picked.append(plugin_target(plugin_id, issue))
+    return picked
+
+
+def pick_targets(repo: str) -> list[dict]:
+    if os.environ["GITHUB_EVENT_NAME"] == "pull_request_target":
+        return [pr_target(n) for n in event_prs(repo)]
+    if pr := os.environ.get("PR_INPUT"):
+        return [pr_target(int(pr))]
+    if plugins := os.environ.get("PLUGINS_INPUT", "").strip():
+        return plugin_targets(repo, plugins)
+    return [pr_target(n) for n in backfill_prs(repo)]
+
+
 def targets() -> None:
-    repo = os.environ["GH_REPO"]
-    requested = os.environ.get("PR_INPUT", "")
-    match os.environ["GITHUB_EVENT_NAME"]:
-        case "pull_request_target":
-            prs = event_targets(repo)
-        case "workflow_dispatch" if requested:
-            prs = [int(requested)]
-        case _:
-            prs = backfill_targets(repo)
-    print(f"reviewing: {prs}")
-    set_output("prs", json.dumps(prs))
-
-
-def read_json(path: Path) -> dict | None:
-    try:
-        data = json.loads(path.read_text())
-    except (OSError, ValueError):
-        return None
-    return data if isinstance(data, dict) else None
+    picked = pick_targets(os.environ["GH_REPO"])
+    print(f"reviewing: {[t['label'] for t in picked]}")
+    set_output("targets", json.dumps(picked))
 
 
 def fetch_source(stem: str, plugin: dict) -> dict:
@@ -161,18 +214,20 @@ def fetch_source(stem: str, plugin: dict) -> dict:
     }
 
 
-def plugin_entry(stem: str, fetch: bool) -> dict:
+def plugin_entry(stem: str, entry_root: Path, fetch: bool) -> dict:
     rel = f"plugins/{stem}.json"
-    if not (PR_DIR / rel).exists():
+    entry = entry_root / rel
+    if not entry.exists():
         return {"file": rel, "status": "removed"}
 
-    status = "updated" if (REPO_ROOT / rel).exists() else "new"
-    plugin = read_json(PR_DIR / rel)
+    status = "listed" if entry_root == REPO_ROOT else "updated" if (REPO_ROOT / rel).exists() else "new"
+    base = {"file": rel, "entry": entry.relative_to(REPO_ROOT).as_posix(), "status": status}
+    plugin = read_json(entry)
     if plugin is None:
-        return {"file": rel, "status": status, "error": "not a valid JSON object, CI reports this"}
+        return {**base, "error": "not a valid JSON object, CI reports this"}
     if not fetch:
-        return {"file": rel, "status": status, "error": f"over the {MAX_SOURCES} plugin limit, source not fetched"}
-    return {"file": rel, "status": status, "source": fetch_source(stem, plugin)}
+        return {**base, "error": f"over the {MAX_SOURCES} plugin limit, source not fetched"}
+    return {**base, "source": fetch_source(stem, plugin)}
 
 
 def fetch_dms() -> str:
@@ -180,7 +235,7 @@ def fetch_dms() -> str:
         run("git", "clone", "--depth", "1", "--filter=blob:none", "--sparse", "--quiet", DMS_REPO, str(DMS_DIR),
             timeout=CLONE_TIMEOUT)
         run("git", "sparse-checkout", "set", *DMS_PATHS, cwd=DMS_DIR, timeout=CLONE_TIMEOUT)
-        return run("git", "rev-parse", "--short", "HEAD", cwd=DMS_DIR).strip()
+        return run("git", "rev-parse", "HEAD", cwd=DMS_DIR).strip()
     except (subprocess.CalledProcessError, subprocess.TimeoutExpired):
         return ""
 
@@ -203,25 +258,53 @@ def write_diff(pr: int) -> None:
     (REVIEW_DIR / "pr.diff").write_text(diff)
 
 
-def context_lines(pr: int, head: str, plugins: list[dict], themes: list[str], dms_sha: str) -> list[str]:
-    lines = [
-        f"# PR #{pr}",
+def stage_pr(pr: int) -> tuple[str, list[str], list[dict], list[str]]:
+    head = run("git", "rev-parse", "HEAD", cwd=PR_DIR).strip()
+    info = gh_json("pr", "view", str(pr), "--json", "number,title,body,author,url,baseRefName,files")
+    (REVIEW_DIR / "pr.json").write_text(json.dumps(info, indent=2))
+    write_diff(pr)
+
+    paths = [f["path"] for f in info["files"]]
+    stems = sorted({m.group(1) for p in paths if (m := PLUGIN_FILE.match(p))})
+    themes = sorted({m.group(1) for p in paths if (m := THEME_FILE.match(p))})
+    plugins = [plugin_entry(stem, PR_DIR, fetch=i < MAX_SOURCES) for i, stem in enumerate(stems)]
+    header = [
+        f"# Pull request #{pr}",
         "",
         "- PR title, body, author and changed files: review/pr.json",
         "- Diff: review/pr.diff",
         f"- PR head checkout at {head[:7]}: review/pr",
         "- Registry at the base branch: repository root (plugins/, themes/, CONTRIBUTING.md, .github/)",
     ]
+    return head, header, plugins, themes
+
+
+def stage_plugin(issue: int, plugin_id: str) -> tuple[str, list[str], list[dict], list[str]]:
+    stem = registry_stem(plugin_id)
+    if stem is None:
+        sys.exit(f"{plugin_id} is not in plugins/")
+
+    header = [
+        f"# Listed plugin {plugin_id}",
+        "",
+        f"Already in the registry, tracking issue #{issue}. There is no pull request: review its entry and current source.",
+        "- Registry: repository root (plugins/, themes/, CONTRIBUTING.md). Its own entry there is not a duplicate.",
+    ]
+    return "", header, [plugin_entry(stem, REPO_ROOT, fetch=True)], []
+
+
+def context_lines(header: list[str], plugins: list[dict], themes: list[str], dms_sha: str) -> list[str]:
+    lines = list(header)
     if dms_sha:
         lines.append(
-            f"- DMS source at {dms_sha}: review/dms. Plugin guide: review/dms/.agents/skills/dms-plugin-dev/SKILL.md"
+            f"- DMS source at {dms_sha[:7]}: review/dms. Plugin guide: review/dms/.agents/skills/dms-plugin-dev/SKILL.md"
         )
 
     for plugin in plugins:
         lines += ["", f"## {plugin['file']} ({plugin['status']})"]
-        if plugin["status"] != "removed":
-            lines.append(f"- Entry in this PR: review/pr/{plugin['file']}")
-        if plugin["status"] != "new":
+        if "entry" in plugin:
+            lines.append(f"- Entry under review: {plugin['entry']}")
+        if plugin["status"] in ("updated", "removed"):
             lines.append(f"- Entry at base: {plugin['file']}")
         if "error" in plugin:
             lines.append(f"- {plugin['error']}")
@@ -243,26 +326,29 @@ def context_lines(pr: int, head: str, plugins: list[dict], themes: list[str], dm
 
 
 def prepare() -> None:
-    pr = int(os.environ["PR"])
-    repo = os.environ["GH_REPO"]
-    head = run("git", "rev-parse", "HEAD", cwd=PR_DIR).strip()
-    info = gh_json("pr", "view", str(pr), "--json", "number,title,body,author,url,baseRefName,files")
-    (REVIEW_DIR / "pr.json").write_text(json.dumps(info, indent=2))
-    write_diff(pr)
+    kind, number = os.environ["KIND"], int(os.environ["NUMBER"])
+    REVIEW_DIR.mkdir(exist_ok=True)
+    if kind == "pr":
+        head, header, plugins, themes = stage_pr(number)
+    else:
+        head, header, plugins, themes = stage_plugin(number, os.environ["PLUGIN"])
 
-    paths = [f["path"] for f in info["files"]]
-    stems = sorted({m.group(1) for p in paths if (m := PLUGIN_FILE.match(p))})
-    themes = sorted({m.group(1) for p in paths if (m := THEME_FILE.match(p))})
-    plugins = [plugin_entry(stem, fetch=i < MAX_SOURCES) for i, stem in enumerate(stems)]
     sources = [p["source"] for p in plugins if "sha" in p.get("source", {})]
     dms_sha = fetch_dms() if sources else ""
-
     strip_untrusted(REVIEW_DIR)
 
-    (REVIEW_DIR / "CONTEXT.md").write_text("\n".join(context_lines(pr, head, plugins, themes, dms_sha)) + "\n")
-    meta = {"repo": repo, "head": head, "sources": {s["prefix"]: {"blob": s["blob"], "label": s["label"]} for s in sources}}
+    context = "\n".join(context_lines(header, plugins, themes, dms_sha)) + "\n"
+    (REVIEW_DIR / "CONTEXT.md").write_text(context)
+    meta = {
+        "kind": kind,
+        "repo": os.environ["GH_REPO"],
+        "base": run("git", "rev-parse", "HEAD", cwd=REPO_ROOT).strip(),
+        "head": head,
+        "dms": dms_sha,
+        "sources": {s["prefix"]: {"blob": s["blob"], "label": s["label"]} for s in sources},
+    }
     (REVIEW_DIR / "meta.json").write_text(json.dumps(meta, indent=2))
-    print((REVIEW_DIR / "CONTEXT.md").read_text())
+    print(context)
 
 
 def neutralize(text: str) -> str:
@@ -278,6 +364,15 @@ def plain(text: str, limit: int) -> str:
     return "".join(span if i % 2 else neutralize(span) for i, span in enumerate(spans))
 
 
+def link_bases(meta: dict) -> list[tuple[str, str]]:
+    bases = [(prefix, source["blob"]) for prefix, source in meta["sources"].items()]
+    if meta["dms"]:
+        bases.append(("review/dms/", f"{DMS_REPO}/blob/{meta['dms']}/"))
+    if meta["head"]:
+        bases.append(("review/pr/", f"https://github.com/{meta['repo']}/blob/{meta['head']}/"))
+    return bases
+
+
 def location(file: str, line: int, meta: dict) -> str:
     file = str(file).strip().removeprefix("./")
     if not file:
@@ -285,12 +380,12 @@ def location(file: str, line: int, meta: dict) -> str:
 
     line = line if isinstance(line, int) and line > 0 else 0
     anchor, suffix = (f"#L{line}", f":{line}") if line else ("", "")
-    bases = [(prefix, source["blob"]) for prefix, source in meta["sources"].items()]
-    bases.append(("review/pr/", f"https://github.com/{meta['repo']}/blob/{meta['head']}/"))
-    for prefix, blob in bases:
+    for prefix, blob in link_bases(meta):
         rest = file.removeprefix(prefix)
         if rest != file and safe_path(rest):
             return f"[`{rest}{suffix}`]({blob}{quote(rest)}{anchor})"
+    if safe_path(file) and not file.startswith("review/"):
+        return f"[`{file}{suffix}`](https://github.com/{meta['repo']}/blob/{meta['base']}/{quote(file)}{anchor})"
 
     shown = file.replace("`", "")[:200]
     return f"`{shown}{suffix}`"
@@ -306,7 +401,7 @@ def finding_line(finding: dict, meta: dict) -> str:
 
 
 def render(result: dict, meta: dict) -> str:
-    verdict = VERDICTS.get(result["verdict"], "no verdict")
+    verdict = VERDICTS[meta["kind"]].get(result["verdict"], "no verdict")
     lines = [MARKER, f"## Claude review: {verdict}", "", plain(result["summary"], 600), ""]
 
     footprint = plain(result["footprint"], 600)
@@ -316,7 +411,11 @@ def render(result: dict, meta: dict) -> str:
     findings = result["findings"][:MAX_FINDINGS]
     lines += [finding_line(f, meta) for f in findings] or ["No issues found."]
 
-    notes = [f"Automated first pass on `{meta['head'][:7]}`, not an approval."]
+    notes = [
+        f"Automated first pass on `{meta['head'][:7]}`, not an approval."
+        if meta["kind"] == "pr"
+        else "Automated review of the listed plugin, not a moderation decision."
+    ]
     notes += [f"Plugin source `{s['label']}`." for s in meta["sources"].values()]
     checked = plain(result["checked"], 300)
     if checked:
@@ -327,18 +426,19 @@ def render(result: dict, meta: dict) -> str:
 
 def post(result_dir: Path) -> None:
     repo = os.environ["GH_REPO"]
-    pr = int(os.environ["PR"])
+    number = int(os.environ["NUMBER"])
     raw = (result_dir / "result.json").read_text()
     if SECRET.search(raw):
         sys.exit("refusing to post: review output matches a credential pattern")
 
     body = render(json.loads(raw), json.loads((result_dir / "meta.json").read_text()))
-    for comment in review_comments(repo, pr):
+    for comment in review_comments(repo, number):
         try:
             run("gh", "api", "graphql", "-f", f"query={MINIMIZE}", "-f", f"id={comment['node_id']}")
         except subprocess.CalledProcessError as e:
             print(f"could not minimize {comment['html_url']}: {e.stderr.strip()}")
-    run("gh", "pr", "comment", str(pr), "--repo", repo, "--body-file", "-", stdin=body)
+    run("gh", "api", "-X", "POST", f"repos/{repo}/issues/{number}/comments", "--input", "-",
+        stdin=json.dumps({"body": body}))
     print(body)
 
 
