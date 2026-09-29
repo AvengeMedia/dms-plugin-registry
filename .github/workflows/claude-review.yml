@@ -195,10 +195,22 @@ jobs:
           name: claude-review-${{ matrix.number }}
           path: result
 
+      # GITHUB_TOKEN can't convert PRs to draft, an app token can.
+      - name: Create draft token
+        id: draft_token
+        if: steps.result.outcome == 'success' && matrix.kind == 'pr'
+        continue-on-error: true
+        uses: actions/create-github-app-token@v1
+        with:
+          app-id: ${{ secrets.APP_ID }}
+          private-key: ${{ secrets.APP_PRIVATE_KEY }}
+          permission-pull-requests: write
+
       - name: Post review
         if: steps.result.outcome == 'success'
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          DRAFT_TOKEN: ${{ steps.draft_token.outputs.token }}
           GH_REPO: ${{ github.repository }}
           NUMBER: ${{ matrix.number }}
         run: python3 .github/claude_review.py post result

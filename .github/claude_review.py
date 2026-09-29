@@ -62,8 +62,12 @@ TO_DRAFT = "mutation($id: ID!) { convertPullRequestToDraft(input: {pullRequestId
 DRAFT_NOTE = "Moved to draft. Push fixes or update the plugin repo, then mark it ready for review for another pass."
 
 
-def run(*args: str, cwd: Path | None = None, timeout: int | None = None, stdin: str | None = None) -> str:
+def run(
+    *args: str, cwd: Path | None = None, timeout: int | None = None, stdin: str | None = None, token: str = ""
+) -> str:
     env = {**os.environ, "GIT_TERMINAL_PROMPT": "0", "GIT_LFS_SKIP_SMUDGE": "1"}
+    if token:
+        env["GH_TOKEN"] = token
     result = subprocess.run(
         args, cwd=cwd, env=env, timeout=timeout, input=stdin, check=True, capture_output=True, text=True
     )
@@ -435,8 +439,12 @@ def move_to_draft(repo: str, number: int, reviewed_head: str) -> bool:
         return False
     if pr["isDraft"]:
         return True
+    token = os.environ.get("DRAFT_TOKEN", "")
+    if not token:
+        print("no DRAFT_TOKEN, cannot move to draft")
+        return False
     try:
-        run("gh", "api", "graphql", "-f", f"query={TO_DRAFT}", "-f", f"id={pr['id']}")
+        run("gh", "api", "graphql", "-f", f"query={TO_DRAFT}", "-f", f"id={pr['id']}", token=token)
     except subprocess.CalledProcessError as e:
         print(f"could not move to draft: {e.stderr.strip()}")
         return False
