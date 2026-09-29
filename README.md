@@ -2351,7 +2351,7 @@ Monitor NVIDIA GPU usage, VRAM, temperature, power consumption and process usage
 
 #### [NVIDIA GPU Monitor](https://github.com/TEJASJONDHALE/dms-nvidia-gpu-monitor)
 
-Monitor NVIDIA GPU usage, VRAM, and temperature.
+Monitor NVIDIA GPU usage, VRAM, temperature, power and GPU processes.
 
 
 
@@ -2361,7 +2361,7 @@ Monitor NVIDIA GPU usage, VRAM, and temperature.
 - compositors: any
 - capabilities: dankbar-widget, monitoring
 - dependencies: nvidia-smi
-- distro: any
+- distro: arch
 
 
 
