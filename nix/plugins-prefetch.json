@@ -1361,14 +1361,15 @@
     "meta": {
       "author": "Bruno Cesar Rocha",
       "capabilities": [
-        "launcher"
+        "launcher",
+        "command-execution"
       ],
       "category": "utilities",
       "compositors": [
         "any"
       ],
       "dependencies": [],
-      "description": "A calculator plugin that evaluates mathematical expressions and copies results to clipboard",
+      "description": "A calculator plugin that evaluates mathematical expressions and copies results to clipboard, with optional qalc and numbat engines",
       "distro": [
         "any"
       ],
@@ -1376,7 +1377,7 @@
       "id": "calculator",
       "name": "Calculator",
       "repo": "https://github.com/rochacbruno/DankCalculator",
-      "requires_dms": ">=1.2.0",
+      "requires_dms": ">=1.4.0",
       "screenshot": "https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png",
       "version": "0.3.3"
     },
@@ -1913,12 +1914,12 @@
     "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "cliproxyQuota": {
-    "date": "2026-09-29T12:43:11Z",
+    "date": "2026-09-29T20:55:16Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-l7B7Xvlo2nmqkMUMPoptwSFT9umuNE6CsZNmNdzMvuo=",
+    "hash": "sha256-F2VXyXh8483Nd5aYaKe6cWMHIGmv2KYgUUpVGlXc0CE=",
     "leaveDotGit": false,
     "meta": {
       "author": "Spyros Psarras",
@@ -1941,12 +1942,12 @@
       "name": "CLIProxyAPI Quota",
       "repo": "https://github.com/SpyrosPsarras/dms-cliproxy-quota",
       "screenshot": "https://raw.githubusercontent.com/SpyrosPsarras/dms-cliproxy-quota/main/screenshot.png",
-      "version": "0.1.11"
+      "version": "0.1.12"
     },
-    "path": "/nix/store/ahgxx9lwnwbcfdwnbh8gpc781m20lmgd-dms-cliproxy-quota",
-    "rev": "ee3d68d42d4bcf45643c9611db5779c3153e4838",
+    "path": "/nix/store/hyi68c6pxwiq4lmpcg6s32kn7nkbq137-dms-cliproxy-quota",
+    "rev": "b4e29bdf9ed6058763e957ee85993887932cb100",
     "rootDir": "",
-    "sha256": "1smyrkf3arlkn614wd5fx7v568f1dn53w365j2m7knk8z5g7pc4p",
+    "sha256": "08fhviailmaaa4hadn5gd4h0fqvipakni64nfz6wvqvwg34mfr8p",
     "url": "https://github.com/SpyrosPsarras/dms-cliproxy-quota"
   },
   "codeIsland": {
