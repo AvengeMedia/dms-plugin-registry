@@ -6247,6 +6247,41 @@ Ketchup timer with break modal, sounds, and manual resume controls
 
 
 
+#### [DMS Keyboard Layout Search](https://github.com/korbash/dms-keyboard-layout-search)
+
+Find apps even when you type their names in another keyboard layout.
+
+<strong>requires DMS version</strong>: <em>>=1.6.2</em>
+
+- id: keyboardLayoutSearch
+- name: DMS Keyboard Layout Search
+- author: korbash
+- compositors: any
+- capabilities: daemon
+- dependencies: python3, libxkbcommon, xkeyboard-config, xkbcli
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [plugin](https://github.com/korbash/dms-keyboard-layout-search/tree/main/plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/korbash/dms-keyboard-layout-search/main/assets/keyboard-layout-search.png)
+
+</details>
+
+
+
+
+
 #### [DMS Nothing X](https://github.com/Bestello/dms-nothingx)
 
 Control center for Nothing and CMF audio devices
