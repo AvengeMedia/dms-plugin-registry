@@ -1,0 +1,14 @@
+{
+    "id": "rogControl",
+    "name": "ROG Control",
+    "capabilities": ["dankbar-widget", "control-center"],
+    "category": "system",
+    "repo": "https://github.com/lucianosrp/DmsRogControl",
+    "author": "lucianosrp",
+    "description": "Everything asusctl does for ASUS ROG laptops: Aura keyboard RGB with LED colour correction, Slash ledbar, platform profiles, CPU/GPU power-limit tuning, a fan-curve editor, charge limit, GPU MUX/Eco and firmware toggles, with a live illustration of your laptop. Talks to asusd directly over D-Bus.",
+    "dependencies": ["asusctl", "jq"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/lucianosrp/DmsRogControl/main/screenshot.png",
+    "requires_dms": ">=1.6.0"
+}
