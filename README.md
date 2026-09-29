@@ -4639,6 +4639,36 @@ Check and manage DNF and Flatpak package updates from the bar.
 
 
 
+#### [ROG Control](https://github.com/lucianosrp/DmsRogControl)
+
+Everything asusctl does for ASUS ROG laptops: Aura keyboard RGB with LED colour correction, Slash ledbar, platform profiles, CPU/GPU power-limit tuning, a fan-curve editor, charge limit, GPU MUX/Eco and firmware toggles, with a live illustration of your laptop. Talks to asusd directly over D-Bus.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: rogControl
+- name: ROG Control
+- author: lucianosrp
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: asusctl, jq
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/lucianosrp/DmsRogControl/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Scheduler Picker](https://github.com/SK-DEV-AI/dankSchedPicker)
 
 Switch CPU schedulers (sched-ext) and power profiles from the bar. Supports all 12 scx schedulers with descriptions and 5 power modes (Auto, Gaming, PowerSave, LowLatency, Server). Requires scx_loader.
