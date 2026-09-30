@@ -1757,12 +1757,12 @@
     "url": "https://github.com/bogdan-velicu/DankClaudeUsage"
   },
   "claudeUsageStats": {
-    "date": "2026-09-20T13:53:43+08:00",
+    "date": "2026-09-30T09:30:16+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-4smN5vaqYdwlO8QjSEkD3v/B4zLFw8SU6U0GWsBJocg=",
+    "hash": "sha256-jCywYA7Yi+iGQwtCtGkKvMz8yEQeTzTF2301Yn8/BjA=",
     "leaveDotGit": false,
     "meta": {
       "author": "HotcocoaCanary",
@@ -1786,10 +1786,10 @@
       "screenshot": "https://raw.githubusercontent.com/HotcocoaCanary/Canary-DMS-ClaudeUsageStats/main/screenshot.png",
       "version": "0.1.0"
     },
-    "path": "/nix/store/qb83xwph8h2mi4gpk103ra7djafa303d-Canary-DMS-ClaudeUsageStats",
-    "rev": "10e278365f535d2a3a1501d82abcd1a1d3a01d2b",
+    "path": "/nix/store/n82c1hdgz26l2adm758y49ba2gav9wpg-Canary-DMS-ClaudeUsageStats",
+    "rev": "fd9697d20aedf3fe36c6537b74d13f37d091c037",
     "rootDir": "",
-    "sha256": "1j519705l1jdx6ac9hy56biw3zyy0d4lh8y47cjxqqdayvk8vjg2",
+    "sha256": "0c067xzn4dbxvg2k8kqy8k4grk5w19lv8hhb8f3fi2yq1rhb0b4c",
     "url": "https://github.com/HotcocoaCanary/Canary-DMS-ClaudeUsageStats"
   },
   "clipShare": {
@@ -5501,12 +5501,12 @@
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dmsThemeSync": {
-    "date": "2026-09-29T18:58:44-06:00",
+    "date": "2026-09-29T20:35:33-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-21yaXk0jpKWPtlT71Ha5nfb2/PjPZ4U+Yr/EaEmeJeE=",
+    "hash": "sha256-WuOm/glVqv5JT7L4KzLUem5fMTy6BxtwEdcvpdGfEtY=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -5531,21 +5531,21 @@
       "name": "DMS Theme Sync",
       "repo": "https://github.com/arqueon/dms-theme-sync",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png",
-      "version": "0.12.3"
+      "version": "0.12.4"
     },
-    "path": "/nix/store/lq5m02bqg2qgwrn2zjn81nfnpmb5gjgv-dms-theme-sync",
-    "rev": "1d34da8c890ca75bf3be58a657e4f16b04b68709",
+    "path": "/nix/store/4x8gy92kwkkafsgrmpp3m0kdwjf0rg7s-dms-theme-sync",
+    "rev": "7b796902cf6e2b39d772594aaf63ae5b2911cb90",
     "rootDir": "",
-    "sha256": "1q95kr4nii5zc8z8arygz3ygdxlxp5vd9yslns7sb9139mg9lp6v",
+    "sha256": "1mhjkz8sabyp25q1n1xs7hqmyvksshr2py5j9x4zxajm17zadqss",
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
   "dmsVikunja": {
-    "date": "2026-09-29T18:29:01-06:00",
+    "date": "2026-09-29T20:41:39-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-b0JjJ9S0yk4Pvdr2OdfgZ8bjc5xZHNMSe6r2oSgZzM8=",
+    "hash": "sha256-HH9CiBYkQ25Zlr1zlQn7AHG1tYBi0gi+hHVjZpzsrwI=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -5581,12 +5581,12 @@
       "settings": "./Settings.qml",
       "startupCheck": "./StartupCheck.qml",
       "type": "composite",
-      "version": "0.2.2"
+      "version": "0.2.4"
     },
-    "path": "/nix/store/nh48b14pkjrnpmnj5pxykpkqhh23dsir-dms-vikunja",
-    "rev": "c83e86db1c0c9da316fb66f2b41333b6e87be8e7",
+    "path": "/nix/store/ymilchbda5wp20py4726jj4rqcr4xsn9-dms-vikunja",
+    "rev": "a829e0de5cfad2f4d2baa321b298c89341c419f8",
     "rootDir": "",
-    "sha256": "1kyc34la3xmagc9d672rkiry7ik7w3bkkxnspl7lxjmlshkn6hkg",
+    "sha256": "00mgxjf6cqvmhjz0ilk2h2svaw80zc4rawxxjrcnwhr42s444zqw",
     "url": "https://github.com/arqueon/dms-vikunja"
   },
   "dmsWhisper": {
@@ -5746,12 +5746,12 @@
     "url": "https://github.com/JDKamalakar/DMS-DNS_Switcher"
   },
   "dockerDashboard": {
-    "date": "2026-09-20T16:56:25+08:00",
+    "date": "2026-09-30T09:30:16+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-oc5B4ug4aKA1tw4qoH9swn7bJiND+hBUt9X3y7LVwLE=",
+    "hash": "sha256-9czXJubySJSQjTbubcbhIYxGNR9VeORAn7mC45E06Yk=",
     "leaveDotGit": false,
     "meta": {
       "author": "HotcocoaCanary",
@@ -5776,10 +5776,10 @@
       "screenshot": "https://raw.githubusercontent.com/HotcocoaCanary/Canary-DMS-DockerDashboard/main/screenshot.png",
       "version": "0.1.0"
     },
-    "path": "/nix/store/z76qrm1vj3c6hzqvz14mmy0jk6w11av0-Canary-DMS-DockerDashboard",
-    "rev": "6d4d4b6dcdeed5bd36128e9bf4b792858df75454",
+    "path": "/nix/store/wka9vd4fry4664wmyfmiqgmi1knql9rn-Canary-DMS-DockerDashboard",
+    "rev": "1dfeb29cf539cad5570933f9d224e4d4abccd8c1",
     "rootDir": "",
-    "sha256": "1cf0snrcpxymnxa11yj34ckdnzn2dizs0ahfnwss0s1qx3i43km1",
+    "sha256": "12g96j8y70mrkx0f8y2m3wsld311w736vvinin898j7jwqkdgk7m",
     "url": "https://github.com/HotcocoaCanary/Canary-DMS-DockerDashboard"
   },
   "dockerManager": {
@@ -10961,12 +10961,12 @@
     "url": "https://github.com/SakuraToErii/DmsScreenOff"
   },
   "screenRecorder": {
-    "date": "2026-09-29T18:29:01-06:00",
+    "date": "2026-09-29T20:41:51-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ojtvQkjnxbXR9mlPZOv/NpNPa9plXwnVmAt+Giaw4Fw=",
+    "hash": "sha256-Q0NgtSpP74Gpx5LJWslqcBuVZ2jrjpY+2Ae1sBId6Fs=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -10990,12 +10990,12 @@
       "name": "Screen Recorder",
       "repo": "https://github.com/arqueon/dms-screen-recorder",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png",
-      "version": "1.5.2"
+      "version": "1.5.3"
     },
-    "path": "/nix/store/3xzrflz6b6snxa41qd8dn0yvi5scnvy1-dms-screen-recorder",
-    "rev": "b3ff2698c6f2ab393f76c10c2582ca4dfbb3a37e",
+    "path": "/nix/store/dgcl4mzdic65dpkh8avg9dwpz1v0nyhj-dms-screen-recorder",
+    "rev": "1e25de9d16e63871d53b21127d31af026fa60cd6",
     "rootDir": "",
-    "sha256": "0p70n0k1lzhbk3ahjpv5v9mlz4rnzzmn8kv9yv8vbig79116yfx2",
+    "sha256": "0nz83l9b1d87v0z9d3pbd1kra6vhdb4mmjcjqylq3vsg5asn0hs3",
     "url": "https://github.com/arqueon/dms-screen-recorder"
   },
   "screenRecorderX": {
@@ -12095,12 +12095,12 @@
     "url": "https://github.com/cglavin50/dms-tailscale"
   },
   "tailscaleDashboard": {
-    "date": "2026-09-24T14:07:25+08:00",
+    "date": "2026-09-30T09:30:16+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-+4nWMZlWgGFc46o2srblu+5tdskmx99SJJnrezqeZSk=",
+    "hash": "sha256-UcVd4wxHVlrGZT0CWSRbVKvDh+8mPGt8Ppbhmp1jN2M=",
     "leaveDotGit": false,
     "meta": {
       "author": "HotcocoaCanary",
@@ -12125,10 +12125,10 @@
       "screenshot": "https://raw.githubusercontent.com/HotcocoaCanary/Canary-DMS-TailscaleDashboard/main/screenshot.png",
       "version": "0.1.0"
     },
-    "path": "/nix/store/fq7c24r9q8ridwcy0iixx7g32sb75ja8-Canary-DMS-TailscaleDashboard",
-    "rev": "5b2db8148f5bc977354ec81f970e36a8e3ca484b",
+    "path": "/nix/store/6whpd7c3bn95xww2lb997m4l9mxdbrpz-Canary-DMS-TailscaleDashboard",
+    "rev": "86ddef685ac1a539c65747c498aab83d2f5d37fd",
     "rootDir": "",
-    "sha256": "0ab5kqx7pswr4i9dzir6r5v6vvmvwnvb4dmawdf6302nk4qxd2gv",
+    "sha256": "0qrpcffrmqcn7ry6ng16xy3w7aslbcj5j0ixcp35lmj71kimviai",
     "url": "https://github.com/HotcocoaCanary/Canary-DMS-TailscaleDashboard"
   },
   "takeABreak": {
@@ -13184,12 +13184,12 @@
     "url": "https://github.com/sr-tream/dms-vscode-launcher"
   },
   "wallabag": {
-    "date": "2026-09-29T18:29:02-06:00",
+    "date": "2026-09-29T20:24:59-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-OLFqz2Lzhq9DmxZ4FPYG6PP4ug3aKebSo28eZkIWq00=",
+    "hash": "sha256-eJQcDI/oODBRwZ5FlR1xCMmlLerOStam+4H0g1c/R2I=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -13224,12 +13224,12 @@
       "settings": "./Settings.qml",
       "startupCheck": "./StartupCheck.qml",
       "type": "widget",
-      "version": "0.1.2"
+      "version": "0.1.3"
     },
-    "path": "/nix/store/6n8bl3dkv8p6lr5y0rhpq3rdraxgmjva-dms-wallabag",
-    "rev": "d2db6e959213e8356099c5e38b4af6e461ec56bb",
+    "path": "/nix/store/5p5zbfj84m27f840wpbg0rjcpnqnkfsf-dms-wallabag",
+    "rev": "ff69a337f503816c636d9b1177942d076a3130f7",
     "rootDir": "",
-    "sha256": "0kdb2r16c7kglg9fcafs1nxgiwz80vv18y0nkd1sz1pkcb7nmc9q",
+    "sha256": "0qj77xbq7x41zfkdcjnfx8nsbj88f4fraicyq58k0f78iw61r53q",
     "url": "https://github.com/arqueon/dms-wallabag"
   },
   "wallarchyDms": {
