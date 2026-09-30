@@ -11169,7 +11169,7 @@ Standalone volume mixer for your bar
 
 #### [VoxType Activity Overlay](https://github.com/agneswd/dms-voxtype-activity-overlay)
 
-Live microphone activity overlay while VoxType is recording. Shows a Cava audio visualizer pill and final transcript bubble.
+Live microphone activity overlay while VoxType is recording. Shows a Cava audio visualizer pill and final transcript bubble. Requires manual setup.sh, which installs the Cava config and edits VoxType's config.toml for transcript capture.
 
 
 
