@@ -3228,7 +3228,7 @@ dcal countdown and scrollable agenda with keyboard navigation, event copying, me
 - name: Dank Calendar Agenda
 - author: arqueon
 - compositors: any
-- capabilities: dankbar-widget
+- capabilities: dankbar-widget, ipc
 - dependencies: dcal, jq
 - distro: any
 
