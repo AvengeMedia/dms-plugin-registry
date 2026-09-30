@@ -3908,7 +3908,7 @@ Keep your screen awake and prevent idle sleep with a single click.
 
 DankBar widget for selecting Cardwire GPU modes and showing the currently active mode.
 
-
+<strong>requires DMS version</strong>: <em>>=1.6.2</em>
 
 - id: cardwireManager
 - name: Cardwire Manager
@@ -4243,7 +4243,7 @@ Manage display outputs (Single Display, Mirror, Extend).
 
 DankBar widget for selecting DMS output profiles.
 
-
+<strong>requires DMS version</strong>: <em>>=1.6.2</em>
 
 - id: displayProfileManager
 - name: Display Profile Manager
