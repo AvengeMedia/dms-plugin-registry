@@ -1216,7 +1216,7 @@ Identify the song playing around you straight from the DankBar, powered by SongR
 
 #### [AI Quotas](https://github.com/agneswd/dms-ai-quotas)
 
-Monitor Claude, Codex, OpenCode, Antigravity, DeepSeek, and Grok usage limits and balances in your bar.
+Monitor Claude, Codex, OpenCode, Antigravity, DeepSeek, OpenRouter, and Grok usage limits and balances in your bar. Only Antigravity requires secret-tool (libsecret).
 
 <strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
