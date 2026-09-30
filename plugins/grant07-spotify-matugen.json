@@ -1,0 +1,13 @@
+{
+  "id": "spotifyMatugen",
+  "name": "Spotify Matugen",
+  "capabilities": ["daemon"],
+  "category": "appearance",
+  "repo": "https://github.com/Grant07/dms-spotify-matugen",
+  "author": "Grant Mosha",
+  "description": "Lock DMS dynamic colors to Spotify album art while music is playing",
+  "dependencies": ["spotify", "matugen"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/Grant07/dms-spotify-matugen/main/assets/screenshot.png"
+}

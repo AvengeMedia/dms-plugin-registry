@@ -1,0 +1,14 @@
+{
+    "id": "controlD",
+    "name": "Control D",
+    "capabilities": ["daemon", "dankbar-widget"],
+    "category": "networking",
+    "repo": "https://github.com/clementpoiret/dms-controld",
+    "author": "clementpoiret",
+    "description": "Control and validate a Control D endpoint from DankBar",
+    "dependencies": ["nslookup"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/clementpoiret/dms-controld/main/docs/control-d-preview.png",
+    "requires_dms": ">=1.5.0"
+}

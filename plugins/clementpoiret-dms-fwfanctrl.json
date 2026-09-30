@@ -1,0 +1,13 @@
+{
+    "id": "fwFanctrl",
+    "name": "Framework Fan Control",
+    "capabilities": ["dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/clementpoiret/dms-fwfanctrl",
+    "author": "clementpoiret",
+    "description": "Monitor Framework Laptop fan status and switch fw-fanctrl strategies from DankBar",
+    "dependencies": ["fw-fanctrl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/clementpoiret/dms-fwfanctrl/main/docs/widget-preview.png"
+}

@@ -6,7 +6,7 @@
         "control-center"
     ],
     "category": "utilities",
-    "repo": "https://github.com/hthienloc/dms-screenkey",
+    "repo": "https://github.com/hthienloc/dms-plugins",
     "author": "Loc Huynh",
     "description": "An always-on-top keystroke and mouse click visualizer for tutorials.",
     "dependencies": [
@@ -20,5 +20,6 @@
         "any"
     ],
     "requires_dms": ">=1.5.0",
-    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-screenkey/main/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/screenkey/screenshot.png",
+    "path": "screenkey"
 }

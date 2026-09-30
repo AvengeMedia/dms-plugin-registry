@@ -1,45 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="484" height="240" viewBox="0 0 484 240">
+<svg xmlns="http://www.w3.org/2000/svg" width="564" height="240" viewBox="0 0 564 240">
   <g transform="translate(0, 0)">
-  <rect width="240" height="240" fill="#222226"/>
-  <rect x="8" y="8" width="224" height="224" rx="8" fill="#1d1d20"/>
-  <rect x="16" y="16" width="208" height="36" rx="6" fill="#222226"/>
-  <text x="28" y="40" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#ffffff">GNOME Adwaita Teal (dark)</text>
-  <rect x="16" y="60" width="208" height="72" rx="6" fill="#36363a"/>
-  <text x="28" y="82" font-family="system-ui, sans-serif" font-size="11" fill="#ffffff">Surface Text</text>
-  <text x="28" y="98" font-family="system-ui, sans-serif" font-size="10" fill="#5e5c64">Outline color</text>
-  <rect x="28" y="108" width="72" height="18" rx="9" fill="#2190a4"/>
-  <text x="64" y="120" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#ffffff">Primary</text>
-  <rect x="108" y="108" width="48" height="18" rx="4" fill="#7bdff4"/>
-  <rect x="16" y="140" width="100" height="52" rx="6" fill="#222226"/>
-  <rect x="24" y="148" width="84" height="36" rx="4" fill="#222226"/>
-  <text x="66" y="170" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#ffffff">Background</text>
-  <rect x="124" y="140" width="100" height="52" rx="6" fill="#222226"/>
-  <circle cx="148" cy="166" r="9" fill="#c01c28"/>
-  <circle cx="172" cy="166" r="9" fill="#cd9309"/>
-  <circle cx="196" cy="166" r="9" fill="#2190a4"/>
-  <rect x="16" y="200" width="208" height="24" rx="4" fill="#2190a4" opacity="0.15"/>
-  <text x="120" y="216" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#ffffff">Surface Tint Overlay</text>
+  <rect width="280" height="240" fill="#222226"/>
+
+  <rect width="280" height="26" fill="#222226"/>
+  <rect x="12" y="9" width="20" height="8" rx="4" fill="#2190a4"/>
+  <circle cx="40" cy="13" r="3" fill="#ffffff"/>
+  <circle cx="50" cy="13" r="3" fill="#ffffff"/>
+  <text x="140" y="17" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#2190a4">9:41</text>
+  <circle cx="238" cy="13" r="4" fill="#2190a4"/>
+  <circle cx="252" cy="13" r="4" fill="#cd9309"/>
+  <circle cx="266" cy="13" r="4" fill="#c01c28"/>
+
+  <rect x="14" y="38" width="252" height="190" rx="12" fill="#222226" stroke="#5e5c64" stroke-opacity="0.5"/>
+  <text x="28" y="61" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#ffffff">GNOME Adwaita Teal (dark)</text>
+  <text x="28" y="77" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" fill="#ffffff">Secondary text</text>
+
+  <rect x="26" y="87" width="228" height="50" rx="8" fill="#36363a"/>
+  <text x="38" y="105" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="500" fill="#ffffff">Nested card</text>
+  <text x="38" y="120" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#ffffff">Body text on an elevated surface</text>
+
+  <rect x="26" y="145" width="228" height="22" rx="6" fill="#1d1d20" stroke="#5e5c64" stroke-opacity="0.4"/>
+  <text x="38" y="160" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#ffffff">Search</text>
+
+  <rect x="26" y="175" width="78" height="22" rx="11" fill="#2190a4"/>
+  <text x="65" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" font-weight="600" text-anchor="middle" fill="#ffffff">Button</text>
+  <rect x="112" y="175" width="70" height="22" rx="11" fill="#2190a4" fill-opacity="0.15"/>
+  <text x="147" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" font-weight="500" text-anchor="middle" fill="#2190a4">Accent</text>
+  <rect x="190" y="175" width="64" height="22" rx="11" fill="#36363a"/>
+  <text x="222" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" text-anchor="middle" fill="#ffffff">Chip</text>
+
+  <circle cx="34" cy="212" r="7" fill="#2190a4"/>
+  <circle cx="54" cy="212" r="7" fill="#7bdff4"/>
+  <circle cx="74" cy="212" r="7" fill="#c01c28"/>
+  <circle cx="94" cy="212" r="7" fill="#cd9309"/>
+  <circle cx="114" cy="212" r="7" fill="#2190a4"/>
 </g>
-  <rect x="240" y="0" width="4" height="240" fill="#888"/>
-  <g transform="translate(244, 0)">
-  <rect width="240" height="240" fill="#f2f1ef"/>
-  <rect x="8" y="8" width="224" height="224" rx="8" fill="#ffffff"/>
-  <rect x="16" y="16" width="208" height="36" rx="6" fill="#f2f1ef"/>
-  <text x="28" y="40" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#1e1e1e">GNOME Adwaita Teal (light)</text>
-  <rect x="16" y="60" width="208" height="72" rx="6" fill="#fdfdfd"/>
-  <text x="28" y="82" font-family="system-ui, sans-serif" font-size="11" fill="#1e1e1e">Surface Text</text>
-  <text x="28" y="98" font-family="system-ui, sans-serif" font-size="10" fill="#aaa7a2">Outline color</text>
-  <rect x="28" y="108" width="72" height="18" rx="9" fill="#2190a4"/>
-  <text x="64" y="120" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#ffffff">Primary</text>
-  <rect x="108" y="108" width="48" height="18" rx="4" fill="#007184"/>
-  <rect x="16" y="140" width="100" height="52" rx="6" fill="#f2f1ef"/>
-  <rect x="24" y="148" width="84" height="36" rx="4" fill="#f2f1ef"/>
-  <text x="66" y="170" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#1e1e1e">Background</text>
-  <rect x="124" y="140" width="100" height="52" rx="6" fill="#f2f1ef"/>
-  <circle cx="148" cy="166" r="9" fill="#e01b24"/>
-  <circle cx="172" cy="166" r="9" fill="#e5a50a"/>
-  <circle cx="196" cy="166" r="9" fill="#2190a4"/>
-  <rect x="16" y="200" width="208" height="24" rx="4" fill="#2190a4" opacity="0.15"/>
-  <text x="120" y="216" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#1e1e1e">Surface Tint Overlay</text>
+  <rect x="280" y="0" width="4" height="240" fill="#888"/>
+  <g transform="translate(284, 0)">
+  <rect width="280" height="240" fill="#f2f1ef"/>
+
+  <rect width="280" height="26" fill="#f2f1ef"/>
+  <rect x="12" y="9" width="20" height="8" rx="4" fill="#2190a4"/>
+  <circle cx="40" cy="13" r="3" fill="#1e1e1e"/>
+  <circle cx="50" cy="13" r="3" fill="#1e1e1e"/>
+  <text x="140" y="17" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#2190a4">9:41</text>
+  <circle cx="238" cy="13" r="4" fill="#2190a4"/>
+  <circle cx="252" cy="13" r="4" fill="#e5a50a"/>
+  <circle cx="266" cy="13" r="4" fill="#e01b24"/>
+
+  <rect x="14" y="38" width="252" height="190" rx="12" fill="#f2f1ef" stroke="#aaa7a2" stroke-opacity="0.5"/>
+  <text x="28" y="61" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#1e1e1e">GNOME Adwaita Teal (light)</text>
+  <text x="28" y="77" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" fill="#1e1e1e">Secondary text</text>
+
+  <rect x="26" y="87" width="228" height="50" rx="8" fill="#fdfdfd"/>
+  <text x="38" y="105" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="500" fill="#1e1e1e">Nested card</text>
+  <text x="38" y="120" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#1e1e1e">Body text on an elevated surface</text>
+
+  <rect x="26" y="145" width="228" height="22" rx="6" fill="#ffffff" stroke="#aaa7a2" stroke-opacity="0.4"/>
+  <text x="38" y="160" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#1e1e1e">Search</text>
+
+  <rect x="26" y="175" width="78" height="22" rx="11" fill="#2190a4"/>
+  <text x="65" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" font-weight="600" text-anchor="middle" fill="#ffffff">Button</text>
+  <rect x="112" y="175" width="70" height="22" rx="11" fill="#2190a4" fill-opacity="0.15"/>
+  <text x="147" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" font-weight="500" text-anchor="middle" fill="#2190a4">Accent</text>
+  <rect x="190" y="175" width="64" height="22" rx="11" fill="#fdfdfd"/>
+  <text x="222" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" text-anchor="middle" fill="#1e1e1e">Chip</text>
+
+  <circle cx="34" cy="212" r="7" fill="#2190a4"/>
+  <circle cx="54" cy="212" r="7" fill="#007184"/>
+  <circle cx="74" cy="212" r="7" fill="#e01b24"/>
+  <circle cx="94" cy="212" r="7" fill="#e5a50a"/>
+  <circle cx="114" cy="212" r="7" fill="#2190a4"/>
 </g>
 </svg>

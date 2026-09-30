@@ -1,0 +1,20 @@
+{
+    "id": "dmsKetchup",
+    "name": "DMS Ketchup",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/virtualwolf-369/dms-ketchup",
+    "path": "DankPomodoroTimer",
+    "author": "Virtual Wolf 369",
+    "description": "Ketchup timer with break modal, sounds, and manual resume controls",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/virtualwolf-369/dms-ketchup/main/docs/screenshots/panel.png"
+}

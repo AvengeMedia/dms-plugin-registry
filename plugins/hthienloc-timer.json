@@ -1,13 +1,23 @@
 {
     "id": "timer",
     "name": "Timer",
-    "capabilities": ["dankbar-widget"],
+    "capabilities": [
+        "dankbar-widget"
+    ],
     "category": "utilities",
-    "repo": "https://github.com/hthienloc/dms-timer",
+    "repo": "https://github.com/hthienloc/dms-plugins",
     "author": "Loc Huynh",
     "description": "A countdown timer with notification support and audio alerts.",
-    "dependencies": ["libnotify", "pulseaudio"],
-    "compositors": ["any"],
-    "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-timer/master/screenshot.png"
+    "dependencies": [
+        "libnotify",
+        "pulseaudio"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/timer/screenshot.png",
+    "path": "timer"
 }

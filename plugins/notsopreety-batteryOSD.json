@@ -1,0 +1,13 @@
+{
+    "id": "batteryOSD",
+    "name": "Battery & Power OSD",
+    "capabilities": ["daemon"],
+    "category": "system",
+    "repo": "https://github.com/notsopreety/batteryOSD",
+    "author": "Samir Badaila",
+    "description": "Material YOU inspired On-Screen Display popup and liquid wave indicator for battery charging",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/notsopreety/batteryOSD/refs/heads/main/screenshot.png"
+}

@@ -1,0 +1,14 @@
+{
+    "id": "gamechatMix",
+    "name": "Game / Chat Mix",
+    "capabilities": ["dankbar-widget", "daemon", "audio"],
+    "category": "audio",
+    "repo": "https://github.com/Shochraos/game-chat-mix",
+    "path": "dms",
+    "author": "Shochraos",
+    "description": "Balance game audio against Discord/chat audio with a single slider, with the routing daemon built in",
+    "dependencies": ["pactl", "gawk", "flock"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Shochraos/game-chat-mix/main/assets/screenshot.png"
+}

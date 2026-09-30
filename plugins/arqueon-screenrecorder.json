@@ -2,12 +2,14 @@
     "id": "screenRecorder",
     "name": "Screen Recorder",
     "capabilities": [
-        "dankbar-widget"
+        "daemon",
+        "dankbar-widget",
+        "control-center"
     ],
     "category": "utilities",
     "repo": "https://github.com/arqueon/dms-screen-recorder",
     "author": "arqueon",
-    "description": "Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Supports IPC keybinds.",
+    "description": "Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Audio modes: system audio, microphone, both mixed, or both as separate tracks. IPC keybinds and Control Center toggle.",
     "dependencies": [
         "gpu-screen-recorder"
     ],
@@ -17,5 +19,6 @@
     "distro": [
         "any"
     ],
-    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png",
+    "version": "1.5.0"
 }

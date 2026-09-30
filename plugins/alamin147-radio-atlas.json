@@ -1,0 +1,13 @@
+{
+    "id": "radioAtlasLite",
+    "name": "Radio Atlas Lite",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/alamin147/RadioAtlasLite",
+    "author": "Al Amin",
+    "description": "Launch a lightweight interactive world radio atlas from DankBar.",
+    "dependencies": ["mpv"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/alamin147/RadioAtlasLite/blob/main/main/docs/screenshot.png"
+}

@@ -1,0 +1,25 @@
+{
+    "id": "audioFx",
+    "name": "AudioFX",
+    "capabilities": [
+        "daemon",
+        "control-center",
+        "desktop-widget"
+    ],
+    "category": "appearance",
+    "repo": "https://github.com/satoshoe-dev/dms-audiofx",
+    "author": "satoshoe",
+    "description": "Audio visualizer along a screen edge with eight styles, a glow that makes the bright spots of the wallpaper pulse to the music, and a round player disc desktop widget. By default cava only runs while something plays.",
+    "dependencies": [
+        "cava",
+        "python-numpy",
+        "python-pillow"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-audiofx/main/assets/screenshot.png"
+}

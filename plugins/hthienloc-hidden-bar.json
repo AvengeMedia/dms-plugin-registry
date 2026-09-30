@@ -1,13 +1,20 @@
 {
     "id": "hiddenBar",
     "name": "Hidden Bar",
-    "capabilities": ["dankbar-widget"],
+    "capabilities": [
+        "dankbar-widget"
+    ],
     "category": "utilities",
-    "repo": "https://github.com/hthienloc/dms-hidden-bar",
+    "repo": "https://github.com/hthienloc/dms-plugins",
     "author": "Loc Huynh",
     "description": "Hide/Show bar widgets with a click or hover",
     "dependencies": [],
-    "compositors": ["any"],
-    "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-hidden-bar/master/screenshot.png"
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/hiddenBar/screenshot.png",
+    "path": "hiddenBar"
 }

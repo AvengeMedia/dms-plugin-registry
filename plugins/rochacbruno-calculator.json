@@ -1,15 +1,15 @@
 {
     "id": "calculator",
     "name": "Calculator",
-    "capabilities": ["launcher"],
+    "capabilities": ["launcher", "command-execution"],
     "category": "utilities",
     "repo": "https://github.com/rochacbruno/DankCalculator",
     "author": "Bruno Cesar Rocha",
-    "description": "A calculator plugin that evaluates mathematical expressions and copies results to clipboard",
+    "description": "A calculator plugin that evaluates mathematical expressions and copies results to clipboard, with optional qalc and numbat engines",
     "dependencies": [],
     "compositors": ["any"],
     "featured": true,
     "distro": ["any"],
     "screenshot": "https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png",
-    "requires_dms": ">=1.2.0"
+    "requires_dms": ">=1.4.0"
 }

@@ -1,0 +1,13 @@
+{
+    "id": "wayfireWorkspace",
+    "name": "Wayfire Workspace",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/joyanhui/dms-ext-wayfire-workspace",
+    "author": "joyanhui",
+    "description": "Display Wayfire workspace switcher in the bar with active/occupied indicators and click-to-switch",
+    "dependencies": ["python3"],
+    "compositors": ["wayfire"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/joyanhui/dms-ext-wayfire-workspace/raw/main/screenshot.png"
+}
