@@ -4,7 +4,8 @@
     "capabilities": [
         "daemon",
         "dankbar-widget",
-        "control-center"
+        "control-center",
+        "ipc"
     ],
     "category": "utilities",
     "repo": "https://github.com/arqueon/dms-screen-recorder",
@@ -20,5 +21,6 @@
         "any"
     ],
     "screenshot": "https://raw.githubusercontent.com/arqueon/dms-screen-recorder/main/assets/screenshot.png",
-    "version": "1.5.2"
+    "version": "1.5.3",
+    "requires_dms": ">=1.2.0"
 }

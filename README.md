@@ -3653,7 +3653,7 @@ Manage Vikunja projects and tasks from DankBar with nested project and label vie
 - name: dms-vikunja
 - author: arqueon
 - compositors: any
-- capabilities: daemon, dankbar-widget, control-center, notifications, launcher
+- capabilities: daemon, dankbar-widget, control-center, notifications, launcher, ipc
 - dependencies: python3, secret-tool, notify-send
 - distro: any
 
@@ -10061,13 +10061,13 @@ Premium pill-shaped toolbar for quick screenshots and screen recording
 
 Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Audio modes: system audio, microphone, both mixed, or both as separate tracks. IPC keybinds and Control Center toggle.
 
-
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
 
 - id: screenRecorder
 - name: Screen Recorder
 - author: arqueon
 - compositors: any
-- capabilities: daemon, dankbar-widget, control-center
+- capabilities: daemon, dankbar-widget, control-center, ipc
 - dependencies: gpu-screen-recorder
 - distro: any
 
