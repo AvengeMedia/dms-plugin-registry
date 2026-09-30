@@ -11141,7 +11141,7 @@ On-screen keyboard overlay, toggled by IPC or an optional DankBar pill
 
 Standalone volume mixer for your bar
 
-
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: volumeMixer
 - name: Volume Mixer
