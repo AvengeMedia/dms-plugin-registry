@@ -144,9 +144,9 @@ A simple, customizable audio visualizer for your desktop
 
 #### [DMS Theme Sync](https://github.com/arqueon/dms-theme-sync)
 
-Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fontconfig and XWayland apps — theme, light/dark, fonts, sizes, icons and cursor, with optional Matugen-accent folder colors and Bibata-Material cursor variants.
+Auto-sync starts on first load: DMS appearance is applied to GTK, Qt, KDE and Fontconfig, the systemd user environment and environment.d, with include lines added to niri and Hyprland configs and a managed labwc environment block. Optional Matugen folder colors, cursor variants and pre-apply backups.
 
-
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: dmsThemeSync
 - name: DMS Theme Sync
@@ -938,9 +938,9 @@ Near-live market prices for currencies, stocks, and commodities with charts.
 
 #### [DMS Last.fm Scrobbler](https://github.com/arqueon/dms-scrobbler)
 
-Last.fm companion for the native DMS media player: scrobbling, love/unlove actions, profile links, scrobble progress, and an offline retry queue.
+Last.fm companion for DMS: scrobbling, love/unlove, profile links and an offline retry queue. Optional remote Now Playing polls Last.fm; optional artwork search sends track metadata to YouTube Music. An optional MPRIS bridge needs a C compiler, libsystemd and json-c headers.
 
-
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: lastfmScrobbler
 - name: DMS Last.fm Scrobbler
@@ -3220,7 +3220,7 @@ Quick-add tasks to the aven todo manager from DankLauncher. Pick a project from 
 
 #### [Dank Calendar Agenda](https://github.com/arqueon/dms-dankcalendar)
 
-Next-event countdown for dcal with a scrollable agenda popout grouped by day: click an event to open it in DankCalendar, + creates a new one, right click refreshes, middle click toggles the calendar window. Happening-now events in green, past ones dimmed.
+dcal countdown and scrollable agenda with keyboard navigation, event copying, meeting links and IPC shortcuts; opens events in DankCalendar and keeps the countdown width stable.
 
 
 
@@ -3228,7 +3228,7 @@ Next-event countdown for dcal with a scrollable agenda popout grouped by day: cl
 - name: Dank Calendar Agenda
 - author: arqueon
 - compositors: any
-- capabilities: dankbar-widget
+- capabilities: dankbar-widget, ipc
 - dependencies: dcal, jq
 - distro: any
 
@@ -3585,7 +3585,7 @@ CalDAV tasks in the bar via todoman: list, complete, and create todos with a pop
 
 #### [Wallabag](https://github.com/arqueon/dms-wallabag)
 
-Your Wallabag read-it-later queue in the DankBar: unread badge, entry list with source and excerpt, open links without closing the popout, archive/star/delete/re-fetch, multi-select batch actions, server-side search and quick-add. OAuth2 with secrets in the system keyring.
+Your Wallabag read-it-later queue in the DankBar: unread badge, entries and excerpts, batch actions, search and quick-add. OAuth2 secrets stay in the system keyring and reach curl through stdin. Optional thumbnails load directly from article hosts and are off by default.
 
 <strong>requires DMS version</strong>: <em>>=1.2.0</em>
 
@@ -3645,7 +3645,7 @@ A persistent ntfy review inbox for the DankBar with All and per-topic views, unr
 
 #### [dms-vikunja](https://github.com/arqueon/dms-vikunja)
 
-Manage Vikunja projects and tasks from DankBar with nested project and label views, due dates, priorities, attachments, and notifications.
+Manage Vikunja projects and tasks from DankBar with nested project and label views, due dates, priorities, attachments, notifications and a vt quick-add launcher.
 
 <strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
@@ -3653,7 +3653,7 @@ Manage Vikunja projects and tasks from DankBar with nested project and label vie
 - name: dms-vikunja
 - author: arqueon
 - compositors: any
-- capabilities: daemon, dankbar-widget, control-center, notifications
+- capabilities: daemon, dankbar-widget, control-center, notifications, launcher, ipc
 - dependencies: python3, secret-tool, notify-send
 - distro: any
 
@@ -6092,36 +6092,6 @@ AI desktop assistant powered by Claude Code. Floating chat panel for controlling
 
 
 
-#### [DMS Calendar](https://github.com/arqueon/dms-calendar)
-
-A comprehensive calendar with Evolution Data Server integration, ported from Noctalia.
-
-
-
-- id: dmsCalendar
-- name: DMS Calendar
-- author: arqueon
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: python3
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/arqueon/dms-calendar/main/assets/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [DMS Conky](https://github.com/suruibin/dms-conky)
 
 Classic Conky-style System Monitor + App Launcher
@@ -6365,36 +6335,6 @@ Create tmux sessions for your projects
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/leonardofranco01/dms-sessionizer/refs/heads/main/assets/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [DMS Whisper](https://github.com/arqueon/dms-whisper)
-
-Voice recognition using Whisper. Copies to clipboard and saves a local backup.
-
-
-
-- id: dmsWhisper
-- name: DMS Whisper
-- author: arqueon
-- compositors: niri, hyprland, sway, wayfire
-- capabilities: dankbar-widget, ipc
-- dependencies: alsa-utils, wl-clipboard, ffmpeg, libnotify
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/arqueon/dms-whisper/master/assets/screenshot.png)
 
 </details>
 
@@ -7051,7 +6991,7 @@ GPG/SSH passphrase entry with native DMS modal.
 
 The DankMaterialShell companion shipped with Dankmail: live unread status and quick triage powered by the same dmail daemon.
 
-
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
 
 - id: dankmailUnread
 - name: Dankmail Unread
@@ -10121,13 +10061,13 @@ Premium pill-shaped toolbar for quick screenshots and screen recording
 
 Start, stop, and configure screen captures with gpu-screen-recorder on any Wayland compositor. Audio modes: system audio, microphone, both mixed, or both as separate tracks. IPC keybinds and Control Center toggle.
 
-
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
 
 - id: screenRecorder
 - name: Screen Recorder
 - author: arqueon
 - compositors: any
-- capabilities: daemon, dankbar-widget, control-center
+- capabilities: daemon, dankbar-widget, control-center, ipc
 - dependencies: gpu-screen-recorder
 - distro: any
 

@@ -5097,42 +5097,6 @@
     "sha256": "00p33ha0yr87dxw9w30wfsd5v2q3qbcfx9j8b1ax5lqxk88kwqny",
     "url": "https://github.com/Francisdelca/dms-agent"
   },
-  "dmsCalendar": {
-    "date": "2026-09-29T18:06:30-06:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-ak4umzrSlwUHWgMYQUBOgsvO+68IVYUThdCmzRqsLfk=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "arqueon",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [
-        "python3"
-      ],
-      "description": "A comprehensive calendar with Evolution Data Server integration, ported from Noctalia.",
-      "distro": [
-        "any"
-      ],
-      "id": "dmsCalendar",
-      "name": "DMS Calendar",
-      "repo": "https://github.com/arqueon/dms-calendar",
-      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-calendar/main/assets/screenshot.png",
-      "version": "2.0.0"
-    },
-    "path": "/nix/store/7j391zrkbx10l1xwlb5isgmdq95gdbr2-dms-calendar",
-    "rev": "d77b6f1d8f80d79f1a68f5f5f9cbbfa5554e455b",
-    "rootDir": "",
-    "sha256": "1y9dmhdcv9nhhl9qam88mzxwxjw29r042603b83hb5yj7adjwkka",
-    "url": "https://github.com/arqueon/dms-calendar"
-  },
   "dmsDesktopCountdown": {
     "date": "2026-05-31T14:57:40-04:00",
     "deepClone": false,
@@ -5590,50 +5554,6 @@
     "rootDir": "",
     "sha256": "00mgxjf6cqvmhjz0ilk2h2svaw80zc4rawxxjrcnwhr42s444zqw",
     "url": "https://github.com/arqueon/dms-vikunja"
-  },
-  "dmsWhisper": {
-    "date": "2026-07-06T20:28:08-06:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-7AwaJZRjRaITDqTEjnpjWNOVWj5p1nAhwk2Q/wYJk94=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "arqueon",
-      "capabilities": [
-        "dankbar-widget",
-        "ipc"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "niri",
-        "hyprland",
-        "sway",
-        "wayfire"
-      ],
-      "dependencies": [
-        "alsa-utils",
-        "wl-clipboard",
-        "ffmpeg",
-        "libnotify"
-      ],
-      "description": "Voice recognition using Whisper. Copies to clipboard and saves a local backup.",
-      "distro": [
-        "any"
-      ],
-      "id": "dmsWhisper",
-      "name": "DMS Whisper",
-      "path": "",
-      "repo": "https://github.com/arqueon/dms-whisper",
-      "screenshot": "https://raw.githubusercontent.com/arqueon/dms-whisper/master/assets/screenshot.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/kvv47q9l0gkvvsp373wll5d4pzj29i5i-dms-whisper",
-    "rev": "b63b3f4bd8c11ebae6eef7ab7a07c8c792b27a3b",
-    "rootDir": "",
-    "sha256": "1plk143gz42dq8hp1mk97rd9blsqcdx8xi541q9s4ib3jhjil37c",
-    "url": "https://github.com/arqueon/dms-whisper"
   },
   "dmsconky": {
     "date": "2026-09-14T13:29:44+08:00",
