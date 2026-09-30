@@ -8,7 +8,7 @@
   "category": "monitoring",
   "repo": "https://github.com/agneswd/dms-ai-quotas",
   "author": "agneswd",
-  "description": "Monitor Claude, Codex, OpenCode, Antigravity, DeepSeek, OpenRouter, and Grok usage limits and balances in your bar. Antigravity requires secret-tool (libsecret).",
+  "description": "Monitor Claude, Codex, OpenCode, Antigravity, DeepSeek, OpenRouter, and Grok usage limits and balances in your bar. Only Antigravity requires secret-tool (libsecret).",
   "dependencies": [
     "curl",
     "jq"
