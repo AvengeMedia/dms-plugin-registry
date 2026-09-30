@@ -1,1 +1,13 @@
-{"id":"aiOverviewControl","name":"AiOverviewControl","capabilities":["dankbar-widget"],"category":"monitoring","repo":"https://github.com/bernardopg/AiOverviewControl","author":"Bernardo Gomes","description":"Quota, billing, authentication, and local usage telemetry for 40+ AI providers — Claude, Codex, Copilot, Gemini, Antigravity, OpenRouter, xAI, DeepSeek, Kimi, and more — from DankBar. Credentials are read from each provider's own CLI, auth files, or keyring and sent only to that provider's official API","dependencies":["bash","jq","curl","sqlite3","notify-send","flock","secret-tool"],"compositors":["any"],"distro":["any"],"screenshot":"https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png"}
+{
+    "id": "aiOverviewControl",
+    "name": "AiOverviewControl",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/bernardopg/AiOverviewControl",
+    "author": "Bernardo Gomes",
+    "description": "Quota, billing, authentication, and local usage telemetry for 40+ AI providers — Claude, Codex, Copilot, Gemini, Antigravity, OpenRouter, xAI, DeepSeek, Kimi, and more — from DankBar. Credentials are read from each provider's own CLI, auth files, or keyring and sent only to that provider's official API",
+    "dependencies": ["bash", "jq", "curl", "sqlite3", "notify-send", "flock", "secret-tool"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png"
+}
