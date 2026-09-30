@@ -10,7 +10,7 @@
     "repo": "https://github.com/arqueon/dms-theme-sync",
     "author": "arqueon",
     "description": "Auto-sync starts on first load: DMS appearance is applied to GTK, Qt, KDE and Fontconfig, the systemd user environment and environment.d, with include lines added to niri and Hyprland configs and a managed labwc environment block. Optional Matugen folder colors, cursor variants and pre-apply backups.",
-    "version": "0.12.3",
+    "version": "0.12.4",
     "requires_dms": ">=1.5.0",
     "dependencies": [
         "bash",
