@@ -7,6 +7,7 @@
     "path": "dms-plugin",
     "author": "arqueon",
     "description": "The DankMaterialShell companion shipped with Dankmail: live unread status and quick triage powered by the same dmail daemon.",
+    "requires_dms": ">=1.6.0",
     "dependencies": ["dmail"],
     "compositors": ["any"],
     "distro": ["any"],

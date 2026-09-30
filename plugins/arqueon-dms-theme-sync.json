@@ -9,7 +9,8 @@
     "category": "appearance",
     "repo": "https://github.com/arqueon/dms-theme-sync",
     "author": "arqueon",
-    "description": "Make DMS the source of truth for appearance and propagate it to GTK, Qt, KDE, Fontconfig and XWayland apps — theme, light/dark, fonts, sizes, icons and cursor, with optional Matugen-accent folder colors and Bibata-Material cursor variants.",
+    "description": "Auto-sync starts on first load: DMS appearance is applied to GTK, Qt, KDE and Fontconfig, the systemd user environment and environment.d, with include lines added to niri and Hyprland configs. Optional Matugen folder colors, cursor variants and pre-apply backups.",
+    "version": "0.12.1",
     "dependencies": [
         "bash",
         "dbus-send"
