@@ -146,7 +146,7 @@ A simple, customizable audio visualizer for your desktop
 
 Auto-sync starts on first load: DMS appearance is applied to GTK, Qt, KDE and Fontconfig, the systemd user environment and environment.d, with include lines added to niri and Hyprland configs and a managed labwc environment block. Optional Matugen folder colors, cursor variants and pre-apply backups.
 
-
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: dmsThemeSync
 - name: DMS Theme Sync
@@ -3585,7 +3585,7 @@ CalDAV tasks in the bar via todoman: list, complete, and create todos with a pop
 
 #### [Wallabag](https://github.com/arqueon/dms-wallabag)
 
-Your Wallabag read-it-later queue in the DankBar: unread badge, entry list with source and excerpt, open links without closing the popout, archive/star/delete/re-fetch, multi-select batch actions, server-side search and quick-add. OAuth2 with secrets in the system keyring.
+Your Wallabag read-it-later queue in the DankBar: unread badge, entries and excerpts, batch actions, search and quick-add. OAuth2 secrets stay in the system keyring and reach curl through stdin. Optional thumbnails load directly from article hosts and are off by default.
 
 <strong>requires DMS version</strong>: <em>>=1.2.0</em>
 
