@@ -118,6 +118,7 @@ If you prefer to hand-craft the full card image, there is a web generator at [`h
 - Ensure your repository has proper documentation
 - Test that your plugin works with the specified compositors and distros
 - Capture your screenshot in a representative state — popout open, real data visible — ideally on the default dank purple theme (see [Previews](#previews))
+- For clipboard operations, always prefer `dms cl` (`dms clipboard`) over `wl-copy` or `wl-clipboard`
 - **IMPORTANT**: The `id` and `name` fields in your registry JSON file **must exactly match** the corresponding fields in your plugin repository's `plugin.json` file
   - For regular plugins: Must match `{repo}/plugin.json`
   - For monorepo plugins: Must match `{repo}/{path}/plugin.json`
