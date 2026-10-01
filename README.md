@@ -1819,36 +1819,6 @@ Two progress rings for locally recorded Codex five-hour and weekly usage, with r
 
 
 
-#### [CodexBar](https://github.com/zakstam/dms-codexbar)
-
-Monitor AI provider usage quotas
-
-
-
-- id: codexBar
-- name: CodexBar
-- author: zak
-- compositors: niri, hyprland
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/zakstam/dms-codexbar/main/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Dank UPS Monitor](https://github.com/acmagn/DMS-UPS-Monitor)
 
 Real-time UPS status widget via NUT (upsc).
@@ -2082,36 +2052,6 @@ Display HamQSL solar-terrestrial and ham radio propagation data in DankBar with 
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/devnullvoid/dms-hamqsl-propagation/main/screenshot.svg)
-
-</details>
-
-
-
-
-
-#### [Hyprland Submap](https://github.com/mesteryui/DMS_HyprlandSubmap)
-
-Shows the current submap in Hyprland
-
-
-
-- id: hyprlandSubmap
-- name: Hyprland Submap
-- author: Mester
-- compositors: hyprland
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://github.com/mesteryui/DMS_HyprlandSubmap/blob/main/assets/hyprlandSubmapPassthroughExample.png?raw=true)
 
 </details>
 
@@ -4437,36 +4377,6 @@ A planetary Bluetooth manager: devices float in orbit around your machine, drag 
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png)
-
-</details>
-
-
-
-
-
-#### [Package Updates](https://github.com/rahulmysore23/dms-pkg-update)
-
-Check and manage DNF and Flatpak package updates from the bar.
-
-
-
-- id: pkgUpdate
-- name: Package Updates
-- author: rahulmysore23
-- compositors: niri, hyprland
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: fedora, any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/rahulmysore23/dms-pkg-update/main/screenshot.png)
 
 </details>
 
@@ -8105,36 +8015,6 @@ A lightweight launcher for browsing and copying kaomojis to the clipboard.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/kaomojiPicker/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [Keybinding Cheat Sheet](https://github.com/stvnwrgs/dms-keybindings-cheat-sheet)
-
-A desktop widget that parses your compositor's keybinding config and displays them as a live cheat sheet
-
-<strong>requires DMS version</strong>: <em>>=1.2.0</em>
-
-- id: keybindingCheatSheet
-- name: Keybinding Cheat Sheet
-- author: Steven Koehnke
-- compositors: hyprland, niri, sway, mangowc
-- capabilities: desktop-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/stvnwrgs/dms-keybindings-cheat-sheet/master/example-small.png)
 
 </details>
 
