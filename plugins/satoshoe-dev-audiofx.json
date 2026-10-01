@@ -21,5 +21,6 @@
     "distro": [
         "any"
     ],
-    "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-audiofx/main/assets/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-audiofx/main/assets/screenshot.png",
+    "requires_dms": ">=1.6.1"
 }
