@@ -13,7 +13,8 @@
         "mpv",
         "python3",
         "secret-tool",
-        "gnome-keyring"
+        "gnome-keyring",
+        "libnotify"
     ],
     "compositors": [
         "niri",
