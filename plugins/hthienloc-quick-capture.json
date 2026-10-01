@@ -3,8 +3,8 @@
     "name": "Quick Capture",
     "capabilities": [
         "daemon",
-        "dankbar-widget",
-        "control-center"
+        "control-center",
+        "dankbar-widget"
     ],
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-plugins",
@@ -12,12 +12,14 @@
     "description": "Screenshot annotation and screen recording plugin.",
     "requires_dms": ">=1.6.0",
     "dependencies": [
+        "gpu-screen-recorder",
+        "wf-recorder",
+        "ffmpeg",
         "imagemagick",
         "img2pdf",
         "tesseract",
         "zbar",
-        "gpu-screen-recorder",
-        "ffmpeg"
+        "curl"
     ],
     "compositors": [
         "any"
