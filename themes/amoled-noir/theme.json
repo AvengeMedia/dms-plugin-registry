@@ -46,18 +46,18 @@
         "name": "Paper",
         "light": {
           "secondary": "#595959",
-          "surface": "#FFFFFF",
+          "surface": "#FFFBF2",
           "surfaceText": "#111111",
-          "surfaceVariant": "#F0F0F0",
+          "surfaceVariant": "#F2ECDF",
           "surfaceVariantText": "#333333",
-          "background": "#F5F5F5",
+          "background": "#F7F2E6",
           "backgroundText": "#111111",
           "outline": "#8A8A8A",
-          "surfaceContainerLowest": "#FFFFFF",
-          "surfaceContainerLow": "#F8F8F8",
-          "surfaceContainer": "#F0F0F0",
-          "surfaceContainerHigh": "#E8E8E8",
-          "surfaceContainerHighest": "#E0E0E0",
+          "surfaceContainerLowest": "#FFFBF2",
+          "surfaceContainerLow": "#FAF5EB",
+          "surfaceContainer": "#F2ECDF",
+          "surfaceContainerHigh": "#EBE5D7",
+          "surfaceContainerHighest": "#E3DCCB",
           "error": "#B3261E",
           "warning": "#8A5A00",
           "info": "#0B62B8"
@@ -75,7 +75,7 @@
         "id": "red",
         "name": "Red",
         "noir": { "primary": "#FF5C5C", "primaryText": "#000000", "primaryContainer": "#3A1414", "surfaceTint": "#FF5C5C" },
-        "paper": { "primary": "#C62828", "primaryText": "#FFFFFF", "primaryContainer": "#FFDADA", "surfaceTint": "#C62828" }
+        "paper": { "primary": "#BD2424", "primaryText": "#FFFFFF", "primaryContainer": "#FFDADA", "surfaceTint": "#BD2424" }
       },
       {
         "id": "green",
