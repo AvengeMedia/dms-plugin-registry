@@ -3893,7 +3893,7 @@ Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
 
 Software & updates center: rich update cards with release notes, app store for system repos/Flathub/AppImage with ratings and reviews, installed-software management, firmware updates and an action log. Fedora first; Debian/Ubuntu and Arch experimental.
 
-<strong>requires DMS version</strong>: <em>>=1.5.0</em>
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
 
 - id: dankSoftwareDepot
 - name: Dank Software Depot
