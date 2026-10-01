@@ -86,7 +86,7 @@ Simple Chinese A-share stock market monitoring plugin
 
 Audio visualizer along a screen edge with eight styles, a glow that makes the bright spots of the wallpaper pulse to the music, and a round player disc desktop widget. By default cava only runs while something plays.
 
-
+<strong>requires DMS version</strong>: <em>>=1.6.1</em>
 
 - id: audioFx
 - name: AudioFX
@@ -451,7 +451,7 @@ Syncs your DankMaterialShell theme colors with RGB hardware via OpenRGB. Watches
 
 Save the look of the shell (theme, accent, light or dark, wallpaper, bars, frame, transparency, desktop widgets) as profiles and switch between them with an animated transition. The picker has four views, among them a carousel and a honeycomb grid.
 
-
+<strong>requires DMS version</strong>: <em>>=1.6.1</em>
 
 - id: dmsProfiles
 - name: Profiles
@@ -666,7 +666,7 @@ Dynamic weather art widget with responsive ASCII scenes, customizable stats, and
 
 Close and open animations for windows on niri. There are 13 kinds, among them ember, shatter, melt, glitch and tube off, or a random pick from a list you choose. Opening plays the kind backwards, and edges can glow in the accent color. Needs one include line in the niri config.
 
-
+<strong>requires DMS version</strong>: <em>>=1.6.1</em>
 
 - id: windowFx
 - name: Window FX
@@ -696,7 +696,7 @@ Close and open animations for windows on niri. There are 13 kinds, among them em
 
 Two wallpapers on top of each other: around the pointer the upper one has a soft hole that shows the picture underneath. Follows the pointer on the desktop, and a peek mode opens a round view above the windows.
 
-
+<strong>requires DMS version</strong>: <em>>=1.6.1</em>
 
 - id: xrayWallpaper
 - name: Xray Wallpaper
@@ -2466,16 +2466,16 @@ Track AI usage limits via opentracker CLI
 
 #### [OrangeDeck Bitcoin Dashboard](https://github.com/orangedeck-dev/dms-plugin)
 
-Live view of the Bitcoin mempool: the latest block in the middle, the mempool as a pile below, new transactions raining in from above. Feed, clock, miner, market and explorer views, from mempool.space, no node and no extra service needed.
+Live view of the Bitcoin mempool: the latest block in the middle, the mempool as a pile below, new transactions raining in from above. Feed, clock, miner, market and explorer views. Data comes from mempool.space or a mempool instance you set, the market view also from Binance, OKX and Bybit. Starts the optional OrangeDeck service if it is installed.
 
-
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: orangedeck
 - name: OrangeDeck Bitcoin Dashboard
 - author: satoshoe
 - compositors: any
 - capabilities: daemon, dankbar-widget, control-center, desktop-widget
-- dependencies: 
+- dependencies: qt6-websockets
 - distro: any
 
 
@@ -4568,7 +4568,7 @@ Turn off monitors from DankBar or Control Center.
 
 Session actions (lock, suspend, log out, reboot, power off, restart shell) in a slim strip that slides out of the DMS frame when you hover a screen edge. Actions that end the session need a click and hold.
 
-
+<strong>requires DMS version</strong>: <em>>=1.6.1</em>
 
 - id: sessionEdge
 - name: SessionEdge
