@@ -45,9 +45,6 @@ def main() -> int:
     parser.add_argument(
         "--dry-run", action="store_true", help="Show what would be removed"
     )
-    parser.add_argument(
-        "--yes", action="store_true", help="Skip the confirmation prompt"
-    )
     args = parser.parse_args()
 
     plugin_ids = set(args.plugin_ids)
@@ -70,11 +67,10 @@ def main() -> int:
     if args.dry_run:
         return 0
 
-    if not args.yes:
-        answer = input("Continue? [y/N] ").strip().lower()
-        if answer not in {"y", "yes"}:
-            print("Cancelled.")
-            return 0
+    answer = input("Continue? [y/N] ").strip().lower()
+    if answer not in {"y", "yes"}:
+        print("Cancelled.")
+        return 0
 
     for path in files:
         path.unlink()
