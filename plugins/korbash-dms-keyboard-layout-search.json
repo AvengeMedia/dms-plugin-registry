@@ -2,13 +2,14 @@
   "id": "keyboardLayoutSearch",
   "name": "DMS Keyboard Layout Search",
   "capabilities": [
-    "daemon"
+    "daemon",
+    "launcher"
   ],
   "category": "utilities",
   "repo": "https://github.com/korbash/dms-keyboard-layout-search",
   "path": "plugin",
   "author": "korbash",
-  "description": "Find apps even when you type their names in another keyboard layout.",
+  "description": "Search apps, settings and launcher sources across keyboard layouts.",
   "dependencies": [
     "python3",
     "libxkbcommon",
