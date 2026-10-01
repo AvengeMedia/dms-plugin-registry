@@ -7992,36 +7992,6 @@ A lightweight launcher for browsing and copying kaomojis to the clipboard.
 
 
 
-#### [Keybinding Cheat Sheet](https://github.com/stvnwrgs/dms-keybindings-cheat-sheet)
-
-A desktop widget that parses your compositor's keybinding config and displays them as a live cheat sheet
-
-<strong>requires DMS version</strong>: <em>>=1.2.0</em>
-
-- id: keybindingCheatSheet
-- name: Keybinding Cheat Sheet
-- author: Steven Koehnke
-- compositors: hyprland, niri, sway, mangowc
-- capabilities: desktop-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/stvnwrgs/dms-keybindings-cheat-sheet/master/example-small.png)
-
-</details>
-
-
-
-
-
 #### [Keystrokes](https://github.com/Tz-slayer/keystrokes)
 
 Shows every key you press as on-screen keycaps, with press counts and keystroke history. Ported from keyviz, for screencasts and tutorials.

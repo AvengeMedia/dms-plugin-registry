@@ -7160,44 +7160,6 @@
     "sha256": "0kmwljzin3x67xy4wdsyw17qqvqwf7bg6is90gjd97w1mp6kad8m",
     "url": "https://github.com/notsopreety/kbdBacklightOSD"
   },
-  "keybindingCheatSheet": {
-    "date": "2026-04-07T12:40:10+02:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-kK2LSdzNne/M3iBn7p3h5ZytqVoZLVyOczpokzFa+ew=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Steven Koehnke",
-      "capabilities": [
-        "desktop-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "hyprland",
-        "niri",
-        "sway",
-        "mangowc"
-      ],
-      "dependencies": [],
-      "description": "A desktop widget that parses your compositor's keybinding config and displays them as a live cheat sheet",
-      "distro": [
-        "any"
-      ],
-      "id": "keybindingCheatSheet",
-      "name": "Keybinding Cheat Sheet",
-      "repo": "https://github.com/stvnwrgs/dms-keybindings-cheat-sheet",
-      "requires_dms": ">=1.2.0",
-      "screenshot": "https://raw.githubusercontent.com/stvnwrgs/dms-keybindings-cheat-sheet/master/example-small.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/ivx7dh1kzmsc8ksrmhwq7pf7lyvmciam-dms-keybindings-cheat-sheet",
-    "rev": "65ce39ae417e3a08374d028b08fc18bdcb0ba046",
-    "rootDir": "",
-    "sha256": "1v7rb8qr6s1sff75qb8rbalsv775w6fywrr0vv6fz7fdvi4qpbch",
-    "url": "https://github.com/stvnwrgs/dms-keybindings-cheat-sheet"
-  },
   "keyboardLayoutSearch": {
     "date": "2026-09-27T07:48:49+03:00",
     "deepClone": false,
