@@ -2,7 +2,8 @@
     "id": "hiddenBar",
     "name": "Hidden Bar",
     "capabilities": [
-        "dankbar-widget"
+        "dankbar-widget",
+        "ipc"
     ],
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-plugins",
@@ -16,5 +17,6 @@
         "any"
     ],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/hiddenBar/screenshot.png",
-    "path": "hiddenBar"
+    "path": "hiddenBar",
+    "requires_dms": ">=1.5.0"
 }

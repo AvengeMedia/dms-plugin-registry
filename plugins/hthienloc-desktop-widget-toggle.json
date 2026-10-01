@@ -1,8 +1,8 @@
 {
     "id": "desktopWidgetToggle",
     "name": "Desktop Widget Toggle",
-    "type": "daemon",
     "capabilities": [
+        "daemon",
         "dankbar-widget",
         "ipc"
     ],
@@ -18,5 +18,6 @@
         "any"
     ],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/desktopWidgetToggle/screenshot.png",
-    "path": "desktopWidgetToggle"
+    "path": "desktopWidgetToggle",
+    "requires_dms": ">=1.5.0"
 }
