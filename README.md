@@ -9084,16 +9084,16 @@ Capture a note or task into today's daily note from anywhere, with a bar widget 
 
 #### [Obsidian Vault Search](https://github.com/kmf/dms-obsidian-search)
 
-Search notes in your Obsidian vaults by title, folder, and content directly from the DMS launcher
+Full-text search across your Obsidian vaults via the Obsidian CLI, directly from the DMS launcher
 
-
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: obsidianSearch
 - name: Obsidian Vault Search
 - author: kmf
 - compositors: any
 - capabilities: launcher
-- dependencies: xdg-open
+- dependencies: obsidian, xdg-open
 - distro: any
 
 
