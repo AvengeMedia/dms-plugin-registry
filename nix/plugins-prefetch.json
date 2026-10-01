@@ -2002,41 +2002,6 @@
     "sha256": "18pz9mbr81bh95n4xzzjf3wr9waqghqdp24yicr7r5hv4642jfi5",
     "url": "https://github.com/EchoSingh/codeforces-dms-plugin"
   },
-  "codexBar": {
-    "date": "2026-03-01T10:48:20+02:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-mh4hcMQPIRwb3uApLlK71z1tcABcQHqBxKzGDwBDa9A=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "zak",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "monitoring",
-      "compositors": [
-        "niri",
-        "hyprland"
-      ],
-      "dependencies": [],
-      "description": "Monitor AI provider usage quotas",
-      "distro": [
-        "any"
-      ],
-      "id": "codexBar",
-      "name": "CodexBar",
-      "repo": "https://github.com/zakstam/dms-codexbar",
-      "screenshot": "https://raw.githubusercontent.com/zakstam/dms-codexbar/main/screenshot.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/zrrql7x4dqs21fhaz79sz5gkv7m0l7dz-dms-codexbar",
-    "rev": "e6bde0e4ebfa38fedf26038314353e666eb286af",
-    "rootDir": "",
-    "sha256": "1l3b8c00zimcqj0plh2w01q6sgfppd92wag0vqdiq88gqiq227ls",
-    "url": "https://github.com/zakstam/dms-codexbar"
-  },
   "codexUsage": {
     "date": "2026-09-13T09:13:38+06:00",
     "deepClone": false,
@@ -4822,42 +4787,6 @@
     "sha256": "098711wd299i9af11l4jsi8jy3rsgmz33q5iwn9mxhdnr1p0c9ng",
     "url": "https://github.com/felri/display-manager-plugin-niri-dank-linux"
   },
-  "displayMirror": {
-    "date": "2025-11-09T22:50:54-05:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-JX3pDZ1F5Uu/rOdA4KMhcwH8a6gxsTZjwgcZxNV/Ngc=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "jfchenier",
-      "capabilities": [
-        "control-center"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "niri"
-      ],
-      "dependencies": [
-        "wl-mirror"
-      ],
-      "description": "Mirror niri displays using wl-mirror from the control center and bar",
-      "distro": [
-        "any"
-      ],
-      "id": "displayMirror",
-      "name": "Display Mirror",
-      "repo": "https://github.com/jfchenier/dms-display-mirror",
-      "screenshot": "https://github.com/jfchenier/dms-display-mirror/blob/main/assets/screenshot.png?raw=true",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/7q219hdhrsk771qhidks3f6zdxymxdqj-dms-display-mirror",
-    "rev": "92cd44c4fb67834bf71fdd78f83c29df5e0750b2",
-    "rootDir": "",
-    "sha256": "01rngzaw8687q9ikdc9im1mzq0bk46iy0h77mjzlpra5kl6yjz95",
-    "url": "https://github.com/jfchenier/dms-display-mirror"
-  },
   "displayOutput": {
     "date": "2026-02-27T09:38:31+07:00",
     "deepClone": false,
@@ -6908,41 +6837,6 @@
     "sha256": "1hsmj65a3iwsx2xl0bb227ly70iwym2y7sz45zym0rfsakknxd59",
     "url": "https://github.com/agussantos023/hyprSubmap"
   },
-  "hyprlandSubmap": {
-    "date": "2026-01-08T09:47:36+01:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-EJ8MCxnA/eZUccUf7EG6N8hPHblTXSlgXfxwLy/Jt8s=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Mester",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "monitoring",
-      "compositors": [
-        "hyprland"
-      ],
-      "dependencies": [],
-      "description": "Shows the current submap in Hyprland",
-      "distro": [
-        "any"
-      ],
-      "id": "hyprlandSubmap",
-      "name": "Hyprland Submap",
-      "path": "",
-      "repo": "https://github.com/mesteryui/DMS_HyprlandSubmap",
-      "screenshot": "https://github.com/mesteryui/DMS_HyprlandSubmap/blob/main/assets/hyprlandSubmapPassthroughExample.png?raw=true",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/qdrd0rfb0g014kn8rr9pg15b05ryfj2y-DMS_HyprlandSubmap",
-    "rev": "b9a289a8239ea8651876cc38aa936181b8e1d313",
-    "rootDir": "",
-    "sha256": "1jxpr4pjyw7wbmh2jpakp4flzj1pp90yq7y5f5afdzf0345hr7qh",
-    "url": "https://github.com/mesteryui/DMS_HyprlandSubmap"
-  },
   "hyprlandSubmapIndicator": {
     "date": "2026-09-06T16:40:41-04:00",
     "deepClone": false,
@@ -8972,43 +8866,6 @@
     "sha256": "1mq4lav6yp63hpd4j7pg3ij0c0m7scbmabwabxac63binncmcxjj",
     "url": "https://github.com/jdkamalakar/DMS-Niri_Display_Settings"
   },
-  "niriScreenshot": {
-    "date": "2026-02-19T22:00:20-05:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-JuT+TGHhNrRZXDfkHay+Dyvfp/VX3+92oMoZPHEmn1g=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "jfchenier",
-      "capabilities": [
-        "dankbar-widget",
-        "control-center"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "niri"
-      ],
-      "dependencies": [
-        "niri"
-      ],
-      "description": "Control Niri screenshot actions from the Control Center",
-      "distro": [
-        "any"
-      ],
-      "id": "niriScreenshot",
-      "name": "Niri Screenshot",
-      "repo": "https://github.com/jfchenier/dms-niri-screenshot",
-      "screenshot": "https://raw.githubusercontent.com/jfchenier/dms-niri-screenshot/main/assets/screenshot-control-center.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/41gsrqvyrf909m26d653q44r1i7rmvws-dms-niri-screenshot",
-    "rev": "90b633ff34945964e7b2bba3660f06e128f97e88",
-    "rootDir": "",
-    "sha256": "0n4z4rqkq6fal1vfzpspynkxyaqgpsn1vr1pbicv8dp1c56gxr16",
-    "url": "https://github.com/jfchenier/dms-niri-screenshot"
-  },
   "niriWindows": {
     "date": "2026-09-09T11:46:54+01:00",
     "deepClone": false,
@@ -9691,42 +9548,6 @@
     "rootDir": "",
     "sha256": "0h3xdni9rjz2w89yabrs3ggsb2m3lhc9ygspva4qrp78g47kfdls",
     "url": "https://github.com/gemb0-0/Personal-Dictionary"
-  },
-  "pkgUpdate": {
-    "date": "2026-05-16T22:25:37-04:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-c0d0urqMo/2O1sDTj48beiv3qWHRpFnBctc1PzKz6pw=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "rahulmysore23",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "system",
-      "compositors": [
-        "niri",
-        "hyprland"
-      ],
-      "dependencies": [],
-      "description": "Check and manage DNF and Flatpak package updates from the bar.",
-      "distro": [
-        "fedora",
-        "any"
-      ],
-      "id": "pkgUpdate",
-      "name": "Package Updates",
-      "repo": "https://github.com/rahulmysore23/dms-pkg-update",
-      "screenshot": "https://raw.githubusercontent.com/rahulmysore23/dms-pkg-update/main/screenshot.png",
-      "version": "1.0.5"
-    },
-    "path": "/nix/store/0bwgwr83662vrdsddrqakdaawf3lns4w-dms-pkg-update",
-    "rev": "a17dd21f6f72582ede70646db9d0eefc302d05bc",
-    "rootDir": "",
-    "sha256": "177ancr3ydfpfb0mk96ic6lzfavs3f7qzly0ss7gv8wcpax78ivk",
-    "url": "https://github.com/rahulmysore23/dms-pkg-update"
   },
   "pokeDash": {
     "date": "2026-08-02T21:09:34+05:30",

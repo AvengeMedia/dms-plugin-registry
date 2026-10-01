@@ -1819,36 +1819,6 @@ Two progress rings for locally recorded Codex five-hour and weekly usage, with r
 
 
 
-#### [CodexBar](https://github.com/zakstam/dms-codexbar)
-
-Monitor AI provider usage quotas
-
-
-
-- id: codexBar
-- name: CodexBar
-- author: zak
-- compositors: niri, hyprland
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/zakstam/dms-codexbar/main/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Dank UPS Monitor](https://github.com/acmagn/DMS-UPS-Monitor)
 
 Real-time UPS status widget via NUT (upsc).
@@ -2082,36 +2052,6 @@ Display HamQSL solar-terrestrial and ham radio propagation data in DankBar with 
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/devnullvoid/dms-hamqsl-propagation/main/screenshot.svg)
-
-</details>
-
-
-
-
-
-#### [Hyprland Submap](https://github.com/mesteryui/DMS_HyprlandSubmap)
-
-Shows the current submap in Hyprland
-
-
-
-- id: hyprlandSubmap
-- name: Hyprland Submap
-- author: Mester
-- compositors: hyprland
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://github.com/mesteryui/DMS_HyprlandSubmap/blob/main/assets/hyprlandSubmapPassthroughExample.png?raw=true)
 
 </details>
 
@@ -4437,36 +4377,6 @@ A planetary Bluetooth manager: devices float in orbit around your machine, drag 
 <summary>Screenshot</summary>
 
 ![screenshot](https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png)
-
-</details>
-
-
-
-
-
-#### [Package Updates](https://github.com/rahulmysore23/dms-pkg-update)
-
-Check and manage DNF and Flatpak package updates from the bar.
-
-
-
-- id: pkgUpdate
-- name: Package Updates
-- author: rahulmysore23
-- compositors: niri, hyprland
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: fedora, any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/rahulmysore23/dms-pkg-update/main/screenshot.png)
 
 </details>
 
@@ -6977,36 +6887,6 @@ Encoders, Decoders, Formatters and Converters for Developers
 
 
 
-#### [Display Mirror](https://github.com/jfchenier/dms-display-mirror)
-
-Mirror niri displays using wl-mirror from the control center and bar
-
-
-
-- id: displayMirror
-- name: Display Mirror
-- author: jfchenier
-- compositors: niri
-- capabilities: control-center
-- dependencies: wl-mirror
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://github.com/jfchenier/dms-display-mirror/blob/main/assets/screenshot.png?raw=true)
-
-</details>
-
-
-
-
-
 #### [Display Profile](https://github.com/EienWolf/dms-displayprofile)
 
 Switch between saved Hyprland display profiles from a keyboard-driven modal.
@@ -8890,36 +8770,6 @@ Quickly toggle and configure display outputs in the Niri Wayland compositor
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-Niri_Display_Settings/refs/heads/main/assets/Full-Screen_UI.png)
-
-</details>
-
-
-
-
-
-#### [Niri Screenshot](https://github.com/jfchenier/dms-niri-screenshot)
-
-Control Niri screenshot actions from the Control Center
-
-
-
-- id: niriScreenshot
-- name: Niri Screenshot
-- author: jfchenier
-- compositors: niri
-- capabilities: dankbar-widget, control-center
-- dependencies: niri
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/jfchenier/dms-niri-screenshot/main/assets/screenshot-control-center.png)
 
 </details>
 
