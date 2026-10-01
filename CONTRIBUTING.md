@@ -118,12 +118,44 @@ If you prefer to hand-craft the full card image, there is a web generator at [`h
 - Ensure your repository has proper documentation
 - Test that your plugin works with the specified compositors and distros
 - Capture your screenshot in a representative state — popout open, real data visible — ideally on the default dank purple theme (see [Previews](#previews))
-- For clipboard operations, always prefer `dms cl` (the `dms clipboard` alias) over `wl-copy`/`wl-paste` (from `wl-clipboard`)
+- **Prefer Built-in DMS Utilities**: Do not declare external dependencies for capabilities that DMS already provides natively. See [Built-in Alternatives](#built-in-alternatives) below.
 - **IMPORTANT**: The `id` and `name` fields in your registry JSON file **must exactly match** the corresponding fields in your plugin repository's `plugin.json` file
   - For regular plugins: Must match `{repo}/plugin.json`
   - For monorepo plugins: Must match `{repo}/{path}/plugin.json`
 - **IMPORTANT**: The `id` field must be in camelCase format (starts with lowercase, only letters/digits)
 - **Avoid duplicate plugins**: Do not submit plugins that duplicate existing ones unless the original is unmaintained (maintainer unresponsive to issues/PRs for over 30 days) or yours offers major improvements/better design. Contribute upstream first whenever possible; if submitting a successor, link your upstream issue/PR in the submission
+
+### Built-in Alternatives
+
+To keep plugins lightweight and minimize external package requirements, always prefer DMS built-in CLI commands and QML services over external packages:
+
+#### 1. CLI Replacements (`dms <command>`)
+
+| Purpose | External Package | DMS Built-in CLI | Advantage |
+| :--- | :--- | :--- | :--- |
+| **Clipboard** | `wl-clipboard` (`wl-copy`, `wl-paste`), `xclip` | `dms cl copy <text>`, `dms cl paste` | Works uniformly across compositors, no `wl-clipboard` dependency needed |
+| **Notifications** | `libnotify` (`notify-send`) | `dms notify "<title>" "<message>"` | Integrates with DMS notification center, supports `--file` and action buttons |
+| **Screenshots** | `grim`, `slurp`, `grimblast`, `flameshot` | `dms screenshot [region\|full\|all]` | Native Wayland capture with region selector |
+| **HTTP Downloads** | `curl`, `wget` (basic file/image fetch) | `dms dl <url> -o <path>` | Built-in downloader, avoids requiring `curl` for basic requests |
+| **Open File / URL** | `xdg-open`, `gio open` | `dms open <url\|path>` | Uses DMS application picker and browser selection |
+| **QR Codes** | `qrencode` | `dms qr "<text>"` | Built-in encoder; supports terminal display or PNG output via stdout |
+| **Trash Management** | `trash-cli`, `rm` | `dms trash [put\|list\|restore\|empty]` | Conforms to XDG Trash Spec 1.0 safely without shell rm |
+| **Brightness Control**| `brightnessctl` | `dms brightness <percent>` | Direct hardware brightness control |
+| **Display Query** | `wlr-randr`, `xrandr` | `dms randr` | Returns output metadata in structured JSON |
+
+#### 2. In-Process QML Services (Avoid Spawning Shells)
+
+When writing QML, prefer native DMS services over spawning shell processes via `Proc.runCommand`:
+
+| Capability | Shell Command to Avoid | QML API to Use |
+| :--- | :--- | :--- |
+| **Audio Volume & Mute** | `pactl`, `wpctl`, `amixer` | `AudioService` (`defaultSink.volume`, `defaultSink.muted`, `setVolume`, `toggleMute`) |
+| **Network & VPN** | `nmcli`, `ip route` | `NetworkService` (`activeVpn`, `vpnConnections`, `toggleVpn`) |
+| **Bluetooth** | `bluetoothctl` | `BluetoothService` (`devices`, `toggleDevice`, `adapterState`) |
+| **Do Not Disturb & Power** | `loginctl`, `systemctl suspend`, `swaylock` | `SessionData.setDoNotDisturb(...)`, `SessionService` |
+| **Output / Display Events**| Polling `niri msg outputs` or `hyprctl monitors` | `NiriService.outputs` or `CompositorService.screens` reactive bindings |
+| **State Persistence** | `sh -c 'printf ... > file'` | `PluginService.loadPluginState()` / `savePluginState()` or `Quickshell.Io.FileView` |
+| **Process Control** | `killall -SIG...`, `pkill` (`psmisc`) | `Quickshell.Io.Process.signal(signum)` on the process instance |
 
 ## Plugin Translations
 
