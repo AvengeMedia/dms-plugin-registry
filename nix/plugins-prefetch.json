@@ -4787,6 +4787,42 @@
     "sha256": "098711wd299i9af11l4jsi8jy3rsgmz33q5iwn9mxhdnr1p0c9ng",
     "url": "https://github.com/felri/display-manager-plugin-niri-dank-linux"
   },
+  "displayMirror": {
+    "date": "2025-11-09T22:50:54-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-JX3pDZ1F5Uu/rOdA4KMhcwH8a6gxsTZjwgcZxNV/Ngc=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "jfchenier",
+      "capabilities": [
+        "control-center"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "wl-mirror"
+      ],
+      "description": "Mirror niri displays using wl-mirror from the control center and bar",
+      "distro": [
+        "any"
+      ],
+      "id": "displayMirror",
+      "name": "Display Mirror",
+      "repo": "https://github.com/jfchenier/dms-display-mirror",
+      "screenshot": "https://github.com/jfchenier/dms-display-mirror/blob/main/assets/screenshot.png?raw=true",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/7q219hdhrsk771qhidks3f6zdxymxdqj-dms-display-mirror",
+    "rev": "92cd44c4fb67834bf71fdd78f83c29df5e0750b2",
+    "rootDir": "",
+    "sha256": "01rngzaw8687q9ikdc9im1mzq0bk46iy0h77mjzlpra5kl6yjz95",
+    "url": "https://github.com/jfchenier/dms-display-mirror"
+  },
   "displayOutput": {
     "date": "2026-02-27T09:38:31+07:00",
     "deepClone": false,
@@ -8827,6 +8863,43 @@
     "rootDir": "",
     "sha256": "1mq4lav6yp63hpd4j7pg3ij0c0m7scbmabwabxac63binncmcxjj",
     "url": "https://github.com/jdkamalakar/DMS-Niri_Display_Settings"
+  },
+  "niriScreenshot": {
+    "date": "2026-02-19T22:00:20-05:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-JuT+TGHhNrRZXDfkHay+Dyvfp/VX3+92oMoZPHEmn1g=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "jfchenier",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "niri"
+      ],
+      "description": "Control Niri screenshot actions from the Control Center",
+      "distro": [
+        "any"
+      ],
+      "id": "niriScreenshot",
+      "name": "Niri Screenshot",
+      "repo": "https://github.com/jfchenier/dms-niri-screenshot",
+      "screenshot": "https://raw.githubusercontent.com/jfchenier/dms-niri-screenshot/main/assets/screenshot-control-center.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/41gsrqvyrf909m26d653q44r1i7rmvws-dms-niri-screenshot",
+    "rev": "90b633ff34945964e7b2bba3660f06e128f97e88",
+    "rootDir": "",
+    "sha256": "0n4z4rqkq6fal1vfzpspynkxyaqgpsn1vr1pbicv8dp1c56gxr16",
+    "url": "https://github.com/jfchenier/dms-niri-screenshot"
   },
   "niriWindows": {
     "date": "2026-09-09T11:46:54+01:00",

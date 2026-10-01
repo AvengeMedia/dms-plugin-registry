@@ -6887,6 +6887,36 @@ Encoders, Decoders, Formatters and Converters for Developers
 
 
 
+#### [Display Mirror](https://github.com/jfchenier/dms-display-mirror)
+
+Mirror niri displays using wl-mirror from the control center and bar
+
+
+
+- id: displayMirror
+- name: Display Mirror
+- author: jfchenier
+- compositors: niri
+- capabilities: control-center
+- dependencies: wl-mirror
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://github.com/jfchenier/dms-display-mirror/blob/main/assets/screenshot.png?raw=true)
+
+</details>
+
+
+
+
+
 #### [Display Profile](https://github.com/EienWolf/dms-displayprofile)
 
 Switch between saved Hyprland display profiles from a keyboard-driven modal.
@@ -8740,6 +8770,36 @@ Quickly toggle and configure display outputs in the Niri Wayland compositor
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/JDKamalakar/DMS-Niri_Display_Settings/refs/heads/main/assets/Full-Screen_UI.png)
+
+</details>
+
+
+
+
+
+#### [Niri Screenshot](https://github.com/jfchenier/dms-niri-screenshot)
+
+Control Niri screenshot actions from the Control Center
+
+
+
+- id: niriScreenshot
+- name: Niri Screenshot
+- author: jfchenier
+- compositors: niri
+- capabilities: dankbar-widget, control-center
+- dependencies: niri
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/jfchenier/dms-niri-screenshot/main/assets/screenshot-control-center.png)
 
 </details>
 
