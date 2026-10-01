@@ -11213,7 +11213,7 @@ Multiple timezones clock for DankBar
 - author: Bruno Cesar Rocha
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: moment-js
+- dependencies: 
 - distro: any
 
 
