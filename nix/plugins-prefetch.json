@@ -570,43 +570,6 @@
     "sha256": "0f53icndvgqy1jmqs6y0lcycnz47m3ihg58a16lyxlkwypn0xkg2",
     "url": "https://github.com/FeikoWielsma/dms-antigravity-cli"
   },
-  "asusControlCenter": {
-    "date": "2026-05-15T21:08:51+05:30",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-2cPnpuRCasGV519Olof26cbzWShkTE6utHh+NKMrh00=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "pseudofractal",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "system",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [
-        "asusctl",
-        "supergfxctl"
-      ],
-      "description": "Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.",
-      "distro": [
-        "any"
-      ],
-      "id": "asusControlCenter",
-      "name": "ASUS Control Center",
-      "repo": "https://github.com/pseudofractal/AsusControl",
-      "screenshot": "https://raw.githubusercontent.com/pseudofractal/AsusControl/main/assets/popup.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/8r73zaf3sp6lpkl4zdymjjay5zcb6yr3-AsusControl",
-    "rev": "9b0c4813cb5b6734da5fb4b5d015466f40538a6b",
-    "rootDir": "",
-    "sha256": "0kc75fik8zkqnjp4wk3451cz7ip9ys3rckjzwyaw2sj2wjkfghyr",
-    "url": "https://github.com/pseudofractal/AsusControl"
-  },
   "attentionBadges": {
     "date": "2026-08-18T20:56:13+02:00",
     "deepClone": false,
@@ -1265,41 +1228,6 @@
       "repo": "https://github.com/hthienloc/dms-plugins",
       "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/breathing/screenshot.png",
       "version": "2.0.1"
-    },
-    "path": "/nix/store/lf3xasf7280yyhix2lqsy3np6afbmvrp-dms-plugins",
-    "rev": "35b0d1f1e732019c6509d3508c25a083734c1eb9",
-    "rootDir": "",
-    "sha256": "08nfsj6xzq1sr674rn932xz2i37wx9i5zq9rwld9awrw7r5fmnhz",
-    "url": "https://github.com/hthienloc/dms-plugins"
-  },
-  "caffeine": {
-    "date": "2026-09-30T21:42:31+07:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-H9rqSj48c5Ua5TnhX2Lq/Iwofhcj2UyOyTrg343UziI=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Loc Huynh",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "system",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [],
-      "description": "Keep your screen awake and prevent idle sleep with a single click.",
-      "distro": [
-        "any"
-      ],
-      "id": "caffeine",
-      "name": "Caffeine",
-      "path": "caffeine",
-      "repo": "https://github.com/hthienloc/dms-plugins",
-      "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/caffeine/screenshot.png",
-      "version": "2.2.2"
     },
     "path": "/nix/store/lf3xasf7280yyhix2lqsy3np6afbmvrp-dms-plugins",
     "rev": "35b0d1f1e732019c6509d3508c25a083734c1eb9",
@@ -5134,43 +5062,6 @@
     "sha256": "02abfnjkw1imsk6fjl9qdbc3ibnf40bqv5l74zmx552f03w8nlpy",
     "url": "https://github.com/nfoert/dms-desktop-countdown"
   },
-  "dmsFrameworkBattery": {
-    "date": "2026-05-30T17:30:52-04:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-gFH78wy20jtqRtv1nIYtsHmeImA7bbvsjfsRQkHgAXU=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "nfoert",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "system",
-      "compositors": [
-        "niri",
-        "hyprland"
-      ],
-      "dependencies": [
-        "ectool"
-      ],
-      "description": "Dank Material Shell battery widget, with support for changing the charge limit on Framework laptops",
-      "distro": [
-        "any"
-      ],
-      "id": "dmsFrameworkBattery",
-      "name": "DMS Framework Battery",
-      "repo": "https://github.com/nfoert/dms-framework-battery",
-      "screenshot": "https://github.com/nfoert/dms-framework-battery/blob/main/repo/images/image.png?raw=true",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/9y25l3g5vw0aan870zbb4jpz8v74991m-dms-framework-battery",
-    "rev": "38fb6a8570e5f291f3dca4a3f130c2fdfdf90fac",
-    "rootDir": "",
-    "sha256": "0x81w10l44gvipnbnv9vc0i9wydh5n39rxfv8rm3plmn1krznlc0",
-    "url": "https://github.com/nfoert/dms-framework-battery"
-  },
   "dmsJira": {
     "date": "2026-05-11T15:11:57+02:00",
     "deepClone": false,
@@ -5207,41 +5098,6 @@
     "rootDir": "",
     "sha256": "0abli0fp42hn9d3cjvgckrf3jj1aikfzkwkxxa0c4fl5lq1r9lzz",
     "url": "https://github.com/Klievan/dms-jira"
-  },
-  "dmsKetchup": {
-    "date": "2026-08-02T00:16:56-05:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-NNMuaLs7v81BZugpriANm5kE2NCaU2lTFLzyJt98kLI=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Virtual Wolf 369",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [],
-      "description": "Ketchup timer with break modal, sounds, and manual resume controls",
-      "distro": [
-        "any"
-      ],
-      "id": "dmsKetchup",
-      "name": "DMS Ketchup",
-      "path": "DankPomodoroTimer",
-      "repo": "https://github.com/virtualwolf-369/dms-ketchup",
-      "screenshot": "https://raw.githubusercontent.com/virtualwolf-369/dms-ketchup/main/docs/screenshots/panel.png",
-      "version": "1.2.0"
-    },
-    "path": "/nix/store/lgb796zcnc4659qg7j48fdr7b884fs0p-dms-ketchup",
-    "rev": "6f9f5c01924d1abd4a092052277d994043159db0",
-    "rootDir": "",
-    "sha256": "1clhgkgjdwmw2i9njlwss3c096cv1lhawag8cr0wvgrvpdl2xlrl",
-    "url": "https://github.com/virtualwolf-369/dms-ketchup"
   },
   "dmsLenovoBatterySettings": {
     "date": "2026-06-28T17:51:02+02:00",
@@ -6398,47 +6254,6 @@
     "rootDir": "",
     "sha256": "0kgi29pfv2n5g4i1dzdfc56fhywyjagx26mn90svddm49cjyakrm",
     "url": "https://github.com/arqueon/dms-gaze-auth"
-  },
-  "githubHeatmap": {
-    "date": "2026-03-04T15:59:24-08:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-nMk9Ab++JFJ2vwDaWSdFFLDWVVPiLcqPDjb0fY/xKoc=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Deppes",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "monitoring",
-      "compositors": [
-        "niri"
-      ],
-      "dependencies": [
-        "curl",
-        "jq",
-        "fish",
-        "libnotify",
-        "xdg-utils"
-      ],
-      "description": "Display weekly GitHub contribution heatmap with color-coded activity levels",
-      "distro": [
-        "arch"
-      ],
-      "id": "githubHeatmap",
-      "name": "GitHub Heatmap",
-      "path": "GitHubHeatMap",
-      "repo": "https://github.com/boutabong/dms-plugins",
-      "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/GitHubHeatMap-popout.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/rn1qbmh1fm3nnxyhdn7jh7qdcw0a8ydk-dms-plugins",
-    "rev": "6ec6381e0d80f07f8d7b902896e98c6ad8658017",
-    "rootDir": "",
-    "sha256": "11ray67pvx1n1s7wlbg2adaxdc0l8lkmknh0pxv5495ypw0kvjcw",
-    "url": "https://github.com/boutabong/dms-plugins"
   },
   "githubHeatmapPlus": {
     "date": "2026-09-30T11:03:18+08:00",
@@ -9347,41 +9162,6 @@
     "sha256": "1y5szb8zl6nww8lbjyp4hqchkph9xfys8k4nlyxkp6chvyhbbgxs",
     "url": "https://github.com/iahccc/NixPackageRunner"
   },
-  "nothingClock": {
-    "date": "2026-08-03T23:44:09+05:30",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-aiQmFZzvWtCWYd8YT4PC248y5WLRwIPgrKaUlwJNF14=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Sayan",
-      "capabilities": [
-        "desktop-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [],
-      "description": "Nothing OS-inspired desktop clock with 6 styles: digital, split, analog, analog classic, digital cards, and orbit.",
-      "distro": [
-        "any"
-      ],
-      "id": "nothingClock",
-      "name": "Nothing Clock",
-      "path": "nothingclock",
-      "repo": "https://github.com/samgrande/Dank-Nothing-Clock",
-      "screenshot": "https://raw.githubusercontent.com/samgrande/Dank-Nothing-Clock/main/assets/screenshots/preview.png",
-      "version": "1.1.0"
-    },
-    "path": "/nix/store/009vb29az1j09x3cnmpaqn76kljf4rrq-Dank-Nothing-Clock",
-    "rev": "36a04d4073b8b741cfd28055897387fd54b2fd61",
-    "rootDir": "",
-    "sha256": "0php9l19g556mkh87h6icbjk53yvqa1ly66zc6bd0npgkhajc93a",
-    "url": "https://github.com/samgrande/Dank-Nothing-Clock"
-  },
   "ntfy": {
     "date": "2026-09-29T18:29:02-06:00",
     "deepClone": false,
@@ -10283,43 +10063,6 @@
     "sha256": "1crbqphccdrlq62lk6qjx36qcrdfvpsim2x1zmad1y919c0pxa58",
     "url": "https://github.com/lildengzi/pureLyrics"
   },
-  "qcalCalendar": {
-    "date": "2026-06-12T14:49:22+08:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-LrIYi8PFKZt3dh/wNfPZO42jnSJKpRZjcX2hqpCBt20=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Szabolcs Fazekas",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [
-        "python3",
-        "go"
-      ],
-      "description": "CalDAV calendar with events, notifications, and event management. Works with iCloud, Google, Nextcloud, and any CalDAV server.",
-      "distro": [
-        "any"
-      ],
-      "id": "qcalCalendar",
-      "name": "qCal Calendar",
-      "repo": "https://github.com/szabolcsf/dms-qcal-calendar",
-      "screenshot": "https://github.com/szabolcsf/dms-qcal-calendar/raw/main/screenshot.png",
-      "version": "1.1.0"
-    },
-    "path": "/nix/store/zb914z60ipcxf2fpqsfg952mbka06sq3-dms-qcal-calendar",
-    "rev": "c0ca502eeb5827f0ac3987c28adf0b5aea7790e3",
-    "rootDir": "",
-    "sha256": "0vdph68am8bxf5iid9aa4afs739vv7rkbw0zfrvrnaf5qf5iicif",
-    "url": "https://github.com/szabolcsf/dms-qcal-calendar"
-  },
   "quickCapture": {
     "date": "2026-09-30T21:42:31+07:00",
     "deepClone": false,
@@ -11081,43 +10824,6 @@
     "sha256": "1dqwz8qrspf7by8vmws04p3whlyylq8a5pvfmg6ahmvwh9srz9f1",
     "url": "https://github.com/pcmid/dms-screenshot-plus"
   },
-  "screenshotToggle": {
-    "date": "2026-03-04T15:59:24-08:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-nMk9Ab++JFJ2vwDaWSdFFLDWVVPiLcqPDjb0fY/xKoc=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Deppes",
-      "capabilities": [
-        "control-center"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "niri"
-      ],
-      "dependencies": [
-        "fish"
-      ],
-      "description": "Toggle niri screenshot mode between disk save and clipboard only",
-      "distro": [
-        "arch"
-      ],
-      "id": "screenshotToggle",
-      "name": "Screenshot Toggle",
-      "path": "ScreenShot-Toggle",
-      "repo": "https://github.com/boutabong/dms-plugins",
-      "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/screenshot-toggle-control-center.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/rn1qbmh1fm3nnxyhdn7jh7qdcw0a8ydk-dms-plugins",
-    "rev": "6ec6381e0d80f07f8d7b902896e98c6ad8658017",
-    "rootDir": "",
-    "sha256": "11ray67pvx1n1s7wlbg2adaxdc0l8lkmknh0pxv5495ypw0kvjcw",
-    "url": "https://github.com/boutabong/dms-plugins"
-  },
   "sessionEdge": {
     "date": "2026-09-22T10:42:35-05:00",
     "deepClone": false,
@@ -11151,43 +10857,6 @@
     "rootDir": "",
     "sha256": "00da583x2qkz8k367k22pcp7kqn80kycwkwlwzmbfaiirgcn47i5",
     "url": "https://github.com/satoshoe-dev/dms-sessionedge"
-  },
-  "sessionPower": {
-    "date": "2025-12-10T00:52:02-05:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-F51xuktIqINBbyxNmJzhf/BmFAWq8LXdoNR6/Wr8SIk=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "RonMurphy",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "niri",
-        "hyprland",
-        "labwc"
-      ],
-      "dependencies": [],
-      "description": "Puts the Power menu in the Bar",
-      "distro": [
-        "any"
-      ],
-      "id": "sessionPower",
-      "name": "Session Power Menu",
-      "path": "SessionPowerMenu",
-      "repo": "https://github.com/ronmurphy/dms-contrib",
-      "screenshot": "https://raw.githubusercontent.com/ronmurphy/dms-contrib/refs/heads/main/screenshot_session_power_menu.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/vkvswg4mk7a2mvwmxmwiri1pgn4vsrs3-dms-contrib",
-    "rev": "ca7d321538cd83915ee0c8256b5f8a3b908f938e",
-    "rootDir": "",
-    "sha256": "12a8zimgsynll3fvbw5a0la6dw3zw6f9hk9cdx0q7a289fx7378p",
-    "url": "https://github.com/ronmurphy/dms-contrib"
   },
   "shazam": {
     "date": "2026-08-31T04:19:52+03:00",
@@ -11664,45 +11333,6 @@
     "sha256": "0iz1w5lwvp4bhq42axhp1bbnbsw3h021hlbilb7dsh9m5yg9qmrr",
     "url": "https://github.com/merdely/dms-plugins"
   },
-  "sshMonitor": {
-    "date": "2026-03-04T15:59:24-08:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-nMk9Ab++JFJ2vwDaWSdFFLDWVVPiLcqPDjb0fY/xKoc=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "Deppes",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "monitoring",
-      "compositors": [
-        "niri"
-      ],
-      "dependencies": [
-        "fish",
-        "procps-ng",
-        "net-tools"
-      ],
-      "description": "Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution",
-      "distro": [
-        "arch"
-      ],
-      "id": "sshMonitor",
-      "name": "SSH Monitor",
-      "path": "SSH-Monitor",
-      "repo": "https://github.com/boutabong/dms-plugins",
-      "screenshot": "https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png",
-      "version": "1.6.0"
-    },
-    "path": "/nix/store/rn1qbmh1fm3nnxyhdn7jh7qdcw0a8ydk-dms-plugins",
-    "rev": "6ec6381e0d80f07f8d7b902896e98c6ad8658017",
-    "rootDir": "",
-    "sha256": "11ray67pvx1n1s7wlbg2adaxdc0l8lkmknh0pxv5495ypw0kvjcw",
-    "url": "https://github.com/boutabong/dms-plugins"
-  },
   "steamFlagsPlugin": {
     "date": "2026-05-17T03:43:18-03:00",
     "deepClone": false,
@@ -11989,42 +11619,6 @@
     "rootDir": "",
     "sha256": "0dql8kplixd92rxbin01437wdv5k518dn10vwif57crvhcasklxq",
     "url": "https://github.com/kmf/dms-tabs-launcher"
-  },
-  "tailscale": {
-    "date": "2025-12-28T23:10:04-05:00",
-    "deepClone": false,
-    "fetchLFS": false,
-    "fetchSubmodules": false,
-    "fetchTags": false,
-    "hash": "sha256-cXuljANI8aO5cb7xwIs/ttucJD/y9s9PXuUw7LS+BGI=",
-    "leaveDotGit": false,
-    "meta": {
-      "author": "cglavin50",
-      "capabilities": [
-        "dankbar-widget"
-      ],
-      "category": "utilities",
-      "compositors": [
-        "any"
-      ],
-      "dependencies": [
-        "tailscale"
-      ],
-      "description": "Tailscale-toggle plugin for DankBar",
-      "distro": [
-        "any"
-      ],
-      "id": "tailscale",
-      "name": "Tailscale Manager",
-      "repo": "https://github.com/cglavin50/dms-tailscale",
-      "screenshot": "https://github.com/cglavin50/dms-tailscale/raw/main/plugin-notif.png",
-      "version": "1.0.0"
-    },
-    "path": "/nix/store/j4riay3djbpy0carn3px7y6fz5w9m226-dms-tailscale",
-    "rev": "f035c3a0923e5872f912fc9bd4cc0c7f161fbe2a",
-    "rootDir": "",
-    "sha256": "0qh4pssfqc75br7wzxpj7wj9rnxn7y5w1wdyf6ws7wa80f6aayvi",
-    "url": "https://github.com/cglavin50/dms-tailscale"
   },
   "tailscaleDashboard": {
     "date": "2026-09-30T09:30:16+08:00",

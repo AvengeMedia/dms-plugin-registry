@@ -2059,41 +2059,6 @@ Shows the battery level of connected game controllers
 
 
 
-#### [GitHub Heatmap](https://github.com/boutabong/dms-plugins)
-
-Display weekly GitHub contribution heatmap with color-coded activity levels
-
-
-
-- id: githubHeatmap
-- name: GitHub Heatmap
-- author: Deppes
-- compositors: niri
-- capabilities: dankbar-widget
-- dependencies: curl, jq, fish, libnotify, xdg-utils
-- distro: arch
-
-
-
-
-> [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [GitHubHeatMap](https://github.com/boutabong/dms-plugins/tree/main/GitHubHeatMap) folder to your `~/.config/DankMaterialShell/plugins/` folder.
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/GitHubHeatMap-popout.png)
-
-</details>
-
-
-
-
-
 #### [HamQSL Propagation](https://github.com/devnullvoid/dms-hamqsl-propagation)
 
 Display HamQSL solar-terrestrial and ham radio propagation data in DankBar with compact bar modes and a detailed popout
@@ -2702,41 +2667,6 @@ Real-time CPU, memory and swap usage with circular progress indicators
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/smithyyang/dms-resource-monitor/main/assets/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [SSH Monitor](https://github.com/boutabong/dms-plugins)
-
-Monitor active SSH, SFTP, FTP, and Yazi VFS connections with hostname resolution
-
-
-
-- id: sshMonitor
-- name: SSH Monitor
-- author: Deppes
-- compositors: niri
-- capabilities: dankbar-widget
-- dependencies: fish, procps-ng, net-tools
-- distro: arch
-
-
-
-
-> [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [SSH-Monitor](https://github.com/boutabong/dms-plugins/tree/main/SSH-Monitor) folder to your `~/.config/DankMaterialShell/plugins/` folder.
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/sshmonitor-popout.png)
 
 </details>
 
@@ -3719,36 +3649,6 @@ Discord voice call overlay — shows participants as circular avatars with speak
 
 
 
-#### [ASUS Control Center](https://github.com/pseudofractal/AsusControl)
-
-Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
-
-
-
-- id: asusControlCenter
-- name: ASUS Control Center
-- author: pseudofractal
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: asusctl, supergfxctl
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/pseudofractal/AsusControl/main/assets/popup.png)
-
-</details>
-
-
-
-
-
 #### [Acer Sense](https://github.com/raphamzn/dms-acer-sense)
 
 Control panel for Acer Nitro/Predator laptops: power profile, fan presets, battery charge limit, USB charging and GPU mode (envycontrol), powered by linuwu-sense.
@@ -3869,41 +3769,6 @@ Material YOU inspired On-Screen Display popup and liquid wave indicator for batt
 
 
 
-#### [Caffeine](https://github.com/hthienloc/dms-plugins)
-
-Keep your screen awake and prevent idle sleep with a single click.
-
-
-
-- id: caffeine
-- name: Caffeine
-- author: Loc Huynh
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-> [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [caffeine](https://github.com/hthienloc/dms-plugins/tree/main/caffeine) folder to your `~/.config/DankMaterialShell/plugins/` folder.
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/caffeine/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Cardwire Manager](https://github.com/jankelemen/cardwire-manager)
 
 DankBar widget for selecting Cardwire GPU modes and showing the currently active mode.
@@ -3987,36 +3852,6 @@ Control internal and external monitor brightness via brightnessctl and ddcutil
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/smithyyang/dms-brightness-plugin/main/screenshot_2026-03-27_23-52-26.png)
-
-</details>
-
-
-
-
-
-#### [DMS Framework Battery](https://github.com/nfoert/dms-framework-battery)
-
-Dank Material Shell battery widget, with support for changing the charge limit on Framework laptops
-
-
-
-- id: dmsFrameworkBattery
-- name: DMS Framework Battery
-- author: nfoert
-- compositors: niri, hyprland
-- capabilities: dankbar-widget
-- dependencies: ectool
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://github.com/nfoert/dms-framework-battery/blob/main/repo/images/image.png?raw=true)
 
 </details>
 
@@ -6175,41 +6010,6 @@ File Manager For DMS - browse, manage and organize files on your desktop
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/suruibin/dms-filemanager/main/Screenshots/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [DMS Ketchup](https://github.com/virtualwolf-369/dms-ketchup)
-
-Ketchup timer with break modal, sounds, and manual resume controls
-
-
-
-- id: dmsKetchup
-- name: DMS Ketchup
-- author: Virtual Wolf 369
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-> [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [DankPomodoroTimer](https://github.com/virtualwolf-369/dms-ketchup/tree/main/DankPomodoroTimer) folder to your `~/.config/DankMaterialShell/plugins/` folder.
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/virtualwolf-369/dms-ketchup/main/docs/screenshots/panel.png)
 
 </details>
 
@@ -9217,41 +9017,6 @@ Search nixpkgs with nix search, launch directly with nix run, and copy nix shell
 
 
 
-#### [Nothing Clock](https://github.com/samgrande/Dank-Nothing-Clock)
-
-Nothing OS-inspired desktop clock with 6 styles: digital, split, analog, analog classic, digital cards, and orbit.
-
-
-
-- id: nothingClock
-- name: Nothing Clock
-- author: Sayan
-- compositors: any
-- capabilities: desktop-widget
-- dependencies: 
-- distro: any
-
-
-
-
-> [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [nothingclock](https://github.com/samgrande/Dank-Nothing-Clock/tree/main/nothingclock) folder to your `~/.config/DankMaterialShell/plugins/` folder.
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/samgrande/Dank-Nothing-Clock/main/assets/screenshots/preview.png)
-
-</details>
-
-
-
-
-
 #### [OCR Scanner](https://github.com/hthienloc/dms-plugins)
 
 Extract text from clipboard images or local files using Tesseract OCR.
@@ -10182,41 +9947,6 @@ An always-on-top keystroke and mouse click visualizer for tutorials.
 
 
 
-#### [Screenshot Toggle](https://github.com/boutabong/dms-plugins)
-
-Toggle niri screenshot mode between disk save and clipboard only
-
-
-
-- id: screenshotToggle
-- name: Screenshot Toggle
-- author: Deppes
-- compositors: niri
-- capabilities: control-center
-- dependencies: fish
-- distro: arch
-
-
-
-
-> [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [ScreenShot-Toggle](https://github.com/boutabong/dms-plugins/tree/main/ScreenShot-Toggle) folder to your `~/.config/DankMaterialShell/plugins/` folder.
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/boutabong/dms-plugins/master/screenshots/screenshot-toggle-control-center.png)
-
-</details>
-
-
-
-
-
 #### [Screenshot+](https://github.com/pcmid/dms-screenshot-plus)
 
 Region screenshot with live annotation: draw while you select. Rectangle, ellipse, line, arrow, pen, highlighter, text, mosaic and numbered markers. The selection stays movable and resizable with the toolbar following it; the result is copied to the clipboard or saved to a file at native resolution.
@@ -10240,41 +9970,6 @@ Region screenshot with live annotation: draw while you select. Rectangle, ellips
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/pcmid/dms-screenshot-plus/main/screenshots/screenshot.png)
-
-</details>
-
-
-
-
-
-#### [Session Power Menu](https://github.com/ronmurphy/dms-contrib)
-
-Puts the Power menu in the Bar
-
-
-
-- id: sessionPower
-- name: Session Power Menu
-- author: RonMurphy
-- compositors: niri, hyprland, labwc
-- capabilities: dankbar-widget
-- dependencies: 
-- distro: any
-
-
-
-
-> [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [SessionPowerMenu](https://github.com/ronmurphy/dms-contrib/tree/main/SessionPowerMenu) folder to your `~/.config/DankMaterialShell/plugins/` folder.
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/ronmurphy/dms-contrib/refs/heads/main/screenshot_session_power_menu.png)
 
 </details>
 
@@ -10595,36 +10290,6 @@ Unified DMS system monitor with capabilities to customize resources order, resou
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/SystemMonitorPlus/preview/preview.png)
-
-</details>
-
-
-
-
-
-#### [Tailscale Manager](https://github.com/cglavin50/dms-tailscale)
-
-Tailscale-toggle plugin for DankBar
-
-
-
-- id: tailscale
-- name: Tailscale Manager
-- author: cglavin50
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: tailscale
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://github.com/cglavin50/dms-tailscale/raw/main/plugin-notif.png)
 
 </details>
 
@@ -11620,36 +11285,6 @@ Monitor dGPU power state (D0, D3cold) and optionally display battery wattage wit
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/xantrk/dgpu-sleep-monitor/refs/heads/master/screenshots/Screenshot%20from%202026-06-08%2000-50-01.png)
-
-</details>
-
-
-
-
-
-#### [qCal Calendar](https://github.com/szabolcsf/dms-qcal-calendar)
-
-CalDAV calendar with events, notifications, and event management. Works with iCloud, Google, Nextcloud, and any CalDAV server.
-
-
-
-- id: qcalCalendar
-- name: qCal Calendar
-- author: Szabolcs Fazekas
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: python3, go
-- distro: any
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://github.com/szabolcsf/dms-qcal-calendar/raw/main/screenshot.png)
 
 </details>
 
