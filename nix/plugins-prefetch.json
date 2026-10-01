@@ -10682,12 +10682,12 @@
     "url": "https://github.com/hthienloc/dms-plugins"
   },
   "screenshotPlus": {
-    "date": "2026-09-20T23:18:13+08:00",
+    "date": "2026-10-01T23:12:35+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-waWfdYJ8V6jMq27fohCm3lPIxyVA87qRX8ddnTH6HLc=",
+    "hash": "sha256-ZP7T4nQLVR7GIr3S5XPvqbVnePujIiLbfizhGkBqsRg=",
     "leaveDotGit": false,
     "meta": {
       "author": "pcmid",
@@ -10708,12 +10708,12 @@
       "name": "Screenshot+",
       "repo": "https://github.com/pcmid/dms-screenshot-plus",
       "screenshot": "https://raw.githubusercontent.com/pcmid/dms-screenshot-plus/main/screenshots/screenshot.png",
-      "version": "0.3.3"
+      "version": "0.4.0"
     },
-    "path": "/nix/store/y55bjnq9c0nfqhskh586044471dn1480-dms-screenshot-plus",
-    "rev": "e4859e15cb246d5c7a3f89a12d0b8f8a75ac6541",
+    "path": "/nix/store/b8514zd5y34xn529z5dzp8fzk8mrwar7-dms-screenshot-plus",
+    "rev": "af9a87dc9b3c9b27a23eec963a2a75ef037f1828",
     "rootDir": "",
-    "sha256": "1dqwz8qrspf7by8vmws04p3whlyylq8a5pvfmg6ahmvwh9srz9f1",
+    "sha256": "065id901mq9cgvdj48m3zdw6gdd9xxryblmx4b31wm8bfkid7zk4",
     "url": "https://github.com/pcmid/dms-screenshot-plus"
   },
   "sessionEdge": {
