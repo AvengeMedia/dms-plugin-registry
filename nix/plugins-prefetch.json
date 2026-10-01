@@ -610,12 +610,12 @@
     "url": "https://github.com/mkoester/dms-attention-badges"
   },
   "audioFx": {
-    "date": "2026-09-23T10:34:50-05:00",
+    "date": "2026-10-01T13:50:38+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-r4r4RQ6vt4bcbaC8V7ceh2d2A12b+GyEg4hsOEDUOzg=",
+    "hash": "sha256-k+KSFr57JGRIx6dcjdLxTBDDGomNZIeT3LhbJaxNdwU=",
     "leaveDotGit": false,
     "meta": {
       "author": "satoshoe",
@@ -640,13 +640,14 @@
       "id": "audioFx",
       "name": "AudioFX",
       "repo": "https://github.com/satoshoe-dev/dms-audiofx",
+      "requires_dms": ">=1.6.1",
       "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-audiofx/main/assets/screenshot.png",
-      "version": "1.4.0"
+      "version": "1.4.1"
     },
-    "path": "/nix/store/lqvbpnsifpf2rl1zcpzd80iakzpiy58i-dms-audiofx",
-    "rev": "f094a2c476af7470c69d28e1f54b60932c8ef958",
+    "path": "/nix/store/ia5gszkbfvklzbaf130nibpy7aiz83ky-dms-audiofx",
+    "rev": "3384c20069856235febf1acb6e4f8aafe6cad9f2",
     "rootDir": "",
-    "sha256": "0f1vsi03hv48hf26ry4vbl1pcrw73svmgg50dpf8ddxg1r2zi2mg",
+    "sha256": "01bp9nn2anxqvj9qfr4di4dc642cy798sp57qx46893vpqb95qlk",
     "url": "https://github.com/satoshoe-dev/dms-audiofx"
   },
   "audioInhibit": {
@@ -1283,12 +1284,12 @@
     "url": "https://github.com/JDKamalakar/DMS-Caffeine"
   },
   "calculator": {
-    "date": "2026-06-22T17:37:48+01:00",
+    "date": "2026-10-01T11:13:42+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-j8C62+sevr6b+akzVSAqUVysIhb6Vbr8jnWcTXeOtE8=",
+    "hash": "sha256-dqFTvNogWsqK82EhgMIbJB70R5TgcRiA3Elx1LkSia8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bruno Cesar Rocha",
@@ -1311,12 +1312,12 @@
       "repo": "https://github.com/rochacbruno/DankCalculator",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png",
-      "version": "0.3.3"
+      "version": "0.3.4"
     },
-    "path": "/nix/store/kzbni0wlspwm9p7zvn21sqiw1wrk222s-DankCalculator",
-    "rev": "1db5865419a40a33171a475855a59e0b8bf7187f",
+    "path": "/nix/store/464xwzg23s9pg32cq3adg9f15w2l1105-DankCalculator",
+    "rev": "c9fbbe921e9afeb92f4e92390e9fc05f006f0373",
     "rootDir": "",
-    "sha256": "0kxlirvlv73mivyblmgs2qiaqp2i58h5acx9z6dvxghyxgdvmh4g",
+    "sha256": "1bw92awx8wa9vj01hwg0ji3z87i43g1808b1yf5clni0vay578bn",
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
   "canvasGrades": {
@@ -1847,12 +1848,12 @@
     "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "cliproxyQuota": {
-    "date": "2026-09-29T20:55:16Z",
+    "date": "2026-10-01T09:32:01Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-F2VXyXh8483Nd5aYaKe6cWMHIGmv2KYgUUpVGlXc0CE=",
+    "hash": "sha256-YhU5dYLBMH7DWGjlXxEVrtsSGiVN/O2rlCYAchyexRA=",
     "leaveDotGit": false,
     "meta": {
       "author": "Spyros Psarras",
@@ -1875,12 +1876,12 @@
       "name": "CLIProxyAPI Quota",
       "repo": "https://github.com/SpyrosPsarras/dms-cliproxy-quota",
       "screenshot": "https://raw.githubusercontent.com/SpyrosPsarras/dms-cliproxy-quota/main/screenshot.png",
-      "version": "0.1.12"
+      "version": "0.1.13"
     },
-    "path": "/nix/store/hyi68c6pxwiq4lmpcg6s32kn7nkbq137-dms-cliproxy-quota",
-    "rev": "b4e29bdf9ed6058763e957ee85993887932cb100",
+    "path": "/nix/store/58mhjp7ifjcqs563dliymna6ck9wcg1b-dms-cliproxy-quota",
+    "rev": "1c687c3452a9ba2c6185b5d1301489c27cdf6477",
     "rootDir": "",
-    "sha256": "08fhviailmaaa4hadn5gd4h0fqvipakni64nfz6wvqvwg34mfr8p",
+    "sha256": "0465kqf74016jjmyvz2d4ld15nxf2l8mzrb8b31pwc61h9skj5b2",
     "url": "https://github.com/SpyrosPsarras/dms-cliproxy-quota"
   },
   "codeIsland": {
@@ -2957,12 +2958,12 @@
     "url": "https://github.com/AvengeMedia/dms-plugins"
   },
   "dankDiskUsage": {
-    "date": "2026-09-29T08:50:07+02:00",
+    "date": "2026-10-01T13:20:42+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-p84NR30wZwl2NgalyNs+EFsPG1H6p4hEJ/rKj4XnVWw=",
+    "hash": "sha256-uEZtpCW4govw4ttzPuOuAwrDyFP81WWaOZHbgitnzt0=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -2982,12 +2983,12 @@
       "name": "Disk Usage",
       "repo": "https://github.com/alcxyz/DankDiskUsage",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankDiskUsage/main/docs/screenshot.png",
-      "version": "0.4.0"
+      "version": "0.4.1"
     },
-    "path": "/nix/store/5b2gg4ag6pfcqz0md395rxp5r48m1zx6-DankDiskUsage",
-    "rev": "e8495ee893849b579cf1362e0f28d92a52c7728e",
+    "path": "/nix/store/ivv010my3h6x6da2pcmvjijzlxqfcw3x-DankDiskUsage",
+    "rev": "2ec3f2ad1169a8227fa08475d7027143bf312e14",
     "rootDir": "",
-    "sha256": "0v2mwy2qzjps4x28i9zsa4dhynqh7vdwi9866rv0jrrhgm3hvkm7",
+    "sha256": "1pffcwmq5nwi76d6bmgwag4c62h3mvikwwyvwbq8p0mq4nj6simq",
     "url": "https://github.com/alcxyz/DankDiskUsage"
   },
   "dankGearyMail": {
@@ -5238,6 +5239,7 @@
       "id": "dmsProfiles",
       "name": "Profiles",
       "repo": "https://github.com/satoshoe-dev/dms-profiles",
+      "requires_dms": ">=1.6.1",
       "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-profiles/main/assets/screenshot.png",
       "version": "2.0.0"
     },
@@ -6341,12 +6343,12 @@
     "url": "https://github.com/JDKamalakar/DMS-GitHub_HeatMap"
   },
   "githubInbox": {
-    "date": "2026-09-30T11:42:41+02:00",
+    "date": "2026-10-01T14:55:56+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-RDhEFKGWqx2eDV3XpqTtFoCU1cXWIfyYBdhhZjDJY/M=",
+    "hash": "sha256-W8t/ZYMWM+irQIvFEMw2wU3+8ZICJCmYzq7xbZs20Tk=",
     "leaveDotGit": false,
     "meta": {
       "author": "TMS-Namespace",
@@ -6383,10 +6385,10 @@
       "type": "widget",
       "version": "1.0.1"
     },
-    "path": "/nix/store/jfsmd5ypb168lrc2wq96xsvfzi94g8f2-DMS-GitHub-Inbox-Plugin",
-    "rev": "fbe9e5d5fd337afbf3b9ce60c4d80cd052de5ef3",
+    "path": "/nix/store/pq397zwawqpyw35q59w9dbf4hfjg99dq-DMS-GitHub-Inbox-Plugin",
+    "rev": "ec11dc59df3c6fab82260b92f05a8644a52abcd3",
     "rootDir": "",
-    "sha256": "1wv3r4q6cqfq0ncgq8fnqpar900nxnjadmsx1ng1vawnl4a48f24",
+    "sha256": "0ffi6sdnvwdfrsc2j902jbqzwkf16v611icb82myhcqnhdjpzjsv",
     "url": "https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin"
   },
   "githubNotifier": {
@@ -6653,12 +6655,12 @@
     "url": "https://github.com/hthienloc/dms-plugins"
   },
   "herdrAgentMonitor": {
-    "date": "2026-09-18T23:27:21+02:00",
+    "date": "2026-10-01T09:58:07+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-71z9fS650yIKhAdJZBZ6KVjdhlA7YddcJIhfrl5v3pE=",
+    "hash": "sha256-IvSsMTtgYMCJ9AsqkkmO9ymlh7hilYRU1w3K9FwMh6w=",
     "leaveDotGit": false,
     "meta": {
       "author": "Mor-dev",
@@ -6680,12 +6682,12 @@
       "name": "herdr Agent Monitor",
       "repo": "https://github.com/Mor-dev/herdr-agent-monitor",
       "screenshot": "https://raw.githubusercontent.com/Mor-dev/herdr-agent-monitor/master/assets/popout.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/638z0ifvpn7028k02mmainnlb6kc6m1p-herdr-agent-monitor",
-    "rev": "1a253f3eaf588602135513d30ccfb8bc46d90455",
+    "path": "/nix/store/3gl38j493c80jv9vigm0d9sn26946ba5-herdr-agent-monitor",
+    "rev": "2008f397c7ec4de9a9feb04dc75e5750567dab5b",
     "rootDir": "",
-    "sha256": "14fydxgawpw84ifdfq9va23dsn19g8b68j87hh525lxr5ryzsp7g",
+    "sha256": "1b471ifg9jhdsxa895b2p23saagpir4r4ahbyj4w0q307cqsrx12",
     "url": "https://github.com/Mor-dev/herdr-agent-monitor"
   },
   "hiddenBar": {
@@ -7994,12 +7996,12 @@
     "url": "https://github.com/omarluq/DMSMangoWCLayoutManager"
   },
   "markets": {
-    "date": "2026-06-12T15:13:32+02:00",
+    "date": "2026-10-01T14:18:08+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-vyySCXastQa+UxEstG5Ogd9/E1fVJaTnPYsBPcx2l/8=",
+    "hash": "sha256-qZyxcrPxIWVbhRRg3uk1Dhd8o3dZZbM5EMZ1WDT6JqI=",
     "leaveDotGit": false,
     "meta": {
       "author": "TMS-Namespace",
@@ -8032,12 +8034,12 @@
       "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/raw/main/Images/Dark-Popup.png",
       "settings": "./QML/Settings.qml",
       "type": "widget",
-      "version": "1.0.3"
+      "version": "1.0.4"
     },
-    "path": "/nix/store/4anvx7xm69jb22b6nn53qf1yfvh2c43d-DMS-Markets-Plugin",
-    "rev": "1398805cd9ac425ebe742e473c1a42d6ee35f730",
+    "path": "/nix/store/9528mb2f0aqar5sciaaw3rrxa8xa98ff-DMS-Markets-Plugin",
+    "rev": "946ac52bd2d086786837bb913b13132e2d54026e",
     "rootDir": "",
-    "sha256": "1zwpfv63s0cb7pks89fmaw9pzpw19rpb8b0iafz0dddcfq4r4b5z",
+    "sha256": "18i6z8s5hxf620wv6rarfyipq5qf6plxwq0lhmdna8gindrb3759",
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "materialPlayer": {
@@ -9500,12 +9502,12 @@
     "url": "https://github.com/3DTreeDee/openrgb-theme-sync"
   },
   "orangedeck": {
-    "date": "2026-09-27T11:38:53-05:00",
+    "date": "2026-10-01T14:38:53+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ZKmkWjLvTioEUjgfalDLLDpr2btRkMUYOOGoGQsnRtk=",
+    "hash": "sha256-zssM1R2mY5YQ0uG2+SFFK1FunpzfxZaN6reJC3vlI7o=",
     "leaveDotGit": false,
     "meta": {
       "author": "satoshoe",
@@ -9519,30 +9521,33 @@
       "compositors": [
         "any"
       ],
-      "dependencies": [],
-      "description": "Live view of the Bitcoin mempool: the latest block in the middle, the mempool as a pile below, new transactions raining in from above. Feed, clock, miner, market and explorer views, from mempool.space, no node and no extra service needed.",
+      "dependencies": [
+        "qt6-websockets"
+      ],
+      "description": "Live view of the Bitcoin mempool: the latest block in the middle, the mempool as a pile below, new transactions raining in from above. Feed, clock, miner, market and explorer views. Data comes from mempool.space or a mempool instance you set, the market view also from Binance, OKX and Bybit. Starts the optional OrangeDeck service if it is installed.",
       "distro": [
         "any"
       ],
       "id": "orangedeck",
       "name": "OrangeDeck Bitcoin Dashboard",
       "repo": "https://github.com/orangedeck-dev/dms-plugin",
+      "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/orangedeck-dev/dms-plugin/main/assets/screenshot.png",
-      "version": "1.2.0"
+      "version": "1.2.2"
     },
-    "path": "/nix/store/9arknffy5zif1anwn5r5hvhhxdv6y2b3-dms-plugin",
-    "rev": "3febf53efd2fa28747e550c63e163ebe72283e66",
+    "path": "/nix/store/smg7vmqhyz1l5v56bzr8n6sa8n20iz56-dms-plugin",
+    "rev": "ae159424aa9ea3c93cc2340949f8823cd506a2ba",
     "rootDir": "",
-    "sha256": "1na64w5ika7170ccb42ipgcnnficrd86l7rqa822lkpg69da9ab4",
+    "sha256": "1fi3wmxhp2dpxa6rdifzkjg6wl9b8lhzkdp1s889cqx63pahrjyf",
     "url": "https://github.com/orangedeck-dev/dms-plugin"
   },
   "orbitBluetooth": {
-    "date": "2026-09-27T17:43:24+02:00",
+    "date": "2026-10-01T12:20:54+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-BiLStLKf307HY2nBFj0s7grjk3OcvSFkHKKBFGfHcSM=",
+    "hash": "sha256-bhpKMdaMOpTFa/Ff3R5p6NkXGEdUVQDM4hD1Ixw6QNk=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -9570,12 +9575,12 @@
       "repo": "https://github.com/lung595/orbitBluetooth",
       "requires_dms": ">=1.6.0",
       "screenshot": "https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png",
-      "version": "1.4.1"
+      "version": "1.7.1"
     },
-    "path": "/nix/store/ywzhszf811a6grgcdi616j9q5hd0dbw7-orbitBluetooth",
-    "rev": "69ec03faeb133b7064411209783e63b863b4b7b2",
+    "path": "/nix/store/2i4w3wilakzscbnbgaa5n0987fi9vnsq-orbitBluetooth",
+    "rev": "d4f87c4f3ca164ead99885d655b38ebece0cbc73",
     "rootDir": "",
-    "sha256": "08viqxki90d23ij23gcwff9y62pf5hyidhb9cg3lxpwznasd48h6",
+    "sha256": "1na078f27x8hwb600mal8wc1gng8d4gdspzidg2r8flcsqqll6kf",
     "url": "https://github.com/lung595/orbitBluetooth"
   },
   "pangolinWidget": {
@@ -10880,6 +10885,7 @@
       "id": "sessionEdge",
       "name": "SessionEdge",
       "repo": "https://github.com/satoshoe-dev/dms-sessionedge",
+      "requires_dms": ">=1.6.1",
       "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-sessionedge/main/assets/screenshot.png",
       "version": "1.1.0"
     },
@@ -11110,12 +11116,12 @@
     "url": "https://github.com/knappancash/SitStandReminder"
   },
   "smartTimer": {
-    "date": "2026-09-26T16:45:46+02:00",
+    "date": "2026-10-01T12:22:37+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-DB9wxem6VZvd6KhvbtIbYtltUCa36sXCVM/UFaBfF3Q=",
+    "hash": "sha256-YZpD9M+ymNKSsx/lnpB2QJn/42IIwGAz+oeBalCz+Aw=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -11139,12 +11145,12 @@
       "name": "Sands",
       "repo": "https://github.com/lung595/Sands",
       "screenshot": "https://raw.githubusercontent.com/lung595/Sands/main/screenshot.png",
-      "version": "1.3.0"
+      "version": "1.4.0"
     },
-    "path": "/nix/store/q749v9svz049r89qgapln531vw2c7f6v-Sands",
-    "rev": "4dbbe6d468126778b7e345725160679c02355576",
+    "path": "/nix/store/pcya18irqj0zq251hqwcdbkwg529xhkp-Sands",
+    "rev": "eaa694b9223db2ad2321763abd39fc576616fca4",
     "rootDir": "",
-    "sha256": "0x0pbyh1bm6gak1cbsmp4r86vnb23g96wvx8x3frnmdsx72p07qc",
+    "sha256": "037qnd86m0c7z8rn1h08cbizz6a0fs89xr8znf9d565jrzs476k1",
     "url": "https://github.com/lung595/Sands"
   },
   "splayerDesktopLyrics": {
@@ -13367,6 +13373,7 @@
       "id": "windowFx",
       "name": "Window FX",
       "repo": "https://github.com/satoshoe-dev/dms-window-fx",
+      "requires_dms": ">=1.6.1",
       "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-window-fx/main/assets/screenshot.png",
       "version": "1.0.0"
     },
@@ -13418,12 +13425,12 @@
     "url": "https://github.com/AleBles/dms-workspace-osd"
   },
   "worldClock": {
-    "date": "2026-06-22T17:36:50+01:00",
+    "date": "2026-10-01T12:29:21+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-7M9jdfy4/VX7sLmiXfjyERe7sFVKuHzqHgPSmT6XOAc=",
+    "hash": "sha256-viSYL1xTveYLBCwCFVcPPvW0PaQCZeFjaZNZf/O0oLw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bruno Cesar Rocha",
@@ -13434,9 +13441,7 @@
       "compositors": [
         "any"
       ],
-      "dependencies": [
-        "moment-js"
-      ],
+      "dependencies": [],
       "description": "Multiple timezones clock for DankBar",
       "distro": [
         "any"
@@ -13446,12 +13451,12 @@
       "repo": "https://github.com/rochacbruno/WorldClock",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png",
-      "version": "1.3.0"
+      "version": "1.3.1"
     },
-    "path": "/nix/store/2pkn8s1d0z0bwplx9wyq1n207lc572hj-WorldClock",
-    "rev": "f10e1f9c1ce14a819640fbea9e2787472cf3815f",
+    "path": "/nix/store/n7iishfncjd0jpa1vj87lr4wb7y5m7mr-WorldClock",
+    "rev": "92dafcd81244dc128c1efc26589c5db17b0c3c16",
     "rootDir": "",
-    "sha256": "01rqjwz9klh33vm7rf2aanqbn5qiybw5v8mrn3xmbzdqzisn7kzc",
+    "sha256": "1g50nkrpynckd5iy2r82lhyv9x9y1xbia0ic0h5ydgakbhprh95y",
     "url": "https://github.com/rochacbruno/WorldClock"
   },
   "worldClockMulti": {
@@ -13489,12 +13494,12 @@
     "url": "https://github.com/szabolcsf/dms-world-clock-multi"
   },
   "xrayWallpaper": {
-    "date": "2026-09-23T13:49:09-05:00",
+    "date": "2026-10-01T13:45:39+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-punOaPbsLTvEgZpRd2qjykw9E1wVZELa4sxNPIKqhhA=",
+    "hash": "sha256-wCNYSshtKqeE2BOPMoXPtEXnjLFxalcJVkX/GzNFU9c=",
     "leaveDotGit": false,
     "meta": {
       "author": "satoshoe",
@@ -13513,13 +13518,14 @@
       "id": "xrayWallpaper",
       "name": "Xray Wallpaper",
       "repo": "https://github.com/satoshoe-dev/dms-xray-wallpaper",
+      "requires_dms": ">=1.6.1",
       "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-xray-wallpaper/main/assets/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/wqxfnw40b5rdf2l2xyqf4hphy927iksy-dms-xray-wallpaper",
-    "rev": "41915cd1a038a80e3b3eedf48e58a048e6e85190",
+    "path": "/nix/store/fnpa7vnpzcayjmg1c2w4mil5csbnh6lg-dms-xray-wallpaper",
+    "rev": "719bf35892cb4396126c5c166824aa154e090144",
     "rootDir": "",
-    "sha256": "0446ma13qkfcwbd44r0mbh9ksk6aldm7flcsh723nbgcyrlcxsd6",
+    "sha256": "1msk8lripzs5aq4mfskin66ffidlry2k53qkv22afakdr155h8y0",
     "url": "https://github.com/satoshoe-dev/dms-xray-wallpaper"
   },
   "zerotierManager": {
