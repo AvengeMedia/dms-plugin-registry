@@ -3153,6 +3153,36 @@ Unread mail counts for every account configured in Geary. Reads Geary's local da
 
 
 
+#### [Dank Time Log](https://github.com/bash-win/DankTimeLog)
+
+Track time against your own presets from a bar pill and popout, with per-preset averages per day for today, this week, or the last N days. One timer at a time, stopped automatically on suspend or power-off, with IPC commands for keybindings.
+
+<strong>requires DMS version</strong>: <em>>=1.6.2</em>
+
+- id: dankTimeLog
+- name: Dank Time Log
+- author: bash-win
+- compositors: any
+- capabilities: dankbar-widget, daemon, ipc
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/bash-win/DankTimeLog/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Todo](https://github.com/deepu105/dms-dank-todo)
 
 A simple locally-saved TODO list widget for the Dank bar.
