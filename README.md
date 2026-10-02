@@ -960,7 +960,7 @@ Balance game audio against Discord/chat audio with a single slider, with the rou
 
 #### [Markets](https://github.com/TMS-Namespace/DMS-Markets-Plugin)
 
-Near-live market prices for currencies, stocks, and commodities with charts.
+Near-live market prices for currencies, stocks, and commodities with charts through configurable data providers.
 
 <strong>requires DMS version</strong>: <em>>=1.2.0</em>
 
@@ -969,7 +969,7 @@ Near-live market prices for currencies, stocks, and commodities with charts.
 - author: TMS-Namespace
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: curl
+- dependencies: curl, bash
 - distro: any
 
 
