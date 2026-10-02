@@ -12735,6 +12735,46 @@
     "sha256": "0jbjjhc9djlha9sfvk7hs04i5i9lg16wj7b01dbdpkcjbjpyi0nq",
     "url": "https://github.com/alamin147/wallarchyDms"
   },
+  "wallhavenCarousel": {
+    "date": "2026-10-01T21:13:07-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-XX/QsADyK6wQsffUV0t+Khcq9nMna5gYMg/EHf8Ty1o=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "dretz",
+      "capabilities": [
+        "daemon",
+        "wallpaper",
+        "network"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3",
+        "imagemagick"
+      ],
+      "description": "Fullscreen skewed carousel of your wallpaper folder, plus favorites, a shuffle among favorites only, color and tag filters, delete to Trash, and Wallhaven search, full-size preview and download in the same overlay.",
+      "distro": [
+        "any"
+      ],
+      "id": "wallhavenCarousel",
+      "name": "Wallhaven Carousel",
+      "repo": "https://github.com/alicercedigital/wallhaven-carousel",
+      "requires_dms": ">=1.6.0",
+      "screenshot": "https://raw.githubusercontent.com/alicercedigital/wallhaven-carousel/main/assets/screenshot.jpg",
+      "version": "1.1.1"
+    },
+    "path": "/nix/store/ybgds4a0r2mshl01034a947hm0hg53yq-wallhaven-carousel",
+    "rev": "f58c65a3ec12526ab6bbcbae2768b8a62c76bcb2",
+    "rootDir": "",
+    "sha256": "0nnb2gzivi0g68c9hsr7fgv2l5ragr5mgm7pn48aqazj02qd0zsx",
+    "url": "https://github.com/alicercedigital/wallhaven-carousel"
+  },
   "wallpaperBing": {
     "date": "2026-09-30T10:00:34+02:00",
     "deepClone": false,
