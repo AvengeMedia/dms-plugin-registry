@@ -567,6 +567,36 @@ Fullscreen skewed carousel of your wallpaper folder, plus favorites, a shuffle a
 
 
 
+#### [Wallpaper Engine Control](https://github.com/garywei944/dms-wallpaper-engine-control)
+
+DankBar widget for linux-wallpaperengine: see what every monitor shows, skip to the next playlist item, pause, or stop to free GPU memory
+
+
+
+- id: wallpaperEngineControl
+- name: Wallpaper Engine Control
+- author: Gary Wei
+- compositors: hyprland
+- capabilities: dankbar-widget
+- dependencies: linux-wallpaperengine, python3, zenity
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/garywei944/dms-wallpaper-engine-control/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallpaper by Workspace](https://github.com/3DTreeDee/wallpaperByWorkspace)
 
 Sets a different wallpaper per niri workspace, with fixed or alternate mode, optional periodic rotation, and a "show desktop" transition.
