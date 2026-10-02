@@ -1,0 +1,25 @@
+{
+    "id": "simNetwork",
+    "name": "SIM Network",
+    "capabilities": [
+        "daemon",
+        "control-center",
+        "dankbar-widget"
+    ],
+    "category": "networking",
+    "repo": "https://github.com/chenshifanjian/dms-sim-network",
+    "author": "chenshifanjian",
+    "description": "管理 4G 模块：流量与实时网速、短信/彩信收发、基站与 GPS 定位、桌面通知与 Obsidian 归档",
+    "dependencies": [
+        "mmcli",
+        "nmcli"
+    ],
+    "compositors": [
+        "niri",
+        "hyprland"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/chenshifanjian/dms-sim-network/main/docs/screenshot.png"
+}
