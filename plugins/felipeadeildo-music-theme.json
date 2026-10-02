@@ -1,0 +1,19 @@
+{
+    "id": "musicTheme",
+    "name": "Music Theme",
+    "capabilities": [
+        "daemon"
+    ],
+    "category": "appearance",
+    "repo": "https://github.com/felipeadeildo/dms-music-theme",
+    "author": "felipeadeildo",
+    "description": "Themes your system from the currently playing album art",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/felipeadeildo/dms-music-theme/main/assets/screenshot.png"
+}

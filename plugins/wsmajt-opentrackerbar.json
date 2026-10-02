@@ -7,7 +7,7 @@
   "author": "smajt",
   "description": "Track AI usage limits via opentracker CLI",
   "dependencies": ["opentracker-cli"],
-  "compositors": ["niri", "hyprland", "sway", "river"],
+  "compositors": ["any"],
   "distro": ["any"],
   "screenshot": "https://raw.githubusercontent.com/wsmajt/OpenTrackerBar/refs/heads/main/Screenshot.png"
 }

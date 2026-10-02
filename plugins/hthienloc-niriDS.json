@@ -1,13 +1,26 @@
 {
     "id": "niriDS",
     "name": "Niri Display Settings",
-    "capabilities": ["daemon"],
+    "capabilities": [
+        "daemon",
+        "manage-displays",
+        "control-center"
+    ],
     "category": "utilities",
-    "repo": "https://github.com/hthienloc/dms-niri-display-settings",
+    "repo": "https://github.com/hthienloc/dms-plugins",
     "author": "Loc Huynh",
     "description": "Quickly toggle and configure display outputs in the Niri Wayland compositor.",
-    "dependencies": ["niri", "wl-mirror"],
-    "compositors": ["niri"],
-    "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-niri-display-settings/master/screenshot.png"
+    "dependencies": [
+        "niri",
+        "wl-mirror"
+    ],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/niriDS/screenshot.png",
+    "path": "niriDS",
+    "requires_dms": ">=1.5.0"
 }

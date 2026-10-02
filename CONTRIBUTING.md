@@ -4,6 +4,16 @@
 
 - [Contributing a Plugin](#contributing-a-plugin)
 - [Contributing a Theme](#contributing-a-theme)
+- [Generative AI](#generative-ai)
+
+## Generative AI
+
+Using an LLM to help write code, issues, or comments is fine. Submitting its output unread is not.
+
+- You are responsible for every line you submit. You have read it, tested it, and can explain it in review.
+- Say in the PR when a meaningful part of it was AI generated.
+- Do not file issues or leave comments you have not verified yourself. Reports that do not reproduce get closed.
+- PRs that read like unreviewed output, with narrating comments, invented APIs, or style that ignores the file they are in, get closed without review.
 
 ---
 
@@ -59,7 +69,16 @@ Thank you for contributing to the Dank Material Shell Plugins registry!
 - **dependencies** (required): Array of dependencies, use `[]` if none
 - **compositors** (required): Supported Wayland compositors: `["niri", "hyprland"]`, etc.
 - **distro** (required): Supported distributions: `["any"]`, `["fedora"]`, `["arch"]`, etc.
-- **screenshot** (optional): Direct URL to a screenshot image
+- **screenshot** (required): Direct URL to a screenshot image showing your plugin — see [Previews](#previews) for easy ways to produce a good one
+- **i18n** (optional): `true` once your plugin has been approved for central translation via the DMS POEditor project — see [Plugin Translations](#plugin-translations). Do not set it in your initial submission.
+
+### Previews
+
+Every plugin gets a standardized 960×540 preview card served at `https://api.danklinux.com/previews/{id}`. The card wraps your `screenshot` in a dank-themed frame with the plugin's name, category, and description; if the screenshot URL ever becomes unreachable, a metadata-only card is served instead.
+
+Screenshots of any aspect ratio work well — the card letterboxes them over a blurred backdrop rather than cropping. Capture your plugin in a representative state (popout open, real data visible) on the default dank purple theme where possible.
+
+If you prefer to hand-craft the full card image, there is a web generator at [`https://danklinux.com/thumbnail-generator.html`](https://danklinux.com/thumbnail-generator.html) that produces cards matching the standard layout (see `docs/PREVIEWS.md` for the exact composition spec).
 
 4. **Validate your plugin locally** before submitting:
 
@@ -98,11 +117,64 @@ Thank you for contributing to the Dank Material Shell Plugins registry!
 - Keep descriptions concise and informative
 - Ensure your repository has proper documentation
 - Test that your plugin works with the specified compositors and distros
-- Include a screenshot when possible to showcase your plugin
+- Capture your screenshot in a representative state — popout open, real data visible — ideally on the default dank purple theme (see [Previews](#previews))
+- **Prefer Built-in DMS Utilities**: Do not declare external dependencies for capabilities that DMS already provides natively. See [Built-in Alternatives](#built-in-alternatives) below.
 - **IMPORTANT**: The `id` and `name` fields in your registry JSON file **must exactly match** the corresponding fields in your plugin repository's `plugin.json` file
   - For regular plugins: Must match `{repo}/plugin.json`
   - For monorepo plugins: Must match `{repo}/{path}/plugin.json`
 - **IMPORTANT**: The `id` field must be in camelCase format (starts with lowercase, only letters/digits)
+- **Avoid duplicate plugins**: Do not submit plugins that duplicate existing ones unless the original is unmaintained (maintainer unresponsive to issues/PRs for over 30 days) or yours offers major improvements/better design. Contribute upstream first whenever possible; if submitting a successor, link your upstream issue/PR in the submission
+
+### Built-in Alternatives
+
+To keep plugins lightweight and minimize external package requirements, always prefer DMS built-in CLI commands and QML services over external packages:
+
+#### 1. CLI Replacements (`dms <command>`)
+
+| Purpose | External Package | DMS Built-in CLI | Advantage |
+| :--- | :--- | :--- | :--- |
+| **Clipboard** | `wl-clipboard` (`wl-copy`, `wl-paste`), `xclip` | `dms cl copy <text>`, `dms cl paste` | Works uniformly across compositors, no `wl-clipboard` dependency needed |
+| **Notifications** | `libnotify` (`notify-send`) | `dms notify "<title>" "<message>"` | Integrates with DMS notification center, supports `--file` and action buttons |
+| **Screenshots** | `grim`, `slurp`, `grimblast`, `flameshot` | `dms screenshot [region\|full\|all]` | Native Wayland capture with region selector |
+| **HTTP Downloads** | `curl`, `wget` (basic file/image fetch) | `dms dl <url> -o <path>` | Built-in downloader, avoids requiring `curl` for basic requests |
+| **Open File / URL** | `xdg-open`, `gio open` | `dms open <url\|path>` | Uses DMS application picker and browser selection |
+| **QR Codes** | `qrencode` | `dms qr "<text>"` | Built-in encoder; supports terminal display or PNG output via stdout |
+| **Trash Management** | `trash-cli` | `dms trash [put\|list\|restore\|empty]` | Conforms to XDG Trash Spec 1.0 safely without shell rm |
+| **Brightness Control**| `brightnessctl` | `dms brightness <percent>` | Direct hardware brightness control |
+| **Display Query** | `wlr-randr`, `xrandr` | `dms randr` | Returns output metadata in structured JSON |
+
+#### 2. In-Process QML Services (Avoid Spawning Shells)
+
+When writing QML, prefer native DMS services over spawning shell processes via `Proc.runCommand`:
+
+| Capability | Shell Command to Avoid | QML API to Use |
+| :--- | :--- | :--- |
+| **Audio Volume & Mute** | `pactl`, `wpctl`, `amixer` | `AudioService` (`defaultSink.volume`, `defaultSink.muted`, `setVolume`, `toggleMute`) |
+| **Network & VPN** | `nmcli`, `ip route` | `NetworkService` (`activeVpn`, `vpnConnections`, `toggleVpn`) |
+| **Bluetooth** | `bluetoothctl` | `BluetoothService` (`devices`, `toggleDevice`, `adapterState`) |
+| **Do Not Disturb & Power** | `loginctl`, `systemctl suspend`, `swaylock` | `SessionData.setDoNotDisturb(...)`, `SessionService` |
+| **Output / Display Events**| Polling `niri msg outputs` or `hyprctl monitors` | `NiriService.outputs` or `CompositorService.screens` reactive bindings |
+| **State Persistence** | `sh -c 'printf ... > file'` | `PluginService.loadPluginState()` / `savePluginState()` or `Quickshell.Io.FileView` |
+| **Process Control** | `killall -SIG...`, `pkill` (`psmisc`) | `Quickshell.Io.Process.signal(signum)` on the process instance |
+
+## Plugin Translations
+
+Any plugin can ship its own translations — a `translations/` directory with one JSON file per locale, loaded by DMS automatically. No approval needed, no registry involvement. See the [plugin development docs](https://danklinux.com/docs/dankmaterialshell/plugin-development#translations) for the file format and the `I18n.trFor` API.
+
+On top of that, registry plugins can apply to join the central DMS POEditor project — the same one community translators use for DMS itself, currently covering 21 languages. Approved plugins get their strings translated alongside the shell, and finished translations come back to the plugin repo as PRs.
+
+**Before applying:**
+
+- Your plugin is listed in this registry and actively maintained
+- Every user-facing string goes through `I18n.trFor("<your plugin id>", ...)`, with the id as a literal string exactly matching the `id` in your `plugin.json` — the extraction tooling reads call sites, so a variable there means your strings never get picked up
+
+**Applying:**
+
+1. Open a PR setting `"i18n": true` in your plugin's registry JSON. Include a short note: what the plugin does, roughly how many strings
+2. On approval, a maintainer adds your repo to the translation sync. Your English strings get uploaded to POEditor, tagged with your plugin id
+3. As translators finish languages, you get PRs adding `translations/<locale>.json` files to your repo — merge them and the translations ship with your next plugin update
+
+**IMPORTANT**: Once your strings are in POEditor, renaming a term is a delete-plus-add — the old term's translations across every language are discarded. Keep English strings stable.
 
 ## Questions?
 
@@ -191,7 +263,7 @@ Thank you for contributing a theme to the Dank Material Shell registry!
 **Color Fields (required for both dark and light):**
 - **primary**: Primary accent color
 - **primaryText**: Text color on primary backgrounds
-- **primaryContainer**: Container using primary color
+- **primaryContainer**: Container using primary color. Exported to apps as is, DMS paints a softer derived container (see **softPrimaryContainer** below)
 - **secondary**: Secondary accent color
 - **surface**: Main surface/card background
 - **surfaceText**: Text on surfaces
@@ -214,6 +286,21 @@ Thank you for contributing a theme to the Dank Material Shell registry!
 > Material palette and are exported to matugen templates (VS Code, KDE, Firefox, Zed,
 > etc.), so external apps themed via DMS use them. They are still required for a valid
 > theme — pick sensible values that fit your palette.
+
+**Optional color fields (derived when absent, used as is when present):**
+- **surfaceContainerHighest**: defaults to `surfaceContainerHigh`
+- **surfaceBright**, **surfaceDim**: bright and dim surface variants
+- **outlineVariant**: defaults to `outline` at 60% opacity
+- **secondaryContainer**, **tertiaryContainer**: containers using the secondary / tertiary color
+- **softPrimaryContainer**: the tinted fill DMS paints wherever a primary container appears (clock and weather cards, badges, icon boxes). Otherwise a mix of `surfaceContainer` and `primary`, both taken at one tone just above `surfaceContainer`
+- **containerTint**: number from `0` to `1`, the share of `primary` in that mix. Defaults to `0.5` in dark and `1` in light. Lower reads more pastel
+- **onPrimaryContainer**, **onSecondaryContainer**, **onTertiaryContainer**: text on those containers, otherwise picked for 4.5:1 contrast. On the derived `softPrimaryContainer` an `onPrimaryContainer` you set is kept only when it reads at 4.5:1; set `softPrimaryContainer` too and both are used as is
+- **inverseSurface**, **inverseOnSurface**: inverted surface pair for tooltips
+- **selectedContainer**, **onSelectedContainer**: the fill and text behind the selected item of every list. Otherwise `secondaryContainer` when it is set and readable, else a 20% `primary` tint on `surfaceContainerHigh` that keeps `surfaceText` at 4.5:1
+- **accentOnSelectedContainer**, **accentOnPrimaryContainer**: accent glyphs on those containers, otherwise `primary` when it reads at 3:1
+- **accents**: categorical badge hues, see the [theme docs](https://danklinux.com/docs/dankmaterialshell/custom-themes#accents)
+
+DMS never adjusts a color you set, even one that fails a contrast check. Derivation only fills gaps. The one exception is `onPrimaryContainer` without `softPrimaryContainer`, as noted above.
 
 ### Theme Variants (Optional)
 

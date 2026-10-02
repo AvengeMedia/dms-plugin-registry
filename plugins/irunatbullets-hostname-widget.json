@@ -6,7 +6,7 @@
   "repo": "https://github.com/irunatbullets/hostname-widget",
   "author": "irunatbullets",
   "description": "A widget for displaying your hostname",
-  "dependencies": ["dms"],
+  "dependencies": [],
   "compositors": ["any"],
   "distro": ["any"],
   "screenshot": "https://raw.githubusercontent.com/irunatbullets/hostname-widget/main/assets/screenshot.png"

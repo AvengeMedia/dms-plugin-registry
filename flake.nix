@@ -18,6 +18,28 @@
       checks = self.packages;
       packages = forEachSystem (system: import ./nix/default.nix { pkgs = pkgsForEach.${system}; });
 
+      devShells = forEachSystem (
+        system:
+        let
+          pkgs = pkgsForEach.${system};
+          pythonEnv = pkgs.python3.withPackages (
+            ps: with ps; [
+              requests
+              jinja2
+            ]
+          );
+        in
+        {
+          default = pkgs.mkShell {
+            packages = with pkgs; [
+              pythonEnv
+              nixd
+              self.formatter.${system}
+            ];
+          };
+        }
+      );
+
       nixosModules = {
         dms-plugin-registry = ./nix/module.nix;
         default = self.nixosModules.dms-plugin-registry;

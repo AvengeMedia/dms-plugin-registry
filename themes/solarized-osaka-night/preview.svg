@@ -1,45 +1,75 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="484" height="240" viewBox="0 0 484 240">
+<svg xmlns="http://www.w3.org/2000/svg" width="564" height="240" viewBox="0 0 564 240">
   <g transform="translate(0, 0)">
-  <rect width="240" height="240" fill="#000c10"/>
-  <rect x="8" y="8" width="224" height="224" rx="8" fill="#001419"/>
-  <rect x="16" y="16" width="208" height="36" rx="6" fill="#001419"/>
-  <text x="28" y="40" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#9eabac">Solarized Osaka Night (dark)</text>
-  <rect x="16" y="60" width="208" height="72" rx="6" fill="#00202a"/>
-  <text x="28" y="82" font-family="system-ui, sans-serif" font-size="11" fill="#9eabac">Surface Text</text>
-  <text x="28" y="98" font-family="system-ui, sans-serif" font-size="10" fill="#576d74">Outline color</text>
-  <rect x="28" y="108" width="72" height="18" rx="9" fill="#29a298"/>
-  <text x="64" y="120" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#000c10">Primary</text>
-  <rect x="108" y="108" width="48" height="18" rx="4" fill="#268bd3"/>
-  <rect x="16" y="140" width="100" height="52" rx="6" fill="#001419"/>
-  <rect x="24" y="148" width="84" height="36" rx="4" fill="#000c10"/>
-  <text x="66" y="170" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#9eabac">Background</text>
-  <rect x="124" y="140" width="100" height="52" rx="6" fill="#001419"/>
-  <circle cx="148" cy="166" r="9" fill="#db302d"/>
-  <circle cx="172" cy="166" r="9" fill="#b28500"/>
-  <circle cx="196" cy="166" r="9" fill="#268bd3"/>
-  <rect x="16" y="200" width="208" height="24" rx="4" fill="#29a298" opacity="0.15"/>
-  <text x="120" y="216" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#9eabac">Surface Tint Overlay</text>
+  <rect width="280" height="240" fill="#000c10"/>
+
+  <rect width="280" height="26" fill="#001419"/>
+  <rect x="12" y="9" width="20" height="8" rx="4" fill="#29a298"/>
+  <circle cx="40" cy="13" r="3" fill="#adb7b7"/>
+  <circle cx="50" cy="13" r="3" fill="#adb7b7"/>
+  <text x="140" y="17" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#29a298">9:41</text>
+  <circle cx="238" cy="13" r="4" fill="#268bd3"/>
+  <circle cx="252" cy="13" r="4" fill="#b28500"/>
+  <circle cx="266" cy="13" r="4" fill="#db302d"/>
+
+  <rect x="14" y="38" width="252" height="190" rx="12" fill="#001419" stroke="#576d74" stroke-opacity="0.5"/>
+  <text x="28" y="61" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#9eabac">Solarized Osaka Night (dark)</text>
+  <text x="28" y="77" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" fill="#adb7b7">Secondary text</text>
+
+  <rect x="26" y="87" width="228" height="50" rx="8" fill="#00202a"/>
+  <text x="38" y="105" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="500" fill="#9eabac">Nested card</text>
+  <text x="38" y="120" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#adb7b7">Body text on an elevated surface</text>
+
+  <rect x="26" y="145" width="228" height="22" rx="6" fill="#001419" stroke="#576d74" stroke-opacity="0.4"/>
+  <text x="38" y="160" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#adb7b7">Search</text>
+
+  <rect x="26" y="175" width="78" height="22" rx="11" fill="#29a298"/>
+  <text x="65" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" font-weight="600" text-anchor="middle" fill="#000c10">Button</text>
+  <rect x="112" y="175" width="70" height="22" rx="11" fill="#29a298" fill-opacity="0.15"/>
+  <text x="147" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" font-weight="500" text-anchor="middle" fill="#29a298">Accent</text>
+  <rect x="190" y="175" width="64" height="22" rx="11" fill="#002c38"/>
+  <text x="222" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" text-anchor="middle" fill="#9eabac">Chip</text>
+
+  <circle cx="34" cy="212" r="7" fill="#29a298"/>
+  <circle cx="54" cy="212" r="7" fill="#268bd3"/>
+  <circle cx="74" cy="212" r="7" fill="#db302d"/>
+  <circle cx="94" cy="212" r="7" fill="#b28500"/>
+  <circle cx="114" cy="212" r="7" fill="#268bd3"/>
 </g>
-  <rect x="240" y="0" width="4" height="240" fill="#888"/>
-  <g transform="translate(244, 0)">
-  <rect width="240" height="240" fill="#fdf5e2"/>
-  <rect x="8" y="8" width="224" height="224" rx="8" fill="#ede7d3"/>
-  <rect x="16" y="16" width="208" height="36" rx="6" fill="#ede7d3"/>
-  <text x="28" y="40" font-family="system-ui, sans-serif" font-size="12" font-weight="600" fill="#576d74">Solarized Osaka Night (light)</text>
-  <rect x="16" y="60" width="208" height="72" rx="6" fill="#e4ddc8"/>
-  <text x="28" y="82" font-family="system-ui, sans-serif" font-size="11" fill="#576d74">Surface Text</text>
-  <text x="28" y="98" font-family="system-ui, sans-serif" font-size="10" fill="#adb7b7">Outline color</text>
-  <rect x="28" y="108" width="72" height="18" rx="9" fill="#1a6265"/>
-  <text x="64" y="120" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#fdf5e2">Primary</text>
-  <rect x="108" y="108" width="48" height="18" rx="4" fill="#1a6397"/>
-  <rect x="16" y="140" width="100" height="52" rx="6" fill="#ede7d3"/>
-  <rect x="24" y="148" width="84" height="36" rx="4" fill="#fdf5e2"/>
-  <text x="66" y="170" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#576d74">Background</text>
-  <rect x="124" y="140" width="100" height="52" rx="6" fill="#ede7d3"/>
-  <circle cx="148" cy="166" r="9" fill="#db302d"/>
-  <circle cx="172" cy="166" r="9" fill="#b28500"/>
-  <circle cx="196" cy="166" r="9" fill="#1a6397"/>
-  <rect x="16" y="200" width="208" height="24" rx="4" fill="#1a6265" opacity="0.15"/>
-  <text x="120" y="216" font-family="system-ui, sans-serif" font-size="9" text-anchor="middle" fill="#576d74">Surface Tint Overlay</text>
+  <rect x="280" y="0" width="4" height="240" fill="#888"/>
+  <g transform="translate(284, 0)">
+  <rect width="280" height="240" fill="#fdf5e2"/>
+
+  <rect width="280" height="26" fill="#ede7d3"/>
+  <rect x="12" y="9" width="20" height="8" rx="4" fill="#1a6265"/>
+  <circle cx="40" cy="13" r="3" fill="#637981"/>
+  <circle cx="50" cy="13" r="3" fill="#637981"/>
+  <text x="140" y="17" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#1a6265">9:41</text>
+  <circle cx="238" cy="13" r="4" fill="#1a6397"/>
+  <circle cx="252" cy="13" r="4" fill="#b28500"/>
+  <circle cx="266" cy="13" r="4" fill="#db302d"/>
+
+  <rect x="14" y="38" width="252" height="190" rx="12" fill="#ede7d3" stroke="#adb7b7" stroke-opacity="0.5"/>
+  <text x="28" y="61" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#576d74">Solarized Osaka Night (light)</text>
+  <text x="28" y="77" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" fill="#637981">Secondary text</text>
+
+  <rect x="26" y="87" width="228" height="50" rx="8" fill="#e4ddc8"/>
+  <text x="38" y="105" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="500" fill="#576d74">Nested card</text>
+  <text x="38" y="120" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#637981">Body text on an elevated surface</text>
+
+  <rect x="26" y="145" width="228" height="22" rx="6" fill="#ede7d3" stroke="#adb7b7" stroke-opacity="0.4"/>
+  <text x="38" y="160" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9" fill="#637981">Search</text>
+
+  <rect x="26" y="175" width="78" height="22" rx="11" fill="#1a6265"/>
+  <text x="65" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" font-weight="600" text-anchor="middle" fill="#fdf5e2">Button</text>
+  <rect x="112" y="175" width="70" height="22" rx="11" fill="#1a6265" fill-opacity="0.15"/>
+  <text x="147" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" font-weight="500" text-anchor="middle" fill="#1a6265">Accent</text>
+  <rect x="190" y="175" width="64" height="22" rx="11" fill="#dbd4be"/>
+  <text x="222" y="190" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" text-anchor="middle" fill="#576d74">Chip</text>
+
+  <circle cx="34" cy="212" r="7" fill="#1a6265"/>
+  <circle cx="54" cy="212" r="7" fill="#1a6397"/>
+  <circle cx="74" cy="212" r="7" fill="#db302d"/>
+  <circle cx="94" cy="212" r="7" fill="#b28500"/>
+  <circle cx="114" cy="212" r="7" fill="#1a6397"/>
 </g>
 </svg>

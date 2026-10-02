@@ -1,0 +1,23 @@
+{
+    "id": "keystrokes",
+    "name": "Keystrokes",
+    "capabilities": [
+        "daemon",
+        "control-center"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/Tz-slayer/keystrokes",
+    "author": "Tz-slayer",
+    "description": "Shows every key you press as on-screen keycaps, with press counts and keystroke history. Ported from keyviz, for screencasts and tutorials.",
+    "dependencies": [
+        "libinput",
+        "python3"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Tz-slayer/keystrokes/main/docs/cover.png"
+}

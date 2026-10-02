@@ -1,0 +1,13 @@
+{
+    "id": "proxyTraffic",
+    "name": "Proxy Traffic",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/Lemon-mon-254/dms-proxy-traffic",
+    "author": "lemonmon",
+    "description": "Realtime throughput and cumulative traffic of your local proxy, tracked via nftables",
+    "dependencies": ["nft"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Lemon-mon-254/dms-proxy-traffic/main/screenshots/1.png"
+}

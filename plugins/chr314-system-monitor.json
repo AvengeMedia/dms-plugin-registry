@@ -1,0 +1,13 @@
+{
+  "id": "systemMonitor",
+  "name": "System Monitor",
+  "capabilities": ["dankbar-widget"],
+  "category": "monitoring",
+  "repo": "https://github.com/chr314/dms-system-monitor",
+  "author": "Christoforos Aslanov",
+  "description": "Real-time CPU, temperature, RAM, network, disk and GPU line charts for the DankBar",
+  "dependencies": ["dgop"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/chr314/dms-system-monitor/refs/heads/master/screenshots/popup.png"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "batteryPlus",
+    "name": "Battery Plus",
+    "capabilities": ["dankbar-widget", "control-center"],
+    "category": "monitoring",
+    "repo": "https://github.com/arcatva/dms-battery-plus",
+    "author": "arcatva",
+    "description": "Battery panel with phone-style charge history, detailed stats and power profiles",
+    "dependencies": ["upower"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/arcatva/dms-battery-plus/main/screenshots/popout.png"
+}

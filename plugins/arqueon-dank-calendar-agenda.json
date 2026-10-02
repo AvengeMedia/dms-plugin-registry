@@ -1,0 +1,32 @@
+{
+    "id": "dankCalendarAgenda",
+    "name": "Dank Calendar Agenda",
+    "capabilities": [
+        "dankbar-widget",
+        "ipc"
+    ],
+    "category": "productivity",
+    "repo": "https://github.com/arqueon/dms-dankcalendar",
+    "description": "dcal countdown and scrollable agenda with keyboard navigation, event copying, meeting links and IPC shortcuts; opens events in DankCalendar and keeps the countdown width stable.",
+    "version": "1.5.4",
+    "author": "arqueon",
+    "icon": "calendar_today",
+    "type": "widget",
+    "component": "./DankCalendarWidget.qml",
+    "settings": "./DankCalendarSettings.qml",
+    "permissions": [
+        "settings_read",
+        "settings_write"
+    ],
+    "dependencies": [
+        "dcal",
+        "jq"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/arqueon/dms-dankcalendar/main/assets/screenshot.png"
+}
