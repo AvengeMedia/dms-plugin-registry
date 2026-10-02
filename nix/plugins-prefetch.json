@@ -3864,6 +3864,43 @@
     "sha256": "03hpn4drwvfkqyqx046awcch19aw7jgr2c5i5kfvgajffdk08xrp",
     "url": "https://github.com/NordicsSys/DankSystemDoctor"
   },
+  "dankTimeLog": {
+    "date": "2026-10-01T16:15:46-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-E3djOXWjpCQXv2otyvnLceB8xjGkoUFJr0A4du5HxnQ=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "bash-win",
+      "capabilities": [
+        "dankbar-widget",
+        "daemon",
+        "ipc"
+      ],
+      "category": "productivity",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Track time against your own presets from a bar pill and popout, with per-preset averages per day for today, this week, or the last N days. One timer at a time, stopped automatically on suspend or power-off, with IPC commands for keybindings.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankTimeLog",
+      "name": "Dank Time Log",
+      "repo": "https://github.com/bash-win/DankTimeLog",
+      "requires_dms": ">=1.6.2",
+      "screenshot": "https://raw.githubusercontent.com/bash-win/DankTimeLog/main/screenshot.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/bv48saxrq7jw9hcxzx678cm1msgqgshx-DankTimeLog",
+    "rev": "cb6430e4f767699c6c5eeb68881d3f619dc227d4",
+    "rootDir": "",
+    "sha256": "0x668zp7cf20mx4l38d46737rq3irgwwlbbapwbj9953flwn6xqk",
+    "url": "https://github.com/bash-win/DankTimeLog"
+  },
   "dankTodo": {
     "date": "2026-06-29T12:29:29+02:00",
     "deepClone": false,
