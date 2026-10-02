@@ -3305,7 +3305,7 @@ List, search, create, and complete dcal tasks from the launcher, with natural la
 
 #### [GitHub Inbox](https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin)
 
-Shows your GitHub notifications (aka inbox) in a popup and lets you mark them as read or done.
+View and manage GitHub inbox messages (notifications) from a DMS popup widget
 
 <strong>requires DMS version</strong>: <em>>=1.2.0</em>
 
@@ -3314,7 +3314,7 @@ Shows your GitHub notifications (aka inbox) in a popup and lets you mark them as
 - author: TMS-Namespace
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: curl, secret-tool, jq
+- dependencies: curl, secret-tool, jq, notify-send, file, bash
 - distro: any
 
 
