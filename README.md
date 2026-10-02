@@ -537,6 +537,36 @@ Fetch and apply Windows Spotlight wallpapers from DankBar
 
 
 
+#### [Wallhaven Carousel](https://github.com/alicercedigital/wallhaven-carousel)
+
+Fullscreen skewed carousel of your wallpaper folder, plus favorites, a shuffle among favorites only, color and tag filters, delete to Trash, and Wallhaven search, full-size preview and download in the same overlay.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: wallhavenCarousel
+- name: Wallhaven Carousel
+- author: dretz
+- compositors: any
+- capabilities: daemon, wallpaper, network
+- dependencies: python3, imagemagick
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/alicercedigital/wallhaven-carousel/main/assets/screenshot.jpg)
+
+</details>
+
+
+
+
+
 #### [Wallpaper by Workspace](https://github.com/3DTreeDee/wallpaperByWorkspace)
 
 Sets a different wallpaper per niri workspace, with fixed or alternate mode, optional periodic rotation, and a "show desktop" transition.
