@@ -3662,12 +3662,12 @@
     "url": "https://github.com/alcxyz/DankSession"
   },
   "dankSoftwareDepot": {
-    "date": "2026-10-01T08:02:52+02:00",
+    "date": "2026-10-01T20:05:21+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-AwmM2qUFQbD6q/3ml2v3ZYT5OCl2wGRYD8TpbOQGd2k=",
+    "hash": "sha256-oYWYq/y5kLZ9AzPvbXGpS95frXCoEY21zbW9B3zXiWU=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3698,12 +3698,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.6.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "1.4.0"
+      "version": "1.4.2"
     },
-    "path": "/nix/store/6drvsiab9p8hy2aaqhamwa6c7wk118mn-DankSoftwareDepot",
-    "rev": "accd97b8aa2ec6604eb8e9e4a236283b52b2d861",
+    "path": "/nix/store/9vw290xp6k36hhaz5kryqs2qmyvwg144-DankSoftwareDepot",
+    "rev": "ff49275d5b1f47f363f807d248d26d7421f60065",
     "rootDir": "",
-    "sha256": "0sbp0vj6rsf41xc69h3n54wgk135yxmrgrpxmgxb0h85lpd8q283",
+    "sha256": "0rc9sxy0ggdmrnsqs4d8f2nmzpjbm5qnvvrk0dyvd45rzjmri1d1",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -7197,12 +7197,12 @@
     "url": "https://github.com/notsopreety/kbdBacklightOSD"
   },
   "keyboardLayoutSearch": {
-    "date": "2026-09-27T07:48:49+03:00",
+    "date": "2026-10-01T21:36:02+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Dd3LsWq4w7/Px03gRf3jUN9+j27f3M8kPaQGzia9VCU=",
+    "hash": "sha256-iNzaSbUq2khRxbMBJa9joOaRq9KBGe2Bha4J70eu0h0=",
     "leaveDotGit": false,
     "meta": {
       "author": "korbash",
@@ -7229,21 +7229,21 @@
       "repo": "https://github.com/korbash/dms-keyboard-layout-search",
       "requires_dms": ">=1.6.2",
       "screenshot": "https://raw.githubusercontent.com/korbash/dms-keyboard-layout-search/main/assets/keyboard-layout-search.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/6pzniw1jr5id7rsjgwh4jlf228za3416-dms-keyboard-layout-search",
-    "rev": "25b6f45d3f22b2b4f9e08e5921aee98a82ab7186",
+    "path": "/nix/store/ks0a12xwadbwr5bqqh922nmc9s8a6493-dms-keyboard-layout-search",
+    "rev": "577d3d441f2435934cd5a8399c78a30f8ba731a7",
     "rootDir": "",
-    "sha256": "09alplkcw1m47ljczp6zds7pxpshwgylbq2dqz7vzhxqdaqwpp8d",
+    "sha256": "07fjmr3yy2dfhn0ys6c1samr3rm0cfpja0dkqm8linianm4xmp48",
     "url": "https://github.com/korbash/dms-keyboard-layout-search"
   },
   "keystrokes": {
-    "date": "2026-09-20T13:54:41+08:00",
+    "date": "2026-10-02T00:48:45+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Sc1l6jN9QjxEfomhueHJ+R72YmH3HiMUuEsiTNAjmjM=",
+    "hash": "sha256-pZoR77+/21sJeiMhLSty/fsnmUa2sm50sDClys05DK0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Tz-slayer",
@@ -7269,10 +7269,10 @@
       "screenshot": "https://raw.githubusercontent.com/Tz-slayer/keystrokes/main/docs/cover.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/0kpfy4yx2jm4vx8ilzwqaw59zpg092ay-keystrokes",
-    "rev": "f2c4e232a9e2679cb0e08c516402b95e054ff63d",
+    "path": "/nix/store/gzrg8gps25pnm0bfcijn8hiqa0zy9yjx-keystrokes",
+    "rev": "afb1636e01265d5195939a11c1aef9a72f2ecf4e",
     "rootDir": "",
-    "sha256": "0cws4g84q8jbp0a267ppc5igc7prr7hvk8c9gr23qhkx6gm6bka9",
+    "sha256": "1b8c776wm99hn1s6xcmn8scjgyzxf8mjs893g84mpnxzpzpi36m5",
     "url": "https://github.com/Tz-slayer/keystrokes"
   },
   "khalCalendar": {
@@ -9434,12 +9434,12 @@
     "url": "https://github.com/orangedeck-dev/dms-plugin"
   },
   "orbitBluetooth": {
-    "date": "2026-10-01T12:20:54+02:00",
+    "date": "2026-10-01T18:36:33Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bhpKMdaMOpTFa/Ff3R5p6NkXGEdUVQDM4hD1Ixw6QNk=",
+    "hash": "sha256-0jMKTDau2PJf3KUjih4TJNCorfDAtWD7/NLdxct/cvU=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -9467,12 +9467,12 @@
       "repo": "https://github.com/lung595/orbitBluetooth",
       "requires_dms": ">=1.6.0",
       "screenshot": "https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png",
-      "version": "1.7.1"
+      "version": "1.10.0"
     },
-    "path": "/nix/store/2i4w3wilakzscbnbgaa5n0987fi9vnsq-orbitBluetooth",
-    "rev": "d4f87c4f3ca164ead99885d655b38ebece0cbc73",
+    "path": "/nix/store/565zbsa9im659j88a1dph16npjjaigwh-orbitBluetooth",
+    "rev": "628f4188b765aea0e3c9343b5694770b159ff034",
     "rootDir": "",
-    "sha256": "1na078f27x8hwb600mal8wc1gng8d4gdspzidg2r8flcsqqll6kf",
+    "sha256": "1xbjgz5wbpfjzkxn1df0y2nsil142cg8l8x5vigz5n5f6r60lcyj",
     "url": "https://github.com/lung595/orbitBluetooth"
   },
   "pangolinWidget": {
@@ -10752,12 +10752,12 @@
     "url": "https://github.com/satoshoe-dev/dms-sessionedge"
   },
   "shazam": {
-    "date": "2026-08-31T04:19:52+03:00",
+    "date": "2026-10-02T02:22:54+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-nU6COauR2CLvfnzjn9aAhCctdihORbFSaRwUg7rCCNU=",
+    "hash": "sha256-RpXvy7fd7kQycQs1Ojrr1mxlL0oMRLyzqMF5qXlJdMg=",
     "leaveDotGit": false,
     "meta": {
       "author": "AwesomeMi",
@@ -10780,13 +10780,14 @@
       "id": "shazam",
       "name": "Shazam",
       "repo": "https://github.com/AwesomeMi/dms-shazam",
+      "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/AwesomeMi/dms-shazam/main/screenshot.png",
-      "version": "1.3.0"
+      "version": "1.3.1"
     },
-    "path": "/nix/store/mivdh56w65325d31qbkprwcmnnv7y65i-dms-shazam",
-    "rev": "98bc392295590b3705d9db0e730497609950f164",
+    "path": "/nix/store/kgfkbdzdndzdr7g5x6naaf7qbh96d00z-dms-shazam",
+    "rev": "9b96ebf8f4f0b62dd2d979fb0c0617f8131f6865",
     "rootDir": "",
-    "sha256": "1m88qax8650wd59b2iaf51v2s9w4h3b9zqvwgvpj5n4imcwq4klx",
+    "sha256": "1j3l95wsjyf1m2rvqi0c98pnav6nxcx3ld8bf4r49vnxnz5yz5a6",
     "url": "https://github.com/AwesomeMi/dms-shazam"
   },
   "shellyUpdater": {
@@ -10972,12 +10973,12 @@
     "url": "https://github.com/knappancash/SitStandReminder"
   },
   "smartTimer": {
-    "date": "2026-10-01T12:22:37+02:00",
+    "date": "2026-10-01T20:10:28+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-YZpD9M+ymNKSsx/lnpB2QJn/42IIwGAz+oeBalCz+Aw=",
+    "hash": "sha256-S4397dkIuf/khwNrrlYSuNPwQhgYqMzlq2CfD9EQ4do=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -11003,10 +11004,10 @@
       "screenshot": "https://raw.githubusercontent.com/lung595/Sands/main/screenshot.png",
       "version": "1.4.0"
     },
-    "path": "/nix/store/pcya18irqj0zq251hqwcdbkwg529xhkp-Sands",
-    "rev": "eaa694b9223db2ad2321763abd39fc576616fca4",
+    "path": "/nix/store/y4yi7c6anzzzcijwpbxz17nkypfhdka8-Sands",
+    "rev": "591d519938cac8ef361abfd0725fe85738648750",
     "rootDir": "",
-    "sha256": "037qnd86m0c7z8rn1h08cbizz6a0fs89xr8znf9d565jrzs476k1",
+    "sha256": "1np1238hz7v0mgjwra0q311g1lxq29bawsq3hzjgzf88v7nzv3ab",
     "url": "https://github.com/lung595/Sands"
   },
   "splayerDesktopLyrics": {
