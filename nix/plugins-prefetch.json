@@ -6365,9 +6365,12 @@
       "dependencies": [
         "curl",
         "secret-tool",
-        "jq"
+        "jq",
+        "notify-send",
+        "file",
+        "bash"
       ],
-      "description": "Shows your GitHub notifications (aka inbox) in a popup and lets you mark them as read or done.",
+      "description": "View and manage GitHub inbox messages (notifications) from a DMS popup widget",
       "distro": [
         "any"
       ],
