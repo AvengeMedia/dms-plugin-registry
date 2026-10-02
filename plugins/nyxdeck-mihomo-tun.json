@@ -9,5 +9,6 @@
     "dependencies": ["python3", "mihomo"],
     "compositors": ["any"],
     "distro": ["any"],
+    "requires_dms": ">=1.6.1",
     "screenshot": "https://github.com/NyxDeck/mihomo-tun/raw/main/screenshot.png"
 }
