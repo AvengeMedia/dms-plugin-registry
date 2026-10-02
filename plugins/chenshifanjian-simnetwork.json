@@ -20,7 +20,7 @@
         "zenity",
         "python3",
         "convert",
-        "mmsd-tng"
+        "mmsdtng"
     ],
     "compositors": [
         "niri"
@@ -28,5 +28,6 @@
     "distro": [
         "any"
     ],
-    "screenshot": "https://raw.githubusercontent.com/chenshifanjian/dms-sim-network/main/docs/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/chenshifanjian/dms-sim-network/main/docs/screenshot.png",
+    "requires_dms": ">=1.6.0"
 }
