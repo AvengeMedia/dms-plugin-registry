@@ -6,7 +6,7 @@
   "repo": "https://github.com/muadzmo/prayertimes",
   "author": "muadz",
   "description": "Display Islamic prayer times from Aladhan API",  
-  "dependencies": [],
+  "dependencies": ["notify-send"],
   "compositors": ["any"],
   "distro": ["any"],
   "screenshot": "https://raw.githubusercontent.com/muadzmo/prayertimes/refs/heads/main/screenshot.png"
