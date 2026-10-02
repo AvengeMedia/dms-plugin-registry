@@ -9861,7 +9861,7 @@ An always-on-top keystroke and mouse click visualizer for tutorials.
 
 Region screenshot with live annotation: draw while you select. Rectangle, ellipse, line, arrow, pen, highlighter, text, mosaic and numbered markers. The selection stays movable and resizable with the toolbar following it; the result is copied to the clipboard or saved to a file at native resolution.
 
-
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
 
 - id: screenshotPlus
 - name: Screenshot+
