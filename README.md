@@ -1180,7 +1180,7 @@ Display lyrics from SPlayer in Dank Material Shell.
 
 Identify the song playing around you straight from the DankBar, powered by SongRec
 
-
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: shazam
 - name: Shazam
