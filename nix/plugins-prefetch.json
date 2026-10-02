@@ -10744,6 +10744,7 @@
       "id": "screenshotPlus",
       "name": "Screenshot+",
       "repo": "https://github.com/pcmid/dms-screenshot-plus",
+      "requires_dms": ">=1.6.0",
       "screenshot": "https://raw.githubusercontent.com/pcmid/dms-screenshot-plus/main/screenshots/screenshot.png",
       "version": "0.4.0"
     },
