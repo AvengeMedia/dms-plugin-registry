@@ -12958,6 +12958,44 @@
     "sha256": "1qjynn9znr466hif3z0i735z4jp9y3jbxq4zahd3cc9dp79bzc0l",
     "url": "https://github.com/lucyfire/dms-plugins"
   },
+  "wallpaperEngineControl": {
+    "date": "2026-09-29T20:44:27-07:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-Ily4LbzJ3axrKR3oQg4XrYZnm5xQKKqtFP5iIhvvll4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Gary Wei",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [
+        "linux-wallpaperengine",
+        "python3",
+        "zenity"
+      ],
+      "description": "DankBar widget for linux-wallpaperengine: see what every monitor shows, skip to the next playlist item, pause, or stop to free GPU memory",
+      "distro": [
+        "any"
+      ],
+      "id": "wallpaperEngineControl",
+      "name": "Wallpaper Engine Control",
+      "repo": "https://github.com/garywei944/dms-wallpaper-engine-control",
+      "screenshot": "https://raw.githubusercontent.com/garywei944/dms-wallpaper-engine-control/main/screenshot.png",
+      "version": "2.0.0"
+    },
+    "path": "/nix/store/7kfh32rhbm8b5mzpzk7rxnf1kllk45fy-dms-wallpaper-engine-control",
+    "rev": "2ac31ce938e123d16b01f348a54a32d45629a913",
+    "rootDir": "",
+    "sha256": "0plnxwdj4qpy2jnsla2hkjdng1md2w745s0x55msrpf9phnvhp12",
+    "url": "https://github.com/garywei944/dms-wallpaper-engine-control"
+  },
   "warpToggle": {
     "date": "2026-06-26T19:07:24+03:00",
     "deepClone": false,
