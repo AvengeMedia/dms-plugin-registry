@@ -10712,6 +10712,36 @@ On-screen keyboard overlay, toggled by IPC or an optional DankBar pill
 
 
 
+#### [Virtual Machine Manager](https://github.com/solax76/DmsVirtualManager)
+
+Display libvirt/KVM virtual machine status and management controls (start, pause, shutdown, reboot, save state, virt-viewer)
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: virtManager
+- name: Virtual Machine Manager
+- author: solax76
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: libvirt (virsh), virt-viewer
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/solax76/DmsVirtualManager/main/assets/screen2.jpeg)
+
+</details>
+
+
+
+
+
 #### [Volume Mixer](https://github.com/cwelsys/dms-volume-mixer)
 
 Standalone volume mixer for your bar
