@@ -11382,6 +11382,20 @@ Feature-rich weather widget with current conditions, forecasts, and multiple vie
 
 
 
+### AMOLED Noir
+
+Pure black AMOLED dark theme with a warm cream light mode and WCAG AA accents.
+
+- **Author:** eleve
+- **ID:** `amoledNoir` **Version:** `1.0.0`
+
+![WCAG AA](https://img.shields.io/badge/WCAG_contrast-AA-green)
+
+
+![AMOLED Noir](themes/amoled-noir/preview.svg)
+
+
+
 ### Amoled Black
 
 absolutle black
