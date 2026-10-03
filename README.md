@@ -11172,7 +11172,7 @@ Track departure times of Wiener Linien public transit
 
 
 
-#### [Workspace OSD Flash](https://github.com/AleBles/dms-workspace-osd)
+#### [Workspace OSD Flash](https://github.com/AleBles/dms-plugins)
 
 Briefly shows the id and name of the workspace you just switched to, centered on that screen.
 
@@ -11189,12 +11189,17 @@ Briefly shows the id and name of the workspace you just switched to, centered on
 
 
 
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [dms-workspace-osd](https://github.com/AleBles/dms-plugins/tree/main/dms-workspace-osd) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
 
 
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/AleBles/dms-workspace-osd/main/assets/screenshot.png)
+![screenshot](https://raw.githubusercontent.com/AleBles/dms-plugins/main/dms-workspace-osd/assets/screenshot.png)
 
 </details>
 
