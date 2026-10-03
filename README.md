@@ -7423,7 +7423,7 @@ Choose color format before picking
 - author: Incognitux
 - compositors: any
 - capabilities: control-center, dankbar-widget
-- dependencies: dms
+- dependencies: 
 - distro: any
 
 
