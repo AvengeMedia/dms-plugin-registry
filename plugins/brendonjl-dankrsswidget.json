@@ -6,7 +6,7 @@
   "repo": "https://github.com/BrendonJL/dms-rss-widget",
   "author": "BrendonJL, Xn4m3d, Alessandro Ianne",
   "description": "Desktop widget for RSS/Atom feeds with vim-style keyboard navigation, a reading window with local full-text extraction, and export to markdown notes. Syncs with Miniflux and Google Reader (FreshRSS, Tiny Tiny RSS, Inoreader). Optional local AI via any OpenAI-compatible runtime for per-article summaries, a daily digest and interest ranking. Colour-blindness-safe palettes",
-  "dependencies": ["curl"],
+  "dependencies": ["curl", "wl-clipboard"],
   "compositors": ["any"],
   "distro": ["any"],
   "screenshot": "https://raw.githubusercontent.com/BrendonJL/dms-rss-widget/main/screenshot.png"
