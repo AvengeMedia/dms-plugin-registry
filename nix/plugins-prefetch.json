@@ -4162,12 +4162,12 @@
     "url": "https://github.com/augustocdias/dank-pinentry"
   },
   "dankmailUnread": {
-    "date": "2026-09-30T01:57:47-06:00",
+    "date": "2026-10-02T19:16:58-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-S76IWAqIcotUf90CSk8YZTW0qtI51cllYw0awyDV4GY=",
+    "hash": "sha256-O8b5aKkd02X3DR3ExFozSh2vp2fZWD1OzNwU+tZZbnk=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -4191,12 +4191,12 @@
       "repo": "https://github.com/arqueon/dankmail",
       "requires_dms": ">=1.6.0",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dankmail/main/assets/screenshot.png",
-      "version": "0.3.10"
+      "version": "0.3.11"
     },
-    "path": "/nix/store/zk0pqqlynapjjpzjw70z1d4v5pvqldi0-dankmail",
-    "rev": "ca318b80af5797e5d37d56eaccd1f72e5547d716",
+    "path": "/nix/store/yq6vqgj2h8yyhg8abpnynxx2v2icmw52-dankmail",
+    "rev": "8d22ab99ea3ea9fe35ae2a15936369864dd54bee",
     "rootDir": "",
-    "sha256": "0rp0slhc66hdcdjwkm9rsamb8db5317ll0nxgxa8nwl819c8igjb",
+    "sha256": "0ybfb7bgl56wri73sn6rcyksy7aa6ddc9i0x1pvnblqxm5lgkiiv",
     "url": "https://github.com/arqueon/dankmail"
   },
   "dankscale": {
@@ -5334,12 +5334,12 @@
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dmsThemeSync": {
-    "date": "2026-09-29T20:35:33-06:00",
+    "date": "2026-10-02T18:51:22-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-WuOm/glVqv5JT7L4KzLUem5fMTy6BxtwEdcvpdGfEtY=",
+    "hash": "sha256-1G4GHanetjT25mgRm/LqNAmDCpYOqY5TQWzgh98q+Po=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -5365,12 +5365,12 @@
       "repo": "https://github.com/arqueon/dms-theme-sync",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png",
-      "version": "0.12.4"
+      "version": "0.12.6"
     },
-    "path": "/nix/store/4x8gy92kwkkafsgrmpp3m0kdwjf0rg7s-dms-theme-sync",
-    "rev": "7b796902cf6e2b39d772594aaf63ae5b2911cb90",
+    "path": "/nix/store/q2sfcgx4whd6y2wqf89p9bi22b9clc03-dms-theme-sync",
+    "rev": "edde68a6669f1b2373e6a1494d32cf0aff8a3ecc",
     "rootDir": "",
-    "sha256": "1mhjkz8sabyp25q1n1xs7hqmyvksshr2py5j9x4zxajm17zadqss",
+    "sha256": "1ypq5bgqgq3c859qxa8fjq58629lxbr9n4b8wvv39dnym4fhcvnl",
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
   "dmsVikunja": {
