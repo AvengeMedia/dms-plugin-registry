@@ -1,0 +1,14 @@
+{
+  "id": "sitStandReminder",
+  "name": "Sit/Stand Reminder",
+  "capabilities": ["daemon", "dankbar-widget", "control-center"],
+  "category": "productivity",
+  "repo": "https://github.com/knappancash/SitStandReminder",
+  "author": "Justus",
+  "description": "Reminds you to alternate between sitting and standing with configurable, idle-aware timers.",
+  "dependencies": ["notify-send"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "requires_dms": ">=1.5.0",
+  "screenshot": "https://raw.githubusercontent.com/knappancash/SitStandReminder/main/sit-stand-reminder-preview.png"
+}

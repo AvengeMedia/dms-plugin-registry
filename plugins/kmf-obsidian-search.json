@@ -5,9 +5,10 @@
     "category": "utilities",
     "repo": "https://github.com/kmf/dms-obsidian-search",
     "author": "kmf",
-    "description": "Search notes in your Obsidian vaults by title, folder, and content directly from the DMS launcher",
-    "dependencies": ["xdg-open"],
+    "description": "Full-text search across your Obsidian vaults via the Obsidian CLI, directly from the DMS launcher",
+    "dependencies": ["obsidian", "xdg-open"],
     "compositors": ["any"],
     "distro": ["any"],
-    "screenshot": "https://github.com/kmf/dms-obsidian-search/blob/main/Screenshot.png?raw=true"
+    "screenshot": "https://github.com/kmf/dms-obsidian-search/blob/main/Screenshot.png?raw=true",
+    "requires_dms": ">=1.5.0"
 }

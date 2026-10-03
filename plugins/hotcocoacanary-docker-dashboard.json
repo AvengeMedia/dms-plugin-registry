@@ -1,0 +1,13 @@
+{
+    "id": "dockerDashboard",
+    "name": "Docker Dashboard",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/HotcocoaCanary/Canary-DMS-DockerDashboard",
+    "author": "HotcocoaCanary",
+    "description": "Docker containers, compose projects, images, networks and volumes with start/stop/restart/recreate/delete and live logs",
+    "dependencies": ["docker", "python3"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/HotcocoaCanary/Canary-DMS-DockerDashboard/main/screenshot.png"
+}

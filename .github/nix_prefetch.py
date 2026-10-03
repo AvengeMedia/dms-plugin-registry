@@ -11,6 +11,11 @@ output_path = root / "nix/plugins-prefetch.json"
 
 result = {}
 
+existing = {}
+if output_path.is_file():
+    with output_path.open() as f:
+        existing = json.load(f)
+
 
 def run_prefetch(repo):
     cmd = [
@@ -42,8 +47,16 @@ for plugin_file in plugins_dir.iterdir():
 
     print(f"fetching plugin {plugin_id} from {repo}")
 
-    # Run nix-prefetch-git
-    prefetch = json.loads(run_prefetch(repo))
+    # Run nix-prefetch-git, reusing last-known-good data on transient failures
+    try:
+        prefetch = json.loads(run_prefetch(repo))
+    except subprocess.CalledProcessError:
+        if plugin_id not in existing:
+            print(f"  ERROR: prefetch failed for {plugin_id} and no existing data to reuse")
+            raise
+        print(f"  WARNING: prefetch failed for {plugin_id}, reusing existing data")
+        result[plugin_id] = existing[plugin_id]
+        continue
 
     # Locate plugin.json
     base_path = Path(prefetch["path"])

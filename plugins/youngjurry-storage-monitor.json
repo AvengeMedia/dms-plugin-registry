@@ -1,0 +1,21 @@
+{
+  "id": "storageMonitor",
+  "name": "Storage Monitor",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "category": "system",
+  "repo": "https://github.com/YoungJurry/dms-storage-monitor",
+  "author": "youngshine",
+  "description": "Monitor total and per-partition storage usage with progress bars, and mount or unmount internal and removable drives via udisks2.",
+  "dependencies": [
+    "udisks2"
+  ],
+  "compositors": [
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/YoungJurry/dms-storage-monitor/main/assets/screenshot.png"
+}

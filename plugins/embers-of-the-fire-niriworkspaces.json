@@ -1,0 +1,14 @@
+{
+    "id": "niriWorkspaces",
+    "name": "Niri Workspaces",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/Embers-of-the-Fire/dank-niri-workspaces",
+    "author": "Embers-of-the-Fire",
+    "description": "Search and switch to Niri workspaces by name from the launcher",
+    "dependencies": [],
+    "compositors": ["niri"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/Embers-of-the-Fire/dank-niri-workspaces/raw/main/screenshot.png",
+    "requires_dms": ">0.1.18"
+}

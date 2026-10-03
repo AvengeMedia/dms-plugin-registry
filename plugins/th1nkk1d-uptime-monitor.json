@@ -1,0 +1,14 @@
+{
+    "id": "uptimeMonitor",
+    "name": "Uptime Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/Th1nkK1D/dms-uptime-monitor",
+    "author": "Th1nkK1D",
+    "description": "Periodically checks URLs and alerts on unexpected HTTP status",
+    "dependencies": ["curl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Th1nkK1D/dms-uptime-monitor/main/screenshot.png",
+    "requires_dms": ">=1.6.0"
+}

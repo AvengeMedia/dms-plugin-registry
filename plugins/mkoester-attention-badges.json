@@ -1,0 +1,14 @@
+{
+    "id": "attentionBadges",
+    "name": "Attention Badges",
+    "capabilities": ["daemon", "dankbar-widget", "ipc"],
+    "category": "productivity",
+    "repo": "https://github.com/mkoester/dms-attention-badges",
+    "author": "Mirko Köster",
+    "description": "Per-app bar badges for what happened since you last focused that app, cleared by focusing its window — not an unread counter. Every watched app is a small JSON provider file, so the plugin itself knows nothing about any particular program.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/mkoester/dms-attention-badges/main/docs/screenshot.png",
+    "requires_dms": ">=1.5.0"
+}

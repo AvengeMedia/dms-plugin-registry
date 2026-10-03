@@ -1,0 +1,24 @@
+{
+    "id": "scratchpadHelper",
+    "name": "Scratchpad Helper",
+    "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/fluxwrk/dms-scratchpad-helper",
+    "author": "fluxwrk",
+    "description": "A visual scratchpad picker for MangoWM with cached previews and optional managed named scratchpads",
+    "dependencies": [
+        "mmsg"
+    ],
+    "compositors": [
+        "mangowc"
+    ],
+    "distro": [
+        "any"
+    ],
+    "requires_dms": ">=1.5.0",
+    "screenshot": "https://raw.githubusercontent.com/fluxwrk/dms-scratchpad-helper/main/assets/scratchpad-picker.png"
+}

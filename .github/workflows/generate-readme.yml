@@ -32,6 +32,9 @@ jobs:
       - name: Generate theme previews
         run: python3 .github/generate_theme_previews.py
 
+      - name: Generate WCAG contrast data
+        run: python3 .github/check_wcag.py --write
+
       - name: Generate README
         run: python3 .github/generate.py
 

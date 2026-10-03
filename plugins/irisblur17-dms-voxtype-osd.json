@@ -1,0 +1,14 @@
+{
+    "id": "voxTypeOsd",
+    "name": "VoxType OSD",
+    "capabilities": ["monitoring"],
+    "category": "monitoring",
+    "repo": "https://github.com/irisblur17/dms-voxtype-osd",
+    "author": "Iris Blur",
+    "description": "VoxType recording and transcription waveform OSD",
+    "dependencies": ["voxtype", "voxtype-audio-bridge"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/irisblur17/dms-voxtype-osd/main/screenshot.png",
+    "requires_dms": ">=1.5.0"
+}
