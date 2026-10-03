@@ -9,7 +9,7 @@
     "category": "networking",
     "repo": "https://github.com/chenshifanjian/dms-sim-network",
     "author": "chenshifanjian",
-    "description": "管理 4G 模块：流量与实时网速、短信与彩信收发、GPS 定位、桌面通知、短信归档到 Obsidian。硬件与运营商限制：彩信收发与话费查询仅针对 Quectel EG25-G + 中国电信，接收彩信需另装 mmsd-tng；扩展功能需手工安装 extras 脚本。公网 IP 查询仅在手动点击时向 api64.ipify.org 发一次请求。安装细节见 README。",
+    "description": "Manage a 4G modem: live data usage and speed, SMS and MMS send/receive with desktop notifications, optional Obsidian archiving, GPS location, and an on-demand monthly data-quota check that sends one carrier SMS. Built and tested on Quectel EG25-G with China Telecom; receiving MMS needs mmsd-tng and the optional helpers are installed manually from extras/. The public-IP lookup is a manual single request to api64.ipify.org.",
     "dependencies": [
         "mmcli",
         "nmcli",
