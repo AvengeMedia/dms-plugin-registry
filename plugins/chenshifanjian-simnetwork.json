@@ -9,18 +9,10 @@
     "category": "networking",
     "repo": "https://github.com/chenshifanjian/dms-sim-network",
     "author": "chenshifanjian",
-    "description": "管理 4G 模块：流量与实时网速、短信/彩信收发、GPS 定位、桌面通知与 Obsidian 归档。彩信发送/自愈/话费查询针对 Quectel EG25-G + 中国电信，并需手工安装 extras 脚本与一条免密 systemctl 规则",
+    "description": "管理 4G 模块：流量与实时网速、短信/彩信收发、GPS 定位、桌面通知与 Obsidian 归档。彩信发送/自愈/话费查询针对 Quectel EG25-G + 中国电信，并需手工安装 extras 脚本（含 python3 + pyserial）与一条仅放行 systemctl start/stop ModemManager 的免密规则",
     "dependencies": [
         "mmcli",
-        "nmcli",
-        "notify-send",
-        "curl",
-        "ip",
-        "wl-copy",
-        "zenity",
-        "python3",
-        "convert",
-        "mmsdtng"
+        "nmcli"
     ],
     "compositors": [
         "niri"
