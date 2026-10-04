@@ -4354,6 +4354,36 @@ Monitor and control Mihomo proxy groups, switch nodes, and run latency checks fr
 
 
 
+#### [Modes](https://github.com/l3all/dms-modes)
+
+Android-style Modes: bundle Do Not Disturb, theme, night light, power profile, audio devices and commands into modes you switch on manually, for a set time, or on a schedule. Settings are restored when a mode ends.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: modes
+- name: Modes
+- author: Nicolas Chartier
+- compositors: any
+- capabilities: daemon, dankbar-widget, control-center
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/l3all/dms-modes/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Next Boot Selector](https://github.com/arcatva/dms-next-boot-selector)
 
 Pick which EFI boot entry to load on next reboot via efibootmgr. Bar pill + Control Center widget with a scrollable picker.
