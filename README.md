@@ -10081,14 +10081,14 @@ Control Spotify playback and search tracks via ncspot
 
 DankDash-style media popout with a heart button to save/unsave the current track to your Spotify Library
 
-
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
 
 - id: spotifyLike
 - name: Spotify Like
 - author: Dukko
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: python3, curl
+- dependencies: python3
 - distro: any
 
 
