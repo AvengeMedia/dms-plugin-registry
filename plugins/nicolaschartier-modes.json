@@ -17,5 +17,6 @@
     "distro": [
         "any"
     ],
+    "requires_dms": ">=1.6.0",
     "screenshot": "https://raw.githubusercontent.com/l3all/dms-modes/main/screenshot.png"
 }
