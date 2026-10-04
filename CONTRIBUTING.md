@@ -176,6 +176,10 @@ On top of that, registry plugins can apply to join the central DMS POEditor proj
 
 **IMPORTANT**: Once your strings are in POEditor, renaming a term is a delete-plus-add — the old term's translations across every language are discarded. Keep English strings stable.
 
+## Plugin Lifecycle & Moderation
+
+Plugin status tracking, deprecation, and removal policies are managed by registry maintainers according to [MODERATION.md](MODERATION.md).
+
 ## Questions?
 
 If you have questions about the contribution process, please open an issue in this repository.
