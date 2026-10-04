@@ -25,15 +25,15 @@ Purging a plugin removes its entry from the registry, breaking existing installa
 ### Core Principles
 
 - **Deprecation First**: Flag tracking issues with `/deprecated` or `/unmaintained` instead of deleting the registry entry.
-- **Grace Period**: Non-emergency removals require a cooldown period (14–60 days) to allow user migration and community adoption.
+- **Verification & Grace Period**: Non-emergency removals require verification and cooldown before purging (3 consecutive daily strikes for dead repositories; 60-day adoption window for obsolete plugins).
 - **Adoption First**: If an unmaintained plugin remains useful, priority is given to updating the repository pointer to an active community fork instead of purging.
 
 ### Purge Tiers
 
-| Tier | Reason | Criteria | Grace Period | Action |
+| Tier | Reason | Criteria | Verification / Cooldown | Action |
 | :--- | :--- | :--- | :--- | :--- |
 | **1** | **Emergency** | Malware, security exploits, unauthorized exfiltration, or legal/DMCA takedowns | **None** | Immediate deletion by maintainers |
-| **2** | **Dead Upstream** | Repo deleted or returns 404/410/451 across 3 consecutive automated check runs | **14 days** | Automated removal PR merged if unaddressed |
+| **2** | **Dead Upstream** | Repo deleted or returns 404/410/451 across 3 consecutive daily automated check runs | **3 daily strikes** | Automated removal PR opened for moderator review; merged or closed manually (never auto-merged) |
 | **3** | **Obsolete / Broken** | Flagged `/broken` or `/unmaintained` > 6 months with no upstream activity, or superseded by built-in DMS features | **60 days** | Purge only after adoption period expires |
 | **4** | **Author Request** | Verified request from original author | **14–30 days** | Advance notice before removal; community may fork and retain entry |
 
