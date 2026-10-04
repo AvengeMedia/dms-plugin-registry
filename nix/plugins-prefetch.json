@@ -2378,12 +2378,12 @@
     "url": "https://github.com/heyitsmikey128/DankCustomRunningApps"
   },
   "dankAIUsage": {
-    "date": "2026-10-03T15:12:06+02:00",
+    "date": "2026-10-03T18:23:59+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-nqj2JPAvkbmmtvrUkuP0CY89m6pTwceyKYqL1phlIo0=",
+    "hash": "sha256-1k1F4kf/jTSg0Jz5Am6urGs/XwqkYRcyekpbSILTvlI=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -2407,12 +2407,12 @@
       "name": "AI Usage",
       "repo": "https://github.com/alcxyz/DankAIUsage",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankAIUsage/main/docs/screenshot.png",
-      "version": "1.3.0"
+      "version": "1.3.1"
     },
-    "path": "/nix/store/7h47s6iqpvaf6jb5rj16s6lg854jz63i-DankAIUsage",
-    "rev": "611f2b1dc759b822dac9f962196511b906eeed62",
+    "path": "/nix/store/0w2g08ymc9px516wp1s579qvwxikpnri-DankAIUsage",
+    "rev": "57f0b6368ad8c7119b07e479ffd08850f9d62c72",
     "rootDir": "",
-    "sha256": "1392cncdd2wa56rcghakmadkv3q9ykir5m7snskbk49gy0jgda4y",
+    "sha256": "0lmysf14hnsag8r1fqd419gkysxcmrp05ycws2h393gz8zi4akfn",
     "url": "https://github.com/alcxyz/DankAIUsage"
   },
   "dankActions": {
@@ -9433,12 +9433,12 @@
     "url": "https://github.com/3DTreeDee/openrgb-theme-sync"
   },
   "orangedeck": {
-    "date": "2026-10-01T14:38:53+02:00",
+    "date": "2026-10-03T16:53:31+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-zssM1R2mY5YQ0uG2+SFFK1FunpzfxZaN6reJC3vlI7o=",
+    "hash": "sha256-crHxandtiI6E9TjGeE04xdLpHjgzCxiw9Es7BzNUZP0=",
     "leaveDotGit": false,
     "meta": {
       "author": "satoshoe",
@@ -9464,21 +9464,21 @@
       "repo": "https://github.com/orangedeck-dev/dms-plugin",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/orangedeck-dev/dms-plugin/main/assets/screenshot.png",
-      "version": "1.2.2"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/smg7vmqhyz1l5v56bzr8n6sa8n20iz56-dms-plugin",
-    "rev": "ae159424aa9ea3c93cc2340949f8823cd506a2ba",
+    "path": "/nix/store/vvblr9wl2cb69dyg540yq35g8kr3ywsr-dms-plugin",
+    "rev": "8e1a9a32a1e1c3dd481089b5ef30d8cc13f795dd",
     "rootDir": "",
-    "sha256": "1fi3wmxhp2dpxa6rdifzkjg6wl9b8lhzkdp1s889cqx63pahrjyf",
+    "sha256": "1zb4ahrhffsbyjq1h2rk70gfkln5716piiiqyn28x23dfxmg3cbj",
     "url": "https://github.com/orangedeck-dev/dms-plugin"
   },
   "orbitBluetooth": {
-    "date": "2026-10-03T12:33:33+02:00",
+    "date": "2026-10-03T23:21:50+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-pKYrFzuo4wZhkHKm7WsLcXo4OF/XlmTyvEjSbTMAeDs=",
+    "hash": "sha256-qmvV5eLcpwn3o2/+dKJg0Ou85eMHqg80bbRaUwtwCUs=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -9506,12 +9506,12 @@
       "repo": "https://github.com/lung595/orbitBluetooth",
       "requires_dms": ">=1.6.0",
       "screenshot": "https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png",
-      "version": "1.11.2"
+      "version": "1.12.1"
     },
-    "path": "/nix/store/k4225i5zfw5v8q82mqn0xqjgwixaxlpn-orbitBluetooth",
-    "rev": "467f327a7821fa89286d48a067d3ab7113380697",
+    "path": "/nix/store/2q7wvzk81l55zbv3p6d0wrqf9ax92x67-orbitBluetooth",
+    "rev": "90b48c98526e1e9e98feb1110002f04ab9f70998",
     "rootDir": "",
-    "sha256": "0fvq00rnvlj8pkr695npbww3hyki1dmyv9kjj1hhdqx87cbjp9m4",
+    "sha256": "0jq9f05m6nmldls0zah7wgjvrsyhc2i79zkglgvhk9ywwbjxasxa",
     "url": "https://github.com/lung595/orbitBluetooth"
   },
   "pangolinWidget": {
@@ -11121,12 +11121,12 @@
     "url": "https://github.com/lycbowen/SPlayerLyrics"
   },
   "spotifyLike": {
-    "date": "2026-08-24T22:05:28-05:00",
+    "date": "2026-10-03T16:39:44-05:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-eI7I9MoFN8FRxHkDL6ZoyicLS5rKcb+DAcZlCz+oC0Y=",
+    "hash": "sha256-Evhg1YLdGC+AsAZDxMDgCHW3LUCiKuaas3ynNHhfufQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "Dukko",
@@ -11138,8 +11138,7 @@
         "any"
       ],
       "dependencies": [
-        "python3",
-        "curl"
+        "python3"
       ],
       "description": "DankDash-style media popout with a heart button to save/unsave the current track to your Spotify Library",
       "distro": [
@@ -11148,13 +11147,14 @@
       "id": "spotifyLike",
       "name": "Spotify Like",
       "repo": "https://github.com/Dukko/dms-spotify-like",
+      "requires_dms": ">=1.6.0",
       "screenshot": "https://raw.githubusercontent.com/Dukko/dms-spotify-like/main/docs/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/07yk76c83wpwl707bjh07l0ax34rsxmv-dms-spotify-like",
-    "rev": "856cf7a6c087fa22c7c743c568fe37d0b118377f",
+    "path": "/nix/store/f8n6i8mrwwhajzr4n6im7ja495ync6mb-dms-spotify-like",
+    "rev": "3287c749f05440345852df9f9f1946e1e7de0f35",
     "rootDir": "",
-    "sha256": "0ihbm0zhnrf6061vywfak95hn9yad2k2y0vrqi8w2dq5rbsci3kq",
+    "sha256": "1x5rbxw399vwnfdfcam280nvfx88w30c8hq6n202y66xhban1y0j",
     "url": "https://github.com/Dukko/dms-spotify-like"
   },
   "spotifyMatugen": {
