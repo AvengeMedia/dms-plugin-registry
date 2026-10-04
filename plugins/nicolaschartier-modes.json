@@ -1,13 +1,21 @@
 {
     "id": "modes",
     "name": "Modes",
-    "capabilities": ["daemon", "dankbar-widget", "control-center"],
+    "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center"
+    ],
     "category": "system",
     "repo": "https://github.com/l3all/dms-modes",
     "author": "Nicolas Chartier",
     "description": "Android-style Modes: bundle Do Not Disturb, theme, night light, power profile, audio devices and commands into modes you switch on manually, for a set time, or on a schedule. Settings are restored when a mode ends.",
     "dependencies": [],
-    "compositors": ["hyprland"],
-    "distro": ["any"],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
     "screenshot": "https://raw.githubusercontent.com/l3all/dms-modes/main/screenshot.png"
 }
