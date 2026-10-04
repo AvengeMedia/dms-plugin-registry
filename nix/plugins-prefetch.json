@@ -8375,6 +8375,43 @@
     "sha256": "0jbh3ibbkk9l0gy46xvcfn0hrqnsykk84vgi0j8nmw66qfihfgvh",
     "url": "https://github.com/beefsizzle/ModernClockDMS"
   },
+  "modes": {
+    "date": "2026-10-04T08:57:41-04:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-DK3CfYCNP1h0ys+CjrZYzDOCZEJrcLN7zpp3NGRSRbw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Nicolas Chartier",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Android-style Modes: bundle Do Not Disturb, theme, night light, power profile, audio devices and commands into modes you switch on manually, for a set time, or on a schedule. Settings are restored when a mode ends.",
+      "distro": [
+        "any"
+      ],
+      "id": "modes",
+      "name": "Modes",
+      "repo": "https://github.com/l3all/dms-modes",
+      "requires_dms": ">=1.6.0",
+      "screenshot": "https://raw.githubusercontent.com/l3all/dms-modes/main/screenshot.png",
+      "version": "0.1.2"
+    },
+    "path": "/nix/store/iwsykfvwwwljnzm638zikwldx5d1b96v-dms-modes",
+    "rev": "adb1ccde2337808e3dbd78f89e19962d68d29dc1",
+    "rootDir": "",
+    "sha256": "1g25a9j38xwsrrxv6w3b89j84cycb2v8x0ngr9s5hgwdh1yw5b8c",
+    "url": "https://github.com/l3all/dms-modes"
+  },
   "mouthGuard": {
     "date": "2026-09-05T13:14:20+02:00",
     "deepClone": false,
@@ -9473,12 +9510,12 @@
     "url": "https://github.com/orangedeck-dev/dms-plugin"
   },
   "orbitBluetooth": {
-    "date": "2026-10-03T23:21:50+02:00",
+    "date": "2026-10-04T15:49:33+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-qmvV5eLcpwn3o2/+dKJg0Ou85eMHqg80bbRaUwtwCUs=",
+    "hash": "sha256-LVRVbiNccZ4ljKhigIpi6qgSpPk/AUtlp6xiVJgWwXA=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -9506,12 +9543,12 @@
       "repo": "https://github.com/lung595/orbitBluetooth",
       "requires_dms": ">=1.6.0",
       "screenshot": "https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png",
-      "version": "1.12.1"
+      "version": "1.13.1"
     },
-    "path": "/nix/store/2q7wvzk81l55zbv3p6d0wrqf9ax92x67-orbitBluetooth",
-    "rev": "90b48c98526e1e9e98feb1110002f04ab9f70998",
+    "path": "/nix/store/n3mz7zkjkn6vwy0xhxfc1i8wbd1aik8h-orbitBluetooth",
+    "rev": "b99d348749744bfcef3bfa331095915531a32215",
     "rootDir": "",
-    "sha256": "0jq9f05m6nmldls0zah7wgjvrsyhc2i79zkglgvhk9ywwbjxasxa",
+    "sha256": "0w612sc58qmclxjln09zz6j15a7aca580qm8ihjrwwaw4dp5am1d",
     "url": "https://github.com/lung595/orbitBluetooth"
   },
   "pangolinWidget": {
