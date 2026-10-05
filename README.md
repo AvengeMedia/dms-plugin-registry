@@ -11529,6 +11529,20 @@ Deep navy shadows infused with high-voltage crimson energy.
 
 
 
+### Cyberdream
+
+Theme based on https://github.com/scottmckendry/cyberdream.nvim
+
+- **Author:** Frostspanner
+- **ID:** `cyberdream` **Version:** `1.0.0`
+
+![WCAG AA (Partial)](https://img.shields.io/badge/WCAG_contrast-AA_(Partial)-green)
+
+
+![Cyberdream](themes/cyberdream/preview.svg)
+
+
+
 ### Dank Violet
 
 inspired by dank.
