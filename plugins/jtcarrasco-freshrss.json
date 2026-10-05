@@ -2,6 +2,7 @@
     "id": "freshrssReader",
     "name": "FreshRSS",
     "capabilities": [
+        "daemon",
         "dankbar-widget"
     ],
     "category": "utilities",
