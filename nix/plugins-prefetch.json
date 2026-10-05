@@ -2111,12 +2111,12 @@
     "url": "https://github.com/devnullvoid/dms-command-runner"
   },
   "controlD": {
-    "date": "2026-08-24T20:28:24+02:00",
+    "date": "2026-10-05T05:40:40+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-WbVxqAQ2XRO/r0+SsLqnKHFHfabZVQrj7DwocGyVJuM=",
+    "hash": "sha256-JtVXR6i4sg2n4yX9rxRiwbQ7aNyjWXbTqEJzRJ4alPk=",
     "leaveDotGit": false,
     "meta": {
       "author": "clementpoiret",
@@ -2140,12 +2140,12 @@
       "repo": "https://github.com/clementpoiret/dms-controld",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/clementpoiret/dms-controld/main/docs/control-d-preview.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/hn62bk41mfx045dpx24y661d97viji1w-dms-controld",
-    "rev": "c9beea5f41c2bfd96dfd786f23ddb0915fce9c1d",
+    "path": "/nix/store/a0n1avszlpaqqvlxdc1w65aqq0g0i8fn-dms-controld",
+    "rev": "9cfcd279ce0e79e93668ef65bc371b028eab4008",
     "rootDir": "",
-    "sha256": "1qr6jmn70a1wxkihlmfrlrylfw98lyxb14jgmyzi6p9n0jl73dar",
+    "sha256": "1ycl3ag48ws2m39pcnd3vil3pd61c8aazz95wfkhvcmqm13mgm96",
     "url": "https://github.com/clementpoiret/dms-controld"
   },
   "converter": {
@@ -12355,12 +12355,12 @@
     "url": "https://github.com/JessVolet/VMonitorSRV"
   },
   "virtManager": {
-    "date": "2026-10-02T15:43:48+02:00",
+    "date": "2026-10-05T08:54:12+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-a3VZKlSPL8JDXh4CjKZNo2duyzFSipmdDLdZBntNjQ0=",
+    "hash": "sha256-B23g+sDtkf3YtX+jqdTKKiI3Qnjr2Aib//qdFoBw1EQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "solax76",
@@ -12384,12 +12384,12 @@
       "repo": "https://github.com/solax76/DmsVirtualManager",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/solax76/DmsVirtualManager/main/assets/screen2.jpeg",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/izp05igk7vgwkqssd8qw43gv5rdnnfxw-DmsVirtualManager",
-    "rev": "661291c9c1260eecc41417dad0a4c86ea05a40e4",
+    "path": "/nix/store/6bblkimhhq1mkyk7wnq0vp939qd9yhg9-DmsVirtualManager",
+    "rev": "92a41ca1ee9c7665365d82210c16e75ed50c8a75",
     "rootDir": "",
-    "sha256": "03cd9mxhcndp1jfrk2jj675nwrx39nk8q0hybr1w4bwgahm5jxbb",
+    "sha256": "0i6lf201d7gszydhin7bg113f8iarbaak8vznpcgv4gdq3xf0v87",
     "url": "https://github.com/solax76/DmsVirtualManager"
   },
   "virtualKeyboard": {
