@@ -2,6 +2,7 @@
     "id": "absPlayer",
     "name": "Audiobookshelf",
     "capabilities": [
+        "daemon",
         "dankbar-widget"
     ],
     "category": "media",
