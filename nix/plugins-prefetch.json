@@ -6101,12 +6101,12 @@
     "url": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu"
   },
   "fwFanctrl": {
-    "date": "2026-07-28T11:10:25+02:00",
+    "date": "2026-10-05T04:39:34+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-EN/psBgc2FG8B47c2FljhmUJtHHQqWtTcmfS3q5U3G0=",
+    "hash": "sha256-bqZhGxcsDakJPhQjxhOa1mWIju195aTiUZ2tohs5HBo=",
     "leaveDotGit": false,
     "meta": {
       "author": "clementpoiret",
@@ -6128,12 +6128,12 @@
       "name": "Framework Fan Control",
       "repo": "https://github.com/clementpoiret/dms-fwfanctrl",
       "screenshot": "https://raw.githubusercontent.com/clementpoiret/dms-fwfanctrl/main/docs/widget-preview.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/608qfqaa945hwnr6hrdsb3f5rs5ccgjz-dms-fwfanctrl",
-    "rev": "80015e2a8e113c473989306f2aed88ea8a1fb395",
+    "path": "/nix/store/6q733f4i9n01bfl1pvr8pcvgmij210wg-dms-fwfanctrl",
+    "rev": "28cca55562f8cd9ced3ed433caa4fe34bbd0dd15",
     "rootDir": "",
-    "sha256": "0vfwajpdxlk7f99npafhf6s0jrc6cdcxip4f0yy53n0w32qfkpqh",
+    "sha256": "06hw74ds5bcxa7ia9rbxxn78hrfnk89wc8ql7q4sj39c2wdn39kf",
     "url": "https://github.com/clementpoiret/dms-fwfanctrl"
   },
   "gameControllerBattery": {
@@ -9510,12 +9510,12 @@
     "url": "https://github.com/orangedeck-dev/dms-plugin"
   },
   "orbitBluetooth": {
-    "date": "2026-10-04T15:49:33+02:00",
+    "date": "2026-10-04T17:21:04+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-LVRVbiNccZ4ljKhigIpi6qgSpPk/AUtlp6xiVJgWwXA=",
+    "hash": "sha256-yOY+2GHV508ynW5bC26yDElcSyFrYUl1Av5rR+iqd04=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -9543,12 +9543,12 @@
       "repo": "https://github.com/lung595/orbitBluetooth",
       "requires_dms": ">=1.6.0",
       "screenshot": "https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png",
-      "version": "1.13.1"
+      "version": "1.13.3"
     },
-    "path": "/nix/store/n3mz7zkjkn6vwy0xhxfc1i8wbd1aik8h-orbitBluetooth",
-    "rev": "b99d348749744bfcef3bfa331095915531a32215",
+    "path": "/nix/store/zwryh675nzwn3zngxm8z8i4n29nwa24b-orbitBluetooth",
+    "rev": "c1c07ad0b1f2326d357dfddc8e2622a9679bea1e",
     "rootDir": "",
-    "sha256": "0w612sc58qmclxjln09zz6j15a7aca580qm8ihjrwwaw4dp5am1d",
+    "sha256": "0kkpmbl4fszy09sljqbb455mqj8cn9p0nnvfklr4zrymc7c3xrn8",
     "url": "https://github.com/lung595/orbitBluetooth"
   },
   "pangolinWidget": {
