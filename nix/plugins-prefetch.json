@@ -1,4 +1,46 @@
 {
+  "absPlayer": {
+    "date": "2026-10-05T20:14:46Z",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-5LCyppby5CkmMcZDMysghU0NiDJSSuv1zdz51bU2YF4=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Jason Carrasco",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget"
+      ],
+      "category": "media",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [
+        "mpv",
+        "python3",
+        "secret-tool",
+        "gnome-keyring"
+      ],
+      "description": "Audiobookshelf client for DankBar: books and podcasts, resume and progress sync, chapters, covers, and a themed popout player.",
+      "distro": [
+        "any"
+      ],
+      "id": "absPlayer",
+      "name": "Audiobookshelf",
+      "path": "dms",
+      "repo": "https://github.com/jtcarrasco/audiobookshelf-player",
+      "screenshot": "https://raw.githubusercontent.com/jtcarrasco/audiobookshelf-player/main/screenshots/dms.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/widhw993j3bg7iqv356xf67jiznngh88-audiobookshelf-player",
+    "rev": "74f56887d9dfcc4884297d602ab0b8bd1cd8db3b",
+    "rootDir": "",
+    "sha256": "0pk06ssxbyfwrpsynjjj6a40skc540mk6hy664k2kr7jjskb5c74",
+    "url": "https://github.com/jtcarrasco/audiobookshelf-player"
+  },
   "acerSense": {
     "date": "2026-07-29T01:04:56-03:00",
     "deepClone": false,
@@ -207,9 +249,12 @@
       "dependencies": [
         "bash",
         "jq",
-        "curl"
+        "curl",
+        "sqlite3",
+        "flock",
+        "secret-tool"
       ],
-      "description": "Monitor AI subscription and API usage for Claude, Copilot, Codex, Gemini, and OpenRouter from DankBar",
+      "description": "Quota, billing and usage for 37 AI providers, including Claude, Codex, Copilot and Gemini, from DankBar",
       "distro": [
         "any"
       ],
