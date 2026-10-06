@@ -11327,6 +11327,36 @@ Monitor dGPU power state (D0, D3cold) and optionally display battery wattage wit
 
 
 
+#### [mise](https://github.com/Villoh/dms-mise)
+
+Install, update, bump and remove mise tools from a DankBar widget, a keybind panel and the launcher.
+
+<strong>requires DMS version</strong>: <em>>=1.6.2</em>
+
+- id: mise
+- name: mise
+- author: Villoh
+- compositors: any
+- capabilities: dankbar-widget, launcher, daemon, ipc
+- dependencies: mise
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png)
+
+</details>
+
+
+
+
+
 ---
 
 
