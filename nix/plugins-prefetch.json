@@ -3260,6 +3260,44 @@
     "sha256": "1rfs2lv2kdy1j32r3x1c1kjpy1bzm93h52v8bl4lpcrzjh68c576",
     "url": "https://github.com/sitolam/dms-plugins"
   },
+  "dankMullvadVpn": {
+    "date": "2026-10-06T02:09:11-03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-2ptP84ut4RWalRidKANO88lKi6gehFrtan4kOua86vw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Bernardo Gomes",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "mullvad-vpn",
+        "python"
+      ],
+      "description": "The full Mullvad VPN CLI in your DankBar: live status, 88 typed forms for relays, DAITA, multihop, DNS and split tunneling, command preview and safe confirmations.",
+      "distro": [
+        "any"
+      ],
+      "id": "dankMullvadVpn",
+      "name": "Dank Mullvad VPN",
+      "repo": "https://github.com/bernardopg/dms-mullvad-vpn-plugin",
+      "requires_dms": ">=1.6.2",
+      "screenshot": "https://raw.githubusercontent.com/bernardopg/dms-mullvad-vpn-plugin/main/assets/screenshot.png",
+      "version": "1.2.2"
+    },
+    "path": "/nix/store/52mycc094rgnpc8016ih6xk97x7cqq0j-dms-mullvad-vpn-plugin",
+    "rev": "9bb1f6f43cf20f7b40c059b30992e474ed2d734c",
+    "rootDir": "",
+    "sha256": "1z7apkk3l93ydbnmm10ym25lmjgk9q1ji78qjnd1bqddigrlz6ys",
+    "url": "https://github.com/bernardopg/dms-mullvad-vpn-plugin"
+  },
   "dankNewsRssTicker": {
     "date": "2026-09-07T16:28:55+02:00",
     "deepClone": false,
@@ -7431,6 +7469,46 @@
     "rootDir": "",
     "sha256": "1xbp6xskn73c0yd40ry2qifcig7qbrxascbibxfmrl2m0fc1hqni",
     "url": "https://github.com/psyreactor/dms-kubernetes"
+  },
+  "lactProfiles": {
+    "date": "2026-10-06T05:35:43+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-dy11prpDfr/YxX46LW0T5nL98A8AYVlyvfFfRjzGjJw=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "philipplinux",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "lact",
+        "python3-pyyaml",
+        "lact-apply (manual install, see README)"
+      ],
+      "description": "Switch LACT GPU power profiles from the bar and see each profile's power limit per GPU. Applying a profile stops and masks lactd (LACT runs only for a few seconds per switch), which disables LACT fan curves, automatic profile switching and the GUI while it is masked. Needs manual setup of the bundled lact-apply script and a sudoers rule (see README).",
+      "distro": [
+        "any"
+      ],
+      "id": "lactProfiles",
+      "name": "LACT Profiles",
+      "path": "lactProfiles",
+      "repo": "https://github.com/philipplinux/dms-lact-profiles-widget",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://raw.githubusercontent.com/philipplinux/dms-lact-profiles-widget/main/docs/screenshot.png",
+      "version": "1.2.0"
+    },
+    "path": "/nix/store/mx6l2ia0v3h5apddw643dq34r4i6x5qq-dms-lact-profiles-widget",
+    "rev": "df28d45e3bbdb7d52445b93dd3b910514f343a93",
+    "rootDir": "",
+    "sha256": "174cqqy4cpzipmr5jq801zqgswp62dnjsfkyqpcbyzj3pak7abbp",
+    "url": "https://github.com/philipplinux/dms-lact-profiles-widget"
   },
   "lastfmScrobbler": {
     "date": "2026-09-29T18:29:01-06:00",
