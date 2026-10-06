@@ -6091,6 +6091,7 @@
       "name": "FreshRSS",
       "path": "dms",
       "repo": "https://github.com/jtcarrasco/freshrss-reader",
+      "requires_dms": ">=1.6.0",
       "screenshot": "https://raw.githubusercontent.com/jtcarrasco/freshrss-reader/main/screenshots/dms.png",
       "version": "0.1.0"
     },
@@ -8347,12 +8348,12 @@
     "url": "https://github.com/korbash/mihomo-dms-widget"
   },
   "mise": {
-    "date": "2026-10-06T15:22:47+02:00",
+    "date": "2026-10-06T17:49:08+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-8+MPVozOM5svUqQBAI+cWRJK5RgmmSm0EnqzgXKwd9g=",
+    "hash": "sha256-g0Dv7EzlyioEZsJ0aFUNFVkFXozYWdW6w0F7ISymTc8=",
     "leaveDotGit": false,
     "meta": {
       "author": "Villoh",
@@ -8378,12 +8379,12 @@
       "repo": "https://github.com/Villoh/dms-mise",
       "requires_dms": ">=1.6.2",
       "screenshot": "https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png",
-      "version": "0.2.2"
+      "version": "0.3.0"
     },
-    "path": "/nix/store/6kc72ib9dnviywqyxqf4bmq0mnzgsw4r-dms-mise",
-    "rev": "fc1c9036640be60221fa1513436fc393d81827b1",
+    "path": "/nix/store/nq0nswq6grcixm3jmyjgm7r8ibajs586-dms-mise",
+    "rev": "1ca9a9d2b634ae157def3fd25556341ba45e31c8",
     "rootDir": "",
-    "sha256": "1n3pn1r83cvs2as2k69633jll4jrkj7h00d4a8prncyfiib0zqzk",
+    "sha256": "1ksdlqn22ys1qfxdanfqiig0an8m1manhx62cq22mjp59knfyh43",
     "url": "https://github.com/Villoh/dms-mise"
   },
   "modemManager": {
