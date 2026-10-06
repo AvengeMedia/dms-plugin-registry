@@ -2721,12 +2721,12 @@
     "url": "https://github.com/luckjokerwang/dms-dankcalendar"
   },
   "dankChat": {
-    "date": "2026-09-28T12:28:13+02:00",
+    "date": "2026-10-06T07:47:42+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-h7OePveTQLcgx+KnXBlvJPpNc3JTEOT2m8B2Gb9UJnM=",
+    "hash": "sha256-fhaVYJ+ef45YfyqLec02Pf+b7lY3D6w+WoBiq8NGCF0=",
     "leaveDotGit": false,
     "meta": {
       "author": "coldi1337",
@@ -2757,12 +2757,12 @@
       "name": "DankChat",
       "repo": "https://github.com/coldi1337/DankChat",
       "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.5.0/docs/preview.png",
-      "version": "0.5.1"
+      "version": "0.6.0"
     },
-    "path": "/nix/store/h5phhbcp4jjd5nz8vds56zc435dmmx03-DankChat",
-    "rev": "f99b17ed4177566c1ac7bbd5344a87002d0ece86",
+    "path": "/nix/store/5j01m8p98m6qd0izm739f848r299zcb7-DankChat",
+    "rev": "6aeff5f879e1a3621a4f065ec1fd0ad74eb071a3",
     "rootDir": "",
-    "sha256": "0wr6ajzijxn0kgvf842kf9rlvyi4dwcmr9z2qwhbfh4kywz9xcw7",
+    "sha256": "0p888v1snql0b8zaq3rpavp9pzrx6v6pk2ragxc8wzwykxh9a5ky",
     "url": "https://github.com/coldi1337/DankChat"
   },
   "dankCleaner": {
@@ -8301,6 +8301,46 @@
     "rootDir": "",
     "sha256": "0bypgf183k1n9yls8j8i9s6mcw5x37pqy531rmz068fll5wq1xsw",
     "url": "https://github.com/korbash/mihomo-dms-widget"
+  },
+  "mise": {
+    "date": "2026-10-06T10:13:04+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-7jMcpZ5ykzJyauKH9qx0qw6p+1srdNHRz/JDK2FU8Y8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Villoh",
+      "capabilities": [
+        "dankbar-widget",
+        "launcher",
+        "daemon",
+        "ipc"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "mise"
+      ],
+      "description": "Install, update, bump and remove mise tools from a DankBar widget, a keybind panel and the launcher.",
+      "distro": [
+        "any"
+      ],
+      "id": "mise",
+      "name": "mise",
+      "repo": "https://github.com/Villoh/dms-mise",
+      "requires_dms": ">=1.6.2",
+      "screenshot": "https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png",
+      "version": "0.2.2"
+    },
+    "path": "/nix/store/2fggxxk0ap78lfgh5w3cgc1c6fvl6a6f-dms-mise",
+    "rev": "577d53e9b1549d902d20e08d94cdcf9bbe8a0cb4",
+    "rootDir": "",
+    "sha256": "13ziaihjnhzjrz8x2x1bbgxsj3mbfjngd1z2d9r354vjksjiqczf",
+    "url": "https://github.com/Villoh/dms-mise"
   },
   "modemManager": {
     "date": "2026-08-18T11:30:28+08:00",
