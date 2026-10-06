@@ -7472,6 +7472,41 @@ Choose color format before picking
 
 
 
+#### [FreshRSS](https://github.com/jtcarrasco/freshrss-reader)
+
+FreshRSS client for DankBar: unread count on the bar, categories, article list with thumbnails, and read/star state that syncs with your server. Keyboard-driven, with FreshRSS's own shortcuts.
+
+
+
+- id: freshrssReader
+- name: FreshRSS
+- author: Jason Carrasco
+- compositors: niri, hyprland
+- capabilities: daemon, dankbar-widget
+- dependencies: python3, secret-tool, gnome-keyring
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [dms](https://github.com/jtcarrasco/freshrss-reader/tree/main/dms) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/jtcarrasco/freshrss-reader/main/screenshots/dms.png)
+
+</details>
+
+
+
+
+
 #### [Fullscreen Power Menu](https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu)
 
 Material 3 inspired fullscreen Power Menu triggered via IPC
