@@ -6059,6 +6059,47 @@
     "sha256": "0b12lr51d5768xaiwgwhbzf9fcrsz7f03n5yrmx8r7paldcjqq47",
     "url": "https://github.com/Incognitux/dms-format-color-picker"
   },
+  "freshrssReader": {
+    "date": "2026-10-05T20:14:47Z",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-U0VcCdjHiUANJMIVjrRCrY5SwYem1Va47xc81ae6vts=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Jason Carrasco",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri",
+        "hyprland"
+      ],
+      "dependencies": [
+        "python3",
+        "secret-tool",
+        "gnome-keyring"
+      ],
+      "description": "FreshRSS client for DankBar: unread count on the bar, categories, article list with thumbnails, and read/star state that syncs with your server. Keyboard-driven, with FreshRSS's own shortcuts.",
+      "distro": [
+        "any"
+      ],
+      "id": "freshrssReader",
+      "name": "FreshRSS",
+      "path": "dms",
+      "repo": "https://github.com/jtcarrasco/freshrss-reader",
+      "screenshot": "https://raw.githubusercontent.com/jtcarrasco/freshrss-reader/main/screenshots/dms.png",
+      "version": "0.1.0"
+    },
+    "path": "/nix/store/qrx6yxl6w6cfwbhc0lf6mlzzdv6d125g-freshrss-reader",
+    "rev": "123ec9dbeeda2be9a46704dd06473a9beabb1f4d",
+    "rootDir": "",
+    "sha256": "1nxypakxag0pxyw5dmd6hz0m53md8as8w5f24h6l12f7v04mqiak",
+    "url": "https://github.com/jtcarrasco/freshrss-reader"
+  },
   "fullscreenPowerMenu": {
     "date": "2026-09-08T00:02:21+05:30",
     "deepClone": false,
@@ -8306,12 +8347,12 @@
     "url": "https://github.com/korbash/mihomo-dms-widget"
   },
   "mise": {
-    "date": "2026-10-06T10:13:04+02:00",
+    "date": "2026-10-06T15:22:47+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-7jMcpZ5ykzJyauKH9qx0qw6p+1srdNHRz/JDK2FU8Y8=",
+    "hash": "sha256-8+MPVozOM5svUqQBAI+cWRJK5RgmmSm0EnqzgXKwd9g=",
     "leaveDotGit": false,
     "meta": {
       "author": "Villoh",
@@ -8339,10 +8380,10 @@
       "screenshot": "https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png",
       "version": "0.2.2"
     },
-    "path": "/nix/store/2fggxxk0ap78lfgh5w3cgc1c6fvl6a6f-dms-mise",
-    "rev": "577d53e9b1549d902d20e08d94cdcf9bbe8a0cb4",
+    "path": "/nix/store/6kc72ib9dnviywqyxqf4bmq0mnzgsw4r-dms-mise",
+    "rev": "fc1c9036640be60221fa1513436fc393d81827b1",
     "rootDir": "",
-    "sha256": "13ziaihjnhzjrz8x2x1bbgxsj3mbfjngd1z2d9r354vjksjiqczf",
+    "sha256": "1n3pn1r83cvs2as2k69633jll4jrkj7h00d4a8prncyfiib0zqzk",
     "url": "https://github.com/Villoh/dms-mise"
   },
   "modemManager": {
