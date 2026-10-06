@@ -996,6 +996,41 @@ Near-live market prices for currencies, stocks, and commodities with charts thro
 
 
 
+#### [Audiobookshelf](https://github.com/jtcarrasco/audiobookshelf-player)
+
+Audiobookshelf client for DankBar: books and podcasts, resume and progress sync, chapters, covers, and a themed popout player.
+
+
+
+- id: absPlayer
+- name: Audiobookshelf
+- author: Jason Carrasco
+- compositors: niri, hyprland
+- capabilities: daemon, dankbar-widget
+- dependencies: mpv, python3, secret-tool, gnome-keyring
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [dms](https://github.com/jtcarrasco/audiobookshelf-player/tree/main/dms) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/jtcarrasco/audiobookshelf-player/main/screenshots/dms.png)
+
+</details>
+
+
+
+
+
 #### [DMS Last.fm Scrobbler](https://github.com/arqueon/dms-scrobbler)
 
 Last.fm companion for DMS: scrobbling, love/unlove, profile links and an offline retry queue. Optional remote Now Playing polls Last.fm; optional artwork search sends track metadata to YouTube Music. An optional MPRIS bridge needs a C compiler, libsystemd and json-c headers.
