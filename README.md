@@ -7476,7 +7476,7 @@ Choose color format before picking
 
 FreshRSS client for DankBar: unread count on the bar, categories, article list with thumbnails, and read/star state that syncs with your server. Keyboard-driven, with FreshRSS's own shortcuts.
 
-
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
 
 - id: freshrssReader
 - name: FreshRSS
