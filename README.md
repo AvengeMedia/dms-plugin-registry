@@ -3919,6 +3919,36 @@ Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.
 
 
 
+#### [Dank Mullvad VPN](https://github.com/bernardopg/dms-mullvad-vpn-plugin)
+
+The full Mullvad VPN CLI in your DankBar: live status, 88 typed forms for relays, DAITA, multihop, DNS and split tunneling, command preview and safe confirmations.
+
+<strong>requires DMS version</strong>: <em>>=1.6.2</em>
+
+- id: dankMullvadVpn
+- name: Dank Mullvad VPN
+- author: Bernardo Gomes
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: mullvad-vpn, python
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/bernardopg/dms-mullvad-vpn-plugin/main/assets/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Dank Software Depot](https://github.com/vinceecniv/DankSoftwareDepot)
 
 Software & updates center: rich update cards with release notes, app store for system repos/Flathub/AppImage with ratings and reviews, installed-software management, firmware updates and an action log. Fedora first; Debian/Ubuntu and Arch experimental.
