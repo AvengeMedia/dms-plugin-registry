@@ -4319,6 +4319,41 @@ On-Screen Display popup and keyboard shortcut controls for laptop keyboard backl
 
 
 
+#### [LACT Profiles](https://github.com/philipplinux/dms-lact-profiles-widget)
+
+Switch LACT GPU power profiles from the bar and see each profile's power limit per GPU. Applying a profile stops and masks lactd (LACT runs only for a few seconds per switch), which disables LACT fan curves, automatic profile switching and the GUI while it is masked. Needs manual setup of the bundled lact-apply script and a sudoers rule (see README).
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: lactProfiles
+- name: LACT Profiles
+- author: philipplinux
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: lact, python3-pyyaml, lact-apply (manual install, see README)
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [lactProfiles](https://github.com/philipplinux/dms-lact-profiles-widget/tree/main/lactProfiles) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/philipplinux/dms-lact-profiles-widget/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Lenovo Battery Settings](https://github.com/neoscaler/dms-lenovo-battery-settings)
 
 Manage Lenovo battery settings like conservation mode
