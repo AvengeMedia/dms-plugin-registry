@@ -2,7 +2,9 @@
   "id": "dankChat",
   "name": "DankChat",
   "capabilities": [
-    "dankbar-widget"
+    "dankbar-widget",
+    "daemon",
+    "ipc"
   ],
   "category": "utilities",
   "repo": "https://github.com/coldi1337/DankChat",
@@ -26,5 +28,6 @@
   "distro": [
     "any"
   ],
-  "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.5.0/docs/preview.png"
+  "requires_dms": ">=1.6.1",
+  "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.6.0/docs/preview.png"
 }
