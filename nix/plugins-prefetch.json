@@ -11183,6 +11183,49 @@
     "sha256": "1hnmag93rk9d7xk6qjq8brrs2fx8f3r98b8qf8p3n8gxqrhzq18r",
     "url": "https://github.com/by-architect/DMS-Plugins"
   },
+  "simNetwork": {
+    "date": "2026-10-03T12:30:21+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-0hNXQGg/jgpbIrNjmxms2icyx3DE/diWhHUH5U3pSSQ=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "chenshifanjian",
+      "capabilities": [
+        "daemon",
+        "control-center",
+        "dankbar-widget"
+      ],
+      "category": "networking",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "mmcli",
+        "nmcli",
+        "ip",
+        "curl",
+        "zenity"
+      ],
+      "description": "Manage a 4G modem: live data usage and speed, SMS and MMS send/receive with desktop notifications, Obsidian archiving, GPS, and a monthly data-quota check. Built for Quectel EG25-G on China Telecom; receiving MMS needs mmsd-tng. The optional extras/ helpers need python3 + pyserial, a hand-added NOPASSWD sudoers rule limited to systemctl start/stop ModemManager, and one manual request to api64.ipify.org.",
+      "distro": [
+        "any"
+      ],
+      "id": "simNetwork",
+      "name": "SIM Network",
+      "repo": "https://github.com/chenshifanjian/dms-sim-network",
+      "requires_dms": ">=1.6.0",
+      "screenshot": "https://raw.githubusercontent.com/chenshifanjian/dms-sim-network/main/docs/screenshot.png",
+      "version": "0.3.0"
+    },
+    "path": "/nix/store/243vlir95m57njngkzvl5v1mqva8h0dp-dms-sim-network",
+    "rev": "c122c3a4cc0edfbdda1b8380db7d3d4f9b8a34ce",
+    "rootDir": "",
+    "sha256": "0929x56ya1vmhjbdizf4f33k49ysmhcrnqxk49dhm3izd105f4yj",
+    "url": "https://github.com/chenshifanjian/dms-sim-network"
+  },
   "simpleAudioControl": {
     "date": "2026-07-31T22:44:24+07:00",
     "deepClone": false,
