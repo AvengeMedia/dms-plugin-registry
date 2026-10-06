@@ -5,8 +5,9 @@
     "category": "system",
     "repo": "https://github.com/d4hl/lidguard",
     "author": "d4hl",
-    "description": "Toggle in control center: lid close = screen off instead of suspend. Off = logind default (suspend). Requires a systemd user manager.",
+    "description": "Toggle in control center: lid close = screen off instead of suspend. Off = logind default (suspend). Bar widget with toggle, settings included. Requires a systemd user manager.",
     "dependencies": ["systemd"],
     "compositors": ["any"],
-    "distro": ["any"]
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/d4hl/lidguard/main/screenshot.png"
 }
