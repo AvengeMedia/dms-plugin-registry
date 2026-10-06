@@ -1461,7 +1461,7 @@ Shows the battery level of a SteelSeries Aerox 3 Wireless Gen 2 mouse in the bar
 
 #### [AiOverviewControl](https://github.com/bernardopg/AiOverviewControl)
 
-Monitor AI subscription and API usage for Claude, Copilot, Codex, Gemini, and OpenRouter from DankBar
+Quota, billing and usage for 37 AI providers, including Claude, Codex, Copilot and Gemini, from DankBar
 
 
 
@@ -1470,7 +1470,7 @@ Monitor AI subscription and API usage for Claude, Copilot, Codex, Gemini, and Op
 - author: Bernardo Gomes
 - compositors: any
 - capabilities: dankbar-widget
-- dependencies: bash, jq, curl
+- dependencies: bash, jq, curl, sqlite3, flock, secret-tool
 - distro: any
 
 
@@ -3078,6 +3078,36 @@ Manage mobile broadband with NetworkManager: toggle the WWAN radio, view live mo
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/NaClwww/dms-modem-plugin/main/assets/control-center.png)
+
+</details>
+
+
+
+
+
+#### [SIM Network](https://github.com/chenshifanjian/dms-sim-network)
+
+Manage a 4G modem: live data usage and speed, SMS and MMS send/receive with desktop notifications, Obsidian archiving, GPS, and a monthly data-quota check. Built for Quectel EG25-G on China Telecom; receiving MMS needs mmsd-tng. The optional extras/ helpers need python3 + pyserial, a hand-added NOPASSWD sudoers rule limited to systemctl start/stop ModemManager, and one manual request to api64.ipify.org.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: simNetwork
+- name: SIM Network
+- author: chenshifanjian
+- compositors: niri
+- capabilities: daemon, control-center, dankbar-widget
+- dependencies: mmcli, nmcli, ip, curl, zenity
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/chenshifanjian/dms-sim-network/main/docs/screenshot.png)
 
 </details>
 
