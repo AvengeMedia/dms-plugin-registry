@@ -1,0 +1,14 @@
+{
+    "id": "lactProfiles",
+    "name": "LACT Profiles",
+    "capabilities": ["dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/philipplinux/dms-lact-profiles-widget",
+    "path": "lactProfiles",
+    "author": "philipplinux",
+    "description": "Switch LACT GPU power profiles from the bar and see each profile's power limit per GPU. Needs manual setup of the bundled lact-apply script and a sudoers rule (see README).",
+    "dependencies": ["lact", "python3-pyyaml", "lact-apply (manual install, see README)"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/philipplinux/dms-lact-profiles-widget/main/docs/screenshot.png"
+}
