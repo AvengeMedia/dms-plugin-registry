@@ -2731,7 +2731,9 @@
     "meta": {
       "author": "coldi1337",
       "capabilities": [
-        "dankbar-widget"
+        "dankbar-widget",
+        "daemon",
+        "ipc"
       ],
       "category": "utilities",
       "compositors": [
@@ -2756,7 +2758,8 @@
       "id": "dankChat",
       "name": "DankChat",
       "repo": "https://github.com/coldi1337/DankChat",
-      "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.5.0/docs/preview.png",
+      "requires_dms": ">=1.6.1",
+      "screenshot": "https://raw.githubusercontent.com/coldi1337/DankChat/v0.6.0/docs/preview.png",
       "version": "0.6.0"
     },
     "path": "/nix/store/5j01m8p98m6qd0izm739f848r299zcb7-DankChat",
