@@ -9,5 +9,6 @@
     "dependencies": ["mise"],
     "compositors": ["any"],
     "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png"
+    "screenshot": "https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png",
+    "requires_dms": ">=1.6.2"
 }
