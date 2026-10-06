@@ -1,0 +1,25 @@
+{
+    "id": "lactProfiles",
+    "name": "LACT Profiles",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "system",
+    "repo": "https://github.com/philipplinux/dms-lact-profiles-widget",
+    "path": "lactProfiles",
+    "author": "philipplinux",
+    "description": "Switch LACT GPU power profiles from the bar and see each profile's power limit per GPU. Applying a profile stops and masks lactd (LACT runs only for a few seconds per switch), which disables LACT fan curves, automatic profile switching and the GUI while it is masked. Needs manual setup of the bundled lact-apply script and a sudoers rule (see README).",
+    "dependencies": [
+        "lact",
+        "python3-pyyaml",
+        "lact-apply (manual install, see README)"
+    ],
+    "requires_dms": ">=1.2.0",
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/philipplinux/dms-lact-profiles-widget/main/docs/screenshot.png"
+}
