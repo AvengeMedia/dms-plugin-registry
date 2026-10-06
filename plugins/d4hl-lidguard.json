@@ -1,12 +1,12 @@
 {
     "id": "lidguard",
     "name": "Lid Guard",
-    "capabilities": ["control-center"],
+    "capabilities": ["control-center", "dankbar-widget"],
     "category": "system",
     "repo": "https://github.com/d4hl/lidguard",
     "author": "d4hl",
-    "description": "Toggle in control center: lid close = screen off instead of suspend. Off = logind default (suspend).",
-    "dependencies": [],
+    "description": "Toggle in control center: lid close = screen off instead of suspend. Off = logind default (suspend). Requires a systemd user manager.",
+    "dependencies": ["systemd"],
     "compositors": ["any"],
     "distro": ["any"]
 }
