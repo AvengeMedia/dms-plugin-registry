@@ -1893,12 +1893,12 @@
     "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "cliproxyQuota": {
-    "date": "2026-10-02T15:49:15Z",
+    "date": "2026-10-06T17:22:35Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-oz/MWPNIlcOjniVHtHx/QZvvh/TnFY/aggWN1KtZNmE=",
+    "hash": "sha256-bkGjuoX42111E6syZdX2ZJTAok4TsgKOQHMc155hstU=",
     "leaveDotGit": false,
     "meta": {
       "author": "Spyros Psarras",
@@ -1921,12 +1921,12 @@
       "name": "CLIProxyAPI Quota",
       "repo": "https://github.com/SpyrosPsarras/dms-cliproxy-quota",
       "screenshot": "https://raw.githubusercontent.com/SpyrosPsarras/dms-cliproxy-quota/main/screenshot.png",
-      "version": "0.1.14"
+      "version": "0.1.15"
     },
-    "path": "/nix/store/rpj18ywil63ywjn46v2syszdkxisnbl9-dms-cliproxy-quota",
-    "rev": "ce5d03f459ba9006e8d478a7bc8f29b537f5b6d1",
+    "path": "/nix/store/gkqpbx39jpkiqwpsxyvlcga757d6lgkd-dms-cliproxy-quota",
+    "rev": "43af43cfaa69e600876cf345ba9420822f21d69e",
     "rootDir": "",
-    "sha256": "0q9nb6mx9385hbd8y5g7yj3yz6s1gxyb8ir5ksiw75a8ydccqgx3",
+    "sha256": "1mdjc6gdf73k82705chk9sic1534yvanacmb2dsmvnzqhnxa6hbf",
     "url": "https://github.com/SpyrosPsarras/dms-cliproxy-quota"
   },
   "codeIsland": {
@@ -3306,12 +3306,12 @@
     "url": "https://github.com/sitolam/dms-plugins"
   },
   "dankMullvadVpn": {
-    "date": "2026-10-06T02:09:11-03:00",
+    "date": "2026-10-06T18:34:37-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-2ptP84ut4RWalRidKANO88lKi6gehFrtan4kOua86vw=",
+    "hash": "sha256-siBsfedhlyt1i9+AXpUEl2OTEvtp2DHBQe9bGJ4iWpE=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -3335,12 +3335,12 @@
       "repo": "https://github.com/bernardopg/dms-mullvad-vpn-plugin",
       "requires_dms": ">=1.6.2",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/dms-mullvad-vpn-plugin/main/assets/screenshot.png",
-      "version": "1.2.2"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/52mycc094rgnpc8016ih6xk97x7cqq0j-dms-mullvad-vpn-plugin",
-    "rev": "9bb1f6f43cf20f7b40c059b30992e474ed2d734c",
+    "path": "/nix/store/k11z9wd0pq0dp0dmfk8g0l2i10d3wmcq-dms-mullvad-vpn-plugin",
+    "rev": "70b13e94bc25aedc4988da6b577510a148bb2b07",
     "rootDir": "",
-    "sha256": "1z7apkk3l93ydbnmm10ym25lmjgk9q1ji78qjnd1bqddigrlz6ys",
+    "sha256": "14as4ag1hnzg870k3n39zc996qwp0jamx06zidsjp5v1wxynq85j",
     "url": "https://github.com/bernardopg/dms-mullvad-vpn-plugin"
   },
   "dankNewsRssTicker": {
@@ -8471,12 +8471,12 @@
     "url": "https://github.com/korbash/mihomo-dms-widget"
   },
   "mise": {
-    "date": "2026-10-06T17:49:08+02:00",
+    "date": "2026-10-07T00:22:13+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-g0Dv7EzlyioEZsJ0aFUNFVkFXozYWdW6w0F7ISymTc8=",
+    "hash": "sha256-6BD7UkQ+exT3cxIDRZgkNM3pZmvOb16GL1vUY5cwIjc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Villoh",
@@ -8502,12 +8502,12 @@
       "repo": "https://github.com/Villoh/dms-mise",
       "requires_dms": ">=1.6.2",
       "screenshot": "https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png",
-      "version": "0.3.0"
+      "version": "0.4.0"
     },
-    "path": "/nix/store/nq0nswq6grcixm3jmyjgm7r8ibajs586-dms-mise",
-    "rev": "1ca9a9d2b634ae157def3fd25556341ba45e31c8",
+    "path": "/nix/store/3fg02j556mr2zykmnv6k09srn9cpmlmw-dms-mise",
+    "rev": "aec30b7c100aa4d815c1dfcf391a7796ecf064d8",
     "rootDir": "",
-    "sha256": "1ksdlqn22ys1qfxdanfqiig0an8m1manhx62cq22mjp59knfyh43",
+    "sha256": "0dr262bn7m2v5y35wvyfddkfkk9l4jc4a0qjfgvi8yry8i9gn478",
     "url": "https://github.com/Villoh/dms-mise"
   },
   "modemManager": {
