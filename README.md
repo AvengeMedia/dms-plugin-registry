@@ -8127,7 +8127,7 @@ Shows the current Hyprland submap on the DMS bar
 - name: Hyprland Submap Bar
 - author: agussantos023
 - compositors: hyprland
-- capabilities: widget
+- capabilities: dankbar-widget
 - dependencies: 
 - distro: any
 
