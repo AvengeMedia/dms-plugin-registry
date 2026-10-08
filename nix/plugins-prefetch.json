@@ -5582,12 +5582,12 @@
     "url": "https://github.com/suruibin/dms-filemanager"
   },
   "dnsSwitcher": {
-    "date": "2026-09-07T23:53:29+05:30",
+    "date": "2026-10-07T22:53:54+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-zUJVXnKH2/jsbsezoDiOkHvJL4AokXecgUJekkHyoUA=",
+    "hash": "sha256-jnTrvDDAhPnE+z00BIgt09bMlQeBZi53dSFwkb8DpuI=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -5617,12 +5617,12 @@
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-DNS_Switcher/refs/heads/main/assets/POP-Up_UI.png",
       "settings": "./DnsSwitcherSettings.qml",
       "type": "widget",
-      "version": "1.1.1"
+      "version": "1.1.2"
     },
-    "path": "/nix/store/qk4x21bp4mwpfnh636wa8sdlsa2h5536-DMS-DNS_Switcher",
-    "rev": "a36f41d93e3ced7aa0787f5b8287532cb3aaeabc",
+    "path": "/nix/store/fv4knvw6dbdkiipq849b5ijjfg2z8dzj-DMS-DNS_Switcher",
+    "rev": "09feae14e4aa743b37031ff82a197176ba886a8b",
     "rootDir": "",
-    "sha256": "0h51y90r4pj2h6f7g498h0pwjywhiqwa1cy7dvnginw7f9g5ahnd",
+    "sha256": "1qm60fzr2w11fmvjwrl10yawrmnk5n408d1xzg2gk16062yfnx4f",
     "url": "https://github.com/JDKamalakar/DMS-DNS_Switcher"
   },
   "dockerDashboard": {
@@ -6523,12 +6523,12 @@
     "url": "https://github.com/TMS-Namespace/DMS-GitHub-Inbox-Plugin"
   },
   "githubNotifier": {
-    "date": "2026-09-02T17:09:51-03:00",
+    "date": "2026-10-07T17:00:39-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Mm1KCpHwXK89RieJA5igp8nhVUEHRaWNmf19/cgFFEg=",
+    "hash": "sha256-TDG90EckwXoMZbQjff9Bnz6SMpdtmHlkYCptZYbMZ0c=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -6552,21 +6552,21 @@
       "repo": "https://github.com/psyreactor/dms-githubNotifier",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-githubNotifier/raw/main/screenshot.png",
-      "version": "1.2.1"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/a4m8sbixyfypikzfxmpjn7dml6d7kinc-dms-githubNotifier",
-    "rev": "6a0248740cf1bd5b94d15be237dc65e12fc4c2fa",
+    "path": "/nix/store/nk2ya9gd02cdf85i81a6cnwidfs56hbr-dms-githubNotifier",
+    "rev": "24ce96bc73d08ae60261a0fbe6370d10ac62221a",
     "rootDir": "",
-    "sha256": "0j0l0p4gszgxk66sai8785ay3jd7l2c072978qysyp7hj454lv9j",
+    "sha256": "0iv7rj36av9ac1j7k63djwr94glz87zps8xlcl67mh948z8bscac",
     "url": "https://github.com/psyreactor/dms-githubNotifier"
   },
   "gitlabNotifier": {
-    "date": "2026-09-02T17:10:08-03:00",
+    "date": "2026-10-07T17:16:38-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-OwyAsMi8N7w+tWs+8Bd22PTjkZNb9HIVBOnA35uohmw=",
+    "hash": "sha256-R9hlR8eU++qjiwTLwFY6WYi0VWPTewgqEdHI+SzcXfc=",
     "leaveDotGit": false,
     "meta": {
       "author": "psyreactor",
@@ -6590,12 +6590,12 @@
       "repo": "https://github.com/psyreactor/dms-gitlabNotifier",
       "requires_dms": ">0.0.28",
       "screenshot": "https://github.com/psyreactor/dms-gitlabNotifier/raw/main/screenshot.png",
-      "version": "1.3.1"
+      "version": "1.4.1"
     },
-    "path": "/nix/store/ljwzzaa45sxikiw5ggglzhnjnyl072g2-dms-gitlabNotifier",
-    "rev": "be36205e7687fe037d4a61bbcea091bd17c0e387",
+    "path": "/nix/store/gdwj00g8wmc0afhj1ipl2sl8179326w7-dms-gitlabNotifier",
+    "rev": "b1dad25272a00c71bb4dc7bf1438cffb9269fe1f",
     "rootDir": "",
-    "sha256": "0v46m2dxzh790hap5x2vjf8y7x6qfqbz0gkbnlzbqdxwr2q8031v",
+    "sha256": "1xsxvhngkj6i24m0hyykcdav922r79bc1jq4ifiymywlqx3nbn27",
     "url": "https://github.com/psyreactor/dms-gitlabNotifier"
   },
   "gitmojiLauncher": {
@@ -8471,12 +8471,12 @@
     "url": "https://github.com/korbash/mihomo-dms-widget"
   },
   "mise": {
-    "date": "2026-10-07T14:41:10+02:00",
+    "date": "2026-10-07T15:19:04+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jG3LtPIgLa1MtSlp6wV6j2m1Dt25dpZB9H/UAqikgTQ=",
+    "hash": "sha256-J1hGIak87YatHGa/cjREUO43ihnMjD76MDC5dzXtW1k=",
     "leaveDotGit": false,
     "meta": {
       "author": "Villoh",
@@ -8504,10 +8504,10 @@
       "screenshot": "https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png",
       "version": "0.4.0"
     },
-    "path": "/nix/store/hzq18r5ghjrnmmv60idwqk5hq7x5c9i6-dms-mise",
-    "rev": "ec68f490ed78f5967b7565b41e55d97a43f4d051",
+    "path": "/nix/store/d41bj7wrh4h4l0h2jc0j8ic60a6sns6p-dms-mise",
+    "rev": "3a4b3f59c50804834b7d898b9a4717766f9ec391",
     "rootDir": "",
-    "sha256": "0d41ljl05m3zyi0rcxmrvl7bascgg82yns99nm6asb90yascnvcc",
+    "sha256": "0navxlspgf9h63x3x36c3653gvjh8hs75gv63jnqdv9wm4hlcn17",
     "url": "https://github.com/Villoh/dms-mise"
   },
   "modemManager": {
@@ -9718,12 +9718,12 @@
     "url": "https://github.com/orangedeck-dev/dms-plugin"
   },
   "orbitBluetooth": {
-    "date": "2026-10-04T17:21:04+02:00",
+    "date": "2026-10-08T02:04:33+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-yOY+2GHV508ynW5bC26yDElcSyFrYUl1Av5rR+iqd04=",
+    "hash": "sha256-WgGxr3d7WQzh2Vcq8i8O0b8wXUUhk3POii6d44eJ8Mg=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -9751,12 +9751,12 @@
       "repo": "https://github.com/lung595/orbitBluetooth",
       "requires_dms": ">=1.6.0",
       "screenshot": "https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png",
-      "version": "1.13.3"
+      "version": "1.14.0"
     },
-    "path": "/nix/store/zwryh675nzwn3zngxm8z8i4n29nwa24b-orbitBluetooth",
-    "rev": "c1c07ad0b1f2326d357dfddc8e2622a9679bea1e",
+    "path": "/nix/store/npxwcl8c70ran14rky0fmqp638gnrkfc-orbitBluetooth",
+    "rev": "f9e2f4e8b52a11ad00e21bd6ebcf085e10357fa2",
     "rootDir": "",
-    "sha256": "0kkpmbl4fszy09sljqbb455mqj8cn9p0nnvfklr4zrymc7c3xrn8",
+    "sha256": "1j7hi63y779fib7774r18mfk1gyi1qpz4ajpv7hhqnbvfypv20as",
     "url": "https://github.com/lung595/orbitBluetooth"
   },
   "pangolinWidget": {
