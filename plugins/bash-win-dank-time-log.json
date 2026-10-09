@@ -1,0 +1,22 @@
+{
+    "id": "dankTimeLog",
+    "name": "Dank Time Log",
+    "capabilities": [
+        "dankbar-widget",
+        "daemon",
+        "ipc"
+    ],
+    "category": "productivity",
+    "repo": "https://github.com/bash-win/DankTimeLog",
+    "author": "bash-win",
+    "description": "Track time against your own presets from a bar pill and popout, with per-preset averages per day for today, this week, or the last N days. One timer at a time, stopped automatically on suspend or power-off, with IPC commands for keybindings.",
+    "requires_dms": ">=1.6.2",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/bash-win/DankTimeLog/main/screenshot.png"
+}

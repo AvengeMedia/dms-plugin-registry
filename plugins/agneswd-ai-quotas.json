@@ -8,7 +8,7 @@
   "category": "monitoring",
   "repo": "https://github.com/agneswd/dms-ai-quotas",
   "author": "agneswd",
-  "description": "Monitor Claude, Codex, OpenCode, Antigravity, DeepSeek, and Grok usage limits and balances in your bar.",
+  "description": "Monitor Claude, Codex, OpenCode Go, Z.ai, Kimi Code, DeepSeek, OpenRouter, Grok, and Antigravity usage limits and balances in your bar.",
   "dependencies": [
     "curl",
     "jq"

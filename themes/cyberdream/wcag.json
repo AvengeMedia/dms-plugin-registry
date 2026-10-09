@@ -1,0 +1,117 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "AAA",
+    "minRatio": 13.56,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 16.18,
+      "worstPair": [
+        "surfaceText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "AAA",
+      "minRatio": 13.56,
+      "worstPair": [
+        "primaryText",
+        "primary"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 6.48,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "cyberdream-blue": "AA",
+      "cyberdream-cyan": "AAA",
+      "cyberdream-gray": "AA",
+      "cyberdream-green": "AAA",
+      "cyberdream-magenta": "AA",
+      "cyberdream-muted-blue": "AAA",
+      "cyberdream-muted-cyan": "AAA",
+      "cyberdream-muted-gray": "AA",
+      "cyberdream-muted-green": "AAA",
+      "cyberdream-muted-magenta": "AA",
+      "cyberdream-muted-pink": "AA",
+      "cyberdream-muted-purple": "AA",
+      "cyberdream-muted-yellow": "AAA",
+      "cyberdream-pink": "AA",
+      "cyberdream-purple": "AA",
+      "cyberdream-yellow": "AAA"
+    },
+    "breakdown": [
+      {
+        "name": "Cyberdream",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Cyberdream Muted",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      }
+    ]
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 4.47,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 14.8,
+      "worstPair": [
+        "surfaceText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "fail",
+      "minRatio": 4.47,
+      "worstPair": [
+        "primaryText",
+        "primary"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 3.18,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "cyberdream-light-blue": "AA",
+      "cyberdream-light-cyan": "fail",
+      "cyberdream-light-gray": "fail",
+      "cyberdream-light-green": "fail",
+      "cyberdream-light-magenta": "AA",
+      "cyberdream-light-pink": "fail",
+      "cyberdream-light-purple": "AA",
+      "cyberdream-light-yellow": "fail"
+    },
+    "breakdown": [
+      {
+        "name": "Cyberdream Light",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
+  }
+}

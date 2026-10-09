@@ -1,0 +1,27 @@
+{
+    "id": "freshrssReader",
+    "name": "FreshRSS",
+    "capabilities": [
+        "daemon",
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/jtcarrasco/freshrss-reader",
+    "path": "dms",
+    "author": "Jason Carrasco",
+    "description": "FreshRSS client for DankBar: unread count on the bar, categories, article list with thumbnails, and read/star state that syncs with your server. Keyboard-driven, with FreshRSS's own shortcuts.",
+    "dependencies": [
+        "python3",
+        "secret-tool",
+        "gnome-keyring"
+    ],
+    "compositors": [
+        "niri",
+        "hyprland"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/jtcarrasco/freshrss-reader/main/screenshots/dms.png",
+    "requires_dms": ">=1.6.0"
+}

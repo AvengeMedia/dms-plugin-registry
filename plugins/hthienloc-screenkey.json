@@ -10,6 +10,7 @@
     "author": "Loc Huynh",
     "description": "An always-on-top keystroke and mouse click visualizer for tutorials.",
     "dependencies": [
+        "python3",
         "evtest",
         "libinput"
     ],

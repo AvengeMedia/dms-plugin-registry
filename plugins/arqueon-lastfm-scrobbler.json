@@ -1,7 +1,7 @@
 {
     "id": "lastfmScrobbler",
     "name": "DMS Last.fm Scrobbler",
-    "version": "1.4.0",
+    "version": "1.4.2",
     "capabilities": [
         "daemon",
         "dankbar-widget",
@@ -11,7 +11,8 @@
     "category": "media",
     "repo": "https://github.com/arqueon/dms-scrobbler",
     "author": "arqueon",
-    "description": "Last.fm companion for the native DMS media player: scrobbling, love/unlove actions, profile links, scrobble progress, and an offline retry queue.",
+    "description": "Last.fm companion for DMS: scrobbling, love/unlove, profile links and an offline retry queue. Optional remote Now Playing polls Last.fm; optional artwork search sends track metadata to YouTube Music. An optional MPRIS bridge needs a C compiler, libsystemd and json-c headers.",
+    "requires_dms": ">=1.5.0",
     "dependencies": [
         "python3"
     ],

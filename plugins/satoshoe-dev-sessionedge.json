@@ -15,5 +15,6 @@
     "distro": [
         "any"
     ],
-    "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-sessionedge/main/assets/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/dms-sessionedge/main/assets/screenshot.png",
+    "requires_dms": ">=1.6.1"
 }

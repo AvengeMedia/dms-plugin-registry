@@ -6,7 +6,7 @@
     "repo": "https://github.com/rochacbruno/WorldClock",
     "author": "Bruno Cesar Rocha",
     "description": "Multiple timezones clock for DankBar",
-    "dependencies": ["moment-js"],
+    "dependencies": [],
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://github.com/rochacbruno/WorldClock/raw/main/screenshot.png",

@@ -2,7 +2,9 @@
     "id": "niriDS",
     "name": "Niri Display Settings",
     "capabilities": [
-        "daemon"
+        "daemon",
+        "manage-displays",
+        "control-center"
     ],
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-plugins",
@@ -19,5 +21,6 @@
         "any"
     ],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/niriDS/screenshot.png",
-    "path": "niriDS"
+    "path": "niriDS",
+    "requires_dms": ">=1.5.0"
 }

@@ -1,0 +1,27 @@
+{
+    "id": "absPlayer",
+    "name": "Audiobookshelf",
+    "capabilities": [
+        "daemon",
+        "dankbar-widget"
+    ],
+    "category": "media",
+    "repo": "https://github.com/jtcarrasco/audiobookshelf-player",
+    "path": "dms",
+    "author": "Jason Carrasco",
+    "description": "Audiobookshelf client for DankBar: books and podcasts, resume and progress sync, chapters, covers, and a themed popout player.",
+    "dependencies": [
+        "mpv",
+        "python3",
+        "secret-tool",
+        "gnome-keyring"
+    ],
+    "compositors": [
+        "niri",
+        "hyprland"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/jtcarrasco/audiobookshelf-player/main/screenshots/dms.png"
+}

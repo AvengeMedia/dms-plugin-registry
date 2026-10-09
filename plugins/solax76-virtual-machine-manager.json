@@ -1,0 +1,14 @@
+{
+    "id": "virtManager",
+    "name": "Virtual Machine Manager",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/solax76/DmsVirtualManager",
+    "author": "solax76",
+    "description": "Display libvirt/KVM virtual machine status and management controls (start, pause, shutdown, reboot, save state, virt-viewer)",
+    "dependencies": ["libvirt (virsh)", "virt-viewer"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/solax76/DmsVirtualManager/main/assets/screen2.jpeg",
+    "requires_dms": ">=1.2.0"
+}
