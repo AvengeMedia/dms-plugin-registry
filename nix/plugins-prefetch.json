@@ -9103,12 +9103,12 @@
     "url": "https://github.com/hthienloc/dms-plugins"
   },
   "niriDSA": {
-    "date": "2026-09-07T23:42:54+05:30",
+    "date": "2026-10-09T08:15:06+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-UnZWmbVxDcNUX4ovVRfTpwIGZBzvHknahcNcb7aiBNc=",
+    "hash": "sha256-cVEHroK2xPcEHplNwjo/iSzBmcPQlZtom9RURp2Ut+k=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -9140,12 +9140,12 @@
         "widget",
         "daemon"
       ],
-      "version": "2.0.0"
+      "version": "2.1.0"
     },
-    "path": "/nix/store/mp8m89619dpidsckm461x4y6rz7pd775-DMS-Niri_Display_Settings",
-    "rev": "0ac7b6ff093e5f14d2157a2aae463cc338ed97ed",
+    "path": "/nix/store/0a2a7wlaahp1yc40rrnakz2mj8qi09pl-DMS-Niri_Display_Settings",
+    "rev": "a016277cf78fd944ed52e056d6ec658f5dd69c15",
     "rootDir": "",
-    "sha256": "1mq4lav6yp63hpd4j7pg3ij0c0m7scbmabwabxac63binncmcxjj",
+    "sha256": "1sdpjjflcm6lkdl9p5fhqfcw2b497wxc4kcr3q2ggi5nhap0flbi",
     "url": "https://github.com/jdkamalakar/DMS-Niri_Display_Settings"
   },
   "niriScreenshot": {
