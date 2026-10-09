@@ -1,0 +1,13 @@
+{
+    "id": "quickShortcuts",
+    "name": "Quick Shortcuts",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/KadirJeager/dms-quick-shortcuts",
+    "author": "KadirJeager",
+    "description": "Desktop app shortcuts: the widget shows only the icons, and apps are added, removed and reordered from Settings > Desktop Widgets",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/KadirJeager/dms-quick-shortcuts/main/assets/screenshot.png"
+}
