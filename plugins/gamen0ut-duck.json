@@ -1,0 +1,14 @@
+{
+    "id": "duck",
+    "name": "Duck",
+    "capabilities": ["dankbar-widget"],
+    "category": "appearance",
+    "repo": "https://github.com/Gamen0ut/Duck",
+    "author": "Gamen0ut",
+    "description": "A duck in your bar that says quack. Counts your quacks, unlocks 25 achievements, chains combos, and opens a popout with a pond, a quack history and your achievements.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "requires_dms": ">=1.6.0",
+    "screenshot": "https://raw.githubusercontent.com/Gamen0ut/Duck/main/screenshot.png"
+}
