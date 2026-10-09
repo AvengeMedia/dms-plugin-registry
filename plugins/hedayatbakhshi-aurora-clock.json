@@ -7,7 +7,7 @@
     "author": "Hedayatullah",
     "description": "A clean desktop clock widget with seconds, date, and optional 24-hour format.",
     "dependencies": [],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/Hedayatbakhshi/dms-aurora-clock/master/screenshot.png"
 }
