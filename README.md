@@ -5287,6 +5287,36 @@ Quickly toggle between different audio output devices
 
 
 
+#### [Aurora Clock](https://github.com/Hedayatbakhshi/dms-aurora-clock)
+
+A clean desktop clock widget with seconds, date, and optional 24-hour format.
+
+
+
+- id: auroraClock
+- name: Aurora Clock
+- author: Hedayatullah
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Hedayatbakhshi/dms-aurora-clock/master/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Baloo Search](https://github.com/Beepeeko/dms-baloo-search)
 
 Uses KDE Baloo indexer to search files
