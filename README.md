@@ -8026,14 +8026,14 @@ Hide/Show bar widgets with a click or hover
 
 Monitor and display Home Assistant entity states in your status bar
 
-<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
 
 - id: homeAssistantMonitor
 - name: Home Assistant Monitor
 - author: xxyangyoulin
-- compositors: hyprland
+- compositors: any
 - capabilities: home-assistant-monitor, dankbar-widget
-- dependencies: curl
+- dependencies: qt6-websockets
 - distro: any
 
 
