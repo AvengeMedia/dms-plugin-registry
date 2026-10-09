@@ -881,12 +881,12 @@
     "url": "https://github.com/CD-Z/dms-plugins"
   },
   "auroraClock": {
-    "date": "2026-10-09T10:13:57+04:30",
+    "date": "2026-10-09T10:20:31+04:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uDPKj0m1EPaVoaWmHr3LaeAJUDDoSB1Yxe6WPIELuxo=",
+    "hash": "sha256-C3pvlANM2N3kx5icIMZGA54aIAI9mUG9EHiziJ8bqJs=",
     "leaveDotGit": false,
     "meta": {
       "author": "Hedayatullah",
@@ -906,12 +906,12 @@
       "name": "Aurora Clock",
       "repo": "https://github.com/Hedayatbakhshi/dms-aurora-clock",
       "screenshot": "https://raw.githubusercontent.com/Hedayatbakhshi/dms-aurora-clock/master/screenshot.png",
-      "version": "1.0.0"
+      "version": "1.0.1"
     },
-    "path": "/nix/store/gxzkb6v4zip6vjvvnc6wiv2a4n719yz7-dms-aurora-clock",
-    "rev": "77b3a379010cb9a79f7510b59924ab0d5e1d131d",
+    "path": "/nix/store/yf3njm6darfbv66mh1hj7329pf9yfkyi-dms-aurora-clock",
+    "rev": "5994733ae309d934a8da94574beadd8db24ba275",
     "rootDir": "",
-    "sha256": "06mv1f0kr5pfqmc1sj786180kq39rfyix9m5l6azc45m967wlcxq",
+    "sha256": "16x83fgqicvq22yl369x08h1m7h38v32174qqzjdvn2c0fa6yyhb",
     "url": "https://github.com/Hedayatbakhshi/dms-aurora-clock"
   },
   "aven": {
@@ -1619,12 +1619,12 @@
     "url": "https://github.com/by-architect/DMS-Plugins"
   },
   "chineseCalendar": {
-    "date": "2026-10-09T06:13:31+08:00",
+    "date": "2026-10-09T14:59:25+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-TQoW/vQsIyAeh/WMOMvJMGyfs5a6aBGSisq5E+0gZdI=",
+    "hash": "sha256-EJeT8WqkR7ieRDtCXgqC5z82yEETeqzSFUJkyy6Gpz4=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -1649,12 +1649,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-ccal",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-ccal/master/assets/screenshot.png",
-      "version": "1.2.7"
+      "version": "2.0.0"
     },
-    "path": "/nix/store/hmgajfyaypiakjc90n4ndx2qql685873-dms-plugin-ccal",
-    "rev": "7e98dee2dd29958026997241b33ebbcb4e67aabf",
+    "path": "/nix/store/8a8gqnw4hsmhrar9wzpc6fy8hcx0pymp-dms-plugin-ccal",
+    "rev": "2ca4d62aa19c76fad9f2eb966641af4591610452",
     "rootDir": "",
-    "sha256": "1lk543ni7ffaia912s5sjsrryv1hr75ki37mhwg208rcykz1c2jd",
+    "sha256": "0gm7hqpcnr222p9aqyhk8743cgz7h855whiv8jgbhix4dbqr75qh",
     "url": "https://github.com/xxyangyoulin/dms-plugin-ccal"
   },
   "clashVerge": {
@@ -6893,12 +6893,12 @@
     "url": "https://github.com/hthienloc/dms-plugins"
   },
   "homeAssistantMonitor": {
-    "date": "2026-10-09T06:13:36+08:00",
+    "date": "2026-10-09T15:38:00+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-AC452J0eLituMehm1UlDz6kxgA0OuW1w54sXa1NZDWw=",
+    "hash": "sha256-Lr1UfeHiFIuoHTPepXJLVOfBmQeowYynk/F+qrvpC9s=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -6908,10 +6908,10 @@
       ],
       "category": "utilities",
       "compositors": [
-        "hyprland"
+        "any"
       ],
       "dependencies": [
-        "curl"
+        "qt6-websockets"
       ],
       "description": "Monitor and display Home Assistant entity states in your status bar",
       "distro": [
@@ -6921,14 +6921,14 @@
       "id": "homeAssistantMonitor",
       "name": "Home Assistant Monitor",
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
-      "requires_dms": ">=1.2.0",
+      "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-      "version": "3.0.0"
+      "version": "3.0.1"
     },
-    "path": "/nix/store/9x37wlai9r70wa6s8ljs80wh1mjy1h2s-dms-plugin-hass",
-    "rev": "1f17e65712f833735496ed8e34121b7d26a276fc",
+    "path": "/nix/store/8yg3c9rd5zdw6f8w9lyb7wy6p2g1mms9-dms-plugin-hass",
+    "rev": "758ad83be10822e53b353bf35ab5f28acd82c18d",
     "rootDir": "",
-    "sha256": "0v0db59nn5wbwxq6vf8f1n033afg8d4xarp865p2nbhykpc3jbh0",
+    "sha256": "1nqbx6xslzpijfkqrhd80ycw3rsl9drabpik3nl8n572w5ym9g9f",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hostnameWidget": {
@@ -9752,12 +9752,12 @@
     "url": "https://github.com/orangedeck-dev/dms-plugin"
   },
   "orbitBluetooth": {
-    "date": "2026-10-08T23:09:25+02:00",
+    "date": "2026-10-09T09:12:44+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-OSwy9jK2pqYz7Zu/IACzsXRsF4rRi9P00pgBUwuQxfQ=",
+    "hash": "sha256-wEK0NgLpt3LkUiLjHgBNWRc6D8K/xepULy9QlTyi//g=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -9787,10 +9787,10 @@
       "screenshot": "https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png",
       "version": "1.14.0"
     },
-    "path": "/nix/store/cc6h4crqp7ka8i4f75hxmbzc52yg386h-orbitBluetooth",
-    "rev": "50feabe1072817a5b6b06b1b436ba6c5c3315179",
+    "path": "/nix/store/n49l1nz35jhfrk3qkhs5j0ih4pg2jz6a-orbitBluetooth",
+    "rev": "62d49211d6bb46f86a90b7d2badaa7f9d056dd2e",
     "rootDir": "",
-    "sha256": "1x65j05m60cqsbsd72yii8bnqx5inc021gwvxlrsd9mn6bv34b1r",
+    "sha256": "1y7zl8y9al1g5xafmidzq87kl5sr9l01xqr2abj75dz908vb8hn0",
     "url": "https://github.com/lung595/orbitBluetooth"
   },
   "pangolinWidget": {
