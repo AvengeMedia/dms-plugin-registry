@@ -6,6 +6,7 @@
     "repo": "https://github.com/Adnan0-IM/nipeControl",
     "author": "Adnan0-IM",
     "description": "Start, stop, and monitor Nipe Tor gateway connection status, external IP, exit node country, with desktop notifications.",
+    "requires_dms": ">=1.4.0",
     "dependencies": [
         "perl",
         "perl-config-simple",
