@@ -880,6 +880,40 @@
     "sha256": "1b4k2aask6ga4i8n5p06998nmsyix5918bi7jyv9j9pxhkx02swc",
     "url": "https://github.com/CD-Z/dms-plugins"
   },
+  "auroraClock": {
+    "date": "2026-10-09T10:13:57+04:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-uDPKj0m1EPaVoaWmHr3LaeAJUDDoSB1Yxe6WPIELuxo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Hedayatullah",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "A clean desktop clock widget with seconds, date, and optional 24-hour format.",
+      "distro": [
+        "any"
+      ],
+      "id": "auroraClock",
+      "name": "Aurora Clock",
+      "repo": "https://github.com/Hedayatbakhshi/dms-aurora-clock",
+      "screenshot": "https://raw.githubusercontent.com/Hedayatbakhshi/dms-aurora-clock/master/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/gxzkb6v4zip6vjvvnc6wiv2a4n719yz7-dms-aurora-clock",
+    "rev": "77b3a379010cb9a79f7510b59924ab0d5e1d131d",
+    "rootDir": "",
+    "sha256": "06mv1f0kr5pfqmc1sj786180kq39rfyix9m5l6azc45m967wlcxq",
+    "url": "https://github.com/Hedayatbakhshi/dms-aurora-clock"
+  },
   "aven": {
     "date": "2026-09-27T02:12:58+07:00",
     "deepClone": false,
