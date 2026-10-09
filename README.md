@@ -5132,14 +5132,14 @@ Alienware Command Center plugin for DankBar
 
 
 
-#### [Ambient Sound](https://github.com/hthienloc/dms-plugins)
+#### [Ambient Sounds](https://github.com/hthienloc/dms-plugins)
 
 Play ambient focus sounds with integrated sleep timer and volume control.
 
 <strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: ambientSound
-- name: Ambient Sound
+- name: Ambient Sounds
 - author: Loc Huynh
 - compositors: any
 - capabilities: dankbar-widget
