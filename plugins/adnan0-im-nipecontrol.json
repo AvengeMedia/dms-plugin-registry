@@ -5,7 +5,7 @@
     "category": "network",
     "repo": "https://github.com/Adnan0-IM/nipeControl",
     "author": "Adnan0-IM",
-    "description": "Start, stop, and monitor Nipe Tor gateway connection status, external IP, exit node country, with desktop notifications.",
+    "description": "Start, stop, and monitor the Nipe Tor gateway: status, external exit IP and location, with desktop notifications. Requires python3, perl, polkit, tor and a Nipe checkout.",
     "requires_dms": ">=1.4.0",
     "dependencies": [
         "perl",
