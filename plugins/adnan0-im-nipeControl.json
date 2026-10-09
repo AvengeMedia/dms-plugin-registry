@@ -14,10 +14,8 @@
         "perl-readonly",
         "perl-io-socket-ssl",
         "perl-net-ssleay",
-        "tor",
-        "curl",
         "polkit",
-        "python3",
+        "tor",
         "nipe"
     ],
     "compositors": ["any"],
