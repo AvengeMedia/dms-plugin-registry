@@ -18,7 +18,7 @@
         "jq",
         "libnotify"
     ],
-    "compositors": ["niri", "hyprland"],
+    "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/Adnan0-IM/nipeControl/main/screenshot.png"
 }
