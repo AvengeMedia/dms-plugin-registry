@@ -3,7 +3,7 @@
     "name": "Nipe Control",
     "capabilities": ["dankbar-widget", "network-control", "country-detection", "notifications", "auto-start"],
     "category": "network",
-    "repo": "https://github.com/Adnan0-IM/nipeControl",
+    "repo": "https://github.com/Adnan0-IM/n>ipeControl",
     "author": "Adnan0-IM",
     "description": "Start, stop, and monitor Nipe Tor gateway connection status, external IP, exit node country, with desktop notifications.",
     "requires_dms": ">=1.4.0",
@@ -16,8 +16,9 @@
         "perl-net-ssleay",
         "tor",
         "curl",
-        "jq",
-        "libnotify"
+        "polkit",
+        "python3",
+        "nipe"
     ],
     "compositors": ["any"],
     "distro": ["any"],
