@@ -2308,12 +2308,12 @@
     "url": "https://github.com/rabits/dms-plugin-cpucoreload"
   },
   "cpuMonitor": {
-    "date": "2026-08-30T13:54:38+03:00",
+    "date": "2026-10-10T15:29:14+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Nm8r7vObdoghCmTkf226KB3FwDn6j5um2YnoND0rY0Q=",
+    "hash": "sha256-d36G/ZlxU5mTwPoKOfRDdtgKhRwNxRVdyjmDWIEiFJs=",
     "leaveDotGit": false,
     "meta": {
       "author": "Rolle Laukkarinen",
@@ -2333,12 +2333,12 @@
       "name": "CPU Monitor",
       "repo": "https://github.com/rollecode/dms-cpu-monitor",
       "screenshot": "https://raw.githubusercontent.com/rollecode/dms-cpu-monitor/main/Screenshot.png",
-      "version": "1.6.1"
+      "version": "1.6.2"
     },
-    "path": "/nix/store/6asv7ym9yq4vih9n6ggwlb6ibwa76zg8-dms-cpu-monitor",
-    "rev": "182e9519788c319341a99ede78c39327e3635ac9",
+    "path": "/nix/store/fzxfx852dzhj4cdzik3ahddw9ljjwqwb-dms-cpu-monitor",
+    "rev": "fce05139ddefb8b3ed18304a524421a14cca7926",
     "rootDir": "",
-    "sha256": "0i335cyk9s49v6k9p3zs770ca798p9npzr3418hqhxlvygp2nvrn",
+    "sha256": "16ql4a0mi0rrr9fibi8d3j2hmn3n8gs3j2psq29rjlvik7yqczkp",
     "url": "https://github.com/rollecode/dms-cpu-monitor"
   },
   "cpuThermalIndicator": {
@@ -4875,12 +4875,12 @@
     "url": "https://github.com/PandorasFox/dms-discord-widget"
   },
   "diskMonitor": {
-    "date": "2026-07-26T15:51:39+03:00",
+    "date": "2026-10-10T15:57:18+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-ZF8PbSERnUklqwcwshtZRueiSoDNK8W6dixA0th+ySg=",
+    "hash": "sha256-iFHUkORCNPuOEcibKT/jPz2lyrlwUGM3p1ZJiVBeQl4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Rolle Laukkarinen",
@@ -4900,12 +4900,12 @@
       "name": "Disk Monitor",
       "repo": "https://github.com/rollecode/dms-disk-monitor",
       "screenshot": "https://raw.githubusercontent.com/rollecode/dms-disk-monitor/main/Screenshot.png",
-      "version": "1.1.0"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/aa8cs45r159p4k9pkgrdl9vw7ql1sz4z-dms-disk-monitor",
-    "rev": "23ce1dee2886f1eb8f2c86df72c977169a878147",
+    "path": "/nix/store/2jcjhbvq8bdhbrd9wcz5prjjpisbrv71-dms-disk-monitor",
+    "rev": "2b80bf917144d9146dc4c562528d69682b5c9e1b",
     "rootDir": "",
-    "sha256": "0a69gvcd4h1cfsxcaaydh15a5rs6b4dv4c07mcjlk78i45nhypv4",
+    "sha256": "0pj2br88jjanlwvn6l3hp75aag9zwczjk6y8267gnd22wj8d8lc8",
     "url": "https://github.com/rollecode/dms-disk-monitor"
   },
   "displayManager": {
@@ -5154,6 +5154,48 @@
     "rootDir": "",
     "sha256": "00p33ha0yr87dxw9w30wfsd5v2q3qbcfx9j8b1ax5lqxk88kwqny",
     "url": "https://github.com/Francisdelca/dms-agent"
+  },
+  "dmsAirDrop": {
+    "date": "2026-10-10T14:06:33+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-lTIfhhaw6EFG/lFcjKOhldVZ/W64tLKjnDghBwm9NY8=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Kratospidey",
+      "capabilities": [
+        "daemon",
+        "dankbar-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "python",
+        "systemd",
+        "iproute2",
+        "omdrop",
+        "omdrop-owl"
+      ],
+      "description": "Send and receive files with nearby Apple devices from DankBar. Requires an existing Omdrop 0.14.1 and omdrop-owl setup on compatible hardware; the KDE thumbnail picker is optional.",
+      "distro": [
+        "arch"
+      ],
+      "id": "dmsAirDrop",
+      "name": "AirDrop",
+      "repo": "https://github.com/Kratospidey/dms-airdrop",
+      "requires_dms": ">=1.6.2",
+      "screenshot": "https://raw.githubusercontent.com/Kratospidey/dms-airdrop/main/assets/airdrop-popout.png",
+      "version": "0.2.1"
+    },
+    "path": "/nix/store/q0gldmy12z4xl2km1xs37q7rgsfj1vmv-dms-airdrop",
+    "rev": "3064478abce8b1c50536add3277f82312514ed21",
+    "rootDir": "",
+    "sha256": "13rmpl4hf89qkjiv5d5qdvymkmcml6iqqp2izr343s5h2s31yclm",
+    "url": "https://github.com/Kratospidey/dms-airdrop"
   },
   "dmsDesktopCountdown": {
     "date": "2026-05-31T14:57:40-04:00",
@@ -6709,12 +6751,12 @@
     "url": "https://github.com/ChaoXu1997/glance"
   },
   "gpuMonitor": {
-    "date": "2026-07-26T16:00:45+03:00",
+    "date": "2026-10-10T15:30:31+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-zSRCPbxIp9I67QBMtM7pho4T3AQmw0WQOME9MsPBeRM=",
+    "hash": "sha256-rQ9wPZUBbcRbDvfUCS9RD9+0iyNLI9A9gQ0sjUCtexM=",
     "leaveDotGit": false,
     "meta": {
       "author": "Rolle Laukkarinen",
@@ -6736,12 +6778,12 @@
       "name": "GPU Monitor",
       "repo": "https://github.com/rollecode/dms-gpu-monitor",
       "screenshot": "https://raw.githubusercontent.com/rollecode/dms-gpu-monitor/main/Screenshot.png",
-      "version": "1.5.0"
+      "version": "1.5.1"
     },
-    "path": "/nix/store/4v8c83k0mng7v6zh1799g0kb39rkxcgd-dms-gpu-monitor",
-    "rev": "6a725d2c292c4cd8c7da38ed0e40ad77eb77ec25",
+    "path": "/nix/store/x1b6pchnmd5asngij3c1iypqwmkkhsi3-dms-gpu-monitor",
+    "rev": "a7609c381842fd33257f4a78d5e0ebc76bbbb579",
     "rootDir": "",
-    "sha256": "04vrq71k4gf17284bhr60kf173l6x77b8k00xlxd59s8phyl496d",
+    "sha256": "04vvmm08sb0dh4yx08sb4f5v9pqga4phkm7p1rdw8v81jlyp03xd",
     "url": "https://github.com/rollecode/dms-gpu-monitor"
   },
   "hamqslPropagation": {
@@ -7251,12 +7293,12 @@
     "url": "https://github.com/corcoran/dms-interval-command"
   },
   "ioMonitor": {
-    "date": "2026-07-27T18:35:09+03:00",
+    "date": "2026-10-10T15:01:22+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-LD2XXTeQRy2wSREIG1/2B3DqkT06x2v0O5x5CP3ckHA=",
+    "hash": "sha256-kq+TCoerq08Ngf01VTBnzyuPAf/xdAuQ0m8EiNPbmqA=",
     "leaveDotGit": false,
     "meta": {
       "author": "Rolle Laukkarinen",
@@ -7276,12 +7318,12 @@
       "name": "I/O Monitor",
       "repo": "https://github.com/rollecode/dms-io-monitor",
       "screenshot": "https://raw.githubusercontent.com/rollecode/dms-io-monitor/main/Screenshot.png",
-      "version": "1.1.0"
+      "version": "1.1.1"
     },
-    "path": "/nix/store/z0194440jj1l449hrpf6cjjmc5p5df15-dms-io-monitor",
-    "rev": "cc5337bea2354825f8428dcf06b0330f813a4af3",
+    "path": "/nix/store/2my7l62f8xkzdlhgqy8vggksbfhs3jlw-dms-io-monitor",
+    "rev": "ffad7b9262a9af1cd3c80f49622260dcd5458093",
     "rootDir": "",
-    "sha256": "0w4hvkyhhycw7gs6pirs7n8ylw07yrgin20i96q2siwh6xfrfg9c",
+    "sha256": "184svg9qh13gsa80nx7izw0qyaygcwq5adgxh46lzaxbhw597bwj",
     "url": "https://github.com/rollecode/dms-io-monitor"
   },
   "ipIndicator": {
@@ -8505,12 +8547,12 @@
     "url": "https://github.com/korbash/mihomo-dms-widget"
   },
   "mise": {
-    "date": "2026-10-09T00:05:23+02:00",
+    "date": "2026-10-10T14:04:18+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-zZDnbQ0YnxfjirPwEuU59EKRJmJQlLssKeq0wFgIfbM=",
+    "hash": "sha256-0lDIfhijiioVG2rj8yBFKuXpIRxQAi4KEd9n+6Vgzrc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Villoh",
@@ -8538,10 +8580,10 @@
       "screenshot": "https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png",
       "version": "0.6.0"
     },
-    "path": "/nix/store/qnxlg79mksqmzapik5v0rzcyv4a0vfls-dms-mise",
-    "rev": "a2e00e36372b9121c1362fcf037f80d3c890b323",
+    "path": "/nix/store/f36m9ll9gqnda1hdadgpvbq597agm75r-dms-mise",
+    "rev": "9f951985aee16a5bc15d21d92bea630d79d8a8f2",
     "rootDir": "",
-    "sha256": "1cvx11cc1d7a54nbp52hc8k92hpl77ji5w5kibiig7qq1mnyg46d",
+    "sha256": "1dyfc2jznryz2452w0jh3hhykr9a8lhg7qva3cajm2m331zchl6j",
     "url": "https://github.com/Villoh/dms-mise"
   },
   "modemManager": {
@@ -9834,12 +9876,12 @@
     "url": "https://github.com/orangedeck-dev/dms-plugin"
   },
   "orbitBluetooth": {
-    "date": "2026-10-09T22:04:18Z",
+    "date": "2026-10-10T12:35:24Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-5YD0Aj0aPdK9NNZg6OirRYztYYk7aVkNbL4VvhsGYJI=",
+    "hash": "sha256-rmZ1QOA7jfFvm1BGGQvA+ob8Us4X1y3a8zmVQlNO1mw=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -9869,10 +9911,10 @@
       "screenshot": "https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png",
       "version": "1.14.0"
     },
-    "path": "/nix/store/3ziasgdm76ybwabjggbxsp9kncgsgf29-orbitBluetooth",
-    "rev": "211a07499f110cf21f6ebb32de367bf029868cbb",
+    "path": "/nix/store/8kfa3361mjkaz0nb1yvak8z0634fr7l3-orbitBluetooth",
+    "rev": "24f3ae880f1da7ba1ef7f7c1462eba6a795038a1",
     "rootDir": "",
-    "sha256": "14k00qdvw5dydh6mjs9vi5hyv325mglfhq6n6jyx4g8s7l1g9075",
+    "sha256": "0v6n9r9l559rygd2vmqprr9gr1psq05ijijhkdpz339vw107armf",
     "url": "https://github.com/lung595/orbitBluetooth"
   },
   "pangolinWidget": {
@@ -10201,12 +10243,12 @@
     "url": "https://github.com/Mithgroth/dms-process-list"
   },
   "protonVPN": {
-    "date": "2026-09-20T21:49:45+05:30",
+    "date": "2026-10-10T10:16:51+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-eQGv1QSMttmxR0luW7JOZCPfMAJDs2962dUT3h6CpMc=",
+    "hash": "sha256-P0jRBPIEG0Rpo5nc0tYgibb6ffVhcEH5HjMms5eYYjc=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -10238,12 +10280,12 @@
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Proton_VPN/refs/heads/main/assets/POP-Up_UI.png",
       "settings": "./ProtonVPNSettings.qml",
       "type": "widget",
-      "version": "1.0.2"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/fwiyhi8x2jq3svisgv4rwzxa66fmvd6m-DMS-Proton_VPN",
-    "rev": "2d613793ff49e63aa6c72e1552336ad7351ed11e",
+    "path": "/nix/store/fk0fkisl4z0dq4bfsrmbv5dwsr5vj5nl-DMS-Proton_VPN",
+    "rev": "e91e32306b6554e562fafdbc02624befb626c055",
     "rootDir": "",
-    "sha256": "1ix4h8gdw4ymv5x6zcs308qdy8v49sr5nvj98yqxkdlc0kasy0br",
+    "sha256": "0dv2k2bv69ik3vwl2w31ymyzmdl943bd5p4rldll86q4y82d2j1z",
     "url": "https://github.com/JDKamalakar/DMS-Proton_VPN"
   },
   "proxyTraffic": {
@@ -10514,12 +10556,12 @@
     "url": "https://github.com/alamin147/RadioAtlasLite"
   },
   "ramMonitor": {
-    "date": "2026-07-26T16:00:38+03:00",
+    "date": "2026-10-10T15:00:12+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-1Z+5sE/cD9d7wrpJsveEGPmWZinkianGvJAFKdeC3ZQ=",
+    "hash": "sha256-vplluxDwBobx9/8+g0ETflftUXNSDe81aVaH1O5NuWk=",
     "leaveDotGit": false,
     "meta": {
       "author": "Rolle Laukkarinen",
@@ -10539,12 +10581,12 @@
       "name": "RAM Monitor",
       "repo": "https://github.com/rollecode/dms-ram-monitor",
       "screenshot": "https://raw.githubusercontent.com/rollecode/dms-ram-monitor/main/Screenshot.png",
-      "version": "1.6.0"
+      "version": "1.6.1"
     },
-    "path": "/nix/store/zr0fagvahypvsgkn975kr7zbyps6c6gz-dms-ram-monitor",
-    "rev": "f350a4f386fa8a14cd38cb20617db083fd596186",
+    "path": "/nix/store/js0l2sxgl0lc5if4m2zjyvwv188ilccg-dms-ram-monitor",
+    "rev": "583e92b18e48d744138f2f4dc8e53f970533f2bd",
     "rootDir": "",
-    "sha256": "156xhbbjj1chpk3ak2g455k9dy8qhkvv4jdsq9xxf3yw9yqbk7ym",
+    "sha256": "0sdr9ppd91snd4syy3ajfd8ysmvy2d0q6gpzyzqqc1ph22xnb6dy",
     "url": "https://github.com/rollecode/dms-ram-monitor"
   },
   "recentFiles": {
@@ -13023,12 +13065,12 @@
     "url": "https://github.com/schneipp/dms-plugin-vpn-control"
   },
   "vramMonitor": {
-    "date": "2026-07-26T16:00:42+03:00",
+    "date": "2026-10-10T15:29:17+03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-vrKV6o3fQTfRsn/YJ/9TMt6zQBKycLFOvLGbEpxMHdg=",
+    "hash": "sha256-cgI8togj7VPy7rldstZkmfRFQ2eu90aIcrvWlRLbuOU=",
     "leaveDotGit": false,
     "meta": {
       "author": "Rolle Laukkarinen",
@@ -13050,12 +13092,12 @@
       "name": "VRAM Monitor",
       "repo": "https://github.com/rollecode/dms-vram-monitor",
       "screenshot": "https://raw.githubusercontent.com/rollecode/dms-vram-monitor/main/Screenshot.png",
-      "version": "1.5.0"
+      "version": "1.5.1"
     },
-    "path": "/nix/store/kwy8vrmxpy9j0vl2sfzdrwi0sp6hb2mn-dms-vram-monitor",
-    "rev": "136721e8d89e18aa7268a549d0c65a9493718365",
+    "path": "/nix/store/4z496vdcgbi8y7g4j0fi7jjxbdxxpzr7-dms-vram-monitor",
+    "rev": "aa37d72a7bdfb6ae524e96b02d19be3f60d1d77b",
     "rootDir": "",
-    "sha256": "1n0x9jf156xipi7b2w5j290b7pijagzjgn3znb8kfhfzipm9bcmy",
+    "sha256": "1rdqvc99bmmvfa44dxxfcx1lbx4rckbb4pdrxvr57v93i2v3q0kj",
     "url": "https://github.com/rollecode/dms-vram-monitor"
   },
   "vscodeLauncher": {
