@@ -1320,12 +1320,12 @@
     "url": "https://github.com/hthienloc/dms-plugins"
   },
   "caffeineRedesigned": {
-    "date": "2026-09-07T23:44:27+05:30",
+    "date": "2026-10-09T21:33:10+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-rXNSJkBv+hua+FKQxF2PG26Ko83jfOLcMCqCyf4rt6c=",
+    "hash": "sha256-QVZuBzl5QkcjgQbvx+9QhjxyDVXEDS9lTShVHoWCg4Y=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -1354,12 +1354,12 @@
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Caffeine/refs/heads/main/assets/POP-Up_UI.png",
       "settings": "./CaffeineSettings.qml",
       "type": "widget",
-      "version": "1.0.0"
+      "version": "1.1.0"
     },
-    "path": "/nix/store/8d00d3schb166d0pd8kbbsyn60w3l70r-DMS-Caffeine",
-    "rev": "8d2e19bc1cde57aa7339b055d2bb385b36e00928",
+    "path": "/nix/store/2c757vdj1fvry3pksjwz08h4gb02ya66-DMS-Caffeine",
+    "rev": "9ee45ed44e90c3c8f5433141795bbe6596531865",
     "rootDir": "",
-    "sha256": "19xp5gzck0ia63ff4z73rniqlvhvixfw942jz2d1pykg80k54wxd",
+    "sha256": "11l3ha2iwm989mjjy3f4al6p4g46a3pwgvq6h4ilfhkr743nwmj1",
     "url": "https://github.com/JDKamalakar/DMS-Caffeine"
   },
   "calculator": {
@@ -3782,12 +3782,12 @@
     "url": "https://github.com/alcxyz/DankSession"
   },
   "dankSoftwareDepot": {
-    "date": "2026-10-08T07:53:24+02:00",
+    "date": "2026-10-09T21:33:17+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-H3qx3rFUftbJ7MQHi+tF/VXkeeHKtUnvoZO+vVntRAQ=",
+    "hash": "sha256-QITcQoBRDOYCuY07dd6uaz3StnE3vlEzec4W6fDxLP4=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3818,12 +3818,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.6.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "1.4.4"
+      "version": "1.5.0"
     },
-    "path": "/nix/store/y98z3wm6jpzb7jm5w1ga9bkam8sgqx3f-DankSoftwareDepot",
-    "rev": "e81ea489de5b7f52663ad7480e4809952fca2b78",
+    "path": "/nix/store/bz7s91gbrhggzgy1qfw79h0cb2apm7sk-DankSoftwareDepot",
+    "rev": "ff7757e1cbec9243d693e9449ee7b470625e5ac6",
     "rootDir": "",
-    "sha256": "0124xmcvvglkl7plkdfaw5wy8mgx8pmqn1y4xk4xczjln7gb2yhz",
+    "sha256": "1zicy7qfj5nfg4rm3gipf6vd4gbbmvg7afwdp41fc32ih11dr120",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -7946,12 +7946,12 @@
     "url": "https://github.com/Lemon-mon-254/dms-plugin-Lyrics"
   },
   "lyricsOnPanel": {
-    "date": "2026-09-20T05:38:33-04:00",
+    "date": "2026-10-09T23:04:30+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-aP5wAp0Dpbxy0nzsgWEUku4FGgZvbvXgfBZ1uvgSyeQ=",
+    "hash": "sha256-2JrDCmaG5vOtQakweQfdmYYFZyIn1PBbpBIif10If7g=",
     "leaveDotGit": false,
     "meta": {
       "author": "Kangwei(Anicaa) Zhu",
@@ -7975,10 +7975,10 @@
       "screenshot": "https://github.com/KangweiZhu/lyrics-on-panel/raw/main/img/image-panel-onlythiswidget.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/1rn3ssd0r4iacczfhmaxj2war1zjspf2-lyrics-on-panel",
-    "rev": "f451d23644b5f8648483c7956ddd27a8dd474fbe",
+    "path": "/nix/store/vr3q4hwx6wp00bfkspnyz046s0bfan72-lyrics-on-panel",
+    "rev": "9a6f2b5ca734c11bb2fcea1644313da52056f51e",
     "rootDir": "",
-    "sha256": "1r692bwblx8ngkhgavkg0qd0bvlj2ihq3v3ws9rbr983kl171zk8",
+    "sha256": "1f3z11fpy8hjlidz1m1749khb1lrvl3pjc5986nz7rl6cq5c76nq",
     "url": "https://github.com/KangweiZhu/lyrics-on-panel"
   },
   "magyarNevnapok": {
@@ -9396,6 +9396,41 @@
     "sha256": "1y5szb8zl6nww8lbjyp4hqchkph9xfys8k4nlyxkp6chvyhbbgxs",
     "url": "https://github.com/iahccc/NixPackageRunner"
   },
+  "nothingClock": {
+    "date": "2026-08-03T23:44:09+05:30",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-aiQmFZzvWtCWYd8YT4PC248y5WLRwIPgrKaUlwJNF14=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Sayan",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Nothing OS-inspired desktop clock with 6 styles: digital, split, analog, analog classic, digital cards, and orbit.",
+      "distro": [
+        "any"
+      ],
+      "id": "nothingClock",
+      "name": "Nothing Clock",
+      "path": "nothingclock",
+      "repo": "https://github.com/samgrande/Dank-Nothing-Clock",
+      "screenshot": "https://raw.githubusercontent.com/samgrande/Dank-Nothing-Clock/main/assets/screenshots/preview.png",
+      "version": "1.1.0"
+    },
+    "path": "/nix/store/009vb29az1j09x3cnmpaqn76kljf4rrq-Dank-Nothing-Clock",
+    "rev": "36a04d4073b8b741cfd28055897387fd54b2fd61",
+    "rootDir": "",
+    "sha256": "0php9l19g556mkh87h6icbjk53yvqa1ly66zc6bd0npgkhajc93a",
+    "url": "https://github.com/samgrande/Dank-Nothing-Clock"
+  },
   "ntfy": {
     "date": "2026-09-29T18:29:02-06:00",
     "deepClone": false,
@@ -9752,12 +9787,12 @@
     "url": "https://github.com/orangedeck-dev/dms-plugin"
   },
   "orbitBluetooth": {
-    "date": "2026-10-09T13:18:11+02:00",
+    "date": "2026-10-09T22:04:18Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-i+dtyGDUAAuiugxaY2yDX6ZFHGgykjMg0Mg3iW1TWMI=",
+    "hash": "sha256-5YD0Aj0aPdK9NNZg6OirRYztYYk7aVkNbL4VvhsGYJI=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -9787,10 +9822,10 @@
       "screenshot": "https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png",
       "version": "1.14.0"
     },
-    "path": "/nix/store/c1rsjv523y1yh9y32phikd9jyj4m6ssv-orbitBluetooth",
-    "rev": "9e273fdbebc08bf9c2a559351adef5697f8198ac",
+    "path": "/nix/store/3ziasgdm76ybwabjggbxsp9kncgsgf29-orbitBluetooth",
+    "rev": "211a07499f110cf21f6ebb32de367bf029868cbb",
     "rootDir": "",
-    "sha256": "1hjqadnqjdy8s0h374ijd0f4b9jzhdn66nhcpai0n06lc346vrwb",
+    "sha256": "14k00qdvw5dydh6mjs9vi5hyv325mglfhq6n6jyx4g8s7l1g9075",
     "url": "https://github.com/lung595/orbitBluetooth"
   },
   "pangolinWidget": {
@@ -11335,12 +11370,12 @@
     "url": "https://github.com/knappancash/SitStandReminder"
   },
   "smartTimer": {
-    "date": "2026-10-09T11:57:24+02:00",
+    "date": "2026-10-09T18:09:56+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-e7L1b6B1KUarIyJBKY9vkEbWjdIBf2rzswFGJAOu56c=",
+    "hash": "sha256-B/JcXoZTi5t4wcErVynoMC4+whKcpl/hv8A5sfPnguM=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -11364,12 +11399,12 @@
       "name": "Sands",
       "repo": "https://github.com/lung595/Sands",
       "screenshot": "https://raw.githubusercontent.com/lung595/Sands/main/screenshot.png",
-      "version": "1.4.3"
+      "version": "1.5.1"
     },
-    "path": "/nix/store/k9p4gz7jslkfmh3dppdn4l41fdz6mxd8-Sands",
-    "rev": "a20ecff75bdb20058cbb57d31b010d7f5da10960",
+    "path": "/nix/store/pccisjizvw6fa7pszmd5d0ixn7ch55vq-Sands",
+    "rev": "a6f970bfcb2439b6cb63b34e05efd2a03c73a47c",
     "rootDir": "",
-    "sha256": "19z7mq1j8ih1ngrnlzq1sa6xcilhdy7jjh924fmlcabml1pzbckv",
+    "sha256": "1qw2wzrv2ff0pzhmz9lw2b13wbihx0lmfay1q5w9p2skhrg5rwh7",
     "url": "https://github.com/lung595/Sands"
   },
   "splayerDesktopLyrics": {
