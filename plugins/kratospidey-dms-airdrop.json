@@ -1,0 +1,14 @@
+{
+    "id": "dmsAirDrop",
+    "name": "AirDrop",
+    "capabilities": ["daemon", "dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/Kratospidey/dms-airdrop",
+    "author": "Kratospidey",
+    "description": "Send and receive files with nearby Apple devices from DankBar. Requires an existing Omdrop 0.14.1 and omdrop-owl setup on compatible hardware; the KDE thumbnail picker is optional.",
+    "requires_dms": ">=1.6.2",
+    "dependencies": ["python", "systemd", "iproute2", "omdrop", "omdrop-owl"],
+    "compositors": ["niri"],
+    "distro": ["arch"],
+    "screenshot": "https://raw.githubusercontent.com/Kratospidey/dms-airdrop/main/assets/airdrop-popout.png"
+}
