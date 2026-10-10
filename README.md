@@ -5067,6 +5067,36 @@ Adds a watermark to the bottom-right of the screen
 
 
 
+#### [AirDrop](https://github.com/Kratospidey/dms-airdrop)
+
+Send and receive files with nearby Apple devices from DankBar. Requires an existing Omdrop 0.14.1 and omdrop-owl setup on compatible hardware; the KDE thumbnail picker is optional.
+
+<strong>requires DMS version</strong>: <em>>=1.6.2</em>
+
+- id: dmsAirDrop
+- name: AirDrop
+- author: Kratospidey
+- compositors: niri
+- capabilities: daemon, dankbar-widget
+- dependencies: python, systemd, iproute2, omdrop, omdrop-owl
+- distro: arch
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Kratospidey/dms-airdrop/main/assets/airdrop-popout.png)
+
+</details>
+
+
+
+
+
 #### [AirPods Control](https://github.com/demic-dev/airpods-widget-DMS)
 
 AirPods control center, powered by LibrePods.
