@@ -230,12 +230,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-10-09T23:22:14-03:00",
+    "date": "2026-10-09T23:52:43-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-v5kK0H8KVXUWJngi9mv+hfqEpauFKCUyS17LPhN4ks0=",
+    "hash": "sha256-dTEgBMdYJ4zRXaOG3vFw3GbS3knbFWglzcS/d1Pk4pY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -262,12 +262,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.20.0"
+      "version": "1.20.1"
     },
-    "path": "/nix/store/pgl0vgwzgq4z845fpcjk8s97kx1n6f49-AiOverviewControl",
-    "rev": "aa92dd68591224e5583359e18af2b0859b2d25df",
+    "path": "/nix/store/y5kskd79ysniwvr7awq3g7nlsq6bq47a-AiOverviewControl",
+    "rev": "5a74f870214aa411b2aed17a5ecf727187b658c4",
     "rootDir": "",
-    "sha256": "1kcjg09kxjsy9cr2aa45mfjq9yl5zrmzc8kq4qb7am8agz80m6dz",
+    "sha256": "15p2wi9pggy4rljnh5fv97gd4rnwf3qxx1m3bp8qq9sqqw220cbm",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
