@@ -9212,6 +9212,41 @@ Search nixpkgs with nix search, launch directly with nix run, and copy nix shell
 
 
 
+#### [Nothing Clock](https://github.com/samgrande/Dank-Nothing-Clock)
+
+Nothing OS-inspired desktop clock with 6 styles: digital, split, analog, analog classic, digital cards, and orbit.
+
+
+
+- id: nothingClock
+- name: Nothing Clock
+- author: Sayan
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [nothingclock](https://github.com/samgrande/Dank-Nothing-Clock/tree/main/nothingclock) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/samgrande/Dank-Nothing-Clock/main/assets/screenshots/preview.png)
+
+</details>
+
+
+
+
+
 #### [OCR Scanner](https://github.com/hthienloc/dms-plugins)
 
 Extract text from clipboard images or local files using Tesseract OCR.
