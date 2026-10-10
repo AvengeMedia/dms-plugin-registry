@@ -230,12 +230,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-10-05T20:41:47-03:00",
+    "date": "2026-10-09T23:22:14-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bL1CVE1IZIUeTDTiDF8PNhiro90aQe1//3lhi87k1IE=",
+    "hash": "sha256-v5kK0H8KVXUWJngi9mv+hfqEpauFKCUyS17LPhN4ks0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -264,10 +264,10 @@
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
       "version": "1.20.0"
     },
-    "path": "/nix/store/kcqzx2x5aqrrdbgf7vziix7cy54h46sv-AiOverviewControl",
-    "rev": "1572b860a7635b24b95d779caddcc43d25bb8b2b",
+    "path": "/nix/store/pgl0vgwzgq4z845fpcjk8s97kx1n6f49-AiOverviewControl",
+    "rev": "aa92dd68591224e5583359e18af2b0859b2d25df",
     "rootDir": "",
-    "sha256": "10flwk78nqbrzxzysh8svnisn61n1xghrqil9hg8ar289ma45gbc",
+    "sha256": "1kcjg09kxjsy9cr2aa45mfjq9yl5zrmzc8kq4qb7am8agz80m6dz",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
@@ -9094,6 +9094,53 @@
     "rootDir": "",
     "sha256": "11gf9b15bz7lznic6rbq5dh5p727im1ir7in1mh08izydjbg714l",
     "url": "https://github.com/nfrastack/dms-nightModeControl"
+  },
+  "nipeControl": {
+    "date": "2026-10-09T20:20:13+01:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-iLjNvIWS3KyRIp6aAfc0wSOXXlPEdqKSNDJuNbSqsWo=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Adnan0-IM",
+      "capabilities": [
+        "dankbar-widget"
+      ],
+      "category": "network",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "python3",
+        "perl",
+        "perl-config-simple",
+        "perl-json",
+        "perl-readonly",
+        "perl-try-tiny",
+        "perl-io-socket-ssl",
+        "perl-net-ssleay",
+        "polkit",
+        "tor",
+        "nipe"
+      ],
+      "description": "Start, stop, and monitor the Nipe Tor gateway: shows whether a Tor circuit is reachable, plus the external exit IP and location, with desktop notifications. Requires python3, perl, polkit, tor and a Nipe checkout.",
+      "distro": [
+        "any"
+      ],
+      "id": "nipeControl",
+      "name": "Nipe Control",
+      "repo": "https://github.com/Adnan0-IM/nipeControl",
+      "requires_dms": ">=1.4.0",
+      "screenshot": "https://raw.githubusercontent.com/Adnan0-IM/nipeControl/main/screenshot.png",
+      "version": "2.1.0"
+    },
+    "path": "/nix/store/baxy6j3a73kyg5myx6z1lns7vr205x0p-nipeControl",
+    "rev": "507908ae3c54742f1335ee2054f57e0947b78949",
+    "rootDir": "",
+    "sha256": "0smimas3avij6j9a4xn4adg9f8y16kvh36ly4a8srp4jhnycvf48",
+    "url": "https://github.com/Adnan0-IM/nipeControl"
   },
   "niriDS": {
     "date": "2026-10-09T19:33:49+07:00",
