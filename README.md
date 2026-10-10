@@ -2987,6 +2987,36 @@ Shows live agent status (working/idle/blocked/done) across herdr panes in the ba
 
 
 
+#### [Nipe Control](https://github.com/Adnan0-IM/nipeControl)
+
+Start, stop, and monitor the Nipe Tor gateway: shows whether a Tor circuit is reachable, plus the external exit IP and location, with desktop notifications. Requires python3, perl, polkit, tor and a Nipe checkout.
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: nipeControl
+- name: Nipe Control
+- author: Adnan0-IM
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3, perl, perl-config-simple, perl-json, perl-readonly, perl-try-tiny, perl-io-socket-ssl, perl-net-ssleay, polkit, tor, nipe
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Adnan0-IM/nipeControl/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Pangolin Widget](https://github.com/RiceaRaul/DMS-PangolinPlugin)
 
 QuickShell plugin for DankMaterialShell that exposes Pangolin VPN status, peer list with live RTT, routes, connection controls, and notifications. Backed by the pangolin CLI.
