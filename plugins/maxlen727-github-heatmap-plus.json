@@ -5,8 +5,9 @@
     "category": "utilities",
     "repo": "https://github.com/maxlen727/DMS-GitHub_HeatMap_Plus",
     "author": "maxlen727",
-    "description": "GitHub contribution heatmap for DankBar and your desktop, with color-coded activity levels and theme-aware styling.",
-    "dependencies": ["dms"],
+    "description": "GitHub contribution heatmap for DankBar and your desktop, with color-coded activity levels and theme-aware styling. Contribution data is fetched through the third-party github-contributions-api.jogruber.de public API.",
+    "dependencies": ["curl", "jq", "libnotify", "xdg-utils"],
+    "requires_dms": ">=1.5.0",
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/maxlen727/DMS-GitHub_HeatMap_Plus/refs/heads/main/assets/Overall.png"
