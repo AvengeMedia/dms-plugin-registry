@@ -3782,12 +3782,12 @@
     "url": "https://github.com/alcxyz/DankSession"
   },
   "dankSoftwareDepot": {
-    "date": "2026-10-09T21:33:17+02:00",
+    "date": "2026-10-10T23:08:14+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-QITcQoBRDOYCuY07dd6uaz3StnE3vlEzec4W6fDxLP4=",
+    "hash": "sha256-UGg5F1lQ5+tKrsvgBOn3sgr8IEFuELUMOHeQnCCowQw=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3820,10 +3820,10 @@
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
       "version": "1.5.0"
     },
-    "path": "/nix/store/bz7s91gbrhggzgy1qfw79h0cb2apm7sk-DankSoftwareDepot",
-    "rev": "ff7757e1cbec9243d693e9449ee7b470625e5ac6",
+    "path": "/nix/store/qcbyjc5czyypqwypwlw1vg91178gijli-DankSoftwareDepot",
+    "rev": "e80e1f05b7e09827b4b2be13573627eea301477e",
     "rootDir": "",
-    "sha256": "1zicy7qfj5nfg4rm3gipf6vd4gbbmvg7afwdp41fc32ih11dr120",
+    "sha256": "0361m0h9r43p706ba43f84hgq2mjyzlh9q6bmr5fprshb4bkjs2h",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -5156,12 +5156,12 @@
     "url": "https://github.com/Francisdelca/dms-agent"
   },
   "dmsAirDrop": {
-    "date": "2026-10-10T14:06:33+05:30",
+    "date": "2026-10-10T23:29:50+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-lTIfhhaw6EFG/lFcjKOhldVZ/W64tLKjnDghBwm9NY8=",
+    "hash": "sha256-c76Z8MUVOBqDegJd0eQ3dFa7PgZLtjL74Q3vxmUlD1M=",
     "leaveDotGit": false,
     "meta": {
       "author": "Kratospidey",
@@ -5189,12 +5189,12 @@
       "repo": "https://github.com/Kratospidey/dms-airdrop",
       "requires_dms": ">=1.6.2",
       "screenshot": "https://raw.githubusercontent.com/Kratospidey/dms-airdrop/main/assets/airdrop-popout.png",
-      "version": "0.2.1"
+      "version": "0.2.2"
     },
-    "path": "/nix/store/q0gldmy12z4xl2km1xs37q7rgsfj1vmv-dms-airdrop",
-    "rev": "3064478abce8b1c50536add3277f82312514ed21",
+    "path": "/nix/store/w1h02qv89c1sjgvyas4xxj9v0m3yyn49-dms-airdrop",
+    "rev": "4bc4076210fb4344ec6212bcb3741357dd027bba",
     "rootDir": "",
-    "sha256": "13rmpl4hf89qkjiv5d5qdvymkmcml6iqqp2izr343s5h2s31yclm",
+    "sha256": "0lqg4mjwdvqdw7xk5djb0qzbnmkl6zjd2p82ga1ilf0mqpq9kgkk",
     "url": "https://github.com/Kratospidey/dms-airdrop"
   },
   "dmsDesktopCountdown": {
@@ -6029,6 +6029,44 @@
     "sha256": "1kgnnbi9fk07w180z98559alr1jh4dxbv0919yqj95acjja61fr3",
     "url": "https://github.com/iquantecho/enderpulse"
   },
+  "enteAuth": {
+    "date": "2026-10-10T16:08:42+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-FUcRsOWXAqglYUBjIWAy2X66nBpRlSYzvICZIo28SWY=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "coldi1337",
+      "capabilities": [
+        "dankbar-widget",
+        "daemon",
+        "ipc"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "hyprland"
+      ],
+      "dependencies": [
+        "node"
+      ],
+      "description": "Ente Auth for DMS: native codes, pins and tags that follow your desktop theme.",
+      "distro": [
+        "arch"
+      ],
+      "id": "enteAuth",
+      "name": "DankAuth",
+      "repo": "https://github.com/coldi1337/DankAuth",
+      "screenshot": "https://raw.githubusercontent.com/coldi1337/DankAuth/main/preview/preview-en.png",
+      "version": "0.4.0"
+    },
+    "path": "/nix/store/jp238fczw2adhh3976rad6qj436y4nil-DankAuth",
+    "rev": "337ecd19729bafd372de09863ffa7b789a58c840",
+    "rootDir": "",
+    "sha256": "0rj9pj6j56c0phrjd5ai3afblznr69h22qs0c4jsh0lpwnq12iqm",
+    "url": "https://github.com/coldi1337/DankAuth"
+  },
   "ephemera": {
     "date": "2026-07-17T23:19:55-05:00",
     "deepClone": false,
@@ -6261,12 +6299,12 @@
     "url": "https://github.com/jtcarrasco/freshrss-reader"
   },
   "fullscreenPowerMenu": {
-    "date": "2026-09-08T00:02:21+05:30",
+    "date": "2026-10-11T00:23:35+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-SJ1ZZ2zfGg8xYx7GZmri4DCGE2LHLKKgbfSSv5HomFY=",
+    "hash": "sha256-aKV0zwLCvRZdZdRfrbD6vjyFS6E7ckqmzOUy15oEwJ4=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -6296,12 +6334,12 @@
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Fullscreen_Power_Menu/refs/heads/main/assets/Main_UI.png",
       "settings": "./PowerMenuSettings.qml",
       "type": "daemon",
-      "version": "1.1.2"
+      "version": "1.2.0"
     },
-    "path": "/nix/store/azjwds2cyyx042dirvjgglj20ss7qrag-DMS-Fullscreen_Power_Menu",
-    "rev": "d6a184c979696ad6ae24e98579d7ca9ba7c9268b",
+    "path": "/nix/store/cvnbp0aad2p1hwxi80853ncs2kx8jn5v-DMS-Fullscreen_Power_Menu",
+    "rev": "3ec625d2e0105a063492249ef732a0ca91cf91b8",
     "rootDir": "",
-    "sha256": "0mlqx28vz4pldnha4b67c89qcc70w9m6dihyccqhy6nzdikmk7a8",
+    "sha256": "17n00jddfcp5rjk4lwivl55qag5yzaqaspylcmfidgf20b7p99b8",
     "url": "https://github.com/JDKamalakar/DMS-Fullscreen_Power_Menu"
   },
   "fwFanctrl": {
@@ -8547,12 +8585,12 @@
     "url": "https://github.com/korbash/mihomo-dms-widget"
   },
   "mise": {
-    "date": "2026-10-10T14:04:18+02:00",
+    "date": "2026-10-10T20:02:45+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-0lDIfhijiioVG2rj8yBFKuXpIRxQAi4KEd9n+6Vgzrc=",
+    "hash": "sha256-jGpWt352zUUd/1ZcobN0lYUPlxL0wbuB6MX4VRIXVIA=",
     "leaveDotGit": false,
     "meta": {
       "author": "Villoh",
@@ -8578,12 +8616,12 @@
       "repo": "https://github.com/Villoh/dms-mise",
       "requires_dms": ">=1.6.2",
       "screenshot": "https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png",
-      "version": "0.6.0"
+      "version": "0.7.0"
     },
-    "path": "/nix/store/f36m9ll9gqnda1hdadgpvbq597agm75r-dms-mise",
-    "rev": "9f951985aee16a5bc15d21d92bea630d79d8a8f2",
+    "path": "/nix/store/1nhgcv9ff4qyks864n2ssxic1z870z4h-dms-mise",
+    "rev": "dfcd07558368247686e547303861fca23662f102",
     "rootDir": "",
-    "sha256": "1dyfc2jznryz2452w0jh3hhykr9a8lhg7qva3cajm2m331zchl6j",
+    "sha256": "102l2w95by65x20vphgl2abhz1cmfjrs2p2nzwflbkbngsvmcslc",
     "url": "https://github.com/Villoh/dms-mise"
   },
   "modemManager": {
@@ -9876,12 +9914,12 @@
     "url": "https://github.com/orangedeck-dev/dms-plugin"
   },
   "orbitBluetooth": {
-    "date": "2026-10-10T12:35:24Z",
+    "date": "2026-10-10T21:33:58Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-rmZ1QOA7jfFvm1BGGQvA+ob8Us4X1y3a8zmVQlNO1mw=",
+    "hash": "sha256-2b64B9+RMlHmJiCr8e1dZP1fVjxuHpGd5SmcBs/0pZI=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -9909,12 +9947,12 @@
       "repo": "https://github.com/lung595/orbitBluetooth",
       "requires_dms": ">=1.6.0",
       "screenshot": "https://github.com/lung595/orbitBluetooth/raw/main/screenshots/orbit.png",
-      "version": "1.14.0"
+      "version": "1.15.0"
     },
-    "path": "/nix/store/8kfa3361mjkaz0nb1yvak8z0634fr7l3-orbitBluetooth",
-    "rev": "24f3ae880f1da7ba1ef7f7c1462eba6a795038a1",
+    "path": "/nix/store/57v28py3gbqv16dm30wdh6mhx0mw2nb4-orbitBluetooth",
+    "rev": "b51985ac8efabf5278ddbc15541d8a132b60ca23",
     "rootDir": "",
-    "sha256": "0v6n9r9l559rygd2vmqprr9gr1psq05ijijhkdpz339vw107armf",
+    "sha256": "14m5yk7hd719wnfr27kf7ib5zzb4bpnz3ar04vk52clivw3vignr",
     "url": "https://github.com/lung595/orbitBluetooth"
   },
   "pangolinWidget": {
@@ -10443,12 +10481,12 @@
     "url": "https://github.com/hthienloc/dms-plugins"
   },
   "quickTote": {
-    "date": "2026-09-08T00:00:05+05:30",
+    "date": "2026-10-11T01:39:50+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-bbXQibpo8PPEBeoSgMQvq+sAKDmOG1rW+H303rWMaFw=",
+    "hash": "sha256-G/ezigp0NWZjaFrbJU8os9nHwzxo9S7glKS83DqQ24Y=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -10477,12 +10515,12 @@
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Quick_Tote/refs/heads/main/assets/POP-Up_UI.png",
       "settings": "./QuickToteSettings.qml",
       "type": "widget",
-      "version": "1.2.2"
+      "version": "1.3.0"
     },
-    "path": "/nix/store/wb99r9aj81ki8c7hvqvhvz7dsl8r7dan-DMS-Quick_Tote",
-    "rev": "5c32375e37da1246eec1bd8bcee3e1c85c14aeed",
+    "path": "/nix/store/0bcylzr9xjdidl9mmskmx3v84dzf757s-DMS-Quick_Tote",
+    "rev": "6d51a66a14512aaeeeafcdb9eb0f372a51b90654",
     "rootDir": "",
-    "sha256": "0p38ijsxxx3xz3b5l6wf74l01sxb5z2804pa0p2g7w38pa4x1dbd",
+    "sha256": "11nvj0xdrg54jkh2xxb87k1wgndk517jbnssd1incdbl1a5b7xqv",
     "url": "https://github.com/JDKamalakar/DMS-Quick_Tote"
   },
   "quranWidget": {
@@ -11459,12 +11497,12 @@
     "url": "https://github.com/knappancash/SitStandReminder"
   },
   "smartTimer": {
-    "date": "2026-10-09T18:09:56+02:00",
+    "date": "2026-10-10T21:37:11Z",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-B/JcXoZTi5t4wcErVynoMC4+whKcpl/hv8A5sfPnguM=",
+    "hash": "sha256-G70E3hvWhwyZzXKVb+X1UgIvhN1wDkKdjw7bFPc1D/Q=",
     "leaveDotGit": false,
     "meta": {
       "author": "lung595",
@@ -11490,10 +11528,10 @@
       "screenshot": "https://raw.githubusercontent.com/lung595/Sands/main/screenshot.png",
       "version": "1.5.1"
     },
-    "path": "/nix/store/pccisjizvw6fa7pszmd5d0ixn7ch55vq-Sands",
-    "rev": "a6f970bfcb2439b6cb63b34e05efd2a03c73a47c",
+    "path": "/nix/store/44sf7dqw17p123jilgs8dm0j35nvxn5d-Sands",
+    "rev": "324e5a1bc7f64e864f00c9e7df5de3d71ca67af3",
     "rootDir": "",
-    "sha256": "1qw2wzrv2ff0pzhmz9lw2b13wbihx0lmfay1q5w9p2skhrg5rwh7",
+    "sha256": "1x0g6pvi9nqfiyfl43khvn22y0jjypjnz5bjrnchr1yn3gg09g8v",
     "url": "https://github.com/lung595/Sands"
   },
   "splayerDesktopLyrics": {
