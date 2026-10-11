@@ -6942,6 +6942,36 @@ Security-focused, shortcut-driven AI translation with one-shot input reads, loca
 
 
 
+#### [DankAuth](https://github.com/coldi1337/DankAuth)
+
+Ente Auth for DMS: native codes, pins and tags that follow your desktop theme.
+
+
+
+- id: enteAuth
+- name: DankAuth
+- author: coldi1337
+- compositors: hyprland
+- capabilities: dankbar-widget, daemon, ipc
+- dependencies: node
+- distro: arch
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/coldi1337/DankAuth/main/preview/preview-en.png)
+
+</details>
+
+
+
+
+
 #### [DankCalendar](https://github.com/alcxyz/DankCalendar)
 
 CalDAV calendar widget with event listing, notifications, and event management via a stdlib-only Go binary with keyring credentials
