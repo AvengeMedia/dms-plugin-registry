@@ -1,0 +1,20 @@
+{
+    "id": "wiseRates",
+    "name": "Wise Rates",
+    "capabilities": ["dankbar-widget"],
+    "category": "finance",
+    "repo": "https://github.com/brunofin/DMS-Wise-Rates",
+    "description": "A Wise-powered currency widget for direct exchange rates between any two currencies, including non-USD pairs.",
+    "version": "0.1.0",
+    "author": "Bruno Finger",
+    "icon": "currency_exchange",
+    "type": "widget",
+    "component": "./QML/Widget.qml",
+    "settings": "./QML/Settings.qml",
+    "permissions": ["settings_read", "settings_write", "process", "network"],
+    "requires_dms": ">=1.2.0",
+    "distro": ["any"],
+    "compositors": ["any"],
+    "dependencies": ["curl", "bash"],
+    "screenshot": "https://raw.githubusercontent.com/brunofin/DMS-Wise-Rates/main/Images/Wise-Rates.jpg"
+}
