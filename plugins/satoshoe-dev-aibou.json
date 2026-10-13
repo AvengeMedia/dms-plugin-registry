@@ -10,6 +10,8 @@
     "author": "satoshoe",
     "description": "Control Center tile and settings for Aibou, small companions that live behind your windows on niri: they walk along the frame, melt into it while you work, climb, play with each other, dance to music and chat. Aibou itself runs as its own Quickshell service from the same repository; see its README.",
     "dependencies": [
+        "aibou",
+        "quickshell",
         "python3"
     ],
     "compositors": [
