@@ -1,0 +1,23 @@
+{
+    "id": "aibou",
+    "name": "Aibou",
+    "capabilities": [
+        "control-center"
+    ],
+    "category": "appearance",
+    "repo": "https://github.com/satoshoe-dev/aibou",
+    "path": "dms-plugin",
+    "author": "satoshoe",
+    "description": "Control Center tile and settings for Aibou, small companions that live behind your windows on niri: they walk along the frame, melt into it while you work, climb, play with each other, dance to music and chat. Aibou itself runs as its own Quickshell service from the same repository; see its README.",
+    "dependencies": [
+        "python3"
+    ],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/aibou/main/docs/screenshot.png",
+    "requires_dms": ">=1.6.1"
+}
