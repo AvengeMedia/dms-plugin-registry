@@ -6087,6 +6087,36 @@ Universal unit and color converter. Convert distance, weight, temperature, speed
 
 
 
+#### [Country Code Lookup](https://github.com/LilFishyChan/countryCodeLookup)
+
+Look up a country by phone dial code (+86, +1 767) or by name (China / 中国) from the launcher. Smart prefix completion, shared codes, dependent-territory labelling and 27 languages.
+
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+
+- id: countryCodeLookup
+- name: Country Code Lookup
+- author: LilFishyChan
+- compositors: any
+- capabilities: launcher
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/LilFishyChan/countryCodeLookup/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Cursor Highlight](https://github.com/ReyArlena/dms-cursor-highlight)
 
 Cursor highlight for presentations, screen sharing or gaming. Bar widget toggle, rainbow mode, per-style settings, IPC keybind support.
