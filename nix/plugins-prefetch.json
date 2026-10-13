@@ -2270,6 +2270,41 @@
     "sha256": "1i3j1rv1bkfj4isjn0xja9qhs58pq87nmbicyqmra5jkkgxjr9vh",
     "url": "https://github.com/viewerofall-labs/weather-viewer"
   },
+  "countryCodeLookup": {
+    "date": "2026-10-13T10:46:48+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-nQ7/DCK0vb7itCUxxZniW9eRyLo5Z8jiqsI+RcqYX+A=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "LilFishyChan",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Look up a country by phone dial code (+86, +1 767) or by name (China / \u4e2d\u56fd) from the launcher. Smart prefix completion, shared codes, dependent-territory labelling and 27 languages.",
+      "distro": [
+        "any"
+      ],
+      "id": "countryCodeLookup",
+      "name": "Country Code Lookup",
+      "repo": "https://github.com/LilFishyChan/countryCodeLookup",
+      "requires_dms": ">=1.4.0",
+      "screenshot": "https://raw.githubusercontent.com/LilFishyChan/countryCodeLookup/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/y6sd6s7hvlj1aqvsk1hfp5yzz6fdhpiy-countryCodeLookup",
+    "rev": "e3ca1e82ac95e2adb55dfc677cecdf7e0fc88bcc",
+    "rootDir": "",
+    "sha256": "1q2zk354agn2mbichrrrpb493msvwacwac95nkibxgdl486gy3lx",
+    "url": "https://github.com/LilFishyChan/countryCodeLookup"
+  },
   "cpuCoreLoad": {
     "date": "2026-05-28T17:17:18-04:00",
     "deepClone": false,
