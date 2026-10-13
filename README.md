@@ -8142,6 +8142,36 @@ Monitor and display Home Assistant entity states in your status bar
 
 
 
+#### [Hoshi Calendar](https://github.com/TheDoukiDrift/hoshiCalendar)
+
+Read-only .ics calendar for the bar and desktop: local files and http(s)/webcal feeds, month grid, event markers and agenda. No backend or credentials.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: hoshiCalendar
+- name: Hoshi Calendar
+- author: TheDoukiDrift
+- compositors: any
+- capabilities: dankbar-widget, desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/TheDoukiDrift/hoshiCalendar/main/img/bar-widget.png)
+
+</details>
+
+
+
+
+
 #### [Hostname Widget](https://github.com/irunatbullets/hostname-widget)
 
 A widget for displaying your hostname
