@@ -8,11 +8,12 @@
     "repo": "https://github.com/satoshoe-dev/aibou",
     "path": "dms-plugin",
     "author": "satoshoe",
-    "description": "Control Center tile and settings for Aibou, small companions that live behind your windows on niri: they walk along the frame, melt into it while you work, climb, play with each other, dance to music and chat. Aibou itself runs as its own Quickshell service from the same repository; see its README.",
+    "description": "Control Center tile and settings for Aibou, small companions that live behind your windows on niri: they walk along the frame, melt into it while you work, climb, play with each other and dance to music. Aibou itself runs as its own Quickshell service from the same repository; see its README. Its chat sends your messages to Anthropic through the claude CLI (optional) or to an API you set up; with \"Desktop help\", off by default, it also sends the config files it reads.",
     "dependencies": [
         "aibou",
         "quickshell",
-        "python3"
+        "python3",
+        "secret-tool"
     ],
     "compositors": [
         "niri"
