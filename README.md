@@ -12401,6 +12401,20 @@ Official Tokyo Night Storm color scheme - softer contrast storm variant with dee
 
 
 
+### Umbrella Corporation
+
+Resident Evil inspired: Umbrella scarlet accent on graphite black, with T-virus green and G-virus blue as supporting colors
+
+- **Author:** Cha1000000
+- **ID:** `umbrellaCorporation` **Version:** `1.0.0`
+
+![WCAG AA (Partial)](https://img.shields.io/badge/WCAG_contrast-AA_(Partial)-green)
+
+
+![Umbrella Corporation](themes/umbrella-corporation/preview.svg)
+
+
+
 ### deepmono
 
 Pure grayscale theme, soft off-black at night, three button variants
