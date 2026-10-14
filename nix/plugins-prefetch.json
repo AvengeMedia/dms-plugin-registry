@@ -230,12 +230,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-10-09T23:52:43-03:00",
+    "date": "2026-10-13T23:52:16-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-dTEgBMdYJ4zRXaOG3vFw3GbS3knbFWglzcS/d1Pk4pY=",
+    "hash": "sha256-8HeWIUsT72INh3FgACm4mrnRUohzeomlg1GHFwOGy+A=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -262,12 +262,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.20.1"
+      "version": "1.21.0"
     },
-    "path": "/nix/store/y5kskd79ysniwvr7awq3g7nlsq6bq47a-AiOverviewControl",
-    "rev": "5a74f870214aa411b2aed17a5ecf727187b658c4",
+    "path": "/nix/store/xrj8lckkl3mx9lyby5al1dbywl0ss9d7-AiOverviewControl",
+    "rev": "1b45708a2d0cc2a57ba774e2c6e78b104521066c",
     "rootDir": "",
-    "sha256": "15p2wi9pggy4rljnh5fv97gd4rnwf3qxx1m3bp8qq9sqqw220cbm",
+    "sha256": "1q6bhq1ig1sihfjqjykki19d3fcsp0lh0q3ihw6n5vqk9chrcxzh",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
@@ -516,24 +516,23 @@
       "author": "pnbarbeito",
       "capabilities": [
         "control-center",
-        "dankbar-widget"
+        "dankbar-widget",
+        "daemon"
       ],
       "category": "utilities",
       "compositors": [
         "niri"
       ],
-      "dependencies": [
-        "niri"
-      ],
-      "description": "Control niri-animation-rotate from the Control Center: switch animations, change modes, and filter events. Daemon included \u2014 batteries included.",
+      "dependencies": [],
+      "description": "Rotate niri window animations from the Control Center: switch presets, auto/manual rotation on window events, and cooldown debounce. Native DMS daemon \u2014 no bundled binaries.",
       "distro": [
         "any"
       ],
       "id": "animationRotate",
       "name": "Animation Rotate",
       "repo": "https://github.com/pnbarbeito/dms-niri-animation-rotate",
-      "requires_dms": ">=1.4.0",
-      "screenshot": "https://raw.githubusercontent.com/pnbarbeito/dms-niri-animation-rotate/f66b0ef7a1bb46e018d57c4cc8acccab17797d84/screenshots/widget.png",
+      "requires_dms": ">=1.5.0",
+      "screenshot": "https://raw.githubusercontent.com/pnbarbeito/dms-niri-animation-rotate/2ca4b6978bb1667d5315c257b1c5507fd4593a5f/screenshots/widget.png",
       "version": "2.0.0"
     },
     "path": "/nix/store/4wnd8bqnip0skfl64gzmhvcf6yp0nrkg-dms-niri-animation-rotate",
