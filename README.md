@@ -5229,16 +5229,16 @@ Play ambient focus sounds with integrated sleep timer and volume control.
 
 #### [Animation Rotate](https://github.com/pnbarbeito/dms-niri-animation-rotate)
 
-Control niri-animation-rotate from the Control Center: switch animations, change modes, and filter events. Daemon included — batteries included.
+Rotate niri window animations from the Control Center: switch presets, auto/manual rotation on window events, and cooldown debounce. Native DMS daemon — no bundled binaries.
 
-<strong>requires DMS version</strong>: <em>>=1.4.0</em>
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: animationRotate
 - name: Animation Rotate
 - author: pnbarbeito
 - compositors: niri
-- capabilities: control-center, dankbar-widget
-- dependencies: niri
+- capabilities: control-center, dankbar-widget, daemon
+- dependencies: 
 - distro: any
 
 
@@ -5249,7 +5249,7 @@ Control niri-animation-rotate from the Control Center: switch animations, change
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/pnbarbeito/dms-niri-animation-rotate/f66b0ef7a1bb46e018d57c4cc8acccab17797d84/screenshots/widget.png)
+![screenshot](https://raw.githubusercontent.com/pnbarbeito/dms-niri-animation-rotate/2ca4b6978bb1667d5315c257b1c5507fd4593a5f/screenshots/widget.png)
 
 </details>
 
