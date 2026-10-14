@@ -505,12 +505,12 @@
     "url": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive"
   },
   "animationRotate": {
-    "date": "2026-06-04T15:51:16-03:00",
+    "date": "2026-10-13T17:19:28-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-uzC/y9k2v7ycm35Nh9CyZTAO4cfqoErlUnWcG32a8eA=",
+    "hash": "sha256-pfCjclbCOfsIchAjuV+rZXSr3xhRN4Ef2I1KA+4X9ZU=",
     "leaveDotGit": false,
     "meta": {
       "author": "pnbarbeito",
@@ -534,12 +534,12 @@
       "repo": "https://github.com/pnbarbeito/dms-niri-animation-rotate",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/pnbarbeito/dms-niri-animation-rotate/f66b0ef7a1bb46e018d57c4cc8acccab17797d84/screenshots/widget.png",
-      "version": "1.0.0"
+      "version": "2.0.0"
     },
-    "path": "/nix/store/4aykp6ckg2h7fblp9rm88mi45c6isnff-dms-niri-animation-rotate",
-    "rev": "322fa6bc277d7ef82da166318c90000f31aa68ac",
+    "path": "/nix/store/4wnd8bqnip0skfl64gzmhvcf6yp0nrkg-dms-niri-animation-rotate",
+    "rev": "2211ead4f561632b8eb8bfa0bb10f6faf1af95b0",
     "rootDir": "",
-    "sha256": "1q7ik9yip73mabjlm87aqzhhwc35nb88fkbykffbrgrnv75vyc5v",
+    "sha256": "15gm2zp06jldv0gq2dsi33gsnx35mdgvj8qhf84gnff2arra7w55",
     "url": "https://github.com/pnbarbeito/dms-niri-animation-rotate"
   },
   "animeCalendar": {
@@ -3817,12 +3817,12 @@
     "url": "https://github.com/alcxyz/DankSession"
   },
   "dankSoftwareDepot": {
-    "date": "2026-10-11T11:34:50+02:00",
+    "date": "2026-10-13T22:35:37+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-8BCc5wUWVhHqr4ivBVuMiNu/XF9YfzxLcmF10dR3qEs=",
+    "hash": "sha256-J7urKgWKrNJCjMUl34O0G/GvctCLlf9p1eDYmq0o7Zc=",
     "leaveDotGit": false,
     "meta": {
       "author": "Vincent Blok",
@@ -3853,12 +3853,12 @@
       "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
       "requires_dms": ">=1.6.0",
       "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-      "version": "1.6.0"
+      "version": "1.6.1"
     },
-    "path": "/nix/store/mi2p03a7b09jl1qqfcy50v3a4iavacar-DankSoftwareDepot",
-    "rev": "1569a3b0a56a826abc6806fa9b65b8cbeb459ff8",
+    "path": "/nix/store/2alm1kyskafifzrw2abcc9s7zvah87fa-DankSoftwareDepot",
+    "rev": "13e9a94fea050915b464d1dc10d4c452b73f4cbe",
     "rootDir": "",
-    "sha256": "0jx8fzad2xb1f95kqzsqbxfbznw8iidhbbw8mzm12mhn0pkrq47h",
+    "sha256": "15zd52nrmn70smlzz5cbs1razw8vnj1xy9f5ii1d5b4a0lmapfr7",
     "url": "https://github.com/vinceecniv/DankSoftwareDepot"
   },
   "dankSpotify": {
@@ -8656,12 +8656,12 @@
     "url": "https://github.com/korbash/mihomo-dms-widget"
   },
   "mise": {
-    "date": "2026-10-10T20:02:45+02:00",
+    "date": "2026-10-13T23:19:42+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-jGpWt352zUUd/1ZcobN0lYUPlxL0wbuB6MX4VRIXVIA=",
+    "hash": "sha256-t82BV6/QwJTPHpjFtjF8Q7kheibkMXQZzT2GcyUVft0=",
     "leaveDotGit": false,
     "meta": {
       "author": "Villoh",
@@ -8687,12 +8687,12 @@
       "repo": "https://github.com/Villoh/dms-mise",
       "requires_dms": ">=1.6.2",
       "screenshot": "https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png",
-      "version": "0.7.0"
+      "version": "0.8.0"
     },
-    "path": "/nix/store/1nhgcv9ff4qyks864n2ssxic1z870z4h-dms-mise",
-    "rev": "dfcd07558368247686e547303861fca23662f102",
+    "path": "/nix/store/nzxkhwljjl59j42qvmsk56160cdxxwj3-dms-mise",
+    "rev": "a30735971eae355869bee86d5cc144466ff1b05d",
     "rootDir": "",
-    "sha256": "102l2w95by65x20vphgl2abhz1cmfjrs2p2nzwflbkbngsvmcslc",
+    "sha256": "1pby2ljp71ixrlcp8cg44rx23fa3ghqvdicq3v7r9h6hmxbq3kdp",
     "url": "https://github.com/Villoh/dms-mise"
   },
   "modemManager": {
