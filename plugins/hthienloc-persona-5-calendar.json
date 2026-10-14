@@ -1,0 +1,20 @@
+{
+    "id": "persona5Calendar",
+    "name": "Persona 5 Calendar",
+    "capabilities": [
+        "desktop-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-plugins",
+    "path": "persona5Calendar",
+    "author": "Loc Huynh",
+    "description": "Layered Persona 5 / Royal desktop calendar HUD with animated weather",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/persona5Calendar/screenshot.png"
+}
