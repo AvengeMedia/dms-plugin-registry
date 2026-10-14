@@ -6,8 +6,9 @@
     "repo": "https://github.com/Tz-slayer/depthscape",
     "author": "Tz-slayer",
     "description": "AI depth-aware wallpapers: the near part of your wallpaper is redrawn above desktop widgets, so scenery and characters occlude your clock and cards like an iOS depth-effect lock screen.",
-    "dependencies": ["curl", "qt6-5compat"],
+    "dependencies": ["curl", "qt6-5compat", "cargo"],
     "compositors": ["niri"],
     "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/Tz-slayer/depthscape/main/assets/screenshot.jpg"
+    "screenshot": "https://raw.githubusercontent.com/Tz-slayer/depthscape/main/assets/screenshot.png",
+    "requires_dms": ">=1.5.0"
 }
