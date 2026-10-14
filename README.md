@@ -9552,6 +9552,41 @@ A bilingual Persian Jalali calendar with holidays, occasions, custom events, con
 
 
 
+#### [Persona 5 Calendar](https://github.com/hthienloc/dms-plugins)
+
+Layered Persona 5 / Royal desktop calendar HUD with animated weather
+
+
+
+- id: persona5Calendar
+- name: Persona 5 Calendar
+- author: Loc Huynh
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [persona5Calendar](https://github.com/hthienloc/dms-plugins/tree/main/persona5Calendar) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/hthienloc/dms-plugins/main/persona5Calendar/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Personal Dictionary](https://github.com/gemb0-0/Personal-Dictionary)
 
 Text expander for the launcher — copy/paste pre-defined text using a shortcut via launcher
