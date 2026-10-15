@@ -12711,6 +12711,41 @@
     "sha256": "1rl83f2a20yn9r25zy0rrq4xqz0awk416niynwg3pz8zkrsslmi4",
     "url": "https://github.com/hthienloc/dms-plugins"
   },
+  "umbrellaClock": {
+    "date": "2026-10-13T20:57:27+03:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-PnNgoc65jjFD7ATMdQGkc5lLV7+FLx7Xq9iWMyUmSNs=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "Cha1000000",
+      "capabilities": [
+        "desktop-widget"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Analog + digital desktop clock with a red-and-silver umbrella dial, neon scarlet hands, cyan 7-segment digits and a date line",
+      "distro": [
+        "any"
+      ],
+      "id": "umbrellaClock",
+      "name": "Umbrella Clock",
+      "repo": "https://github.com/Cha1000000/dms-umbrella-clock",
+      "requires_dms": ">=1.2.0",
+      "screenshot": "https://raw.githubusercontent.com/Cha1000000/dms-umbrella-clock/main/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/3gqcisbqixyis7cdflx2zz2bhpsc8mrh-dms-umbrella-clock",
+    "rev": "325cff3f74d351b93656417bd64034cce7a111ee",
+    "rootDir": "",
+    "sha256": "1ns84qjk75nqmgbiwbw5pxblp6bklh0pbk04xi1k33mrrshn0wry",
+    "url": "https://github.com/Cha1000000/dms-umbrella-clock"
+  },
   "unifiedTaskbar": {
     "date": "2026-09-07T00:51:36-04:00",
     "deepClone": false,
