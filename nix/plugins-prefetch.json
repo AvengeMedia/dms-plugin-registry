@@ -309,6 +309,46 @@
     "sha256": "0syhp7h73kgqhg2qkq6mlxj3qdigkbxwc5mwh8127g39294665w5",
     "url": "https://github.com/agneswd/dms-ai-quotas"
   },
+  "aibou": {
+    "date": "2026-10-14T10:07:00+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-8PaGEqS4pD9jUyMdJQNzBoTu3sguPVn3MWXz85vwvig=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "satoshoe",
+      "capabilities": [
+        "control-center"
+      ],
+      "category": "appearance",
+      "compositors": [
+        "niri"
+      ],
+      "dependencies": [
+        "aibou",
+        "quickshell",
+        "python3"
+      ],
+      "description": "Control Center tile and settings for Aibou, small companions that live behind your windows on niri and dance, climb and play. The companion itself is cloned and linked from the same repository; its README lists what it watches, what the optional chat sends, and the optional tools (claude, playerctl, cava, grim and others).",
+      "distro": [
+        "any"
+      ],
+      "id": "aibou",
+      "name": "Aibou",
+      "path": "dms-plugin",
+      "repo": "https://github.com/satoshoe-dev/aibou",
+      "requires_dms": ">=1.6.1",
+      "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/aibou/main/docs/screenshot.png",
+      "version": "1.0.0"
+    },
+    "path": "/nix/store/ya24kgcx86z72qn6zhniq1gfl505y09l-aibou",
+    "rev": "f8c6cedb007047fcd789963941e79ab237461946",
+    "rootDir": "",
+    "sha256": "0a5yy2dz7wv567vmjg9fr3gfx106fc1ja793adikz95qlh98dxph",
+    "url": "https://github.com/satoshoe-dev/aibou"
+  },
   "airQuality": {
     "date": "2026-02-26T10:45:26+08:00",
     "deepClone": false,
