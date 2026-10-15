@@ -206,14 +206,14 @@ Real-time Ghostty theme management from the navbar
 
 AI depth-aware wallpapers: the near part of your wallpaper is redrawn above desktop widgets, so scenery and characters occlude your clock and cards like an iOS depth-effect lock screen.
 
-
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: depthscape
 - name: Depthscape
 - author: Tz-slayer
 - compositors: niri
 - capabilities: daemon, desktop-widget, ai
-- dependencies: curl, qt6-5compat
+- dependencies: curl, qt6-5compat, cargo
 - distro: any
 
 
@@ -224,7 +224,7 @@ AI depth-aware wallpapers: the near part of your wallpaper is redrawn above desk
 <details>
 <summary>Screenshot</summary>
 
-![screenshot](https://raw.githubusercontent.com/Tz-slayer/depthscape/main/assets/screenshot.jpg)
+![screenshot](https://raw.githubusercontent.com/Tz-slayer/depthscape/main/assets/screenshot.png)
 
 </details>
 
@@ -8491,14 +8491,14 @@ A lightweight launcher for browsing and copying kaomojis to the clipboard.
 
 Shows every key you press as on-screen keycaps, with press counts and keystroke history. Ported from keyviz, for screencasts and tutorials.
 
-
+<strong>requires DMS version</strong>: <em>>=1.5.0</em>
 
 - id: keystrokes
 - name: Keystrokes
 - author: Tz-slayer
 - compositors: any
 - capabilities: daemon, control-center
-- dependencies: libinput, python3
+- dependencies: libinput, python3, evtest
 - distro: any
 
 
