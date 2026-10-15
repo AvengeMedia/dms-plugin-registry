@@ -537,6 +537,36 @@ Fetch and apply Windows Spotlight wallpapers from DankBar
 
 
 
+#### [Umbrella Clock](https://github.com/Cha1000000/dms-umbrella-clock)
+
+Analog + digital desktop clock with a red-and-silver umbrella dial, neon scarlet hands, cyan 7-segment digits and a date line
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: umbrellaClock
+- name: Umbrella Clock
+- author: Cha1000000
+- compositors: any
+- capabilities: desktop-widget
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/Cha1000000/dms-umbrella-clock/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Wallhaven Carousel](https://github.com/alicercedigital/wallhaven-carousel)
 
 Fullscreen skewed carousel of your wallpaper folder, plus favorites, a shuffle among favorites only, color and tag filters, delete to Trash, and Wallhaven search, full-size preview and download in the same overlay.
