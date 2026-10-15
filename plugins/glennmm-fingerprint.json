@@ -1,0 +1,14 @@
+{
+    "id": "fingerprint",
+    "name": "Fingerprint",
+    "capabilities": ["dankbar-widget", "control-center"],
+    "category": "system",
+    "repo": "https://github.com/GlennMm/dms-fingerprint",
+    "author": "GlennMm",
+    "description": "Enroll, test and delete fingerprints via fprintd, from the bar or Control Center",
+    "dependencies": ["fprintd"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/GlennMm/dms-fingerprint/main/screenshot.png",
+    "requires_dms": ">=1.6.0"
+}
