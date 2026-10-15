@@ -310,12 +310,12 @@
     "url": "https://github.com/agneswd/dms-ai-quotas"
   },
   "aibou": {
-    "date": "2026-10-14T10:07:00+02:00",
+    "date": "2026-10-15T10:08:25+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-8PaGEqS4pD9jUyMdJQNzBoTu3sguPVn3MWXz85vwvig=",
+    "hash": "sha256-4AAgnKyXngpVQloLpVt2lErmUg11ZSqRk6itQurLH3U=",
     "leaveDotGit": false,
     "meta": {
       "author": "satoshoe",
@@ -343,10 +343,10 @@
       "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/aibou/main/docs/screenshot.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/ya24kgcx86z72qn6zhniq1gfl505y09l-aibou",
-    "rev": "f8c6cedb007047fcd789963941e79ab237461946",
+    "path": "/nix/store/h5yljxvxlrl98y33pnmmrg8msfss6zpa-aibou",
+    "rev": "06775e9d59ea29a8f48be5146247e8af60226b1c",
     "rootDir": "",
-    "sha256": "0a5yy2dz7wv567vmjg9fr3gfx106fc1ja793adikz95qlh98dxph",
+    "sha256": "0x8zrgm45bd8jf8jlrbm1m9fcjllfrdsa2ss89ahm7lpmjf20070",
     "url": "https://github.com/satoshoe-dev/aibou"
   },
   "airQuality": {
@@ -1402,12 +1402,12 @@
     "url": "https://github.com/JDKamalakar/DMS-Caffeine"
   },
   "calculator": {
-    "date": "2026-10-01T11:13:42+01:00",
+    "date": "2026-10-15T13:34:52+01:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-dqFTvNogWsqK82EhgMIbJB70R5TgcRiA3Elx1LkSia8=",
+    "hash": "sha256-fw5ySERKzK4iSzZhneIp06zFCP1FnxscbI/COzmPAGQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bruno Cesar Rocha",
@@ -1430,12 +1430,12 @@
       "repo": "https://github.com/rochacbruno/DankCalculator",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://github.com/rochacbruno/DankCalculator/raw/main/screenshot.png",
-      "version": "0.3.4"
+      "version": "0.3.5"
     },
-    "path": "/nix/store/464xwzg23s9pg32cq3adg9f15w2l1105-DankCalculator",
-    "rev": "c9fbbe921e9afeb92f4e92390e9fc05f006f0373",
+    "path": "/nix/store/h76ixgjkdcny5bmpqpxs0d6adhzy99cz-DankCalculator",
+    "rev": "a27b80ad8c3dd42da11af83461674fb362817515",
     "rootDir": "",
-    "sha256": "1bw92awx8wa9vj01hwg0ji3z87i43g1808b1yf5clni0vay578bn",
+    "sha256": "0r00iwwkphlgdhf1p7s5zl4cbb6k57i9sq9n9ciaxk2a8i4743kz",
     "url": "https://github.com/rochacbruno/DankCalculator"
   },
   "canvasGrades": {
@@ -8360,12 +8360,12 @@
     "url": "https://github.com/omarluq/DMSMangoWCLayoutManager"
   },
   "markets": {
-    "date": "2026-10-02T10:21:53+02:00",
+    "date": "2026-10-15T11:03:23+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-S+ih/fRM6+GG1II1KyRk9s/fvIkBayQ5GRQ23b0I7kE=",
+    "hash": "sha256-/Cnt2u7bJYHwPTcNX5msl4OjCRtbpurmTA2ZiEfmIHs=",
     "leaveDotGit": false,
     "meta": {
       "author": "TMS-Namespace",
@@ -8399,12 +8399,12 @@
       "screenshot": "https://github.com/TMS-Namespace/DMS-Markets-Plugin/raw/main/Images/Dark-Popup.png",
       "settings": "./QML/Settings.qml",
       "type": "widget",
-      "version": "1.0.4"
+      "version": "1.0.5"
     },
-    "path": "/nix/store/qkjlw77qdcyh2fkzd5siyh37rzxkii6q-DMS-Markets-Plugin",
-    "rev": "46efe3d771d05b2ca8e92ec3fd043aab98c51cfa",
+    "path": "/nix/store/bj59rcqh4ivcinf4z1dx91gl4l6gz80i-DMS-Markets-Plugin",
+    "rev": "95ae606f67f3b7b8b0f88063ef1093fd4f98697b",
     "rootDir": "",
-    "sha256": "0hgf12yxsdhl34wj8sq1i6ydzkznchj2ndc2sj3f3sscykys3s2b",
+    "sha256": "0yr0wr3qi68d9kkfm9jv3c4s70wpmjcmy39p7pq829fvxvdfsagw",
     "url": "https://github.com/TMS-Namespace/DMS-Markets-Plugin"
   },
   "materialPlayer": {
