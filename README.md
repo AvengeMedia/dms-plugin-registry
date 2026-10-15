@@ -82,6 +82,41 @@ Simple Chinese A-share stock market monitoring plugin
 
 
 
+#### [Aibou](https://github.com/satoshoe-dev/aibou)
+
+Control Center tile and settings for Aibou, small companions that live behind your windows on niri and dance, climb and play. The companion itself is cloned and linked from the same repository; its README lists what it watches, what the optional chat sends, and the optional tools (claude, playerctl, cava, grim and others).
+
+<strong>requires DMS version</strong>: <em>>=1.6.1</em>
+
+- id: aibou
+- name: Aibou
+- author: satoshoe
+- compositors: niri
+- capabilities: control-center
+- dependencies: aibou, quickshell, python3
+- distro: any
+
+
+
+
+> [!NOTE]
+> This plugin is part of a monorepo, please copy the contents of the [dms-plugin](https://github.com/satoshoe-dev/aibou/tree/main/dms-plugin) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/satoshoe-dev/aibou/main/docs/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [AudioFX](https://github.com/satoshoe-dev/dms-audiofx)
 
 Audio visualizer along a screen edge with eight styles, a glow that makes the bright spots of the wallpaper pulse to the music, and a round player disc desktop widget. By default cava only runs while something plays.
