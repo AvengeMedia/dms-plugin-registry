@@ -6253,6 +6253,44 @@
     "sha256": "0zn11pi0p14zlra6l2lj7q101sjawrb1ml5zp1cgnx1svvqcqc7v",
     "url": "https://codeberg.org/massimopavoni/DankFdSearch"
   },
+  "fingerprint": {
+    "date": "2026-10-15T08:26:42+02:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-DIo0OmHUpyLuXO2cLtekaeUtYTMLCfBbAneQ+uvkukc=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "GlennMm",
+      "capabilities": [
+        "dankbar-widget",
+        "control-center"
+      ],
+      "category": "system",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [
+        "fprintd"
+      ],
+      "description": "Enroll, test and delete fingerprints via fprintd, from the bar or Control Center",
+      "distro": [
+        "any"
+      ],
+      "id": "fingerprint",
+      "name": "Fingerprint",
+      "repo": "https://github.com/GlennMm/dms-fingerprint",
+      "requires_dms": ">=1.6.0",
+      "screenshot": "https://raw.githubusercontent.com/GlennMm/dms-fingerprint/main/screenshot.png",
+      "version": "1.0.1"
+    },
+    "path": "/nix/store/d1rh7bi0jx7by42335vjd0sr2m2xhn15-dms-fingerprint",
+    "rev": "97017ab9fe5ebb201876534e1bbf3e3ced92152a",
+    "rootDir": "",
+    "sha256": "0ixswkmzm43p09dz028b6dhjvrb9lkbjx77dbkp259ylc4x392hc",
+    "url": "https://github.com/GlennMm/dms-fingerprint"
+  },
   "flatpakUpdates": {
     "date": "2026-03-27T09:13:36-04:00",
     "deepClone": false,
