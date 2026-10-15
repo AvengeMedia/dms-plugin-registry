@@ -4384,6 +4384,36 @@ Network toggle with Ethernet, WiFi, and Other interfaces (bridges, VLANs, bonds)
 
 
 
+#### [Fingerprint](https://github.com/GlennMm/dms-fingerprint)
+
+Enroll, test and delete fingerprints via fprintd, from the bar or Control Center
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: fingerprint
+- name: Fingerprint
+- author: GlennMm
+- compositors: any
+- capabilities: dankbar-widget, control-center
+- dependencies: fprintd
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/GlennMm/dms-fingerprint/main/screenshot.png)
+
+</details>
+
+
+
+
+
 #### [Framework Fan Control](https://github.com/clementpoiret/dms-fwfanctrl)
 
 Monitor Framework Laptop fan status and switch fw-fanctrl strategies from DankBar
