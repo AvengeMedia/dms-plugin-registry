@@ -1,0 +1,14 @@
+{
+  "id": "kbLayoutDisplay",
+  "name": "Keyboard Layout Display",
+  "capabilities": ["dankbar-widget"],
+  "category": "appearance",
+  "repo": "https://github.com/entirelysane/kbLayoutDisplay",
+  "author": "entirelysane",
+  "description": "Displays the current keyboard layout in the bar and shows a popup on layout switch",
+  "dependencies": [],
+  "compositors": ["niri", "hyprland", "sway", "mango", "aqueous"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/entirelysane/kbLayoutDisplay/main/assets/kblayoutdisplay-preview.webp",
+  "requires_dms": ">=1.7.0"
+}
