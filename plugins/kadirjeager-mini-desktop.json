@@ -1,0 +1,13 @@
+{
+    "id": "miniDesktop",
+    "name": "Mini Desktop",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/KadirJeager/dms-mini-desktop",
+    "author": "KadirJeager",
+    "description": "A small desktop area for any folder: shows its files as icons, creates documents, folders and shortcuts from a context menu, with copy/paste, drag and drop and previews",
+    "dependencies": ["python-gobject", "python-pywayland", "wl-clipboard"],
+    "compositors": ["hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/KadirJeager/dms-mini-desktop/main/assets/screenshot.png"
+}
