@@ -9,5 +9,6 @@
   "dependencies": [],
   "compositors": ["niri", "hyprland", "sway", "mango", "aqueous"],
   "distro": ["any"],
-  "screenshot": "https://raw.githubusercontent.com/entirelysane/kbLayoutDisplay/main/assets/kblayoutdisplay-preview.webp"
+  "screenshot": "https://raw.githubusercontent.com/entirelysane/kbLayoutDisplay/main/assets/kblayoutdisplay-preview.webp",
+  "requires_dms": ">=1.7.0"
 }
