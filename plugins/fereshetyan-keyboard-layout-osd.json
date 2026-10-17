@@ -1,0 +1,14 @@
+{
+    "id": "keyboardLayoutOSD",
+    "name": "Keyboard Layout OSD",
+    "capabilities": ["daemon", "ipc"],
+    "category": "utilities",
+    "repo": "https://github.com/fereshetyan/dms-keyboard-layout-osd",
+    "author": "Simon Fereshetyan",
+    "description": "Shows the active keyboard layout in an on-screen display, including over fullscreen windows",
+    "dependencies": [],
+    "compositors": ["niri"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/fereshetyan/dms-keyboard-layout-osd/main/assets/screenshot.jpg",
+    "requires_dms": ">=1.6.0"
+}
