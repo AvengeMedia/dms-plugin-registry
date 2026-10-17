@@ -5,6 +5,7 @@
         "dankbar-widget"
     ],
     "category": "utilities",
+    "requires_dms": ">=1.2.0",
     "repo": "https://github.com/WilliamAWSOFTWARE/dms-hypr-workspace-manager",
     "author": "WilliamAWSOFTWARE",
     "description": "Visual layout switcher, cycle rotator, and window management plugin for Hyprland with native Material Design aesthetics.",
