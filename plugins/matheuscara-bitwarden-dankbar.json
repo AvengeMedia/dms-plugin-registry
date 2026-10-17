@@ -1,0 +1,32 @@
+{
+    "id": "bitwardenMatheuscara",
+    "name": "Bitwarden Dankbar — Matheuscara",
+    "capabilities": [
+        "dankbar-widget",
+        "ipc"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/Matheuscara/dms-bitwarden-cli",
+    "author": "Matheuscara",
+    "description": "UI-focused fork of coldi1337's Bitwarden Dankbar, with a readable action toolbar, spacious vault rows and clear filters. Replaces the original; requires locally built Rust helpers.",
+    "dependencies": [
+        "bitwarden-cli",
+        "jq",
+        "wl-clipboard",
+        "pinentry",
+        "argon2",
+        "libsecret",
+        "openssl",
+        "cargo",
+        "rust"
+    ],
+    "compositors": [
+        "niri",
+        "hyprland"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Matheuscara/dms-bitwarden-cli/main/docs/screenshots/dms-vault-preview.png",
+    "requires_dms": ">=1.6.0"
+}
