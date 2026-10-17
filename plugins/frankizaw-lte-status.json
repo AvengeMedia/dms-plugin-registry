@@ -1,0 +1,21 @@
+{
+    "id": "lteStatus",
+    "name": "LTE Status",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "network",
+    "repo": "https://github.com/frankizaw/dms-lte-status",
+    "author": "frankizaw",
+    "description": "Bar widget for the Intel XMM7360 (Fibocom L850-GL) LTE modem: shows off/on/connected, popout with operator, uptime, IP, traffic and connect/disconnect. Requires xmm7360-systemd.",
+    "dependencies": [
+        "xmm7360-systemd"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/frankizaw/dms-lte-status/main/assets/screenshot.png"
+}
