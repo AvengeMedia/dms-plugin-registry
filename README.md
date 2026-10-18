@@ -8392,6 +8392,36 @@ Drink water reminder and tracker.
 
 
 
+#### [Hyprland Layout Manager](https://github.com/WilliamAWSOFTWARE/dms-hypr-workspace-manager)
+
+Visual layout switcher, cycle rotator, and window management plugin for Hyprland with native Material Design aesthetics.
+
+<strong>requires DMS version</strong>: <em>>=1.2.0</em>
+
+- id: hyprWorkspaceManager
+- name: Hyprland Layout Manager
+- author: WilliamAWSOFTWARE
+- compositors: hyprland
+- capabilities: dankbar-widget
+- dependencies: hyprctl, python3
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/WilliamAWSOFTWARE/dms-hypr-workspace-manager/main/assets/desktop-preview.png)
+
+</details>
+
+
+
+
+
 #### [Hyprland Submap Bar](https://github.com/agussantos023/hyprSubmap)
 
 Shows the current Hyprland submap on the DMS bar
