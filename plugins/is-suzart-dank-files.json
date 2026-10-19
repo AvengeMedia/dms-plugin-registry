@@ -18,7 +18,10 @@
         "libarchive",
         "qt6-declarative",
         "qt6-webengine",
-        "qt6-multimedia"
+        "qt6-multimedia",
+        "udisks2",
+        "xdg-utils",
+        "ffmpegthumbnailer (optional, video thumbnails)"
     ],
     "compositors": [
         "niri"
