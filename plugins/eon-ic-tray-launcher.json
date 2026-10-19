@@ -1,4 +1,3 @@
-
 {
   "id": "trayLauncher",
   "name": "Tray Launcher",
@@ -10,9 +9,14 @@
   "author": "eon-ic",
   "description": "Search and launch system tray applications with fuzzy ID matching and customizable aliases.",
   "dependencies": [],
-  "compositors": [
-    "niri",
-    "hyprland"
+ "compositors": [
+  "niri",
+  "hyprland",
+  "sway",
+  "mangowc",
+  "labwc",
+  "scroll",
+  "miracle"
   ],
   "distro": [
     "any"
