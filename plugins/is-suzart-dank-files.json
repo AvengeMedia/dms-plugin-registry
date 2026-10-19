@@ -17,7 +17,7 @@
         "glib2",
         "libarchive",
         "qt6-declarative",
-        "qt6-webengine",
+        "qt6-webengine (provides QtQuick.Pdf on Arch)",
         "qt6-multimedia",
         "udisks2",
         "xdg-utils",
