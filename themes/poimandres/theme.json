@@ -6,7 +6,6 @@
   "description": "Blue & teal theme inspired by https://github.com/drcmda/poimandres-theme",
   "dark": {
     "name": "Poimandres",
-    "secondary": "#5DE4C7",
     "surface": "#1B1E28",
     "surfaceVariant": "#1E213A",
     "surfaceVariantText": "#FFFFFF",
@@ -45,7 +44,7 @@
         "name": "Colorful",
         "dark": {
           "primary": "#89DDFF",
-          "primaryContainer": "#5DE4C7",
+          "softPrimaryContainer": "#5DE4C7",
           "onPrimaryContainer": "#0D5547",
           "surfaceText": "#E2F8FF",
           "primaryText": "#1a162e",
@@ -64,7 +63,7 @@
         "light":{
           "primary": "#00B1A2",
           "primaryText": "#FFFFFF",
-          "primaryContainer": "#01BBAB",
+          "softPrimaryContainer": "#01BBAB",
           "onPrimaryContainer": "#00443E",
           "surfaceText": "#1B212E",
           "secondary":"#FFFAC2",
@@ -83,7 +82,7 @@
         "name": "Normal",
         "dark":{
           "primary": "#89DDFF",
-          "primaryContainer": "#161A2E",
+          "softPrimaryContainer": "#161A2E",
           "onPrimaryContainer": "#5DE4C7",
           "primaryText": "#1B212E",
           "secondary": "#5DE4C7",
@@ -96,7 +95,7 @@
         "light":{
           "primary": "#00B1A2",
           "primaryText": "#FFFFFF",
-          "primaryContainer": "#B0DAE8",
+          "softPrimaryContainer": "#B0DAE8",
           "onPrimaryContainer": "#11222E",
           "surfaceText": "#1B212E",
           "secondary": "#00A194",
