@@ -7,10 +7,11 @@
     "category": "utilities",
     "repo": "https://github.com/Cha1000000/dms-ai-agent",
     "author": "Cha1000000 (fork of Francisdelca/dms-agent)",
-    "description": "AI desktop assistant powered by Claude Code: chat panel that controls your desktop in natural language, with live tool progress, local voice input (Whisper), model and effort selection from the CLI, conversation history, and a per-monitor chat you can drag between screens.",
+    "description": "AI desktop assistant powered by Claude Code: chat panel that controls your desktop in natural language, with live tool progress, local voice input (Whisper), model and effort selection from the CLI, conversation history, and a per-monitor chat you can drag between screens. Tool calls ask for confirmation by default; an optional autonomous mode runs them without asking.",
     "dependencies": [
         "claude",
-        "python3"
+        "python3",
+        "pipewire"
     ],
     "compositors": [
         "niri"
