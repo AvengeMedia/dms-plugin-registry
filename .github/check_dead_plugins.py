@@ -266,8 +266,8 @@ def open_removal_pr(plugin: dict, entry: dict, issue_number: int) -> int:
         run("git", "add", "--all", "plugins", "nix/plugins-prefetch.json", "README.md")
         run(
             "git",
-            "-c", "user.name=dms-ci[bot]",
-            "-c", "user.email=dms-ci[bot]@users.noreply.github.com",
+            "-c", "user.name=dux-ci[bot]",
+            "-c", "user.email=344434142+dux-ci[bot]@users.noreply.github.com",
             "commit", "-m", f"chore: remove {name} plugin (upstream repository gone)",
         )
         run("git", "push", "--force", "origin", f"HEAD:refs/heads/{branch}")
