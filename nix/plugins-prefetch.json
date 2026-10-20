@@ -599,7 +599,7 @@
         "any"
       ],
       "dependencies": [],
-      "description": "A QuickShell plugin for DankMaterialShell that tracks anime episode releases and sends notifications when your favorite shows air.",
+      "description": "A QuickShell plugin for Dux Shell that tracks anime episode releases and sends notifications when your favorite shows air.",
       "distro": [
         "any"
       ],
@@ -1718,7 +1718,7 @@
         "python3-venv",
         "node"
       ],
-      "description": "Lightweight Clash Verge overview, switching, and on-demand delay testing popout for DankMaterialShell",
+      "description": "Lightweight Clash Verge overview, switching, and on-demand delay testing popout for Dux Shell",
       "distro": [
         "any"
       ],
@@ -2023,7 +2023,7 @@
         "python3",
         "niri"
       ],
-      "description": "AI coding session island for DankMaterialShell with Codex, Claude Code, and OpenCode session cards on niri.",
+      "description": "AI coding session island for Dux Shell with Codex, Claude Code, and OpenCode session cards on niri.",
       "distro": [
         "any"
       ],
@@ -2577,7 +2577,7 @@
     "hash": "sha256-3nHfkGzmmq8JpN7bmO8Z5zIumvx8dzwS1GtQ6V0XgMg=",
     "leaveDotGit": false,
     "meta": {
-      "author": "Avenge Media",
+      "author": "Dux Labs",
       "capabilities": [
         "dankbar-widget"
       ],
@@ -2594,15 +2594,15 @@
       "id": "dankActions",
       "name": "Dank Actions",
       "path": "DankActions",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-actions.png",
+      "repo": "https://github.com/duxlabs-dev/dux-plugins",
+      "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugin-registry/master/assets/dank-actions.png",
       "version": "1.0.5"
     },
     "path": "/nix/store/gpdknfiszkrki8iiz3n0wchd5m59mch1-dms-plugins",
     "rev": "a8a508bc371e7c3f2c7862d8840b88cf5c63978f",
     "rootDir": "",
     "sha256": "1j402xfyjl3bsh93qxvwzjd2wcp737prinyylh4sz6p6dj8dywfy",
-    "url": "https://github.com/AvengeMedia/dms-plugins"
+    "url": "https://github.com/duxlabs-dev/dux-plugins"
   },
   "dankAlbumWidget": {
     "date": "2026-08-29T20:42:29+02:00",
@@ -2778,7 +2778,7 @@
         "any"
       ],
       "id": "dankCalendar",
-      "name": "DankCalendar",
+      "name": "Dux Calendar",
       "repo": "https://github.com/alcxyz/DankCalendar",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankCalendar/main/docs/screenshot.png",
       "version": "0.7.1"
@@ -2812,13 +2812,13 @@
         "dcal",
         "jq"
       ],
-      "description": "dcal countdown and scrollable agenda with keyboard navigation, event copying, meeting links and IPC shortcuts; opens events in DankCalendar and keeps the countdown width stable.",
+      "description": "dcal countdown and scrollable agenda with keyboard navigation, event copying, meeting links and IPC shortcuts; opens events in Dux Calendar and keeps the countdown width stable.",
       "distro": [
         "any"
       ],
       "icon": "calendar_today",
       "id": "dankCalendarAgenda",
-      "name": "Dank Calendar Agenda",
+      "name": "Dux Calendar Agenda",
       "permissions": [
         "settings_read",
         "settings_write"
@@ -2862,7 +2862,7 @@
         "any"
       ],
       "id": "dankCalendarPlus",
-      "name": "Dank Calendar Plus",
+      "name": "Dux Calendar Plus",
       "repo": "https://github.com/luckjokerwang/dms-dankcalendar",
       "screenshot": "https://raw.githubusercontent.com/luckjokerwang/dms-dankcalendar/main/assets/screenshot.png",
       "version": "3.4.0"
@@ -2973,7 +2973,7 @@
     "hash": "sha256-3nHfkGzmmq8JpN7bmO8Z5zIumvx8dzwS1GtQ6V0XgMg=",
     "leaveDotGit": false,
     "meta": {
-      "author": "Avenge Media",
+      "author": "Dux Labs",
       "capabilities": [
         "dankbar-widget",
         "control-center"
@@ -2993,16 +2993,16 @@
       "id": "dankClight",
       "name": "Clight",
       "path": "DankClight",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "repo": "https://github.com/duxlabs-dev/dux-plugins",
       "requires_dms": ">=1.4.0",
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankClight/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugins/refs/heads/master/DankClight/screenshot.png",
       "version": "1.0.1"
     },
     "path": "/nix/store/gpdknfiszkrki8iiz3n0wchd5m59mch1-dms-plugins",
     "rev": "a8a508bc371e7c3f2c7862d8840b88cf5c63978f",
     "rootDir": "",
     "sha256": "1j402xfyjl3bsh93qxvwzjd2wcp737prinyylh4sz6p6dj8dywfy",
-    "url": "https://github.com/AvengeMedia/dms-plugins"
+    "url": "https://github.com/duxlabs-dev/dux-plugins"
   },
   "dankConsoleSteam": {
     "date": "2026-07-14T19:56:15-06:00",
@@ -3050,7 +3050,7 @@
     "hash": "sha256-3nHfkGzmmq8JpN7bmO8Z5zIumvx8dzwS1GtQ6V0XgMg=",
     "leaveDotGit": false,
     "meta": {
-      "author": "Avenge Media",
+      "author": "Dux Labs",
       "capabilities": [
         "desktop-widget"
       ],
@@ -3067,16 +3067,16 @@
       "id": "dankDesktopWeather",
       "name": "Dank Desktop Weather",
       "path": "DankDesktopWeather",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "repo": "https://github.com/duxlabs-dev/dux-plugins",
       "requires_dms": ">=1.2.0",
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-desktop-weather.png",
+      "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugin-registry/master/assets/dank-desktop-weather.png",
       "version": "1.0.1"
     },
     "path": "/nix/store/gpdknfiszkrki8iiz3n0wchd5m59mch1-dms-plugins",
     "rev": "a8a508bc371e7c3f2c7862d8840b88cf5c63978f",
     "rootDir": "",
     "sha256": "1j402xfyjl3bsh93qxvwzjd2wcp737prinyylh4sz6p6dj8dywfy",
-    "url": "https://github.com/AvengeMedia/dms-plugins"
+    "url": "https://github.com/duxlabs-dev/dux-plugins"
   },
   "dankDiskUsage": {
     "date": "2026-10-01T13:20:42+02:00",
@@ -3159,7 +3159,7 @@
     "hash": "sha256-3nHfkGzmmq8JpN7bmO8Z5zIumvx8dzwS1GtQ6V0XgMg=",
     "leaveDotGit": false,
     "meta": {
-      "author": "Avenge Media",
+      "author": "Dux Labs",
       "capabilities": [
         "launcher"
       ],
@@ -3180,16 +3180,16 @@
       "id": "dankGifSearch",
       "name": "GIF Search",
       "path": "DankGifSearch",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "repo": "https://github.com/duxlabs-dev/dux-plugins",
       "requires_dms": ">=1.4.0",
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankGifSearch/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugins/refs/heads/master/DankGifSearch/screenshot.png",
       "version": "1.0.5"
     },
     "path": "/nix/store/gpdknfiszkrki8iiz3n0wchd5m59mch1-dms-plugins",
     "rev": "a8a508bc371e7c3f2c7862d8840b88cf5c63978f",
     "rootDir": "",
     "sha256": "1j402xfyjl3bsh93qxvwzjd2wcp737prinyylh4sz6p6dj8dywfy",
-    "url": "https://github.com/AvengeMedia/dms-plugins"
+    "url": "https://github.com/duxlabs-dev/dux-plugins"
   },
   "dankHermes": {
     "date": "2026-06-07T02:03:51+08:00",
@@ -3234,7 +3234,7 @@
     "hash": "sha256-3nHfkGzmmq8JpN7bmO8Z5zIumvx8dzwS1GtQ6V0XgMg=",
     "leaveDotGit": false,
     "meta": {
-      "author": "Avenge Media",
+      "author": "Dux Labs",
       "capabilities": [
         "watch-events"
       ],
@@ -3251,15 +3251,15 @@
       "id": "dankHooks",
       "name": "Dank Hooks",
       "path": "DankHooks",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-hooks.png",
+      "repo": "https://github.com/duxlabs-dev/dux-plugins",
+      "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugin-registry/master/assets/dank-hooks.png",
       "version": "1.0.9"
     },
     "path": "/nix/store/gpdknfiszkrki8iiz3n0wchd5m59mch1-dms-plugins",
     "rev": "a8a508bc371e7c3f2c7862d8840b88cf5c63978f",
     "rootDir": "",
     "sha256": "1j402xfyjl3bsh93qxvwzjd2wcp737prinyylh4sz6p6dj8dywfy",
-    "url": "https://github.com/AvengeMedia/dms-plugins"
+    "url": "https://github.com/duxlabs-dev/dux-plugins"
   },
   "dankHyprlandWindows": {
     "date": "2026-10-05T11:27:35-04:00",
@@ -3270,7 +3270,7 @@
     "hash": "sha256-3nHfkGzmmq8JpN7bmO8Z5zIumvx8dzwS1GtQ6V0XgMg=",
     "leaveDotGit": false,
     "meta": {
-      "author": "Avenge Media",
+      "author": "Dux Labs",
       "capabilities": [
         "launcher"
       ],
@@ -3287,16 +3287,16 @@
       "id": "dankHyprlandWindows",
       "name": "Hyprland Window Switcher",
       "path": "DankHyprlandWindows",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "repo": "https://github.com/duxlabs-dev/dux-plugins",
       "requires_dms": ">=1.4.0",
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankHyprlandWindows/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugins/refs/heads/master/DankHyprlandWindows/screenshot.png",
       "version": "1.0.0"
     },
     "path": "/nix/store/gpdknfiszkrki8iiz3n0wchd5m59mch1-dms-plugins",
     "rev": "a8a508bc371e7c3f2c7862d8840b88cf5c63978f",
     "rootDir": "",
     "sha256": "1j402xfyjl3bsh93qxvwzjd2wcp737prinyylh4sz6p6dj8dywfy",
-    "url": "https://github.com/AvengeMedia/dms-plugins"
+    "url": "https://github.com/duxlabs-dev/dux-plugins"
   },
   "dankKDEConnect": {
     "date": "2026-10-05T11:27:35-04:00",
@@ -3307,7 +3307,7 @@
     "hash": "sha256-3nHfkGzmmq8JpN7bmO8Z5zIumvx8dzwS1GtQ6V0XgMg=",
     "leaveDotGit": false,
     "meta": {
-      "author": "Avenge Media",
+      "author": "Dux Labs",
       "capabilities": [
         "dankbar-widget",
         "control-center"
@@ -3329,16 +3329,16 @@
       "id": "dankKDEConnect",
       "name": "Phone Connect",
       "path": "DankKDEConnect",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "repo": "https://github.com/duxlabs-dev/dux-plugins",
       "requires_dms": ">=1.4.0",
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankKDEConnect/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugins/refs/heads/master/DankKDEConnect/screenshot.png",
       "version": "3.0.0"
     },
     "path": "/nix/store/gpdknfiszkrki8iiz3n0wchd5m59mch1-dms-plugins",
     "rev": "a8a508bc371e7c3f2c7862d8840b88cf5c63978f",
     "rootDir": "",
     "sha256": "1j402xfyjl3bsh93qxvwzjd2wcp737prinyylh4sz6p6dj8dywfy",
-    "url": "https://github.com/AvengeMedia/dms-plugins"
+    "url": "https://github.com/duxlabs-dev/dux-plugins"
   },
   "dankLauncherKeys": {
     "date": "2026-10-05T11:27:35-04:00",
@@ -3349,7 +3349,7 @@
     "hash": "sha256-3nHfkGzmmq8JpN7bmO8Z5zIumvx8dzwS1GtQ6V0XgMg=",
     "leaveDotGit": false,
     "meta": {
-      "author": "Avenge Media",
+      "author": "Dux Labs",
       "capabilities": [
         "launcher"
       ],
@@ -3366,16 +3366,16 @@
       "id": "dankLauncherKeys",
       "name": "Dank Launcher Keys",
       "path": "DankLauncherKeys",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "repo": "https://github.com/duxlabs-dev/dux-plugins",
       "requires_dms": ">=1.2.0",
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankLauncherKeys/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugins/refs/heads/master/DankLauncherKeys/screenshot.png",
       "version": "1.0.4"
     },
     "path": "/nix/store/gpdknfiszkrki8iiz3n0wchd5m59mch1-dms-plugins",
     "rev": "a8a508bc371e7c3f2c7862d8840b88cf5c63978f",
     "rootDir": "",
     "sha256": "1j402xfyjl3bsh93qxvwzjd2wcp737prinyylh4sz6p6dj8dywfy",
-    "url": "https://github.com/AvengeMedia/dms-plugins"
+    "url": "https://github.com/duxlabs-dev/dux-plugins"
   },
   "dankMenu": {
     "date": "2026-09-05T13:14:20+02:00",
@@ -3532,7 +3532,7 @@
     "hash": "sha256-3nHfkGzmmq8JpN7bmO8Z5zIumvx8dzwS1GtQ6V0XgMg=",
     "leaveDotGit": false,
     "meta": {
-      "author": "Avenge Media",
+      "author": "Dux Labs",
       "capabilities": [
         "notepad-syntax"
       ],
@@ -3551,16 +3551,16 @@
       "id": "dankNotepadModule",
       "name": "Dank Notepad Syntax Module",
       "path": "DankNotepadModule",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "repo": "https://github.com/duxlabs-dev/dux-plugins",
       "requires_dms": ">=1.4.0",
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankNotepadModule/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugins/refs/heads/master/DankNotepadModule/screenshot.png",
       "version": "1.0.0"
     },
     "path": "/nix/store/gpdknfiszkrki8iiz3n0wchd5m59mch1-dms-plugins",
     "rev": "a8a508bc371e7c3f2c7862d8840b88cf5c63978f",
     "rootDir": "",
     "sha256": "1j402xfyjl3bsh93qxvwzjd2wcp737prinyylh4sz6p6dj8dywfy",
-    "url": "https://github.com/AvengeMedia/dms-plugins"
+    "url": "https://github.com/duxlabs-dev/dux-plugins"
   },
   "dankObsidian": {
     "date": "2026-03-01T18:16:01+01:00",
@@ -3645,7 +3645,7 @@
     "hash": "sha256-3nHfkGzmmq8JpN7bmO8Z5zIumvx8dzwS1GtQ6V0XgMg=",
     "leaveDotGit": false,
     "meta": {
-      "author": "Avenge Media",
+      "author": "Dux Labs",
       "capabilities": [
         "dankbar-widget"
       ],
@@ -3662,15 +3662,15 @@
       "id": "dankPomodoroTimer",
       "name": "Dank Pomodoro Timer",
       "path": "DankPomodoroTimer",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-pomodoro.png",
+      "repo": "https://github.com/duxlabs-dev/dux-plugins",
+      "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugin-registry/master/assets/dank-pomodoro.png",
       "version": "1.1.6"
     },
     "path": "/nix/store/gpdknfiszkrki8iiz3n0wchd5m59mch1-dms-plugins",
     "rev": "a8a508bc371e7c3f2c7862d8840b88cf5c63978f",
     "rootDir": "",
     "sha256": "1j402xfyjl3bsh93qxvwzjd2wcp737prinyylh4sz6p6dj8dywfy",
-    "url": "https://github.com/AvengeMedia/dms-plugins"
+    "url": "https://github.com/duxlabs-dev/dux-plugins"
   },
   "dankQuickSearch": {
     "date": "2026-09-24T08:21:32+02:00",
@@ -3947,7 +3947,7 @@
     "hash": "sha256-3nHfkGzmmq8JpN7bmO8Z5zIumvx8dzwS1GtQ6V0XgMg=",
     "leaveDotGit": false,
     "meta": {
-      "author": "Avenge Media",
+      "author": "Dux Labs",
       "capabilities": [
         "launcher"
       ],
@@ -3967,16 +3967,16 @@
       "id": "dankStickerSearch",
       "name": "Sticker Search",
       "path": "DankStickerSearch",
-      "repo": "https://github.com/AvengeMedia/dms-plugins",
+      "repo": "https://github.com/duxlabs-dev/dux-plugins",
       "requires_dms": ">=1.4.0",
-      "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankStickerSearch/screenshot.png",
+      "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugins/refs/heads/master/DankStickerSearch/screenshot.png",
       "version": "1.0.5"
     },
     "path": "/nix/store/gpdknfiszkrki8iiz3n0wchd5m59mch1-dms-plugins",
     "rev": "a8a508bc371e7c3f2c7862d8840b88cf5c63978f",
     "rootDir": "",
     "sha256": "1j402xfyjl3bsh93qxvwzjd2wcp737prinyylh4sz6p6dj8dywfy",
-    "url": "https://github.com/AvengeMedia/dms-plugins"
+    "url": "https://github.com/duxlabs-dev/dux-plugins"
   },
   "dankStopwatch": {
     "date": "2026-05-25T15:36:51+07:00",
@@ -3996,7 +3996,7 @@
         "any"
       ],
       "dependencies": [],
-      "description": "A modern glassmorphic stopwatch pill for DankMaterialShell with laps, copy time, and a polished popout toolbar.",
+      "description": "A modern glassmorphic stopwatch pill for Dux Shell with laps, copy time, and a polished popout toolbar.",
       "distro": [
         "any"
       ],
@@ -4337,7 +4337,7 @@
       "dependencies": [
         "dank-pinentry"
       ],
-      "description": "GPG and SSH passphrase prompts inside DankMaterialShell: in the bar, as a dialog, or as a screen-edge strip. Requires the companion dank-pinentry binary, built from the same repository.",
+      "description": "GPG and SSH passphrase prompts inside Dux Shell: in the bar, as a dialog, or as a screen-edge strip. Requires the companion dank-pinentry binary, built from the same repository.",
       "distro": [
         "any"
       ],
@@ -4375,7 +4375,7 @@
       "dependencies": [
         "dmail"
       ],
-      "description": "The DankMaterialShell companion shipped with Dankmail: live unread status and quick triage powered by the same dmail daemon.",
+      "description": "The Dux Shell companion shipped with Dankmail: live unread status and quick triage powered by the same dmail daemon.",
       "distro": [
         "any"
       ],
@@ -6885,7 +6885,7 @@
         "trans",
         "wl-clipboard"
       ],
-      "description": "Popout translation widget for DankMaterialShell bar. Select text, click the translate icon, and get an instant side-by-side translation with copy buttons.",
+      "description": "Popout translation widget for Dux Shell bar. Select text, click the translate icon, and get an instant side-by-side translation with copy buttons.",
       "distro": [
         "any"
       ],
@@ -10047,7 +10047,7 @@
       "dependencies": [
         "openrgb"
       ],
-      "description": "Syncs your DankMaterialShell theme colors with RGB hardware via OpenRGB. Watches theme color changes and applies the configured color to connected devices, with optional per-device modes.",
+      "description": "Syncs your Dux Shell theme colors with RGB hardware via OpenRGB. Watches theme color changes and applies the configured color to connected devices, with optional per-device modes.",
       "distro": [
         "any"
       ],
@@ -10166,7 +10166,7 @@
       "dependencies": [
         "pangolin"
       ],
-      "description": "QuickShell plugin for DankMaterialShell that exposes Pangolin VPN status, peer list with live RTT, routes, connection controls, and notifications. Backed by the pangolin CLI.",
+      "description": "QuickShell plugin for Dux Shell that exposes Pangolin VPN status, peer list with live RTT, routes, connection controls, and notifications. Backed by the pangolin CLI.",
       "distro": [
         "any"
       ],
@@ -11813,7 +11813,7 @@
       "dependencies": [
         "qt6-websockets"
       ],
-      "description": "Display lyrics from SPlayer in Dank Material Shell.",
+      "description": "Display lyrics from SPlayer in Dux Shell.",
       "distro": [
         "any"
       ],
@@ -12468,7 +12468,7 @@
       "dependencies": [
         "notify-send"
       ],
-      "description": "A living tree on your desktop that grows as long as DankMaterialShell does. Water it, watch it grow through six real-time stages, and let it wilt if you forget.",
+      "description": "A living tree on your desktop that grows as long as Dux Shell does. Water it, watch it grow through six real-time stages, and let it wilt if you forget.",
       "distro": [
         "any"
       ],

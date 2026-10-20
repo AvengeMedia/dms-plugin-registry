@@ -27,7 +27,7 @@ MAX_SOURCES = 5
 MAX_FINDINGS = 15
 CLONE_TIMEOUT = 180
 
-DMS_REPO = "https://github.com/AvengeMedia/DankMaterialShell"
+DMS_REPO = "https://github.com/duxlabs-dev/dux-shell"
 DMS_PATHS = [
     ".agents/skills/dms-plugin-dev",
     "quickshell/Common",

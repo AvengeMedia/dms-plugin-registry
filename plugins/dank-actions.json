@@ -3,13 +3,13 @@
     "name": "Dank Actions",
     "capabilities": ["dankbar-widget"],
     "category": "utilities",
-    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "repo": "https://github.com/duxlabs-dev/dux-plugins",
     "path": "DankActions",
-    "author": "Avenge Media",
+    "author": "Dux Labs",
     "firstParty": true,
     "description": "Add customizable, scriptable actions to your bar.",
     "dependencies": [],
     "compositors": ["any"],
     "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-actions.png"
+    "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugin-registry/master/assets/dank-actions.png"
 }

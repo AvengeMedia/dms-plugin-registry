@@ -24,7 +24,7 @@ permissions: {}
 
 jobs:
   targets:
-    if: github.repository == 'AvengeMedia/dms-plugin-registry'
+    if: github.repository == 'duxlabs-dev/dux-plugin-registry'
     runs-on: ubuntu-latest
     permissions:
       contents: read
@@ -112,7 +112,7 @@ jobs:
               }
             }
           prompt: |
-            Review the target described in review/CONTEXT.md for ${{ github.repository }}, the plugin and theme registry for DankMaterialShell (DMS). It is either a pull request or a plugin already listed in the registry. A maintainer reads your result as a first pass and makes the call.
+            Review the target described in review/CONTEXT.md for ${{ github.repository }}, the plugin and theme registry for Dux Shell (DMS). It is either a pull request or a plugin already listed in the registry. A maintainer reads your result as a first pass and makes the call.
 
             Start with review/CONTEXT.md. It lists what changed and where each piece is checked out. Read CONTRIBUTING.md at the repository root.
 

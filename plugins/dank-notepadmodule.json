@@ -3,14 +3,14 @@
     "name": "Dank Notepad Syntax Module",
     "capabilities": ["notepad-syntax"],
     "category": "utilities",
-    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "repo": "https://github.com/duxlabs-dev/dux-plugins",
     "path": "DankNotepadModule",
-    "author": "Avenge Media",
+    "author": "Dux Labs",
     "firstParty": true,
     "description": "Inline preview and chroma-based syntax highlighting for Notepad",
     "dependencies": ["notepad"],
     "compositors": ["any"],
     "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankNotepadModule/screenshot.png",
+    "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugins/refs/heads/master/DankNotepadModule/screenshot.png",
     "requires_dms": ">=1.4.0"
 }

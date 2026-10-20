@@ -9,7 +9,7 @@ on:
 
 jobs:
   update:
-    if: github.repository == 'AvengeMedia/dms-plugin-registry'
+    if: github.repository == 'duxlabs-dev/dux-plugin-registry'
     runs-on: ubuntu-latest
     env:
       FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true

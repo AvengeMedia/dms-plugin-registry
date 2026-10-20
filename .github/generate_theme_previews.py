@@ -5,7 +5,7 @@ import json
 from html import escape as xml_escape
 from pathlib import Path
 
-# Mirrors how DankMaterialShell composes a desktop: the bar and popouts fill
+# Mirrors how Dux Shell composes a desktop: the bar and popouts fill
 # with surfaceContainer, nested cards step up to surfaceContainerHigh, input
 # wells drop to surface, and the clock renders primary as accent text.
 PANEL_TEMPLATE = """<g transform="translate({x}, 0)">
@@ -64,7 +64,7 @@ PANEL_KEYS = {
 }
 
 
-# Fallbacks match DankMaterialShell Common/Theme.qml, which derives missing
+# Fallbacks match Dux Shell Common/Theme.qml, which derives missing
 # container steps from the ones a theme does define.
 PANEL_FALLBACKS = {
     "surfaceContainer": "surface",

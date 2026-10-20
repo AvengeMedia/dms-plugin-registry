@@ -30,7 +30,7 @@ PREFETCH_PATH = REPO_ROOT / "nix" / "plugins-prefetch.json"
 STATE_PATH = REPO_ROOT / ".github" / "plugin-health.json"
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN", "")
-GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "AvengeMedia/dms-plugin-registry")
+GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "duxlabs-dev/dux-plugin-registry")
 BASE_BRANCH = os.environ.get("BASE_BRANCH", "master")
 MODERATORS = [m.strip().lstrip("@") for m in os.environ.get("PLUGIN_MODERATORS", "").split(",") if m.strip()]
 REQUIRED_STRIKES = int(os.environ.get("REQUIRED_STRIKES", "3"))
@@ -47,7 +47,7 @@ REMOVAL_LABEL = "plugin-removal"
 REMOVAL_LABEL_COLOR = "b60205"
 
 CONTROL_REPOS = {
-    "github.com": "https://github.com/AvengeMedia/dms-plugin-registry",
+    "github.com": "https://github.com/duxlabs-dev/dux-plugin-registry",
     "gitlab.com": "https://gitlab.com/gitlab-org/gitlab",
     "codeberg.org": "https://codeberg.org/forgejo/forgejo",
 }
