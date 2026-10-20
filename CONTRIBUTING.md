@@ -138,11 +138,13 @@ To keep plugins lightweight and minimize external package requirements, always p
 | **Notifications** | `libnotify` (`notify-send`) | `dms notify "<title>" "<message>"` | Integrates with DMS notification center, supports `--file` and action buttons |
 | **Screenshots** | `grim`, `slurp`, `grimblast`, `flameshot` | `dms screenshot [region\|full\|all]` | Native Wayland capture with region selector |
 | **HTTP Downloads** | `curl`, `wget` (basic file/image fetch) | `dms dl <url> -o <path>` | Built-in downloader, avoids requiring `curl` for basic requests |
-| **Open File / URL** | `xdg-open`, `gio open` | `dms open <url\|path>` | Uses DMS application picker and browser selection |
 | **QR Codes** | `qrencode` | `dms qr "<text>"` | Built-in encoder; supports terminal display or PNG output via stdout |
 | **Trash Management** | `trash-cli` | `dms trash [put\|list\|restore\|empty]` | Conforms to XDG Trash Spec 1.0 safely without shell rm |
 | **Brightness Control**| `brightnessctl` | `dms brightness <percent>` | Direct hardware brightness control |
 | **Display Query** | `wlr-randr`, `xrandr` | `dms randr` | Returns output metadata in structured JSON |
+
+> [!NOTE]
+> `dms open <url|path>` opens the DMS application picker dialog for the user to choose an application; it does not replace `xdg-open` or `gio open` (which launch the default application directly).
 
 #### 2. In-Process QML Services (Avoid Spawning Shells)
 
