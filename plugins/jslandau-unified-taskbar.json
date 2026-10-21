@@ -7,7 +7,7 @@
     "author": "Joshua Landau",
     "description": "Running apps grouped by workspace with per-workspace pills",
     "dependencies": [],
-    "compositors": ["any"],
+    "compositors": ["niri", "hyprland", "sway"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/jslandau/dms-unified-taskbar/master/screenshot.png"
 }
