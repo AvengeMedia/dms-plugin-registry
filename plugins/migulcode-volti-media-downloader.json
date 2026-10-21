@@ -1,0 +1,27 @@
+{
+  "id": "voltiMediaDownloader",
+  "name": "Volti Media Downloader",
+  "capabilities": [
+    "dankbar-widget",
+    "ipc"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/migulCode/volti-media-downloader",
+  "author": "Miguel",
+  "description": "Advanced multimedia download and conversion suite for DankMaterialShell (yt-dlp, ffmpeg, gallery-dl)",
+  "dependencies": [
+    "yt-dlp",
+    "ffmpeg",
+    "gallery-dl",
+    "nodejs"
+  ],
+  "compositors": [
+    "hyprland",
+    "niri",
+    "any"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/migulCode/volti-media-downloader/main/volti%20resource/downloads.png"
+}
