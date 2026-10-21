@@ -1,0 +1,24 @@
+{
+  "id": "dankClockwork",
+  "name": "DankClockwork",
+  "capabilities": [
+    "dankbar-widget"
+  ],
+  "author": "quantavil",
+  "description": "A stopwatch, countdown, alarm, intervals, and Pomodoro timer for DankMaterialShell",
+  "dependencies": [
+    "pw-play",
+    "notify-send",
+    "sound-theme-freedesktop"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/quantavil/dankClockwork",
+  "compositors": [
+    "niri"
+  ],
+  "distro": [
+    "cachyos"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/quantavil/dankClockwork/main/screenshots/dankClockwork.png",
+  "requires_dms": ">=1.4.0"
+}
