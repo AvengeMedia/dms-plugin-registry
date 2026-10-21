@@ -1,0 +1,23 @@
+{
+    "id": "nordHub",
+    "name": "Nord Hub",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "author": "Matheuscara",
+    "requires_dms": ">=1.4.6",
+    "category": "utilities",
+    "repo": "https://github.com/Matheuscara/dayzWidgets",
+    "path": "plugins/NordHub",
+    "description": "Bar hub for tools, system performance and weather.",
+    "dependencies": [
+        "dgop"
+    ],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Matheuscara/dayzWidgets/main/docs/previews/hub.png"
+}

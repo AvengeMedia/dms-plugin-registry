@@ -1,0 +1,21 @@
+{
+    "id": "quietClock",
+    "name": "Relógio",
+    "capabilities": [
+        "desktop-widget"
+    ],
+    "author": "Matheuscara",
+    "requires_dms": ">=1.4.6",
+    "category": "appearance",
+    "repo": "https://github.com/Matheuscara/dayzWidgets",
+    "path": "plugins/QuietClock",
+    "description": "Digital desktop clock with date and an analog dial.",
+    "dependencies": [],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Matheuscara/dayzWidgets/main/docs/previews/quiet-clock.png"
+}

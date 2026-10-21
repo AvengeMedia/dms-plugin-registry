@@ -1,0 +1,21 @@
+{
+    "id": "quickShortcuts",
+    "name": "Atalhos rápidos",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "author": "Matheuscara",
+    "requires_dms": ">=1.4.6",
+    "category": "utilities",
+    "repo": "https://github.com/Matheuscara/dayzWidgets",
+    "path": "plugins/QuickShortcuts",
+    "description": "Configurable bar shortcuts that launch argument arrays without an intermediary shell. Optional integrations are documented in the repository.",
+    "dependencies": [],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Matheuscara/dayzWidgets/main/docs/previews/shortcuts.png"
+}
