@@ -12863,12 +12863,12 @@
     "url": "https://github.com/Cha1000000/dms-umbrella-clock"
   },
   "unifiedTaskbar": {
-    "date": "2026-09-07T00:51:36-04:00",
+    "date": "2026-10-20T23:52:10-04:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-gOLipzxMKrGqP0DZdWzEszGzgwtz2FJde+nHiU8CwZo=",
+    "hash": "sha256-/bQS2479N8ZHPJEP8lnRGQEmKoZ9zqqI/tW0tFb5ocQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "Joshua Landau",
@@ -12877,7 +12877,9 @@
       ],
       "category": "utilities",
       "compositors": [
-        "any"
+        "niri",
+        "hyprland",
+        "sway"
       ],
       "dependencies": [],
       "description": "Running apps grouped by workspace with per-workspace pills",
@@ -12890,10 +12892,10 @@
       "screenshot": "https://raw.githubusercontent.com/jslandau/dms-unified-taskbar/master/screenshot.png",
       "version": "1.2.0"
     },
-    "path": "/nix/store/fjrsf260aw1k9daw56rqp24brrg25mrx-dms-unified-taskbar",
-    "rev": "eba5b385cfbbda85587fa0a4feefe293563617ff",
+    "path": "/nix/store/hd91gwyb61wlv6g6hcshpvph9j0wsnm4-dms-unified-taskbar",
+    "rev": "76a7da58395fc6fa71141bae29f2a85e5475f16a",
     "rootDir": "",
-    "sha256": "16n1097qkiz9gdfm5n3k1f1v6cdkqin7bna07ymb2ajc7jky5ql0",
+    "sha256": "1i51z5bb9d6mzs4amkkxhqm2c08rs5cz43wi7i3wcdzxivdi5d7x",
     "url": "https://github.com/jslandau/dms-unified-taskbar"
   },
   "uptimeBar": {
