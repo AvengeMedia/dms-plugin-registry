@@ -9,13 +9,13 @@
   "category": "utilities",
   "repo": "https://github.com/consciousY/dms-keybind-cheatsheet",
   "author": "consciousY",
-  "description": "Quick access & popup for Hyprland and DMS keybind cheatsheet, settings, and hotkeys",
+  "description": "Quick access & popup for DMS keybind cheatsheet, settings, and hotkey configuration",
   "dependencies": [],
   "compositors": [
-    "hyprland",
     "any"
   ],
   "distro": [
     "any"
-  ]
+  ],
+  "screenshot": "https://raw.githubusercontent.com/consciousY/dms-keybind-cheatsheet/main/screenshot.png"
 }
