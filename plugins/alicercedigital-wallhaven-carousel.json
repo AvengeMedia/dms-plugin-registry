@@ -1,0 +1,25 @@
+{
+    "id": "wallhavenCarousel",
+    "name": "Wallhaven Carousel",
+    "capabilities": [
+        "daemon",
+        "wallpaper",
+        "network"
+    ],
+    "category": "appearance",
+    "repo": "https://github.com/alicercedigital/wallhaven-carousel",
+    "author": "dretz",
+    "description": "Fullscreen skewed carousel of your wallpaper folder, plus favorites, a shuffle among favorites only, color and tag filters, delete to Trash, and Wallhaven search, full-size preview and download in the same overlay.",
+    "dependencies": [
+        "python3",
+        "imagemagick"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/alicercedigital/wallhaven-carousel/main/assets/screenshot.jpg",
+    "requires_dms": ">=1.6.0"
+}

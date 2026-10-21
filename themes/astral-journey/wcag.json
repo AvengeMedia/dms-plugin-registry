@@ -1,0 +1,103 @@
+{
+  "level": "AA",
+  "dark": {
+    "level": "AAA",
+    "minRatio": 10.55,
+    "worstPair": [
+      "surfaceText",
+      "surfaceContainerHighest"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 10.55,
+      "worstPair": [
+        "surfaceText",
+        "surfaceContainerHighest"
+      ]
+    },
+    "accent": {
+      "level": "AAA",
+      "minRatio": 11.88,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 6.1,
+      "worstPair": [
+        "info",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "blackhole-amber": "AAA",
+      "blackhole-aurora": "AAA",
+      "blackhole-azure": "AA",
+      "blackhole-coral": "AA",
+      "blackhole-lilac": "AAA",
+      "blackhole-orange": "AAA",
+      "blackhole-teal": "AA",
+      "blackhole-violet": "AA"
+    },
+    "breakdown": [
+      {
+        "name": "Blackhole",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      }
+    ]
+  },
+  "light": {
+    "level": "AA",
+    "minRatio": 4.57,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 10.65,
+      "worstPair": [
+        "surfaceText",
+        "surfaceContainerHighest"
+      ]
+    },
+    "accent": {
+      "level": "AA",
+      "minRatio": 4.57,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 4.57,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "supernova-amber": "AA",
+      "supernova-aurora": "AA",
+      "supernova-azure": "AA",
+      "supernova-coral": "AA",
+      "supernova-lilac": "AA",
+      "supernova-orange": "AA",
+      "supernova-teal": "AA",
+      "supernova-violet": "AA"
+    },
+    "breakdown": [
+      {
+        "name": "Supernova",
+        "mode": "light",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      }
+    ]
+  }
+}

@@ -1,0 +1,13 @@
+{
+"id": "gameControllerBattery",
+"name": "Game Controller Battery",
+"capabilities": ["dankbar-widget"],
+"category": "monitoring",
+"repo": "https://github.com/Hujair/gameControllerBattery",
+"author": "Mohammad Hujair",
+"description": "Shows the battery level of connected game controllers",
+"dependencies": ["upower"],
+"compositors": ["niri", "hyprland"],
+"distro": ["any"],
+"screenshot": "https://raw.githubusercontent.com/Hujair/gameControllerBattery/v1.0.0/dms-screenshot-1773854869435.png"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "claudeUsageStats",
+    "name": "Claude Usage and Stats",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/HotcocoaCanary/Canary-DMS-ClaudeUsageStats",
+    "author": "HotcocoaCanary",
+    "description": "Claude Code usage from local transcripts: /usage limits, /stats overview, per-model charts and an activity heatmap. /usage is synced manually or on a configurable schedule",
+    "dependencies": ["python3"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/HotcocoaCanary/Canary-DMS-ClaudeUsageStats/main/screenshot.png"
+}

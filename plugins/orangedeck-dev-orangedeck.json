@@ -1,0 +1,14 @@
+{
+    "id": "orangedeck",
+    "name": "OrangeDeck Bitcoin Dashboard",
+    "capabilities": ["daemon", "dankbar-widget", "control-center", "desktop-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/orangedeck-dev/dms-plugin",
+    "author": "satoshoe",
+    "description": "Live view of the Bitcoin mempool: the latest block in the middle, the mempool as a pile below, new transactions raining in from above. Feed, clock, miner, market and explorer views. Data comes from mempool.space or a mempool instance you set, the market view also from Binance, OKX and Bybit. Starts the optional OrangeDeck service if it is installed.",
+    "dependencies": ["qt6-websockets"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/orangedeck-dev/dms-plugin/main/assets/screenshot.png",
+    "requires_dms": ">=1.5.0"
+}

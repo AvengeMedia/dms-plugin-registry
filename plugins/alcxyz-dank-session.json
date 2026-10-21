@@ -1,0 +1,13 @@
+{
+    "id": "dankSession",
+    "name": "DankSession",
+    "capabilities": ["dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/alcxyz/DankSession",
+    "author": "alcxyz",
+    "description": "Save and restore Hyprland application sessions, workspaces, and window sizes, with automatic saving, login restoration, and app exclusions",
+    "dependencies": ["danksession", "hyprctl", "systemd-run"],
+    "compositors": ["hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/alcxyz/DankSession/main/assets/screenshot.png"
+}

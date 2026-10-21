@@ -1,0 +1,13 @@
+{
+    "id": "spotlightWallpapers",
+    "name": "Spotlight Wallpapers",
+    "capabilities": ["dankbar-widget"],
+    "category": "appearance",
+    "repo": "https://github.com/scottmckendry/spotlight-wallpapers",
+    "author": "scottmckendry",
+    "description": "Fetch and apply Windows Spotlight wallpapers from DankBar",
+    "dependencies": ["curl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/scottmckendry/spotlight-wallpapers/main/screenshot.png"
+}

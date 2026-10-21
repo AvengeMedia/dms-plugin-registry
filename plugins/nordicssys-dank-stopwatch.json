@@ -1,0 +1,14 @@
+{
+    "id": "dankStopwatch",
+    "name": "Dank Stopwatch",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/NordicsSys/dankStopwatch",
+    "author": "NordicsSys",
+    "description": "A modern glassmorphic stopwatch pill for DankMaterialShell with laps, copy time, and a polished popout toolbar.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/NordicsSys/dankStopwatch/main/screenshots/stopwatch-laps.png",
+    "requires_dms": ">=1.4.0"
+}

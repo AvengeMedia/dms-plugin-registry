@@ -1,0 +1,14 @@
+{
+    "id": "githubNotifier",
+    "name": "GitHub Notifier",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/psyreactor/dms-githubNotifier",
+    "author": "psyreactor",
+    "description": "Shows open PRs authored by you and issues assigned to you from GitHub in the DankBar.",
+    "dependencies": ["github-cli","font-awesome"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/psyreactor/dms-githubNotifier/raw/main/screenshot.png",
+    "requires_dms": ">0.0.28"
+}

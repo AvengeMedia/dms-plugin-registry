@@ -1,0 +1,14 @@
+{
+    "id": "countryCodeLookup",
+    "name": "Country Code Lookup",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/LilFishyChan/countryCodeLookup",
+    "author": "LilFishyChan",
+    "description": "Look up a country by phone dial code (+86, +1 767) or by name (China / 中国) from the launcher. Smart prefix completion, shared codes, dependent-territory labelling and 27 languages.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/LilFishyChan/countryCodeLookup/main/screenshot.png",
+    "requires_dms": ">=1.4.0"
+}

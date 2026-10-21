@@ -4,7 +4,7 @@
     "description": "Flexible Custom Widget for Showing Running Apps on Dank Bar",
     "category": "utilities",
     "capabilities": ["dankbar-widget"],
-    "compositors": ["niri"],
+    "compositors": ["any"],
     "distro": ["any"],
     "dependencies": [],
     "repo": "https://github.com/heyitsmikey128/DankCustomRunningApps",

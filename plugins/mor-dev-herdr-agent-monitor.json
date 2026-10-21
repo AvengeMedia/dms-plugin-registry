@@ -1,0 +1,21 @@
+{
+    "id": "herdrAgentMonitor",
+    "name": "herdr Agent Monitor",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "monitoring",
+    "repo": "https://github.com/Mor-dev/herdr-agent-monitor",
+    "author": "Mor-dev",
+    "description": "Shows live agent status (working/idle/blocked/done) across herdr panes in the bar, click one to focus its pane",
+    "dependencies": [
+        "herdr"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Mor-dev/herdr-agent-monitor/master/assets/popout.png"
+}

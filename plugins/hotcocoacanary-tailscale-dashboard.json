@@ -1,0 +1,13 @@
+{
+    "id": "tailscaleDashboard",
+    "name": "Tailscale Dashboard",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/HotcocoaCanary/Canary-DMS-TailscaleDashboard",
+    "author": "HotcocoaCanary",
+    "description": "Read-only Tailscale status: this device, the devices in the tailnet, traffic and relay latencies as charts, plus a link to the admin console",
+    "dependencies": ["tailscale", "python3"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/HotcocoaCanary/Canary-DMS-TailscaleDashboard/main/screenshot.png"
+}

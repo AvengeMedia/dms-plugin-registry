@@ -1,0 +1,115 @@
+{
+  "level": "AA",
+  "dark": {
+    "level": "AAA",
+    "minRatio": 8.06,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 11.83,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "AAA",
+      "minRatio": 8.06,
+      "worstPair": [
+        "primaryText",
+        "primary"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 7.57,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "noir-amber": "AAA",
+      "noir-blue": "AAA",
+      "noir-cyan": "AAA",
+      "noir-green": "AAA",
+      "noir-indigo": "AAA",
+      "noir-lime": "AAA",
+      "noir-mono": "AAA",
+      "noir-orange": "AAA",
+      "noir-pink": "AAA",
+      "noir-red": "AA",
+      "noir-rose": "AAA",
+      "noir-teal": "AAA",
+      "noir-violet": "AAA",
+      "noir-yellow": "AAA"
+    },
+    "breakdown": [
+      {
+        "name": "Night",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      }
+    ]
+  },
+  "light": {
+    "level": "AA",
+    "minRatio": 5.45,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 10.06,
+      "worstPair": [
+        "surfaceVariantText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "AA",
+      "minRatio": 5.45,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 5.03,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "paper-amber": "AA",
+      "paper-blue": "AA",
+      "paper-cyan": "AA",
+      "paper-green": "AA",
+      "paper-indigo": "AA",
+      "paper-lime": "AA",
+      "paper-mono": "AAA",
+      "paper-orange": "AA",
+      "paper-pink": "AA",
+      "paper-red": "AA",
+      "paper-rose": "AA",
+      "paper-teal": "AA",
+      "paper-violet": "AA",
+      "paper-yellow": "AA"
+    },
+    "breakdown": [
+      {
+        "name": "Paper",
+        "mode": "light",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      }
+    ]
+  }
+}

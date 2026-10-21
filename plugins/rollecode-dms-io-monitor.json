@@ -1,0 +1,13 @@
+{
+    "id": "ioMonitor",
+    "name": "I/O Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/rollecode/dms-io-monitor",
+    "author": "Rolle Laukkarinen",
+    "description": "Live disk read and write throughput as an animated progress bar in your DankBar",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/rollecode/dms-io-monitor/main/Screenshot.png"
+}

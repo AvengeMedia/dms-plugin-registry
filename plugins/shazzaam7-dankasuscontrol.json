@@ -1,0 +1,13 @@
+{
+  "id": "dankAsusControlCenter",
+  "name": "Dank ASUS Control Center",
+  "capabilities": ["dankbar-widget"],
+  "category": "system",
+  "repo": "https://github.com/shazzaam7/DankAsusControl",
+  "author": "Shazzaam",
+  "description": "Manage Power Profiles and GPU Modes for ASUS Laptops directly from your DankBar.",
+  "dependencies": ["asusctl", "supergfxctl", "upower"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/shazzaam7/DankAsusControl/refs/heads/main/assets/popup.png"
+}

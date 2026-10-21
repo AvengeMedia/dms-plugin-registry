@@ -1,0 +1,13 @@
+{
+    "id": "dankHermes",
+    "name": "Dank Hermes",
+    "capabilities": ["ai-chat"],
+    "category": "utilities",
+    "repo": "https://github.com/huangkaile22-prog/dankhermes",
+    "author": "hkl",
+    "description": "AI chat sidebar powered by local Hermes agent.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/huangkaile22-prog/dankhermes/blob/main/screenshot-chat.png"
+}

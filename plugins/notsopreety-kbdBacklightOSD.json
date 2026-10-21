@@ -1,0 +1,13 @@
+{
+    "id": "kbdBacklightOSD",
+    "name": "Keyboard Backlight OSD",
+    "capabilities": ["daemon"],
+    "category": "system",
+    "repo": "https://github.com/notsopreety/kbdBacklightOSD",
+    "author": "Samir Badaila",
+    "description": "On-Screen Display popup and keyboard shortcut controls for laptop keyboard backlight brightness",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/notsopreety/kbdBacklightOSD/refs/heads/main/prev-image.png"
+}

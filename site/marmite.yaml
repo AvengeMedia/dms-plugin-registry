@@ -1,5 +1,5 @@
 name: DMS Plugin Registry
-tagline: Plugins for Dank Material Shell
+tagline: Plugins for Dux Shell
 url: ''
 https: null
 footer: <div>Powered by <a href="https://github.com/rochacbruno/marmite">Marmite</a></div>
@@ -32,9 +32,9 @@ menu:
 - - Categories
   - tags.html
 - - DMS
-  - https://github.com/AvengeMedia/DankMaterialShell
+  - https://github.com/duxlabs-dev/dux-shell
 - - Github
-  - https://github.com/AvengeMedia/dms-plugin-registry 
+  - https://github.com/duxlabs-dev/dux-plugin-registry 
 extra:
   colormode: dark
   colormodetoggle: true
@@ -50,10 +50,10 @@ authors:
       - ["Links", "https://bruno.rocha.social"]
   "Avenge Media":
     name: "Avenge Media (official)"
-    avatar: https://github.com/AvengeMedia.png
+    avatar: https://github.com/duxlabs-dev.png
     links:
-      - ["DMS", "https://github.com/AvengeMedia/DankMaterialShell"]
-      - ["DMS-Official-Plugins", "https://github.com/AvengeMedia/dms-plugins"]
+      - ["DMS", "https://github.com/duxlabs-dev/dux-shell"]
+      - ["DMS-Official-Plugins", "https://github.com/duxlabs-dev/dux-plugins"]
 streams: {}
 series: {}
 toc: false

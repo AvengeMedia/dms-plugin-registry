@@ -1,0 +1,14 @@
+{
+    "id": "mediaControlPlus",
+    "name": "Media Control Plus",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/Dadangdut33/dms-plugins",
+    "path": "MediaControlPlus",
+    "author": "Dadangdut33",
+    "description": "Customized version of DMS media widget with extended features that is mainly focused on improving vertical bar support",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/MediaControlPlus/preview/vertical.png"
+}

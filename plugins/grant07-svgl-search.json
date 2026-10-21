@@ -1,0 +1,13 @@
+{
+  "id": "svglSearch",
+  "name": "SVGL Search",
+  "capabilities": ["launcher"],
+  "category": "utilities",
+  "repo": "https://github.com/Grant07/dms-svgl-search",
+  "author": "Grant Mosha",
+  "description": "Search and copy SVGL brand logos directly from the DMS launcher",
+  "dependencies": ["wl-copy"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/Grant07/dms-svgl-search/main/assets/screenshot.png"
+}

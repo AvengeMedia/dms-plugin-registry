@@ -1,0 +1,14 @@
+{
+    "id": "niriWorkspaceBar",
+    "name": "Niri Workspace Bar",
+    "capabilities": ["dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/robwilkerson/dms-niri-workspace-bar",
+    "author": "Rob Wilkerson",
+    "description": "The focused niri workspace as a pill segmented to match its column count, plus a grouped switcher for every named workspace.",
+    "dependencies": [],
+    "compositors": ["niri"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/robwilkerson/dms-niri-workspace-bar/main/docs/screenshot.png",
+    "requires_dms": ">=1.4.0"
+}

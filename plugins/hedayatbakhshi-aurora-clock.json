@@ -1,0 +1,13 @@
+{
+    "id": "auroraClock",
+    "name": "Aurora Clock",
+    "capabilities": ["desktop-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/Hedayatbakhshi/dms-aurora-clock",
+    "author": "Hedayatullah",
+    "description": "A clean desktop clock widget with seconds, date, and optional 24-hour format.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Hedayatbakhshi/dms-aurora-clock/master/screenshot.png"
+}

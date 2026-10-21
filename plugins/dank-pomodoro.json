@@ -3,13 +3,13 @@
     "name": "Dank Pomodoro Timer",
     "capabilities": ["dankbar-widget"],
     "category": "utilities",
-    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "repo": "https://github.com/duxlabs-dev/dux-plugins",
     "path": "DankPomodoroTimer",
-    "author": "Avenge Media",
+    "author": "Dux Labs",
     "firstParty": true,
     "description": "A customizable Pomodoro timer.",
     "dependencies": [],
     "compositors": ["any"],
     "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-pomodoro.png"
+    "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugin-registry/master/assets/dank-pomodoro.png"
 }

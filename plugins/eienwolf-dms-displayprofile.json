@@ -1,0 +1,13 @@
+{
+    "id": "displayProfile",
+    "name": "Display Profile",
+    "capabilities": [],
+    "category": "utilities",
+    "repo": "https://github.com/EienWolf/dms-displayprofile",
+    "author": "EienWolf",
+    "description": "Switch between saved Hyprland display profiles from a keyboard-driven modal.",
+    "dependencies": [],
+    "compositors": ["hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/EienWolf/dms-displayprofile/refs/heads/master/screenshot.png"
+}

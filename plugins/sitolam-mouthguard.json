@@ -1,0 +1,14 @@
+{
+  "id": "mouthGuard",
+  "name": "MouthGuard",
+  "capabilities": ["daemon", "dankbar-widget", "control-center"],
+  "category": "monitoring",
+  "repo": "https://github.com/sitolam/dms-plugins",
+  "path": "plugins/mouthguard",
+  "author": "sitolam",
+  "description": "Webcam mouth-closure tracker with alerts and session stats",
+  "dependencies": ["python3", "python-opencv", "python-openvino"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/sitolam/dms-plugins/main/plugins/mouthguard/screenshots/popout.png"
+}

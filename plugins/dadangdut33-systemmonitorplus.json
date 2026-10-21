@@ -1,0 +1,14 @@
+{
+    "id": "systemMonitorPlus",
+    "name": "System Monitor Plus",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/Dadangdut33/dms-plugins",
+    "path": "SystemMonitorPlus",
+    "author": "Dadangdut33",
+    "description": "Unified DMS system monitor with capabilities to customize resources order, resource shown, colors, and new styles.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Dadangdut33/dms-plugins/master/SystemMonitorPlus/preview/preview.png"
+}

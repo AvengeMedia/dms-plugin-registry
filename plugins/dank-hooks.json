@@ -3,13 +3,13 @@
     "name": "Dank Hooks",
     "capabilities": ["watch-events"],
     "category": "utilities",
-    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "repo": "https://github.com/duxlabs-dev/dux-plugins",
     "path": "DankHooks",
-    "author": "Avenge Media",
+    "author": "Dux Labs",
     "firstParty": true,
     "description": "Trigger scripts based on various system events.",
     "dependencies": [],
     "compositors": ["any"],
     "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugin-registry/master/assets/dank-hooks.png"
+    "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugin-registry/master/assets/dank-hooks.png"
 }

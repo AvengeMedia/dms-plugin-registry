@@ -1,0 +1,201 @@
+{
+  "level": "fail",
+  "dark": {
+    "level": "fail",
+    "minRatio": 3.92,
+    "worstPair": [
+      "primaryText",
+      "primary"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 12.03,
+      "worstPair": [
+        "surfaceText",
+        "surfaceContainerHigh"
+      ]
+    },
+    "accent": {
+      "level": "fail",
+      "minRatio": 3.92,
+      "worstPair": [
+        "primaryText",
+        "primary"
+      ]
+    },
+    "nonText": {
+      "level": "fail",
+      "minRatio": 2.6,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "blue": "fail",
+      "green": "fail",
+      "orange": "fail",
+      "pink": "fail",
+      "purple": "fail",
+      "red": "fail",
+      "slate": "fail",
+      "teal": "fail",
+      "yellow": "fail"
+    },
+    "breakdown": [
+      {
+        "name": "Blue",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Teal",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Green",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Yellow",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Orange",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Red",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Pink",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Purple",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Slate",
+        "mode": "dark",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
+  },
+  "light": {
+    "level": "fail",
+    "minRatio": 3.47,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AAA",
+      "minRatio": 14.77,
+      "worstPair": [
+        "surfaceText",
+        "surfaceContainer"
+      ]
+    },
+    "accent": {
+      "level": "fail",
+      "minRatio": 3.47,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "fail",
+      "minRatio": 1.91,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "blue": "fail",
+      "green": "fail",
+      "orange": "fail",
+      "pink": "fail",
+      "purple": "fail",
+      "red": "fail",
+      "slate": "fail",
+      "teal": "fail",
+      "yellow": "fail"
+    },
+    "breakdown": [
+      {
+        "name": "Blue",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Teal",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Green",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Yellow",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Orange",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Red",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Pink",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Purple",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Slate",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      }
+    ]
+  }
+}

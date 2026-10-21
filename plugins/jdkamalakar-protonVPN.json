@@ -1,0 +1,32 @@
+{
+    "id": "protonVPN",
+    "name": "Proton VPN",
+    "description": "Proton VPN client using pVPN backend CLI.",
+    "category": "utilities",
+    "version": "1.0.0",
+    "author": "JDKamalakar",
+    "icon": "vpn_key",
+    "type": "widget",
+    "component": "./ProtonVPNWidget.qml",
+    "settings": "./ProtonVPNSettings.qml",
+    "capabilities": [
+        "dankbar-widget",
+        "control-center"
+    ],
+    "repo": "https://github.com/JDKamalakar/DMS-Proton_VPN",
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "dependencies": [
+        "pvpn"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Proton_VPN/refs/heads/main/assets/POP-Up_UI.png",
+    "permissions": [
+        "process",
+        "settings_read",
+        "settings_write"
+    ]
+}

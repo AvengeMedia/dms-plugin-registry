@@ -1,0 +1,14 @@
+{
+    "id": "aven",
+    "name": "Aven Tasks",
+    "capabilities": ["launcher"],
+    "category": "productivity",
+    "repo": "https://github.com/gtheys/dms-aven",
+    "author": "Geert Theys",
+    "description": "Quick-add tasks to the aven todo manager from DankLauncher. Pick a project from any aven workspace, or create one on the fly.",
+    "dependencies": ["aven"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/gtheys/dms-aven/main/screenshot.png",
+    "requires_dms": ">=1.2.0"
+}

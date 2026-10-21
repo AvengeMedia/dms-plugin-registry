@@ -1,0 +1,32 @@
+{
+    "id": "amdGpuMonitorRevive",
+    "name": "AMD GPU Monitor Revive",
+    "description": "Monitor AMD GPU usage, VRAM, temperature, power consumption and process usage with updated UI.",
+    "category": "monitoring",
+    "version": "1.2.0",
+    "author": "JDKamalakar.",
+    "icon": "dashboard",
+    "type": "widget",
+    "component": "./AmdGpuMonitorWidget.qml",
+    "settings": "./AmdGpuMonitorSettings.qml",
+    "capabilities": [
+        "dankbar-widget",
+        "monitoring"
+    ],
+    "repo": "https://github.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive",
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "dependencies": [
+        "amdgpu_top"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-AMD_GPU_Monitor_Revive/refs/heads/main/assets/DMS_Extended.png",
+    "permissions": [
+        "settings_read",
+        "settings_write",
+        "process"
+    ]
+}

@@ -1,0 +1,15 @@
+{
+    "id": "todoLauncher",
+    "name": "Todo",
+    "capabilities": ["launcher"],
+    "category": "productivity",
+    "repo": "https://github.com/iskepr/DankTodoLauncher",
+    "author": "Mohammed Skepr",
+    "description": "A simple todo list plugin to manage, track, and export your daily tasks directly from the launcher.",
+    "dependencies": [],
+    "compositors": ["any"],
+    "featured": true,
+    "distro": ["any"],
+    "screenshot": "https://github.com/iskepr/DankTodoLauncher/blob/main/screenshots/tasks.png?raw=true",
+    "requires_dms": ">=1.2.0"
+}

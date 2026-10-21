@@ -1,0 +1,33 @@
+{
+    "id": "quickCapture",
+    "name": "Quick Capture",
+    "capabilities": [
+        "daemon",
+        "control-center",
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/hthienloc/dms-plugins",
+    "author": "Loc Huynh",
+    "description": "Screenshot annotation and screen recording plugin.",
+    "requires_dms": ">=1.6.0",
+    "dependencies": [
+        "gpu-screen-recorder",
+        "wf-recorder",
+        "ffmpeg",
+        "imagemagick",
+        "img2pdf",
+        "tesseract",
+        "zbar",
+        "curl"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "i18n": true,
+    "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/quickCapture/screenshot.png",
+    "path": "quickCapture"
+}

@@ -1,0 +1,14 @@
+{
+    "id": "whisperer",
+    "name": "Whisperer",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/dwright134/dms-whisperer",
+    "path": "",
+    "author": "dwright134",
+    "description": "Voice dictation: records your voice, transcribes it locally with whisper.cpp, and types the result at the cursor. Optional cloud AI (OpenRouter / Gemini) transcribes and formats in one pass.",
+    "dependencies": ["pipewire", "ffmpeg", "wtype", "whisper.cpp", "libsecret"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/dwright134/dms-whisperer/main/docs/popout.png"
+}

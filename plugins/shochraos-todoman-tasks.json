@@ -1,0 +1,14 @@
+{
+    "id": "dankTodoman",
+    "name": "Todoman Tasks",
+    "capabilities": ["dankbar-widget"],
+    "category": "productivity",
+    "repo": "https://github.com/Shochraos/dms-todoman-plugin",
+    "author": "shochraos",
+    "description": "CalDAV tasks in the bar via todoman: list, complete, and create todos with a popout.",
+    "dependencies": ["todoman", "python3"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Shochraos/dms-todoman-plugin/main/screenshot.png",
+    "requires_dms": ">=1.5"
+}

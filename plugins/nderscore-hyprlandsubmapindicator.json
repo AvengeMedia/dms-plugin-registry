@@ -1,0 +1,14 @@
+{
+    "id": "hyprlandSubmapIndicator",
+    "name": "Hyprland Submap Indicator",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/nderscore/dms-plugins",
+    "path": "HyprlandSubmapIndicator",
+    "author": "_nderscore",
+    "description": "Shows a customizable indicator when a Hyprland submap is active",
+    "dependencies": [],
+    "compositors": ["hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/nderscore/dms-plugins/main/assets/HyprlandSubmapIndicator-screenshot.png"
+}

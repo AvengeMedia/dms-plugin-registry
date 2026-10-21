@@ -1,0 +1,117 @@
+{
+  "level": "AA",
+  "dark": {
+    "level": "AA",
+    "minRatio": 4.57,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AA",
+      "minRatio": 4.65,
+      "worstPair": [
+        "surfaceText",
+        "surfaceContainerHighest"
+      ]
+    },
+    "accent": {
+      "level": "AA",
+      "minRatio": 4.57,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 4.57,
+      "worstPair": [
+        "error",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "midnight-blue": "AAA",
+      "midnight-cyan": "AAA",
+      "midnight-green": "AAA",
+      "midnight-orange": "AAA",
+      "midnight-pink": "AA",
+      "midnight-purple": "AA",
+      "midnight-teal": "AAA",
+      "midnight-yellow": "AAA",
+      "nights-blue": "AA",
+      "nights-cyan": "AA",
+      "nights-green": "AA",
+      "nights-orange": "AA",
+      "nights-pink": "AA",
+      "nights-purple": "AA",
+      "nights-teal": "AA",
+      "nights-yellow": "AA"
+    },
+    "breakdown": [
+      {
+        "name": "Nights",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AA"
+      },
+      {
+        "name": "Midnight",
+        "mode": "dark",
+        "level": "AA",
+        "bodyLevel": "AAA"
+      }
+    ]
+  },
+  "light": {
+    "level": "AA",
+    "minRatio": 4.65,
+    "worstPair": [
+      "primary",
+      "surfaceContainer"
+    ],
+    "body": {
+      "level": "AA",
+      "minRatio": 5.25,
+      "worstPair": [
+        "surfaceText",
+        "surfaceContainerHighest"
+      ]
+    },
+    "accent": {
+      "level": "AA",
+      "minRatio": 4.65,
+      "worstPair": [
+        "primary",
+        "surfaceContainer"
+      ]
+    },
+    "nonText": {
+      "level": "AA",
+      "minRatio": 4.59,
+      "worstPair": [
+        "warning",
+        "surfaceContainer"
+      ]
+    },
+    "variants": {
+      "morning-blue": "AA",
+      "morning-cyan": "AA",
+      "morning-green": "AA",
+      "morning-orange": "AA",
+      "morning-pink": "AA",
+      "morning-purple": "AA",
+      "morning-teal": "AA",
+      "morning-yellow": "AA"
+    },
+    "breakdown": [
+      {
+        "name": "Morning",
+        "mode": "light",
+        "level": "AA",
+        "bodyLevel": "AA"
+      }
+    ]
+  }
+}

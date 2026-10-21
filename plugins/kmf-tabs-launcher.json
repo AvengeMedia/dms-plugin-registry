@@ -1,0 +1,14 @@
+{
+    "id": "tabsLauncher",
+    "name": "Browser Tabs Launcher",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/kmf/dms-tabs-launcher",
+    "author": "kmf",
+    "description": "List and activate open browser tabs from the DMS launcher via tabctl",
+    "dependencies": ["tabctl"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://github.com/kmf/dms-tabs-launcher/blob/main/screenshot.png?raw=true",
+    "requires_dms": ">=1.4.0"
+}

@@ -1,0 +1,13 @@
+{
+    "id": "ramMonitor",
+    "name": "RAM Monitor",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/rollecode/dms-ram-monitor",
+    "author": "Rolle Laukkarinen",
+    "description": "RAM usage as an animated progress bar in your DankBar, updated every second",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/rollecode/dms-ram-monitor/main/Screenshot.png"
+}

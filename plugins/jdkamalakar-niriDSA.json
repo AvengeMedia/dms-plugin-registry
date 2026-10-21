@@ -1,0 +1,32 @@
+{
+  "id": "niriDSA",
+  "name": "Niri Display Settings Advance",
+  "description": "Quickly toggle and configure display outputs in the Niri Wayland compositor",
+  "category": "utilities",
+  "version": "2.0.0",
+  "author": "JDKamalakar",
+  "icon": "computer",
+  "type": [
+    "widget",
+    "daemon"
+  ],
+  "component": "./NiriDisplaySettingsWidget.qml",
+  "settings": "./NiriDisplaySettings.qml",
+  "capabilities": [
+    "control-center",
+    "dankbar-widget"
+  ],
+  "repo": "https://github.com/jdkamalakar/DMS-Niri_Display_Settings",
+  "compositors": [
+    "niri"
+  ],
+  "distro": [
+    "any"
+  ],
+  "dependencies": [],
+  "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-Niri_Display_Settings/refs/heads/main/assets/Full-Screen_UI.png",
+  "permissions": [
+    "settings_read",
+    "settings_write"
+  ]
+}

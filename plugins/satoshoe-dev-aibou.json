@@ -1,0 +1,25 @@
+{
+    "id": "aibou",
+    "name": "Aibou",
+    "capabilities": [
+        "control-center"
+    ],
+    "category": "appearance",
+    "repo": "https://github.com/satoshoe-dev/aibou",
+    "path": "dms-plugin",
+    "author": "satoshoe",
+    "description": "Control Center tile and settings for Aibou, small companions that live behind your windows on niri and dance, climb and play. The companion itself is cloned and linked from the same repository; its README lists what it watches, what the optional chat sends, and the optional tools (claude, playerctl, cava, grim and others).",
+    "dependencies": [
+        "aibou",
+        "quickshell",
+        "python3"
+    ],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/satoshoe-dev/aibou/main/docs/screenshot.png",
+    "requires_dms": ">=1.6.1"
+}

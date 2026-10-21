@@ -1,0 +1,13 @@
+{
+  "id": "fdSearch",
+  "name": "Fd Search",
+  "capabilities": ["launcher"],
+  "category": "utilities",
+  "repo": "https://codeberg.org/massimopavoni/DankFdSearch",
+  "author": "Massimo Pavoni",
+  "description": "Search files using fd without indexing filesystem",
+  "dependencies": ["fd"],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://codeberg.org/massimopavoni/DankFdSearch/raw/branch/main/screenshot.png"
+}

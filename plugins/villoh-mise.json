@@ -1,0 +1,14 @@
+{
+    "id": "mise",
+    "name": "mise",
+    "capabilities": ["dankbar-widget", "launcher", "daemon", "ipc"],
+    "category": "utilities",
+    "repo": "https://github.com/Villoh/dms-mise",
+    "author": "Villoh",
+    "description": "Install, update, bump and remove mise tools from a DankBar widget, a keybind panel and the launcher.",
+    "dependencies": ["mise"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Villoh/dms-mise/main/preview/updates.png",
+    "requires_dms": ">=1.6.2"
+}

@@ -1,0 +1,14 @@
+{
+    "id": "recentFiles",
+    "name": "Recent Files",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/gouwazi/dms-recent-files",
+    "author": "Xianggang Wang",
+    "description": "Search recently opened XDG files directly from the DMS launcher",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/gouwazi/dms-recent-files/refs/heads/master/screenshot.png",
+    "requires_dms": ">=1.5.0"
+}

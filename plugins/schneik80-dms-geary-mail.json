@@ -1,0 +1,14 @@
+{
+    "id": "dankGearyMail",
+    "name": "Dank Geary Mail",
+    "capabilities": ["dankbar-widget"],
+    "category": "productivity",
+    "repo": "https://github.com/schneik80/dms-geary-mail",
+    "path": "plugin",
+    "author": "schneik80",
+    "description": "Unread mail counts for every account configured in Geary. Reads Geary's local database, so no IMAP credentials are needed. Bar badge plus a popout with per-account counts and recent unread messages.",
+    "dependencies": ["python3", "geary"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/schneik80/dms-geary-mail/main/assets/screenshot.png"
+}

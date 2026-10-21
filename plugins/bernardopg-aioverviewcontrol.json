@@ -1,0 +1,13 @@
+{
+    "id": "aiOverviewControl",
+    "name": "AiOverviewControl",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/bernardopg/AiOverviewControl",
+    "author": "Bernardo Gomes",
+    "description": "Quota, billing and usage for 37 AI providers, including Claude, Codex, Copilot and Gemini, from DankBar",
+    "dependencies": ["bash", "jq", "curl", "sqlite3", "flock", "secret-tool"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png"
+}

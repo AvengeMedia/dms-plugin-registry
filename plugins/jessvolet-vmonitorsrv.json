@@ -1,0 +1,24 @@
+{
+    "id": "vMonitorSRV",
+    "name": "VMonitorSRV",
+    "capabilities": [
+        "dankbar-widget",
+        "desktop-widget"
+    ],
+    "category": "system",
+    "repo": "https://github.com/JessVolet/VMonitorSRV",
+    "author": "JessVolet",
+    "description": "Monitor remote Linux servers running Glances: CPU, RAM, Btrfs subvolumes, network interfaces, and Podman containers.",
+    "dependencies": [
+        "python3",
+        "glances",
+        "glances-dotfiles"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/JessVolet/VMonitorSRV/main/screenshot.png"
+}

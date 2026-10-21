@@ -1,0 +1,14 @@
+{
+    "id": "dankMullvadVpn",
+    "name": "Dank Mullvad VPN",
+    "capabilities": ["dankbar-widget"],
+    "category": "system",
+    "repo": "https://github.com/bernardopg/dms-mullvad-vpn-plugin",
+    "author": "Bernardo Gomes",
+    "description": "The full Mullvad VPN CLI in your DankBar: live status, 88 typed forms for relays, DAITA, multihop, DNS and split tunneling, command preview and safe confirmations.",
+    "dependencies": ["mullvad-vpn", "python"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/bernardopg/dms-mullvad-vpn-plugin/main/assets/screenshot.png",
+    "requires_dms": ">=1.6.2"
+}

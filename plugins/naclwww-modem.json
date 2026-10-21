@@ -1,0 +1,25 @@
+{
+    "id": "modemManager",
+    "name": "Mobile Network",
+    "capabilities": [
+        "daemon",
+        "control-center"
+    ],
+    "category": "networking",
+    "repo": "https://github.com/NaClwww/dms-modem-plugin",
+    "author": "NaClwww",
+    "description": "Manage mobile broadband with NetworkManager: toggle the WWAN radio, view live modem, operator, and signal status, and create, edit, and activate APN profiles from the Control Center.",
+    "version": "0.2.0",
+    "icon": "signal_cellular_alt",
+    "dependencies": [
+        "nmcli",
+        "mmcli"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/NaClwww/dms-modem-plugin/main/assets/control-center.png"
+}

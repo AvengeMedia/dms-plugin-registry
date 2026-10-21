@@ -1,0 +1,14 @@
+{
+  "id": "hamqslPropagation",
+  "name": "HamQSL Propagation",
+  "capabilities": ["dankbar-widget", "ham-radio", "propagation"],
+  "category": "monitoring",
+  "repo": "https://github.com/devnullvoid/dms-hamqsl-propagation",
+  "author": "devnullvoid",
+  "description": "Display HamQSL solar-terrestrial and ham radio propagation data in DankBar with compact bar modes and a detailed popout",
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "requires_dms": ">=0.0.28",
+  "screenshot": "https://raw.githubusercontent.com/devnullvoid/dms-hamqsl-propagation/main/screenshot.svg"
+}

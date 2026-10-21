@@ -1,0 +1,13 @@
+{
+    "id": "dropdownMenu",
+    "name": "Dropdown Menu",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/rdannenbring/dropdown-menu",
+    "author": "rdannenbring",
+    "description": "Configurable bar button that opens a dropdown menu of actions, plugin toggles, popouts, and IPC commands",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/rdannenbring/dropdown-menu/main/assets/dropdown-menu.png"
+}

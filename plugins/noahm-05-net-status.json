@@ -1,0 +1,13 @@
+{
+    "id": "netStatus",
+    "name": "Network Status",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/noahm-05/dms-net-status",
+    "author": "Noah",
+    "description": "Shows your local machine IP, active VPN tunnel IP, and optional Tailscale IP in the bar. Right-click to cycle between them.",
+    "dependencies": ["iproute2"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/noahm-05/dms-net-status/main/screenshot.png"
+}
