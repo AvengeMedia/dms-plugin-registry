@@ -2922,12 +2922,12 @@
     "url": "https://github.com/coldi1337/DankChat"
   },
   "dankCleaner": {
-    "date": "2026-03-31T18:08:49+07:00",
+    "date": "2026-10-21T01:51:58+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-kbj7/tI7I773BYxA0X9u3Lkwc2JvKiJ7d4cofu+v00M=",
+    "hash": "sha256-+nRAHkljPw06qR8uZKfZs50540+3Nff1C6woHiugje0=",
     "leaveDotGit": false,
     "meta": {
       "author": "NordicsSys",
@@ -2958,10 +2958,10 @@
       "screenshot": "https://raw.githubusercontent.com/NordicsSys/dankCleaner/main/Cleanup.png",
       "version": "1.0.1"
     },
-    "path": "/nix/store/s865h7cx8yha8hrf6c40hdsnnaj4s6vi-dankCleaner",
-    "rev": "9c4fc0352b3dd8d7dec1866fd10348b9bc256233",
+    "path": "/nix/store/bhnwhbp5w2305qcag5z16q5gn7inaz5x-dankCleaner",
+    "rev": "bdf499182f39427ba0d720656e6fd131ddd57280",
     "rootDir": "",
-    "sha256": "0hykmzppwa47fxxj4akgc9rk1ffwdrzx2h4c0pvvw8rvsbzgpf4i",
+    "sha256": "1vcdl0miwa5c1gszfddp9zikk7dkv6kn8bhzm4x0sgv394g40x7s",
     "url": "https://github.com/NordicsSys/dankCleaner"
   },
   "dankClight": {
@@ -3979,12 +3979,12 @@
     "url": "https://github.com/duxlabs-dev/dux-plugins"
   },
   "dankStopwatch": {
-    "date": "2026-05-25T15:36:51+07:00",
+    "date": "2026-10-21T01:51:59+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-PuE65aisBVp+J7t5UYlc2B7uf4Ci+ScNX9iyo08xIVg=",
+    "hash": "sha256-j1Zqn1Yc/U2bSQXhZOww33Ks14F3S66jriWsYqah+Ug=",
     "leaveDotGit": false,
     "meta": {
       "author": "NordicsSys",
@@ -4007,19 +4007,19 @@
       "screenshot": "https://raw.githubusercontent.com/NordicsSys/dankStopwatch/main/screenshots/stopwatch-laps.png",
       "version": "1.0.0"
     },
-    "path": "/nix/store/fzsh3bnjcz5wgychq0rfn7pv77w148mh-dankStopwatch",
-    "rev": "76004b9f2f08da010a80096c5d48e6ef41390fdc",
+    "path": "/nix/store/qnllq4kbnb3xvpj698i0wy7hzcxfq03h-dankStopwatch",
+    "rev": "97c0350fb28e2b89f2f3456ddfd98f2791ebfe81",
     "rootDir": "",
-    "sha256": "0n11657s7cnqbw6jgyd2h1zyw7nqbj4m2ydv4xz5l1dcm3jkmq9y",
+    "sha256": "0j7rl6k65b15msiswjvph7bsqwnz63n69q8596dlvz8wasgnlmlg",
     "url": "https://github.com/NordicsSys/dankStopwatch"
   },
   "dankSystemDoctor": {
-    "date": "2026-03-17T01:52:02+07:00",
+    "date": "2026-10-21T01:51:54+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-N3cEZnNOqrfdLLEwkZ88XKUAGePKENCxx9NtnhuxFw4=",
+    "hash": "sha256-Ps6VnNNdCg7wZj9hdKuDmkChYxvW4pTZXoIpmFqZpvw=",
     "leaveDotGit": false,
     "meta": {
       "author": "noxius",
@@ -4052,10 +4052,10 @@
       "screenshot": "https://raw.githubusercontent.com/NordicsSys/DankSystemDoctor/main/screenshots/overview.png",
       "version": "1.1.0"
     },
-    "path": "/nix/store/cigcyhxdqyn7c4j3zmlfdl195mlmya1c-DankSystemDoctor",
-    "rev": "0b16dffef267eac553bfe602a7ba53279f43f422",
+    "path": "/nix/store/ay52rp7ai9mlsypscd2sbyv9bbaljcls-DankSystemDoctor",
+    "rev": "344b51e6ea130afea447de5847a8d6b6a07814ce",
     "rootDir": "",
-    "sha256": "03hpn4drwvfkqyqx046awcch19aw7jgr2c5i5kfvgajffdk08xrp",
+    "sha256": "1z56k5d9hac2bvcr9qnn3dis2h4shfmp8q9zcvq0w2jxsff9bkiy",
     "url": "https://github.com/NordicsSys/DankSystemDoctor"
   },
   "dankTimeLog": {
@@ -7087,12 +7087,12 @@
     "url": "https://github.com/hthienloc/dms-plugins"
   },
   "homeAssistantMonitor": {
-    "date": "2026-10-09T15:38:00+08:00",
+    "date": "2026-10-21T09:21:14+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-m0Av89F9B1n2CszvfhKonYTElpYN/+4TcbcLrTiDFCA=",
+    "hash": "sha256-c8H3v88gu9o7qU4Y4FgVH6wrZg2nbcng2JMvSmltilY=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -7117,12 +7117,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-      "version": "3.0.1"
+      "version": "3.0.2"
     },
-    "path": "/nix/store/d45lh82ph8kjd6alfrjkhb1zc3af7anf-dms-plugin-hass",
-    "rev": "7afa78e5ece6ff2932a8cf00b5677a4f557f4966",
+    "path": "/nix/store/hxl19dij5827q1zbpr7jaqv6viyc8nna-dms-plugin-hass",
+    "rev": "39ebda095091fd23977b6ee20b178707026a1a37",
     "rootDir": "",
-    "sha256": "080lhcwas2xpf49yxzqdjsbc914xm097xvyc1bv5j1vxs7rjyh4v",
+    "sha256": "0mladmlllbwkv3hcjvd71mk2pb0z2mcf062fm4xxmfr0ryzzghbk",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hoshiCalendar": {
@@ -11146,12 +11146,12 @@
     "url": "https://github.com/crowforkotlin/dms-screen-capture"
   },
   "screenCaptureToolbar": {
-    "date": "2026-09-07T23:58:22+05:30",
+    "date": "2026-10-20T23:20:29+05:30",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-4A6UVywB/R5O7rm/HV9LpBP7abXW/YlRJmubNlbmjUc=",
+    "hash": "sha256-sxzxpuM0QMCUOXSPNNUzbc11EEy2K34BwHWTXMOKvqQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "JDKamalakar",
@@ -11186,12 +11186,12 @@
       "screenshot": "https://raw.githubusercontent.com/JDKamalakar/DMS-ScreenCapture_Toolbar/refs/heads/main/assets/Screenshot_UI.png",
       "settings": "./Settings.qml",
       "type": "daemon",
-      "version": "2.4.0"
+      "version": "3.0.0"
     },
-    "path": "/nix/store/s014067f34q5q159iszkg2lbpi4fk4bk-DMS-ScreenCapture_Toolbar",
-    "rev": "332ea98c0fb2e2d26d55a0cda14c3c9b3cd28505",
+    "path": "/nix/store/kg2hcynfnf2sskaa0jj9w978mk85hw3n-DMS-ScreenCapture_Toolbar",
+    "rev": "99ac68a4f3aaba67e98482eab1817b476b2132c3",
     "rootDir": "",
-    "sha256": "0iwdwrb3d6vb4r8qkzfnnmlzn4x49dgivgxrxr71xz815ibr83p0",
+    "sha256": "195yib1mr4vmq00pwaxn9h87bkbd6gak93vl76ac0h1lwfkg275k",
     "url": "https://github.com/JDKamalakar/DMS-ScreenCapture_Toolbar"
   },
   "screenOff": {
@@ -12978,12 +12978,12 @@
     "url": "https://github.com/Th1nkK1D/dms-uptime-monitor"
   },
   "usbManager": {
-    "date": "2026-06-20T12:16:23+07:00",
+    "date": "2026-10-21T01:51:56+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-al6/8gFMcy3Vv4867SB7OUNqwCZ3n0ygweg5FvG1xPk=",
+    "hash": "sha256-X2s9DrKlPEHy9BUP5gt6fHoFIDGOP9XG+utFjOFaNm4=",
     "leaveDotGit": false,
     "meta": {
       "author": "NordicsSys",
@@ -13016,10 +13016,10 @@
       "screenshot": "https://raw.githubusercontent.com/NordicsSys/dms-usb-manager/main/assets/screenshot.png",
       "version": "1.2.0"
     },
-    "path": "/nix/store/w048qwv4a0mj0yqnv4dihblpfs1xrp73-dms-usb-manager",
-    "rev": "4dd61c1aa277a280fc05131342bc1cf3936a2a86",
+    "path": "/nix/store/6aivxx9ic1437p2g8b5r27isqnhh1da0-dms-usb-manager",
+    "rev": "483d97c108314b1cf0c5df62141517e79636d937",
     "rootDir": "",
-    "sha256": "1yf4npqicfg8q6h4r7vp4v06lhrrgchfsflgpzajswsc07rbypka",
+    "sha256": "0vinbbhqqigbzb3dagwf64h0aykwg85yc3qmykr42g55n873sssz",
     "url": "https://github.com/NordicsSys/dms-usb-manager"
   },
   "vMonitorSRV": {
