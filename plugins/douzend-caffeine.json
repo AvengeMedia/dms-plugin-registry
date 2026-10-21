@@ -1,0 +1,13 @@
+{
+  "id": "caffeine",
+  "name": "Caffeine",
+  "capabilities": ["dankbar-widget", "control-center"],
+  "category": "utilities",
+  "repo": "https://github.com/Douzend/dms-caffeine",
+  "author": "Douzend",
+  "description": "Keeps your screen awake with one click.",
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/Douzend/dms-caffeine/main/assets/screenshots/settings.png"
+}
