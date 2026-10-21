@@ -1,0 +1,21 @@
+{
+  "id": "keybindCheatsheet",
+  "name": "Keybind Cheatsheet",
+  "capabilities": [
+    "dankbar-widget",
+    "daemon",
+    "control-center"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/consciousY/dms-keybind-cheatsheet",
+  "author": "consciousY",
+  "description": "Quick access & popup for Hyprland and DMS keybind cheatsheet, settings, and hotkeys",
+  "dependencies": [],
+  "compositors": [
+    "hyprland",
+    "any"
+  ],
+  "distro": [
+    "any"
+  ]
+}
