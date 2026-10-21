@@ -9,7 +9,7 @@
     "category": "utilities",
     "repo": "https://github.com/Matheuscara/dayzWidgets",
     "path": "plugins/NordHub",
-    "description": "Configurable bar hub for native DMS tools, dgop performance metrics and weather. Custom tools use user-supplied IDs and argument arrays. Does not restyle the bar.",
+    "description": "Searchable user-defined tool menu with per-instance targets, alongside dgop metrics, current weather, MPRIS controls, monthly calendar, volume/brightness and native control-center, notification and power actions. Local cards avoid private dash imports; native controls alone remain available in the built-in dash.",
     "dependencies": [
         "dgop"
     ],
