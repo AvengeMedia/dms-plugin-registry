@@ -12,7 +12,10 @@
   "description": "Quick access & popup for DMS keybind cheatsheet, settings, and hotkey configuration",
   "dependencies": [],
   "compositors": [
-    "any"
+    "hyprland",
+    "niri",
+    "mangowc",
+    "aqueous"
   ],
   "distro": [
     "any"
