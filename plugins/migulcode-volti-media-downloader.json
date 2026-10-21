@@ -10,14 +10,14 @@
   "author": "Miguel",
   "description": "Advanced multimedia download and conversion suite for DankMaterialShell (yt-dlp, ffmpeg, gallery-dl)",
   "dependencies": [
+    "python3",
+    "python-gobject",
     "yt-dlp",
     "ffmpeg",
     "gallery-dl",
     "nodejs"
   ],
   "compositors": [
-    "hyprland",
-    "niri",
     "any"
   ],
   "distro": [
