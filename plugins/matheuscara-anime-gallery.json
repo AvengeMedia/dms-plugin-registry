@@ -9,7 +9,7 @@
     "category": "appearance",
     "repo": "https://github.com/Matheuscara/dayzWidgets",
     "path": "plugins/AnimeGallery",
-    "description": "Local image gallery with click navigation; images are supplied by the user.",
+    "description": "Local image gallery with automatic folder discovery, optional JSON manifest and click navigation. Opens the image folder using the default application; no wallpaper plugin required.",
     "dependencies": [],
     "compositors": [
         "niri"

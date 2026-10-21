@@ -9,7 +9,7 @@
     "category": "utilities",
     "repo": "https://github.com/Matheuscara/dayzWidgets",
     "path": "plugins/NordHub",
-    "description": "Bar hub for tools, system performance and weather.",
+    "description": "Configurable bar hub for native DMS tools, dgop performance metrics and weather. Custom tools use user-supplied IDs and argument arrays. Does not restyle the bar.",
     "dependencies": [
         "dgop"
     ],

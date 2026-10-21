@@ -9,7 +9,7 @@
     "category": "appearance",
     "repo": "https://github.com/Matheuscara/dayzWidgets",
     "path": "plugins/QuietClock",
-    "description": "Digital desktop clock with date and an analog dial.",
+    "description": "Local desktop clock combining digital time, date and a width-adaptive analog dial in one card.",
     "dependencies": [],
     "compositors": [
         "niri"

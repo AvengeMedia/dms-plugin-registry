@@ -9,7 +9,7 @@
     "category": "utilities",
     "repo": "https://github.com/Matheuscara/dayzWidgets",
     "path": "plugins/CommandShelf",
-    "description": "Search and copy a local command catalog without executing the discovered commands.",
+    "description": "Search and copy aliases, local scripts and SSH host commands without executing them. Keyboard shortcuts are optional user-provided JSON; no compositor bindings are assumed.",
     "dependencies": [
         "python3"
     ],
