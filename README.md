@@ -4109,36 +4109,6 @@ The full Mullvad VPN CLI in your DankBar: live status, 88 typed forms for relays
 
 
 
-#### [Dank Software Depot](https://github.com/vinceecniv/DankSoftwareDepot)
-
-Software & updates center: rich update cards with release notes, app store for system repos/Flathub/AppImage with ratings and reviews, installed-software management, firmware updates and an action log. Fedora first; Debian/Ubuntu and Arch experimental.
-
-<strong>requires DMS version</strong>: <em>>=1.6.0</em>
-
-- id: dankSoftwareDepot
-- name: Dank Software Depot
-- author: Vincent Blok
-- compositors: any
-- capabilities: dankbar-widget
-- dependencies: python3, python3-gobject, flatpak, python3-libdnf5 (Fedora), python3-apt (Debian/Ubuntu), pyalpm (Arch)
-- distro: fedora, debian, ubuntu, arch
-
-
-
-
-
-
-<details>
-<summary>Screenshot</summary>
-
-![screenshot](https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png)
-
-</details>
-
-
-
-
-
 #### [Dank System Doctor](https://github.com/NordicsSys/DankSystemDoctor)
 
 AI-powered system health monitor. Tracks CPU, RAM, disk, GPU & temp; detects pending updates (apt/dnf/pacman/brew); one-click maintenance and snapshot guardrails; Ollama diagnostics with triage playbooks.
@@ -4317,6 +4287,36 @@ DankBar widget for selecting DMS output profiles.
 <summary>Screenshot</summary>
 
 ![screenshot](https://raw.githubusercontent.com/jankelemen/dank-display-profile-manager/master/assets/screenshot.png)
+
+</details>
+
+
+
+
+
+#### [Dux Software Depot](https://github.com/vinceecniv/DuxSoftwareDepot)
+
+Software & updates center: rich update cards with release notes, app store for system repos/Flathub/AppImage with ratings and reviews, installed-software management, firmware updates and an action log. Fedora first; Debian/Ubuntu and Arch experimental.
+
+<strong>requires DMS version</strong>: <em>>=1.6.0</em>
+
+- id: dankSoftwareDepot
+- name: Dux Software Depot
+- author: Vincent Blok
+- compositors: any
+- capabilities: dankbar-widget
+- dependencies: python3, python3-gobject, flatpak, python3-libdnf5 (Fedora), python3-apt (Debian/Ubuntu), pyalpm (Arch)
+- distro: fedora, debian, ubuntu, arch
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/vinceecniv/DuxSoftwareDepot/main/screenshot.png)
 
 </details>
 
