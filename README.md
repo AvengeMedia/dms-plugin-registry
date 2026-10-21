@@ -11131,7 +11131,7 @@ Running apps grouped by workspace with per-workspace pills
 - id: unifiedTaskbar
 - name: Unified Taskbar
 - author: Joshua Landau
-- compositors: any
+- compositors: niri, hyprland, sway
 - capabilities: dankbar-widget
 - dependencies: 
 - distro: any
