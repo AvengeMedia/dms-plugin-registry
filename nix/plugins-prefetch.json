@@ -230,12 +230,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-10-21T23:25:41-03:00",
+    "date": "2026-10-22T00:06:12-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-1FugXKqWRnW6Us2wX2WDj4bSLXQg0tbpyGMttTksFK8=",
+    "hash": "sha256-pWSjHiWgxnWDOPJRFCay12ZshsYZR762mTyPnacL9co=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -262,12 +262,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "1.22.0"
+      "version": "2.0.0"
     },
-    "path": "/nix/store/vi132wg8i4h0f442abqhw0hjxjkyrx8k-AiOverviewControl",
-    "rev": "e3a887b1a803fcca765dc37facfc062ca6554630",
+    "path": "/nix/store/74z0brg7d1y27ffwlnnffrjqzlh44aih-AiOverviewControl",
+    "rev": "033858188ffa87ef167e325f691e49db7730a3dd",
     "rootDir": "",
-    "sha256": "1bql5hwvabb3r3lxdli0fhnx51lghdjmzc6daax7ailnm9fa0nyl",
+    "sha256": "1jpm1fkrv3rwk6vbwiqrqs36qrnpn8k18lgj721pbim04lga6r55",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
@@ -8324,12 +8324,12 @@
     "url": "https://github.com/Rocho-EL-Locho/dms-mail-checker"
   },
   "mailReader": {
-    "date": "2026-09-28T10:57:07+08:00",
+    "date": "2026-10-22T13:58:08+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-WPAp6au0YWMfJNg48a83LzHlVZpYzqMnQErDzPvxzvE=",
+    "hash": "sha256-uXrWxFDiEfOxnMoc/11PbNiiO5Qoa6HFqlYcyYodMAM=",
     "leaveDotGit": false,
     "meta": {
       "author": "youngshine",
@@ -8352,12 +8352,12 @@
       "name": "Mail Reader",
       "repo": "https://github.com/smithyyang/dms-mail-reader",
       "screenshot": "https://raw.githubusercontent.com/smithyyang/dms-mail-reader/main/assets/screenshot.png",
-      "version": "1.3.0"
+      "version": "1.3.1"
     },
-    "path": "/nix/store/537hnzdw56v6bhwhsrhm6q6p9fhxvhdf-dms-mail-reader",
-    "rev": "7c97aaf7a7ea81a7378b65b8a6576f944ac9846b",
+    "path": "/nix/store/dw4ps9jcbz2ja83rchndm351s8czz289-dms-mail-reader",
+    "rev": "f9f964f4e5f52fefc9415f0efdfee7a176003220",
     "rootDir": "",
-    "sha256": "1wffy7xwrhsa80ks7kjqk9ayac9g6ypz2f6q4hgn6qdlmgljkw2q",
+    "sha256": "00rh3n5cj72nmb2s2sr8jhxs5n3c9xfzy76akjqz64g2a32dcymr",
     "url": "https://github.com/smithyyang/dms-mail-reader"
   },
   "mangoWmLayoutManager": {
@@ -10288,6 +10288,40 @@
     "rootDir": "",
     "sha256": "0h3xdni9rjz2w89yabrs3ggsb2m3lhc9ygspva4qrp78g47kfdls",
     "url": "https://github.com/gemb0-0/Personal-Dictionary"
+  },
+  "pinyinAppSearch": {
+    "date": "2026-10-22T11:52:54+08:00",
+    "deepClone": false,
+    "fetchLFS": false,
+    "fetchSubmodules": false,
+    "fetchTags": false,
+    "hash": "sha256-qWGMV6CUQtD5LZ76+Jomw+0/9jrnu3jX1U82Y0omKOA=",
+    "leaveDotGit": false,
+    "meta": {
+      "author": "DonKongPaPa",
+      "capabilities": [
+        "launcher"
+      ],
+      "category": "utilities",
+      "compositors": [
+        "any"
+      ],
+      "dependencies": [],
+      "description": "Search Chinese-named apps by pinyin or initials (jsq -> \u8ba1\u7b97\u5668) using a runtime index, without modifying any .desktop file",
+      "distro": [
+        "any"
+      ],
+      "id": "pinyinAppSearch",
+      "name": "Pinyin App Search",
+      "repo": "https://github.com/DonKongPaPa/dms-plugin-pinyin-app-search",
+      "screenshot": "https://raw.githubusercontent.com/DonKongPaPa/dms-plugin-pinyin-app-search/main/assets/js-search.png",
+      "version": "1.0.1"
+    },
+    "path": "/nix/store/yjpgx1vxng6p581ajxns4pv1d0k22k73-dms-plugin-pinyin-app-search",
+    "rev": "50da56c0da2723735a4ad2339ed3d3c23080511b",
+    "rootDir": "",
+    "sha256": "1q184r566djgspbpifz77bv3zvf34sdgiyly5pwx0hlll1bqqqd9",
+    "url": "https://github.com/DonKongPaPa/dms-plugin-pinyin-app-search"
   },
   "pokeDash": {
     "date": "2026-08-02T21:09:34+05:30",
