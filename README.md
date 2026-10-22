@@ -9777,6 +9777,36 @@ Control connected devices via KDE Connect or Valent - view battery, send files, 
 
 
 
+#### [Pinyin App Search](https://github.com/DonKongPaPa/dms-plugin-pinyin-app-search)
+
+Search Chinese-named apps by pinyin or initials (jsq -> 计算器) using a runtime index, without modifying any .desktop file
+
+
+
+- id: pinyinAppSearch
+- name: Pinyin App Search
+- author: DonKongPaPa
+- compositors: any
+- capabilities: launcher
+- dependencies: 
+- distro: any
+
+
+
+
+
+
+<details>
+<summary>Screenshot</summary>
+
+![screenshot](https://raw.githubusercontent.com/DonKongPaPa/dms-plugin-pinyin-app-search/main/assets/js-search.png)
+
+</details>
+
+
+
+
+
 #### [PokeDash](https://github.com/samgrande/PokeDash)
 
 Pick your favorite pokemon, plop it on your desktop, and watch it idle menacingly (or adorably) while you actually get work done.
