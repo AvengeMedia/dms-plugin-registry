@@ -1,0 +1,14 @@
+{
+    "id": "ckeys",
+    "name": "C-Key",
+    "capabilities": ["daemon"],
+    "category": "utilities",
+    "repo": "https://github.com/mcloving-exe/C-Key",
+    "author": "mcloving-exe",
+    "description": "A compact touch bar with a numpad and brightness/volume sliders. Appears while a shortcut is held and types into the focused app; the touchpad acts as the bar itself.",
+    "dependencies": ["wtype"],
+    "compositors": ["niri"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/mcloving-exe/C-Key/main/screenshot.png",
+    "requires_dms": ">=1.6.0"
+}
