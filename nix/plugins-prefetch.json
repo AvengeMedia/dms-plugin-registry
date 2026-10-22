@@ -2531,12 +2531,12 @@
     "url": "https://github.com/heyitsmikey128/DankCustomRunningApps"
   },
   "dankAIUsage": {
-    "date": "2026-10-19T14:12:17+02:00",
+    "date": "2026-10-22T12:15:02+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-IEb2iwOK23V67ajqD53bZV4x+MZ2n9GZX1wOi2OsPwU=",
+    "hash": "sha256-DmMKHQ+1pWOvwcAW126SiMr/+4ug2Feo/s997P/uPmc=",
     "leaveDotGit": false,
     "meta": {
       "author": "alcxyz",
@@ -2560,12 +2560,12 @@
       "name": "AI Usage",
       "repo": "https://github.com/alcxyz/DankAIUsage",
       "screenshot": "https://raw.githubusercontent.com/alcxyz/DankAIUsage/main/docs/screenshot.png",
-      "version": "1.4.0"
+      "version": "1.4.1"
     },
-    "path": "/nix/store/43fskl51pw17a2ijlf0ryb2vs0hbzc6r-DankAIUsage",
-    "rev": "3a53af35fa0c93e89f76309271ae150163ab207e",
+    "path": "/nix/store/9fc9ycikjxb3k06a7j3hmgy28lrz3j6f-DankAIUsage",
+    "rev": "3180a7e7ae3ec911473d24b0614993541b064ed7",
     "rootDir": "",
-    "sha256": "019zmiiqn3jwbycx37vnqvw32pk5vffhzsm8xmx7bnwa0f5zcii0",
+    "sha256": "0rryxvzyqzfgzsl5gn50igxzzjl8j9pdf5n0q6pn79dm1wfhlqqf",
     "url": "https://github.com/alcxyz/DankAIUsage"
   },
   "dankActions": {
@@ -9080,12 +9080,12 @@
     "url": "https://github.com/gasiyu/dms-plugin-musiclyrics"
   },
   "musicTheme": {
-    "date": "2026-09-30T10:10:06-03:00",
+    "date": "2026-10-22T11:38:25-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9n8piZwg3uhGQJnLgm/BrZR8Kysht9RpSw+a+VIRCxg=",
+    "hash": "sha256-hrc8eVwulpPcZg8LJXLK7ip2AujzKekdpN5bSObnngE=",
     "leaveDotGit": false,
     "meta": {
       "author": "felipeadeildo",
@@ -9105,12 +9105,12 @@
       "name": "Music Theme",
       "repo": "https://github.com/felipeadeildo/dms-music-theme",
       "screenshot": "https://raw.githubusercontent.com/felipeadeildo/dms-music-theme/main/assets/screenshot.png",
-      "version": "2.0.0"
+      "version": "3.0.0"
     },
-    "path": "/nix/store/82mbh13c5aws6v08km8nri6rl706cmmw-dms-music-theme",
-    "rev": "f882b6636de05f057d4810e27a465958e6ccf722",
+    "path": "/nix/store/wi6a9zk9h2vzbabr8a2vyl45rhq35vsw-dms-music-theme",
+    "rev": "70a916991118f2727c36c688478b990c1ea64d46",
     "rootDir": "",
-    "sha256": "060b259gk6hg9dlx9dr15cmpr55dq5pq5jwr813fipi0kj4jjzzn",
+    "sha256": "00cywzk4hnyylhfyjagkx017capfr9r2a2qgcvf975ifbiwkrdw6",
     "url": "https://github.com/felipeadeildo/dms-music-theme"
   },
   "nepaliCalendar": {
@@ -10290,12 +10290,12 @@
     "url": "https://github.com/gemb0-0/Personal-Dictionary"
   },
   "pinyinAppSearch": {
-    "date": "2026-10-22T11:52:54+08:00",
+    "date": "2026-10-22T14:13:41+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-qWGMV6CUQtD5LZ76+Jomw+0/9jrnu3jX1U82Y0omKOA=",
+    "hash": "sha256-NAljW97V71TddIBN5NCSTSF68RHjVCLDxKXeydZVX3w=",
     "leaveDotGit": false,
     "meta": {
       "author": "DonKongPaPa",
@@ -10317,10 +10317,10 @@
       "screenshot": "https://raw.githubusercontent.com/DonKongPaPa/dms-plugin-pinyin-app-search/main/assets/js-search.png",
       "version": "1.0.1"
     },
-    "path": "/nix/store/yjpgx1vxng6p581ajxns4pv1d0k22k73-dms-plugin-pinyin-app-search",
-    "rev": "50da56c0da2723735a4ad2339ed3d3c23080511b",
+    "path": "/nix/store/v9fj3alc69n7zl29p35wc601fw54diwq-dms-plugin-pinyin-app-search",
+    "rev": "0e97232ccd7b1f159d06def36889cd443cb75b26",
     "rootDir": "",
-    "sha256": "1q184r566djgspbpifz77bv3zvf34sdgiyly5pwx0hlll1bqqqd9",
+    "sha256": "0z2zapbckpm5qk1j4m7327qpl8adjb8f8kc0fkfm9vymvrdn629l",
     "url": "https://github.com/DonKongPaPa/dms-plugin-pinyin-app-search"
   },
   "pokeDash": {
@@ -13098,12 +13098,12 @@
     "url": "https://github.com/JessVolet/VMonitorSRV"
   },
   "virtManager": {
-    "date": "2026-10-05T08:54:12+02:00",
+    "date": "2026-10-22T11:19:24+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-B23g+sDtkf3YtX+jqdTKKiI3Qnjr2Aib//qdFoBw1EQ=",
+    "hash": "sha256-/UWaGTUmHkvZNRMeo2VsyFfNz7IQtmmezZGqBNuCpvQ=",
     "leaveDotGit": false,
     "meta": {
       "author": "solax76",
@@ -13127,12 +13127,12 @@
       "repo": "https://github.com/solax76/DmsVirtualManager",
       "requires_dms": ">=1.2.0",
       "screenshot": "https://raw.githubusercontent.com/solax76/DmsVirtualManager/main/assets/screen2.jpeg",
-      "version": "1.0.1"
+      "version": "1.0.2"
     },
-    "path": "/nix/store/6bblkimhhq1mkyk7wnq0vp939qd9yhg9-DmsVirtualManager",
-    "rev": "92a41ca1ee9c7665365d82210c16e75ed50c8a75",
+    "path": "/nix/store/02rw63ajl0a468457wijrairpjj13pj3-DmsVirtualManager",
+    "rev": "ddb6cdccb4d6c437f8cb3fd2e55a82468af5a3ad",
     "rootDir": "",
-    "sha256": "0i6lf201d7gszydhin7bg113f8iarbaak8vznpcgv4gdq3xf0v87",
+    "sha256": "1x56hbdh9alirng6kdhhnb7wsmy8dijs67hk6pcln7i66lcrligx",
     "url": "https://github.com/solax76/DmsVirtualManager"
   },
   "virtualKeyboard": {
@@ -13596,12 +13596,12 @@
     "url": "https://github.com/alicercedigital/wallhaven-carousel"
   },
   "wallpaperBing": {
-    "date": "2026-10-07T11:43:29+02:00",
+    "date": "2026-10-22T10:48:30+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-6rx25BgAKms4Mq0XSYRHSGyooTSzEedlp1BsyOzjLfk=",
+    "hash": "sha256-nTy7hYlw+uGrzTOaUrNOp/AzAjkNhcXPFo9Lc4m3G2k=",
     "leaveDotGit": false,
     "meta": {
       "author": "maxb",
@@ -13626,12 +13626,12 @@
       "name": "Wallpaper of the Day",
       "repo": "https://github.com/max72bra/DankPluginBingWallpaper",
       "screenshot": "https://raw.githubusercontent.com/max72bra/DankPluginBingWallpaper/refs/heads/main/screenshot.png",
-      "version": "1.5.4"
+      "version": "1.5.5"
     },
-    "path": "/nix/store/dl1i6hjma77lalkkx8nhnj6l4j65zfmd-DankPluginBingWallpaper",
-    "rev": "0e511fdbe27a9882e0f744834f6ed038b44c23f1",
+    "path": "/nix/store/0gl6vmn0xf7r4jd39kxpdn3nnihp21x2-DankPluginBingWallpaper",
+    "rev": "2c604c00e6ae4cda1cf92808186889ce2d69da21",
     "rootDir": "",
-    "sha256": "1y9dwgnchv2hlxjyf4dk6jhshv288y24j5xd68w6nah033j7dg7a",
+    "sha256": "0s8vny4p6jwg2v7wb18d74137w579srm56ikrnmy3ykhi62vng4x",
     "url": "https://github.com/max72bra/DankPluginBingWallpaper"
   },
   "wallpaperBingWidget": {
