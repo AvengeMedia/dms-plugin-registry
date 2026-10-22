@@ -1,0 +1,13 @@
+{
+    "id": "pinyinAppSearch",
+    "name": "Pinyin App Search",
+    "capabilities": ["launcher"],
+    "category": "utilities",
+    "repo": "https://github.com/DonKongPaPa/dms-plugin-pinyin-app-search",
+    "author": "DonKongPaPa",
+    "description": "Search Chinese-named apps by pinyin or initials (jsq -> 计算器) using a runtime index, without modifying any .desktop file",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/DonKongPaPa/dms-plugin-pinyin-app-search/main/assets/js-search.png"
+}
