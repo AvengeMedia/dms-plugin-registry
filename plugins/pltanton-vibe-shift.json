@@ -9,5 +9,6 @@
     "dependencies": ["systemd", "glib"],
     "compositors": ["any"],
     "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/pltanton/dms-vibe-shift/master/screenshots/popout.png"
+    "screenshot": "https://raw.githubusercontent.com/pltanton/dms-vibe-shift/master/screenshots/popout.png",
+    "requires_dms": ">=2.0.0"
 }
