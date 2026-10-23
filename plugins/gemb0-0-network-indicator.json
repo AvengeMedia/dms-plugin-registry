@@ -5,8 +5,9 @@
     "category": "monitoring",
     "repo": "https://github.com/gemb0-0/Network-Indicator.git",
     "author": "gemb0_0",
-    "description": "Real-time network speed monitor for DankBar showing upload and download speeds",
-    "dependencies": [],
+    "description": "Real-time network speed monitor for DankBar showing upload/download speeds and 30-day per-network data usage. By default checks internet connectivity every 20s (5s when offline) via NetworkManager or HTTP requests to connectivitycheck.gstatic.com / nmcheck.gnome.org; can be disabled in settings.",
+    "dependencies": ["curl", "iproute2"],
+    "requires_dms": ">=1.4.6",
     "compositors": ["any"],
     "distro": ["any"],
     "screenshot": "https://raw.githubusercontent.com/gemb0-0/Network-Indicator/refs/heads/main/screenshot.png"
