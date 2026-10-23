@@ -7087,12 +7087,12 @@
     "url": "https://github.com/hthienloc/dms-plugins"
   },
   "homeAssistantMonitor": {
-    "date": "2026-10-21T14:47:37+08:00",
+    "date": "2026-10-23T11:42:42+08:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-LweJ+ccXtoG+P27ZI0rAaTacyz/w6pQSQov6eQMIjrM=",
+    "hash": "sha256-07XV3MonPdXgh4gR+t99FFOdpeXbfpy9S0tvDqfv1WU=",
     "leaveDotGit": false,
     "meta": {
       "author": "xxyangyoulin",
@@ -7117,12 +7117,12 @@
       "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
       "requires_dms": ">=1.4.0",
       "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-      "version": "3.1.0"
+      "version": "3.1.1"
     },
-    "path": "/nix/store/pp8j2gv3l6f558syl7j173kaqjwcahan-dms-plugin-hass",
-    "rev": "60593eccfad53d987e3520d8c040d6f8a1c31acd",
+    "path": "/nix/store/5fcsn4g3rr4fz1xxkvlnv9nfzq1l9hir-dms-plugin-hass",
+    "rev": "4668ac76fb61e119286e1b2e4cf2d8221ff3171f",
     "rootDir": "",
-    "sha256": "1cwf101pkylb88999sph7z5rqdk9q1527nbf7yz83dhpqzwqj1rg",
+    "sha256": "0rfmxykhwvsb9fyrqznvwnjrslqlgpgzl4c8hzhdag97rbfdbdfk",
     "url": "https://github.com/xxyangyoulin/dms-plugin-hass"
   },
   "hoshiCalendar": {
@@ -11031,12 +11031,12 @@
     "url": "https://github.com/lucianosrp/DmsRogControl"
   },
   "roon": {
-    "date": "2026-09-06T18:44:19+09:00",
+    "date": "2026-10-23T15:14:33+09:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-9evh1E6MQjTv7OuTzZRw1nnU72tMleBkaKxwB/7NN1g=",
+    "hash": "sha256-VqGubGTx+1TQ6lrEznk3TEoActBMddE8G779sLGsMNg=",
     "leaveDotGit": false,
     "meta": {
       "author": "Noa Himesaka",
@@ -11045,7 +11045,9 @@
         "control-center",
         "launcher",
         "desktop-widget",
-        "daemon"
+        "daemon",
+        "dash-tab",
+        "dash-card"
       ],
       "category": "media",
       "compositors": [
@@ -11054,21 +11056,21 @@
       "dependencies": [
         "node"
       ],
-      "description": "Roon zone control from the bar: now playing, seek, volume, queue, library browser and zones, launcher search, desktop now-playing card, and an MPRIS bridge for media keys",
+      "description": "Roon zone control from the bar: now playing, seek, volume, queue, library browser and zones, launcher search, desktop now-playing card, dashboard tab and card, Roon lyrics, and an MPRIS bridge for media keys",
       "distro": [
         "any"
       ],
       "id": "roon",
       "name": "Roon",
       "repo": "https://github.com/NoaHimesaka1873/dms-plugin-roon",
-      "requires_dms": ">=1.5.0",
+      "requires_dms": ">=2.0.0",
       "screenshot": "https://raw.githubusercontent.com/NoaHimesaka1873/dms-plugin-roon/refs/heads/senpai/screenshots/popout.png",
-      "version": "0.1.0"
+      "version": "0.2.0"
     },
-    "path": "/nix/store/ihwddnjzac5jccav5bsd8xnw5slw3nhd-dms-plugin-roon",
-    "rev": "042fff4b6e91c809b961d4c2ff67f0c347bcf796",
+    "path": "/nix/store/6mx3xgmi60w5w0skwsqfyrj5cif4w1c0-dms-plugin-roon",
+    "rev": "aee5fa7b796ebfeb7a7204fb5fbbbf2609017f0d",
     "rootDir": "",
-    "sha256": "0n1prpz0fw5cd1jf15acdgpx8yfnf2acv4zbxkpk8hlc9vaf3szm",
+    "sha256": "1n1hmjqv1zdy3cyd2xacs1r00jjc6xwwxi2sxb859yzicinax8an",
     "url": "https://github.com/NoaHimesaka1873/dms-plugin-roon"
   },
   "sathiAi": {
