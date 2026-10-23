@@ -230,12 +230,12 @@
     "url": "https://github.com/devnullvoid/dms-ai-assistant"
   },
   "aiOverviewControl": {
-    "date": "2026-10-22T00:06:12-03:00",
+    "date": "2026-10-22T23:25:05-03:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-pWSjHiWgxnWDOPJRFCay12ZshsYZR762mTyPnacL9co=",
+    "hash": "sha256-rGD36VZHpD0YSl0OqNnfsuJwPPj7ylBrpEJdvZNHkhM=",
     "leaveDotGit": false,
     "meta": {
       "author": "Bernardo Gomes",
@@ -262,12 +262,12 @@
       "name": "AiOverviewControl",
       "repo": "https://github.com/bernardopg/AiOverviewControl",
       "screenshot": "https://raw.githubusercontent.com/bernardopg/AiOverviewControl/main/screenshot.png",
-      "version": "2.0.0"
+      "version": "2.0.1"
     },
-    "path": "/nix/store/74z0brg7d1y27ffwlnnffrjqzlh44aih-AiOverviewControl",
-    "rev": "033858188ffa87ef167e325f691e49db7730a3dd",
+    "path": "/nix/store/25lqhcb8661yy11xwwdfsnbs6jrxf2n9-AiOverviewControl",
+    "rev": "e2d1a6dd732e138c85d4122807602b329ab7dc5d",
     "rootDir": "",
-    "sha256": "1jpm1fkrv3rwk6vbwiqrqs36qrnpn8k18lgj721pbim04lga6r55",
+    "sha256": "04wj8y9vspa2limm1jpvz0y71qmjvzcsh3jx98c3v927avlzfq5c",
     "url": "https://github.com/bernardopg/AiOverviewControl"
   },
   "aiQuotas": {
@@ -9293,12 +9293,12 @@
     "url": "https://github.com/arcatva/dms-next-boot-selector"
   },
   "nexusAi": {
-    "date": "2026-10-17T16:08:29+02:00",
+    "date": "2026-10-22T21:42:05+02:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-NGwej4iPwsImk2gEyJS/Fkj4VLNk5HVtpILQtXof/MY=",
+    "hash": "sha256-ZSgOsysrORWASsSJOB4VGAh+itqqYw3GR5OX7oQT4p0=",
     "leaveDotGit": false,
     "meta": {
       "author": "myNicole98",
@@ -9320,12 +9320,12 @@
       "name": "Nexus AI",
       "repo": "https://github.com/myNicole98/NexusAI-DMS",
       "screenshot": "https://github.com/myNicole98/NexusAI-DMS/blob/main/resources/attachments/preview.png",
-      "version": "3.0.5"
+      "version": "3.0.7"
     },
-    "path": "/nix/store/bbdwl15k67vzr89zzi86ba3dkg0wphjc-NexusAI-DMS",
-    "rev": "1233676796720f20564a3988207a830b7855a6f1",
+    "path": "/nix/store/jnq2ph959jjz51dvpzj9yi72mp6f422r-NexusAI-DMS",
+    "rev": "944319d9295c1996538fd82cbe5b972099164fdd",
     "rootDir": "",
-    "sha256": "1ipw3xxbbl42linpbr34ndaghj0npyach138jckc5hlgi27iwv1l",
+    "sha256": "17g22f2fx5wk8z30sqxava57w20q2lg3i2f49a01af9b5frhwa35",
     "url": "https://github.com/myNicole98/NexusAI-DMS"
   },
   "nightModeControl": {
@@ -13779,12 +13779,12 @@
     "url": "https://github.com/lucyfire/dms-plugins"
   },
   "wallpaperEngineControl": {
-    "date": "2026-09-29T20:44:27-07:00",
+    "date": "2026-10-22T08:57:05-07:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-Ily4LbzJ3axrKR3oQg4XrYZnm5xQKKqtFP5iIhvvll4=",
+    "hash": "sha256-qDaq8cWoTq833reYJyVzUUakITlZpfI9ZLGkCctIJLY=",
     "leaveDotGit": false,
     "meta": {
       "author": "Gary Wei",
@@ -13810,10 +13810,10 @@
       "screenshot": "https://raw.githubusercontent.com/garywei944/dms-wallpaper-engine-control/main/screenshot.png",
       "version": "2.0.0"
     },
-    "path": "/nix/store/7kfh32rhbm8b5mzpzk7rxnf1kllk45fy-dms-wallpaper-engine-control",
-    "rev": "2ac31ce938e123d16b01f348a54a32d45629a913",
+    "path": "/nix/store/bd3hjpyidn7wkvdhnybbwan54n5m1bg8-dms-wallpaper-engine-control",
+    "rev": "3fb189d9d3bc8cac2230d43e220b38abc31d37a0",
     "rootDir": "",
-    "sha256": "0plnxwdj4qpy2jnsla2hkjdng1md2w745s0x55msrpf9phnvhp12",
+    "sha256": "1di4935hk95ichyz59ar74hs8ijifcjjg65pvqvsykm8qpqsldm8",
     "url": "https://github.com/garywei944/dms-wallpaper-engine-control"
   },
   "warpToggle": {
