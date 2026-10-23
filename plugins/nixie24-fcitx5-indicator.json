@@ -1,0 +1,22 @@
+{
+    "id": "fcitx5Indicator",
+    "name": "Fcitx5 Indicator",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "system",
+    "repo": "https://github.com/Nixie24/dux-plugin-fcitx5-indicator",
+    "author": "Nixie24",
+    "description": "Shows the active Fcitx5 input method as a language icon in DankBar",
+    "dependencies": [
+        "fcitx5-remote",
+        "busctl"
+    ],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Nixie24/dux-plugin-fcitx5-indicator/main/screenshot.png"
+}
