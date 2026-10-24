@@ -1,0 +1,34 @@
+{
+    "id": "dankFiles",
+    "name": "Dank Files",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/is-suzart/dank-files",
+    "author": "Igor Suzart",
+    "description": "Browse, organize and preview files in a standalone window integrated with Dank Material Shell.",
+    "dependencies": [
+        "nodejs",
+        "quickshell",
+        "python",
+        "python-gobject",
+        "gtk4",
+        "glib2",
+        "libarchive",
+        "qt6-declarative",
+        "qt6-webengine (provides QtQuick.Pdf on Arch)",
+        "qt6-multimedia",
+        "udisks2",
+        "xdg-utils",
+        "ffmpegthumbnailer (optional, video thumbnails)"
+    ],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "arch"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/is-suzart/dank-files/main/assets/preview.png",
+    "requires_dms": ">=1.6.3"
+}
