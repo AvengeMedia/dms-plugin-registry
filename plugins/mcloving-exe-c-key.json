@@ -1,0 +1,14 @@
+{
+    "id": "ckeys",
+    "name": "C-Key",
+    "capabilities": ["daemon"],
+    "category": "utilities",
+    "repo": "https://github.com/mcloving-exe/C-Key",
+    "author": "mcloving-exe",
+    "description": "A compact touch bar with a numpad and brightness/volume sliders. Appears while a shortcut is held and types into the focused app. The touchpad-as-bar mode needs the ckeys-hold root service installed separately with sudo (it reads all input devices), plus xdotool and a C compiler; DMS installs only the QML.",
+    "dependencies": ["wtype", "xdotool"],
+    "compositors": ["niri"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/mcloving-exe/C-Key/main/screenshot.png",
+    "requires_dms": ">=1.6.0"
+}
