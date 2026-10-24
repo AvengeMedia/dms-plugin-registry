@@ -1,0 +1,21 @@
+{
+    "id": "animeGallery",
+    "name": "Galeria de imagens",
+    "capabilities": [
+        "desktop-widget"
+    ],
+    "author": "Matheuscara",
+    "requires_dms": ">=1.4.6",
+    "category": "appearance",
+    "repo": "https://github.com/Matheuscara/dayzWidgets",
+    "path": "plugins/AnimeGallery",
+    "description": "Local image collection browser with automatic folder discovery, click-to-advance and an optional ordered manifest. Related registry entry: Media Frame (picture display); this variant focuses on navigating a collection. Opens folders with the default application.",
+    "dependencies": [],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Matheuscara/dayzWidgets/main/docs/previews/gallery.png"
+}

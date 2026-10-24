@@ -1,0 +1,23 @@
+{
+    "id": "commandShelf",
+    "name": "Meus Comandos",
+    "capabilities": [
+        "desktop-widget"
+    ],
+    "author": "Matheuscara",
+    "requires_dms": ">=1.4.6",
+    "category": "utilities",
+    "repo": "https://github.com/Matheuscara/dayzWidgets",
+    "path": "plugins/CommandShelf",
+    "description": "Search and copy aliases, local scripts and SSH host commands without executing them. Keyboard shortcuts are optional user-provided JSON; no compositor bindings are assumed.",
+    "dependencies": [
+        "python3"
+    ],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Matheuscara/dayzWidgets/main/docs/previews/commands.png"
+}

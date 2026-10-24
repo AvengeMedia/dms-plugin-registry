@@ -1,0 +1,23 @@
+{
+    "id": "nordHub",
+    "name": "Nord Hub",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "author": "Matheuscara",
+    "requires_dms": ">=1.4.6",
+    "category": "utilities",
+    "repo": "https://github.com/Matheuscara/dayzWidgets",
+    "path": "plugins/NordHub",
+    "description": "Searchable user-defined tool menu with per-instance targets, alongside dgop metrics, current weather, MPRIS controls, monthly calendar, volume/brightness and native control-center, notification and power actions. Local cards avoid private dash imports; native controls alone remain available in the built-in dash.",
+    "dependencies": [
+        "dgop"
+    ],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Matheuscara/dayzWidgets/main/docs/previews/hub.png"
+}
