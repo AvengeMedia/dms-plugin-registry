@@ -1,113 +1,236 @@
 {
   "id": "poimandres",
   "name": "Poimandres",
-  "version": "2.0.0",
+  "version": "2.1.0",
   "author": "aryas",
   "description": "Blue & teal theme inspired by https://github.com/drcmda/poimandres-theme",
-  "dark": {
-    "name": "Poimandres",
-    "secondary": "#5DE4C7",
-    "surface": "#1B1E28",
-    "surfaceVariant": "#1E213A",
-    "surfaceVariantText": "#FFFFFF",
-    "surfaceTint": "#add7ff",
-    "outline": "#3C5170",
-    "surfaceContainerLowest": "#0F1018",
-    "surfaceContainerLow": "#151824",
-    
-    "surfaceContainerHighest": "#303340",
-    "error": "#F087BD",
-    "warning": "#FFFAC2",
-    "info": "#add7ff",
-    "matugen_type": "scheme-tonal-spot"
-  },
-  "light": {
-    "name": "Poimandres Light",
-    "surface": "#E3F0FD",
-    "surfaceVariant": "#E4F0FB",
-    "surfaceVariantText": "#2A3142",
-    "surfaceTint": "#14AFEC",
-    "outline": "#087C91",
-    "surfaceContainerLowest": "#FFFFFF",
-    "surfaceContainerLow": "#F2F7FC",
-    
-    "surfaceContainerHighest": "#CFE0F2",
-    "error": "#CE0056",
-    "warning": "#8A000B",
-    "info": "#00677F",
-    "matugen_type": "scheme-tonal-spot"
+  "dark": {},
+  "light": {},
+  "variants": {
+    "type": "multi",
+    "defaults": {
+      "dark": {
+        "flavor": "m3e",
+        "accent": "green"
+      },
+      "light": {
+        "flavor": "m3e-light",
+        "accent": "green"
+      }
     },
-  "variants":{
-    "default": "normal",
-    "options":[
+    "flavors": [
       {
-        "id": "colorful", 
-        "name": "Colorful",
+        "id": "m3e",
+        "name": "M3E",
         "dark": {
-          "primary": "#89DDFF",
-          "primaryContainer": "#5DE4C7",
-          "onPrimaryContainer": "#0D5547",
-          "surfaceText": "#E2F8FF",
-          "primaryText": "#1a162e",
-          "secondary":"#FFFAC2",
-          "secondaryContainer": "#FFFAC2",
-          "onSecondaryContainer":"#796D00",
-          "tertiary": "#F087BD",
-          "tertiaryContainer": "#F087BD",
-          "onTertiaryContainer": "#6B284B",
-          "surfaceContainer": "#0D121F",
-          "surfaceContainerHigh": "#10142C",
-          "background": "#0D0E1A",
+          "surface": "#1B1E28",
+          "surfaceVariant": "#1E213A",
+          "surfaceVariantText": "#FFFFFF",
+          "surfaceTint": "#add7ff",
+          "outline": "#3C5170",
+          "surfaceContainerLowest": "#0F1018",
+          "surfaceContainerLow": "#151824",
+          "surfaceContainerHighest": "#303340",
+          "error": "#F087BD",
+          "warning": "#FFFAC2",
+          "info": "#add7ff",
+          "surfaceText": "#E4F0FB",
+          "surfaceContainerHigh": "#222436",
+          "background": "#0F1018",
+          "surfaceContainer": "#171D2E",
           "backgroundText": "#E4F0FB"
-          
-        },
-        "light":{
-          "primary": "#00B1A2",
-          "primaryText": "#FFFFFF",
-          "primaryContainer": "#01BBAB",
-          "onPrimaryContainer": "#00443E",
-          "surfaceText": "#1B212E",
-          "secondary":"#FFFAC2",
-          "secondaryContainer": "#FFFAC2",
-          "onSecondaryContainer":"#A79707",
-          "tertiary":"#F087BD",
-          "onTertiaryContainer": "#6B284B",
-          "surfaceContainer": "#E0FCFC",
-          "surfaceContainerHigh": "#D3FCFC",
-          "background": "#DBFBFF",
-          "backgroundText": "#131B2C"
         }
       },
-      { 
-        "id": "normal", 
-        "name": "Normal",
-        "dark":{
-          "primary": "#89DDFF",
-          "primaryContainer": "#161A2E",
-          "onPrimaryContainer": "#5DE4C7",
-          "primaryText": "#1B212E",
-          "secondary": "#5DE4C7",
-          "surfaceText": "#E4F0FB",
-          "surfaceContainerHigh": "#1F2130",
-          "background": "#0F1018",
-          "surfaceContainer": "#1B1E28",
-          "backgroundText": "#E4F0FB"
-        },
-        "light":{
-          "primary": "#00B1A2",
-          "primaryText": "#FFFFFF",
-          "primaryContainer": "#B0DAE8",
-          "onPrimaryContainer": "#11222E",
+      {
+        "id": "m3e-light",
+        "name": "M3E Light",
+        "light": {
+          "surface": "#E3F0FD",
+          "surfaceVariant": "#E4F0FB",
+          "surfaceVariantText": "#2A3142",
+          "surfaceTint": "#14AFEC",
+          "outline": "#087C91",
+          "surfaceContainerLowest": "#FFFFFF",
+          "surfaceContainerLow": "#F2F7FC",
+          "surfaceContainerHighest": "#CFE0F2",
+          "error": "#CE0056",
+          "warning": "#8A000B",
+          "info": "#00677F",
           "surfaceText": "#1B212E",
-          "secondary": "#00A194",
           "surfaceContainer": "#E8FAFF",
           "surfaceContainerHigh": "#E0F1FF",
           "background": "#FFFFFF",
           "backgroundText": "#1B212E"
         }
+      },
+      {
+        "id": "colorful",
+        "name": "Colorful",
+        "dark": {
+          "surface": "#1B1E28",
+          "surfaceVariant": "#1E213A",
+          "surfaceVariantText": "#FFFFFF",
+          "surfaceTint": "#add7ff",
+          "outline": "#3C5170",
+          "surfaceContainerLowest": "#0F1018",
+          "surfaceContainerLow": "#151824",
+          "surfaceContainerHighest": "#303340",
+          "error": "#F087BD",
+          "warning": "#FFFAC2",
+          "info": "#add7ff",
+          "surfaceContainer": "#0D121F",
+          "surfaceContainerHigh": "#10142C",
+          "background": "#0D0E1A",
+          "backgroundText": "#E4F0FB"
+        }
+      },
+      {
+        "id": "colorful-light",
+        "name": "Colorful Light",
+        "light": {
+          "surface": "#E3F0FD",
+          "surfaceVariant": "#E4F0FB",
+          "surfaceVariantText": "#2A3142",
+          "surfaceTint": "#14AFEC",
+          "outline": "#087C91",
+          "surfaceContainerLowest": "#FFFFFF",
+          "surfaceContainerLow": "#F2F7FC",
+          "surfaceContainerHighest": "#CFE0F2",
+          "error": "#CE0056",
+          "warning": "#8A000B",
+          "info": "#00677F",
+          "surfaceContainer": "#E0FCFC",
+          "surfaceContainerHigh": "#D3FCFC",
+          "background": "#DBFBFF",
+          "backgroundText": "#131B2C"
+        }
+      }
+    ],
+    "accents": [
+      {
+        "id": "default",
+        "name": "Default",
+        "colorful": {
+          "primary": "#89DDFF",
+          "softPrimaryContainer": "#5DE4C7",
+          "onPrimaryContainer": "#0D5547",
+          "surfaceText": "#E2F8FF",
+          "primaryText": "#1a162e",
+          "secondary": "#FFFAC2",
+          "secondaryContainer": "#FFFAC2",
+          "onSecondaryContainer": "#A79707",
+          "tertiary": "#F087BD",
+          "tertiaryContainer": "#F087BD",
+          "onTertiaryContainer": "#6B284B"
+        },
+         "colorful-light": {
+          "primary": "#0081A8",
+          "softPrimaryContainer": "#01BBAB",
+          "onPrimaryContainer": "#00443E",
+          "primaryText": "#FFFFFF",
+          "surfaceText": "#1B212E",
+          "secondary": "#FFFAC2",
+          "secondaryContainer": "#FFFAC2",
+          "onSecondaryContainer": "#A79707",
+          "tertiary": "#FA73B9",
+          "onTertiaryContainer": "#6B284B"
+        },
+        "m3e": {
+          "primary": "#FFFAC2",
+          "primaryText": "#1B212E",
+          "secondary": "#89DDFF"
+        },
+        "m3e-light": {
+          "primary": "#FFFAC2",
+          "primaryText": "#FFFFFF",
+          "secondary": "#0081A8"
+        }
+      },
+      {
+        "id": "red",
+        "name": "Red",
+        "colorful": {
+          "primary": "#F087BD",
+          "softPrimaryContainer": "#F087BD",
+          "onPrimaryContainer": "#6B284B",
+          "surfaceText": "#E2F8FF",
+          "primaryText": "#1a162e",
+          "tertiary": "#FFFAC2",
+          "tertiaryContainer": "#FFFAC2",
+          "onTertiaryContainer": "#A79707",
+          "secondary": "#89DDFF",
+          "secondaryContainer": "#5DE4C7",
+          "onSecondaryContainer": "#0D5547"
+        },
+        "colorful-light": {
+          "primary": "#F087BD",
+          "softPrimaryContainer": "#F087BD",
+          "onPrimaryContainer": "#6B284B",
+          "primaryText": "#FFFFFF",
+          "surfaceText": "#1B212E",
+          "secondary": "#0081A8",
+          "secondaryContainer": "#01BBAB",
+          "onSecondaryContainer": "#00443E",
+          "tertiary": "#FFFAC2",
+          "tertiaryContainer": "#FFFAC2",
+          "onTertiaryContainer": "#A79707"
+        },
+        "m3e": {
+          "primary": "#F087BD",
+          "primaryText": "#1B212E",
+          "secondary": "#5DE4C7"
+        },
+        "m3e-light": {
+          "primary": "#F087BD",
+          "primaryText": "#FFFFFF",
+          "secondary": "#00A194",
+          "tertiary": "#0081A8"
+        }
+      },
+      {
+        "id": "green",
+        "name": "Green",
+        "colorful": {
+          "primary": "#5DE4C7",
+          "softPrimaryContainer": "#5DE4C7",
+          "onPrimaryContainer": "#0D5547",
+          "surfaceText": "#E2F8FF",
+          "primaryText": "#1a162e",
+          "secondary": "#FFFAC2",
+          "secondaryContainer": "#FFFAC2",
+          "onSecondaryContainer": "#A79707",
+          "tertiary": "#F087BD",
+          "tertiaryContainer": "#F087BD",
+          "onTertiaryContainer": "#6B284B"
+        },
+        "colorful-light": {
+          "primary": "#4FB8A1",
+          "softPrimaryContainer": "#4FB8A1",
+          "onPrimaryContainer": "#083D32",
+          "primaryText": "#FFFFFF",
+          "surfaceText": "#1B212E",
+          "secondary": "#0081A8",
+          "secondaryContainer": "#FFFAC2",
+          "onSecondaryContainer": "#A79707",
+          "tertiary": "#F087BD",
+          "tertiaryContainer": "#F087BD",
+          "onTertiaryContainer": "#6B284B"
+        },
+        "m3e": {
+          "primary": "#5DE4C7",
+          "softPrimaryContainer": "#154549",
+          "onPrimaryContainer": "#DDFDF6",
+          "primaryText": "#1B212E",
+          "secondary": "#89DDFF"
+        },
+        "m3e-light": {
+          "primary": "#00A194",
+          "primaryText": "#FFFFFF",
+          "softPrimaryContainer": "#B0E8DC",
+          "onPrimaryContainer": "#103D32",
+          "secondary": "#0081A8"
+        }
       }
     ]
   }
-
-
-} 
+}
