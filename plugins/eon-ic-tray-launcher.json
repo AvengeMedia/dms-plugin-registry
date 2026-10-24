@@ -1,0 +1,25 @@
+{
+  "id": "trayLauncher",
+  "name": "Tray Launcher",
+  "capabilities": [
+    "launcher"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/eon-ic/dms-plugin-trayLauncher",
+  "author": "eon-ic",
+  "description": "Search and launch system tray applications with fuzzy ID matching and customizable aliases.",
+  "dependencies": [],
+ "compositors": [
+  "niri",
+  "hyprland",
+  "sway",
+  "mangowc",
+  "labwc",
+  "scroll",
+  "miracle"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://github.com/eon-ic/dms-plugin-trayLauncher/blob/main/view_screenshot.png"
+}
