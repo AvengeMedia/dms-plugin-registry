@@ -1,0 +1,21 @@
+{
+    "id": "hoshiCalendar",
+    "name": "Hoshi Calendar",
+    "capabilities": [
+        "dankbar-widget",
+        "desktop-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/TheDoukiDrift/hoshiCalendar",
+    "author": "TheDoukiDrift",
+    "description": "Read-only .ics calendar for the bar and desktop: local files and http(s)/webcal feeds, month grid, event markers and agenda. No backend or credentials.",
+    "dependencies": [],
+    "compositors": [
+        "any"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/TheDoukiDrift/hoshiCalendar/main/img/bar-widget.png",
+    "requires_dms": ">=1.6.0"
+}

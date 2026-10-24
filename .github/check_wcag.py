@@ -18,7 +18,7 @@ AAA_RATIO = 7.0
 
 # Pairs mirror what DMS/quickshell actually renders: bars, popouts, and modals
 # fill with surfaceContainer, nested cards with surfaceContainerHigh (see
-# DankMaterialShell Common/Theme.qml nestedSurface), window bases with surface.
+# Dux Shell Common/Theme.qml nestedSurface), window bases with surface.
 # Body covers the text read constantly; accent covers primary, which DMS draws
 # as bar text (Clock widget) and as filled button labels.
 BODY_PAIRS = [

@@ -9,7 +9,11 @@
     "author": "Loc Huynh",
     "description": "Display public IP address, ISP, and location with a privacy-focused toggle.",
     "dependencies": [
-        "curl"
+        "curl",
+        "iproute2",
+        "iputils",
+        "libnotify",
+        "wl-clipboard"
     ],
     "compositors": [
         "any"
@@ -18,5 +22,6 @@
         "any"
     ],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ipIndicator/screenshot.png",
-    "path": "ipIndicator"
+    "path": "ipIndicator",
+    "requires_dms": ">=1.5.0"
 }

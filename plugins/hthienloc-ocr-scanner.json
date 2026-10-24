@@ -9,7 +9,10 @@
     "author": "Loc Huynh",
     "description": "Extract text from clipboard images or local files using Tesseract OCR.",
     "dependencies": [
-        "tesseract"
+        "tesseract",
+        "wl-clipboard",
+        "file",
+        "curl"
     ],
     "compositors": [
         "any"
@@ -18,5 +21,6 @@
         "any"
     ],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/ocrScanner/screenshot.png",
-    "path": "ocrScanner"
+    "path": "ocrScanner",
+    "requires_dms": ">=1.5.0"
 }

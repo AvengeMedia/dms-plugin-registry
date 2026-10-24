@@ -8,7 +8,7 @@ Add the registry as a flake input:
 ```nix
 {
   inputs = {
-    dms-plugin-registry.url = "github:AvengeMedia/dms-plugin-registry";
+    dms-plugin-registry.url = "github:duxlabs-dev/dux-plugin-registry";
     dms-plugin-registry.inputs.nixpkgs.follows = "nixpkgs";
   };
 }
@@ -27,7 +27,7 @@ Fetch this project with `fetchTarball` then import the module.
 ```nix
 { pkgs, ... }:
 let
-  dms-plugin-registry = builtins.fetchTarball "https://github.com/AvengeMedia/dms-plugin-registry/archive/main.tar.gz";
+  dms-plugin-registry = builtins.fetchTarball "https://github.com/duxlabs-dev/dux-plugin-registry/archive/main.tar.gz";
 
   # Only needed if installing packages manually without NixOS/HM module
   dms-plugin-registry-pkgs = import "${dms-plugin-registry}/nix" { inherit pkgs; };
@@ -45,7 +45,7 @@ import the NixOS or Home Manager module which will add all plugins disabled by d
 Then to use a plugin it just needs to be enabled.
 
 The attribute name for plugins are determined by the `id` property in the plugin registry.
-The `id` is the last portion of the url of the "Install" button in the [plugin store](https://danklinux.com/plugins).
+The `id` is the last portion of the url of the "Install" button in the [plugin store](https://duxlabs.dev/plugins).
 For example, the url for the "DankBatteryAlerts" plugin is `dms://plugin/install/dankBatteryAlerts`, so the id is `dankBatteryAlerts`.
 
 

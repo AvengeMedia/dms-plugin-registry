@@ -16,5 +16,6 @@
     "distro": [
         "any"
     ],
-    "screenshot": "https://raw.githubusercontent.com/pcmid/dms-screenshot-plus/main/screenshots/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/pcmid/dms-screenshot-plus/main/screenshots/screenshot.png",
+    "requires_dms": ">=1.6.0"
 }

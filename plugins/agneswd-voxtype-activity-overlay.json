@@ -7,7 +7,7 @@
   "category": "utilities",
   "repo": "https://github.com/agneswd/dms-voxtype-activity-overlay",
   "author": "agneswd",
-  "description": "Live microphone activity overlay while VoxType is recording. Shows a Cava audio visualizer pill and final transcript bubble.",
+  "description": "Live microphone activity overlay while VoxType is recording. Shows a Cava audio visualizer pill and final transcript bubble. Requires manual setup.sh, which installs the Cava config and edits VoxType's config.toml for transcript capture.",
   "dependencies": [
     "voxtype",
     "cava"

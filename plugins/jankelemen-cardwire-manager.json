@@ -9,5 +9,6 @@
     "dependencies": ["cardwire"],
     "compositors": ["any"],
     "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/jankelemen/cardwire-manager/master/assets/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/jankelemen/cardwire-manager/master/assets/screenshot.png",
+    "requires_dms": ">=1.6.2"
 }

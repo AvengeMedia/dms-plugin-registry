@@ -2,7 +2,8 @@
     "id": "timer",
     "name": "Timer",
     "capabilities": [
-        "dankbar-widget"
+        "dankbar-widget",
+        "ipc"
     ],
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-plugins",
@@ -10,7 +11,8 @@
     "description": "A countdown timer with notification support and audio alerts.",
     "dependencies": [
         "libnotify",
-        "pulseaudio"
+        "pulseaudio",
+        "systemd"
     ],
     "compositors": [
         "any"
@@ -19,5 +21,6 @@
         "any"
     ],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/timer/screenshot.png",
-    "path": "timer"
+    "path": "timer",
+    "requires_dms": ">=1.5.0"
 }

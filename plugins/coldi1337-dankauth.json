@@ -1,0 +1,23 @@
+{
+  "id": "enteAuth",
+  "name": "DankAuth",
+  "capabilities": [
+    "dankbar-widget",
+    "daemon",
+    "ipc"
+  ],
+  "author": "coldi1337",
+  "description": "Ente Auth for DMS: native codes, pins and tags that follow your desktop theme.",
+  "dependencies": [
+    "node"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/coldi1337/DankAuth",
+  "compositors": [
+    "hyprland"
+  ],
+  "distro": [
+    "arch"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/coldi1337/DankAuth/main/preview/preview-en.png"
+}

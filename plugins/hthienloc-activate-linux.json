@@ -16,5 +16,6 @@
         "any"
     ],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/activateLinux/screenshot.png",
-    "path": "activateLinux"
+    "path": "activateLinux",
+    "requires_dms": ">=1.5.0"
 }

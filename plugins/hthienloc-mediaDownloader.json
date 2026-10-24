@@ -2,7 +2,8 @@
     "id": "mediaDownloader",
     "name": "Media Downloader",
     "capabilities": [
-        "dankbar-widget"
+        "dankbar-widget",
+        "ipc"
     ],
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-plugins",
@@ -19,5 +20,6 @@
         "any"
     ],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/mediaDownloader/screenshot.png",
-    "path": "mediaDownloader"
+    "path": "mediaDownloader",
+    "requires_dms": ">=1.5.0"
 }

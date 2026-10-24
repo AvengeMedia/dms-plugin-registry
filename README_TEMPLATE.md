@@ -1,8 +1,8 @@
-# Dank Material Shell Plugins
+# Dux Shell Plugins
 
-This repository contains a collection of plugins for [Dank Material Shell](https://github.com/AvengeMedia/DankMaterialShell)
+This repository contains a collection of plugins for [Dux Shell](https://github.com/duxlabs-dev/dux-shell)
 
-[https://plugins.danklinux.com/](https://plugins.danklinux.com/)
+[https://plugins.duxlabs.dev/](https://plugins.duxlabs.dev/)
 
 ## Contributing
 
@@ -20,7 +20,7 @@ On your teminal run `dms` then navigate to the **plugins** option or run `dms pl
 
 ### Manually
 
-Clone the plugin repository into your `~/.config/DankMaterialShell/plugins/` folder and restart your dms session with `dms restart`. NOTE: Some plugins may have additional dependencies that need to be installed manually, please refer to the plugin documentation for more information, some plugins are part of a monorepo and need to be installed by copying the relevant path to the plugins folder.
+Clone the plugin repository into your `~/.config/dms/plugins/` folder and restart your dms session with `dms restart`. NOTE: Some plugins may have additional dependencies that need to be installed manually, please refer to the plugin documentation for more information, some plugins are part of a monorepo and need to be installed by copying the relevant path to the plugins folder.
 
 ### With Nix
 
@@ -28,7 +28,7 @@ Follow the [Nix usage documentation](/nix/README.md)
 
 ## Disclaimer
 
-Some plugins are created by third-party developers and are not officially supported by the Dank Material Shell team. Use them at your own risk. In case of issues, please contact the plugin author directly.
+Some plugins are created by third-party developers and are not officially supported by the Dux Shell team. Use them at your own risk. In case of issues, please contact the plugin author directly.
 
 ## Plugins
 
@@ -60,7 +60,7 @@ Some plugins are created by third-party developers and are not officially suppor
 {% if plugin.path %}
 
 > [!NOTE]
-> This plugin is part of a monorepo, please copy the contents of the [{{ plugin.path }}]({{ plugin.repo }}/tree/main/{{ plugin.path }}) folder to your `~/.config/DankMaterialShell/plugins/` folder.
+> This plugin is part of a monorepo, please copy the contents of the [{{ plugin.path }}]({{ plugin.repo }}/tree/main/{{ plugin.path }}) folder to your `~/.config/dms/plugins/` folder.
 
 {% endif %}
 

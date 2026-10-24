@@ -6,10 +6,10 @@
   "repo": "https://github.com/xxyangyoulin/dms-plugin-hass",
   "author": "xxyangyoulin",
   "description": "Monitor and display Home Assistant entity states in your status bar",
-  "dependencies": ["curl"],
-  "compositors": ["hyprland"],
+  "dependencies": ["qt6-websockets"],
+  "compositors": ["any"],
   "distro": ["any"],
   "screenshot": "https://raw.githubusercontent.com/xxyangyoulin/dms-plugin-hass/master/assets/screenshot.png",
-  "requires_dms": ">=1.2.0",
+  "requires_dms": ">=1.4.0",
   "featured": true
 }

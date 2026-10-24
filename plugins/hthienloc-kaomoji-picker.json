@@ -8,9 +8,7 @@
     "repo": "https://github.com/hthienloc/dms-plugins",
     "author": "Loc Huynh",
     "description": "A lightweight launcher for browsing and copying kaomojis to the clipboard.",
-    "dependencies": [
-        "wl-clipboard"
-    ],
+    "dependencies": [],
     "compositors": [
         "any"
     ],
@@ -18,5 +16,6 @@
         "any"
     ],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/kaomojiPicker/screenshot.png",
-    "path": "kaomojiPicker"
+    "path": "kaomojiPicker",
+    "requires_dms": ">=1.5.0"
 }

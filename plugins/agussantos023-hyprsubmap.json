@@ -2,14 +2,13 @@
 	"id": "hyprSubmap",
 	"name": "Hyprland Submap Bar",
 	"capabilities": [
-		"widget"
+		"dankbar-widget"
 	],
 	"category": "utilities",
 	"repo": "https://github.com/agussantos023/hyprSubmap",
 	"author": "agussantos023",
 	"description": "Shows the current Hyprland submap on the DMS bar",
-	"dependencies": [
-	],
+	"dependencies": [],
 	"compositors": [
 		"hyprland"
 	],

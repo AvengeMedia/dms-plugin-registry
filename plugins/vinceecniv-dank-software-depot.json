@@ -1,11 +1,11 @@
 {
     "id": "dankSoftwareDepot",
-    "name": "Dank Software Depot",
+    "name": "Dux Software Depot",
     "capabilities": [
         "dankbar-widget"
     ],
     "category": "system",
-    "repo": "https://github.com/vinceecniv/DankSoftwareDepot",
+    "repo": "https://github.com/vinceecniv/DuxSoftwareDepot",
     "author": "Vincent Blok",
     "description": "Software & updates center: rich update cards with release notes, app store for system repos/Flathub/AppImage with ratings and reviews, installed-software management, firmware updates and an action log. Fedora first; Debian/Ubuntu and Arch experimental.",
     "dependencies": [
@@ -25,6 +25,6 @@
         "ubuntu",
         "arch"
     ],
-    "screenshot": "https://raw.githubusercontent.com/vinceecniv/DankSoftwareDepot/main/screenshot.png",
-    "requires_dms": ">=1.5.0"
+    "screenshot": "https://raw.githubusercontent.com/vinceecniv/DuxSoftwareDepot/main/screenshot.png",
+    "requires_dms": ">=1.6.0"
 }

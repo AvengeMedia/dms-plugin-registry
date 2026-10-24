@@ -31,9 +31,19 @@
         "surfaceContainer"
       ]
     },
+    "variants": {
+      "colorful": "AAA",
+      "normal": "AAA"
+    },
     "breakdown": [
       {
-        "name": "Dark",
+        "name": "Colorful",
+        "mode": "dark",
+        "level": "AAA",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Normal",
         "mode": "dark",
         "level": "AAA",
         "bodyLevel": "AAA"
@@ -42,7 +52,7 @@
   },
   "light": {
     "level": "fail",
-    "minRatio": 2.37,
+    "minRatio": 2.5,
     "worstPair": [
       "primary",
       "surfaceContainer"
@@ -57,7 +67,7 @@
     },
     "accent": {
       "level": "fail",
-      "minRatio": 2.37,
+      "minRatio": 2.5,
       "worstPair": [
         "primary",
         "surfaceContainer"
@@ -65,15 +75,25 @@
     },
     "nonText": {
       "level": "AA",
-      "minRatio": 4.77,
+      "minRatio": 5.2,
       "worstPair": [
         "error",
         "surfaceContainer"
       ]
     },
+    "variants": {
+      "colorful": "fail",
+      "normal": "fail"
+    },
     "breakdown": [
       {
-        "name": "Light",
+        "name": "Colorful",
+        "mode": "light",
+        "level": "fail",
+        "bodyLevel": "AAA"
+      },
+      {
+        "name": "Normal",
         "mode": "light",
         "level": "fail",
         "bodyLevel": "AAA"

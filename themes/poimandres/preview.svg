@@ -12,7 +12,7 @@
   <circle cx="266" cy="13" r="4" fill="#F087BD"/>
 
   <rect x="14" y="38" width="252" height="190" rx="12" fill="#1B1E28" stroke="#3C5170" stroke-opacity="0.5"/>
-  <text x="28" y="61" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#E4F0FB">Poimandres (dark)</text>
+  <text x="28" y="61" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#E4F0FB">Poimandres Normal (dark)</text>
   <text x="28" y="77" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" fill="#FFFFFF">Secondary text</text>
 
   <rect x="26" y="87" width="228" height="50" rx="8" fill="#1F2130"/>
@@ -39,17 +39,17 @@
   <g transform="translate(284, 0)">
   <rect width="280" height="240" fill="#FFFFFF"/>
 
-  <rect width="280" height="26" fill="#E9F2FA"/>
+  <rect width="280" height="26" fill="#E8FAFF"/>
   <rect x="12" y="9" width="20" height="8" rx="4" fill="#00B1A2"/>
   <circle cx="40" cy="13" r="3" fill="#2A3142"/>
   <circle cx="50" cy="13" r="3" fill="#2A3142"/>
   <text x="140" y="17" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="10" font-weight="600" text-anchor="middle" fill="#00B1A2">9:41</text>
   <circle cx="238" cy="13" r="4" fill="#00677F"/>
-  <circle cx="252" cy="13" r="4" fill="#B11B08"/>
-  <circle cx="266" cy="13" r="4" fill="#CC1964"/>
+  <circle cx="252" cy="13" r="4" fill="#8A000B"/>
+  <circle cx="266" cy="13" r="4" fill="#CE0056"/>
 
-  <rect x="14" y="38" width="252" height="190" rx="12" fill="#E9F2FA" stroke="#087C91" stroke-opacity="0.5"/>
-  <text x="28" y="61" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#1B212E">Poimandres (light)</text>
+  <rect x="14" y="38" width="252" height="190" rx="12" fill="#E8FAFF" stroke="#087C91" stroke-opacity="0.5"/>
+  <text x="28" y="61" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="12.5" font-weight="600" fill="#1B212E">Poimandres Normal (light)</text>
   <text x="28" y="77" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="9.5" fill="#2A3142">Secondary text</text>
 
   <rect x="26" y="87" width="228" height="50" rx="8" fill="#E0F1FF"/>
@@ -68,8 +68,8 @@
 
   <circle cx="34" cy="212" r="7" fill="#00B1A2"/>
   <circle cx="54" cy="212" r="7" fill="#00A194"/>
-  <circle cx="74" cy="212" r="7" fill="#CC1964"/>
-  <circle cx="94" cy="212" r="7" fill="#B11B08"/>
+  <circle cx="74" cy="212" r="7" fill="#CE0056"/>
+  <circle cx="94" cy="212" r="7" fill="#8A000B"/>
   <circle cx="114" cy="212" r="7" fill="#00677F"/>
 </g>
 </svg>

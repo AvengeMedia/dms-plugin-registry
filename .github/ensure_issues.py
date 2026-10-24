@@ -18,9 +18,9 @@ from urllib.parse import urlparse
 import requests
 
 GITHUB_TOKEN = os.environ.get("GITHUB_TOKEN")
-GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "AvengeMedia/dms-plugin-registry")
+GITHUB_REPOSITORY = os.environ.get("GITHUB_REPOSITORY", "duxlabs-dev/dux-plugin-registry")
 API_BASE = "https://api.github.com"
-DIRECTORY_URL = "https://danklinux.com/plugins"
+DIRECTORY_URL = "https://duxlabs.dev/plugins"
 
 PLUGIN_LABEL = "plugin"
 PLUGIN_LABEL_COLOR = "1f6feb"

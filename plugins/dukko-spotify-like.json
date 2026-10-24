@@ -6,8 +6,9 @@
     "repo": "https://github.com/Dukko/dms-spotify-like",
     "author": "Dukko",
     "description": "DankDash-style media popout with a heart button to save/unsave the current track to your Spotify Library",
-    "dependencies": ["python3", "curl"],
+    "dependencies": ["python3"],
     "compositors": ["any"],
     "distro": ["any"],
-    "screenshot": "https://raw.githubusercontent.com/Dukko/dms-spotify-like/main/docs/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/Dukko/dms-spotify-like/main/docs/screenshot.png",
+    "requires_dms": ">=1.6.0"
 }

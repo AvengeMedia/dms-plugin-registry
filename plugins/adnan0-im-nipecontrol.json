@@ -1,0 +1,26 @@
+{
+    "id": "nipeControl",
+    "name": "Nipe Control",
+    "capabilities": ["dankbar-widget"],
+    "category": "network",
+    "repo": "https://github.com/Adnan0-IM/nipeControl",
+    "author": "Adnan0-IM",
+    "description": "Start, stop, and monitor the Nipe Tor gateway: shows whether a Tor circuit is reachable, plus the external exit IP and location, with desktop notifications. Requires python3, perl, polkit, tor and a Nipe checkout.",
+    "requires_dms": ">=1.4.0",
+    "dependencies": [
+        "python3",
+        "perl",
+        "perl-config-simple",
+        "perl-json",
+        "perl-readonly",
+        "perl-try-tiny",
+        "perl-io-socket-ssl",
+        "perl-net-ssleay",
+        "polkit",
+        "tor",
+        "nipe"
+    ],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Adnan0-IM/nipeControl/main/screenshot.png"
+}

@@ -1,0 +1,14 @@
+{
+    "id": "umbrellaClock",
+    "name": "Umbrella Clock",
+    "capabilities": ["desktop-widget"],
+    "category": "appearance",
+    "repo": "https://github.com/Cha1000000/dms-umbrella-clock",
+    "author": "Cha1000000",
+    "description": "Analog + digital desktop clock with a red-and-silver umbrella dial, neon scarlet hands, cyan 7-segment digits and a date line",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Cha1000000/dms-umbrella-clock/main/screenshot.png",
+    "requires_dms": ">=1.2.0"
+}

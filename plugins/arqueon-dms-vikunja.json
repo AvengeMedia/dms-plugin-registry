@@ -5,19 +5,23 @@
         "daemon",
         "dankbar-widget",
         "control-center",
-        "notifications"
+        "notifications",
+        "launcher",
+        "ipc"
     ],
     "category": "productivity",
     "repo": "https://github.com/arqueon/dms-vikunja",
     "author": "arqueon",
-    "description": "Manage Vikunja projects and tasks from DankBar with nested project and label views, due dates, priorities, attachments, and notifications.",
-    "version": "0.1.0",
+    "description": "Manage Vikunja projects and tasks from DankBar with nested project and label views, due dates, priorities, attachments, notifications and a vt quick-add launcher.",
+    "version": "0.2.4",
     "type": "composite",
     "icon": "task_alt",
     "components": {
         "daemon": "./VikunjaDaemon.qml",
-        "widget": "./VikunjaWidget.qml"
+        "widget": "./VikunjaWidget.qml",
+        "launcher": "./VikunjaLauncher.qml"
     },
+    "trigger": "vt",
     "settings": "./Settings.qml",
     "startupCheck": "./StartupCheck.qml",
     "requires_dms": ">=1.5.0",

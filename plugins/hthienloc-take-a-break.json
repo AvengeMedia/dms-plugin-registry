@@ -1,8 +1,8 @@
 {
     "id": "takeABreak",
     "name": "Take a Break",
-    "type": "daemon",
     "capabilities": [
+        "daemon",
         "control-center",
         "ipc"
     ],
@@ -18,5 +18,6 @@
         "any"
     ],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/takeABreak/screenshot.png",
-    "path": "takeABreak"
+    "path": "takeABreak",
+    "requires_dms": ">=1.5.0"
 }

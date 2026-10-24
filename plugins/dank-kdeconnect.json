@@ -3,15 +3,15 @@
     "name": "Phone Connect",
     "capabilities": ["dankbar-widget", "control-center"],
     "category": "utilities",
-    "repo": "https://github.com/AvengeMedia/dms-plugins",
+    "repo": "https://github.com/duxlabs-dev/dux-plugins",
     "path": "DankKDEConnect",
-    "author": "Avenge Media",
+    "author": "Dux Labs",
     "firstParty": true,
     "description": "Control connected devices via KDE Connect or Valent - view battery, send files, find phone, and more",
     "dependencies": ["kdeconnect", "valent"],
     "compositors": ["any"],
     "distro": ["any"],
     "featured": true,
-    "screenshot": "https://raw.githubusercontent.com/AvengeMedia/dms-plugins/refs/heads/master/DankKDEConnect/screenshot.png",
+    "screenshot": "https://raw.githubusercontent.com/duxlabs-dev/dux-plugins/refs/heads/master/DankKDEConnect/screenshot.png",
     "requires_dms": ">=1.4.0"
 }

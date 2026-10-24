@@ -19,5 +19,6 @@
     "distro": [
         "any"
     ],
-    "screenshot": "https://raw.githubusercontent.com/AwesomeMi/dms-shazam/main/screenshot.png"
+    "screenshot": "https://raw.githubusercontent.com/AwesomeMi/dms-shazam/main/screenshot.png",
+    "requires_dms": ">=1.5.0"
 }

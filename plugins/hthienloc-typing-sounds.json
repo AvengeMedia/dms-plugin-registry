@@ -2,7 +2,8 @@
     "id": "typingSounds",
     "name": "Typing Sounds",
     "capabilities": [
-        "daemon"
+        "daemon",
+        "control-center"
     ],
     "category": "utilities",
     "repo": "https://github.com/hthienloc/dms-plugins",
@@ -11,7 +12,8 @@
     "dependencies": [
         "evtest",
         "libinput",
-        "ffmpeg"
+        "ffmpeg",
+        "python3"
     ],
     "compositors": [
         "any"
@@ -20,5 +22,6 @@
         "any"
     ],
     "screenshot": "https://raw.githubusercontent.com/hthienloc/dms-plugins/main/typingSounds/screenshot.png",
-    "path": "typingSounds"
+    "path": "typingSounds",
+    "requires_dms": ">=1.5.0"
 }
