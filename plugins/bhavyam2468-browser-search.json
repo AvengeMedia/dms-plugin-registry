@@ -1,0 +1,13 @@
+{
+  "id": "browserSearch",
+  "name": "Browser Search",
+  "capabilities": ["launcher"],
+  "category": "utilities",
+  "repo": "https://github.com/bhavyam2468/browser-search",
+  "author": "bhavyam2468",
+  "description": "Search the web or open URLs directly in your preferred browser from the launcher",
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/bhavyam2468/browser-search/master/screenshot.png"
+}
