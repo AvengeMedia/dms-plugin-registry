@@ -1,0 +1,15 @@
+{
+    "id": "herdrStatus",
+    "name": "Herdr Status",
+    "capabilities": ["dankbar-widget"],
+    "category": "monitoring",
+    "repo": "https://github.com/marcobeierer/dankmaterialshell-plugins",
+    "path": "herdr-status",
+    "author": "Marco Beierer",
+    "description": "Monitor local Herdr agents in DankBar with colored bot icons, status counts, and per-widget display settings.",
+    "dependencies": ["herdr"],
+    "compositors": ["hyprland"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/marcobeierer/dankmaterialshell-plugins/main/herdr-status/screenshots/every-status.png",
+    "requires_dms": ">=1.6.0"
+}
