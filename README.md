@@ -11684,7 +11684,7 @@ WhatsApp provider for the Chat Manager plugin, linking as a companion device. Re
 
 #### [Whisperer](https://github.com/dwright134/dms-whisperer)
 
-Voice dictation: records your voice, transcribes it locally with whisper.cpp, and types the result at the cursor. Optional cloud AI (OpenRouter / Gemini) transcribes and formats in one pass.
+Voice dictation: records your voice, transcribes it locally with whisper.cpp or faster-whisper (or a cloud AI model), and types the result at the cursor
 
 
 
@@ -11692,8 +11692,8 @@ Voice dictation: records your voice, transcribes it locally with whisper.cpp, an
 - name: Whisperer
 - author: dwright134
 - compositors: any
-- capabilities: dankbar-widget
-- dependencies: pipewire, ffmpeg, wtype, whisper.cpp, libsecret
+- capabilities: dankbar-widget, ipc
+- dependencies: pipewire, ffmpeg, wtype, curl, util-linux
 - distro: any
 
 
