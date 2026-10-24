@@ -1,0 +1,21 @@
+{
+    "id": "combinedStatus",
+    "name": "Combined Status",
+    "capabilities": [
+        "dankbar-widget",
+        "ipc"
+    ],
+    "author": "Wang-Yang-source",
+    "description": "Battery arc, Wi-Fi signal and volume dots in one circular, theme-aware DankBar button.",
+    "category": "monitoring",
+    "repo": "https://github.com/Wang-Yang-source/dms-combined-status",
+    "dependencies": [],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "requires_dms": ">=1.6.3",
+    "screenshot": "https://raw.githubusercontent.com/Wang-Yang-source/dms-combined-status/release/screenshots/dankbar.png"
+}
