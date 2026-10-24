@@ -1,0 +1,13 @@
+{
+    "id": "powerControl",
+    "name": "Power Control",
+    "capabilities": ["dankbar-widget"],
+    "category": "utilities",
+    "repo": "https://github.com/arya-satwika/powerControl",
+    "author": "aryas",
+    "description": "Power profiles cycler on your bar",
+    "dependencies": [ ],
+    "compositors": ["niri", "hyprland","mangowc"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/arya-satwika/powerControl/master/screenshot.png"
+}
