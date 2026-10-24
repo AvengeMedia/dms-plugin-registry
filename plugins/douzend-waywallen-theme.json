@@ -1,0 +1,14 @@
+{
+    "id": "waywallenTheme",
+    "name": "Waywallen Theme Sync",
+    "capabilities": ["daemon"],
+    "category": "appearance",
+    "repo": "https://github.com/Douzend/dms-waywallen-theme",
+    "author": "Douzend",
+    "description": "Syncs DankMaterialShell colors with the wallpaper currently playing in Waywallen.",
+    "dependencies": ["waywallen", "ffmpeg", "sqlite3"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/Douzend/dms-waywallen-theme/main/assets/screenshot.png",
+    "requires_dms": ">=1.6.0"
+}
