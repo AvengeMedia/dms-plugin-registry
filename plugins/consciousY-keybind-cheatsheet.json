@@ -1,0 +1,24 @@
+{
+  "id": "keybindCheatsheet",
+  "name": "Keybind Cheatsheet",
+  "capabilities": [
+    "dankbar-widget",
+    "daemon",
+    "control-center"
+  ],
+  "category": "utilities",
+  "repo": "https://github.com/consciousY/dms-keybind-cheatsheet",
+  "author": "consciousY",
+  "description": "Bar pill and Control Center shortcut to open DMS keybind settings and cheatsheet modal",
+  "dependencies": [],
+  "compositors": [
+    "hyprland",
+    "niri",
+    "mangowc",
+    "aqueous"
+  ],
+  "distro": [
+    "any"
+  ],
+  "screenshot": "https://raw.githubusercontent.com/consciousY/dms-keybind-cheatsheet/main/screenshot.png"
+}
