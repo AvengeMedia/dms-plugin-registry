@@ -1,0 +1,24 @@
+{
+    "id": "dmsAgent",
+    "name": "DMS AI Agent",
+    "capabilities": [
+        "dankbar-widget"
+    ],
+    "category": "utilities",
+    "repo": "https://github.com/Cha1000000/dms-ai-agent",
+    "author": "Cha1000000 (fork of Francisdelca/dms-agent)",
+    "description": "AI desktop assistant powered by Claude Code: chat panel that controls your desktop in natural language, with live tool progress, local voice input (Whisper; needs pw-record and the faster-whisper venv from install.sh, or a venv set in the plugin settings), model and effort selection from the CLI, conversation history, and a per-monitor chat you can drag between screens. Tool calls ask for confirmation by default; an optional autonomous mode runs them without asking.",
+    "dependencies": [
+        "claude",
+        "python3",
+        "pipewire (pw-record, voice input only)",
+        "faster-whisper (voice input only, installed into its own venv by install.sh)"
+    ],
+    "compositors": [
+        "niri"
+    ],
+    "distro": [
+        "any"
+    ],
+    "screenshot": "https://raw.githubusercontent.com/Cha1000000/dms-ai-agent/main/assets/screenshot-answer.png"
+}
