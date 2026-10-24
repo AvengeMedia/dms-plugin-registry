@@ -1,0 +1,14 @@
+{
+  "id": "lainWidget",
+  "name": "Wired (Lain)",
+  "capabilities": ["desktop-widget"],
+  "category": "appearance",
+  "repo": "https://github.com/Protectore/WiredDMS",
+  "path": "dms-plugin",
+  "author": "Protectore",
+  "description": "CRT panel with messages inspired by anime Serial Experiments Lain. Drag with the right mouse button, resize from the bottom-right corner, wheel over it to change the font size.",
+  "dependencies": [],
+  "compositors": ["any"],
+  "distro": ["any"],
+  "screenshot": "https://raw.githubusercontent.com/Protectore/WiredDMS/main/wired.png"
+}
