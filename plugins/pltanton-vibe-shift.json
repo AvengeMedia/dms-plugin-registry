@@ -1,0 +1,14 @@
+{
+    "id": "vibeShift",
+    "name": "Vibe Shift",
+    "capabilities": ["daemon", "dankbar-widget", "control-center", "ipc"],
+    "category": "system",
+    "repo": "https://github.com/pltanton/dms-vibe-shift",
+    "author": "pltanton",
+    "description": "Keep the laptop awake for a set time, even with the lid closed, while your agent works the night shift.",
+    "dependencies": ["systemd", "glib"],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/pltanton/dms-vibe-shift/master/screenshots/popout.png",
+    "requires_dms": ">=2.0.0"
+}
