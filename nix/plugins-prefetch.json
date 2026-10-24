@@ -5574,12 +5574,12 @@
     "url": "https://github.com/leonardofranco01/dms-sessionizer"
   },
   "dmsThemeSync": {
-    "date": "2026-10-02T18:51:22-06:00",
+    "date": "2026-10-23T19:55:37-06:00",
     "deepClone": false,
     "fetchLFS": false,
     "fetchSubmodules": false,
     "fetchTags": false,
-    "hash": "sha256-1G4GHanetjT25mgRm/LqNAmDCpYOqY5TQWzgh98q+Po=",
+    "hash": "sha256-9RwS5tEwk3iFK+/rTYRnBVJnFPh40xgz3avijOkGedM=",
     "leaveDotGit": false,
     "meta": {
       "author": "arqueon",
@@ -5605,12 +5605,12 @@
       "repo": "https://github.com/arqueon/dms-theme-sync",
       "requires_dms": ">=1.5.0",
       "screenshot": "https://raw.githubusercontent.com/arqueon/dms-theme-sync/main/assets/screenshot.png",
-      "version": "0.12.6"
+      "version": "0.13.0"
     },
-    "path": "/nix/store/q2sfcgx4whd6y2wqf89p9bi22b9clc03-dms-theme-sync",
-    "rev": "edde68a6669f1b2373e6a1494d32cf0aff8a3ecc",
+    "path": "/nix/store/s9bkha2zjk33yr316c5mil81650ddhhm-dms-theme-sync",
+    "rev": "2d696a0d4799c83b17d195d38c8c8cf9c3d4f263",
     "rootDir": "",
-    "sha256": "1ypq5bgqgq3c859qxa8fjq58629lxbr9n4b8wvv39dnym4fhcvnl",
+    "sha256": "1lvr0vlqrqmbvlriilvqz0a6flh5cy24vszg5f2pi4rhs7k1477m",
     "url": "https://github.com/arqueon/dms-theme-sync"
   },
   "dmsVikunja": {
