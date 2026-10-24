@@ -7229,15 +7229,15 @@ The DankMaterialShell companion shipped with Dankmail: live unread status and qu
 
 #### [Dankscale](https://github.com/dwright134/dms-dankscale)
 
-Manage your Tailscale network: connect/disconnect, switch accounts, copy device IPs, pick exit nodes, manage routes, and control DNS
+Manage your Tailscale network: connect/disconnect, switch accounts, copy device IPs, pick exit nodes, manage routes, control DNS, and send/receive files with Taildrop
 
-
+<strong>requires DMS version</strong>: <em>>=1.4.0</em>
 
 - id: dankscale
 - name: Dankscale
 - author: dwright
 - compositors: any
-- capabilities: dankbar-widget, control-center, vpn, network
+- capabilities: dankbar-widget, control-center, vpn, network, file-transfer
 - dependencies: tailscale
 - distro: any
 
