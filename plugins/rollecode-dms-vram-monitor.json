@@ -5,7 +5,7 @@
     "category": "monitoring",
     "repo": "https://github.com/rollecode/dms-vram-monitor",
     "author": "Rolle Laukkarinen",
-    "description": "NVIDIA VRAM usage as an animated progress bar in your DankBar, updated every second",
+    "description": "NVIDIA VRAM usage as an animated progress bar in your DankBar, with a popout listing per-process VRAM and a button that sends SIGTERM to a user process (session processes excluded). Needs nvidia-smi",
     "dependencies": ["nvidia-smi"],
     "compositors": ["any"],
     "distro": ["any"],

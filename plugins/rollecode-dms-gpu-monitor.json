@@ -1,11 +1,11 @@
 {
     "id": "gpuMonitor",
-    "name": "GPU Monitor",
+    "name": "GPU Monitor (NVIDIA)",
     "capabilities": ["dankbar-widget"],
     "category": "monitoring",
     "repo": "https://github.com/rollecode/dms-gpu-monitor",
     "author": "Rolle Laukkarinen",
-    "description": "NVIDIA GPU load as an animated progress bar in your DankBar, updated every second",
+    "description": "NVIDIA GPU load as an animated progress bar in your DankBar, with a popout listing per-process GPU use and a button that sends SIGTERM to a user process. Needs nvidia-smi",
     "dependencies": ["nvidia-smi"],
     "compositors": ["any"],
     "distro": ["any"],

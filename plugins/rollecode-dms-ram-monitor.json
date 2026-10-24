@@ -5,7 +5,7 @@
     "category": "monitoring",
     "repo": "https://github.com/rollecode/dms-ram-monitor",
     "author": "Rolle Laukkarinen",
-    "description": "RAM usage as an animated progress bar in your DankBar, updated every second",
+    "description": "RAM usage as an animated progress bar in your DankBar, with a popout listing per-process memory and a button that sends SIGTERM to a user process",
     "dependencies": [],
     "compositors": ["any"],
     "distro": ["any"],

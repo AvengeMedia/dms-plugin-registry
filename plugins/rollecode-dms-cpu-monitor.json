@@ -5,7 +5,7 @@
     "category": "monitoring",
     "repo": "https://github.com/rollecode/dms-cpu-monitor",
     "author": "Rolle Laukkarinen",
-    "description": "CPU usage as an animated progress bar in your DankBar, updated every second",
+    "description": "CPU usage as an animated progress bar in your DankBar, updated every few seconds from DMS",
     "dependencies": [],
     "compositors": ["any"],
     "distro": ["any"],
