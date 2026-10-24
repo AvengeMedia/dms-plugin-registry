@@ -136,14 +136,14 @@
           "onTertiaryContainer": "#6B284B"
         },
         "m3e": {
-          "primary": "#FFFAC2",
+          "primary": "#89DDFF",
           "primaryText": "#1B212E",
-          "secondary": "#89DDFF"
+          "secondary": "#5DE4C7"
         },
         "m3e-light": {
-          "primary": "#FFFAC2",
+          "primary": "#0081A8",
           "primaryText": "#FFFFFF",
-          "secondary": "#0081A8"
+          "secondary": "#01BBAB"
         }
       },
       {
@@ -228,6 +228,50 @@
           "primaryText": "#FFFFFF",
           "softPrimaryContainer": "#B0E8DC",
           "onPrimaryContainer": "#103D32",
+          "secondary": "#0081A8"
+        }
+      },
+      {
+        "id": "yellow",
+        "name": "Yellow",
+        "colorful": {
+          "primary": "#FFFAC2",
+          "softPrimaryContainer": "#FFFAC2",
+          "onPrimaryContainer": "#A79707",
+          "surfaceText": "#E2F8FF",
+          "primaryText": "#1a162e",
+          "secondary": "#5DE4C7",
+          "secondaryContainer": "#5DE4C7",
+          "onSecondaryContainer": "#0D5547",
+          "tertiary": "#F087BD",
+          "tertiaryContainer": "#F087BD",
+          "onTertiaryContainer": "#6B284B"
+        },
+        "colorful-light": {
+          "primary": "#A79707",
+          "softPrimaryContainer": "#FFFAC2",
+          "onPrimaryContainer": "#A79707",
+          "primaryText": "#FFFFFF",
+          "surfaceText": "#1B212E",
+          "secondary": "#4FB8A1",
+          "secondaryContainer": "#4FB8A1",
+          "onSecondaryContainer": "#083D32",
+          "tertiary": "#F087BD",
+          "tertiaryContainer": "#F087BD",
+          "onTertiaryContainer": "#6B284B"
+        },
+        "m3e": {
+          "primary": "#5DE4C7",
+          "softPrimaryContainer": "#154549",
+          "onPrimaryContainer": "#DDFDF6",
+          "primaryText": "#1B212E",
+          "secondary": "#89DDFF"
+        },
+        "m3e-light": {
+          "primary": "#A79707",
+          "primaryText": "#FFFFFF",
+          "softPrimaryContainer": "#FFFAC2",
+          "onPrimaryContainer": "#A79707",
           "secondary": "#0081A8"
         }
       }
