@@ -1,0 +1,14 @@
+{
+    "id": "micControl",
+    "name": "Mic Control",
+    "capabilities": ["dankbar-widget"],
+    "category": "media",
+    "repo": "https://github.com/MrAndyVF/dms-mic-control",
+    "author": "MrAndyVF",
+    "description": "Plasma-style microphone indicator: left click mutes the default input, right click opens per-input and per-app volume controls. Handles the EasyEffects virtual source.",
+    "requires_dms": ">=1.6.3",
+    "dependencies": [],
+    "compositors": ["any"],
+    "distro": ["any"],
+    "screenshot": "https://raw.githubusercontent.com/MrAndyVF/dms-mic-control/main/assets/MainPanel.png"
+}
