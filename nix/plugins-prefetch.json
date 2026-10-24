@@ -14047,7 +14047,8 @@
     "meta": {
       "author": "dwright134",
       "capabilities": [
-        "dankbar-widget"
+        "dankbar-widget",
+        "ipc"
       ],
       "category": "utilities",
       "compositors": [
@@ -14057,10 +14058,10 @@
         "pipewire",
         "ffmpeg",
         "wtype",
-        "whisper.cpp",
-        "libsecret"
+        "curl",
+        "util-linux"
       ],
-      "description": "Voice dictation: records your voice, transcribes it locally with whisper.cpp, and types the result at the cursor. Optional cloud AI (OpenRouter / Gemini) transcribes and formats in one pass.",
+      "description": "Voice dictation: records your voice, transcribes it locally with whisper.cpp or faster-whisper (or a cloud AI model), and types the result at the cursor",
       "distro": [
         "any"
       ],
